@@ -1,0 +1,2595 @@
+Actors:
+- Gyaml: StartPos
+  Hash: !ul 11474052871889909221
+  Name: StartPos_Defeat_Ganon
+  Phive:
+    Placement: {ID: !ul 11474052871889909221}
+  Rotate: [-3.141592502593994, 0.0, -3.141592502593994]
+  SRTHash: !u 0x54b9829e
+  Translate: [0.019778847694396973, 171.0531005859375, -11.312932968139648]
+- Gyaml: Area
+  Hash: !ul 112642546547408642
+  Phive:
+    Placement: {ID: !ul 112642546547408642}
+  Rotate: [-3.141592502593994, -0.5235993266105652, -3.141592502593994]
+  SRTHash: !u 0x5cc2c41e
+  Scale: [2.5, 1.0, 2.5]
+  Translate: [-41.36760711669922, 100.8338623046875, -76.66910552978516]
+- Dynamic: {DefaultDungeonRoomIndex: 10}
+  Gyaml: Obj_HookShotTarget_A_01
+  Hash: !ul 16439447793147494925
+  Phive:
+    Placement: {ID: !ul 16439447793147494925}
+  Rotate: [0.0, 0.5235989093780518, 0.0]
+  SRTHash: !u 0xec8694f5
+  Translate: [-46.752288818359375, 106.20271301269531, -99.84476470947266]
+- Dynamic: {DefaultDungeonRoomIndex: 10}
+  Gyaml: Enemy_TorchSlug
+  Hash: !ul 3233885206703808373
+  Phive:
+    Placement: {ID: !ul 3233885206703808373}
+  SRTHash: !u 0xeb2ada80
+  Translate: [-22.29326820373535, 102.95012664794922, -92.52544403076172]
+- Bakeable: true
+  Dynamic: {DefaultDungeonRoomIndex: 10}
+  Gyaml: Obj_InsideGanonCastle_SinkFloor_A_01
+  Hash: !ul 17554588603199490155
+  Phive:
+    Placement: {ID: !ul 17554588603199490155}
+  Rotate: [0.0, 0.5235987901687622, 0.0]
+  SRTHash: !u 0x6b7a5ddb
+  Translate: [-30.596454620361328, 102.90499877929688, -75.05355834960938]
+- Bakeable: true
+  Dynamic: {DefaultDungeonRoomIndex: 10}
+  Gyaml: Obj_FireTemple_SinkFloor_A_01
+  Hash: !ul 12031341320627678455
+  Phive:
+    Placement: {ID: !ul 12031341320627678455}
+  Rotate: [0.0, 0.5259608626365662, 0.0]
+  SRTHash: !u 0x5d163c22
+  Translate: [-13.403118133544922, 101.73074340820312, -65.77584838867188]
+- Bakeable: true
+  Dynamic: {DefaultDungeonRoomIndex: 10}
+  Gyaml: Obj_FireTemple_SinkFloor_A_01
+  Hash: !ul 8798652671543469879
+  Phive:
+    Placement: {ID: !ul 8798652671543469879}
+  Rotate: [0.0, 0.5259608626365662, 0.0]
+  SRTHash: !u 0xf18c2680
+  Translate: [-42.74414825439453, 102.90499877929688, -79.698974609375]
+- Dynamic: {BubbleBase_IsUseCustomPerceptionRange: true, BubbleBase_UseCustomPerceptionRangeName: NarrowVeryLongRange,
+    DefaultDungeonRoomIndex: 10}
+  Gyaml: Enemy_Bubble_Red
+  Hash: !ul 13275959341505371539
+  Phive:
+    Placement: {ID: !ul 13275959341505371539}
+  Rotate: [0.0, 0.26901277899742126, 0.0]
+  SRTHash: !u 0x21eb197c
+  Translate: [-25.74213409423828, 99.54273986816406, -79.16244506835938]
+- Dynamic: {DefaultDungeonRoomIndex: 10}
+  Gyaml: Obj_HookShotTarget_A_01
+  Hash: !ul 6267036578022473644
+  Phive:
+    Placement: {ID: !ul 6267036578022473644}
+  Rotate: [-3.141592502593994, -0.5290014147758484, -3.141592502593994]
+  SRTHash: !u 0xdf944133
+  Translate: [-45.307106018066406, 105.19646453857422, -73.46276092529297]
+- Dynamic: {DefaultDungeonRoomIndex: 10}
+  Gyaml: Obj_HookShotTarget_A_01
+  Hash: !ul 11976521141879737435
+  Phive:
+    Placement: {ID: !ul 11976521141879737435}
+  Rotate: [-3.141592502593994, -0.5290014147758484, -3.141592502593994]
+  SRTHash: !u 0x5c96e4d9
+  Translate: [-16.501203536987305, 107.9104995727539, -50.52385711669922]
+- Bakeable: true
+  Gyaml: Obj_InsideGanonCastle_Abyss_Lava_A_01
+  Hash: !ul 9533392720410218922
+  Phive:
+    Placement: {ID: !ul 9533392720410218922}
+  Rotate: [0.0, 0.5235987901687622, 0.0]
+  SRTHash: !u 0x31db50a7
+  Translate: [-30.89527130126953, 100.92500305175781, -74.88964080810547]
+- Dynamic: {DefaultDungeonRoomIndex: 8}
+  Gyaml: Obj_CandleStick_A_01
+  Hash: !ul 788900382337222849
+  Phive:
+    Placement: {ID: !ul 788900382337222849}
+  Rotate: [-3.141592502593994, 0.5235993266105652, -3.141592502593994]
+  SRTHash: !u 0x20b51749
+  Translate: [20.366924285888672, 103.8997802734375, -52.87881851196289]
+- Dynamic: {DefaultDungeonRoomIndex: 8}
+  Gyaml: Obj_CandleStick_A_01
+  Hash: !ul 8566340284252008371
+  Phive:
+    Placement: {ID: !ul 8566340284252008371}
+  Rotate: [-3.141592502593994, 0.5235993266105652, -3.141592502593994]
+  SRTHash: !u 0x365a54fc
+  Translate: [40.019920349121094, 103.8271255493164, -80.81025695800781]
+- Dynamic: {DefaultDungeonRoomIndex: 8}
+  Gyaml: Obj_CandleStick_A_01
+  Hash: !ul 11229965434851082757
+  Phive:
+    Placement: {ID: !ul 11229965434851082757}
+  Rotate: [-3.141592502593994, 0.5235993266105652, -3.141592502593994]
+  SRTHash: !u 0x7f521c0b
+  Translate: [31.001190185546875, 103.8997802734375, -86.03422546386719]
+- Gyaml: NaviAnchorAction1
+  Hash: !ul 11135036583579652332
+  Name: Help_08_00
+  Phive:
+    Placement: {ID: !ul 11135036583579652332}
+  Rotate: [0.0, -1.4728626012802124, 0.0]
+  SRTHash: !u 0x274e7d88
+  Translate: [35.12421798706055, 107.3997802734375, -67.260009765625]
+- Gyaml: NaviAnchorAction1
+  Hash: !ul 17556590692804619672
+  Name: Help_08_02
+  Phive:
+    Placement: {ID: !ul 17556590692804619672}
+  Rotate: [0.0, 1.0341010093688965, 0.0]
+  SRTHash: !u 0x416501d8
+  Translate: [42.919036865234375, 104.4317626953125, -105.54834747314453]
+- Dynamic: {DefaultDungeonRoomIndex: 8}
+  Gyaml: Obj_HookShotTarget_A_01
+  Hash: !ul 14674955218163574659
+  Phive:
+    Placement: {ID: !ul 14674955218163574659}
+  Rotate: [-3.141592502593994, 0.5244032740592957, -3.141592502593994]
+  SRTHash: !u 0xf52ed6ab
+  Translate: [16.226913452148438, 107.50048828125, -50.1051139831543]
+- Dynamic: {DefaultDungeonRoomIndex: 8}
+  Gyaml: Enemy_LikeLike
+  Hash: !ul 9829065802083278643
+  Phive:
+    Placement: {ID: !ul 9829065802083278643}
+  Rotate: [0.0, -0.5235987901687622, 0.0]
+  SRTHash: !u 0x60928838
+  Translate: [40.711910247802734, 103.9146499633789, -92.11197662353516]
+- Dynamic: {DefaultDungeonRoomIndex: 8, Drop__DropActor: TBox_ArrowBundle_Medium}
+  Gyaml: Obj_TBox_A_01
+  Hash: !ul 18277713685010400796
+  Phive:
+    Placement: {ID: !ul 18277713685010400796}
+  Rotate: [0.0, 1.0790414810180664, 0.0]
+  SRTHash: !u 0xe26e89c2
+  Translate: [12.584466934204102, 103.8997802734375, -65.89408874511719]
+- Bakeable: true
+  Gyaml: Obj_InsideGanonCastle_GlassTruth_A_03
+  Hash: !ul 16965251616366614389
+  Phive:
+    Placement: {ID: !ul 16965251616366614389}
+  Rotate: [0.0, -0.52349853515625, 0.0]
+  SRTHash: !u 0xd128c078
+  Translate: [55.62321090698242, 105.40160369873047, -118.32278442382812]
+- Bakeable: true
+  Gyaml: Obj_InsideGanonCastle_GlassTruth_A_04
+  Hash: !ul 14610213252588439493
+  Phive:
+    Placement: {ID: !ul 14610213252588439493}
+  Rotate: [0.0, -0.5235987901687622, 0.0]
+  SRTHash: !u 0x1384fff6
+  Translate: [55.48949432373047, 103.886962890625, -96.49853515625]
+- Dynamic: {InvalidSlopeCliffLatInterpolate: true}
+  Gyaml: CameraChangeAreaBox
+  Hash: !ul 18246811120577607038
+  Phive:
+    Placement: {ID: !ul 18246811120577607038}
+  Rotate: [1.0591273307800293, -0.0, 1.5707963705062866]
+  SRTHash: !u 0xbf2e614d
+  Scale: [4.517274379730225, 3.5624263286590576, 3.5641579627990723]
+  Translate: [14.020374298095703, 104.52412414550781, -67.14739990234375]
+- Dynamic: {DefaultDungeonRoomIndex: 8}
+  Gyaml: AirWallEnemy_NavMeshCut
+  Hash: !ul 6286486265646206486
+  Phive:
+    Placement: {ID: !ul 6286486265646206486}
+  Rotate: [0.0, -0.5235987305641174, 0.0]
+  SRTHash: !u 0xd3e0c97d
+  Scale: [2.5, 2.0, 1.5]
+  Translate: [41.532493591308594, 104.94400024414062, -93.50009155273438]
+- Dynamic: {BubbleBase_IsUseCustomPerceptionRange: true, BubbleBase_UseCustomPerceptionRangeName: ShortRange,
+    DefaultDungeonRoomIndex: 8, EllipseAngleSpeed: 2.0, EllipseHeightRadius: 0.5,
+    EllipseWidthRadius: 0.5}
+  Gyaml: Enemy_Bubble_Green
+  Hash: !ul 13945543961229485134
+  Phive:
+    Placement: {ID: !ul 13945543961229485134}
+  Rotate: [0.0, -0.5080370306968689, 0.0]
+  SRTHash: !u 0x748b31e5
+  Translate: [31.19614028930664, 105.05058288574219, -75.18549346923828]
+- Dynamic: {BubbleBase_IsUseCustomPerceptionRange: true, BubbleBase_UseCustomPerceptionRangeName: ShortRange,
+    DefaultDungeonRoomIndex: 8, EllipseAngleOffset: 180.0, EllipseAngleSpeed: 2.0,
+    EllipseHeightRadius: 0.5, EllipseWidthRadius: 0.5}
+  Gyaml: Enemy_Bubble_Green
+  Hash: !ul 4315252196632706513
+  Phive:
+    Placement: {ID: !ul 4315252196632706513}
+  Rotate: [0.0, -0.5088575482368469, 0.0]
+  SRTHash: !u 0xe758614a
+  Translate: [28.856496810913086, 105.05058288574219, -66.48101806640625]
+- Bakeable: true
+  Gyaml: Obj_TBoxPedestal_A_02
+  Hash: !ul 698840496760385297
+  Phive:
+    Placement: {ID: !ul 698840496760385297}
+  Rotate: [0.0, 1.0471975803375244, 0.0]
+  SRTHash: !u 0xeff47e94
+  Translate: [48.08490753173828, 103.9000015258789, -104.95101165771484]
+- Gyaml: DropKeepAwayArea_TBox_A_01
+  Hash: !ul 9844747362417387970
+  Phive:
+    Placement: {ID: !ul 9844747362417387970}
+  Rotate: [0.0, 1.0790414810180664, 0.0]
+  SRTHash: !u 0xe26e89c2
+  Translate: [12.584466934204102, 103.8997802734375, -65.89408874511719]
+- Dynamic: {DefaultDungeonRoomIndex: 3}
+  Gyaml: Enemy_Beamos
+  Hash: !ul 13781609792735613646
+  Phive:
+    Placement: {ID: !ul 13781609792735613646}
+  Rotate: [3.141592502593994, -0.529579758644104, -3.141592502593994]
+  SRTHash: !u 0x13d00181
+  Translate: [38.86716079711914, 101.40013122558594, 47.25857162475586]
+- Dynamic: {Actor_WindControl_WindRadius: 1.600000023841858, DefaultDungeonRoomIndex: 3}
+  Gyaml: Obj_Fan_A_01
+  Hash: !ul 3811748983019943998
+  Phive:
+    Placement: {ID: !ul 3811748983019943998}
+  Rotate: [0.0, 0.5136862397193909, 0.0]
+  SRTHash: !u 0x49026da4
+  Translate: [25.856950759887695, 104.18193054199219, 34.773258209228516]
+- Dynamic: {Actor_WindControl_WindRadius: 1.600000023841858, DefaultDungeonRoomIndex: 3}
+  Gyaml: Obj_Fan_A_01
+  Hash: !ul 1260755052876357732
+  Phive:
+    Placement: {ID: !ul 1260755052876357732}
+  Rotate: [3.1415927410125732, -0.5136860609054565, 3.1415927410125732]
+  SRTHash: !u 0x35522f14
+  Translate: [48.96924591064453, 104.16841888427734, 54.649051666259766]
+- Dynamic: {DefaultDungeonRoomIndex: 3}
+  Gyaml: Obj_HookShotTarget_A_01
+  Hash: !ul 8131019826575446689
+  Phive:
+    Placement: {ID: !ul 8131019826575446689}
+  Rotate: [0.0, 0.506312370300293, 0.0]
+  SRTHash: !u 0x08b3a8e6
+  Translate: [29.931194305419922, 106.48999786376953, 31.728710174560547]
+- Dynamic: {Actor_WindControl_WindRadius: 1.600000023841858, DefaultDungeonRoomIndex: 3}
+  Gyaml: Obj_Fan_A_01
+  Hash: !ul 1270685075584647826
+  Phive:
+    Placement: {ID: !ul 1270685075584647826}
+  Rotate: [0.0, 0.5136862397193909, 0.0]
+  SRTHash: !u 0x59764ccb
+  Translate: [34.57685470581055, 104.18193054199219, 29.853412628173828]
+- Dynamic: {Actor_WindControl_WindRadius: 1.600000023841858, DefaultDungeonRoomIndex: 3}
+  Gyaml: Obj_Fan_A_01
+  Hash: !ul 17706312886387348557
+  Phive:
+    Placement: {ID: !ul 17706312886387348557}
+  Rotate: [3.1415927410125732, -0.5136860609054565, 3.1415927410125732]
+  SRTHash: !u 0x1f1bce29
+  Translate: [40.24692153930664, 104.16841888427734, 59.57024383544922]
+- Dynamic: {DefaultDungeonRoomIndex: 5}
+  Gyaml: Obj_BrokenIcePillar_A_01
+  Hash: !ul 15906853905413539997
+  Phive:
+    Placement: {ID: !ul 15906853905413539997}
+  Rotate: [-3.141592502593994, 1.3089971542358398, -3.141592502593994]
+  SRTHash: !u 0x909e9dab
+  Translate: [50.68730163574219, 99.49540710449219, -19.09738540649414]
+- Dynamic: {DefaultDungeonRoomIndex: 5}
+  Gyaml: Obj_BrokenIcePillar_A_01
+  Hash: !ul 6186206822570895636
+  Phive:
+    Placement: {ID: !ul 6186206822570895636}
+  Rotate: [-3.141592502593994, 1.3089971542358398, -3.141592502593994]
+  SRTHash: !u 0x3ee6bc35
+  Scale: [1.0, 1.083193063735962, 1.0]
+  Translate: [51.82659149169922, 99.52378845214844, -22.21088218688965]
+- Dynamic: {DefaultDungeonRoomIndex: 5}
+  Gyaml: Obj_BrokenIcePillar_A_01
+  Hash: !ul 5738584499912277946
+  Phive:
+    Placement: {ID: !ul 5738584499912277946}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xa3cc55b3
+  Translate: [57.911407470703125, 99.49540710449219, -25.686628341674805]
+- Dynamic: {DefaultDungeonRoomIndex: 5}
+  Gyaml: Obj_BrokenIcePillar_A_01
+  Hash: !ul 8962766142888325072
+  Phive:
+    Placement: {ID: !ul 8962766142888325072}
+  Rotate: [-3.141592502593994, 1.3089971542358398, -3.141592502593994]
+  SRTHash: !u 0xef2a3aeb
+  Scale: [1.0, 0.8754099607467651, 1.0]
+  Translate: [49.30573272705078, 99.45295715332031, -19.261722564697266]
+- Dynamic: {DefaultDungeonRoomIndex: 5}
+  Gyaml: Obj_BrokenIcePillar_A_01
+  Hash: !ul 5872713962374722329
+  Phive:
+    Placement: {ID: !ul 5872713962374722329}
+  Rotate: [-3.141592502593994, 1.3089971542358398, -3.141592502593994]
+  SRTHash: !u 0xa867a50f
+  Scale: [1.0, 1.083193063735962, 1.0]
+  Translate: [48.32581329345703, 99.52378845214844, -21.454740524291992]
+- Dynamic: {DefaultDungeonRoomIndex: 5, Drop__DropActor: Item_BombchuBundle_Small}
+  Gyaml: Obj_TBox_A_01
+  Hash: !ul 14404733996390762670
+  Phive:
+    Placement: {ID: !ul 14404733996390762670}
+  Rotate: [3.141592502593994, -0.5593364834785461, -3.141592502593994]
+  SRTHash: !u 0x3f7f2638
+  Translate: [56.39374923706055, 99.49540710449219, -15.179287910461426]
+- Dynamic: {DefaultDungeonRoomIndex: 5}
+  Gyaml: Obj_BrokenIcePillar_A_01
+  Hash: !ul 1717690613499159506
+  Phive:
+    Placement: {ID: !ul 1717690613499159506}
+  Rotate: [-3.141592502593994, 1.3089971542358398, -3.141592502593994]
+  SRTHash: !u 0x17af1592
+  Scale: [1.0, 0.8754099607467651, 1.0]
+  Translate: [51.8787841796875, 99.45295715332031, -19.81495475769043]
+- Dynamic: {DefaultDungeonRoomIndex: 5}
+  Gyaml: Obj_BrokenIcePillar_A_01
+  Hash: !ul 12450253298973984249
+  Phive:
+    Placement: {ID: !ul 12450253298973984249}
+  Rotate: [-3.141592502593994, 1.3089971542358398, -3.141592502593994]
+  SRTHash: !u 0x43ad8587
+  Scale: [1.0, 1.083193063735962, 1.0]
+  Translate: [52.224273681640625, 99.52378845214844, -21.039207458496094]
+- Dynamic: {DefaultDungeonRoomIndex: 5}
+  Gyaml: Obj_BrokenIcePillar_A_01
+  Hash: !ul 5688402764980646811
+  Phive:
+    Placement: {ID: !ul 5688402764980646811}
+  Rotate: [-3.141592502593994, 1.3089971542358398, -3.141592502593994]
+  SRTHash: !u 0x3b39c39a
+  Translate: [48.603179931640625, 99.49540710449219, -19.98377799987793]
+- Dynamic: {DefaultDungeonRoomIndex: 5}
+  Gyaml: Obj_BrokenIcePillar_A_01
+  Hash: !ul 1123769432504624923
+  Phive:
+    Placement: {ID: !ul 1123769432504624923}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xfcd5e559
+  Translate: [58.572967529296875, 99.49540710449219, -15.970182418823242]
+- Dynamic: {DefaultDungeonRoomIndex: 5}
+  Gyaml: Obj_BrokenIcePillar_A_01
+  Hash: !ul 1213300558375533299
+  Phive:
+    Placement: {ID: !ul 1213300558375533299}
+  Rotate: [-3.141592502593994, 1.3089971542358398, -3.141592502593994]
+  SRTHash: !u 0x2305ba6f
+  Scale: [1.0, 0.8754099607467651, 1.0]
+  Translate: [50.6871337890625, 99.45295715332031, -22.87509536743164]
+- Dynamic: {DefaultDungeonRoomIndex: 5}
+  Gyaml: Obj_BrokenIcePillar_A_01
+  Hash: !ul 3634579951880248250
+  Phive:
+    Placement: {ID: !ul 3634579951880248250}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x69ea8a0b
+  Translate: [54.89704132080078, 99.49540710449219, -28.312362670898438]
+- Dynamic: {DefaultDungeonRoomIndex: 5}
+  Gyaml: Obj_BrokenIcePillar_A_01
+  Hash: !ul 3376157940642952520
+  Phive:
+    Placement: {ID: !ul 3376157940642952520}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xdfee6ec5
+  Translate: [54.64101028442383, 99.49540710449219, -13.710826873779297]
+- Dynamic: {DefaultDungeonRoomIndex: 5}
+  Gyaml: Obj_BrokenIcePillar_A_01
+  Hash: !ul 18306173704485685806
+  Phive:
+    Placement: {ID: !ul 18306173704485685806}
+  Rotate: [-3.141592502593994, 1.3089971542358398, -3.141592502593994]
+  SRTHash: !u 0x04301c58
+  Translate: [49.22775650024414, 99.49540710449219, -22.63850975036621]
+- Bakeable: true
+  Gyaml: Obj_BlueFirePedestal_A_01
+  Hash: !ul 4317631338306911627
+  Phive:
+    Placement: {ID: !ul 4317631338306911627}
+  Rotate: [0.0, 1.0471974611282349, 0.0]
+  SRTHash: !u 0xa63f126f
+  Translate: [50.16785430908203, 99.49540710449219, -20.991260528564453]
+- Gyaml: DropKeepAwayArea
+  Hash: !ul 3838328826796297594
+  Phive:
+    Placement: {ID: !ul 3838328826796297594}
+  Rotate: [0.0, 0.2617993950843811, 0.0]
+  SRTHash: !u 0xbc6d2f72
+  Scale: [1.2000000476837158, 1.2000000476837158, 1.2000000476837158]
+  Translate: [50.16785430908203, 100.09540557861328, -20.991260528564453]
+- Dynamic: {DefaultDungeonRoomIndex: 5}
+  Gyaml: Obj_BrokenIcePillar_A_02
+  Hash: !ul 10142173645608601287
+  Phive:
+    Placement: {ID: !ul 10142173645608601287}
+  Rotate: [-3.141592502593994, 0.9250260591506958, -3.141592502593994]
+  SRTHash: !u 0x7af81f70
+  Translate: [52.03486251831055, 99.49540710449219, -21.795637130737305]
+- Dynamic: {DefaultDungeonRoomIndex: 5}
+  Gyaml: Obj_BrokenIcePillar_A_02
+  Hash: !ul 12278591126399399192
+  Phive:
+    Placement: {ID: !ul 12278591126399399192}
+  Rotate: [-3.141592502593994, 0.9250260591506958, -3.141592502593994]
+  SRTHash: !u 0xed91e872
+  Scale: [1.0, 1.2179912328720093, 1.0]
+  Translate: [48.26455307006836, 99.53581237792969, -20.63867950439453]
+- Dynamic: {DefaultDungeonRoomIndex: 5}
+  Gyaml: Obj_BrokenIcePillar_A_02
+  Hash: !ul 13806934846140901329
+  Phive:
+    Placement: {ID: !ul 13806934846140901329}
+  Rotate: [-3.141592502593994, 0.9250260591506958, -3.141592502593994]
+  SRTHash: !u 0xb35d2ccd
+  Scale: [1.0, 1.195752739906311, 1.0]
+  Translate: [48.65737533569336, 99.53215026855469, -22.074125289916992]
+- Dynamic: {DefaultDungeonRoomIndex: 5}
+  Gyaml: Obj_BrokenIcePillar_A_02
+  Hash: !ul 15670031101854170654
+  Phive:
+    Placement: {ID: !ul 15670031101854170654}
+  Rotate: [-3.141592502593994, 0.9250260591506958, -3.141592502593994]
+  SRTHash: !u 0xa7f59abc
+  Scale: [1.0, 1.195752739906311, 1.0]
+  Translate: [52.17314910888672, 99.53215026855469, -20.53110694885254]
+- Dynamic: {DefaultDungeonRoomIndex: 5}
+  Gyaml: Obj_BrokenIcePillar_A_02
+  Hash: !ul 5300967126624954361
+  Phive:
+    Placement: {ID: !ul 5300967126624954361}
+  Rotate: [-3.141592502593994, 0.9250260591506958, -3.141592502593994]
+  SRTHash: !u 0x89d3e575
+  Scale: [1.0, 1.2179912328720093, 1.0]
+  Translate: [49.92185592651367, 99.53581237792969, -22.84017562866211]
+- Dynamic: {DefaultDungeonRoomIndex: 5}
+  Gyaml: Obj_BrokenIcePillar_A_02
+  Hash: !ul 15606619528078582320
+  Phive:
+    Placement: {ID: !ul 15606619528078582320}
+  Rotate: [-3.141592502593994, 0.9250260591506958, -3.141592502593994]
+  SRTHash: !u 0xda414e6e
+  Scale: [1.0, 1.195752739906311, 1.0]
+  Translate: [50.036163330078125, 99.53215026855469, -19.050735473632812]
+- Dynamic: {DefaultDungeonRoomIndex: 5}
+  Gyaml: Obj_BrokenIcePillar_A_02
+  Hash: !ul 7200722851127655396
+  Phive:
+    Placement: {ID: !ul 7200722851127655396}
+  Rotate: [-3.141592502593994, 0.9250260591506958, -3.141592502593994]
+  SRTHash: !u 0x7f0833f2
+  Scale: [1.0, 1.4137439727783203, 1.0]
+  Translate: [48.89210510253906, 99.57260131835938, -19.52468490600586]
+- Dynamic: {DefaultDungeonRoomIndex: 5}
+  Gyaml: Obj_BrokenIcePillar_A_02
+  Hash: !ul 9841639012355337593
+  Phive:
+    Placement: {ID: !ul 9841639012355337593}
+  Rotate: [-3.141592502593994, 0.9250260591506958, -3.141592502593994]
+  SRTHash: !u 0x5ce07098
+  Translate: [51.348846435546875, 99.49540710449219, -19.31102180480957]
+- Dynamic: {DefaultDungeonRoomIndex: 5}
+  Gyaml: Obj_BrokenIcePillar_A_02
+  Hash: !ul 13397742755928288959
+  Phive:
+    Placement: {ID: !ul 13397742755928288959}
+  Rotate: [-3.141592502593994, 0.9250260591506958, -3.141592502593994]
+  SRTHash: !u 0xc81f208a
+  Scale: [1.0, 1.195752739906311, 1.0]
+  Translate: [51.22716522216797, 99.53215026855469, -22.65117835998535]
+- Dynamic: {DefaultDungeonRoomIndex: 5}
+  Gyaml: AirWallEnemy_NavMeshCut
+  Hash: !ul 11489386548375165570
+  Phive:
+    Placement: {ID: !ul 11489386548375165570}
+  Rotate: [0.0, -0.13089971244335175, 0.0]
+  SRTHash: !u 0xcd91c5cc
+  Scale: [3.0399999618530273, 1.0, 4.25]
+  Translate: [50.16053771972656, 99.44998931884766, -20.99334716796875]
+- Dynamic: {DefaultDungeonRoomIndex: 5}
+  Gyaml: AirWallEnemy_NavMeshCut
+  Hash: !ul 16117131079208914856
+  Phive:
+    Placement: {ID: !ul 16117131079208914856}
+  Rotate: [3.1415927410125732, -1.439896821975708, 3.1415927410125732]
+  SRTHash: !u 0xc2cc15cc
+  Scale: [3.0399999618530273, 1.0, 4.25]
+  Translate: [50.16075134277344, 99.44998931884766, -20.994951248168945]
+- Dynamic: {DefaultDungeonRoomIndex: 5}
+  Gyaml: AirWallEnemy_NavMeshCut
+  Hash: !ul 17118918405442336141
+  Phive:
+    Placement: {ID: !ul 17118918405442336141}
+  Rotate: [3.1415927410125732, -0.6544986963272095, 3.1415927410125732]
+  SRTHash: !u 0x4af3574e
+  Scale: [3.0399999618530273, 1.0, 4.25]
+  Translate: [50.15053939819336, 99.44998931884766, -20.996295928955078]
+- Dynamic: {DefaultDungeonRoomIndex: 5}
+  Gyaml: AirWallEnemy_NavMeshCut
+  Hash: !ul 15919297612638790036
+  Phive:
+    Placement: {ID: !ul 15919297612638790036}
+  Rotate: [0.0, -0.9162979125976562, 0.0]
+  SRTHash: !u 0x9624e0fe
+  Scale: [3.0399999618530273, 1.0, 4.25]
+  Translate: [50.15053939819336, 99.44998931884766, -20.996295928955078]
+- Gyaml: DropKeepAwayArea_TBox_A_01
+  Hash: !ul 15451747587107362934
+  Phive:
+    Placement: {ID: !ul 15451747587107362934}
+  Rotate: [3.141592502593994, -0.5593364834785461, -3.141592502593994]
+  SRTHash: !u 0x3f7f2638
+  Translate: [56.39374923706055, 99.49540710449219, -15.179287910461426]
+- Gyaml: NaviAnchorAction1
+  Hash: !ul 4432414777344370111
+  Name: Help_06_00
+  Phive:
+    Placement: {ID: !ul 4432414777344370111}
+  SRTHash: !u 0xdb286133
+  Translate: [75.75617218017578, 97.7477035522461, -19.511308670043945]
+- Gyaml: Obj_Abyss_A_01
+  Hash: !ul 634840072015834174
+  Phive:
+    Placement: {ID: !ul 634840072015834174}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x129cb643
+  Scale: [0.25, 0.37878602743148804, 0.25]
+  Translate: [78.76122283935547, 87.7604751586914, -20.975013732910156]
+- Gyaml: NaviAnchorAction1
+  Hash: !ul 206690094816106454
+  Name: Help_06_01
+  Phive:
+    Placement: {ID: !ul 206690094816106454}
+  SRTHash: !u 0xb9dec6e8
+  Translate: [78.84654998779297, 99.21241760253906, -32.03712844848633]
+- Dynamic: {DefaultDungeonRoomIndex: 12, Drop__DropActor: TBox_Rupee_Blue}
+  Gyaml: Obj_TBox_A_01
+  Hash: !ul 1029712040059298120
+  Phive:
+    Placement: {ID: !ul 1029712040059298120}
+  Rotate: [-3.141592502593994, -0.7853978872299194, -3.141592502593994]
+  SRTHash: !u 0xa37172ee
+  Translate: [-36.02769088745117, 99.7453384399414, -16.491859436035156]
+- Dynamic: {DefaultDungeonRoomIndex: 12, Drop__DropActor: TBox_Rupee_Blue}
+  Gyaml: Obj_TBox_A_01
+  Hash: !ul 14046623154429024571
+  Phive:
+    Placement: {ID: !ul 14046623154429024571}
+  SRTHash: !u 0x883b08bd
+  Translate: [-40.55765151977539, 99.7453384399414, -27.34482192993164]
+- Dynamic: {DefaultDungeonRoomIndex: 12, Drop__DropActor: TBox_Rupee_Blue}
+  Gyaml: Obj_TBox_A_01
+  Hash: !ul 7461796063704896255
+  Phive:
+    Placement: {ID: !ul 7461796063704896255}
+  Rotate: [-3.141592502593994, 0.7853987216949463, -3.141592502593994]
+  SRTHash: !u 0x7a8a7553
+  Translate: [-45.055137634277344, 99.7453384399414, -16.60946273803711]
+- Gyaml: DropKeepAwayArea_TBox_A_01
+  Hash: !ul 5647563352234989736
+  Phive:
+    Placement: {ID: !ul 5647563352234989736}
+  Rotate: [-3.141592502593994, -0.7853978872299194, -3.141592502593994]
+  SRTHash: !u 0xa37172ee
+  Translate: [-36.02769088745117, 99.7453384399414, -16.491859436035156]
+- Gyaml: DropKeepAwayArea_TBox_A_01
+  Hash: !ul 7851596128374950873
+  Phive:
+    Placement: {ID: !ul 7851596128374950873}
+  SRTHash: !u 0x883b08bd
+  Translate: [-40.55765151977539, 99.7453384399414, -27.34482192993164]
+- Gyaml: DropKeepAwayArea_TBox_A_01
+  Hash: !ul 8501788045278029781
+  Phive:
+    Placement: {ID: !ul 8501788045278029781}
+  Rotate: [-3.141592502593994, 0.7853987216949463, -3.141592502593994]
+  SRTHash: !u 0x7a8a7553
+  Translate: [-45.055137634277344, 99.7453384399414, -16.60946273803711]
+- Dynamic: {DefaultDungeonRoomIndex: 13, Drop__DropActor: Item_Dungeon_SmallKey}
+  Gyaml: Obj_TBox_GlassTruth_A_01
+  Hash: !ul 15320975652699461295
+  Phive:
+    Placement: {ID: !ul 15320975652699461295}
+  Rotate: [3.1415927410125732, 8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x35b8e49a
+  Translate: [-52.186920166015625, 99.9953384399414, -16.506025314331055]
+- Gyaml: DropKeepAwayArea_TBox_A_01
+  Hash: !ul 13981548831749647491
+  Phive:
+    Placement: {ID: !ul 13981548831749647491}
+  Rotate: [3.1415927410125732, 8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x35b8e49a
+  Translate: [-52.186920166015625, 99.9953384399414, -16.506025314331055]
+- Gyaml: DropKeepAwayArea_TBox_A_01
+  Hash: !ul 4314505950327473459
+  Phive:
+    Placement: {ID: !ul 4314505950327473459}
+  SRTHash: !u 0xe12db88d
+  Translate: [-52.191505432128906, 99.99542999267578, -25.485021591186523]
+- Dynamic: {DefaultDungeonRoomIndex: 14}
+  Gyaml: Obj_HookShotTarget_A_12
+  Hash: !ul 13290470071083275072
+  Phive:
+    Placement: {ID: !ul 13290470071083275072}
+  Rotate: [1.5707961320877075, -0.0, 0.0]
+  SRTHash: !u 0xc511f728
+  Translate: [-67.51647186279297, 108.2650146484375, -21.015518188476562]
+- Bakeable: true
+  Gyaml: Obj_InsideGanonCastle_GlassTruth_A_02
+  Hash: !ul 17048354193282638607
+  Phive:
+    Placement: {ID: !ul 17048354193282638607}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x6025d3d2
+  Translate: [-93.13990783691406, 100.48780059814453, -21.010000228881836]
+- Dynamic: {DefaultDungeonRoomIndex: 16}
+  Gyaml: Enemy_Beamos
+  Hash: !ul 10314802415333902283
+  Phive:
+    Placement: {ID: !ul 10314802415333902283}
+  Rotate: [-3.141592025756836, 0.523600161075592, -3.141592502593994]
+  SRTHash: !u 0x009b600e
+  Translate: [-22.29972267150879, 103.90811157226562, 18.54727554321289]
+- Dynamic: {DefaultDungeonRoomIndex: 16}
+  Gyaml: Obj_HookShotTarget_A_12
+  Hash: !ul 15807087930812391182
+  Phive:
+    Placement: {ID: !ul 15807087930812391182}
+  Rotate: [1.564908742904663, -0.5235913991928101, -0.005881776567548513]
+  SRTHash: !u 0x0465cc19
+  Translate: [-22.28573226928711, 109.14347076416016, 18.757957458496094]
+- Dynamic: {DefaultDungeonRoomIndex: 16}
+  Gyaml: Enemy_Amos
+  Hash: !ul 7214668742136349898
+  Phive:
+    Placement: {ID: !ul 7214668742136349898}
+  Rotate: [-3.141592502593994, 0.523598849773407, -3.141592502593994]
+  SRTHash: !u 0xb4a5de98
+  Translate: [-22.04793930053711, 103.90013122558594, 26.285179138183594]
+- Gyaml: ForbidMovableBoxAccessAreaBox
+  Hash: !ul 15700917103843710749
+  Phive:
+    Placement: {ID: !ul 15700917103843710749}
+  Rotate: [-3.141592502593994, 0.523598849773407, -3.141592502593994]
+  SRTHash: !u 0x74d75d30
+  Scale: [3.236208915710449, 0.32306766510009766, 2.0682590007781982]
+  Translate: [-17.014610290527344, 103.91246795654297, 9.432633399963379]
+- Gyaml: ForbidMovableBoxAccessAreaBox
+  Hash: !ul 4169321248405674337
+  Phive:
+    Placement: {ID: !ul 4169321248405674337}
+  Rotate: [0.0, 1.047196865081787, -2.0157548874522035e-07]
+  SRTHash: !u 0xa31d0206
+  Scale: [3.236208915710449, 0.32306766510009766, 2.0682590007781982]
+  Translate: [-31.569196701049805, 103.91246795654297, 22.019123077392578]
+- Gyaml: NaviAnchorAction1
+  Hash: !ul 15945080948025987372
+  Name: Help_17_00
+  Phive:
+    Placement: {ID: !ul 15945080948025987372}
+  Rotate: [0.0, 1.09368896484375, 0.0]
+  SRTHash: !u 0xf9867b7b
+  Translate: [-42.70038986206055, 109.34339904785156, 15.551034927368164]
+- Gyaml: NaviAnchorAction1
+  Hash: !ul 13144656032635916423
+  Name: Help_17_01
+  Phive:
+    Placement: {ID: !ul 13144656032635916423}
+  Rotate: [0.0, 1.09368896484375, 0.0]
+  SRTHash: !u 0x162ee394
+  Translate: [-30.09899139404297, 108.16041564941406, 37.683712005615234]
+- Gyaml: AbilityChangeAreaForSceneChange
+  Hash: !ul 5369224672134158196
+  Phive:
+    Placement: {ID: !ul 5369224672134158196}
+  SRTHash: !u 0xed6bcd69
+  Scale: [5.0, 5.0, 5.0]
+  Translate: [-30.15789222717285, 113.02892303466797, 37.53080749511719]
+- Bakeable: true
+  Gyaml: Obj_InsideGanonCastle_GlassTruth_A_01
+  Hash: !ul 7517604581681183755
+  Phive:
+    Placement: {ID: !ul 7517604581681183755}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0x2fb505cc
+  Translate: [0.010669708251953125, 97.20094299316406, 2.726999282836914]
+- Dynamic: {WaterFogType: 1}
+  Gyaml: Land_WaterPlaneCircle_FairyFountain_A_01
+  Hash: !ul 17362181298882224526
+  Phive:
+    Placement: {ID: !ul 17362181298882224526}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0xebf5f3ef
+  Scale: [2.0, 0.10000000149011612, 2.0]
+  Translate: [0.07535296678543091, 91.07194519042969, 26.95487403869629]
+- Gyaml: StartPos
+  Hash: !ul 936032029420470592
+  Name: Entrance
+  Phive:
+    Placement: {ID: !ul 936032029420470592}
+  Rotate: [-3.141592502593994, 3.8941436741879443e-07, -3.141592502593994]
+  SRTHash: !u 0x15a08295
+  Translate: [0.038167115300893784, 110.25004577636719, 91.58793640136719]
+- Gyaml: StartPos
+  Hash: !ul 4672882938971788404
+  Name: EntrancePos
+  Phive:
+    Placement: {ID: !ul 4672882938971788404}
+  Rotate: [-3.141592502593994, 3.8941436741879443e-07, -3.141592502593994]
+  SRTHash: !u 0xb5a0088d
+  Translate: [0.03816710039973259, 110.25, 89.95468139648438]
+- Dynamic: {IsVisible: false}
+  Gyaml: MapIconEntranceAnchor
+  Hash: !ul 2823492402119064688
+  Phive:
+    Placement: {ID: !ul 2823492402119064688}
+  Rotate: [-1.5707961320877075, 3.8941436741879443e-07, -3.141592502593994]
+  SRTHash: !u 0xf050ed83
+  Translate: [0.038172606378793716, 110.25004577636719, 79.45436096191406]
+- Dynamic: {DefaultDungeonRoomIndex: 0, InitialEyeRotationAngle: 180.0}
+  Gyaml: Enemy_Beamos_For_High_Place
+  Hash: !ul 17596294525256958366
+  Phive:
+    Placement: {ID: !ul 17596294525256958366}
+  SRTHash: !u 0x0996c8f3
+  Translate: [2.7481775283813477, 106.68663024902344, 35.560813903808594]
+- Dynamic: {DefaultDungeonRoomIndex: 0}
+  Gyaml: Enemy_Beamos_For_High_Place
+  Hash: !ul 9906923762847974563
+  Phive:
+    Placement: {ID: !ul 9906923762847974563}
+  SRTHash: !u 0xb0153d60
+  Translate: [-2.7518224716186523, 106.68663024902344, 35.560813903808594]
+- Dynamic: {DefaultDungeonRoomIndex: 1}
+  Gyaml: AirWallEnemy
+  Hash: !ul 15445288707818548156
+  Phive:
+    Placement: {ID: !ul 15445288707818548156}
+  Rotate: [3.1415927410125732, 8.74227694680485e-08, 3.1415927410125732]
+  SRTHash: !u 0xe497a678
+  Scale: [3.0, 4.0, 1.7000000476837158]
+  Translate: [0.020173510536551476, 107.72661590576172, 24.690406799316406]
+- Gyaml: NaviAnchorAction1
+  Hash: !ul 3397088323148380223
+  Name: Help_20_00
+  Phive:
+    Placement: {ID: !ul 3397088323148380223}
+  Rotate: [0.0, -1.570796251296997, 1.7484555314695172e-07]
+  SRTHash: !u 0x28328e76
+  Translate: [13.867263793945312, 138.62124633789062, -24.649168014526367]
+- Gyaml: NaviAnchorAction1
+  Hash: !ul 11595519071305802096
+  Name: Help_22_00
+  Phive:
+    Placement: {ID: !ul 11595519071305802096}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xfe587942
+  Translate: [-0.01129007339477539, 145.420166015625, -10.675402641296387]
+- Gyaml: NaviAnchorAction1
+  Hash: !ul 17581745872312912682
+  Name: Help_24_00
+  Phive:
+    Placement: {ID: !ul 17581745872312912682}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x07238985
+  Translate: [-14.369900703430176, 152.05572509765625, -24.62212562561035]
+- Gyaml: DropKeepAwayArea_TBox_A_02
+  Hash: !ul 15937528107370129694
+  Phive:
+    Placement: {ID: !ul 15937528107370129694}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x9fe1e304
+  Translate: [0.0731363296508789, 149.6500244140625, -24.685300827026367]
+- Dynamic: {DefaultDungeonRoomIndex: 6}
+  Gyaml: AirWallEnemy
+  Hash: !ul 13555180522883936202
+  Phive:
+    Placement: {ID: !ul 13555180522883936202}
+  Rotate: [0.0, -1.570796251296997, 1.7484555314695172e-07]
+  SRTHash: !u 0xb4d3e7af
+  Scale: [1.7000000476837158, 2.5999999046325684, 1.7000000476837158]
+  Translate: [64.71893310546875, 100.79645538330078, -21.008487701416016]
+- Dynamic: {DefaultDungeonRoomIndex: 14}
+  Gyaml: AirWallEnemy
+  Hash: !ul 10276720704008963448
+  Phive:
+    Placement: {ID: !ul 10276720704008963448}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x1c32be9e
+  Scale: [1.7000000476837158, 2.5999999046325684, 1.7000000476837158]
+  Translate: [-56.46185302734375, 101.0339584350586, -20.997529983520508]
+- Bakeable: true
+  Gyaml: Land_InsideGanonCastle_Room00_A_01
+  Hash: !ul 1924289885509814131
+  Phive:
+    Placement: {ID: !ul 1924289885509814131}
+  SRTHash: !u 0x2170db02
+  Translate: [0.0, 110.25, 58.0]
+- Dynamic: {DefaultDungeonRoomIndex: 0}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_08
+  Hash: !ul 805510221571070836
+  Phive:
+    Placement: {ID: !ul 805510221571070836}
+  Rotate: [0.0, 0.7853981852531433, 0.0]
+  SRTHash: !u 0x6a9ab12b
+  Translate: [-7.100627899169922, 116.00199890136719, 69.1112060546875]
+- Dynamic: {DefaultDungeonRoomIndex: 0}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_08
+  Hash: !ul 5750279669381191180
+  Phive:
+    Placement: {ID: !ul 5750279669381191180}
+  Rotate: [0.0, -0.7853981852531433, 0.0]
+  SRTHash: !u 0xd722598d
+  Translate: [7.134881496429443, 116.00199890136719, 69.14282989501953]
+- Dynamic: {DefaultDungeonRoomIndex: 0}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_08
+  Hash: !ul 13696893539303933668
+  Phive:
+    Placement: {ID: !ul 13696893539303933668}
+  Rotate: [0.0, 1.2217304706573486, 0.0]
+  SRTHash: !u 0xc1d14e80
+  Translate: [-4.681146621704102, 114.85400390625, 62.046348571777344]
+- Dynamic: {DefaultDungeonRoomIndex: 0}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_08
+  Hash: !ul 1702487383197188835
+  Phive:
+    Placement: {ID: !ul 1702487383197188835}
+  Rotate: [0.0, -1.2217304706573486, 0.0]
+  SRTHash: !u 0xf9a3a2c1
+  Translate: [4.681719779968262, 114.85400390625, 62.0461311340332]
+- Dynamic: {DefaultDungeonRoomIndex: 0}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_08
+  Hash: !ul 5667312427680754282
+  Phive:
+    Placement: {ID: !ul 5667312427680754282}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x97fba929
+  Translate: [-2.9567372798919678, 112.61526489257812, 50.930885314941406]
+- Dynamic: {DefaultDungeonRoomIndex: 0}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_08
+  Hash: !ul 9180581102147116898
+  Phive:
+    Placement: {ID: !ul 9180581102147116898}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x80d64a48
+  Translate: [2.951787233352661, 112.61526489257812, 50.930885314941406]
+- Dynamic: {DefaultDungeonRoomIndex: 0}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_08
+  Hash: !ul 13186291229303155357
+  Phive:
+    Placement: {ID: !ul 13186291229303155357}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x8a5359e7
+  Translate: [-7.627739906311035, 109.60191345214844, 32.3465576171875]
+- Dynamic: {DefaultDungeonRoomIndex: 0}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_08
+  Hash: !ul 9739890958080989524
+  Phive:
+    Placement: {ID: !ul 9739890958080989524}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x56ba855f
+  Translate: [7.633055686950684, 109.60191345214844, 32.3465576171875]
+- Dynamic: {DefaultDungeonRoomIndex: 0}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_08
+  Hash: !ul 5736712489591900407
+  Phive:
+    Placement: {ID: !ul 5736712489591900407}
+  Rotate: [0.0, 1.570796251296997, -0.20943966507911682]
+  SRTHash: !u 0x35377c57
+  Translate: [-12.628311157226562, 116.04576110839844, 75.68216705322266]
+- Dynamic: {DefaultDungeonRoomIndex: 0}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_08
+  Hash: !ul 9124345696947147315
+  Phive:
+    Placement: {ID: !ul 9124345696947147315}
+  Rotate: [0.0, -1.570796251296997, 0.20943959057331085]
+  SRTHash: !u 0xb93125c2
+  Translate: [12.642860412597656, 116.03913116455078, 75.68216705322266]
+- Dynamic: {DefaultDungeonRoomIndex: 0}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_08
+  Hash: !ul 6770276055587123966
+  Phive:
+    Placement: {ID: !ul 6770276055587123966}
+  Rotate: [0.0, 1.570796251296997, -0.20943959057331085]
+  SRTHash: !u 0xbe941841
+  Translate: [-12.623876571655273, 116.04435729980469, 83.71929168701172]
+- Dynamic: {DefaultDungeonRoomIndex: 0}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_08
+  Hash: !ul 6726876621446854001
+  Phive:
+    Placement: {ID: !ul 6726876621446854001}
+  Rotate: [0.0, -1.570796251296997, 0.20943959057331085]
+  SRTHash: !u 0x0f7cd847
+  Translate: [12.658291816711426, 116.04241943359375, 83.71929168701172]
+- Dynamic: {DefaultDungeonRoomIndex: 0}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_08
+  Hash: !ul 15873828522057281265
+  Phive:
+    Placement: {ID: !ul 15873828522057281265}
+  SRTHash: !u 0x4154d320
+  Translate: [-3.540700912475586, 109.3734130859375, 25.852401733398438]
+- Dynamic: {DefaultDungeonRoomIndex: 0}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_08
+  Hash: !ul 2407823820966635387
+  Phive:
+    Placement: {ID: !ul 2407823820966635387}
+  SRTHash: !u 0x4f2f5f89
+  Translate: [3.552220344543457, 109.3734130859375, 25.852401733398438]
+- Dynamic: {DefaultDungeonRoomIndex: 0}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_08
+  Hash: !ul 3428328220747510856
+  Phive:
+    Placement: {ID: !ul 3428328220747510856}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xca5c7f55
+  Translate: [-2.872769832611084, 115.13313293457031, 98.07511138916016]
+- Dynamic: {DefaultDungeonRoomIndex: 0}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_08
+  Hash: !ul 10727180499065376733
+  Phive:
+    Placement: {ID: !ul 10727180499065376733}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x75ab5599
+  Translate: [2.8723998069763184, 115.13313293457031, 98.04460144042969]
+- Dynamic: {DefaultDungeonRoomIndex: 0}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_08
+  Hash: !ul 15353266599534252778
+  Phive:
+    Placement: {ID: !ul 15353266599534252778}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x24ccb418
+  Translate: [-2.872769832611084, 115.13313293457031, 108.14616394042969]
+- Dynamic: {DefaultDungeonRoomIndex: 0}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_08
+  Hash: !ul 17396634809469738266
+  Phive:
+    Placement: {ID: !ul 17396634809469738266}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x790cc219
+  Translate: [2.8723998069763184, 115.13313293457031, 108.11565399169922]
+- Dynamic: {DefaultDungeonRoomIndex: 0}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_08
+  Hash: !ul 10763506661580584031
+  Phive:
+    Placement: {ID: !ul 10763506661580584031}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x168ee0d9
+  Translate: [-2.872769832611084, 115.13313293457031, 117.8565902709961]
+- Dynamic: {DefaultDungeonRoomIndex: 0}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_08
+  Hash: !ul 17198443661262126046
+  Phive:
+    Placement: {ID: !ul 17198443661262126046}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x729f0bd4
+  Translate: [2.8723998069763184, 115.13313293457031, 117.82608032226562]
+- Bakeable: true
+  Gyaml: Land_InsideGanonCastle_Room01_A_02
+  Hash: !ul 3257505322899614340
+  Phive:
+    Placement: {ID: !ul 3257505322899614340}
+  SRTHash: !u 0x4be6b2cd
+  Translate: [0.0, 97.18900299072266, 2.4480156898498535]
+- Bakeable: true
+  Gyaml: Land_InsideGanonCastle_Room01_A_03
+  Hash: !ul 7887465205675311157
+  Phive:
+    Placement: {ID: !ul 7887465205675311157}
+  SRTHash: !u 0xc9a76a4b
+  Translate: [0.0, 100.0, 0.0]
+- Dynamic: {DefaultDungeonRoomIndex: 1}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_06
+  Hash: !ul 6595633804977448523
+  Phive:
+    Placement: {ID: !ul 6595633804977448523}
+  Rotate: [0.0, 0.5235987901687622, 0.0]
+  SRTHash: !u 0x11a6767c
+  Translate: [-6.040107250213623, 94.20486450195312, 16.673404693603516]
+- Dynamic: {DefaultDungeonRoomIndex: 1}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_06
+  Hash: !ul 13085930290114398876
+  Phive:
+    Placement: {ID: !ul 13085930290114398876}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xf143c2c2
+  Translate: [-11.913191795349121, 94.20486450195312, 26.94174575805664]
+- Dynamic: {DefaultDungeonRoomIndex: 1}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_06
+  Hash: !ul 10218428719620279396
+  Phive:
+    Placement: {ID: !ul 10218428719620279396}
+  Rotate: [3.1415927410125732, 0.523598849773407, 3.1415927410125732]
+  SRTHash: !u 0x3cfbe9f2
+  Translate: [-5.942162990570068, 94.20486450195312, 37.25299835205078]
+- Dynamic: {DefaultDungeonRoomIndex: 1}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_06
+  Hash: !ul 6875110346497977180
+  Phive:
+    Placement: {ID: !ul 6875110346497977180}
+  Rotate: [3.1415927410125732, -0.523598849773407, 3.1415927410125732]
+  SRTHash: !u 0x405c2636
+  Translate: [5.969686031341553, 94.20486450195312, 37.24570083618164]
+- Dynamic: {DefaultDungeonRoomIndex: 1}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_06
+  Hash: !ul 8495544123092236924
+  Phive:
+    Placement: {ID: !ul 8495544123092236924}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0xb99e0d6b
+  Translate: [11.907872200012207, 94.20486450195312, 26.935894012451172]
+- Dynamic: {DefaultDungeonRoomIndex: 1}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_06
+  Hash: !ul 11617691605200824036
+  Phive:
+    Placement: {ID: !ul 11617691605200824036}
+  Rotate: [0.0, -0.5235987901687622, 0.0]
+  SRTHash: !u 0xa5fbe67b
+  Translate: [5.93354606628418, 94.20486450195312, 16.628395080566406]
+- Dynamic: {DefaultDungeonRoomIndex: 1}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_08
+  Hash: !ul 14024913622492923682
+  Phive:
+    Placement: {ID: !ul 14024913622492923682}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x3aefc74d
+  Translate: [-3.497847557067871, 109.67085266113281, 24.183441162109375]
+- Dynamic: {DefaultDungeonRoomIndex: 1}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_08
+  Hash: !ul 7311798850490811108
+  Phive:
+    Placement: {ID: !ul 7311798850490811108}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x04f5030b
+  Translate: [3.5192902088165283, 109.67085266113281, 24.183441162109375]
+- Dynamic: {DefaultDungeonRoomIndex: 1}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 3387124278322136087
+  Phive:
+    Placement: {ID: !ul 3387124278322136087}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x925104af
+  Translate: [-9.13519287109375, 110.05158996582031, -21.349273681640625]
+- Dynamic: {DefaultDungeonRoomIndex: 1}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 1762389406175402510
+  Phive:
+    Placement: {ID: !ul 1762389406175402510}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x758dbe29
+  Translate: [-9.13519287109375, 114.34741973876953, -21.349273681640625]
+- Dynamic: {DefaultDungeonRoomIndex: 1}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 2828679995801955460
+  Phive:
+    Placement: {ID: !ul 2828679995801955460}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x94df2e8c
+  Translate: [9.135000228881836, 110.05158996582031, -21.349273681640625]
+- Dynamic: {DefaultDungeonRoomIndex: 1}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 5587676360881835013
+  Phive:
+    Placement: {ID: !ul 5587676360881835013}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0xf4eca3ad
+  Translate: [9.135000228881836, 114.34741973876953, -21.349273681640625]
+- Dynamic: {DefaultDungeonRoomIndex: 1}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 16706169573856428976
+  Phive:
+    Placement: {ID: !ul 16706169573856428976}
+  Rotate: [0.0, 0.7853981852531433, 0.0]
+  SRTHash: !u 0x4ea7173a
+  Translate: [-6.3053178787231445, 110.05158996582031, -26.96379280090332]
+- Dynamic: {DefaultDungeonRoomIndex: 1}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 13817496431003411116
+  Phive:
+    Placement: {ID: !ul 13817496431003411116}
+  Rotate: [0.0, 0.7853981852531433, 0.0]
+  SRTHash: !u 0x8fdae224
+  Translate: [-6.299964427947998, 114.34741973876953, -26.95846176147461]
+- Dynamic: {DefaultDungeonRoomIndex: 1}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 16347191430407162891
+  Phive:
+    Placement: {ID: !ul 16347191430407162891}
+  Rotate: [0.0, -0.7853981852531433, 0.0]
+  SRTHash: !u 0x82f7f5c4
+  Translate: [6.32595157623291, 110.05158996582031, -26.984359741210938]
+- Dynamic: {DefaultDungeonRoomIndex: 1}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 7307753740964769321
+  Phive:
+    Placement: {ID: !ul 7307753740964769321}
+  Rotate: [0.0, -0.7853981852531433, 0.0]
+  SRTHash: !u 0x090392d1
+  Translate: [6.32810115814209, 114.34741973876953, -26.986507415771484]
+- Bakeable: true
+  Gyaml: Land_InsideGanonCastle_Room01_A_04
+  Hash: !ul 4425090989124626046
+  Phive:
+    Placement: {ID: !ul 4425090989124626046}
+  Rotate: [3.1415927410125732, 0.523598849773407, 3.1415927410125732]
+  SRTHash: !u 0x5ea15eeb
+  Translate: [-16.08970069885254, 103.80000305175781, 7.787361145019531]
+- Bakeable: true
+  Gyaml: Land_InsideGanonCastle_Room01_A_04
+  Hash: !ul 10955714451551840286
+  Phive:
+    Placement: {ID: !ul 10955714451551840286}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0xceb97427
+  Translate: [33.00853729248047, 99.7448959350586, -20.999265670776367]
+- Bakeable: true
+  Gyaml: Land_InsideGanonCastle_Room01_A_04
+  Hash: !ul 11672226470142753027
+  Phive:
+    Placement: {ID: !ul 11672226470142753027}
+  Rotate: [0.0, -0.5235987901687622, 0.0]
+  SRTHash: !u 0x096cecb4
+  Translate: [16.102863311767578, 103.80000305175781, -49.81877899169922]
+- Bakeable: true
+  Gyaml: Land_InsideGanonCastle_Room01_A_06
+  Hash: !ul 14082032381919635601
+  Phive:
+    Placement: {ID: !ul 14082032381919635601}
+  Rotate: [0.0, 0.5235987901687622, 0.0]
+  SRTHash: !u 0x5349cbef
+  Translate: [-7.986949920654297, 103.74715423583984, -51.742881774902344]
+- Bakeable: true
+  Gyaml: Land_InsideGanonCastle_Room01_A_06
+  Hash: !ul 18117737142294348856
+  Phive:
+    Placement: {ID: !ul 18117737142294348856}
+  Rotate: [0.0, 1.4116747379302979, 0.0]
+  SRTHash: !u 0x3cad4825
+  Translate: [-21.841861724853516, 103.74715423583984, -43.751827239990234]
+- Bakeable: true
+  Gyaml: Land_InsideGanonCastle_Room01_A_06
+  Hash: !ul 46357716348735759
+  Phive:
+    Placement: {ID: !ul 46357716348735759}
+  Rotate: [0.0, 1.1780972480773926, 0.0]
+  SRTHash: !u 0x955a1802
+  Translate: [-30.610109329223633, 99.71194458007812, -28.98468589782715]
+- Bakeable: true
+  Gyaml: Land_InsideGanonCastle_Room01_A_06
+  Hash: !ul 4591126615017278715
+  Phive:
+    Placement: {ID: !ul 4591126615017278715}
+  Rotate: [3.1415927410125732, 1.0995572805404663, 3.1415927410125732]
+  SRTHash: !u 0x8c89b9b0
+  Translate: [-30.610109329223633, 99.71194458007812, -13.023131370544434]
+- Bakeable: true
+  Gyaml: Land_InsideGanonCastle_Room01_A_06
+  Hash: !ul 8747815474213556996
+  Phive:
+    Placement: {ID: !ul 8747815474213556996}
+  Rotate: [3.1415927410125732, 0.523598849773407, 3.1415927410125732]
+  SRTHash: !u 0x9c674dc8
+  Translate: [-21.806921005249023, 103.7587890625, 1.720578670501709]
+- Bakeable: true
+  Gyaml: Land_InsideGanonCastle_Room01_A_06
+  Hash: !ul 9135584621778355671
+  Phive:
+    Placement: {ID: !ul 9135584621778355671}
+  Rotate: [0.0, 0.5758888125419617, 0.0]
+  SRTHash: !u 0x7270194b
+  Translate: [21.785573959350586, 103.7587890625, 1.703617811203003]
+- Bakeable: true
+  Gyaml: Land_InsideGanonCastle_Room01_A_06
+  Hash: !ul 8147468908519728571
+  Phive:
+    Placement: {ID: !ul 8147468908519728571}
+  Rotate: [3.1415927410125732, -0.7853980660438538, 3.1415927410125732]
+  SRTHash: !u 0xf5a9687c
+  Translate: [30.58328628540039, 99.69514465332031, -12.995280265808105]
+- Bakeable: true
+  Gyaml: Land_InsideGanonCastle_Room01_A_06
+  Hash: !ul 8758576328345387470
+  Phive:
+    Placement: {ID: !ul 8758576328345387470}
+  Rotate: [0.0, -0.39269906282424927, 0.0]
+  SRTHash: !u 0x48f34a7a
+  Translate: [30.620651245117188, 99.69514465332031, -29.020950317382812]
+- Bakeable: true
+  Gyaml: Land_InsideGanonCastle_Room01_A_06
+  Hash: !ul 3052181695706377972
+  Phive:
+    Placement: {ID: !ul 3052181695706377972}
+  Rotate: [0.0, -0.5235987901687622, 0.0]
+  SRTHash: !u 0xb187b350
+  Translate: [21.832448959350586, 103.7587890625, -43.74079895019531]
+- Bakeable: true
+  Gyaml: Land_InsideGanonCastle_Room01_A_06
+  Hash: !ul 4545751516096760287
+  Phive:
+    Placement: {ID: !ul 4545751516096760287}
+  Rotate: [0.0, 0.7344170808792114, 0.0]
+  SRTHash: !u 0xd8782fd9
+  Translate: [7.993283748626709, 103.7587890625, -51.72654724121094]
+- Dynamic: {DefaultDungeonRoomIndex: 1}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_06
+  Hash: !ul 15291918119509134870
+  Phive:
+    Placement: {ID: !ul 15291918119509134870}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x9f4202a8
+  Translate: [2.590031385421753, 100.57413482666016, 2.681288480758667]
+- Dynamic: {DefaultDungeonRoomIndex: 1}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_06
+  Hash: !ul 6314083918826313804
+  Phive:
+    Placement: {ID: !ul 6314083918826313804}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x177e530b
+  Translate: [-2.5579750537872314, 100.57413482666016, 2.7012600898742676]
+- Dynamic: {DefaultDungeonRoomIndex: 1}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 5176144318979194915
+  Phive:
+    Placement: {ID: !ul 5176144318979194915}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xe92a4c4b
+  Translate: [-2.974959373474121, 117.3993148803711, -25.440448760986328]
+- Dynamic: {DefaultDungeonRoomIndex: 1}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 12855679328141301053
+  Phive:
+    Placement: {ID: !ul 12855679328141301053}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0xb52c8c1a
+  Translate: [2.97298264503479, 117.3993148803711, -25.46371841430664]
+- Bakeable: true
+  Gyaml: Land_InsideGanonCastle_Room01_A_07
+  Hash: !ul 11423356694602097131
+  Phive:
+    Placement: {ID: !ul 11423356694602097131}
+  Rotate: [3.1415927410125732, -0.523598849773407, 3.1415927410125732]
+  SRTHash: !u 0xcde8a0ee
+  Translate: [16.103673934936523, 103.80000305175781, 7.819737911224365]
+- Bakeable: true
+  Gyaml: Land_InsideGanonCastle_Room01_A_07
+  Hash: !ul 7268575810114102202
+  Phive:
+    Placement: {ID: !ul 7268575810114102202}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xb1253118
+  Translate: [-32.99418258666992, 99.73129272460938, -21.005294799804688]
+- Bakeable: true
+  Gyaml: Land_InsideGanonCastle_Room01_A_07
+  Hash: !ul 4778006801545928230
+  Phive:
+    Placement: {ID: !ul 4778006801545928230}
+  Rotate: [0.0, 0.5235987901687622, 0.0]
+  SRTHash: !u 0xe39ff409
+  Translate: [-16.115398406982422, 103.80000305175781, -49.83720016479492]
+- Bakeable: true
+  Gyaml: Land_InsideGanonCastle_Room02_A_01
+  Hash: !ul 4361902004082144248
+  Phive:
+    Placement: {ID: !ul 4361902004082144248}
+  Rotate: [3.1415927410125732, -0.523598849773407, 3.1415927410125732]
+  SRTHash: !u 0x2268fc57
+  Translate: [22.860000610351562, 102.9000015258789, 19.530000686645508]
+- Dynamic: {DefaultDungeonRoomIndex: 2}
+  Gyaml: Land_Kokiri_Plant_G_01
+  Hash: !ul 1754011131817271436
+  Phive:
+    Placement: {ID: !ul 1754011131817271436}
+  SRTHash: !u 0x59a61fa5
+  Translate: [23.23952865600586, 102.90013122558594, 11.760899543762207]
+- Dynamic: {DefaultDungeonRoomIndex: 2}
+  Gyaml: Land_Kokiri_Plant_G_01
+  Hash: !ul 3921825286090075269
+  Phive:
+    Placement: {ID: !ul 3921825286090075269}
+  Rotate: [3.1415927410125732, -1.272623896598816, 3.1415927410125732]
+  SRTHash: !u 0x589b9ad8
+  Translate: [26.821043014526367, 102.90013122558594, 12.288253784179688]
+- Bakeable: true
+  Gyaml: Land_InsideGanonCastle_ProceduralIvy_A
+  Hash: !ul 12391490015866187796
+  Phive:
+    Placement: {ID: !ul 12391490015866187796}
+  SRTHash: !u 0xc552a342
+- Bakeable: true
+  Gyaml: Land_InsideGanonCastle_Room03_A_01
+  Hash: !ul 12076881504643564334
+  Phive:
+    Placement: {ID: !ul 12076881504643564334}
+  Rotate: [0.0, 0.5235987901687622, 0.0]
+  SRTHash: !u 0xcd861952
+  Translate: [38.900001525878906, 101.4000015258789, 47.29999923706055]
+- Dynamic: {InvalidSlopeCliffLatInterpolate: true}
+  Gyaml: CameraChangeAreaBox
+  Hash: !ul 18196455862246781076
+  Phive:
+    Placement: {ID: !ul 18196455862246781076}
+  Rotate: [0.0, 0.5385071039199829, 0.0]
+  SRTHash: !u 0xf010e6bc
+  Scale: [3.326293706893921, 1.3448710441589355, 2.865601062774658]
+  Translate: [38.8072624206543, 101.04525756835938, 47.255210876464844]
+- Bakeable: true
+  Gyaml: Land_InsideGanonCastle_Room04_A_01
+  Hash: !ul 13500726042753759664
+  Phive:
+    Placement: {ID: !ul 13500726042753759664}
+  Rotate: [3.1415927410125732, -0.523598849773407, 3.1415927410125732]
+  SRTHash: !u 0xfa45031e
+  Translate: [45.15999984741211, 102.9000015258789, 58.130001068115234]
+- Bakeable: true
+  Gyaml: Land_InsideGanonCastle_Room04_A_02
+  Hash: !ul 6304817191433373277
+  Phive:
+    Placement: {ID: !ul 6304817191433373277}
+  Rotate: [3.1415927410125732, -0.523598849773407, 3.1415927410125732]
+  SRTHash: !u 0xfa45031e
+  Translate: [45.15999984741211, 102.9000015258789, 58.130001068115234]
+- Gyaml: EftLoc_InsideGanonCastle_SageRoom_Forest_00
+  Hash: !ul 4796872101509398576
+  Phive:
+    Placement: {ID: !ul 4796872101509398576}
+  Presence: {FlagName: HavePlayedEvent.InsideGanonCastle_Dungeon_BarrierRemove_Forest,
+    IsCheckLazy: false, IsNegation: false}
+  Rotate: [3.1415927410125732, -0.5193535089492798, 3.1415927410125732]
+  SRTHash: !u 0xf890bf28
+  Translate: [52.72039794921875, 103.68953704833984, 71.23878479003906]
+- Bakeable: true
+  Gyaml: Land_InsideGanonCastle_Room05_A_01
+  Hash: !ul 15283673325287628176
+  Phive:
+    Placement: {ID: !ul 15283673325287628176}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0xf08d0b31
+  Translate: [50.29999923706055, 99.73999786376953, -21.0]
+- Gyaml: Land_IceCave_Icicles_D_03
+  Hash: !ul 5901230353640864190
+  Phive:
+    Placement: {ID: !ul 5901230353640864190}
+  SRTHash: !u 0xfc8ad9b4
+  Translate: [47.371360778808594, 107.55968475341797, -18.617523193359375]
+- Gyaml: Land_IceCave_Icicles_D_03
+  Hash: !ul 12457647870045721995
+  Phive:
+    Placement: {ID: !ul 12457647870045721995}
+  Rotate: [0.0, 1.204135537147522, 0.0]
+  SRTHash: !u 0x65e4aa99
+  Translate: [47.36916732788086, 107.16616821289062, -23.26258087158203]
+- Gyaml: Land_IceCave_Icicles_D_03
+  Hash: !ul 16261693637968347539
+  Phive:
+    Placement: {ID: !ul 16261693637968347539}
+  SRTHash: !u 0x573c9019
+  Translate: [51.76045227050781, 106.94361877441406, -26.60993003845215]
+- Gyaml: Land_IceCave_Icicles_D_03
+  Hash: !ul 13628139065221584231
+  Phive:
+    Placement: {ID: !ul 13628139065221584231}
+  Rotate: [0.0, -1.0915069580078125, 0.0]
+  SRTHash: !u 0x01f5f265
+  Translate: [51.24159622192383, 107.15667724609375, -16.087860107421875]
+- Gyaml: Land_IceCave_Icicles_D_03
+  Hash: !ul 10285492503430219665
+  Phive:
+    Placement: {ID: !ul 10285492503430219665}
+  SRTHash: !u 0xe10579e8
+  Translate: [53.73064041137695, 107.6842269897461, -18.608444213867188]
+- Gyaml: Land_IceCave_Icicles_D_03
+  Hash: !ul 13684409208975980059
+  Phive:
+    Placement: {ID: !ul 13684409208975980059}
+  Rotate: [0.0, 0.8744666576385498, 0.0]
+  SRTHash: !u 0x7be50fa7
+  Translate: [57.601959228515625, 107.47822570800781, -19.92261505126953]
+- Bakeable: true
+  Gyaml: Land_InsideGanonCastle_Room06_A_01
+  Hash: !ul 9698107340566591677
+  Phive:
+    Placement: {ID: !ul 9698107340566591677}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x666ed40c
+  Translate: [79.4000015258789, 97.73999786376953, -21.0]
+- Bakeable: true
+  Gyaml: Land_InsideGanonCastle_Room04_A_01
+  Hash: !ul 14298706546128522140
+  Phive:
+    Placement: {ID: !ul 14298706546128522140}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x9710ffa9
+  Translate: [93.30000305175781, 99.73999786376953, -21.0]
+- Bakeable: true
+  Gyaml: Land_InsideGanonCastle_Room07_A_01
+  Hash: !ul 11865739382625716210
+  Phive:
+    Placement: {ID: !ul 11865739382625716210}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x9710ffa9
+  Translate: [93.30000305175781, 99.73999786376953, -21.0]
+- Gyaml: EftLoc_InsideGanonCastle_SageRoom_Water_00
+  Hash: !ul 8578908135887298051
+  Phive:
+    Placement: {ID: !ul 8578908135887298051}
+  Presence: {FlagName: HavePlayedEvent.InsideGanonCastle_Dungeon_BarrierRemove_Water,
+    IsCheckLazy: false, IsNegation: false}
+  Rotate: [0.0, -1.5468982458114624, 0.0]
+  SRTHash: !u 0xb3c0b964
+  Translate: [108.43258666992188, 100.52953338623047, -21.0049991607666]
+- Bakeable: true
+  Gyaml: Land_InsideGanonCastle_Room08_A_01
+  Hash: !ul 16399782528801213617
+  Phive:
+    Placement: {ID: !ul 16399782528801213617}
+  Rotate: [0.0, -0.5235987901687622, 0.0]
+  SRTHash: !u 0xf8c06b94
+  Translate: [39.349998474121094, 103.91000366210938, -90.04000091552734]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Cloth_A_01
+  Hash: !ul 7786551688453443637
+  Phive:
+    Placement: {ID: !ul 7786551688453443637}
+  Rotate: [3.1415927410125732, 0.523598849773407, 3.1415927410125732]
+  SRTHash: !u 0x4a8a4285
+  Translate: [61.73217010498047, 113.78794860839844, -128.76841735839844]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Cloth_A_01
+  Hash: !ul 11425011520024594823
+  Phive:
+    Placement: {ID: !ul 11425011520024594823}
+  Rotate: [0.0, -0.5235987901687622, 0.0]
+  SRTHash: !u 0xa97c88a3
+  Translate: [16.68775749206543, 112.28981018066406, -50.74922180175781]
+- Bakeable: true
+  Gyaml: Land_InsideGanonCastle_Room04_A_01
+  Hash: !ul 3466062508980697905
+  Phive:
+    Placement: {ID: !ul 3466062508980697905}
+  Rotate: [0.0, -0.5235987901687622, 0.0]
+  SRTHash: !u 0x8ca3d779
+  Translate: [62.31999969482422, 105.4000015258789, -129.8300018310547]
+- Bakeable: true
+  Gyaml: Land_InsideGanonCastle_Room09_A_01
+  Hash: !ul 202247279370298813
+  Phive:
+    Placement: {ID: !ul 202247279370298813}
+  Rotate: [0.0, -0.5235987901687622, 0.0]
+  SRTHash: !u 0x8df2ed14
+  Translate: [62.300209045410156, 105.4000015258789, -129.8300018310547]
+- Gyaml: EftLoc_InsideGanonCastle_SageRoom_Shadow_00
+  Hash: !ul 16492702251319697252
+  Phive:
+    Placement: {ID: !ul 16492702251319697252}
+  Presence: {FlagName: HavePlayedEvent.InsideGanonCastle_Dungeon_BarrierRemove_Shadow,
+    IsCheckLazy: false, IsNegation: false}
+  Rotate: [0.0, -0.49127423763275146, 0.0]
+  SRTHash: !u 0x64fdd99b
+  Translate: [69.85240936279297, 106.19412994384766, -142.919189453125]
+- Bakeable: true
+  Gyaml: Land_InsideGanonCastle_Room10_A_01
+  Hash: !ul 14300630531336083408
+  Phive:
+    Placement: {ID: !ul 14300630531336083408}
+  Rotate: [0.0, 0.5235987901687622, 0.0]
+  SRTHash: !u 0x1879eb5e
+  Translate: [-30.739999771118164, 103.9000015258789, -75.16999816894531]
+- Bakeable: true
+  Gyaml: Land_InsideGanonCastle_Room04_A_01
+  Hash: !ul 16876213198096720414
+  Phive:
+    Placement: {ID: !ul 16876213198096720414}
+  Rotate: [0.0, 0.5235987901687622, 0.0]
+  SRTHash: !u 0x97c275a5
+  Translate: [-49.5, 103.9800033569336, -98.66000366210938]
+- Bakeable: true
+  Gyaml: Land_InsideGanonCastle_Room11_A_01
+  Hash: !ul 613164424506845399
+  Phive:
+    Placement: {ID: !ul 613164424506845399}
+  Rotate: [0.0, 0.5235987901687622, 0.0]
+  SRTHash: !u 0x97c275a5
+  Translate: [-49.5, 103.9800033569336, -98.66000366210938]
+- Gyaml: EftLoc_InsideGanonCastle_SageRoom_Fire_00
+  Hash: !ul 15705490740061157594
+  Phive:
+    Placement: {ID: !ul 15705490740061157594}
+  Presence: {FlagName: HavePlayedEvent.InsideGanonCastle_Dungeon_BarrierRemove_Fire,
+    IsCheckLazy: false, IsNegation: false}
+  Rotate: [0.0, 0.4993372857570648, 0.0]
+  SRTHash: !u 0x60d5bf27
+  Translate: [-57.041290283203125, 104.77412414550781, -111.72672271728516]
+- Bakeable: true
+  Gyaml: Land_InsideGanonCastle_Room12_A_01
+  Hash: !ul 12790785033005531865
+  Phive:
+    Placement: {ID: !ul 12790785033005531865}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xb6586a2d
+  Translate: [-40.47999954223633, 99.73999786376953, -21.0]
+- Bakeable: true
+  Gyaml: Land_InsideGanonCastle_Room13_A_01
+  Hash: !ul 16932757158732193446
+  Phive:
+    Placement: {ID: !ul 16932757158732193446}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x2da3e530
+  Translate: [-47.97999954223633, 99.73999786376953, -21.0]
+- Dynamic: {DefaultDungeonRoomIndex: 13}
+  Gyaml: Land_HrlCastle_CandleStick_A_01
+  Hash: !ul 17395611722450237416
+  Phive:
+    Placement: {ID: !ul 17395611722450237416}
+  SRTHash: !u 0x47d95b2a
+  Translate: [-53.30717468261719, 101.91580200195312, -25.857343673706055]
+- Dynamic: {DefaultDungeonRoomIndex: 13}
+  Gyaml: Land_HrlCastle_CandleStick_A_01
+  Hash: !ul 10481278192381561163
+  Phive:
+    Placement: {ID: !ul 10481278192381561163}
+  SRTHash: !u 0x4a2cb472
+  Translate: [-51.09407424926758, 101.91580200195312, -25.857343673706055]
+- Dynamic: {DefaultDungeonRoomIndex: 13}
+  Gyaml: Land_HrlCastle_CandleStick_A_01
+  Hash: !ul 10470059435184594726
+  Phive:
+    Placement: {ID: !ul 10470059435184594726}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x6056e7cc
+  Translate: [-53.30717468261719, 101.91580200195312, -16.139999389648438]
+- Dynamic: {DefaultDungeonRoomIndex: 13}
+  Gyaml: Land_HrlCastle_CandleStick_A_01
+  Hash: !ul 858410409418927688
+  Phive:
+    Placement: {ID: !ul 858410409418927688}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xf17b848b
+  Translate: [-51.09407424926758, 101.91580200195312, -16.139999389648438]
+- Bakeable: true
+  Gyaml: Land_InsideGanonCastle_Room14_A_01
+  Hash: !ul 3037620067911285792
+  Phive:
+    Placement: {ID: !ul 3037620067911285792}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xcaf5bca9
+  Translate: [-56.43000030517578, 99.73999786376953, -21.0]
+- Bakeable: true
+  Gyaml: Land_InsideGanonCastle_Room15_A_01
+  Hash: !ul 11725237380620491798
+  Phive:
+    Placement: {ID: !ul 11725237380620491798}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xc838c311
+  Translate: [-100.00499725341797, 100.5, -21.0]
+- Gyaml: EftLoc_InsideGanonCastle_SageRoom_Light_00
+  Hash: !ul 965817247758167765
+  Phive:
+    Placement: {ID: !ul 965817247758167765}
+  Presence: {FlagName: HavePlayedEvent.InsideGanonCastle_Dungeon_BarrierRemove_Light,
+    IsCheckLazy: false, IsNegation: false}
+  Rotate: [0.0, 1.5574718713760376, 0.0]
+  SRTHash: !u 0xc050dde2
+  Translate: [-115.18195343017578, 101.28953552246094, -20.998699188232422]
+- Bakeable: true
+  Gyaml: Land_InsideGanonCastle_Room16_A_01
+  Hash: !ul 17615465358984204646
+  Phive:
+    Placement: {ID: !ul 17615465358984204646}
+  Rotate: [3.1415927410125732, 0.523598849773407, 3.1415927410125732]
+  SRTHash: !u 0xcd2e98a6
+  Translate: [-22.34000015258789, 103.9000015258789, 18.610000610351562]
+- Bakeable: true
+  Dynamic: {DefaultDungeonRoomIndex: 16}
+  Gyaml: Land_SpiritTemple_Lamp_A_01
+  Hash: !ul 13536814276736326474
+  Phive:
+    Placement: {ID: !ul 13536814276736326474}
+  Rotate: [3.1415927410125732, -1.0616592168807983, 3.1415927410125732]
+  SRTHash: !u 0x99c22f27
+  Translate: [-12.9159517288208, 106.53065490722656, 17.47380828857422]
+- Bakeable: true
+  Dynamic: {DefaultDungeonRoomIndex: 16}
+  Gyaml: Land_SpiritTemple_Lamp_A_01
+  Hash: !ul 7450551295610472352
+  Phive:
+    Placement: {ID: !ul 7450551295610472352}
+  Rotate: [3.1415927410125732, -1.0616592168807983, 3.1415927410125732]
+  SRTHash: !u 0xc312d6ce
+  Translate: [-16.6637020111084, 106.53065490722656, 23.96935272216797]
+- Bakeable: true
+  Dynamic: {DefaultDungeonRoomIndex: 16}
+  Gyaml: Land_SpiritTemple_Lamp_A_01
+  Hash: !ul 2737646754545976718
+  Phive:
+    Placement: {ID: !ul 2737646754545976718}
+  Rotate: [0.0, 1.0425100326538086, 0.0]
+  SRTHash: !u 0x190a5b0f
+  Translate: [-26.124475479125977, 106.53065490722656, 9.954797744750977]
+- Bakeable: true
+  Dynamic: {DefaultDungeonRoomIndex: 16}
+  Gyaml: Land_SpiritTemple_Lamp_A_01
+  Hash: !ul 10914171985247626293
+  Phive:
+    Placement: {ID: !ul 10914171985247626293}
+  Rotate: [0.0, 1.0425100326538086, 0.0]
+  SRTHash: !u 0xf5c86cde
+  Translate: [-29.8131160736084, 106.53065490722656, 16.34668731689453]
+- Bakeable: true
+  Gyaml: Land_InsideGanonCastle_Room17_A_01
+  Hash: !ul 15397155633051082927
+  Phive:
+    Placement: {ID: !ul 15397155633051082927}
+  Rotate: [3.1415927410125732, 0.523598849773407, 3.1415927410125732]
+  SRTHash: !u 0x74d49afb
+  Translate: [-41.38999938964844, 105.01000213623047, 28.59000015258789]
+- Dynamic: {DefaultDungeonRoomIndex: 17}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_06
+  Hash: !ul 10045871721802859493
+  Phive:
+    Placement: {ID: !ul 10045871721802859493}
+  Rotate: [0.0, 1.0471975803375244, 0.0]
+  SRTHash: !u 0xa84743d8
+  Translate: [-49.95448303222656, 106.14851379394531, 13.122411727905273]
+- Dynamic: {DefaultDungeonRoomIndex: 17}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_06
+  Hash: !ul 8734954785459770885
+  Phive:
+    Placement: {ID: !ul 8734954785459770885}
+  Rotate: [0.0, 1.0471975803375244, 0.0]
+  SRTHash: !u 0x768d3d96
+  Translate: [-48.44102478027344, 106.14851379394531, 10.501029968261719]
+- Bakeable: true
+  Dynamic: {DefaultDungeonRoomIndex: 17}
+  Gyaml: Land_SpiritTemple_Lamp_A_01
+  Hash: !ul 2993740978051704923
+  Phive:
+    Placement: {ID: !ul 2993740978051704923}
+  Rotate: [0.0, 1.0471975803375244, 0.0]
+  SRTHash: !u 0xddca6043
+  Translate: [-40.946372985839844, 106.60786437988281, 11.765267372131348]
+- Bakeable: true
+  Dynamic: {DefaultDungeonRoomIndex: 17}
+  Gyaml: Land_SpiritTemple_Lamp_A_01
+  Hash: !ul 4673722418604250304
+  Phive:
+    Placement: {ID: !ul 4673722418604250304}
+  Rotate: [0.0, 1.0471975803375244, 0.0]
+  SRTHash: !u 0x3c3e4684
+  Translate: [-45.01245880126953, 106.60786437988281, 18.807924270629883]
+- Bakeable: true
+  Dynamic: {DefaultDungeonRoomIndex: 17}
+  Gyaml: Land_SpiritTemple_Lamp_A_01
+  Hash: !ul 14326347453121648191
+  Phive:
+    Placement: {ID: !ul 14326347453121648191}
+  Rotate: [0.0, 1.0471975803375244, 0.0]
+  SRTHash: !u 0xeb77cf7d
+  Translate: [-48.29880905151367, 106.60786437988281, 24.50004768371582]
+- Bakeable: true
+  Gyaml: Land_InsideGanonCastle_Room17_A_02
+  Hash: !ul 15656793141477387255
+  Phive:
+    Placement: {ID: !ul 15656793141477387255}
+  Rotate: [3.1415927410125732, 0.523598849773407, 3.1415927410125732]
+  SRTHash: !u 0x74d49afb
+  Translate: [-41.38999938964844, 105.01000213623047, 28.59000015258789]
+- Bakeable: true
+  Gyaml: Land_InsideGanonCastle_Room04_A_01
+  Hash: !ul 13779521311505826572
+  Phive:
+    Placement: {ID: !ul 13779521311505826572}
+  Rotate: [3.1415927410125732, 0.523598849773407, 3.1415927410125732]
+  SRTHash: !u 0xc758b382
+  Translate: [-34.63999938964844, 105.01000213623047, 45.45000076293945]
+- Bakeable: true
+  Gyaml: Land_InsideGanonCastle_Room18_A_01
+  Hash: !ul 1152700358079040574
+  Phive:
+    Placement: {ID: !ul 1152700358079040574}
+  Rotate: [3.1415927410125732, 0.523598849773407, 3.1415927410125732]
+  SRTHash: !u 0xc758b382
+  Translate: [-34.63999938964844, 105.01000213623047, 45.45000076293945]
+- Gyaml: EftLoc_InsideGanonCastle_SageRoom_Soul_00
+  Hash: !ul 1198531035406639481
+  Phive:
+    Placement: {ID: !ul 1198531035406639481}
+  Presence: {FlagName: HavePlayedEvent.InsideGanonCastle_Dungeon_BarrierRemove_Spirit,
+    IsCheckLazy: false, IsNegation: false}
+  Rotate: [3.1415927410125732, 0.5114268660545349, 3.1415927410125732]
+  SRTHash: !u 0x08f371b0
+  Translate: [-42.24261474609375, 105.7995376586914, 58.54418182373047]
+- Bakeable: true
+  Gyaml: Land_InsideGanonCastle_Room19_A_01
+  Hash: !ul 3704637153151487716
+  Phive:
+    Placement: {ID: !ul 3704637153151487716}
+  SRTHash: !u 0x034808b1
+  Translate: [0.0, 129.89999389648438, -19.81999969482422]
+- Dynamic: {DefaultDungeonRoomIndex: 19}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 13348124993666188741
+  Phive:
+    Placement: {ID: !ul 13348124993666188741}
+  Rotate: [0.0, 0.8695574402809143, 0.0]
+  SRTHash: !u 0xa5a17696
+  Translate: [-6.564713478088379, 134.7291259765625, -8.511134147644043]
+- Dynamic: {DefaultDungeonRoomIndex: 19}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 6975546291856450613
+  Phive:
+    Placement: {ID: !ul 6975546291856450613}
+  Rotate: [3.1415927410125732, 0.8836626410484314, 3.1415927410125732]
+  SRTHash: !u 0x1fa84f97
+  Translate: [-6.651863098144531, 134.7291259765625, -3.5903592109680176]
+- Dynamic: {DefaultDungeonRoomIndex: 19}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 16620951774274524523
+  Phive:
+    Placement: {ID: !ul 16620951774274524523}
+  Rotate: [0.0, -0.9841897487640381, 0.0]
+  SRTHash: !u 0x671e279f
+  Translate: [6.379855155944824, 134.7291259765625, -8.753665924072266]
+- Dynamic: {DefaultDungeonRoomIndex: 19}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 15327093170656424965
+  Phive:
+    Placement: {ID: !ul 15327093170656424965}
+  Rotate: [3.1415927410125732, -0.8398906588554382, 3.1415927410125732]
+  SRTHash: !u 0xcb9f170a
+  Translate: [6.464221477508545, 134.7291259765625, -3.4047865867614746]
+- Dynamic: {DefaultDungeonRoomIndex: 19}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 9747516645847601257
+  Phive:
+    Placement: {ID: !ul 9747516645847601257}
+  Rotate: [3.1415927410125732, 0.8477967977523804, 3.1415927410125732]
+  SRTHash: !u 0x6d96d36e
+  Translate: [-20.21300506591797, 137.11004638671875, -9.893136978149414]
+- Dynamic: {DefaultDungeonRoomIndex: 19}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 14727574061547995456
+  Phive:
+    Placement: {ID: !ul 14727574061547995456}
+  Rotate: [0.0, -0.8236661553382874, 0.0]
+  SRTHash: !u 0x01d2e1de
+  Translate: [-17.216312408447266, 137.11004638671875, -12.537598609924316]
+- Dynamic: {DefaultDungeonRoomIndex: 19}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 12326522219700119332
+  Phive:
+    Placement: {ID: !ul 12326522219700119332}
+  Rotate: [3.1415927410125732, 0.7113279700279236, 3.1415927410125732]
+  SRTHash: !u 0x24ff629d
+  Translate: [-25.064834594726562, 139.73651123046875, -21.299406051635742]
+- Dynamic: {DefaultDungeonRoomIndex: 19}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 3831711461853215410
+  Phive:
+    Placement: {ID: !ul 3831711461853215410}
+  Rotate: [0.0, 0.7651382684707642, 0.0]
+  SRTHash: !u 0xdec7718c
+  Translate: [-24.968412399291992, 139.73651123046875, -29.494640350341797]
+- Dynamic: {DefaultDungeonRoomIndex: 19}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 11631573243064637438
+  Phive:
+    Placement: {ID: !ul 11631573243064637438}
+  Rotate: [0.0, -0.7095081806182861, 0.0]
+  SRTHash: !u 0x211b54e8
+  Translate: [-18.09380340576172, 139.73651123046875, -29.492185592651367]
+- Dynamic: {DefaultDungeonRoomIndex: 19}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 15365698442872169758
+  Phive:
+    Placement: {ID: !ul 15365698442872169758}
+  Rotate: [3.1415927410125732, -0.6470956206321716, 3.1415927410125732]
+  SRTHash: !u 0xf6559a6b
+  Translate: [-19.70960235595703, 139.73651123046875, -21.32240104675293]
+- Dynamic: {DefaultDungeonRoomIndex: 19}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 13511869006027624886
+  Phive:
+    Placement: {ID: !ul 13511869006027624886}
+  Rotate: [0.0, -0.8702922463417053, 0.0]
+  SRTHash: !u 0x94442cb5
+  Translate: [7.923290252685547, 132.77044677734375, -31.72224235534668]
+- Dynamic: {DefaultDungeonRoomIndex: 19}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 3409056792542877096
+  Phive:
+    Placement: {ID: !ul 3409056792542877096}
+  Rotate: [3.1415927410125732, -0.8679894804954529, 3.1415927410125732]
+  SRTHash: !u 0xb22e0f7f
+  Translate: [7.929744243621826, 132.77044677734375, -17.533967971801758]
+- Dynamic: {DefaultDungeonRoomIndex: 19}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 18156844634688766784
+  Phive:
+    Placement: {ID: !ul 18156844634688766784}
+  Rotate: [3.1415927410125732, 0.8692616820335388, 3.1415927410125732]
+  SRTHash: !u 0x27829889
+  Translate: [-7.928735733032227, 132.77044677734375, -17.531957626342773]
+- Dynamic: {DefaultDungeonRoomIndex: 19}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 11300676814559765097
+  Phive:
+    Placement: {ID: !ul 11300676814559765097}
+  Rotate: [0.0, 0.8796662092208862, 0.0]
+  SRTHash: !u 0xaa2b4fb9
+  Translate: [-7.921230316162109, 132.77044677734375, -31.729475021362305]
+- Dynamic: {DefaultDungeonRoomIndex: 19}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 1382104025061023459
+  Phive:
+    Placement: {ID: !ul 1382104025061023459}
+  Rotate: [3.1415927410125732, 1.483529806137085, 3.1415927410125732]
+  SRTHash: !u 0xd33f85f1
+  Translate: [-3.254804849624634, 134.13523864746094, -11.642495155334473]
+- Dynamic: {DefaultDungeonRoomIndex: 19}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 240942849836778744
+  Phive:
+    Placement: {ID: !ul 240942849836778744}
+  Rotate: [3.1415927410125732, -1.483529806137085, 3.1415927410125732]
+  SRTHash: !u 0xac1086cf
+  Translate: [3.2637784481048584, 134.13523864746094, -11.640364646911621]
+- Bakeable: true
+  Gyaml: Land_InsideGanonCastle_Room20_A_01
+  Hash: !ul 17892223975147381690
+  Phive:
+    Placement: {ID: !ul 17892223975147381690}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x4afe7950
+  Translate: [0.0, 136.25, -24.649999618530273]
+- Dynamic: {DefaultDungeonRoomIndex: 20}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 14856280135035962298
+  Phive:
+    Placement: {ID: !ul 14856280135035962298}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x779b6660
+  Translate: [14.580501556396484, 138.9325408935547, -23.30905532836914]
+- Dynamic: {DefaultDungeonRoomIndex: 20}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 18222456288741590322
+  Phive:
+    Placement: {ID: !ul 18222456288741590322}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x5b6094a4
+  Translate: [14.580501556396484, 138.9325408935547, -26.003589630126953]
+- Gyaml: Obj_InsideGanonCastle_CandleStand_A_03
+  Hash: !ul 11006439359241828771
+  Phive:
+    Placement: {ID: !ul 11006439359241828771}
+  Rotate: [0.0, -0.7853981852531433, 0.0]
+  SRTHash: !u 0xbf994b51
+  Translate: [7.312417507171631, 138.91000366210938, -31.962413787841797]
+- Gyaml: Obj_InsideGanonCastle_CandleStand_A_03
+  Hash: !ul 11800344577536577088
+  Phive:
+    Placement: {ID: !ul 11800344577536577088}
+  Rotate: [3.1415927410125732, -0.7853981852531433, 3.1415927410125732]
+  SRTHash: !u 0xb5813459
+  Translate: [7.317883014678955, 138.91000366210938, -17.332115173339844]
+- Gyaml: Obj_InsideGanonCastle_CandleStand_A_03
+  Hash: !ul 1985054892955600367
+  Phive:
+    Placement: {ID: !ul 1985054892955600367}
+  Rotate: [3.1415927410125732, 0.7853981852531433, 3.1415927410125732]
+  SRTHash: !u 0x83839249
+  Translate: [-7.317245006561279, 138.91000366210938, -17.332748413085938]
+- Gyaml: Obj_InsideGanonCastle_CandleStand_A_03
+  Hash: !ul 3518218135322402292
+  Phive:
+    Placement: {ID: !ul 3518218135322402292}
+  Rotate: [0.0, 0.7853981852531433, 0.0]
+  SRTHash: !u 0x7b3eeb40
+  Translate: [-7.313620090484619, 138.91000366210938, -31.963623046875]
+- Bakeable: true
+  Gyaml: Land_InsideGanonCastle_Room23_A_01
+  Hash: !ul 5532897825011777654
+  Phive:
+    Placement: {ID: !ul 5532897825011777654}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xccb1264c
+  Translate: [20.68000030517578, 137.25999450683594, -24.6299991607666]
+- Dynamic: {DefaultDungeonRoomIndex: 21}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 7251899868863656637
+  Phive:
+    Placement: {ID: !ul 7251899868863656637}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x45aa66ad
+  Translate: [-1.7868632078170776, 146.2041015625, -40.45197296142578]
+- Dynamic: {DefaultDungeonRoomIndex: 21}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 2165366145976231180
+  Phive:
+    Placement: {ID: !ul 2165366145976231180}
+  Rotate: [0.0, -0.9783534407615662, 0.0]
+  SRTHash: !u 0x0354f264
+  Translate: [20.50452995300293, 142.92263793945312, -39.80105972290039]
+- Dynamic: {DefaultDungeonRoomIndex: 21}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 13165254554499976530
+  Phive:
+    Placement: {ID: !ul 13165254554499976530}
+  Rotate: [0.0, -0.7137351632118225, 0.0]
+  SRTHash: !u 0x7cd02b74
+  Translate: [23.309186935424805, 141.14999389648438, -28.103010177612305]
+- Dynamic: {DefaultDungeonRoomIndex: 21}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 16447403954379527444
+  Phive:
+    Placement: {ID: !ul 16447403954379527444}
+  Rotate: [0.0, -0.013125867582857609, 0.0]
+  SRTHash: !u 0x02cada51
+  Translate: [7.694946765899658, 146.09130859375, -47.26992416381836]
+- Dynamic: {DefaultDungeonRoomIndex: 21}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 9316871583306799398
+  Phive:
+    Placement: {ID: !ul 9316871583306799398}
+  Rotate: [0.0, 0.7043625712394714, 0.0]
+  SRTHash: !u 0x36eecc0e
+  Translate: [18.060632705688477, 141.14999389648438, -28.138120651245117]
+- Dynamic: {DefaultDungeonRoomIndex: 21}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 3028186901911559907
+  Phive:
+    Placement: {ID: !ul 3028186901911559907}
+  Rotate: [3.1415927410125732, -0.00230303592979908, 3.1415927410125732]
+  SRTHash: !u 0xb1fe69c7
+  Translate: [7.304861545562744, 146.09130859375, -43.18489456176758]
+- Dynamic: {DefaultDungeonRoomIndex: 21}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 11838808381784572051
+  Phive:
+    Placement: {ID: !ul 11838808381784572051}
+  Rotate: [3.1415927410125732, 1.008668303489685, 3.1415927410125732]
+  SRTHash: !u 0x1251f6a0
+  Translate: [17.07676887512207, 142.92263793945312, -37.55453109741211]
+- Dynamic: {DefaultDungeonRoomIndex: 21}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 11526596559516300724
+  Phive:
+    Placement: {ID: !ul 11526596559516300724}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xa5fb9fea
+  Translate: [1.8155778646469116, 146.2041015625, -40.449928283691406]
+- Bakeable: true
+  Gyaml: Land_InsideGanonCastle_Room23_A_02
+  Hash: !ul 2087784251454638490
+  Phive:
+    Placement: {ID: !ul 2087784251454638490}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xccb1264c
+  Translate: [20.68000030517578, 137.25999450683594, -24.6299991607666]
+- Bakeable: true
+  Gyaml: Land_InsideGanonCastle_Room23_A_03
+  Hash: !ul 3203189637058505926
+  Phive:
+    Placement: {ID: !ul 3203189637058505926}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xccb1264c
+  Translate: [20.68000030517578, 137.25999450683594, -24.6299991607666]
+- Dynamic: {DefaultDungeonRoomIndex: 22}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 15735339715357424749
+  Phive:
+    Placement: {ID: !ul 15735339715357424749}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x03d3fdd4
+  Translate: [-1.3334485292434692, 145.62176513671875, -10.102656364440918]
+- Dynamic: {DefaultDungeonRoomIndex: 22}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 239405836559618316
+  Phive:
+    Placement: {ID: !ul 239405836559618316}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xe4145b41
+  Translate: [1.3495558500289917, 145.62176513671875, -10.102656364440918]
+- Gyaml: Obj_InsideGanonCastle_CandleStand_A_03
+  Hash: !ul 11224043324867233265
+  Phive:
+    Placement: {ID: !ul 11224043324867233265}
+  Rotate: [0.0, 0.7853981852531433, 0.0]
+  SRTHash: !u 0x37c7e0eb
+  Translate: [-7.314529895782471, 145.61000061035156, -31.964529037475586]
+- Gyaml: Obj_InsideGanonCastle_CandleStand_A_03
+  Hash: !ul 730188761449789400
+  Phive:
+    Placement: {ID: !ul 730188761449789400}
+  Rotate: [3.1415927410125732, 0.8135150671005249, 3.1415927410125732]
+  SRTHash: !u 0x7c0e3dbb
+  Translate: [-7.3264546394348145, 145.61000061035156, -17.331668853759766]
+- Gyaml: Obj_InsideGanonCastle_CandleStand_A_03
+  Hash: !ul 15894974778540516482
+  Phive:
+    Placement: {ID: !ul 15894974778540516482}
+  Rotate: [3.1415927410125732, -0.7853981852531433, 3.1415927410125732]
+  SRTHash: !u 0xf60b2eb6
+  Translate: [7.320631980895996, 145.61000061035156, -17.329370498657227]
+- Gyaml: Obj_InsideGanonCastle_CandleStand_A_03
+  Hash: !ul 17296988469372540436
+  Phive:
+    Placement: {ID: !ul 17296988469372540436}
+  Rotate: [0.0, -0.7853981852531433, 0.0]
+  SRTHash: !u 0x38e140d6
+  Translate: [7.318499565124512, 145.61000061035156, -31.968494415283203]
+- Bakeable: true
+  Gyaml: Land_InsideGanonCastle_Room23_A_01
+  Hash: !ul 2756414239890118782
+  Phive:
+    Placement: {ID: !ul 2756414239890118782}
+  SRTHash: !u 0xab385586
+  Translate: [0.0, 143.97000122070312, -3.9600000381469727]
+- Dynamic: {DefaultDungeonRoomIndex: 23}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 3939611319444220881
+  Phive:
+    Placement: {ID: !ul 3939611319444220881}
+  Rotate: [0.0, 1.5264310836791992, 0.0]
+  SRTHash: !u 0x710fa4d6
+  Translate: [18.559459686279297, 153.24783325195312, -17.36697769165039]
+- Dynamic: {DefaultDungeonRoomIndex: 23}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 14437888608286027631
+  Phive:
+    Placement: {ID: !ul 14437888608286027631}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x04c3cea8
+  Translate: [15.822198867797852, 152.8282012939453, -22.839462280273438]
+- Dynamic: {DefaultDungeonRoomIndex: 23}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 6107908395353316663
+  Phive:
+    Placement: {ID: !ul 6107908395353316663}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x8f8ae27d
+  Translate: [15.822980880737305, 152.8282012939453, -26.431621551513672]
+- Dynamic: {DefaultDungeonRoomIndex: 23}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 16305844759841730959
+  Phive:
+    Placement: {ID: !ul 16305844759841730959}
+  Rotate: [3.1415927410125732, -0.4892403185367584, 3.1415927410125732]
+  SRTHash: !u 0x2898520b
+  Translate: [15.265048027038574, 150.0181121826172, -4.191436767578125]
+- Dynamic: {DefaultDungeonRoomIndex: 23}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 10958474788300743855
+  Phive:
+    Placement: {ID: !ul 10958474788300743855}
+  Rotate: [3.1415927410125732, -0.8679653406143188, 3.1415927410125732]
+  SRTHash: !u 0x30ce4443
+  Translate: [3.475616693496704, 148.1614532470703, -1.3346571922302246]
+- Dynamic: {DefaultDungeonRoomIndex: 23}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 15866310535442088102
+  Phive:
+    Placement: {ID: !ul 15866310535442088102}
+  Rotate: [3.1415927410125732, -1.5473394393920898, 3.1415927410125732]
+  SRTHash: !u 0xa600f386
+  Translate: [22.64078140258789, 153.24783325195312, -16.9739933013916]
+- Dynamic: {DefaultDungeonRoomIndex: 23}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 12317559990799052170
+  Phive:
+    Placement: {ID: !ul 12317559990799052170}
+  Rotate: [0.0, 0.45035964250564575, 0.0]
+  SRTHash: !u 0xc2165804
+  Translate: [12.861455917358398, 150.0181121826172, -7.5276198387146]
+- Dynamic: {DefaultDungeonRoomIndex: 23}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 10346405860975981508
+  Phive:
+    Placement: {ID: !ul 10346405860975981508}
+  Rotate: [0.0, -0.83775794506073, 0.0]
+  SRTHash: !u 0xf5c87a15
+  Translate: [3.502532482147217, 148.1614532470703, -6.584875583648682]
+- Bakeable: true
+  Gyaml: Land_InsideGanonCastle_Room23_A_02
+  Hash: !ul 17948931175815138555
+  Phive:
+    Placement: {ID: !ul 17948931175815138555}
+  SRTHash: !u 0xab385586
+  Translate: [0.0, 143.97000122070312, -3.9600000381469727]
+- Bakeable: true
+  Gyaml: Land_InsideGanonCastle_Room23_A_03
+  Hash: !ul 7988003487371472248
+  Phive:
+    Placement: {ID: !ul 7988003487371472248}
+  SRTHash: !u 0xab385586
+  Translate: [0.0, 143.97000122070312, -3.9600000381469727]
+- Bakeable: true
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_04
+  Hash: !ul 2455364731169583231
+  Phive:
+    Placement: {ID: !ul 2455364731169583231}
+  Rotate: [3.1415927410125732, 0.7136830687522888, 3.1415927410125732]
+  SRTHash: !u 0x4bbadaae
+  Translate: [-7.239360809326172, 150.12799072265625, -16.666902542114258]
+- Bakeable: true
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_04
+  Hash: !ul 9621754488594226899
+  Phive:
+    Placement: {ID: !ul 9621754488594226899}
+  Rotate: [3.1415927410125732, -0.7446133494377136, 3.1415927410125732]
+  SRTHash: !u 0x92149a37
+  Translate: [7.310187816619873, 150.12799072265625, -16.893043518066406]
+- Bakeable: true
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_04
+  Hash: !ul 3830733813739054166
+  Phive:
+    Placement: {ID: !ul 3830733813739054166}
+  Rotate: [0.0, -0.7386307120323181, 0.0]
+  SRTHash: !u 0x873563eb
+  Translate: [7.320130825042725, 150.12799072265625, -32.412471771240234]
+- Bakeable: true
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_04
+  Hash: !ul 1721522789813020579
+  Phive:
+    Placement: {ID: !ul 1721522789813020579}
+  Rotate: [0.0, 0.7005642652511597, 0.0]
+  SRTHash: !u 0x643adaef
+  Translate: [-7.241321086883545, 150.12844848632812, -32.623321533203125]
+- Dynamic: {DefaultDungeonRoomIndex: 24}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 16628261555483890982
+  Phive:
+    Placement: {ID: !ul 16628261555483890982}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x1e61df2d
+  Translate: [-14.581655502319336, 152.33349609375, -25.99534797668457]
+- Dynamic: {DefaultDungeonRoomIndex: 24}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 2255842044077389688
+  Phive:
+    Placement: {ID: !ul 2255842044077389688}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x818e591c
+  Translate: [-14.581655502319336, 152.33349609375, -23.296422958374023]
+- Dynamic: {DefaultDungeonRoomIndex: 25}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 16169906094352934732
+  Phive:
+    Placement: {ID: !ul 16169906094352934732}
+  Rotate: [3.1415927410125732, 0.8083113431930542, 3.1415927410125732]
+  SRTHash: !u 0xad989699
+  Translate: [-28.608440399169922, 154.1999969482422, -21.777835845947266]
+- Dynamic: {DefaultDungeonRoomIndex: 25}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 5049332224657604358
+  Phive:
+    Placement: {ID: !ul 5049332224657604358}
+  Rotate: [3.1415927410125732, 0.3478972017765045, 3.1415927410125732]
+  SRTHash: !u 0x1eb7c7c3
+  Translate: [-12.451555252075195, 158.79302978515625, 1.8004206418991089]
+- Dynamic: {DefaultDungeonRoomIndex: 25}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 11467700752295773364
+  Phive:
+    Placement: {ID: !ul 11467700752295773364}
+  Rotate: [3.1415927410125732, 0.7618209719657898, 3.1415927410125732]
+  SRTHash: !u 0xd7741d32
+  Translate: [-20.974252700805664, 157.208984375, -3.5920498371124268]
+- Dynamic: {DefaultDungeonRoomIndex: 25}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 4925566769703878483
+  Phive:
+    Placement: {ID: !ul 4925566769703878483}
+  SRTHash: !u 0x5fa3e069
+  Translate: [1.9813616275787354, 159.87200927734375, -6.487841606140137]
+- Dynamic: {DefaultDungeonRoomIndex: 25}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 6178460181338243212
+  Phive:
+    Placement: {ID: !ul 6178460181338243212}
+  Rotate: [3.1415927410125732, 1.190946340560913, 3.1415927410125732]
+  SRTHash: !u 0x73a37d2e
+  Translate: [-26.520660400390625, 155.60191345214844, -12.022741317749023]
+- Dynamic: {DefaultDungeonRoomIndex: 25}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 15248099192695806380
+  Phive:
+    Placement: {ID: !ul 15248099192695806380}
+  Rotate: [0.0, -0.3424285650253296, 0.0]
+  SRTHash: !u 0xd2c67c3d
+  Translate: [-10.415605545043945, 158.79513549804688, -3.756405830383301]
+- Dynamic: {DefaultDungeonRoomIndex: 25}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 3269764436408579772
+  Phive:
+    Placement: {ID: !ul 3269764436408579772}
+  Rotate: [3.1415927410125732, -0.7911097407341003, 3.1415927410125732]
+  SRTHash: !u 0xc0cf06d7
+  Translate: [-21.748268127441406, 154.1999969482422, -21.776371002197266]
+- Dynamic: {DefaultDungeonRoomIndex: 25}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 1114082991036917688
+  Phive:
+    Placement: {ID: !ul 1114082991036917688}
+  Rotate: [0.0, -0.768255889415741, 0.0]
+  SRTHash: !u 0x066bc13e
+  Translate: [-16.82758331298828, 157.19674682617188, -7.818389415740967]
+- Dynamic: {DefaultDungeonRoomIndex: 25}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 8067937706479121325
+  Phive:
+    Placement: {ID: !ul 8067937706479121325}
+  SRTHash: !u 0x00628eb0
+  Translate: [-1.8539276123046875, 159.87200927734375, -6.489470958709717]
+- Dynamic: {DefaultDungeonRoomIndex: 25}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 13302401284798573567
+  Phive:
+    Placement: {ID: !ul 13302401284798573567}
+  Rotate: [0.0, -1.2037569284439087, 0.0]
+  SRTHash: !u 0x28f836b0
+  Translate: [-20.99868392944336, 155.5963592529297, -14.153777122497559]
+- Dynamic: {DefaultDungeonRoomIndex: 62}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_05
+  Hash: !ul 6460247945445977866
+  Phive:
+    Placement: {ID: !ul 6460247945445977866}
+  Rotate: [0.0, -0.7853981852531433, 0.0]
+  SRTHash: !u 0x43fc3e23
+  Translate: [4.458000183105469, 160.63999938964844, -49.2239990234375]
+- Dynamic: {DefaultDungeonRoomIndex: 62}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_05
+  Hash: !ul 3356092844907439198
+  Phive:
+    Placement: {ID: !ul 3356092844907439198}
+  Rotate: [3.1415927410125732, -0.7853981852531433, 3.1415927410125732]
+  SRTHash: !u 0x4a4ac0a9
+  Translate: [4.440000057220459, 160.63999938964844, -45.09299850463867]
+- Dynamic: {DefaultDungeonRoomIndex: 62}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_05
+  Hash: !ul 10413998214696971218
+  Phive:
+    Placement: {ID: !ul 10413998214696971218}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x6f5fed50
+  Translate: [-4.591000080108643, 160.39999389648438, -44.654998779296875]
+- Dynamic: {DefaultDungeonRoomIndex: 62}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_05
+  Hash: !ul 3290866986010587401
+  Phive:
+    Placement: {ID: !ul 3290866986010587401}
+  SRTHash: !u 0x63843634
+  Translate: [0.09600000083446503, 160.63999938964844, -51.53900146484375]
+- Dynamic: {DefaultDungeonRoomIndex: 62}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_05
+  Hash: !ul 6826843732786514340
+  Phive:
+    Placement: {ID: !ul 6826843732786514340}
+  SRTHash: !u 0x86a10993
+  Translate: [-4.598999977111816, 160.39999389648438, -49.4739990234375]
+- Dynamic: {DefaultDungeonRoomIndex: 63}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_05
+  Hash: !ul 1511662144944610104
+  Phive:
+    Placement: {ID: !ul 1511662144944610104}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x6dec743d
+  Translate: [-2.449378728866577, 160.06187438964844, -21.486724853515625]
+- Dynamic: {DefaultDungeonRoomIndex: 63}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_05
+  Hash: !ul 12548052198864850412
+  Phive:
+    Placement: {ID: !ul 12548052198864850412}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x8244adca
+  Translate: [2.5686681270599365, 160.06187438964844, -21.486724853515625]
+- Dynamic: {DefaultDungeonRoomIndex: 63}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_05
+  Hash: !ul 18169543900694687534
+  Phive:
+    Placement: {ID: !ul 18169543900694687534}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x8b657a4a
+  Translate: [2.5686681270599365, 160.06187438964844, -27.778514862060547]
+- Dynamic: {DefaultDungeonRoomIndex: 63}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_05
+  Hash: !ul 16934932729333103495
+  Phive:
+    Placement: {ID: !ul 16934932729333103495}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xf3b4dac1
+  Translate: [-2.449378728866577, 160.06187438964844, -27.778514862060547]
+- Dynamic: {DefaultDungeonRoomIndex: 63}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_05
+  Hash: !ul 4672419505680305620
+  Phive:
+    Placement: {ID: !ul 4672419505680305620}
+  SRTHash: !u 0x5895f946
+  Translate: [2.6922812461853027, 160.60586547851562, -41.07752990722656]
+- Dynamic: {DefaultDungeonRoomIndex: 63}
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_05
+  Hash: !ul 11345338765384622678
+  Phive:
+    Placement: {ID: !ul 11345338765384622678}
+  SRTHash: !u 0x7b392939
+  Translate: [-2.6545422077178955, 160.60586547851562, -41.079490661621094]
+- Bakeable: true
+  Gyaml: Land_InsideGanonCastle_Room26_A_04
+  Hash: !ul 10047059830394530849
+  Phive:
+    Placement: {ID: !ul 10047059830394530849}
+  SRTHash: !u 0x0b138a21
+  Translate: [0.009999999776482582, 156.64999389648438, -47.029998779296875]
+- Bakeable: true
+  Gyaml: Land_InsideGanonCastle_Room26_A_05
+  Hash: !ul 8951280439835899022
+  Phive:
+    Placement: {ID: !ul 8951280439835899022}
+  SRTHash: !u 0x527a4364
+  Translate: [-0.8399999737739563, 171.0500030517578, 4.269999980926514]
+- Dynamic: {NextBancParamName: CrumblingGanonCastle}
+  Gyaml: ChangeBancBeforehandAnchor
+  Hash: !ul 7316574876693905780
+  Phive:
+    Placement: {ID: !ul 7316574876693905780}
+  SRTHash: !u 0xa21de2f1
+  Translate: [0.040010031312704086, 171.0500030517578, -24.768564224243164]
+- Gyaml: Dm_Land_InsideGanonCastle_A_03
+  Hash: !ul 3823297211608986941
+  Phive:
+    Placement: {ID: !ul 3823297211608986941}
+  SRTHash: !u 0x905a4bc3
+  Translate: [0.05999999865889549, 171.0500030517578, -24.6299991607666]
+- Gyaml: FldObj_AirWall_Common_Cube
+  Hash: !ul 3381207630741802180
+  Phive:
+    Placement: {ID: !ul 3381207630741802180}
+  Rotate: [0.07215840369462967, -0.3106147348880768, -0.23222997784614563]
+  SRTHash: !u 0x294ff567
+  Scale: [1.1792398691177368, 2.706021547317505, 3.712174415588379]
+  Translate: [16.579025268554688, 158.01943969726562, -16.683420181274414]
+- Gyaml: FldObj_AirWall_Common_Cube
+  Hash: !ul 12989579561722841361
+  Phive:
+    Placement: {ID: !ul 12989579561722841361}
+  Rotate: [0.0, -0.3186219334602356, 0.0]
+  SRTHash: !u 0x62e65357
+  Scale: [1.1792398691177368, 1.5, 3.637273073196411]
+  Translate: [16.59797477722168, 156.64846801757812, -16.67668342590332]
+- Gyaml: FldObj_AirWall_Common_Cube
+  Hash: !ul 1746189974564455495
+  Phive:
+    Placement: {ID: !ul 1746189974564455495}
+  Rotate: [3.1415927410125732, -1.2539197206497192, 3.1415927410125732]
+  SRTHash: !u 0x2b9d80d6
+  Scale: [1.1792398691177368, 1.5, 3.6372733116149902]
+  Translate: [-7.926737308502197, 156.6479949951172, -8.054986000061035]
+- Gyaml: FldObj_AirWall_Common_Cube
+  Hash: !ul 5868839553147993917
+  Phive:
+    Placement: {ID: !ul 5868839553147993917}
+  Rotate: [2.552499532699585, -1.1866482496261597, -2.517059803009033]
+  SRTHash: !u 0xe5b33247
+  Scale: [1.1792398691177368, 2.706021785736084, 3.712174654006958]
+  Translate: [-7.918050289154053, 158.0208740234375, -8.079998970031738]
+- Gyaml: FldObj_AirWall_Common_Cube
+  Hash: !ul 7281997771155275730
+  Phive:
+    Placement: {ID: !ul 7281997771155275730}
+  Rotate: [-3.141592502593994, -0.38998207449913025, -3.141592502593994]
+  SRTHash: !u 0xeb6c2ac4
+  Scale: [1.1792398691177368, 1.5, 3.6372733116149902]
+  Translate: [-16.45559310913086, 156.6479949951172, -16.460094451904297]
+- Gyaml: FldObj_AirWall_Common_Cube
+  Hash: !ul 3975948373813914444
+  Phive:
+    Placement: {ID: !ul 3975948373813914444}
+  Rotate: [3.0517635345458984, -0.3800116777420044, -2.9033775329589844]
+  SRTHash: !u 0x4aa7affa
+  Scale: [1.1792398691177368, 2.706021547317505, 3.712174654006958]
+  Translate: [-16.43727684020996, 158.0193328857422, -16.467124938964844]
+- Gyaml: FldObj_AirWall_Common_Cube
+  Hash: !ul 7343500278433638464
+  Phive:
+    Placement: {ID: !ul 7343500278433638464}
+  Rotate: [3.1415927410125732, 0.31862199306488037, 3.1415927410125732]
+  SRTHash: !u 0x39e65538
+  Scale: [1.1792398691177368, 1.5, 3.6372733116149902]
+  Translate: [-16.50109100341797, 156.6479949951172, -32.720558166503906]
+- Gyaml: FldObj_AirWall_Common_Cube
+  Hash: !ul 2408682160161006389
+  Phive:
+    Placement: {ID: !ul 2408682160161006389}
+  Rotate: [-3.06943416595459, 0.3106147050857544, -2.909362554550171]
+  SRTHash: !u 0x4967f29f
+  Scale: [1.1792398691177368, 2.706021547317505, 3.712174415588379]
+  Translate: [-16.48098373413086, 158.01971435546875, -32.713443756103516]
+- Gyaml: FldObj_AirWall_Common_Cube
+  Hash: !ul 4439319288481497095
+  Phive:
+    Placement: {ID: !ul 4439319288481497095}
+  Rotate: [3.1415927410125732, 1.2610996961593628, 3.1415927410125732]
+  SRTHash: !u 0xf7b32156
+  Scale: [1.1792398691177368, 1.5, 3.637273073196411]
+  Translate: [-8.159204483032227, 156.6479949951172, -41.16501998901367]
+- Gyaml: FldObj_AirWall_Common_Cube
+  Hash: !ul 7261440015058779074
+  Phive:
+    Placement: {ID: !ul 7261440015058779074}
+  Rotate: [-2.5411338806152344, 1.1924504041671753, -2.506510019302368]
+  SRTHash: !u 0xf4527680
+  Scale: [1.1792398691177368, 2.706021308898926, 3.712174415588379]
+  Translate: [-8.152588844299316, 158.02011108398438, -41.14283752441406]
+- Gyaml: FldObj_AirWall_Common_Cube
+  Hash: !ul 10453053237113981310
+  Phive:
+    Placement: {ID: !ul 10453053237113981310}
+  Rotate: [0.0, -1.313459873199463, 0.0]
+  SRTHash: !u 0x9f85c65f
+  Scale: [1.1792398691177368, 1.5, 3.6372733116149902]
+  Translate: [7.791223526000977, 156.6479949951172, -8.107081413269043]
+- Gyaml: FldObj_AirWall_Common_Cube
+  Hash: !ul 13830261090196966172
+  Phive:
+    Placement: {ID: !ul 13830261090196966172}
+  Rotate: [0.6943448185920715, -1.2332377433776855, -0.7230437994003296]
+  SRTHash: !u 0x8e86992c
+  Scale: [1.1792398691177368, 2.706021547317505, 3.712174654006958]
+  Translate: [7.786521911621094, 158.01947021484375, -8.126752853393555]
+- Gyaml: FldObj_AirWall_Common_Cube
+  Hash: !ul 11529544637975829495
+  Phive:
+    Placement: {ID: !ul 11529544637975829495}
+  Rotate: [-0.5863805413246155, 1.1852312088012695, -0.6220182776451111]
+  SRTHash: !u 0x76b6e015
+  Scale: [1.1792398691177368, 2.706021547317505, 3.7121741771698]
+  Translate: [8.158550262451172, 158.0185089111328, -41.07543182373047]
+- Gyaml: FldObj_AirWall_Common_Cube
+  Hash: !ul 10433297361146794928
+  Phive:
+    Placement: {ID: !ul 10433297361146794928}
+  Rotate: [0.0, 1.252174735069275, 0.0]
+  SRTHash: !u 0xe2a79079
+  Scale: [1.1792398691177368, 1.5, 3.6372733116149902]
+  Translate: [8.164406776428223, 156.6479949951172, -41.09172439575195]
+- Gyaml: FldObj_AirWall_Common_Cube
+  Hash: !ul 388253047535524395
+  Phive:
+    Placement: {ID: !ul 388253047535524395}
+  Rotate: [0.0, 0.4493229389190674, 0.0]
+  SRTHash: !u 0xfa0b5565
+  Scale: [1.1792398691177368, 1.5, 3.6372733116149902]
+  Translate: [16.50682258605957, 156.6479949951172, -32.82098388671875]
+- Gyaml: FldObj_AirWall_Common_Cube
+  Hash: !ul 12182128592647633285
+  Phive:
+    Placement: {ID: !ul 12182128592647633285}
+  Rotate: [-0.1052808091044426, 0.4376351833343506, -0.24436016380786896]
+  SRTHash: !u 0x6a69351a
+  Scale: [1.1792398691177368, 2.706021547317505, 3.712174654006958]
+  Translate: [16.48779296875, 158.01962280273438, -32.81230926513672]
+- Gyaml: StartPos
+  Hash: !ul 404133703675350301
+  Phive:
+    Placement: {ID: !ul 404133703675350301}
+  Rotate: [3.1415927410125732, 0.011106641963124275, 3.1415927410125732]
+  SRTHash: !u 0xb6e8cb9d
+  Translate: [0.20942115783691406, 103.75, 5.43914794921875]
+- Gyaml: Obj_Common_Fragment_BrokenIronRock_B_02
+  Hash: !ul 4945112022735935319
+  Phive:
+    Placement: {ID: !ul 4945112022735935319}
+  Rotate: [0.0, -1.3365716934204102, 0.0]
+  SRTHash: !u 0x50fe21b2
+  Scale: [0.75, 0.75, 0.75]
+  Translate: [-48.23579788208008, 105.71572875976562, -68.8056640625]
+- Gyaml: Obj_Common_Fragment_BrokenIronRock_B_02
+  Hash: !ul 7600898464696327114
+  Phive:
+    Placement: {ID: !ul 7600898464696327114}
+  Rotate: [0.0, 0.836765468120575, 0.0]
+  SRTHash: !u 0x741a1e11
+  Scale: [0.916785717010498, 0.916785717010498, 0.916785717010498]
+  Translate: [-48.04476547241211, 105.70356750488281, -72.94758605957031]
+- Dynamic: {SceneryName: Area_InsideGanonCastle_FireRoom}
+  Gyaml: AutoPlaceLayerSoundSettingActor
+  Hash: !ul 11911209813789869085
+  Phive:
+    Placement: {ID: !ul 11911209813789869085}
+  SRTHash: !u 0x373806bd
+  Translate: [-38.33023452758789, 105.67903137207031, -61.851566314697266]
+- Dynamic: {SceneryName: Area_InsideGanonCastle_IceRoom}
+  Gyaml: AutoPlaceLayerSoundSettingActor
+  Hash: !ul 5430651459454584841
+  Phive:
+    Placement: {ID: !ul 5430651459454584841}
+  SRTHash: !u 0x8c679f18
+  Translate: [52.46223449707031, 100.85350036621094, -21.055696487426758]
+- Dynamic: {SceneryName: Area_InsideGanonCastle_ShadowRoom}
+  Gyaml: AutoPlaceLayerSoundSettingActor
+  Hash: !ul 10802766051333627122
+  Phive:
+    Placement: {ID: !ul 10802766051333627122}
+  SRTHash: !u 0xdec6cf42
+  Translate: [13.524494171142578, 106.80082702636719, -65.76576232910156]
+- Gyaml: EftLoc_InsideGanonCastle_Entrance_2dVolume_00
+  Hash: !ul 4805751839951578969
+  Phive:
+    Placement: {ID: !ul 4805751839951578969}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xbb3cc9b5
+  Translate: [0.01861664652824402, 110.26000213623047, 101.89454650878906]
+- Dynamic: {BattlePresentation_OverriteBattlePresentation: EnemyNoBattleBgm, DefaultDungeonRoomIndex: 19,
+    Keese_IsWaitInAirUntilOnScreen: true}
+  Gyaml: Enemy_Keese_Fire
+  Hash: !ul 15430599170999766884
+  Phive:
+    Placement: {ID: !ul 15430599170999766884}
+  Rotate: [0.0, 1.2517447471618652, 0.0]
+  SRTHash: !u 0xfc7ad65e
+  Translate: [-21.37705421447754, 140.2508544921875, -25.115585327148438]
+- Dynamic: {BattlePresentation_OverriteBattlePresentation: EnemyNoBattleBgm, DefaultDungeonRoomIndex: 19,
+    Keese_IsWaitInAirUntilOnScreen: true}
+  Gyaml: Enemy_Keese_Fire
+  Hash: !ul 18210020532255020896
+  Phive:
+    Placement: {ID: !ul 18210020532255020896}
+  Rotate: [0.0, 0.6643582582473755, 0.0]
+  SRTHash: !u 0x31100eae
+  Translate: [-23.103944778442383, 140.7508544921875, -25.78948402404785]
+- Dynamic: {BattlePresentation_OverriteBattlePresentation: EnemyNoBattleBgm, DefaultDungeonRoomIndex: 19,
+    Keese_IsWaitInAirUntilOnScreen: true, TurnMoveHeightOffset: 1.7999999523162842}
+  Gyaml: Enemy_Keese_Fire
+  Hash: !ul 3439428970278030550
+  Phive:
+    Placement: {ID: !ul 3439428970278030550}
+  Rotate: [0.0, 1.5707961320877075, -0.0]
+  SRTHash: !u 0xf7cc36ef
+  Translate: [-14.692265510559082, 135.4508514404297, -7.487909317016602]
+- Dynamic: {BattlePresentation_OverriteBattlePresentation: EnemyNoBattleBgm, DefaultDungeonRoomIndex: 19,
+    Keese_IsWaitInAirUntilOnScreen: true, TurnMoveHeightOffset: 2.5}
+  Gyaml: Enemy_Keese_Fire
+  Hash: !ul 17086514678166528721
+  Phive:
+    Placement: {ID: !ul 17086514678166528721}
+  Rotate: [3.1415927410125732, 1.5533430576324463, 3.1415927410125732]
+  SRTHash: !u 0xfe13f018
+  Translate: [-17.241363525390625, 136.35084533691406, -8.538125991821289]
+- Gyaml: AnchorAction2
+  Hash: !ul 2246834216755288483
+  Phive:
+    Placement: {ID: !ul 2246834216755288483}
+  SRTHash: !u 0x37c05466
+  Translate: [0.06692206859588623, 104.97032928466797, -6.730894088745117]
+- Gyaml: EftLoc_IceCavern_StartPoint_Smoke_00
+  Hash: !ul 13698834710050102388
+  Phive:
+    Placement: {ID: !ul 13698834710050102388}
+  SRTHash: !u 0xee428093
+  Translate: [82.03319549560547, 97.7454605102539, -22.479816436767578]
+- Gyaml: EftLoc_IceCavern_StartPoint_Smoke_00
+  Hash: !ul 13093411012846166074
+  Phive:
+    Placement: {ID: !ul 13093411012846166074}
+  SRTHash: !u 0xd1089d8c
+  Translate: [75.79255676269531, 97.7454605102539, -25.49717140197754]
+- Gyaml: EftLoc_InsideGanonCastle_EnvSpark_00
+  Hash: !ul 2775309573117942690
+  Phive:
+    Placement: {ID: !ul 2775309573117942690}
+  Rotate: [0.0, 0.5235987901687622, 0.0]
+  SRTHash: !u 0xc9cf2108
+  Translate: [-26.822179794311523, 100.931884765625, -68.54895782470703]
+- Gyaml: EftLoc_InsideGanonCastle_EnvSpark_01
+  Hash: !ul 3567371668248562570
+  Phive:
+    Placement: {ID: !ul 3567371668248562570}
+  Rotate: [0.0, 0.5235987901687622, 0.0]
+  SRTHash: !u 0xe79a5a38
+  Translate: [-34.823482513427734, 100.9745864868164, -83.02139282226562]
+FilePath: Work/Banc/Scene/InsideGanonCastle/InsideGanonCastle.bcett.json

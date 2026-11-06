@@ -1,0 +1,286 @@
+Actors:
+- Gyaml: Area
+  Hash: !ul 7223341573744997014
+  Phive:
+    Placement: {ID: !ul 7223341573744997014}
+  Rotate: [-3.141592502593994, 0.7853981852531433, -3.141592502593994]
+  SRTHash: !u 0xd87d0bdf
+  Scale: [7.5, 2.4000000953674316, 7.5]
+  Translate: [0.07843069732189178, 142.1650390625, -157.75]
+- Dynamic: {IsIntendedForEventAppear: true}
+  Gyaml: Enemy_DungeonBoss_Koume
+  Hash: !ul 1289204167721387956
+  Links:
+  - {Dst: !ul 13008306068273395461, Gyaml: Reference, Name: Reference, Src: !ul 1289204167721387956}
+  - {Dst: !ul 15651572597218430554, Gyaml: Reference, Name: Reference, Src: !ul 1289204167721387956}
+  - {Dst: !ul 2145230832405477297, Gyaml: Reference, Name: Reference, Src: !ul 1289204167721387956}
+  Name: KotakeKoumeBattleClient
+  Phive:
+    Placement: {ID: !ul 1289204167721387956}
+  Rotate: [3.141592502593994, -0.7853980660438538, -3.141592502593994]
+  SRTHash: !u 0xdb405035
+  Translate: [14.27731704711914, 147.1650390625, -147.3754119873047]
+- Gyaml: DestinationAnchor
+  Hash: !ul 2145230832405477297
+  Name: BossAppear
+  Phive:
+    Placement: {ID: !ul 2145230832405477297}
+  Rotate: [0.0, 0.7853982448577881, 0.0]
+  SRTHash: !u 0xc74b9fe6
+  Translate: [-0.7194282412528992, 142.1612091064453, -158.59555053710938]
+- Gyaml: DestinationAnchor
+  Hash: !ul 1413614988283148003
+  Name: AttackPosAnchor
+  Phive:
+    Placement: {ID: !ul 1413614988283148003}
+  SRTHash: !u 0x2fb29d4c
+  Translate: [12.723331451416016, 141.9088134765625, -145.1378936767578]
+- Gyaml: DestinationAnchor
+  Hash: !ul 13008306068273395461
+  Name: RoomCenterAnchor
+  Phive:
+    Placement: {ID: !ul 13008306068273395461}
+  SRTHash: !u 0x24f2b683
+  Translate: [-0.0019944310188293457, 142.25875854492188, -157.8425750732422]
+- Dynamic: {IsIntendedForEventAppear: true}
+  Gyaml: Enemy_DungeonBoss_Kotake
+  Hash: !ul 15651572597218430554
+  Links:
+  - {Dst: !ul 13008306068273395461, Gyaml: Reference, Name: Reference, Src: !ul 15651572597218430554}
+  - {Dst: !ul 1289204167721387956, Gyaml: Reference, Name: Reference, Src: !ul 15651572597218430554}
+  - {Dst: !ul 2145230832405477297, Gyaml: Reference, Name: Reference, Src: !ul 15651572597218430554}
+  Name: KotakeKoumeBattleClient
+  Phive:
+    Placement: {ID: !ul 15651572597218430554}
+  Rotate: [3.141592502593994, -0.7853980660438538, -3.141592502593994]
+  SRTHash: !u 0xbeb71f65
+  Translate: [11.392930030822754, 147.1650390625, -142.41725158691406]
+- Gyaml: Enemy_DungeonBoss_Twinrova
+  Hash: !ul 708704808389623959
+  Links:
+  - {Dst: !ul 1413614988283148003, Gyaml: Reference, Name: Reference, Src: !ul 708704808389623959}
+  - {Dst: !ul 4845434041638250294, Gyaml: Reference, Name: Reference, Src: !ul 708704808389623959}
+  - {Dst: !ul 13008306068273395461, Gyaml: Reference, Name: Reference, Src: !ul 708704808389623959}
+  Phive:
+    Placement: {ID: !ul 708704808389623959}
+  Rotate: [-3.141592502593994, -0.7917903661727905, 3.141592025756836]
+  SRTHash: !u 0x301ef5a6
+  Translate: [12.723431587219238, 144.65113830566406, -145.13800048828125]
+- Gyaml: DestinationAnchor
+  Hash: !ul 4845434041638250294
+  Name: BossDefeat
+  Phive:
+    Placement: {ID: !ul 4845434041638250294}
+  Rotate: [8.742277657347586e-08, 0.7853981852531433, 8.742277657347586e-08]
+  SRTHash: !u 0xa1dfe068
+  Translate: [-5.754907131195068, 142.1612091064453, -163.6310577392578]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 151390386545765414
+  Phive:
+    Placement: {ID: !ul 151390386545765414}
+  Rotate: [-3.141592502593994, -0.7853983044624329, -3.141592502593994]
+  SRTHash: !u 0x3550d89c
+  Scale: [0.8500000834465027, 1.5, 0.8500000834465027]
+  Translate: [0.07843069732189178, 142.1650390625, -157.75]
+- Gyaml: Obj_WarpPoint_A_01
+  Hash: !ul 721868551439861673
+  Phive:
+    Placement: {ID: !ul 721868551439861673}
+  Rotate: [-3.141592502593994, -0.7853983044624329, -3.141592502593994]
+  SRTHash: !u 0x92716f76
+  Translate: [0.07843069732189178, 142.1650390625, -157.75]
+- Dynamic: {RequestEventName: SageOfSpirit_Clear}
+  Gyaml: EventRequestActor
+  Hash: !ul 11866593351008531795
+  Links:
+  - {Dst: !ul 6500092087321609207, Gyaml: Reference, Name: Reference, Src: !ul 11866593351008531795}
+  Phive:
+    Placement: {ID: !ul 11866593351008531795}
+  Rotate: [-3.141592502593994, -0.7853983044624329, -3.141592502593994]
+  SRTHash: !u 0x0e006835
+  Translate: [0.07842983305454254, 145.52081298828125, -157.75]
+- Gyaml: DestinationAnchor
+  Hash: !ul 6500092087321609207
+  Name: center
+  Phive:
+    Placement: {ID: !ul 6500092087321609207}
+  Rotate: [-3.141592502593994, -0.7853983044624329, -3.141592502593994]
+  SRTHash: !u 0x92716f76
+  Translate: [0.07843069732189178, 142.1650390625, -157.75]
+- Gyaml: Enemy_KotakeKoumeBattleManager
+  Hash: !ul 10110540072364664029
+  Links:
+  - {Dst: !ul 13008306068273395461, Gyaml: Reference, Name: Reference, Src: !ul 10110540072364664029}
+  - {Dst: !ul 1289204167721387956, Gyaml: Reference, Name: Reference, Src: !ul 10110540072364664029}
+  - {Dst: !ul 15651572597218430554, Gyaml: Reference, Name: Reference, Src: !ul 10110540072364664029}
+  Phive:
+    Placement: {ID: !ul 10110540072364664029}
+  SRTHash: !u 0xd5845dbc
+  Translate: [3.121119499206543, 144.9650421142578, -162.00843811035156]
+- Dynamic: {RequestEventName: SageOfSpirit_BossStart}
+  Gyaml: EventRequestActor
+  Hash: !ul 4641777792980478700
+  Links:
+  - {Dst: !ul 2145230832405477297, Gyaml: Reference, Name: Reference, Src: !ul 4641777792980478700}
+  Phive:
+    Placement: {ID: !ul 4641777792980478700}
+  Rotate: [-3.141592502593994, 0.0, -3.141592502593994]
+  SRTHash: !u 0x5aae781d
+  Translate: [0.07843069732189178, 155.4665069580078, -157.75]
+- Gyaml: Area
+  Hash: !ul 13422761134943248717
+  Phive:
+    Placement: {ID: !ul 13422761134943248717}
+  SRTHash: !u 0x0d17d7aa
+  Scale: [44.26353454589844, 33.36964416503906, 39.87781524658203]
+  Translate: [1.3004059791564941, 131.1480255126953, -159.67398071289062]
+- Gyaml: Obj_DreamWorldTimerManager
+  Hash: !ul 12497707790702325472
+  Links:
+  - {Dst: !ul 708704808389623959, Gyaml: Reference, Name: Reference, Src: !ul 12497707790702325472}
+  Phive:
+    Placement: {ID: !ul 12497707790702325472}
+  SRTHash: !u 0x2a1720fe
+  Translate: [13.528362274169922, 162.87124633789062, -147.8592529296875]
+- Gyaml: NoEscapeRangeAreaBox
+  Hash: !ul 9793352341535122868
+  Name: NoEscapeArea_SubEvent_AllBossBattle
+  Phive:
+    Placement: {ID: !ul 9793352341535122868}
+  SRTHash: !u 0x569e1afa
+  Scale: [111.79417419433594, 38.44786834716797, 91.61662292480469]
+  Translate: [8.410192489624023, 148.6261444091797, -158.08837890625]
+- Gyaml: Area
+  Hash: !ul 10280950159930961356
+  Phive:
+    Placement: {ID: !ul 10280950159930961356}
+  Rotate: [0.0, -1.570796251296997, 8.940696716308594e-08]
+  SRTHash: !u 0xd9a43be3
+  Scale: [46.15596008300781, 23.098310470581055, 55.956478118896484]
+  Translate: [10.573176383972168, 121.80540466308594, -156.49087524414062]
+- Dynamic: {AreaHintEventName: NaviHint_Rematch}
+  Gyaml: NaviAreaHintEventActor
+  Hash: !ul 14653570480812085505
+  Phive:
+    Placement: {ID: !ul 14653570480812085505}
+  SRTHash: !u 0x7b7df0a2
+  Translate: [8.381494522094727, 142.69203186035156, -163.61480712890625]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_RoomWall_A_34
+  Hash: !ul 13873484386069833378
+  Phive:
+    Placement: {ID: !ul 13873484386069833378}
+  SRTHash: !u 0xbc623416
+  Translate: [0.0, 135.0, -157.8769989013672]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_RoomCeiling_A_34
+  Hash: !ul 14539407324035339342
+  Phive:
+    Placement: {ID: !ul 14539407324035339342}
+  SRTHash: !u 0xbc623416
+  Translate: [0.0, 135.0, -157.8769989013672]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_RoomFloor_A_34
+  Hash: !ul 2771314901452394710
+  Phive:
+    Placement: {ID: !ul 2771314901452394710}
+  SRTHash: !u 0xbc623416
+  Translate: [0.0, 135.0, -157.8769989013672]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_RoomFloor_A_33
+  Hash: !ul 12286307520211782825
+  Phive:
+    Placement: {ID: !ul 12286307520211782825}
+  SRTHash: !u 0xcdb0d0b7
+  Translate: [0.0, 135.0, -89.08000183105469]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_RoomWall_A_33
+  Hash: !ul 4168927791772280127
+  Phive:
+    Placement: {ID: !ul 4168927791772280127}
+  SRTHash: !u 0xcdb0d0b7
+  Translate: [0.0, 135.0, -89.08000183105469]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_ModuleWall_K_10
+  Hash: !ul 18186235683769941677
+  Phive:
+    Placement: {ID: !ul 18186235683769941677}
+  SRTHash: !u 0xcdb0d0b7
+  Translate: [0.0, 135.0, -89.08000183105469]
+- Bakeable: true
+  Gyaml: Obj_SwitchShutter_A_06
+  Hash: !ul 9447718535659620917
+  Phive:
+    Placement: {ID: !ul 9447718535659620917}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0x3c6af098
+  Translate: [0.0, 135.0, -119.58589172363281]
+- Bakeable: true
+  Dynamic: {OpenChainShutterEvent: Common_Dungeon_OpenDoorChainLockMoveToPlusZ, ShutterEvent: Common_Dungeon_OpenShutterMoveToPlusZ}
+  Gyaml: Obj_SpiritTemple_SwitchShutter_A_04
+  Hash: !ul 9396533710704741185
+  Links:
+  - {Dst: !ul 9447718535659620917, Gyaml: Reference, Name: Reference, Src: !ul 9396533710704741185}
+  Phive:
+    Placement: {ID: !ul 9396533710704741185}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0x1428d01e
+  Translate: [0.0, 135.0, -119.23589324951172]
+- Gyaml: EftLoc_SpiritTemple_Boss_2dVolume_00
+  Hash: !ul 14596595994756140583
+  Phive:
+    Placement: {ID: !ul 14596595994756140583}
+  SRTHash: !u 0xd90a43a0
+  Scale: [44.93397903442383, 7.85816764831543, 68.72567749023438]
+  Translate: [0.05291748046875, 134.1455078125, -139.7096405029297]
+AiGroups:
+- Hash: !ul 4922908167824369457
+  Logic: Logic/Module/SpiritTemple_Map_Room_34_Prefab/SpiritTemple_Map_Room_34_Prefab_ac5c.logic.module.ain
+  References:
+  - {Id: Land_SpiritTemple_RoomWall_A_34_ddcd, Path: Land_SpiritTemple_RoomWall_A_34_ddcd,
+    Reference: !ul 13873484386069833378}
+- Hash: !ul 13947600031412160455
+  Logic: Logic/Root/TwinrovaStage/TwinrovaStage_2f91.logic.root.ain
+  References:
+  - {Id: ChainLockLocator_BossLattice_248f, Path: ChainLockLocator_BossLattice_248f,
+    Reference: !ul 9447718535659620917}
+  - {Id: ShutterLocator_BossDoor_ba2b, Path: ShutterLocator_BossDoor_ba2b, Reference: !ul 9396533710704741185}
+- Hash: !ul 16491582745306659403
+  Logic: Logic/Root/TwinrovaStage/TwinrovaStage_8656.logic.root.ain
+  References:
+  - {Id: Enemy_KotakeKoumeBattleManager_27be, Path: _9a8e/Enemy_KotakeKoumeBattleManager_27be,
+    Reference: !ul 10110540072364664029}
+  - {Id: EventRequestActor_3d9c, Path: _9a8e/EventRequestActor_3d9c, Reference: !ul 4641777792980478700}
+  - {Id: Area_0d43, Path: _9a8e/Area_0d43, Reference: !ul 7223341573744997014}
+  - {Id: EventRequestActor_024c, Path: _9a8e/_f707/EventRequestActor_024c, Reference: !ul 11866593351008531795}
+  - {Id: Area_bfbc, Path: _9a8e/_f707/Area_bfbc, Reference: !ul 151390386545765414}
+  - {Id: Obj_WarpPoint_A_01_14a2, Path: _9a8e/_f707/Obj_WarpPoint_A_01_14a2, Reference: !ul 721868551439861673}
+  - {Id: DestinationAnchor_a8b5, Path: _9a8e/_f707/DestinationAnchor_a8b5, Reference: !ul 6500092087321609207}
+  - {Id: AiGroup, InstanceName: Gimmick_Warp_FromDungeon_061c_2e8c, Logic: Logic/Module/Gimmick_Warp_FromDungeon/Gimmick_Warp_FromDungeon_061c.logic.module.ain,
+    Path: _9a8e/_f707/AiGroup, Reference: !ul 1306988988345983509}
+  - {Id: Enemy_DungeonBoss_Koume_a27a, Path: _9a8e/Enemy_DungeonBoss_Koume_a27a, Reference: !ul 1289204167721387956}
+  - {Id: Enemy_DungeonBoss_Kotake_db41, Path: _9a8e/Enemy_DungeonBoss_Kotake_db41,
+    Reference: !ul 15651572597218430554}
+  - {Id: Enemy_DungeonBoss_Twinrova_ed76, Path: _9a8e/Enemy_DungeonBoss_Twinrova_ed76,
+    Reference: !ul 708704808389623959}
+  - {Id: Area_e253, Path: _9a8e/Area_e253, Reference: !ul 13422761134943248717}
+  - {Id: AiGroup, InstanceName: Enemy_DungeonBoss_Twinrova_Prefab_6165_de69, Logic: Logic/Module/Enemy_DungeonBoss_Twinrova_Prefab/Enemy_DungeonBoss_Twinrova_Prefab_6165.logic.module.ain,
+    Path: _9a8e/AiGroup, Reference: !ul 11845872218219780995}
+  - {Id: NaviAreaHintEventActor_18d9, Path: NaviAreaHintEventActor_18d9, Reference: !ul 14653570480812085505}
+  - {Id: Area_ac7c, Path: Area_ac7c, Reference: !ul 10280950159930961356}
+FarDeleteGroups:
+- [!ul 151390386545765414, !ul 708704808389623959, !ul 721868551439861673, !ul 1289204167721387956,
+  !ul 4641777792980478700, !ul 6500092087321609207, !ul 7223341573744997014, !ul 10110540072364664029,
+  !ul 10280950159930961356, !ul 11866593351008531795, !ul 13422761134943248717, !ul 14653570480812085505,
+  !ul 15651572597218430554]
+- [!ul 9396533710704741185, !ul 9447718535659620917]
+FilePath: Work/Banc/Scene/DreamWorld/TwinrovaStage.bcett.json
+PhiveHeader:
+  PlacementGroups: []
+SimultaneousGroups:
+- [!ul 151390386545765414, !ul 708704808389623959, !ul 721868551439861673, !ul 1289204167721387956,
+  !ul 4641777792980478700, !ul 6500092087321609207, !ul 7223341573744997014, !ul 10110540072364664029,
+  !ul 10280950159930961356, !ul 11866593351008531795, !ul 13422761134943248717, !ul 14653570480812085505,
+  !ul 15651572597218430554]
+- [!ul 9396533710704741185, !ul 9447718535659620917]

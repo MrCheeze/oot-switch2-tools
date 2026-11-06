@@ -1,0 +1,204 @@
+Actors:
+- Gyaml: NoEscapeRangeAreaBox
+  Hash: !ul 14128947954140728546
+  Name: NoEscapeArea_SubEvent_AllBossBattle
+  Phive:
+    Placement: {ID: !ul 14128947954140728546}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0xe876e69e
+  Scale: [30.526641845703125, 26.488636016845703, 41.900062561035156]
+  Translate: [-28.93875503540039, 88.39695739746094, -93.4719009399414]
+- Gyaml: Area
+  Hash: !ul 12357370768173024784
+  Phive:
+    Placement: {ID: !ul 12357370768173024784}
+  Rotate: [0.0, -1.570796251296997, 8.940696716308594e-08]
+  SRTHash: !u 0x7385e1e2
+  Scale: [16.543331146240234, 13.52398681640625, 20.547130584716797]
+  Translate: [-29.500810623168945, 74.78482055664062, -93.81796264648438]
+- Dynamic: {RequestEventName: DreamBossStage_TimeCountStop_BigOcto}
+  Gyaml: EventRequestActor
+  Hash: !ul 18079158210634289085
+  Phive:
+    Placement: {ID: !ul 18079158210634289085}
+  SRTHash: !u 0x3de50b27
+  Translate: [-31.588342666625977, 94.0901870727539, -107.1171875]
+- Dynamic: {AreaHintEventName: NaviHint_Rematch}
+  Gyaml: NaviAreaHintEventActor
+  Hash: !ul 9140173481529173200
+  Phive:
+    Placement: {ID: !ul 9140173481529173200}
+  SRTHash: !u 0x6f9f66bb
+  Translate: [-22.996234893798828, 95.6549072265625, -101.88797760009766]
+- Dynamic:
+    BackSpeed: 3.0
+    DecelDistance: 1.2000000476837158
+    ForwardSpeed: 3.0
+    MoveDirection: [0.0, -1.0, 0.0]
+    MoveDistance: 1.25
+  Gyaml: Obj_InsideJabu_Jabu_ElevatorLift_A_01
+  Hash: !ul 7144325209950258649
+  Name: ElevatedFloor1
+  Phive:
+    Placement: {ID: !ul 7144325209950258649}
+  SRTHash: !u 0x5c7e5031
+  Translate: [-32.360504150390625, 83.0, -93.31006622314453]
+- Gyaml: Obj_DreamWorldTimerManager
+  Hash: !ul 13401745258865048825
+  Phive:
+    Placement: {ID: !ul 13401745258865048825}
+  Rotate: [0.05042538419365883, -0.0, -0.09923283010721207]
+  SRTHash: !u 0x9fc3019f
+  Translate: [-31.328495025634766, 96.7966537475586, -92.92918395996094]
+- Dynamic: {Drop__DropTable: None, IsIntendedForEventAppear: true}
+  Gyaml: Enemy_MiddleBoss_BigOcto
+  Hash: !ul 15818287033376021081
+  Links:
+  - {Dst: !ul 695375512332356744, Gyaml: Reference, Name: Reference, Src: !ul 15818287033376021081}
+  Name: MiddleBoss
+  Phive:
+    Placement: {ID: !ul 15818287033376021081}
+  Rotate: [0.0, 1.102075219154358, 0.0]
+  SRTHash: !u 0xcf172552
+  Translate: [-38.46285629272461, 84.89028930664062, -90.44676971435547]
+- Gyaml: DestinationAnchor
+  Hash: !ul 695375512332356744
+  Name: ReferenceStartPos
+  Phive:
+    Placement: {ID: !ul 695375512332356744}
+  SRTHash: !u 0xfff09bc5
+  Translate: [-32.35476303100586, 84.89028930664062, -93.31219482421875]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 12250622417856625896
+  Phive:
+    Placement: {ID: !ul 12250622417856625896}
+  Rotate: [0.0, 0.9584950804710388, 0.0]
+  SRTHash: !u 0xcd53efd8
+  Scale: [12.000000953674316, 8.0, 11.0]
+  Translate: [-34.131961822509766, 84.48129272460938, -94.48035430908203]
+- Gyaml: FldObj_AirWall_Player_Cylinder
+  Hash: !ul 16212335402975056180
+  Phive:
+    Placement: {ID: !ul 16212335402975056180}
+  SRTHash: !u 0x2dfdcf14
+  Scale: [2.0, 5.0, 2.0]
+  Translate: [-32.360504150390625, 83.0, -93.31006622314453]
+- Bakeable: true
+  Dynamic: {NomralEvent: Get_StoneOfWater_DiscoveryStone, ShutterEvent: Common_Dungeon_OpenShutterWithLockMoveToPlusZ_JabuJabu}
+  Gyaml: Obj_InsideJabu_Jabu_SwitchShutter_A_01
+  Hash: !ul 17139511470927701287
+  Links:
+  - {Dst: !ul 501153379248014552, Gyaml: Reference, Name: Reference, Src: !ul 17139511470927701287}
+  - {Dst: !ul 701096022881157751, Gyaml: Reference, Name: Reference, Src: !ul 17139511470927701287}
+  - {Dst: !ul 3954495300388271222, Gyaml: Reference, Name: Reference, Src: !ul 17139511470927701287}
+  - {Dst: !ul 2169276336649564820, Gyaml: Reference, Name: Reference, Src: !ul 17139511470927701287}
+  - {Dst: !ul 1365722360140562234, Gyaml: Reference, Name: Reference, Src: !ul 17139511470927701287}
+  Phive:
+    Placement: {ID: !ul 17139511470927701287}
+  Rotate: [5.405286742643511e-07, 0.9244659543037415, 1.1778719226640533e-06]
+  SRTHash: !u 0xb2e52d13
+  Translate: [-24.37400245666504, 86.9367904663086, -87.7020034790039]
+- Bakeable: true
+  Gyaml: Obj_InsideJabu_Jabu_SwitchShutter_A_02
+  Hash: !ul 701096022881157751
+  Name: SwitchShutterPlusZ
+  Phive:
+    Placement: {ID: !ul 701096022881157751}
+  Rotate: [5.405286742643511e-07, 0.9244659543037415, 1.1778719226640533e-06]
+  SRTHash: !u 0x621eea04
+  Translate: [-24.022748947143555, 84.9367904663086, -87.43701171875]
+- Bakeable: true
+  Gyaml: Obj_InsideJabu_Jabu_SwitchShutter_A_02
+  Hash: !ul 501153379248014552
+  Name: SwitchShutterMinusZ
+  Phive:
+    Placement: {ID: !ul 501153379248014552}
+  Rotate: [3.141592025756836, -0.9244659543037415, -3.1415913105010986]
+  SRTHash: !u 0xe451efc5
+  Translate: [-24.725252151489258, 84.9367904663086, -87.96699523925781]
+- Gyaml: DestinationAnchor
+  Hash: !ul 2241122207218752328
+  Phive:
+    Placement: {ID: !ul 2241122207218752328}
+  Rotate: [5.405286742643511e-07, 0.9244659543037415, 1.1778719226640533e-06]
+  SRTHash: !u 0xe5729325
+  Translate: [-23.575700759887695, 86.0867919921875, -87.09973907470703]
+- Gyaml: DestinationAnchor
+  Hash: !ul 17114093269276444763
+  Phive:
+    Placement: {ID: !ul 17114093269276444763}
+  Rotate: [3.141592025756836, -0.924466073513031, -3.1415915489196777]
+  SRTHash: !u 0xee45b35a
+  Translate: [-25.172300338745117, 86.0867919921875, -88.30426788330078]
+- Gyaml: AirWallEnemy
+  Hash: !ul 12434250881908832648
+  Phive:
+    Placement: {ID: !ul 12434250881908832648}
+  Rotate: [5.405286742643511e-07, 0.9244659543037415, 1.1778719226640533e-06]
+  SRTHash: !u 0xb4181ca4
+  Scale: [1.7000000476837158, 2.5999999046325684, 1.7000000476837158]
+  Translate: [-24.37400245666504, 86.38679504394531, -87.7020034790039]
+- Gyaml: DestinationAnchor
+  Hash: !ul 2169276336649564820
+  Name: CameraMinusZ
+  Phive:
+    Placement: {ID: !ul 2169276336649564820}
+  Rotate: [3.141592025756836, -0.924466073513031, -3.1415915489196777]
+  SRTHash: !u 0x57fd40a8
+  Translate: [-25.970598220825195, 85.0867919921875, -88.90652465820312]
+- Gyaml: DestinationAnchor
+  Hash: !ul 3954495300388271222
+  Name: CameraPlusZ
+  Phive:
+    Placement: {ID: !ul 3954495300388271222}
+  Rotate: [5.405286742643511e-07, 0.9244659543037415, 1.1778719226640533e-06]
+  SRTHash: !u 0x8440bd4c
+  Translate: [-22.777402877807617, 85.0867919921875, -86.49748229980469]
+- Dynamic:
+    MoveTime: 20.0
+    StartPosRate: [0.0, 0.0, -1.0]
+  Gyaml: PushAirWall_DoorFront
+  Hash: !ul 1365722360140562234
+  Phive:
+    Placement: {ID: !ul 1365722360140562234}
+  Rotate: [5.405286742643511e-07, 0.9244659543037415, 1.1778719226640533e-06]
+  SRTHash: !u 0xbced65b5
+  Scale: [2.5, 1.0, 1.0]
+  Translate: [-24.374000549316406, 85.0867919921875, -87.7020034790039]
+AiGroups:
+- Hash: !ul 5044517719962357104
+  Logic: Logic/Root/BigOctoStage/BigOctoStage_3c90.logic.root.ain
+  References:
+  - {Id: Area_6f42, Path: Area_6f42, Reference: !ul 12357370768173024784}
+  - {Id: EventRequestActor_9ac7, Path: EventRequestActor_9ac7, Reference: !ul 18079158210634289085}
+  - {Id: NaviAreaHintEventActor_df9e, Path: NaviAreaHintEventActor_df9e, Reference: !ul 9140173481529173200}
+  - {Id: Obj_InsideJabu_Jabu_ElevatorLift_A_01_a472, Path: Obj_InsideJabu_Jabu_ElevatorLift_A_01_a472,
+    Reference: !ul 7144325209950258649}
+  - {Id: Area_c97f, Path: _f585/Area_c97f, Reference: !ul 12250622417856625896}
+  - {Id: Enemy_MiddleBoss_BigOcto_4f46, Path: _f585/Enemy_MiddleBoss_BigOcto_4f46,
+    Reference: !ul 15818287033376021081}
+  - {Id: FldObj_AirWall_Player_Cylinder_4603, Path: _f585/FldObj_AirWall_Player_Cylinder_4603,
+    Reference: !ul 16212335402975056180}
+  - {Id: ShutterLocator_Lattice_ff7d, Path: _f585/_d756/ShutterLocator_Lattice_ff7d,
+    Reference: !ul 701096022881157751}
+  - {Id: ShutterLocator_Lattice_4b8b, Path: _f585/_d756/ShutterLocator_Lattice_4b8b,
+    Reference: !ul 501153379248014552}
+  - {Id: ShutterLocator_Door_fb86, Path: _f585/_d756/ShutterLocator_Door_fb86, Reference: !ul 17139511470927701287}
+  - {Id: PushAirWall_DoorFront_6427, Path: _f585/_d756/PushAirWall_DoorFront_6427,
+    Reference: !ul 1365722360140562234}
+  - {Id: AiGroup, InstanceName: DungeonSwitchShutterWithLockSet_3b94_47d3, Logic: Logic/Module/DungeonSwitchShutterWithLockSet/DungeonSwitchShutterWithLockSet_3b94.logic.module.ain,
+    Path: _f585/_d756/AiGroup, Reference: !ul 4496383557766184937}
+  - {Id: AiGroup, InstanceName: Enemy_MiddleBoss_BigOcto_Prefab_076e_35d3, Logic: Logic/Module/Enemy_MiddleBoss_BigOcto_Prefab/Enemy_MiddleBoss_BigOcto_Prefab_076e.logic.module.ain,
+    Path: _f585/AiGroup, Reference: !ul 1100828989926870823}
+FarDeleteGroups:
+- [!ul 501153379248014552, !ul 701096022881157751, !ul 1365722360140562234, !ul 7144325209950258649,
+  !ul 9140173481529173200, !ul 12250622417856625896, !ul 12357370768173024784, !ul 15818287033376021081,
+  !ul 16212335402975056180, !ul 17139511470927701287, !ul 18079158210634289085]
+FilePath: Work/Banc/Scene/DreamWorld/BigOctoStage.bcett.json
+PhiveHeader:
+  PlacementGroups: []
+SimultaneousGroups:
+- [!ul 501153379248014552, !ul 701096022881157751, !ul 1365722360140562234, !ul 7144325209950258649,
+  !ul 9140173481529173200, !ul 12250622417856625896, !ul 12357370768173024784, !ul 15818287033376021081,
+  !ul 16212335402975056180, !ul 17139511470927701287, !ul 18079158210634289085]

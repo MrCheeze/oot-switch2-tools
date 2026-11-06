@@ -1,0 +1,30 @@
+Actors:
+- Bakeable: true
+  Gyaml: Land_SageRoom_Base_A_01
+  Hash: !ul 4508210412473462298
+  Phive:
+    Placement: {ID: !ul 4508210412473462298}
+  SRTHash: !u 0xc9a76a4b
+  Translate: [0.0, 100.0, 0.0]
+- Bakeable: true
+  Gyaml: Land_SageRoom_Base_A_02
+  Hash: !ul 12013939319111085107
+  Phive:
+    Placement: {ID: !ul 12013939319111085107}
+  SRTHash: !u 0xc9a76a4b
+  Translate: [0.0, 100.0, 0.0]
+- Gyaml: Npc_Kokiri_Saria_Child
+  Hash: !ul 4666927888075507566
+  Name: SageRoom
+  Phive:
+    Placement: {ID: !ul 4666927888075507566}
+  SRTHash: !u 0x03df5685
+  Translate: [28.981109619140625, 108.6190185546875, -0.05373859405517578]
+AiGroups:
+- Hash: !ul 580353057357685221
+  Logic: Logic/Root/SageRoom/SageRoom_520d.logic.root.ain
+  References:
+  - {Id: Npc_Kokiri_Saria_Child_6b9b, Path: Npc_Kokiri_Saria_Child_6b9b, Reference: !ul 4666927888075507566}
+FilePath: Work/Banc/Scene/SageRoom/SageRoom.bcett.json
+PhiveHeader:
+  PlacementGroups: []

@@ -1,0 +1,110 @@
+Actors:
+- Gyaml: NoEscapeRangeAreaBox
+  Hash: !ul 15355745943504960570
+  Name: NoEscapeArea_SubEvent_AllBossBattle
+  Phive:
+    Placement: {ID: !ul 15355745943504960570}
+  Rotate: [-3.141592502593994, 1.2740904092788696, -3.141592502593994]
+  SRTHash: !u 0x44be3d10
+  Scale: [37.254825592041016, 18.500011444091797, 45.157047271728516]
+  Translate: [-59.727508544921875, 74.40918731689453, -1.8091449737548828]
+- Dynamic: {RequestEventName: DreamBossStage_TimeCountStop_Dinolfos}
+  Gyaml: EventRequestActor
+  Hash: !ul 286223116654078687
+  Phive:
+    Placement: {ID: !ul 286223116654078687}
+  Rotate: [0.0, 0.29670602083206177, 0.0]
+  SRTHash: !u 0x6dc7d375
+  Translate: [-53.25627899169922, 76.46188354492188, -13.996585845947266]
+- Dynamic: {AreaHintEventName: NaviHint_Rematch}
+  Gyaml: NaviAreaHintEventActor
+  Hash: !ul 12886231058143585092
+  Phive:
+    Placement: {ID: !ul 12886231058143585092}
+  Rotate: [0.0, 0.29670602083206177, 0.0]
+  SRTHash: !u 0x8b056404
+  Translate: [-43.5107421875, 78.02660369873047, -11.507953643798828]
+- Gyaml: Area
+  Hash: !ul 8826060753703435197
+  Phive:
+    Placement: {ID: !ul 8826060753703435197}
+  Rotate: [0.0, -1.2740904092788696, 1.4360976763327926e-07]
+  SRTHash: !u 0x498a0848
+  Scale: [23.200361251831055, 12.566478729248047, 25.097719192504883]
+  Translate: [-59.05645751953125, 61.91768264770508, -3.766399383544922]
+- Gyaml: Area
+  Hash: !ul 5266173464901141670
+  Phive:
+    Placement: {ID: !ul 5266173464901141670}
+  Rotate: [-3.141592502593994, 1.2740904092788696, -3.141592502593994]
+  SRTHash: !u 0xf5600c5c
+  Scale: [1.5, 1.0, 1.5]
+  Translate: [-50.719154357910156, 80.57591247558594, -0.13740640878677368]
+- Gyaml: Enemy_Dinolfos
+  Hash: !ul 1912779320032250296
+  Links:
+  - {Dst: !ul 17725031969746320559, Gyaml: Reference, Name: Reference, Src: !ul 1912779320032250296}
+  Phive:
+    Placement: {ID: !ul 1912779320032250296}
+  Rotate: [-3.140652656555176, 1.274090051651001, -3.140183687210083]
+  SRTHash: !u 0x5e098bd9
+  Translate: [-64.48818969726562, 70.2870864868164, 1.358994722366333]
+- Gyaml: Area
+  Hash: !ul 11389153103366015340
+  Phive:
+    Placement: {ID: !ul 11389153103366015340}
+  Rotate: [3.140503406524658, 1.2740904092788696, 3.1411893367767334]
+  SRTHash: !u 0xcab42beb
+  Scale: [9.0, 3.0, 2.0]
+  Translate: [-56.665260314941406, 70.28631591796875, 1.0877978801727295]
+- Gyaml: Enemy_Dinolfos
+  Hash: !ul 17725031969746320559
+  Links:
+  - {Dst: !ul 1912779320032250296, Gyaml: Reference, Name: Reference, Src: !ul 17725031969746320559}
+  Phive:
+    Placement: {ID: !ul 17725031969746320559}
+  Rotate: [-3.140652656555176, 1.274090051651001, -3.140183687210083]
+  SRTHash: !u 0xdcfc3c33
+  Translate: [-63.026329040527344, 70.2870864868164, 6.1405181884765625]
+- Gyaml: Obj_DreamWorldTimerManager
+  Hash: !ul 18349550421353491405
+  Phive:
+    Placement: {ID: !ul 18349550421353491405}
+  Rotate: [0.0012626835377886891, -0.0, 4.850023833569139e-05]
+  SRTHash: !u 0x1b6ae67f
+  Translate: [-62.790287017822266, 73.9601058959961, -0.1131579726934433]
+- Gyaml: Area
+  Hash: !ul 13704770502283977226
+  Phive:
+    Placement: {ID: !ul 13704770502283977226}
+  Rotate: [-3.141592502593994, 1.2740904092788696, -3.141592502593994]
+  SRTHash: !u 0xa2e1f878
+  Scale: [11.0, 7.025605201721191, 16.0]
+  Translate: [-57.169471740722656, 68.72796630859375, 1.7893167734146118]
+AiGroups:
+- Hash: !ul 5603747282480772870
+  Logic: Logic/Module/HidingHole_Level_Hole_EnvArea_Circular/HidingHole_Level_Hole_EnvArea_Circular_07de.logic.module.ain
+  References:
+  - {Id: Area_6421, Path: Area_6421, Reference: !ul 13704770502283977226}
+- Hash: !ul 13888568098110925238
+  Logic: Logic/Root/DinolfosStage/DinolfosStage_c652.logic.root.ain
+  References:
+  - {Id: NaviAreaHintEventActor_76ba, Path: NaviAreaHintEventActor_76ba, Reference: !ul 12886231058143585092}
+  - {Id: EventRequestActor_b758, Path: EventRequestActor_b758, Reference: !ul 286223116654078687}
+  - {Id: Area_dcf5, Path: Area_dcf5, Reference: !ul 8826060753703435197}
+  - {Id: Enemy_Dinolfos_8432, Path: Enemy_Dinolfos_8432, Reference: !ul 1912779320032250296}
+  - {Id: Enemy_Dinolfos_33c2, Path: Enemy_Dinolfos_33c2, Reference: !ul 17725031969746320559}
+  - {Id: Area_fa88, Path: Area_fa88, Reference: !ul 11389153103366015340}
+- Hash: !ul 15121688083870195095
+  Logic: Logic/Module/Gimmick_AreaContact_FallDown_Item/Gimmick_AreaContact_FallDown_Item_d715.logic.module.ain
+  References:
+  - {Id: Area_c051, Path: Area_c051, Reference: !ul 5266173464901141670}
+FarDeleteGroups:
+- [!ul 286223116654078687, !ul 1912779320032250296, !ul 8826060753703435197, !ul 11389153103366015340,
+  !ul 12886231058143585092, !ul 17725031969746320559]
+FilePath: Work/Banc/Scene/DreamWorld/DinolfosStage.bcett.json
+PhiveHeader:
+  PlacementGroups: []
+SimultaneousGroups:
+- [!ul 286223116654078687, !ul 1912779320032250296, !ul 8826060753703435197, !ul 11389153103366015340,
+  !ul 12886231058143585092, !ul 17725031969746320559]

@@ -1,0 +1,3876 @@
+Actors:
+- Gyaml: NoEscapeRangeAreaBox
+  Hash: !ul 4060152116388391024
+  Name: NoEscapeArea_Defeat_Ganon
+  Phive:
+    Placement: {ID: !ul 4060152116388391024}
+  SRTHash: !u 0x07ffc42c
+  Scale: [240.0, 240.0, 240.0]
+  Translate: [-6.134939193725586, 86.25340270996094, -7.200082778930664]
+- Gyaml: AnchorAction1
+  Hash: !ul 17703708309707818198
+  Name: FinalBattle_StartPos
+  Phive:
+    Placement: {ID: !ul 17703708309707818198}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0xfbf13c06
+  Translate: [11.79293155670166, 100.05307006835938, -1.0700000524520874]
+- Dynamic: {GameDataAttention: NaviAttention_Ganon, IsIntendedForEventAppear: true}
+  Gyaml: Enemy_DungeonBoss_Ganon_SecondHalfBattle
+  Hash: !ul 17036659268350394533
+  Links:
+  - {Dst: !ul 4977598394496704607, Gyaml: ActorHold, Name: ActorHold, Src: !ul 17036659268350394533}
+  - {Dst: !ul 906229281704666907, Gyaml: Reference, Name: Reference, Src: !ul 17036659268350394533}
+  - {Dst: !ul 4782416049794487269, Gyaml: Reference, Name: Reference, Src: !ul 17036659268350394533}
+  - {Dst: !ul 2595714903309978338, Gyaml: Reference, Name: Reference, Src: !ul 17036659268350394533}
+  - {Dst: !ul 11629157061751020879, Gyaml: Reference, Name: Reference, Src: !ul 17036659268350394533}
+  Phive:
+    Placement: {ID: !ul 17036659268350394533}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xf69b7b3f
+  Translate: [-1.371000051498413, 99.98500061035156, -1.0299999713897705]
+- Gyaml: Area
+  Hash: !ul 5712557569390823874
+  Phive:
+    Placement: {ID: !ul 5712557569390823874}
+  SRTHash: !u 0xa549ead8
+  Scale: [15.131206512451172, 15.0, 26.736024856567383]
+  Translate: [-2.386319160461426, 85.66632843017578, -1.0869557857513428]
+- Gyaml: DestinationAnchor
+  Hash: !ul 2000938187256357937
+  Name: FinalBattle_BossInStartPos
+  Phive:
+    Placement: {ID: !ul 2000938187256357937}
+  Rotate: [0.0, -1.570796251296997, 1.7484555314695172e-07]
+  SRTHash: !u 0x26f7e8d2
+  Translate: [-5.647432327270508, 100.11227416992188, -0.40116214752197266]
+- Gyaml: Obj_GanonCastle_FireWall_A_04
+  Hash: !ul 11141200640474382294
+  Phive:
+    Placement: {ID: !ul 11141200640474382294}
+  Rotate: [0.0, 0.44959914684295654, 0.0]
+  SRTHash: !u 0x23135669
+  Translate: [25.88150405883789, 100.0252914428711, 9.593278884887695]
+- Gyaml: Obj_GanonCastle_FireWall_A_04
+  Hash: !ul 18390496382505649031
+  Phive:
+    Placement: {ID: !ul 18390496382505649031}
+  Rotate: [0.0, 1.2217304706573486, 0.0]
+  SRTHash: !u 0xaa67c09d
+  Translate: [32.09185791015625, 100.0252914428711, 3.1682090759277344]
+- Gyaml: Obj_GanonCastle_BrokenRubble_A_01
+  Hash: !ul 3888116703471655273
+  Name: BrokenRubble_A_01_AlwaysVisible_01
+  Phive:
+    Placement: {ID: !ul 3888116703471655273}
+  Rotate: [-3.1406595706939697, -0.9412270784378052, 3.1412129402160645]
+  SRTHash: !u 0x28b7a4e8
+  Translate: [9.237627029418945, 100.0438461303711, 7.238858699798584]
+- Gyaml: Obj_GanonCastle_BrokenRubble_A_01
+  Hash: !ul 17727390467089078856
+  Name: BrokenRubble_A_01_AlwaysVisible_02
+  Phive:
+    Placement: {ID: !ul 17727390467089078856}
+  Rotate: [-0.055016085505485535, -1.0756096839904785, 0.11092102527618408]
+  SRTHash: !u 0x96361de5
+  Translate: [-0.5794811248779297, 99.0396499633789, 11.302799224853516]
+- Gyaml: Obj_GanonCastle_BrokenRubble_A_03
+  Hash: !ul 11179234843690698240
+  Phive:
+    Placement: {ID: !ul 11179234843690698240}
+  Rotate: [3.137233257293701, -0.3504728674888611, -3.138352394104004]
+  SRTHash: !u 0x8285ae4d
+  Translate: [-7.245144844055176, 100.47728729248047, -11.887395858764648]
+- Gyaml: Obj_GanonCastle_BrokenRubble_A_02
+  Hash: !ul 1770223703614949287
+  Name: BrokenRubble_A_02_AlwaysVisible_01
+  Phive:
+    Placement: {ID: !ul 1770223703614949287}
+  Rotate: [-0.09735090285539627, 0.21869294345378876, -0.014013636857271194]
+  SRTHash: !u 0x19a14b80
+  Translate: [-3.0824661254882812, 100.03985595703125, -13.554235458374023]
+- Gyaml: Obj_GanonCastle_BrokenRubble_A_05
+  Hash: !ul 11682817248079921949
+  Phive:
+    Placement: {ID: !ul 11682817248079921949}
+  Rotate: [3.0781846046447754, 0.600871741771698, -3.111560106277466]
+  SRTHash: !u 0x662d6e5d
+  Translate: [1.129897117614746, 99.95257568359375, 14.538806915283203]
+- Gyaml: Obj_GanonCastle_BrokenRubble_A_04
+  Hash: !ul 13177417040913999949
+  Name: BrokenRubble_A_04_AlwaysVisible_01
+  Phive:
+    Placement: {ID: !ul 13177417040913999949}
+  Rotate: [-0.08828432857990265, -0.760583758354187, -0.024349238723516464]
+  SRTHash: !u 0x9dfe69ac
+  Translate: [9.013368606567383, 100.43804168701172, -9.919668197631836]
+- Gyaml: Obj_GanonCastle_BrokenRubble_A_01
+  Hash: !ul 6580505723728003801
+  Name: BrokenRubble_A_01_AlwaysVisible_03
+  Phive:
+    Placement: {ID: !ul 6580505723728003801}
+  Rotate: [-3.1409521102905273, 0.5411243438720703, -3.1408886909484863]
+  SRTHash: !u 0x116d1563
+  Translate: [5.404870986938477, 100.03135681152344, -13.24566650390625]
+- Gyaml: Obj_GanonCastle_BrokenRubble_A_02
+  Hash: !ul 6407810279956976613
+  Name: BrokenRubble_A_02_AlwaysVisible_02
+  Phive:
+    Placement: {ID: !ul 6407810279956976613}
+  Rotate: [0.17333529889583588, -0.36451005935668945, -0.10994706302881241]
+  SRTHash: !u 0x7de251aa
+  Translate: [-7.115487098693848, 99.8106918334961, 9.342996597290039]
+- Gyaml: Obj_GanonCastle_BrokenRubble_A_05
+  Hash: !ul 8883229983513234965
+  Phive:
+    Placement: {ID: !ul 8883229983513234965}
+  Rotate: [-3.030566692352295, -1.0993143320083618, 2.944559097290039]
+  SRTHash: !u 0x8a6aee72
+  Translate: [-9.270381927490234, 99.90131378173828, -13.919986724853516]
+- Gyaml: Obj_GanonCastle_BrokenRubble_A_03
+  Hash: !ul 11778962742874626077
+  Phive:
+    Placement: {ID: !ul 11778962742874626077}
+  Rotate: [-3.1415905952453613, -0.7305504679679871, 3.141592264175415]
+  SRTHash: !u 0x9cc430d7
+  Translate: [6.815874099731445, 100.58193969726562, 9.150529861450195]
+- Gyaml: Obj_GanonCastle_BrokenRubble_A_03
+  Hash: !ul 6236936885147484594
+  Phive:
+    Placement: {ID: !ul 6236936885147484594}
+  Rotate: [0.13450568914413452, -0.32240864634513855, 0.0]
+  SRTHash: !u 0x0c7f1535
+  Translate: [-3.5749950408935547, 100.49761962890625, 9.724903106689453]
+- Dynamic: {Drop__DropTable: DropTable_Ganon_Remedies_02, SpawnTimeFrame: 900}
+  Gyaml: SpawnDropsPeriodically
+  Hash: !ul 5924398451717245879
+  Phive:
+    Placement: {ID: !ul 5924398451717245879}
+  SRTHash: !u 0xe4ed8740
+  Translate: [-9.375879287719727, 100.42739868164062, 8.491552352905273]
+- Dynamic: {Drop__DropTable: DropTable_Ganon_Remedies_01, SpawnTimeFrame: 600}
+  Gyaml: SpawnDropsPeriodically
+  Hash: !ul 2350833374906222461
+  Phive:
+    Placement: {ID: !ul 2350833374906222461}
+  Rotate: [-0.008276097476482391, -0.0, -1.5116132999537513e-05]
+  SRTHash: !u 0xfc77e376
+  Translate: [8.24400520324707, 100.40728759765625, 7.354579925537109]
+- Dynamic: {Drop__DropTable: DropTable_Ganon_Remedies_01, SpawnTimeFrame: 600}
+  Gyaml: SpawnDropsPeriodically
+  Hash: !ul 9866716658720319987
+  Phive:
+    Placement: {ID: !ul 9866716658720319987}
+  Rotate: [-1.3455719454213977e-06, -0.0, -0.003632825566455722]
+  SRTHash: !u 0x1f7d96c2
+  Translate: [0.1896677017211914, 100.43522644042969, 14.827707290649414]
+- Dynamic: {Drop__DropTable: DropTable_Ganon_Remedies_01, SpawnTimeFrame: 600}
+  Gyaml: SpawnDropsPeriodically
+  Hash: !ul 8273197963325014581
+  Phive:
+    Placement: {ID: !ul 8273197963325014581}
+  SRTHash: !u 0xd0bef2f7
+  Translate: [-9.771797180175781, 100.42739868164062, -13.951139450073242]
+- Dynamic: {Drop__DropTable: DropTable_Ganon_Remedies_02, SpawnTimeFrame: 900}
+  Gyaml: SpawnDropsPeriodically
+  Hash: !ul 7848944888522445545
+  Phive:
+    Placement: {ID: !ul 7848944888522445545}
+  SRTHash: !u 0xb3607d07
+  Translate: [4.260503768920898, 100.45150756835938, -13.435941696166992]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_CollapsedRubble_A_01
+  Hash: !ul 4954014330470569668
+  Phive:
+    Placement: {ID: !ul 4954014330470569668}
+  Rotate: [-0.13832470774650574, -0.6726117730140686, 0.04912954941391945]
+  SRTHash: !u 0x7fd96dc0
+  Scale: [0.7999999523162842, 0.7999999523162842, 0.7999999523162842]
+  Translate: [20.971359252929688, 99.08999633789062, 6.799942970275879]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_CollapsedRubble_A_01
+  Hash: !ul 6715375813850426034
+  Phive:
+    Placement: {ID: !ul 6715375813850426034}
+  Rotate: [-0.1256113499403, -0.0, 0.0]
+  SRTHash: !u 0xe34a03c7
+  Translate: [17.062000274658203, 99.5979995727539, 11.65999984741211]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_CollapsedRubble_A_01
+  Hash: !ul 18031036862237049583
+  Phive:
+    Placement: {ID: !ul 18031036862237049583}
+  Rotate: [-0.1256113499403, -1.5195010900497437, 0.0]
+  SRTHash: !u 0x59e7dbfe
+  Scale: [0.5, 0.5, 0.5]
+  Translate: [18.093000411987305, 99.73600006103516, 5.631999969482422]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_CollapsedRubble_A_01
+  Hash: !ul 12169573599478124906
+  Phive:
+    Placement: {ID: !ul 12169573599478124906}
+  Rotate: [-0.08257153630256653, -0.33796554803848267, 0.00783652812242508]
+  SRTHash: !u 0x4ee9b6ea
+  Scale: [0.5, 0.5, 0.5]
+  Translate: [11.496000289916992, 99.89299774169922, 5.229000091552734]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_CollapsedRubble_A_01
+  Hash: !ul 18317404084901430089
+  Phive:
+    Placement: {ID: !ul 18317404084901430089}
+  Rotate: [-0.1256113499403, -0.0, 0.0]
+  SRTHash: !u 0x9897c9c1
+  Scale: [0.5, 0.5, 0.5]
+  Translate: [14.892000198364258, 99.73600006103516, 7.179999828338623]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_CollapsedRubble_A_01
+  Hash: !ul 10847227075016350048
+  Phive:
+    Placement: {ID: !ul 10847227075016350048}
+  Rotate: [-0.016894787549972534, -0.34348079562187195, -0.07829546928405762]
+  SRTHash: !u 0x8fd2f693
+  Scale: [0.5, 0.5, 0.5]
+  Translate: [14.982000350952148, 99.9800033569336, -6.5329999923706055]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_CollapsedRubble_A_01
+  Hash: !ul 2016422124632610995
+  Phive:
+    Placement: {ID: !ul 2016422124632610995}
+  Rotate: [0.14181886613368988, -0.30408865213394165, -0.20985674858093262]
+  SRTHash: !u 0x13dfcc14
+  Scale: [0.6000000238418579, 0.6000000238418579, 0.6000000238418579]
+  Translate: [16.006000518798828, 101.7486343383789, -11.942000389099121]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_CollapsedRubble_A_01
+  Hash: !ul 14161277424411484074
+  Phive:
+    Placement: {ID: !ul 14161277424411484074}
+  Rotate: [-0.12135275453329086, -0.34119442105293274, 0.04078834131360054]
+  SRTHash: !u 0xdcd64a09
+  Scale: [0.800000011920929, 0.800000011920929, 0.800000011920929]
+  Translate: [19.902999877929688, 99.08999633789062, -9.449000358581543]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_CollapsedRubble_A_01
+  Hash: !ul 1351273941712044267
+  Phive:
+    Placement: {ID: !ul 1351273941712044267}
+  Rotate: [-0.018834739923477173, -0.3822566866874695, -0.29187914729118347]
+  SRTHash: !u 0xa6c2d528
+  Scale: [0.5, 0.5, 0.5]
+  Translate: [23.51799964904785, 100.44962310791016, -11.873330116271973]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_CollapsedRubble_A_02
+  Hash: !ul 16101509654367933992
+  Phive:
+    Placement: {ID: !ul 16101509654367933992}
+  Rotate: [2.1494078636169434, 0.524262011051178, -0.6453354358673096]
+  SRTHash: !u 0x70a12a27
+  Translate: [13.146279335021973, 103.45099639892578, 9.276423454284668]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_CollapsedRubble_A_02
+  Hash: !ul 5463295845997491957
+  Phive:
+    Placement: {ID: !ul 5463295845997491957}
+  Rotate: [1.729865550994873, 0.8563807010650635, -0.9185668230056763]
+  SRTHash: !u 0xd1f7b6b7
+  Translate: [21.475000381469727, 102.47899627685547, 6.559999942779541]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_CollapsedRubble_A_02
+  Hash: !ul 1463664315672958413
+  Phive:
+    Placement: {ID: !ul 1463664315672958413}
+  Rotate: [0.10564477741718292, -0.8038637042045593, -0.0821002870798111]
+  SRTHash: !u 0x1874dcfc
+  Translate: [10.920999526977539, 97.33699798583984, 8.125]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_CollapsedRubble_A_02
+  Hash: !ul 15986786881707471673
+  Phive:
+    Placement: {ID: !ul 15986786881707471673}
+  Rotate: [-2.8931798934936523, 0.7904596328735352, -0.44233620166778564]
+  SRTHash: !u 0x4a9dd400
+  Translate: [21.20599937438965, 102.96199798583984, -11.618000030517578]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_CollapsedRubble_A_02
+  Hash: !ul 8059911095023571677
+  Phive:
+    Placement: {ID: !ul 8059911095023571677}
+  Rotate: [-0.16498596966266632, -1.1317064762115479, 0.681900143623352]
+  SRTHash: !u 0xe355e178
+  Translate: [16.503000259399414, 97.76300048828125, -11.859999656677246]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_CollapsedRubble_A_02
+  Hash: !ul 16424060803862011581
+  Phive:
+    Placement: {ID: !ul 16424060803862011581}
+  Rotate: [2.1876654624938965, 0.004852014593780041, -0.7278023362159729]
+  SRTHash: !u 0xb192166f
+  Translate: [15.892502784729004, 101.79299926757812, -11.0649995803833]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_CollapsedRubble_A_02
+  Hash: !ul 16742056447815009478
+  Phive:
+    Placement: {ID: !ul 16742056447815009478}
+  Rotate: [2.6552793979644775, 1.0375217199325562, -0.5172072052955627]
+  SRTHash: !u 0xe59e34a2
+  Translate: [19.51822853088379, 100.66638946533203, 12.788732528686523]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_CollapsedRubble_A_02
+  Hash: !ul 16165720467440579067
+  Phive:
+    Placement: {ID: !ul 16165720467440579067}
+  Rotate: [0.11525934189558029, -1.1184077262878418, 2.906090021133423]
+  SRTHash: !u 0xe00bef42
+  Translate: [24.01162338256836, 101.79544830322266, -12.808645248413086]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_CollapsedRubble_A_02
+  Hash: !ul 16656717574444521762
+  Phive:
+    Placement: {ID: !ul 16656717574444521762}
+  Rotate: [-0.24684327840805054, -1.1297963857650757, -3.0498528480529785]
+  SRTHash: !u 0xf12ea602
+  Translate: [16.87166404724121, 103.11180114746094, -13.928972244262695]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_CollapsedRubble_A_02
+  Hash: !ul 4793156415904155192
+  Phive:
+    Placement: {ID: !ul 4793156415904155192}
+  Rotate: [0.11525952070951462, -1.1184077262878418, 0.04415634274482727]
+  SRTHash: !u 0x5b777684
+  Translate: [14.072903633117676, 100.17694854736328, -10.293824195861816]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_CollapsedRubble_A_02
+  Hash: !ul 6391465850603500274
+  Phive:
+    Placement: {ID: !ul 6391465850603500274}
+  Rotate: [0.22561046481132507, 1.3038657903671265, 0.07321561127901077]
+  SRTHash: !u 0xb6bb921c
+  Translate: [17.00304412841797, 99.02867889404297, 13.27527904510498]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_CollapsedRubble_A_02
+  Hash: !ul 4309086212899689528
+  Phive:
+    Placement: {ID: !ul 4309086212899689528}
+  Rotate: [0.05321454256772995, -1.3830809593200684, 0.10357027500867844]
+  SRTHash: !u 0x0d2ba973
+  Translate: [21.536523818969727, 99.36666107177734, 14.67331314086914]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_CollapsedRubble_A_02
+  Hash: !ul 950981742025673791
+  Phive:
+    Placement: {ID: !ul 950981742025673791}
+  Rotate: [0.05321459844708443, -1.3830811977386475, -3.099146604537964]
+  SRTHash: !u 0xdceb97ff
+  Translate: [22.069597244262695, 101.30718994140625, 13.333606719970703]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_AirWall
+  Hash: !ul 3171860964364222067
+  Phive:
+    Placement: {ID: !ul 3171860964364222067}
+  Rotate: [0.0, 0.12141824513673782, 0.0]
+  SRTHash: !u 0x5ba3cfcc
+  Translate: [21.806591033935547, 101.3669204711914, -3.5313782691955566]
+- Gyaml: Land_GanonCastle_FinalBattleField_FlyingRubble_A_01
+  Hash: !ul 836589215463842617
+  Phive:
+    Placement: {ID: !ul 836589215463842617}
+  SRTHash: !u 0xf4a7055f
+  Translate: [0.00048828125, 150.24195861816406, 0.00021648406982421875]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_FireRubble_A_01
+  Hash: !ul 5718798554606899879
+  Phive:
+    Placement: {ID: !ul 5718798554606899879}
+  Rotate: [-3.141592502593994, -1.3129096031188965, -3.141592502593994]
+  SRTHash: !u 0xc6996568
+  Translate: [-23.700923919677734, 100.12096405029297, -6.334836006164551]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_FireRubble_A_01
+  Hash: !ul 6873490632434386540
+  Phive:
+    Placement: {ID: !ul 6873490632434386540}
+  Rotate: [0.0, 1.1896156072616577, 0.0]
+  SRTHash: !u 0x140fa785
+  Scale: [0.800000011920929, 0.800000011920929, 0.800000011920929]
+  Translate: [20.0648193359375, 100.12096405029297, 7.638351917266846]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_FireRubble_A_01
+  Hash: !ul 8537049364543038410
+  Phive:
+    Placement: {ID: !ul 8537049364543038410}
+  Rotate: [0.0, 0.13962635397911072, 0.0]
+  SRTHash: !u 0x09d59688
+  Scale: [0.800000011920929, 0.800000011920929, 0.800000011920929]
+  Translate: [2.268709182739258, 100.13624572753906, 22.367324829101562]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_FireRubble_A_01
+  Hash: !ul 13599558922991065470
+  Phive:
+    Placement: {ID: !ul 13599558922991065470}
+  Rotate: [0.0, -0.5904099345207214, 0.0]
+  SRTHash: !u 0xe2d2843d
+  Translate: [12.075888633728027, 100.12096405029297, -19.14236831665039]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_FireRubble_A_01
+  Hash: !ul 9022894284266595107
+  Phive:
+    Placement: {ID: !ul 9022894284266595107}
+  Rotate: [-3.141592502593994, -1.0536715984344482, -3.141592502593994]
+  SRTHash: !u 0x83b5787a
+  Scale: [0.800000011920929, 0.800000011920929, 0.800000011920929]
+  Translate: [-20.79281234741211, 100.12096405029297, -13.486052513122559]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_FireRubble_A_01
+  Hash: !ul 10472025050417259673
+  Phive:
+    Placement: {ID: !ul 10472025050417259673}
+  Rotate: [0.0, -1.2217304706573486, 0.0]
+  SRTHash: !u 0xd58f487f
+  Scale: [0.800000011920929, 0.800000011920929, 0.800000011920929]
+  Translate: [-22.350513458251953, 100.0999984741211, 7.92587947845459]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_FireRubble_A_01
+  Hash: !ul 6181886936579166395
+  Phive:
+    Placement: {ID: !ul 6181886936579166395}
+  Rotate: [0.0, 0.8428863286972046, 0.0]
+  SRTHash: !u 0x230dffdc
+  Translate: [15.909488677978516, 100.12096405029297, 14.017216682434082]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_FireRubble_A_01
+  Hash: !ul 7033546717189265746
+  Phive:
+    Placement: {ID: !ul 7033546717189265746}
+  Rotate: [-3.141592502593994, 0.9070798754692078, -3.141592502593994]
+  SRTHash: !u 0xfcf58db7
+  Translate: [-18.692005157470703, 100.0999984741211, 14.129165649414062]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_FireRubble_A_01
+  Hash: !ul 1936679357041108617
+  Phive:
+    Placement: {ID: !ul 1936679357041108617}
+  Rotate: [-3.141592502593994, 0.9403961896896362, -3.141592502593994]
+  SRTHash: !u 0x93c74f76
+  Scale: [0.800000011920929, 0.800000011920929, 0.800000011920929]
+  Translate: [17.363201141357422, 100.12096405029297, -13.756510734558105]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_FireRubble_A_01
+  Hash: !ul 9514481477447552889
+  Phive:
+    Placement: {ID: !ul 9514481477447552889}
+  Rotate: [0.0, 0.04154655709862709, 0.0]
+  SRTHash: !u 0x7f188315
+  Translate: [-1.7741813659667969, 100.12096405029297, -24.257965087890625]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_FireRubble_A_01
+  Hash: !ul 14955337651736537743
+  Phive:
+    Placement: {ID: !ul 14955337651736537743}
+  Rotate: [-3.141592502593994, -0.5500730872154236, -3.141592502593994]
+  SRTHash: !u 0x6132f356
+  Translate: [9.529584884643555, 100.13624572753906, 19.988327026367188]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_FireRubble_A_01
+  Hash: !ul 16961600403865400347
+  Phive:
+    Placement: {ID: !ul 16961600403865400347}
+  Rotate: [0.0, -0.5601964592933655, 0.0]
+  SRTHash: !u 0xfb320dbc
+  Scale: [0.800000011920929, 0.800000011920929, 0.800000011920929]
+  Translate: [-12.735366821289062, 100.0999984741211, 19.65381622314453]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_FireRubble_A_01
+  Hash: !ul 5646293294063529528
+  Phive:
+    Placement: {ID: !ul 5646293294063529528}
+  Rotate: [-3.141592502593994, 0.2670077681541443, -3.141592502593994]
+  SRTHash: !u 0xb907fde5
+  Scale: [0.800000011920929, 0.800000011920929, 0.800000011920929]
+  Translate: [5.394800186157227, 100.12096405029297, -23.003528594970703]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_FireRubble_A_01
+  Hash: !ul 11279453280601427041
+  Phive:
+    Placement: {ID: !ul 11279453280601427041}
+  Rotate: [-3.141592502593994, -0.3914417326450348, -3.141592502593994]
+  SRTHash: !u 0x801e7d7e
+  Scale: [0.800000011920929, 0.800000011920929, 0.800000011920929]
+  Translate: [-9.568012237548828, 100.12096405029297, -23.06884002685547]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_FireRubble_A_01
+  Hash: !ul 15749653956558303959
+  Phive:
+    Placement: {ID: !ul 15749653956558303959}
+  Rotate: [-3.141592502593994, 0.16481128334999084, -3.141592502593994]
+  SRTHash: !u 0x84b4041c
+  Translate: [-5.699102401733398, 100.0999984741211, 22.1170597076416]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_FireRubble_A_01
+  Hash: !ul 4547896791753736564
+  Phive:
+    Placement: {ID: !ul 4547896791753736564}
+  Rotate: [-3.141592502593994, 1.4696176052093506, -3.141592502593994]
+  SRTHash: !u 0x4cbcf649
+  Scale: [0.800000011920929, 0.800000011920929, 0.800000011920929]
+  Translate: [-23.989856719970703, 100.0999984741211, 1.1318740844726562]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_FireRubble_A_01
+  Hash: !ul 13292208969882890323
+  Phive:
+    Placement: {ID: !ul 13292208969882890323}
+  Rotate: [0.0, 1.5434516668319702, 0.0]
+  SRTHash: !u 0x8ee9ce29
+  Translate: [21.6131534576416, 100.12096405029297, -0.0324554443359375]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_FireRubble_A_01
+  Hash: !ul 2250741424196980900
+  Phive:
+    Placement: {ID: !ul 2250741424196980900}
+  Rotate: [0.0, 0.6872367858886719, 0.0]
+  SRTHash: !u 0x4024dd01
+  Translate: [-15.70210075378418, 100.12096405029297, -19.551666259765625]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_FireRubble_A_01
+  Hash: !ul 5176460467907565158
+  Phive:
+    Placement: {ID: !ul 5176460467907565158}
+  Rotate: [-3.141592502593994, 1.209829330444336, -3.141592502593994]
+  SRTHash: !u 0xf5cd8a20
+  Scale: [0.800000011920929, 0.800000011920929, 0.800000011920929]
+  Translate: [20.612855911254883, 100.12096405029297, -7.877810478210449]
+- Gyaml: WorldMgrThunderLocator
+  Hash: !ul 16389375008122907106
+  Name: Thunder0
+  Phive:
+    Placement: {ID: !ul 16389375008122907106}
+  Rotate: [0.0, -1.570796251296997, 0.2617993950843811]
+  SRTHash: !u 0x35b3c7cf
+  Translate: [415.90948486328125, 215.1209716796875, 14.017216682434082]
+- Gyaml: WorldMgrThunderLocator
+  Hash: !ul 5458377982282868205
+  Name: Thunder3
+  Phive:
+    Placement: {ID: !ul 5458377982282868205}
+  Rotate: [0.2617993950843811, -0.0, 0.0]
+  SRTHash: !u 0xc19ff285
+  Translate: [15.909488677978516, 215.1209716796875, -385.9827880859375]
+- Gyaml: WorldMgrThunderLocator
+  Hash: !ul 3894868481293860760
+  Name: Thunder2
+  Phive:
+    Placement: {ID: !ul 3894868481293860760}
+  Rotate: [-2.879793167114258, -0.0, -3.141592502593994]
+  SRTHash: !u 0x35c49bed
+  Translate: [15.909488677978516, 215.1209716796875, 414.0172119140625]
+- Gyaml: WorldMgrThunderLocator
+  Hash: !ul 4433039106804918168
+  Name: Thunder1
+  Phive:
+    Placement: {ID: !ul 4433039106804918168}
+  Rotate: [0.0, 1.570796251296997, -0.2617993950843811]
+  SRTHash: !u 0xe398c901
+  Translate: [-384.09051513671875, 215.1209716796875, 14.017216682434082]
+- Gyaml: WorldMgrThunderMgr
+  Hash: !ul 4977598394496704607
+  Links:
+  - {Dst: !ul 5458377982282868205, Gyaml: Reference, Name: Reference, Src: !ul 4977598394496704607}
+  - {Dst: !ul 3894868481293860760, Gyaml: Reference, Name: Reference, Src: !ul 4977598394496704607}
+  - {Dst: !ul 4433039106804918168, Gyaml: Reference, Name: Reference, Src: !ul 4977598394496704607}
+  - {Dst: !ul 16389375008122907106, Gyaml: Reference, Name: Reference, Src: !ul 4977598394496704607}
+  - {Dst: !ul 1515455586365329328, Gyaml: Reference, Name: Reference, Src: !ul 4977598394496704607}
+  - {Dst: !ul 16005852179113878458, Gyaml: Reference, Name: Reference, Src: !ul 4977598394496704607}
+  - {Dst: !ul 3439128791861583030, Gyaml: Reference, Name: Reference, Src: !ul 4977598394496704607}
+  - {Dst: !ul 10970591959738730620, Gyaml: Reference, Name: Reference, Src: !ul 4977598394496704607}
+  Phive:
+    Placement: {ID: !ul 4977598394496704607}
+  Presence: {FlagName: FinalBattleField_BeforeGanonAppear, IsCheckLazy: false, IsNegation: true}
+  SRTHash: !u 0x76d931fd
+  Translate: [15.909488677978516, 400.1209716796875, 14.017216682434082]
+- Gyaml: WorldMgrThunderLocator
+  Hash: !ul 1515455586365329328
+  Name: Thunder_Dm1
+  Phive:
+    Placement: {ID: !ul 1515455586365329328}
+  Rotate: [-3.141592502593994, 1.4815006256103516, 2.316863536834717]
+  SRTHash: !u 0xb8474d22
+  Translate: [-520.4229125976562, 845.8584594726562, 14.017216682434082]
+- Gyaml: WorldMgrThunderLocator
+  Hash: !ul 3439128791861583030
+  Name: Thunder_Dm2
+  Phive:
+    Placement: {ID: !ul 3439128791861583030}
+  Rotate: [-2.321232318878174, 0.03623659536242485, 3.076014757156372]
+  SRTHash: !u 0x0be51b08
+  Translate: [15.909488677978516, 845.8584594726562, 551.4102783203125]
+- Gyaml: WorldMgrThunderLocator
+  Hash: !ul 16005852179113878458
+  Name: Thunder_Dm3
+  Phive:
+    Placement: {ID: !ul 16005852179113878458}
+  Rotate: [0.8206143379211426, -0.03237953782081604, 0.06556781381368637]
+  SRTHash: !u 0x6df128f5
+  Translate: [15.909488677978516, 845.8584594726562, -523.3757934570312]
+- Gyaml: WorldMgrThunderLocator
+  Hash: !ul 10970591959738730620
+  Name: Thunder_Dm0
+  Phive:
+    Placement: {ID: !ul 10970591959738730620}
+  Rotate: [-0.3901866674423218, -1.5008469820022583, 1.2137290239334106]
+  SRTHash: !u 0x05af8608
+  Translate: [552.241455078125, 845.8584594726562, 14.017216682434082]
+- Gyaml: Obj_GanonCastle_BrokenRubble_A_01
+  Hash: !ul 7882047916379833974
+  Name: BrokenRubble_01
+  Phive:
+    Placement: {ID: !ul 7882047916379833974}
+  Rotate: [3.0558412075042725, 1.0750235319137573, 3.0164096355438232]
+  SRTHash: !u 0x087fee0a
+  Translate: [-13.919550895690918, 99.87387084960938, -7.463226318359375]
+- Dynamic: {GameDataAttention: NaviAttention_Ganon, IsIntendedForEventAppear: true}
+  Gyaml: Enemy_DungeonBoss_Ganon
+  Hash: !ul 6419752995561535374
+  Links:
+  - {Dst: !ul 4977598394496704607, Gyaml: ActorHold, Name: ActorHold, Src: !ul 6419752995561535374}
+  - {Dst: !ul 103528828847319308, Gyaml: Reference, Name: Reference, Src: !ul 6419752995561535374}
+  - {Dst: !ul 13807788033499714174, Gyaml: Reference, Name: Reference, Src: !ul 6419752995561535374}
+  - {Dst: !ul 4782416049794487269, Gyaml: Reference, Name: Reference, Src: !ul 6419752995561535374}
+  - {Dst: !ul 836589215463842617, Gyaml: Reference, Name: Reference, Src: !ul 6419752995561535374}
+  - {Dst: !ul 13164923689660921900, Gyaml: Reference, Name: Reference, Src: !ul 6419752995561535374}
+  - {Dst: !ul 6623066289288589418, Gyaml: Reference, Name: Reference, Src: !ul 6419752995561535374}
+  - {Dst: !ul 2595714903309978338, Gyaml: Reference, Name: Reference, Src: !ul 6419752995561535374}
+  Phive:
+    Placement: {ID: !ul 6419752995561535374}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xd9c93100
+  Translate: [-1.371274471282959, 99.9848861694336, -1.030042052268982]
+- Gyaml: Obj_GanonCastle_BrokenRubble_A_02
+  Hash: !ul 3931559359547481838
+  Name: BrokenRubble_02
+  Phive:
+    Placement: {ID: !ul 3931559359547481838}
+  Rotate: [-3.008256435394287, -1.3530787229537964, 3.1010491847991943]
+  SRTHash: !u 0x549eac52
+  Translate: [-14.822916984558105, 99.89242553710938, -4.295124530792236]
+- Gyaml: Obj_GanonCastle_FireWall_A_04
+  Hash: !ul 11170917274066596728
+  Phive:
+    Placement: {ID: !ul 11170917274066596728}
+  Rotate: [-3.141592502593994, 0.3667513430118561, -3.141592502593994]
+  SRTHash: !u 0x7b4fdab8
+  Translate: [25.98357391357422, 100.0252914428711, -10.350946426391602]
+- Dynamic: {RequestEventName: InsideGanonCastle_Dungeon_BossAppear_2}
+  Gyaml: EventRequestActor
+  Hash: !ul 4702981707390979947
+  Links:
+  - {Dst: !ul 17703708309707818198, Gyaml: Reference, Name: Reference, Src: !ul 4702981707390979947}
+  - {Dst: !ul 2000938187256357937, Gyaml: Reference, Name: Reference, Src: !ul 4702981707390979947}
+  - {Dst: !ul 836589215463842617, Gyaml: Reference, Name: Reference, Src: !ul 4702981707390979947}
+  - {Dst: !ul 7409974130946273436, Gyaml: Reference, Name: Reference, Src: !ul 4702981707390979947}
+  - {Dst: !ul 4977598394496704607, Gyaml: Reference, Name: Reference, Src: !ul 4702981707390979947}
+  Phive:
+    Placement: {ID: !ul 4702981707390979947}
+  SRTHash: !u 0x987bf43c
+  Translate: [-0.001071929931640625, 119.5517578125, -7.808146953582764]
+- Gyaml: Obj_GanonCastle_MasterSword_A_01
+  Hash: !ul 3773331549949601936
+  Phive:
+    Placement: {ID: !ul 3773331549949601936}
+  Rotate: [-3.141592502593994, -1.4574592113494873, -3.141592502593994]
+  SRTHash: !u 0x03fb8338
+  Translate: [35.51190185546875, 100.09764099121094, -1.0657774209976196]
+- Gyaml: Land_GanonCastle_FinalBattleField_BigRubble_A_01
+  Hash: !ul 6623066289288589418
+  Name: '1'
+  Phive:
+    Placement: {ID: !ul 6623066289288589418}
+  Rotate: [1.172669529914856, -0.9004568457603455, -1.5498483180999756]
+  SRTHash: !u 0x77ec57bb
+  Translate: [-217.75460815429688, 152.6797637939453, -39.36980438232422]
+- Gyaml: Weapon_Sword_Master
+  Hash: !ul 6416738733936699784
+  Phive:
+    Placement: {ID: !ul 6416738733936699784}
+  Rotate: [-2.0624310970306396, 1.2656888961791992, 2.528446674346924]
+  SRTHash: !u 0x5568295b
+  Translate: [35.62816619873047, 100.9675064086914, -0.949060320854187]
+- Gyaml: EftLoc_FinalBattleField_Env_1st_00
+  Hash: !ul 7409974130946273436
+  Phive:
+    Placement: {ID: !ul 7409974130946273436}
+  SRTHash: !u 0xa8e4b2fe
+  Translate: [-1.3899999856948853, 100.59393310546875, -1.2100000381469727]
+- Gyaml: Land_GanonCastle_FinalBattleField_BigRubble_A_02
+  Hash: !ul 6603379997586482459
+  Phive:
+    Placement: {ID: !ul 6603379997586482459}
+  Rotate: [2.623047351837158, 0.1964888721704483, -2.7392051219940186]
+  SRTHash: !u 0xd37c9d79
+  Translate: [61.19123077392578, 159.0113067626953, -278.2597351074219]
+- Gyaml: Land_GanonCastle_FinalBattleField_BigRubble_A_02
+  Hash: !ul 13876823480148920518
+  Phive:
+    Placement: {ID: !ul 13876823480148920518}
+  Rotate: [2.660858154296875, 0.5093553066253662, -2.8873534202575684]
+  SRTHash: !u 0x2c60ca18
+  Translate: [-19.22845458984375, 144.5586700439453, 212.79562377929688]
+- Gyaml: EftLoc_FinalBattleField_Cloud_00
+  Hash: !ul 7170670000765246473
+  Phive:
+    Placement: {ID: !ul 7170670000765246473}
+  SRTHash: !u 0x6a5a324e
+  Translate: [0.0, 200.0, 0.0]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_FireRubble_A_01
+  Hash: !ul 17687467301439070038
+  Phive:
+    Placement: {ID: !ul 17687467301439070038}
+  Rotate: [0.27308526635169983, -0.0927460566163063, -0.21485967934131622]
+  SRTHash: !u 0xcda2ff25
+  Translate: [-0.14483439922332764, 101.4808120727539, -44.30846405029297]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_FireRubble_A_01
+  Hash: !ul 8912072015513880499
+  Phive:
+    Placement: {ID: !ul 8912072015513880499}
+  Rotate: [0.24699147045612335, 0.18944203853607178, 0.0]
+  SRTHash: !u 0xe25963b0
+  Translate: [-9.221832275390625, 102.6738510131836, -44.06916046142578]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_FireRubble_A_01
+  Hash: !ul 4107389981774624068
+  Phive:
+    Placement: {ID: !ul 4107389981774624068}
+  Rotate: [-0.536458432674408, -0.552926242351532, -0.09574682265520096]
+  SRTHash: !u 0x92e6b7c2
+  Translate: [-42.277870178222656, 101.79977416992188, 40.114566802978516]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_FireRubble_A_01
+  Hash: !ul 10850738157828510315
+  Phive:
+    Placement: {ID: !ul 10850738157828510315}
+  Rotate: [-2.739495038986206, 0.8720101118087769, -3.077816963195801]
+  SRTHash: !u 0x94198278
+  Translate: [-48.02208709716797, 101.72176361083984, 34.22820281982422]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_FireRubble_A_01
+  Hash: !ul 2379957783454378041
+  Phive:
+    Placement: {ID: !ul 2379957783454378041}
+  Rotate: [0.04071411117911339, 0.9060075283050537, -0.2639867663383484]
+  SRTHash: !u 0xac94fe1d
+  Translate: [-51.620906829833984, 102.64291381835938, -21.765499114990234]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_FireRubble_A_01
+  Hash: !ul 12777330602274815248
+  Phive:
+    Placement: {ID: !ul 12777330602274815248}
+  Rotate: [0.24699141085147858, 1.1518360376358032, 0.0]
+  SRTHash: !u 0x26498e74
+  Translate: [-53.51658248901367, 103.93850708007812, -12.723079681396484]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_FireRubble_A_01
+  Hash: !ul 6664395637904587813
+  Phive:
+    Placement: {ID: !ul 6664395637904587813}
+  Rotate: [-2.8945870399475098, -0.1918836236000061, 3.0191001892089844]
+  SRTHash: !u 0xfaf81ee8
+  Translate: [-4.2945051193237305, 103.5215072631836, 70.33099365234375]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_FireRubble_A_01
+  Hash: !ul 10914946700222904191
+  Phive:
+    Placement: {ID: !ul 10914946700222904191}
+  Rotate: [-0.36679786443710327, -0.06568177789449692, 0.07513270527124405]
+  SRTHash: !u 0x9ec6cc38
+  Translate: [-13.853619575500488, 101.66838073730469, 69.91168975830078]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_FireRubble_A_01
+  Hash: !ul 12350272083693219045
+  Phive:
+    Placement: {ID: !ul 12350272083693219045}
+  Rotate: [-0.40253856778144836, -0.31604525446891785, -0.15941742062568665]
+  SRTHash: !u 0xe46df431
+  Translate: [-35.150352478027344, 100.92328643798828, 43.370521545410156]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_FireRubble_A_01
+  Hash: !ul 15521408621906181282
+  Phive:
+    Placement: {ID: !ul 15521408621906181282}
+  Rotate: [-2.529451608657837, -0.5733944177627563, 2.998323678970337]
+  SRTHash: !u 0xb46455f6
+  Translate: [35.99998474121094, 102.70185852050781, 55.27132797241211]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_FireRubble_A_01
+  Hash: !ul 10966592336757288495
+  Phive:
+    Placement: {ID: !ul 10966592336757288495}
+  Rotate: [-0.30029958486557007, 0.6862413287162781, 0.09696803987026215]
+  SRTHash: !u 0xcf6e1b9a
+  Translate: [25.543420791625977, 101.9388656616211, 55.24821472167969]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_FireRubble_A_01
+  Hash: !ul 15578797007215580076
+  Phive:
+    Placement: {ID: !ul 15578797007215580076}
+  Rotate: [0.07438799738883972, -0.6399397253990173, 0.11100782454013824]
+  SRTHash: !u 0xadf922c9
+  Translate: [38.69606399536133, 102.6738510131836, -23.329008102416992]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_FireRubble_A_01
+  Hash: !ul 7917194444048935201
+  Phive:
+    Placement: {ID: !ul 7917194444048935201}
+  Rotate: [0.27308526635169983, -0.0927460566163063, -0.21485967934131622]
+  SRTHash: !u 0x8d2492c3
+  Translate: [45.9373893737793, 101.4808120727539, -20.019336700439453]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_FireRubble_A_01
+  Hash: !ul 11734110948188183663
+  Phive:
+    Placement: {ID: !ul 11734110948188183663}
+  Rotate: [-2.346769094467163, -0.5558465719223022, 2.611480236053467]
+  SRTHash: !u 0x40ab535e
+  Translate: [47.62528991699219, 101.80443572998047, 19.169418334960938]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_FireRubble_A_01
+  Hash: !ul 9699442461978090168
+  Phive:
+    Placement: {ID: !ul 9699442461978090168}
+  Rotate: [-0.30029958486557007, 0.6862413287162781, 0.09696803987026215]
+  SRTHash: !u 0x654871ba
+  Translate: [41.01465606689453, 103.75279235839844, 24.137142181396484]
+- Gyaml: Obj_GanonCastle_FireWall_A_02
+  Hash: !ul 3921533091119153506
+  Phive:
+    Placement: {ID: !ul 3921533091119153506}
+  Rotate: [0.04071411117911339, 0.9060075283050537, -0.2639867663383484]
+  SRTHash: !u 0xac94fe1d
+  Translate: [-51.620906829833984, 102.64291381835938, -21.765499114990234]
+- Gyaml: Obj_GanonCastle_FireWall_A_02
+  Hash: !ul 6744236772081829738
+  Phive:
+    Placement: {ID: !ul 6744236772081829738}
+  Rotate: [0.24699147045612335, 0.18944203853607178, 0.0]
+  SRTHash: !u 0xe25963b0
+  Translate: [-9.221832275390625, 102.6738510131836, -44.06916046142578]
+- Gyaml: Obj_GanonCastle_FireWall_A_02
+  Hash: !ul 6050210815996303663
+  Phive:
+    Placement: {ID: !ul 6050210815996303663}
+  Rotate: [-2.739495038986206, 0.8720101118087769, -3.077816963195801]
+  SRTHash: !u 0x94198278
+  Translate: [-48.02208709716797, 101.72176361083984, 34.22820281982422]
+- Gyaml: Obj_GanonCastle_FireWall_A_02
+  Hash: !ul 15652959217688997941
+  Phive:
+    Placement: {ID: !ul 15652959217688997941}
+  Rotate: [-2.8945870399475098, -0.1918836236000061, 3.0191001892089844]
+  SRTHash: !u 0xfaf81ee8
+  Translate: [-4.2945051193237305, 103.5215072631836, 70.33099365234375]
+- Gyaml: Obj_GanonCastle_FireWall_A_02
+  Hash: !ul 13236864831226496800
+  Phive:
+    Placement: {ID: !ul 13236864831226496800}
+  Rotate: [0.24699141085147858, 1.1518360376358032, 0.0]
+  SRTHash: !u 0x26498e74
+  Translate: [-53.51658248901367, 103.93850708007812, -12.723079681396484]
+- Gyaml: Obj_GanonCastle_FireWall_A_02
+  Hash: !ul 14182201887595643328
+  Phive:
+    Placement: {ID: !ul 14182201887595643328}
+  Rotate: [-2.529451608657837, -0.5733944177627563, 2.998323678970337]
+  SRTHash: !u 0xb46455f6
+  Translate: [35.99998474121094, 102.70185852050781, 55.27132797241211]
+- Gyaml: Obj_GanonCastle_FireWall_A_02
+  Hash: !ul 17441016185655837283
+  Phive:
+    Placement: {ID: !ul 17441016185655837283}
+  Rotate: [-0.30029958486557007, 0.6862413287162781, 0.09696803987026215]
+  SRTHash: !u 0xcf6e1b9a
+  Translate: [25.543420791625977, 101.9388656616211, 55.24821472167969]
+- Gyaml: Obj_GanonCastle_FireWall_A_02
+  Hash: !ul 20497638729523802
+  Phive:
+    Placement: {ID: !ul 20497638729523802}
+  Rotate: [-0.40253856778144836, -0.31604525446891785, -0.15941742062568665]
+  SRTHash: !u 0xe46df431
+  Translate: [-35.150352478027344, 100.92328643798828, 43.370521545410156]
+- Gyaml: Obj_GanonCastle_FireWall_A_02
+  Hash: !ul 8729244364841540905
+  Phive:
+    Placement: {ID: !ul 8729244364841540905}
+  Rotate: [-0.536458432674408, -0.552926242351532, -0.09574682265520096]
+  SRTHash: !u 0x92e6b7c2
+  Translate: [-42.277870178222656, 101.79977416992188, 40.114566802978516]
+- Gyaml: Obj_GanonCastle_FireWall_A_02
+  Hash: !ul 5227138911433499858
+  Phive:
+    Placement: {ID: !ul 5227138911433499858}
+  Rotate: [0.07438799738883972, -0.6399397253990173, 0.11100782454013824]
+  SRTHash: !u 0xadf922c9
+  Translate: [38.69606399536133, 102.6738510131836, -23.329008102416992]
+- Gyaml: Obj_GanonCastle_FireWall_A_02
+  Hash: !ul 6459470081917883488
+  Phive:
+    Placement: {ID: !ul 6459470081917883488}
+  Rotate: [-0.36679786443710327, -0.06568177789449692, 0.07513270527124405]
+  SRTHash: !u 0x9ec6cc38
+  Translate: [-13.853619575500488, 101.66838073730469, 69.91168975830078]
+- Gyaml: Obj_GanonCastle_FireWall_A_02
+  Hash: !ul 9596542262050564956
+  Phive:
+    Placement: {ID: !ul 9596542262050564956}
+  Rotate: [0.27308526635169983, -0.0927460566163063, -0.21485967934131622]
+  SRTHash: !u 0x8d2492c3
+  Translate: [45.9373893737793, 101.4808120727539, -20.019336700439453]
+- Gyaml: Obj_GanonCastle_FireWall_A_02
+  Hash: !ul 4373818267844034055
+  Phive:
+    Placement: {ID: !ul 4373818267844034055}
+  Rotate: [0.27308526635169983, -0.0927460566163063, -0.21485967934131622]
+  SRTHash: !u 0xcda2ff25
+  Translate: [-0.14483439922332764, 101.4808120727539, -44.30846405029297]
+- Gyaml: Obj_GanonCastle_FireWall_A_02
+  Hash: !ul 338532676786389202
+  Phive:
+    Placement: {ID: !ul 338532676786389202}
+  Rotate: [-2.346769094467163, -0.5558465719223022, 2.611480236053467]
+  SRTHash: !u 0x40ab535e
+  Translate: [47.62528991699219, 101.80443572998047, 19.169418334960938]
+- Gyaml: Obj_GanonCastle_FireWall_A_02
+  Hash: !ul 4040573062220209562
+  Phive:
+    Placement: {ID: !ul 4040573062220209562}
+  Rotate: [-0.30029958486557007, 0.6862413287162781, 0.09696803987026215]
+  SRTHash: !u 0x654871ba
+  Translate: [41.01465606689453, 103.75279235839844, 24.137142181396484]
+- Gyaml: Obj_GanonCastle_Rubble_A_01
+  Hash: !ul 3161642765020419627
+  Phive:
+    Placement: {ID: !ul 3161642765020419627}
+  Rotate: [-3.141592502593994, 1.0375103950500488, -3.141592502593994]
+  SRTHash: !u 0xdcddbecb
+  Translate: [-15.0, 99.85167694091797, 1.4003167152404785]
+- Gyaml: EftLoc_FinalBattleField_Env_2nd_00
+  Hash: !ul 11245966557981013486
+  Phive:
+    Placement: {ID: !ul 11245966557981013486}
+  SRTHash: !u 0xa8e4b2fe
+  Translate: [-1.3899999856948853, 100.59393310546875, -1.2100000381469727]
+- Gyaml: Obj_GanonCastle_FireWallCircle_A_01
+  Hash: !ul 5188055541200653883
+  Phive:
+    Placement: {ID: !ul 5188055541200653883}
+  SRTHash: !u 0x78970c13
+  Translate: [-1.384570837020874, 100.0, -1.0]
+- Gyaml: Obj_GanonCastle_BrokenRubble_A_04
+  Hash: !ul 4770306773365510863
+  Name: BrokenRubble_04
+  Phive:
+    Placement: {ID: !ul 4770306773365510863}
+  Rotate: [3.0395636558532715, 1.343598484992981, 2.9876599311828613]
+  SRTHash: !u 0xf038936b
+  Translate: [-14.467106819152832, 100.20958709716797, 1.3625667095184326]
+- Gyaml: Obj_GanonCastle_FireWall_A_04
+  Hash: !ul 5377719838568913056
+  Phive:
+    Placement: {ID: !ul 5377719838568913056}
+  Rotate: [-3.141592502593994, 1.2217305898666382, -3.141592502593994]
+  SRTHash: !u 0x61e6758f
+  Translate: [32.09185791015625, 100.0252914428711, -5.022946357727051]
+- Gyaml: Land_GanonCastle_FinalBattleField_BigRubble_A_01
+  Hash: !ul 13164923689660921900
+  Name: '2'
+  Phive:
+    Placement: {ID: !ul 13164923689660921900}
+  Rotate: [2.202860116958618, -1.135982871055603, -2.5457675457000732]
+  SRTHash: !u 0x8983922d
+  Translate: [205.69024658203125, 141.23333740234375, -2.373931407928467]
+- Gyaml: DestinationAnchor
+  Hash: !ul 103528828847319308
+  Name: Dm_FinalBattle_0010_Link
+  Phive:
+    Placement: {ID: !ul 103528828847319308}
+  Rotate: [0.0, -0.5402666926383972, 0.0]
+  SRTHash: !u 0xfe59cd48
+  Translate: [3.4969000816345215, 100.021240234375, -8.706469535827637]
+- Gyaml: DestinationAnchor
+  Hash: !ul 906229281704666907
+  Name: FinalBattle_BossOut
+  Phive:
+    Placement: {ID: !ul 906229281704666907}
+  SRTHash: !u 0x473e9e9e
+  Translate: [-1.37141752243042, 100.021240234375, -1.0299403667449951]
+- Gyaml: DestinationAnchor
+  Hash: !ul 4782416049794487269
+  Name: Dm_FinalBattle_0010_Locator
+  Phive:
+    Placement: {ID: !ul 4782416049794487269}
+  SRTHash: !u 0x473e9e9e
+  Translate: [-1.3714179992675781, 100.021240234375, -1.0299403667449951]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 4867031986804579073
+  Phive:
+    Placement: {ID: !ul 4867031986804579073}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x6d48e1a9
+  Scale: [30.0, 10.0, 30.0]
+  Translate: [-1.371274471282959, 95.4848861694336, -1.030042052268982]
+- Gyaml: Area
+  Hash: !ul 5286610512215581929
+  Phive:
+    Placement: {ID: !ul 5286610512215581929}
+  Rotate: [0.0005366576951928437, -0.0, 0.01974545046687126]
+  SRTHash: !u 0xef9bd2e9
+  Scale: [250.00001525878906, 250.00001525878906, 250.00001525878906]
+  Translate: [0.0, 4.0, 0.0]
+- Gyaml: DestinationAnchor
+  Hash: !ul 7945550002576675196
+  Name: FinalBattle_0030_Locator
+  Phive:
+    Placement: {ID: !ul 7945550002576675196}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xe63191c0
+  Translate: [-1.371274471282959, 100.0199966430664, -1.0300424098968506]
+- Gyaml: Area
+  Hash: !ul 13181974861727514251
+  Phive:
+    Placement: {ID: !ul 13181974861727514251}
+  Rotate: [-3.1415913105010986, -0.0, 0.0]
+  SRTHash: !u 0xfdebcaca
+  Scale: [75.0, 22.766447067260742, 75.0]
+  Translate: [0.8543710708618164, 97.08948516845703, 1.620564341545105]
+- Gyaml: Obj_Abyss_A_01
+  Hash: !ul 3614621497384917519
+  Phive:
+    Placement: {ID: !ul 3614621497384917519}
+  SRTHash: !u 0x8c05d6d4
+  Scale: [1.5, 0.5047935247421265, 1.5]
+  Translate: [0.8543710708618164, 97.08511352539062, 1.6205663681030273]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 1512549921788026041
+  Phive:
+    Placement: {ID: !ul 1512549921788026041}
+  Rotate: [-3.121432065963745, 0.1513914316892624, -2.784613847732544]
+  SRTHash: !u 0xbb80df47
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [93.99851989746094, 99.70094299316406, -0.4500964879989624]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 6085057240418827309
+  Phive:
+    Placement: {ID: !ul 6085057240418827309}
+  Rotate: [-0.9978445768356323, 1.0928499698638916, -1.0307611227035522]
+  SRTHash: !u 0x87b1281a
+  Scale: [1.2000000476837158, 1.2000000476837158, 1.2000000476837158]
+  Translate: [-0.19941496849060059, 96.91777038574219, 56.638023376464844]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 13580927178901005541
+  Phive:
+    Placement: {ID: !ul 13580927178901005541}
+  Rotate: [-2.528623104095459, 0.8724389672279358, -2.964521884918213]
+  SRTHash: !u 0x3f9f6ad6
+  Scale: [0.8500000834465027, 0.8500000834465027, 0.8500000834465027]
+  Translate: [-39.659423828125, 100.61044311523438, 22.07313346862793]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 4312433302014507035
+  Phive:
+    Placement: {ID: !ul 4312433302014507035}
+  Rotate: [-1.9177238941192627, 1.204973578453064, -2.018704414367676]
+  SRTHash: !u 0x3eb9374b
+  Scale: [1.5, 1.5, 1.5]
+  Translate: [-48.230873107910156, 95.30642700195312, 3.18585467338562]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Wall_A_02
+  Hash: !ul 14523798442068545122
+  Phive:
+    Placement: {ID: !ul 14523798442068545122}
+  Rotate: [-0.390826940536499, 0.11321395635604858, 0.266384094953537]
+  SRTHash: !u 0x54948e2d
+  Translate: [-33.89487838745117, 98.4416732788086, -48.614810943603516]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 5999978359708639138
+  Phive:
+    Placement: {ID: !ul 5999978359708639138}
+  Rotate: [-2.5251688957214355, 0.5723459720611572, -2.877558708190918]
+  SRTHash: !u 0x2fdd10a2
+  Scale: [1.5, 1.5, 1.5]
+  Translate: [12.084015846252441, 105.26171112060547, 89.50723266601562]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_02
+  Hash: !ul 4716110432264042464
+  Phive:
+    Placement: {ID: !ul 4716110432264042464}
+  Rotate: [-2.5333142280578613, 1.3927518129348755, -2.0161213874816895]
+  SRTHash: !u 0x92346b76
+  Scale: [1.9900000095367432, 1.9900000095367432, 1.9900000095367432]
+  Translate: [5.189173698425293, 94.84825134277344, -60.70922088623047]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Wall_A_02
+  Hash: !ul 8429118938969464143
+  Phive:
+    Placement: {ID: !ul 8429118938969464143}
+  Rotate: [-1.2533342838287354, 1.0254734754562378, -0.8850967884063721]
+  SRTHash: !u 0xf45daa87
+  Translate: [-63.34366989135742, 103.17228698730469, 14.15423583984375]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 15164055830705214988
+  Phive:
+    Placement: {ID: !ul 15164055830705214988}
+  Rotate: [-2.7065417766571045, 0.8121248483657837, -2.2328619956970215]
+  SRTHash: !u 0x8bc273b3
+  Scale: [1.5, 1.5, 1.5]
+  Translate: [100.45691680908203, 105.97541809082031, 45.04536819458008]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_02
+  Hash: !ul 2687841473346550775
+  Phive:
+    Placement: {ID: !ul 2687841473346550775}
+  Rotate: [-2.396354913711548, 1.3927518129348755, -2.0161213874816895]
+  SRTHash: !u 0x9f7af11b
+  Scale: [1.5, 1.5, 1.5]
+  Translate: [-21.092769622802734, 93.83383178710938, -39.51141357421875]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_02
+  Hash: !ul 8667520999068219080
+  Phive:
+    Placement: {ID: !ul 8667520999068219080}
+  Rotate: [1.1991184949874878, -0.5367843508720398, -2.8913960456848145]
+  SRTHash: !u 0x3a9ccb77
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [-51.06769943237305, 105.5533447265625, 79.09220886230469]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 1653348255169296925
+  Phive:
+    Placement: {ID: !ul 1653348255169296925}
+  Rotate: [-2.8643391132354736, 0.7789565324783325, -2.836202383041382]
+  SRTHash: !u 0xef3d0e0f
+  Scale: [3.000000238418579, 3.000000238418579, 3.000000238418579]
+  Translate: [56.57809066772461, 101.83365631103516, 97.52762603759766]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 9729827531593839754
+  Phive:
+    Placement: {ID: !ul 9729827531593839754}
+  Rotate: [-1.6427011489868164, 1.0795053243637085, -1.6438816785812378]
+  SRTHash: !u 0xb97bce1d
+  Scale: [1.2000000476837158, 1.2000000476837158, 1.2000000476837158]
+  Translate: [15.15987491607666, 101.35640716552734, 80.52674865722656]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 15510884019848164273
+  Phive:
+    Placement: {ID: !ul 15510884019848164273}
+  Rotate: [1.5969325304031372, 1.2503117322921753, 1.4915226697921753]
+  SRTHash: !u 0x2b1fba01
+  Translate: [-24.657278060913086, 94.63957977294922, -38.015438079833984]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 6140042706816443413
+  Phive:
+    Placement: {ID: !ul 6140042706816443413}
+  Rotate: [0.08267495036125183, 0.252621591091156, 0.6074105501174927]
+  SRTHash: !u 0x4e9c7800
+  Scale: [0.8500000238418579, 0.8500000238418579, 0.8500000238418579]
+  Translate: [51.99308776855469, 104.01960754394531, -34.836585998535156]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Wall_A_02
+  Hash: !ul 5061510521414577082
+  Phive:
+    Placement: {ID: !ul 5061510521414577082}
+  Rotate: [2.1497256755828857, -0.5965789556503296, 2.854398250579834]
+  SRTHash: !u 0x9ed6a7cb
+  Scale: [1.5, 1.5, 1.5]
+  Translate: [1.4412963390350342, 96.39682006835938, 55.321128845214844]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_02
+  Hash: !ul 7183637869057342745
+  Phive:
+    Placement: {ID: !ul 7183637869057342745}
+  Rotate: [3.1156272888183594, -0.7387654185295105, -0.07661223411560059]
+  SRTHash: !u 0x9b2dbbce
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [20.04920196533203, 105.16081237792969, -45.03848648071289]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_02
+  Hash: !ul 8912709745167971827
+  Phive:
+    Placement: {ID: !ul 8912709745167971827}
+  Rotate: [-2.5828068256378174, -0.16912712156772614, 0.8978732228279114]
+  SRTHash: !u 0x25d916fb
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [-60.65626907348633, 101.11195373535156, 21.78245735168457]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_02
+  Hash: !ul 3629233106017971905
+  Phive:
+    Placement: {ID: !ul 3629233106017971905}
+  Rotate: [3.1156272888183594, -0.7387654185295105, -0.07661223411560059]
+  SRTHash: !u 0x4d78fdd2
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [67.73834228515625, 105.6335678100586, -30.813968658447266]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_02
+  Hash: !ul 9361235698386857504
+  Phive:
+    Placement: {ID: !ul 9361235698386857504}
+  Rotate: [0.23013947904109955, -0.3371453285217285, 0.2937358319759369]
+  SRTHash: !u 0xbcb81cc3
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [10.620526313781738, 90.4986343383789, 53.086463928222656]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 3771971678980391837
+  Phive:
+    Placement: {ID: !ul 3771971678980391837}
+  Rotate: [0.5971431136131287, 0.7738783359527588, 0.4721628725528717]
+  SRTHash: !u 0x7b0a169f
+  Scale: [1.5, 1.5, 1.5]
+  Translate: [-14.960784912109375, 102.19662475585938, -72.15982818603516]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 7242514778570494375
+  Phive:
+    Placement: {ID: !ul 7242514778570494375}
+  Rotate: [-1.4395112991333008, 0.9406962394714355, -1.6612709760665894]
+  SRTHash: !u 0x4c51299f
+  Scale: [1.2000000476837158, 1.2000000476837158, 1.2000000476837158]
+  Translate: [-19.36250877380371, 101.35640716552734, 80.52674865722656]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 630197088785124006
+  Phive:
+    Placement: {ID: !ul 630197088785124006}
+  Rotate: [0.34871596097946167, 0.1626182496547699, 0.17338819801807404]
+  SRTHash: !u 0x2d1b61d1
+  Scale: [1.5, 1.5, 1.5]
+  Translate: [-11.965017318725586, 104.87327575683594, -85.94502258300781]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 11771776089914290931
+  Phive:
+    Placement: {ID: !ul 11771776089914290931}
+  Rotate: [-2.8050055503845215, 0.6313459873199463, -2.653337240219116]
+  SRTHash: !u 0x3612e284
+  Scale: [1.5, 1.5, 1.5]
+  Translate: [30.508237838745117, 102.53913116455078, 72.0660171508789]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 8864551424674260781
+  Phive:
+    Placement: {ID: !ul 8864551424674260781}
+  Rotate: [-0.4636220335960388, 0.7083313465118408, -0.46618080139160156]
+  SRTHash: !u 0x4100b25a
+  Scale: [1.5000001192092896, 1.5000001192092896, 1.5000001192092896]
+  Translate: [-45.964111328125, 96.76688385009766, 15.736995697021484]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Wall_A_02
+  Hash: !ul 3195665902447488806
+  Phive:
+    Placement: {ID: !ul 3195665902447488806}
+  Rotate: [2.0706875324249268, 0.9350535273551941, -3.0465164184570312]
+  SRTHash: !u 0x9ebd8b75
+  Scale: [1.5, 1.5, 1.5]
+  Translate: [-39.84840393066406, 97.50305938720703, 7.893770694732666]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 16175247512436049752
+  Phive:
+    Placement: {ID: !ul 16175247512436049752}
+  Rotate: [-1.6427011489868164, 1.0795053243637085, -1.6438816785812378]
+  SRTHash: !u 0x6e789ec1
+  Scale: [1.2000000476837158, 1.2000000476837158, 1.2000000476837158]
+  Translate: [54.647178649902344, 101.35641479492188, 58.04819869995117]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 10301603938554631549
+  Phive:
+    Placement: {ID: !ul 10301603938554631549}
+  Rotate: [-2.5251688957214355, 0.5723459124565125, -2.098731756210327]
+  SRTHash: !u 0xf2729a32
+  Scale: [1.5, 1.5, 1.5]
+  Translate: [49.431190490722656, 102.22138214111328, 67.0286865234375]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_02
+  Hash: !ul 14878094687157912249
+  Phive:
+    Placement: {ID: !ul 14878094687157912249}
+  Rotate: [0.8457532525062561, -1.0817484855651855, 2.4524660110473633]
+  SRTHash: !u 0x906d3491
+  Scale: [2.5, 2.5, 2.5]
+  Translate: [46.478271484375, 102.4333267211914, 64.31033325195312]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_02
+  Hash: !ul 5058330883519055682
+  Phive:
+    Placement: {ID: !ul 5058330883519055682}
+  Rotate: [3.1020679473876953, 1.518642544746399, 0.2154322862625122]
+  SRTHash: !u 0x8f659fcf
+  Scale: [3.0, 3.0, 3.0]
+  Translate: [98.21153259277344, 106.78276062011719, 44.731353759765625]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 9300116609163159653
+  Phive:
+    Placement: {ID: !ul 9300116609163159653}
+  Rotate: [0.10873101651668549, 0.2737867534160614, 0.2751516103744507]
+  SRTHash: !u 0xcaea9890
+  Scale: [0.8500000238418579, 0.8500000238418579, 0.8500000238418579]
+  Translate: [56.65045928955078, 102.51058197021484, -27.194202423095703]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_02
+  Hash: !ul 17506455225768742467
+  Phive:
+    Placement: {ID: !ul 17506455225768742467}
+  Rotate: [-2.9773402214050293, -0.6405148506164551, 3.064500570297241]
+  SRTHash: !u 0x46023227
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [13.302362442016602, 94.07234954833984, -61.33930969238281]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 2119892399287109179
+  Phive:
+    Placement: {ID: !ul 2119892399287109179}
+  Rotate: [0.6099058389663696, 1.1009591817855835, 0.3072566092014313]
+  SRTHash: !u 0x10b1dcf1
+  Scale: [1.5, 1.5, 1.5]
+  Translate: [-22.199453353881836, 100.13346862792969, -51.711910247802734]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 167204060412139258
+  Phive:
+    Placement: {ID: !ul 167204060412139258}
+  Rotate: [-2.9596593379974365, 0.8319464325904846, 3.095479726791382]
+  SRTHash: !u 0x92d99bc6
+  Scale: [1.2000000476837158, 1.2000000476837158, 1.2000000476837158]
+  Translate: [-39.94818878173828, 98.76095581054688, 34.692626953125]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_02
+  Hash: !ul 18445085801004800362
+  Phive:
+    Placement: {ID: !ul 18445085801004800362}
+  Rotate: [0.2296406626701355, -0.04054683446884155, 0.2555842101573944]
+  SRTHash: !u 0x80e7c59e
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [25.07411003112793, 94.93727111816406, 76.41028594970703]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Wall_A_02
+  Hash: !ul 11596459159595373507
+  Phive:
+    Placement: {ID: !ul 11596459159595373507}
+  Rotate: [-1.8354390859603882, 1.243685007095337, -1.3885143995285034]
+  SRTHash: !u 0xc8859666
+  Translate: [-59.2629280090332, 104.6580810546875, -27.81894874572754]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 10507502623725223625
+  Phive:
+    Placement: {ID: !ul 10507502623725223625}
+  Rotate: [0.30693453550338745, 0.2653878927230835, 0.32090118527412415]
+  SRTHash: !u 0x8714118f
+  Scale: [0.8500000238418579, 0.8500000238418579, 0.8500000238418579]
+  Translate: [68.05738830566406, 105.578125, -29.454967498779297]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_02
+  Hash: !ul 14677322724145740021
+  Phive:
+    Placement: {ID: !ul 14677322724145740021}
+  Rotate: [0.8457532525062561, -1.0817484855651855, 2.4524660110473633]
+  SRTHash: !u 0x188334b1
+  Scale: [2.5, 2.5, 2.5]
+  Translate: [14.214219093322754, 102.43331909179688, 78.16770935058594]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_02
+  Hash: !ul 7387629317989030286
+  Phive:
+    Placement: {ID: !ul 7387629317989030286}
+  Rotate: [0.5681983828544617, -0.5395200252532959, 2.618793487548828]
+  SRTHash: !u 0x55412ab1
+  Scale: [3.0, 3.0, 3.0]
+  Translate: [-18.447898864746094, 102.26129150390625, 78.413818359375]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_02
+  Hash: !ul 13980523163603343420
+  Phive:
+    Placement: {ID: !ul 13980523163603343420}
+  Rotate: [3.0489583015441895, -0.5437051653862, 2.2750558853149414]
+  SRTHash: !u 0xbec4bfd0
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [-66.66989135742188, 100.19718170166016, 52.15204620361328]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Wall_A_02
+  Hash: !ul 7971931829456312029
+  Phive:
+    Placement: {ID: !ul 7971931829456312029}
+  Rotate: [-0.6431007981300354, 0.11321400105953217, 0.26638418436050415]
+  SRTHash: !u 0x8d3b4123
+  Translate: [-10.914837837219238, 103.13654327392578, -78.64482879638672]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 3947064210862880458
+  Phive:
+    Placement: {ID: !ul 3947064210862880458}
+  Rotate: [-2.8050055503845215, 0.6313459873199463, -2.653337240219116]
+  SRTHash: !u 0xd281413f
+  Scale: [1.5, 1.5, 1.5]
+  Translate: [67.13910675048828, 102.53913879394531, 41.35409164428711]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_02
+  Hash: !ul 3882838229194666603
+  Phive:
+    Placement: {ID: !ul 3882838229194666603}
+  Rotate: [0.8457532525062561, -1.0817484855651855, 2.4524660110473633]
+  SRTHash: !u 0x3ad25112
+  Scale: [2.5, 2.5, 2.5]
+  Translate: [69.66118621826172, 104.21062469482422, 35.686771392822266]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_02
+  Hash: !ul 8478654406441330324
+  Phive:
+    Placement: {ID: !ul 8478654406441330324}
+  Rotate: [1.1280595064163208, 1.3927518129348755, -2.0161213874816895]
+  SRTHash: !u 0x8abfa8cb
+  Scale: [2.5, 2.5, 2.5]
+  Translate: [-18.162887573242188, 100.31668853759766, -70.24516296386719]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 6573279344696246709
+  Phive:
+    Placement: {ID: !ul 6573279344696246709}
+  Rotate: [0.10873101651668549, 0.2737867534160614, 0.2751516103744507]
+  SRTHash: !u 0x1df40a0e
+  Scale: [0.8500000238418579, 0.8500000238418579, 0.8500000238418579]
+  Translate: [56.65045928955078, 105.5282974243164, -32.338417053222656]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 10615379762414768513
+  Phive:
+    Placement: {ID: !ul 10615379762414768513}
+  Rotate: [-2.908994674682617, 0.9874914288520813, -2.670076370239258]
+  SRTHash: !u 0x85d0569d
+  Scale: [1.5, 1.5, 1.5]
+  Translate: [15.148948669433594, 98.10049438476562, 48.17728805541992]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 16652745432808272254
+  Phive:
+    Placement: {ID: !ul 16652745432808272254}
+  Rotate: [-2.757401943206787, 0.6100809574127197, -2.625645160675049]
+  SRTHash: !u 0x486fe54b
+  Translate: [52.82655334472656, 97.12425231933594, 12.508732795715332]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 15105849767510470651
+  Phive:
+    Placement: {ID: !ul 15105849767510470651}
+  Rotate: [-2.311533212661743, 0.741847813129425, -2.720176935195923]
+  SRTHash: !u 0x649123f1
+  Translate: [-31.07581329345703, 96.77281188964844, 37.4647102355957]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Wall_A_02
+  Hash: !ul 17266689901922493200
+  Phive:
+    Placement: {ID: !ul 17266689901922493200}
+  Rotate: [2.1491215229034424, 0.11214879900217056, -3.0996205806732178]
+  SRTHash: !u 0x9f4b93ed
+  Scale: [1.5, 1.5, 1.5]
+  Translate: [56.19355010986328, 101.53345489501953, 57.449710845947266]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_02
+  Hash: !ul 5532349648511305153
+  Phive:
+    Placement: {ID: !ul 5532349648511305153}
+  Rotate: [-1.913252353668213, -1.2677638530731201, 2.1322598457336426]
+  SRTHash: !u 0xba6569b7
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [57.814205169677734, 90.6937255859375, 40.5172233581543]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_02
+  Hash: !ul 13045712419699521390
+  Phive:
+    Placement: {ID: !ul 13045712419699521390}
+  Rotate: [0.8457532525062561, -1.0817484855651855, 2.4524660110473633]
+  SRTHash: !u 0x21c6d684
+  Scale: [2.5, 2.5, 2.5]
+  Translate: [33.03030776977539, 104.21061706542969, 66.39869689941406]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 743462706968579655
+  Phive:
+    Placement: {ID: !ul 743462706968579655}
+  Rotate: [0.5557928681373596, 1.1303921937942505, 0.5555961728096008]
+  SRTHash: !u 0x982fecaf
+  Scale: [0.8499999642372131, 0.8499999642372131, 0.8499999642372131]
+  Translate: [-7.628354549407959, 100.61984252929688, -44.69203567504883]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 11019639481414046010
+  Phive:
+    Placement: {ID: !ul 11019639481414046010}
+  Rotate: [-2.6682252883911133, 0.7965921759605408, -2.6500115394592285]
+  SRTHash: !u 0x9cf0fc92
+  Scale: [1.5, 1.5, 1.5]
+  Translate: [-13.181412696838379, 97.09442138671875, 48.901222229003906]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 15885951645498623169
+  Phive:
+    Placement: {ID: !ul 15885951645498623169}
+  Rotate: [0.037846870720386505, 0.5200991034507751, 0.3379979729652405]
+  SRTHash: !u 0xa2eefa47
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [25.17416763305664, 100.01551055908203, -59.88637924194336]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 9410441718154116438
+  Phive:
+    Placement: {ID: !ul 9410441718154116438}
+  Rotate: [0.15874376893043518, 1.1009591817855835, 0.3072566092014313]
+  SRTHash: !u 0xf6458c1a
+  Scale: [1.5, 1.5, 1.5]
+  Translate: [-52.22645950317383, 100.03583526611328, -47.472408294677734]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 11821307125594136006
+  Phive:
+    Placement: {ID: !ul 11821307125594136006}
+  Rotate: [2.6342430114746094, 1.0102447271347046, 2.9590656757354736]
+  SRTHash: !u 0xb046c885
+  Scale: [3.0, 3.0, 3.0]
+  Translate: [116.05748748779297, 99.86898803710938, -27.031055450439453]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_02
+  Hash: !ul 14669526322442394229
+  Phive:
+    Placement: {ID: !ul 14669526322442394229}
+  Rotate: [3.009594440460205, 0.6607714891433716, -0.09025003761053085]
+  SRTHash: !u 0xb99f382c
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [-18.59470558166504, 96.10185241699219, 40.869590759277344]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 184505541736074563
+  Phive:
+    Placement: {ID: !ul 184505541736074563}
+  Rotate: [-2.8050055503845215, 0.6313459873199463, -2.653337240219116]
+  SRTHash: !u 0x33e1483a
+  Translate: [72.28050231933594, 97.11043548583984, -0.21835684776306152]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 7603066020259024298
+  Phive:
+    Placement: {ID: !ul 7603066020259024298}
+  Rotate: [-3.0274417400360107, 0.8286877274513245, 3.0454373359680176]
+  SRTHash: !u 0x01f943b9
+  Scale: [1.9999998807907104, 1.9999998807907104, 1.9999998807907104]
+  Translate: [-48.79872131347656, 96.05701446533203, 30.07845687866211]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 11166040420413800216
+  Phive:
+    Placement: {ID: !ul 11166040420413800216}
+  Rotate: [-2.4705331325531006, 0.5036502480506897, -2.7710723876953125]
+  SRTHash: !u 0x8da5d35a
+  Scale: [1.5, 1.5, 1.5]
+  Translate: [-22.438365936279297, 105.26171112060547, 89.50723266601562]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_02
+  Hash: !ul 17607819687831545195
+  Phive:
+    Placement: {ID: !ul 17607819687831545195}
+  Rotate: [0.2296406626701355, -0.04054683446884155, 0.2555842101573944]
+  SRTHash: !u 0x8fbf4151
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [61.70498275756836, 94.9372787475586, 45.698360443115234]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 641614153377536858
+  Phive:
+    Placement: {ID: !ul 641614153377536858}
+  Rotate: [-1.4151153564453125, 0.9462912678718567, -1.5307724475860596]
+  SRTHash: !u 0x13cccf75
+  Scale: [1.2000000476837158, 1.2000000476837158, 1.2000000476837158]
+  Translate: [-49.51815414428711, 104.42534637451172, 76.2552490234375]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_02
+  Hash: !ul 3602565686826225276
+  Phive:
+    Placement: {ID: !ul 3602565686826225276}
+  Rotate: [1.1280595064163208, 1.3927518129348755, -2.0161213874816895]
+  SRTHash: !u 0xf2981804
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [-9.056767463684082, 103.83846282958984, -81.94722747802734]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Wall_A_02
+  Hash: !ul 2187028739551536720
+  Phive:
+    Placement: {ID: !ul 2187028739551536720}
+  Rotate: [2.1491215229034424, 0.11214879900217056, -3.0996205806732178]
+  SRTHash: !u 0xf0f4792c
+  Scale: [1.5, 1.5, 1.5]
+  Translate: [19.358434677124023, 102.96836853027344, 79.92826080322266]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_02
+  Hash: !ul 1195445484215618012
+  Phive:
+    Placement: {ID: !ul 1195445484215618012}
+  Rotate: [0.8457532525062561, -1.0817484855651855, 2.4524660110473633]
+  SRTHash: !u 0x39c62605
+  Scale: [2.5, 2.5, 2.5]
+  Translate: [53.70152282714844, 102.4333267211914, 55.68915939331055]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_BrickWall_A_01
+  Hash: !ul 4519921360721569485
+  Phive:
+    Placement: {ID: !ul 4519921360721569485}
+  Rotate: [0.0, 0.36223843693733215, 0.0]
+  SRTHash: !u 0x754edc54
+  Translate: [85.87106323242188, 106.45552825927734, 89.72419738769531]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_BrickWall_A_02
+  Hash: !ul 4007135593683780743
+  Phive:
+    Placement: {ID: !ul 4007135593683780743}
+  Rotate: [3.1415927410125732, 0.6897992491722107, 3.1415927410125732]
+  SRTHash: !u 0x716d6925
+  Translate: [-50.93233871459961, 97.06226348876953, 65.65890502929688]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_BrickWall_A_01
+  Hash: !ul 3784199678221852621
+  Phive:
+    Placement: {ID: !ul 3784199678221852621}
+  Rotate: [0.0, 0.36223843693733215, 0.0]
+  SRTHash: !u 0x166be37a
+  Translate: [32.50392150878906, 101.7420425415039, 91.69389343261719]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_BrickWall_A_02
+  Hash: !ul 13003437131202648993
+  Phive:
+    Placement: {ID: !ul 13003437131202648993}
+  Rotate: [3.1415927410125732, -0.7479028105735779, 3.1415927410125732]
+  SRTHash: !u 0x10ac61aa
+  Translate: [94.52098083496094, 103.89765167236328, 58.45527267456055]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_BrickWall_A_01
+  Hash: !ul 14227521671051686806
+  Phive:
+    Placement: {ID: !ul 14227521671051686806}
+  Rotate: [-3.014005422592163, 0.23614360392093658, 3.141592502593994]
+  SRTHash: !u 0xf3b6886f
+  Translate: [3.6370959281921387, 101.90103912353516, -82.2751693725586]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_BrickWall_A_02
+  Hash: !ul 1276574758517749625
+  Phive:
+    Placement: {ID: !ul 1276574758517749625}
+  Rotate: [3.1415927410125732, 0.14447441697120667, 3.1415927410125732]
+  SRTHash: !u 0x1c3388a1
+  Translate: [-36.73466110229492, 96.42937469482422, 78.95232391357422]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_BrickWall_A_02
+  Hash: !ul 10319142582738633826
+  Phive:
+    Placement: {ID: !ul 10319142582738633826}
+  Rotate: [3.1415927410125732, -0.17900672554969788, 3.1415927410125732]
+  SRTHash: !u 0x6ed90ad2
+  Translate: [-3.7213754653930664, 99.71994018554688, 84.62223815917969]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_BrickWall_A_02
+  Hash: !ul 13401680185715627439
+  Phive:
+    Placement: {ID: !ul 13401680185715627439}
+  Rotate: [0.0, -0.8388200998306274, 0.0]
+  SRTHash: !u 0x1482113b
+  Translate: [61.196815490722656, 100.90572357177734, -45.96603012084961]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_BrickWall_A_01
+  Hash: !ul 843654508602527337
+  Phive:
+    Placement: {ID: !ul 843654508602527337}
+  Rotate: [-2.9899120330810547, 1.3102408647537231, -3.0306053161621094]
+  SRTHash: !u 0x32d5f126
+  Translate: [96.86287689208984, 105.10186767578125, -49.19377517700195]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_BrickWall_A_02
+  Hash: !ul 371924544090365461
+  Phive:
+    Placement: {ID: !ul 371924544090365461}
+  Rotate: [0.0, -0.605232834815979, 0.0]
+  SRTHash: !u 0x6ab3b7b1
+  Translate: [28.11715316772461, 99.00875091552734, -84.3812026977539]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_BrickWall_A_01
+  Hash: !ul 45026178444354965
+  Phive:
+    Placement: {ID: !ul 45026178444354965}
+  Rotate: [-3.0515899658203125, -0.7589929103851318, -3.1028566360473633]
+  SRTHash: !u 0xd506b355
+  Translate: [-64.31243896484375, 98.77297973632812, -53.663970947265625]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_BrickWall_A_01
+  Hash: !ul 12056409019795663594
+  Phive:
+    Placement: {ID: !ul 12056409019795663594}
+  Rotate: [-3.141592502593994, -1.1402603387832642, -3.141592502593994]
+  SRTHash: !u 0xddd069af
+  Translate: [-60.99188995361328, 99.19389343261719, -19.313377380371094]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_BrickWall_A_01
+  Hash: !ul 11143767141895007562
+  Phive:
+    Placement: {ID: !ul 11143767141895007562}
+  Rotate: [0.12778721749782562, 0.5137321352958679, 0.01165591087192297]
+  SRTHash: !u 0x1876e545
+  Translate: [100.16454315185547, 98.89954376220703, 24.140193939208984]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_BrickWall_A_02
+  Hash: !ul 15425374585875006182
+  Phive:
+    Placement: {ID: !ul 15425374585875006182}
+  Rotate: [-0.0644654631614685, 0.776929497718811, -0.00014625430048909038]
+  SRTHash: !u 0x97744655
+  Translate: [-51.495208740234375, 99.79267883300781, -77.85733032226562]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_BrickWall_A_01
+  Hash: !ul 14312741126693163278
+  Phive:
+    Placement: {ID: !ul 14312741126693163278}
+  Rotate: [-0.5148727297782898, 0.9644297361373901, -0.13314852118492126]
+  SRTHash: !u 0xc70e25de
+  Translate: [-72.89753723144531, 101.64945220947266, -39.75234603881836]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_BrickWall_A_01
+  Hash: !ul 1475914117319083349
+  Phive:
+    Placement: {ID: !ul 1475914117319083349}
+  Rotate: [-3.0604918003082275, 1.1099532842636108, -3.1075026988983154]
+  SRTHash: !u 0xa35db1b1
+  Translate: [92.23443603515625, 98.68183898925781, -28.7300968170166]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_BrickWall_A_01
+  Hash: !ul 9401020818328667967
+  Phive:
+    Placement: {ID: !ul 9401020818328667967}
+  Rotate: [-3.041729688644409, 0.8220939040184021, 3.111503839492798]
+  SRTHash: !u 0xa87acdeb
+  Translate: [72.78773498535156, 103.69792938232422, -66.21244049072266]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_BrickWall_A_02
+  Hash: !ul 2313604298704602872
+  Phive:
+    Placement: {ID: !ul 2313604298704602872}
+  Rotate: [-3.141592502593994, 0.05731096863746643, -3.141592502593994]
+  SRTHash: !u 0xb541e425
+  Translate: [-23.251949310302734, 100.3482437133789, 95.55792999267578]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_BrickWall_A_01
+  Hash: !ul 1008112333115314145
+  Phive:
+    Placement: {ID: !ul 1008112333115314145}
+  Rotate: [0.0, -1.3161051273345947, 0.0]
+  SRTHash: !u 0x1a8bd5dc
+  Translate: [-87.64682006835938, 104.08381652832031, 17.85493278503418]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_CollapsedRubble_A_01
+  Hash: !ul 1442922869574902498
+  Phive:
+    Placement: {ID: !ul 1442922869574902498}
+  Rotate: [3.053800106048584, -0.4584527015686035, -2.952383041381836]
+  SRTHash: !u 0x1f4e3c26
+  Scale: [3.0, 3.0, 3.0]
+  Translate: [70.96504974365234, 102.69768524169922, 75.25367736816406]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_BrickWall_A_02
+  Hash: !ul 2063654142361771053
+  Phive:
+    Placement: {ID: !ul 2063654142361771053}
+  Rotate: [0.0, 0.8995561003684998, 0.0]
+  SRTHash: !u 0xe97bbd14
+  Translate: [-84.3017807006836, 102.48319244384766, -10.346251487731934]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_BrickWall_A_01
+  Hash: !ul 10652098695301642393
+  Phive:
+    Placement: {ID: !ul 10652098695301642393}
+  Rotate: [-3.026301860809326, 0.3125084340572357, 3.120070457458496]
+  SRTHash: !u 0x63df435e
+  Translate: [49.69175338745117, 99.87890625, -84.66360473632812]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_BrickWall_A_02
+  Hash: !ul 10766819971926441832
+  Phive:
+    Placement: {ID: !ul 10766819971926441832}
+  Rotate: [0.0, 1.3347574472427368, 0.2957766354084015]
+  SRTHash: !u 0xfac143f5
+  Translate: [-63.860069274902344, 97.9096908569336, 20.884050369262695]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 16823985921275276826
+  Phive:
+    Placement: {ID: !ul 16823985921275276826}
+  Rotate: [-2.9575564861297607, 0.8756674528121948, 2.987617015838623]
+  SRTHash: !u 0x11e93c92
+  Scale: [1.2000000476837158, 1.2000000476837158, 1.2000000476837158]
+  Translate: [-58.715736389160156, 100.61044311523438, 26.954721450805664]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 4318626410194298001
+  Phive:
+    Placement: {ID: !ul 4318626410194298001}
+  Rotate: [1.620913028717041, -1.5079692602157593, -2.173830986022949]
+  SRTHash: !u 0xf3d85930
+  Scale: [1.600000023841858, 1.600000023841858, 1.600000023841858]
+  Translate: [-66.45994567871094, 101.8889389038086, 2.418461799621582]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 2946015009939022475
+  Phive:
+    Placement: {ID: !ul 2946015009939022475}
+  Rotate: [1.8374053239822388, -1.5079702138900757, -2.173830986022949]
+  SRTHash: !u 0x58c4dcb3
+  Scale: [1.600000023841858, 1.600000023841858, 1.600000023841858]
+  Translate: [-68.03116607666016, 106.18378448486328, -23.648706436157227]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 10165588700958839488
+  Phive:
+    Placement: {ID: !ul 10165588700958839488}
+  Rotate: [-0.22847938537597656, -0.6307938098907471, -0.4240506887435913]
+  SRTHash: !u 0x702f5509
+  Scale: [1.600000023841858, 1.600000023841858, 1.600000023841858]
+  Translate: [-54.08543014526367, 98.95115661621094, 45.07783889770508]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 4957531188938147510
+  Phive:
+    Placement: {ID: !ul 4957531188938147510}
+  Rotate: [-0.5157784223556519, -0.6337487697601318, -0.0642191618680954]
+  SRTHash: !u 0x33dfd9d9
+  Scale: [1.600000023841858, 1.600000023841858, 1.600000023841858]
+  Translate: [-62.64107131958008, 100.13182830810547, 36.388916015625]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_BrickWall_A_02
+  Hash: !ul 11808293891482097813
+  Phive:
+    Placement: {ID: !ul 11808293891482097813}
+  Rotate: [2.5679028034210205, 0.4481002688407898, -3.141592502593994]
+  SRTHash: !u 0x807bcf32
+  Translate: [-16.6383113861084, 93.97529602050781, 50.20372009277344]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_BrickWall_A_01
+  Hash: !ul 18100051569114274129
+  Phive:
+    Placement: {ID: !ul 18100051569114274129}
+  Rotate: [0.32580986618995667, 0.14487935602664948, 0.0]
+  SRTHash: !u 0xbf721669
+  Translate: [3.9322972297668457, 91.3444595336914, 40.074867248535156]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_BrickWall_A_01
+  Hash: !ul 1854653189772787926
+  Phive:
+    Placement: {ID: !ul 1854653189772787926}
+  Rotate: [3.0876214504241943, -0.5700978636741638, -3.141592502593994]
+  SRTHash: !u 0xa3082cde
+  Translate: [35.07936477661133, 96.17489624023438, 23.01701545715332]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 4435326360151335357
+  Phive:
+    Placement: {ID: !ul 4435326360151335357}
+  Rotate: [-2.372925281524658, 0.7501230835914612, -2.3393828868865967]
+  SRTHash: !u 0xeedd0558
+  Scale: [0.8500000238418579, 0.8500000238418579, 0.8500000238418579]
+  Translate: [20.025737762451172, 101.3648910522461, 42.43170166015625]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 16910923483299247609
+  Phive:
+    Placement: {ID: !ul 16910923483299247609}
+  Rotate: [-2.551542043685913, 0.8282391428947449, -2.4397072792053223]
+  SRTHash: !u 0x28f554e7
+  Scale: [0.8500000238418579, 0.8500000238418579, 0.8500000238418579]
+  Translate: [31.223207473754883, 100.35102081298828, 31.73283576965332]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 13747044050552483388
+  Phive:
+    Placement: {ID: !ul 13747044050552483388}
+  Rotate: [-2.774933099746704, 0.8229132890701294, -2.999130964279175]
+  SRTHash: !u 0x77b68224
+  Scale: [1.5, 1.5, 1.5]
+  Translate: [-24.45637321472168, 96.53384399414062, 43.86077880859375]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 9238596465461782116
+  Phive:
+    Placement: {ID: !ul 9238596465461782116}
+  Rotate: [-2.52207350730896, 0.8689356446266174, -2.837247133255005]
+  SRTHash: !u 0x62e545b4
+  Scale: [1.5, 1.5, 1.5]
+  Translate: [-3.2752747535705566, 98.92039489746094, 65.61849975585938]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_BrickWall_A_01
+  Hash: !ul 9065605518518241060
+  Phive:
+    Placement: {ID: !ul 9065605518518241060}
+  Rotate: [0.0, 0.8049144148826599, 0.0]
+  SRTHash: !u 0x0a005505
+  Translate: [34.26215744018555, 94.82841491699219, 41.82285690307617]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_BrickWall_A_02
+  Hash: !ul 307029211251475643
+  Phive:
+    Placement: {ID: !ul 307029211251475643}
+  Rotate: [2.9075911045074463, -0.5745204091072083, 3.1314902305603027]
+  SRTHash: !u 0x1c389fa2
+  Translate: [22.247238159179688, 92.00123596191406, 35.21570587158203]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 4197878914638390186
+  Phive:
+    Placement: {ID: !ul 4197878914638390186}
+  Rotate: [0.2705858647823334, 0.4587072730064392, 0.4618408977985382]
+  SRTHash: !u 0x6f0f9a85
+  Scale: [1.4999998807907104, 1.4999998807907104, 1.4999998807907104]
+  Translate: [40.7468376159668, 100.40757751464844, -30.809551239013672]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_BrickWall_A_02
+  Hash: !ul 16556506927061072560
+  Phive:
+    Placement: {ID: !ul 16556506927061072560}
+  Rotate: [-0.1650456339120865, 0.1770174354314804, 0.0]
+  SRTHash: !u 0x00af9a91
+  Translate: [-14.6716890335083, 97.5397720336914, -58.62197494506836]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 13451024472369992786
+  Phive:
+    Placement: {ID: !ul 13451024472369992786}
+  Rotate: [-2.7430901527404785, 0.9152295589447021, -2.4573452472686768]
+  SRTHash: !u 0x9cb198aa
+  Scale: [1.0399999618530273, 1.0399999618530273, 1.0399999618530273]
+  Translate: [54.22621154785156, 101.9798355102539, 21.978511810302734]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Wall_A_02
+  Hash: !ul 12099376924569154066
+  Phive:
+    Placement: {ID: !ul 12099376924569154066}
+  Rotate: [3.0265438556671143, -0.3719313144683838, 3.134185552597046]
+  SRTHash: !u 0x71d900ac
+  Translate: [55.2156982421875, 101.67888641357422, 23.640836715698242]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 9517526334329533820
+  Phive:
+    Placement: {ID: !ul 9517526334329533820}
+  Rotate: [0.04549957439303398, -0.0, 0.20309102535247803]
+  SRTHash: !u 0x66bbb2dc
+  Translate: [48.64283752441406, 102.823486328125, -22.726295471191406]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_BrickWall_A_02
+  Hash: !ul 15616216803007726167
+  Phive:
+    Placement: {ID: !ul 15616216803007726167}
+  Rotate: [3.070462465286255, -0.7791418433189392, -3.141592502593994]
+  SRTHash: !u 0x66b55bbe
+  Translate: [60.94953536987305, 95.41634368896484, 10.9163236618042]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_02
+  Hash: !ul 485703014992914398
+  Phive:
+    Placement: {ID: !ul 485703014992914398}
+  Rotate: [1.0879842042922974, 0.08014833927154541, 0.31871354579925537]
+  SRTHash: !u 0x1b6a9f75
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [60.80080795288086, 98.05017852783203, -35.73109817504883]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_BrickWall_A_01
+  Hash: !ul 12942514705971780581
+  Phive:
+    Placement: {ID: !ul 12942514705971780581}
+  Rotate: [-3.141592502593994, 0.893239438533783, -3.141592502593994]
+  SRTHash: !u 0x2c681767
+  Translate: [36.98783874511719, 95.93576049804688, -19.9346866607666]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_BrickWall_A_01
+  Hash: !ul 14441916793200802692
+  Phive:
+    Placement: {ID: !ul 14441916793200802692}
+  Rotate: [0.0, -0.642656683921814, 0.0]
+  SRTHash: !u 0xb68d271b
+  Translate: [56.73493957519531, 95.77483367919922, -10.061796188354492]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 16152223219215928472
+  Phive:
+    Placement: {ID: !ul 16152223219215928472}
+  Rotate: [-0.0790262445807457, 0.05537378787994385, 0.4264807105064392]
+  SRTHash: !u 0x9dfeeb96
+  Translate: [57.21166229248047, 102.75248718261719, -16.317975997924805]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 15229838481338914787
+  Phive:
+    Placement: {ID: !ul 15229838481338914787}
+  Rotate: [0.8243639469146729, 0.7731095552444458, 0.9877654910087585]
+  SRTHash: !u 0x7c6453ec
+  Scale: [0.8500000238418579, 0.8500000238418579, 0.8500000238418579]
+  Translate: [26.583118438720703, 103.02558135986328, -42.26891326904297]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_BrickWall_A_01
+  Hash: !ul 10937139457080100582
+  Phive:
+    Placement: {ID: !ul 10937139457080100582}
+  Rotate: [-0.22451502084732056, 0.08667003363370895, 0.0]
+  SRTHash: !u 0x5013c734
+  Translate: [-2.824845552444458, 93.70381927490234, -39.44499588012695]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 15229449226812504487
+  Phive:
+    Placement: {ID: !ul 15229449226812504487}
+  Rotate: [0.3802271783351898, 1.0616421699523926, 0.6293270587921143]
+  SRTHash: !u 0x3611d564
+  Scale: [1.2000000476837158, 1.2000000476837158, 1.2000000476837158]
+  Translate: [11.035093307495117, 97.80379486083984, -48.80025863647461]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Wall_A_02
+  Hash: !ul 3995409526013631744
+  Phive:
+    Placement: {ID: !ul 3995409526013631744}
+  Rotate: [-0.525705873966217, -0.4488213360309601, 0.13253982365131378]
+  SRTHash: !u 0xadb36bcd
+  Translate: [46.029056549072266, 101.34851837158203, -42.77065658569336]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 16563820665138532067
+  Phive:
+    Placement: {ID: !ul 16563820665138532067}
+  Rotate: [0.0, -0.0, 0.16724273562431335]
+  SRTHash: !u 0x877e117f
+  Scale: [1.5, 1.5, 1.5]
+  Translate: [39.3679313659668, 103.23355102539062, -48.62619400024414]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Wall_A_02
+  Hash: !ul 1379989765379277757
+  Phive:
+    Placement: {ID: !ul 1379989765379277757}
+  Rotate: [-0.6183699369430542, -1.0248054265975952, -0.10920002311468124]
+  SRTHash: !u 0xec502c99
+  Translate: [33.8991813659668, 100.91234588623047, -54.108219146728516]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_BrickWall_A_02
+  Hash: !ul 4006932198754636547
+  Phive:
+    Placement: {ID: !ul 4006932198754636547}
+  Rotate: [0.0, -0.34408652782440186, 0.0]
+  SRTHash: !u 0x88ddd576
+  Translate: [19.562034606933594, 93.52888488769531, -35.366859436035156]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_BrickWall_A_01
+  Hash: !ul 3957749308785639424
+  Phive:
+    Placement: {ID: !ul 3957749308785639424}
+  Rotate: [-3.141592502593994, -1.1402603387832642, -3.141592502593994]
+  SRTHash: !u 0xfe2499a1
+  Translate: [-36.22937774658203, 93.2125015258789, -17.323265075683594]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_BrickWall_A_01
+  Hash: !ul 17497567571601860789
+  Phive:
+    Placement: {ID: !ul 17497567571601860789}
+  Rotate: [-0.380226731300354, 0.7940271496772766, 0.0]
+  SRTHash: !u 0x30a4dfa7
+  Translate: [-34.815303802490234, 95.62223052978516, -37.80881881713867]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 9415137829217403794
+  Phive:
+    Placement: {ID: !ul 9415137829217403794}
+  Rotate: [2.9135477542877197, 0.786207377910614, 2.6810035705566406]
+  SRTHash: !u 0x9b03aca2
+  Scale: [0.8500000238418579, 0.8500000238418579, 0.8500000238418579]
+  Translate: [-38.637176513671875, 101.08454895019531, -22.52834701538086]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_BrickWall_A_02
+  Hash: !ul 4849798058768327505
+  Phive:
+    Placement: {ID: !ul 4849798058768327505}
+  Rotate: [0.0, 0.5823593735694885, 0.0]
+  SRTHash: !u 0xf0589c62
+  Translate: [-23.767698287963867, 85.62747192382812, -32.437435150146484]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_BrickWall_A_02
+  Hash: !ul 2901756860873995044
+  Phive:
+    Placement: {ID: !ul 2901756860873995044}
+  Rotate: [0.0, 1.3160797357559204, 0.0]
+  SRTHash: !u 0xb80c9b83
+  Translate: [-49.511253356933594, 94.88941192626953, -10.443683624267578]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 2272890176642551831
+  Phive:
+    Placement: {ID: !ul 2272890176642551831}
+  Rotate: [0.380382239818573, 0.5688334107398987, 0.6058881878852844]
+  SRTHash: !u 0xfb98726d
+  Scale: [0.8500000238418579, 0.8500000238418579, 0.8500000238418579]
+  Translate: [-17.01373863220215, 99.14623260498047, -43.60331726074219]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 10747412025396437686
+  Phive:
+    Placement: {ID: !ul 10747412025396437686}
+  Rotate: [0.827545166015625, 1.026782512664795, 0.705399751663208]
+  SRTHash: !u 0x7d3b8bd9
+  Translate: [-30.71946144104004, 101.61268615722656, -49.05352020263672]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_BrickWall_A_01
+  Hash: !ul 5674081057352248407
+  Phive:
+    Placement: {ID: !ul 5674081057352248407}
+  Rotate: [3.0896458625793457, 0.9521641731262207, -3.141592502593994]
+  SRTHash: !u 0x37e208c4
+  Translate: [-32.90836715698242, 92.94943237304688, 23.134260177612305]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_BrickWall_A_02
+  Hash: !ul 3205204652340574141
+  Phive:
+    Placement: {ID: !ul 3205204652340574141}
+  Rotate: [-2.206371545791626, 1.4951672554016113, -1.9010435342788696]
+  SRTHash: !u 0xbc8b8574
+  Translate: [-37.008392333984375, 89.61443328857422, 3.301398754119873]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 12402819616134889789
+  Phive:
+    Placement: {ID: !ul 12402819616134889789}
+  Rotate: [-2.7065417766571045, 0.8121248483657837, -2.2328619956970215]
+  SRTHash: !u 0x8567d51b
+  Scale: [1.5, 1.5, 1.5]
+  Translate: [66.01993560791016, 104.25425720214844, 50.38556671142578]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Wall_A_02
+  Hash: !ul 1810649009053982539
+  Phive:
+    Placement: {ID: !ul 1810649009053982539}
+  Rotate: [2.855818510055542, -0.2669185996055603, -3.139423131942749]
+  SRTHash: !u 0x4e9ebf48
+  Translate: [62.09058380126953, 104.25707244873047, 52.79033660888672]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Wall_A_02
+  Hash: !ul 10926613906180893719
+  Phive:
+    Placement: {ID: !ul 10926613906180893719}
+  Rotate: [2.3454484939575195, -0.27600836753845215, -2.9195034503936768]
+  SRTHash: !u 0x630baa75
+  Translate: [70.96612548828125, 104.61377716064453, 43.00921630859375]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 8267414860237162732
+  Phive:
+    Placement: {ID: !ul 8267414860237162732}
+  Rotate: [0.3802271783351898, 1.0616421699523926, 0.6293270587921143]
+  SRTHash: !u 0x479ffacd
+  Scale: [1.2000000476837158, 1.2000000476837158, 1.2000000476837158]
+  Translate: [4.80784273147583, 97.80378723144531, -59.57714080810547]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 14739179866261547824
+  Phive:
+    Placement: {ID: !ul 14739179866261547824}
+  Rotate: [0.3660980761051178, 1.13943350315094, 0.2872340679168701]
+  SRTHash: !u 0xd41989fb
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [-113.14341735839844, 108.68800354003906, -82.42436981201172]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 11488033666921118813
+  Phive:
+    Placement: {ID: !ul 11488033666921118813}
+  Rotate: [0.03423205390572548, 0.6694561839103699, -0.26541563868522644]
+  SRTHash: !u 0x80111138
+  Scale: [1.7000000476837158, 1.7000000476837158, 1.7000000476837158]
+  Translate: [-105.42633819580078, 131.47637939453125, -105.12200164794922]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 15473950802235876655
+  Phive:
+    Placement: {ID: !ul 15473950802235876655}
+  Rotate: [-2.8643391132354736, 0.7789565324783325, -2.836202383041382]
+  SRTHash: !u 0x0a141caa
+  Scale: [3.000000238418579, 3.000000238418579, 3.000000238418579]
+  Translate: [43.916099548339844, 108.2785415649414, 115.0589828491211]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 10390670435745297618
+  Phive:
+    Placement: {ID: !ul 10390670435745297618}
+  Rotate: [-2.5801641941070557, 0.4155904948711395, -2.46250319480896]
+  SRTHash: !u 0xb9b8d0a6
+  Scale: [1.9999998807907104, 1.9999998807907104, 1.9999998807907104]
+  Translate: [-38.71973419189453, 123.12197875976562, 133.08204650878906]
+- Gyaml: Land_GanonCastle_FinalBattleField_ThornWall_A_01
+  Hash: !ul 3442863524354770775
+  Phive:
+    Placement: {ID: !ul 3442863524354770775}
+  Rotate: [-2.130380868911743, -0.20194247364997864, 2.3043601512908936]
+  SRTHash: !u 0x1b0707b8
+  Translate: [-150.30526733398438, 110.09526824951172, 31.786476135253906]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 5794284660834723567
+  Phive:
+    Placement: {ID: !ul 5794284660834723567}
+  Rotate: [-2.7078497409820557, 0.601189374923706, -2.89494252204895]
+  SRTHash: !u 0xab827936
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [-46.24618148803711, 105.13461303710938, 116.0553207397461]
+- Gyaml: Land_GanonCastle_FinalBattleField_ThornWall_A_01
+  Hash: !ul 13671486815198070486
+  Phive:
+    Placement: {ID: !ul 13671486815198070486}
+  Rotate: [-2.816868543624878, -1.3018094301223755, 2.6797986030578613]
+  SRTHash: !u 0x2f3d086a
+  Translate: [136.25253295898438, 104.24266815185547, 4.9949235916137695]
+- Gyaml: Land_GanonCastle_FinalBattleField_ThornWall_A_01
+  Hash: !ul 11227369542344102905
+  Phive:
+    Placement: {ID: !ul 11227369542344102905}
+  Rotate: [-0.01071234792470932, 0.33393922448158264, -0.14341257512569427]
+  SRTHash: !u 0xff47e327
+  Translate: [-111.34510040283203, 122.54918670654297, -102.52433013916016]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 13234160441814096284
+  Phive:
+    Placement: {ID: !ul 13234160441814096284}
+  Rotate: [2.687410354614258, 0.9661816358566284, 3.1412856578826904]
+  SRTHash: !u 0xbaf216bc
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [139.8385009765625, 117.50652313232422, 11.29765796661377]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 3891236205153863790
+  Phive:
+    Placement: {ID: !ul 3891236205153863790}
+  Rotate: [-0.06076747551560402, -0.588794469833374, -0.48918166756629944]
+  SRTHash: !u 0xb3bb30bf
+  Scale: [3.559999942779541, 3.559999942779541, 3.559999942779541]
+  Translate: [-129.07925415039062, 104.8580551147461, 56.02962875366211]
+- Gyaml: Land_GanonCastle_FinalBattleField_ThornWall_A_01
+  Hash: !ul 8936314623449659208
+  Phive:
+    Placement: {ID: !ul 8936314623449659208}
+  Rotate: [2.4058218002319336, 0.28571584820747375, -2.322514533996582]
+  SRTHash: !u 0x2cb38c23
+  Scale: [1.159999966621399, 1.159999966621399, 1.159999966621399]
+  Translate: [21.99026107788086, 103.91912841796875, 140.51885986328125]
+- Gyaml: Land_GanonCastle_FinalBattleField_ThornWall_A_01
+  Hash: !ul 18325129067684981861
+  Phive:
+    Placement: {ID: !ul 18325129067684981861}
+  Rotate: [2.974747657775879, 1.07894766330719, -3.079592704772949]
+  SRTHash: !u 0xa951f9bd
+  Scale: [0.8999999761581421, 0.8999999761581421, 0.8999999761581421]
+  Translate: [-34.080379486083984, 112.03040313720703, 131.06195068359375]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 11135338195968357700
+  Phive:
+    Placement: {ID: !ul 11135338195968357700}
+  Rotate: [-0.4858168363571167, -0.5482679605484009, -0.3282511532306671]
+  SRTHash: !u 0x0462ea12
+  Scale: [2.299999952316284, 2.299999952316284, 2.299999952316284]
+  Translate: [-145.64190673828125, 115.06380462646484, 14.124528884887695]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 11354461810014717542
+  Phive:
+    Placement: {ID: !ul 11354461810014717542}
+  Rotate: [0.3660981059074402, 1.1394336223602295, -0.05460505932569504]
+  SRTHash: !u 0x4a744a6f
+  Scale: [2.200000047683716, 2.200000047683716, 2.200000047683716]
+  Translate: [-94.68673706054688, 107.61888122558594, -109.46292114257812]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 14674459650477417694
+  Phive:
+    Placement: {ID: !ul 14674459650477417694}
+  Rotate: [-2.7431488037109375, 0.13126078248023987, -2.305147647857666]
+  SRTHash: !u 0x2b24c177
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [139.7803497314453, 95.76591491699219, -13.084745407104492]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 12154420040654358998
+  Phive:
+    Placement: {ID: !ul 12154420040654358998}
+  Rotate: [-0.6379802227020264, -1.069886326789856, 0.5896704792976379]
+  SRTHash: !u 0xe11c373a
+  Scale: [1.7000000476837158, 1.7000000476837158, 1.7000000476837158]
+  Translate: [-59.72600555419922, 119.36260986328125, -146.21160888671875]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 5909131794367868092
+  Phive:
+    Placement: {ID: !ul 5909131794367868092}
+  Rotate: [2.416386365890503, -1.171323299407959, -2.362287759780884]
+  SRTHash: !u 0xad0dda29
+  Scale: [3.0, 3.0, 3.0]
+  Translate: [-54.67499923706055, 103.78140258789062, -154.22540283203125]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 14328609429614296545
+  Phive:
+    Placement: {ID: !ul 14328609429614296545}
+  Rotate: [0.6064527630805969, 0.47293925285339355, 0.7830179929733276]
+  SRTHash: !u 0xdb886831
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [30.92584228515625, 107.54843139648438, -120.7241439819336]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 3629122846158432311
+  Phive:
+    Placement: {ID: !ul 3629122846158432311}
+  Rotate: [0.17123931646347046, 0.6777209043502808, 0.530890941619873]
+  SRTHash: !u 0xd13f7fd2
+  Scale: [1.7000000476837158, 1.7000000476837158, 1.7000000476837158]
+  Translate: [36.21737289428711, 129.5745391845703, -129.8914337158203]
+- Gyaml: Land_GanonCastle_FinalBattleField_ThornWall_A_01
+  Hash: !ul 14316420679362917996
+  Phive:
+    Placement: {ID: !ul 14316420679362917996}
+  Rotate: [-0.9085906147956848, -0.014147588983178139, -0.596863865852356]
+  SRTHash: !u 0x9c326c77
+  Translate: [5.970602989196777, 104.81163787841797, -160.14854431152344]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 3851584470395888926
+  Phive:
+    Placement: {ID: !ul 3851584470395888926}
+  Rotate: [0.12940555810928345, 0.5205662250518799, 0.6018514633178711]
+  SRTHash: !u 0x4300771f
+  Scale: [3.0, 3.0, 3.0]
+  Translate: [160.11216735839844, 104.56066131591797, -51.87091827392578]
+- Gyaml: Land_GanonCastle_FinalBattleField_ThornWall_A_01
+  Hash: !ul 13293482810317948141
+  Phive:
+    Placement: {ID: !ul 13293482810317948141}
+  Rotate: [2.9998602867126465, 1.5281614065170288, -3.05989933013916]
+  SRTHash: !u 0x30a2b5ae
+  Translate: [-52.995548248291016, 111.84843444824219, -149.94900512695312]
+- Gyaml: Land_GanonCastle_FinalBattleField_ThornWall_A_01
+  Hash: !ul 16635585780723179720
+  Phive:
+    Placement: {ID: !ul 16635585780723179720}
+  Rotate: [2.9908607006073, -0.13226783275604248, -3.0148868560791016]
+  SRTHash: !u 0x183cfc64
+  Translate: [42.94780349731445, 119.27050018310547, -133.6288299560547]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 15627588489604604550
+  Phive:
+    Placement: {ID: !ul 15627588489604604550}
+  Rotate: [0.24101896584033966, -0.8474376201629639, -0.012846308760344982]
+  SRTHash: !u 0xb0acbe7d
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [-62.31402587890625, 108.2442398071289, -131.99136352539062]
+- Gyaml: Land_GanonCastle_FinalBattleField_ThornWall_A_01
+  Hash: !ul 15136944760668368050
+  Phive:
+    Placement: {ID: !ul 15136944760668368050}
+  Rotate: [-1.1945843696594238, -0.650583028793335, 0.31491976976394653]
+  SRTHash: !u 0xd099eece
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [199.71849060058594, 102.51579284667969, -102.29676818847656]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 1351434612205400690
+  Phive:
+    Placement: {ID: !ul 1351434612205400690}
+  Rotate: [0.5062812566757202, 0.5529840588569641, 0.33724021911621094]
+  SRTHash: !u 0x527e1e3f
+  Scale: [1.9999998807907104, 1.9999998807907104, 1.9999998807907104]
+  Translate: [54.07950973510742, 114.8012924194336, -120.21969604492188]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_Statue_A_01
+  Hash: !ul 3450009420862550296
+  Phive:
+    Placement: {ID: !ul 3450009420862550296}
+  Rotate: [-3.141592502593994, 0.6884401440620422, -3.141592502593994]
+  SRTHash: !u 0x44980c2a
+  Scale: [0.8500000238418579, 0.8500000238418579, 0.8500000238418579]
+  Translate: [109.46700286865234, 102.7503890991211, 58.4785041809082]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_Statue_A_01
+  Hash: !ul 977498387318495080
+  Phive:
+    Placement: {ID: !ul 977498387318495080}
+  Rotate: [-3.141592502593994, 0.36903151869773865, -3.141592502593994]
+  SRTHash: !u 0x0699ba1c
+  Scale: [0.75, 0.75, 0.75]
+  Translate: [-80.84259033203125, 99.95000457763672, 54.589866638183594]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_Statue_A_01
+  Hash: !ul 590505288316834391
+  Phive:
+    Placement: {ID: !ul 590505288316834391}
+  Rotate: [2.625547409057617, -1.5274884700775146, -2.919412612915039]
+  SRTHash: !u 0xb3060ccb
+  Scale: [0.800000011920929, 0.800000011920929, 0.800000011920929]
+  Translate: [-64.53628540039062, 101.6940689086914, -100.92865753173828]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 6777362398066785293
+  Phive:
+    Placement: {ID: !ul 6777362398066785293}
+  Rotate: [0.11870144307613373, 0.5331822037696838, 0.06536959111690521]
+  SRTHash: !u 0x3bf618f6
+  Scale: [1.25, 1.25, 1.25]
+  Translate: [5.672224521636963, 100.21038818359375, -69.70677185058594]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_02
+  Hash: !ul 1330963803850315418
+  Phive:
+    Placement: {ID: !ul 1330963803850315418}
+  Rotate: [-2.453333854675293, 0.012090589851140976, 3.0542585849761963]
+  SRTHash: !u 0x2730c651
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [-5.213491439819336, 91.40989685058594, -66.30484771728516]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 5125579515459356636
+  Phive:
+    Placement: {ID: !ul 5125579515459356636}
+  Rotate: [0.10250547528266907, -0.09809795767068863, 0.19002504646778107]
+  SRTHash: !u 0x72aee577
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [51.90122604370117, 105.9569091796875, -80.97065734863281]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_02
+  Hash: !ul 852560493900277341
+  Phive:
+    Placement: {ID: !ul 852560493900277341}
+  Rotate: [-1.8489274978637695, -1.2957454919815063, 1.8555148839950562]
+  SRTHash: !u 0x5149ec99
+  Scale: [2.5, 2.5, 2.5]
+  Translate: [-56.16297912597656, 94.73369598388672, -54.466068267822266]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 14881246212091915189
+  Phive:
+    Placement: {ID: !ul 14881246212091915189}
+  Rotate: [0.15874376893043518, 1.1009591817855835, 0.3072566092014313]
+  SRTHash: !u 0xb798737b
+  Scale: [1.5, 1.5, 1.5]
+  Translate: [-45.32271957397461, 100.56285095214844, -58.17507553100586]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 16987081031342122172
+  Phive:
+    Placement: {ID: !ul 16987081031342122172}
+  Rotate: [-2.311533212661743, 0.741847813129425, -2.720176935195923]
+  SRTHash: !u 0x5608c6c9
+  Translate: [-43.76477813720703, 101.74976348876953, 48.201171875]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_02
+  Hash: !ul 2923500397544693793
+  Phive:
+    Placement: {ID: !ul 2923500397544693793}
+  Rotate: [-0.4930943250656128, 0.0741417184472084, 0.383518248796463]
+  SRTHash: !u 0x0a83ee3a
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [-49.09575653076172, 100.00598907470703, 54.39414596557617]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 15856451550592771692
+  Phive:
+    Placement: {ID: !ul 15856451550592771692}
+  Rotate: [-2.774933099746704, 0.8229132890701294, -2.999130964279175]
+  SRTHash: !u 0x6c3e887f
+  Scale: [1.5, 1.5, 1.5]
+  Translate: [-39.01045608520508, 100.19190979003906, 52.99282455444336]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 2556432351378385712
+  Phive:
+    Placement: {ID: !ul 2556432351378385712}
+  Rotate: [-2.6682252883911133, 0.7965921759605408, -2.844935894012451]
+  SRTHash: !u 0x4580e87c
+  Scale: [1.5, 1.5, 1.5]
+  Translate: [-34.298648834228516, 100.57247924804688, 64.85322570800781]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_BrickWall_A_01
+  Hash: !ul 16421054394033182792
+  Phive:
+    Placement: {ID: !ul 16421054394033182792}
+  Rotate: [-3.0167946815490723, -0.11089937388896942, 3.097705364227295]
+  SRTHash: !u 0xd01508db
+  Translate: [-31.437217712402344, 100.97518157958984, -81.95198822021484]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_BrickWall_A_01
+  Hash: !ul 3830908003530114849
+  Phive:
+    Placement: {ID: !ul 3830908003530114849}
+  Rotate: [-3.141592502593994, 0.6249880194664001, -3.141592502593994]
+  SRTHash: !u 0x31f30302
+  Translate: [36.48133850097656, 96.3963623046875, -37.10227584838867]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_02
+  Hash: !ul 1495410261339247662
+  Phive:
+    Placement: {ID: !ul 1495410261339247662}
+  Rotate: [0.8457532525062561, -1.0817484855651855, 2.4524660110473633]
+  SRTHash: !u 0x865abf5d
+  Scale: [2.5, 2.5, 2.5]
+  Translate: [53.87260437011719, 98.00090026855469, 9.902992248535156]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_02
+  Hash: !ul 14444022051744984126
+  Phive:
+    Placement: {ID: !ul 14444022051744984126}
+  Rotate: [0.6414114832878113, -0.9209033250808716, -0.3237261474132538]
+  SRTHash: !u 0x47f1284e
+  Scale: [2.5, 2.5, 2.5]
+  Translate: [53.57470703125, 76.49503326416016, 6.696069717407227]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 4117382949197285246
+  Phive:
+    Placement: {ID: !ul 4117382949197285246}
+  Rotate: [-3.0215373039245605, 0.45038729906082153, -2.5893208980560303]
+  SRTHash: !u 0xd1efbb92
+  Translate: [54.52465057373047, 92.44792175292969, 4.45085334777832]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_02
+  Hash: !ul 3426405420996418469
+  Phive:
+    Placement: {ID: !ul 3426405420996418469}
+  Rotate: [0.6414114832878113, -0.9209033250808716, -0.3237261474132538]
+  SRTHash: !u 0xed71825d
+  Scale: [2.5, 2.5, 2.5]
+  Translate: [54.02821731567383, 78.75540161132812, -1.4112658500671387]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_02
+  Hash: !ul 12151490503231730852
+  Phive:
+    Placement: {ID: !ul 12151490503231730852}
+  Rotate: [0.6414114832878113, -0.9209033250808716, -0.3237261474132538]
+  SRTHash: !u 0xf0013c4f
+  Scale: [2.5, 2.5, 2.5]
+  Translate: [53.992862701416016, 82.37844848632812, -5.42367696762085]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_BrickWall_A_02
+  Hash: !ul 2353483913613067911
+  Phive:
+    Placement: {ID: !ul 2353483913613067911}
+  Rotate: [3.1415927410125732, 0.5591284036636353, 3.1415927410125732]
+  SRTHash: !u 0x8876a936
+  Translate: [-74.7197265625, 105.10686492919922, 79.60693359375]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_02
+  Hash: !ul 11971205614341089110
+  Phive:
+    Placement: {ID: !ul 11971205614341089110}
+  Rotate: [-0.4930943250656128, 0.0741417184472084, 0.383518248796463]
+  SRTHash: !u 0x196a41bd
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [-57.660972595214844, 102.4979019165039, 87.350830078125]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_02
+  Hash: !ul 4966722226010905298
+  Phive:
+    Placement: {ID: !ul 4966722226010905298}
+  Rotate: [2.6993067264556885, -0.19777114689350128, 2.751173734664917]
+  SRTHash: !u 0xc0fd0557
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [-91.85492706298828, 101.69348907470703, 68.2372055053711]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_02
+  Hash: !ul 2859370907106320903
+  Phive:
+    Placement: {ID: !ul 2859370907106320903}
+  Rotate: [-2.5828068256378174, -0.16912712156772614, 0.8978732228279114]
+  SRTHash: !u 0xbd73311a
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [-59.86281967163086, 99.32552337646484, 11.667559623718262]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_02
+  Hash: !ul 10631567654058785698
+  Phive:
+    Placement: {ID: !ul 10631567654058785698}
+  Rotate: [3.1156272888183594, -0.7387654185295105, -0.07661223411560059]
+  SRTHash: !u 0xde598cd0
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [49.081260681152344, 109.3623275756836, -55.0960693359375]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_02
+  Hash: !ul 9205363730423848316
+  Phive:
+    Placement: {ID: !ul 9205363730423848316}
+  Rotate: [0.6414114832878113, -0.9209033250808716, -0.3237261474132538]
+  SRTHash: !u 0x07bff18f
+  Scale: [2.5, 2.5, 2.5]
+  Translate: [71.32735443115234, 83.97880554199219, -1.9450507164001465]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 10988458187739388695
+  Phive:
+    Placement: {ID: !ul 10988458187739388695}
+  Rotate: [2.979804754257202, 0.9276769757270813, 2.8895273208618164]
+  SRTHash: !u 0x61f7dc97
+  Scale: [0.8500000238418579, 0.8500000238418579, 0.8500000238418579]
+  Translate: [23.18144989013672, 101.83407592773438, 46.63483810424805]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 125191627075512392
+  Phive:
+    Placement: {ID: !ul 125191627075512392}
+  Rotate: [2.979804754257202, 0.9276771545410156, -3.130505084991455]
+  SRTHash: !u 0xb24e8d29
+  Scale: [0.8500000238418579, 0.8500000238418579, 0.8500000238418579]
+  Translate: [26.594783782958984, 100.32730865478516, 42.06727981567383]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 7448361871069716323
+  Phive:
+    Placement: {ID: !ul 7448361871069716323}
+  Rotate: [-2.9301161766052246, 0.9748808145523071, -2.999854564666748]
+  SRTHash: !u 0xd7ec5d53
+  Scale: [0.8500000238418579, 0.8500000238418579, 0.8500000238418579]
+  Translate: [34.967533111572266, 100.45307922363281, 33.7629508972168]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 4580107862605857325
+  Phive:
+    Placement: {ID: !ul 4580107862605857325}
+  Rotate: [-2.571134567260742, 0.9748808145523071, -2.999854564666748]
+  SRTHash: !u 0xfed4eb3e
+  Scale: [0.8500000238418579, 0.8500000238418579, 0.8500000238418579]
+  Translate: [38.35595703125, 97.82705688476562, 30.778289794921875]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 10547073957742576015
+  Phive:
+    Placement: {ID: !ul 10547073957742576015}
+  Rotate: [-2.979766607284546, 0.8312204480171204, 3.0806195735931396]
+  SRTHash: !u 0x64149a21
+  Scale: [1.350000023841858, 1.350000023841858, 1.350000023841858]
+  Translate: [-38.623748779296875, 98.5059814453125, 42.99819564819336]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 14911057201963817080
+  Phive:
+    Placement: {ID: !ul 14911057201963817080}
+  Rotate: [0.3802271783351898, 1.0616421699523926, 0.6293270587921143]
+  SRTHash: !u 0x3d198950
+  Scale: [1.2000000476837158, 1.2000000476837158, 1.2000000476837158]
+  Translate: [27.738597869873047, 97.80379486083984, -49.30936050415039]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 4002125633047081908
+  Phive:
+    Placement: {ID: !ul 4002125633047081908}
+  Rotate: [0.3802271783351898, 1.0616421699523926, 0.6293270587921143]
+  SRTHash: !u 0xb7d8a951
+  Scale: [1.2000000476837158, 1.2000000476837158, 1.2000000476837158]
+  Translate: [15.105522155761719, 97.80379486083984, -53.62593460083008]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_02
+  Hash: !ul 14539620532584470943
+  Phive:
+    Placement: {ID: !ul 14539620532584470943}
+  Rotate: [3.1156272888183594, -0.7387654185295105, -0.07661223411560059]
+  SRTHash: !u 0x994749d6
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [2.9628922939300537, 101.60987854003906, -52.227378845214844]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 1822710367408344538
+  Phive:
+    Placement: {ID: !ul 1822710367408344538}
+  Rotate: [-2.6682252883911133, 0.7965921759605408, -2.844935894012451]
+  SRTHash: !u 0x66e3e6a4
+  Scale: [1.5, 1.5, 1.5]
+  Translate: [-29.1279296875, 95.57635498046875, 56.3919792175293]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_02
+  Hash: !ul 5092023949001351626
+  Phive:
+    Placement: {ID: !ul 5092023949001351626}
+  Rotate: [-0.4930943250656128, 0.0741417184472084, 0.383518248796463]
+  SRTHash: !u 0x02e0f5c5
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [-18.50446891784668, 88.77313232421875, 64.11476135253906]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 13393984313965444310
+  Phive:
+    Placement: {ID: !ul 13393984313965444310}
+  Rotate: [-2.6682252883911133, 0.7965921759605408, -2.844935894012451]
+  SRTHash: !u 0x3a073563
+  Scale: [1.5, 1.5, 1.5]
+  Translate: [1.5133512020111084, 95.57635498046875, 49.72454071044922]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_02
+  Hash: !ul 7389971169133966932
+  Phive:
+    Placement: {ID: !ul 7389971169133966932}
+  Rotate: [3.1156272888183594, -0.7387654185295105, -0.07661223411560059]
+  SRTHash: !u 0x47c4d9e6
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [44.5852165222168, 95.43114471435547, -27.012250900268555]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_02
+  Hash: !ul 4169672053850873754
+  Phive:
+    Placement: {ID: !ul 4169672053850873754}
+  Rotate: [3.073779582977295, -0.17115706205368042, -0.05745473504066467]
+  SRTHash: !u 0xe65d700e
+  Scale: [2.4100000858306885, 2.4100000858306885, 2.4100000858306885]
+  Translate: [10.24307918548584, 97.66155242919922, -47.758705139160156]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_02
+  Hash: !ul 4809857906989677603
+  Phive:
+    Placement: {ID: !ul 4809857906989677603}
+  Rotate: [3.1156272888183594, -0.7387654185295105, -0.07661223411560059]
+  SRTHash: !u 0x0dc694cf
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [-4.041294097900391, 102.33761596679688, -48.76779556274414]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_02
+  Hash: !ul 4215079843735862016
+  Phive:
+    Placement: {ID: !ul 4215079843735862016}
+  Rotate: [3.078289270401001, -0.2472442090511322, -0.05839187651872635]
+  SRTHash: !u 0xfb7137e3
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [-12.991409301757812, 101.61959075927734, -47.58146667480469]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 3967720767304664694
+  Phive:
+    Placement: {ID: !ul 3967720767304664694}
+  Rotate: [-0.0215132012963295, -0.003821597434580326, -0.17577849328517914]
+  SRTHash: !u 0xfc36dc68
+  Scale: [0.5, 0.5, 0.5]
+  Translate: [11.202326774597168, 99.04739379882812, -22.24392318725586]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 4859705734670409957
+  Phive:
+    Placement: {ID: !ul 4859705734670409957}
+  Rotate: [-0.050596125423908234, -0.11565759032964706, -0.10344155132770538]
+  SRTHash: !u 0xe5e2239a
+  Scale: [0.5, 0.5, 0.5]
+  Translate: [35.15815734863281, 99.30508422851562, -6.782279014587402]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 1222629206620381479
+  Phive:
+    Placement: {ID: !ul 1222629206620381479}
+  Rotate: [-0.1409105360507965, -0.0, 0.0]
+  SRTHash: !u 0xd8e05598
+  Scale: [0.4399999678134918, 0.4399999678134918, 0.4399999678134918]
+  Translate: [21.455215454101562, 99.57015991210938, -10.747904777526855]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 12863502109791374139
+  Phive:
+    Placement: {ID: !ul 12863502109791374139}
+  Rotate: [-0.06208238750696182, -0.0015557535225525498, 0.1487082988023758]
+  SRTHash: !u 0x34506151
+  Scale: [0.30000001192092896, 0.30000001192092896, 0.30000001192092896]
+  Translate: [34.259342193603516, 100.01000213623047, -4.603484630584717]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_02
+  Hash: !ul 1322842079342014473
+  Phive:
+    Placement: {ID: !ul 1322842079342014473}
+  Rotate: [-0.21700932085514069, -0.0, 0.02404673583805561]
+  SRTHash: !u 0xc13e8684
+  Translate: [40.338600158691406, 95.20751953125, 4.894715785980225]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 3940214983214792101
+  Phive:
+    Placement: {ID: !ul 3940214983214792101}
+  Rotate: [-0.0215132012963295, -0.003821597434580326, -0.17577849328517914]
+  SRTHash: !u 0x343929e5
+  Scale: [0.5, 0.5, 0.5]
+  Translate: [-10.654451370239258, 99.02190399169922, -23.58348274230957]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 17385942140787812594
+  Phive:
+    Placement: {ID: !ul 17385942140787812594}
+  Rotate: [-0.14519749581813812, 0.5085119605064392, 0.012076092883944511]
+  SRTHash: !u 0x1fa0f4b0
+  Scale: [0.5, 0.5, 0.5]
+  Translate: [36.1221809387207, 99.84212493896484, 4.728363990783691]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_02
+  Hash: !ul 2151454594941487466
+  Phive:
+    Placement: {ID: !ul 2151454594941487466}
+  Rotate: [3.0169646739959717, 0.7061585187911987, -0.03695395588874817]
+  SRTHash: !u 0x84684c63
+  Scale: [1.5, 1.5, 1.5]
+  Translate: [11.175338745117188, 100.8402328491211, -21.741483688354492]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 7978771656040200792
+  Phive:
+    Placement: {ID: !ul 7978771656040200792}
+  Rotate: [0.0, -0.0, -0.21853525936603546]
+  SRTHash: !u 0xf8d9f3fe
+  Scale: [0.5, 0.5, 0.5]
+  Translate: [8.130032539367676, 99.33544921875, 22.333276748657227]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 12679304928867988684
+  Phive:
+    Placement: {ID: !ul 12679304928867988684}
+  Rotate: [-0.117446169257164, -0.0, 0.02788553386926651]
+  SRTHash: !u 0x5b6c4b88
+  Scale: [0.5, 0.5, 0.5]
+  Translate: [-2.8913838863372803, 99.45233917236328, 24.336275100708008]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_02
+  Hash: !ul 11105952555476385412
+  Phive:
+    Placement: {ID: !ul 11105952555476385412}
+  Rotate: [-0.004399911034852266, 0.7903792858123779, -3.040282726287842]
+  SRTHash: !u 0x2d4e69f9
+  Translate: [21.96051788330078, 100.76676940917969, 10.147199630737305]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_02
+  Hash: !ul 247491552655635341
+  Phive:
+    Placement: {ID: !ul 247491552655635341}
+  Rotate: [2.9846506118774414, 0.8446874618530273, -0.10737406462430954]
+  SRTHash: !u 0x7ef46f75
+  Scale: [1.5, 1.5, 1.5]
+  Translate: [-2.3743340969085693, 100.75807189941406, -26.18085479736328]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_02
+  Hash: !ul 2797839333224246456
+  Phive:
+    Placement: {ID: !ul 2797839333224246456}
+  Rotate: [0.15448321402072906, 1.2687453031539917, -2.900053024291992]
+  SRTHash: !u 0xa3e8a74a
+  Scale: [1.5, 1.5, 1.5]
+  Translate: [16.64740562438965, 101.01628112792969, 14.80543327331543]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_02
+  Hash: !ul 10383968084740773207
+  Phive:
+    Placement: {ID: !ul 10383968084740773207}
+  Rotate: [-0.11373434960842133, -0.48079147934913635, -3.0612504482269287]
+  SRTHash: !u 0xeb92fcd2
+  Translate: [27.088979721069336, 100.3525390625, 7.3649420738220215]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_02
+  Hash: !ul 10489364485823680725
+  Phive:
+    Placement: {ID: !ul 10489364485823680725}
+  Rotate: [2.1726880073547363, -1.529655933380127, 0.8929577469825745]
+  SRTHash: !u 0xf90e76a2
+  Scale: [1.5, 1.5, 1.5]
+  Translate: [8.980682373046875, 100.83177185058594, 21.3695068359375]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_02
+  Hash: !ul 14520621196626126901
+  Phive:
+    Placement: {ID: !ul 14520621196626126901}
+  Rotate: [1.9280314445495605, -0.23339274525642395, 3.0047175884246826]
+  SRTHash: !u 0x7d1d5989
+  Translate: [27.006675720214844, 97.4782943725586, 1.0332410335540771]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 3157633531616422255
+  Phive:
+    Placement: {ID: !ul 3157633531616422255}
+  Rotate: [-0.06208238750696182, -0.0015557535225525498, 0.1487082988023758]
+  SRTHash: !u 0x542e6c7a
+  Translate: [44.67335891723633, 100.78358459472656, -0.5365548133850098]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_02
+  Hash: !ul 14552261729597512990
+  Phive:
+    Placement: {ID: !ul 14552261729597512990}
+  Rotate: [0.16096241772174835, -0.0, 0.024046728387475014]
+  SRTHash: !u 0x4891e395
+  Translate: [40.67596435546875, 95.50879669189453, -4.331664562225342]
+- Dynamic: {FogParams: FinalBattleField_FarArea}
+  Gyaml: VolumeFogArea
+  Hash: !ul 16478257384569239750
+  Phive:
+    Placement: {ID: !ul 16478257384569239750}
+  SRTHash: !u 0xbf9a03b0
+  Scale: [100.0, 60.0, 240.0]
+  Translate: [-95.0, 100.0, 0.0]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_02
+  Hash: !ul 9433836724059511960
+  Phive:
+    Placement: {ID: !ul 9433836724059511960}
+  Rotate: [2.9973909854888916, 0.7587533593177795, -0.09821345657110214]
+  SRTHash: !u 0x629fbfd2
+  Translate: [31.1637020111084, 101.1995849609375, 5.928413391113281]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 28958965305185872
+  Phive:
+    Placement: {ID: !ul 28958965305185872}
+  Rotate: [0.025657787919044495, -0.011359434574842453, -0.009990179911255836]
+  SRTHash: !u 0x25ec2333
+  Scale: [0.5, 0.5, 0.5]
+  Translate: [25.1001033782959, 100.12015533447266, -6.9081830978393555]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_02
+  Hash: !ul 1505264785545924073
+  Phive:
+    Placement: {ID: !ul 1505264785545924073}
+  Rotate: [3.0249152183532715, 0.5126546621322632, -0.08174359798431396]
+  SRTHash: !u 0xd66fe853
+  Scale: [1.5, 1.5, 1.5]
+  Translate: [16.103137969970703, 101.00044250488281, -17.776426315307617]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_02
+  Hash: !ul 9606263337135215154
+  Phive:
+    Placement: {ID: !ul 9606263337135215154}
+  Rotate: [3.009594440460205, 0.6607714295387268, -0.09025005251169205]
+  SRTHash: !u 0x0276350e
+  Scale: [1.5, 1.5, 1.5]
+  Translate: [-2.6597225666046143, 101.01628112792969, 23.64374542236328]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 14854918771306447028
+  Phive:
+    Placement: {ID: !ul 14854918771306447028}
+  Rotate: [0.03567172586917877, -0.011359435506165028, -0.009990178979933262]
+  SRTHash: !u 0x841ad901
+  Scale: [0.5, 0.5, 0.5]
+  Translate: [27.042856216430664, 99.3484878540039, 6.54636287689209]
+- Dynamic: {FogParams: FinalBattleField_FarArea}
+  Gyaml: VolumeFogArea
+  Hash: !ul 5856430011991786287
+  Phive:
+    Placement: {ID: !ul 5856430011991786287}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x6124bd99
+  Scale: [100.0, 60.0, 240.0]
+  Translate: [0.0, 100.0, 100.0]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 11694129945750992386
+  Phive:
+    Placement: {ID: !ul 11694129945750992386}
+  Rotate: [-0.11108091473579407, 0.0005289761465974152, -0.03300905600190163]
+  SRTHash: !u 0x1540b6b2
+  Scale: [0.5, 0.5, 0.5]
+  Translate: [-2.5958316326141357, 98.60128021240234, -27.023765563964844]
+- Dynamic: {FogParams: FinalBattleField_FarArea}
+  Gyaml: VolumeFogArea
+  Hash: !ul 6990030199607472277
+  Phive:
+    Placement: {ID: !ul 6990030199607472277}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xd0d7a2dd
+  Scale: [100.0, 60.0, 240.0]
+  Translate: [-8.975473974714987e-06, 100.0, -100.0]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_02
+  Hash: !ul 11356068951430499895
+  Phive:
+    Placement: {ID: !ul 11356068951430499895}
+  Rotate: [-0.2098430097103119, -1.0782395601272583, -2.9905364513397217]
+  SRTHash: !u 0xc7667a0c
+  Scale: [1.5, 1.5, 1.5]
+  Translate: [-10.567937850952148, 100.93245697021484, -24.566425323486328]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 8995167201673271639
+  Phive:
+    Placement: {ID: !ul 8995167201673271639}
+  Rotate: [0.09775609523057938, -0.9827741980552673, -0.19459916651248932]
+  SRTHash: !u 0xb205444e
+  Scale: [0.5, 0.5, 0.5]
+  Translate: [39.19712448120117, 100.060546875, 2.483936071395874]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_02
+  Hash: !ul 17115276296250509532
+  Phive:
+    Placement: {ID: !ul 17115276296250509532}
+  Rotate: [-0.21700932085514069, -0.0, 0.02404673583805561]
+  SRTHash: !u 0xd72d9b0b
+  Translate: [44.16801071166992, 96.03125, 4.518194675445557]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_02
+  Hash: !ul 8228465260805565459
+  Phive:
+    Placement: {ID: !ul 8228465260805565459}
+  Rotate: [0.16096241772174835, -0.0, 0.024046728387475014]
+  SRTHash: !u 0xb63932a4
+  Translate: [36.99795913696289, 95.50879669189453, -6.853333950042725]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_02
+  Hash: !ul 10479748660719750857
+  Phive:
+    Placement: {ID: !ul 10479748660719750857}
+  Rotate: [0.6569399833679199, 1.4466562271118164, -2.4876463413238525]
+  SRTHash: !u 0x951c1e20
+  Scale: [1.5, 1.5, 1.5]
+  Translate: [-17.228710174560547, 100.82161712646484, -20.276018142700195]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_02
+  Hash: !ul 7625321074006060464
+  Phive:
+    Placement: {ID: !ul 7625321074006060464}
+  Rotate: [2.9973909854888916, 0.7587533593177795, -0.09821345657110214]
+  SRTHash: !u 0x22164505
+  Translate: [35.181846618652344, 100.87541961669922, -7.9191975593566895]
+- Dynamic: {FogParams: FinalBattleField_FarArea}
+  Gyaml: VolumeFogArea
+  Hash: !ul 3561846177388293391
+  Phive:
+    Placement: {ID: !ul 3561846177388293391}
+  SRTHash: !u 0x6de67f21
+  Scale: [100.0, 60.0, 240.0]
+  Translate: [90.0, 100.0, 0.0]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 12373027743657820000
+  Phive:
+    Placement: {ID: !ul 12373027743657820000}
+  Rotate: [-0.06208238750696182, -0.0015557535225525498, 0.1487082988023758]
+  SRTHash: !u 0xa7cc4aee
+  Scale: [0.5, 0.5, 0.5]
+  Translate: [37.367069244384766, 100.01000213623047, -4.045642375946045]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 2776182767324225869
+  Phive:
+    Placement: {ID: !ul 2776182767324225869}
+  Rotate: [-0.010680802166461945, 0.8931676745414734, 0.06585890054702759]
+  SRTHash: !u 0xdf23c575
+  Scale: [0.4000000059604645, 0.4000000059604645, 0.4000000059604645]
+  Translate: [31.46369171142578, 99.5941390991211, 2.360628128051758]
+- Dynamic: {FogParams: FinalBattleField_BattleField}
+  Gyaml: VolumeFogArea
+  Hash: !ul 12665456380519009221
+  Phive:
+    Placement: {ID: !ul 12665456380519009221}
+  SRTHash: !u 0x557060e0
+  Scale: [90.0, 33.0, 90.0]
+  Translate: [0.0, 98.05113220214844, 0.0]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 1892970410721098003
+  Phive:
+    Placement: {ID: !ul 1892970410721098003}
+  SRTHash: !u 0x64658e2b
+  Scale: [0.5, 0.5, 0.5]
+  Translate: [22.23818588256836, 99.53934478759766, 10.388657569885254]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_02
+  Hash: !ul 12716608498943714486
+  Phive:
+    Placement: {ID: !ul 12716608498943714486}
+  Rotate: [3.009594440460205, 0.6607714295387268, -0.09025005251169205]
+  SRTHash: !u 0xe1dd21ff
+  Scale: [1.5, 1.5, 1.5]
+  Translate: [-11.317509651184082, 101.01628112792969, 22.54890251159668]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 18383555001677599144
+  Phive:
+    Placement: {ID: !ul 18383555001677599144}
+  Rotate: [-0.1311008334159851, 1.08493971824646, 0.060508329421281815]
+  SRTHash: !u 0xca5084fe
+  Scale: [0.5, 0.5, 0.5]
+  Translate: [38.976444244384766, 100.0737533569336, -1.3064645528793335]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 11283391456561510364
+  Phive:
+    Placement: {ID: !ul 11283391456561510364}
+  Rotate: [-0.06822381168603897, -0.5277727842330933, -0.004892658907920122]
+  SRTHash: !u 0xe36a4311
+  Scale: [0.5, 0.5, 0.5]
+  Translate: [32.273319244384766, 99.90972137451172, 5.336945056915283]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_02
+  Hash: !ul 10595965670458970256
+  Phive:
+    Placement: {ID: !ul 10595965670458970256}
+  Rotate: [3.0249152183532715, 0.512654721736908, -0.08174362033605576]
+  SRTHash: !u 0x2ab75639
+  Translate: [21.8094539642334, 101.00044250488281, -11.61508846282959]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_02
+  Hash: !ul 10564955211889569179
+  Phive:
+    Placement: {ID: !ul 10564955211889569179}
+  Rotate: [2.9973909854888916, 0.7587533593177795, -0.09821345657110214]
+  SRTHash: !u 0x7b479922
+  Translate: [31.4146671295166, 100.87541961669922, -7.453057289123535]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_02
+  Hash: !ul 5459904148450044066
+  Phive:
+    Placement: {ID: !ul 5459904148450044066}
+  Rotate: [2.9973909854888916, 0.7587533593177795, -0.09821345657110214]
+  SRTHash: !u 0x2612c26e
+  Translate: [26.020727157592773, 101.45870971679688, -8.800833702087402]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_02
+  Hash: !ul 14671568754692450283
+  Phive:
+    Placement: {ID: !ul 14671568754692450283}
+  Rotate: [2.9912595748901367, 0.8020339608192444, -0.10252850502729416]
+  SRTHash: !u 0x5e5e8a5c
+  Translate: [35.44968032836914, 101.1995849609375, 5.248899936676025]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 4840534225073686494
+  Phive:
+    Placement: {ID: !ul 4840534225073686494}
+  Rotate: [-0.17206114530563354, -0.030407380312681198, -0.173196941614151]
+  SRTHash: !u 0x36570616
+  Scale: [0.5, 0.5, 0.5]
+  Translate: [16.84446144104004, 99.18592834472656, -17.84049415588379]
+- Gyaml: EftLoc_FinalBattleField_Lightning_Light_00
+  Hash: !ul 15576614997811676943
+  Phive:
+    Placement: {ID: !ul 15576614997811676943}
+  Presence: {FlagName: FinalBattleField_ZeldaPos_FirstHalf, IsCheckLazy: false, IsNegation: false}
+  SRTHash: !u 0x78544fa4
+  Translate: [-1.0, 100.0, -1.0]
+- Gyaml: EftLoc_FinalBattleField_Lightning_00
+  Hash: !ul 12070039469982368278
+  Phive:
+    Placement: {ID: !ul 12070039469982368278}
+  SRTHash: !u 0xc552a342
+- Bakeable: true
+  Gyaml: Land_GanonCastle_FinalBattleField_B_01
+  Hash: !ul 12484604264100451201
+  Phive:
+    Placement: {ID: !ul 12484604264100451201}
+  SRTHash: !u 0xe463ad4d
+  Translate: [0.0, 99.37999725341797, 0.0]
+- Bakeable: true
+  Gyaml: Land_CrumblingGanonCastle_Rubble_A_06
+  Hash: !ul 4486556163276363407
+  Phive:
+    Placement: {ID: !ul 4486556163276363407}
+  Rotate: [-0.43945786356925964, 0.05370594188570976, 0.13874712586402893]
+  SRTHash: !u 0x9185185f
+  Scale: [0.4999999701976776, 0.4999999701976776, 0.4999999701976776]
+  Translate: [35.89023971557617, 100.15544891357422, -6.771311283111572]
+- Gyaml: DestinationAnchor
+  Hash: !ul 13807788033499714174
+  Name: FinalBattle_BossIn_Pos
+  Phive:
+    Placement: {ID: !ul 13807788033499714174}
+  SRTHash: !u 0x3028265d
+  Translate: [-1.371000051498413, 100.021240234375, -1.0299999713897705]
+- Gyaml: DestinationAnchor
+  Hash: !ul 6691805239902761037
+  Name: Dm_Ending_0000_Pos
+  Phive:
+    Placement: {ID: !ul 6691805239902761037}
+  SRTHash: !u 0x3718b43b
+  Translate: [-1.3240000009536743, -107.322998046875, -49.66400146484375]
+- Gyaml: Area
+  Hash: !ul 1224069877768676781
+  Phive:
+    Placement: {ID: !ul 1224069877768676781}
+  Rotate: [0.0, 1.569214105606079, -2.3843472263251897e-07]
+  SRTHash: !u 0x81c535c0
+  Scale: [8.410736083984375, 2.5016937255859375, 2.365035057067871]
+  Translate: [25.36519432067871, 99.99581909179688, -0.37529313564300537]
+- Gyaml: Area
+  Hash: !ul 5421443693910719251
+  Phive:
+    Placement: {ID: !ul 5421443693910719251}
+  SRTHash: !u 0x6b71fe1d
+  Scale: [1.9365253448486328, 1.827392578125, 5.886115074157715]
+  Translate: [29.400007247924805, 99.88703155517578, -1.1758579015731812]
+- Gyaml: AnchorAction2
+  Hash: !ul 16973455385574229241
+  Phive:
+    Placement: {ID: !ul 16973455385574229241}
+  Rotate: [3.338898295623949e-07, -1.432010531425476, 0.0]
+  SRTHash: !u 0xb54aa290
+  Translate: [24.204486846923828, 99.97393035888672, -2.616825819015503]
+- Dynamic: {InterestEmitType: 18}
+  Gyaml: InterestSpotActor
+  Hash: !ul 15353540741095515443
+  Phive:
+    Placement: {ID: !ul 15353540741095515443}
+  SRTHash: !u 0x07a44562
+  Scale: [30.0, 30.0, 30.0]
+  Translate: [9.962488174438477, 112.76396179199219, -2.6419897079467773]
+- Gyaml: AnchorAction4
+  Hash: !ul 4161312898349145180
+  Phive:
+    Placement: {ID: !ul 4161312898349145180}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x016d089d
+  Translate: [34.205081939697266, 100.09085845947266, -1.0770506858825684]
+- Gyaml: AnchorAction1
+  Hash: !ul 16399651639480495535
+  Phive:
+    Placement: {ID: !ul 16399651639480495535}
+  Rotate: [3.3388988640581374e-07, -1.5354505777359009, 0.0]
+  SRTHash: !u 0x1917f7a4
+  Translate: [28.666906356811523, 100.0, -2.5311150550842285]
+- Gyaml: AnchorAction3
+  Hash: !ul 7402849662893018703
+  Phive:
+    Placement: {ID: !ul 7402849662893018703}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xfdf6f5d6
+  Translate: [30.961162567138672, 100.03243255615234, -1.0681653022766113]
+- Gyaml: Npc_Hylia_Zelda_Adult
+  Hash: !ul 13583410613592314525
+  Links:
+  - {Dst: !ul 16399651639480495535, Gyaml: Reference, Name: Reference, Src: !ul 13583410613592314525}
+  - {Dst: !ul 16973455385574229241, Gyaml: Reference, Name: Reference, Src: !ul 13583410613592314525}
+  - {Dst: !ul 7402849662893018703, Gyaml: Reference, Name: Reference, Src: !ul 13583410613592314525}
+  - {Dst: !ul 4161312898349145180, Gyaml: Reference, Name: Reference, Src: !ul 13583410613592314525}
+  MoveRadius: 5.72659969329834
+  Phive:
+    Placement: {ID: !ul 13583410613592314525}
+  Rotate: [3.3388988640581374e-07, -1.5354505777359009, 0.0]
+  SRTHash: !u 0x1917f7a4
+  Translate: [28.666906356811523, 100.0, -2.5311150550842285]
+- Gyaml: StartPos
+  Hash: !ul 16346694931111708648
+  Name: RestartPos_Ganondorf_BossBattle
+  Phive:
+    Placement: {ID: !ul 16346694931111708648}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0xce78fbc8
+  Translate: [28.191659927368164, 100.0, -0.8143010139465332]
+- Gyaml: EftLoc_FinalBattleField_ZeldaMagic_00
+  Hash: !ul 18414257531123946238
+  Phive:
+    Placement: {ID: !ul 18414257531123946238}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x016d089d
+  Translate: [34.205078125, 100.09085845947266, -1.0770506858825684]
+- Gyaml: DestinationAnchor
+  Hash: !ul 2595714903309978338
+  Name: BattleFieldCenterPosAnchor
+  Phive:
+    Placement: {ID: !ul 2595714903309978338}
+  SRTHash: !u 0x473e9e9e
+  Translate: [-1.3714179992675781, 100.021240234375, -1.0299403667449951]
+- Gyaml: DestinationAnchor
+  Hash: !ul 11629157061751020879
+  Name: Dm_FinalBattle_0030_PlayerPos
+  Phive:
+    Placement: {ID: !ul 11629157061751020879}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x2f2f2e48
+  Translate: [11.65999984741211, 100.05000305175781, -0.10999999940395355]
+- Gyaml: Area
+  Hash: !ul 484524504634755910
+  Phive:
+    Placement: {ID: !ul 484524504634755910}
+  Rotate: [0.0005366576951928437, -0.0, 0.01974545232951641]
+  SRTHash: !u 0xba06ff43
+  Scale: [42.0, 23.0, 32.0]
+  Translate: [9.887800216674805, 70.0, -1.1683366298675537]
+- Dynamic: {SpCameraType: 8}
+  Gyaml: CameraChangeAreaBox
+  Hash: !ul 17890456380614534526
+  Phive:
+    Placement: {ID: !ul 17890456380614534526}
+  Rotate: [-3.141592502593994, -0.6283186674118042, -3.141592502593994]
+  SRTHash: !u 0xc7b4e260
+  Scale: [15.0, 3.0, 10.000000953674316]
+  Translate: [-12.110316276550293, 99.9848861694336, -15.811062812805176]
+- Dynamic: {SpCameraType: 8}
+  Gyaml: CameraChangeAreaBox
+  Hash: !ul 2414870619847452520
+  Phive:
+    Placement: {ID: !ul 2414870619847452520}
+  Rotate: [-3.141592502593994, 0.6283184885978699, -3.141592502593994]
+  SRTHash: !u 0xd8c2c3eb
+  Scale: [15.0, 3.0, 10.0]
+  Translate: [9.367766380310059, 99.9848861694336, -15.811062812805176]
+- Dynamic: {SpCameraType: 8}
+  Gyaml: CameraChangeAreaBox
+  Hash: !ul 7535200538826135852
+  Phive:
+    Placement: {ID: !ul 7535200538826135852}
+  Rotate: [-3.141592502593994, 1.2566370964050293, -3.141592502593994]
+  SRTHash: !u 0x23323b32
+  Scale: [15.0, 3.0, 10.000000953674316]
+  Translate: [16.00485610961914, 99.9848861694336, -6.675889015197754]
+- Dynamic: {SpCameraType: 8}
+  Gyaml: CameraChangeAreaBox
+  Hash: !ul 13899859672473155148
+  Phive:
+    Placement: {ID: !ul 13899859672473155148}
+  Rotate: [-3.141592502593994, -1.2566370964050293, -3.141592502593994]
+  SRTHash: !u 0xf2f5db01
+  Scale: [15.0, 3.0, 10.000000953674316]
+  Translate: [-18.747407913208008, 99.9848861694336, -6.675889015197754]
+- Dynamic: {SpCameraType: 8}
+  Gyaml: CameraChangeAreaBox
+  Hash: !ul 10624983881755158410
+  Phive:
+    Placement: {ID: !ul 10624983881755158410}
+  Rotate: [0.0, 0.6283184885978699, 0.0]
+  SRTHash: !u 0xcaefc777
+  Scale: [15.0, 3.0, 10.0]
+  Translate: [9.367766380310059, 99.9848861694336, 13.750977516174316]
+- Dynamic: {SpCameraType: 8}
+  Gyaml: CameraChangeAreaBox
+  Hash: !ul 11510072540067236978
+  Phive:
+    Placement: {ID: !ul 11510072540067236978}
+  Rotate: [0.0, -1.2566370964050293, 0.0]
+  SRTHash: !u 0x6ca11d57
+  Scale: [15.0, 3.0, 10.000000953674316]
+  Translate: [-18.747407913208008, 99.9848861694336, 4.615805625915527]
+- Dynamic: {SpCameraType: 8}
+  Gyaml: CameraChangeAreaBox
+  Hash: !ul 13191025268314780396
+  Phive:
+    Placement: {ID: !ul 13191025268314780396}
+  SRTHash: !u 0x7032f0da
+  Scale: [15.0, 3.0, 10.0]
+  Translate: [-1.3712739944458008, 99.9848861694336, 17.24030303955078]
+- Dynamic: {SpCameraType: 8}
+  Gyaml: CameraChangeAreaBox
+  Hash: !ul 15872631933954745718
+  Phive:
+    Placement: {ID: !ul 15872631933954745718}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0x0e45bc87
+  Scale: [15.0, 3.0, 10.0]
+  Translate: [-1.3712739944458008, 99.9848861694336, -19.30038833618164]
+- Dynamic: {SpCameraType: 8}
+  Gyaml: CameraChangeAreaBox
+  Hash: !ul 12234452549251095140
+  Phive:
+    Placement: {ID: !ul 12234452549251095140}
+  Rotate: [0.0, 1.2566370964050293, 0.0]
+  SRTHash: !u 0x7b81f372
+  Scale: [15.0, 3.0, 10.000000953674316]
+  Translate: [16.00485610961914, 99.9848861694336, 4.615805625915527]
+- Dynamic: {SpCameraType: 8}
+  Gyaml: CameraChangeAreaBox
+  Hash: !ul 8298247621606734548
+  Phive:
+    Placement: {ID: !ul 8298247621606734548}
+  Rotate: [0.0, -0.6283186078071594, 0.0]
+  SRTHash: !u 0x8844e803
+  Scale: [14.999999046325684, 3.0, 10.0]
+  Translate: [-12.110316276550293, 99.9848861694336, 13.750977516174316]
+- Gyaml: Area
+  Hash: !ul 16777350747469941060
+  Phive:
+    Placement: {ID: !ul 16777350747469941060}
+  Rotate: [0.0005366576951928437, -0.0, 0.01974545232951641]
+  SRTHash: !u 0xba06ff43
+  Scale: [42.0, 23.0, 32.0]
+  Translate: [9.887800216674805, 70.0, -1.1683366298675537]
+- Gyaml: EftLoc_FinalBattleField_ZeldaMagic_Start_00
+  Hash: !ul 15155942986659042759
+  Phive:
+    Placement: {ID: !ul 15155942986659042759}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x016d089d
+  Translate: [34.205081939697266, 100.09085845947266, -1.0770506858825684]
+- Gyaml: AirWallEnemy
+  Hash: !ul 8944391421112854838
+  Phive:
+    Placement: {ID: !ul 8944391421112854838}
+  Rotate: [-3.141592502593994, 1.500939130783081, -3.141592502593994]
+  SRTHash: !u 0xf75715d3
+  Scale: [16.54343605041504, 49.63031768798828, 88.23162841796875]
+  Translate: [-1.3039932250976562, 111.5794906616211, 32.436851501464844]
+- Gyaml: AirWallEnemy
+  Hash: !ul 13588952122151934674
+  Phive:
+    Placement: {ID: !ul 13588952122151934674}
+  Rotate: [0.0, -1.500939130783081, 0.0]
+  SRTHash: !u 0x6e46ec0e
+  Scale: [16.54343605041504, 49.63031768798828, 88.23162841796875]
+  Translate: [-1.3039932250976562, 111.5794906616211, -33.73689270019531]
+- Gyaml: AirWallEnemy
+  Hash: !ul 12812060285481280375
+  Phive:
+    Placement: {ID: !ul 12812060285481280375}
+  Rotate: [0.0, -0.87261563539505, 0.0]
+  SRTHash: !u 0x378007e6
+  Scale: [16.54343605041504, 49.63031768798828, 88.23162841796875]
+  Translate: [-20.751972198486328, 111.5794906616211, -27.417869567871094]
+- Gyaml: AirWallEnemy
+  Hash: !ul 13290352513203057880
+  Phive:
+    Placement: {ID: !ul 13290352513203057880}
+  Rotate: [-3.141592502593994, -1.0123398303985596, -3.141592502593994]
+  SRTHash: !u 0x8aa6a23d
+  Scale: [16.54343605041504, 49.63031768798828, 88.23162841796875]
+  Translate: [18.14398956298828, 111.5794906616211, -27.417869567871094]
+- Gyaml: AirWallEnemy
+  Hash: !ul 17779135562038630411
+  Phive:
+    Placement: {ID: !ul 17779135562038630411}
+  Rotate: [-3.141592502593994, 0.8726162314414978, -3.141592502593994]
+  SRTHash: !u 0x9b5d0d4d
+  Scale: [16.54343605041504, 49.63031768798828, 88.23162841796875]
+  Translate: [18.14398956298828, 111.5794906616211, 26.117816925048828]
+- Gyaml: AirWallEnemy
+  Hash: !ul 12968748982770450308
+  Phive:
+    Placement: {ID: !ul 12968748982770450308}
+  Rotate: [-3.141592502593994, -0.384021133184433, -3.141592502593994]
+  SRTHash: !u 0x68d57f6d
+  Scale: [16.54343605041504, 49.63031768798828, 88.23163604736328]
+  Translate: [30.16348648071289, 111.5794906616211, -10.874433517456055]
+- Gyaml: AirWallEnemy
+  Hash: !ul 5441442565806082528
+  Phive:
+    Placement: {ID: !ul 5441442565806082528}
+  Rotate: [0.0, 1.0123398303985596, 0.0]
+  SRTHash: !u 0xac5eaef9
+  Scale: [16.54343605041504, 49.63031768798828, 88.23162841796875]
+  Translate: [-20.751972198486328, 111.5794906616211, 26.117816925048828]
+- Gyaml: AirWallEnemy
+  Hash: !ul 4631953075451590765
+  Phive:
+    Placement: {ID: !ul 4631953075451590765}
+  Rotate: [0.0, 0.38402143120765686, 0.0]
+  SRTHash: !u 0xc8d38bea
+  Scale: [16.54343605041504, 49.63031768798828, 88.23162841796875]
+  Translate: [-32.7714958190918, 111.5794906616211, 9.574380874633789]
+- Gyaml: AirWallEnemy
+  Hash: !ul 4436445704074474847
+  Phive:
+    Placement: {ID: !ul 4436445704074474847}
+  Rotate: [0.0, -0.2442973256111145, 0.0]
+  SRTHash: !u 0xc6f71de7
+  Scale: [16.54343605041504, 49.63031768798828, 88.23162841796875]
+  Translate: [-32.7714958190918, 111.5794906616211, -10.874433517456055]
+- Gyaml: AirWallEnemy
+  Hash: !ul 13453366068293099442
+  Phive:
+    Placement: {ID: !ul 13453366068293099442}
+  Rotate: [-3.141592502593994, 0.2442970722913742, -3.141592502593994]
+  SRTHash: !u 0xaa29438f
+  Scale: [16.54343605041504, 49.63031768798828, 88.23162841796875]
+  Translate: [30.16348648071289, 111.5794906616211, 9.574380874633789]
+- Gyaml: Land_Demo_SkySphereWhite_A
+  Hash: !ul 5246105005873639677
+  Phive:
+    Placement: {ID: !ul 5246105005873639677}
+  SRTHash: !u 0x0046dd32
+  Translate: [24.66575813293457, -107.32279205322266, 176.5718536376953]
+- Gyaml: Land_Demo_UyuniSaltFlat
+  Hash: !ul 12395266297714263616
+  Phive:
+    Placement: {ID: !ul 12395266297714263616}
+  SRTHash: !u 0x36c0046d
+  Translate: [-1.3243236541748047, -107.32279205322266, -49.6643180847168]
+- Gyaml: NoEscapeRangeAreaBox
+  Hash: !ul 11596733127190819250
+  Name: NoEscapeArea_Defeat_Ganon_InBattle
+  Phive:
+    Placement: {ID: !ul 11596733127190819250}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x689c67a3
+  Scale: [85.53225708007812, 100.0, 65.33778381347656]
+  Translate: [-5.671108245849609, 104.04000091552734, 0.5032118558883667]
+- Bakeable: true
+  Gyaml: Land_SageRoom_Base_A_01
+  Hash: !ul 14009850114778144956
+  Phive:
+    Placement: {ID: !ul 14009850114778144956}
+  SRTHash: !u 0x2d1b1638
+  Translate: [0.0, -129.15545654296875, -278.2229919433594]
+AiGroups:
+- Hash: !ul 796107556973182727
+  Logic: Logic/Module/FinalBattleField_Prefab/FinalBattleField_Prefab_fc9f.logic.module.ain
+  References:
+  - {Id: EventRequestActor_7a53, Path: _31a5/EventRequestActor_7a53, Reference: !ul 4702981707390979947}
+  - {Id: Enemy_DungeonBoss_Ganon_a9cc, Path: _31a5/Enemy_DungeonBoss_Ganon_a9cc, Reference: !ul 6419752995561535374}
+  - {Id: Area_e5d2, Path: _31a5/Area_e5d2, Reference: !ul 5712557569390823874}
+  - {Id: Obj_GanonCastle_MasterSword_A_01_6b5d, Path: _31a5/Obj_GanonCastle_MasterSword_A_01_6b5d,
+    Reference: !ul 3773331549949601936}
+  - {Id: Obj_GanonCastle_Rubble_A_01_4222, Path: _31a5/Obj_GanonCastle_Rubble_A_01_4222,
+    Reference: !ul 3161642765020419627}
+  - {Id: Weapon_Sword_Master_5f14, Path: _31a5/Weapon_Sword_Master_5f14, Reference: !ul 6416738733936699784}
+  - {Id: Enemy_DungeonBoss_Ganon_SecondHalfBattle_f8b1, Path: _31a5/Enemy_DungeonBoss_Ganon_SecondHalfBattle_f8b1,
+    Reference: !ul 17036659268350394533}
+  - {Id: EftLoc_FinalBattleField_Cloud_00_2c0c, Path: _31a5/_7d06/EftLoc_FinalBattleField_Cloud_00_2c0c,
+    Reference: !ul 7170670000765246473}
+  - {Id: Land_GanonCastle_FinalBattleField_BigRubble_A_02_7c1c, Path: _31a5/_7d06/Land_GanonCastle_FinalBattleField_BigRubble_A_02_7c1c,
+    Reference: !ul 6603379997586482459}
+  - {Id: Land_GanonCastle_FinalBattleField_BigRubble_A_02_cc63, Path: _31a5/_7d06/Land_GanonCastle_FinalBattleField_BigRubble_A_02_cc63,
+    Reference: !ul 13876823480148920518}
+  - {Id: Land_GanonCastle_FinalBattleField_FireRubble_A_01_04de, Path: _31a5/_7d06/Land_GanonCastle_FinalBattleField_FireRubble_A_01_04de,
+    Reference: !ul 9699442461978090168}
+  - {Id: Land_GanonCastle_FinalBattleField_FireRubble_A_01_219b, Path: _31a5/_7d06/Land_GanonCastle_FinalBattleField_FireRubble_A_01_219b,
+    Reference: !ul 11734110948188183663}
+  - {Id: Land_GanonCastle_FinalBattleField_FireRubble_A_01_2e98, Path: _31a5/_7d06/Land_GanonCastle_FinalBattleField_FireRubble_A_01_2e98,
+    Reference: !ul 17687467301439070038}
+  - {Id: Land_GanonCastle_FinalBattleField_FireRubble_A_01_3e00, Path: _31a5/_7d06/Land_GanonCastle_FinalBattleField_FireRubble_A_01_3e00,
+    Reference: !ul 7917194444048935201}
+  - {Id: Land_GanonCastle_FinalBattleField_FireRubble_A_01_4527, Path: _31a5/_7d06/Land_GanonCastle_FinalBattleField_FireRubble_A_01_4527,
+    Reference: !ul 10914946700222904191}
+  - {Id: Land_GanonCastle_FinalBattleField_FireRubble_A_01_9607, Path: _31a5/_7d06/Land_GanonCastle_FinalBattleField_FireRubble_A_01_9607,
+    Reference: !ul 15578797007215580076}
+  - {Id: Land_GanonCastle_FinalBattleField_FireRubble_A_01_98d2, Path: _31a5/_7d06/Land_GanonCastle_FinalBattleField_FireRubble_A_01_98d2,
+    Reference: !ul 4107389981774624068}
+  - {Id: Land_GanonCastle_FinalBattleField_FireRubble_A_01_b26b, Path: _31a5/_7d06/Land_GanonCastle_FinalBattleField_FireRubble_A_01_b26b,
+    Reference: !ul 12350272083693219045}
+  - {Id: Land_GanonCastle_FinalBattleField_FireRubble_A_01_cb33, Path: _31a5/_7d06/Land_GanonCastle_FinalBattleField_FireRubble_A_01_cb33,
+    Reference: !ul 10966592336757288495}
+  - {Id: Land_GanonCastle_FinalBattleField_FireRubble_A_01_cff8, Path: _31a5/_7d06/Land_GanonCastle_FinalBattleField_FireRubble_A_01_cff8,
+    Reference: !ul 15521408621906181282}
+  - {Id: Land_GanonCastle_FinalBattleField_FireRubble_A_01_e43d, Path: _31a5/_7d06/Land_GanonCastle_FinalBattleField_FireRubble_A_01_e43d,
+    Reference: !ul 12777330602274815248}
+  - {Id: Land_GanonCastle_FinalBattleField_FireRubble_A_01_e5f9, Path: _31a5/_7d06/Land_GanonCastle_FinalBattleField_FireRubble_A_01_e5f9,
+    Reference: !ul 6664395637904587813}
+  - {Id: Land_GanonCastle_FinalBattleField_FireRubble_A_01_e773, Path: _31a5/_7d06/Land_GanonCastle_FinalBattleField_FireRubble_A_01_e773,
+    Reference: !ul 10850738157828510315}
+  - {Id: Land_GanonCastle_FinalBattleField_FireRubble_A_01_f048, Path: _31a5/_7d06/Land_GanonCastle_FinalBattleField_FireRubble_A_01_f048,
+    Reference: !ul 8912072015513880499}
+  - {Id: Land_GanonCastle_FinalBattleField_FireRubble_A_01_f4d9, Path: _31a5/_7d06/Land_GanonCastle_FinalBattleField_FireRubble_A_01_f4d9,
+    Reference: !ul 2379957783454378041}
+  - {Id: Obj_GanonCastle_FireWall_A_03_0db8, Path: _31a5/_7d06/Obj_GanonCastle_FireWall_A_03_0db8,
+    Reference: !ul 5227138911433499858}
+  - {Id: Obj_GanonCastle_FireWall_A_03_129f, Path: _31a5/_7d06/Obj_GanonCastle_FireWall_A_03_129f,
+    Reference: !ul 4040573062220209562}
+  - {Id: Obj_GanonCastle_FireWall_A_03_1ff4, Path: _31a5/_7d06/Obj_GanonCastle_FireWall_A_03_1ff4,
+    Reference: !ul 15652959217688997941}
+  - {Id: Obj_GanonCastle_FireWall_A_03_377d, Path: _31a5/_7d06/Obj_GanonCastle_FireWall_A_03_377d,
+    Reference: !ul 6459470081917883488}
+  - {Id: Obj_GanonCastle_FireWall_A_03_464b, Path: _31a5/_7d06/Obj_GanonCastle_FireWall_A_03_464b,
+    Reference: !ul 13236864831226496800}
+  - {Id: Obj_GanonCastle_FireWall_A_03_5b43, Path: _31a5/_7d06/Obj_GanonCastle_FireWall_A_03_5b43,
+    Reference: !ul 20497638729523802}
+  - {Id: Obj_GanonCastle_FireWall_A_03_7ad1, Path: _31a5/_7d06/Obj_GanonCastle_FireWall_A_03_7ad1,
+    Reference: !ul 6744236772081829738}
+  - {Id: Obj_GanonCastle_FireWall_A_03_9396, Path: _31a5/_7d06/Obj_GanonCastle_FireWall_A_03_9396,
+    Reference: !ul 3921533091119153506}
+  - {Id: Obj_GanonCastle_FireWall_A_03_c16c, Path: _31a5/_7d06/Obj_GanonCastle_FireWall_A_03_c16c,
+    Reference: !ul 6050210815996303663}
+  - {Id: Obj_GanonCastle_FireWall_A_03_cbcd, Path: _31a5/_7d06/Obj_GanonCastle_FireWall_A_03_cbcd,
+    Reference: !ul 4373818267844034055}
+  - {Id: Obj_GanonCastle_FireWall_A_03_ddc0, Path: _31a5/_7d06/Obj_GanonCastle_FireWall_A_03_ddc0,
+    Reference: !ul 17441016185655837283}
+  - {Id: Obj_GanonCastle_FireWall_A_03_e1f1, Path: _31a5/_7d06/Obj_GanonCastle_FireWall_A_03_e1f1,
+    Reference: !ul 14182201887595643328}
+  - {Id: Obj_GanonCastle_FireWall_A_03_eea5, Path: _31a5/_7d06/Obj_GanonCastle_FireWall_A_03_eea5,
+    Reference: !ul 8729244364841540905}
+  - {Id: Obj_GanonCastle_FireWall_A_03_f0cb, Path: _31a5/_7d06/Obj_GanonCastle_FireWall_A_03_f0cb,
+    Reference: !ul 9596542262050564956}
+  - {Id: Obj_GanonCastle_FireWall_A_03_f95b, Path: _31a5/_7d06/Obj_GanonCastle_FireWall_A_03_f95b,
+    Reference: !ul 338532676786389202}
+  - {Id: AiGroup, InstanceName: FinalBattleField_SecondHalf_Prefab_201c_382c, Logic: Logic/Module/FinalBattleField_SecondHalf_Prefab/FinalBattleField_SecondHalf_Prefab_201c.logic.module.ain,
+    Path: _31a5/_7d06/AiGroup, Reference: !ul 14569475348173148829}
+  - {Id: WorldMgrThunderLocator_0bd3, Path: _31a5/_5f5e/WorldMgrThunderLocator_0bd3,
+    Reference: !ul 16389375008122907106}
+  - {Id: Land_GanonCastle_FinalBattleField_FireRubble_A_01_0c9e, Path: _31a5/_5f5e/Land_GanonCastle_FinalBattleField_FireRubble_A_01_0c9e,
+    Reference: !ul 15749653956558303959}
+  - {Id: Land_GanonCastle_FinalBattleField_FireRubble_A_01_0cbd, Path: _31a5/_5f5e/Land_GanonCastle_FinalBattleField_FireRubble_A_01_0cbd,
+    Reference: !ul 6873490632434386540}
+  - {Id: Land_GanonCastle_FinalBattleField_FireRubble_A_01_0d0a, Path: _31a5/_5f5e/Land_GanonCastle_FinalBattleField_FireRubble_A_01_0d0a,
+    Reference: !ul 5718798554606899879}
+  - {Id: Land_GanonCastle_FinalBattleField_FireRubble_A_01_154b, Path: _31a5/_5f5e/Land_GanonCastle_FinalBattleField_FireRubble_A_01_154b,
+    Reference: !ul 9022894284266595107}
+  - {Id: Land_GanonCastle_FinalBattleField_FireRubble_A_01_29c6, Path: _31a5/_5f5e/Land_GanonCastle_FinalBattleField_FireRubble_A_01_29c6,
+    Reference: !ul 13292208969882890323}
+  - {Id: Land_GanonCastle_FinalBattleField_FireRubble_A_01_2e1c, Path: _31a5/_5f5e/Land_GanonCastle_FinalBattleField_FireRubble_A_01_2e1c,
+    Reference: !ul 5176460467907565158}
+  - {Id: Land_GanonCastle_FinalBattleField_FireRubble_A_01_37b7, Path: _31a5/_5f5e/Land_GanonCastle_FinalBattleField_FireRubble_A_01_37b7,
+    Reference: !ul 7033546717189265746}
+  - {Id: WorldMgrThunderMgr_3836, Path: _31a5/_5f5e/WorldMgrThunderMgr_3836, Reference: !ul 4977598394496704607}
+  - {Id: Land_GanonCastle_FinalBattleField_FireRubble_A_01_39be, Path: _31a5/_5f5e/Land_GanonCastle_FinalBattleField_FireRubble_A_01_39be,
+    Reference: !ul 16961600403865400347}
+  - {Id: WorldMgrThunderLocator_44c5, Path: _31a5/_5f5e/WorldMgrThunderLocator_44c5,
+    Reference: !ul 4433039106804918168}
+  - {Id: Land_GanonCastle_FinalBattleField_FireRubble_A_01_502b, Path: _31a5/_5f5e/Land_GanonCastle_FinalBattleField_FireRubble_A_01_502b,
+    Reference: !ul 9514481477447552889}
+  - {Id: Land_GanonCastle_FinalBattleField_FireRubble_A_01_5582, Path: _31a5/_5f5e/Land_GanonCastle_FinalBattleField_FireRubble_A_01_5582,
+    Reference: !ul 1936679357041108617}
+  - {Id: Land_GanonCastle_FinalBattleField_FireRubble_A_01_5aca, Path: _31a5/_5f5e/Land_GanonCastle_FinalBattleField_FireRubble_A_01_5aca,
+    Reference: !ul 5646293294063529528}
+  - {Id: Land_GanonCastle_FinalBattleField_FireRubble_A_01_6091, Path: _31a5/_5f5e/Land_GanonCastle_FinalBattleField_FireRubble_A_01_6091,
+    Reference: !ul 11279453280601427041}
+  - {Id: Land_GanonCastle_FinalBattleField_FireRubble_A_01_64fd, Path: _31a5/_5f5e/Land_GanonCastle_FinalBattleField_FireRubble_A_01_64fd,
+    Reference: !ul 10472025050417259673}
+  - {Id: Land_GanonCastle_FinalBattleField_FireRubble_A_01_6a53, Path: _31a5/_5f5e/Land_GanonCastle_FinalBattleField_FireRubble_A_01_6a53,
+    Reference: !ul 6181886936579166395}
+  - {Id: Land_GanonCastle_FinalBattleField_FireRubble_A_01_7a45, Path: _31a5/_5f5e/Land_GanonCastle_FinalBattleField_FireRubble_A_01_7a45,
+    Reference: !ul 13599558922991065470}
+  - {Id: Land_GanonCastle_FinalBattleField_FireRubble_A_01_8216, Path: _31a5/_5f5e/Land_GanonCastle_FinalBattleField_FireRubble_A_01_8216,
+    Reference: !ul 4547896791753736564}
+  - {Id: WorldMgrThunderLocator_e637, Path: _31a5/_5f5e/WorldMgrThunderLocator_e637,
+    Reference: !ul 3894868481293860760}
+  - {Id: WorldMgrThunderLocator_ecbd, Path: _31a5/_5f5e/WorldMgrThunderLocator_ecbd,
+    Reference: !ul 5458377982282868205}
+  - {Id: Land_GanonCastle_FinalBattleField_FireRubble_A_01_eea4, Path: _31a5/_5f5e/Land_GanonCastle_FinalBattleField_FireRubble_A_01_eea4,
+    Reference: !ul 2250741424196980900}
+  - {Id: Land_GanonCastle_FinalBattleField_FireRubble_A_01_f584, Path: _31a5/_5f5e/Land_GanonCastle_FinalBattleField_FireRubble_A_01_f584,
+    Reference: !ul 8537049364543038410}
+  - {Id: Land_GanonCastle_FinalBattleField_FireRubble_A_01_fc5e, Path: _31a5/_5f5e/Land_GanonCastle_FinalBattleField_FireRubble_A_01_fc5e,
+    Reference: !ul 14955337651736537743}
+  - {Id: AiGroup, InstanceName: FinalBattleField_FirstHalf_Prefab_07c8_3319, Logic: Logic/Module/FinalBattleField_FirstHalf_Prefab/FinalBattleField_FirstHalf_Prefab_07c8.logic.module.ain,
+    Path: _31a5/_5f5e/AiGroup, Reference: !ul 11607017497815026390}
+  - {Id: EftLoc_FinalBattleField_Env_2nd_00_318d, Path: _31a5/EftLoc_FinalBattleField_Env_2nd_00_318d,
+    Reference: !ul 11245966557981013486}
+  - {Id: EftLoc_FinalBattleField_Env_1st_00_4a39, Path: _31a5/EftLoc_FinalBattleField_Env_1st_00_4a39,
+    Reference: !ul 7409974130946273436}
+  - {Id: Land_GanonCastle_FinalBattleField_CollapsedRubble_A_01_0040, Path: _31a5/_43ed/Land_GanonCastle_FinalBattleField_CollapsedRubble_A_01_0040,
+    Reference: !ul 14161277424411484074}
+  - {Id: Land_GanonCastle_FinalBattleField_CollapsedRubble_A_01_04f4, Path: _31a5/_43ed/Land_GanonCastle_FinalBattleField_CollapsedRubble_A_01_04f4,
+    Reference: !ul 1351273941712044267}
+  - {Id: Land_GanonCastle_FinalBattleField_CollapsedRubble_A_02_1a78, Path: _31a5/_43ed/Land_GanonCastle_FinalBattleField_CollapsedRubble_A_02_1a78,
+    Reference: !ul 1463664315672958413}
+  - {Id: Land_GanonCastle_FinalBattleField_CollapsedRubble_A_02_1d5b, Path: _31a5/_43ed/Land_GanonCastle_FinalBattleField_CollapsedRubble_A_02_1d5b,
+    Reference: !ul 15986786881707471673}
+  - {Id: Land_GanonCastle_FinalBattleField_CollapsedRubble_A_02_49a0, Path: _31a5/_43ed/Land_GanonCastle_FinalBattleField_CollapsedRubble_A_02_49a0,
+    Reference: !ul 5463295845997491957}
+  - {Id: Land_GanonCastle_FinalBattleField_CollapsedRubble_A_01_5c9f, Path: _31a5/_43ed/Land_GanonCastle_FinalBattleField_CollapsedRubble_A_01_5c9f,
+    Reference: !ul 18031036862237049583}
+  - {Id: Land_GanonCastle_FinalBattleField_CollapsedRubble_A_01_6584, Path: _31a5/_43ed/Land_GanonCastle_FinalBattleField_CollapsedRubble_A_01_6584,
+    Reference: !ul 2016422124632610995}
+  - {Id: Land_GanonCastle_FinalBattleField_CollapsedRubble_A_01_66ad, Path: _31a5/_43ed/Land_GanonCastle_FinalBattleField_CollapsedRubble_A_01_66ad,
+    Reference: !ul 12169573599478124906}
+  - {Id: Land_GanonCastle_FinalBattleField_CollapsedRubble_A_01_66f7, Path: _31a5/_43ed/Land_GanonCastle_FinalBattleField_CollapsedRubble_A_01_66f7,
+    Reference: !ul 6715375813850426034}
+  - {Id: Land_GanonCastle_FinalBattleField_CollapsedRubble_A_02_6e6d, Path: _31a5/_43ed/Land_GanonCastle_FinalBattleField_CollapsedRubble_A_02_6e6d,
+    Reference: !ul 16101509654367933992}
+  - {Id: Land_GanonCastle_FinalBattleField_CollapsedRubble_A_02_7aa2, Path: _31a5/_43ed/Land_GanonCastle_FinalBattleField_CollapsedRubble_A_02_7aa2,
+    Reference: !ul 8059911095023571677}
+  - {Id: Land_GanonCastle_FinalBattleField_CollapsedRubble_A_02_9544, Path: _31a5/_43ed/Land_GanonCastle_FinalBattleField_CollapsedRubble_A_02_9544,
+    Reference: !ul 16165720467440579067}
+  - {Id: Land_GanonCastle_FinalBattleField_CollapsedRubble_A_01_bf75, Path: _31a5/_43ed/Land_GanonCastle_FinalBattleField_CollapsedRubble_A_01_bf75,
+    Reference: !ul 10847227075016350048}
+  - {Id: Land_GanonCastle_FinalBattleField_CollapsedRubble_A_02_c7c2, Path: _31a5/_43ed/Land_GanonCastle_FinalBattleField_CollapsedRubble_A_02_c7c2,
+    Reference: !ul 16742056447815009478}
+  - {Id: Land_GanonCastle_FinalBattleField_CollapsedRubble_A_01_c7db, Path: _31a5/_43ed/Land_GanonCastle_FinalBattleField_CollapsedRubble_A_01_c7db,
+    Reference: !ul 4954014330470569668}
+  - {Id: Land_GanonCastle_FinalBattleField_CollapsedRubble_A_01_d022, Path: _31a5/_43ed/Land_GanonCastle_FinalBattleField_CollapsedRubble_A_01_d022,
+    Reference: !ul 18317404084901430089}
+  - {Id: Land_GanonCastle_FinalBattleField_CollapsedRubble_A_02_e4f6, Path: _31a5/_43ed/Land_GanonCastle_FinalBattleField_CollapsedRubble_A_02_e4f6,
+    Reference: !ul 16424060803862011581}
+  - {Id: Land_GanonCastle_FinalBattleField_CollapsedRubble_A_02_0c4d, Path: _31a5/_43ed/Land_GanonCastle_FinalBattleField_CollapsedRubble_A_02_0c4d,
+    Reference: !ul 4793156415904155192}
+  - {Id: Land_GanonCastle_FinalBattleField_CollapsedRubble_A_02_1b8f, Path: _31a5/_43ed/Land_GanonCastle_FinalBattleField_CollapsedRubble_A_02_1b8f,
+    Reference: !ul 950981742025673791}
+  - {Id: Land_GanonCastle_FinalBattleField_CollapsedRubble_A_02_4c31, Path: _31a5/_43ed/Land_GanonCastle_FinalBattleField_CollapsedRubble_A_02_4c31,
+    Reference: !ul 16656717574444521762}
+  - {Id: Land_GanonCastle_FinalBattleField_CollapsedRubble_A_02_890d, Path: _31a5/_43ed/Land_GanonCastle_FinalBattleField_CollapsedRubble_A_02_890d,
+    Reference: !ul 6391465850603500274}
+  - {Id: Land_GanonCastle_FinalBattleField_CollapsedRubble_A_02_a5ab, Path: _31a5/_43ed/Land_GanonCastle_FinalBattleField_CollapsedRubble_A_02_a5ab,
+    Reference: !ul 4309086212899689528}
+  - {Id: Land_GanonCastle_FinalBattleField_AirWall_e804, Path: _31a5/_43ed/Land_GanonCastle_FinalBattleField_AirWall_e804,
+    Reference: !ul 3171860964364222067}
+  - {Id: AiGroup, InstanceName: FinalBattleField_Rubble_Prefab_4a19_80b1, Logic: Logic/Module/FinalBattleField_Rubble_Prefab/FinalBattleField_Rubble_Prefab_4a19.logic.module.ain,
+    Path: _31a5/_43ed/AiGroup, Reference: !ul 5154411374827376404}
+  - {Id: Obj_GanonCastle_BrokenRubble_A_05_4819, Path: _31a5/_c457/Obj_GanonCastle_BrokenRubble_A_05_4819,
+    Reference: !ul 11682817248079921949}
+  - {Id: Obj_GanonCastle_BrokenRubble_A_05_698f, Path: _31a5/_c457/Obj_GanonCastle_BrokenRubble_A_05_698f,
+    Reference: !ul 8883229983513234965}
+  - {Id: Obj_GanonCastle_BrokenRubble_A_04_6111, Path: _31a5/_c457/Obj_GanonCastle_BrokenRubble_A_04_6111,
+    Reference: !ul 13177417040913999949}
+  - {Id: Obj_GanonCastle_BrokenRubble_A_03_3cc8, Path: _31a5/_c457/Obj_GanonCastle_BrokenRubble_A_03_3cc8,
+    Reference: !ul 11179234843690698240}
+  - {Id: Obj_GanonCastle_BrokenRubble_A_03_e68a, Path: _31a5/_c457/Obj_GanonCastle_BrokenRubble_A_03_e68a,
+    Reference: !ul 11778962742874626077}
+  - {Id: Obj_GanonCastle_BrokenRubble_A_03_efb3, Path: _31a5/_c457/Obj_GanonCastle_BrokenRubble_A_03_efb3,
+    Reference: !ul 6236936885147484594}
+  - {Id: Obj_GanonCastle_BrokenRubble_A_02_41c9, Path: _31a5/_c457/Obj_GanonCastle_BrokenRubble_A_02_41c9,
+    Reference: !ul 1770223703614949287}
+  - {Id: Obj_GanonCastle_BrokenRubble_A_02_65c6, Path: _31a5/_c457/Obj_GanonCastle_BrokenRubble_A_02_65c6,
+    Reference: !ul 6407810279956976613}
+  - {Id: Obj_GanonCastle_BrokenRubble_A_01_1ca0, Path: _31a5/_c457/Obj_GanonCastle_BrokenRubble_A_01_1ca0,
+    Reference: !ul 3888116703471655273}
+  - {Id: Obj_GanonCastle_BrokenRubble_A_01_3231, Path: _31a5/_c457/Obj_GanonCastle_BrokenRubble_A_01_3231,
+    Reference: !ul 17727390467089078856}
+  - {Id: Obj_GanonCastle_BrokenRubble_A_01_6268, Path: _31a5/_c457/Obj_GanonCastle_BrokenRubble_A_01_6268,
+    Reference: !ul 6580505723728003801}
+  - {Id: SpawnDropsPeriodically_07cd, Path: _31a5/_c457/SpawnDropsPeriodically_07cd,
+    Reference: !ul 8273197963325014581}
+  - {Id: SpawnDropsPeriodically_1485, Path: _31a5/_c457/SpawnDropsPeriodically_1485,
+    Reference: !ul 9866716658720319987}
+  - {Id: SpawnDropsPeriodically_2dcb, Path: _31a5/_c457/SpawnDropsPeriodically_2dcb,
+    Reference: !ul 5924398451717245879}
+  - {Id: SpawnDropsPeriodically_68bf, Path: _31a5/_c457/SpawnDropsPeriodically_68bf,
+    Reference: !ul 2350833374906222461}
+  - {Id: SpawnDropsPeriodically_c251, Path: _31a5/_c457/SpawnDropsPeriodically_c251,
+    Reference: !ul 7848944888522445545}
+  - {Id: AiGroup, InstanceName: FinalBattleField_Breakable_Rubble_Prefab_20ce_f0f1,
+    Logic: Logic/Module/FinalBattleField_Breakable_Rubble_Prefab/FinalBattleField_Breakable_Rubble_Prefab_20ce.logic.module.ain,
+    Path: _31a5/_c457/AiGroup, Reference: !ul 8294232793211172289}
+  - {Id: Land_GanonCastle_FinalBattleField_BigRubble_A_01_1467, Path: _31a5/Land_GanonCastle_FinalBattleField_BigRubble_A_01_1467,
+    Reference: !ul 13164923689660921900}
+  - {Id: Land_GanonCastle_FinalBattleField_BigRubble_A_01_69d3, Path: _31a5/Land_GanonCastle_FinalBattleField_BigRubble_A_01_69d3,
+    Reference: !ul 6623066289288589418}
+  - {Id: Land_GanonCastle_FinalBattleField_FlyingRubble_A_01_c54e, Path: _31a5/Land_GanonCastle_FinalBattleField_FlyingRubble_A_01_c54e,
+    Reference: !ul 836589215463842617}
+  - {Id: Obj_GanonCastle_FireWall_A_03_3551, Path: _31a5/Obj_GanonCastle_FireWall_A_03_3551,
+    Reference: !ul 5377719838568913056}
+  - {Id: Obj_GanonCastle_FireWall_A_03_39b5, Path: _31a5/Obj_GanonCastle_FireWall_A_03_39b5,
+    Reference: !ul 18390496382505649031}
+  - {Id: Obj_GanonCastle_FireWall_A_03_7abe, Path: _31a5/Obj_GanonCastle_FireWall_A_03_7abe,
+    Reference: !ul 11141200640474382294}
+  - {Id: Obj_GanonCastle_FireWall_A_03_f545, Path: _31a5/Obj_GanonCastle_FireWall_A_03_f545,
+    Reference: !ul 11170917274066596728}
+  - {Id: Obj_GanonCastle_FireWallCircle_A_01_261f, Path: _31a5/Obj_GanonCastle_FireWallCircle_A_01_261f,
+    Reference: !ul 5188055541200653883}
+  - {Id: Obj_GanonCastle_BrokenRubble_A_04_207b, Path: _31a5/Obj_GanonCastle_BrokenRubble_A_04_207b,
+    Reference: !ul 4770306773365510863}
+  - {Id: Obj_GanonCastle_BrokenRubble_A_02_a135, Path: _31a5/Obj_GanonCastle_BrokenRubble_A_02_a135,
+    Reference: !ul 3931559359547481838}
+  - {Id: Obj_GanonCastle_BrokenRubble_A_01_b308, Path: _31a5/Obj_GanonCastle_BrokenRubble_A_01_b308,
+    Reference: !ul 7882047916379833974}
+  - {Id: Area_12cf, Path: _31a5/Area_12cf, Reference: !ul 4867031986804579073}
+  - {Id: Area_89cf, Path: _31a5/Area_89cf, Reference: !ul 5286610512215581929}
+  - {Id: Area_cfaa, Path: _31a5/Area_cfaa, Reference: !ul 1224069877768676781}
+  - {Id: Area_9850, Path: _31a5/Area_9850, Reference: !ul 5421443693910719251}
+  - {Id: EftLoc_FinalBattleField_ZeldaMagic_00_99fd, Path: _31a5/EftLoc_FinalBattleField_ZeldaMagic_00_99fd,
+    Reference: !ul 18414257531123946238}
+  - {Id: Area_71eb, Path: _31a5/Area_71eb, Reference: !ul 484524504634755910}
+  - {Id: CameraChangeAreaBox_0ec8, Path: _31a5/_3d0f/CameraChangeAreaBox_0ec8, Reference: !ul 7535200538826135852}
+  - {Id: CameraChangeAreaBox_2d03, Path: _31a5/_3d0f/CameraChangeAreaBox_2d03, Reference: !ul 12234452549251095140}
+  - {Id: CameraChangeAreaBox_5261, Path: _31a5/_3d0f/CameraChangeAreaBox_5261, Reference: !ul 13191025268314780396}
+  - {Id: CameraChangeAreaBox_52a9, Path: _31a5/_3d0f/CameraChangeAreaBox_52a9, Reference: !ul 17890456380614534526}
+  - {Id: CameraChangeAreaBox_6c18, Path: _31a5/_3d0f/CameraChangeAreaBox_6c18, Reference: !ul 2414870619847452520}
+  - {Id: CameraChangeAreaBox_b1ef, Path: _31a5/_3d0f/CameraChangeAreaBox_b1ef, Reference: !ul 15872631933954745718}
+  - {Id: CameraChangeAreaBox_d4ef, Path: _31a5/_3d0f/CameraChangeAreaBox_d4ef, Reference: !ul 10624983881755158410}
+  - {Id: CameraChangeAreaBox_d8ea, Path: _31a5/_3d0f/CameraChangeAreaBox_d8ea, Reference: !ul 11510072540067236978}
+  - {Id: CameraChangeAreaBox_df4e, Path: _31a5/_3d0f/CameraChangeAreaBox_df4e, Reference: !ul 13899859672473155148}
+  - {Id: CameraChangeAreaBox_eb44, Path: _31a5/_3d0f/CameraChangeAreaBox_eb44, Reference: !ul 8298247621606734548}
+  - {Id: AiGroup, InstanceName: Enemy_DungeonBoss_Ganon_AdjustCameraArea_Prefab_b647_6fc7,
+    Logic: Logic/Module/Enemy_DungeonBoss_Ganon_AdjustCameraArea_Prefab/Enemy_DungeonBoss_Ganon_AdjustCameraArea_Prefab_b647.logic.module.ain,
+    Path: _31a5/_3d0f/AiGroup, Reference: !ul 3460286699552974465}
+  - {Id: Area_4bc4, Path: _31a5/Area_4bc4, Reference: !ul 16777350747469941060}
+  - {Id: EftLoc_FinalBattleField_ZeldaMagic_Start_00_aaf4, Path: _31a5/EftLoc_FinalBattleField_ZeldaMagic_Start_00_aaf4,
+    Reference: !ul 15155942986659042759}
+  - {Id: AiGroup, InstanceName: Enemy_DungeonBoss_Ganon_Prefab_4524_9e9c, Logic: Logic/Module/Enemy_DungeonBoss_Ganon_Prefab/Enemy_DungeonBoss_Ganon_Prefab_4524.logic.module.ain,
+    Path: _31a5/AiGroup, Reference: !ul 15129338801038737136}
+- Hash: !ul 12471434738401124358
+  Logic: Logic/Module/Gimmick_AreaContact_FallDown/Gimmick_AreaContact_FallDown_0a27.logic.module.ain
+  References:
+  - {Id: Area_ed22, Path: Area_ed22, Reference: !ul 13181974861727514251}
+FarDeleteGroups:
+- [!ul 20497638729523802, !ul 338532676786389202, !ul 484524504634755910, !ul 836589215463842617,
+  !ul 950981742025673791, !ul 1224069877768676781, !ul 1351273941712044267, !ul 1463664315672958413,
+  !ul 1770223703614949287, !ul 1936679357041108617, !ul 2016422124632610995, !ul 2250741424196980900,
+  !ul 2350833374906222461, !ul 2379957783454378041, !ul 2414870619847452520, !ul 3161642765020419627,
+  !ul 3171860964364222067, !ul 3773331549949601936, !ul 3888116703471655273, !ul 3894868481293860760,
+  !ul 3921533091119153506, !ul 3931559359547481838, !ul 4040573062220209562, !ul 4107389981774624068,
+  !ul 4309086212899689528, !ul 4373818267844034055, !ul 4433039106804918168, !ul 4547896791753736564,
+  !ul 4702981707390979947, !ul 4770306773365510863, !ul 4793156415904155192, !ul 4867031986804579073,
+  !ul 4954014330470569668, !ul 4977598394496704607, !ul 5176460467907565158, !ul 5188055541200653883,
+  !ul 5227138911433499858, !ul 5286610512215581929, !ul 5377719838568913056, !ul 5421443693910719251,
+  !ul 5458377982282868205, !ul 5463295845997491957, !ul 5646293294063529528, !ul 5712557569390823874,
+  !ul 5718798554606899879, !ul 5924398451717245879, !ul 6050210815996303663, !ul 6181886936579166395,
+  !ul 6236936885147484594, !ul 6391465850603500274, !ul 6407810279956976613, !ul 6416738733936699784,
+  !ul 6419752995561535374, !ul 6459470081917883488, !ul 6580505723728003801, !ul 6603379997586482459,
+  !ul 6623066289288589418, !ul 6664395637904587813, !ul 6715375813850426034, !ul 6744236772081829738,
+  !ul 6873490632434386540, !ul 7033546717189265746, !ul 7170670000765246473, !ul 7409974130946273436,
+  !ul 7535200538826135852, !ul 7848944888522445545, !ul 7882047916379833974, !ul 7917194444048935201,
+  !ul 8059911095023571677, !ul 8273197963325014581, !ul 8298247621606734548, !ul 8537049364543038410,
+  !ul 8729244364841540905, !ul 8883229983513234965, !ul 8912072015513880499, !ul 9022894284266595107,
+  !ul 9514481477447552889, !ul 9596542262050564956, !ul 9699442461978090168, !ul 9866716658720319987,
+  !ul 10472025050417259673, !ul 10624983881755158410, !ul 10847227075016350048, !ul 10850738157828510315,
+  !ul 10914946700222904191, !ul 10966592336757288495, !ul 11141200640474382294, !ul 11170917274066596728,
+  !ul 11179234843690698240, !ul 11245966557981013486, !ul 11279453280601427041, !ul 11510072540067236978,
+  !ul 11682817248079921949, !ul 11734110948188183663, !ul 11778962742874626077, !ul 12169573599478124906,
+  !ul 12234452549251095140, !ul 12350272083693219045, !ul 12777330602274815248, !ul 13164923689660921900,
+  !ul 13177417040913999949, !ul 13191025268314780396, !ul 13236864831226496800, !ul 13292208969882890323,
+  !ul 13599558922991065470, !ul 13876823480148920518, !ul 13899859672473155148, !ul 14161277424411484074,
+  !ul 14182201887595643328, !ul 14955337651736537743, !ul 15155942986659042759, !ul 15521408621906181282,
+  !ul 15578797007215580076, !ul 15652959217688997941, !ul 15749653956558303959, !ul 15872631933954745718,
+  !ul 15986786881707471673, !ul 16101509654367933992, !ul 16165720467440579067, !ul 16389375008122907106,
+  !ul 16424060803862011581, !ul 16656717574444521762, !ul 16742056447815009478, !ul 16777350747469941060,
+  !ul 16961600403865400347, !ul 17036659268350394533, !ul 17441016185655837283, !ul 17687467301439070038,
+  !ul 17727390467089078856, !ul 17890456380614534526, !ul 18031036862237049583, !ul 18317404084901430089,
+  !ul 18390496382505649031, !ul 18414257531123946238]
+FilePath: Work/Banc/Scene/GanonCastle/FinalBattleField.bcett.json
+PhiveHeader:
+  PlacementGroups: []
+Rails:
+- Gyaml: NavigationMeshRoad
+  Hash: !ul 8906629786399922578
+  IsClosed: false
+  Name: NavigationMeshRoad
+  Points:
+  - Gyaml: NavigationMeshRoad
+    Hash: !ul 18270510056305777199
+    NextDistance: 1.3484587669372559
+    Translate: [28.629785537719727, 100.04114532470703, -2.5178542137145996]
+  - Gyaml: NavigationMeshRoad
+    Hash: !ul 13776682150819375571
+    NextDistance: 1.3929951190948486
+    PrevDistance: 1.3484587669372559
+    Translate: [27.28260612487793, 99.99146270751953, -2.5491652488708496]
+  - Gyaml: NavigationMeshRoad
+    Hash: !ul 8542917834191518116
+    NextDistance: 1.7309046983718872
+    PrevDistance: 1.3929951190948486
+    Translate: [25.89093017578125, 100.04019927978516, -2.5851974487304688]
+  - Gyaml: NavigationMeshRoad
+    Hash: !ul 9193068170996577335
+    PrevDistance: 1.7309046983718872
+    RouteWidth: 1.0
+    Translate: [24.160354614257812, 100.03629302978516, -2.6187212467193604]
+SimultaneousGroups:
+- [!ul 20497638729523802, !ul 338532676786389202, !ul 484524504634755910, !ul 836589215463842617,
+  !ul 950981742025673791, !ul 1224069877768676781, !ul 1351273941712044267, !ul 1463664315672958413,
+  !ul 1770223703614949287, !ul 1936679357041108617, !ul 2016422124632610995, !ul 2250741424196980900,
+  !ul 2350833374906222461, !ul 2379957783454378041, !ul 2414870619847452520, !ul 3161642765020419627,
+  !ul 3171860964364222067, !ul 3773331549949601936, !ul 3888116703471655273, !ul 3894868481293860760,
+  !ul 3921533091119153506, !ul 3931559359547481838, !ul 4040573062220209562, !ul 4107389981774624068,
+  !ul 4309086212899689528, !ul 4373818267844034055, !ul 4433039106804918168, !ul 4547896791753736564,
+  !ul 4702981707390979947, !ul 4770306773365510863, !ul 4793156415904155192, !ul 4867031986804579073,
+  !ul 4954014330470569668, !ul 4977598394496704607, !ul 5176460467907565158, !ul 5188055541200653883,
+  !ul 5227138911433499858, !ul 5286610512215581929, !ul 5377719838568913056, !ul 5421443693910719251,
+  !ul 5458377982282868205, !ul 5463295845997491957, !ul 5646293294063529528, !ul 5712557569390823874,
+  !ul 5718798554606899879, !ul 5924398451717245879, !ul 6050210815996303663, !ul 6181886936579166395,
+  !ul 6236936885147484594, !ul 6391465850603500274, !ul 6407810279956976613, !ul 6416738733936699784,
+  !ul 6419752995561535374, !ul 6459470081917883488, !ul 6580505723728003801, !ul 6603379997586482459,
+  !ul 6623066289288589418, !ul 6664395637904587813, !ul 6715375813850426034, !ul 6744236772081829738,
+  !ul 6873490632434386540, !ul 7033546717189265746, !ul 7170670000765246473, !ul 7409974130946273436,
+  !ul 7535200538826135852, !ul 7848944888522445545, !ul 7882047916379833974, !ul 7917194444048935201,
+  !ul 8059911095023571677, !ul 8273197963325014581, !ul 8298247621606734548, !ul 8537049364543038410,
+  !ul 8729244364841540905, !ul 8883229983513234965, !ul 8912072015513880499, !ul 9022894284266595107,
+  !ul 9514481477447552889, !ul 9596542262050564956, !ul 9699442461978090168, !ul 9866716658720319987,
+  !ul 10472025050417259673, !ul 10624983881755158410, !ul 10847227075016350048, !ul 10850738157828510315,
+  !ul 10914946700222904191, !ul 10966592336757288495, !ul 11141200640474382294, !ul 11170917274066596728,
+  !ul 11179234843690698240, !ul 11245966557981013486, !ul 11279453280601427041, !ul 11510072540067236978,
+  !ul 11682817248079921949, !ul 11734110948188183663, !ul 11778962742874626077, !ul 12169573599478124906,
+  !ul 12234452549251095140, !ul 12350272083693219045, !ul 12777330602274815248, !ul 13164923689660921900,
+  !ul 13177417040913999949, !ul 13191025268314780396, !ul 13236864831226496800, !ul 13292208969882890323,
+  !ul 13599558922991065470, !ul 13876823480148920518, !ul 13899859672473155148, !ul 14161277424411484074,
+  !ul 14182201887595643328, !ul 14955337651736537743, !ul 15155942986659042759, !ul 15521408621906181282,
+  !ul 15578797007215580076, !ul 15652959217688997941, !ul 15749653956558303959, !ul 15872631933954745718,
+  !ul 15986786881707471673, !ul 16101509654367933992, !ul 16165720467440579067, !ul 16389375008122907106,
+  !ul 16424060803862011581, !ul 16656717574444521762, !ul 16742056447815009478, !ul 16777350747469941060,
+  !ul 16961600403865400347, !ul 17036659268350394533, !ul 17441016185655837283, !ul 17687467301439070038,
+  !ul 17727390467089078856, !ul 17890456380614534526, !ul 18031036862237049583, !ul 18317404084901430089,
+  !ul 18390496382505649031, !ul 18414257531123946238]

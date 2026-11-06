@@ -1,0 +1,302 @@
+Actors:
+- Bakeable: true
+  Dynamic: {NomralEvent: Common_Dungeon_OpenShutterWithLockMoveToPlusZ_JabuJabu, ShutterEvent: Get_StoneOfWater_BossAppear}
+  Gyaml: Obj_InsideJabu_Jabu_SwitchShutter_A_01
+  Hash: !ul 8628099077522163800
+  Links:
+  - {Dst: !ul 11325772173873930486, Gyaml: Reference, Name: Reference, Src: !ul 8628099077522163800}
+  - {Dst: !ul 9447531760402116355, Gyaml: Reference, Name: Reference, Src: !ul 8628099077522163800}
+  - {Dst: !ul 14533819173240967429, Gyaml: Reference, Name: Reference, Src: !ul 8628099077522163800}
+  - {Dst: !ul 11870819355365168674, Gyaml: Reference, Name: Reference, Src: !ul 8628099077522163800}
+  - {Dst: !ul 8705440211054064584, Gyaml: Reference, Name: Reference, Src: !ul 8628099077522163800}
+  - {Dst: !ul 13593934833981832705, Gyaml: Reference, Name: Reference, Src: !ul 8628099077522163800}
+  Phive:
+    Placement: {ID: !ul 8628099077522163800}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0xeee8103c
+  Translate: [41.92756652832031, 104.0604019165039, -92.74153137207031]
+- Bakeable: true
+  Gyaml: Obj_InsideJabu_Jabu_SwitchShutter_A_02
+  Hash: !ul 9447531760402116355
+  Name: SwitchShutterPlusZ
+  Phive:
+    Placement: {ID: !ul 9447531760402116355}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0xe6e13c25
+  Translate: [41.92756652832031, 102.01040649414062, -93.0915298461914]
+- Bakeable: true
+  Gyaml: Obj_InsideJabu_Jabu_SwitchShutter_A_02
+  Hash: !ul 11325772173873930486
+  Name: SwitchShutterMinusZ
+  Phive:
+    Placement: {ID: !ul 11325772173873930486}
+  SRTHash: !u 0xf1d8defd
+  Translate: [41.92756652832031, 102.01040649414062, -92.39153289794922]
+- Gyaml: DestinationAnchor
+  Hash: !ul 11654054129977216635
+  Phive:
+    Placement: {ID: !ul 11654054129977216635}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0x146ff1b3
+  Translate: [41.92756652832031, 103.21040344238281, -93.74153137207031]
+- Gyaml: DestinationAnchor
+  Hash: !ul 8292155083161999284
+  Phive:
+    Placement: {ID: !ul 8292155083161999284}
+  SRTHash: !u 0x637ae91b
+  Translate: [41.92756652832031, 103.21040344238281, -91.74153137207031]
+- Gyaml: AirWallEnemy
+  Hash: !ul 2749557327355340315
+  Phive:
+    Placement: {ID: !ul 2749557327355340315}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0x7ca7ccd7
+  Scale: [1.7000000476837158, 2.5999999046325684, 1.7000000476837158]
+  Translate: [41.92756652832031, 103.51040649414062, -92.74153137207031]
+- Gyaml: DestinationAnchor
+  Hash: !ul 11870819355365168674
+  Name: CameraMinusZ
+  Phive:
+    Placement: {ID: !ul 11870819355365168674}
+  SRTHash: !u 0x325d20ea
+  Translate: [41.92756652832031, 102.21040344238281, -90.74153137207031]
+- Gyaml: DestinationAnchor
+  Hash: !ul 14533819173240967429
+  Name: CameraPlusZ
+  Phive:
+    Placement: {ID: !ul 14533819173240967429}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0xf537518c
+  Translate: [41.92756652832031, 102.21040344238281, -94.74153137207031]
+- Dynamic:
+    MoveTime: 20.0
+    StartPosRate: [0.0, 0.0, -1.0]
+  Gyaml: PushAirWall_DoorFront
+  Hash: !ul 8705440211054064584
+  Phive:
+    Placement: {ID: !ul 8705440211054064584}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0xf7704252
+  Translate: [41.92756652832031, 102.21040344238281, -92.74153137207031]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 12253549273394277920
+  Phive:
+    Placement: {ID: !ul 12253549273394277920}
+  Rotate: [-0.011865873821079731, -0.0, 0.0022346212062984705]
+  SRTHash: !u 0x3e9ebf28
+  Scale: [1.2000000476837158, 1.5, 1.2000000476837158]
+  Translate: [42.26810073852539, 102.01718139648438, -112.10176086425781]
+- Gyaml: Obj_WarpPoint_A_01
+  Hash: !ul 8644628691932502375
+  Phive:
+    Placement: {ID: !ul 8644628691932502375}
+  Rotate: [-0.011865874752402306, -0.0, 0.0022346212062984705]
+  SRTHash: !u 0x05e91124
+  Translate: [42.26810073852539, 102.01718139648438, -112.10176086425781]
+- Dynamic: {RequestEventName: Getout_JabJab}
+  Gyaml: EventRequestActor
+  Hash: !ul 1486503325651264857
+  Links:
+  - {Dst: !ul 12757216108778408580, Gyaml: Reference, Name: Reference, Src: !ul 1486503325651264857}
+  Phive:
+    Placement: {ID: !ul 1486503325651264857}
+  Rotate: [-0.011865874752402306, -0.0, 0.0022346212062984705]
+  SRTHash: !u 0x1c82ea2a
+  Translate: [42.26060104370117, 105.37271118164062, -112.1415786743164]
+- Gyaml: DestinationAnchor
+  Hash: !ul 12757216108778408580
+  Name: center
+  Phive:
+    Placement: {ID: !ul 12757216108778408580}
+  Rotate: [-0.011865874752402306, -0.0, 0.0022346212062984705]
+  SRTHash: !u 0x05e91124
+  Translate: [42.26810073852539, 102.01718139648438, -112.10176086425781]
+- Dynamic: {IsIntendedForEventAppear: true}
+  Gyaml: Enemy_DungeonBoss_Barinade
+  Hash: !ul 11335461690977286580
+  Links:
+  - {Dst: !ul 9499685821904358528, Gyaml: Reference, Name: Reference, Src: !ul 11335461690977286580}
+  Phive:
+    Placement: {ID: !ul 11335461690977286580}
+  SRTHash: !u 0x2a14f1bc
+  Translate: [42.26810073852539, 100.65159606933594, -112.10176086425781]
+- Gyaml: DestinationAnchor
+  Hash: !ul 9499685821904358528
+  Name: BossDefeat
+  Phive:
+    Placement: {ID: !ul 9499685821904358528}
+  Rotate: [-3.141592264175415, -0.0, 3.141592502593994]
+  SRTHash: !u 0x15bd4af1
+  Translate: [42.396812438964844, 102.01058959960938, -104.22154235839844]
+- Gyaml: DestinationAnchor
+  Hash: !ul 13593934833981832705
+  Name: BossAppear
+  Phive:
+    Placement: {ID: !ul 13593934833981832705}
+  Rotate: [-3.141592502593994, -0.0, 3.141592502593994]
+  SRTHash: !u 0xf28afae4
+  Translate: [42.396812438964844, 102.01058959960938, -98.13774108886719]
+- Gyaml: Area
+  Hash: !ul 5983859931190357780
+  Phive:
+    Placement: {ID: !ul 5983859931190357780}
+  SRTHash: !u 0x8f8c3f92
+  Scale: [22.0, 10.0, 20.0]
+  Translate: [42.5, 102.0003433227539, -112.69999694824219]
+- Gyaml: Obj_DreamWorldTimerManager
+  Hash: !ul 16281649587253501951
+  Links:
+  - {Dst: !ul 11335461690977286580, Gyaml: Reference, Name: Reference, Src: !ul 16281649587253501951}
+  Phive:
+    Placement: {ID: !ul 16281649587253501951}
+  SRTHash: !u 0x3bdf8375
+  Translate: [72.6624984741211, 116.79342651367188, -107.66319274902344]
+- Gyaml: NoEscapeRangeAreaBox
+  Hash: !ul 5857802668476043540
+  Name: NoEscapeArea_SubEvent_AllBossBattle
+  Phive:
+    Placement: {ID: !ul 5857802668476043540}
+  SRTHash: !u 0xcbc81930
+  Scale: [48.345481872558594, 26.455455780029297, 80.63530731201172]
+  Translate: [42.365875244140625, 110.03099822998047, -96.53648376464844]
+- Gyaml: Area
+  Hash: !ul 8866225072667330502
+  Phive:
+    Placement: {ID: !ul 8866225072667330502}
+  Rotate: [0.0, -1.570796251296997, 8.940696716308594e-08]
+  SRTHash: !u 0xda65f2d7
+  Scale: [35.790283203125, 15.241806030273438, 22.127256393432617]
+  Translate: [43.30194854736328, 88.251220703125, -96.49478912353516]
+- Dynamic: {AreaHintEventName: NaviHint_Rematch}
+  Gyaml: NaviAreaHintEventActor
+  Hash: !ul 7110933999047655517
+  Phive:
+    Placement: {ID: !ul 7110933999047655517}
+  SRTHash: !u 0xaf4e10d3
+  Translate: [52.73501205444336, 109.12291717529297, -120.2860336303711]
+- Gyaml: Area
+  Hash: !ul 13586135955487030468
+  Phive:
+    Placement: {ID: !ul 13586135955487030468}
+  SRTHash: !u 0x8f8c3f92
+  Scale: [22.0, 10.0, 20.0]
+  Translate: [42.5, 102.0, -112.69999694824219]
+- Bakeable: true
+  Dynamic: {NomralEvent: Common_Dungeon_OpenShutterMoveToPlusZ_JabuJabu, ShutterEvent: Common_Dungeon_OpenShutterWithLockMoveToPlusZ_JabuJabu}
+  Gyaml: Obj_InsideJabu_Jabu_SwitchShutter_A_01
+  Hash: !ul 4137699829268094183
+  Links:
+  - {Dst: !ul 4935915082171837234, Gyaml: Reference, Name: Reference, Src: !ul 4137699829268094183}
+  - {Dst: !ul 6452685509525611095, Gyaml: Reference, Name: Reference, Src: !ul 4137699829268094183}
+  - {Dst: !ul 17533500008673293124, Gyaml: Reference, Name: Reference, Src: !ul 4137699829268094183}
+  - {Dst: !ul 17036132364967771878, Gyaml: Reference, Name: Reference, Src: !ul 4137699829268094183}
+  - {Dst: !ul 3493018767159225600, Gyaml: Reference, Name: Reference, Src: !ul 4137699829268094183}
+  Phive:
+    Placement: {ID: !ul 4137699829268094183}
+  Rotate: [0.0, -0.3557078540325165, 0.0]
+  SRTHash: !u 0x554b0f1f
+  Translate: [40.44112014770508, 101.55774688720703, -65.14672088623047]
+- Bakeable: true
+  Gyaml: Obj_InsideJabu_Jabu_SwitchShutter_A_02
+  Hash: !ul 6452685509525611095
+  Name: SwitchShutterPlusZ
+  Phive:
+    Placement: {ID: !ul 6452685509525611095}
+  Rotate: [0.0, -0.3557078540325165, 0.0]
+  SRTHash: !u 0x64444df9
+  Translate: [40.31923294067383, 99.55774688720703, -64.81863403320312]
+- Bakeable: true
+  Gyaml: Obj_InsideJabu_Jabu_SwitchShutter_A_02
+  Hash: !ul 4935915082171837234
+  Name: SwitchShutterMinusZ
+  Phive:
+    Placement: {ID: !ul 4935915082171837234}
+  Rotate: [-3.141592502593994, 0.3557078540325165, -3.141592502593994]
+  SRTHash: !u 0x479c9828
+  Translate: [40.56300735473633, 99.55774688720703, -65.47480773925781]
+- Gyaml: DestinationAnchor
+  Hash: !ul 17036132364967771878
+  Name: CameraMinusZ
+  Phive:
+    Placement: {ID: !ul 17036132364967771878}
+  Rotate: [3.1415927410125732, 0.35570773482322693, 3.1415927410125732]
+  SRTHash: !u 0x5b96401e
+  Translate: [41.13762664794922, 99.70774841308594, -67.02152252197266]
+- Gyaml: DestinationAnchor
+  Hash: !ul 17533500008673293124
+  Name: CameraPlusZ
+  Phive:
+    Placement: {ID: !ul 17533500008673293124}
+  Rotate: [0.0, -0.3557078540325165, 0.0]
+  SRTHash: !u 0x5cb80437
+  Translate: [39.74461364746094, 99.70774841308594, -63.27191925048828]
+- Dynamic:
+    MoveTime: 20.0
+    StartPosRate: [0.0, 0.0, -1.0]
+  Gyaml: PushAirWall_DoorFront
+  Hash: !ul 3493018767159225600
+  Phive:
+    Placement: {ID: !ul 3493018767159225600}
+  Rotate: [0.0, -0.3557078242301941, 0.0]
+  SRTHash: !u 0x4fdec038
+  Scale: [2.5, 1.0, 1.0]
+  Translate: [40.44112014770508, 99.70774841308594, -65.14672088623047]
+- Dynamic: {FogParams: InsideJabuJabuBelly_BossRoom}
+  Gyaml: VolumeFogArea
+  Hash: !ul 17281895054538600101
+  Phive:
+    Placement: {ID: !ul 17281895054538600101}
+  SRTHash: !u 0x86a1d8ad
+  Scale: [30.0, 10.0, 30.0]
+  Translate: [42.230899810791016, 116.74900817871094, -112.10699462890625]
+AiGroups:
+- Hash: !ul 14627192419110874362
+  Logic: Logic/Root/BarinadeStage/BarinadeStage_1499.logic.root.ain
+  References:
+  - {Id: EventRequestActor_024c, Path: _9269/_4f1f/EventRequestActor_024c, Reference: !ul 1486503325651264857}
+  - {Id: Area_bfbc, Path: _9269/_4f1f/Area_bfbc, Reference: !ul 12253549273394277920}
+  - {Id: Obj_WarpPoint_A_01_14a2, Path: _9269/_4f1f/Obj_WarpPoint_A_01_14a2, Reference: !ul 8644628691932502375}
+  - {Id: DestinationAnchor_a8b5, Path: _9269/_4f1f/DestinationAnchor_a8b5, Reference: !ul 12757216108778408580}
+  - {Id: AiGroup, InstanceName: Gimmick_Warp_FromDungeon_061c_ec56, Logic: Logic/Module/Gimmick_Warp_FromDungeon/Gimmick_Warp_FromDungeon_061c.logic.module.ain,
+    Path: _9269/_4f1f/AiGroup, Reference: !ul 13696254532394511399}
+  - {Id: ShutterLocator_Lattice_ff7d, Path: _9269/_b46a/ShutterLocator_Lattice_ff7d,
+    Reference: !ul 9447531760402116355}
+  - {Id: ShutterLocator_Lattice_4b8b, Path: _9269/_b46a/ShutterLocator_Lattice_4b8b,
+    Reference: !ul 11325772173873930486}
+  - {Id: ShutterLocator_Door_fb86, Path: _9269/_b46a/ShutterLocator_Door_fb86, Reference: !ul 8628099077522163800}
+  - {Id: PushAirWall_DoorFront_6427, Path: _9269/_b46a/PushAirWall_DoorFront_6427,
+    Reference: !ul 8705440211054064584}
+  - {Id: AiGroup, InstanceName: DungeonSwitchShutterWithLockSet_3b94_3bfc, Logic: Logic/Module/DungeonSwitchShutterWithLockSet/DungeonSwitchShutterWithLockSet_3b94.logic.module.ain,
+    Path: _9269/_b46a/AiGroup, Reference: !ul 11207395824899943356}
+  - {Id: Enemy_DungeonBoss_Barinade_bd97, Path: _9269/Enemy_DungeonBoss_Barinade_bd97,
+    Reference: !ul 11335461690977286580}
+  - {Id: Area_d92d, Path: _9269/Area_d92d, Reference: !ul 5983859931190357780}
+  - {Id: AiGroup, InstanceName: Enemy_DungeonBoss_Barinade_Prefab_f176_08c7, Logic: Logic/Module/Enemy_DungeonBoss_Barinade_Prefab/Enemy_DungeonBoss_Barinade_Prefab_f176.logic.module.ain,
+    Path: _9269/AiGroup, Reference: !ul 963921131832844248}
+  - {Id: Area_5c2e, Path: Area_5c2e, Reference: !ul 8866225072667330502}
+  - {Id: NaviAreaHintEventActor_3689, Path: NaviAreaHintEventActor_3689, Reference: !ul 7110933999047655517}
+- Hash: !ul 15283983276490842605
+  Logic: Logic/Module/DungeonSwitchShutterWithLockSet/DungeonSwitchShutterWithLockSet_3b94.logic.module.ain
+  References:
+  - {Id: ShutterLocator_Lattice_ff7d, Path: ShutterLocator_Lattice_ff7d, Reference: !ul 6452685509525611095}
+  - {Id: ShutterLocator_Lattice_4b8b, Path: ShutterLocator_Lattice_4b8b, Reference: !ul 4935915082171837234}
+  - {Id: ShutterLocator_Door_fb86, Path: ShutterLocator_Door_fb86, Reference: !ul 4137699829268094183}
+  - {Id: PushAirWall_DoorFront_6427, Path: PushAirWall_DoorFront_6427, Reference: !ul 3493018767159225600}
+- Hash: !ul 18091981213439171945
+  Logic: Logic/Module/Barinade_ChangeEnvPalletArea/Barinade_ChangeEnvPalletArea_1e8b.logic.module.ain
+  References:
+  - {Id: Area_d92d, Path: Area_d92d, Reference: !ul 13586135955487030468}
+FarDeleteGroups:
+- [!ul 1486503325651264857, !ul 5983859931190357780, !ul 7110933999047655517, !ul 8628099077522163800,
+  !ul 8644628691932502375, !ul 8705440211054064584, !ul 8866225072667330502, !ul 9447531760402116355,
+  !ul 11325772173873930486, !ul 11335461690977286580, !ul 12253549273394277920, !ul 12757216108778408580]
+- [!ul 3493018767159225600, !ul 4137699829268094183, !ul 4935915082171837234, !ul 6452685509525611095]
+FilePath: Work/Banc/Scene/DreamWorld/BarinadeStage.bcett.json
+PhiveHeader:
+  PlacementGroups: []
+SimultaneousGroups:
+- [!ul 1486503325651264857, !ul 5983859931190357780, !ul 7110933999047655517, !ul 8628099077522163800,
+  !ul 8644628691932502375, !ul 8705440211054064584, !ul 8866225072667330502, !ul 9447531760402116355,
+  !ul 11325772173873930486, !ul 11335461690977286580, !ul 12253549273394277920, !ul 12757216108778408580]
+- [!ul 3493018767159225600, !ul 4137699829268094183, !ul 4935915082171837234, !ul 6452685509525611095]

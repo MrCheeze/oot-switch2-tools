@@ -1,0 +1,145 @@
+Actors:
+- Dynamic: {BoolGameDataRecordingDeath: DreamBossStage_Enemy_GerudoThief_01}
+  Gyaml: Enemy_MiddleBoss_GerudoThief
+  Hash: !ul 11360278373228496431
+  Links:
+  - {Dst: !ul 3221155614221932483, Gyaml: Reference, Name: Reference, Src: !ul 11360278373228496431}
+  Phive:
+    Placement: {ID: !ul 11360278373228496431}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0x66efcc5d
+  Translate: [24.521690368652344, 102.48719024658203, -59.292442321777344]
+- Bakeable: true
+  Gyaml: Obj_DoorChainLock_A_01
+  Hash: !ul 3867359050432141134
+  Phive:
+    Placement: {ID: !ul 3867359050432141134}
+  Rotate: [0.0, -1.5707961320877075, 1.5099580252808664e-07]
+  SRTHash: !u 0x723b54a3
+  Translate: [31.68704605102539, 102.51421356201172, -70.36168670654297]
+- Bakeable: true
+  Gyaml: Obj_Gerudo_SwitchShutter_A_03
+  Hash: !ul 9206081802162647104
+  Links:
+  - {Dst: !ul 3867359050432141134, Gyaml: Reference, Name: Reference, Src: !ul 9206081802162647104}
+  - {Dst: !ul 1240601667306151119, Gyaml: Reference, Name: Reference, Src: !ul 9206081802162647104}
+  - {Dst: !ul 1737461438243804653, Gyaml: Reference, Name: Reference, Src: !ul 9206081802162647104}
+  Name: SwitchShutterWithChainLock
+  Phive:
+    Placement: {ID: !ul 9206081802162647104}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x37d6cfd5
+  Translate: [31.535268783569336, 102.51421356201172, -70.36168670654297]
+- Gyaml: NavMeshCutBoxArea
+  Hash: !ul 12271973250223380841
+  Phive:
+    Placement: {ID: !ul 12271973250223380841}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x8bc734ca
+  Scale: [1.5, 1.0, 0.5]
+  Translate: [31.535470962524414, 102.80471801757812, -70.36229705810547]
+- Gyaml: DestinationAnchor
+  Hash: !ul 1240601667306151119
+  Name: Dm_Gerudo_0023_LinkEndPosition
+  Phive:
+    Placement: {ID: !ul 1240601667306151119}
+  Rotate: [0.0, -0.17627835273742676, 0.0]
+  SRTHash: !u 0x7332c116
+  Translate: [29.97708511352539, 102.51415252685547, -71.48145294189453]
+- Gyaml: DestinationAnchor
+  Hash: !ul 1737461438243804653
+  Name: Dm_Gerudo_0023_LinkStartPosition
+  Phive:
+    Placement: {ID: !ul 1737461438243804653}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x4e7caa43
+  Translate: [30.33487319946289, 102.51421356201172, -70.36168670654297]
+- Gyaml: NoEscapeRangeAreaBox
+  Hash: !ul 9669739749992251070
+  Name: NoEscapeArea_SubEvent_AllBossBattle
+  Phive:
+    Placement: {ID: !ul 9669739749992251070}
+  SRTHash: !u 0x45044931
+  Scale: [22.84484100341797, 13.020072937011719, 48.30992889404297]
+  Translate: [25.80138397216797, 107.53744506835938, -69.2664566040039]
+- Gyaml: Area
+  Hash: !ul 11520976376650131927
+  Phive:
+    Placement: {ID: !ul 11520976376650131927}
+  Rotate: [0.0, -1.570796251296997, 8.940696716308594e-08]
+  SRTHash: !u 0xe9da52e4
+  Scale: [41.12989044189453, 12.566478729248047, 40.42536926269531]
+  Translate: [21.915390014648438, 95.81136322021484, -70.23152160644531]
+- Dynamic: {AreaHintEventName: NaviHint_Rematch}
+  Gyaml: NaviAreaHintEventActor
+  Hash: !ul 7098872933129745151
+  Phive:
+    Placement: {ID: !ul 7098872933129745151}
+  SRTHash: !u 0xd5adc4db
+  Translate: [33.381492614746094, 116.68305206298828, -77.331787109375]
+- Gyaml: Obj_Gerudo_SwitchShutter_A_07
+  Hash: !ul 14726767237741924168
+  Phive:
+    Placement: {ID: !ul 14726767237741924168}
+  SRTHash: !u 0x49959fe3
+  Translate: [24.522747039794922, 102.5, -57.58872604370117]
+- Gyaml: Obj_Gerudo_SwitchShutter_A_07
+  Hash: !ul 6606839487199305508
+  Phive:
+    Placement: {ID: !ul 6606839487199305508}
+  SRTHash: !u 0x17e88cbc
+  Translate: [24.522747039794922, 102.5, -78.20893096923828]
+- Bakeable: true
+  Gyaml: Land_Gerudo_FortressRoom_A_01
+  Hash: !ul 10468989538702935974
+  Phive:
+    Placement: {ID: !ul 10468989538702935974}
+  SRTHash: !u 0x4085a21c
+  Translate: [25.0, 102.5, -68.0]
+- Gyaml: Obj_DreamWorldTimerManager
+  Hash: !ul 15567399072597918044
+  Phive:
+    Placement: {ID: !ul 15567399072597918044}
+  SRTHash: !u 0xab963cd9
+  Translate: [33.99015808105469, 117.5, -63.85905456542969]
+- Gyaml: Npc_Invisible_GerudoThief
+  Hash: !ul 3221155614221932483
+  Phive:
+    Placement: {ID: !ul 3221155614221932483}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xc2b6c77f
+  Translate: [22.848052978515625, 102.5, -59.34841537475586]
+- Bakeable: true
+  Gyaml: Land_Gerudo_FortressEntrance_A_01
+  Hash: !ul 11340537092431196790
+  Phive:
+    Placement: {ID: !ul 11340537092431196790}
+  SRTHash: !u 0x285bad4b
+  Translate: [24.0, 110.0, -61.0]
+AiGroups:
+- Hash: !ul 4564751398076947997
+  Logic: Logic/Root/GerudoThiefStage/GerudoThiefStage_23e0.logic.root.ain
+  References:
+  - {Id: Enemy_MiddleBoss_GerudoThief_d6b1, Path: Enemy_MiddleBoss_GerudoThief_d6b1,
+    Reference: !ul 11360278373228496431}
+  - {Id: ShutterLocator_Door_ef6e, Path: _a485/ShutterLocator_Door_ef6e, Reference: !ul 9206081802162647104}
+  - {Id: ChainLockLocator_Door_5cbe, Path: _a485/ChainLockLocator_Door_5cbe, Reference: !ul 3867359050432141134}
+  - {Id: NavMeshCutBoxArea_8723, Path: _a485/NavMeshCutBoxArea_8723, Reference: !ul 12271973250223380841}
+  - {Id: AiGroup, InstanceName: GerudoFortress_SwitchShutterSet_CarpenterSet_03_a01a_9174,
+    Logic: Logic/Module/GerudoFortress_SwitchShutterSet_CarpenterSet_03/GerudoFortress_SwitchShutterSet_CarpenterSet_03_a01a.logic.module.ain,
+    Path: _a485/AiGroup, Reference: !ul 836581978209777278}
+  - {Id: Area_1d44, Path: Area_1d44, Reference: !ul 11520976376650131927}
+  - {Id: NaviAreaHintEventActor_68f9, Path: NaviAreaHintEventActor_68f9, Reference: !ul 7098872933129745151}
+  - {Id: Obj_Gerudo_SwitchShutter_A_07_3f01, Path: Obj_Gerudo_SwitchShutter_A_07_3f01,
+    Reference: !ul 14726767237741924168}
+  - {Id: Obj_Gerudo_SwitchShutter_A_07_54a0, Path: Obj_Gerudo_SwitchShutter_A_07_54a0,
+    Reference: !ul 6606839487199305508}
+FarDeleteGroups:
+- [!ul 3867359050432141134, !ul 6606839487199305508, !ul 7098872933129745151, !ul 9206081802162647104,
+  !ul 11360278373228496431, !ul 11520976376650131927, !ul 12271973250223380841, !ul 14726767237741924168]
+FilePath: Work/Banc/Scene/DreamWorld/GerudoThiefStage.bcett.json
+PhiveHeader:
+  PlacementGroups: []
+SimultaneousGroups:
+- [!ul 3867359050432141134, !ul 6606839487199305508, !ul 7098872933129745151, !ul 9206081802162647104,
+  !ul 11360278373228496431, !ul 11520976376650131927, !ul 12271973250223380841, !ul 14726767237741924168]

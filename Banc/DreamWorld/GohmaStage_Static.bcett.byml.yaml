@@ -1,0 +1,486 @@
+Actors:
+- Gyaml: NoEscapeRangeAreaBox
+  Hash: !ul 13323998001937327114
+  Name: NoEscapeArea_SubEvent_AllBossBattle
+  Phive:
+    Placement: {ID: !ul 13323998001937327114}
+  SRTHash: !u 0xb9db20e5
+  Scale: [69.80244445800781, 59.58068084716797, 56.55375289916992]
+  Translate: [23.511661529541016, 49.4713134765625, 68.92880249023438]
+- Dynamic: {AreaHintEventName: NaviHint_Rematch}
+  Gyaml: NaviAreaHintEventActor
+  Hash: !ul 9972290047370609284
+  Phive:
+    Placement: {ID: !ul 9972290047370609284}
+  SRTHash: !u 0x20823c70
+  Translate: [22.581674575805664, 47.0, 63.2601203918457]
+- Gyaml: Area
+  Hash: !ul 5406629032692188664
+  Phive:
+    Placement: {ID: !ul 5406629032692188664}
+  Rotate: [0.0, -1.570796251296997, 8.940696716308594e-08]
+  SRTHash: !u 0x91d501f9
+  Scale: [23.424854278564453, 19.931440353393555, 31.703969955444336]
+  Translate: [22.021955490112305, 21.709091186523438, 67.65584564208984]
+- Gyaml: Obj_DreamWorldTimerManager
+  Hash: !ul 2706517014551892955
+  Links:
+  - {Dst: !ul 16104468705307603353, Gyaml: Reference, Name: Reference, Src: !ul 2706517014551892955}
+  Phive:
+    Placement: {ID: !ul 2706517014551892955}
+  SRTHash: !u 0xf9a5caaf
+  Translate: [15.92068099975586, 47.0, 71.5763168334961]
+- Bakeable: true
+  Gyaml: Land_Deku_Room_A_11
+  Hash: !ul 16821413021344931941
+  Phive:
+    Placement: {ID: !ul 16821413021344931941}
+  SRTHash: !u 0xc9a76a4b
+  Translate: [0.0, 100.0, 0.0]
+- Bakeable: true
+  Gyaml: Land_Deku_BossProp_B_01
+  Hash: !ul 2278608156449042621
+  Phive:
+    Placement: {ID: !ul 2278608156449042621}
+  SRTHash: !u 0xc9a76a4b
+  Translate: [0.0, 100.0, 0.0]
+- Gyaml: InsideTheDekuTree_01
+  Hash: !ul 2876186425124543571
+  Phive:
+    Placement: {ID: !ul 2876186425124543571}
+  SRTHash: !u 0x71e66c84
+  Translate: [0.0, 40.0, 45.0]
+- Gyaml: FieldAndDungeonEntranceEventRequestActor
+  Hash: !ul 1843345515435076445
+  Links:
+  - {Dst: !ul 6731977417741689144, Gyaml: Reference, Name: Reference, Src: !ul 1843345515435076445}
+  Name: DreamRematch
+  Phive:
+    Placement: {ID: !ul 1843345515435076445}
+  Rotate: [0.4778330326080322, -0.0, -1.6634204387664795]
+  SRTHash: !u 0xc00b04c6
+  Translate: [19.573148727416992, 47.23201370239258, 67.71344757080078]
+- Gyaml: Enemy_DungeonBoss_Gohma
+  Hash: !ul 16104468705307603353
+  Links:
+  - {Dst: !ul 10978499804396639152, Gyaml: Reference, Name: Reference, Src: !ul 16104468705307603353}
+  - {Dst: !ul 10200414037048038780, Gyaml: Reference, Name: Reference, Src: !ul 16104468705307603353}
+  - {Dst: !ul 4752555488496666283, Gyaml: Reference, Name: Reference, Src: !ul 16104468705307603353}
+  - {Dst: !ul 9518164821427396630, Gyaml: Reference, Name: Reference, Src: !ul 16104468705307603353}
+  - {Dst: !ul 13786301943828779503, Gyaml: Reference, Name: Reference, Src: !ul 16104468705307603353}
+  - {Dst: !ul 13829630165073067591, Gyaml: Reference, Name: Reference, Src: !ul 16104468705307603353}
+  - {Dst: !ul 18209926035566160904, Gyaml: Reference, Name: Reference, Src: !ul 16104468705307603353}
+  - {Dst: !ul 6731977417741689144, Gyaml: Reference, Name: Reference, Src: !ul 16104468705307603353}
+  Phive:
+    Placement: {ID: !ul 16104468705307603353}
+  Rotate: [0.0, 1.570796251296997, -3.141591787338257]
+  SRTHash: !u 0xef5c2eca
+  Translate: [18.489770889282227, 59.967220306396484, 67.78604125976562]
+- Gyaml: DestinationAnchor
+  Hash: !ul 10200414037048038780
+  Name: Gohma_BattleStartPos
+  Phive:
+    Placement: {ID: !ul 10200414037048038780}
+  Rotate: [0.0, -1.5707961320877075, 1.5099580252808664e-07]
+  SRTHash: !u 0x49df5d27
+  Translate: [19.472402572631836, 47.0, 67.61788177490234]
+- Gyaml: DestinationAnchor
+  Hash: !ul 10978499804396639152
+  Name: RoomCenter
+  Phive:
+    Placement: {ID: !ul 10978499804396639152}
+  Rotate: [1.5099580252808664e-07, 1.5184359550476074, 3.1415927410125732]
+  SRTHash: !u 0xf1031c58
+  Translate: [21.072402954101562, 59.967220306396484, 68.48523712158203]
+- Gyaml: StartPos
+  Hash: !ul 6731977417741689144
+  Name: StartPos_Get_StoneOfForest
+  Phive:
+    Placement: {ID: !ul 6731977417741689144}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xfd5148b9
+  Translate: [6.672397613525391, 47.000003814697266, 67.62596893310547]
+- Gyaml: Area
+  Hash: !ul 7570780438958914066
+  Phive:
+    Placement: {ID: !ul 7570780438958914066}
+  Rotate: [0.0, -1.5707961320877075, 1.5099578831723193e-07]
+  SRTHash: !u 0x470f1721
+  Scale: [6.400000095367432, 2.938558578491211, 4.019439697265625]
+  Translate: [4.3196868896484375, 46.899078369140625, 67.81326293945312]
+- Gyaml: Obj_InsideTheDekuTree_SwitchShutter_A_01
+  Hash: !ul 5902097369664099937
+  Phive:
+    Placement: {GroupGUID: !ul 6855084750567325595, GroupID: 8929, ID: !ul 5902097369664099937}
+  Rotate: [0.0, -1.5707961320877075, 1.5099580252808664e-07]
+  SRTHash: !u 0xd71d145e
+  Translate: [-1.0122261047363281, 52.42205047607422, 67.49748992919922]
+- Gyaml: DestinationAnchor
+  Hash: !ul 2337539560903357321
+  Phive:
+    Placement: {ID: !ul 2337539560903357321}
+  Rotate: [0.0, 1.570796251296997, -4.642101316676417e-07]
+  SRTHash: !u 0xd9fd0bd4
+  Translate: [2.046915054321289, 48.000003814697266, 67.62596893310547]
+- Dynamic: {RequestEventName: InsideTheDekuTree_BossArea_ShutIn}
+  Gyaml: EventRequestActor
+  Hash: !ul 9589952202535933071
+  Links:
+  - {Dst: !ul 5902097369664099937, Gyaml: Reference, Name: Reference, Src: !ul 9589952202535933071}
+  - {Dst: !ul 2337539560903357321, Gyaml: Reference, Name: Reference, Src: !ul 9589952202535933071}
+  - {Dst: !ul 14270532854340121256, Gyaml: Reference, Name: Reference, Src: !ul 9589952202535933071}
+  - {Dst: !ul 586309766061921673, Gyaml: Reference, Name: Reference, Src: !ul 9589952202535933071}
+  Phive:
+    Placement: {GroupGUID: !ul 6855084750567325595, GroupID: 8929, ID: !ul 9589952202535933071}
+  Rotate: [3.141592264175415, -1.2217304706573486, -3.141592264175415]
+  SRTHash: !u 0xc702f36e
+  Translate: [8.091327667236328, 51.500003814697266, 68.11042022705078]
+- Dynamic: {Drop__DropActor: Obj_Heart}
+  Gyaml: Obj_Plant_Grass_A_01_Respawn
+  Hash: !ul 9885852591435111570
+  Links:
+  - {Dst: !ul 7683864016057273621, Gyaml: Reference, Name: Reference, Src: !ul 9885852591435111570}
+  Phive:
+    Placement: {ID: !ul 9885852591435111570}
+  Rotate: [-3.031618595123291, -1.219814419746399, 3.0206048488616943]
+  SRTHash: !u 0xe630cb92
+  Translate: [21.198217391967773, 47.14019775390625, 87.84050750732422]
+- Dynamic: {Drop__DropActor: Obj_DekuSeed}
+  Gyaml: Obj_Plant_Grass_A_01_Respawn
+  Hash: !ul 2988260348651760167
+  Links:
+  - {Dst: !ul 11523223183855091221, Gyaml: Reference, Name: Reference, Src: !ul 2988260348651760167}
+  Phive:
+    Placement: {ID: !ul 2988260348651760167}
+  Rotate: [3.141592264175415, -1.2217305898666382, -3.141592264175415]
+  SRTHash: !u 0x5d654980
+  Translate: [13.40500259399414, 47.0557746887207, 50.48682403564453]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 16489522572143262650
+  Phive:
+    Placement: {ID: !ul 16489522572143262650}
+  Rotate: [3.141592502593994, -1.2217843532562256, -3.141592502593994]
+  SRTHash: !u 0xa54fb334
+  Scale: [0.8500000238418579, 1.5, 0.8500000238418579]
+  Translate: [21.030235290527344, 47.1333122253418, 67.58649444580078]
+- Gyaml: Obj_WarpPoint_A_01
+  Hash: !ul 2322978108800934343
+  Name: WarpPoint_InsideTheDekuTree_01
+  Phive:
+    Placement: {ID: !ul 2322978108800934343}
+  Rotate: [3.141592502593994, -1.2217843532562256, -3.141592502593994]
+  SRTHash: !u 0x30b7e611
+  Translate: [21.030235290527344, 47.1333122253418, 67.58649444580078]
+- Dynamic: {RequestEventName: InsideTheDekuTree_BossArea_Warp}
+  Gyaml: EventRequestActor
+  Hash: !ul 14047502858356133573
+  Links:
+  - {Dst: !ul 9181724567515144217, Gyaml: Reference, Name: Reference, Src: !ul 14047502858356133573}
+  Phive:
+    Placement: {ID: !ul 14047502858356133573}
+  Rotate: [3.141592502593994, -1.2217843532562256, -3.141592502593994]
+  SRTHash: !u 0x946686e0
+  Translate: [21.030235290527344, 50.48908615112305, 67.58649444580078]
+- Gyaml: DestinationAnchor
+  Hash: !ul 9181724567515144217
+  Name: center
+  Phive:
+    Placement: {ID: !ul 9181724567515144217}
+  Rotate: [3.141592502593994, -1.2217843532562256, -3.141592502593994]
+  SRTHash: !u 0x30b7e611
+  Translate: [21.030235290527344, 47.1333122253418, 67.58649444580078]
+- Dynamic: {Drop__DropActor: Obj_Heart}
+  Gyaml: Obj_Plant_Grass_A_01_Respawn
+  Hash: !ul 2478360857842555164
+  Links:
+  - {Dst: !ul 8252663237491598573, Gyaml: Reference, Name: Reference, Src: !ul 2478360857842555164}
+  Phive:
+    Placement: {ID: !ul 2478360857842555164}
+  Rotate: [-3.1238694190979004, -1.2216862440109253, 3.1249382495880127]
+  SRTHash: !u 0xcdf0feb3
+  Translate: [5.764575481414795, 47.0556640625, 82.9635238647461]
+- Dynamic: {Drop__DropActor: Obj_Heart}
+  Gyaml: Obj_Plant_Grass_A_01_Respawn
+  Hash: !ul 272710906552258554
+  Links:
+  - {Dst: !ul 9100342648073290478, Gyaml: Reference, Name: Reference, Src: !ul 272710906552258554}
+  Phive:
+    Placement: {ID: !ul 272710906552258554}
+  Rotate: [3.141592264175415, -1.2217305898666382, -3.141592264175415]
+  SRTHash: !u 0x5d2ca142
+  Translate: [5.966862201690674, 47.0557746887207, 52.532814025878906]
+- Dynamic: {Drop__DropTable: DropTable_ResourceSupply_Gohma}
+  Gyaml: Obj_Plant_Grass_A_01_Respawn
+  Hash: !ul 13446447866967965592
+  Links:
+  - {Dst: !ul 25146323324943689, Gyaml: Reference, Name: Reference, Src: !ul 13446447866967965592}
+  Phive:
+    Placement: {ID: !ul 13446447866967965592}
+  Rotate: [-3.1415469646453857, -1.2217305898666382, 3.141549587249756]
+  SRTHash: !u 0x5bfdc1ef
+  Translate: [36.244449615478516, 47.0557746887207, 83.03611755371094]
+- Dynamic: {Drop__DropActor: Obj_DekuSeed}
+  Gyaml: Obj_Plant_Grass_A_01_Respawn
+  Hash: !ul 17274067799607933872
+  Links:
+  - {Dst: !ul 15330675019740076361, Gyaml: Reference, Name: Reference, Src: !ul 17274067799607933872}
+  Phive:
+    Placement: {ID: !ul 17274067799607933872}
+  Rotate: [-3.1324920654296875, -1.2217187881469727, 3.1330406665802]
+  SRTHash: !u 0x6771320c
+  Translate: [13.79642105102539, 47.031532287597656, 86.46839904785156]
+- Dynamic: {Drop__DropActor: Obj_Heart}
+  Gyaml: Obj_Plant_Grass_A_01_Respawn
+  Hash: !ul 16100187403005966396
+  Links:
+  - {Dst: !ul 2223390794990700354, Gyaml: Reference, Name: Reference, Src: !ul 16100187403005966396}
+  Phive:
+    Placement: {ID: !ul 16100187403005966396}
+  Rotate: [3.141592264175415, -1.2217304706573486, -3.141592264175415]
+  SRTHash: !u 0x9af1375d
+  Translate: [21.916135787963867, 47.0313606262207, 48.169700622558594]
+- Dynamic: {Drop__DropTable: DropTable_ResourceSupply_Gohma}
+  Gyaml: Obj_Plant_Grass_A_01_Respawn
+  Hash: !ul 6866523047965934774
+  Links:
+  - {Dst: !ul 14856041088961541333, Gyaml: Reference, Name: Reference, Src: !ul 6866523047965934774}
+  Phive:
+    Placement: {ID: !ul 6866523047965934774}
+  Rotate: [3.141592264175415, -1.2217304706573486, -3.141592264175415]
+  SRTHash: !u 0xdac9467c
+  Translate: [35.962501525878906, 47.0313606262207, 53.47621154785156]
+- Gyaml: DestinationAnchor
+  Hash: !ul 13829630165073067591
+  Name: WayPoint
+  Phive:
+    Placement: {ID: !ul 13829630165073067591}
+  Rotate: [-2.9802320611338473e-08, -3.1556549373590315e-08, 3.141592502593994]
+  SRTHash: !u 0x22195042
+  Translate: [21.055749893188477, 60.07110595703125, 56.30325698852539]
+- Gyaml: DestinationAnchor
+  Hash: !ul 9518164821427396630
+  Name: WayPoint
+  Phive:
+    Placement: {ID: !ul 9518164821427396630}
+  Rotate: [-2.9802320611338473e-08, -3.1556549373590315e-08, 3.141592502593994]
+  SRTHash: !u 0x12991d3a
+  Translate: [20.233182907104492, 60.07110595703125, 78.70738220214844]
+- Gyaml: DestinationAnchor
+  Hash: !ul 13786301943828779503
+  Name: WayPoint
+  Phive:
+    Placement: {ID: !ul 13786301943828779503}
+  Rotate: [-2.9802320611338473e-08, -3.1556549373590315e-08, 3.141592502593994]
+  SRTHash: !u 0xc893de3a
+  Translate: [8.382364273071289, 60.07110595703125, 67.968994140625]
+- Gyaml: DestinationAnchor
+  Hash: !ul 4752555488496666283
+  Name: WayPoint
+  Phive:
+    Placement: {ID: !ul 4752555488496666283}
+  Rotate: [-1.5795230865478516e-06, -4.0675434576087355e-08, 3.141592502593994]
+  SRTHash: !u 0x64986ec1
+  Translate: [32.74235916137695, 60.07110595703125, 67.27743530273438]
+- Gyaml: StartPos
+  Hash: !ul 18209926035566160904
+  Name: DefeatBoss
+  Phive:
+    Placement: {ID: !ul 18209926035566160904}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xf92a4d43
+  Translate: [11.457465171813965, 47.000003814697266, 67.62596893310547]
+- Gyaml: DestinationAnchor
+  Hash: !ul 14270532854340121256
+  Name: Dm_Deku_0003_Pos
+  Phive:
+    Placement: {ID: !ul 14270532854340121256}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x2aa36be4
+  Translate: [6.463540077209473, 47.09600067138672, 67.62596893310547]
+- Gyaml: Area
+  Hash: !ul 10578272574361316270
+  Phive:
+    Placement: {ID: !ul 10578272574361316270}
+  SRTHash: !u 0x9c1a33be
+  Scale: [24.298120498657227, 8.430410385131836, 26.102981567382812]
+  Translate: [22.458717346191406, 44.2138557434082, 68.22272491455078]
+- Gyaml: SupplyItemResetSystemActor
+  Hash: !ul 17091076257956815949
+  Links:
+  - {Dst: !ul 2478360857842555164, Gyaml: Reference, Name: Reference, Src: !ul 17091076257956815949}
+  - {Dst: !ul 272710906552258554, Gyaml: Reference, Name: Reference, Src: !ul 17091076257956815949}
+  - {Dst: !ul 2988260348651760167, Gyaml: Reference, Name: Reference, Src: !ul 17091076257956815949}
+  - {Dst: !ul 6866523047965934774, Gyaml: Reference, Name: Reference, Src: !ul 17091076257956815949}
+  - {Dst: !ul 9885852591435111570, Gyaml: Reference, Name: Reference, Src: !ul 17091076257956815949}
+  - {Dst: !ul 17274067799607933872, Gyaml: Reference, Name: Reference, Src: !ul 17091076257956815949}
+  - {Dst: !ul 13446447866967965592, Gyaml: Reference, Name: Reference, Src: !ul 17091076257956815949}
+  - {Dst: !ul 16100187403005966396, Gyaml: Reference, Name: Reference, Src: !ul 17091076257956815949}
+  Phive:
+    Placement: {ID: !ul 17091076257956815949}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x8f30d26e
+  Translate: [29.318052291870117, 47.0, 67.62596893310547]
+- Gyaml: SoundPortal
+  Hash: !ul 12402155340199509435
+  Phive:
+    Placement: {ID: !ul 12402155340199509435}
+  Rotate: [0.0, -1.5707961320877075, 1.5099578831723193e-07]
+  SRTHash: !u 0x18c8ded1
+  Scale: [5.5, 5.5, 1.0]
+  Translate: [-1.012228012084961, 49.56700134277344, 67.49748992919922]
+- Gyaml: GroundControlActor_ResidentMoveTo
+  Hash: !ul 586309766061921673
+  Phive:
+    Placement: {GroupGUID: !ul 6855084750567325595, GroupID: 8929, ID: !ul 586309766061921673}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xc05075b0
+  Translate: [-0.632206380367279, 51.968204498291016, 58.2412223815918]
+- Gyaml: FldObj_AirWall_OnlyDungeonBossGohma
+  Hash: !ul 2583943942499603451
+  Phive:
+    Placement: {ID: !ul 2583943942499603451}
+  SRTHash: !u 0x1018613a
+  Scale: [1.0, 3.4473438262939453, 3.79001522064209]
+  Translate: [-1.519277572631836, 47.02372741699219, 68.26318359375]
+- Gyaml: Obj_Plant_Grass_A_04
+  Hash: !ul 7683864016057273621
+  Phive:
+    Placement: {ID: !ul 7683864016057273621}
+  Rotate: [-3.031618595123291, -1.219814419746399, 3.0206048488616943]
+  SRTHash: !u 0xe630cb92
+  Translate: [21.198217391967773, 47.14019775390625, 87.84050750732422]
+- Gyaml: Obj_Plant_Grass_A_04
+  Hash: !ul 11523223183855091221
+  Phive:
+    Placement: {ID: !ul 11523223183855091221}
+  Rotate: [3.141592264175415, -1.2217305898666382, -3.141592264175415]
+  SRTHash: !u 0x5d654980
+  Translate: [13.40500259399414, 47.0557746887207, 50.48682403564453]
+- Gyaml: Obj_Plant_Grass_A_04
+  Hash: !ul 8252663237491598573
+  Phive:
+    Placement: {ID: !ul 8252663237491598573}
+  Rotate: [-3.1238694190979004, -1.2216862440109253, 3.1249382495880127]
+  SRTHash: !u 0xcdf0feb3
+  Translate: [5.764575481414795, 47.0556640625, 82.9635238647461]
+- Gyaml: Obj_Plant_Grass_A_04
+  Hash: !ul 9100342648073290478
+  Phive:
+    Placement: {ID: !ul 9100342648073290478}
+  Rotate: [3.141592264175415, -1.2217305898666382, -3.141592264175415]
+  SRTHash: !u 0x5d2ca142
+  Translate: [5.966862201690674, 47.0557746887207, 52.532814025878906]
+- Gyaml: Obj_Plant_Grass_A_04
+  Hash: !ul 25146323324943689
+  Phive:
+    Placement: {ID: !ul 25146323324943689}
+  Rotate: [-3.1415469646453857, -1.2217305898666382, 3.141549587249756]
+  SRTHash: !u 0x5bfdc1ef
+  Translate: [36.244449615478516, 47.0557746887207, 83.03611755371094]
+- Gyaml: Obj_Plant_Grass_A_04
+  Hash: !ul 15330675019740076361
+  Phive:
+    Placement: {ID: !ul 15330675019740076361}
+  Rotate: [-3.1324920654296875, -1.2217187881469727, 3.1330406665802]
+  SRTHash: !u 0x6771320c
+  Translate: [13.79642105102539, 47.031532287597656, 86.46839904785156]
+- Gyaml: Obj_Plant_Grass_A_04
+  Hash: !ul 2223390794990700354
+  Phive:
+    Placement: {ID: !ul 2223390794990700354}
+  Rotate: [3.141592264175415, -1.2217304706573486, -3.141592264175415]
+  SRTHash: !u 0x9af1375d
+  Translate: [21.916135787963867, 47.0313606262207, 48.169700622558594]
+- Gyaml: Obj_Plant_Grass_A_04
+  Hash: !ul 14856041088961541333
+  Phive:
+    Placement: {ID: !ul 14856041088961541333}
+  Rotate: [3.141592264175415, -1.2217304706573486, -3.141592264175415]
+  SRTHash: !u 0xdac9467c
+  Translate: [35.962501525878906, 47.0313606262207, 53.47621154785156]
+- Dynamic: {FogParams: InsideTheDekuTree_BossRoom_Roof}
+  Gyaml: VolumeFogArea
+  Hash: !ul 16974724304154508708
+  Phive:
+    Placement: {ID: !ul 16974724304154508708}
+  SRTHash: !u 0x902bc53d
+  Scale: [53.06925582885742, 12.376927375793457, 47.95915222167969]
+  Translate: [19.870159149169922, 62.870201110839844, 70.20747375488281]
+- Dynamic: {FogParams: InsideTheDekuTree_BossRoom}
+  Gyaml: VolumeFogArea
+  Hash: !ul 3639364889309910777
+  Phive:
+    Placement: {ID: !ul 3639364889309910777}
+  SRTHash: !u 0x7cfbf6ae
+  Scale: [81.71554565429688, 12.376927375793457, 47.95915222167969]
+  Translate: [5.547014236450195, 50.432525634765625, 70.20747375488281]
+AiGroups:
+- Hash: !ul 15288434460371776690
+  InstanceName: Enemy_DungeonBoss_Gohma_Prefab_b75b_628a
+  Logic: Logic/Root/GohmaStage/GohmaStage_267e.logic.root.ain
+  References:
+  - {Id: NaviAreaHintEventActor_3ebb, Path: NaviAreaHintEventActor_3ebb, Reference: !ul 9972290047370609284}
+  - {Id: Area_73c4, Path: Area_73c4, Reference: !ul 5406629032692188664}
+  - {Id: Enemy_DungeonBoss_Gohma_f323, Path: _2899/Enemy_DungeonBoss_Gohma_f323, Reference: !ul 16104468705307603353}
+  - {Id: Area_6c3c, Path: _2899/Area_6c3c, Reference: !ul 7570780438958914066}
+  - {Id: EventRequestActor_e54a, Path: _2899/EventRequestActor_e54a, Reference: !ul 9589952202535933071}
+  - {Id: EventRequestActor_024c, Path: _2899/_cc0f/EventRequestActor_024c, Reference: !ul 14047502858356133573}
+  - {Id: Area_bfbc, Path: _2899/_cc0f/Area_bfbc, Reference: !ul 16489522572143262650}
+  - {Id: Obj_WarpPoint_A_01_14a2, Path: _2899/_cc0f/Obj_WarpPoint_A_01_14a2, Reference: !ul 2322978108800934343}
+  - {Id: DestinationAnchor_a8b5, Path: _2899/_cc0f/DestinationAnchor_a8b5, Reference: !ul 9181724567515144217}
+  - {Id: AiGroup, InstanceName: Gimmick_Warp_FromDungeon_061c_d051, Logic: Logic/Module/Gimmick_Warp_FromDungeon/Gimmick_Warp_FromDungeon_061c.logic.module.ain,
+    Path: _2899/_cc0f/AiGroup, Reference: !ul 8998630435461175943}
+  - {Id: Area_37ec, Path: _2899/Area_37ec, Reference: !ul 10578272574361316270}
+  - {Id: Obj_InsideTheDekuTree_SwitchShutter_A_01_9c5b, Path: _2899/Obj_InsideTheDekuTree_SwitchShutter_A_01_9c5b,
+    Reference: !ul 5902097369664099937}
+  - {Id: SoundPortal_f6ce, Path: _2899/SoundPortal_f6ce, Reference: !ul 12402155340199509435}
+  - {Id: GroundControlActor_ResidentMoveTo_ccce, Path: _2899/GroundControlActor_ResidentMoveTo_ccce,
+    Reference: !ul 586309766061921673}
+  - {Id: Obj_Plant_Grass_A_01_Respawn_29b5, Path: _2899/Obj_Plant_Grass_A_01_Respawn_29b5,
+    Reference: !ul 17274067799607933872}
+  - {Id: Obj_Plant_Grass_A_01_Respawn_4ab1, Path: _2899/Obj_Plant_Grass_A_01_Respawn_4ab1,
+    Reference: !ul 272710906552258554}
+  - {Id: Obj_Plant_Grass_A_01_Respawn_5a41, Path: _2899/Obj_Plant_Grass_A_01_Respawn_5a41,
+    Reference: !ul 6866523047965934774}
+  - {Id: Obj_Plant_Grass_A_01_Respawn_60c6, Path: _2899/Obj_Plant_Grass_A_01_Respawn_60c6,
+    Reference: !ul 13446447866967965592}
+  - {Id: Obj_Plant_Grass_A_01_Respawn_d162, Path: _2899/Obj_Plant_Grass_A_01_Respawn_d162,
+    Reference: !ul 2478360857842555164}
+  - {Id: Obj_Plant_Grass_A_01_Respawn_e54b, Path: _2899/Obj_Plant_Grass_A_01_Respawn_e54b,
+    Reference: !ul 16100187403005966396}
+  - {Id: AiGroup, InstanceName: Enemy_DungeonBoss_Gohma_Prefab_b75b_67a1, Logic: Logic/Module/Enemy_DungeonBoss_Gohma_Prefab/Enemy_DungeonBoss_Gohma_Prefab_b75b.logic.module.ain,
+    Path: _2899/AiGroup, Reference: !ul 8820801120086611569}
+FarDeleteGroups:
+- [!ul 272710906552258554, !ul 586309766061921673, !ul 2322978108800934343, !ul 2478360857842555164,
+  !ul 5406629032692188664, !ul 5902097369664099937, !ul 6866523047965934774, !ul 7570780438958914066,
+  !ul 9181724567515144217, !ul 9589952202535933071, !ul 9972290047370609284, !ul 10578272574361316270,
+  !ul 12402155340199509435, !ul 13446447866967965592, !ul 14047502858356133573, !ul 16100187403005966396,
+  !ul 16104468705307603353, !ul 16489522572143262650, !ul 17274067799607933872]
+FilePath: Work/Banc/Scene/DreamWorld/GohmaStage.bcett.json
+PhiveHeader:
+  PlacementGroups:
+  - GroupGUID: !ul 6855084750567325595
+    GroupID: 8929
+    ParentGroupGUID: !ul 0
+    ParentLocalID: -1
+    Rot: [-3.0892333984375, -4.371138828673793e-08, 1.5707963705062866]
+    Trans: [-1.0122261047363281, 52.42205047607422, 67.49748992919922]
+    Type: ResidentMoveTo
+    TypeData:
+      MoveSpeed: 10.0
+      RotateBasedMoving: false
+      Transforms:
+      - Rot: [-3.0892333984375, -4.371138828673793e-08, 1.5707963705062866]
+        Trans: [-1.0122261047363281, 52.42205047607422, 67.49748992919922]
+      - Rot: [-3.0892333984375, -4.371138828673793e-08, 1.5707963705062866]
+        Trans: [-1.0122241973876953, 47.012821197509766, 67.49748992919922]
+PlgGdTable:
+- {GameDataPath: 'Work/GameData/Entity/DreamWorld_BossAppear.gmdentity.json?DreamWorld_BossAppear',
+  GameDataType: Bool, PlgGuid: !ul 6855084750567325595}
+SimultaneousGroups:
+- [!ul 272710906552258554, !ul 586309766061921673, !ul 2322978108800934343, !ul 2478360857842555164,
+  !ul 5406629032692188664, !ul 5902097369664099937, !ul 6866523047965934774, !ul 7570780438958914066,
+  !ul 9181724567515144217, !ul 9589952202535933071, !ul 9972290047370609284, !ul 10578272574361316270,
+  !ul 12402155340199509435, !ul 13446447866967965592, !ul 14047502858356133573, !ul 16100187403005966396,
+  !ul 16104468705307603353, !ul 16489522572143262650, !ul 17274067799607933872]

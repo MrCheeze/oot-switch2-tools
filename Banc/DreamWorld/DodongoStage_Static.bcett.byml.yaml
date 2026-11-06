@@ -1,0 +1,350 @@
+Actors:
+- Gyaml: DestinationAnchor
+  Hash: !ul 9902178034636960086
+  Name: DodongoRoomThirdCorner
+  Phive:
+    Placement: {ID: !ul 9902178034636960086}
+  Rotate: [-3.141591787338257, -0.0, -3.141592502593994]
+  SRTHash: !u 0x483ad530
+  Translate: [38.69999313354492, 73.48999786376953, -48.19999694824219]
+- Dynamic: {IsIntendedForEventAppear: true}
+  Gyaml: Enemy_DungeonBoss_Dodongo
+  Hash: !ul 15641877251241367709
+  Links:
+  - {Dst: !ul 12553797145274334805, Gyaml: Reference, Name: Reference, Src: !ul 15641877251241367709}
+  - {Dst: !ul 3206712738455656320, Gyaml: Reference, Name: Reference, Src: !ul 15641877251241367709}
+  - {Dst: !ul 9902178034636960086, Gyaml: Reference, Name: Reference, Src: !ul 15641877251241367709}
+  - {Dst: !ul 17908825923283465491, Gyaml: Reference, Name: Reference, Src: !ul 15641877251241367709}
+  - {Dst: !ul 18125988359964335712, Gyaml: Reference, Name: Reference, Src: !ul 15641877251241367709}
+  Phive:
+    Placement: {ID: !ul 15641877251241367709}
+  Rotate: [0.0, -1.570796251296997, 8.742277657347586e-08]
+  SRTHash: !u 0xd38f318b
+  Translate: [33.19999313354492, 73.48999786376953, -77.5999984741211]
+- Gyaml: DestinationAnchor
+  Hash: !ul 3206712738455656320
+  Name: DodongoRoomSecondCorner
+  Phive:
+    Placement: {ID: !ul 3206712738455656320}
+  Rotate: [3.141591787338257, -0.0, -3.141592502593994]
+  SRTHash: !u 0xab4c9a14
+  Translate: [9.199991226196289, 73.38999938964844, -48.19999694824219]
+- Gyaml: DestinationAnchor
+  Hash: !ul 12553797145274334805
+  Name: DodongoRoomFirstCorner
+  Phive:
+    Placement: {ID: !ul 12553797145274334805}
+  Rotate: [3.141592025756836, -0.0, -3.141592502593994]
+  SRTHash: !u 0x8bcca039
+  Translate: [9.199991226196289, 73.38999938964844, -77.5999984741211]
+- Gyaml: DestinationAnchor
+  Hash: !ul 17908825923283465491
+  Name: DodongoRoomFourthCorner
+  Phive:
+    Placement: {ID: !ul 17908825923283465491}
+  Rotate: [-3.141592502593994, -6.543626317884188e-14, -3.141591787338257]
+  SRTHash: !u 0x30762ad2
+  Translate: [38.69999313354492, 73.38999938964844, -77.5999984741211]
+- Gyaml: Obj_BombFlower_A_03
+  Hash: !ul 2262510984275441108
+  Phive:
+    Placement: {ID: !ul 2262510984275441108}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0x7e5ef5ad
+  Translate: [40.74999237060547, 73.44739532470703, -65.0]
+- Gyaml: Obj_BombFlower_A_03
+  Hash: !ul 14454415502648675138
+  Phive:
+    Placement: {ID: !ul 14454415502648675138}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0xf088c732
+  Translate: [7.499996185302734, 73.44739532470703, -64.5]
+- Gyaml: Obj_BombFlower_A_03
+  Hash: !ul 341199330622872161
+  Phive:
+    Placement: {ID: !ul 341199330622872161}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0x59c879e2
+  Translate: [26.74999237060547, 73.4473876953125, -46.49999237060547]
+- Gyaml: Obj_BombFlower_A_03
+  Hash: !ul 9975791782471240752
+  Phive:
+    Placement: {ID: !ul 9975791782471240752}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0xa844a623
+  Translate: [21.749996185302734, 73.44739532470703, -79.49999237060547]
+- Gyaml: MinusObj_EldinHardLavaPlane_A_01
+  Hash: !ul 100136053255531509
+  Phive:
+    Placement: {ID: !ul 100136053255531509}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0xe8eb1f80
+  Scale: [5.0, 1.2999999523162842, 5.0]
+  Translate: [24.03736114501953, 72.52999877929688, -63.0]
+- Gyaml: Land_DodongoCave_BossDodongoCorpse_A_01
+  Hash: !ul 10642016795443536738
+  Phive:
+    Placement: {ID: !ul 10642016795443536738}
+  SRTHash: !u 0x7e1cf073
+  Translate: [23.999998092651367, 73.23999786376953, -63.0]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 6577472675867016786
+  Phive:
+    Placement: {ID: !ul 6577472675867016786}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0x31085197
+  Scale: [0.8500000238418579, 1.5, 0.8500000238418579]
+  Translate: [23.99999237060547, 73.24058532714844, -63.045860290527344]
+- Gyaml: Obj_WarpPoint_A_01
+  Hash: !ul 3840939892306405391
+  Phive:
+    Placement: {ID: !ul 3840939892306405391}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0x09bceffb
+  Translate: [23.99999237060547, 73.24058532714844, -63.045860290527344]
+- Dynamic: {RequestEventName: Get_StoneOfFire_EscapeDungeon}
+  Gyaml: EventRequestActor
+  Hash: !ul 8731124610934556044
+  Links:
+  - {Dst: !ul 17563172119559109168, Gyaml: Reference, Name: Reference, Src: !ul 8731124610934556044}
+  Phive:
+    Placement: {ID: !ul 8731124610934556044}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0x7d8f894d
+  Translate: [23.99999237060547, 76.59635925292969, -63.045860290527344]
+- Gyaml: DestinationAnchor
+  Hash: !ul 17563172119559109168
+  Name: center
+  Phive:
+    Placement: {ID: !ul 17563172119559109168}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0x09bceffb
+  Translate: [23.99999237060547, 73.24058532714844, -63.045860290527344]
+- Gyaml: StartPos
+  Hash: !ul 8378224228118009638
+  Name: StartPos_Get_StoneOfFire
+  Phive:
+    Placement: {ID: !ul 8378224228118009638}
+  Rotate: [0.0, 1.570796251296997, -8.742277657347586e-08]
+  SRTHash: !u 0xe1e25573
+  Translate: [23.99999237060547, 73.4100112915039, -77.5999984741211]
+- Gyaml: DestinationAnchor
+  Hash: !ul 18125988359964335712
+  Name: EndPos_Get_StoneOfFire
+  Phive:
+    Placement: {ID: !ul 18125988359964335712}
+  SRTHash: !u 0x9ee8d5a2
+  Translate: [23.99999237060547, 73.24058532714844, -72.33836364746094]
+- Gyaml: Area
+  Hash: !ul 2504208583993703356
+  Phive:
+    Placement: {ID: !ul 2504208583993703356}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0x9ec9b983
+  Scale: [20.0, 6.5, 20.0]
+  Translate: [23.99999237060547, 75.23999786376953, -60.5]
+- Dynamic: {RequestEventName: Get_StoneOfFire_AppearBoss}
+  Gyaml: EventRequestActor
+  Hash: !ul 2820966576377017389
+  Links:
+  - {Dst: !ul 8378224228118009638, Gyaml: Reference, Name: Reference, Src: !ul 2820966576377017389}
+  - {Dst: !ul 9975791782471240752, Gyaml: Reference, Name: Reference, Src: !ul 2820966576377017389}
+  - {Dst: !ul 14454415502648675138, Gyaml: Reference, Name: Reference, Src: !ul 2820966576377017389}
+  - {Dst: !ul 2262510984275441108, Gyaml: Reference, Name: Reference, Src: !ul 2820966576377017389}
+  - {Dst: !ul 341199330622872161, Gyaml: Reference, Name: Reference, Src: !ul 2820966576377017389}
+  Phive:
+    Placement: {ID: !ul 2820966576377017389}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0xd2c99d88
+  Translate: [23.99999237060547, 80.23999786376953, -77.07119750976562]
+- Gyaml: Obj_DodongoCave_LavaDirty_A_02
+  Hash: !ul 12349367408760762099
+  Phive:
+    Placement: {ID: !ul 12349367408760762099}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0x965102ed
+  Translate: [23.99999237060547, 73.23999786376953, -63.0]
+- Gyaml: Land_DodongoCave_22_Floor_A_01
+  Hash: !ul 4477897144249939352
+  Phive:
+    Placement: {ID: !ul 4477897144249939352}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0x965102ed
+  Translate: [23.99999237060547, 73.23999786376953, -63.0]
+- Bakeable: true
+  Gyaml: Obj_DodongoCave_LavaDirty_A_03
+  Hash: !ul 10782779785305454622
+  Phive:
+    Placement: {ID: !ul 10782779785305454622}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0x965102ed
+  Translate: [23.99999237060547, 73.23999786376953, -63.0]
+- Gyaml: Area
+  Hash: !ul 1781828311988981182
+  Phive:
+    Placement: {ID: !ul 1781828311988981182}
+  Rotate: [1.7484555314695172e-07, -0.0, -3.141592502593994]
+  SRTHash: !u 0xa787a1a8
+  Scale: [5.0, 5.0, 5.0]
+  Translate: [23.99999237060547, 72.73999786376953, -63.04999923706055]
+- Gyaml: Obj_Abyss_A_01
+  Hash: !ul 12212577569540501186
+  Phive:
+    Placement: {ID: !ul 12212577569540501186}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0x8a4a862b
+  Scale: [0.10000000149011612, 0.7242867350578308, 0.10000000149011612]
+  Translate: [23.99999237060547, 72.72920227050781, -63.04999923706055]
+- Gyaml: Area
+  Hash: !ul 4634586548475525007
+  Phive:
+    Placement: {ID: !ul 4634586548475525007}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0x411dd1eb
+  Scale: [21.0, 9.0, 21.0]
+  Translate: [23.99999237060547, 72.23999786376953, -60.5]
+- Dynamic: {AmplifyCoef01: 0.15000000596046448, LightSearchHash01: Amplifier_BossRoom_00}
+  Gyaml: LocationalLight_Amplifier_ParamChangeActor
+  Hash: !ul 8676568374311033334
+  Phive:
+    Placement: {ID: !ul 8676568374311033334}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0xbc7bcc3b
+  Translate: [36.949771881103516, 82.5618896484375, -78.44596099853516]
+- Dynamic: {FogParams: DodongoCavern_BossRoom_Lava}
+  Gyaml: VolumeFogArea
+  Hash: !ul 10856877139804004231
+  Phive:
+    Placement: {ID: !ul 10856877139804004231}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0xa5016cc5
+  Scale: [24.0, 5.5, 24.0]
+  Translate: [23.990175247192383, 75.57013702392578, -62.900001525878906]
+- Dynamic: {FogParams: DodongoCavern_BossRoom}
+  Gyaml: VolumeFogArea
+  Hash: !ul 16360609755837535833
+  Phive:
+    Placement: {ID: !ul 16360609755837535833}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0x9a8fe1b7
+  Scale: [45.0, 13.0, 45.0]
+  Translate: [24.499990463256836, 85.04000091552734, -62.900001525878906]
+- Gyaml: Obj_DreamWorldTimerManager
+  Hash: !ul 18249641358089115453
+  Links:
+  - {Dst: !ul 15641877251241367709, Gyaml: Reference, Name: Reference, Src: !ul 18249641358089115453}
+  Phive:
+    Placement: {ID: !ul 18249641358089115453}
+  SRTHash: !u 0x606594c0
+  Translate: [38.89186096191406, 89.16960906982422, -62.177757263183594]
+- Gyaml: NoEscapeRangeAreaBox
+  Hash: !ul 13292617024238665508
+  Name: NoEscapeArea_SubEvent_AllBossBattle
+  Phive:
+    Placement: {ID: !ul 13292617024238665508}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0xba98e940
+  Scale: [60.75786590576172, 45.190528869628906, 62.08140182495117]
+  Translate: [21.588119506835938, 85.38407897949219, -59.60884094238281]
+- Bakeable: true
+  Gyaml: Land_DodongoCave_Room_22_Wall_A_01
+  Hash: !ul 4831651456801982123
+  Phive:
+    Placement: {ID: !ul 4831651456801982123}
+  SRTHash: !u 0x4301bdf5
+  Translate: [23.9999942779541, 72.0, -59.70000457763672]
+- Gyaml: Area
+  Hash: !ul 13395165188188826260
+  Phive:
+    Placement: {ID: !ul 13395165188188826260}
+  Rotate: [0.0, -1.570796251296997, 8.940696716308594e-08]
+  SRTHash: !u 0xeafb1a17
+  Scale: [32.889793395996094, 23.14702606201172, 27.74454116821289]
+  Translate: [24.7327938079834, 61.25297546386719, -59.71289825439453]
+- Dynamic: {AreaHintEventName: NaviHint_Rematch}
+  Gyaml: NaviAreaHintEventActor
+  Hash: !ul 952393128701529654
+  Phive:
+    Placement: {ID: !ul 952393128701529654}
+  SRTHash: !u 0xd424eff1
+  Translate: [35.366607666015625, 82.12466430664062, -78.35212707519531]
+- Gyaml: DodongoCavern_03
+  Hash: !ul 4193350527415879018
+  Phive:
+    Placement: {ID: !ul 4193350527415879018}
+  SRTHash: !u 0xfbfbc541
+  Translate: [24.0, 65.0, -63.0]
+- Dynamic: {IsOverwriteEnvEffectType: true, OverwriteEnvEffectType: 44}
+  Gyaml: AreaOverwriteEnvParam
+  Hash: !ul 16605331364036477318
+  Phive:
+    Placement: {ID: !ul 16605331364036477318}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0x26a7d70c
+  Scale: [21.669204711914062, 10.682104110717773, 22.03133773803711]
+  Translate: [23.98741912841797, 70.46604919433594, -63.22539138793945]
+- Gyaml: EftLoc_CameraEnv_DodongoBoss_EnvEffect
+  Hash: !ul 10584947014729477301
+  Phive:
+    Placement: {ID: !ul 10584947014729477301}
+  SRTHash: !u 0x5a2c60f8
+  Scale: [25.0, 25.0, 25.0]
+  Translate: [21.61688804626465, 57.807762145996094, -60.630287170410156]
+AiGroups:
+- Hash: !ul 8420309385947536575
+  Logic: Logic/Root/DodongoStage/DodongoStage_497d.logic.root.ain
+  References:
+  - {Id: Enemy_DungeonBoss_Dodongo_e789, Path: _186b/Enemy_DungeonBoss_Dodongo_e789,
+    Reference: !ul 15641877251241367709}
+  - {Id: EventRequestActor_024c, Path: _186b/_3a81/EventRequestActor_024c, Reference: !ul 8731124610934556044}
+  - {Id: Area_bfbc, Path: _186b/_3a81/Area_bfbc, Reference: !ul 6577472675867016786}
+  - {Id: Obj_WarpPoint_A_01_14a2, Path: _186b/_3a81/Obj_WarpPoint_A_01_14a2, Reference: !ul 3840939892306405391}
+  - {Id: DestinationAnchor_a8b5, Path: _186b/_3a81/DestinationAnchor_a8b5, Reference: !ul 17563172119559109168}
+  - {Id: AiGroup, InstanceName: Gimmick_Warp_FromDungeon_061c_aba4, Logic: Logic/Module/Gimmick_Warp_FromDungeon/Gimmick_Warp_FromDungeon_061c.logic.module.ain,
+    Path: _186b/_3a81/AiGroup, Reference: !ul 16841299052279160271}
+  - {Id: Land_DodongoCave_BossDodongoCorpse_A_01_2878, Path: _186b/Land_DodongoCave_BossDodongoCorpse_A_01_2878,
+    Reference: !ul 10642016795443536738}
+  - {Id: MinusObj_EldinHardLavaPlane_A_01_c2c7, Path: _186b/_c2a3/MinusObj_EldinHardLavaPlane_A_01_c2c7,
+    Reference: !ul 100136053255531509}
+  - {Id: AiGroup, InstanceName: FireTemple_LavaSet_ac5f_f4dd, Logic: Logic/Module/DodongoCaven_LavaSet/DodongoCaven_LavaSet_599f.logic.module.ain,
+    Path: _186b/_c2a3/AiGroup, Reference: !ul 9750634574074723926}
+  - {Id: Area_663f, Path: _186b/_85ba/Area_663f, Reference: !ul 2504208583993703356}
+  - {Id: AiGroup, InstanceName: Gimmick_AreaContact_8e0d_b66d, Logic: Logic/Module/Gimmick_AreaContact/Gimmick_AreaContact_8e0d.logic.module.ain,
+    Path: _186b/_85ba/AiGroup, Reference: !ul 5926881221524796790}
+  - {Id: EventRequestActor_8af9, Path: _186b/EventRequestActor_8af9, Reference: !ul 2820966576377017389}
+  - {Id: Obj_DodongoCave_LavaDirty_A_02_0660, Path: _186b/Obj_DodongoCave_LavaDirty_A_02_0660,
+    Reference: !ul 12349367408760762099}
+  - {Id: Land_DodongoCave_22_Floor_A_01_47b6, Path: _186b/Land_DodongoCave_22_Floor_A_01_47b6,
+    Reference: !ul 4477897144249939352}
+  - {Id: Area_663f, Path: _186b/_f45f/Area_663f, Reference: !ul 4634586548475525007}
+  - {Id: AiGroup, InstanceName: Gimmick_AreaContact_8e0d_2513, Logic: Logic/Module/Gimmick_AreaContact/Gimmick_AreaContact_8e0d.logic.module.ain,
+    Path: _186b/_f45f/AiGroup, Reference: !ul 3798558388223243431}
+  - {Id: Obj_DodongoCave_LavaDirty_A_03_bcee, Path: _186b/Obj_DodongoCave_LavaDirty_A_03_bcee,
+    Reference: !ul 10782779785305454622}
+  - {Id: Area_ed22, Path: _186b/_50ff/Area_ed22, Reference: !ul 1781828311988981182}
+  - {Id: AiGroup, InstanceName: Gimmick_AreaContact_FallDown_0a27_c1ee, Logic: Logic/Module/Gimmick_AreaContact_FallDown/Gimmick_AreaContact_FallDown_0a27.logic.module.ain,
+    Path: _186b/_50ff/AiGroup, Reference: !ul 5787334161729405784}
+  - {Id: LocationalLight_Amplifier_ParamChangeActor_8598, Path: _186b/LocationalLight_Amplifier_ParamChangeActor_8598,
+    Reference: !ul 8676568374311033334}
+  - {Id: AiGroup, InstanceName: Enemy_DungeonBoss_Dodongo_Set_c635_0999, Logic: Logic/Module/Enemy_DungeonBoss_Dodongo_Set/Enemy_DungeonBoss_Dodongo_Set_c635.logic.module.ain,
+    Path: _186b/AiGroup, Reference: !ul 616744443523378482}
+  - {Id: Area_1e1b, Path: Area_1e1b, Reference: !ul 13395165188188826260}
+  - {Id: NaviAreaHintEventActor_8dd4, Path: NaviAreaHintEventActor_8dd4, Reference: !ul 952393128701529654}
+FarDeleteGroups:
+- [!ul 100136053255531509, !ul 952393128701529654, !ul 1781828311988981182, !ul 2504208583993703356,
+  !ul 2820966576377017389, !ul 3840939892306405391, !ul 4477897144249939352, !ul 4634586548475525007,
+  !ul 6577472675867016786, !ul 8676568374311033334, !ul 8731124610934556044, !ul 10642016795443536738,
+  !ul 10782779785305454622, !ul 12349367408760762099, !ul 13395165188188826260, !ul 15641877251241367709,
+  !ul 17563172119559109168]
+- [!ul 341199330622872161, !ul 2262510984275441108, !ul 9975791782471240752, !ul 14454415502648675138]
+FilePath: Work/Banc/Scene/DreamWorld/DodongoStage.bcett.json
+PhiveHeader:
+  PlacementGroups: []
+SimultaneousGroups:
+- [!ul 100136053255531509, !ul 952393128701529654, !ul 1781828311988981182, !ul 2504208583993703356,
+  !ul 2820966576377017389, !ul 3840939892306405391, !ul 4477897144249939352, !ul 4634586548475525007,
+  !ul 6577472675867016786, !ul 8676568374311033334, !ul 8731124610934556044, !ul 10642016795443536738,
+  !ul 10782779785305454622, !ul 12349367408760762099, !ul 13395165188188826260, !ul 15641877251241367709,
+  !ul 17563172119559109168]
+- [!ul 341199330622872161, !ul 2262510984275441108, !ul 9975791782471240752, !ul 14454415502648675138]

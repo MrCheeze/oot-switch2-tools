@@ -1,0 +1,1221 @@
+Actors:
+- Gyaml: Area
+  Hash: !ul 6622119039217971106
+  Phive:
+    Placement: {ID: !ul 6622119039217971106}
+  SRTHash: !u 0x2813a0f4
+  Scale: [9.423128128051758, 4.764926910400391, 8.732959747314453]
+  Translate: [-6.963205337524414, 99.53800201416016, 56.40735626220703]
+- Dynamic: {Drop__DropActor: Obj_Heart}
+  Gyaml: Enemy_Wolfos
+  Hash: !ul 1673675859867305609
+  Phive:
+    Placement: {ID: !ul 1673675859867305609}
+  SRTHash: !u 0x8b293290
+  Translate: [-7.099999904632568, 100.0, 52.43838119506836]
+- Gyaml: NoEscapeRangeAreaBox
+  Hash: !ul 2434348784468736808
+  Name: NoEscapeArea_SubEvent_AllBossBattle
+  Phive:
+    Placement: {ID: !ul 2434348784468736808}
+  SRTHash: !u 0x53ca0c69
+  Scale: [26.1868953704834, 10.985721588134766, 48.576141357421875]
+  Translate: [-7.319260597229004, 104.29006958007812, 65.53373718261719]
+- Bakeable: true
+  Gyaml: Land_Kokiri_OuterTree_A_09
+  Hash: !ul 225602331837622974
+  Phive:
+    Placement: {ID: !ul 225602331837622974}
+  Rotate: [-2.993744134902954, -0.7294847965240479, 2.954193115234375]
+  SRTHash: !u 0x03ffc6e0
+  Translate: [-33.416160583496094, 122.70150756835938, 7.564720153808594]
+- Bakeable: true
+  Gyaml: Land_Kokiri_OuterTree_A_09
+  Hash: !ul 17516644100126391133
+  Phive:
+    Placement: {ID: !ul 17516644100126391133}
+  Rotate: [2.9304375648498535, -1.2295111417770386, -2.6911754608154297]
+  SRTHash: !u 0x7dc85cc1
+  Translate: [23.857101440429688, 121.52725219726562, 9.838187217712402]
+- Bakeable: true
+  Gyaml: Land_Kokiri_OuterTree_A_09
+  Hash: !ul 8393883672459947394
+  Phive:
+    Placement: {ID: !ul 8393883672459947394}
+  Rotate: [-0.010306170210242271, 0.025506241247057915, 0.031185543164610863]
+  SRTHash: !u 0xdefde72d
+  Translate: [27.79398536682129, 119.71209716796875, 33.48073959350586]
+- Bakeable: true
+  Gyaml: Land_Kokiri_OuterTree_A_09
+  Hash: !ul 1831314131024734777
+  Phive:
+    Placement: {ID: !ul 1831314131024734777}
+  Rotate: [-0.1186823844909668, 1.4114162921905518, -0.36052215099334717]
+  SRTHash: !u 0x46ac3ff3
+  Translate: [-32.908103942871094, 119.80913543701172, 53.25074768066406]
+- Bakeable: true
+  Gyaml: Land_Kokiri_OuterTree_A_09
+  Hash: !ul 3470168723872343762
+  Phive:
+    Placement: {ID: !ul 3470168723872343762}
+  Rotate: [0.36468306183815, -0.9998520016670227, 0.04357040300965309]
+  SRTHash: !u 0x68ae2a33
+  Translate: [11.05932903289795, 114.28723907470703, -51.397945404052734]
+- Bakeable: true
+  Gyaml: Land_Kokiri_OuterTree_A_09
+  Hash: !ul 2225953944892243417
+  Phive:
+    Placement: {ID: !ul 2225953944892243417}
+  Rotate: [2.8937366008758545, -0.9866573214530945, -3.0931143760681152]
+  SRTHash: !u 0xd0998e8e
+  Translate: [-22.82634735107422, 114.55924224853516, -57.15968322753906]
+- Bakeable: true
+  Gyaml: Land_Kokiri_OuterTree_A_09
+  Hash: !ul 2512856857573739000
+  Phive:
+    Placement: {ID: !ul 2512856857573739000}
+  Rotate: [-2.7532899379730225, -0.9376868605613708, 2.883249044418335]
+  SRTHash: !u 0x6fe498e6
+  Translate: [2.7790238857269287, 116.88424682617188, 91.24313354492188]
+- Bakeable: true
+  Gyaml: Land_SacredForest_Cliff_A_05
+  Hash: !ul 15995880258279476019
+  Phive:
+    Placement: {ID: !ul 15995880258279476019}
+  Rotate: [3.1166117191314697, 1.0830639600753784, -3.1134421825408936]
+  SRTHash: !u 0x27ab2301
+  Translate: [-23.93993377685547, 99.49259948730469, -3.0511419773101807]
+- Bakeable: true
+  Gyaml: Land_SacredForest_Cliff_A_05
+  Hash: !ul 17493604801279526318
+  Phive:
+    Placement: {ID: !ul 17493604801279526318}
+  Rotate: [-3.139573335647583, -0.9821648001670837, -2.983858585357666]
+  SRTHash: !u 0x21c60e3f
+  Translate: [11.8391752243042, 100.16527557373047, 9.218475341796875]
+- Bakeable: true
+  Gyaml: Land_SacredForest_Cliff_A_05
+  Hash: !ul 4344046404150639573
+  Phive:
+    Placement: {ID: !ul 4344046404150639573}
+  Rotate: [-3.1206328868865967, 0.39383527636528015, 3.064295530319214]
+  SRTHash: !u 0xf9e4d95b
+  Translate: [-18.74497413635254, 98.99732208251953, 51.395145416259766]
+- Bakeable: true
+  Gyaml: Land_SacredForest_Cliff_A_05
+  Hash: !ul 13757874375419356741
+  Phive:
+    Placement: {ID: !ul 13757874375419356741}
+  Rotate: [0.07729020714759827, 0.858291745185852, 0.0266284067183733]
+  SRTHash: !u 0x994e3cf7
+  Translate: [-23.66621971130371, 105.86443328857422, -4.33095121383667]
+- Bakeable: true
+  Gyaml: Land_SacredForest_Cliff_A_06
+  Hash: !ul 14340652714666461737
+  Phive:
+    Placement: {ID: !ul 14340652714666461737}
+  Rotate: [0.0, 0.7013989686965942, 0.0]
+  SRTHash: !u 0xdbcf7ed0
+  Translate: [-22.922454833984375, 97.68514251708984, 34.30186462402344]
+- Bakeable: true
+  Gyaml: Land_SacredForest_Cliff_A_06
+  Hash: !ul 4227864099595617903
+  Phive:
+    Placement: {ID: !ul 4227864099595617903}
+  Rotate: [0.20176877081394196, 0.6777305603027344, 0.10001783818006516]
+  SRTHash: !u 0x29b96e9b
+  Translate: [-23.091049194335938, 99.82234954833984, -9.995621681213379]
+- Bakeable: true
+  Gyaml: Land_SacredForest_PavingStone_A_01
+  Hash: !ul 6262583728588432181
+  Phive:
+    Placement: {ID: !ul 6262583728588432181}
+  Rotate: [-0.035162005573511124, -0.0, 0.0]
+  SRTHash: !u 0x60e7c65e
+  Translate: [-15.30449104309082, 99.91252899169922, 43.726200103759766]
+- Bakeable: true
+  Gyaml: Land_SacredForest_PavingStone_A_01
+  Hash: !ul 9054647028268558587
+  Phive:
+    Placement: {ID: !ul 9054647028268558587}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x0959bc72
+  Translate: [-16.871660232543945, 99.90311431884766, 6.090470314025879]
+- Bakeable: true
+  Gyaml: Land_SacredForest_PavingStone_A_01
+  Hash: !ul 2857814010345689295
+  Phive:
+    Placement: {ID: !ul 2857814010345689295}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x4d284c1a
+  Translate: [-13.786981582641602, 99.94999694824219, 23.211618423461914]
+- Bakeable: true
+  Gyaml: Land_SacredForest_PavingStone_A_01
+  Hash: !ul 9093638785702384349
+  Phive:
+    Placement: {ID: !ul 9093638785702384349}
+  SRTHash: !u 0xe05dafc5
+  Translate: [6.387025833129883, 99.91200256347656, 4.039289474487305]
+- Bakeable: true
+  Gyaml: Land_SacredForest_PavingStone_A_01
+  Hash: !ul 17235248498457513137
+  Phive:
+    Placement: {ID: !ul 17235248498457513137}
+  Rotate: [0.012469695881009102, -0.0, 0.0]
+  SRTHash: !u 0xef4b655d
+  Translate: [-4.48044490814209, 99.94999694824219, 43.34620666503906]
+- Bakeable: true
+  Gyaml: Land_SacredForest_PavingStone_A_01
+  Hash: !ul 2244024782496773
+  Phive:
+    Placement: {ID: !ul 2244024782496773}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x55ca8b2b
+  Translate: [-1.409363865852356, 99.94999694824219, 34.195858001708984]
+- Bakeable: true
+  Gyaml: Land_SacredForest_PavingStone_A_01
+  Hash: !ul 7355790358931132894
+  Phive:
+    Placement: {ID: !ul 7355790358931132894}
+  SRTHash: !u 0x99e26f57
+  Translate: [-9.011364936828613, 99.94999694824219, 22.6894588470459]
+- Bakeable: true
+  Gyaml: Land_SacredForest_PavingStone_A_01
+  Hash: !ul 15219160896751456938
+  Phive:
+    Placement: {ID: !ul 15219160896751456938}
+  Rotate: [3.1415927410125732, 1.3971360921859741, 3.1415927410125732]
+  SRTHash: !u 0x7b751f22
+  Translate: [1.6204373836517334, 99.96359252929688, 43.79975891113281]
+- Bakeable: true
+  Gyaml: Land_SacredForest_PavingStone_A_01
+  Hash: !ul 13009491513378773593
+  Phive:
+    Placement: {ID: !ul 13009491513378773593}
+  SRTHash: !u 0x3bcdb847
+  Translate: [-1.541384220123291, 99.94999694824219, 23.54186248779297]
+- Bakeable: true
+  Gyaml: Land_SacredForest_PavingStone_A_01
+  Hash: !ul 3427737664396771312
+  Phive:
+    Placement: {ID: !ul 3427737664396771312}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x7502a6ce
+  Translate: [-9.490023612976074, 99.8948974609375, 13.039427757263184]
+- Bakeable: true
+  Gyaml: Land_SacredForest_PavingStone_A_01
+  Hash: !ul 16962663739749442632
+  Phive:
+    Placement: {ID: !ul 16962663739749442632}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x4604c32c
+  Translate: [-10.581538200378418, 99.94999694824219, 43.477142333984375]
+- Bakeable: true
+  Gyaml: Land_SacredForest_PavingStone_A_01
+  Hash: !ul 14543441740258109473
+  Phive:
+    Placement: {ID: !ul 14543441740258109473}
+  SRTHash: !u 0x9c03a81d
+  Translate: [-3.7657036781311035, 99.95161437988281, 13.378766059875488]
+- Bakeable: true
+  Gyaml: Land_SacredForest_PavingStone_A_01
+  Hash: !ul 6790949294106585562
+  Phive:
+    Placement: {ID: !ul 6790949294106585562}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0xf64baf70
+  Translate: [-14.45723819732666, 99.94999694824219, 33.992164611816406]
+- Bakeable: true
+  Gyaml: Land_SacredForest_PavingStone_A_01
+  Hash: !ul 18205872471564398579
+  Phive:
+    Placement: {ID: !ul 18205872471564398579}
+  Rotate: [1.5707978010177612, 1.5433363914489746, 1.5707978010177612]
+  SRTHash: !u 0x3290492c
+  Translate: [-7.1734771728515625, 99.98416900634766, -16.790752410888672]
+- Bakeable: true
+  Gyaml: Land_SacredForest_PavingStone_A_01
+  Hash: !ul 14942393517114928164
+  Phive:
+    Placement: {ID: !ul 14942393517114928164}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xe3112216
+  Translate: [-1.8254855871200562, 99.91786193847656, -9.616920471191406]
+- Bakeable: true
+  Gyaml: Land_SacredForest_PavingStone_A_01
+  Hash: !ul 18045847804755321465
+  Phive:
+    Placement: {ID: !ul 18045847804755321465}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0xc298607e
+  Translate: [-17.2617244720459, 99.93511962890625, 0.4948812425136566]
+- Bakeable: true
+  Gyaml: Land_SacredForest_PavingStone_A_01
+  Hash: !ul 16762834476213546777
+  Phive:
+    Placement: {ID: !ul 16762834476213546777}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x7c896c96
+  Translate: [-7.255046367645264, 99.93049621582031, -9.660618782043457]
+- Bakeable: true
+  Gyaml: Land_SacredForest_PavingStone_A_01
+  Hash: !ul 4097155441970769763
+  Phive:
+    Placement: {ID: !ul 4097155441970769763}
+  SRTHash: !u 0x3879daee
+  Translate: [6.1493000984191895, 99.94999694824219, 33.6394157409668]
+- Bakeable: true
+  Gyaml: Land_SacredForest_PavingStone_A_01
+  Hash: !ul 9211111700441776289
+  Phive:
+    Placement: {ID: !ul 9211111700441776289}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x923d649d
+  Translate: [2.5092077255249023, 99.94999694824219, 23.39385223388672]
+- Bakeable: true
+  Gyaml: Land_SacredForest_PavingStone_A_01
+  Hash: !ul 3216155364757999694
+  Phive:
+    Placement: {ID: !ul 3216155364757999694}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xe50c0e0d
+  Translate: [-17.12567138671875, 99.94999694824219, -5.250554084777832]
+- Bakeable: true
+  Gyaml: Land_SacredForest_PavingStone_A_01
+  Hash: !ul 5122055162784626945
+  Phive:
+    Placement: {ID: !ul 5122055162784626945}
+  SRTHash: !u 0x497ebc50
+  Translate: [1.9441804885864258, 99.91783905029297, 13.337443351745605]
+- Bakeable: true
+  Gyaml: Land_SacredForest_PavingStone_A_01
+  Hash: !ul 2869489661981909258
+  Phive:
+    Placement: {ID: !ul 2869489661981909258}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xcb35fc1e
+  Translate: [-16.596664428710938, 99.94999694824219, 27.561843872070312]
+- Bakeable: true
+  Gyaml: Land_SacredForest_PavingStone_A_01
+  Hash: !ul 624760240651092953
+  Phive:
+    Placement: {ID: !ul 624760240651092953}
+  SRTHash: !u 0x79e86362
+  Translate: [7.954723358154297, 99.94999694824219, 39.560855865478516]
+- Bakeable: true
+  Gyaml: Land_SacredForest_PavingStone_A_01
+  Hash: !ul 17645876257236638888
+  Phive:
+    Placement: {ID: !ul 17645876257236638888}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xa5fa85c0
+  Translate: [6.214621543884277, 99.9186019897461, -1.8063957691192627]
+- Bakeable: true
+  Gyaml: Land_SacredForest_PavingStone_A_01
+  Hash: !ul 9530797961627193675
+  Phive:
+    Placement: {ID: !ul 9530797961627193675}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x5c09e9c9
+  Translate: [6.007217884063721, 99.9388656616211, 11.117020606994629]
+- Bakeable: true
+  Gyaml: Land_SacredForest_PavingStone_A_01
+  Hash: !ul 17139577456715328827
+  Phive:
+    Placement: {ID: !ul 17139577456715328827}
+  SRTHash: !u 0x0847384e
+  Translate: [-13.545212745666504, 99.92680358886719, -9.924253463745117]
+- Bakeable: true
+  Gyaml: Land_SacredForest_Cliff_A_06
+  Hash: !ul 13981892562936252798
+  Phive:
+    Placement: {ID: !ul 13981892562936252798}
+  Rotate: [0.0, 0.6108652353286743, 0.0]
+  SRTHash: !u 0x5035c896
+  Translate: [-23.484390258789062, 99.94650268554688, 2.628342628479004]
+- Bakeable: true
+  Gyaml: Land_SacredForest_Cliff_A_05
+  Hash: !ul 6386793292281034867
+  Phive:
+    Placement: {ID: !ul 6386793292281034867}
+  Rotate: [2.9336087703704834, 1.054177165031433, 2.884615659713745]
+  SRTHash: !u 0x38c432e4
+  Translate: [-16.07053565979004, 107.064453125, -20.268932342529297]
+- Bakeable: true
+  Gyaml: Land_SacredForest_MazesWall_A_01
+  Hash: !ul 5875745308071088990
+  Phive:
+    Placement: {ID: !ul 5875745308071088990}
+  SRTHash: !u 0x0b64dbdf
+  Translate: [-7.0467000007629395, 99.96700286865234, 47.492401123046875]
+- Bakeable: true
+  Gyaml: Land_SacredForest_MazesWall_A_02
+  Hash: !ul 4977667199806940875
+  Phive:
+    Placement: {ID: !ul 4977667199806940875}
+  SRTHash: !u 0xb998e2a4
+  Translate: [-6.4217000007629395, 99.96700286865234, 38.492401123046875]
+- Bakeable: true
+  Gyaml: Land_SacredForest_MazesWall_A_04
+  Hash: !ul 10550636790540527298
+  Phive:
+    Placement: {ID: !ul 10550636790540527298}
+  SRTHash: !u 0x1e91834b
+  Translate: [-5.146699905395508, 99.96700286865234, 18.492399215698242]
+- Bakeable: true
+  Gyaml: Land_SacredForest_MazesWall_A_03
+  Hash: !ul 5439443443150169900
+  Phive:
+    Placement: {ID: !ul 5439443443150169900}
+  SRTHash: !u 0xf632a188
+  Translate: [-2.4217000007629395, 99.96700286865234, 28.492399215698242]
+- Bakeable: true
+  Gyaml: Land_SacredForest_MazesWall_A_05
+  Hash: !ul 838911697874674059
+  Phive:
+    Placement: {ID: !ul 838911697874674059}
+  SRTHash: !u 0xec20e4c9
+  Translate: [-5.521699905395508, 99.96700286865234, 1.9423999786376953]
+- Bakeable: true
+  Gyaml: Land_SacredForest_MazesWall_A_06
+  Hash: !ul 11432318646706819811
+  Phive:
+    Placement: {ID: !ul 11432318646706819811}
+  SRTHash: !u 0xfbaa8961
+  Translate: [-6.971700191497803, 99.96700286865234, -13.557600021362305]
+- Bakeable: true
+  Gyaml: Land_Kokiri_Cliff_E_11
+  Hash: !ul 2436215843145019333
+  Phive:
+    Placement: {ID: !ul 2436215843145019333}
+  Rotate: [0.0, 1.045982837677002, 0.0]
+  SRTHash: !u 0x683f1206
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [-67.85160827636719, 124.5118179321289, -130.38168334960938]
+- Bakeable: true
+  Gyaml: Land_Kokiri_Cliff_E_10
+  Hash: !ul 1868498984647386462
+  Phive:
+    Placement: {ID: !ul 1868498984647386462}
+  Rotate: [3.1415927410125732, 1.2806963920593262, 3.1415927410125732]
+  SRTHash: !u 0xa4a85509
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [-75.94927978515625, 115.41266632080078, -105.70948028564453]
+- Bakeable: true
+  Gyaml: Land_Kokiri_Cliff_E_11
+  Hash: !ul 2142410726270850923
+  Phive:
+    Placement: {ID: !ul 2142410726270850923}
+  Rotate: [3.1415927410125732, 1.4987822771072388, 3.1415927410125732]
+  SRTHash: !u 0x5053aace
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [-84.89289855957031, 125.50404357910156, -63.41560745239258]
+- Bakeable: true
+  Gyaml: Land_Kokiri_Cliff_E_11
+  Hash: !ul 13098915369693937477
+  Phive:
+    Placement: {ID: !ul 13098915369693937477}
+  Rotate: [0.0, 1.3431792259216309, 0.0]
+  SRTHash: !u 0x526f23cc
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [-78.72618865966797, 123.84085845947266, 34.017784118652344]
+- Bakeable: true
+  Gyaml: Land_Kokiri_Cliff_E_11
+  Hash: !ul 9779176519610465421
+  Phive:
+    Placement: {ID: !ul 9779176519610465421}
+  Rotate: [3.1415927410125732, 0.54527747631073, 3.1415927410125732]
+  SRTHash: !u 0xec3cfcd3
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [-32.376956939697266, 120.11690521240234, 139.41490173339844]
+- Bakeable: true
+  Gyaml: Land_Kokiri_Cliff_E_11
+  Hash: !ul 10522695815482548127
+  Phive:
+    Placement: {ID: !ul 10522695815482548127}
+  Rotate: [3.1415927410125732, -1.151309847831726, 3.1415927410125732]
+  SRTHash: !u 0xd52af201
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [54.57297134399414, 137.26353454589844, 75.95348358154297]
+- Bakeable: true
+  Gyaml: Land_Kokiri_Cliff_E_11
+  Hash: !ul 15957956957949624603
+  Phive:
+    Placement: {ID: !ul 15957956957949624603}
+  Rotate: [0.0, -1.3929141759872437, 0.0]
+  SRTHash: !u 0x413ee9de
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [70.75999450683594, 127.066162109375, -74.55226135253906]
+- Bakeable: true
+  Gyaml: Land_Kokiri_Cliff_E_10
+  Hash: !ul 1245393704556758350
+  Phive:
+    Placement: {ID: !ul 1245393704556758350}
+  Rotate: [0.0, 0.9776793122291565, 0.0]
+  SRTHash: !u 0x5835708a
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [-81.97721099853516, 114.35905456542969, -82.07722473144531]
+- Bakeable: true
+  Gyaml: Land_Kokiri_Cliff_E_10
+  Hash: !ul 18025326920990683136
+  Phive:
+    Placement: {ID: !ul 18025326920990683136}
+  Rotate: [0.0, 1.5026202201843262, 0.0]
+  SRTHash: !u 0x7a96e2e2
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [-86.18071746826172, 119.37883758544922, -38.764530181884766]
+- Bakeable: true
+  Gyaml: Land_Kokiri_Cliff_E_10
+  Hash: !ul 9971635157738391304
+  Phive:
+    Placement: {ID: !ul 9971635157738391304}
+  Rotate: [3.1415927410125732, 1.3091540336608887, 3.1415927410125732]
+  SRTHash: !u 0x965ca7a4
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [-76.44090270996094, 119.37883758544922, -14.023180961608887]
+- Bakeable: true
+  Gyaml: Land_Kokiri_Cliff_E_10
+  Hash: !ul 15278767061202488921
+  Phive:
+    Placement: {ID: !ul 15278767061202488921}
+  Rotate: [0.0, 0.9394897222518921, 0.0]
+  SRTHash: !u 0xe318483a
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [-78.80550384521484, 123.4168472290039, 8.587224960327148]
+- Bakeable: true
+  Gyaml: Land_Kokiri_Cliff_E_10
+  Hash: !ul 3607875800452370443
+  Phive:
+    Placement: {ID: !ul 3607875800452370443}
+  Rotate: [3.1415927410125732, 1.2470307350158691, 3.1415927410125732]
+  SRTHash: !u 0x226197d9
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [-82.72944641113281, 128.8656463623047, 61.11048889160156]
+- Bakeable: true
+  Gyaml: Land_Kokiri_Cliff_E_10
+  Hash: !ul 10888313459989060259
+  Phive:
+    Placement: {ID: !ul 10888313459989060259}
+  Rotate: [3.1415927410125732, 0.598558783531189, 3.1415927410125732]
+  SRTHash: !u 0x1815a1aa
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [-72.60458374023438, 127.6203842163086, 80.65351104736328]
+- Bakeable: true
+  Gyaml: Land_Kokiri_Cliff_E_10
+  Hash: !ul 747903743016735164
+  Phive:
+    Placement: {ID: !ul 747903743016735164}
+  Rotate: [3.1415927410125732, 1.5354551076889038, 3.1415927410125732]
+  SRTHash: !u 0x544d2c06
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [-63.65595626831055, 125.83321380615234, 97.92379760742188]
+- Bakeable: true
+  Gyaml: Land_Kokiri_Cliff_E_10
+  Hash: !ul 8907834685073876201
+  Phive:
+    Placement: {ID: !ul 8907834685073876201}
+  Rotate: [3.1415927410125732, -0.6305857300758362, 3.1415927410125732]
+  SRTHash: !u 0x1936a3c7
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [-13.068140029907227, 118.1900634765625, 139.6050567626953]
+- Bakeable: true
+  Gyaml: Land_Kokiri_Cliff_E_10
+  Hash: !ul 5355917232206183074
+  Phive:
+    Placement: {ID: !ul 5355917232206183074}
+  Rotate: [3.1415927410125732, 1.4243788719177246, 3.1415927410125732]
+  SRTHash: !u 0xe6531e2c
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [-52.665618896484375, 118.0822525024414, 123.42536163330078]
+- Bakeable: true
+  Gyaml: Land_Kokiri_Cliff_E_10
+  Hash: !ul 13447883838374843988
+  Phive:
+    Placement: {ID: !ul 13447883838374843988}
+  Rotate: [3.1415927410125732, 0.22869911789894104, 3.1415927410125732]
+  SRTHash: !u 0x781c3c42
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [7.333967208862305, 116.40681457519531, 136.0897216796875]
+- Bakeable: true
+  Gyaml: Land_Kokiri_Cliff_E_10
+  Hash: !ul 1399039217379197620
+  Phive:
+    Placement: {ID: !ul 1399039217379197620}
+  Rotate: [3.1415927410125732, -0.44316011667251587, 3.1415927410125732]
+  SRTHash: !u 0xf4180d93
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [22.920185089111328, 125.88763427734375, 125.02870178222656]
+- Bakeable: true
+  Gyaml: Land_Kokiri_Cliff_E_10
+  Hash: !ul 11986841532852587349
+  Phive:
+    Placement: {ID: !ul 11986841532852587349}
+  Rotate: [3.1415927410125732, -1.1587694883346558, 3.1415927410125732]
+  SRTHash: !u 0xdeafb01c
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [30.810205459594727, 126.89249420166016, 108.0208969116211]
+- Bakeable: true
+  Gyaml: Land_Kokiri_Cliff_E_10
+  Hash: !ul 14310283169758301679
+  Phive:
+    Placement: {ID: !ul 14310283169758301679}
+  Rotate: [3.1415927410125732, -0.2069471776485443, 3.1415927410125732]
+  SRTHash: !u 0x27b89fc5
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [46.7014274597168, 124.66207122802734, 97.10894012451172]
+- Bakeable: true
+  Gyaml: Land_Kokiri_Cliff_E_10
+  Hash: !ul 3053279997975081531
+  Phive:
+    Placement: {ID: !ul 3053279997975081531}
+  Rotate: [0.0, -1.3231481313705444, 0.0]
+  SRTHash: !u 0xccf59202
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [63.29136657714844, 128.60333251953125, 69.33495330810547]
+- Bakeable: true
+  Gyaml: Land_Kokiri_Cliff_E_10
+  Hash: !ul 16103089254096670384
+  Phive:
+    Placement: {ID: !ul 16103089254096670384}
+  Rotate: [3.1415927410125732, -1.1361674070358276, 3.1415927410125732]
+  SRTHash: !u 0xb9434f2d
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [68.44121551513672, 127.13084411621094, 48.193031311035156]
+- Bakeable: true
+  Gyaml: Land_Kokiri_Cliff_E_10
+  Hash: !ul 14979887740189898287
+  Phive:
+    Placement: {ID: !ul 14979887740189898287}
+  Rotate: [3.1415927410125732, -1.2858747243881226, 3.1415927410125732]
+  SRTHash: !u 0x12e34eb0
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [72.01553344726562, 125.35836791992188, 20.70034408569336]
+- Bakeable: true
+  Gyaml: Land_Kokiri_Cliff_E_10
+  Hash: !ul 15444862338298348499
+  Phive:
+    Placement: {ID: !ul 15444862338298348499}
+  Rotate: [0.0, -1.4687798023223877, 0.0]
+  SRTHash: !u 0xcac3edfd
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [76.85332489013672, 124.21540069580078, -0.19558200240135193]
+- Bakeable: true
+  Gyaml: Land_Kokiri_Cliff_E_10
+  Hash: !ul 4438465718942722153
+  Phive:
+    Placement: {ID: !ul 4438465718942722153}
+  Rotate: [0.0, -0.9157236218452454, 0.0]
+  SRTHash: !u 0x832efcd6
+  Scale: [1.9999998807907104, 1.9999998807907104, 1.9999998807907104]
+  Translate: [77.5685806274414, 127.30216217041016, -28.054920196533203]
+- Bakeable: true
+  Gyaml: Land_Kokiri_Cliff_E_10
+  Hash: !ul 1817694988263911788
+  Phive:
+    Placement: {ID: !ul 1817694988263911788}
+  Rotate: [3.1415927410125732, -1.0810903310775757, 3.1415927410125732]
+  SRTHash: !u 0x92b524e2
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [71.03839111328125, 125.3401107788086, -49.987632751464844]
+- Bakeable: true
+  Gyaml: Land_Kokiri_Cliff_E_10
+  Hash: !ul 11604762282802214456
+  Phive:
+    Placement: {ID: !ul 11604762282802214456}
+  Rotate: [0.0, -1.250648856163025, 0.0]
+  SRTHash: !u 0x5ee2929d
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [70.25125885009766, 121.20398712158203, -103.70030975341797]
+- Bakeable: true
+  Gyaml: Land_Kokiri_Cliff_E_10
+  Hash: !ul 7791123217110943601
+  Phive:
+    Placement: {ID: !ul 7791123217110943601}
+  Rotate: [0.0, -0.7324188351631165, 0.0]
+  SRTHash: !u 0xc01858e0
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [59.46830749511719, 119.44306182861328, -123.61470031738281]
+- Bakeable: true
+  Gyaml: Land_Kokiri_Cliff_E_10
+  Hash: !ul 7048563028934904595
+  Phive:
+    Placement: {ID: !ul 7048563028934904595}
+  Rotate: [0.0, -1.4313410520553589, 0.0]
+  SRTHash: !u 0x171ed958
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [42.7823371887207, 117.67046356201172, -142.58236694335938]
+- Bakeable: true
+  Gyaml: Land_Kokiri_Cliff_E_10
+  Hash: !ul 16630207771603746900
+  Phive:
+    Placement: {ID: !ul 16630207771603746900}
+  Rotate: [3.1415927410125732, 0.4438110589981079, 3.1415927410125732]
+  SRTHash: !u 0x291fee33
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [-45.64008712768555, 118.59786224365234, 156.43031311035156]
+- Bakeable: true
+  Gyaml: Land_Kokiri_Cliff_E_10
+  Hash: !ul 2262879243223411086
+  Phive:
+    Placement: {ID: !ul 2262879243223411086}
+  Rotate: [0.0, 1.2597699165344238, 0.0]
+  SRTHash: !u 0x4fe774af
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [-99.8304443359375, 137.66397094726562, -64.5282974243164]
+- Bakeable: true
+  Gyaml: Land_Kokiri_Cliff_E_10
+  Hash: !ul 7218009143767176115
+  Phive:
+    Placement: {ID: !ul 7218009143767176115}
+  Rotate: [0.0, 1.2597699165344238, 0.0]
+  SRTHash: !u 0xa177239c
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [-108.38372039794922, 141.68898010253906, -40.404205322265625]
+- Bakeable: true
+  Gyaml: Land_Kokiri_Cliff_E_10
+  Hash: !ul 6379763143708620897
+  Phive:
+    Placement: {ID: !ul 6379763143708620897}
+  Rotate: [0.0, 1.2899361848831177, 0.0]
+  SRTHash: !u 0x48cbd8df
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [-101.84075927734375, 132.49887084960938, -12.12367057800293]
+- Bakeable: true
+  Gyaml: Land_Kokiri_Cliff_E_10
+  Hash: !ul 5426764795345605980
+  Phive:
+    Placement: {ID: !ul 5426764795345605980}
+  Rotate: [3.1415927410125732, 1.1969135999679565, 3.1415927410125732]
+  SRTHash: !u 0x61b0e868
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [-97.1192855834961, 127.14887237548828, 12.596238136291504]
+- Bakeable: true
+  Gyaml: Land_Kokiri_Cliff_E_10
+  Hash: !ul 13983956438582762003
+  Phive:
+    Placement: {ID: !ul 13983956438582762003}
+  Rotate: [0.0, 1.4912633895874023, 0.0]
+  SRTHash: !u 0xc9a65fca
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [-98.52265167236328, 133.37387084960938, 44.66666793823242]
+- Bakeable: true
+  Gyaml: Land_Kokiri_Cliff_E_10
+  Hash: !ul 7549869030463959209
+  Phive:
+    Placement: {ID: !ul 7549869030463959209}
+  Rotate: [3.1415927410125732, 0.9368264079093933, 3.1415927410125732]
+  SRTHash: !u 0xcedfde70
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [-90.86927795410156, 134.1488800048828, 86.03618621826172]
+- Bakeable: true
+  Gyaml: Land_Kokiri_Cliff_E_10
+  Hash: !ul 6706288395909857789
+  Phive:
+    Placement: {ID: !ul 6706288395909857789}
+  Rotate: [3.1415927410125732, 1.2252821922302246, 3.1415927410125732]
+  SRTHash: !u 0x950a0b0e
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [-70.63544464111328, 127.02285766601562, 119.90679931640625]
+- Bakeable: true
+  Gyaml: Land_Kokiri_Cliff_E_10
+  Hash: !ul 4579080606041729063
+  Phive:
+    Placement: {ID: !ul 4579080606041729063}
+  Rotate: [3.1415927410125732, -0.7638450264930725, 3.1415927410125732]
+  SRTHash: !u 0x25f975e0
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [74.9710464477539, 148.0868682861328, 90.1793441772461]
+- Bakeable: true
+  Gyaml: Land_Kokiri_Cliff_E_10
+  Hash: !ul 10338749909365600153
+  Phive:
+    Placement: {ID: !ul 10338749909365600153}
+  Rotate: [0.0, -1.0900471210479736, 0.0]
+  SRTHash: !u 0xa4780cee
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [87.17363739013672, 134.6790771484375, 36.255489349365234]
+- Bakeable: true
+  Gyaml: Land_Kokiri_Cliff_E_10
+  Hash: !ul 17329597928976029324
+  Phive:
+    Placement: {ID: !ul 17329597928976029324}
+  Rotate: [3.1415927410125732, -1.4410885572433472, 3.1415927410125732]
+  SRTHash: !u 0xc0c044cb
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [94.83943939208984, 138.40406799316406, -8.575325965881348]
+- Bakeable: true
+  Gyaml: Land_Kokiri_Cliff_E_11
+  Hash: !ul 3614032941423719866
+  Phive:
+    Placement: {ID: !ul 3614032941423719866}
+  Rotate: [3.1415927410125732, -0.730460524559021, 3.1415927410125732]
+  SRTHash: !u 0xf7aac82c
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [55.373504638671875, 156.55992126464844, 140.0276336669922]
+- Bakeable: true
+  Gyaml: Land_Kokiri_Cliff_E_10
+  Hash: !ul 9376573406152086042
+  Phive:
+    Placement: {ID: !ul 9376573406152086042}
+  Rotate: [0.0, -1.553171992301941, 0.0]
+  SRTHash: !u 0x2cf299f2
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [67.96040344238281, 151.411865234375, 114.29782104492188]
+- Bakeable: true
+  Gyaml: Land_Kokiri_Cliff_E_10
+  Hash: !ul 14164290638618496013
+  Phive:
+    Placement: {ID: !ul 14164290638618496013}
+  Rotate: [3.1415927410125732, 0.03116813488304615, 3.1415927410125732]
+  SRTHash: !u 0xa0eb6494
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [-43.478675842285156, 144.61692810058594, 182.2525177001953]
+- Bakeable: true
+  Gyaml: Land_Kokiri_Cliff_E_10
+  Hash: !ul 11795776145051194127
+  Phive:
+    Placement: {ID: !ul 11795776145051194127}
+  Rotate: [3.1415927410125732, 0.11401715874671936, 3.1415927410125732]
+  SRTHash: !u 0x04d09539
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [-16.592870712280273, 134.33909606933594, 181.5209197998047]
+- Bakeable: true
+  Gyaml: Land_Kokiri_Cliff_E_10
+  Hash: !ul 519158207760954112
+  Phive:
+    Placement: {ID: !ul 519158207760954112}
+  Rotate: [3.1415927410125732, -0.5028172135353088, 3.1415927410125732]
+  SRTHash: !u 0xaa50c4e2
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [34.05031204223633, 145.24192810058594, 161.02622985839844]
+- Bakeable: true
+  Gyaml: Land_Kokiri_Cliff_E_11
+  Hash: !ul 9344989115598472454
+  Phive:
+    Placement: {ID: !ul 9344989115598472454}
+  Rotate: [3.1415927410125732, 1.0764771699905396, 3.1415927410125732]
+  SRTHash: !u 0x7628afa3
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [-65.85633087158203, 142.96450805664062, 172.2179718017578]
+- Bakeable: true
+  Gyaml: Land_SacredForest_Passage_A_01
+  Hash: !ul 12827812024829176971
+  Phive:
+    Placement: {ID: !ul 12827812024829176971}
+  SRTHash: !u 0x77cb625c
+  Translate: [-6.9415998458862305, 104.95130157470703, -56.716400146484375]
+- Bakeable: true
+  Gyaml: Land_SacredForest_PassageTrees_A_01
+  Hash: !ul 15685152221132572337
+  Phive:
+    Placement: {ID: !ul 15685152221132572337}
+  SRTHash: !u 0x77cb625c
+  Translate: [-6.9415998458862305, 104.95130157470703, -56.716400146484375]
+- Bakeable: true
+  Gyaml: Land_SacredForest_Cliff_A_06
+  Hash: !ul 6797359654960951301
+  Phive:
+    Placement: {ID: !ul 6797359654960951301}
+  Rotate: [0.4664584696292877, 0.792834997177124, 0.3429345190525055]
+  SRTHash: !u 0x079f5e90
+  Translate: [-23.3931827545166, 103.41939544677734, -12.53156852722168]
+- Bakeable: true
+  Gyaml: Land_SacredForest_Cliff_A_05
+  Hash: !ul 3516798706465378159
+  Phive:
+    Placement: {ID: !ul 3516798706465378159}
+  Rotate: [0.006586872972548008, 1.0947630405426025, -0.13865944743156433]
+  SRTHash: !u 0x49743c41
+  Translate: [-21.988624572753906, 99.66592407226562, 35.98480987548828]
+- Bakeable: true
+  Gyaml: Land_SacredForest_Cliff_A_06
+  Hash: !ul 4308800692182825543
+  Phive:
+    Placement: {ID: !ul 4308800692182825543}
+  Rotate: [-0.009847147390246391, 0.9850655198097229, -0.057426564395427704]
+  SRTHash: !u 0x2a0246db
+  Translate: [-23.03463363647461, 104.43412780761719, 28.13847541809082]
+- Bakeable: true
+  Gyaml: Land_SacredForest_Cliff_A_05
+  Hash: !ul 6821545729436151423
+  Phive:
+    Placement: {ID: !ul 6821545729436151423}
+  Rotate: [2.7438337802886963, 1.1619006395339966, 2.967740297317505]
+  SRTHash: !u 0x0bda5b36
+  Translate: [-17.054656982421875, 97.77430725097656, 56.622467041015625]
+- Bakeable: true
+  Gyaml: Land_SacredForest_Cliff_A_05
+  Hash: !ul 6084385212834609282
+  Phive:
+    Placement: {ID: !ul 6084385212834609282}
+  Rotate: [-3.0486626625061035, 0.38003501296043396, -3.096695899963379]
+  SRTHash: !u 0x038dd7f4
+  Translate: [13.149585723876953, 99.47703552246094, 48.53029251098633]
+- Gyaml: Land_Kokiri_FieldProp_FarView_A_03
+  Hash: !ul 10408703059636397667
+  Phive:
+    Placement: {ID: !ul 10408703059636397667}
+  Rotate: [-0.18230485916137695, -1.1129004955291748, 0.20270079374313354]
+  SRTHash: !u 0x55d3ead4
+  Scale: [8.0, 8.0, 8.0]
+  Translate: [75.41988372802734, 118.86370086669922, -170.43870544433594]
+- Gyaml: Land_Kokiri_FieldProp_FarView_A_03
+  Hash: !ul 3711757435444190502
+  Phive:
+    Placement: {ID: !ul 3711757435444190502}
+  Rotate: [3.1415927410125732, -1.5098214149475098, 3.1415927410125732]
+  SRTHash: !u 0xd4676ed8
+  Scale: [8.0, 8.0, 8.0]
+  Translate: [140.0682373046875, 128.43118286132812, -44.762855529785156]
+- Gyaml: Land_Kokiri_FieldProp_FarView_A_03
+  Hash: !ul 12867990264532451148
+  Phive:
+    Placement: {ID: !ul 12867990264532451148}
+  Rotate: [3.0762248039245605, -0.9371353983879089, -3.039141893386841]
+  SRTHash: !u 0x2c6524dc
+  Scale: [8.0, 8.0, 8.0]
+  Translate: [146.24107360839844, 132.2977752685547, 71.33010864257812]
+- Gyaml: Land_Kokiri_FieldProp_FarView_A_03
+  Hash: !ul 4738851891163386381
+  Phive:
+    Placement: {ID: !ul 4738851891163386381}
+  Rotate: [3.0212278366088867, 0.9757159352302551, 2.9965627193450928]
+  SRTHash: !u 0x6bf9c554
+  Scale: [8.0, 8.0, 8.0]
+  Translate: [-83.54690551757812, 121.61083221435547, 204.92091369628906]
+- Gyaml: Land_Kokiri_FieldProp_FarView_A_03
+  Hash: !ul 251842944198702802
+  Phive:
+    Placement: {ID: !ul 251842944198702802}
+  Rotate: [2.5279297828674316, 1.5561598539352417, 2.527878999710083]
+  SRTHash: !u 0x6bce5204
+  Scale: [8.0, 8.0, 8.0]
+  Translate: [-160.3634033203125, 132.63037109375, 98.93315124511719]
+- Gyaml: Land_Kokiri_FieldProp_FarView_A_03
+  Hash: !ul 9498645098919660961
+  Phive:
+    Placement: {ID: !ul 9498645098919660961}
+  Rotate: [-0.21414493024349213, 1.0518592596054077, -0.2637244760990143]
+  SRTHash: !u 0xa98c407f
+  Scale: [8.0, 8.0, 8.0]
+  Translate: [-168.80372619628906, 133.2847137451172, -43.070621490478516]
+- Gyaml: Land_Kokiri_FieldProp_FarView_A_03
+  Hash: !ul 9718599975227662515
+  Phive:
+    Placement: {ID: !ul 9718599975227662515}
+  Rotate: [-0.05090252682566643, 0.4507644772529602, -0.15300428867340088]
+  SRTHash: !u 0xa2f4b51d
+  Scale: [8.0, 8.0, 8.0]
+  Translate: [-128.43597412109375, 116.98471069335938, -163.44088745117188]
+- Gyaml: Land_Kokiri_FieldProp_FarView_A_03
+  Hash: !ul 15193471288716594938
+  Phive:
+    Placement: {ID: !ul 15193471288716594938}
+  Rotate: [-0.143998384475708, -0.5416454672813416, 0.18399783968925476]
+  SRTHash: !u 0x4e91a109
+  Scale: [8.0, 8.0, 8.0]
+  Translate: [-24.49498748779297, 98.0636978149414, -228.33824157714844]
+- Bakeable: true
+  Gyaml: Land_SacredForest_Cliff_A_06
+  Hash: !ul 909049923219464683
+  Phive:
+    Placement: {ID: !ul 909049923219464683}
+  Rotate: [3.127591609954834, 0.553257167339325, 2.856114387512207]
+  SRTHash: !u 0xb762181e
+  Translate: [-24.125837326049805, 99.30854797363281, 8.643664360046387]
+- Bakeable: true
+  Gyaml: Land_SacredForest_Cliff_A_05
+  Hash: !ul 17251694065640606043
+  Phive:
+    Placement: {ID: !ul 17251694065640606043}
+  Rotate: [-0.8363705277442932, -1.2481337785720825, 0.7607541084289551]
+  SRTHash: !u 0xafe89a89
+  Translate: [5.9472198486328125, 99.53691101074219, 53.81684112548828]
+- Bakeable: true
+  Gyaml: Land_SacredForest_Cliff_A_05
+  Hash: !ul 11767592526571064718
+  Phive:
+    Placement: {ID: !ul 11767592526571064718}
+  Rotate: [-2.946293830871582, -0.8849604725837708, 3.1115729808807373]
+  SRTHash: !u 0x3709cdb7
+  Translate: [5.430325984954834, 108.70751190185547, 54.33265686035156]
+- Bakeable: true
+  Gyaml: Land_SacredForest_Cliff_A_05
+  Hash: !ul 16130064640487020184
+  Phive:
+    Placement: {ID: !ul 16130064640487020184}
+  Rotate: [0.490980327129364, 1.235947847366333, 0.4410201609134674]
+  SRTHash: !u 0xcda78183
+  Translate: [-14.891158103942871, 109.36540985107422, 67.97232055664062]
+- Bakeable: true
+  Gyaml: Land_SacredForest_Cliff_A_05
+  Hash: !ul 3774517187182760322
+  Phive:
+    Placement: {ID: !ul 3774517187182760322}
+  Rotate: [0.2679378092288971, 1.2179501056671143, -0.04110941290855408]
+  SRTHash: !u 0x8d9531a5
+  Translate: [-15.217700958251953, 99.80751037597656, 66.51127624511719]
+- Bakeable: true
+  Gyaml: Land_SacredForest_Cliff_A_05
+  Hash: !ul 12616515444859337630
+  Phive:
+    Placement: {ID: !ul 12616515444859337630}
+  Rotate: [-0.2053641527891159, 0.9435860514640808, -0.16319701075553894]
+  SRTHash: !u 0xa906bb95
+  Translate: [-16.296945571899414, 98.67646789550781, 53.80918502807617]
+- Bakeable: true
+  Gyaml: Land_SacredForest_Cliff_A_05
+  Hash: !ul 130445231984562838
+  Phive:
+    Placement: {ID: !ul 130445231984562838}
+  Rotate: [0.21095794439315796, 1.210542917251587, -0.09131389111280441]
+  SRTHash: !u 0x22d8db89
+  Translate: [-25.810277938842773, 98.70555877685547, 45.15306091308594]
+- Bakeable: true
+  Gyaml: Land_SacredForest_Cliff_A_05
+  Hash: !ul 9539928469512251680
+  Phive:
+    Placement: {ID: !ul 9539928469512251680}
+  Rotate: [-0.7169376015663147, 1.0883837938308716, -0.6529119610786438]
+  SRTHash: !u 0xb113b03a
+  Translate: [-25.22368621826172, 102.95829010009766, 46.971397399902344]
+- Bakeable: true
+  Gyaml: Land_SacredForest_Cliff_A_05
+  Hash: !ul 12047938774829586256
+  Phive:
+    Placement: {ID: !ul 12047938774829586256}
+  Rotate: [2.7447397708892822, 0.8320037722587585, 2.7902421951293945]
+  SRTHash: !u 0x96147ce1
+  Translate: [-24.813640594482422, 99.26312255859375, 36.54519271850586]
+- Bakeable: true
+  Gyaml: Land_SacredForest_Cliff_A_05
+  Hash: !ul 6856241759467596455
+  Phive:
+    Placement: {ID: !ul 6856241759467596455}
+  Rotate: [-2.438305139541626, -1.1724982261657715, 2.558624744415283]
+  SRTHash: !u 0x290d2e02
+  Translate: [15.942873001098633, 96.8768310546875, 20.898372650146484]
+- Bakeable: true
+  Gyaml: Land_SacredForest_Cliff_A_05
+  Hash: !ul 4131386619371382792
+  Phive:
+    Placement: {ID: !ul 4131386619371382792}
+  Rotate: [0.7010149955749512, -1.0796624422073364, -0.5494819283485413]
+  SRTHash: !u 0xb0da1642
+  Translate: [12.903305053710938, 98.2645492553711, 3.0673389434814453]
+- Bakeable: true
+  Gyaml: Land_SacredForest_Cliff_A_05
+  Hash: !ul 13400223320930096691
+  Phive:
+    Placement: {ID: !ul 13400223320930096691}
+  Rotate: [-2.717667818069458, -0.9955916404724121, 2.904557704925537]
+  SRTHash: !u 0x1ba06e9e
+  Translate: [11.72154426574707, 98.3548355102539, -3.9432239532470703]
+- Bakeable: true
+  Gyaml: Land_SacredForest_Cliff_A_05
+  Hash: !ul 9686171989750422952
+  Phive:
+    Placement: {ID: !ul 9686171989750422952}
+  Rotate: [-2.607860565185547, -0.9087283611297607, 3.041855812072754]
+  SRTHash: !u 0x777bc07c
+  Translate: [16.437408447265625, 97.97396850585938, 27.78744125366211]
+- Bakeable: true
+  Gyaml: Land_SacredForest_Cliff_A_06
+  Hash: !ul 5048974460420529564
+  Phive:
+    Placement: {ID: !ul 5048974460420529564}
+  Rotate: [-2.4409546852111816, -1.4050878286361694, 2.622615337371826]
+  SRTHash: !u 0x26bb4e2a
+  Translate: [12.053382873535156, 98.37261199951172, -7.0552659034729]
+- Bakeable: true
+  Gyaml: Land_SacredForest_PavingStone_A_01
+  Hash: !ul 15891407166435644672
+  Phive:
+    Placement: {ID: !ul 15891407166435644672}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xe9654914
+  Translate: [-7.032674789428711, 99.97908782958984, 51.76068878173828]
+- Bakeable: true
+  Gyaml: Land_SacredForest_PavingStone_A_01
+  Hash: !ul 1953830832546462416
+  Phive:
+    Placement: {ID: !ul 1953830832546462416}
+  Rotate: [0.0, -0.0, 0.018671592697501183]
+  SRTHash: !u 0x55a0431b
+  Translate: [6.366865634918213, 99.91873931884766, 23.39385223388672]
+- Bakeable: true
+  Gyaml: Land_SacredForest_PavingStone_A_01
+  Hash: !ul 18154205854339305653
+  Phive:
+    Placement: {ID: !ul 18154205854339305653}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x9d321a4c
+  Translate: [-7.077620983123779, 99.88421630859375, -14.99044418334961]
+- Bakeable: true
+  Gyaml: Land_SacredForest_PavingStone_A_01
+  Hash: !ul 1308780997679333614
+  Phive:
+    Placement: {ID: !ul 1308780997679333614}
+  Rotate: [-0.03923980891704559, -0.0, 0.0]
+  SRTHash: !u 0xc82bf932
+  Translate: [-5.590823650360107, 99.968505859375, 5.824985980987549]
+- Bakeable: true
+  Gyaml: Land_SacredForest_PavingStone_A_01
+  Hash: !ul 5851041819232081275
+  Phive:
+    Placement: {ID: !ul 5851041819232081275}
+  Rotate: [-1.5707978010177612, -1.5433907508850098, 1.5707978010177612]
+  SRTHash: !u 0x29a0dc0e
+  Translate: [-6.876036643981934, 104.73890686035156, -30.985698699951172]
+- Bakeable: true
+  Gyaml: Land_SacredForest_PavingStone_A_01
+  Hash: !ul 14484526336102223762
+  Phive:
+    Placement: {ID: !ul 14484526336102223762}
+  Rotate: [1.5707976818084717, 1.5391168594360352, 1.5707976818084717]
+  SRTHash: !u 0x9fd56785
+  Translate: [-6.876036643981934, 104.72280883789062, -60.361358642578125]
+- Bakeable: true
+  Gyaml: Land_SacredForest_PavingStone_A_01
+  Hash: !ul 18318763684133733045
+  Phive:
+    Placement: {ID: !ul 18318763684133733045}
+  Rotate: [-0.5235987305641174, 1.5294160842895508, -0.5235987901687622]
+  SRTHash: !u 0x4957cb23
+  Translate: [-6.917994022369385, 99.91737365722656, 59.576202392578125]
+- Bakeable: true
+  Gyaml: Land_SacredForest_PavingStone_A_01
+  Hash: !ul 15511098759945243293
+  Phive:
+    Placement: {ID: !ul 15511098759945243293}
+  Rotate: [0.0, -1.570796251296997, -1.7189449863508344e-10]
+  SRTHash: !u 0xc66526dd
+  Translate: [-7.373178482055664, 99.95143127441406, 64.92951202392578]
+- Bakeable: true
+  Gyaml: Land_SacredForest_PavingStone_A_01
+  Hash: !ul 9924555263746802288
+  Phive:
+    Placement: {ID: !ul 9924555263746802288}
+  Rotate: [-0.00019890285329893231, -0.008302269503474236, -0.020685788244009018]
+  SRTHash: !u 0x7bb18356
+  Translate: [-6.81089448928833, 99.91653442382812, 56.5814208984375]
+- Dynamic: {AreaHintEventName: NaviHint_Rematch}
+  Gyaml: NaviAreaHintEventActor
+  Hash: !ul 4302511126000190689
+  Phive:
+    Placement: {ID: !ul 4302511126000190689}
+  SRTHash: !u 0x77874115
+  Translate: [8.381494522094727, 101.6247329711914, 56.40208053588867]
+- Gyaml: Area
+  Hash: !ul 5038149161575918022
+  Phive:
+    Placement: {ID: !ul 5038149161575918022}
+  Rotate: [0.0, -1.570796251296997, 8.940696005765858e-08]
+  SRTHash: !u 0x50e75c88
+  Scale: [23.424854278564453, 7.157034873962402, 23.023609161376953]
+  Translate: [-3.084609031677246, 99.88384246826172, 63.502349853515625]
+- Dynamic: {RequestEventName: DreamBossStage_TimeCountStop_Wolfos}
+  Gyaml: EventRequestActor
+  Hash: !ul 4912374098915105784
+  Phive:
+    Placement: {ID: !ul 4912374098915105784}
+  SRTHash: !u 0x2ae40674
+  Translate: [-0.21061134338378906, 100.06001281738281, 60.50490951538086]
+- Gyaml: Obj_EnemyCounter_A_08
+  Hash: !ul 3611788133468041590
+  Links:
+  - {Dst: !ul 1673675859867305609, Gyaml: Reference, Name: Reference, Src: !ul 3611788133468041590}
+  Phive:
+    Placement: {ID: !ul 3611788133468041590}
+  SRTHash: !u 0xb6df8404
+  Translate: [-7.113436222076416, 100.00000762939453, 76.60116577148438]
+- Gyaml: Obj_DreamWorldTimerManager
+  Hash: !ul 4885922124838466137
+  Phive:
+    Placement: {ID: !ul 4885922124838466137}
+  SRTHash: !u 0x334776ee
+  Translate: [-6.566730499267578, 107.0765380859375, 58.19377899169922]
+- Gyaml: Obj_Plant_Grass_A_01_Respawn
+  Hash: !ul 12253587007839077983
+  Links:
+  - {Dst: !ul 8588585634140956440, Gyaml: Reference, Name: Reference, Src: !ul 12253587007839077983}
+  Phive:
+    Placement: {ID: !ul 12253587007839077983}
+  Rotate: [0.0, 0.5061455965042114, 0.0]
+  SRTHash: !u 0xa1473d98
+  Translate: [-1.588891863822937, 100.01335144042969, 53.029380798339844]
+- Gyaml: Obj_Plant_Grass_A_01_Respawn
+  Hash: !ul 3798130014155558643
+  Links:
+  - {Dst: !ul 2761655566190213796, Gyaml: Reference, Name: Reference, Src: !ul 3798130014155558643}
+  Phive:
+    Placement: {ID: !ul 3798130014155558643}
+  Rotate: [0.0, 0.0698133260011673, 0.0]
+  SRTHash: !u 0xb8e2acae
+  Translate: [-2.8085930347442627, 100.01335144042969, 52.737430572509766]
+- Gyaml: Obj_Plant_Grass_A_01_Respawn
+  Hash: !ul 17728622680469768322
+  Links:
+  - {Dst: !ul 12814950456714565423, Gyaml: Reference, Name: Reference, Src: !ul 17728622680469768322}
+  Phive:
+    Placement: {ID: !ul 17728622680469768322}
+  Rotate: [0.0, -1.0646510124206543, 0.0]
+  SRTHash: !u 0x25bba84c
+  Translate: [-3.5503976345062256, 100.01335144042969, 50.992919921875]
+- Dynamic: {IsSkipClose: true}
+  Gyaml: Obj_EnemyCounter_A_08
+  Hash: !ul 13081955035049902093
+  Links:
+  - {Dst: !ul 1673675859867305609, Gyaml: Reference, Name: Reference, Src: !ul 13081955035049902093}
+  Phive:
+    Placement: {ID: !ul 13081955035049902093}
+  SRTHash: !u 0x6c7ddcf3
+  Translate: [-7.063622951507568, 100.00152587890625, 49.195308685302734]
+- Gyaml: Obj_Plant_Grass_A_04
+  Hash: !ul 8588585634140956440
+  Phive:
+    Placement: {ID: !ul 8588585634140956440}
+  Rotate: [0.0, 0.5061455965042114, 0.0]
+  SRTHash: !u 0xa1473d98
+  Translate: [-1.588891863822937, 100.01335144042969, 53.029380798339844]
+- Gyaml: Obj_Plant_Grass_A_04
+  Hash: !ul 2761655566190213796
+  Phive:
+    Placement: {ID: !ul 2761655566190213796}
+  Rotate: [0.0, 0.0698133260011673, 0.0]
+  SRTHash: !u 0xb8e2acae
+  Translate: [-2.8085930347442627, 100.01335144042969, 52.737430572509766]
+- Gyaml: Obj_Plant_Grass_A_04
+  Hash: !ul 12814950456714565423
+  Phive:
+    Placement: {ID: !ul 12814950456714565423}
+  Rotate: [0.0, -1.0646510124206543, 0.0]
+  SRTHash: !u 0x25bba84c
+  Translate: [-3.5503976345062256, 100.01335144042969, 50.992919921875]
+AiGroups:
+- Hash: !ul 13174738170836201626
+  Logic: Logic/Root/WolfosStage/WolfosStage_d936.logic.root.ain
+  References:
+  - {Id: Area_2bf6, Path: Area_2bf6, Reference: !ul 6622119039217971106}
+  - {Id: Enemy_Wolfos_7104, Path: Enemy_Wolfos_7104, Reference: !ul 1673675859867305609}
+  - {Id: Area_70bf, Path: Area_70bf, Reference: !ul 5038149161575918022}
+  - {Id: NaviAreaHintEventActor_d725, Path: NaviAreaHintEventActor_d725, Reference: !ul 4302511126000190689}
+  - {Id: EventRequestActor_d7a9, Path: EventRequestActor_d7a9, Reference: !ul 4912374098915105784}
+  - {Id: Obj_Plant_Grass_A_01_Respawn_092a, Path: Obj_Plant_Grass_A_01_Respawn_092a,
+    Reference: !ul 12253587007839077983}
+  - {Id: Obj_Plant_Grass_A_01_Respawn_0f5f, Path: Obj_Plant_Grass_A_01_Respawn_0f5f,
+    Reference: !ul 17728622680469768322}
+  - {Id: Obj_Plant_Grass_A_01_Respawn_52a6, Path: Obj_Plant_Grass_A_01_Respawn_52a6,
+    Reference: !ul 3798130014155558643}
+  - {Id: Obj_EnemyCounter_A_08_bbd7, Path: Obj_EnemyCounter_A_08_bbd7, Reference: !ul 13081955035049902093}
+FarDeleteGroups:
+- [!ul 1673675859867305609, !ul 3798130014155558643, !ul 4302511126000190689, !ul 4912374098915105784,
+  !ul 5038149161575918022, !ul 6622119039217971106, !ul 12253587007839077983, !ul 13081955035049902093,
+  !ul 17728622680469768322]
+FilePath: Work/Banc/Scene/DreamWorld/WolfosStage.bcett.json
+PhiveHeader:
+  PlacementGroups: []
+SimultaneousGroups:
+- [!ul 1673675859867305609, !ul 3798130014155558643, !ul 4302511126000190689, !ul 4912374098915105784,
+  !ul 5038149161575918022, !ul 6622119039217971106, !ul 12253587007839077983, !ul 13081955035049902093,
+  !ul 17728622680469768322]

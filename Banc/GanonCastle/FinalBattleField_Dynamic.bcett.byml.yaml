@@ -1,0 +1,102 @@
+Actors:
+- Gyaml: StartPos
+  Hash: !ul 7361919695054381578
+  Name: StartPos_Defeat_Ganon
+  Phive:
+    Placement: {ID: !ul 7361919695054381578}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0xc8937d62
+  Translate: [28.18418312072754, 99.98733520507812, -0.8085942268371582]
+- Dynamic: {PosName: FinalBattleField_Entrance}
+  Gyaml: StartPos
+  Hash: !ul 1593385680016319860
+  Name: FinalBattleField_Entrance
+  Phive:
+    Placement: {ID: !ul 1593385680016319860}
+  Rotate: [0.0, -1.570796251296997, 7.788287348375889e-07]
+  SRTHash: !u 0x0ca11c48
+  Translate: [28.18699836730957, 99.98487854003906, -0.816121518611908]
+- Dynamic: {IsNoDisplayMapIcon: true}
+  Gyaml: FieldAndDungeonEntranceEventRequestActor
+  Hash: !ul 430600979400452051
+  Name: FinalBattleField_Entrance
+  Phive:
+    Placement: {ID: !ul 430600979400452051}
+  SRTHash: !u 0x7e459318
+  Translate: [28.18699836730957, 104.98487854003906, -0.816121518611908]
+- Dynamic: {IsUseFailSafe: true, LoadRadius: 50.0, NextBancParamName: Demo_ShootingLocation_Tapestry_ED}
+  Gyaml: ChangeBancBeforehandAnchor
+  Hash: !ul 6134549178463838747
+  Phive:
+    Placement: {ID: !ul 6134549178463838747}
+  SRTHash: !u 0x16f30d7f
+  Translate: [0.7919197082519531, 100.0175552368164, -1.1798744201660156]
+- Gyaml: StartPos
+  Hash: !ul 9446998579898859081
+  Name: StartPos_Defeat_Ganon_InBattle
+  Phive:
+    Placement: {ID: !ul 9446998579898859081}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x11bee428
+  Translate: [11.65999984741211, 100.04000091552734, -0.10999999940395355]
+- Bakeable: true
+  Gyaml: Land_GanonCastle_LastBattle_Airwall_Outer_Boundary
+  Hash: !ul 12018098791952866757
+  Phive:
+    Placement: {ID: !ul 12018098791952866757}
+  SRTHash: !u 0xc552a342
+- Gyaml: EftLoc_SageRoom_Crystal_00
+  Hash: !ul 3485596457921375087
+  Phive:
+    Placement: {ID: !ul 3485596457921375087}
+  SRTHash: !u 0x2d1b1638
+  Translate: [0.0, -129.15545654296875, -278.2229919433594]
+- Gyaml: EftLoc_SageRoom_LightPillar_00
+  Hash: !ul 4012648470749046013
+  Phive:
+    Placement: {ID: !ul 4012648470749046013}
+  SRTHash: !u 0xfb50665e
+  Translate: [-22.457935333251953, -125.70101928710938, -272.1943054199219]
+- Gyaml: EftLoc_SageRoom_BlueLight_00
+  Hash: !ul 5417542182135722921
+  Phive:
+    Placement: {ID: !ul 5417542182135722921}
+  SRTHash: !u 0x0e0fe6c5
+  Translate: [0.0, -79.15545654296875, -278.2229919433594]
+- Gyaml: EftLoc_SageRoom_LightPillar_00
+  Hash: !ul 6773161973970132537
+  Phive:
+    Placement: {ID: !ul 6773161973970132537}
+  SRTHash: !u 0x465c34c1
+  Translate: [21.997892379760742, -129.55992126464844, -296.7293395996094]
+- Gyaml: EftLoc_SageRoom_LightPillar_00
+  Hash: !ul 4310111811746182747
+  Phive:
+    Placement: {ID: !ul 4310111811746182747}
+  SRTHash: !u 0xca4d4c64
+  Translate: [21.513202667236328, -129.1384735107422, -265.4745788574219]
+- Gyaml: EftLoc_SageRoom_LightPillar_00
+  Hash: !ul 17817553904698840578
+  Phive:
+    Placement: {ID: !ul 17817553904698840578}
+  SRTHash: !u 0xb7e6349e
+  Translate: [25.5295352935791, -120.42301177978516, -278.3321838378906]
+- Gyaml: EftLoc_SageRoom_LightPillar_00
+  Hash: !ul 9422107408763801807
+  Phive:
+    Placement: {ID: !ul 9422107408763801807}
+  SRTHash: !u 0xca9af690
+  Translate: [-6.306692123413086, -121.68954467773438, -254.6199951171875]
+- Gyaml: EftLoc_SageRoom_LightPillar_00
+  Hash: !ul 13623653979402461736
+  Phive:
+    Placement: {ID: !ul 13623653979402461736}
+  SRTHash: !u 0x109d3a07
+  Translate: [-0.010396391153335571, -120.31118774414062, -303.5162048339844]
+- Gyaml: EftLoc_SageRoom_LightPillar_00
+  Hash: !ul 3273523888941099546
+  Phive:
+    Placement: {ID: !ul 3273523888941099546}
+  SRTHash: !u 0xe6712947
+  Translate: [-16.035320281982422, -131.7493896484375, -292.94049072265625]
+FilePath: Work/Banc/Scene/GanonCastle/FinalBattleField.bcett.json

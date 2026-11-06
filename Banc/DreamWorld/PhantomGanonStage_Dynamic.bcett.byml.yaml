@@ -1,0 +1,233 @@
+Actors:
+- Bakeable: true
+  Gyaml: Land_ForestTemple_BossFence_A_01
+  Hash: !ul 2779296706584986606
+  Phive:
+    Placement: {ID: !ul 2779296706584986606}
+  SRTHash: !u 0x260b7402
+  Translate: [0.0, 75.0999984741211, -73.5]
+- Bakeable: true
+  Gyaml: Land_ForestTemple_BossFence_A_01
+  Hash: !ul 4761732568506853176
+  Phive:
+    Placement: {ID: !ul 4761732568506853176}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xda4f390d
+  Translate: [0.0, 75.0999984741211, -51.5]
+- Bakeable: true
+  Gyaml: Land_ForestTemple_BossFence_A_01
+  Hash: !ul 14038365400839486765
+  Phive:
+    Placement: {ID: !ul 14038365400839486765}
+  Rotate: [3.1415927410125732, 1.0471974611282349, 3.1415927410125732]
+  SRTHash: !u 0x3b5ee3e0
+  Translate: [-9.5, 75.0999984741211, -57.0]
+- Bakeable: true
+  Gyaml: Land_ForestTemple_BossFence_A_01
+  Hash: !ul 2342561246983577393
+  Phive:
+    Placement: {ID: !ul 2342561246983577393}
+  Rotate: [3.1415927410125732, -1.0471974611282349, 3.1415927410125732]
+  SRTHash: !u 0x8fd8efb5
+  Translate: [9.5, 75.0999984741211, -57.0]
+- Bakeable: true
+  Gyaml: Land_ForestTemple_BossFence_A_01
+  Hash: !ul 9790796736758072519
+  Phive:
+    Placement: {ID: !ul 9790796736758072519}
+  Rotate: [0.0, -1.0471975803375244, 0.0]
+  SRTHash: !u 0x04fe660c
+  Translate: [9.5, 75.0999984741211, -68.0]
+- Bakeable: true
+  Gyaml: Land_ForestTemple_BossFence_A_02
+  Hash: !ul 10539221394093265298
+  Phive:
+    Placement: {ID: !ul 10539221394093265298}
+  SRTHash: !u 0x0314b790
+  Translate: [-9.323053359985352, 74.99980926513672, -68.03863525390625]
+- Gyaml: Land_ForestTemple_Lamp_D_01
+  Hash: !ul 7816342303713637511
+  Phive:
+    Placement: {ID: !ul 7816342303713637511}
+  Rotate: [3.1415927410125732, -0.523598849773407, 3.1415927410125732]
+  SRTHash: !u 0xf859c121
+  Translate: [8.320674896240234, 64.19229125976562, -48.10044860839844]
+- Gyaml: Land_ForestTemple_Lamp_D_01
+  Hash: !ul 11598137702305751699
+  Phive:
+    Placement: {ID: !ul 11598137702305751699}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0xf3291cf1
+  Translate: [16.63939666748047, 69.32521057128906, -62.531044006347656]
+- Bakeable: true
+  Gyaml: Land_ForestTemple_Pillar_A_03
+  Hash: !ul 7235664544009882621
+  Phive:
+    Placement: {ID: !ul 7235664544009882621}
+  Rotate: [-3.141592502593994, -1.1920928955078125e-07, 3.1415927410125732]
+  SRTHash: !u 0xc9d8d768
+  Translate: [3.6659998893737793, 59.5, -41.58599853515625]
+- Bakeable: true
+  Gyaml: Land_ForestTemple_Pillar_B_03
+  Hash: !ul 8725276344216220551
+  Phive:
+    Placement: {ID: !ul 8725276344216220551}
+  Rotate: [-3.141592502593994, -1.1920928955078125e-07, 3.1415927410125732]
+  SRTHash: !u 0x6c501640
+  Translate: [3.6659998893737793, 61.29999923706055, -42.1359977722168]
+- Bakeable: true
+  Gyaml: Land_ForestTemple_Pillar_A_04
+  Hash: !ul 8865747770585331353
+  Phive:
+    Placement: {ID: !ul 8865747770585331353}
+  Rotate: [-3.141592502593994, -1.1920928955078125e-07, 3.1415927410125732]
+  SRTHash: !u 0x07d89f0e
+  Translate: [3.6659998893737793, 67.5999984741211, -41.58599853515625]
+- Bakeable: true
+  Gyaml: Land_ForestTemple_Pillar_B_03
+  Hash: !ul 15603817976722742898
+  Phive:
+    Placement: {ID: !ul 15603817976722742898}
+  Rotate: [-3.141592502593994, -1.1920928955078125e-07, 3.1415927410125732]
+  SRTHash: !u 0xc922c87f
+  Translate: [3.115999937057495, 61.29999923706055, -41.58599853515625]
+- Bakeable: true
+  Gyaml: Land_ForestTemple_Pillar_A_03
+  Hash: !ul 12330447331006182086
+  Phive:
+    Placement: {ID: !ul 12330447331006182086}
+  Rotate: [0.0, 1.570796251296997, -1.7484555314695172e-07]
+  SRTHash: !u 0x35268bdd
+  Translate: [-3.665891408920288, 59.5, -41.586029052734375]
+- Bakeable: true
+  Gyaml: Land_ForestTemple_Pillar_B_03
+  Hash: !ul 2038932906344147692
+  Phive:
+    Placement: {ID: !ul 2038932906344147692}
+  Rotate: [0.0, 1.570796251296997, -1.7484555314695172e-07]
+  SRTHash: !u 0x7087e369
+  Translate: [-3.115891456604004, 61.29999923706055, -41.586029052734375]
+- Bakeable: true
+  Gyaml: Land_ForestTemple_Pillar_A_04
+  Hash: !ul 16058068825358389246
+  Phive:
+    Placement: {ID: !ul 16058068825358389246}
+  Rotate: [0.0, 1.570796251296997, -1.7484555314695172e-07]
+  SRTHash: !u 0x70946cb2
+  Translate: [-3.665891408920288, 67.5999984741211, -41.586029052734375]
+- Bakeable: true
+  Gyaml: Land_ForestTemple_Pillar_B_03
+  Hash: !ul 13062462425836144025
+  Phive:
+    Placement: {ID: !ul 13062462425836144025}
+  Rotate: [0.0, 1.570796251296997, -1.7484555314695172e-07]
+  SRTHash: !u 0x8503d46e
+  Translate: [-3.665891408920288, 61.29999923706055, -42.13602828979492]
+- Bakeable: true
+  Gyaml: Land_ForestTemple_Pillar_B_03
+  Hash: !ul 185909804326104821
+  Phive:
+    Placement: {ID: !ul 185909804326104821}
+  SRTHash: !u 0x04e545eb
+  Translate: [-3.507795810699463, 62.384605407714844, -50.520721435546875]
+- Bakeable: true
+  Gyaml: Land_ForestTemple_Pillar_A_03
+  Hash: !ul 2418968518140068304
+  Phive:
+    Placement: {ID: !ul 2418968518140068304}
+  SRTHash: !u 0x9537044f
+  Translate: [-3.507795810699463, 59.5, -51.07072067260742]
+- Bakeable: true
+  Gyaml: Land_ForestTemple_Pillar_A_04
+  Hash: !ul 78850881903718003
+  Phive:
+    Placement: {ID: !ul 78850881903718003}
+  SRTHash: !u 0x9bf580f5
+  Translate: [-3.507795810699463, 68.71598815917969, -51.07072067260742]
+- Bakeable: true
+  Gyaml: Land_ForestTemple_Pillar_B_03
+  Hash: !ul 11013836633835399264
+  Phive:
+    Placement: {ID: !ul 11013836633835399264}
+  SRTHash: !u 0xc93c03d4
+  Translate: [-2.9577958583831787, 62.384605407714844, -51.07072067260742]
+- Bakeable: true
+  Gyaml: Land_ForestTemple_BossFence_A_03
+  Hash: !ul 12433782235668695725
+  Phive:
+    Placement: {ID: !ul 12433782235668695725}
+  Rotate: [0.0, 0.5235987901687622, 0.0]
+  SRTHash: !u 0x8e4aa843
+  Translate: [6.2974700927734375, 75.0999984741211, -51.499488830566406]
+- Bakeable: true
+  Gyaml: Land_ForestTemple_BossFence_A_03
+  Hash: !ul 17732986864650062622
+  Phive:
+    Placement: {ID: !ul 17732986864650062622}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x051057f6
+  Translate: [12.647897720336914, 75.0999984741211, -62.458709716796875]
+- Bakeable: true
+  Gyaml: Land_ForestTemple_BossFence_A_03
+  Hash: !ul 2923045032696968194
+  Phive:
+    Placement: {ID: !ul 2923045032696968194}
+  Rotate: [3.1415927410125732, 0.523598849773407, 3.1415927410125732]
+  SRTHash: !u 0xc800f8eb
+  Translate: [6.354453086853027, 75.0999984741211, -73.45316314697266]
+- Bakeable: true
+  Gyaml: Land_ForestTemple_BossFence_A_03
+  Hash: !ul 955818469192736891
+  Phive:
+    Placement: {ID: !ul 955818469192736891}
+  Rotate: [3.1415927410125732, -0.523598849773407, 3.1415927410125732]
+  SRTHash: !u 0x98d1eb1a
+  Translate: [-6.301004409790039, 75.0999984741211, -73.50109100341797]
+- Bakeable: true
+  Gyaml: Land_ForestTemple_BossFence_A_03
+  Hash: !ul 4331631802302866614
+  Phive:
+    Placement: {ID: !ul 4331631802302866614}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x513cd6c1
+  Translate: [-12.642860412597656, 75.0999984741211, -62.514564514160156]
+- Bakeable: true
+  Gyaml: Land_ForestTemple_BossFence_A_03
+  Hash: !ul 6047061816780692454
+  Phive:
+    Placement: {ID: !ul 6047061816780692454}
+  Rotate: [0.0, -0.5235987901687622, 0.0]
+  SRTHash: !u 0x4b8ddfda
+  Translate: [-6.352258205413818, 75.0999984741211, -51.541996002197266]
+- Bakeable: true
+  Gyaml: Land_ForestTemple_BossFence_A_04
+  Hash: !ul 4247410699426792377
+  Phive:
+    Placement: {ID: !ul 4247410699426792377}
+  SRTHash: !u 0x5edc775f
+  Translate: [-9.322999954223633, 75.0, -68.03900146484375]
+- Gyaml: StartPos
+  Hash: !ul 18330819417615830629
+  Name: PhantomGanonStage
+  Phive:
+    Placement: {ID: !ul 18330819417615830629}
+  Rotate: [0.0, 1.0471975803375244, 0.0]
+  SRTHash: !u 0x63461585
+  Translate: [-5.598132610321045, 74.66666412353516, -65.82565307617188]
+- Gyaml: StartPos
+  Hash: !ul 7780189253611059296
+  Name: StartPos_SubEvent_AllBossBattle
+  Phive:
+    Placement: {ID: !ul 7780189253611059296}
+  Rotate: [0.0, 1.1057655811309814, 0.0]
+  SRTHash: !u 0xd1964998
+  Translate: [-5.589868545532227, 74.66667175292969, -65.82921600341797]
+- Gyaml: AirWallEnemy
+  Hash: !ul 8566424242880909569
+  Phive:
+    Placement: {ID: !ul 8566424242880909569}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0xaa4d1653
+  Scale: [3.0, 4.0, 1.7000000476837158]
+  Translate: [-0.04048687219619751, 61.52628707885742, -40.86104965209961]
+FilePath: Work/Banc/Scene/DreamWorld/PhantomGanonStage.bcett.json

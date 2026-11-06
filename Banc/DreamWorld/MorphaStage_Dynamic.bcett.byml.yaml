@@ -1,0 +1,1659 @@
+Actors:
+- Gyaml: StartPos
+  Hash: !ul 7033596347828142418
+  Name: MorphaStage
+  Phive:
+    Placement: {ID: !ul 7033596347828142418}
+  Rotate: [3.1415927410125732, -0.7573055028915405, 3.1415927410125732]
+  SRTHash: !u 0x7376c1e3
+  Translate: [0.16605928540229797, 131.36000061035156, -87.11500549316406]
+- Gyaml: StartPos
+  Hash: !ul 11126198363157567065
+  Name: StartPos_SubEvent_AllBossBattle
+  Phive:
+    Placement: {ID: !ul 11126198363157567065}
+  Rotate: [-3.141592502593994, -0.03251567855477333, -3.141592502593994]
+  SRTHash: !u 0xc269bc99
+  Translate: [-4.495700836181641, 131.22250366210938, -73.26380157470703]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_BossIsland_A_01
+  Hash: !ul 12395572952135124500
+  Phive:
+    Placement: {ID: !ul 12395572952135124500}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x729eca84
+  Translate: [-9.469999313354492, 124.36000061035156, -86.83000183105469]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_BossIsland_A_01
+  Hash: !ul 6657103348410732620
+  Phive:
+    Placement: {ID: !ul 6657103348410732620}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xba5829ee
+  Translate: [-9.469999313354492, 124.36000061035156, -96.83000183105469]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_BossIsland_A_01
+  Hash: !ul 11979807488971997885
+  Phive:
+    Placement: {ID: !ul 11979807488971997885}
+  SRTHash: !u 0xfa31e049
+  Translate: [0.5300002098083496, 124.36000061035156, -96.83000183105469]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_BossWall_A_01
+  Hash: !ul 2346851983703764997
+  Phive:
+    Placement: {ID: !ul 2346851983703764997}
+  SRTHash: !u 0x5910ab96
+  Translate: [-4.46999979019165, 131.36000061035156, -71.08000183105469]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_BossPillar_A_01
+  Hash: !ul 615361032332413402
+  Phive:
+    Placement: {ID: !ul 615361032332413402}
+  Rotate: [3.1415927410125732, -0.7853981852531433, 3.1415927410125732]
+  SRTHash: !u 0x556457d1
+  Translate: [15.530000686645508, 131.2100067138672, -71.8499984741211]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_BossPillar_A_01
+  Hash: !ul 11378633344543183776
+  Phive:
+    Placement: {ID: !ul 11378633344543183776}
+  Rotate: [0.0, 0.7853981852531433, 0.0]
+  SRTHash: !u 0x1dd1c744
+  Translate: [-24.469999313354492, 131.2100067138672, -111.80999755859375]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_BossWall_A_02
+  Hash: !ul 18224018505438029719
+  Phive:
+    Placement: {ID: !ul 18224018505438029719}
+  SRTHash: !u 0x682a74dd
+  Translate: [-4.46999979019165, 131.36000061035156, -91.83000183105469]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_BossWall_A_02
+  Hash: !ul 6206614363920705083
+  Phive:
+    Placement: {ID: !ul 6206614363920705083}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0xf2b8b311
+  Translate: [-4.46999979019165, 131.36000061035156, -91.83000183105469]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_BossWall_A_02
+  Hash: !ul 8116647148379404667
+  Phive:
+    Placement: {ID: !ul 8116647148379404667}
+  Rotate: [3.1415927410125732, 8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x27bb4b12
+  Translate: [-4.46999979019165, 131.36000061035156, -91.83000183105469]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarCapital_B_01
+  Hash: !ul 4386263377993708177
+  Phive:
+    Placement: {ID: !ul 4386263377993708177}
+  Rotate: [0.0, 0.7853981852531433, 0.0]
+  SRTHash: !u 0xd8c3182f
+  Translate: [-24.189998626708984, 139.75999450683594, -111.52999877929688]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarCapital_B_01
+  Hash: !ul 16324321690844110049
+  Phive:
+    Placement: {ID: !ul 16324321690844110049}
+  Rotate: [3.1415927410125732, 0.7853981852531433, 3.1415927410125732]
+  SRTHash: !u 0xfce674ce
+  Translate: [-24.189998626708984, 139.75999450683594, -72.11000061035156]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarCapital_B_01
+  Hash: !ul 9344662436063063634
+  Phive:
+    Placement: {ID: !ul 9344662436063063634}
+  Rotate: [0.0, -0.7853981852531433, 0.0]
+  SRTHash: !u 0x16eb9a88
+  Translate: [15.25, 139.75999450683594, -111.52999877929688]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarCapital_B_01
+  Hash: !ul 954376428414401526
+  Phive:
+    Placement: {ID: !ul 954376428414401526}
+  Rotate: [3.1415927410125732, -0.7853981852531433, 3.1415927410125732]
+  SRTHash: !u 0x24966407
+  Translate: [15.25, 139.78280639648438, -72.11000061035156]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_BossFloor_A_01
+  Hash: !ul 13335606189498447646
+  Phive:
+    Placement: {ID: !ul 13335606189498447646}
+  SRTHash: !u 0x9d641c92
+  Translate: [-4.46999979019165, 124.36000061035156, -91.83000183105469]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_BossGate_A_01
+  Hash: !ul 12474969901488689919
+  Phive:
+    Placement: {ID: !ul 12474969901488689919}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x238a0a3e
+  Translate: [-4.46999979019165, 131.36000061035156, -71.08000183105469]
+- Gyaml: EftLoc_WaterFall_Basin_L_00
+  Hash: !ul 6778246031712103611
+  Phive:
+    Placement: {ID: !ul 6778246031712103611}
+  Presence: {FlagName: WaterTemple_Room23_DeleteBackRoom, IsCheckLazy: false, IsNegation: true}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xe475ef5e
+  Translate: [-12.639999389648438, 131.30999755859375, -72.05999755859375]
+- Gyaml: Land_WaterTemple_WaterFall_A_07
+  Hash: !ul 16805190826187692838
+  Phive:
+    Placement: {ID: !ul 16805190826187692838}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xc6477421
+  Translate: [-12.639999389648438, 136.41000366210938, -71.45999908447266]
+- Gyaml: EftLoc_WaterFall_Basin_L_00
+  Hash: !ul 2138378787005394067
+  Phive:
+    Placement: {ID: !ul 2138378787005394067}
+  Presence: {FlagName: WaterTemple_Room23_DeleteBackRoom, IsCheckLazy: false, IsNegation: true}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xcf618f92
+  Translate: [-19.139999389648438, 131.30999755859375, -72.05999755859375]
+- Gyaml: Land_WaterTemple_WaterFall_A_07
+  Hash: !ul 3095162069464111696
+  Phive:
+    Placement: {ID: !ul 3095162069464111696}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x87e85a85
+  Translate: [-19.139999389648438, 136.41000366210938, -71.45999908447266]
+- Gyaml: EftLoc_WaterFall_Basin_L_00
+  Hash: !ul 8432655677955425163
+  Phive:
+    Placement: {ID: !ul 8432655677955425163}
+  Presence: {FlagName: WaterTemple_Room23_DeleteBackRoom, IsCheckLazy: false, IsNegation: true}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xe55d982a
+  Translate: [3.700000286102295, 131.30999755859375, -72.05999755859375]
+- Gyaml: Land_WaterTemple_WaterFall_A_07
+  Hash: !ul 14702870710743384647
+  Phive:
+    Placement: {ID: !ul 14702870710743384647}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x1b0ad329
+  Translate: [3.700000286102295, 136.41000366210938, -71.45999908447266]
+- Gyaml: EftLoc_WaterFall_Basin_L_00
+  Hash: !ul 14336502511584131088
+  Phive:
+    Placement: {ID: !ul 14336502511584131088}
+  Presence: {FlagName: WaterTemple_Room23_DeleteBackRoom, IsCheckLazy: false, IsNegation: true}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xc8338ef8
+  Translate: [10.200000762939453, 131.30999755859375, -72.05999755859375]
+- Gyaml: Land_WaterTemple_WaterFall_A_07
+  Hash: !ul 7895699967700060241
+  Phive:
+    Placement: {ID: !ul 7895699967700060241}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x1d1685af
+  Translate: [10.200000762939453, 136.41000366210938, -71.45999908447266]
+- Gyaml: EftLoc_WaterFall_Basin_L_00
+  Hash: !ul 1361157166157175130
+  Phive:
+    Placement: {ID: !ul 1361157166157175130}
+  Presence: {FlagName: WaterTemple_Room23_DeleteBackRoom, IsCheckLazy: false, IsNegation: true}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x5a4466bc
+  Translate: [15.30000114440918, 131.30999755859375, -77.18000030517578]
+- Gyaml: Land_WaterTemple_WaterFall_A_07
+  Hash: !ul 3944069353180309528
+  Phive:
+    Placement: {ID: !ul 3944069353180309528}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x6e9ed360
+  Translate: [15.900001525878906, 136.41000366210938, -77.18000030517578]
+- Gyaml: EftLoc_WaterFall_Basin_L_00
+  Hash: !ul 9202187434834054483
+  Phive:
+    Placement: {ID: !ul 9202187434834054483}
+  Presence: {FlagName: WaterTemple_Room23_DeleteBackRoom, IsCheckLazy: false, IsNegation: true}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x1532ceb0
+  Translate: [15.30000114440918, 131.30999755859375, -99.9800033569336]
+- Gyaml: Land_WaterTemple_WaterFall_A_07
+  Hash: !ul 14095644604414056983
+  Phive:
+    Placement: {ID: !ul 14095644604414056983}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0xc3d91b6d
+  Translate: [15.900001525878906, 136.41000366210938, -99.9800033569336]
+- Gyaml: EftLoc_WaterFall_Basin_L_00
+  Hash: !ul 9085974116929103903
+  Phive:
+    Placement: {ID: !ul 9085974116929103903}
+  Presence: {FlagName: WaterTemple_Room23_DeleteBackRoom, IsCheckLazy: false, IsNegation: true}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0xaf6d4e6d
+  Translate: [15.30000114440918, 131.30999755859375, -106.4800033569336]
+- Gyaml: Land_WaterTemple_WaterFall_A_07
+  Hash: !ul 14571503953996405211
+  Phive:
+    Placement: {ID: !ul 14571503953996405211}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x2a19d5bc
+  Translate: [15.900001525878906, 136.41000366210938, -106.4800033569336]
+- Gyaml: EftLoc_WaterFall_Basin_L_00
+  Hash: !ul 2608164298011772409
+  Phive:
+    Placement: {ID: !ul 2608164298011772409}
+  Presence: {FlagName: WaterTemple_Room23_DeleteBackRoom, IsCheckLazy: false, IsNegation: true}
+  SRTHash: !u 0x4afae0c6
+  Translate: [-12.639999389648438, 131.30999755859375, -111.5999984741211]
+- Gyaml: Land_WaterTemple_WaterFall_A_07
+  Hash: !ul 1143693040736568952
+  Phive:
+    Placement: {ID: !ul 1143693040736568952}
+  SRTHash: !u 0x69a0212e
+  Translate: [-12.639999389648438, 136.41000366210938, -112.19999694824219]
+- Gyaml: EftLoc_WaterFall_Basin_L_00
+  Hash: !ul 10436970337155703656
+  Phive:
+    Placement: {ID: !ul 10436970337155703656}
+  Presence: {FlagName: WaterTemple_Room23_DeleteBackRoom, IsCheckLazy: false, IsNegation: true}
+  SRTHash: !u 0x3e68c8cb
+  Translate: [-19.139999389648438, 131.30999755859375, -111.5999984741211]
+- Gyaml: Land_WaterTemple_WaterFall_A_07
+  Hash: !ul 5311312637191758570
+  Phive:
+    Placement: {ID: !ul 5311312637191758570}
+  SRTHash: !u 0xbeecc162
+  Translate: [-19.139999389648438, 136.41000366210938, -112.19999694824219]
+- Gyaml: EftLoc_WaterFall_Basin_L_00
+  Hash: !ul 11590524780514684928
+  Phive:
+    Placement: {ID: !ul 11590524780514684928}
+  Presence: {FlagName: WaterTemple_Room23_DeleteBackRoom, IsCheckLazy: false, IsNegation: true}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x79227c2e
+  Translate: [-24.239999771118164, 131.30999755859375, -77.18000030517578]
+- Gyaml: Land_WaterTemple_WaterFall_A_07
+  Hash: !ul 9813475042214285382
+  Phive:
+    Placement: {ID: !ul 9813475042214285382}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x5defadc8
+  Translate: [-24.84000015258789, 136.41000366210938, -77.18000030517578]
+- Gyaml: EftLoc_WaterFall_Basin_L_00
+  Hash: !ul 7408290344959173067
+  Phive:
+    Placement: {ID: !ul 7408290344959173067}
+  Presence: {FlagName: WaterTemple_Room23_DeleteBackRoom, IsCheckLazy: false, IsNegation: true}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xf7c7a2a8
+  Translate: [-24.239999771118164, 131.30999755859375, -83.68000030517578]
+- Gyaml: Land_WaterTemple_WaterFall_A_07
+  Hash: !ul 18288103288854519943
+  Phive:
+    Placement: {ID: !ul 18288103288854519943}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xe1aef738
+  Translate: [-24.84000015258789, 136.41000366210938, -83.68000030517578]
+- Gyaml: EftLoc_WaterFall_Basin_L_00
+  Hash: !ul 18053042939560673017
+  Phive:
+    Placement: {ID: !ul 18053042939560673017}
+  Presence: {FlagName: WaterTemple_Room23_DeleteBackRoom, IsCheckLazy: false, IsNegation: true}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x89d08ccb
+  Translate: [-24.239999771118164, 131.30999755859375, -99.9800033569336]
+- Gyaml: Land_WaterTemple_WaterFall_A_07
+  Hash: !ul 8211164954316737653
+  Phive:
+    Placement: {ID: !ul 8211164954316737653}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x7a247796
+  Translate: [-24.84000015258789, 136.41000366210938, -99.9800033569336]
+- Gyaml: EftLoc_WaterFall_Basin_L_00
+  Hash: !ul 9211873633723060603
+  Phive:
+    Placement: {ID: !ul 9211873633723060603}
+  Presence: {FlagName: WaterTemple_Room23_DeleteBackRoom, IsCheckLazy: false, IsNegation: true}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x7f434696
+  Translate: [-24.239999771118164, 131.30999755859375, -106.4800033569336]
+- Gyaml: Land_WaterTemple_WaterFall_A_07
+  Hash: !ul 17001314532383077110
+  Phive:
+    Placement: {ID: !ul 17001314532383077110}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xf4644b8a
+  Translate: [-24.84000015258789, 136.41000366210938, -106.4800033569336]
+- Gyaml: EftLoc_WaterFall_Basin_L_00
+  Hash: !ul 2366644119898522902
+  Phive:
+    Placement: {ID: !ul 2366644119898522902}
+  Presence: {FlagName: WaterTemple_Room23_DeleteBackRoom, IsCheckLazy: false, IsNegation: true}
+  SRTHash: !u 0x3e538441
+  Translate: [3.700000286102295, 131.30999755859375, -111.5999984741211]
+- Gyaml: Land_WaterTemple_WaterFall_A_07
+  Hash: !ul 1783755854555186667
+  Phive:
+    Placement: {ID: !ul 1783755854555186667}
+  SRTHash: !u 0xdf57c96e
+  Translate: [3.700000286102295, 136.41000366210938, -112.19999694824219]
+- Gyaml: EftLoc_WaterFall_Basin_L_00
+  Hash: !ul 13385880093413526957
+  Phive:
+    Placement: {ID: !ul 13385880093413526957}
+  Presence: {FlagName: WaterTemple_Room23_DeleteBackRoom, IsCheckLazy: false, IsNegation: true}
+  SRTHash: !u 0x78d1e7d2
+  Translate: [10.200000762939453, 131.30999755859375, -111.5999984741211]
+- Gyaml: Land_WaterTemple_WaterFall_A_07
+  Hash: !ul 9355476043784769828
+  Phive:
+    Placement: {ID: !ul 9355476043784769828}
+  SRTHash: !u 0x5e6108f8
+  Translate: [10.200000762939453, 136.41000366210938, -112.19999694824219]
+- Gyaml: EftLoc_WaterFall_Basin_L_00
+  Hash: !ul 14886749956247010587
+  Phive:
+    Placement: {ID: !ul 14886749956247010587}
+  Presence: {FlagName: WaterTemple_Room23_DeleteBackRoom, IsCheckLazy: false, IsNegation: true}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x4cffa6a8
+  Translate: [15.30000114440918, 131.30999755859375, -83.68000030517578]
+- Gyaml: Land_WaterTemple_WaterFall_A_07
+  Hash: !ul 8790561964296159814
+  Phive:
+    Placement: {ID: !ul 8790561964296159814}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x45c29e2a
+  Translate: [15.900001525878906, 136.41000366210938, -83.68000030517578]
+- Bakeable: true
+  Gyaml: Obj_WaterTemple_HookShotTarget_A_02
+  Hash: !ul 14059909856288601239
+  Phive:
+    Placement: {ID: !ul 14059909856288601239}
+  Rotate: [-3.141592502593994, 0.0, -3.141592502593994]
+  SRTHash: !u 0x3a1a92ab
+  Translate: [-1.119999885559082, 134.75, -71.76000213623047]
+- Bakeable: true
+  Gyaml: Obj_WaterTemple_HookShotTarget_C_01
+  Hash: !ul 10201644622506971239
+  Phive:
+    Placement: {ID: !ul 10201644622506971239}
+  Rotate: [-3.141592502593994, 0.0, -3.141592502593994]
+  SRTHash: !u 0xd400c9c3
+  Translate: [-1.1066131591796875, 137.06399536132812, -72.39300537109375]
+- Bakeable: true
+  Gyaml: Obj_WaterTemple_HookShotDecoration_A_03
+  Hash: !ul 15331274736571804173
+  Phive:
+    Placement: {ID: !ul 15331274736571804173}
+  Rotate: [-3.141592502593994, 0.0, -3.141592502593994]
+  SRTHash: !u 0x8b2e65fc
+  Translate: [-1.1069998741149902, 137.06399536132812, -72.39300537109375]
+- Bakeable: true
+  Gyaml: Obj_WaterTemple_HookShotTarget_A_02
+  Hash: !ul 13227642185995139777
+  Phive:
+    Placement: {ID: !ul 13227642185995139777}
+  Rotate: [-3.141592502593994, 0.0, -3.141592502593994]
+  SRTHash: !u 0xa093e852
+  Translate: [-7.819999694824219, 134.75, -71.76000213623047]
+- Bakeable: true
+  Gyaml: Obj_WaterTemple_HookShotTarget_C_01
+  Hash: !ul 11983472117147105180
+  Phive:
+    Placement: {ID: !ul 11983472117147105180}
+  Rotate: [-3.141592502593994, 0.0, -3.141592502593994]
+  SRTHash: !u 0x6a4672ea
+  Translate: [-7.806612968444824, 137.06399536132812, -72.39300537109375]
+- Bakeable: true
+  Gyaml: Obj_WaterTemple_HookShotDecoration_A_03
+  Hash: !ul 15293054331022149685
+  Phive:
+    Placement: {ID: !ul 15293054331022149685}
+  Rotate: [-3.141592502593994, 0.0, -3.141592502593994]
+  SRTHash: !u 0x0e7f2ed2
+  Translate: [-7.806999683380127, 137.06399536132812, -72.39300537109375]
+- Bakeable: true
+  Gyaml: Obj_WaterTemple_HookShotTarget_A_02
+  Hash: !ul 2020262636631622723
+  Phive:
+    Placement: {ID: !ul 2020262636631622723}
+  SRTHash: !u 0x0ae85dc2
+  Translate: [-7.819999694824219, 134.75, -112.18000030517578]
+- Bakeable: true
+  Gyaml: Obj_WaterTemple_HookShotTarget_C_01
+  Hash: !ul 8249072568814531389
+  Phive:
+    Placement: {ID: !ul 8249072568814531389}
+  SRTHash: !u 0x535e5ec5
+  Translate: [-7.833386421203613, 137.06399536132812, -111.5469970703125]
+- Bakeable: true
+  Gyaml: Obj_WaterTemple_HookShotDecoration_A_03
+  Hash: !ul 5704690569496925274
+  Phive:
+    Placement: {ID: !ul 5704690569496925274}
+  SRTHash: !u 0x451c46a1
+  Translate: [-7.8329997062683105, 137.06399536132812, -111.5469970703125]
+- Bakeable: true
+  Gyaml: Obj_WaterTemple_HookShotTarget_A_02
+  Hash: !ul 13255233498097420612
+  Phive:
+    Placement: {ID: !ul 13255233498097420612}
+  SRTHash: !u 0xaa19a5f0
+  Translate: [-1.119999885559082, 134.75, -112.18000030517578]
+- Bakeable: true
+  Gyaml: Obj_WaterTemple_HookShotTarget_C_01
+  Hash: !ul 1314663414419643438
+  Phive:
+    Placement: {ID: !ul 1314663414419643438}
+  SRTHash: !u 0x918ea4f8
+  Translate: [-1.1333866119384766, 137.06399536132812, -111.5469970703125]
+- Bakeable: true
+  Gyaml: Obj_WaterTemple_HookShotDecoration_A_03
+  Hash: !ul 3175742044948352827
+  Phive:
+    Placement: {ID: !ul 3175742044948352827}
+  SRTHash: !u 0x8ce13734
+  Translate: [-1.1329998970031738, 137.06399536132812, -111.5469970703125]
+- Bakeable: true
+  Gyaml: Obj_WaterTemple_HookShotTarget_A_02
+  Hash: !ul 7124217873448262076
+  Phive:
+    Placement: {ID: !ul 7124217873448262076}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xfdfecfea
+  Translate: [-24.84000015258789, 134.75, -88.4800033569336]
+- Bakeable: true
+  Gyaml: Obj_WaterTemple_HookShotTarget_C_01
+  Hash: !ul 6646343254828370293
+  Phive:
+    Placement: {ID: !ul 6646343254828370293}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x9b7de327
+  Translate: [-24.207000732421875, 137.06399536132812, -88.46661376953125]
+- Bakeable: true
+  Gyaml: Obj_WaterTemple_HookShotDecoration_A_03
+  Hash: !ul 1571687543539167580
+  Phive:
+    Placement: {ID: !ul 1571687543539167580}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x9b7de327
+  Translate: [-24.207000732421875, 137.06399536132812, -88.46700286865234]
+- Bakeable: true
+  Gyaml: Obj_WaterTemple_HookShotTarget_A_02
+  Hash: !ul 14822521100927434365
+  Phive:
+    Placement: {ID: !ul 14822521100927434365}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x8cdd444b
+  Translate: [-24.84000015258789, 134.75, -95.18000030517578]
+- Bakeable: true
+  Gyaml: Obj_WaterTemple_HookShotTarget_C_01
+  Hash: !ul 4468113255255352136
+  Phive:
+    Placement: {ID: !ul 4468113255255352136}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xf90077c9
+  Translate: [-24.207000732421875, 137.06399536132812, -95.16661071777344]
+- Bakeable: true
+  Gyaml: Obj_WaterTemple_HookShotDecoration_A_03
+  Hash: !ul 14602170231974478993
+  Phive:
+    Placement: {ID: !ul 14602170231974478993}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xf90077c9
+  Translate: [-24.207000732421875, 137.06399536132812, -95.16699981689453]
+- Bakeable: true
+  Gyaml: Obj_WaterTemple_HookShotTarget_A_02
+  Hash: !ul 2699788670645673793
+  Phive:
+    Placement: {ID: !ul 2699788670645673793}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x48276b21
+  Translate: [15.900001525878906, 134.75, -88.4800033569336]
+- Bakeable: true
+  Gyaml: Obj_WaterTemple_HookShotTarget_C_01
+  Hash: !ul 7960197830883279198
+  Phive:
+    Placement: {ID: !ul 7960197830883279198}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0xf26ab38f
+  Translate: [15.26700210571289, 137.06399536132812, -88.49339294433594]
+- Bakeable: true
+  Gyaml: Obj_WaterTemple_HookShotDecoration_A_03
+  Hash: !ul 11985928488706213703
+  Phive:
+    Placement: {ID: !ul 11985928488706213703}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0xf26ab38f
+  Translate: [15.26700210571289, 137.06399536132812, -88.49300384521484]
+- Bakeable: true
+  Gyaml: Obj_WaterTemple_HookShotTarget_A_02
+  Hash: !ul 7243040174352570315
+  Phive:
+    Placement: {ID: !ul 7243040174352570315}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0xd9e19f11
+  Translate: [15.900001525878906, 134.75, -95.18000030517578]
+- Bakeable: true
+  Gyaml: Obj_WaterTemple_HookShotTarget_C_01
+  Hash: !ul 4555672858977586668
+  Phive:
+    Placement: {ID: !ul 4555672858977586668}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x304a1bb3
+  Translate: [15.26700210571289, 137.06399536132812, -95.19338989257812]
+- Bakeable: true
+  Gyaml: Obj_WaterTemple_HookShotDecoration_A_03
+  Hash: !ul 12116850311696004577
+  Phive:
+    Placement: {ID: !ul 12116850311696004577}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x304a1bb3
+  Translate: [15.26700210571289, 137.06399536132812, -95.19300079345703]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarCapital_D_01
+  Hash: !ul 4381985883072653257
+  Phive:
+    Placement: {ID: !ul 4381985883072653257}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x852aa0dc
+  Translate: [-15.889999389648438, 148.66000366210938, -72.64009857177734]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarPedestal_D_01
+  Hash: !ul 7943019228522105993
+  Phive:
+    Placement: {ID: !ul 7943019228522105993}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xd142c1e8
+  Translate: [-15.889999389648438, 144.66000366210938, -72.63999938964844]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarDecoration_D_02
+  Hash: !ul 13005985667788140183
+  Phive:
+    Placement: {ID: !ul 13005985667788140183}
+  Rotate: [-3.141592264175415, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xa7ebeb3d
+  Translate: [-15.889999389648438, 148.65052795410156, -72.63999938964844]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarPole_D_04
+  Hash: !ul 7118333098684991196
+  Phive:
+    Placement: {ID: !ul 7118333098684991196}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0xf1f01ca3
+  Translate: [-15.889999389648438, 148.5596923828125, -72.64009857177734]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarCapital_D_01
+  Hash: !ul 17907092508611937465
+  Phive:
+    Placement: {ID: !ul 17907092508611937465}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xbaf5cb17
+  Translate: [-22.389999389648438, 148.66000366210938, -72.64009857177734]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarPedestal_D_01
+  Hash: !ul 2781113442186550360
+  Phive:
+    Placement: {ID: !ul 2781113442186550360}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x2682f3fe
+  Translate: [-22.389999389648438, 144.66000366210938, -72.63999938964844]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarDecoration_D_02
+  Hash: !ul 7534795997396115415
+  Phive:
+    Placement: {ID: !ul 7534795997396115415}
+  Rotate: [-3.141592264175415, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x7ebadd49
+  Translate: [-22.389999389648438, 148.65052795410156, -72.63999938964844]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarPole_D_04
+  Hash: !ul 12649871468168226702
+  Phive:
+    Placement: {ID: !ul 12649871468168226702}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x3b113c78
+  Translate: [-22.389999389648438, 148.5596923828125, -72.64009857177734]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarCapital_D_01
+  Hash: !ul 16176574216682351875
+  Phive:
+    Placement: {ID: !ul 16176574216682351875}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x33ff0753
+  Translate: [-9.389999389648438, 148.66000366210938, -72.64009857177734]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarPedestal_D_01
+  Hash: !ul 2721478931770332540
+  Phive:
+    Placement: {ID: !ul 2721478931770332540}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x50c3a23b
+  Translate: [-9.389999389648438, 144.66000366210938, -72.63999938964844]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarDecoration_D_02
+  Hash: !ul 8047036168506387145
+  Phive:
+    Placement: {ID: !ul 8047036168506387145}
+  Rotate: [-3.141592264175415, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x3fd963d1
+  Translate: [-9.389999389648438, 148.65052795410156, -72.63999938964844]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarPole_D_04
+  Hash: !ul 10257293727858248463
+  Phive:
+    Placement: {ID: !ul 10257293727858248463}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0xf984d5f8
+  Translate: [-9.389999389648438, 148.5596923828125, -72.64009857177734]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarCapital_D_01
+  Hash: !ul 1338340437738257964
+  Phive:
+    Placement: {ID: !ul 1338340437738257964}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xcea7998f
+  Translate: [0.4500002861022949, 148.66000366210938, -72.64009857177734]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarPedestal_D_01
+  Hash: !ul 6454809022539751879
+  Phive:
+    Placement: {ID: !ul 6454809022539751879}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xeef4d414
+  Translate: [0.4500002861022949, 144.66000366210938, -72.63999938964844]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarDecoration_D_02
+  Hash: !ul 11422185271897486713
+  Phive:
+    Placement: {ID: !ul 11422185271897486713}
+  Rotate: [-3.141592264175415, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x5f5e7631
+  Translate: [0.4500002861022949, 148.65052795410156, -72.63999938964844]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarPole_D_04
+  Hash: !ul 6377843954413927991
+  Phive:
+    Placement: {ID: !ul 6377843954413927991}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0xd1a9d0e8
+  Translate: [0.4500002861022949, 148.5596923828125, -72.64009857177734]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarCapital_D_01
+  Hash: !ul 1343807655680475844
+  Phive:
+    Placement: {ID: !ul 1343807655680475844}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x514e261d
+  Translate: [6.950000286102295, 148.66000366210938, -72.64009857177734]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarPedestal_D_01
+  Hash: !ul 8601940042794036124
+  Phive:
+    Placement: {ID: !ul 8601940042794036124}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x81e48b1b
+  Translate: [6.950000286102295, 144.66000366210938, -72.63999938964844]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarDecoration_D_02
+  Hash: !ul 10292902856223978881
+  Phive:
+    Placement: {ID: !ul 10292902856223978881}
+  Rotate: [-3.141592264175415, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x7ff7c32e
+  Translate: [6.950000286102295, 148.65052795410156, -72.63999938964844]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarPole_D_04
+  Hash: !ul 9851434524607209935
+  Phive:
+    Placement: {ID: !ul 9851434524607209935}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x9f072848
+  Translate: [6.950000286102295, 148.5596923828125, -72.64009857177734]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarCapital_D_01
+  Hash: !ul 13787117848669700087
+  Phive:
+    Placement: {ID: !ul 13787117848669700087}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x057a1739
+  Translate: [13.450000762939453, 148.66000366210938, -72.64009857177734]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarPedestal_D_01
+  Hash: !ul 14543930330589279450
+  Phive:
+    Placement: {ID: !ul 14543930330589279450}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x24acb5c6
+  Translate: [13.450000762939453, 144.66000366210938, -72.63999938964844]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarDecoration_D_02
+  Hash: !ul 280883360159213268
+  Phive:
+    Placement: {ID: !ul 280883360159213268}
+  Rotate: [-3.141592264175415, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xb78983e3
+  Translate: [13.450000762939453, 148.65052795410156, -72.63999938964844]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarPole_D_04
+  Hash: !ul 16960701816432541314
+  Phive:
+    Placement: {ID: !ul 16960701816432541314}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x5155990d
+  Translate: [13.450000762939453, 148.5596923828125, -72.64009857177734]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarCapital_D_01
+  Hash: !ul 15047699439774165455
+  Phive:
+    Placement: {ID: !ul 15047699439774165455}
+  SRTHash: !u 0x63631f46
+  Translate: [0.4500002861022949, 148.66000366210938, -111.03990173339844]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarPedestal_D_01
+  Hash: !ul 1897750456444146440
+  Phive:
+    Placement: {ID: !ul 1897750456444146440}
+  SRTHash: !u 0xa0671471
+  Translate: [0.4500002861022949, 144.66000366210938, -111.04000091552734]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarDecoration_D_02
+  Hash: !ul 5808138404711261949
+  Phive:
+    Placement: {ID: !ul 5808138404711261949}
+  SRTHash: !u 0x45589d3d
+  Translate: [0.4500002861022949, 148.65052795410156, -111.04000091552734]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarPole_D_04
+  Hash: !ul 11142398234885770946
+  Phive:
+    Placement: {ID: !ul 11142398234885770946}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x929997e3
+  Translate: [0.4500002861022949, 148.5596923828125, -111.03990173339844]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarCapital_D_01
+  Hash: !ul 6012299462964923191
+  Phive:
+    Placement: {ID: !ul 6012299462964923191}
+  SRTHash: !u 0x45e88e18
+  Translate: [-22.389999389648438, 148.66000366210938, -111.03990173339844]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarPedestal_D_01
+  Hash: !ul 9931312883862445082
+  Phive:
+    Placement: {ID: !ul 9931312883862445082}
+  SRTHash: !u 0x0c36fbd3
+  Translate: [-22.389999389648438, 144.66000366210938, -111.04000091552734]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarDecoration_D_02
+  Hash: !ul 15500483217772762644
+  Phive:
+    Placement: {ID: !ul 15500483217772762644}
+  SRTHash: !u 0xd0218d2d
+  Translate: [-22.389999389648438, 148.65052795410156, -111.04000091552734]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarPole_D_04
+  Hash: !ul 6296450995267494210
+  Phive:
+    Placement: {ID: !ul 6296450995267494210}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xca0278e1
+  Translate: [-22.389999389648438, 148.5596923828125, -111.03990173339844]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarCapital_D_01
+  Hash: !ul 2951075073665671920
+  Phive:
+    Placement: {ID: !ul 2951075073665671920}
+  SRTHash: !u 0x1a97e384
+  Translate: [-9.389999389648438, 148.66000366210938, -111.03990173339844]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarPedestal_D_01
+  Hash: !ul 11416310452148017696
+  Phive:
+    Placement: {ID: !ul 11416310452148017696}
+  SRTHash: !u 0x803753b5
+  Translate: [-9.389999389648438, 144.66000366210938, -111.04000091552734]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarDecoration_D_02
+  Hash: !ul 15601402564504575005
+  Phive:
+    Placement: {ID: !ul 15601402564504575005}
+  SRTHash: !u 0x89b0604f
+  Translate: [-9.389999389648438, 148.65052795410156, -111.04000091552734]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarPole_D_04
+  Hash: !ul 4798806912484868583
+  Phive:
+    Placement: {ID: !ul 4798806912484868583}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xb02c1ec5
+  Translate: [-9.389999389648438, 148.5596923828125, -111.03990173339844]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarCapital_D_01
+  Hash: !ul 1719439623853770362
+  Phive:
+    Placement: {ID: !ul 1719439623853770362}
+  SRTHash: !u 0xd801156a
+  Translate: [13.450000762939453, 148.66000366210938, -111.03990173339844]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarPedestal_D_01
+  Hash: !ul 8386357626177319238
+  Phive:
+    Placement: {ID: !ul 8386357626177319238}
+  SRTHash: !u 0xa31a366b
+  Translate: [13.450000762939453, 144.66000366210938, -111.04000091552734]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarDecoration_D_02
+  Hash: !ul 12956822643222118057
+  Phive:
+    Placement: {ID: !ul 12956822643222118057}
+  SRTHash: !u 0x21c586ed
+  Translate: [13.450000762939453, 148.65052795410156, -111.04000091552734]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarPole_D_04
+  Hash: !ul 10069850272318682743
+  Phive:
+    Placement: {ID: !ul 10069850272318682743}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x02a731f8
+  Translate: [13.450000762939453, 148.5596923828125, -111.03990173339844]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarCapital_D_01
+  Hash: !ul 16666945401627619248
+  Phive:
+    Placement: {ID: !ul 16666945401627619248}
+  SRTHash: !u 0x1043da3a
+  Translate: [-15.889999389648438, 148.66000366210938, -111.03990173339844]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarPedestal_D_01
+  Hash: !ul 2685957943338549472
+  Phive:
+    Placement: {ID: !ul 2685957943338549472}
+  SRTHash: !u 0x21c3689d
+  Translate: [-15.889999389648438, 144.66000366210938, -111.04000091552734]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarDecoration_D_02
+  Hash: !ul 7197595382750516821
+  Phive:
+    Placement: {ID: !ul 7197595382750516821}
+  SRTHash: !u 0x953e8ee1
+  Translate: [-15.889999389648438, 148.65052795410156, -111.04000091552734]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarPole_D_04
+  Hash: !ul 10622610987043606186
+  Phive:
+    Placement: {ID: !ul 10622610987043606186}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x66cf3e34
+  Translate: [-15.889999389648438, 148.5596923828125, -111.03990173339844]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarCapital_D_01
+  Hash: !ul 9909661511628138022
+  Phive:
+    Placement: {ID: !ul 9909661511628138022}
+  SRTHash: !u 0x4889d448
+  Translate: [6.950000286102295, 148.66000366210938, -111.03990173339844]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarPedestal_D_01
+  Hash: !ul 18411672877537091083
+  Phive:
+    Placement: {ID: !ul 18411672877537091083}
+  SRTHash: !u 0x20520507
+  Translate: [6.950000286102295, 144.66000366210938, -111.04000091552734]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarDecoration_D_02
+  Hash: !ul 4158120915327687458
+  Phive:
+    Placement: {ID: !ul 4158120915327687458}
+  SRTHash: !u 0xeb3be646
+  Translate: [6.950000286102295, 148.65052795410156, -111.04000091552734]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarPole_D_04
+  Hash: !ul 16551016776975632976
+  Phive:
+    Placement: {ID: !ul 16551016776975632976}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x1bf64423
+  Translate: [6.950000286102295, 148.5596923828125, -111.03990173339844]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarCapital_D_01
+  Hash: !ul 10138449260966274292
+  Phive:
+    Placement: {ID: !ul 10138449260966274292}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x58d0a4be
+  Translate: [-23.659900665283203, 148.66000366210938, -73.93000030517578]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarPedestal_D_01
+  Hash: !ul 18041051295044684829
+  Phive:
+    Placement: {ID: !ul 18041051295044684829}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x33b6d53d
+  Translate: [-23.65999984741211, 144.66000366210938, -73.93000030517578]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarDecoration_D_02
+  Hash: !ul 4378490771084569366
+  Phive:
+    Placement: {ID: !ul 4378490771084569366}
+  Rotate: [0.0, 1.570796251296997, -3.019916050561733e-07]
+  SRTHash: !u 0x1d5617e9
+  Translate: [-23.659997940063477, 148.65052795410156, -73.93000030517578]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarPole_D_04
+  Hash: !ul 18035820567438916585
+  Phive:
+    Placement: {ID: !ul 18035820567438916585}
+  Rotate: [3.1415927410125732, 3.178651297730539e-08, 3.1415927410125732]
+  SRTHash: !u 0x73423007
+  Translate: [-23.659900665283203, 148.5596923828125, -73.93000030517578]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarCapital_D_01
+  Hash: !ul 1904590282442646997
+  Phive:
+    Placement: {ID: !ul 1904590282442646997}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x03fd9a6f
+  Translate: [-23.659900665283203, 148.66000366210938, -86.93000030517578]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarPedestal_D_01
+  Hash: !ul 8133642540667702060
+  Phive:
+    Placement: {ID: !ul 8133642540667702060}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xeb21ec41
+  Translate: [-23.65999984741211, 144.66000366210938, -86.93000030517578]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarDecoration_D_02
+  Hash: !ul 12554190996291956246
+  Phive:
+    Placement: {ID: !ul 12554190996291956246}
+  Rotate: [0.0, 1.570796251296997, -3.019916050561733e-07]
+  SRTHash: !u 0xe0ff4281
+  Translate: [-23.659997940063477, 148.65052795410156, -86.93000030517578]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarPole_D_04
+  Hash: !ul 9245300766797596383
+  Phive:
+    Placement: {ID: !ul 9245300766797596383}
+  Rotate: [3.1415927410125732, 3.178651297730539e-08, 3.1415927410125732]
+  SRTHash: !u 0xf575bee1
+  Translate: [-23.659900665283203, 148.5596923828125, -86.93000030517578]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarCapital_D_01
+  Hash: !ul 5924631253650554887
+  Phive:
+    Placement: {ID: !ul 5924631253650554887}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xbb155ea8
+  Translate: [-23.659900665283203, 148.66000366210938, -80.43000030517578]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarPedestal_D_01
+  Hash: !ul 10670855275023624402
+  Phive:
+    Placement: {ID: !ul 10670855275023624402}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x8525b5c4
+  Translate: [-23.65999984741211, 144.66000366210938, -80.43000030517578]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarDecoration_D_02
+  Hash: !ul 15999592446766009156
+  Phive:
+    Placement: {ID: !ul 15999592446766009156}
+  Rotate: [0.0, 1.570796251296997, -3.019916050561733e-07]
+  SRTHash: !u 0x92e3e889
+  Translate: [-23.659997940063477, 148.65052795410156, -80.43000030517578]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarPole_D_04
+  Hash: !ul 6630585021578210362
+  Phive:
+    Placement: {ID: !ul 6630585021578210362}
+  Rotate: [3.1415927410125732, 3.178651297730539e-08, 3.1415927410125732]
+  SRTHash: !u 0x53c96c6a
+  Translate: [-23.659900665283203, 148.5596923828125, -80.43000030517578]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarCapital_D_01
+  Hash: !ul 15244015897731581141
+  Phive:
+    Placement: {ID: !ul 15244015897731581141}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x698f4f08
+  Translate: [-23.659900665283203, 148.66000366210938, -103.2300033569336]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarPedestal_D_01
+  Hash: !ul 4140349159040891965
+  Phive:
+    Placement: {ID: !ul 4140349159040891965}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xc539c5bc
+  Translate: [-23.65999984741211, 144.66000366210938, -103.2300033569336]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarDecoration_D_02
+  Hash: !ul 8628064854089678839
+  Phive:
+    Placement: {ID: !ul 8628064854089678839}
+  Rotate: [0.0, 1.570796251296997, -3.019916050561733e-07]
+  SRTHash: !u 0x5b8bfe2d
+  Translate: [-23.659997940063477, 148.65052795410156, -103.2300033569336]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarPole_D_04
+  Hash: !ul 13222727685164967886
+  Phive:
+    Placement: {ID: !ul 13222727685164967886}
+  Rotate: [3.1415927410125732, 3.178651297730539e-08, 3.1415927410125732]
+  SRTHash: !u 0x46d1d295
+  Translate: [-23.659900665283203, 148.5596923828125, -103.2300033569336]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarCapital_D_01
+  Hash: !ul 8985739871433724243
+  Phive:
+    Placement: {ID: !ul 8985739871433724243}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xe12eed81
+  Translate: [-23.659900665283203, 148.66000366210938, -96.7300033569336]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarPedestal_D_01
+  Hash: !ul 10065387092468406944
+  Phive:
+    Placement: {ID: !ul 10065387092468406944}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x368e61fe
+  Translate: [-23.65999984741211, 144.66000366210938, -96.7300033569336]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarDecoration_D_02
+  Hash: !ul 14808678354185840781
+  Phive:
+    Placement: {ID: !ul 14808678354185840781}
+  Rotate: [0.0, 1.570796251296997, -3.019916050561733e-07]
+  SRTHash: !u 0x88464b98
+  Translate: [-23.659997940063477, 148.65052795410156, -96.7300033569336]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarPole_D_04
+  Hash: !ul 3069585252307857190
+  Phive:
+    Placement: {ID: !ul 3069585252307857190}
+  Rotate: [3.1415927410125732, 3.178651297730539e-08, 3.1415927410125732]
+  SRTHash: !u 0xb6d68ebc
+  Translate: [-23.659900665283203, 148.5596923828125, -96.7300033569336]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarCapital_D_01
+  Hash: !ul 5507586109751731643
+  Phive:
+    Placement: {ID: !ul 5507586109751731643}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xf0e90e46
+  Translate: [-23.659900665283203, 148.66000366210938, -109.7300033569336]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarPedestal_D_01
+  Hash: !ul 12893895259411111321
+  Phive:
+    Placement: {ID: !ul 12893895259411111321}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x5b16af02
+  Translate: [-23.65999984741211, 144.66000366210938, -109.7300033569336]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarDecoration_D_02
+  Hash: !ul 18174592224218551146
+  Phive:
+    Placement: {ID: !ul 18174592224218551146}
+  Rotate: [0.0, 1.570796251296997, -3.019916050561733e-07]
+  SRTHash: !u 0xa6d58d33
+  Translate: [-23.659997940063477, 148.65052795410156, -109.7300033569336]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarPole_D_04
+  Hash: !ul 2459663245125664940
+  Phive:
+    Placement: {ID: !ul 2459663245125664940}
+  Rotate: [3.1415927410125732, 3.178651297730539e-08, 3.1415927410125732]
+  SRTHash: !u 0x3b1b177b
+  Translate: [-23.659900665283203, 148.5596923828125, -109.7300033569336]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarCapital_D_01
+  Hash: !ul 1448173296924159571
+  Phive:
+    Placement: {ID: !ul 1448173296924159571}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0xc24185f6
+  Translate: [14.719902038574219, 148.66000366210938, -109.7300033569336]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarPedestal_D_01
+  Hash: !ul 8804084164100343406
+  Phive:
+    Placement: {ID: !ul 8804084164100343406}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0xa4fda775
+  Translate: [14.720001220703125, 144.66000366210938, -109.7300033569336]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarDecoration_D_02
+  Hash: !ul 12973733493905681173
+  Phive:
+    Placement: {ID: !ul 12973733493905681173}
+  Rotate: [0.0, -1.570796251296997, 3.019916050561733e-07]
+  SRTHash: !u 0x53995151
+  Translate: [14.720000267028809, 148.65052795410156, -109.7300033569336]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarPole_D_04
+  Hash: !ul 8573740169636069982
+  Phive:
+    Placement: {ID: !ul 8573740169636069982}
+  SRTHash: !u 0xf48cf8ef
+  Translate: [14.719902038574219, 148.5596923828125, -109.7300033569336]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarCapital_D_01
+  Hash: !ul 13732245400223760630
+  Phive:
+    Placement: {ID: !ul 13732245400223760630}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x7d2fdf16
+  Translate: [14.719902038574219, 148.66000366210938, -80.43000030517578]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarPedestal_D_01
+  Hash: !ul 15040155190720043457
+  Phive:
+    Placement: {ID: !ul 15040155190720043457}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x43a45095
+  Translate: [14.720001220703125, 144.66000366210938, -80.43000030517578]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarDecoration_D_02
+  Hash: !ul 756613118947973943
+  Phive:
+    Placement: {ID: !ul 756613118947973943}
+  Rotate: [0.0, -1.570796251296997, 3.019916050561733e-07]
+  SRTHash: !u 0x40218208
+  Translate: [14.720000267028809, 148.65052795410156, -80.43000030517578]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarPole_D_04
+  Hash: !ul 16180222433768875004
+  Phive:
+    Placement: {ID: !ul 16180222433768875004}
+  SRTHash: !u 0x7b298eae
+  Translate: [14.719902038574219, 148.5596923828125, -80.43000030517578]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarCapital_D_01
+  Hash: !ul 1870914113804969517
+  Phive:
+    Placement: {ID: !ul 1870914113804969517}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0xdbc2d0a6
+  Translate: [14.719902038574219, 148.66000366210938, -103.2300033569336]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarPedestal_D_01
+  Hash: !ul 5145367294515764941
+  Phive:
+    Placement: {ID: !ul 5145367294515764941}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0xa4951e2b
+  Translate: [14.720001220703125, 144.66000366210938, -103.2300033569336]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarDecoration_D_02
+  Hash: !ul 9892154462877918043
+  Phive:
+    Placement: {ID: !ul 9892154462877918043}
+  Rotate: [0.0, -1.570796251296997, 3.019916050561733e-07]
+  SRTHash: !u 0xde8db756
+  Translate: [14.720000267028809, 148.65052795410156, -103.2300033569336]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarPole_D_04
+  Hash: !ul 10216245559641459224
+  Phive:
+    Placement: {ID: !ul 10216245559641459224}
+  SRTHash: !u 0x26678d9c
+  Translate: [14.719902038574219, 148.5596923828125, -103.2300033569336]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarCapital_D_01
+  Hash: !ul 856696637214929371
+  Phive:
+    Placement: {ID: !ul 856696637214929371}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x781614da
+  Translate: [14.719902038574219, 148.66000366210938, -86.93000030517578]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarPedestal_D_01
+  Hash: !ul 8547689410294954431
+  Phive:
+    Placement: {ID: !ul 8547689410294954431}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x9fe45e34
+  Translate: [14.720001220703125, 144.66000366210938, -86.93000030517578]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarDecoration_D_02
+  Hash: !ul 13570177253128715237
+  Phive:
+    Placement: {ID: !ul 13570177253128715237}
+  Rotate: [0.0, -1.570796251296997, 3.019916050561733e-07]
+  SRTHash: !u 0x70b881ee
+  Translate: [14.720000267028809, 148.65052795410156, -86.93000030517578]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarPole_D_04
+  Hash: !ul 9218199751667662030
+  Phive:
+    Placement: {ID: !ul 9218199751667662030}
+  SRTHash: !u 0x58ce5dc0
+  Translate: [14.719902038574219, 148.5596923828125, -86.93000030517578]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarCapital_D_01
+  Hash: !ul 8349007706881138747
+  Phive:
+    Placement: {ID: !ul 8349007706881138747}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x0ba9f97b
+  Translate: [14.719902038574219, 148.66000366210938, -73.93000030517578]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarPedestal_D_01
+  Hash: !ul 12206371032164940057
+  Phive:
+    Placement: {ID: !ul 12206371032164940057}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0xb352f259
+  Translate: [14.720001220703125, 144.66000366210938, -73.93000030517578]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarDecoration_D_02
+  Hash: !ul 17855689578751015396
+  Phive:
+    Placement: {ID: !ul 17855689578751015396}
+  Rotate: [0.0, -1.570796251296997, 3.019916050561733e-07]
+  SRTHash: !u 0xada782e8
+  Translate: [14.720000267028809, 148.65052795410156, -73.93000030517578]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarPole_D_04
+  Hash: !ul 4049822847647829070
+  Phive:
+    Placement: {ID: !ul 4049822847647829070}
+  SRTHash: !u 0x7a9c00be
+  Translate: [14.719902038574219, 148.5596923828125, -73.93000030517578]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarCapital_D_01
+  Hash: !ul 11424869668279146442
+  Phive:
+    Placement: {ID: !ul 11424869668279146442}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x10feba8b
+  Translate: [14.719902038574219, 148.66000366210938, -96.7300033569336]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarPedestal_D_01
+  Hash: !ul 13884624558939639097
+  Phive:
+    Placement: {ID: !ul 13884624558939639097}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0xace680dc
+  Translate: [14.720001220703125, 144.66000366210938, -96.7300033569336]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarDecoration_D_02
+  Hash: !ul 754739002609025530
+  Phive:
+    Placement: {ID: !ul 754739002609025530}
+  Rotate: [0.0, -1.570796251296997, 3.019916050561733e-07]
+  SRTHash: !u 0x65008fda
+  Translate: [14.720000267028809, 148.65052795410156, -96.7300033569336]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarPole_D_04
+  Hash: !ul 1193155024977139381
+  Phive:
+    Placement: {ID: !ul 1193155024977139381}
+  SRTHash: !u 0x0b7991eb
+  Translate: [14.719902038574219, 148.5596923828125, -96.7300033569336]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarPedestal_H_01
+  Hash: !ul 1586025947441215824
+  Phive:
+    Placement: {ID: !ul 1586025947441215824}
+  SRTHash: !u 0x2b8a75b7
+  Translate: [-23.459999084472656, 144.66000366210938, -110.83999633789062]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarPole_H_03
+  Hash: !ul 8995153981786210027
+  Phive:
+    Placement: {ID: !ul 8995153981786210027}
+  Rotate: [0.0, 0.7853981852531433, 0.0]
+  SRTHash: !u 0x2e43fac4
+  Translate: [-23.459999084472656, 147.9600067138672, -110.83999633789062]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarCapital_H_01
+  Hash: !ul 8369974738658553585
+  Phive:
+    Placement: {ID: !ul 8369974738658553585}
+  SRTHash: !u 0x25a83b72
+  Translate: [-23.459999084472656, 148.66000366210938, -110.83999633789062]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarDecoration_H_01
+  Hash: !ul 14028925845238792022
+  Phive:
+    Placement: {ID: !ul 14028925845238792022}
+  Rotate: [0.0, -0.7853981256484985, 0.0]
+  SRTHash: !u 0x4753a00b
+  Translate: [8.940000534057617, 149.16000366210938, -105.24000549316406]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarPedestal_H_01
+  Hash: !ul 2122071660713221441
+  Phive:
+    Placement: {ID: !ul 2122071660713221441}
+  SRTHash: !u 0xf5808649
+  Translate: [14.520000457763672, 144.66000366210938, -110.83999633789062]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarPole_H_03
+  Hash: !ul 9370180956711099116
+  Phive:
+    Placement: {ID: !ul 9370180956711099116}
+  Rotate: [0.0, -0.7853981852531433, 0.0]
+  SRTHash: !u 0x04a213de
+  Translate: [14.520000457763672, 147.9600067138672, -110.83999633789062]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarCapital_H_01
+  Hash: !ul 2388505280459272929
+  Phive:
+    Placement: {ID: !ul 2388505280459272929}
+  SRTHash: !u 0x6c795a92
+  Translate: [14.520000457763672, 148.66000366210938, -110.83999633789062]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarDecoration_H_01
+  Hash: !ul 7676664852878906534
+  Phive:
+    Placement: {ID: !ul 7676664852878906534}
+  Rotate: [0.0, 0.7853982448577881, 0.0]
+  SRTHash: !u 0xd2f1d288
+  Translate: [-17.8799991607666, 149.16000366210938, -105.24000549316406]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarPedestal_H_01
+  Hash: !ul 8356376401724893412
+  Phive:
+    Placement: {ID: !ul 8356376401724893412}
+  SRTHash: !u 0x4dc72974
+  Translate: [14.520000457763672, 144.66000366210938, -72.84000396728516]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarPole_H_03
+  Hash: !ul 15125855024004754954
+  Phive:
+    Placement: {ID: !ul 15125855024004754954}
+  Rotate: [3.1415927410125732, -0.7853981852531433, 3.1415927410125732]
+  SRTHash: !u 0x449cdf8d
+  Translate: [14.520000457763672, 147.9600067138672, -72.84000396728516]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarCapital_H_01
+  Hash: !ul 15508901280648674955
+  Phive:
+    Placement: {ID: !ul 15508901280648674955}
+  SRTHash: !u 0x849eccc6
+  Translate: [14.520000457763672, 148.66000366210938, -72.84000396728516]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarPedestal_H_01
+  Hash: !ul 4741855043973080207
+  Phive:
+    Placement: {ID: !ul 4741855043973080207}
+  Rotate: [3.1415927410125732, 0.7853981852531433, 3.1415927410125732]
+  SRTHash: !u 0x232863de
+  Translate: [-23.459999084472656, 144.66000366210938, -72.84000396728516]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarPole_H_03
+  Hash: !ul 11750017923147332518
+  Phive:
+    Placement: {ID: !ul 11750017923147332518}
+  Rotate: [3.1415927410125732, 0.7853981852531433, 3.1415927410125732]
+  SRTHash: !u 0x49ac3b82
+  Translate: [-23.459999084472656, 147.9600067138672, -72.84000396728516]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarCapital_H_01
+  Hash: !ul 14133383621357970222
+  Phive:
+    Placement: {ID: !ul 14133383621357970222}
+  Rotate: [3.1415927410125732, 0.7853981852531433, 3.1415927410125732]
+  SRTHash: !u 0xf589980a
+  Translate: [-23.459999084472656, 148.66000366210938, -72.84000396728516]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarDecoration_H_01
+  Hash: !ul 15589454771597525134
+  Phive:
+    Placement: {ID: !ul 15589454771597525134}
+  Rotate: [3.1415927410125732, 0.7853978872299194, 3.1415927410125732]
+  SRTHash: !u 0xe741b24d
+  Translate: [-17.8799991607666, 149.16000366210938, -78.22000122070312]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_PillarDecoration_H_01
+  Hash: !ul 6701878084740355504
+  Phive:
+    Placement: {ID: !ul 6701878084740355504}
+  Rotate: [3.1415927410125732, -0.7853981852531433, 3.1415927410125732]
+  SRTHash: !u 0x1067f44c
+  Translate: [8.940000534057617, 149.16000366210938, -78.22000122070312]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_WallDecoration_F_01
+  Hash: !ul 460878517434122420
+  Phive:
+    Placement: {ID: !ul 460878517434122420}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0xe8617c99
+  Translate: [0.4500002861022949, 142.2859344482422, -112.30999755859375]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_WallDecoration_F_01
+  Hash: !ul 1640069076822472548
+  Phive:
+    Placement: {ID: !ul 1640069076822472548}
+  SRTHash: !u 0xbe8b7350
+  Translate: [-24.94999885559082, 142.2859344482422, -86.93000030517578]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_WallDecoration_F_01
+  Hash: !ul 4489988025464173825
+  Phive:
+    Placement: {ID: !ul 4489988025464173825}
+  Rotate: [0.0, 1.570796251296997, -2.384185791015625e-07]
+  SRTHash: !u 0xec766313
+  Translate: [-9.389999389648438, 142.2859344482422, -71.3499984741211]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_WallDecoration_F_01
+  Hash: !ul 1094328278852111496
+  Phive:
+    Placement: {ID: !ul 1094328278852111496}
+  SRTHash: !u 0xa26c2fb6
+  Translate: [-24.94999885559082, 142.2859344482422, -96.7300033569336]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_WallDecoration_F_01
+  Hash: !ul 12306967525592424638
+  Phive:
+    Placement: {ID: !ul 12306967525592424638}
+  Rotate: [0.0, 1.570796251296997, -2.384185791015625e-07]
+  SRTHash: !u 0x894fd8a9
+  Translate: [0.4500002861022949, 142.2859344482422, -71.3499984741211]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_WallDecoration_F_01
+  Hash: !ul 8821644444267134161
+  Phive:
+    Placement: {ID: !ul 8821644444267134161}
+  Rotate: [3.141592502593994, 0.0, -3.141592025756836]
+  SRTHash: !u 0x7380a7a7
+  Translate: [16.010000228881836, 142.2859344482422, -103.2300033569336]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_WallDecoration_F_01
+  Hash: !ul 627455693674354531
+  Phive:
+    Placement: {ID: !ul 627455693674354531}
+  SRTHash: !u 0x662377a9
+  Translate: [-24.94999885559082, 142.2859344482422, -103.2300033569336]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_WallDecoration_F_01
+  Hash: !ul 14846790633430319415
+  Phive:
+    Placement: {ID: !ul 14846790633430319415}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0xfa461620
+  Translate: [-9.389999389648438, 142.2859344482422, -112.30999755859375]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_WallDecoration_F_01
+  Hash: !ul 6726718369611167255
+  Phive:
+    Placement: {ID: !ul 6726718369611167255}
+  Rotate: [3.141592502593994, 0.0, -3.141592025756836]
+  SRTHash: !u 0x3ebcb5af
+  Translate: [16.010000228881836, 142.2859344482422, -96.7300033569336]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_WallDecoration_F_01
+  Hash: !ul 7325720244213343388
+  Phive:
+    Placement: {ID: !ul 7325720244213343388}
+  Rotate: [0.0, 1.570796251296997, -2.384185791015625e-07]
+  SRTHash: !u 0x09b17b39
+  Translate: [-15.889999389648438, 142.2859344482422, -71.3499984741211]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_WallDecoration_F_01
+  Hash: !ul 17816753396227077940
+  Phive:
+    Placement: {ID: !ul 17816753396227077940}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0xbf210e3f
+  Translate: [6.950000286102295, 142.2859344482422, -112.30999755859375]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_WallDecoration_F_01
+  Hash: !ul 10736045042636432514
+  Phive:
+    Placement: {ID: !ul 10736045042636432514}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x533733e7
+  Translate: [-15.889999389648438, 142.2859344482422, -112.30999755859375]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_WallDecoration_F_01
+  Hash: !ul 9637202510247570285
+  Phive:
+    Placement: {ID: !ul 9637202510247570285}
+  Rotate: [0.0, 1.570796251296997, -2.384185791015625e-07]
+  SRTHash: !u 0xcf29fee2
+  Translate: [6.950000286102295, 142.2859344482422, -71.3499984741211]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_WallDecoration_F_01
+  Hash: !ul 2781263627896074390
+  Phive:
+    Placement: {ID: !ul 2781263627896074390}
+  Rotate: [3.141592502593994, 0.0, -3.141592025756836]
+  SRTHash: !u 0xfa7b4b0b
+  Translate: [16.010000228881836, 142.2859344482422, -86.93000030517578]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_WallDecoration_F_01
+  Hash: !ul 16808948631750686495
+  Phive:
+    Placement: {ID: !ul 16808948631750686495}
+  SRTHash: !u 0xecf70635
+  Translate: [-24.94999885559082, 142.2859344482422, -80.43000030517578]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_WallDecoration_F_01
+  Hash: !ul 4192808370598509318
+  Phive:
+    Placement: {ID: !ul 4192808370598509318}
+  Rotate: [3.141592502593994, 0.0, -3.141592025756836]
+  SRTHash: !u 0xacc41699
+  Translate: [16.010000228881836, 142.2859344482422, -80.43000030517578]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_WallDecoration_F_01
+  Hash: !ul 9235055574089549073
+  Phive:
+    Placement: {ID: !ul 9235055574089549073}
+  Rotate: [0.0, -1.1780972480773926, 0.0]
+  SRTHash: !u 0x44061494
+  Translate: [-10.15999984741211, 148.75999450683594, -105.55999755859375]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_WallDecoration_F_01
+  Hash: !ul 436896455122617880
+  Phive:
+    Placement: {ID: !ul 436896455122617880}
+  Rotate: [3.1415927410125732, -1.178097128868103, 3.1415927410125732]
+  SRTHash: !u 0xcb280d8d
+  Translate: [1.2200002670288086, 148.75999450683594, -105.55999755859375]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_WallDecoration_F_01
+  Hash: !ul 16411426367809231081
+  Phive:
+    Placement: {ID: !ul 16411426367809231081}
+  Rotate: [3.1415927410125732, 1.1780973672866821, 3.1415927410125732]
+  SRTHash: !u 0x01cd6183
+  Translate: [1.2200002670288086, 148.75999450683594, -78.01628875732422]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_WallDecoration_F_01
+  Hash: !ul 17183628505958006033
+  Phive:
+    Placement: {ID: !ul 17183628505958006033}
+  Rotate: [0.0, 1.1780970096588135, 0.0]
+  SRTHash: !u 0xb7412ab6
+  Translate: [-10.15999984741211, 148.75999450683594, -78.01628875732422]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_WallDecoration_F_01
+  Hash: !ul 4907682571421041599
+  Phive:
+    Placement: {ID: !ul 4907682571421041599}
+  Rotate: [0.0, 0.39269882440567017, 0.0]
+  SRTHash: !u 0xdc38b882
+  Translate: [-18.25, 148.75999450683594, -86.04000091552734]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_WallDecoration_F_01
+  Hash: !ul 9055932939734265076
+  Phive:
+    Placement: {ID: !ul 9055932939734265076}
+  Rotate: [0.0, -0.39269936084747314, 0.0]
+  SRTHash: !u 0xd1075fb8
+  Translate: [-18.25, 148.75999450683594, -97.47000122070312]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_WallDecoration_F_01
+  Hash: !ul 10064900042356035181
+  Phive:
+    Placement: {ID: !ul 10064900042356035181}
+  Rotate: [3.1415927410125732, 0.3926994204521179, 3.1415927410125732]
+  SRTHash: !u 0xd49c909b
+  Translate: [9.317192077636719, 148.75999450683594, -86.04000091552734]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_WallDecoration_F_01
+  Hash: !ul 14022065170688478577
+  Phive:
+    Placement: {ID: !ul 14022065170688478577}
+  Rotate: [3.1415927410125732, -0.39269891381263733, 3.1415927410125732]
+  SRTHash: !u 0x10d30fbd
+  Translate: [9.317192077636719, 148.75999450683594, -97.47000122070312]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_BossPillar_A_03
+  Hash: !ul 2293698856537715689
+  Phive:
+    Placement: {ID: !ul 2293698856537715689}
+  Rotate: [3.1415927410125732, 0.7853981852531433, 3.1415927410125732]
+  SRTHash: !u 0x21642217
+  Translate: [-24.469999313354492, 131.2100067138672, -71.8499984741211]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_BossPillar_A_03
+  Hash: !ul 11972560890895924520
+  Phive:
+    Placement: {ID: !ul 11972560890895924520}
+  Rotate: [0.0, -0.7853981852531433, 0.0]
+  SRTHash: !u 0xc200b89b
+  Translate: [15.530000686645508, 131.2100067138672, -111.80999755859375]
+- Gyaml: Obj_WaterTemple_WaterPlane_A_04
+  Hash: !ul 9207820219009711257
+  Phive:
+    Placement: {ID: !ul 9207820219009711257}
+  SRTHash: !u 0xc4bfbf1e
+  Scale: [0.7099999785423279, 1.0, 2.809999942779541]
+  Translate: [-21.511892318725586, 131.3118133544922, -91.08349609375]
+- Gyaml: Obj_WaterTemple_WaterPlane_A_04
+  Hash: !ul 13122565729209220351
+  Phive:
+    Placement: {ID: !ul 13122565729209220351}
+  SRTHash: !u 0xd786234d
+  Scale: [0.7099999785423279, 1.0, 2.809999942779541]
+  Translate: [13.95163345336914, 131.3118133544922, -91.08349609375]
+- Gyaml: AirWallEnemy
+  Hash: !ul 4884154640874810632
+  Phive:
+    Placement: {ID: !ul 4884154640874810632}
+  Rotate: [3.1415927410125732, -8.74227694680485e-08, 3.1415927410125732]
+  SRTHash: !u 0x676f19af
+  Scale: [3.0, 4.0, 1.7000000476837158]
+  Translate: [-4.5, 133.30673217773438, -71.17613983154297]
+- Gyaml: FieldAndDungeonEntranceEventRequestActor
+  Hash: !ul 289539653925928662
+  Name: DreamRematch
+  Phive:
+    Placement: {ID: !ul 289539653925928662}
+  Rotate: [0.20628540217876434, -0.0, 0.06491746753454208]
+  SRTHash: !u 0x02c98c74
+  Translate: [-4.528986930847168, 130.86761474609375, -91.64490509033203]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_Room11_A_01
+  Hash: !ul 11018884760258125832
+  Phive:
+    Placement: {ID: !ul 11018884760258125832}
+  SRTHash: !u 0x08ea836b
+  Translate: [-4.5, 124.80000305175781, -39.0]
+FilePath: Work/Banc/Scene/DreamWorld/MorphaStage.bcett.json

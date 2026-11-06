@@ -1,0 +1,285 @@
+Actors:
+- Gyaml: StartPos
+  Hash: !ul 13273790426727414932
+  Name: GerudoThiefStage
+  Phive:
+    Placement: {ID: !ul 13273790426727414932}
+  SRTHash: !u 0xa20ef318
+  Translate: [24.458932876586914, 102.5, -75.10882568359375]
+- Gyaml: StartPos
+  Hash: !ul 11577753054447742021
+  Name: StartPos_SubEvent_AllBossBattle
+  Phive:
+    Placement: {ID: !ul 11577753054447742021}
+  SRTHash: !u 0x0fd1e823
+  Translate: [24.458932876586914, 102.5, -75.10169982910156]
+- Gyaml: DestinationAnchor
+  Hash: !ul 14961878628974509539
+  Phive:
+    Placement: {ID: !ul 14961878628974509539}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xae418f1d
+  Translate: [24.632497787475586, 103.44029998779297, -60.182674407958984]
+- Bakeable: true
+  Gyaml: Land_Gerudo_FortressHouse_A_01
+  Hash: !ul 4524653535229667282
+  Phive:
+    Placement: {ID: !ul 4524653535229667282}
+  SRTHash: !u 0xf0f7b585
+  Translate: [40.0, 110.0, -61.0]
+- Gyaml: Land_Gerudo_FortressCurtain_A_01
+  Hash: !ul 5093069663167518990
+  Phive:
+    Placement: {ID: !ul 5093069663167518990}
+  SRTHash: !u 0x80bcfcaf
+  Scale: [0.8999999761581421, 0.8999999761581421, 0.8999999761581421]
+  Translate: [24.549564361572266, 106.62808227539062, -78.02427673339844]
+- Gyaml: Land_Gerudo_FortressPrisonOilLamp_A_01
+  Hash: !ul 4947924947011649942
+  Phive:
+    Placement: {ID: !ul 4947924947011649942}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xa2c5e110
+  Translate: [16.985767364501953, 105.63739013671875, -68.94647216796875]
+- Bakeable: true
+  Gyaml: Land_Gerudo_FortressHousePrison_A_01
+  Hash: !ul 18219447289586155081
+  Phive:
+    Placement: {ID: !ul 18219447289586155081}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0xc044c613
+  Translate: [31.5, 102.5, -71.5]
+- Gyaml: Land_Gerudo_FortressPrisonOilLamp_A_01
+  Hash: !ul 13067336140540366693
+  Phive:
+    Placement: {ID: !ul 13067336140540366693}
+  SRTHash: !u 0x235e6c0c
+  Translate: [22.069826126098633, 105.63739013671875, -78.01847076416016]
+- Gyaml: Land_Gerudo_FortressPrisonOilLamp_A_01
+  Hash: !ul 18171315519857876753
+  Phive:
+    Placement: {ID: !ul 18171315519857876753}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x648e88bb
+  Translate: [20.99095344543457, 105.63739013671875, -57.99385070800781]
+- Gyaml: Land_Gerudo_FortressPrisonOilLamp_A_01
+  Hash: !ul 5309189815462717602
+  Phive:
+    Placement: {ID: !ul 5309189815462717602}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xda6aa7e2
+  Translate: [24.71240997314453, 107.6677474975586, -69.24066925048828]
+- Bakeable: true
+  Gyaml: Land_Gerudo_FortressArms_A_02
+  Hash: !ul 15989814806216888138
+  Phive:
+    Placement: {ID: !ul 15989814806216888138}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x3cc34893
+  Translate: [17.003873825073242, 102.5, -74.77165222167969]
+- Gyaml: Land_Gerudo_FortressRoom_Hanger_A_01
+  Hash: !ul 9244621577161202363
+  Phive:
+    Placement: {ID: !ul 9244621577161202363}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xcaaffd56
+  Translate: [16.99339485168457, 104.97256469726562, -61.8499641418457]
+- Gyaml: Land_Gerudo_FortressPrisonOilLamp_A_01
+  Hash: !ul 2049403477519910767
+  Phive:
+    Placement: {ID: !ul 2049403477519910767}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0xf729cb95
+  Translate: [31.01342010498047, 105.63739013671875, -63.38737487792969]
+- Bakeable: true
+  Gyaml: Land_Gerudo_FortressArms_A_02
+  Hash: !ul 13601065152399228376
+  Phive:
+    Placement: {ID: !ul 13601065152399228376}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0xeeff22bc
+  Translate: [31.007551193237305, 102.5, -61.606597900390625]
+- Bakeable: true
+  Gyaml: Land_Gerudo_FortressArms_A_01
+  Hash: !ul 13648154578768824998
+  Phive:
+    Placement: {ID: !ul 13648154578768824998}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xda532b4a
+  Translate: [16.996000289916992, 102.5, -73.14555358886719]
+- Gyaml: Land_Gerudo_FortressPrisonOilLamp_A_01
+  Hash: !ul 2978551678995496568
+  Phive:
+    Placement: {ID: !ul 2978551678995496568}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0xc6cca75c
+  Translate: [31.01342010498047, 105.63739013671875, -72.97952270507812]
+- Gyaml: Land_Gerudo_FortressCurtain_A_01
+  Hash: !ul 4946822973526674503
+  Phive:
+    Placement: {ID: !ul 4946822973526674503}
+  Rotate: [3.1415927410125732, -8.742278367890322e-08, 3.1415927410125732]
+  SRTHash: !u 0x00d7f266
+  Scale: [0.8999999761581421, 0.8999999761581421, 0.8999999761581421]
+  Translate: [24.42698097229004, 106.59049987792969, -57.98883056640625]
+- Gyaml: Land_Gerudo_FortressCurtain_A_01
+  Hash: !ul 10247681094164632605
+  Phive:
+    Placement: {ID: !ul 10247681094164632605}
+  SRTHash: !u 0x6c04532c
+  Scale: [0.800000011920929, 0.800000011920929, 0.800000011920929]
+  Translate: [24.549564361572266, 106.42414093017578, -57.52314758300781]
+- Gyaml: Land_Gerudo_FortressWallTorch_A_01
+  Hash: !ul 2584988173883530346
+  Phive:
+    Placement: {ID: !ul 2584988173883530346}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x76df42ab
+  Translate: [22.492610931396484, 105.54010009765625, -81.15995788574219]
+- Gyaml: Land_Gerudo_FortressWallTorch_A_01
+  Hash: !ul 4119654171112867375
+  Phive:
+    Placement: {ID: !ul 4119654171112867375}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x10db6717
+  Translate: [26.513296127319336, 105.77740478515625, -49.251827239990234]
+- Gyaml: Land_Gerudo_FortressWallTorch_A_01
+  Hash: !ul 2708072917022547536
+  Phive:
+    Placement: {ID: !ul 2708072917022547536}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x3acb98b9
+  Translate: [26.50838851928711, 105.54010009765625, -81.15995788574219]
+- Gyaml: Land_Gerudo_FortressCurtain_A_01
+  Hash: !ul 17138325380241564792
+  Phive:
+    Placement: {ID: !ul 17138325380241564792}
+  Rotate: [3.1415927410125732, -8.742278367890322e-08, 3.1415927410125732]
+  SRTHash: !u 0xb34a884b
+  Scale: [0.8999999761581421, 0.8999999761581421, 0.8999999761581421]
+  Translate: [24.45481300354004, 106.64761352539062, -78.4868392944336]
+- Gyaml: Obj_Pot_A_05_Dream
+  Hash: !ul 15704845367954499712
+  IsPhysicsStable: true
+  Phive:
+    Placement: {ID: !ul 15704845367954499712}
+  SRTHash: !u 0xd82c21c9
+  Translate: [35.20101547241211, 102.50001525878906, -70.77655792236328]
+- Gyaml: Obj_Gerudo_CowBoneDecoration_B_01
+  Hash: !ul 13305579305082750003
+  Phive:
+    Placement: {ID: !ul 13305579305082750003}
+  SRTHash: !u 0xa7b845c2
+  Translate: [24.5, 106.7699966430664, -77.44005584716797]
+- Gyaml: Obj_Gerudo_CowBoneDecoration_B_02
+  Hash: !ul 6689729685725087662
+  Phive:
+    Placement: {ID: !ul 6689729685725087662}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x0eb89841
+  Translate: [24.450000762939453, 106.67000579833984, -58.40999984741211]
+- Gyaml: Land_Gerudo_FortressHousePoster_A_01
+  Hash: !ul 7675781129584641050
+  Phive:
+    Placement: {ID: !ul 7675781129584641050}
+  Rotate: [-3.141592502593994, -0.0, 3.0646238327026367]
+  SRTHash: !u 0x120a4108
+  Translate: [26.729433059692383, 103.34999084472656, -58.0099983215332]
+- Gyaml: Land_Gerudo_FortressHousePoster_A_02
+  Hash: !ul 6057192462504930374
+  Phive:
+    Placement: {ID: !ul 6057192462504930374}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xb9180cee
+  Translate: [22.355926513671875, 103.69996643066406, -58.0099983215332]
+- Gyaml: Land_Gerudo_FortressHousePoster_A_03
+  Hash: !ul 980013479032801944
+  Phive:
+    Placement: {ID: !ul 980013479032801944}
+  SRTHash: !u 0x7c532dcb
+  Translate: [20.099998474121094, 103.66998291015625, -77.9800033569336]
+- Gyaml: Land_Gerudo_FortressPrisonOilLamp_A_01
+  Hash: !ul 14824269037341123030
+  Phive:
+    Placement: {ID: !ul 14824269037341123030}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x32ebd22a
+  Translate: [27.164539337158203, 105.27033996582031, -53.87996292114258]
+- Gyaml: Land_Gerudo_FortressPrisonOilLamp_A_01
+  Hash: !ul 12034439701880119225
+  Phive:
+    Placement: {ID: !ul 12034439701880119225}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x69910527
+  Translate: [27.164539337158203, 105.27033996582031, -49.879974365234375]
+- Bakeable: true
+  Gyaml: Land_Gerudo_FortressWallDeco_A_02
+  Hash: !ul 10261306275470568644
+  Phive:
+    Placement: {ID: !ul 10261306275470568644}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x84f8a214
+  Translate: [26.93866729736328, 103.59998321533203, -51.955020904541016]
+- Gyaml: Land_Gerudo_FortressRoomStructureChain_A_01
+  Hash: !ul 6904288604713403808
+  Phive:
+    Placement: {ID: !ul 6904288604713403808}
+  SRTHash: !u 0x2b613a69
+  Translate: [24.229984283447266, 108.239990234375, -68.97999572753906]
+- Bakeable: true
+  Gyaml: Land_Gerudo_FortressExteriorAwning_A_03
+  Hash: !ul 11516832955771376336
+  Phive:
+    Placement: {ID: !ul 11516832955771376336}
+  SRTHash: !u 0x5f99fcb0
+  Translate: [16.010000228881836, 114.35020446777344, -68.81011199951172]
+- Gyaml: Land_Gerudo_Ladder_A_02
+  Hash: !ul 1233287209008294829
+  Phive:
+    Placement: {ID: !ul 1233287209008294829}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x96426880
+  Translate: [22.5, 100.875, -49.0]
+- Dynamic: {Drop__DropActor: Obj_Heart}
+  Gyaml: Obj_Pot_A_05_Dream
+  Hash: !ul 17398567770311452639
+  IsPhysicsStable: true
+  Phive:
+    Placement: {ID: !ul 17398567770311452639}
+  SRTHash: !u 0xe9a19c7a
+  Translate: [20.179630279541016, 102.50001525878906, -76.77539825439453]
+- Dynamic: {Drop__DropActor: Obj_Heart}
+  Gyaml: Obj_Pot_A_05_Dream
+  Hash: !ul 5705536351924279946
+  IsPhysicsStable: true
+  Phive:
+    Placement: {ID: !ul 5705536351924279946}
+  Rotate: [3.1415293216705322, -0.08726632595062256, 3.1415231227874756]
+  SRTHash: !u 0x3e4de593
+  Translate: [19.232494354248047, 102.50001525878906, -76.76808166503906]
+- Dynamic: {Drop__DropTable: Drop_ResourceSupply_BeforeBoss, GameModelController_GeneralInstanceParam0: 1.75,
+    GameModelController_GeneralInstanceParam1: 1.75, GameModelController_GeneralInstanceParam2: 1.75}
+  Gyaml: Obj_BrokenBox_A_01_Dream
+  Hash: !ul 13527996950561592492
+  Phive:
+    Placement: {ID: !ul 13527996950561592492}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x3485c195
+  Translate: [17.799999237060547, 102.55840301513672, -66.04000091552734]
+- Dynamic: {Drop__DropTable: Drop_ResourceSupply_BeforeBoss, GameModelController_GeneralInstanceParam0: 1.75,
+    GameModelController_GeneralInstanceParam1: 1.75, GameModelController_GeneralInstanceParam2: 1.75}
+  Gyaml: Obj_BrokenBox_A_01_Dream
+  Hash: !ul 3779128905335418704
+  Phive:
+    Placement: {ID: !ul 3779128905335418704}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xa294075d
+  Translate: [17.799999237060547, 102.55840301513672, -67.15000915527344]
+- Gyaml: Land_Gerudo_FortressWallTorch_A_01
+  Hash: !ul 69019731223926880
+  Phive:
+    Placement: {ID: !ul 69019731223926880}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x158250ac
+  Translate: [22.47696876525879, 111.05257415771484, -94.9990005493164]
+FilePath: Work/Banc/Scene/DreamWorld/GerudoThiefStage.bcett.json

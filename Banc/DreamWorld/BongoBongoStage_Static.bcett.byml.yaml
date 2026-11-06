@@ -1,0 +1,418 @@
+Actors:
+- Dynamic: {IsIntendedForEventAppear: true}
+  Gyaml: Enemy_DungeonBoss_BongoBongo_RightHand
+  Hash: !ul 228256652050591013
+  Name: right_hand
+  Phive:
+    Placement: {ID: !ul 228256652050591013}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0x304b2774
+  Translate: [-130.76400756835938, -11.361356735229492, 41.500999450683594]
+- Bakeable: true
+  Gyaml: Obj_ShadowTemple_DrumField_A_01
+  Hash: !ul 18120492215248528763
+  Phive:
+    Placement: {ID: !ul 18120492215248528763}
+  SRTHash: !u 0x45b6288e
+  Translate: [-138.5780029296875, -11.461357116699219, 30.017000198364258]
+- Gyaml: DestinationAnchor
+  Hash: !ul 13704600491933225854
+  Name: center_pos
+  Phive:
+    Placement: {ID: !ul 13704600491933225854}
+  SRTHash: !u 0x922b131d
+  Translate: [-138.26400756835938, -11.461357116699219, 30.051000595092773]
+- Dynamic: {RequestEventName: ShadowTemple_BossAppear}
+  Gyaml: EventRequestActor
+  Hash: !ul 14708101945823434373
+  Links:
+  - {Dst: !ul 1367150822664018197, Gyaml: Reference, Name: Reference, Src: !ul 14708101945823434373}
+  Phive:
+    Placement: {ID: !ul 14708101945823434373}
+  Rotate: [0.0733971819281578, -0.0, -1.5707963705062866]
+  SRTHash: !u 0x0df79610
+  Translate: [-137.02911376953125, 10.69498062133789, 36.619869232177734]
+- Gyaml: Area
+  Hash: !ul 17691517688422238057
+  Phive:
+    Placement: {ID: !ul 17691517688422238057}
+  SRTHash: !u 0xe5718cff
+  Scale: [2.6237869262695312, 19.320310592651367, 2.4879589080810547]
+  Translate: [-138.59544372558594, -2.5805282592773438, 29.90589714050293]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 11837809908278422864
+  Phive:
+    Placement: {ID: !ul 11837809908278422864}
+  SRTHash: !u 0xb613b1e6
+  Scale: [0.8500000238418579, 1.5, 0.8500000238418579]
+  Translate: [-138.26400756835938, -11.461357116699219, 30.051000595092773]
+- Gyaml: Obj_WarpPoint_A_01
+  Hash: !ul 7476622781087012851
+  Phive:
+    Placement: {ID: !ul 7476622781087012851}
+  SRTHash: !u 0x922b131d
+  Translate: [-138.26400756835938, -11.461357116699219, 30.051000595092773]
+- Dynamic: {RequestEventName: ShadowTemple_BossArea_Warp}
+  Gyaml: EventRequestActor
+  Hash: !ul 1980490535431881913
+  Links:
+  - {Dst: !ul 12532811102596321844, Gyaml: Reference, Name: Reference, Src: !ul 1980490535431881913}
+  Phive:
+    Placement: {ID: !ul 1980490535431881913}
+  SRTHash: !u 0x9d8339e1
+  Translate: [-138.26400756835938, -8.105584144592285, 30.051000595092773]
+- Gyaml: DestinationAnchor
+  Hash: !ul 12532811102596321844
+  Name: center
+  Phive:
+    Placement: {ID: !ul 12532811102596321844}
+  SRTHash: !u 0x922b131d
+  Translate: [-138.26400756835938, -11.461357116699219, 30.051000595092773]
+- Dynamic: {IsIntendedForEventAppear: true}
+  Gyaml: Enemy_DungeonBoss_BongoBongo
+  Hash: !ul 16765681283739477259
+  Links:
+  - {Dst: !ul 228256652050591013, Gyaml: Reference, Name: Reference, Src: !ul 16765681283739477259}
+  - {Dst: !ul 18306471868400169410, Gyaml: Reference, Name: Reference, Src: !ul 16765681283739477259}
+  - {Dst: !ul 13704600491933225854, Gyaml: Reference, Name: Reference, Src: !ul 16765681283739477259}
+  - {Dst: !ul 1367150822664018197, Gyaml: Reference, Name: Reference, Src: !ul 16765681283739477259}
+  Phive:
+    Placement: {ID: !ul 16765681283739477259}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0x433a7d92
+  Translate: [-138.26400756835938, -11.461357116699219, 48.10099792480469]
+- Dynamic: {ForceLength: -1.0, ForceTargetSpeed: 0.5}
+  Gyaml: JumpField
+  Hash: !ul 16639757848942470740
+  Phive:
+    Placement: {ID: !ul 16639757848942470740}
+  SRTHash: !u 0xd8ee0b4d
+  Scale: [7.5, 0.8377512693405151, 7.5]
+  Translate: [-138.26443481445312, -11.523798942565918, 30.05120277404785]
+- Dynamic: {ForceLength: -1.0, ForceTargetSpeed: 11.5}
+  Gyaml: JumpField
+  Hash: !ul 17527679371929024915
+  Phive:
+    Placement: {ID: !ul 17527679371929024915}
+  SRTHash: !u 0xab2c5432
+  Scale: [16.0, 0.8377512693405151, 16.0]
+  Translate: [-138.26443481445312, -11.523798942565918, 30.05120277404785]
+- Dynamic: {ForceLength: -1.0, ForceTargetSpeed: 2.0}
+  Gyaml: JumpField
+  Hash: !ul 2701286577580760622
+  Phive:
+    Placement: {ID: !ul 2701286577580760622}
+  SRTHash: !u 0x2b413334
+  Scale: [12.0, 0.8377512693405151, 12.0]
+  Translate: [-138.26443481445312, -11.496699333190918, 30.05120086669922]
+- Dynamic: {IsIntendedForEventAppear: true}
+  Gyaml: Enemy_DungeonBoss_BongoBongo_LeftHand
+  Hash: !ul 18306471868400169410
+  Name: left_hand
+  Phive:
+    Placement: {ID: !ul 18306471868400169410}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0x6151c4a3
+  Translate: [-145.76400756835938, -11.361356735229492, 41.500999450683594]
+- Gyaml: StartPos
+  Hash: !ul 1367150822664018197
+  Name: StartPos_SageOfShadow
+  Phive:
+    Placement: {ID: !ul 1367150822664018197}
+  SRTHash: !u 0x21955852
+  Translate: [-138.26400756835938, -11.461357116699219, 22.015026092529297]
+- Gyaml: Area
+  Hash: !ul 100390902786728994
+  Phive:
+    Placement: {ID: !ul 100390902786728994}
+  SRTHash: !u 0x7c5223e2
+  Scale: [100.0, 30.0, 100.0]
+  Translate: [-138.59544372558594, -28.295475006103516, 29.90589714050293]
+- Dynamic: {ForceLength: -1.0, ForceTargetSpeed: 0.5}
+  Gyaml: JumpFieldForObject
+  Hash: !ul 15423515000469235670
+  Phive:
+    Placement: {ID: !ul 15423515000469235670}
+  SRTHash: !u 0xd8ee0b4d
+  Scale: [7.5, 0.8377512693405151, 7.5]
+  Translate: [-138.26443481445312, -11.523798942565918, 30.05120277404785]
+- Dynamic: {ForceLength: -1.0, ForceTargetSpeed: 2.0}
+  Gyaml: JumpFieldForObject
+  Hash: !ul 15472919086603111764
+  Phive:
+    Placement: {ID: !ul 15472919086603111764}
+  SRTHash: !u 0x2b413334
+  Scale: [12.0, 0.8377512693405151, 12.0]
+  Translate: [-138.26443481445312, -11.496699333190918, 30.05120086669922]
+- Dynamic: {ForceLength: -1.0, ForceTargetSpeed: 11.5}
+  Gyaml: JumpFieldForObject
+  Hash: !ul 9131051105737088209
+  Phive:
+    Placement: {ID: !ul 9131051105737088209}
+  SRTHash: !u 0xab2c5432
+  Scale: [16.0, 0.8377512693405151, 16.0]
+  Translate: [-138.26443481445312, -11.523798942565918, 30.05120277404785]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 16879152132541798137
+  Phive:
+    Placement: {ID: !ul 16879152132541798137}
+  SRTHash: !u 0x97e78980
+  Scale: [20.0, 1.0, 20.0]
+  Translate: [-138.26400756835938, -14.450340270996094, 30.051000595092773]
+- Dynamic: {ForceLength: -1.0, ForceTargetSpeed: 11.5}
+  Gyaml: JumpFieldForRagdoll
+  Hash: !ul 11847970994815070798
+  Phive:
+    Placement: {ID: !ul 11847970994815070798}
+  SRTHash: !u 0xab2c5432
+  Scale: [16.0, 0.8377512693405151, 16.0]
+  Translate: [-138.26443481445312, -11.523798942565918, 30.05120277404785]
+- Dynamic: {ForceLength: -1.0, ForceTargetSpeed: 2.0}
+  Gyaml: JumpFieldForRagdoll
+  Hash: !ul 3450440416929453607
+  Phive:
+    Placement: {ID: !ul 3450440416929453607}
+  SRTHash: !u 0x2b413334
+  Scale: [12.0, 0.8377512693405151, 12.0]
+  Translate: [-138.26443481445312, -11.496699333190918, 30.05120086669922]
+- Dynamic: {ForceLength: -1.0, ForceTargetSpeed: 0.5}
+  Gyaml: JumpFieldForRagdoll
+  Hash: !ul 17257254964678070074
+  Phive:
+    Placement: {ID: !ul 17257254964678070074}
+  SRTHash: !u 0xd8ee0b4d
+  Scale: [7.5, 0.8377512693405151, 7.5]
+  Translate: [-138.26443481445312, -11.523798942565918, 30.05120277404785]
+- Dynamic: {RequestEventName: ShadowTemple_BossRoomIn_AfterBossWin}
+  Gyaml: EventRequestActor
+  Hash: !ul 10077697349278822310
+  Links:
+  - {Dst: !ul 17037045957053286228, Gyaml: Reference, Name: Reference, Src: !ul 10077697349278822310}
+  Phive:
+    Placement: {ID: !ul 10077697349278822310}
+  SRTHash: !u 0x4a615ae2
+  Translate: [-141.16676330566406, 10.576770782470703, 36.67634963989258]
+- Gyaml: DestinationAnchor
+  Hash: !ul 17037045957053286228
+  Name: PlayerPos_AfterBossWin
+  Phive:
+    Placement: {ID: !ul 17037045957053286228}
+  SRTHash: !u 0xd8a53688
+  Translate: [-138.24867248535156, -11.461357116699219, 22.026458740234375]
+- Dynamic: {Drop__DropTable: DropTable_Ganon_Remedies_01, SpawnTimeFrame: 1800}
+  Gyaml: SpawnDropsPeriodically
+  Hash: !ul 5443084409337579895
+  Phive:
+    Placement: {ID: !ul 5443084409337579895}
+  SRTHash: !u 0x1efed4b5
+  Translate: [-126.78720092773438, -11.08957576751709, 25.899385452270508]
+- Dynamic: {Drop__DropTable: DropTable_Ganon_Remedies_01, SpawnTimeFrame: 1800}
+  Gyaml: SpawnDropsPeriodically
+  Hash: !ul 1756956160308046520
+  Phive:
+    Placement: {ID: !ul 1756956160308046520}
+  SRTHash: !u 0x8959fb75
+  Translate: [-150.6614990234375, -11.08957576751709, 25.80569839477539]
+- Dynamic: {Drop__DropTable: DropTable_Ganon_Remedies_02, SpawnTimeFrame: 2700}
+  Gyaml: SpawnDropsPeriodically
+  Hash: !ul 4720707291618579186
+  Phive:
+    Placement: {ID: !ul 4720707291618579186}
+  SRTHash: !u 0x94fe2edb
+  Translate: [-138.4107666015625, -11.08957576751709, 17.011268615722656]
+- Gyaml: Obj_DreamWorldTimerManager
+  Hash: !ul 3657608589861639759
+  Links:
+  - {Dst: !ul 16765681283739477259, Gyaml: Reference, Name: Reference, Src: !ul 3657608589861639759}
+  Phive:
+    Placement: {ID: !ul 3657608589861639759}
+  SRTHash: !u 0xe2620541
+  Translate: [-140.96728515625, 43.85564422607422, 75.7934341430664]
+- Gyaml: NoEscapeRangeAreaBox
+  Hash: !ul 2202304947901770343
+  Name: NoEscapeArea_SubEvent_AllBossBattle
+  Phive:
+    Placement: {ID: !ul 2202304947901770343}
+  SRTHash: !u 0xc77fabbb
+  Scale: [117.38275909423828, 105.09503173828125, 121.78897857666016]
+  Translate: [-138.2649383544922, 20.799772262573242, 28.794544219970703]
+- Gyaml: Area
+  Hash: !ul 4720595592889349191
+  Phive:
+    Placement: {ID: !ul 4720595592889349191}
+  Rotate: [0.0, -1.570796251296997, 8.940696716308594e-08]
+  SRTHash: !u 0xa9ca5653
+  Scale: [57.37095642089844, 41.214691162109375, 54.528873443603516]
+  Translate: [-138.38299560546875, -28.03736686706543, 32.48541259765625]
+- Dynamic: {AreaHintEventName: NaviHint_Rematch}
+  Gyaml: NaviAreaHintEventActor
+  Hash: !ul 230005752127896076
+  Phive:
+    Placement: {ID: !ul 230005752127896076}
+  SRTHash: !u 0xf9fdb54b
+  Translate: [-131.66201782226562, 2.3462886810302734, 26.65753936767578]
+- Gyaml: Land_ShadowTemple_Room_A_10
+  Hash: !ul 15296272424326374886
+  Phive:
+    Placement: {ID: !ul 15296272424326374886}
+  SRTHash: !u 0x653a7c76
+  Translate: [-138.55035400390625, -13.769996643066406, 29.989999771118164]
+- Gyaml: Area
+  Hash: !ul 14569589884275731271
+  Phive:
+    Placement: {ID: !ul 14569589884275731271}
+  Rotate: [-3.1415910720825195, -0.0, 0.0]
+  SRTHash: !u 0x5991fa29
+  Scale: [95.0, 12.347004890441895, 95.0]
+  Translate: [-139.03721618652344, -18.66999626159668, 29.98999786376953]
+- Gyaml: Land_ShadowTemple_Room10_A_01
+  Hash: !ul 5497737778228622439
+  Phive:
+    Placement: {ID: !ul 5497737778228622439}
+  SRTHash: !u 0x653a7c76
+  Translate: [-138.55035400390625, -13.769996643066406, 29.989999771118164]
+- Gyaml: Land_ShadowTemple_Room10_A_03
+  Hash: !ul 2445363341522228843
+  Phive:
+    Placement: {ID: !ul 2445363341522228843}
+  Presence: {FlagName: ShadowTemple_Map_Room_27_PartsOn, IsCheckLazy: false, IsNegation: false}
+  SRTHash: !u 0x653a7c76
+  Translate: [-138.55035400390625, -13.769996643066406, 29.989999771118164]
+- Bakeable: true
+  Gyaml: Obj_DoorChainLock_A_02
+  Hash: !ul 2416674380212775721
+  Phive:
+    Placement: {ID: !ul 2416674380212775721}
+  Rotate: [3.141587018966675, -8.742277657347586e-08, 3.1415672302246094]
+  SRTHash: !u 0xe44c426f
+  Translate: [-138.51153564453125, 41.998348236083984, 19.05337142944336]
+- Bakeable: true
+  Dynamic: {NomralEvent: Common_Dungeon_OpenShutterMoveToPlusZ_Boss, OpenChainEvent: Common_Dungeon_OpenDoorChainLockMoveToPlusZ_Boss,
+    OpenChainShutterEvent: Common_Dungeon_OpenDoorChainLockMoveToPlusZ_Boss, ShutterEvent: Common_Dungeon_OpenShutterMoveToPlusZ_Boss}
+  Gyaml: Obj_ShadowTemple_SwitchShutter_A_01
+  Hash: !ul 10618823405418294250
+  Links:
+  - {Dst: !ul 2416674380212775721, Gyaml: Reference, Name: Reference, Src: !ul 10618823405418294250}
+  - {Dst: !ul 15746604242497737183, Gyaml: Reference, Name: Reference, Src: !ul 10618823405418294250}
+  - {Dst: !ul 7603521267348898150, Gyaml: Reference, Name: Reference, Src: !ul 10618823405418294250}
+  Phive:
+    Placement: {ID: !ul 10618823405418294250}
+  SRTHash: !u 0x554807cd
+  Translate: [-138.51153564453125, 41.998348236083984, 19.05337142944336]
+- Bakeable: true
+  Gyaml: Obj_SwitchShutter_A_06
+  Hash: !ul 15746604242497737183
+  Phive:
+    Placement: {ID: !ul 15746604242497737183}
+  SRTHash: !u 0xafeda968
+  Translate: [-138.51153564453125, 41.99834442138672, 19.403371810913086]
+- Gyaml: DestinationAnchor
+  Hash: !ul 7603521267348898150
+  Name: CameraPlusZ
+  Phive:
+    Placement: {ID: !ul 7603521267348898150}
+  SRTHash: !u 0xbb53fe51
+  Translate: [-138.51153564453125, 41.99833679199219, 21.05337142944336]
+- Dynamic: {FogParams: ShadowTemple_PreBossRoomHall}
+  Gyaml: VolumeFogArea
+  Hash: !ul 7458415278019627780
+  Phive:
+    Placement: {ID: !ul 7458415278019627780}
+  SRTHash: !u 0xf201a6e3
+  Scale: [5.465413570404053, 24.645761489868164, 5.465413570404053]
+  Translate: [-138.59451293945312, 27.403316497802734, 29.84744644165039]
+- Dynamic: {FogParams: ShadowTemple_BossCelingBlackfade}
+  Gyaml: VolumeFogArea
+  Hash: !ul 16269129340688941773
+  Phive:
+    Placement: {ID: !ul 16269129340688941773}
+  Rotate: [0.004249742720276117, -0.0, 0.0]
+  SRTHash: !u 0x7bca521e
+  Scale: [81.09774017333984, 9.049392700195312, 81.09774017333984]
+  Translate: [-138.4955291748047, 11.026420593261719, 30.218202590942383]
+- Dynamic: {FogParams: ShadowTemple_BossCelingBlackfade_nonbattle}
+  Gyaml: VolumeFogArea
+  Hash: !ul 10814430956714037273
+  Phive:
+    Placement: {ID: !ul 10814430956714037273}
+  Rotate: [0.004249743185937405, -0.0, 0.0]
+  SRTHash: !u 0x7fc37637
+  Scale: [81.09774017333984, 5.13551139831543, 81.09774017333984]
+  Translate: [-138.4955291748047, 11.017210006713867, 30.04145050048828]
+AiGroups:
+- Hash: !ul 7344717164840981323
+  Logic: Logic/Module/DungeonSwitchShutterBossWithChainLockSet/DungeonSwitchShutterBossWithChainLockSet_15e6.logic.module.ain
+  References:
+  - {Id: ChainLockLocator_BossDoor_fabe, Path: ChainLockLocator_BossDoor_fabe, Reference: !ul 2416674380212775721}
+  - {Id: ShutterLocator_BossDoor_362a, Path: ShutterLocator_BossDoor_362a, Reference: !ul 10618823405418294250}
+  - {Id: ChainLockLocator_BossLattice_6223, Path: ChainLockLocator_BossLattice_6223,
+    Reference: !ul 15746604242497737183}
+- Hash: !ul 13162472127163868250
+  Logic: Logic/Module/Gimmick_AreaContact_FallDown/Gimmick_AreaContact_FallDown_0a27.logic.module.ain
+  References:
+  - {Id: Area_ed22, Path: Area_ed22, Reference: !ul 14569589884275731271}
+- Hash: !ul 17990652054312635667
+  Logic: Logic/Root/BongoBongoStage/BongoBongoStage_b408.logic.root.ain
+  References:
+  - {Id: Enemy_DungeonBoss_BongoBongo_LeftHand_13ea, Path: _d197/Enemy_DungeonBoss_BongoBongo_LeftHand_13ea,
+    Reference: !ul 18306471868400169410}
+  - {Id: Area_33e2, Path: _d197/Area_33e2, Reference: !ul 17691517688422238057}
+  - {Id: JumpField_74cf, Path: _d197/JumpField_74cf, Reference: !ul 16639757848942470740}
+  - {Id: Enemy_DungeonBoss_BongoBongo_82ad, Path: _d197/Enemy_DungeonBoss_BongoBongo_82ad,
+    Reference: !ul 16765681283739477259}
+  - {Id: JumpField_c038, Path: _d197/JumpField_c038, Reference: !ul 2701286577580760622}
+  - {Id: JumpField_c22e, Path: _d197/JumpField_c22e, Reference: !ul 17527679371929024915}
+  - {Id: Obj_ShadowTemple_DrumField_A_01_ca68, Path: _d197/Obj_ShadowTemple_DrumField_A_01_ca68,
+    Reference: !ul 18120492215248528763}
+  - {Id: EventRequestActor_024c, Path: _d197/_4d13/EventRequestActor_024c, Reference: !ul 1980490535431881913}
+  - {Id: Area_bfbc, Path: _d197/_4d13/Area_bfbc, Reference: !ul 11837809908278422864}
+  - {Id: Obj_WarpPoint_A_01_14a2, Path: _d197/_4d13/Obj_WarpPoint_A_01_14a2, Reference: !ul 7476622781087012851}
+  - {Id: DestinationAnchor_a8b5, Path: _d197/_4d13/DestinationAnchor_a8b5, Reference: !ul 12532811102596321844}
+  - {Id: AiGroup, InstanceName: Gimmick_Warp_FromDungeon_061c_8575, Logic: Logic/Module/Gimmick_Warp_FromDungeon/Gimmick_Warp_FromDungeon_061c.logic.module.ain,
+    Path: _d197/_4d13/AiGroup, Reference: !ul 10115604962668768442}
+  - {Id: Enemy_DungeonBoss_BongoBongo_RightHand_d9ca, Path: _d197/Enemy_DungeonBoss_BongoBongo_RightHand_d9ca,
+    Reference: !ul 228256652050591013}
+  - {Id: EventRequestActor_f64f, Path: _d197/EventRequestActor_f64f, Reference: !ul 14708101945823434373}
+  - {Id: Area_ca6c, Path: _d197/Area_ca6c, Reference: !ul 100390902786728994}
+  - {Id: JumpFieldForObject_75b6, Path: _d197/JumpFieldForObject_75b6, Reference: !ul 15423515000469235670}
+  - {Id: JumpFieldForObject_c971, Path: _d197/JumpFieldForObject_c971, Reference: !ul 15472919086603111764}
+  - {Id: JumpFieldForObject_cca3, Path: _d197/JumpFieldForObject_cca3, Reference: !ul 9131051105737088209}
+  - {Id: Area_d0b6, Path: _d197/Area_d0b6, Reference: !ul 16879152132541798137}
+  - {Id: JumpFieldForRagdoll_38be, Path: _d197/JumpFieldForRagdoll_38be, Reference: !ul 3450440416929453607}
+  - {Id: JumpFieldForRagdoll_5518, Path: _d197/JumpFieldForRagdoll_5518, Reference: !ul 11847970994815070798}
+  - {Id: JumpFieldForRagdoll_d601, Path: _d197/JumpFieldForRagdoll_d601, Reference: !ul 17257254964678070074}
+  - {Id: EventRequestActor_fb34, Path: _d197/EventRequestActor_fb34, Reference: !ul 10077697349278822310}
+  - {Id: SpawnDropsPeriodically_286f, Path: _d197/SpawnDropsPeriodically_286f, Reference: !ul 1756956160308046520}
+  - {Id: SpawnDropsPeriodically_6aaf, Path: _d197/SpawnDropsPeriodically_6aaf, Reference: !ul 5443084409337579895}
+  - {Id: SpawnDropsPeriodically_d0ae, Path: _d197/SpawnDropsPeriodically_d0ae, Reference: !ul 4720707291618579186}
+  - {Id: AiGroup, InstanceName: Enemy_DungeonBoss_BongoBongo_Prefab_c62d_4253, Logic: Logic/Module/Enemy_DungeonBoss_BongoBongo_Prefab/Enemy_DungeonBoss_BongoBongo_Prefab_c62d.logic.module.ain,
+    Path: _d197/AiGroup, Reference: !ul 10765203809119189036}
+  - {Id: Area_105e, Path: Area_105e, Reference: !ul 4720595592889349191}
+  - {Id: NaviAreaHintEventActor_2dc2, Path: NaviAreaHintEventActor_2dc2, Reference: !ul 230005752127896076}
+  - {Id: VolumeFogArea_7631, Path: VolumeFogArea_7631, Reference: !ul 10814430956714037273}
+  - {Id: VolumeFogArea_8a3a, Path: VolumeFogArea_8a3a, Reference: !ul 16269129340688941773}
+FarDeleteGroups:
+- [!ul 100390902786728994, !ul 228256652050591013, !ul 230005752127896076, !ul 1756956160308046520,
+  !ul 1980490535431881913, !ul 2701286577580760622, !ul 3450440416929453607, !ul 4720595592889349191,
+  !ul 4720707291618579186, !ul 5443084409337579895, !ul 7476622781087012851, !ul 9131051105737088209,
+  !ul 10077697349278822310, !ul 10814430956714037273, !ul 11837809908278422864, !ul 11847970994815070798,
+  !ul 12532811102596321844, !ul 14708101945823434373, !ul 15423515000469235670, !ul 15472919086603111764,
+  !ul 16269129340688941773, !ul 16639757848942470740, !ul 16765681283739477259, !ul 16879152132541798137,
+  !ul 17257254964678070074, !ul 17527679371929024915, !ul 17691517688422238057, !ul 18120492215248528763,
+  !ul 18306471868400169410]
+- [!ul 2416674380212775721, !ul 10618823405418294250, !ul 15746604242497737183]
+FilePath: Work/Banc/Scene/DreamWorld/BongoBongoStage.bcett.json
+PhiveHeader:
+  PlacementGroups: []
+SimultaneousGroups:
+- [!ul 100390902786728994, !ul 228256652050591013, !ul 230005752127896076, !ul 1756956160308046520,
+  !ul 1980490535431881913, !ul 2701286577580760622, !ul 3450440416929453607, !ul 4720595592889349191,
+  !ul 4720707291618579186, !ul 5443084409337579895, !ul 7476622781087012851, !ul 9131051105737088209,
+  !ul 10077697349278822310, !ul 10814430956714037273, !ul 11837809908278422864, !ul 11847970994815070798,
+  !ul 12532811102596321844, !ul 14708101945823434373, !ul 15423515000469235670, !ul 15472919086603111764,
+  !ul 16269129340688941773, !ul 16639757848942470740, !ul 16765681283739477259, !ul 16879152132541798137,
+  !ul 17257254964678070074, !ul 17527679371929024915, !ul 17691517688422238057, !ul 18120492215248528763,
+  !ul 18306471868400169410]
+- [!ul 2416674380212775721, !ul 10618823405418294250, !ul 15746604242497737183]

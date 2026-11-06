@@ -1,0 +1,18 @@
+Actors:
+- Gyaml: StartPos
+  Hash: !ul 18150474135913321631
+  Name: GanonStage
+  Phive:
+    Placement: {ID: !ul 18150474135913321631}
+  Rotate: [0.0, -1.570796251296997, 1.7484555314695172e-07]
+  SRTHash: !u 0x964fd124
+  Translate: [11.79416561126709, 100.05360412597656, -1.0749621391296387]
+- Gyaml: StartPos
+  Hash: !ul 18179019849711957406
+  Name: StartPos_SubEvent_AllBossBattle
+  Phive:
+    Placement: {ID: !ul 18179019849711957406}
+  Rotate: [1.566934585571289, -1.5602388381958008, -1.5707919597625732]
+  SRTHash: !u 0xf4331264
+  Translate: [11.654720306396484, 100.04366302490234, -0.12892219424247742]
+FilePath: Work/Banc/Scene/DreamWorld/GanonStage.bcett.json

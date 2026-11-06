@@ -1,0 +1,240 @@
+Actors:
+- Gyaml: StartPos
+  Hash: !ul 7637813282252415483
+  Name: EnemyMusuem
+  Phive:
+    Placement: {ID: !ul 7637813282252415483}
+  Rotate: [-3.141592502593994, 0.5235987901687622, -3.141592502593994]
+  SRTHash: !u 0xac3de390
+- Bakeable: true
+  Gyaml: Land_Dream_BossPedestal_B_03
+  Hash: !ul 14481658577885467749
+  Phive:
+    Placement: {ID: !ul 14481658577885467749}
+  Rotate: [3.1415927410125732, 0.772549569606781, 3.1415927410125732]
+  SRTHash: !u 0x57a28d54
+  Translate: [17.873180389404297, 3.2200000286102295, -15.053352355957031]
+- Bakeable: true
+  Gyaml: Land_Dream_BossPedestal_B_03
+  Hash: !ul 13087470552847769788
+  Phive:
+    Placement: {ID: !ul 13087470552847769788}
+  Rotate: [3.1415927410125732, 1.3218426704406738, 3.1415927410125732]
+  SRTHash: !u 0xb5d45e07
+  Translate: [22.0047664642334, 3.2200000286102295, -7.970180988311768]
+- Bakeable: true
+  Gyaml: Land_Dream_BossPedestal_A_02
+  Hash: !ul 11992863640868487884
+  Phive:
+    Placement: {ID: !ul 11992863640868487884}
+  Rotate: [3.1415927410125732, 1.047197699546814, 3.1415927410125732]
+  SRTHash: !u 0xe201959e
+  Translate: [21.155485153198242, 3.2200000286102295, -12.214119911193848]
+- Bakeable: true
+  Gyaml: Land_Dream_BossPedestal_A_03
+  Hash: !ul 3614999775404815704
+  Phive:
+    Placement: {ID: !ul 3614999775404815704}
+  Rotate: [3.1415927410125732, 1.047197699546814, 3.1415927410125732]
+  SRTHash: !u 0xed709fac
+  Translate: [28.826059341430664, 4.800000190734863, -16.705080032348633]
+- Bakeable: true
+  Gyaml: Land_Dream_BossPedestal_A_07
+  Hash: !ul 3306946994000551760
+  Phive:
+    Placement: {ID: !ul 3306946994000551760}
+  Rotate: [3.1415927410125732, 1.047197699546814, 3.1415927410125732]
+  SRTHash: !u 0x22c3c18e
+  Translate: [40.195068359375, 11.0, -23.206623077392578]
+- Bakeable: true
+  Gyaml: Land_Dream_BossPedestal_A_06
+  Hash: !ul 13636571927280052060
+  Phive:
+    Placement: {ID: !ul 13636571927280052060}
+  SRTHash: !u 0x9d35ec46
+  Translate: [0.0, 6.227976322174072, -36.30572509765625]
+- Bakeable: true
+  Gyaml: Land_Dream_BossPedestal_B_02
+  Hash: !ul 706639487153442978
+  Phive:
+    Placement: {ID: !ul 706639487153442978}
+  SRTHash: !u 0xbaea8bcc
+  Translate: [0.000492483377456665, 3.2200000286102295, -26.145442962646484]
+- Bakeable: true
+  Gyaml: Land_Dream_BossPedestal_A_05
+  Hash: !ul 2980242551400180711
+  Phive:
+    Placement: {ID: !ul 2980242551400180711}
+  SRTHash: !u 0xb06ce629
+  Translate: [0.0, 11.0, -46.52210998535156]
+- Bakeable: true
+  Gyaml: Land_Dream_BossPedestal_B_03
+  Hash: !ul 2756977364382633659
+  Phive:
+    Placement: {ID: !ul 2756977364382633659}
+  Rotate: [3.1415927410125732, -1.2611103057861328, 3.1415927410125732]
+  SRTHash: !u 0x42f46fa9
+  Translate: [-22.17228126525879, 3.2200000286102295, -6.970215797424316]
+- Bakeable: true
+  Gyaml: Land_Dream_BossPedestal_A_01
+  Hash: !ul 4128318131467394193
+  Phive:
+    Placement: {ID: !ul 4128318131467394193}
+  Rotate: [3.1415927410125732, -0.8726645708084106, 3.1415927410125732]
+  SRTHash: !u 0xc44496b4
+  Translate: [-17.502758026123047, 3.2200000286102295, -15.60556697845459]
+- Bakeable: true
+  Gyaml: Land_Dream_BossPedestal_A_05
+  Hash: !ul 2176138963039898858
+  Phive:
+    Placement: {ID: !ul 2176138963039898858}
+  Rotate: [3.1415927410125732, -1.0471974611282349, 3.1415927410125732]
+  SRTHash: !u 0x8c7c00e0
+  Translate: [-33.208255767822266, 4.80000114440918, -19.15547752380371]
+- Bakeable: true
+  Gyaml: Land_Dream_BossPedestal_B_03
+  Hash: !ul 3101467219892554844
+  Phive:
+    Placement: {ID: !ul 3101467219892554844}
+  Rotate: [0.0, -0.7725494503974915, 0.0]
+  SRTHash: !u 0x2dae0a73
+  Translate: [-16.267826080322266, 3.2200000286102295, 16.335268020629883]
+- Bakeable: true
+  Gyaml: Land_Dream_BossPedestal_B_03
+  Hash: !ul 6428886392851789566
+  Phive:
+    Placement: {ID: !ul 6428886392851789566}
+  Rotate: [0.0, -1.0471975803375244, 0.0]
+  SRTHash: !u 0xd31ebc66
+  Translate: [-21.011005401611328, 3.2200000286102295, 12.13520336151123]
+- Bakeable: true
+  Gyaml: Land_Dream_BossPedestal_B_03
+  Hash: !ul 7026873661344397429
+  Phive:
+    Placement: {ID: !ul 7026873661344397429}
+  Rotate: [0.0, -1.3218425512313843, 0.0]
+  SRTHash: !u 0xc4c193dc
+  Translate: [-22.384048461914062, 3.2200000286102295, 5.8088812828063965]
+- Bakeable: true
+  Gyaml: Land_Dream_BossPedestal_A_05
+  Hash: !ul 13698498273135750541
+  Phive:
+    Placement: {ID: !ul 13698498273135750541}
+  Rotate: [0.0, -1.0471975803375244, 0.0]
+  SRTHash: !u 0x6a6c3959
+  Translate: [-31.39128875732422, 4.80000114440918, 18.12376594543457]
+- Bakeable: true
+  Gyaml: Land_Dream_BossPedestal_A_02
+  Hash: !ul 7928798093398429205
+  Phive:
+    Placement: {ID: !ul 7928798093398429205}
+  SRTHash: !u 0x90ec89b4
+  Translate: [-0.029793083667755127, 3.2200000286102295, 23.060562133789062]
+- Bakeable: true
+  Gyaml: Land_Dream_BossPedestal_B_03
+  Hash: !ul 9188177663396672025
+  Phive:
+    Placement: {ID: !ul 9188177663396672025}
+  Rotate: [0.0, -0.2586142122745514, 0.0]
+  SRTHash: !u 0xa3cc1518
+  Translate: [-5.138576984405518, 3.220000982284546, 22.180068969726562]
+- Bakeable: true
+  Gyaml: Land_Dream_BossPedestal_A_03
+  Hash: !ul 7732718741683399249
+  Phive:
+    Placement: {ID: !ul 7732718741683399249}
+  Rotate: [0.0, 0.29378730058670044, 0.0]
+  SRTHash: !u 0x4c3c2c19
+  Translate: [6.751603126525879, 3.2200000286102295, 24.074920654296875]
+- Bakeable: true
+  Gyaml: Land_Dream_BossPedestal_A_03
+  Hash: !ul 9131252363676750248
+  Phive:
+    Placement: {ID: !ul 9131252363676750248}
+  Rotate: [0.0, -0.22956928610801697, 0.0]
+  SRTHash: !u 0xf7c57daf
+  Translate: [-6.834134101867676, 4.800004005432129, 31.087602615356445]
+- Bakeable: true
+  Gyaml: Land_Dream_BossPedestal_A_07
+  Hash: !ul 6194267472899764111
+  Phive:
+    Placement: {ID: !ul 6194267472899764111}
+  SRTHash: !u 0x7a66ed63
+  Translate: [-0.09465718269348145, 11.0, 46.40049362182617]
+- Bakeable: true
+  Gyaml: Land_Dream_BossPedestal_A_02
+  Hash: !ul 3131695756449780388
+  Phive:
+    Placement: {ID: !ul 3131695756449780388}
+  Rotate: [0.0, 1.0471975803375244, 0.0]
+  SRTHash: !u 0x4922e137
+  Translate: [21.15548324584961, 3.2200000286102295, 12.214122772216797]
+- Bakeable: true
+  Gyaml: Land_Dream_BossPedestal_B_03
+  Hash: !ul 13524905466416292204
+  Phive:
+    Placement: {ID: !ul 13524905466416292204}
+  Rotate: [0.0, 0.7725526094436646, 0.0]
+  SRTHash: !u 0x7a42b3f1
+  Translate: [18.10541343688965, 3.2200000286102295, 15.071966171264648]
+- Bakeable: true
+  Gyaml: Land_Dream_BossPedestal_B_03
+  Hash: !ul 5331790992026359696
+  Phive:
+    Placement: {ID: !ul 5331790992026359696}
+  Rotate: [0.0, 1.3218457698822021, 0.0]
+  SRTHash: !u 0xebb55fb5
+  Translate: [22.10541343688965, 3.2200000286102295, 8.143762588500977]
+- Bakeable: true
+  Gyaml: Land_Dream_BossPedestal_B_01
+  Hash: !ul 4892374288834749900
+  Phive:
+    Placement: {ID: !ul 4892374288834749900}
+  Rotate: [3.1415927410125732, 0.24221159517765045, 3.1415927410125732]
+  SRTHash: !u 0xce614933
+  Translate: [31.83070945739746, 4.80000114440918, 8.95120620727539]
+- Bakeable: true
+  Gyaml: Land_Dream_BossPedestal_A_05
+  Hash: !ul 9476959109581968854
+  Phive:
+    Placement: {ID: !ul 9476959109581968854}
+  Rotate: [0.0, 1.0471975803375244, 0.0]
+  SRTHash: !u 0xedc27ac1
+  Translate: [40.22572326660156, 11.0, 23.136995315551758]
+- Gyaml: DestinationAnchor
+  Hash: !ul 17950723677243225816
+  Name: Camera03
+  Phive:
+    Placement: {ID: !ul 17950723677243225816}
+  Rotate: [3.1415927410125732, 1.0471974611282349, 3.1415927410125732]
+  SRTHash: !u 0x90f26054
+  Translate: [0.0, 1.0, 0.0]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyMuseum_B_01
+  Hash: !ul 6962610536948696384
+  Phive:
+    Placement: {ID: !ul 6962610536948696384}
+  SRTHash: !u 0xaaad9d58
+  Translate: [0.0, 7.420000076293945, -40.95800018310547]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyMuseum_B_02
+  Hash: !ul 14673025132727819630
+  Phive:
+    Placement: {ID: !ul 14673025132727819630}
+  SRTHash: !u 0xc5f52305
+  Translate: [33.084999084472656, 7.420050144195557, -16.06570053100586]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyMuseum_B_03
+  Hash: !ul 4950948557251806498
+  Phive:
+    Placement: {ID: !ul 4950948557251806498}
+  SRTHash: !u 0x9049dfc9
+  Translate: [33.085601806640625, 7.419899940490723, 22.929000854492188]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyMuseum_B_04
+  Hash: !ul 16889261686932426951
+  Phive:
+    Placement: {ID: !ul 16889261686932426951}
+  SRTHash: !u 0xe229a9ef
+  Translate: [6.0457000732421875, 7.419899940490723, 41.019378662109375]
+FilePath: Work/Banc/Scene/DreamWorld/EnemyMuseum.bcett.json

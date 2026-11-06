@@ -1,0 +1,196 @@
+Actors:
+- Bakeable: true
+  Gyaml: Obj_SwitchShutter_A_01
+  Hash: !ul 6458719934787534546
+  Links:
+  - {Dst: !ul 4021870477709582880, Gyaml: Reference, Name: Reference, Src: !ul 6458719934787534546}
+  - {Dst: !ul 4167825585074856987, Gyaml: Reference, Name: Reference, Src: !ul 6458719934787534546}
+  - {Dst: !ul 514299681838878997, Gyaml: Reference, Name: Reference, Src: !ul 6458719934787534546}
+  - {Dst: !ul 8013848370811146484, Gyaml: Reference, Name: Reference, Src: !ul 6458719934787534546}
+  - {Dst: !ul 4865672733071872817, Gyaml: Reference, Name: Reference, Src: !ul 6458719934787534546}
+  Phive:
+    Placement: {ID: !ul 6458719934787534546}
+  Rotate: [0.0, -0.7853981852531433, 0.0]
+  SRTHash: !u 0xf901ef11
+  Translate: [-64.04925537109375, 147.99908447265625, -6.463342189788818]
+- Bakeable: true
+  Gyaml: Obj_SwitchShutter_A_02
+  Hash: !ul 4167825585074856987
+  Name: SwitchShutterPlusZ
+  Phive:
+    Placement: {ID: !ul 4167825585074856987}
+  Rotate: [0.0, -0.7853981852531433, 0.0]
+  SRTHash: !u 0x343fb8da
+  Translate: [-64.36038208007812, 147.99908447265625, -6.152215003967285]
+- Bakeable: true
+  Gyaml: Obj_SwitchShutter_A_02
+  Hash: !ul 4021870477709582880
+  Name: SwitchShutterMinusZ
+  Phive:
+    Placement: {ID: !ul 4021870477709582880}
+  Rotate: [-3.141592264175415, 0.7853981852531433, -3.141592502593994]
+  SRTHash: !u 0xf37be0a5
+  Translate: [-63.738128662109375, 147.99908447265625, -6.774469375610352]
+- Gyaml: DestinationAnchor
+  Hash: !ul 8014797752312707123
+  Phive:
+    Placement: {ID: !ul 8014797752312707123}
+  Rotate: [0.0, -0.7853981852531433, 0.0]
+  SRTHash: !u 0x708dccb0
+  Translate: [-64.75636291503906, 148.99908447265625, -5.756235599517822]
+- Gyaml: DestinationAnchor
+  Hash: !ul 6648175305947078471
+  Phive:
+    Placement: {ID: !ul 6648175305947078471}
+  Rotate: [3.1415927410125732, 0.7853980660438538, 3.1415927410125732]
+  SRTHash: !u 0x9e55e02d
+  Translate: [-63.34214782714844, 148.99908447265625, -7.1704487800598145]
+- Gyaml: AirWallEnemy
+  Hash: !ul 11513939515619290384
+  Phive:
+    Placement: {ID: !ul 11513939515619290384}
+  Rotate: [0.0, -0.7853981852531433, 0.0]
+  SRTHash: !u 0xecab39e1
+  Scale: [1.7000000476837158, 2.5999999046325684, 1.7000000476837158]
+  Translate: [-64.04925537109375, 149.29908752441406, -6.463342189788818]
+- Gyaml: DestinationAnchor
+  Hash: !ul 8013848370811146484
+  Name: CameraMinusZ
+  Phive:
+    Placement: {ID: !ul 8013848370811146484}
+  Rotate: [3.1415927410125732, 0.7853980660438538, 3.1415927410125732]
+  SRTHash: !u 0xab54c827
+  Translate: [-62.635040283203125, 147.99908447265625, -7.877555847167969]
+- Gyaml: DestinationAnchor
+  Hash: !ul 514299681838878997
+  Name: CameraPlusZ
+  Phive:
+    Placement: {ID: !ul 514299681838878997}
+  Rotate: [0.0, -0.7853981852531433, 0.0]
+  SRTHash: !u 0xb6d6f68e
+  Translate: [-65.46347045898438, 147.99908447265625, -5.049128532409668]
+- Dynamic:
+    MoveTime: 20.0
+    StartPosRate: [0.0, 0.0, -1.0]
+  Gyaml: PushAirWall_DoorFront
+  Hash: !ul 4865672733071872817
+  Phive:
+    Placement: {ID: !ul 4865672733071872817}
+  Rotate: [0.0, -0.7853981852531433, 0.0]
+  SRTHash: !u 0xf901ef11
+  Translate: [-64.04925537109375, 147.99908447265625, -6.463342189788818]
+- Gyaml: DestinationAnchor
+  Hash: !ul 7543179758420257003
+  Name: FirstJumpTargetPos
+  Phive:
+    Placement: {ID: !ul 7543179758420257003}
+  SRTHash: !u 0xd9ac826d
+  Translate: [-72.65882110595703, 148.0, -3.996337652206421]
+- Dynamic: {Drop__DropTable: None, FlareDancer_IsFirstBattle: true}
+  Gyaml: Enemy_MiddleBoss_FlareDancer
+  Hash: !ul 16186465504958630501
+  Links:
+  - {Dst: !ul 7543179758420257003, Gyaml: Reference, Name: Reference, Src: !ul 16186465504958630501}
+  Phive:
+    Placement: {ID: !ul 16186465504958630501}
+  SRTHash: !u 0x606fdbbe
+  Translate: [-71.93579864501953, 149.981201171875, 2.4227542877197266]
+- Gyaml: Obj_FireWall_A_03
+  Hash: !ul 13677126732529708874
+  Phive:
+    Placement: {ID: !ul 13677126732529708874}
+  SRTHash: !u 0xf656ab33
+  Translate: [-71.89456176757812, 149.95223999023438, 2.3655872344970703]
+- Gyaml: NoEscapeRangeAreaBox
+  Hash: !ul 5512729377216155854
+  Name: NoEscapeArea_SubEvent_AllBossBattle
+  Phive:
+    Placement: {ID: !ul 5512729377216155854}
+  Rotate: [0.0, -0.7853981852531433, 0.0]
+  SRTHash: !u 0xadcec05b
+  Scale: [28.226900100708008, 31.313983917236328, 36.91145324707031]
+  Translate: [-68.87130737304688, 160.4686279296875, -1.2699944972991943]
+- Gyaml: FldObj_AirWall_Player
+  Hash: !ul 14518766339315768500
+  Phive:
+    Placement: {ID: !ul 14518766339315768500}
+  Rotate: [0.0, -0.7853981852531433, 0.0]
+  SRTHash: !u 0xaf50ddac
+  Scale: [6.487170219421387, 5.343496799468994, 1.0]
+  Translate: [-57.488162994384766, 147.0, -12.940052032470703]
+- Gyaml: Area
+  Hash: !ul 6752474856910726107
+  Phive:
+    Placement: {ID: !ul 6752474856910726107}
+  Rotate: [-3.141592502593994, 0.7853981852531433, 3.141592502593994]
+  SRTHash: !u 0x80cbc306
+  Scale: [15.727315902709961, 15.241806030273438, 21.307044982910156]
+  Translate: [-70.43067169189453, 141.31137084960938, 0.062134742736816406]
+- Dynamic: {AreaHintEventName: NaviHint_Rematch}
+  Gyaml: NaviAreaHintEventActor
+  Hash: !ul 16745953782849859173
+  Phive:
+    Placement: {ID: !ul 16745953782849859173}
+  SRTHash: !u 0x802b4cec
+  Translate: [-63.618507385253906, 162.18304443359375, -7.331787109375]
+- Dynamic: {RequestEventName: DreamBossStage_TimeCountStop_FlareDancer}
+  Gyaml: EventRequestActor
+  Hash: !ul 5390592890218830374
+  Phive:
+    Placement: {ID: !ul 5390592890218830374}
+  SRTHash: !u 0x861a725f
+  Translate: [-72.21060943603516, 160.6183319091797, -12.560997009277344]
+- Gyaml: Area
+  Hash: !ul 5758563301686419369
+  Phive:
+    Placement: {ID: !ul 5758563301686419369}
+  Rotate: [-0.06866151094436646, -0.69828200340271, 0.033221449702978134]
+  SRTHash: !u 0xbfaa9b61
+  Scale: [4.86674690246582, 1.0, 2.178901433944702]
+  Translate: [-66.82459259033203, 148.0133514404297, -4.112359523773193]
+- Gyaml: Obj_DreamWorldTimerManager
+  Hash: !ul 6686558977660851392
+  Phive:
+    Placement: {ID: !ul 6686558977660851392}
+  SRTHash: !u 0x78d1e21b
+  Translate: [-73.01982116699219, 162.78936767578125, 7.5984954833984375]
+- Gyaml: Obj_EnemyCounter_A_01
+  Hash: !ul 6252333727167031494
+  Links:
+  - {Dst: !ul 16186465504958630501, Gyaml: Reference, Name: Reference, Src: !ul 6252333727167031494}
+  Phive:
+    Placement: {ID: !ul 6252333727167031494}
+  Rotate: [0.0, -0.7853981852531433, 0.0]
+  SRTHash: !u 0x5bcabf12
+  Translate: [-64.32789611816406, 147.99908447265625, -6.184720516204834]
+AiGroups:
+- Hash: !ul 5037939200769539080
+  Logic: Logic/Root/FlareDancerStage/FlareDancerStage_1d1a.logic.root.ain
+  References:
+  - {Id: ShutterLocator_Lattice_ff7d, Path: _56b2/ShutterLocator_Lattice_ff7d, Reference: !ul 4167825585074856987}
+  - {Id: ShutterLocator_Lattice_4b8b, Path: _56b2/ShutterLocator_Lattice_4b8b, Reference: !ul 4021870477709582880}
+  - {Id: ShutterLocator_Door_fb86, Path: _56b2/ShutterLocator_Door_fb86, Reference: !ul 6458719934787534546}
+  - {Id: PushAirWall_DoorFront_6427, Path: _56b2/PushAirWall_DoorFront_6427, Reference: !ul 4865672733071872817}
+  - {Id: AiGroup, InstanceName: DungeonSwitchShutterWithLockSet_3b94_b6c1, Logic: Logic/Module/DungeonSwitchShutterWithLockSet/DungeonSwitchShutterWithLockSet_3b94.logic.module.ain,
+    Path: _56b2/AiGroup, Reference: !ul 3277041856490349566}
+  - {Id: Enemy_MiddleBoss_FlareDancer_f3c2, Path: _8e34/Enemy_MiddleBoss_FlareDancer_f3c2,
+    Reference: !ul 16186465504958630501}
+  - {Id: AiGroup, InstanceName: Enemy_FlareDancer_Set_b157_d1b8, Logic: Logic/Module/Enemy_FlareDancer_Set/Enemy_FlareDancer_Set_b157.logic.module.ain,
+    Path: _8e34/AiGroup, Reference: !ul 15197099472639063593}
+  - {Id: Obj_FireWall_A_03_6da1, Path: Obj_FireWall_A_03_6da1, Reference: !ul 13677126732529708874}
+  - {Id: EventRequestActor_3c50, Path: EventRequestActor_3c50, Reference: !ul 5390592890218830374}
+  - {Id: NaviAreaHintEventActor_6bc6, Path: NaviAreaHintEventActor_6bc6, Reference: !ul 16745953782849859173}
+  - {Id: Area_eb1f, Path: Area_eb1f, Reference: !ul 6752474856910726107}
+  - {Id: Area_9577, Path: Area_9577, Reference: !ul 5758563301686419369}
+  - {Id: Obj_EnemyCounter_A_01_d642, Path: Obj_EnemyCounter_A_01_d642, Reference: !ul 6252333727167031494}
+FarDeleteGroups:
+- [!ul 4021870477709582880, !ul 4167825585074856987, !ul 4865672733071872817, !ul 5390592890218830374,
+  !ul 5758563301686419369, !ul 6252333727167031494, !ul 6458719934787534546, !ul 6752474856910726107,
+  !ul 13677126732529708874, !ul 16186465504958630501, !ul 16745953782849859173]
+FilePath: Work/Banc/Scene/DreamWorld/FlareDancerStage.bcett.json
+PhiveHeader:
+  PlacementGroups: []
+SimultaneousGroups:
+- [!ul 4021870477709582880, !ul 4167825585074856987, !ul 4865672733071872817, !ul 5390592890218830374,
+  !ul 5758563301686419369, !ul 6252333727167031494, !ul 6458719934787534546, !ul 6752474856910726107,
+  !ul 13677126732529708874, !ul 16186465504958630501, !ul 16745953782849859173]

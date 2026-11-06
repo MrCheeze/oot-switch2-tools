@@ -1,0 +1,2997 @@
+Actors:
+- Gyaml: DestinationAnchor
+  Hash: !ul 6812058163390580951
+  Name: FieldDungeonEntranceGo
+  Phive:
+    Placement: {ID: !ul 6812058163390580951}
+  Rotate: [0.1050243228673935, 0.28586357831954956, -0.0627916231751442]
+  SRTHash: !u 0x3947ae60
+  Translate: [86.01708984375, 87.98065948486328, 55.9844970703125]
+- Gyaml: Area
+  Hash: !ul 17205933862324659416
+  Name: GerudoValley_Entrance
+  Phive:
+    Placement: {ID: !ul 17205933862324659416}
+  Rotate: [0.09701831638813019, 0.2865401804447174, -0.06996379047632217]
+  SRTHash: !u 0x9d32c7ea
+  Scale: [12.670000076293945, 5.0, 14.0]
+  Translate: [87.1114501953125, 89.93384552001953, 42.03203201293945]
+- Dynamic: {FirstEventName: Dm_SY_BancChangeGo, NextBancParamNameAdult: HyruleField_Adult,
+    NextBancParamNameChild: HyruleField_Child, NextEventName: Dm_SY_BancChangeArrive_HyruleField_03,
+    NextStartPosName: HyruleField_FrontOfGerudoValley}
+  Gyaml: FieldAndDungeonEntranceEventRequestActor
+  Hash: !ul 4837832298913244987
+  Links:
+  - {Dst: !ul 6812058163390580951, Gyaml: Reference, Name: Reference, Src: !ul 4837832298913244987}
+  - {Dst: !ul 15988661810338802608, Gyaml: Reference, Name: Reference, Src: !ul 4837832298913244987}
+  Name: GerudoValley_Entrance
+  Phive:
+    Placement: {ID: !ul 4837832298913244987}
+  Rotate: [3.1415927410125732, -0.2872050404548645, 3.1415927410125732]
+  SRTHash: !u 0xe8fc45f2
+  Translate: [78.2492904663086, 112.44937896728516, 29.362314224243164]
+- Dynamic: {IsUseFailSafe: true}
+  Gyaml: ChangeBancBeforehandAnchor
+  Hash: !ul 8031679708063548524
+  Links:
+  - {Dst: !ul 4837832298913244987, Gyaml: Reference, Name: Reference, Src: !ul 8031679708063548524}
+  Name: 先読みの基準座標となるアンカー
+  Phive:
+    Placement: {ID: !ul 8031679708063548524}
+  Rotate: [0.0, 0.28720495104789734, 0.0]
+  SRTHash: !u 0x011e6187
+  Translate: [62.472923278808594, 102.73502349853516, 14.240643501281738]
+- Gyaml: DestinationAnchor
+  Hash: !ul 15988661810338802608
+  Name: HorsePos
+  Phive:
+    Placement: {ID: !ul 15988661810338802608}
+  Rotate: [-3.141592502593994, -0.8780584335327148, 3.141592502593994]
+  SRTHash: !u 0x92d59856
+  Translate: [67.66679382324219, 95.7740249633789, 12.577987670898438]
+- Gyaml: ForbiddenCreateDropArea
+  Hash: !ul 14784734537869775819
+  Phive:
+    Placement: {ID: !ul 14784734537869775819}
+  Rotate: [0.09701834619045258, 0.2865401804447174, -0.06996375322341919]
+  SRTHash: !u 0xbcb76de8
+  Scale: [25.34000015258789, 13.0, 28.0]
+  Translate: [82.47237396240234, 95.75555419921875, 43.58458709716797]
+- Gyaml: Obj_GuidePost_A_01
+  Hash: !ul 13241287171005251470
+  Name: GerudoValley_001
+  Phive:
+    Placement: {ID: !ul 13241287171005251470}
+  Rotate: [0.0, -0.4494282007217407, 0.0]
+  SRTHash: !u 0x175e52fb
+  Translate: [40.45164489746094, 99.55277252197266, -6.702141284942627]
+- Gyaml: EventProxyRequestActor
+  Hash: !ul 15766658186566073689
+  Links:
+  - {Dst: !ul 13241287171005251470, Gyaml: EventProxyRequestLink, Name: EventProxyRequestLink,
+    Src: !ul 15766658186566073689}
+  - {Dst: !ul 13241287171005251470, Gyaml: Reference, Name: Reference, Src: !ul 15766658186566073689}
+  - {Dst: !ul 5288575888484689998, Gyaml: Reference, Name: Reference, Src: !ul 15766658186566073689}
+  Phive:
+    Placement: {ID: !ul 15766658186566073689}
+  Rotate: [0.0, -0.4494282007217407, 0.0]
+  SRTHash: !u 0x175e52fb
+  Translate: [40.45164489746094, 99.55277252197266, -6.702141284942627]
+- Gyaml: DestinationAnchor
+  Hash: !ul 5288575888484689998
+  Phive:
+    Placement: {ID: !ul 5288575888484689998}
+  Rotate: [0.0, -0.4494282007217407, 0.0]
+  SRTHash: !u 0x175e52fb
+  Translate: [40.45164489746094, 99.55277252197266, -6.702141284942627]
+- Gyaml: Obj_SignBoard_A_01
+  Hash: !ul 5749619480272599461
+  Name: GerudoValley_002
+  Phive:
+    Placement: {ID: !ul 5749619480272599461}
+  Rotate: [3.1415927410125732, 0.998447597026825, 3.1415927410125732]
+  SRTHash: !u 0x6139983d
+  Translate: [-60.43144226074219, 102.61451721191406, -2.1212847232818604]
+- Gyaml: EventProxyRequestActor
+  Hash: !ul 7609823380122984853
+  Links:
+  - {Dst: !ul 5749619480272599461, Gyaml: EventProxyRequestLink, Name: EventProxyRequestLink,
+    Src: !ul 7609823380122984853}
+  - {Dst: !ul 5749619480272599461, Gyaml: Reference, Name: Reference, Src: !ul 7609823380122984853}
+  - {Dst: !ul 11507220270855871466, Gyaml: Reference, Name: Reference, Src: !ul 7609823380122984853}
+  Phive:
+    Placement: {ID: !ul 7609823380122984853}
+  Rotate: [3.1415927410125732, 0.998447597026825, 3.1415927410125732]
+  SRTHash: !u 0x6139983d
+  Translate: [-60.43144226074219, 102.61451721191406, -2.1212847232818604]
+- Gyaml: DestinationAnchor
+  Hash: !ul 11507220270855871466
+  Phive:
+    Placement: {ID: !ul 11507220270855871466}
+  Rotate: [3.1415927410125732, 0.998447597026825, 3.1415927410125732]
+  SRTHash: !u 0x6139983d
+  Translate: [-60.43144226074219, 102.61451721191406, -2.1212847232818604]
+- Gyaml: DestinationAnchor
+  Hash: !ul 16341657177128237405
+  Name: FieldDungeonEntranceGo
+  Phive:
+    Placement: {ID: !ul 16341657177128237405}
+  Rotate: [0.0, 0.09817296266555786, 0.0]
+  SRTHash: !u 0x7d7f160a
+  Translate: [9.798235893249512, 15.925613403320312, 81.81298065185547]
+- Gyaml: Area
+  Hash: !ul 5369312334650762833
+  Phive:
+    Placement: {ID: !ul 5369312334650762833}
+  Rotate: [0.0, 0.09817295521497726, 0.0]
+  SRTHash: !u 0xbd28b89e
+  Scale: [14.014459609985352, 52.11969757080078, 10.0]
+  Translate: [10.749641418457031, 6.259769439697266, 77.9616928100586]
+- Dynamic: {FirstEventName: Dm_SY_BancChangeGo_RunningRace_02, InitEventFlag: InitDemo_LakeHylia,
+    InitEventName: Dm_LakeHrl_0003, IsChangableAirPos: true, IsNoDisplayMapIcon: true,
+    NextBancParamNameAdult: HyruleField_Adult, NextBancParamNameChild: HyruleField_Child,
+    NextEventName: Dm_SY_BancChangeArrive_LakeHylia_02, NextStartPosName: LakeHylia_FromGerudoValley}
+  Gyaml: FieldAndDungeonEntranceEventRequestActor
+  Hash: !ul 17826591646446271666
+  Links:
+  - {Dst: !ul 16341657177128237405, Gyaml: Reference, Name: Reference, Src: !ul 17826591646446271666}
+  - {Dst: !ul 8227658054890404921, Gyaml: Reference, Name: Reference, Src: !ul 17826591646446271666}
+  Name: GerudoValley_FromLakeHylia
+  Phive:
+    Placement: {ID: !ul 17826591646446271666}
+  Rotate: [3.1415927410125732, -0.09817305207252502, 3.1415927410125732]
+  SRTHash: !u 0x1c1a4846
+  Translate: [9.96878433227539, 27.925613403320312, 65.84471893310547]
+- Gyaml: ChangeBancBeforehandAnchor
+  Hash: !ul 1392988770711178979
+  Links:
+  - {Dst: !ul 17826591646446271666, Gyaml: Reference, Name: Reference, Src: !ul 1392988770711178979}
+  Name: 先読みの基準座標となるアンカー
+  Phive:
+    Placement: {ID: !ul 1392988770711178979}
+  Rotate: [0.0, 0.09817296266555786, 0.0]
+  SRTHash: !u 0xab76043c
+  Translate: [9.005409240722656, 20.925613403320312, 54.70327377319336]
+- Gyaml: DestinationAnchor
+  Hash: !ul 8227658054890404921
+  Name: HorsePos
+  Phive:
+    Placement: {ID: !ul 8227658054890404921}
+  Rotate: [0.0, 0.09817296266555786, 0.0]
+  SRTHash: !u 0x88ad3deb
+  Translate: [9.888311386108398, 15.925613403320312, 83.18890380859375]
+- Gyaml: ForbiddenCreateDropArea
+  Hash: !ul 12608255871767417936
+  Phive:
+    Placement: {ID: !ul 12608255871767417936}
+  Rotate: [0.0, 0.09817296266555786, 0.0]
+  SRTHash: !u 0x456e0d7e
+  Scale: [37.5289192199707, 104.23939514160156, 60.5]
+  Translate: [12.734451293945312, 57.759769439697266, 98.11418914794922]
+- Gyaml: Obj_GerudoValley_Heart_Piece
+  Hash: !ul 16129198288828948135
+  Phive:
+    Placement: {ID: !ul 16129198288828948135}
+  SRTHash: !u 0x7fa08bc6
+  Translate: [4.853181838989258, 59.16404342651367, -78.1605224609375]
+- Dynamic: {Location: GerudoValley}
+  Gyaml: LocationArea
+  Hash: !ul 15248018048772631562
+  Phive:
+    Placement: {ID: !ul 15248018048772631562}
+  SRTHash: !u 0x3aaed450
+  Scale: [139.0, 86.0, 159.0]
+  Translate: [-18.078472137451172, 2.7365570068359375, 7.85052490234375]
+- Gyaml: ForbidHorseToEnterAreaBox
+  Hash: !ul 17774142206811877661
+  Phive:
+    Placement: {ID: !ul 17774142206811877661}
+  SRTHash: !u 0xe85b327e
+  Scale: [11.585926055908203, 6.6795244216918945, 17.33460807800293]
+  Translate: [9.63137435913086, 89.68165588378906, 20.38942527770996]
+- Gyaml: ForbidHorseToEnterAreaBox
+  Hash: !ul 17973838607930956410
+  Phive:
+    Placement: {ID: !ul 17973838607930956410}
+  SRTHash: !u 0xa5f3829a
+  Scale: [12.762901306152344, 4.339792251586914, 17.361343383789062]
+  Translate: [9.904301643371582, 90.30229187011719, 37.574119567871094]
+- Gyaml: ForbidHorseToEnterAreaBox
+  Hash: !ul 16343817341691588753
+  Phive:
+    Placement: {ID: !ul 16343817341691588753}
+  SRTHash: !u 0x35374979
+  Scale: [9.754467010498047, 3.780519485473633, 20.869850158691406]
+  Translate: [-8.032426834106445, 89.36181640625, 29.50392723083496]
+- Gyaml: Obj_GossipStone_A_01
+  Hash: !ul 13698337756756527439
+  Links:
+  - {Dst: !ul 18014964102650084104, Gyaml: Reference, Name: Reference, Src: !ul 13698337756756527439}
+  - {Dst: !ul 14168479909870079508, Gyaml: Reference, Name: Reference, Src: !ul 13698337756756527439}
+  - {Dst: !ul 15051155482383868640, Gyaml: Reference, Name: Reference, Src: !ul 13698337756756527439}
+  Name: GOSSIP_GERUDO_VALLEY_01
+  Phive:
+    Placement: {ID: !ul 13698337756756527439}
+  Presence: {FlagName: GossipStoneDisappear.GOSSIP_GERUDO_VALLEY_01, IsCheckLazy: false,
+    IsNegation: true}
+  Rotate: [0.0, -0.04010750353336334, 0.0]
+  SRTHash: !u 0xef9099c1
+  Translate: [-17.79280662536621, 48.715980529785156, -59.42515182495117]
+- Dynamic: {IsGossipStoneAppearance: true}
+  Gyaml: Obj_FairySpirit
+  Hash: !ul 18014964102650084104
+  Phive:
+    Placement: {ID: !ul 18014964102650084104}
+  Presence: {FlagName: GossipStoneDisappear.GOSSIP_GERUDO_VALLEY_01, IsCheckLazy: false,
+    IsNegation: true}
+  Rotate: [0.0, -0.04010750353336334, 0.0]
+  SRTHash: !u 0xf7498af4
+  Translate: [-17.79280662536621, 49.89777374267578, -59.42515182495117]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 9129362997971877670
+  Phive:
+    Placement: {ID: !ul 9129362997971877670}
+  Presence: {FlagName: GossipStoneDisappear.GOSSIP_GERUDO_VALLEY_01, IsCheckLazy: false,
+    IsNegation: true}
+  Rotate: [0.0, -0.04010750725865364, 0.0]
+  SRTHash: !u 0x271ff5f7
+  Scale: [8.5, 1.5, 9.0]
+  Translate: [-17.890810012817383, 48.715980529785156, -59.72626495361328]
+- Gyaml: EventProxyRequestActor
+  Hash: !ul 5650041382515241859
+  Links:
+  - {Dst: !ul 13698337756756527439, Gyaml: EventProxyRequestLink, Name: EventProxyRequestLink,
+    Src: !ul 5650041382515241859}
+  - {Dst: !ul 14168479909870079508, Gyaml: Reference, Name: Reference, Src: !ul 5650041382515241859}
+  - {Dst: !ul 18014964102650084104, Gyaml: Reference, Name: Reference, Src: !ul 5650041382515241859}
+  - {Dst: !ul 15051155482383868640, Gyaml: Reference, Name: Reference, Src: !ul 5650041382515241859}
+  - {Dst: !ul 13698337756756527439, Gyaml: Reference, Name: Reference, Src: !ul 5650041382515241859}
+  - {Dst: !ul 18014964102650084104, Gyaml: EventProxyRequestLink, Name: EventProxyRequestLink,
+    Src: !ul 5650041382515241859}
+  Phive:
+    Placement: {ID: !ul 5650041382515241859}
+  Presence: {FlagName: GossipStoneDisappear.GOSSIP_GERUDO_VALLEY_01, IsCheckLazy: false,
+    IsNegation: true}
+  Rotate: [0.0, -0.04010750353336334, 0.0]
+  SRTHash: !u 0x08944e87
+  Translate: [-15.285738945007324, 56.03129959106445, -59.71996307373047]
+- Gyaml: DestinationAnchor
+  Hash: !ul 14168479909870079508
+  Name: FairySpirit_AppearPoint
+  Phive:
+    Placement: {ID: !ul 14168479909870079508}
+  Presence: {FlagName: GossipStoneDisappear.GOSSIP_GERUDO_VALLEY_01, IsCheckLazy: false,
+    IsNegation: true}
+  Rotate: [0.0, -0.04010750353336334, 0.0]
+  SRTHash: !u 0xfde3c74a
+  Translate: [-17.79280662536621, 49.278892517089844, -59.42515182495117]
+- Gyaml: DestinationAnchor
+  Hash: !ul 15051155482383868640
+  Name: PlayerPos
+  Phive:
+    Placement: {ID: !ul 15051155482383868640}
+  Presence: {FlagName: GossipStoneDisappear.GOSSIP_GERUDO_VALLEY_01, IsCheckLazy: false,
+    IsNegation: true}
+  Rotate: [3.1415927410125732, 0.04010741785168648, 3.1415927410125732]
+  SRTHash: !u 0xad132b6f
+  Translate: [-17.851350784301758, 48.715980529785156, -57.4258918762207]
+- Gyaml: HeartPieceAnchor
+  Hash: !ul 1077480308077338993
+  Links:
+  - {Dst: !ul 16129198288828948135, Gyaml: Reference, Name: Reference, Src: !ul 1077480308077338993}
+  Phive:
+    Placement: {ID: !ul 1077480308077338993}
+  SRTHash: !u 0x7fa08bc6
+  Translate: [4.853181838989258, 59.16404342651367, -78.1605224609375]
+- Dynamic: {MapIconHeartPieceAnchorType: 1}
+  Gyaml: HeartPieceAnchor
+  Hash: !ul 14813002874583645116
+  Links:
+  - {Dst: !ul 15856256242099990922, Gyaml: Reference, Name: Reference, Src: !ul 14813002874583645116}
+  Phive:
+    Placement: {ID: !ul 14813002874583645116}
+  SRTHash: !u 0xb20e86b1
+  Translate: [-9.790793418884277, 90.43172454833984, 34.98228073120117]
+- Dynamic: {Enemy_Skulltula_Gold_AppearPlayerCheck: true, Enemy_Skulltula_Gold_AppearPopOut: true,
+    Enemy_Skulltula_Gold_IsMagicBeanSoil: true}
+  Gyaml: Enemy_Skulltula_Gold
+  Hash: !ul 8326970197618554626
+  Links:
+  - {Dst: !ul 13995292885745447481, Gyaml: Reference, Name: Reference, Src: !ul 8326970197618554626}
+  Phive:
+    Placement: {ID: !ul 8326970197618554626}
+  Presence: {FlagName: Gimmick_MagicBeanSoil_GerudoValley, IsCheckLazy: false, IsNegation: false}
+  Rails:
+  - {Dst: !ul 3435623199507039433, Gyaml: Reference, Name: Reference}
+  SRTHash: !u 0xbdb56ffd
+  Translate: [-11.040997505187988, 48.04132843017578, 2.4471940994262695]
+- Dynamic: {DiveInsectGameData: Gimmick_MagicBeanSoil_GerudoValley}
+  Gyaml: Obj_SmallFarm_A_01
+  Hash: !ul 10857724324414230743
+  Links:
+  - {Dst: !ul 8326970197618554626, Gyaml: Reference, Name: Reference, Src: !ul 10857724324414230743}
+  Phive:
+    Placement: {ID: !ul 10857724324414230743}
+  Presence: {FlagName: Sequence_IsChildhood, IsCheckLazy: false, IsNegation: false}
+  SRTHash: !u 0x669d47cb
+  Translate: [-11.040997505187988, 47.76062774658203, 2.4471940994262695]
+- Dynamic: {RequestEventName: Field_CheckMagicBeanSoil}
+  Gyaml: EventRequestActor
+  Hash: !ul 9532398051615094292
+  Links:
+  - {Dst: !ul 10857724324414230743, Gyaml: Reference, Name: Reference, Src: !ul 9532398051615094292}
+  - {Dst: !ul 13308787597937647319, Gyaml: Reference, Name: Reference, Src: !ul 9532398051615094292}
+  Phive:
+    Placement: {ID: !ul 9532398051615094292}
+  SRTHash: !u 0x47c650b3
+  Translate: [-11.040997505187988, 49.18562698364258, 1.3241980075836182]
+- Gyaml: Obj_FairySpirit
+  Hash: !ul 7456892186485218710
+  Name: MagicBeen
+  Phive:
+    Placement: {ID: !ul 7456892186485218710}
+  SRTHash: !u 0x5d5eef07
+  Translate: [-11.024622917175293, 48.56062698364258, 2.441408634185791]
+- Dynamic: {RequestEventName: CheckSoil_01}
+  Gyaml: EventRequestActor
+  Hash: !ul 1784236667449368930
+  Links:
+  - {Dst: !ul 10857724324414230743, Gyaml: Reference, Name: Reference, Src: !ul 1784236667449368930}
+  - {Dst: !ul 13308787597937647319, Gyaml: Reference, Name: Reference, Src: !ul 1784236667449368930}
+  Phive:
+    Placement: {ID: !ul 1784236667449368930}
+  SRTHash: !u 0x041e6390
+  Translate: [-9.95163345336914, 49.0762939453125, 2.522507667541504]
+- Dynamic: {MoveSpeed: 6.0, SlowDistance: 6.0, SlowDistanceRoute: 6.0, SlowRouteSpeed: 0.10000000149011612}
+  Gyaml: Obj_SmallFarm_A_03
+  Hash: !ul 4300442340330768010
+  Links:
+  - {Dst: !ul 10857724324414230743, Gyaml: Reference, Name: Plant, Src: !ul 4300442340330768010}
+  - {Dst: !ul 6018686435766512391, Gyaml: Reference, Name: Reference, Src: !ul 4300442340330768010}
+  - {Dst: !ul 13995292885745447481, Gyaml: Reference, Name: Reference, Src: !ul 4300442340330768010}
+  Phive:
+    Placement: {ID: !ul 4300442340330768010}
+  Presence: {FlagName: Sequence_IsChildhood, IsCheckLazy: false, IsNegation: true}
+  Rails:
+  - {Dst: !ul 3435623199507039433, Gyaml: Reference, Name: Reference}
+  SRTHash: !u 0x669d47cb
+  Translate: [-11.040997505187988, 47.76062774658203, 2.4471940994262695]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 9370695525814289334
+  Phive:
+    Placement: {ID: !ul 9370695525814289334}
+  SRTHash: !u 0xe0b00d3c
+  Scale: [1.2000000476837158, 0.5, 1.2000000476837158]
+  Translate: [-11.040997505187988, 47.76062774658203, 2.4471940994262695]
+- Gyaml: DestinationAnchor
+  Hash: !ul 13308787597937647319
+  Name: Dirt
+  Phive:
+    Placement: {ID: !ul 13308787597937647319}
+  SRTHash: !u 0x669d47cb
+  Translate: [-11.040997505187988, 47.76062774658203, 2.4471940994262695]
+- Gyaml: EventProxyRequestActor
+  Hash: !ul 12495698095208012428
+  Links:
+  - {Dst: !ul 13308787597937647319, Gyaml: Reference, Name: Reference, Src: !ul 12495698095208012428}
+  - {Dst: !ul 7456892186485218710, Gyaml: Reference, Name: Reference, Src: !ul 12495698095208012428}
+  - {Dst: !ul 10857724324414230743, Gyaml: EventProxyRequestLink, Name: EventProxyRequestLink,
+    Src: !ul 12495698095208012428}
+  Phive:
+    Placement: {ID: !ul 12495698095208012428}
+  SRTHash: !u 0x88edf900
+  Translate: [-11.827445030212402, 49.13566207885742, 3.5296852588653564]
+- Gyaml: Land_GerudoValley_Landscape_Cliff_B_04
+  Hash: !ul 13627401213860313143
+  Phive:
+    Placement: {ID: !ul 13627401213860313143}
+  Rotate: [3.141592502593994, 1.1091372966766357, -3.141592502593994]
+  SRTHash: !u 0xe6bad796
+  Scale: [0.800000011920929, 0.800000011920929, 0.800000011920929]
+  Translate: [358.228515625, 121.04438781738281, 16.11070442199707]
+- Gyaml: Land_GerudoValley_CliffTiling_A_09
+  Hash: !ul 1844838999724216694
+  Phive:
+    Placement: {ID: !ul 1844838999724216694}
+  SRTHash: !u 0xc9a76a4b
+  Translate: [0.0, 100.0, 0.0]
+- Gyaml: Land_GerudoValley_Background_D_01
+  Hash: !ul 155607327145469088
+  Phive:
+    Placement: {ID: !ul 155607327145469088}
+  Rotate: [-0.4498344957828522, 1.1299302577972412, -0.49039918184280396]
+  SRTHash: !u 0x6afdb3f4
+  Translate: [90.1899642944336, 91.67171478271484, 82.0589599609375]
+- Gyaml: Obj_WaterPlane_Field_A_01
+  Hash: !ul 5092843395853435845
+  Phive:
+    Placement: {ID: !ul 5092843395853435845}
+  Rotate: [0.0, 1.1344640254974365, 0.0]
+  SRTHash: !u 0x6ba0fa2a
+  Scale: [2.0, 1.0, 2.0999999046325684]
+  Translate: [56.50261688232422, 94.69999694824219, 7.48387336730957]
+- Gyaml: Land_GerudoValley_Background_B_01
+  Hash: !ul 2199345655779492793
+  Phive:
+    Placement: {ID: !ul 2199345655779492793}
+  Rotate: [3.1415927410125732, -0.3490656912326813, 3.1415927410125732]
+  SRTHash: !u 0xdccf8aa3
+  Translate: [136.91036987304688, 59.60456848144531, 180.4355010986328]
+- Gyaml: Land_GerudoValley_Cliff_L_01
+  Hash: !ul 12520353881010519602
+  Phive:
+    Placement: {ID: !ul 12520353881010519602}
+  Rotate: [0.0, 0.2629973888397217, 0.0]
+  SRTHash: !u 0xeaf30c2e
+  Scale: [1.2261208295822144, 1.2261208295822144, 1.2261208295822144]
+  Translate: [71.06729888916016, 116.59713745117188, 52.6140022277832]
+- Gyaml: FldObj_AirWall_Common_Cube
+  Hash: !ul 2450424354831758404
+  Phive:
+    Placement: {ID: !ul 2450424354831758404}
+  Rotate: [0.0, -0.04525768756866455, 0.0]
+  SRTHash: !u 0xa1561e94
+  Scale: [4.590535640716553, 13.896869659423828, 8.389836311340332]
+  Translate: [72.33920288085938, 90.85855865478516, 31.46278190612793]
+- Gyaml: Land_GerudoValley_CliffTiling_A_01
+  Hash: !ul 3109981605229673394
+  Phive:
+    Placement: {ID: !ul 3109981605229673394}
+  SRTHash: !u 0xc9a76a4b
+  Translate: [0.0, 100.0, 0.0]
+- Gyaml: Land_GerudoValley_CliffTiling_A_03
+  Hash: !ul 1658039320316542494
+  Phive:
+    Placement: {ID: !ul 1658039320316542494}
+  SRTHash: !u 0x1c0e4d9a
+  Translate: [12.5, 50.0, 15.0]
+- Gyaml: Land_GerudoValley_Cliff_L_01
+  Hash: !ul 8259727062232803635
+  Phive:
+    Placement: {ID: !ul 8259727062232803635}
+  Rotate: [3.1415927410125732, -0.28812873363494873, 3.1415927410125732]
+  SRTHash: !u 0xcbbab926
+  Scale: [1.4805220365524292, 1.4805220365524292, 1.4805220365524292]
+  Translate: [17.21767807006836, 78.18302154541016, -12.476802825927734]
+- Gyaml: Land_GerudoValley_Cliff_L_01
+  Hash: !ul 17463471623244745714
+  Phive:
+    Placement: {ID: !ul 17463471623244745714}
+  Rotate: [3.141592502593994, -0.10014208406209946, -0.0023150139022618532]
+  SRTHash: !u 0x798a5983
+  Scale: [1.8431568145751953, 1.8431568145751953, 1.8431568145751953]
+  Translate: [17.78847312927246, 73.6470718383789, -2.302342414855957]
+- Gyaml: Land_GerudoValley_Cliff_L_01
+  Hash: !ul 7702672524864408204
+  Phive:
+    Placement: {ID: !ul 7702672524864408204}
+  Rotate: [0.010480251163244247, -0.18605013191699982, -0.039263222366571426]
+  SRTHash: !u 0xc5d6189d
+  Scale: [1.7625889778137207, 1.7625889778137207, 1.7625889778137207]
+  Translate: [20.785600662231445, 83.63203430175781, -22.168689727783203]
+- Gyaml: Land_GerudoValley_Cliff_L_01
+  Hash: !ul 9972100651492808423
+  Phive:
+    Placement: {ID: !ul 9972100651492808423}
+  Rotate: [3.1415927410125732, -1.1491007804870605, 3.1415927410125732]
+  SRTHash: !u 0xaae24084
+  Scale: [1.1922276020050049, 1.1922276020050049, 1.1922276020050049]
+  Translate: [15.336200714111328, 86.6353988647461, 6.826927661895752]
+- Gyaml: Land_GerudoValley_Cliff_L_01
+  Hash: !ul 15999915117996430754
+  Phive:
+    Placement: {ID: !ul 15999915117996430754}
+  Rotate: [0.0, 1.2867249250411987, 0.0]
+  SRTHash: !u 0x0f4a17e4
+  Scale: [1.4028868675231934, 1.4028868675231934, 1.4028868675231934]
+  Translate: [16.847753524780273, 83.48521423339844, 12.06394100189209]
+- Gyaml: Land_GerudoValley_Cliff_L_02
+  Hash: !ul 6782623055123592459
+  Phive:
+    Placement: {ID: !ul 6782623055123592459}
+  Rotate: [-2.641167640686035, 1.3646279573440552, -2.7002036571502686]
+  SRTHash: !u 0x24e13a95
+  Scale: [1.5158623456954956, 1.5158623456954956, 1.5158623456954956]
+  Translate: [17.234779357910156, 44.98658752441406, -5.903033256530762]
+- Gyaml: Land_GerudoValley_Cliff_L_02
+  Hash: !ul 3056509251773304894
+  Phive:
+    Placement: {ID: !ul 3056509251773304894}
+  Rotate: [0.0, -1.4628337621688843, 0.0]
+  SRTHash: !u 0xe9058a22
+  Scale: [1.5158623456954956, 1.5158623456954956, 1.5158623456954956]
+  Translate: [16.610963821411133, 31.68486785888672, -4.087785720825195]
+- Gyaml: Land_GerudoValley_Cliff_L_01
+  Hash: !ul 17330155114327029212
+  Phive:
+    Placement: {ID: !ul 17330155114327029212}
+  Rotate: [-3.1244118213653564, -0.4556705057621002, 3.078181743621826]
+  SRTHash: !u 0x5a477eaf
+  Scale: [1.5158623456954956, 1.5158623456954956, 1.5158623456954956]
+  Translate: [16.376853942871094, 58.51533508300781, -8.411284446716309]
+- Gyaml: Land_GerudoValley_UmeCliff_B_02
+  Hash: !ul 16854515538750976500
+  Phive:
+    Placement: {ID: !ul 16854515538750976500}
+  Rotate: [3.126347541809082, 0.06398287415504456, 3.1102824211120605]
+  SRTHash: !u 0xe2cafe3f
+  Scale: [1.1999999284744263, 1.1999999284744263, 1.1999999284744263]
+  Translate: [23.175737380981445, 75.57815551757812, -28.5648250579834]
+- Gyaml: Land_GerudoValley_Cliff_L_01
+  Hash: !ul 13640568605033443314
+  Phive:
+    Placement: {ID: !ul 13640568605033443314}
+  Rotate: [3.1415927410125732, -0.800308346748352, 3.1415927410125732]
+  SRTHash: !u 0xa5dca510
+  Scale: [1.25, 1.25, 1.25]
+  Translate: [9.891590118408203, 75.43057250976562, 33.91358184814453]
+- Gyaml: Land_GerudoValley_Landscape_Cliff_B_04
+  Hash: !ul 7777001210248951478
+  Phive:
+    Placement: {ID: !ul 7777001210248951478}
+  SRTHash: !u 0x7b737df8
+  Scale: [1.2000000476837158, 1.2000000476837158, 1.2000000476837158]
+  Translate: [193.25042724609375, 135.1593017578125, -839.7976684570312]
+- Gyaml: Land_GerudoValley_CliffTiling_A_08
+  Hash: !ul 14968087038835799773
+  Phive:
+    Placement: {ID: !ul 14968087038835799773}
+  Rotate: [0.0, 0.9061377644538879, 0.0]
+  SRTHash: !u 0x95245e77
+  Scale: [1.2000000476837158, 1.2000000476837158, 1.2000000476837158]
+  Translate: [32.293636322021484, 131.88128662109375, -347.7117919921875]
+- Gyaml: Land_GerudoValley_CliffTiling_A_08
+  Hash: !ul 13014869098640537594
+  Phive:
+    Placement: {ID: !ul 13014869098640537594}
+  Rotate: [0.0, 0.8381243348121643, 0.0]
+  SRTHash: !u 0xe75d85af
+  Scale: [1.0999999046325684, 1.0999999046325684, 1.0999999046325684]
+  Translate: [53.430564880371094, 114.9380874633789, -276.7658996582031]
+- Gyaml: Land_GerudoValley_SmallShrine_A_01
+  Hash: !ul 17967672942539974186
+  Phive:
+    Placement: {ID: !ul 17967672942539974186}
+  SRTHash: !u 0x7f07491c
+  Translate: [5.0, 60.0, -80.0]
+- Gyaml: Land_GerudoValley_CliffTiling_A_08
+  Hash: !ul 8748168268627162610
+  Phive:
+    Placement: {ID: !ul 8748168268627162610}
+  Rotate: [0.0, 1.052402138710022, 0.0]
+  SRTHash: !u 0xfd904e78
+  Scale: [1.100000023841858, 1.100000023841858, 1.100000023841858]
+  Translate: [-7.976068496704102, 103.10363006591797, -198.5813446044922]
+- Gyaml: Land_GerudoValley_Landscape_Cliff_B_04
+  Hash: !ul 11475626418923103261
+  Phive:
+    Placement: {ID: !ul 11475626418923103261}
+  Rotate: [3.1415927410125732, -0.9552525281906128, 3.1415927410125732]
+  SRTHash: !u 0x3c7ca8ef
+  Scale: [0.800000011920929, 0.800000011920929, 0.800000011920929]
+  Translate: [143.73956298828125, 46.07893371582031, -324.5948486328125]
+- Gyaml: Land_GerudoValley_CliffTiling_A_08
+  Hash: !ul 2363613711278327095
+  Phive:
+    Placement: {ID: !ul 2363613711278327095}
+  Rotate: [0.0, 0.9567986726760864, 0.0]
+  SRTHash: !u 0x2a3764d9
+  Scale: [1.2000000476837158, 1.2000000476837158, 1.2000000476837158]
+  Translate: [24.45477294921875, 94.10359191894531, -157.64561462402344]
+- Gyaml: Land_GerudoValley_Landscape_Cliff_B_04
+  Hash: !ul 8197764385128774662
+  Phive:
+    Placement: {ID: !ul 8197764385128774662}
+  Rotate: [0.0, -0.6280907988548279, 0.0]
+  SRTHash: !u 0x62d59332
+  Scale: [1.2000000476837158, 1.2000000476837158, 1.2000000476837158]
+  Translate: [332.0020446777344, 70.7021713256836, -808.5287475585938]
+- Gyaml: Land_GerudoValley_Landscape_Cliff_B_02
+  Hash: !ul 1850497498998004778
+  Phive:
+    Placement: {ID: !ul 1850497498998004778}
+  SRTHash: !u 0xbfeaffb3
+  Translate: [32.3133544921875, 86.15675354003906, -161.2189483642578]
+- Gyaml: Land_GerudoValley_CliffTiling_A_06
+  Hash: !ul 1075852120557523848
+  Phive:
+    Placement: {ID: !ul 1075852120557523848}
+  SRTHash: !u 0xf8bb0a0b
+  Translate: [0.0, 80.0, -50.0]
+- Gyaml: Land_GerudoValley_Cliff_L_02
+  Hash: !ul 8464902590756536826
+  Phive:
+    Placement: {ID: !ul 8464902590756536826}
+  Rotate: [-0.06025195121765137, 0.252672404050827, 0.03208598494529724]
+  SRTHash: !u 0x82ba81f2
+  Scale: [1.4638676643371582, 1.4638676643371582, 1.4638676643371582]
+  Translate: [-10.136784553527832, 34.40557861328125, -2.128249168395996]
+- Gyaml: Land_GerudoValley_Cliff_L_02
+  Hash: !ul 3324985265466100919
+  Phive:
+    Placement: {ID: !ul 3324985265466100919}
+  Rotate: [-0.17596879601478577, 0.2842876613140106, 0.0]
+  SRTHash: !u 0x3a15bc7b
+  Scale: [1.4638676643371582, 1.4638676643371582, 1.4638676643371582]
+  Translate: [-13.541851043701172, 35.45989227294922, 4.717517852783203]
+- Gyaml: Land_GerudoValley_Cliff_L_02
+  Hash: !ul 12900943386265159740
+  Phive:
+    Placement: {ID: !ul 12900943386265159740}
+  Rotate: [0.0, -1.5166819095611572, 0.0]
+  SRTHash: !u 0x093d36b3
+  Scale: [1.517114520072937, 1.517114520072937, 1.517114520072937]
+  Translate: [22.695751190185547, 62.882102966308594, -66.39706420898438]
+- Gyaml: Land_GerudoValley_Cliff_L_01
+  Hash: !ul 1186378815561800126
+  Phive:
+    Placement: {ID: !ul 1186378815561800126}
+  Rotate: [-0.7714500427246094, 1.425752878189087, -0.5936527848243713]
+  SRTHash: !u 0x76221eec
+  Scale: [1.775462031364441, 1.775462031364441, 1.775462031364441]
+  Translate: [25.408418655395508, 110.11155700683594, -48.980140686035156]
+- Gyaml: Land_GerudoValley_Cliff_L_02
+  Hash: !ul 18137742015570128490
+  Phive:
+    Placement: {ID: !ul 18137742015570128490}
+  Rotate: [0.0, -0.8346952795982361, 0.0]
+  SRTHash: !u 0x282f6207
+  Scale: [1.517114520072937, 1.517114520072937, 1.517114520072937]
+  Translate: [-13.721373558044434, 77.72872924804688, -68.61040496826172]
+- Gyaml: Land_GerudoValley_Cliff_L_01
+  Hash: !ul 13454484691560830396
+  Phive:
+    Placement: {ID: !ul 13454484691560830396}
+  Rotate: [0.0, 1.455016016960144, 0.0]
+  SRTHash: !u 0x9f029ec3
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [-17.264347076416016, 111.23805236816406, -80.34423065185547]
+- Gyaml: Land_GerudoValley_Cliff_L_01
+  Hash: !ul 9592284010512623286
+  Phive:
+    Placement: {ID: !ul 9592284010512623286}
+  Rotate: [3.1415927410125732, 0.09415332227945328, 3.1415927410125732]
+  SRTHash: !u 0xce6a8c89
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [-11.692840576171875, 92.88858032226562, -106.23101806640625]
+- Gyaml: Land_GerudoValley_Cliff_L_01
+  Hash: !ul 7042192789845289241
+  Phive:
+    Placement: {ID: !ul 7042192789845289241}
+  Rotate: [0.0, 0.6470677256584167, 0.0]
+  SRTHash: !u 0xf62014a8
+  Scale: [2.170177459716797, 2.170177459716797, 2.170177459716797]
+  Translate: [-18.02750587463379, 104.26904296875, -71.75110626220703]
+- Gyaml: Land_GerudoValley_WaterFall_River_A_02
+  Hash: !ul 15579711042202876585
+  Phive:
+    Placement: {ID: !ul 15579711042202876585}
+  SRTHash: !u 0xfee2a941
+  Translate: [2.62677001953125, 45.659000396728516, -10.003999710083008]
+- Gyaml: Land_GerudoValley_Cliff_L_01
+  Hash: !ul 7596913139485642715
+  Phive:
+    Placement: {ID: !ul 7596913139485642715}
+  Rotate: [3.1415927410125732, -1.2431743144989014, 3.1415927410125732]
+  SRTHash: !u 0xeb42189c
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [2.137986898422241, 103.82579803466797, -137.82247924804688]
+- Gyaml: Land_GerudoValley_Cliff_L_01
+  Hash: !ul 16223810525062801015
+  Phive:
+    Placement: {ID: !ul 16223810525062801015}
+  Rotate: [3.1415927410125732, -0.9582378268241882, 3.1415927410125732]
+  SRTHash: !u 0xf5f8e764
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [-9.02098560333252, 94.1882095336914, -122.47956848144531]
+- Gyaml: Land_GerudoValley_Cliff_L_02
+  Hash: !ul 214724800081999219
+  Phive:
+    Placement: {ID: !ul 214724800081999219}
+  Rotate: [-2.4086599349975586, 1.1777427196502686, -2.4808311462402344]
+  SRTHash: !u 0x92cd93e9
+  Scale: [1.515862226486206, 1.515862226486206, 1.515862226486206]
+  Translate: [5.913608074188232, 25.82912826538086, -9.16616439819336]
+- Gyaml: Land_GerudoValley_Cliff_L_02
+  Hash: !ul 7647396305044729709
+  Phive:
+    Placement: {ID: !ul 7647396305044729709}
+  Rotate: [3.1415927410125732, -1.3026639223098755, 3.1415927410125732]
+  SRTHash: !u 0x5a0afab9
+  Scale: [1.1831296682357788, 1.1831296682357788, 1.1831296682357788]
+  Translate: [15.739051818847656, 56.711055755615234, -73.09383392333984]
+- Gyaml: Land_GerudoValley_Cliff_L_02
+  Hash: !ul 5786875208852150018
+  Phive:
+    Placement: {ID: !ul 5786875208852150018}
+  Rotate: [0.0, 0.7435645461082458, 0.0]
+  SRTHash: !u 0x3e0d2ed4
+  Scale: [1.3343837261199951, 1.3343837261199951, 1.3343837261199951]
+  Translate: [-12.087450981140137, 62.76213073730469, -69.88799285888672]
+- Dynamic: {FogParams: GerudoValley_WaterFallBigBasin_00}
+  Gyaml: VolumeFogArea
+  Hash: !ul 8471831471166304012
+  Phive:
+    Placement: {ID: !ul 8471831471166304012}
+  Rotate: [0.0, -0.0, 1.5707963705062866]
+  SRTHash: !u 0x9b33c1c5
+  Scale: [48.598602294921875, 38.105892181396484, 22.176441192626953]
+  Translate: [4.017922878265381, 56.029319763183594, -65.10516357421875]
+- Gyaml: Land_GerudoValley_Cliff_L_02
+  Hash: !ul 17321723689637527014
+  Phive:
+    Placement: {ID: !ul 17321723689637527014}
+  Rotate: [-0.16884233057498932, -0.1374220997095108, -0.0038402907084673643]
+  SRTHash: !u 0xe2990a2d
+  Scale: [1.5158623456954956, 1.5158623456954956, 1.5158623456954956]
+  Translate: [-1.3071210384368896, 26.617170333862305, -8.482309341430664]
+- Gyaml: Land_GerudoValley_Cliff_M_01
+  Hash: !ul 1214973694814219671
+  Phive:
+    Placement: {ID: !ul 1214973694814219671}
+  Rotate: [-0.03899764269590378, 1.0321385860443115, -0.07207885384559631]
+  SRTHash: !u 0x65395bd7
+  Scale: [3.1129472255706787, 3.1129472255706787, 3.1129472255706787]
+  Translate: [23.37549591064453, 88.7597427368164, -77.34976959228516]
+- Gyaml: Land_GerudoValley_Cliff_L_01
+  Hash: !ul 14153387798464427652
+  Phive:
+    Placement: {ID: !ul 14153387798464427652}
+  Rotate: [0.0, -0.1683283895254135, 0.0]
+  SRTHash: !u 0x689b15c7
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [-12.399276733398438, 102.48394775390625, -114.86898040771484]
+- Gyaml: Land_GerudoValley_Cliff_L_01
+  Hash: !ul 17961422733599136836
+  Phive:
+    Placement: {ID: !ul 17961422733599136836}
+  Rotate: [0.0, -0.18958617746829987, 0.0]
+  SRTHash: !u 0x7196f09e
+  Scale: [1.8841452598571777, 1.8841452598571777, 1.8841452598571777]
+  Translate: [-18.379926681518555, 100.8795394897461, -60.621986389160156]
+- Gyaml: Land_GerudoValley_Cliff_L_01
+  Hash: !ul 14448926661560368989
+  Phive:
+    Placement: {ID: !ul 14448926661560368989}
+  Rotate: [-0.1183890625834465, 1.231520414352417, -0.0592685304582119]
+  SRTHash: !u 0xb7d8e2c1
+  Scale: [1.6611919403076172, 1.6611919403076172, 1.6611919403076172]
+  Translate: [-16.64640998840332, 75.45883178710938, -50.01169204711914]
+- Gyaml: Land_GerudoValley_Cliff_L_01
+  Hash: !ul 6952115750834373094
+  Phive:
+    Placement: {ID: !ul 6952115750834373094}
+  Rotate: [3.1415927410125732, -0.43844714760780334, 3.1415927410125732]
+  SRTHash: !u 0xd24533b1
+  Scale: [1.6611919403076172, 1.6611919403076172, 1.6611919403076172]
+  Translate: [-13.775640487670898, 103.00971984863281, -48.94108200073242]
+- Gyaml: Land_GerudoValley_Cliff_L_01
+  Hash: !ul 15173818673997612867
+  Phive:
+    Placement: {ID: !ul 15173818673997612867}
+  Rotate: [-0.004191132728010416, -0.2784792184829712, -0.037997450679540634]
+  SRTHash: !u 0x721d721d
+  Scale: [1.6611919403076172, 1.6611919403076172, 1.6611919403076172]
+  Translate: [-13.779463768005371, 104.36670684814453, -38.63437271118164]
+- Gyaml: Land_GerudoValley_Cliff_L_01
+  Hash: !ul 12674241307267031520
+  Phive:
+    Placement: {ID: !ul 12674241307267031520}
+  Rotate: [3.1167750358581543, -0.2715644836425781, -3.1036689281463623]
+  SRTHash: !u 0x9ed72142
+  Scale: [1.6611920595169067, 1.6611920595169067, 1.6611920595169067]
+  Translate: [-15.086647033691406, 80.70250701904297, -37.2818603515625]
+- Gyaml: Land_GerudoValley_Cliff_L_02
+  Hash: !ul 8397895369646344494
+  Phive:
+    Placement: {ID: !ul 8397895369646344494}
+  Rotate: [3.0270230770111084, -0.9405517578125, -3.0478827953338623]
+  SRTHash: !u 0x63a6f519
+  Scale: [1.6611919403076172, 1.6611919403076172, 1.6611919403076172]
+  Translate: [-15.826367378234863, 79.40650177001953, -63.805320739746094]
+- Bakeable: true
+  Gyaml: Land_GerudoValley_CliffTiling_A_15
+  Hash: !ul 11419324926078357328
+  Phive:
+    Placement: {ID: !ul 11419324926078357328}
+  SRTHash: !u 0x9b50a981
+  Translate: [-15.0, 50.0, -40.0]
+- Gyaml: Land_GerudoValley_CliffTiling_A_05
+  Hash: !ul 5208773266225291119
+  Phive:
+    Placement: {ID: !ul 5208773266225291119}
+  SRTHash: !u 0x5c65ef01
+  Translate: [30.0, 33.930999755859375, 140.0]
+- Gyaml: Land_GerudoValley_CliffTiling_A_08
+  Hash: !ul 889995781104507697
+  Phive:
+    Placement: {ID: !ul 889995781104507697}
+  Rotate: [-3.141592502593994, 1.251554250717163, -3.141592502593994]
+  SRTHash: !u 0x53457017
+  Scale: [1.2000000476837158, 1.2000000476837158, 1.2000000476837158]
+  Translate: [54.68060302734375, 80.50125122070312, 369.7449035644531]
+- Gyaml: Land_GerudoValley_CliffTiling_A_08
+  Hash: !ul 17044741745802648747
+  Phive:
+    Placement: {ID: !ul 17044741745802648747}
+  Rotate: [-3.141592502593994, 0.8148325681686401, -3.141592502593994]
+  SRTHash: !u 0xcaf6350f
+  Scale: [1.2000000476837158, 1.2000000476837158, 1.2000000476837158]
+  Translate: [27.697954177856445, 132.079833984375, 380.1042785644531]
+- Gyaml: Land_GerudoValley_CliffTiling_A_08
+  Hash: !ul 543615175610154855
+  Phive:
+    Placement: {ID: !ul 543615175610154855}
+  Rotate: [-3.141592502593994, 1.1773884296417236, -3.141592502593994]
+  SRTHash: !u 0xfd8b2877
+  Translate: [88.16294860839844, 30.127498626708984, 380.98101806640625]
+- Gyaml: Land_GerudoValley_CliffTiling_A_04
+  Hash: !ul 9974958584546832578
+  Phive:
+    Placement: {ID: !ul 9974958584546832578}
+  SRTHash: !u 0x444d7482
+  Translate: [10.0, 60.0, 80.0]
+- Gyaml: Land_GerudoValley_CliffTiling_A_08
+  Hash: !ul 2386094087046878328
+  Phive:
+    Placement: {ID: !ul 2386094087046878328}
+  Rotate: [-3.141592502593994, 0.8273501992225647, -3.141592502593994]
+  SRTHash: !u 0x0c5f34f7
+  Translate: [54.89348220825195, 84.72134399414062, 283.2396240234375]
+- Gyaml: Land_GerudoValley_Cliff_L_02
+  Hash: !ul 7456822578112368607
+  Phive:
+    Placement: {ID: !ul 7456822578112368607}
+  Rotate: [0.0, 0.3503386378288269, 0.0]
+  SRTHash: !u 0x11acb60b
+  Scale: [1.5961240530014038, 1.5961240530014038, 1.5961240530014038]
+  Translate: [-10.396398544311523, 20.97943115234375, 51.67926788330078]
+- Gyaml: Land_GerudoValley_Cliff_L_02
+  Hash: !ul 11800751799570452950
+  Phive:
+    Placement: {ID: !ul 11800751799570452950}
+  Rotate: [3.112104892730713, -0.021770786494016647, -0.03766747936606407]
+  SRTHash: !u 0x6e40c892
+  Scale: [1.300496220588684, 1.300496220588684, 1.300496220588684]
+  Translate: [17.831789016723633, 26.442174911499023, 46.8878173828125]
+- Gyaml: Land_GerudoValley_Cliff_L_02
+  Hash: !ul 11863340266605938967
+  Phive:
+    Placement: {ID: !ul 11863340266605938967}
+  Rotate: [3.112104892730713, -0.021770786494016647, -0.03766747936606407]
+  SRTHash: !u 0x365c7025
+  Scale: [1.300496220588684, 1.300496220588684, 1.300496220588684]
+  Translate: [17.45599365234375, 19.915117263793945, 51.57783889770508]
+- Gyaml: Land_GerudoValley_Cliff_L_02
+  Hash: !ul 8682414732420590631
+  Phive:
+    Placement: {ID: !ul 8682414732420590631}
+  Rotate: [3.1415927410125732, 0.014218006283044815, 3.1415927410125732]
+  SRTHash: !u 0xec5029f9
+  Scale: [1.5961239337921143, 1.5961239337921143, 1.5961239337921143]
+  Translate: [-10.41407585144043, 27.829566955566406, 58.997520446777344]
+- Gyaml: Land_GerudoValley_Cliff_L_01
+  Hash: !ul 14703860749074360991
+  Phive:
+    Placement: {ID: !ul 14703860749074360991}
+  Rotate: [-3.141592502593994, -0.835917592048645, 0.0]
+  SRTHash: !u 0x93fb631e
+  Scale: [1.6016020774841309, 1.6016020774841309, 1.6016020774841309]
+  Translate: [-2.061695098876953, 98.29872131347656, 88.57161712646484]
+- Gyaml: Land_GerudoValley_Cliff_L_01
+  Hash: !ul 11360715315293765186
+  Phive:
+    Placement: {ID: !ul 11360715315293765186}
+  Rotate: [3.112104892730713, -0.021770786494016647, -0.03766748309135437]
+  SRTHash: !u 0xfe91fd2a
+  Scale: [2.1146819591522217, 2.1146819591522217, 2.1146819591522217]
+  Translate: [21.906381607055664, 41.844200134277344, 46.8878173828125]
+- Gyaml: Land_GerudoValley_Background_F_01
+  Hash: !ul 12738865816597948041
+  Phive:
+    Placement: {ID: !ul 12738865816597948041}
+  Rotate: [3.1415927410125732, -0.3490656912326813, 3.1415927410125732]
+  SRTHash: !u 0x865229a8
+  Translate: [82.1519546508789, -2.9029159545898438, 351.68450927734375]
+- Gyaml: Land_GerudoValley_Cliff_L_01
+  Hash: !ul 6371036706079937296
+  Phive:
+    Placement: {ID: !ul 6371036706079937296}
+  Rotate: [0.0, -1.3372188806533813, 0.0]
+  SRTHash: !u 0x1c3c3650
+  Scale: [1.371330738067627, 1.371330738067627, 1.371330738067627]
+  Translate: [-5.595769882202148, 95.78837585449219, 67.00052642822266]
+- Gyaml: Land_GerudoValley_CliffTiling_A_08
+  Hash: !ul 2504819117686264892
+  Phive:
+    Placement: {ID: !ul 2504819117686264892}
+  Rotate: [-3.141592502593994, 1.381391167640686, -3.141592502593994]
+  SRTHash: !u 0x2bf23edb
+  Scale: [1.2000000476837158, 1.2000000476837158, 1.2000000476837158]
+  Translate: [56.35205078125, 56.560455322265625, 339.30419921875]
+- Gyaml: Land_GerudoValley_CliffTiling_A_08
+  Hash: !ul 5254753874412925602
+  Phive:
+    Placement: {ID: !ul 5254753874412925602}
+  Rotate: [3.1415927410125732, 0.4644857943058014, 3.1415927410125732]
+  SRTHash: !u 0x317214a2
+  Scale: [1.2000000476837158, 1.2000000476837158, 1.2000000476837158]
+  Translate: [-249.69114685058594, 160.19625854492188, 25.91175651550293]
+- Gyaml: Land_GerudoValley_CliffPassage_A_01
+  Hash: !ul 9992024930327958432
+  Phive:
+    Placement: {ID: !ul 9992024930327958432}
+  SRTHash: !u 0x9e5983d2
+  Scale: [0.800000011920929, 0.800000011920929, 0.800000011920929]
+  Translate: [-402.9469909667969, 145.8712615966797, -95.58599853515625]
+- Gyaml: Land_GerudoValley_FlagSign_A_01
+  Hash: !ul 13025887724409152238
+  Phive:
+    Placement: {ID: !ul 13025887724409152238}
+  SRTHash: !u 0x31dd962d
+  Translate: [-60.0, 110.0, -5.0]
+- Gyaml: Land_GerudoValley_CliffTiling_A_08
+  Hash: !ul 284110916059963992
+  Phive:
+    Placement: {ID: !ul 284110916059963992}
+  Rotate: [3.1415927410125732, 0.4644857943058014, 3.1415927410125732]
+  SRTHash: !u 0xa9a1b4e5
+  Scale: [1.2000000476837158, 1.2000000476837158, 1.2000000476837158]
+  Translate: [-362.47845458984375, 175.18719482421875, -48.776832580566406]
+- Gyaml: Land_GerudoValley_CliffTiling_A_02
+  Hash: !ul 14663480100450870983
+  Phive:
+    Placement: {ID: !ul 14663480100450870983}
+  SRTHash: !u 0x4f5ebe20
+  Translate: [-40.0, 100.0, 20.0]
+- Gyaml: Land_GerudoValley_CliffTiling_A_08
+  Hash: !ul 13453961138250264411
+  Phive:
+    Placement: {ID: !ul 13453961138250264411}
+  Rotate: [0.5589170455932617, -0.2814832329750061, -0.12601493299007416]
+  SRTHash: !u 0x1904e9bc
+  Scale: [1.2000000476837158, 1.2000000476837158, 1.2000000476837158]
+  Translate: [-427.9814453125, 171.42665100097656, -156.7936248779297]
+- Gyaml: Land_GerudoValley_Cliff_L_01
+  Hash: !ul 1543571940580670625
+  Phive:
+    Placement: {ID: !ul 1543571940580670625}
+  Rotate: [3.1415927410125732, 0.25387445092201233, 3.1415927410125732]
+  SRTHash: !u 0x16a9b618
+  Scale: [1.398323893547058, 1.398323893547058, 1.398323893547058]
+  Translate: [-14.215071678161621, 86.30612182617188, -31.0938720703125]
+- Gyaml: Land_GerudoValley_Cliff_L_01
+  Hash: !ul 12950040270324791486
+  Phive:
+    Placement: {ID: !ul 12950040270324791486}
+  Rotate: [0.0, 1.0167738199234009, -0.0774633064866066]
+  SRTHash: !u 0x6c2e2505
+  Scale: [1.2561959028244019, 1.2561959028244019, 1.2561959028244019]
+  Translate: [-12.794045448303223, 86.44965362548828, 5.2012224197387695]
+- Gyaml: Land_GerudoValley_Cliff_L_01
+  Hash: !ul 9622708862597350447
+  Phive:
+    Placement: {ID: !ul 9622708862597350447}
+  Rotate: [0.0, -0.6834590435028076, -0.14776769280433655]
+  SRTHash: !u 0xb0e0f960
+  Scale: [1.2128533124923706, 1.2128533124923706, 1.2128533124923706]
+  Translate: [-14.402040481567383, 89.32149505615234, -26.119779586791992]
+- Gyaml: Land_GerudoValley_Cliff_L_04
+  Hash: !ul 17082568755929373791
+  Phive:
+    Placement: {ID: !ul 17082568755929373791}
+  Rotate: [3.1415927410125732, -1.4306312799453735, 3.1415927410125732]
+  SRTHash: !u 0xb1c6da74
+  Scale: [1.2561959028244019, 1.2561959028244019, 1.2561959028244019]
+  Translate: [-14.072051048278809, 87.00391387939453, 13.597249031066895]
+- Gyaml: Land_GerudoValley_Cliff_L_01
+  Hash: !ul 316170423604342996
+  Phive:
+    Placement: {ID: !ul 316170423604342996}
+  Rotate: [0.0, 1.2358590364456177, 0.0]
+  SRTHash: !u 0x7e17df39
+  Scale: [1.8645093441009521, 1.8645093441009521, 1.8645093441009521]
+  Translate: [-14.906852722167969, 77.99816131591797, -3.1658568382263184]
+- Gyaml: Land_GerudoValley_Cliff_L_01
+  Hash: !ul 7988777707224431862
+  Phive:
+    Placement: {ID: !ul 7988777707224431862}
+  Rotate: [2.671046733856201, 0.9010710716247559, 3.141592502593994]
+  SRTHash: !u 0x3515940c
+  Scale: [1.4383606910705566, 1.4383606910705566, 1.4383606910705566]
+  Translate: [-146.22012329101562, 128.24636840820312, -22.60099220275879]
+- Gyaml: Land_GerudoValley_Cliff_L_01
+  Hash: !ul 1275091870007930017
+  Phive:
+    Placement: {ID: !ul 1275091870007930017}
+  Rotate: [0.0, -1.4788264036178589, 0.0]
+  SRTHash: !u 0x551938b2
+  Scale: [1.391811490058899, 1.391811490058899, 1.391811490058899]
+  Translate: [-10.427872657775879, 93.31791687011719, 46.30426025390625]
+- Gyaml: Land_GerudoValley_Landscape_Cliff_I_04
+  Hash: !ul 13890797835420342622
+  Phive:
+    Placement: {ID: !ul 13890797835420342622}
+  Rotate: [0.17055198550224304, 0.26169976592063904, 0.2934468984603882]
+  SRTHash: !u 0x5644f5bb
+  Scale: [1.7753950357437134, 1.7753950357437134, 1.7753950357437134]
+  Translate: [-64.12686157226562, 166.14015197753906, -135.03050231933594]
+- Gyaml: Land_GerudoValley_Landscape_Cliff_I_04
+  Hash: !ul 7230289981818016712
+  Phive:
+    Placement: {ID: !ul 7230289981818016712}
+  Rotate: [2.7856216430664062, -0.9664465188980103, -2.607774019241333]
+  SRTHash: !u 0xa5298136
+  Scale: [1.9171345233917236, 1.9171345233917236, 1.9171345233917236]
+  Translate: [-21.059236526489258, 145.37599182128906, 260.3735656738281]
+- Gyaml: Land_GerudoValley_Landscape_Cliff_I_04
+  Hash: !ul 982191491516921358
+  Phive:
+    Placement: {ID: !ul 982191491516921358}
+  Rotate: [-0.13585880398750305, 0.651833176612854, -1.8342406749725342]
+  SRTHash: !u 0x0987ac95
+  Scale: [1.9171345233917236, 1.9171345233917236, 1.9171345233917236]
+  Translate: [-34.00053405761719, 146.0914764404297, 260.8319396972656]
+- Gyaml: Land_GerudoValley_Landscape_Cliff_I_03
+  Hash: !ul 3944516526270993509
+  Phive:
+    Placement: {ID: !ul 3944516526270993509}
+  Rotate: [0.0, 0.36951595544815063, 0.0]
+  SRTHash: !u 0x5d493ce0
+  Scale: [1.7948487997055054, 1.7948487997055054, 1.7948487997055054]
+  Translate: [5.672944068908691, 154.40074157714844, 272.8106384277344]
+- Gyaml: Land_GerudoValley_Landscape_Cliff_I_04
+  Hash: !ul 9670797346128763134
+  Phive:
+    Placement: {ID: !ul 9670797346128763134}
+  Rotate: [2.7856216430664062, -0.9664465188980103, -2.607774019241333]
+  SRTHash: !u 0x0aff5918
+  Scale: [1.9171345233917236, 1.9171345233917236, 1.9171345233917236]
+  Translate: [6.870628356933594, 142.16856384277344, 271.517578125]
+- Gyaml: Land_GerudoValley_Landscape_Cliff_I_04
+  Hash: !ul 14320075319474309684
+  Phive:
+    Placement: {ID: !ul 14320075319474309684}
+  Rotate: [0.16381601989269257, -0.0, -0.604880154132843]
+  SRTHash: !u 0xe9136745
+  Scale: [1.9878056049346924, 1.9878056049346924, 1.9878056049346924]
+  Translate: [-59.60424041748047, 152.08387756347656, -136.05271911621094]
+- Gyaml: Land_GerudoValley_Landscape_Cliff_I_04
+  Hash: !ul 17166836590413179797
+  Phive:
+    Placement: {ID: !ul 17166836590413179797}
+  Rotate: [-2.135852813720703, 0.8233697414398193, -2.1505959033966064]
+  SRTHash: !u 0xd5959bfb
+  Scale: [1.9878054857254028, 1.9878054857254028, 1.9878054857254028]
+  Translate: [-72.00428771972656, 149.1092987060547, -96.10755157470703]
+- Gyaml: Land_GerudoValley_CliffTiling_A_12
+  Hash: !ul 16272701549083673409
+  Phive:
+    Placement: {ID: !ul 16272701549083673409}
+  SRTHash: !u 0xbf392c8a
+  Translate: [-40.0, 100.0, -35.0]
+- Gyaml: Land_GerudoValley_CliffTiling_A_13
+  Hash: !ul 15014240571596252519
+  Phive:
+    Placement: {ID: !ul 15014240571596252519}
+  SRTHash: !u 0x383de8c9
+  Translate: [-100.0, 100.0, 0.0]
+- Gyaml: Land_GerudoValley_Cliff_L_01
+  Hash: !ul 14684195549537720081
+  Phive:
+    Placement: {ID: !ul 14684195549537720081}
+  Rotate: [0.0, 0.41292044520378113, 0.0]
+  SRTHash: !u 0x008796ea
+  Scale: [1.7392066717147827, 1.7392066717147827, 1.7392066717147827]
+  Translate: [-16.700342178344727, 76.4179458618164, -25.51079559326172]
+- Gyaml: Land_GerudoValley_Cliff_L_01
+  Hash: !ul 16538747354889149351
+  Phive:
+    Placement: {ID: !ul 16538747354889149351}
+  Rotate: [0.0, 0.41244545578956604, 0.0]
+  SRTHash: !u 0xeeff6758
+  Scale: [1.7392065525054932, 1.7392065525054932, 1.7392065525054932]
+  Translate: [-17.205812454223633, 71.47764587402344, -16.726539611816406]
+- Gyaml: Land_GerudoValley_CliffTiling_A_14
+  Hash: !ul 14846679183674450817
+  Phive:
+    Placement: {ID: !ul 14846679183674450817}
+  SRTHash: !u 0xfc4165f1
+  Translate: [-10.0, 67.5, 0.0]
+- Gyaml: Land_GerudoValley_Cliff_L_04
+  Hash: !ul 17143588798994744934
+  Phive:
+    Placement: {ID: !ul 17143588798994744934}
+  Rotate: [0.0, 1.3924567699432373, 0.0]
+  SRTHash: !u 0x3e409a57
+  Scale: [1.726102590560913, 1.726102590560913, 1.726102590560913]
+  Translate: [-16.382362365722656, 52.74010467529297, 12.82974624633789]
+- Gyaml: Land_GerudoValley_Cliff_L_01
+  Hash: !ul 6794275462293422218
+  Phive:
+    Placement: {ID: !ul 6794275462293422218}
+  SRTHash: !u 0xc10a5c78
+  Scale: [1.517114520072937, 1.517114520072937, 1.517114520072937]
+  Translate: [-16.142751693725586, 68.68830108642578, 6.882417678833008]
+- Gyaml: Land_GerudoValley_Cliff_L_01
+  Hash: !ul 1138767314650230161
+  Phive:
+    Placement: {ID: !ul 1138767314650230161}
+  Rotate: [3.1415927410125732, -0.07804718613624573, 3.1415927410125732]
+  SRTHash: !u 0x69f22a51
+  Scale: [1.2561959028244019, 1.2561959028244019, 1.2561959028244019]
+  Translate: [-15.25313949584961, 70.39168548583984, 15.435201644897461]
+- Gyaml: Land_GerudoValley_Cliff_L_02
+  Hash: !ul 4075124711828218874
+  Phive:
+    Placement: {ID: !ul 4075124711828218874}
+  Rotate: [-0.2978403866291046, 1.348963737487793, -0.24833044409751892]
+  SRTHash: !u 0x78e56959
+  Scale: [1.8237959146499634, 1.8237959146499634, 1.8237959146499634]
+  Translate: [-17.62542152404785, 33.593170166015625, 12.466262817382812]
+- Gyaml: Land_GerudoValley_Cliff_L_02
+  Hash: !ul 4971858489484941390
+  Phive:
+    Placement: {ID: !ul 4971858489484941390}
+  Rotate: [0.0, 0.3832741379737854, 0.07908664643764496]
+  SRTHash: !u 0x07236aec
+  Scale: [1.823796033859253, 1.823796033859253, 1.823796033859253]
+  Translate: [-17.762887954711914, 30.490982055664062, 15.378087997436523]
+- Gyaml: Land_GerudoValley_Cliff_L_01
+  Hash: !ul 5863774657478370439
+  Phive:
+    Placement: {ID: !ul 5863774657478370439}
+  Rotate: [3.1415927410125732, -1.0078727006912231, 3.1415927410125732]
+  SRTHash: !u 0x94fd207c
+  Scale: [1.815995454788208, 1.815995454788208, 1.815995454788208]
+  Translate: [-13.646747589111328, 44.97614288330078, 44.43614959716797]
+- Gyaml: Land_GerudoValley_Cliff_L_01
+  Hash: !ul 16257228088261880628
+  Phive:
+    Placement: {ID: !ul 16257228088261880628}
+  Rotate: [3.1415927410125732, -0.13068881630897522, 3.1415927410125732]
+  SRTHash: !u 0x8cd68979
+  Scale: [1.726102590560913, 1.726102590560913, 1.726102590560913]
+  Translate: [-12.290732383728027, 72.13887786865234, 47.97459411621094]
+- Gyaml: Land_GerudoValley_Background_G_01
+  Hash: !ul 12996789401439678049
+  Phive:
+    Placement: {ID: !ul 12996789401439678049}
+  Rotate: [0.0, 1.1344640254974365, 0.0]
+  SRTHash: !u 0x0a826b47
+  Translate: [-314.1773681640625, 133.63760375976562, -94.1502685546875]
+- Gyaml: Land_GerudoValley_Cliff_L_01
+  Hash: !ul 1615762469151968965
+  Phive:
+    Placement: {ID: !ul 1615762469151968965}
+  Rotate: [0.0, 1.39479660987854, 0.0]
+  SRTHash: !u 0xcf23fce9
+  Scale: [1.8157341480255127, 1.8157341480255127, 1.8157341480255127]
+  Translate: [-9.701820373535156, 99.11654663085938, 58.26805114746094]
+- Gyaml: Land_GerudoValley_CliffPassage_A_02
+  Hash: !ul 15004620415982142023
+  Phive:
+    Placement: {ID: !ul 15004620415982142023}
+  Rotate: [-3.0826680660247803, 1.5026990175247192, -3.082852840423584]
+  SRTHash: !u 0x0c4f5196
+  Scale: [0.800000011920929, 0.800000011920929, 0.800000011920929]
+  Translate: [-150.50991821289062, 124.77635955810547, -43.599891662597656]
+- Gyaml: Land_GerudoValley_Landscape_Cliff_I_04
+  Hash: !ul 1164722619474296556
+  Phive:
+    Placement: {ID: !ul 1164722619474296556}
+  Rotate: [0.17055198550224304, 0.26169976592063904, 0.2934468984603882]
+  SRTHash: !u 0xc2bdabf0
+  Scale: [1.7753950357437134, 1.7753950357437134, 1.7753950357437134]
+  Translate: [-197.8229522705078, 163.93707275390625, 43.623497009277344]
+- Gyaml: Land_GerudoValley_Landscape_Cliff_I_04
+  Hash: !ul 10340337496535997785
+  Phive:
+    Placement: {ID: !ul 10340337496535997785}
+  Rotate: [-3.11926007270813, 0.9000464081764221, -3.114964723587036]
+  SRTHash: !u 0xa59554fc
+  Scale: [1.7753949165344238, 1.7753949165344238, 1.7753949165344238]
+  Translate: [-204.179443359375, 163.51296997070312, 31.54461097717285]
+- Gyaml: DestinationAnchor
+  Hash: !ul 13995292885745447481
+  Phive:
+    Placement: {ID: !ul 13995292885745447481}
+  Rotate: [0.0027936070691794157, -0.0, -0.022844577208161354]
+  SRTHash: !u 0xd32254c4
+  Translate: [4.826280117034912, 57.361549377441406, -69.99765014648438]
+- Gyaml: Area
+  Hash: !ul 2421340671713837986
+  Phive:
+    Placement: {ID: !ul 2421340671713837986}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0xb3b83eb3
+  Scale: [1.2999999523162842, 1.0, 1.2999999523162842]
+  Translate: [11.418733596801758, -6.96847677230835, 36.46868896484375]
+- Gyaml: Obj_Plant_MagicBeanLeaf_A_02
+  Hash: !ul 9716473353222838149
+  Phive:
+    Placement: {ID: !ul 9716473353222838149}
+  Rails:
+  - {Dst: !ul 4861706099397704728, Gyaml: Reference, Name: Reference}
+  Rotate: [-3.141592264175415, -0.2618005573749542, 3.141592502593994]
+  SRTHash: !u 0x4fa86ca6
+  Translate: [11.478102684020996, -18.37947654724121, 36.45130157470703]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 1408117460158583029
+  Phive:
+    Placement: {ID: !ul 1408117460158583029}
+  Rotate: [-3.141592264175415, -0.2618005573749542, 3.141592502593994]
+  SRTHash: !u 0x0a026c73
+  Scale: [0.75, 1.0, 0.75]
+  Translate: [11.478102684020996, -18.479476928710938, 36.45130157470703]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 13164257518262133199
+  Phive:
+    Placement: {ID: !ul 13164257518262133199}
+  Rotate: [-3.141592264175415, -0.2618005573749542, 3.141592502593994]
+  SRTHash: !u 0x04c7c5b6
+  Scale: [0.8500000238418579, 55.62995147705078, 0.8500000238418579]
+  Translate: [11.478102684020996, -18.479476928710938, 36.45130157470703]
+- Gyaml: DestinationAnchor
+  Hash: !ul 5787815442607055760
+  Name: HidingHole_FieldExitGo
+  Phive:
+    Placement: {ID: !ul 5787815442607055760}
+  Rotate: [-3.141592264175415, -0.2618005573749542, 3.141592502593994]
+  SRTHash: !u 0x92b514e5
+  Translate: [11.478102684020996, -18.09830665588379, 36.45130157470703]
+- Gyaml: DestinationAnchor
+  Hash: !ul 730044859868998794
+  Name: HidingHole_HoleExit
+  Phive:
+    Placement: {ID: !ul 730044859868998794}
+  Rotate: [-3.141592264175415, -0.2618005573749542, 3.141592502593994]
+  SRTHash: !u 0x948fcca6
+  Translate: [11.478109359741211, 90.72052001953125, 36.45125961303711]
+- Dynamic: {RequestEventName: HidingHole_Exit_01}
+  Gyaml: EventRequestActor
+  Hash: !ul 10493637083259625528
+  Links:
+  - {Dst: !ul 5787815442607055760, Gyaml: Reference, Name: Reference, Src: !ul 10493637083259625528}
+  - {Dst: !ul 730044859868998794, Gyaml: Reference, Name: Reference, Src: !ul 10493637083259625528}
+  - {Dst: !ul 9716473353222838149, Gyaml: Reference, Name: Reference, Src: !ul 10493637083259625528}
+  - {Dst: !ul 9245796460699632724, Gyaml: Reference, Name: Reference, Src: !ul 10493637083259625528}
+  - {Dst: !ul 18016712012280310228, Gyaml: Reference, Name: Reference, Src: !ul 10493637083259625528}
+  - {Dst: !ul 6302915362505229959, Gyaml: Reference, Name: Reference, Src: !ul 10493637083259625528}
+  - {Dst: !ul 15615940760132544640, Gyaml: Reference, Name: Reference, Src: !ul 10493637083259625528}
+  Phive:
+    Placement: {ID: !ul 10493637083259625528}
+  Rotate: [-3.141592264175415, -0.2618005573749542, 3.141592502593994]
+  SRTHash: !u 0x47abf737
+  Translate: [10.31702709197998, -13.228151321411133, 32.50892639160156]
+- Gyaml: DestinationAnchor
+  Hash: !ul 9245796460699632724
+  Name: HidingHole_HoleExitGo
+  Phive:
+    Placement: {ID: !ul 9245796460699632724}
+  Rotate: [-3.141592264175415, -0.2618005573749542, 3.141592502593994]
+  SRTHash: !u 0x1b9a85a6
+  Translate: [10.960468292236328, 90.5119857788086, 34.5194091796875]
+- Gyaml: AirWallEnemy_NavMeshCut
+  Hash: !ul 4480534668713564496
+  Phive:
+    Placement: {ID: !ul 4480534668713564496}
+  Rotate: [-3.141592264175415, -0.6671389937400818, 3.141592264175415]
+  SRTHash: !u 0xc5c65ca4
+  Scale: [0.9999999403953552, 6.569949150085449, 0.9999999403953552]
+  Translate: [10.831507682800293, -15.694501876831055, 35.59324264526367]
+- Gyaml: AirWallEnemy_NavMeshCut
+  Hash: !ul 6249010027938778401
+  Phive:
+    Placement: {ID: !ul 6249010027938778401}
+  Rotate: [-3.141589403152466, -1.4525374174118042, 3.141589403152466]
+  SRTHash: !u 0xac5aefea
+  Scale: [0.9999999403953552, 6.569949150085449, 0.9999999403953552]
+  Translate: [10.414152145385742, -15.694501876831055, 36.30177307128906]
+- Gyaml: AirWallEnemy_NavMeshCut
+  Hash: !ul 4575742140371154470
+  Phive:
+    Placement: {ID: !ul 4575742140371154470}
+  Rotate: [-6.957552614039741e-07, -0.9036584496498108, 5.236040578893153e-07]
+  SRTHash: !u 0x04bdcb4f
+  Scale: [0.9999999403953552, 6.569949150085449, 0.9999999403953552]
+  Translate: [10.620044708251953, -15.694501876831055, 37.09789276123047]
+- Gyaml: AirWallEnemy_NavMeshCut
+  Hash: !ul 6703550001683856164
+  Phive:
+    Placement: {ID: !ul 6703550001683856164}
+  Rotate: [-2.6715076728578424e-07, -0.1182590201497078, -1.4672376380531205e-07]
+  SRTHash: !u 0x3cbe8c85
+  Scale: [1.0, 6.569949150085449, 1.0]
+  Translate: [11.32857608795166, -15.694501876831055, 37.51525115966797]
+- Gyaml: AirWallEnemy_NavMeshCut
+  Hash: !ul 8327100503570632300
+  Phive:
+    Placement: {ID: !ul 8327100503570632300}
+  Rotate: [-3.77553931230068e-07, 0.6671389937400818, -5.230934903011075e-07]
+  SRTHash: !u 0x3259b5b2
+  Scale: [0.9999999403953552, 6.569949150085449, 0.9999999403953552]
+  Translate: [12.124698638916016, -15.694501876831055, 37.309356689453125]
+- Gyaml: AirWallEnemy_NavMeshCut
+  Hash: !ul 16640193657920625390
+  Phive:
+    Placement: {ID: !ul 16640193657920625390}
+  Rotate: [-3.368362968103611e-06, 1.4525374174118042, -3.6908361380483257e-06]
+  SRTHash: !u 0xe0ee527b
+  Scale: [0.9999999403953552, 6.569949150085449, 0.9999999403953552]
+  Translate: [12.542054176330566, -15.694502830505371, 36.600826263427734]
+- Gyaml: AirWallEnemy_NavMeshCut
+  Hash: !ul 11622157653123900014
+  Phive:
+    Placement: {ID: !ul 11622157653123900014}
+  Rotate: [-3.1415915489196777, 0.9036584496498108, -3.141592025756836]
+  SRTHash: !u 0x1c7970e5
+  Scale: [0.9999999403953552, 6.569949150085449, 0.9999999403953552]
+  Translate: [12.336161613464355, -15.694502830505371, 35.80470275878906]
+- Gyaml: AirWallEnemy_NavMeshCut
+  Hash: !ul 5674987909886568138
+  Phive:
+    Placement: {ID: !ul 5674987909886568138}
+  Rotate: [-3.141591787338257, 0.1182590201497078, 3.1415927410125732]
+  SRTHash: !u 0x3823f780
+  Scale: [1.0, 6.569949150085449, 1.0]
+  Translate: [11.627629280090332, -15.694501876831055, 35.38734817504883]
+- Gyaml: DestinationAnchor
+  Hash: !ul 18016712012280310228
+  Name: HidingHole_HoseMovePos
+  Phive:
+    Placement: {ID: !ul 18016712012280310228}
+  Rotate: [-3.141592264175415, -0.2618005573749542, 3.141592502593994]
+  SRTHash: !u 0x749b6b2b
+  Translate: [10.566840171813965, -1.3674793243408203, 33.05043029785156]
+- Gyaml: DropKeepAwayArea
+  Hash: !ul 3507384591741982815
+  Phive:
+    Placement: {ID: !ul 3507384591741982815}
+  Rotate: [-3.141592264175415, -0.2618005871772766, 3.141592502593994]
+  SRTHash: !u 0xb1fdc550
+  Scale: [2.75, 7.0, 2.75]
+  Translate: [11.478102684020996, -15.479476928710938, 36.45130157470703]
+- Gyaml: DestinationAnchor
+  Hash: !ul 8329683053715986169
+  Name: SwapRestartPosAnchor
+  Phive:
+    Placement: {ID: !ul 8329683053715986169}
+  Rotate: [0.0, 1.5707961320877075, 1.58694049900987e-07]
+  SRTHash: !u 0x14f0c2df
+  Translate: [13.386640548706055, -18.494197845458984, 36.45343017578125]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 14652969369374092431
+  Phive:
+    Placement: {ID: !ul 14652969369374092431}
+  Rotate: [-3.141592264175415, -0.2618005573749542, 3.141592502593994]
+  SRTHash: !u 0xa1771cca
+  Scale: [0.8500000238418579, 2.0, 0.8500000238418579]
+  Translate: [11.478102684020996, -18.144397735595703, 36.45130157470703]
+- Gyaml: DestinationAnchor
+  Hash: !ul 160421199299362672
+  Name: HidingHole_HoleEntrance
+  Phive:
+    Placement: {ID: !ul 160421199299362672}
+  Rotate: [0.0, 1.570796251296997, 3.162736321752832e-17]
+  SRTHash: !u 0x15941637
+  Translate: [11.452439308166504, -15.10247802734375, 36.45343017578125]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 3621830253576665987
+  Phive:
+    Placement: {ID: !ul 3621830253576665987}
+  SRTHash: !u 0x6a466267
+  Scale: [1.0, 0.5, 1.0]
+  Translate: [11.452438354492188, 88.62052154541016, 36.45343017578125]
+- Dynamic: {RequestEventName: HidingHole_Entry_01}
+  Gyaml: EventRequestActor
+  Hash: !ul 18321745423797287500
+  Links:
+  - {Dst: !ul 2898121583347267819, Gyaml: Reference, Name: Reference, Src: !ul 18321745423797287500}
+  - {Dst: !ul 160421199299362672, Gyaml: Reference, Name: Reference, Src: !ul 18321745423797287500}
+  - {Dst: !ul 9716473353222838149, Gyaml: Reference, Name: Reference, Src: !ul 18321745423797287500}
+  Phive:
+    Placement: {ID: !ul 18321745423797287500}
+  SRTHash: !u 0xa4798600
+  Translate: [13.824735641479492, 6.3897705078125, 35.08523178100586]
+- Gyaml: DestinationAnchor
+  Hash: !ul 2898121583347267819
+  Name: HidingHole_FieldEntranceGo
+  Phive:
+    Placement: {ID: !ul 2898121583347267819}
+  Rotate: [-3.141592502593994, 8.742277657347586e-08, -3.141592502593994]
+  SRTHash: !u 0x6449f34e
+  Translate: [11.452438354492188, 90.52062225341797, 36.45343017578125]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 11571529847224357568
+  Phive:
+    Placement: {ID: !ul 11571529847224357568}
+  Rotate: [-3.141592502593994, -8.742277657347586e-08, 3.82137093032941e-15]
+  SRTHash: !u 0xc47d66d6
+  Scale: [1.0, 0.10000000149011612, 1.0]
+  Translate: [11.452438354492188, 85.80027770996094, 36.45343017578125]
+- Gyaml: DropKeepAwayArea
+  Hash: !ul 4204556708737051375
+  Phive:
+    Placement: {ID: !ul 4204556708737051375}
+  SRTHash: !u 0xbecb7e48
+  Scale: [2.75, 7.699999809265137, 2.75]
+  Translate: [11.452438354492188, 90.52052307128906, 36.45343017578125]
+- Gyaml: ForbiddenCreateDropArea
+  Hash: !ul 3397854429622565902
+  Phive:
+    Placement: {ID: !ul 3397854429622565902}
+  SRTHash: !u 0x02a70242
+  Scale: [2.0, 5.013134002685547, 2.0]
+  Translate: [11.452438354492188, 88.02330780029297, 36.45343017578125]
+- Bakeable: true
+  Gyaml: Obj_LiftRock_B_01
+  Hash: !ul 8414723300021904225
+  Phive:
+    Placement: {ID: !ul 8414723300021904225}
+  SRTHash: !u 0xeb3b0081
+  Translate: [11.452438354492188, 90.36808013916016, 36.45343017578125]
+- Gyaml: ForbidHorseToEnterAreaBox
+  Hash: !ul 5837797429822440660
+  Phive:
+    Placement: {ID: !ul 5837797429822440660}
+  SRTHash: !u 0x627f8540
+  Scale: [30.396839141845703, 114.03773498535156, 11.323856353759766]
+  Translate: [21.09195327758789, -23.911212921142578, 36.72610092163086]
+- Gyaml: Enemy_Octorok
+  Hash: !ul 9878002453240799739
+  Phive:
+    Placement: {ID: !ul 9878002453240799739}
+  Rotate: [0.0, -1.570796251296997, 1.7484555314695172e-07]
+  SRTHash: !u 0x625f8f3f
+  Translate: [29.127405166625977, -21.138717651367188, 33.838348388671875]
+- Gyaml: Land_HidingHole_WaterPlaneFlowing_A_01
+  Hash: !ul 1041814147353001437
+  Phive:
+    Placement: {ID: !ul 1041814147353001437}
+  Rotate: [0.0, -1.570796251296997, 8.742278367890322e-08]
+  SRTHash: !u 0xcc081b5d
+  Scale: [1.8632376194000244, 1.0, 1.4235862493515015]
+  Translate: [26.850467681884766, -19.411067962646484, 36.16128158569336]
+- Gyaml: Area
+  Hash: !ul 4480128673651771377
+  Phive:
+    Placement: {ID: !ul 4480128673651771377}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x88c568ab
+  Scale: [11.0, 10.566268920898438, 16.0]
+  Translate: [18.952438354492188, -29.264835357666016, 35.95343017578125]
+- Dynamic: {FogParams: Hole}
+  Gyaml: VolumeFogArea
+  Hash: !ul 12990848533149877012
+  Phive:
+    Placement: {ID: !ul 12990848533149877012}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x20f89c19
+  Scale: [6.6412248611450195, 12.613079071044922, 6.6564226150512695]
+  Translate: [11.418379783630371, -12.407574653625488, 36.45343017578125]
+- Gyaml: Enemy_Octorok
+  Hash: !ul 12065290507085606994
+  Phive:
+    Placement: {ID: !ul 12065290507085606994}
+  Rotate: [0.0, -1.570796251296997, 1.7484555314695172e-07]
+  SRTHash: !u 0x7f40b783
+  Translate: [29.195085525512695, -21.138717651367188, 39.245201110839844]
+- Gyaml: Enemy_Octorok
+  Hash: !ul 12076410732994840806
+  Phive:
+    Placement: {ID: !ul 12076410732994840806}
+  Rotate: [0.0, -1.570796251296997, 1.7484555314695172e-07]
+  SRTHash: !u 0x48f15ffd
+  Translate: [29.077682495117188, -21.138717651367188, 36.5416145324707]
+- Gyaml: Area
+  Hash: !ul 7677634488586996789
+  Phive:
+    Placement: {ID: !ul 7677634488586996789}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0xf4a21ba5
+  Scale: [6.25491189956665, 9.005415916442871, 13.884971618652344]
+  Translate: [20.381912231445312, -23.75311851501465, 36.84775161743164]
+- Gyaml: Area
+  Hash: !ul 9092576581077908054
+  Phive:
+    Placement: {ID: !ul 9092576581077908054}
+  SRTHash: !u 0x1a029cae
+  Scale: [1.5, 1.0, 1.5]
+  Translate: [-45.27106857299805, 94.8039321899414, -29.03028106689453]
+- Bakeable: true
+  Gyaml: Land_Gerudo_HidingHoleCover_A_02
+  Hash: !ul 12817575131469044248
+  Phive:
+    Placement: {ID: !ul 12817575131469044248}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0x34632229
+  Translate: [-45.273406982421875, 101.14692687988281, -29.028608322143555]
+- Gyaml: DestinationAnchor
+  Hash: !ul 10279144811786746411
+  Name: HidingHole_HoleEntrance
+  Phive:
+    Placement: {ID: !ul 10279144811786746411}
+  Rotate: [3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0x4a887f05
+  Translate: [-45.27340316772461, 87.419921875, -29.028610229492188]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 9737440898960779556
+  Phive:
+    Placement: {ID: !ul 9737440898960779556}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0x80d0a4a6
+  Scale: [1.0, 0.5, 1.0]
+  Translate: [-45.273406982421875, 99.2469253540039, -29.028608322143555]
+- Dynamic: {RequestEventName: HidingHole_Entry_01}
+  Gyaml: EventRequestActor
+  Hash: !ul 6533144432733290435
+  Links:
+  - {Dst: !ul 12369000906309330148, Gyaml: Reference, Name: Reference, Src: !ul 6533144432733290435}
+  - {Dst: !ul 10279144811786746411, Gyaml: Reference, Name: Reference, Src: !ul 6533144432733290435}
+  - {Dst: !ul 2142399047313164839, Gyaml: Reference, Name: Reference, Src: !ul 6533144432733290435}
+  - {Dst: !ul 7779047322731632151, Gyaml: Reference, Name: Reference, Src: !ul 6533144432733290435}
+  Phive:
+    Placement: {ID: !ul 6533144432733290435}
+  Rotate: [1.9230336079090193e-07, -0.6981317400932312, -1.1171805169851723e-07]
+  SRTHash: !u 0x20c2c6ae
+  Translate: [-47.88440704345703, 101.1999282836914, -29.653608322143555]
+- Gyaml: DestinationAnchor
+  Hash: !ul 12369000906309330148
+  Links:
+  - {Dst: !ul 12817575131469044248, Gyaml: Reference, Name: Reference, Src: !ul 12369000906309330148}
+  Name: HidingHole_FieldEntranceGo
+  Phive:
+    Placement: {ID: !ul 12369000906309330148}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0x34632229
+  Translate: [-45.273406982421875, 101.14702606201172, -29.028608322143555]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 7406675150228573118
+  Phive:
+    Placement: {ID: !ul 7406675150228573118}
+  Rotate: [2.384185791015625e-07, -0.0, -3.141592502593994]
+  SRTHash: !u 0x6a68f22c
+  Scale: [1.0, 0.10000000149011612, 1.0]
+  Translate: [-45.273406982421875, 96.40826416015625, -29.028608322143555]
+- Gyaml: EventProxyRequestActor
+  Hash: !ul 11659807454829460453
+  Links:
+  - {Dst: !ul 12369000906309330148, Gyaml: Reference, Name: Reference, Src: !ul 11659807454829460453}
+  - {Dst: !ul 12817575131469044248, Gyaml: Reference, Name: Reference, Src: !ul 11659807454829460453}
+  - {Dst: !ul 11854935680622755395, Gyaml: Reference, Name: Reference, Src: !ul 11659807454829460453}
+  - {Dst: !ul 12817575131469044248, Gyaml: EventProxyRequestLink, Name: EventProxyRequestLink,
+    Src: !ul 11659807454829460453}
+  - {Dst: !ul 10728738918950433830, Gyaml: Reference, Name: Reference, Src: !ul 11659807454829460453}
+  - {Dst: !ul 2271261955338537847, Gyaml: Reference, Name: Reference, Src: !ul 11659807454829460453}
+  Phive:
+    Placement: {ID: !ul 11659807454829460453}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0x34632229
+  Translate: [-45.273406982421875, 101.14692687988281, -29.028608322143555]
+- Gyaml: DestinationAnchor
+  Hash: !ul 11854935680622755395
+  Name: HidingHoleCoverDisappearStrom_SafePosition
+  Phive:
+    Placement: {ID: !ul 11854935680622755395}
+  Rotate: [3.141592502593994, 1.067879557609558, -3.141592502593994]
+  SRTHash: !u 0xda6f8315
+  Translate: [-47.026405334472656, 101.1272201538086, -28.064607620239258]
+- Gyaml: FldObj_AirWall_HidingHoleCover
+  Hash: !ul 15184762334391592371
+  Phive:
+    Placement: {ID: !ul 15184762334391592371}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0xe1cce7c7
+  Translate: [-45.273406982421875, 101.04692840576172, -29.028608322143555]
+- Gyaml: ForbiddenCreateDropArea
+  Hash: !ul 17600885386302807441
+  Phive:
+    Placement: {ID: !ul 17600885386302807441}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0x7324cb61
+  Scale: [2.0, 5.013134002685547, 2.0]
+  Translate: [-45.273406982421875, 98.64971160888672, -29.028608322143555]
+- Gyaml: DropKeepAwayArea
+  Hash: !ul 4416297144631652647
+  Phive:
+    Placement: {ID: !ul 4416297144631652647}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0x3934b4df
+  Scale: [2.75, 7.699999809265137, 2.75]
+  Translate: [-45.273406982421875, 101.14692687988281, -29.028608322143555]
+- Gyaml: Obj_Plant_MagicBeanLeaf_A_02
+  Hash: !ul 2142399047313164839
+  Phive:
+    Placement: {ID: !ul 2142399047313164839}
+  Rails:
+  - {Dst: !ul 15133404586852170915, Gyaml: Reference, Name: Reference}
+  Rotate: [0.0, -1.0678813457489014, 0.0]
+  SRTHash: !u 0x93a265a4
+  Translate: [-45.273868560791016, 84.13539123535156, -29.028738021850586]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 9386103757066719728
+  Phive:
+    Placement: {ID: !ul 9386103757066719728}
+  Rotate: [0.0, -1.0678813457489014, 0.0]
+  SRTHash: !u 0xf62a1ace
+  Scale: [0.75, 1.0, 0.75]
+  Translate: [-45.273868560791016, 84.03539276123047, -29.028738021850586]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 2446682565095139102
+  Phive:
+    Placement: {ID: !ul 2446682565095139102}
+  Rotate: [0.0, -1.0678813457489014, 0.0]
+  SRTHash: !u 0xf235f337
+  Scale: [0.8500000238418579, 10.06581974029541, 0.8500000238418579]
+  Translate: [-45.273868560791016, 84.03539276123047, -29.028738021850586]
+- Gyaml: DestinationAnchor
+  Hash: !ul 14319172817906392571
+  Name: HidingHole_FieldExitGo
+  Phive:
+    Placement: {ID: !ul 14319172817906392571}
+  Rotate: [0.0, -1.0678813457489014, 0.0]
+  SRTHash: !u 0x8f080140
+  Translate: [-45.273868560791016, 84.41656494140625, -29.028738021850586]
+- Gyaml: DestinationAnchor
+  Hash: !ul 10728738918950433830
+  Name: HidingHole_HoleExit
+  Phive:
+    Placement: {ID: !ul 10728738918950433830}
+  Rotate: [0.0, -1.0678813457489014, 0.0]
+  SRTHash: !u 0xaffa1769
+  Translate: [-45.273868560791016, 101.32539367675781, -29.028738021850586]
+- Dynamic: {RequestEventName: HidingHole_Exit_01}
+  Gyaml: EventRequestActor
+  Hash: !ul 16206104055650647940
+  Links:
+  - {Dst: !ul 14319172817906392571, Gyaml: Reference, Name: Reference, Src: !ul 16206104055650647940}
+  - {Dst: !ul 10728738918950433830, Gyaml: Reference, Name: Reference, Src: !ul 16206104055650647940}
+  - {Dst: !ul 2142399047313164839, Gyaml: Reference, Name: Reference, Src: !ul 16206104055650647940}
+  - {Dst: !ul 2271261955338537847, Gyaml: Reference, Name: Reference, Src: !ul 16206104055650647940}
+  - {Dst: !ul 7779047322731632151, Gyaml: Reference, Name: Reference, Src: !ul 16206104055650647940}
+  Phive:
+    Placement: {ID: !ul 16206104055650647940}
+  Rotate: [0.0, -1.0678813457489014, 0.0]
+  SRTHash: !u 0x68da1b2b
+  Translate: [-48.824947357177734, 89.2867202758789, -26.959871292114258]
+- Gyaml: DestinationAnchor
+  Hash: !ul 2271261955338537847
+  Name: HidingHole_HoleExitGo
+  Phive:
+    Placement: {ID: !ul 2271261955338537847}
+  Rotate: [0.0, -1.0678812265396118, 0.0]
+  SRTHash: !u 0xf38d7c56
+  Translate: [-47.02622985839844, 101.14739227294922, -28.064775466918945]
+- Gyaml: AirWallEnemy_NavMeshCut
+  Hash: !ul 5235039738521078364
+  Phive:
+    Placement: {ID: !ul 5235039738521078364}
+  Rotate: [0.0, -0.6625428795814514, 0.0]
+  SRTHash: !u 0xbbfe62e8
+  Scale: [0.9999999403953552, 6.569949150085449, 0.9999999403953552]
+  Translate: [-45.95270538330078, 86.82036590576172, -28.195955276489258]
+- Gyaml: AirWallEnemy_NavMeshCut
+  Hash: !ul 14982371052133663812
+  Phive:
+    Placement: {ID: !ul 14982371052133663812}
+  Rotate: [0.0, 0.1228555291891098, 0.0]
+  SRTHash: !u 0xa6379ca3
+  Scale: [0.9999999403953552, 6.569949150085449, 0.9999999403953552]
+  Translate: [-45.165016174316406, 86.82036590576172, -27.959861755371094]
+- Gyaml: AirWallEnemy_NavMeshCut
+  Hash: !ul 5243583010564881537
+  Phive:
+    Placement: {ID: !ul 5243583010564881537}
+  Rotate: [6.408208008679139e-08, 0.9082522988319397, 9.67966258258457e-08]
+  SRTHash: !u 0x1389d391
+  Scale: [0.9999999403953552, 6.569949150085449, 0.9999999403953552]
+  Translate: [-44.44108581542969, 86.82036590576172, -28.349897384643555]
+- Gyaml: AirWallEnemy_NavMeshCut
+  Hash: !ul 14537982964191720843
+  Phive:
+    Placement: {ID: !ul 14537982964191720843}
+  Rotate: [-3.1415913105010986, 1.4479409456253052, -3.1415915489196777]
+  SRTHash: !u 0x6e9b1b06
+  Scale: [0.9999999403953552, 6.569949150085449, 0.9999999403953552]
+  Translate: [-44.20499038696289, 86.82036590576172, -29.137592315673828]
+- Gyaml: AirWallEnemy_NavMeshCut
+  Hash: !ul 884188663165392025
+  Phive:
+    Placement: {ID: !ul 884188663165392025}
+  Rotate: [-3.141592264175415, 0.6625428795814514, -3.141592502593994]
+  SRTHash: !u 0x766d1825
+  Scale: [0.9999999403953552, 6.569949150085449, 0.9999999403953552]
+  Translate: [-44.595027923583984, 86.82036590576172, -29.861520767211914]
+- Gyaml: AirWallEnemy_NavMeshCut
+  Hash: !ul 8135308781250797055
+  Phive:
+    Placement: {ID: !ul 8135308781250797055}
+  Rotate: [-3.141592264175415, -0.1228555291891098, -3.141592502593994]
+  SRTHash: !u 0x38fc5fd6
+  Scale: [0.9999999403953552, 6.569949150085449, 0.9999999403953552]
+  Translate: [-45.382720947265625, 86.82036590576172, -30.09761619567871]
+- Gyaml: AirWallEnemy_NavMeshCut
+  Hash: !ul 4469167542575474559
+  Phive:
+    Placement: {ID: !ul 4469167542575474559}
+  Rotate: [-3.141592264175415, -0.9082522988319397, -3.141592502593994]
+  SRTHash: !u 0x23d29ddb
+  Scale: [0.9999999403953552, 6.569949150085449, 0.9999999403953552]
+  Translate: [-46.106651306152344, 86.82036590576172, -29.707576751708984]
+- Gyaml: AirWallEnemy_NavMeshCut
+  Hash: !ul 15494401229765564731
+  Phive:
+    Placement: {ID: !ul 15494401229765564731}
+  Rotate: [4.919902494293638e-07, -1.4479409456253052, 0.0]
+  SRTHash: !u 0x12fdd32b
+  Scale: [0.9999999403953552, 6.569949150085449, 0.9999999403953552]
+  Translate: [-46.342750549316406, 86.82036590576172, -28.919883728027344]
+- Gyaml: DestinationAnchor
+  Hash: !ul 7779047322731632151
+  Name: HidingHole_HoseMovePos
+  Phive:
+    Placement: {ID: !ul 7779047322731632151}
+  Rotate: [0.0, -1.0678812265396118, 0.0]
+  SRTHash: !u 0x6dfb1d96
+  Translate: [-47.88405990600586, 101.1999282836914, -29.653751373291016]
+- Gyaml: DropKeepAwayArea
+  Hash: !ul 9428501061034072493
+  Phive:
+    Placement: {ID: !ul 9428501061034072493}
+  Rotate: [0.0, -1.0678813457489014, 0.0]
+  SRTHash: !u 0x7b7d6ea5
+  Scale: [2.75, 7.0, 2.75]
+  Translate: [-45.273868560791016, 87.03539276123047, -29.028738021850586]
+- Gyaml: DestinationAnchor
+  Hash: !ul 14119746912847679492
+  Name: SwapRestartPosAnchor
+  Phive:
+    Placement: {ID: !ul 14119746912847679492}
+  Rotate: [3.141592502593994, -0.0, 3.141592502593994]
+  SRTHash: !u 0x7ccce2c9
+  Translate: [-45.273406982421875, 83.99004364013672, -31.083677291870117]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 3041132156025333085
+  Phive:
+    Placement: {ID: !ul 3041132156025333085}
+  Rotate: [0.0, -1.0678813457489014, 0.0]
+  SRTHash: !u 0x67a5786f
+  Scale: [0.8500000238418579, 2.0, 0.8500000238418579]
+  Translate: [-45.273868560791016, 84.37046813964844, -29.028738021850586]
+- Gyaml: Area
+  Hash: !ul 10237579932346163333
+  Phive:
+    Placement: {ID: !ul 10237579932346163333}
+  SRTHash: !u 0xf2b003c9
+  Scale: [7.872056007385254, 7.775304794311523, 16.0]
+  Translate: [-45.553768157958984, 80.4797134399414, -37.138919830322266]
+- Dynamic: {FogParams: Hole}
+  Gyaml: VolumeFogArea
+  Hash: !ul 12138742617698937686
+  Phive:
+    Placement: {ID: !ul 12138742617698937686}
+  SRTHash: !u 0x1284f329
+  Scale: [6.112737655639648, 12.009801864624023, 6.20413875579834]
+  Translate: [-45.273406982421875, 89.78968811035156, -28.994550704956055]
+- Gyaml: ForbidHorseToEnterAreaBox
+  Hash: !ul 15584307455099300553
+  Phive:
+    Placement: {ID: !ul 15584307455099300553}
+  SRTHash: !u 0xb1e754e1
+  Scale: [9.0, 17.5, 29.5]
+  Translate: [-45.282169342041016, 83.10604095458984, -37.99250793457031]
+- Dynamic: {FogParams: Hole_GerudoValley}
+  Gyaml: VolumeFogArea
+  Hash: !ul 8158100777471348613
+  Phive:
+    Placement: {ID: !ul 8158100777471348613}
+  SRTHash: !u 0xa24f27f2
+  Scale: [11.324751853942871, 12.009801864624023, 30.64444351196289]
+  Translate: [-45.273406982421875, 89.78968811035156, -37.814781188964844]
+- Gyaml: Area
+  Hash: !ul 16868939057990886011
+  Phive:
+    Placement: {ID: !ul 16868939057990886011}
+  Rotate: [0.09265574812889099, -0.463127464056015, -0.20507191121578217]
+  SRTHash: !u 0x879a7b72
+  Scale: [2.721351146697998, 4.907204627990723, 1.1414158344268799]
+  Translate: [48.97373580932617, 99.25616455078125, 3.907744884490967]
+- Dynamic: {RequestEventName: Dm_GerudoValley_0000}
+  Gyaml: EventRequestActor
+  Hash: !ul 2454233201686086252
+  Links:
+  - {Dst: !ul 10469416600064865901, Gyaml: Reference, Name: Reference, Src: !ul 2454233201686086252}
+  - {Dst: !ul 6302915362505229959, Gyaml: Reference, Name: Reference, Src: !ul 2454233201686086252}
+  - {Dst: !ul 181399639637645762, Gyaml: Reference, Name: Reference, Src: !ul 2454233201686086252}
+  Phive:
+    Placement: {ID: !ul 2454233201686086252}
+  Rotate: [0.05434354394674301, -0.0, -0.14511732757091522]
+  SRTHash: !u 0xbdcedc40
+  Translate: [64.73360443115234, 107.11274719238281, 13.705891609191895]
+- Gyaml: Area
+  Hash: !ul 5633760747516322513
+  Phive:
+    Placement: {ID: !ul 5633760747516322513}
+  Rotate: [0.0, -0.4950021207332611, 0.0]
+  SRTHash: !u 0xd4a68f06
+  Scale: [3.260774850845337, 5.250641822814941, 5.8021321296691895]
+  Translate: [43.1080436706543, 98.95709991455078, 7.0135345458984375]
+- Gyaml: Area
+  Hash: !ul 91259305117665666
+  Phive:
+    Placement: {ID: !ul 91259305117665666}
+  Rotate: [0.0, -0.21259847283363342, 0.0]
+  SRTHash: !u 0xd053e334
+  Scale: [3.260775327682495, 5.250641822814941, 4.420166969299316]
+  Translate: [46.474552154541016, 98.95709991455078, -1.538109302520752]
+- Dynamic: {Drop__DropActor: Obj_Heart_Piece}
+  Gyaml: Obj_TBox_A_02
+  Hash: !ul 15856256242099990922
+  Phive:
+    Placement: {ID: !ul 15856256242099990922}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x7a761f67
+  Translate: [-9.457417488098145, 90.44999694824219, 34.98228073120117]
+- Gyaml: HorseSpeedLimitAreaBox
+  Hash: !ul 7042744222412241799
+  Phive:
+    Placement: {ID: !ul 7042744222412241799}
+  Rotate: [0.18502546846866608, 1.1138432025909424, 6.108791694714455e-07]
+  SRTHash: !u 0xa92ff2eb
+  Scale: [27.421756744384766, 13.826803207397461, 20.720766067504883]
+  Translate: [60.6380615234375, 99.2077865600586, 11.334320068359375]
+- Gyaml: HorseSpeedLimitAreaBox
+  Hash: !ul 4956408152989187479
+  Phive:
+    Placement: {ID: !ul 4956408152989187479}
+  Rotate: [2.9565670490264893, -1.113843321800232, -3.141592025756836]
+  SRTHash: !u 0xa31e03eb
+  Scale: [27.421756744384766, 13.826804161071777, 25.132125854492188]
+  Translate: [57.10281753540039, 99.94510650634766, 9.596181869506836]
+- Gyaml: FldObj_AirWall_Common_Cube
+  Hash: !ul 10045138004379453333
+  Phive:
+    Placement: {ID: !ul 10045138004379453333}
+  Rotate: [0.0, -0.3945319950580597, 0.0]
+  SRTHash: !u 0x9309e05d
+  Scale: [2.3137035369873047, 5.834251403808594, 1.2123907804489136]
+  Translate: [21.655122756958008, 98.03333282470703, 13.886275291442871]
+- Gyaml: FldObj_AirWall_Common_Cube
+  Hash: !ul 15904813569454917555
+  Phive:
+    Placement: {ID: !ul 15904813569454917555}
+  Rotate: [3.1415927410125732, -0.9020058512687683, 3.1415927410125732]
+  SRTHash: !u 0xb3948b2b
+  Scale: [2.2547714710235596, 5.834251403808594, 0.9671878814697266]
+  Translate: [21.56700325012207, 98.03333282470703, 12.200848579406738]
+- Gyaml: FldObj_AirWall_Common_Cube
+  Hash: !ul 9275246073526611473
+  Phive:
+    Placement: {ID: !ul 9275246073526611473}
+  Rotate: [3.1415927410125732, 1.3810805082321167, 3.1415927410125732]
+  SRTHash: !u 0x8fb7009e
+  Scale: [2.545875310897827, 5.834251403808594, 1.0466585159301758]
+  Translate: [22.73404312133789, 98.03333282470703, 12.50719165802002]
+- Gyaml: Land_RiverRail_GerudoValley_C
+  Hash: !ul 3990332384922701699
+  Phive:
+    Placement: {ID: !ul 3990332384922701699}
+  SRTHash: !u 0xde43e971
+  Translate: [3.6305441856384277, 23.810733795166016, -3.2180421352386475]
+- Gyaml: Land_RiverRail_GerudoValley_B
+  Hash: !ul 11007726923744605077
+  Phive:
+    Placement: {ID: !ul 11007726923744605077}
+  SRTHash: !u 0x9e14c336
+  Translate: [3.8011183738708496, 45.30082702636719, -32.43567657470703]
+- Gyaml: Land_RiverRail_GerudoValley
+  Hash: !ul 2592742057562718459
+  Phive:
+    Placement: {ID: !ul 2592742057562718459}
+  SRTHash: !u 0xe573368d
+  Translate: [4.146346092224121, 88.76930236816406, -81.01387023925781]
+- Gyaml: Land_RiverRail_GerudoValley_D
+  Hash: !ul 14330586372225093470
+  Phive:
+    Placement: {ID: !ul 14330586372225093470}
+  SRTHash: !u 0x3621c7a1
+  Translate: [2.1305441856384277, 14.56154727935791, 52.781959533691406]
+- Gyaml: Land_RiverRail_GerudoValley_E
+  Hash: !ul 14416298156956155059
+  Phive:
+    Placement: {ID: !ul 14416298156956155059}
+  SRTHash: !u 0xf83317fa
+  Translate: [12.4353609085083, 92.41500091552734, -116.80291748046875]
+- Gyaml: Land_RiverRail_GerudoValley_F
+  Hash: !ul 917257495610919039
+  Phive:
+    Placement: {ID: !ul 917257495610919039}
+  SRTHash: !u 0xed2a9b05
+  Translate: [50.74134063720703, 101.33200073242188, -152.7899627685547]
+- Gyaml: StartPos
+  Hash: !ul 1790715296101260160
+  Name: ReturnFromDreamWorld
+  Phive:
+    Placement: {ID: !ul 1790715296101260160}
+  Rotate: [0.0, 0.6028777360916138, 0.0]
+  SRTHash: !u 0x59801cf6
+  Translate: [-39.94571304321289, 101.20000457763672, -24.71512222290039]
+- Gyaml: Obj_Common_Bed_A_01
+  Hash: !ul 9727445657857989117
+  Phive:
+    Placement: {ID: !ul 9727445657857989117}
+  Rotate: [0.0, 0.6028777360916138, 0.0]
+  SRTHash: !u 0x261ff13b
+  Translate: [-40.653377532958984, 101.22610473632812, -25.743141174316406]
+- Dynamic: {RequestEventName: LinkSleepInBed_CommonBed}
+  Gyaml: EventRequestActor
+  Hash: !ul 16720235433219540483
+  Links:
+  - {Dst: !ul 1790715296101260160, Gyaml: Reference, Name: Reference, Src: !ul 16720235433219540483}
+  - {Dst: !ul 9727445657857989117, Gyaml: Reference, Name: Reference, Src: !ul 16720235433219540483}
+  - {Dst: !ul 5089223766259481094, Gyaml: Reference, Name: Reference, Src: !ul 16720235433219540483}
+  Phive:
+    Placement: {ID: !ul 16720235433219540483}
+  Rotate: [0.0, 0.6028777360916138, 0.0]
+  SRTHash: !u 0xc8dd8f3f
+  Translate: [-40.3073616027832, 106.76516723632812, -25.240482330322266]
+- Gyaml: DestinationAnchor
+  Hash: !ul 5089223766259481094
+  Name: Attention
+  Phive:
+    Placement: {ID: !ul 5089223766259481094}
+  Rotate: [0.0, 0.6028777360916138, 0.0]
+  SRTHash: !u 0xf4a8b0b3
+  Translate: [-40.653377532958984, 101.25770568847656, -25.743141174316406]
+- Gyaml: FldObj_AirWall_Player
+  Hash: !ul 16974726261754708080
+  Phive:
+    Placement: {ID: !ul 16974726261754708080}
+  Rotate: [0.0, 0.009022394195199013, 0.0]
+  SRTHash: !u 0x753a12ec
+  Scale: [9.419519424438477, 20.703067779541016, 5.569845676422119]
+  Translate: [4.8862152099609375, 68.83352661132812, -73.60375213623047]
+- Gyaml: DestinationAnchor
+  Hash: !ul 6018686435766512391
+  Phive:
+    Placement: {ID: !ul 6018686435766512391}
+  Rotate: [0.0027936070691794157, -0.0, -0.022844577208161354]
+  SRTHash: !u 0x35a9fcb3
+  Translate: [3.0932230949401855, 87.63333129882812, 26.502330780029297]
+- Gyaml: FldObj_AirWall_Player
+  Hash: !ul 16899373150687382270
+  Phive:
+    Placement: {ID: !ul 16899373150687382270}
+  Rotate: [0.0, 0.34279051423072815, 0.0]
+  SRTHash: !u 0x3eaa75f2
+  Scale: [8.371639251708984, 3.813100576400757, 2.148348808288574]
+  Translate: [-25.29705810546875, 106.74783325195312, 25.40153694152832]
+- Dynamic: {InvalidSlopeCliffLatInterpolate: true}
+  Gyaml: CameraChangeAreaBox
+  Hash: !ul 8048920189955923656
+  Phive:
+    Placement: {ID: !ul 8048920189955923656}
+  Rotate: [3.638668931671418e-05, -0.0, 0.029399987310171127]
+  SRTHash: !u 0x23051205
+  Scale: [5.446132659912109, 4.852246284484863, 8.083258628845215]
+  Translate: [-6.4661993980407715, 96.15538024902344, -2.7940521240234375]
+- Dynamic: {InvalidSlopeCliffLatInterpolate: true}
+  Gyaml: CameraChangeAreaBox
+  Hash: !ul 8234349612438281090
+  Phive:
+    Placement: {ID: !ul 8234349612438281090}
+  Rotate: [3.638668931671418e-05, -0.0, 0.029399987310171127]
+  SRTHash: !u 0x35ae0d2b
+  Scale: [5.446132659912109, 4.852246284484863, 8.083258628845215]
+  Translate: [10.973506927490234, 96.15538024902344, -2.7940521240234375]
+- Gyaml: Area
+  Hash: !ul 9477251306890908872
+  Phive:
+    Placement: {ID: !ul 9477251306890908872}
+  SRTHash: !u 0x74ac01ca
+  Scale: [7.158965110778809, 4.0, 18.086421966552734]
+  Translate: [-7.3080549240112305, 89.53192138671875, 30.895641326904297]
+- Gyaml: ForbidHorseToEnterAreaBox
+  Hash: !ul 354868422836695877
+  Phive:
+    Placement: {ID: !ul 354868422836695877}
+  SRTHash: !u 0xe39d485a
+  Scale: [52.62751007080078, 23.670978546142578, 90.18549346923828]
+  Translate: [1.3814144134521484, 43.90876770019531, -34.60166549682617]
+- Dynamic: {FogParams: SceneConnectArea_White_GerudoValley_01}
+  Gyaml: VolumeFogArea
+  Hash: !ul 7312343903568930380
+  Phive:
+    Placement: {ID: !ul 7312343903568930380}
+  Rotate: [0.0, 0.3490658402442932, 0.0]
+  SRTHash: !u 0xe69f879b
+  Scale: [77.91447448730469, 54.637264251708984, 162.21023559570312]
+  Translate: [145.4335479736328, 81.02439880371094, 206.68084716796875]
+- Gyaml: IndoorAreaOutCameraBox
+  Hash: !ul 1724530924017078130
+  Phive:
+    Placement: {ID: !ul 1724530924017078130}
+  SRTHash: !u 0x8111243b
+  Scale: [4.162675380706787, 3.361660957336426, 8.070411682128906]
+  Translate: [2.8578567504882812, 58.940467834472656, -83.0252685546875]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 17616885966456061770
+  Phive:
+    Placement: {ID: !ul 17616885966456061770}
+  Rotate: [2.958383321762085, -1.0991510152816772, 3.141592264175415]
+  SRTHash: !u 0x1d45abe8
+  Scale: [1.1399999856948853, 4.907000541687012, 1.1399999856948853]
+  Translate: [51.35422134399414, 98.76107025146484, 5.121875762939453]
+- Gyaml: Area
+  Hash: !ul 17118483316312413854
+  Phive:
+    Placement: {ID: !ul 17118483316312413854}
+  Rotate: [-3.141592502593994, -1.414724349975586, -3.141592502593994]
+  SRTHash: !u 0x38753593
+  Scale: [21.0, 11.518531799316406, 10.858075141906738]
+  Translate: [-75.05776977539062, 101.0, -11.264869689941406]
+- Gyaml: HorseMoveToTargetArea
+  Hash: !ul 11768538910607711211
+  Links:
+  - {Dst: !ul 9077875303444173323, Gyaml: Reference, Name: Reference, Src: !ul 11768538910607711211}
+  Phive:
+    Placement: {ID: !ul 11768538910607711211}
+  Rotate: [-3.141592502593994, -1.414724349975586, -3.141592502593994]
+  SRTHash: !u 0x16833737
+  Scale: [41.953243255615234, 25.23883056640625, 42.59309768676758]
+  Translate: [-85.251708984375, 112.23341369628906, -12.85234546661377]
+- Gyaml: HorseAnchor
+  Hash: !ul 9077875303444173323
+  Phive:
+    Placement: {ID: !ul 9077875303444173323}
+  Rotate: [0.0, 1.5344469547271729, 0.0]
+  SRTHash: !u 0x2f9c6f70
+  Translate: [-61.22109603881836, 102.34021759033203, -6.401472091674805]
+- Gyaml: ForbidHorseToEnterAreaBox
+  Hash: !ul 11491687371572395128
+  Phive:
+    Placement: {ID: !ul 11491687371572395128}
+  Rotate: [-0.1971062868833542, -0.0, -0.05086361989378929]
+  SRTHash: !u 0xffb62124
+  Scale: [5.9956746101379395, 1.8693451881408691, 2.891082763671875]
+  Translate: [-65.61767578125, 103.58552551269531, -0.8506417870521545]
+- Gyaml: ForbidHorseToEnterAreaBox
+  Hash: !ul 118851997977434483
+  Phive:
+    Placement: {ID: !ul 118851997977434483}
+  Rotate: [-0.02054866962134838, -0.0, -0.05086369067430496]
+  SRTHash: !u 0xb6871eed
+  Scale: [5.623050212860107, 1.8693451881408691, 2.950390100479126]
+  Translate: [-66.85828399658203, 102.888671875, -10.914618492126465]
+- Gyaml: HorseDisableLimitShiftAndTurnArea
+  Hash: !ul 3280143932965495310
+  Phive:
+    Placement: {ID: !ul 3280143932965495310}
+  Rotate: [0.0, -0.15641766786575317, 0.0]
+  SRTHash: !u 0xda047467
+  Scale: [16.843013763427734, 16.385963439941406, 19.35346794128418]
+  Translate: [-75.2138900756836, 105.97634887695312, -9.252626419067383]
+- Gyaml: Area
+  Hash: !ul 14073425387678230537
+  Phive:
+    Placement: {ID: !ul 14073425387678230537}
+  Rotate: [0.0, 1.3944675922393799, 0.0]
+  SRTHash: !u 0x27746fa4
+  Scale: [10.0, 12.360520362854004, 23.295284271240234]
+  Translate: [-85.51889038085938, 93.13059997558594, -9.507055282592773]
+- Gyaml: HorseMoveToTargetArea
+  Hash: !ul 1859356869713756600
+  Links:
+  - {Dst: !ul 13111254533973209627, Gyaml: Reference, Name: Reference, Src: !ul 1859356869713756600}
+  Phive:
+    Placement: {ID: !ul 1859356869713756600}
+  Rotate: [0.0, 1.3944675922393799, 0.0]
+  SRTHash: !u 0x5bc4d410
+  Scale: [20.0, 24.459056854248047, 45.35038757324219]
+  Translate: [-88.83688354492188, 105.64994812011719, -10.098251342773438]
+- Gyaml: HorseAnchor
+  Hash: !ul 13111254533973209627
+  Phive:
+    Placement: {ID: !ul 13111254533973209627}
+  Rotate: [0.0, 1.3944675922393799, 0.0]
+  SRTHash: !u 0x77e928a5
+  Translate: [-60.206031799316406, 102.23455810546875, -6.23577880859375]
+- Gyaml: Area
+  Hash: !ul 12061094172047055301
+  Phive:
+    Placement: {ID: !ul 12061094172047055301}
+  Rotate: [-3.141592502593994, -0.24512611329555511, -3.141592502593994]
+  SRTHash: !u 0x714cb736
+  Scale: [10.0, 12.360520362854004, 23.295284271240234]
+  Translate: [83.6123046875, 82.11752319335938, 49.270912170410156]
+- Gyaml: HorseMoveToTargetArea
+  Hash: !ul 13664782546874667669
+  Links:
+  - {Dst: !ul 5888530058988863846, Gyaml: Reference, Name: Reference, Src: !ul 13664782546874667669}
+  Phive:
+    Placement: {ID: !ul 13664782546874667669}
+  Rotate: [-3.141592502593994, -0.24512611329555511, -3.141592502593994]
+  SRTHash: !u 0x3d85a298
+  Scale: [20.0, 24.459056854248047, 45.35038757324219]
+  Translate: [84.43019104003906, 94.63687896728516, 52.54041290283203]
+- Gyaml: HorseAnchor
+  Hash: !ul 5888530058988863846
+  Phive:
+    Placement: {ID: !ul 5888530058988863846}
+  Rotate: [-3.141592502593994, -0.24512611329555511, -3.141592502593994]
+  SRTHash: !u 0x76095506
+  Translate: [77.01712799072266, 93.36739349365234, 22.906715393066406]
+- Gyaml: Npc_Gerudo_002
+  Hash: !ul 10469416600064865901
+  Links:
+  - {Dst: !ul 11968450502304552646, Gyaml: Reference, Name: Reference, Src: !ul 10469416600064865901}
+  MoveRadius: 0.38065195083618164
+  Phive:
+    Placement: {ID: !ul 10469416600064865901}
+  Rotate: [0.0, 1.568558692932129, -0.042112961411476135]
+  SRTHash: !u 0x42b8950e
+  Translate: [-9.90498161315918, 98.1419677734375, -2.9035372734069824]
+- Gyaml: AnchorAction1
+  Hash: !ul 11968450502304552646
+  Phive:
+    Placement: {ID: !ul 11968450502304552646}
+  Rotate: [0.0, 1.5695044994354248, -0.08761731535196304]
+  SRTHash: !u 0x8bba0f07
+  Translate: [-9.541827201843262, 98.25605010986328, -2.9035372734069824]
+- Gyaml: Npc_Gerudo_003
+  Hash: !ul 4398281054047157748
+  Links:
+  - {Dst: !ul 15348905178918054875, Gyaml: Reference, Name: Reference, Src: !ul 4398281054047157748}
+  MoveRadius: 2.2682688236236572
+  Phive:
+    Placement: {ID: !ul 4398281054047157748}
+  Rotate: [0.0, -1.3962632417678833, 0.0]
+  SRTHash: !u 0x892119ca
+  Translate: [-10.699566841125488, 47.04996871948242, -14.763240814208984]
+- Gyaml: AnchorAction1
+  Hash: !ul 15348905178918054875
+  Phive:
+    Placement: {ID: !ul 15348905178918054875}
+  Rotate: [3.1415927410125732, 0.9692489504814148, 3.1415927410125732]
+  SRTHash: !u 0xb225489a
+  Translate: [-8.520160675048828, 47.222328186035156, -14.15865421295166]
+- Dynamic: {Enemy_Skulltula_Gold_Nocturnal: true}
+  Gyaml: Enemy_Skulltula_Gold
+  Hash: !ul 15265071047503310220
+  Phive:
+    Placement: {ID: !ul 15265071047503310220}
+  Rotate: [1.3293830156326294, -1.0395723581314087, -2.954169750213623]
+  SRTHash: !u 0x8c5ddf6b
+  Translate: [50.80552673339844, 97.40318298339844, 5.090764045715332]
+- Bakeable: true
+  Gyaml: Land_SkulltulaGold_SpiderWeb_A_01
+  Hash: !ul 5600088612479420743
+  Phive:
+    Placement: {ID: !ul 5600088612479420743}
+  Rotate: [1.3293830156326294, -1.0395723581314087, -2.954169750213623]
+  SRTHash: !u 0x188e0a24
+  Translate: [50.51117706298828, 97.41996765136719, 5.005705833435059]
+- Gyaml: Animal_Cow_GerudoValley
+  Hash: !ul 9796879244811108931
+  Links:
+  - {Dst: !ul 4398281054047157748, Gyaml: Reference, Name: Reference, Src: !ul 9796879244811108931}
+  Phive:
+    Placement: {ID: !ul 9796879244811108931}
+  Rotate: [0.002308493247255683, 0.7129507064819336, 0.057501111179590225]
+  SRTHash: !u 0xcf920bdc
+  Translate: [-7.852426528930664, 47.1987419128418, -15.228241920471191]
+- Gyaml: Area
+  Hash: !ul 3540700141127530886
+  Phive:
+    Placement: {ID: !ul 3540700141127530886}
+  SRTHash: !u 0xe774b845
+  Scale: [2.0, 2.5, 2.0]
+  Translate: [12.0, 83.91999816894531, 36.66999816894531]
+- Gyaml: Area
+  Hash: !ul 10022990843394786799
+  Phive:
+    Placement: {ID: !ul 10022990843394786799}
+  SRTHash: !u 0x40dbbc90
+  Scale: [2.0, 2.5, 2.0]
+  Translate: [-45.0, 93.91999816894531, -29.0]
+- Gyaml: Area
+  Hash: !ul 6624248739512512928
+  Phive:
+    Placement: {ID: !ul 6624248739512512928}
+  Rotate: [0.09701830893754959, 0.28654012084007263, -0.06996378302574158]
+  SRTHash: !u 0x8405582c
+  Scale: [14.815581321716309, 5.584476470947266, 24.211328506469727]
+  Translate: [87.74638366699219, 87.73148345947266, 52.277305603027344]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 11905950936260388952
+  Phive:
+    Placement: {ID: !ul 11905950936260388952}
+  SRTHash: !u 0xc61f9c6c
+  Scale: [3.200000047683716, 4.739999771118164, 4.099999904632568]
+  Translate: [-9.372081756591797, 96.10525512695312, -2.9039993286132812]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 5057745768154927833
+  Phive:
+    Placement: {ID: !ul 5057745768154927833}
+  SRTHash: !u 0x22bc2859
+  Scale: [1.75, 0.5, 1.75]
+  Translate: [11.485599517822266, -18.479469299316406, 36.44635772705078]
+- Gyaml: DestinationAnchor
+  Hash: !ul 7318886581586832768
+  Name: Player_KickOutPos
+  Phive:
+    Placement: {ID: !ul 7318886581586832768}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x5e580342
+  Translate: [-5.207830429077148, 97.96166229248047, -2.9200000762939453]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 2129995380357929901
+  Phive:
+    Placement: {ID: !ul 2129995380357929901}
+  SRTHash: !u 0xcf96c711
+  Scale: [2.9437203407287598, 4.739999771118164, 3.9585559368133545]
+  Translate: [-9.372081756591797, 96.10525512695312, -2.9040000438690186]
+- Dynamic: {RequestEventName: ValleyStopped02_Npc_Gerudo_002_Talk0}
+  Gyaml: EventRequestActor
+  Hash: !ul 5624675658531890384
+  Links:
+  - {Dst: !ul 10469416600064865901, Gyaml: Reference, Name: Reference, Src: !ul 5624675658531890384}
+  - {Dst: !ul 7318886581586832768, Gyaml: Reference, Name: Reference, Src: !ul 5624675658531890384}
+  - {Dst: !ul 9548742281279461793, Gyaml: Reference, Name: Reference, Src: !ul 5624675658531890384}
+  Phive:
+    Placement: {ID: !ul 5624675658531890384}
+  SRTHash: !u 0x4f6b7be2
+  Translate: [-4.575278282165527, 108.65351104736328, -2.7738919258117676]
+- Gyaml: DestinationAnchor
+  Hash: !ul 9548742281279461793
+  Name: Player_Focus_Gerudo_002
+  Phive:
+    Placement: {ID: !ul 9548742281279461793}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xf3408fca
+  Translate: [-8.99933910369873, 98.84707641601562, -2.9282150268554688]
+- Gyaml: Animal_Cucco_GerudoValley
+  Hash: !ul 6302915362505229959
+  Links:
+  - {Dst: !ul 17093987630307111594, Gyaml: Reference, Name: Reference, Src: !ul 6302915362505229959}
+  MoveRadius: 6.32883882522583
+  Phive:
+    Placement: {ID: !ul 6302915362505229959}
+  Rails:
+  - {Dst: !ul 450745739844141006, Gyaml: Reference, Name: Reference}
+  Rotate: [3.04245924949646, -0.8699460625648499, -2.861438035964966]
+  SRTHash: !u 0xd370226d
+  Translate: [18.863418579101562, 97.71154022216797, 10.869888305664062]
+- Gyaml: FldObj_AirWall_Player
+  Hash: !ul 5860245594137851602
+  Phive:
+    Placement: {ID: !ul 5860245594137851602}
+  Rotate: [-0.031709346920251846, -0.0019906244706362486, 0.0299550648778677]
+  SRTHash: !u 0x55a3c5ec
+  Scale: [1.6206080913543701, 7.0, 2.4431443214416504]
+  Translate: [-11.211034774780273, 100.76238250732422, -11.476880073547363]
+- Gyaml: FldObj_AirWall_Player
+  Hash: !ul 11629804077097218252
+  Phive:
+    Placement: {ID: !ul 11629804077097218252}
+  Rotate: [-0.020605210214853287, 0.3531342148780823, 0.03192563354969025]
+  SRTHash: !u 0xb0481563
+  Scale: [3.2637603282928467, 7.0, 3.631117105484009]
+  Translate: [-13.595490455627441, 100.13707733154297, -21.915128707885742]
+- Gyaml: FldObj_AirWall_Player
+  Hash: !ul 4013485131821552846
+  Phive:
+    Placement: {ID: !ul 4013485131821552846}
+  Rotate: [-0.035550642758607864, -0.12945985794067383, 0.03020787052810192]
+  SRTHash: !u 0xf0e0c648
+  Scale: [1.7224054336547852, 7.0, 2.353039026260376]
+  Translate: [-9.452176094055176, 100.7317886352539, -14.204167366027832]
+- Gyaml: FldObj_AirWall_Player
+  Hash: !ul 17857277195936224287
+  Phive:
+    Placement: {ID: !ul 17857277195936224287}
+  Rotate: [-0.03018164075911045, 0.04895499348640442, 0.029990941286087036]
+  SRTHash: !u 0x005a6761
+  Scale: [6.5525970458984375, 6.999999523162842, 12.779912948608398]
+  Translate: [-24.210861206054688, 97.2628173828125, -6.3204851150512695]
+- Gyaml: FldObj_AirWall_Player
+  Hash: !ul 17527994486724506671
+  Phive:
+    Placement: {ID: !ul 17527994486724506671}
+  Rotate: [-0.020605210214853287, 0.3531342148780823, 0.03192562982439995]
+  SRTHash: !u 0x74c8f26b
+  Scale: [2.9116039276123047, 7.0, 2.5141947269439697]
+  Translate: [-12.359721183776855, 100.16149139404297, -28.587413787841797]
+- Gyaml: FldObj_AirWall_Player
+  Hash: !ul 6796455524558349785
+  Phive:
+    Placement: {ID: !ul 6796455524558349785}
+  SRTHash: !u 0x82d113e8
+  Scale: [1.7224053144454956, 7.0, 4.24677848815918]
+  Translate: [-11.463146209716797, 100.26004791259766, 9.229561805725098]
+- Gyaml: FldObj_AirWall_Player
+  Hash: !ul 11755894652767889868
+  Phive:
+    Placement: {ID: !ul 11755894652767889868}
+  Rotate: [-0.029367811977863312, 0.0760076493024826, 0.03004177287220955]
+  SRTHash: !u 0xbb573d3a
+  Scale: [1.7224054336547852, 7.0, 1.6733871698379517]
+  Translate: [-10.261415481567383, 100.56336975097656, 6.164086818695068]
+- Gyaml: FldObj_AirWall_Player
+  Hash: !ul 6770056236509730208
+  Phive:
+    Placement: {ID: !ul 6770056236509730208}
+  Rotate: [0.0, -0.3781217634677887, 0.0]
+  SRTHash: !u 0x744bc84c
+  Scale: [1.4552981853485107, 7.0, 1.6733871698379517]
+  Translate: [-9.427294731140137, 100.39253234863281, 7.912953853607178]
+- Gyaml: FldObj_AirWall_Player
+  Hash: !ul 9388133498108674445
+  Phive:
+    Placement: {ID: !ul 9388133498108674445}
+  Rotate: [0.0, -0.395328164100647, 0.0]
+  SRTHash: !u 0xa16e35f8
+  Scale: [1.4552980661392212, 7.0, 3.019549608230591]
+  Translate: [-14.008252143859863, 100.39253234863281, 21.359405517578125]
+- Gyaml: AnchorAction1
+  Hash: !ul 17093987630307111594
+  Phive:
+    Placement: {ID: !ul 17093987630307111594}
+  Rotate: [-3.0651886463165283, -1.1979044675827026, 3.006641149520874]
+  SRTHash: !u 0x55e39753
+  Translate: [12.621097564697266, 96.94576263427734, 10.161921501159668]
+- Gyaml: Area
+  Hash: !ul 14423317543070340422
+  Phive:
+    Placement: {ID: !ul 14423317543070340422}
+  SRTHash: !u 0x7dc39953
+  Scale: [12.943355560302734, 4.385410308837891, 4.079076766967773]
+  Translate: [1.2953500747680664, 97.17453002929688, -3.0601003170013428]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 2224021885151370837
+  Phive:
+    Placement: {ID: !ul 2224021885151370837}
+  Rotate: [-3.141592502593994, 0.9692489504814148, -3.141592502593994]
+  SRTHash: !u 0x8dba07e4
+  Scale: [8.0, 3.0, 8.0]
+  Translate: [-8.75658893585205, 46.222328186035156, -14.3049898147583]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 8282873742756567342
+  Phive:
+    Placement: {ID: !ul 8282873742756567342}
+  SRTHash: !u 0x36bccd3f
+  Scale: [12.0, 5.0, 12.0]
+  Translate: [-9.372081756591797, 96.10525512695312, -2.9040000438690186]
+- Gyaml: Animal_Cucco_GerudoValley
+  Hash: !ul 15615940760132544640
+  Links:
+  - {Dst: !ul 2541955888468599408, Gyaml: Reference, Name: Reference, Src: !ul 15615940760132544640}
+  MoveRadius: 3.9600534439086914
+  Phive:
+    Placement: {ID: !ul 15615940760132544640}
+  Rails:
+  - {Dst: !ul 2395645527417491919, Gyaml: Reference, Name: Reference}
+  Rotate: [3.111840009689331, -0.8663248419761658, 3.048570394515991]
+  SRTHash: !u 0xd3672792
+  Translate: [-8.717291831970215, 90.40096282958984, 26.53139305114746]
+- Gyaml: AnchorAction1
+  Hash: !ul 2541955888468599408
+  Phive:
+    Placement: {ID: !ul 2541955888468599408}
+  Rotate: [-2.9042410850524902, -1.199963927268982, 2.883161783218384]
+  SRTHash: !u 0x0dc95c20
+  Translate: [-6.595261096954346, 90.40491485595703, 29.874893188476562]
+- Gyaml: GerudoValley_2nd
+  Hash: !ul 2806273164132266505
+  Phive:
+    Placement: {ID: !ul 2806273164132266505}
+  SRTHash: !u 0x4ead2ca1
+  Translate: [80.0, 40.0, 120.0]
+- Gyaml: DestinationAnchor
+  Hash: !ul 181399639637645762
+  Name: Dm_GerudoValley_0000
+  Phive:
+    Placement: {ID: !ul 181399639637645762}
+  Rotate: [-3.1155645847320557, -1.3962633609771729, 3.06874942779541]
+  SRTHash: !u 0x89c00dcd
+  Translate: [47.849998474121094, 99.69000244140625, 3.299999952316284]
+AiGroups:
+- Hash: !ul 1949833986774173317
+  Logic: Logic/Module/GerudoValley_Common/GerudoValley_Common_b2e0.logic.module.ain
+  References:
+  - {Id: Area_d628, Path: Area_d628, Reference: !ul 9477251306890908872}
+- Hash: !ul 1955059655832189195
+  Logic: Logic/Module/GerudoValley_Common/GerudoValley_Common_c3b5.logic.module.ain
+  References:
+  - {Id: Area_b29e, Path: Area_b29e, Reference: !ul 16868939057990886011}
+  - {Id: EventRequestActor_7228, Path: EventRequestActor_7228, Reference: !ul 2454233201686086252}
+  - {Id: Area_40b3, Path: Area_40b3, Reference: !ul 5633760747516322513}
+  - {Id: Area_6e2f, Path: Area_6e2f, Reference: !ul 91259305117665666}
+  - {Id: Area_952d, Path: Area_952d, Reference: !ul 17616885966456061770}
+- Hash: !ul 2136286337838470705
+  Logic: Logic/Module/GerudoValley_Child_Prefab/GerudoValley_Child_Prefab_c60b.logic.module.ain
+  References:
+  - {Id: Area_7125, Path: Area_7125, Reference: !ul 2129995380357929901}
+  - {Id: EventRequestActor_b532, Path: EventRequestActor_b532, Reference: !ul 5624675658531890384}
+- Hash: !ul 4121074535074903217
+  Logic: Logic/Module/Gimmick_AreaContact_FallDown/Gimmick_AreaContact_FallDown_0a27.logic.module.ain
+  References:
+  - {Id: Area_ed22, Path: Area_ed22, Reference: !ul 11571529847224357568}
+- Hash: !ul 4233474501870958048
+  Logic: Logic/Module/Obj_GuidePost_A_01/Obj_GuidePost_A_01_480b.logic.module.ain
+  References:
+  - {Id: Obj_GuidePost_A_01_6767, Path: Obj_GuidePost_A_01_6767, Reference: !ul 13241287171005251470}
+  - {Id: EventProxyRequestActor_85cb, Path: EventProxyRequestActor_85cb, Reference: !ul 15766658186566073689}
+- Hash: !ul 4573238998827189699
+  Logic: Logic/Module/Gimmick_Ocarina_Appearance_01_Common/Gimmick_Ocarina_Appearance_01_Common_2983.logic.module.ain
+  References:
+  - {Id: DestinationAnchor_5845, Path: DestinationAnchor_5845, Reference: !ul 160421199299362672}
+  - {Id: Area_826a, Path: Area_826a, Reference: !ul 3621830253576665987}
+  - {Id: EventRequestActor_9549, Path: EventRequestActor_9549, Reference: !ul 18321745423797287500}
+  - {Id: DestinationAnchor_cf5c, Path: DestinationAnchor_cf5c, Reference: !ul 2898121583347267819}
+- Hash: !ul 4663599265552064107
+  Logic: Logic/Module/Common_FieldDungeonEntranceSet/Common_FieldDungeonEntranceSet_bad1.logic.module.ain
+  References:
+  - {Id: Area_6674, Path: Area_6674, Reference: !ul 5369312334650762833}
+  - {Id: FieldAndDungeonEntranceEventRequestActor_57cf, Path: FieldAndDungeonEntranceEventRequestActor_57cf,
+    Reference: !ul 17826591646446271666}
+- Hash: !ul 5620609457597317062
+  Logic: Logic/Module/Gimmick_AreaContact_FallDown_Item/Gimmick_AreaContact_FallDown_Item_d715.logic.module.ain
+  References:
+  - {Id: Area_c051, Path: Area_c051, Reference: !ul 9092576581077908054}
+- Hash: !ul 7087903248618114949
+  Logic: Logic/Module/GerudoValley_Child_Prefab/GerudoValley_Child_Prefab_dd7b.logic.module.ain
+  References:
+  - {Id: Area_3da3, Path: _1a40/Area_3da3, Reference: !ul 3540700141127530886}
+  - {Id: Area_642c, Path: _1a40/Area_642c, Reference: !ul 10022990843394786799}
+  - {Id: Area_dcc8, Path: _1a40/Area_dcc8, Reference: !ul 6624248739512512928}
+  - {Id: Area_0162, Path: _1a40/Area_0162, Reference: !ul 11905950936260388952}
+  - {Id: Area_2acf, Path: _1a40/Area_2acf, Reference: !ul 5057745768154927833}
+  - {Id: AiGroup, InstanceName: Cucco_ForceReturnArea_GerudoValley_Child_7aea_486e,
+    Logic: Logic/Module/Cucco_ForceReturnArea_GerudoValley_Child/Cucco_ForceReturnArea_GerudoValley_Child_7aea.logic.module.ain,
+    Path: _1a40/AiGroup, Reference: !ul 16401518756076138327}
+  - {Id: Animal_Cucco_GerudoValley_5cc3, Path: Animal_Cucco_GerudoValley_5cc3, Reference: !ul 6302915362505229959}
+  - {Id: Animal_Cucco_GerudoValley_3304, Path: Animal_Cucco_GerudoValley_3304, Reference: !ul 15615940760132544640}
+- Hash: !ul 8324946977068488508
+  Logic: Logic/Module/SwapRestartPos/SwapRestartPos_d8f4.logic.module.ain
+  References:
+  - {Id: DestinationAnchor_98a9, Path: DestinationAnchor_98a9, Reference: !ul 8329683053715986169}
+  - {Id: Area_a8f8, Path: Area_a8f8, Reference: !ul 14652969369374092431}
+- Hash: !ul 8531506751636592039
+  Logic: Logic/Module/Obj_SignBoard_A_01/Obj_SignBoard_A_01_7a79.logic.module.ain
+  References:
+  - {Id: Obj_SignBoard_A_01_1dc4, Path: Obj_SignBoard_A_01_1dc4, Reference: !ul 5749619480272599461}
+  - {Id: EventProxyRequestActor_7076, Path: EventProxyRequestActor_7076, Reference: !ul 7609823380122984853}
+- Hash: !ul 9573704610976289459
+  Logic: Logic/Module/SwapRestartPos/SwapRestartPos_d8f4.logic.module.ain
+  References:
+  - {Id: DestinationAnchor_98a9, Path: DestinationAnchor_98a9, Reference: !ul 14119746912847679492}
+  - {Id: Area_a8f8, Path: Area_a8f8, Reference: !ul 3041132156025333085}
+- Hash: !ul 10186279453604439881
+  Logic: Logic/Module/GerudoValley_Common/GerudoValley_Common_ac36.logic.module.ain
+  References:
+  - {Id: Area_7dc5, Path: Area_7dc5, Reference: !ul 17118483316312413854}
+  - {Id: HorseMoveToTargetArea_9d1a, Path: HorseMoveToTargetArea_9d1a, Reference: !ul 11768538910607711211}
+  - {Id: HorseAnchor_df8b, Path: HorseAnchor_df8b, Reference: !ul 9077875303444173323}
+- Hash: !ul 10313121546911158560
+  Logic: Logic/Module/HorseMoveSafety/HorseMoveSafety_d5da.logic.module.ain
+  References:
+  - {Id: HorseMoveToTargetArea_2e94, Path: HorseMoveToTargetArea_2e94, Reference: !ul 1859356869713756600}
+  - {Id: Area_7b54, Path: Area_7b54, Reference: !ul 14073425387678230537}
+  - {Id: HorseAnchor_81b5, Path: HorseAnchor_81b5, Reference: !ul 13111254533973209627}
+- Hash: !ul 10442306834290013424
+  Logic: Logic/Module/Common_FieldDungeonEntranceSet/Common_FieldDungeonEntranceSet_bad1.logic.module.ain
+  References:
+  - {Id: Area_6674, Path: Area_6674, Reference: !ul 17205933862324659416}
+  - {Id: FieldAndDungeonEntranceEventRequestActor_57cf, Path: FieldAndDungeonEntranceEventRequestActor_57cf,
+    Reference: !ul 4837832298913244987}
+- Hash: !ul 11327391669915559817
+  Logic: Logic/Module/Common_LinkBedSet/Common_LinkBedSet_dd50.logic.module.ain
+  References:
+  - {Id: Obj_Common_Bed_A_01_e8bf, Path: Obj_Common_Bed_A_01_e8bf, Reference: !ul 9727445657857989117}
+  - {Id: EventRequestActor_3e80, Path: EventRequestActor_3e80, Reference: !ul 16720235433219540483}
+- Hash: !ul 11935183719569789808
+  Logic: Logic/Module/GerudoValley_Child_Prefab/GerudoValley_Child_Prefab_f098.logic.module.ain
+  References:
+  - {Id: Area_bc8b, Path: Area_bc8b, Reference: !ul 14423317543070340422}
+  - {Id: Area_4539, Path: Area_4539, Reference: !ul 8282873742756567342}
+- Hash: !ul 12343439602259946082
+  Logic: Logic/Module/HidingHole_Level_Hole_EnvArea_HoleOfLight/HidingHole_Level_Hole_EnvArea_HoleOfLight_58d3.logic.module.ain
+  References:
+  - {Id: Area_e912, Path: Area_e912, Reference: !ul 10237579932346163333}
+- Hash: !ul 13070745542767702757
+  Logic: Logic/Module/HidingHole_Level_Hole_32_Prefab/HidingHole_Level_Hole_32_Prefab_7177.logic.module.ain
+  References:
+  - {Id: Area_702f, Path: _58b1/Area_702f, Reference: !ul 4480128673651771377}
+  - {Id: AiGroup, InstanceName: HidingHole_Level_Hole_EnvArea_Dive_f58f_9c81, Logic: Logic/Module/HidingHole_Level_Hole_EnvArea_Dive/HidingHole_Level_Hole_EnvArea_Dive_f58f.logic.module.ain,
+    Path: _58b1/AiGroup, Reference: !ul 1412687241812448412}
+  - {Id: Obj_LiftRock_B_01_2d20, Path: Obj_LiftRock_B_01_2d20, Reference: !ul 8414723300021904225}
+- Hash: !ul 13708353673854963325
+  InstanceName: Gimmick_Common_MagicBeanSoil_NoSpider_c0df_eb4e
+  Logic: Logic/Module/Gimmick_Common_MagicBeanSoil/Gimmick_Common_MagicBeanSoil_fed8.logic.module.ain
+  References:
+  - {Id: Obj_SmallFarm_A_01_8eb9, Path: Obj_SmallFarm_A_01_8eb9, Reference: !ul 10857724324414230743}
+  - {Id: EventRequestActor_d60c, Path: EventRequestActor_d60c, Reference: !ul 9532398051615094292}
+  - {Id: Obj_FairySpirit_25c7, Path: Obj_FairySpirit_25c7, Reference: !ul 7456892186485218710}
+  - {Id: EventRequestActor_19e5, Path: EventRequestActor_19e5, Reference: !ul 1784236667449368930}
+  - {Id: Obj_SmallFarm_A_03_fa19, Path: Obj_SmallFarm_A_03_fa19, Reference: !ul 4300442340330768010}
+  - {Id: Area_7689, Path: Area_7689, Reference: !ul 9370695525814289334}
+  - {Id: EventProxyRequestActor_7a58, Path: EventProxyRequestActor_7a58, Reference: !ul 12495698095208012428}
+- Hash: !ul 14000522703486403182
+  Logic: Logic/Module/GerudoValley_Child_Prefab/GerudoValley_Child_Prefab_1af4.logic.module.ain
+  References:
+  - {Id: Npc_Gerudo_003_d295, Path: Npc_Gerudo_003_d295, Reference: !ul 4398281054047157748}
+  - {Id: Area_776c, Path: Area_776c, Reference: !ul 2224021885151370837}
+- Hash: !ul 14144239292125600013
+  Logic: Logic/Module/GossipStoneWithFairySpirit/GossipStoneWithFairySpirit_d931.logic.module.ain
+  References:
+  - {Id: Obj_FairySpirit_5f24, Path: Obj_FairySpirit_5f24, Reference: !ul 18014964102650084104}
+  - {Id: Obj_GossipStone_A_01_68b6, Path: Obj_GossipStone_A_01_68b6, Reference: !ul 13698337756756527439}
+  - {Id: Area_32ae, Path: _8773/Area_32ae, Reference: !ul 9129362997971877670}
+  - {Id: AiGroup, InstanceName: Gimmick_AreaContact_Delete_1e20_d396, Logic: Logic/Module/Gimmick_AreaContact_Delete/Gimmick_AreaContact_Delete_1e20.logic.module.ain,
+    Path: _8773/AiGroup, Reference: !ul 5396306736192976746}
+  - {Id: EventProxyRequestActor_64fd, Path: EventProxyRequestActor_64fd, Reference: !ul 5650041382515241859}
+  - {Id: DestinationAnchor_7fac, Path: DestinationAnchor_7fac, Reference: !ul 14168479909870079508}
+- Hash: !ul 14695206298508377507
+  Logic: Logic/Module/Gimmick_GetOnMagicBeanLeaf_A_02_Move/Gimmick_GetOnMagicBeanLeaf_A_02_Move_65e4.logic.module.ain
+  References:
+  - {Id: EventRequestActor_63b5, Path: EventRequestActor_63b5, Reference: !ul 16206104055650647940}
+  - {Id: Area_6575, Path: Area_6575, Reference: !ul 9386103757066719728}
+  - {Id: DestinationAnchor_9469, Path: DestinationAnchor_9469, Reference: !ul 14319172817906392571}
+  - {Id: DestinationAnchor_bad8, Path: DestinationAnchor_bad8, Reference: !ul 10728738918950433830}
+  - {Id: Area_c89a, Path: Area_c89a, Reference: !ul 2446682565095139102}
+  - {Id: Obj_Plant_MagicBeanLeaf_A_02_be6a, Path: Obj_Plant_MagicBeanLeaf_A_02_be6a,
+    Reference: !ul 2142399047313164839}
+- Hash: !ul 14790907289878573548
+  Logic: Logic/Module/HidingHole_Level_Hole_32_Prefab/HidingHole_Level_Hole_32_Prefab_cc81.logic.module.ain
+  References:
+  - {Id: Enemy_Octorok_0021, Path: Enemy_Octorok_0021, Reference: !ul 9878002453240799739}
+  - {Id: Enemy_Octorok_0c9d, Path: Enemy_Octorok_0c9d, Reference: !ul 12065290507085606994}
+  - {Id: Enemy_Octorok_2d33, Path: Enemy_Octorok_2d33, Reference: !ul 12076410732994840806}
+  - {Id: EventRequestActor_63b5, Path: _0637/EventRequestActor_63b5, Reference: !ul 10493637083259625528}
+  - {Id: Area_6575, Path: _0637/Area_6575, Reference: !ul 1408117460158583029}
+  - {Id: DestinationAnchor_9469, Path: _0637/DestinationAnchor_9469, Reference: !ul 5787815442607055760}
+  - {Id: DestinationAnchor_bad8, Path: _0637/DestinationAnchor_bad8, Reference: !ul 730044859868998794}
+  - {Id: Area_c89a, Path: _0637/Area_c89a, Reference: !ul 13164257518262133199}
+  - {Id: Obj_Plant_MagicBeanLeaf_A_02_be6a, Path: _0637/Obj_Plant_MagicBeanLeaf_A_02_be6a,
+    Reference: !ul 9716473353222838149}
+  - {Id: AiGroup, InstanceName: Gimmick_GetOnMagicBeanLeaf_A_02_Move_65e4_5311, Logic: Logic/Module/Gimmick_GetOnMagicBeanLeaf_A_02_Move/Gimmick_GetOnMagicBeanLeaf_A_02_Move_65e4.logic.module.ain,
+    Path: _0637/AiGroup, Reference: !ul 5468026563927587652}
+- Hash: !ul 15243749105507672236
+  Logic: Logic/Module/HorseMoveSafety/HorseMoveSafety_d5da.logic.module.ain
+  References:
+  - {Id: HorseMoveToTargetArea_2e94, Path: HorseMoveToTargetArea_2e94, Reference: !ul 13664782546874667669}
+  - {Id: Area_7b54, Path: Area_7b54, Reference: !ul 12061094172047055301}
+  - {Id: HorseAnchor_81b5, Path: HorseAnchor_81b5, Reference: !ul 5888530058988863846}
+- Hash: !ul 15443602745016731370
+  Logic: Logic/Module/Gimmick_AreaContact_FallDown_Item/Gimmick_AreaContact_FallDown_Item_d715.logic.module.ain
+  References:
+  - {Id: Area_c051, Path: Area_c051, Reference: !ul 2421340671713837986}
+- Hash: !ul 17057252740826333498
+  Logic: Logic/Module/Gimmick_Nighttime_Skulltula_Gold_Appear/Gimmick_Nighttime_Skulltula_Gold_Appear_05a9.logic.module.ain
+  References:
+  - {Id: Enemy_Skulltula_Gold_9a42, Path: Enemy_Skulltula_Gold_9a42, Reference: !ul 15265071047503310220}
+  - {Id: Land_SkulltulaGold_SpiderWeb_A_01_310c, Path: Land_SkulltulaGold_SpiderWeb_A_01_310c,
+    Reference: !ul 5600088612479420743}
+- Hash: !ul 17350852634927463968
+  Logic: Logic/Module/HidingHole_Level_Hole_32_Prefab/HidingHole_Level_Hole_32_Prefab_916c.logic.module.ain
+  References:
+  - {Id: Area_8d0e, Path: Area_8d0e, Reference: !ul 7677634488586996789}
+- Hash: !ul 17392974796699976725
+  Logic: Logic/Module/Gimmick_AreaContact_FallDown/Gimmick_AreaContact_FallDown_0a27.logic.module.ain
+  References:
+  - {Id: Area_ed22, Path: Area_ed22, Reference: !ul 7406675150228573118}
+- Hash: !ul 18253520689882954899
+  Logic: Logic/Module/Gimmick_Ocarina_Appearance_01_GerudoValley/Gimmick_Ocarina_Appearance_01_GerudoValley_eb46.logic.module.ain
+  References:
+  - {Id: Land_Gerudo_HidingHoleCover_A_02_c91a, Path: Land_Gerudo_HidingHoleCover_A_02_c91a,
+    Reference: !ul 12817575131469044248}
+  - {Id: Area_2440, Path: Area_2440, Reference: !ul 9737440898960779556}
+  - {Id: DestinationAnchor_3f1b, Path: DestinationAnchor_3f1b, Reference: !ul 10279144811786746411}
+  - {Id: DestinationAnchor_4346, Path: DestinationAnchor_4346, Reference: !ul 12369000906309330148}
+  - {Id: EventRequestActor_7392, Path: EventRequestActor_7392, Reference: !ul 6533144432733290435}
+  - {Id: EventRequestActor_6f2d, Path: EventRequestActor_6f2d, Reference: !ul 11659807454829460453}
+  - {Id: FldObj_AirWall_HidingHoleCover_6238, Path: FldObj_AirWall_HidingHoleCover_6238,
+    Reference: !ul 15184762334391592371}
+FarDeleteGroups:
+- [!ul 730044859868998794, !ul 1408117460158583029, !ul 5787815442607055760, !ul 9716473353222838149,
+  !ul 9878002453240799739, !ul 10493637083259625528, !ul 12065290507085606994, !ul 12076410732994840806,
+  !ul 13164257518262133199]
+- [!ul 1784236667449368930, !ul 4300442340330768010, !ul 7456892186485218710, !ul 9370695525814289334,
+  !ul 9532398051615094292, !ul 10857724324414230743, !ul 12495698095208012428]
+- [!ul 3540700141127530886, !ul 5057745768154927833, !ul 6302915362505229959, !ul 6624248739512512928,
+  !ul 10022990843394786799, !ul 11905950936260388952, !ul 15615940760132544640]
+- [!ul 6533144432733290435, !ul 9737440898960779556, !ul 10279144811786746411, !ul 11659807454829460453,
+  !ul 12369000906309330148, !ul 12817575131469044248, !ul 15184762334391592371]
+- [!ul 2142399047313164839, !ul 2446682565095139102, !ul 9386103757066719728, !ul 10728738918950433830,
+  !ul 14319172817906392571, !ul 16206104055650647940]
+- [!ul 91259305117665666, !ul 2454233201686086252, !ul 5633760747516322513, !ul 16868939057990886011,
+  !ul 17616885966456061770]
+- [!ul 5650041382515241859, !ul 9129362997971877670, !ul 13698337756756527439, !ul 14168479909870079508,
+  !ul 18014964102650084104]
+- [!ul 160421199299362672, !ul 2898121583347267819, !ul 3621830253576665987, !ul 18321745423797287500]
+- [!ul 1859356869713756600, !ul 13111254533973209627, !ul 14073425387678230537]
+- [!ul 5888530058988863846, !ul 12061094172047055301, !ul 13664782546874667669]
+- [!ul 9077875303444173323, !ul 11768538910607711211, !ul 17118483316312413854]
+- [!ul 2129995380357929901, !ul 5624675658531890384]
+- [!ul 2224021885151370837, !ul 4398281054047157748]
+- [!ul 3041132156025333085, !ul 14119746912847679492]
+- [!ul 4480128673651771377, !ul 8414723300021904225]
+- [!ul 4837832298913244987, !ul 17205933862324659416]
+- [!ul 5369312334650762833, !ul 17826591646446271666]
+- [!ul 5600088612479420743, !ul 15265071047503310220]
+- [!ul 5749619480272599461, !ul 7609823380122984853]
+- [!ul 8282873742756567342, !ul 14423317543070340422]
+- [!ul 8329683053715986169, !ul 14652969369374092431]
+- [!ul 9727445657857989117, !ul 16720235433219540483]
+- [!ul 13241287171005251470, !ul 15766658186566073689]
+FilePath: Work/Banc/Scene/GerudoValley/GerudoValley_Child.bcett.json
+PhiveHeader:
+  PlacementGroups: []
+Rails:
+- Gyaml: Guide
+  Hash: !ul 450745739844141006
+  IsClosed: true
+  Name: Guide
+  Points:
+  - Control0: [20.844602584838867, 97.86768341064453, 9.852378845214844]
+    Control1: [20.34321403503418, 97.86768341064453, 7.918899059295654]
+    Gyaml: Guide
+    Hash: !ul 8028371983832514961
+    NextDistance: 2.1775665283203125
+    PrevDistance: 1.942734718322754
+    Translate: [20.593908309936523, 97.86768341064453, 8.885639190673828]
+  - Control0: [19.920568466186523, 98.1096420288086, 6.856679439544678]
+    Control1: [19.282617568969727, 97.97972869873047, 7.484293460845947]
+    Dynamic: {WaitFrame: 120.0}
+    Gyaml: Guide
+    Hash: !ul 14213826986259727673
+    NextDistance: 2.533053398132324
+    PrevDistance: 2.1775665283203125
+    Translate: [19.601593017578125, 98.04468536376953, 7.1704864501953125]
+  - Control0: [18.62329864501953, 97.71481323242188, 9.097390174865723]
+    Control1: [18.977298736572266, 97.71481323242188, 9.89738941192627]
+    Dynamic: {WaitFrame: 60.0}
+    Gyaml: Guide
+    Hash: !ul 14457096406996668488
+    NextDistance: 1.9897291660308838
+    PrevDistance: 2.533053398132324
+    Translate: [18.8002986907959, 97.71481323242188, 9.497389793395996]
+  - Control0: [19.966136932373047, 97.82776641845703, 10.778722763061523]
+    Control1: [20.668136596679688, 97.82776641845703, 10.57872200012207]
+    Dynamic: {WaitFrame: 120.0}
+    Gyaml: Guide
+    Hash: !ul 15177024133070918109
+    NextDistance: 1.942734718322754
+    PrevDistance: 1.9897291660308838
+    Translate: [20.317136764526367, 97.82776641845703, 10.678722381591797]
+- Hash: !ul 1607619907530575755
+  IsClosed: false
+  Points:
+  - Hash: !ul 17263439723307793209
+    NextDistance: 9.633275985717773
+    Translate: [4.378632068634033, 24.106481552124023, -9.569121360778809]
+  - Hash: !ul 6889720414932117553
+    NextDistance: 17.422725677490234
+    PrevDistance: 9.633275985717773
+    Translate: [3.527965545654297, 24.106481552124023, 0.026522159576416016]
+  - Hash: !ul 5563103417469062585
+    NextDistance: 13.931131362915039
+    PrevDistance: 17.422725677490234
+    Translate: [3.6092069149017334, 24.106481552124023, 17.449058532714844]
+  - Hash: !ul 7388951363071558620
+    NextDistance: 8.423661231994629
+    PrevDistance: 13.931131362915039
+    Translate: [3.1130852699279785, 24.106481552124023, 31.371353149414062]
+  - Hash: !ul 7941109104438125451
+    NextDistance: 3.4127254486083984
+    PrevDistance: 8.423661231994629
+    Translate: [3.00406551361084, 24.06705665588379, 39.79421615600586]
+  - Hash: !ul 12632226655139744528
+    NextDistance: 3.7635433673858643
+    PrevDistance: 3.4127254486083984
+    Translate: [3.988086700439453, 24.027639389038086, 43.06175994873047]
+  - Hash: !ul 2991556807217370481
+    PrevDistance: 3.7635433673858643
+    Translate: [4.615776062011719, 24.027639389038086, 46.77259063720703]
+- Gyaml: Guide
+  Hash: !ul 2395645527417491919
+  IsClosed: true
+  Name: Guide
+  Points:
+  - Control0: [-6.655397415161133, 90.86768341064453, 27.352378845214844]
+    Control1: [-7.15678596496582, 90.86768341064453, 25.418899536132812]
+    Gyaml: Guide
+    Hash: !ul 15424805674280228804
+    NextDistance: 2.1775662899017334
+    PrevDistance: 1.942735195159912
+    Translate: [-6.906091690063477, 90.86768341064453, 26.385639190673828]
+  - Control0: [-7.579432010650635, 91.1096420288086, 24.356679916381836]
+    Control1: [-8.217382431030273, 90.97972869873047, 24.98429298400879]
+    Dynamic: {WaitFrame: 120.0}
+    Gyaml: Guide
+    Hash: !ul 13988349060636156335
+    NextDistance: 2.5330538749694824
+    PrevDistance: 2.1775662899017334
+    Translate: [-7.898406982421875, 91.04468536376953, 24.670486450195312]
+  - Control0: [-8.876701354980469, 90.71481323242188, 26.59739112854004]
+    Control1: [-8.522701263427734, 90.71481323242188, 27.397390365600586]
+    Dynamic: {WaitFrame: 60.0}
+    Gyaml: Guide
+    Hash: !ul 2380001759357062647
+    NextDistance: 1.9897284507751465
+    PrevDistance: 2.5330538749694824
+    Translate: [-8.699701309204102, 90.71481323242188, 26.997390747070312]
+  - Control0: [-7.533863067626953, 90.82776641845703, 28.278722763061523]
+    Control1: [-6.8318634033203125, 90.82776641845703, 28.07872200012207]
+    Dynamic: {WaitFrame: 120.0}
+    Gyaml: Guide
+    Hash: !ul 14767915257050726185
+    NextDistance: 1.942735195159912
+    PrevDistance: 1.9897284507751465
+    Translate: [-7.182863235473633, 90.82776641845703, 28.178722381591797]
+- Gyaml: Guide
+  Hash: !ul 3435623199507039433
+  IsClosed: true
+  Name: Guide
+  Points:
+  - Gyaml: Guide
+    Hash: !ul 1385367050832522664
+    NextDistance: 3.6386756896972656
+    PrevDistance: 3.6386756896972656
+    Translate: [-11.041028022766113, 47.76180648803711, 2.447244167327881]
+  - Gyaml: Guide
+    Hash: !ul 11909253978033248029
+    NextDistance: 14.48961353302002
+    PrevDistance: 3.6386756896972656
+    Translate: [-11.061317443847656, 51.39999771118164, 2.3914341926574707]
+  - Control0: [-3.507305860519409, 47.261436462402344, 1.5828661918640137]
+    Control1: [6.0168657302856445, 52.73466491699219, 13.984949111938477]
+    Gyaml: Guide
+    Hash: !ul 7609445942828625667
+    NextDistance: 44.08381271362305
+    PrevDistance: 14.48961353302002
+    Translate: [1.2547800540924072, 49.998050689697266, 7.783907890319824]
+  - Control0: [3.019294261932373, 86.16356658935547, 29.91440200805664]
+    Control1: [3.094160556793213, 90.36107635498047, 22.598072052001953]
+    Gyaml: Guide
+    Hash: !ul 13777657820943926932
+    NextDistance: 56.82807159423828
+    PrevDistance: 44.08381271362305
+    Translate: [3.056727409362793, 88.26232147216797, 26.256237030029297]
+  - Control0: [4.839478015899658, 66.17828369140625, -21.579029083251953]
+    Control1: [4.777825832366943, 65.34736633300781, -29.703258514404297]
+    Gyaml: Guide
+    Hash: !ul 8404002773007847124
+    NextDistance: 32.06386184692383
+    PrevDistance: 56.82807159423828
+    Translate: [4.808651924133301, 65.76282501220703, -25.641143798828125]
+  - Control0: [5.596182346343994, 57.280216217041016, -52.39336013793945]
+    Control1: [5.48848295211792, 57.58320236206055, -60.7166633605957]
+    Gyaml: Guide
+    Hash: !ul 11866306995304107506
+    NextDistance: 13.788043975830078
+    PrevDistance: 32.06386184692383
+    Translate: [5.542332649230957, 57.43170928955078, -56.55501174926758]
+  - Dynamic: {WaitFrame: 450.0}
+    Gyaml: Guide
+    Hash: !ul 4969190513597782095
+    NextDistance: 14.265596389770508
+    PrevDistance: 13.788043975830078
+    Translate: [4.797815322875977, 57.37080764770508, -70.32095336914062]
+  - Control0: [5.468094348907471, 57.824302673339844, -60.59866714477539]
+    Control1: [5.616570949554443, 56.940635681152344, -51.56673049926758]
+    Gyaml: Guide
+    Hash: !ul 14018521830819518033
+    NextDistance: 17.95037841796875
+    PrevDistance: 14.265596389770508
+    Translate: [5.542332649230957, 57.382469177246094, -56.082698822021484]
+  - Control0: [4.771223545074463, 55.497222900390625, -45.85688018798828]
+    Control1: [2.532548427581787, 55.497222900390625, -30.87755584716797]
+    Gyaml: Guide
+    Hash: !ul 3860334114064543861
+    NextDistance: 43.57022476196289
+    PrevDistance: 17.95037841796875
+    Translate: [3.651885986328125, 55.497222900390625, -38.367218017578125]
+  - Gyaml: Guide
+    Hash: !ul 5536772302634174753
+    NextDistance: 3.6386756896972656
+    PrevDistance: 43.57022476196289
+    Translate: [-11.061317443847656, 51.39999771118164, 2.3914341926574707]
+- Hash: !ul 3931716681290415521
+  IsClosed: false
+  Points:
+  - Hash: !ul 16158529478517137883
+    NextDistance: 17.438037872314453
+    Translate: [20.510379791259766, 92.425048828125, -122.65984344482422]
+  - Hash: !ul 12549553074223096443
+    NextDistance: 9.657831192016602
+    PrevDistance: 17.438037872314453
+    Translate: [10.6649751663208, 92.40782165527344, -108.26703643798828]
+  - Hash: !ul 9270648920275241612
+    PrevDistance: 9.657831192016602
+    Translate: [8.065438270568848, 92.42693328857422, -98.96565246582031]
+- Hash: !ul 4861706099397704728
+  IsClosed: false
+  Points:
+  - Hash: !ul 12025530552697543488
+    NextDistance: 108.90010070800781
+    Translate: [11.478102684020996, -18.37947654724121, 36.45130157470703]
+  - Hash: !ul 1972844782664029186
+    PrevDistance: 108.90010070800781
+    Translate: [11.478108406066895, 90.52062225341797, 36.45125961303711]
+- Hash: !ul 5356489455277096747
+  IsClosed: false
+  Points:
+  - Hash: !ul 3831841585082424557
+    NextDistance: 42.22015380859375
+    Translate: [77.92042541503906, 101.33200073242188, -193.53799438476562]
+  - Hash: !ul 17326423779374477272
+    NextDistance: 45.806514739990234
+    PrevDistance: 42.22015380859375
+    Translate: [54.97771072387695, 101.33200073242188, -158.095458984375]
+  - Hash: !ul 3227757437237780882
+    PrevDistance: 45.806514739990234
+    Translate: [22.304828643798828, 101.33305358886719, -125.99063873291016]
+- Hash: !ul 6395808036296063259
+  IsClosed: false
+  Points:
+  - Hash: !ul 12595968894014160039
+    NextDistance: 10.413135528564453
+    Translate: [6.844560623168945, 88.76602172851562, -99.20610809326172]
+  - Hash: !ul 6760199875446079544
+    NextDistance: 9.48038387298584
+    PrevDistance: 10.413135528564453
+    Translate: [4.122828483581543, 88.76602172851562, -89.15496063232422]
+  - Hash: !ul 4385908128813085367
+    NextDistance: 3.8585314750671387
+    PrevDistance: 9.48038387298584
+    Translate: [3.001649856567383, 88.77540588378906, -79.7411117553711]
+  - Hash: !ul 15004805171243001947
+    NextDistance: 3.878396987915039
+    PrevDistance: 3.8585314750671387
+    Translate: [2.8068156242370605, 88.76666259765625, -75.88751220703125]
+  - Hash: !ul 5147851919122887076
+    NextDistance: 3.5248730182647705
+    PrevDistance: 3.878396987915039
+    Translate: [2.894329786300659, 88.45317077636719, -72.02279663085938]
+  - Hash: !ul 859386849231477862
+    PrevDistance: 3.5248730182647705
+    Translate: [3.2561285495758057, 88.45317077636719, -68.51654052734375]
+- Hash: !ul 8117509161891268236
+  IsClosed: false
+  Points:
+  - Hash: !ul 540070706034669322
+    NextDistance: 21.679513931274414
+    Translate: [4.378632068634033, 15.092745780944824, 44.51653289794922]
+  - Hash: !ul 3184279458115222828
+    NextDistance: 15.160438537597656
+    PrevDistance: 21.679513931274414
+    Translate: [6.081003189086914, 15.092745780944824, 66.12910461425781]
+  - Hash: !ul 4459966640399048220
+    NextDistance: 65.05220031738281
+    PrevDistance: 15.160438537597656
+    Translate: [10.743610382080078, 15.092745780944824, 80.55474090576172]
+  - Hash: !ul 16302676573378007607
+    NextDistance: 96.95926666259766
+    PrevDistance: 65.05220031738281
+    Translate: [30.618959426879883, 14.606229782104492, 142.49441528320312]
+  - Hash: !ul 5528914505231414044
+    PrevDistance: 96.95926666259766
+    Translate: [86.3597640991211, 14.606229782104492, 221.8295440673828]
+- Gyaml: Route
+  Hash: !ul 9380188460503073693
+  IsClosed: false
+  Name: Route
+  Points:
+  - Gyaml: Route
+    Hash: !ul 10860095896224793947
+    NextDistance: 6.082218170166016
+    RouteWidth: 2.0
+    Translate: [-62.5475959777832, 102.43180084228516, -6.0903706550598145]
+  - Gyaml: Route
+    Hash: !ul 12721013310503890457
+    NextDistance: 5.779053211212158
+    PrevDistance: 6.082218170166016
+    RouteWidth: 2.0
+    Translate: [-68.50379943847656, 103.61338806152344, -6.438034534454346]
+  - Gyaml: Route
+    Hash: !ul 3164714977829227660
+    NextDistance: 6.046777725219727
+    PrevDistance: 5.779053211212158
+    RouteWidth: 2.0
+    Translate: [-74.245361328125, 103.64700317382812, -7.094381332397461]
+  - Gyaml: Route
+    Hash: !ul 2790160901834202706
+    PrevDistance: 6.046777725219727
+    RouteWidth: 2.0
+    Translate: [-79.86170959472656, 104.54061889648438, -9.149036407470703]
+- Hash: !ul 9544036851599054301
+  IsClosed: false
+  Points:
+  - Hash: !ul 8019659049312924167
+    NextDistance: 11.87067699432373
+    Translate: [4.378632068634033, 45.659000396728516, -70.46859741210938]
+  - Hash: !ul 3604736002957639930
+    NextDistance: 16.332168579101562
+    PrevDistance: 11.87067699432373
+    Translate: [3.701233386993408, 45.659000396728516, -58.61726379394531]
+  - Hash: !ul 14177549562697974315
+    NextDistance: 18.816417694091797
+    PrevDistance: 16.332168579101562
+    Translate: [3.947331190109253, 45.659000396728516, -42.286949157714844]
+  - Hash: !ul 10118218916452380692
+    NextDistance: 7.596710681915283
+    PrevDistance: 18.816417694091797
+    Translate: [5.0, 45.659000396728516, -23.5]
+  - Hash: !ul 4743101931376541519
+    NextDistance: 2.768972635269165
+    PrevDistance: 7.596710681915283
+    Translate: [4.75, 45.659000396728516, -15.907403945922852]
+  - Hash: !ul 71849687242924373
+    NextDistance: 3.201076030731201
+    PrevDistance: 2.768972635269165
+    Translate: [4.5, 45.659000396728516, -13.149740219116211]
+  - Hash: !ul 4411198904531806250
+    PrevDistance: 3.201076030731201
+    Translate: [4.349122047424316, 45.659000396728516, -9.952221870422363]
+- Hash: !ul 15133404586852170915
+  IsClosed: false
+  Points:
+  - Hash: !ul 4370145191668192893
+    NextDistance: 17.008535385131836
+    Translate: [-45.273868560791016, 84.13539123535156, -29.028738021850586]
+  - Hash: !ul 9956776074191593401
+    PrevDistance: 17.008535385131836
+    Translate: [-45.273868560791016, 101.14392852783203, -29.028738021850586]
+SimultaneousGroups:
+- [!ul 730044859868998794, !ul 1408117460158583029, !ul 5787815442607055760, !ul 9716473353222838149,
+  !ul 9878002453240799739, !ul 10493637083259625528, !ul 12065290507085606994, !ul 12076410732994840806,
+  !ul 13164257518262133199]
+- [!ul 1784236667449368930, !ul 4300442340330768010, !ul 7456892186485218710, !ul 9370695525814289334,
+  !ul 9532398051615094292, !ul 10857724324414230743, !ul 12495698095208012428]
+- [!ul 3540700141127530886, !ul 5057745768154927833, !ul 6302915362505229959, !ul 6624248739512512928,
+  !ul 10022990843394786799, !ul 11905950936260388952, !ul 15615940760132544640]
+- [!ul 6533144432733290435, !ul 9737440898960779556, !ul 10279144811786746411, !ul 11659807454829460453,
+  !ul 12369000906309330148, !ul 12817575131469044248, !ul 15184762334391592371]
+- [!ul 2142399047313164839, !ul 2446682565095139102, !ul 9386103757066719728, !ul 10728738918950433830,
+  !ul 14319172817906392571, !ul 16206104055650647940]
+- [!ul 91259305117665666, !ul 2454233201686086252, !ul 5633760747516322513, !ul 16868939057990886011,
+  !ul 17616885966456061770]
+- [!ul 5650041382515241859, !ul 9129362997971877670, !ul 13698337756756527439, !ul 14168479909870079508,
+  !ul 18014964102650084104]
+- [!ul 160421199299362672, !ul 2898121583347267819, !ul 3621830253576665987, !ul 18321745423797287500]
+- [!ul 1859356869713756600, !ul 13111254533973209627, !ul 14073425387678230537]
+- [!ul 5888530058988863846, !ul 12061094172047055301, !ul 13664782546874667669]
+- [!ul 9077875303444173323, !ul 11768538910607711211, !ul 17118483316312413854]
+- [!ul 2129995380357929901, !ul 5624675658531890384]
+- [!ul 2224021885151370837, !ul 4398281054047157748]
+- [!ul 3041132156025333085, !ul 14119746912847679492]
+- [!ul 4480128673651771377, !ul 8414723300021904225]
+- [!ul 4837832298913244987, !ul 17205933862324659416]
+- [!ul 5369312334650762833, !ul 17826591646446271666]
+- [!ul 5600088612479420743, !ul 15265071047503310220]
+- [!ul 5749619480272599461, !ul 7609823380122984853]
+- [!ul 8282873742756567342, !ul 14423317543070340422]
+- [!ul 8329683053715986169, !ul 14652969369374092431]
+- [!ul 9727445657857989117, !ul 16720235433219540483]
+- [!ul 13241287171005251470, !ul 15766658186566073689]

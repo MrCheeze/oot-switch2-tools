@@ -1,0 +1,1486 @@
+Actors:
+- Gyaml: NoEscapeRangeAreaBox
+  Hash: !ul 14267489778233214473
+  Name: NoEscapeArea_SubEvent_AllBossBattle
+  Phive:
+    Placement: {ID: !ul 14267489778233214473}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xa534ad76
+  Scale: [62.58681869506836, 53.67948913574219, 81.86784362792969]
+  Translate: [-0.0874304547905922, 177.81790161132812, -22.31572914123535]
+- Dynamic: {AreaHintEventName: NaviHint_Rematch}
+  Gyaml: NaviAreaHintEventActor
+  Hash: !ul 13994456177434987480
+  Phive:
+    Placement: {ID: !ul 13994456177434987480}
+  SRTHash: !u 0xf5f86685
+  Translate: [8.381494522094727, 174.3196563720703, -31.05124282836914]
+- Gyaml: Area
+  Hash: !ul 5953398372571470349
+  Phive:
+    Placement: {ID: !ul 5953398372571470349}
+  Rotate: [0.0, -1.570796251296997, 8.940696716308594e-08]
+  SRTHash: !u 0x1440e709
+  Scale: [37.319725036621094, 24.33898162841797, 26.954526901245117]
+  Translate: [0.8463106155395508, 152.64459228515625, -10.040189743041992]
+- Bakeable: true
+  Gyaml: Land_InsideGanonCastle_Room26_A_01
+  Hash: !ul 14939557898773480337
+  Phive:
+    Placement: {ID: !ul 14939557898773480337}
+  SRTHash: !u 0x905a4bc3
+  Translate: [0.05999999865889549, 171.0500030517578, -24.6299991607666]
+- Bakeable: true
+  Gyaml: Land_InsideGanonCastle_Room26_A_02
+  Hash: !ul 14059160179622568916
+  Phive:
+    Placement: {ID: !ul 14059160179622568916}
+  SRTHash: !u 0x905a4bc3
+  Translate: [0.05999999865889549, 171.0500030517578, -24.6299991607666]
+- Bakeable: true
+  Gyaml: Land_InsideGanonCastle_Room26_A_03
+  Hash: !ul 7841827441616218546
+  Phive:
+    Placement: {ID: !ul 7841827441616218546}
+  SRTHash: !u 0x905a4bc3
+  Translate: [0.05999999865889549, 171.0500030517578, -24.6299991607666]
+- Bakeable: true
+  Gyaml: Land_InsideGanonCastle_Room26_A_07
+  Hash: !ul 10703416463129550629
+  Phive:
+    Placement: {ID: !ul 10703416463129550629}
+  SRTHash: !u 0x905a4bc3
+  Translate: [0.05999999865889549, 171.0500030517578, -24.6299991607666]
+- Bakeable: true
+  Gyaml: Land_InsideGanonCastle_Room26_A_08
+  Hash: !ul 1241850452893886466
+  Phive:
+    Placement: {ID: !ul 1241850452893886466}
+  SRTHash: !u 0x905a4bc3
+  Translate: [0.05999999865889549, 171.0500030517578, -24.6299991607666]
+- Gyaml: FldObj_AirWall_Common_Cube
+  Hash: !ul 8569280343990520059
+  Phive:
+    Placement: {ID: !ul 8569280343990520059}
+  Rotate: [2.3571345806121826, 0.019429292529821396, -1.5513341426849365]
+  SRTHash: !u 0xd4e377df
+  Scale: [5.611999988555908, 0.23358547687530518, 11.091262817382812]
+  Translate: [-12.397560119628906, 160.420654296875, -12.254938125610352]
+- Gyaml: FldObj_AirWall_Common_Cube
+  Hash: !ul 4538644915624007879
+  Phive:
+    Placement: {ID: !ul 4538644915624007879}
+  Rotate: [0.7850520610809326, -0.026265336200594902, -1.5445220470428467]
+  SRTHash: !u 0x87ef3212
+  Scale: [5.61199951171875, 0.23358547687530518, 11.091262817382812]
+  Translate: [-12.587289810180664, 160.41891479492188, -37.236141204833984]
+- Gyaml: FldObj_AirWall_Common_Cube
+  Hash: !ul 4088440312610262871
+  Phive:
+    Placement: {ID: !ul 4088440312610262871}
+  Rotate: [-0.7846350073814392, -0.039048388600349426, -1.6098743677139282]
+  SRTHash: !u 0x0b33d485
+  Scale: [5.611999988555908, 0.23358546197414398, 11.091262817382812]
+  Translate: [12.411609649658203, 160.4374237060547, -37.060752868652344]
+- Gyaml: FldObj_AirWall_Common_Cube
+  Hash: !ul 15827252840307773867
+  Phive:
+    Placement: {ID: !ul 15827252840307773867}
+  Rotate: [0.7843004465103149, 0.01789657212793827, -1.5887290239334106]
+  SRTHash: !u 0x2aea09a1
+  Scale: [5.61199951171875, 0.23358547687530518, 11.091262817382812]
+  Translate: [12.573400497436523, 160.0597381591797, -12.314313888549805]
+- Gyaml: Obj_DreamWorldTimerManager
+  Hash: !ul 13729543996683529048
+  Links:
+  - {Dst: !ul 3082801928207608585, Gyaml: Reference, Name: Reference, Src: !ul 13729543996683529048}
+  Phive:
+    Placement: {ID: !ul 13729543996683529048}
+  SRTHash: !u 0x82d16310
+  Translate: [-0.30689382553100586, 184.23104858398438, -31.412586212158203]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 5096721097911757361
+  Name: Third
+  Phive:
+    Placement: {ID: !ul 5096721097911757361}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0x3000843b
+  Translate: [-2.9397246837615967, 171.04995727539062, -12.629595756530762]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 16126384450847806517
+  Name: Second
+  Phive:
+    Placement: {ID: !ul 16126384450847806517}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0x7d857785
+  Translate: [9.06027603149414, 171.04995727539062, -24.629594802856445]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 6676578377170955105
+  Name: Third
+  Phive:
+    Placement: {ID: !ul 6676578377170955105}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0xbc789404
+  Translate: [-11.93972396850586, 171.04995727539062, -24.629594802856445]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 14361332363635940742
+  Name: Third
+  Phive:
+    Placement: {ID: !ul 14361332363635940742}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0xc088502e
+  Translate: [-11.93972396850586, 171.04995727539062, -21.629594802856445]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 378852937486541768
+  Name: Third
+  Phive:
+    Placement: {ID: !ul 378852937486541768}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0x92a688a1
+  Translate: [0.0602753721177578, 171.04995727539062, -36.62959671020508]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 3906194968187089120
+  Name: First
+  Phive:
+    Placement: {ID: !ul 3906194968187089120}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0xa5f1f7fd
+  Translate: [-5.939724922180176, 171.04995727539062, -24.629594802856445]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 16852947929970991555
+  Name: Second
+  Phive:
+    Placement: {ID: !ul 16852947929970991555}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0xa166625a
+  Translate: [-2.9397246837615967, 171.04995727539062, -15.629595756530762]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 13078152651564721536
+  Name: Third
+  Phive:
+    Placement: {ID: !ul 13078152651564721536}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0x47006a1c
+  Translate: [0.0602753721177578, 171.04995727539062, -12.629595756530762]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 6115726219124691281
+  Name: First
+  Phive:
+    Placement: {ID: !ul 6115726219124691281}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0x9b5ad96d
+  Translate: [0.0602753721177578, 171.04995727539062, -18.629594802856445]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 722059541848989393
+  Name: First
+  Phive:
+    Placement: {ID: !ul 722059541848989393}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0xbc01db70
+  Translate: [3.0602753162384033, 171.04995727539062, -30.629594802856445]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 13347564297290163624
+  Name: First
+  Phive:
+    Placement: {ID: !ul 13347564297290163624}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0x0f53fbbb
+  Translate: [6.060275077819824, 171.04995727539062, -24.629594802856445]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 10591630218978076458
+  Name: Second
+  Phive:
+    Placement: {ID: !ul 10591630218978076458}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0x49e55565
+  Translate: [-2.9397246837615967, 171.04995727539062, -33.62959671020508]
+- Dynamic: {IsIntendedForEventAppear: true}
+  Gyaml: Enemy_DungeonBoss_Ganondorf
+  Hash: !ul 3082801928207608585
+  Links:
+  - {Dst: !ul 1743319995588434687, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 6115726219124691281, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 3335679592678742256, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 13347564297290163624, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 1988820115526609342, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 722059541848989393, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 11325739447316361046, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 4920578414231114744, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 13029779380620254627, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 13539196600312813304, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 3906194968187089120, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 4264231713041212935, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 1089700639091572377, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 16852947929970991555, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 12586154869003727401, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 16201417720761461168, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 14724149210692317044, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 16126384450847806517, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 15151204421033443262, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 11655166766648462153, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 7042209627383638436, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 6102547571157268721, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 10591630218978076458, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 2745717488735884504, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 9952114940353524018, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 11553705741956629418, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 16621645378138865762, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 9729350789115784115, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 7426434657664502260, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 106825455370763611, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 5096721097911757361, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 13078152651564721536, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 7335973874678780823, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 9591577897032357502, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 10662490213313737161, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 4125776151571135292, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 8142769504681270612, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 15401948488640210070, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 378852937486541768, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 2543306169820160764, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 10185444124657177094, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 3556074471686713270, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 2749263592941903857, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 6676578377170955105, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 14361332363635940742, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 17143204178821141984, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 7081436107273310349, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 6896590626039231530, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 16759488422425493308, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 14533905000300626207, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 1707182391461521894, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 13115662185440574125, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 11788459967133410839, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 1413102668110388656, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 18056349353892475125, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 17461201865794399145, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 3348044384833680813, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 2609864234044697937, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 1466045291676147565, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 2705836895708778582, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 4932531986791371520, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 5600288151699274459, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 13936577801583205248, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 11043377218533780269, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 6693455062119850170, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 9521891904622280721, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 10078250893269044616, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 3383337606198908534, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 13426602028293994153, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 6326260983194699646, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 11129187263724704010, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 8644158157665250282, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 17026070322411074337, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 18190363915540361017, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 7826814099773438266, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 15906536878694065184, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 346998601065037205, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 18193334422837141767, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 13523031935643202224, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 4545061109547446503, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  - {Dst: !ul 7123690697372509479, Gyaml: Reference, Name: Reference, Src: !ul 3082801928207608585}
+  Phive:
+    Placement: {ID: !ul 3082801928207608585}
+  SRTHash: !u 0xaec1d125
+  Translate: [0.08104896545410156, 174.062744140625, -24.62767219543457]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 9952114940353524018
+  Name: Second
+  Phive:
+    Placement: {ID: !ul 9952114940353524018}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0xcd21d193
+  Translate: [-8.93972396850586, 171.04995727539062, -30.629594802856445]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 4125776151571135292
+  Name: Third
+  Phive:
+    Placement: {ID: !ul 4125776151571135292}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0x6a1e08de
+  Translate: [12.06027603149414, 171.04995727539062, -27.629594802856445]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 7335973874678780823
+  Name: Third
+  Phive:
+    Placement: {ID: !ul 7335973874678780823}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0x0c060017
+  Translate: [3.0602753162384033, 171.04995727539062, -12.629595756530762]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 1988820115526609342
+  Name: First
+  Phive:
+    Placement: {ID: !ul 1988820115526609342}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0xaa19a544
+  Translate: [6.060275077819824, 171.04995727539062, -27.629594802856445]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 6102547571157268721
+  Name: Second
+  Phive:
+    Placement: {ID: !ul 6102547571157268721}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0xd943dff5
+  Translate: [0.0602753721177578, 171.04995727539062, -33.62959671020508]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 16621645378138865762
+  Name: Second
+  Phive:
+    Placement: {ID: !ul 16621645378138865762}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0x535b03e5
+  Translate: [-8.93972396850586, 171.04995727539062, -24.629594802856445]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 15401948488640210070
+  Name: Third
+  Phive:
+    Placement: {ID: !ul 15401948488640210070}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0xefaad5d3
+  Translate: [3.0602753162384033, 171.04995727539062, -36.62959671020508]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 7426434657664502260
+  Name: Second
+  Phive:
+    Placement: {ID: !ul 7426434657664502260}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0x03e95f3a
+  Translate: [-8.93972396850586, 171.04995727539062, -18.629594802856445]
+- Gyaml: DestinationAnchor
+  Hash: !ul 17143204178821141984
+  Name: BasePosAnchor
+  Phive:
+    Placement: {ID: !ul 17143204178821141984}
+  SRTHash: !u 0xf0121375
+  Translate: [0.08104896545410156, 171.04693603515625, -24.62767219543457]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 13539196600312813304
+  Name: First
+  Phive:
+    Placement: {ID: !ul 13539196600312813304}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0xfe402d7e
+  Translate: [-5.939724922180176, 171.04995727539062, -27.629594802856445]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 3335679592678742256
+  Name: First
+  Phive:
+    Placement: {ID: !ul 3335679592678742256}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0x2642d243
+  Translate: [6.060275077819824, 171.04995727539062, -21.629594802856445]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 10662490213313737161
+  Name: Third
+  Phive:
+    Placement: {ID: !ul 10662490213313737161}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0xab30d782
+  Translate: [12.06027603149414, 171.04995727539062, -24.629594802856445]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 11655166766648462153
+  Name: Second
+  Phive:
+    Placement: {ID: !ul 11655166766648462153}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0x34d15272
+  Translate: [9.06027603149414, 171.04995727539062, -30.629594802856445]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 7042209627383638436
+  Name: Second
+  Phive:
+    Placement: {ID: !ul 7042209627383638436}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0xf755b91a
+  Translate: [3.0602753162384033, 171.04995727539062, -33.62959671020508]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 1743319995588434687
+  Name: First
+  Phive:
+    Placement: {ID: !ul 1743319995588434687}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0x3b706ec8
+  Translate: [-2.9397246837615967, 171.04995727539062, -18.629594802856445]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 12586154869003727401
+  Name: Second
+  Phive:
+    Placement: {ID: !ul 12586154869003727401}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0x48c11156
+  Translate: [0.0602753721177578, 171.04995727539062, -15.629595756530762]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 9591577897032357502
+  Name: Third
+  Phive:
+    Placement: {ID: !ul 9591577897032357502}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0xb3c379bc
+  Translate: [12.06027603149414, 171.04995727539062, -21.629594802856445]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 10185444124657177094
+  Name: Third
+  Phive:
+    Placement: {ID: !ul 10185444124657177094}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0xfdba3168
+  Translate: [-5.939724922180176, 171.04995727539062, -36.62959671020508]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 16201417720761461168
+  Name: Second
+  Phive:
+    Placement: {ID: !ul 16201417720761461168}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0x63ec65aa
+  Translate: [3.0602753162384033, 171.04995727539062, -15.629595756530762]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 1089700639091572377
+  Name: Second
+  Phive:
+    Placement: {ID: !ul 1089700639091572377}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0xc5fd4219
+  Translate: [-5.939724922180176, 171.04995727539062, -15.629595756530762]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 14724149210692317044
+  Name: Second
+  Phive:
+    Placement: {ID: !ul 14724149210692317044}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0xb89a1014
+  Translate: [9.06027603149414, 171.04995727539062, -21.629594802856445]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 4264231713041212935
+  Name: First
+  Phive:
+    Placement: {ID: !ul 4264231713041212935}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0x9610cc6a
+  Translate: [-5.939724922180176, 171.04995727539062, -21.629594802856445]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 2543306169820160764
+  Name: Third
+  Phive:
+    Placement: {ID: !ul 2543306169820160764}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0x741d6acd
+  Translate: [-2.9397246837615967, 171.04995727539062, -36.62959671020508]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 4920578414231114744
+  Name: First
+  Phive:
+    Placement: {ID: !ul 4920578414231114744}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0x8a76a768
+  Translate: [-2.9397246837615967, 171.04995727539062, -30.629594802856445]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 15151204421033443262
+  Name: Second
+  Phive:
+    Placement: {ID: !ul 15151204421033443262}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0x5d323cb6
+  Translate: [9.06027603149414, 171.04995727539062, -27.629594802856445]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 8142769504681270612
+  Name: Third
+  Phive:
+    Placement: {ID: !ul 8142769504681270612}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0x555950ad
+  Translate: [12.06027603149414, 171.04995727539062, -30.629594802856445]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 13029779380620254627
+  Name: First
+  Phive:
+    Placement: {ID: !ul 13029779380620254627}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0x35311362
+  Translate: [-5.939724922180176, 171.04995727539062, -30.629594802856445]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 9729350789115784115
+  Name: Second
+  Phive:
+    Placement: {ID: !ul 9729350789115784115}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0x88741590
+  Translate: [-8.93972396850586, 171.04995727539062, -21.629594802856445]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 2745717488735884504
+  Name: Second
+  Phive:
+    Placement: {ID: !ul 2745717488735884504}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0xf98997a0
+  Translate: [-5.939724922180176, 171.04995727539062, -33.62959671020508]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 11553705741956629418
+  Name: Second
+  Phive:
+    Placement: {ID: !ul 11553705741956629418}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0x45f5f6b0
+  Translate: [-8.93972396850586, 171.04995727539062, -27.629594802856445]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 106825455370763611
+  Name: Third
+  Phive:
+    Placement: {ID: !ul 106825455370763611}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0xac577fd9
+  Translate: [-5.939724922180176, 171.04995727539062, -12.629595756530762]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 11325739447316361046
+  Name: First
+  Phive:
+    Placement: {ID: !ul 11325739447316361046}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0x504b5fd1
+  Translate: [0.0602753721177578, 171.04995727539062, -30.629594802856445]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 3556074471686713270
+  Name: Third
+  Phive:
+    Placement: {ID: !ul 3556074471686713270}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0x4962a933
+  Translate: [-11.93972396850586, 171.04995727539062, -30.629594802856445]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 2749263592941903857
+  Name: Third
+  Phive:
+    Placement: {ID: !ul 2749263592941903857}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0x15692622
+  Translate: [-11.93972396850586, 171.04995727539062, -27.629594802856445]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 5600288151699274459
+  Name: Fourth
+  Phive:
+    Placement: {ID: !ul 5600288151699274459}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0xc7567b7a
+  Translate: [-14.93972396850586, 171.04995727539062, -21.629594802856445]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 18056349353892475125
+  Name: Fourth
+  Phive:
+    Placement: {ID: !ul 18056349353892475125}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0x8a0e277b
+  Translate: [6.060275077819824, 171.04995727539062, -9.629595756530762]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 3348044384833680813
+  Name: Fourth
+  Phive:
+    Placement: {ID: !ul 3348044384833680813}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0xa14c5e8f
+  Translate: [0.0602753721177578, 171.04995727539062, -9.629595756530762]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 1466045291676147565
+  Name: Fourth
+  Phive:
+    Placement: {ID: !ul 1466045291676147565}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0x5cec910b
+  Translate: [-5.939724922180176, 171.04995727539062, -9.629595756530762]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 11043377218533780269
+  Name: Fourth
+  Phive:
+    Placement: {ID: !ul 11043377218533780269}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0x2797172d
+  Translate: [-14.93972396850586, 171.04995727539062, -27.629594802856445]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 346998601065037205
+  Name: Fourth
+  Phive:
+    Placement: {ID: !ul 346998601065037205}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0xddefd993
+  Translate: [15.06027603149414, 171.04995727539062, -27.629594802856445]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 14533905000300626207
+  Name: First
+  Phive:
+    Placement: {ID: !ul 14533905000300626207}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0x0fccf8a4
+  Translate: [6.060275077819824, 171.04995727539062, -18.629594802856445]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 4545061109547446503
+  Name: Fourth
+  Phive:
+    Placement: {ID: !ul 4545061109547446503}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0xeb5b0f89
+  Translate: [15.06027603149414, 171.04995727539062, -18.629594802856445]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 15906536878694065184
+  Name: Fourth
+  Phive:
+    Placement: {ID: !ul 15906536878694065184}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0x22fe798c
+  Translate: [15.06027603149414, 171.04995727539062, -30.629594802856445]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 6326260983194699646
+  Name: Fourth
+  Phive:
+    Placement: {ID: !ul 6326260983194699646}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0xc50bcc9c
+  Translate: [3.0602753162384033, 171.04995727539062, -39.62959671020508]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 2705836895708778582
+  Name: Third
+  Phive:
+    Placement: {ID: !ul 2705836895708778582}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0x8d5656e1
+  Translate: [-11.93972396850586, 171.04995727539062, -18.629594802856445]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 1413102668110388656
+  Name: Third
+  Phive:
+    Placement: {ID: !ul 1413102668110388656}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0x77966542
+  Translate: [6.060275077819824, 171.04995727539062, -12.629595756530762]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 11788459967133410839
+  Name: Second
+  Phive:
+    Placement: {ID: !ul 11788459967133410839}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0x5b3a2071
+  Translate: [6.060275077819824, 171.04995727539062, -15.629595756530762]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 16759488422425493308
+  Name: First
+  Phive:
+    Placement: {ID: !ul 16759488422425493308}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0xed75defa
+  Translate: [3.0602753162384033, 171.04995727539062, -18.629594802856445]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 17461201865794399145
+  Name: Fourth
+  Phive:
+    Placement: {ID: !ul 17461201865794399145}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0x8a3cc850
+  Translate: [3.0602753162384033, 171.04995727539062, -9.629595756530762]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 7123690697372509479
+  Name: Third
+  Phive:
+    Placement: {ID: !ul 7123690697372509479}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0x60e6bd54
+  Translate: [12.06027603149414, 171.04995727539062, -18.629594802856445]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 7826814099773438266
+  Name: First
+  Phive:
+    Placement: {ID: !ul 7826814099773438266}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0xcb91d64d
+  Translate: [6.060275077819824, 171.04995727539062, -30.629594802856445]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 1707182391461521894
+  Name: Second
+  Phive:
+    Placement: {ID: !ul 1707182391461521894}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0x69eecfe0
+  Translate: [9.06027603149414, 171.04995727539062, -18.629594802856445]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 2609864234044697937
+  Name: Fourth
+  Phive:
+    Placement: {ID: !ul 2609864234044697937}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0x9d1eea59
+  Translate: [-2.9397246837615967, 171.04995727539062, -9.629595756530762]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 7081436107273310349
+  Name: First
+  Phive:
+    Placement: {ID: !ul 7081436107273310349}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0xb017ffe6
+  Translate: [-5.939724922180176, 171.04995727539062, -18.629594802856445]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 13426602028293994153
+  Name: Fourth
+  Phive:
+    Placement: {ID: !ul 13426602028293994153}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0x27076fd2
+  Translate: [0.0602753721177578, 171.04995727539062, -39.62959671020508]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 10078250893269044616
+  Name: Fourth
+  Phive:
+    Placement: {ID: !ul 10078250893269044616}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0xeb34e0a0
+  Translate: [-5.939724922180176, 171.04995727539062, -39.62959671020508]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 17026070322411074337
+  Name: Second
+  Phive:
+    Placement: {ID: !ul 17026070322411074337}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0x8ef7879d
+  Translate: [6.060275077819824, 171.04995727539062, -33.62959671020508]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 11129187263724704010
+  Name: Fourth
+  Phive:
+    Placement: {ID: !ul 11129187263724704010}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0x4c4fa710
+  Translate: [6.060275077819824, 171.04995727539062, -39.62959671020508]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 6693455062119850170
+  Name: Fourth
+  Phive:
+    Placement: {ID: !ul 6693455062119850170}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0x5239265c
+  Translate: [-14.93972396850586, 171.04995727539062, -30.629594802856445]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 13936577801583205248
+  Name: Fourth
+  Phive:
+    Placement: {ID: !ul 13936577801583205248}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0x9ee35ab1
+  Translate: [-14.93972396850586, 171.04995727539062, -24.629594802856445]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 8644158157665250282
+  Name: Third
+  Phive:
+    Placement: {ID: !ul 8644158157665250282}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0x3bb064b3
+  Translate: [6.060275077819824, 171.04995727539062, -36.62959671020508]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 4932531986791371520
+  Name: Fourth
+  Phive:
+    Placement: {ID: !ul 4932531986791371520}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0x9305bd7d
+  Translate: [-14.93972396850586, 171.04995727539062, -18.629594802856445]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 3383337606198908534
+  Name: Fourth
+  Phive:
+    Placement: {ID: !ul 3383337606198908534}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0x10176af6
+  Translate: [-2.9397246837615967, 171.04995727539062, -39.62959671020508]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 18193334422837141767
+  Name: Fourth
+  Phive:
+    Placement: {ID: !ul 18193334422837141767}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0xc00cc6c3
+  Translate: [15.06027603149414, 171.04995727539062, -24.629594802856445]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 13523031935643202224
+  Name: Fourth
+  Phive:
+    Placement: {ID: !ul 13523031935643202224}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0xc77ecb55
+  Translate: [15.06027603149414, 171.04995727539062, -21.629594802856445]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 18190363915540361017
+  Name: Third
+  Phive:
+    Placement: {ID: !ul 18190363915540361017}
+  SRTHash: !u 0x24b4d72f
+  Translate: [9.06027603149414, 171.04995727539062, -33.62959671020508]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 13115662185440574125
+  Name: Third
+  Phive:
+    Placement: {ID: !ul 13115662185440574125}
+  SRTHash: !u 0x5d019953
+  Translate: [9.06027603149414, 171.04995727539062, -15.629595756530762]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 6896590626039231530
+  Name: Third
+  Phive:
+    Placement: {ID: !ul 6896590626039231530}
+  SRTHash: !u 0x2c6afcc6
+  Translate: [-8.93972396850586, 171.04995727539062, -15.629595756530762]
+- Gyaml: Obj_InsideGanonCastle_BrokenFloor_A_01
+  Hash: !ul 9521891904622280721
+  Name: Third
+  Phive:
+    Placement: {ID: !ul 9521891904622280721}
+  SRTHash: !u 0x1dd53176
+  Translate: [-8.93972396850586, 171.04995727539062, -33.62959671020508]
+- Dynamic: {Drop__DropTable: Drop_ResourceSupply_BeforeBoss_RangeWeapon}
+  Gyaml: Obj_Pot_A_06
+  Hash: !ul 2106938564798060106
+  Phive:
+    Placement: {ID: !ul 2106938564798060106}
+  Rotate: [-3.141592502593994, -1.5302029848098755, -3.141592502593994]
+  SRTHash: !u 0xbe26071b
+  Translate: [11.64836597442627, 156.6469268798828, -36.21013259887695]
+- Dynamic: {Drop__DropActor: Obj_MagicJar_Small}
+  Gyaml: Obj_Pot_A_06
+  Hash: !ul 1582095331888138302
+  Phive:
+    Placement: {ID: !ul 1582095331888138302}
+  Rotate: [0.0, -1.1093683242797852, 0.0]
+  SRTHash: !u 0x69efc0de
+  Translate: [11.64836597442627, 156.6469268798828, -35.21013259887695]
+- Dynamic: {Drop__DropTable: Drop_ResourceSupply_BeforeBoss}
+  Gyaml: Obj_Pot_A_06
+  Hash: !ul 921168095862723374
+  Phive:
+    Placement: {ID: !ul 921168095862723374}
+  SRTHash: !u 0x6037e8fb
+  Translate: [-12.629075050354004, 156.6469268798828, -35.21013259887695]
+- Dynamic: {Drop__DropTable: Drop_ResourceSupply_BeforeBoss}
+  Gyaml: Obj_Pot_A_06_Dream
+  Hash: !ul 16882729108145039022
+  Phive:
+    Placement: {ID: !ul 16882729108145039022}
+  SRTHash: !u 0x6037e8fb
+  Translate: [-12.629075050354004, 156.6469268798828, -35.21013259887695]
+- Dynamic: {Drop__DropActor: Obj_Fairy}
+  Gyaml: Obj_Pot_A_06
+  Hash: !ul 149870219864254928
+  Phive:
+    Placement: {ID: !ul 149870219864254928}
+  Rotate: [0.0, 0.5054165124893188, 0.0]
+  SRTHash: !u 0xb8f5e6df
+  Translate: [-10.629074096679688, 156.6469268798828, -35.21013259887695]
+- Dynamic: {Drop__DropTable: Drop_ResourceSupply_BeforeBoss_RangeWeapon}
+  Gyaml: Obj_Pot_A_06_Dream
+  Hash: !ul 2847695398322822809
+  Phive:
+    Placement: {ID: !ul 2847695398322822809}
+  SRTHash: !u 0x7d8aa736
+  Translate: [11.64836597442627, 156.6469268798828, -35.21013259887695]
+- Dynamic: {Drop__DropTable: Drop_ResourceSupply_BeforeBoss_RangeWeapon}
+  Gyaml: Obj_Pot_A_06
+  Hash: !ul 14449889395868675365
+  Phive:
+    Placement: {ID: !ul 14449889395868675365}
+  Rotate: [-3.141592502593994, 0.41661229729652405, -3.141592502593994]
+  SRTHash: !u 0x619f3791
+  Translate: [-11.62907600402832, 156.6469268798828, -36.21013259887695]
+- Dynamic: {Drop__DropTable: Drop_ResourceSupply_BeforeBoss_RangeWeapon}
+  Gyaml: Obj_Pot_A_06_Dream
+  Hash: !ul 154074014058077500
+  Phive:
+    Placement: {ID: !ul 154074014058077500}
+  SRTHash: !u 0x12c57ae6
+  Translate: [-11.62907600402832, 156.6469268798828, -35.21013259887695]
+- Dynamic: {Drop__DropTable: Drop_ResourceSupply_BeforeBoss}
+  Gyaml: Obj_Pot_A_06
+  Hash: !ul 10918414891277298279
+  Phive:
+    Placement: {ID: !ul 10918414891277298279}
+  SRTHash: !u 0xcc03cea6
+  Translate: [-10.629074096679688, 156.6469268798828, -37.21013259887695]
+- Dynamic: {Drop__DropActor: Obj_MagicJar_Small}
+  Gyaml: Obj_Pot_A_06_Dream
+  Hash: !ul 6855679749452423265
+  Phive:
+    Placement: {ID: !ul 6855679749452423265}
+  Rotate: [0.0, -1.4905412197113037, 0.0]
+  SRTHash: !u 0xdaf44753
+  Translate: [-10.629074096679688, 156.6469268798828, -36.21013259887695]
+- Dynamic: {Drop__DropTable: Drop_ResourceSupply_BeforeBoss}
+  Gyaml: Obj_Pot_A_06_Dream
+  Hash: !ul 10733929626674129753
+  Phive:
+    Placement: {ID: !ul 10733929626674129753}
+  SRTHash: !u 0xa08ac616
+  Translate: [-10.629074096679688, 156.6469268798828, -35.21013259887695]
+- Dynamic: {Drop__DropTable: Drop_ResourceSupply_BeforeBoss}
+  Gyaml: Obj_Pot_A_06_Dream
+  Hash: !ul 3525560838770670337
+  Phive:
+    Placement: {ID: !ul 3525560838770670337}
+  SRTHash: !u 0x9e3b4e55
+  Translate: [12.648355484008789, 156.6469268798828, -35.21013259887695]
+- Dynamic: {Drop__DropTable: Drop_ResourceSupply_BeforeBoss}
+  Gyaml: Obj_Pot_A_06
+  Hash: !ul 12246748029878237090
+  Phive:
+    Placement: {ID: !ul 12246748029878237090}
+  SRTHash: !u 0x9e3b4e55
+  Translate: [12.648355484008789, 156.6469268798828, -35.21013259887695]
+- Dynamic: {Drop__DropTable: Drop_ResourceSupply_BeforeBoss}
+  Gyaml: Obj_Pot_A_06
+  Hash: !ul 10759354914700374982
+  Phive:
+    Placement: {ID: !ul 10759354914700374982}
+  Rotate: [0.0, 1.5439223051071167, 0.0]
+  SRTHash: !u 0x873fcba5
+  Translate: [10.64836597442627, 156.6469268798828, -35.21013259887695]
+- Dynamic: {Drop__DropTable: Drop_ResourceSupply_BeforeBoss}
+  Gyaml: Obj_Pot_A_06_Dream
+  Hash: !ul 9932708923115317839
+  Phive:
+    Placement: {ID: !ul 9932708923115317839}
+  SRTHash: !u 0xeafc68d9
+  Translate: [11.64836597442627, 156.6469268798828, -36.21013259887695]
+- Dynamic: {Drop__DropTable: Drop_ResourceSupply_BeforeBoss_RangeWeapon}
+  Gyaml: Obj_Pot_A_06
+  Hash: !ul 7258859591593802291
+  Phive:
+    Placement: {ID: !ul 7258859591593802291}
+  Rotate: [0.0, -0.5484505891799927, 0.0]
+  SRTHash: !u 0x15ffd911
+  Translate: [-11.62907600402832, 156.6469268798828, -35.21013259887695]
+- Dynamic: {Drop__DropActor: Obj_MagicJar_Small}
+  Gyaml: Obj_Pot_A_06
+  Hash: !ul 5610384207225108871
+  Phive:
+    Placement: {ID: !ul 5610384207225108871}
+  Rotate: [-3.141592502593994, 0.9900237321853638, -3.141592502593994]
+  SRTHash: !u 0xd29a1af9
+  Translate: [10.64836597442627, 156.6469268798828, -36.21013259887695]
+- Dynamic: {Drop__DropTable: Drop_ResourceSupply_BeforeBoss_RangeWeapon}
+  Gyaml: Obj_Pot_A_06_Dream
+  Hash: !ul 11646170460939290757
+  Phive:
+    Placement: {ID: !ul 11646170460939290757}
+  SRTHash: !u 0xfc701aff
+  Translate: [-11.62907600402832, 156.6469268798828, -36.21013259887695]
+- Dynamic: {Drop__DropTable: Drop_ResourceSupply_BeforeBoss}
+  Gyaml: Obj_Pot_A_06
+  Hash: !ul 10615984436368044143
+  Phive:
+    Placement: {ID: !ul 10615984436368044143}
+  Rotate: [-3.141592502593994, -1.3499445915222168, -3.141592502593994]
+  SRTHash: !u 0x30fa2c7b
+  Translate: [-10.629074096679688, 156.6469268798828, -36.21013259887695]
+- Dynamic: {Drop__DropActor: Obj_MagicJar_Small}
+  Gyaml: Obj_Pot_A_06_Dream
+  Hash: !ul 13470335506895943486
+  Phive:
+    Placement: {ID: !ul 13470335506895943486}
+  SRTHash: !u 0xb2e3ca99
+  Translate: [10.64836597442627, 156.6469268798828, -36.21013259887695]
+- Dynamic: {Drop__DropTable: Drop_ResourceSupply_BeforeBoss}
+  Gyaml: Obj_Pot_A_06_Dream
+  Hash: !ul 903755454598749089
+  Phive:
+    Placement: {ID: !ul 903755454598749089}
+  SRTHash: !u 0x1b541711
+  Translate: [10.64836597442627, 156.6469268798828, -37.21013259887695]
+- Dynamic: {Drop__DropActor: Obj_MagicJar_Small}
+  Gyaml: Obj_Pot_A_06_Dream
+  Hash: !ul 4316212377750265553
+  Phive:
+    Placement: {ID: !ul 4316212377750265553}
+  SRTHash: !u 0xcb9b5317
+  Translate: [10.64836597442627, 156.6469268798828, -35.21013259887695]
+- Dynamic: {Drop__DropTable: Drop_ResourceSupply_BeforeBoss}
+  Gyaml: Obj_Pot_A_06_Dream
+  Hash: !ul 3408499031863622491
+  Phive:
+    Placement: {ID: !ul 3408499031863622491}
+  SRTHash: !u 0xcc03cea6
+  Translate: [-10.629074096679688, 156.6469268798828, -37.21013259887695]
+- Dynamic: {Drop__DropTable: Drop_ResourceSupply_BeforeBoss}
+  Gyaml: Obj_Pot_A_06
+  Hash: !ul 9142887782120367689
+  Phive:
+    Placement: {ID: !ul 9142887782120367689}
+  SRTHash: !u 0x1b541711
+  Translate: [10.64836597442627, 156.6469268798828, -37.21013259887695]
+- Bakeable: true
+  Gyaml: Obj_DoorChainLock_A_02
+  Hash: !ul 7934496846596328412
+  Phive:
+    Placement: {ID: !ul 7934496846596328412}
+  SRTHash: !u 0x82a649e9
+  Translate: [0.08304896205663681, 171.0433349609375, -7.010997772216797]
+- Bakeable: true
+  Dynamic: {NomralEvent: Common_Dungeon_OpenDoorChainLock_UnlockGanonBossRoomMoveTo0,
+    OpenChainEvent: Common_Dungeon_OpenDoorChainLock_UnlockGanonBossRoomMoveTo0, OpenChainShutterEvent: Common_Dungeon_OpenDoorChainLock_UnlockGanonBossRoomMoveTo0,
+    ShutterEvent: Common_Dungeon_OpenShutterMoveToPlusZ_Boss}
+  Gyaml: Obj_InsideGanonCastle_SwitchShutter_A_03
+  Hash: !ul 14259177240930796551
+  Links:
+  - {Dst: !ul 7934496846596328412, Gyaml: Reference, Name: Reference, Src: !ul 14259177240930796551}
+  - {Dst: !ul 8780341327146855812, Gyaml: Reference, Name: Reference, Src: !ul 14259177240930796551}
+  - {Dst: !ul 17882324571809461251, Gyaml: Reference, Name: Reference, Src: !ul 14259177240930796551}
+  - {Dst: !ul 12731656752129285266, Gyaml: Reference, Name: Reference, Src: !ul 14259177240930796551}
+  Phive:
+    Placement: {ID: !ul 14259177240930796551}
+  Rotate: [-3.141592264175415, -0.0, 3.141592502593994]
+  SRTHash: !u 0x82a2ce4c
+  Translate: [0.08304896205663681, 171.0433349609375, -7.010997772216797]
+- Gyaml: AirWallEnemy
+  Hash: !ul 9726135228914652378
+  Phive:
+    Placement: {ID: !ul 9726135228914652378}
+  Rotate: [-3.141592264175415, -0.0, 3.141592502593994]
+  SRTHash: !u 0xca770d6e
+  Scale: [3.0, 4.0, 1.7000000476837158]
+  Translate: [0.08304926753044128, 173.0433349609375, -7.010998725891113]
+- Bakeable: true
+  Gyaml: Obj_SwitchShutter_A_06
+  Hash: !ul 8780341327146855812
+  Phive:
+    Placement: {ID: !ul 8780341327146855812}
+  Rotate: [-3.141592264175415, -0.0, 3.141592502593994]
+  SRTHash: !u 0xf60f09da
+  Translate: [0.08304896205663681, 171.0433349609375, -7.360997676849365]
+- Gyaml: DestinationAnchor
+  Hash: !ul 17882324571809461251
+  Name: CameraPlusZ
+  Phive:
+    Placement: {ID: !ul 17882324571809461251}
+  Rotate: [-3.141592264175415, -0.0, 3.141592502593994]
+  SRTHash: !u 0x9558cfbe
+  Translate: [0.020198583602905273, 171.0433349609375, -11.31099796295166]
+- Gyaml: Area
+  Hash: !ul 12084655875334792936
+  Phive:
+    Placement: {ID: !ul 12084655875334792936}
+  SRTHash: !u 0x2f3207eb
+  Scale: [24.85394287109375, 17.98105239868164, 22.10406494140625]
+  Translate: [-5.65793514251709, 162.35089111328125, -7.878690719604492]
+- Bakeable: true
+  Gyaml: Obj_SwitchShutter_A_06
+  Hash: !ul 10961433435108018346
+  Name: SwitchShutterPlusZ
+  Phive:
+    Placement: {ID: !ul 10961433435108018346}
+  SRTHash: !u 0xe4bd7191
+  Translate: [-0.014256694354116917, 156.6511993408203, -41.353858947753906]
+- Gyaml: DestinationAnchor
+  Hash: !ul 11470781924352485632
+  Phive:
+    Placement: {ID: !ul 11470781924352485632}
+  Rotate: [3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0xa84dc397
+  Translate: [-0.013926994055509567, 157.6511993408203, -42.703857421875]
+- Bakeable: true
+  Gyaml: Obj_SwitchShutter_A_06
+  Hash: !ul 17046535511257516828
+  Name: SwitchShutterMinusZ
+  Phive:
+    Placement: {ID: !ul 17046535511257516828}
+  Rotate: [-3.1415927410125732, 8.742279788975793e-08, -3.141592264175415]
+  SRTHash: !u 0x7fa8a92b
+  Translate: [-0.01425662450492382, 156.62222290039062, -42.053855895996094]
+- Bakeable: true
+  Gyaml: Obj_InsideGanonCastle_SwitchShutter_A_05
+  Hash: !ul 5393467298029591760
+  Links:
+  - {Dst: !ul 10961433435108018346, Gyaml: Reference, Name: Reference, Src: !ul 5393467298029591760}
+  - {Dst: !ul 17046535511257516828, Gyaml: Reference, Name: Reference, Src: !ul 5393467298029591760}
+  - {Dst: !ul 6034298731469868040, Gyaml: Reference, Name: Reference, Src: !ul 5393467298029591760}
+  - {Dst: !ul 12361124987348651014, Gyaml: Reference, Name: Reference, Src: !ul 5393467298029591760}
+  - {Dst: !ul 7704025507119714015, Gyaml: Reference, Name: Reference, Src: !ul 5393467298029591760}
+  Phive:
+    Placement: {ID: !ul 5393467298029591760}
+  SRTHash: !u 0xedb59790
+  Translate: [-0.014256663620471954, 156.6511993408203, -41.701576232910156]
+- Gyaml: DestinationAnchor
+  Hash: !ul 16282692501495540211
+  Phive:
+    Placement: {ID: !ul 16282692501495540211}
+  SRTHash: !u 0xd3157947
+  Translate: [-0.014256902039051056, 157.6511993408203, -40.701576232910156]
+- Gyaml: AirWallEnemy
+  Hash: !ul 5365850214995285235
+  Phive:
+    Placement: {ID: !ul 5365850214995285235}
+  SRTHash: !u 0x8be4dd41
+  Scale: [3.0, 4.0, 1.7000000476837158]
+  Translate: [-0.013927232474088669, 158.6511993408203, -41.703857421875]
+- Gyaml: DestinationAnchor
+  Hash: !ul 6034298731469868040
+  Name: CameraPlusZ
+  Phive:
+    Placement: {ID: !ul 6034298731469868040}
+  SRTHash: !u 0xa5841049
+  Translate: [-0.013927105814218521, 156.6511993408203, -39.703857421875]
+- Gyaml: DestinationAnchor
+  Hash: !ul 12361124987348651014
+  Name: CameraMinusZ
+  Phive:
+    Placement: {ID: !ul 12361124987348651014}
+  Rotate: [3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0x97d9254c
+  Translate: [-0.013926755636930466, 156.6511993408203, -43.703857421875]
+- Dynamic:
+    MoveTime: 20.0
+    StartPosRate: [0.0, 0.0, -1.0]
+  Gyaml: PushAirWall_DoorFront
+  Hash: !ul 7704025507119714015
+  Phive:
+    Placement: {ID: !ul 7704025507119714015}
+  SRTHash: !u 0x06f23537
+  Scale: [2.0, 1.2999999523162842, 1.0]
+  Translate: [-0.013926930725574493, 156.6511993408203, -41.703857421875]
+- Dynamic: {InvalidSlopeCliffLatInterpolate: true}
+  Gyaml: CameraChangeAreaBox
+  Hash: !ul 13343031901189941389
+  Phive:
+    Placement: {ID: !ul 13343031901189941389}
+  SRTHash: !u 0xa7dc9906
+  Scale: [34.88499069213867, 4.536293029785156, 33.7634162902832]
+  Translate: [-0.08904385566711426, 171.04995727539062, -24.49507713317871]
+- Bakeable: true
+  Gyaml: Land_InsideGanonCastle_Room26_A_06
+  Hash: !ul 12731656752129285266
+  Phive:
+    Placement: {ID: !ul 12731656752129285266}
+  Presence: {FlagName: InsideGanonCastele_Dungeon_Ganondorf_Die, IsCheckLazy: false,
+    IsNegation: true}
+  SRTHash: !u 0x8d7c2af8
+  Translate: [0.0602753721177578, 171.04995727539062, -24.629594802856445]
+- Dynamic: {Drop__DropTable: DropTable_Ganon_Remedies_01, SpawnTimeFrame: 600}
+  Gyaml: SpawnDropsPeriodically
+  Hash: !ul 10684444362561501765
+  Phive:
+    Placement: {ID: !ul 10684444362561501765}
+  SRTHash: !u 0x307cf280
+  Translate: [-0.7753469944000244, 157.04600524902344, -11.283219337463379]
+- Dynamic: {Drop__DropTable: DropTable_Ganon_Remedies_02, SpawnTimeFrame: 900}
+  Gyaml: SpawnDropsPeriodically
+  Hash: !ul 15446442399749699422
+  Phive:
+    Placement: {ID: !ul 15446442399749699422}
+  SRTHash: !u 0x89785c09
+  Translate: [14.563583374023438, 157.04600524902344, -22.271221160888672]
+- Dynamic: {Drop__DropTable: DropTable_Ganon_Remedies_02, SpawnTimeFrame: 900}
+  Gyaml: SpawnDropsPeriodically
+  Hash: !ul 11296943351352233790
+  Phive:
+    Placement: {ID: !ul 11296943351352233790}
+  SRTHash: !u 0x9a8dbc6e
+  Translate: [-14.818572044372559, 157.04600524902344, -27.220420837402344]
+- Dynamic: {Drop__DropTable: DropTable_Ganon_Remedies_01, SpawnTimeFrame: 600}
+  Gyaml: SpawnDropsPeriodically
+  Hash: !ul 5499942413791264781
+  Phive:
+    Placement: {ID: !ul 5499942413791264781}
+  SRTHash: !u 0x82560902
+  Translate: [-13.788036346435547, 157.04600524902344, -22.271221160888672]
+- Dynamic: {Drop__DropTable: DropTable_Ganon_Remedies_01, SpawnTimeFrame: 600}
+  Gyaml: SpawnDropsPeriodically
+  Hash: !ul 5134921020726061509
+  Phive:
+    Placement: {ID: !ul 5134921020726061509}
+  SRTHash: !u 0x362e0b9e
+  Translate: [13.829385757446289, 157.04600524902344, -27.220420837402344]
+- Dynamic: {Drop__DropTable: DropTable_Ganon_Remedies_01, SpawnTimeFrame: 1800}
+  Gyaml: SpawnDropsPeriodically
+  Hash: !ul 3826854771162200840
+  Phive:
+    Placement: {ID: !ul 3826854771162200840}
+  SRTHash: !u 0xbf03cea5
+  Translate: [-13.26376724243164, 171.52056884765625, -11.088204383850098]
+- Dynamic: {Drop__DropTable: DropTable_Ganon_Remedies_02, SpawnTimeFrame: 2700}
+  Gyaml: SpawnDropsPeriodically
+  Hash: !ul 6255820981700600484
+  Phive:
+    Placement: {ID: !ul 6255820981700600484}
+  SRTHash: !u 0x834d3694
+  Translate: [-13.258939743041992, 171.52056884765625, -37.970237731933594]
+- Dynamic: {Drop__DropTable: DropTable_Ganon_Remedies_01, SpawnTimeFrame: 1800}
+  Gyaml: SpawnDropsPeriodically
+  Hash: !ul 8844151861469984704
+  Phive:
+    Placement: {ID: !ul 8844151861469984704}
+  SRTHash: !u 0x7c668fd0
+  Translate: [13.53028392791748, 171.52056884765625, -11.088204383850098]
+- Gyaml: Area
+  Hash: !ul 11077305487590552814
+  Phive:
+    Placement: {ID: !ul 11077305487590552814}
+  SRTHash: !u 0x802ad660
+  Scale: [16.71051025390625, 21.122535705566406, 16.367027282714844]
+  Translate: [0.44661033153533936, 156.0679168701172, -23.74808120727539]
+- Bakeable: true
+  Gyaml: Obj_SwitchShutter_A_06
+  Hash: !ul 1719963729487590919
+  Name: SwitchShutterPlusZ
+  Phive:
+    Placement: {ID: !ul 1719963729487590919}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xe6979adf
+  Translate: [0.06584331393241882, 156.59945678710938, -7.774444103240967]
+- Gyaml: DestinationAnchor
+  Hash: !ul 8048736166602437735
+  Phive:
+    Placement: {ID: !ul 8048736166602437735}
+  SRTHash: !u 0xe6fd87ce
+  Translate: [0.06551370024681091, 157.61793518066406, -6.424444198608398]
+- Bakeable: true
+  Gyaml: Obj_SwitchShutter_A_06
+  Hash: !ul 11157626978328106406
+  Name: SwitchShutterMinusZ
+  Phive:
+    Placement: {ID: !ul 11157626978328106406}
+  SRTHash: !u 0xc6c41087
+  Translate: [0.0658433735370636, 156.61793518066406, -7.07444429397583]
+- Bakeable: true
+  Gyaml: Obj_InsideGanonCastle_SwitchShutter_A_05
+  Hash: !ul 11879335191821977078
+  Links:
+  - {Dst: !ul 1719963729487590919, Gyaml: Reference, Name: Reference, Src: !ul 11879335191821977078}
+  - {Dst: !ul 11157626978328106406, Gyaml: Reference, Name: Reference, Src: !ul 11879335191821977078}
+  - {Dst: !ul 6034594357816553899, Gyaml: Reference, Name: Reference, Src: !ul 11879335191821977078}
+  - {Dst: !ul 1921282371524903841, Gyaml: Reference, Name: Reference, Src: !ul 11879335191821977078}
+  - {Dst: !ul 5837409355150947752, Gyaml: Reference, Name: Reference, Src: !ul 11879335191821977078}
+  Phive:
+    Placement: {ID: !ul 11879335191821977078}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x391a2212
+  Translate: [0.06584334373474121, 156.61793518066406, -7.426724433898926]
+- Gyaml: DestinationAnchor
+  Hash: !ul 14767475026578367444
+  Phive:
+    Placement: {ID: !ul 14767475026578367444}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x73d29d99
+  Translate: [0.06584325432777405, 157.61793518066406, -8.426724433898926]
+- Gyaml: AirWallEnemy
+  Hash: !ul 11342605055030697708
+  Phive:
+    Placement: {ID: !ul 11342605055030697708}
+  Rotate: [3.1415927410125732, -8.74227694680485e-08, 3.1415927410125732]
+  SRTHash: !u 0x21508112
+  Scale: [3.0, 4.0, 1.7000000476837158]
+  Translate: [0.06551361083984375, 158.61793518066406, -7.424444198608398]
+- Gyaml: DestinationAnchor
+  Hash: !ul 6034594357816553899
+  Name: CameraPlusZ
+  Phive:
+    Placement: {ID: !ul 6034594357816553899}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x6621f56c
+  Translate: [0.06551343947649002, 156.61793518066406, -9.424444198608398]
+- Gyaml: DestinationAnchor
+  Hash: !ul 1921282371524903841
+  Name: CameraMinusZ
+  Phive:
+    Placement: {ID: !ul 1921282371524903841}
+  SRTHash: !u 0x8ae6c23c
+  Translate: [0.06551378220319748, 156.61793518066406, -5.424444198608398]
+- Dynamic:
+    MoveTime: 20.0
+    StartPosRate: [0.0, 0.0, -1.0]
+  Gyaml: PushAirWall_DoorFront
+  Hash: !ul 5837409355150947752
+  Phive:
+    Placement: {ID: !ul 5837409355150947752}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x4b827da2
+  Scale: [2.0, 1.2999999523162842, 1.0]
+  Translate: [0.06551361083984375, 156.61793518066406, -7.424444198608398]
+- Dynamic: {FogParams: InsideGanonCastle_BossRoom}
+  Gyaml: VolumeFogArea
+  Hash: !ul 14883857622479298540
+  Phive:
+    Placement: {ID: !ul 14883857622479298540}
+  SRTHash: !u 0x0d8dc519
+  Scale: [35.015892028808594, 4.663825035095215, 35.68183898925781]
+  Translate: [0.0, 173.21688842773438, -24.027238845825195]
+- Dynamic: {FogParams: InsideGanonCastle_CentralTower_5F}
+  Gyaml: VolumeFogArea
+  Hash: !ul 17272922827496724940
+  Phive:
+    Placement: {ID: !ul 17272922827496724940}
+  SRTHash: !u 0x5140320b
+  Scale: [59.37777328491211, 38.19843292236328, 58.02488327026367]
+  Translate: [-2.7444918155670166, 147.69412231445312, -21.634504318237305]
+AiGroups:
+- Hash: !ul 14112634218100560198
+  Logic: Logic/Root/GanondorfStage/GanondorfStage_bb9d.logic.root.ain
+  References:
+  - {Id: Area_1398, Path: Area_1398, Reference: !ul 5953398372571470349}
+  - {Id: NaviAreaHintEventActor_8fb3, Path: NaviAreaHintEventActor_8fb3, Reference: !ul 13994456177434987480}
+  - {Id: Enemy_DungeonBoss_Ganondorf_46cc, Path: _b1b2/Enemy_DungeonBoss_Ganondorf_46cc,
+    Reference: !ul 3082801928207608585}
+  - {Id: Obj_Pot_A_06_343e, Path: _b1b2/Obj_Pot_A_06_343e, Reference: !ul 13470335506895943486}
+  - {Id: Obj_Pot_A_06_b727, Path: _b1b2/Obj_Pot_A_06_b727, Reference: !ul 14449889395868675365}
+  - {Id: Obj_Pot_A_06_4f9c, Path: _b1b2/Obj_Pot_A_06_4f9c, Reference: !ul 11646170460939290757}
+  - {Id: Obj_Pot_A_06_0a60, Path: _b1b2/Obj_Pot_A_06_0a60, Reference: !ul 9142887782120367689}
+  - {Id: Obj_Pot_A_06_7ab5, Path: _b1b2/Obj_Pot_A_06_7ab5, Reference: !ul 12246748029878237090}
+  - {Id: Obj_Pot_A_06_a206, Path: _b1b2/Obj_Pot_A_06_a206, Reference: !ul 10918414891277298279}
+  - {Id: Obj_Pot_A_06_6a49, Path: _b1b2/Obj_Pot_A_06_6a49, Reference: !ul 9932708923115317839}
+  - {Id: Obj_Pot_A_06_dfac, Path: _b1b2/Obj_Pot_A_06_dfac, Reference: !ul 2106938564798060106}
+  - {Id: Obj_Pot_A_06_d182, Path: _b1b2/Obj_Pot_A_06_d182, Reference: !ul 16882729108145039022}
+  - {Id: Obj_Pot_A_06_c522, Path: _b1b2/Obj_Pot_A_06_c522, Reference: !ul 149870219864254928}
+  - {Id: Obj_Pot_A_06_0b04, Path: _b1b2/Obj_Pot_A_06_0b04, Reference: !ul 3408499031863622491}
+  - {Id: Obj_Pot_A_06_bcaa, Path: _b1b2/Obj_Pot_A_06_bcaa, Reference: !ul 2847695398322822809}
+  - {Id: Obj_Pot_A_06_813b, Path: _b1b2/Obj_Pot_A_06_813b, Reference: !ul 3525560838770670337}
+  - {Id: Obj_Pot_A_06_436b, Path: _b1b2/Obj_Pot_A_06_436b, Reference: !ul 10615984436368044143}
+  - {Id: Obj_Pot_A_06_30fa, Path: _b1b2/Obj_Pot_A_06_30fa, Reference: !ul 903755454598749089}
+  - {Id: Obj_Pot_A_06_a7b2, Path: _b1b2/Obj_Pot_A_06_a7b2, Reference: !ul 154074014058077500}
+  - {Id: Obj_Pot_A_06_de46, Path: _b1b2/Obj_Pot_A_06_de46, Reference: !ul 1582095331888138302}
+  - {Id: Obj_Pot_A_06_da2f, Path: _b1b2/Obj_Pot_A_06_da2f, Reference: !ul 921168095862723374}
+  - {Id: Obj_Pot_A_06_9715, Path: _b1b2/Obj_Pot_A_06_9715, Reference: !ul 6855679749452423265}
+  - {Id: Obj_Pot_A_06_1ea8, Path: _b1b2/Obj_Pot_A_06_1ea8, Reference: !ul 4316212377750265553}
+  - {Id: Obj_Pot_A_06_682a, Path: _b1b2/Obj_Pot_A_06_682a, Reference: !ul 7258859591593802291}
+  - {Id: Obj_Pot_A_06_746a, Path: _b1b2/Obj_Pot_A_06_746a, Reference: !ul 10759354914700374982}
+  - {Id: Obj_Pot_A_06_8d9e, Path: _b1b2/Obj_Pot_A_06_8d9e, Reference: !ul 10733929626674129753}
+  - {Id: Obj_Pot_A_06_67ef, Path: _b1b2/Obj_Pot_A_06_67ef, Reference: !ul 5610384207225108871}
+  - {Id: ShutterLocator_Door_02_ba6d, Path: _b1b2/_1b15/ShutterLocator_Door_02_ba6d,
+    Reference: !ul 5393467298029591760}
+  - {Id: ShutterLocator_Lattice_9be3, Path: _b1b2/_1b15/ShutterLocator_Lattice_9be3,
+    Reference: !ul 10961433435108018346}
+  - {Id: ShutterLocator_Lattice_abc3, Path: _b1b2/_1b15/ShutterLocator_Lattice_abc3,
+    Reference: !ul 17046535511257516828}
+  - {Id: PushAirWall_DoorFront_7fb9, Path: _b1b2/_1b15/PushAirWall_DoorFront_7fb9,
+    Reference: !ul 7704025507119714015}
+  - {Id: AiGroup, InstanceName: DungeonSwitchShutterLargeWithLockSet_5539_ec52, Logic: Logic/Module/DungeonSwitchShutterLargeWithLockSet/DungeonSwitchShutterLargeWithLockSet_5539.logic.module.ain,
+    Path: _b1b2/_1b15/AiGroup, Reference: !ul 16306055118019315519}
+  - {Id: Area_6403, Path: _b1b2/Area_6403, Reference: !ul 12084655875334792936}
+  - {Id: SpawnDropsPeriodically_051e, Path: _b1b2/SpawnDropsPeriodically_051e, Reference: !ul 10684444362561501765}
+  - {Id: SpawnDropsPeriodically_5bbf, Path: _b1b2/SpawnDropsPeriodically_5bbf, Reference: !ul 15446442399749699422}
+  - {Id: SpawnDropsPeriodically_8d43, Path: _b1b2/SpawnDropsPeriodically_8d43, Reference: !ul 11296943351352233790}
+  - {Id: SpawnDropsPeriodically_f89d, Path: _b1b2/SpawnDropsPeriodically_f89d, Reference: !ul 5499942413791264781}
+  - {Id: SpawnDropsPeriodically_fcd8, Path: _b1b2/SpawnDropsPeriodically_fcd8, Reference: !ul 5134921020726061509}
+  - {Id: SpawnDropsPeriodically_4e84, Path: _b1b2/SpawnDropsPeriodically_4e84, Reference: !ul 6255820981700600484}
+  - {Id: SpawnDropsPeriodically_9143, Path: _b1b2/SpawnDropsPeriodically_9143, Reference: !ul 8844151861469984704}
+  - {Id: SpawnDropsPeriodically_b158, Path: _b1b2/SpawnDropsPeriodically_b158, Reference: !ul 3826854771162200840}
+  - {Id: ChainLockLocator_BossDoor_fabe, Path: _b1b2/_5f63/ChainLockLocator_BossDoor_fabe,
+    Reference: !ul 7934496846596328412}
+  - {Id: ShutterLocator_BossDoor_362a, Path: _b1b2/_5f63/ShutterLocator_BossDoor_362a,
+    Reference: !ul 14259177240930796551}
+  - {Id: ChainLockLocator_BossLattice_6223, Path: _b1b2/_5f63/ChainLockLocator_BossLattice_6223,
+    Reference: !ul 8780341327146855812}
+  - {Id: AiGroup, InstanceName: DungeonSwitchShutterBossWithChainLockSet_15e6_6b74,
+    Logic: Logic/Module/DungeonSwitchShutterBossWithChainLockSet/DungeonSwitchShutterBossWithChainLockSet_15e6.logic.module.ain,
+    Path: _b1b2/_5f63/AiGroup, Reference: !ul 15158354874225878270}
+  - {Id: Area_1f9f, Path: _b1b2/Area_1f9f, Reference: !ul 11077305487590552814}
+  - {Id: AiGroup, InstanceName: Enemy_DungeonBoss_Ganondorf_Prefab_f52a_41fb, Logic: Logic/Module/Enemy_DungeonBoss_Ganondorf_Prefab/Enemy_DungeonBoss_Ganondorf_Prefab_f52a.logic.module.ain,
+    Path: _b1b2/AiGroup, Reference: !ul 16647320261438290069}
+  - {Id: ShutterLocator_Door_02_ba6d, Path: _fa16/ShutterLocator_Door_02_ba6d, Reference: !ul 11879335191821977078}
+  - {Id: ShutterLocator_Lattice_9be3, Path: _fa16/ShutterLocator_Lattice_9be3, Reference: !ul 1719963729487590919}
+  - {Id: ShutterLocator_Lattice_abc3, Path: _fa16/ShutterLocator_Lattice_abc3, Reference: !ul 11157626978328106406}
+  - {Id: PushAirWall_DoorFront_7fb9, Path: _fa16/PushAirWall_DoorFront_7fb9, Reference: !ul 5837409355150947752}
+  - {Id: AiGroup, InstanceName: DungeonSwitchShutterLargeWithLockSet_5539_c381, Logic: Logic/Module/DungeonSwitchShutterLargeWithLockSet/DungeonSwitchShutterLargeWithLockSet_5539.logic.module.ain,
+    Path: _fa16/AiGroup, Reference: !ul 330328841042037174}
+FarDeleteGroups:
+- [!ul 149870219864254928, !ul 154074014058077500, !ul 903755454598749089, !ul 921168095862723374,
+  !ul 1582095331888138302, !ul 1719963729487590919, !ul 2106938564798060106, !ul 2847695398322822809,
+  !ul 3082801928207608585, !ul 3408499031863622491, !ul 3525560838770670337, !ul 3826854771162200840,
+  !ul 4316212377750265553, !ul 5134921020726061509, !ul 5393467298029591760, !ul 5499942413791264781,
+  !ul 5610384207225108871, !ul 5837409355150947752, !ul 5953398372571470349, !ul 6255820981700600484,
+  !ul 6855679749452423265, !ul 7258859591593802291, !ul 7704025507119714015, !ul 7934496846596328412,
+  !ul 8780341327146855812, !ul 8844151861469984704, !ul 9142887782120367689, !ul 9932708923115317839,
+  !ul 10615984436368044143, !ul 10684444362561501765, !ul 10733929626674129753, !ul 10759354914700374982,
+  !ul 10918414891277298279, !ul 10961433435108018346, !ul 11077305487590552814, !ul 11157626978328106406,
+  !ul 11296943351352233790, !ul 11646170460939290757, !ul 11879335191821977078, !ul 12084655875334792936,
+  !ul 12246748029878237090, !ul 13470335506895943486, !ul 13994456177434987480, !ul 14259177240930796551,
+  !ul 14449889395868675365, !ul 15446442399749699422, !ul 16882729108145039022, !ul 17046535511257516828]
+FilePath: Work/Banc/Scene/DreamWorld/GanondorfStage.bcett.json
+PhiveHeader:
+  PlacementGroups: []
+SimultaneousGroups:
+- [!ul 149870219864254928, !ul 154074014058077500, !ul 903755454598749089, !ul 921168095862723374,
+  !ul 1582095331888138302, !ul 1719963729487590919, !ul 2106938564798060106, !ul 2847695398322822809,
+  !ul 3082801928207608585, !ul 3408499031863622491, !ul 3525560838770670337, !ul 3826854771162200840,
+  !ul 4316212377750265553, !ul 5134921020726061509, !ul 5393467298029591760, !ul 5499942413791264781,
+  !ul 5610384207225108871, !ul 5837409355150947752, !ul 5953398372571470349, !ul 6255820981700600484,
+  !ul 6855679749452423265, !ul 7258859591593802291, !ul 7704025507119714015, !ul 7934496846596328412,
+  !ul 8780341327146855812, !ul 8844151861469984704, !ul 9142887782120367689, !ul 9932708923115317839,
+  !ul 10615984436368044143, !ul 10684444362561501765, !ul 10733929626674129753, !ul 10759354914700374982,
+  !ul 10918414891277298279, !ul 10961433435108018346, !ul 11077305487590552814, !ul 11157626978328106406,
+  !ul 11296943351352233790, !ul 11646170460939290757, !ul 11879335191821977078, !ul 12084655875334792936,
+  !ul 12246748029878237090, !ul 13470335506895943486, !ul 13994456177434987480, !ul 14259177240930796551,
+  !ul 14449889395868675365, !ul 15446442399749699422, !ul 16882729108145039022, !ul 17046535511257516828]

@@ -1,0 +1,774 @@
+Actors:
+- Gyaml: StartPos
+  Hash: !ul 24394402729085696
+  Name: NaboruStage
+  Phive:
+    Placement: {ID: !ul 24394402729085696}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x3cf53844
+  Translate: [0.026803970336914062, 135.06536865234375, -80.3428726196289]
+- Gyaml: StartPos
+  Hash: !ul 5776826048632111223
+  Name: StartPos_SubEvent_AllBossBattle
+  Phive:
+    Placement: {ID: !ul 5776826048632111223}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xadb2893e
+  Translate: [0.026803970336914062, 135.06536865234375, -80.33312225341797]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_DoorFrame_B_01
+  Hash: !ul 13141119212107354488
+  Phive:
+    Placement: {ID: !ul 13141119212107354488}
+  SRTHash: !u 0x02cb2f32
+  Translate: [0.0, 135.0, -101.05000305175781]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_RoomCeiling_A_33
+  Hash: !ul 14308204128864894022
+  Phive:
+    Placement: {ID: !ul 14308204128864894022}
+  SRTHash: !u 0xcdb0d0b7
+  Translate: [0.0, 135.0, -89.08000183105469]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_Fence_A_01
+  Hash: !ul 17700094434025158871
+  Phive:
+    Placement: {ID: !ul 17700094434025158871}
+  Rotate: [0.0, 1.570796251296997, -3.6398519114300143e-06]
+  SRTHash: !u 0x8f1bbd4b
+  Translate: [-8.550000190734863, 135.89999389648438, -81.01001739501953]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_Axe_A_01
+  Hash: !ul 4097138169279895612
+  Phive:
+    Placement: {ID: !ul 4097138169279895612}
+  SRTHash: !u 0xbb06188f
+  Translate: [7.099999904632568, 138.8000030517578, -101.2300033569336]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_Statue_B_01
+  Hash: !ul 1328254174892787876
+  Phive:
+    Placement: {ID: !ul 1328254174892787876}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x816cf176
+  Translate: [9.399999618530273, 135.89999389648438, -81.01000213623047]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_Axe_A_01
+  Hash: !ul 5856972438995384372
+  Phive:
+    Placement: {ID: !ul 5856972438995384372}
+  SRTHash: !u 0x75bc6a34
+  Translate: [-7.099999904632568, 138.8000030517578, -101.2300033569336]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_Statue_B_01
+  Hash: !ul 2680640936270984703
+  Phive:
+    Placement: {ID: !ul 2680640936270984703}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0xa555856d
+  Translate: [9.399999618530273, 135.89999389648438, -86.81500244140625]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_Frame_C_01
+  Hash: !ul 10144272533117442568
+  Phive:
+    Placement: {ID: !ul 10144272533117442568}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x6c98466e
+  Translate: [8.399999618530273, 135.89999389648438, -81.01000213623047]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_Fence_A_01
+  Hash: !ul 17968210360234074648
+  Phive:
+    Placement: {ID: !ul 17968210360234074648}
+  Rotate: [0.0, 1.570796251296997, -3.6398519114300143e-06]
+  SRTHash: !u 0x0e81f0ff
+  Translate: [-8.550000190734863, 135.89999389648438, -86.8147201538086]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_Statue_B_01
+  Hash: !ul 12561807936297897908
+  Phive:
+    Placement: {ID: !ul 12561807936297897908}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xad94e334
+  Translate: [-9.399999618530273, 135.89999389648438, -81.01686096191406]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_DoorFrame_C_01
+  Hash: !ul 10079999507154186406
+  Phive:
+    Placement: {ID: !ul 10079999507154186406}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xb58ac0f9
+  Translate: [0.0, 135.0, -76.66000366210938]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_Frame_C_01
+  Hash: !ul 1631644765598459611
+  Phive:
+    Placement: {ID: !ul 1631644765598459611}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xa52dfcee
+  Translate: [-8.399999618530273, 135.89999389648438, -81.04621124267578]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_Fence_A_01
+  Hash: !ul 4981362699145064705
+  Phive:
+    Placement: {ID: !ul 4981362699145064705}
+  Rotate: [0.0, 1.570796251296997, -3.6398519114300143e-06]
+  SRTHash: !u 0x0391286b
+  Translate: [8.550000190734863, 135.89999389648438, -81.01000213623047]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_Fence_A_01
+  Hash: !ul 11669074543785706525
+  Phive:
+    Placement: {ID: !ul 11669074543785706525}
+  Rotate: [0.0, 1.570796251296997, -3.6398519114300143e-06]
+  SRTHash: !u 0x8b10c40c
+  Translate: [8.550000190734863, 135.89999389648438, -86.81500244140625]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_DoorFrame_C_01
+  Hash: !ul 2098277253513212642
+  Phive:
+    Placement: {ID: !ul 2098277253513212642}
+  SRTHash: !u 0x9588c31f
+  Translate: [0.0, 135.0, -119.45000457763672]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_Statue_B_01
+  Hash: !ul 9310874212219165941
+  Phive:
+    Placement: {ID: !ul 9310874212219165941}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x77ac3fd9
+  Translate: [-9.399999618530273, 135.89999389648438, -86.81581115722656]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_Lamp_A_01
+  Hash: !ul 1983615873614348021
+  Phive:
+    Placement: {ID: !ul 1983615873614348021}
+  Rotate: [0.0, 1.570796251296997, -5.480022764459136e-07]
+  SRTHash: !u 0xf9304756
+  Translate: [-2.786806344985962, 137.60000610351562, -104.61000061035156]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_Lamp_A_01
+  Hash: !ul 10005649167693106762
+  Phive:
+    Placement: {ID: !ul 10005649167693106762}
+  Rotate: [0.0, 1.570796251296997, -5.480022764459136e-07]
+  SRTHash: !u 0xaee888d4
+  Translate: [-2.786806344985962, 137.60000610351562, -116.23007202148438]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_Lamp_A_01
+  Hash: !ul 10562640556692031213
+  Phive:
+    Placement: {ID: !ul 10562640556692031213}
+  Rotate: [0.0, 1.570796251296997, -5.480022764459136e-07]
+  SRTHash: !u 0xa2807f35
+  Translate: [-2.786806344985962, 137.60000610351562, -110.6500015258789]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_Lamp_A_01
+  Hash: !ul 16335915393937906861
+  Phive:
+    Placement: {ID: !ul 16335915393937906861}
+  Rotate: [0.0, -1.570796251296997, 5.480022764459136e-07]
+  SRTHash: !u 0x98388075
+  Translate: [2.7942416667938232, 137.60000610351562, -110.6500015258789]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_Lamp_A_01
+  Hash: !ul 17242345363601699141
+  Phive:
+    Placement: {ID: !ul 17242345363601699141}
+  Rotate: [0.0, -1.570796251296997, 5.480022764459136e-07]
+  SRTHash: !u 0x9855362d
+  Translate: [2.7942416667938232, 137.60000610351562, -116.23007202148438]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_Lamp_A_01
+  Hash: !ul 7606919302100689716
+  Phive:
+    Placement: {ID: !ul 7606919302100689716}
+  Rotate: [0.0, -1.570796251296997, 5.480022764459136e-07]
+  SRTHash: !u 0xba5dd13e
+  Translate: [2.7942416667938232, 137.60000610351562, -104.61000061035156]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_Lamp_A_01
+  Hash: !ul 760330323677470140
+  Phive:
+    Placement: {ID: !ul 760330323677470140}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x48617740
+  Translate: [-8.119999885559082, 137.21499633789062, -83.9000015258789]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_Lamp_A_01
+  Hash: !ul 14192224266586581050
+  Phive:
+    Placement: {ID: !ul 14192224266586581050}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x587796b7
+  Translate: [-8.114032745361328, 137.21499633789062, -89.68000030517578]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_Lamp_A_01
+  Hash: !ul 7029871847765943178
+  Phive:
+    Placement: {ID: !ul 7029871847765943178}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xe61cbc87
+  Translate: [-11.953847885131836, 137.2100067138672, -95.72000122070312]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_Lamp_A_01
+  Hash: !ul 3240283384826353826
+  Phive:
+    Placement: {ID: !ul 3240283384826353826}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0xbcabc26b
+  Translate: [11.956520080566406, 137.2100067138672, -95.72000122070312]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_Lamp_A_01
+  Hash: !ul 15556903212594162090
+  Phive:
+    Placement: {ID: !ul 15556903212594162090}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0xae1da6fc
+  Translate: [8.133490562438965, 137.22000122070312, -89.68000030517578]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_Lamp_A_01
+  Hash: !ul 17974470722385803092
+  Phive:
+    Placement: {ID: !ul 17974470722385803092}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0xb363583b
+  Translate: [8.136174201965332, 137.22000122070312, -83.9000015258789]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_RoomBorder_A_01
+  Hash: !ul 13565000428031485939
+  Phive:
+    Placement: {ID: !ul 13565000428031485939}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xb58ac0f9
+  Translate: [0.0, 135.0, -76.66000366210938]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_RoomBorder_A_01
+  Hash: !ul 2526973984165508069
+  Phive:
+    Placement: {ID: !ul 2526973984165508069}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x42fe8d0e
+  Translate: [0.0, 135.0, -101.46000671386719]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_RoomBorder_A_01
+  Hash: !ul 6958170663280262247
+  Phive:
+    Placement: {ID: !ul 6958170663280262247}
+  SRTHash: !u 0x9588c31f
+  Translate: [0.0, 135.0, -119.45000457763672]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_Pillar_J_01
+  Hash: !ul 10993881678477659527
+  Phive:
+    Placement: {ID: !ul 10993881678477659527}
+  Rotate: [0.0, 1.570796251296997, 1.7484555314695172e-07]
+  SRTHash: !u 0x55372427
+  Translate: [-8.89997386932373, 135.0, -89.68000030517578]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_Pillar_J_01
+  Hash: !ul 631716014469737009
+  Phive:
+    Placement: {ID: !ul 631716014469737009}
+  Rotate: [0.0, 1.570796251296997, 1.7484555314695172e-07]
+  SRTHash: !u 0x15853d46
+  Translate: [-8.89997386932373, 135.0, -78.08000183105469]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_Frame_C_01
+  Hash: !ul 11770103242406795016
+  Phive:
+    Placement: {ID: !ul 11770103242406795016}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x23da322b
+  Translate: [-8.399999618530273, 135.89999389648438, -86.82540893554688]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_Frame_C_01
+  Hash: !ul 15640818124923615707
+  Phive:
+    Placement: {ID: !ul 15640818124923615707}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x695ddc11
+  Translate: [8.399999618530273, 135.89999389648438, -86.81500244140625]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_Pillar_J_01
+  Hash: !ul 8112927511731365864
+  Phive:
+    Placement: {ID: !ul 8112927511731365864}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x26510e0f
+  Translate: [8.920000076293945, 135.0, -78.08000183105469]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_Pillar_J_01
+  Hash: !ul 15806970590896038379
+  Phive:
+    Placement: {ID: !ul 15806970590896038379}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x0e8473ab
+  Translate: [8.920000076293945, 135.0, -89.68000030517578]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_ModuleWall_L_03
+  Hash: !ul 1362080278863715734
+  Phive:
+    Placement: {ID: !ul 1362080278863715734}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x36eca83f
+  Translate: [8.64000129699707, 142.8699951171875, -86.80000305175781]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_ModuleWall_L_03
+  Hash: !ul 3665010071472044226
+  Phive:
+    Placement: {ID: !ul 3665010071472044226}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x05311c99
+  Translate: [8.64000129699707, 142.8699951171875, -81.0]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_ModuleWall_L_02
+  Hash: !ul 6819037425472220248
+  Phive:
+    Placement: {ID: !ul 6819037425472220248}
+  Rotate: [0.0, -1.570796251296997, -2.8726304890369647e-07]
+  SRTHash: !u 0x132ed3d3
+  Translate: [12.389999389648438, 142.8699951171875, -89.80000305175781]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_ModuleWall_L_03
+  Hash: !ul 11588107530798499525
+  Phive:
+    Placement: {ID: !ul 11588107530798499525}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xc89eae72
+  Translate: [10.570005416870117, 142.8699951171875, -90.06999969482422]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_ModuleWall_L_02
+  Hash: !ul 2771593981623721901
+  Phive:
+    Placement: {ID: !ul 2771593981623721901}
+  SRTHash: !u 0x8b629aeb
+  Translate: [7.519951820373535, 142.8699951171875, -101.45999908447266]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_ModuleWall_L_02
+  Hash: !ul 14617545462855337309
+  Phive:
+    Placement: {ID: !ul 14617545462855337309}
+  Rotate: [0.0, 1.570796251296997, 3.0199149136933556e-07]
+  SRTHash: !u 0x3f45f5b2
+  Translate: [-12.389999389648438, 142.8699951171875, -94.27000427246094]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_ModuleWall_L_03
+  Hash: !ul 16933244200226758469
+  Phive:
+    Placement: {ID: !ul 16933244200226758469}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x9c3de870
+  Translate: [-10.789989471435547, 142.8699951171875, -90.06999969482422]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_ModuleWall_L_03
+  Hash: !ul 7456923547111508452
+  Phive:
+    Placement: {ID: !ul 7456923547111508452}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xd7f36abe
+  Translate: [-8.620001792907715, 142.8699951171875, -86.80000305175781]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_ModuleWall_L_03
+  Hash: !ul 11780573976792192893
+  Phive:
+    Placement: {ID: !ul 11780573976792192893}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x34ca9041
+  Translate: [-8.619999885559082, 142.8699951171875, -81.0]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_ModuleWall_L_02
+  Hash: !ul 13031206452678845579
+  Phive:
+    Placement: {ID: !ul 13031206452678845579}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x2d1283d7
+  Translate: [-7.709996223449707, 142.8699951171875, -77.16000366210938]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_ModuleWall_L_02
+  Hash: !ul 12235791785112265681
+  Phive:
+    Placement: {ID: !ul 12235791785112265681}
+  Rotate: [0.0, -1.570796251296997, -2.8726304890369647e-07]
+  SRTHash: !u 0x23554c23
+  Translate: [12.389999389648438, 142.8699951171875, -97.80000305175781]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_ModuleWall_L_02
+  Hash: !ul 14420274919941614113
+  Phive:
+    Placement: {ID: !ul 14420274919941614113}
+  SRTHash: !u 0x4de7b7c7
+  Translate: [-7.57012939453125, 142.8699951171875, -101.45999908447266]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_ModuleWall_L_02
+  Hash: !ul 17704179622303804477
+  Phive:
+    Placement: {ID: !ul 17704179622303804477}
+  Rotate: [0.0, 1.570796251296997, 3.0199149136933556e-07]
+  SRTHash: !u 0x740e51c9
+  Translate: [-12.389999389648438, 142.8699951171875, -102.27000427246094]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_ModuleWall_L_02
+  Hash: !ul 11383934212488400675
+  Phive:
+    Placement: {ID: !ul 11383934212488400675}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x6dae3629
+  Translate: [-0.11000031232833862, 142.8699951171875, -76.93000793457031]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_ModuleWall_L_02
+  Hash: !ul 9857586604441204577
+  Phive:
+    Placement: {ID: !ul 9857586604441204577}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x6fe5bfe9
+  Translate: [7.709992408752441, 142.8699951171875, -77.16000366210938]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_ModuleWall_L_01
+  Hash: !ul 11225333721745867067
+  Phive:
+    Placement: {ID: !ul 11225333721745867067}
+  Rotate: [-3.141587972640991, -8.742277657347586e-08, 3.141591787338257]
+  SRTHash: !u 0x5272e7ae
+  Translate: [12.719991683959961, 135.0, -90.2300033569336]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_ModuleWall_L_01
+  Hash: !ul 16466430629470911445
+  Phive:
+    Placement: {ID: !ul 16466430629470911445}
+  Rotate: [0.0, -1.570796251296997, 3.716570518008666e-06]
+  SRTHash: !u 0x303a2bcf
+  Translate: [12.319999694824219, 135.0, -92.1500015258789]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_ModuleWall_L_01
+  Hash: !ul 1403339928710525694
+  Phive:
+    Placement: {ID: !ul 1403339928710525694}
+  Rotate: [0.0, -1.570796251296997, 3.716570518008666e-06]
+  SRTHash: !u 0x49f5c46d
+  Translate: [12.319999694824219, 135.0, -100.260009765625]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_ModuleWall_L_01
+  Hash: !ul 8964877367181691807
+  Phive:
+    Placement: {ID: !ul 8964877367181691807}
+  SRTHash: !u 0x0da349a1
+  Translate: [7.599977493286133, 135.0, -101.20000457763672]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_ModuleWall_L_01
+  Hash: !ul 4411195052208173548
+  Phive:
+    Placement: {ID: !ul 4411195052208173548}
+  SRTHash: !u 0xb06b6c1d
+  Translate: [-7.620011329650879, 135.0, -101.20000457763672]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_ModuleWall_L_01
+  Hash: !ul 868792374104793677
+  Phive:
+    Placement: {ID: !ul 868792374104793677}
+  Rotate: [0.0, 1.570796251296997, -5.563020295085153e-06]
+  SRTHash: !u 0x03513448
+  Translate: [-12.319999694824219, 135.0, -92.15999603271484]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_ModuleWall_L_01
+  Hash: !ul 210562743480142467
+  Phive:
+    Placement: {ID: !ul 210562743480142467}
+  Rotate: [0.0, 1.570796251296997, -5.563020295085153e-06]
+  SRTHash: !u 0xfd40411a
+  Translate: [-12.319999694824219, 135.0, -100.22999572753906]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_ModuleWall_L_01
+  Hash: !ul 13890710327002393093
+  Phive:
+    Placement: {ID: !ul 13890710327002393093}
+  Rotate: [-3.141587972640991, -8.742277657347586e-08, 3.141591787338257]
+  SRTHash: !u 0x9d3c40d7
+  Translate: [-13.259998321533203, 135.0, -90.2300033569336]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_ModuleWall_L_01
+  Hash: !ul 11697847516053916460
+  Phive:
+    Placement: {ID: !ul 11697847516053916460}
+  Rotate: [-3.141587972640991, -8.742277657347586e-08, 3.141591787338257]
+  SRTHash: !u 0x83289be8
+  Translate: [-6.930031776428223, 135.0, -77.29000091552734]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_ModuleWall_L_01
+  Hash: !ul 11859352472480521567
+  Phive:
+    Placement: {ID: !ul 11859352472480521567}
+  Rotate: [-3.141587972640991, -8.742277657347586e-08, 3.141591787338257]
+  SRTHash: !u 0x2cdc0a49
+  Translate: [6.939988136291504, 135.0, -77.29000091552734]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_Pillar_J_02
+  Hash: !ul 10947337601734214258
+  Phive:
+    Placement: {ID: !ul 10947337601734214258}
+  Rotate: [0.0, -1.570796251296997, 2.980063300128677e-06]
+  SRTHash: !u 0x42260009
+  Translate: [12.279999732971191, 135.0, -95.72000122070312]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_Pillar_J_02
+  Hash: !ul 1502735759661009754
+  Phive:
+    Placement: {ID: !ul 1502735759661009754}
+  Rotate: [0.0, 1.570796251296997, 3.1914510145725217e-07]
+  SRTHash: !u 0x02585780
+  Translate: [-12.279999732971191, 135.0, -95.72000122070312]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_Pillar_J_02
+  Hash: !ul 6128179965490493889
+  Phive:
+    Placement: {ID: !ul 6128179965490493889}
+  Rotate: [-3.1415913105010986, -8.742277657347586e-08, -3.1415910720825195]
+  SRTHash: !u 0x0478d850
+  Translate: [-3.140000343322754, 135.0, -77.23001098632812]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_Pillar_J_02
+  Hash: !ul 1349785982762439910
+  Phive:
+    Placement: {ID: !ul 1349785982762439910}
+  Rotate: [-3.1415913105010986, -8.742277657347586e-08, -3.1415910720825195]
+  SRTHash: !u 0x3af0adcb
+  Translate: [3.140000104904175, 135.0, -77.23001098632812]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_Pillar_J_01
+  Hash: !ul 3268283742420145808
+  Phive:
+    Placement: {ID: !ul 3268283742420145808}
+  Rotate: [0.0, 1.570796251296997, 1.7484555314695172e-07]
+  SRTHash: !u 0x20239dc3
+  Translate: [12.24000072479248, 135.0, -101.29000854492188]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_Pillar_J_01
+  Hash: !ul 16496610667940965571
+  Phive:
+    Placement: {ID: !ul 16496610667940965571}
+  Rotate: [3.141592264175415, -0.0, 3.141592502593994]
+  SRTHash: !u 0x1eb57bca
+  Translate: [-12.249994277954102, 135.0, -101.260009765625]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_Pillar_J_01
+  Hash: !ul 8933776887258457145
+  Phive:
+    Placement: {ID: !ul 8933776887258457145}
+  Rotate: [0.0, -1.570796251296997, -5.404101557360264e-07]
+  SRTHash: !u 0xd64ceb66
+  Translate: [-12.249994277954102, 135.0, -90.10001373291016]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_Pillar_J_01
+  Hash: !ul 1942438433947037289
+  Phive:
+    Placement: {ID: !ul 1942438433947037289}
+  SRTHash: !u 0xe05eaabd
+  Translate: [12.250009536743164, 135.0, -90.13001251220703]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_DoorFrame_L_01
+  Hash: !ul 5200221021601377625
+  Phive:
+    Placement: {ID: !ul 5200221021601377625}
+  SRTHash: !u 0x6b652724
+  Translate: [0.0, 135.0, -101.44000244140625]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_Carpet_D_01
+  Hash: !ul 12479972217643784990
+  Phive:
+    Placement: {ID: !ul 12479972217643784990}
+  SRTHash: !u 0xe599c9f1
+  Translate: [0.0, 135.0, -96.08000183105469]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_Carpet_D_05
+  Hash: !ul 5563607863859354331
+  Phive:
+    Placement: {ID: !ul 5563607863859354331}
+  SRTHash: !u 0x2b437d54
+  Translate: [0.0, 135.0, -84.8800048828125]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_Carpet_D_05
+  Hash: !ul 3353223609842246742
+  Phive:
+    Placement: {ID: !ul 3353223609842246742}
+  SRTHash: !u 0x8d0d18e7
+  Translate: [0.0, 135.0, -110.38987731933594]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_ModuleWall_L_04
+  Hash: !ul 11095455894080302714
+  Phive:
+    Placement: {ID: !ul 11095455894080302714}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, -3.1415910720825195]
+  SRTHash: !u 0xd72be233
+  Translate: [-3.659998893737793, 135.8699951171875, -77.27999877929688]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_ModuleWall_L_04
+  Hash: !ul 7081911402429798953
+  Phive:
+    Placement: {ID: !ul 7081911402429798953}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, -3.1415910720825195]
+  SRTHash: !u 0xc51d9ea0
+  Translate: [10.810009956359863, 135.8699951171875, -77.27999877929688]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_ModuleWall_L_04
+  Hash: !ul 16732985510884157337
+  Phive:
+    Placement: {ID: !ul 16732985510884157337}
+  SRTHash: !u 0x5cbb38f9
+  Translate: [3.540008306503296, 135.8699951171875, -101.26000213623047]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_ModuleWall_L_04
+  Hash: !ul 11894937318521227654
+  Phive:
+    Placement: {ID: !ul 11894937318521227654}
+  SRTHash: !u 0x336c81a1
+  Translate: [-11.590002059936523, 135.8699951171875, -101.26000213623047]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_ModuleWall_L_05
+  Hash: !ul 12447350966858649811
+  Phive:
+    Placement: {ID: !ul 12447350966858649811}
+  SRTHash: !u 0xb6199633
+  Translate: [0.0, 135.0, -101.55694580078125]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_Pillar_G_08
+  Hash: !ul 11435186704035784243
+  Phive:
+    Placement: {ID: !ul 11435186704035784243}
+  SRTHash: !u 0x1c8d12f7
+  Translate: [3.119999885559082, 143.4499969482422, -77.43002319335938]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_ModuleWall_F_01
+  Hash: !ul 7182619926804181612
+  Phive:
+    Placement: {ID: !ul 7182619926804181612}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xb48837ec
+  Translate: [2.428889274597168e-06, 146.239990234375, -77.010009765625]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_Pillar_G_08
+  Hash: !ul 15822992739379470463
+  Phive:
+    Placement: {ID: !ul 15822992739379470463}
+  Rotate: [3.141587257385254, 0.0, -3.141592502593994]
+  SRTHash: !u 0xd6b1b295
+  Translate: [-3.119999647140503, 143.4499969482422, -77.43002319335938]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_ModuleWall_F_03
+  Hash: !ul 2693886030258920317
+  Phive:
+    Placement: {ID: !ul 2693886030258920317}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xf71a8a35
+  Translate: [-3.989995002746582, 143.4399871826172, -76.98001098632812]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_ModuleWall_F_01
+  Hash: !ul 203232605241984482
+  Phive:
+    Placement: {ID: !ul 203232605241984482}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x22be1665
+  Translate: [7.999999046325684, 146.24000549316406, -77.010009765625]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_ModuleWall_F_03
+  Hash: !ul 599310432754438105
+  Phive:
+    Placement: {ID: !ul 599310432754438105}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x2b0dd547
+  Translate: [12.009997367858887, 143.4399871826172, -76.98001098632812]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_ModuleWall_F_03
+  Hash: !ul 14199453740661681292
+  Phive:
+    Placement: {ID: !ul 14199453740661681292}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xcccede5e
+  Translate: [4.009998798370361, 143.4399871826172, -76.98001098632812]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_ModuleWall_F_01
+  Hash: !ul 15585008931803975108
+  Phive:
+    Placement: {ID: !ul 15585008931803975108}
+  SRTHash: !u 0xf5f304a7
+  Translate: [-11.779996871948242, 146.24000549316406, -101.31999206542969]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_Pillar_G_08
+  Hash: !ul 6215174903009941341
+  Phive:
+    Placement: {ID: !ul 6215174903009941341}
+  Rotate: [3.141587257385254, 0.0, -3.141592502593994]
+  SRTHash: !u 0xa3bdf731
+  Translate: [-3.1700000762939453, 143.4499969482422, -100.88999938964844]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_ModuleWall_F_03
+  Hash: !ul 15113819214380647091
+  Phive:
+    Placement: {ID: !ul 15113819214380647091}
+  SRTHash: !u 0x8da27621
+  Translate: [-11.099992752075195, 143.4399871826172, -101.37998962402344]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_ModuleWall_F_03
+  Hash: !ul 8999702551391772596
+  Phive:
+    Placement: {ID: !ul 8999702551391772596}
+  SRTHash: !u 0x2a0188ff
+  Translate: [4.89999532699585, 143.4399871826172, -101.37998962402344]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_ModuleWall_F_01
+  Hash: !ul 4175912703529783301
+  Phive:
+    Placement: {ID: !ul 4175912703529783301}
+  SRTHash: !u 0x46668881
+  Translate: [-3.780000925064087, 146.24000549316406, -101.31999206542969]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_ModuleWall_F_03
+  Hash: !ul 9941398242828776521
+  Phive:
+    Placement: {ID: !ul 9941398242828776521}
+  SRTHash: !u 0x231e2b0d
+  Translate: [-3.1000008583068848, 143.4399871826172, -101.37998962402344]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_Pillar_G_08
+  Hash: !ul 16072750397690611215
+  Phive:
+    Placement: {ID: !ul 16072750397690611215}
+  SRTHash: !u 0x581b3a78
+  Translate: [3.1700000762939453, 143.4499969482422, -100.88998413085938]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_ModuleWall_F_01
+  Hash: !ul 12592543320523164814
+  Phive:
+    Placement: {ID: !ul 12592543320523164814}
+  SRTHash: !u 0x735ab747
+  Translate: [4.219996452331543, 146.24000549316406, -101.31999206542969]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_ModuleCeiling_B_03
+  Hash: !ul 13407604520278358528
+  Phive:
+    Placement: {ID: !ul 13407604520278358528}
+  SRTHash: !u 0x34aa7f8c
+  Translate: [0.0, 142.08999633789062, -119.09867858886719]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_Pillar_J_03
+  Hash: !ul 10185866168574727119
+  Phive:
+    Placement: {ID: !ul 10185866168574727119}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x24d19243
+  Translate: [8.920000076293945, 135.0, -89.62000274658203]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_Pillar_J_03
+  Hash: !ul 10493703474392434249
+  Phive:
+    Placement: {ID: !ul 10493703474392434249}
+  Rotate: [0.0, -1.570796251296997, -2.384185791015625e-07]
+  SRTHash: !u 0x1bf61d37
+  Translate: [-8.89997386932373, 135.0, -89.62000274658203]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_Statue_A_02
+  Hash: !ul 10418859209200343636
+  Phive:
+    Placement: {ID: !ul 10418859209200343636}
+  SRTHash: !u 0xb5a93bd4
+  Translate: [0.0, 114.1500015258789, -66.18000030517578]
+FilePath: Work/Banc/Scene/DreamWorld/NaboruStage.bcett.json

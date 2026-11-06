@@ -1,0 +1,3728 @@
+Actors:
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyMuseum_A_01
+  Hash: !ul 15214705226555114658
+  Phive:
+    Placement: {ID: !ul 15214705226555114658}
+  SRTHash: !u 0xc552a342
+- Dynamic: {Location: DreamWorld}
+  Gyaml: LocationArea
+  Hash: !ul 2672889681408929391
+  Phive:
+    Placement: {ID: !ul 2672889681408929391}
+  SRTHash: !u 0x971b3f9a
+  Scale: [100.0, 50.0, 100.0]
+  Translate: [0.0, -10.0, 0.0]
+- Gyaml: Npc_Dream
+  Hash: !ul 18173235174354726396
+  Phive:
+    Placement: {ID: !ul 18173235174354726396}
+  Rotate: [1.7887084879930626e-07, -1.0471975803375244, 0.0]
+  SRTHash: !u 0x3857960a
+  Translate: [3.5088000297546387, 1.4908424615859985, -2.0260000228881836]
+- Gyaml: Enemy_SkullKid_Dictionary
+  Hash: !ul 9396776501082958848
+  Links:
+  - {Dst: !ul 16504903878613858457, Gyaml: Reference, Name: Reference, Src: !ul 9396776501082958848}
+  Phive:
+    Placement: {ID: !ul 9396776501082958848}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_SkullKid, IsCheckLazy: true, IsNegation: false}
+  Rotate: [-5.260464490675076e-07, -0.4528753459453583, 3.588115475849918e-07]
+  SRTHash: !u 0x69ea0d25
+  Translate: [8.88068675994873, 1.2699700593948364, -10.396256446838379]
+- Gyaml: Enemy_Poe_Beth_Dictionary
+  Hash: !ul 13629212734782687630
+  Links:
+  - {Dst: !ul 3147890680133018622, Gyaml: Reference, Name: Reference, Src: !ul 13629212734782687630}
+  - {Dst: !ul 9174424298086731338, Gyaml: Reference, Name: Reference, Src: !ul 13629212734782687630}
+  Name: Poe_Dictionary
+  Phive:
+    Placement: {ID: !ul 13629212734782687630}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Poe_Beth, IsCheckLazy: true, IsNegation: false}
+  Rotate: [-9.364432003167167e-07, -1.047197699546814, 1.255666234101227e-06]
+  SRTHash: !u 0x34e18c77
+  Translate: [15.796425819396973, 2.0743789672851562, -9.119940757751465]
+- Gyaml: Enemy_DungeonBoss_PhantomGanon_Dictionary
+  Hash: !ul 9552573131068919237
+  Links:
+  - {Dst: !ul 17231274768012447248, Gyaml: Reference, Name: Reference, Src: !ul 9552573131068919237}
+  - {Dst: !ul 3222917083525501932, Gyaml: Reference, Name: Reference, Src: !ul 9552573131068919237}
+  Phive:
+    Placement: {ID: !ul 9552573131068919237}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_DungeonBoss_PhantomGanon, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [2.7925260066986084, -1.3945178985595703, -3.141592025756836]
+  SRTHash: !u 0x53eab42f
+  Translate: [40.87575149536133, 14.6899995803833, -23.28173828125]
+- Gyaml: Enemy_Scrub_Deku_Dictionary
+  Hash: !ul 10650098905368575090
+  Links:
+  - {Dst: !ul 14654280989087435869, Gyaml: Reference, Name: Reference, Src: !ul 10650098905368575090}
+  - {Dst: !ul 2513266034516795640, Gyaml: Reference, Name: Reference, Src: !ul 10650098905368575090}
+  Phive:
+    Placement: {ID: !ul 10650098905368575090}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Scrub_Deku, IsCheckLazy: true, IsNegation: false}
+  Rotate: [-1.0407078434582218e-06, -0.9133236408233643, 1.0181584002566524e-06]
+  SRTHash: !u 0xe8121f0e
+  Translate: [9.178218841552734, 1.4860000610351562, -8.18526554107666]
+- Gyaml: Enemy_Gohma_Egg_Dictionary
+  Hash: !ul 8542059012985585664
+  Links:
+  - {Dst: !ul 9926162845376248241, Gyaml: Reference, Name: Reference, Src: !ul 8542059012985585664}
+  Phive:
+    Placement: {ID: !ul 8542059012985585664}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Gohma_Larva, IsCheckLazy: true, IsNegation: false}
+  Rotate: [6.019019451741769e-07, -0.72586989402771, -4.94012454055337e-07]
+  SRTHash: !u 0xb8eaa33b
+  Translate: [11.480717658996582, 1.2629194259643555, -7.490036487579346]
+- Gyaml: Enemy_MiddleBoss_Poe_Meg_Dictionary
+  Hash: !ul 3416216453179908560
+  Links:
+  - {Dst: !ul 7865805416578343485, Gyaml: Reference, Name: Reference, Src: !ul 3416216453179908560}
+  - {Dst: !ul 12051680226719943640, Gyaml: Reference, Name: Reference, Src: !ul 3416216453179908560}
+  Name: Poe_Dictionary
+  Phive:
+    Placement: {ID: !ul 3416216453179908560}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_MiddleBoss_Poe_Meg, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [4.1252886262554966e-07, -1.0471988916397095, -3.0199231559890904e-07]
+  SRTHash: !u 0xbca8dacb
+  Translate: [21.12063980102539, 3.8075387477874756, -12.194002151489258]
+- Gyaml: Enemy_Stalfos_Weak_Dictionary
+  Hash: !ul 5743644504385048594
+  Phive:
+    Placement: {ID: !ul 5743644504385048594}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Stalfos_Weak, IsCheckLazy: true, IsNegation: false}
+  Rotate: [-2.485075128788594e-06, -1.3356882333755493, 2.583783498266712e-06]
+  SRTHash: !u 0x94ea1b13
+  Translate: [21.968069076538086, 3.6441004276275635, -7.952486991882324]
+- Gyaml: Enemy_Poe_Joelle_Dictionary
+  Hash: !ul 16681750503852226968
+  Links:
+  - {Dst: !ul 7956519926279993674, Gyaml: Reference, Name: Reference, Src: !ul 16681750503852226968}
+  - {Dst: !ul 10075704880947898183, Gyaml: Reference, Name: Reference, Src: !ul 16681750503852226968}
+  Name: Poe_Dictionary
+  Phive:
+    Placement: {ID: !ul 16681750503852226968}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Poe_Joelle, IsCheckLazy: true, IsNegation: false}
+  Rotate: [-1.2119331813664758e-06, -0.7853983044624329, 1.1833217286039144e-06]
+  SRTHash: !u 0xe4b1b598
+  Translate: [14.03861141204834, 2.0743801593780518, -11.781929016113281]
+- Gyaml: Enemy_Scrub_Mad_Dictionary
+  Hash: !ul 13181996684549078920
+  Links:
+  - {Dst: !ul 17082585471893168568, Gyaml: Reference, Name: Reference, Src: !ul 13181996684549078920}
+  - {Dst: !ul 585482520524904278, Gyaml: Reference, Name: Reference, Src: !ul 13181996684549078920}
+  Phive:
+    Placement: {ID: !ul 13181996684549078920}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Scrub_Mad, IsCheckLazy: true, IsNegation: false}
+  Rotate: [-8.49196055696666e-07, -1.0666990280151367, 8.060588356784137e-07]
+  SRTHash: !u 0xa4458557
+  Translate: [11.402167320251465, 1.4880000352859497, -4.442959308624268]
+- Gyaml: Enemy_Dekubaba_Dictionary
+  Hash: !ul 11536331433652302797
+  Links:
+  - {Dst: !ul 5907256766196871738, Gyaml: Reference, Name: Reference, Src: !ul 11536331433652302797}
+  - {Dst: !ul 1285530080096259558, Gyaml: Reference, Name: Reference, Src: !ul 11536331433652302797}
+  Phive:
+    Placement: {ID: !ul 11536331433652302797}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Dekubaba, IsCheckLazy: true, IsNegation: false}
+  Rotate: [3.141592025756836, -1.1350376605987549, -3.141592025756836]
+  SRTHash: !u 0xda5d6627
+  Translate: [13.145878791809082, 1.278281807899475, -2.947937250137329]
+- Gyaml: Enemy_DungeonBoss_Gohma_Dictionary
+  Hash: !ul 7941428194074597240
+  Links:
+  - {Dst: !ul 12367150699582276449, Gyaml: Reference, Name: Reference, Src: !ul 7941428194074597240}
+  Phive:
+    Placement: {ID: !ul 7941428194074597240}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_DungeonBoss_Gohma, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [-4.155400574745727e-07, -1.0537582635879517, 3.0546277685061796e-07]
+  SRTHash: !u 0x14a77c7f
+  Translate: [28.170137405395508, 5.701211452484131, -16.326873779296875]
+- Gyaml: Enemy_Gohma_Larva_Dictionary
+  Hash: !ul 13366111159346983546
+  Links:
+  - {Dst: !ul 9926162845376248241, Gyaml: Reference, Name: Reference, Src: !ul 13366111159346983546}
+  - {Dst: !ul 8542059012985585664, Gyaml: Reference, Name: Reference, Src: !ul 13366111159346983546}
+  Phive:
+    Placement: {ID: !ul 13366111159346983546}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Gohma_Larva, IsCheckLazy: true, IsNegation: false}
+  Rotate: [-1.21061566460412e-06, -0.7841541767120361, 1.1814573781521176e-06]
+  SRTHash: !u 0x123e0623
+  Translate: [11.214057922363281, 1.27292001247406, -6.646790504455566]
+- Gyaml: Enemy_Poe_Amy_Dictionary
+  Hash: !ul 8759887017783435402
+  Links:
+  - {Dst: !ul 11872953279726679262, Gyaml: Reference, Name: Reference, Src: !ul 8759887017783435402}
+  - {Dst: !ul 6254583616191168535, Gyaml: Reference, Name: Reference, Src: !ul 8759887017783435402}
+  Name: Poe_Dictionary
+  Phive:
+    Placement: {ID: !ul 8759887017783435402}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Poe_Amy, IsCheckLazy: true, IsNegation: false}
+  Rotate: [-1.2920980907438206e-06, -1.2707743644714355, 1.2848363439843524e-06]
+  SRTHash: !u 0x046ac92c
+  Translate: [17.167314529418945, 2.0843772888183594, -6.449812889099121]
+- Gyaml: Enemy_Wolfos_Dictionary
+  Hash: !ul 6067156289718352740
+  Phive:
+    Placement: {ID: !ul 6067156289718352740}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Wolfos, IsCheckLazy: true, IsNegation: false}
+  Rotate: [-1.358867052658752e-06, -0.9006645083427429, 1.3797824749417487e-06]
+  SRTHash: !u 0x905cd4bf
+  Translate: [17.752994537353516, 3.6541049480438232, -14.97624397277832]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.699999988079071}
+  Gyaml: Land_Dream_EnemyPedestal_A_01
+  Hash: !ul 3147890680133018622
+  Name: EnemyBase
+  Phive:
+    Placement: {ID: !ul 3147890680133018622}
+  Rotate: [-9.364432003167167e-07, -1.047197699546814, 1.255666234101227e-06]
+  SRTHash: !u 0x1419e189
+  Translate: [15.81289291381836, 1.6399999856948853, -9.129573822021484]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.699999988079071}
+  Gyaml: Land_Dream_EnemyPedestal_A_01
+  Hash: !ul 11872953279726679262
+  Name: EnemyBase
+  Phive:
+    Placement: {ID: !ul 11872953279726679262}
+  Rotate: [-1.454002813261468e-06, -1.3089971542358398, 1.45331512158009e-06]
+  SRTHash: !u 0xdf10298a
+  Translate: [17.185129165649414, 1.6399999856948853, -6.455325603485107]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.699999988079071}
+  Gyaml: Land_Dream_EnemyPedestal_A_01
+  Hash: !ul 7956519926279993674
+  Name: EnemyBase
+  Phive:
+    Placement: {ID: !ul 7956519926279993674}
+  Rotate: [-1.2119331813664758e-06, -0.7853983044624329, 1.183321842290752e-06]
+  SRTHash: !u 0x72fa23e4
+  Translate: [14.038612365722656, 1.6399999856948853, -11.781927108764648]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.699999988079071}
+  Gyaml: Land_Dream_EnemyPedestal_A_04
+  Hash: !ul 16504903878613858457
+  Name: EnemyBase
+  Phive:
+    Placement: {ID: !ul 16504903878613858457}
+  Rotate: [5.052859908261098e-09, -0.5003591179847717, 3.791009532960743e-07]
+  SRTHash: !u 0x34bb8bb6
+  Translate: [8.764514923095703, 0.8202330470085144, -10.363521575927734]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.699999988079071}
+  Gyaml: Land_Dream_EnemyPedestal_A_01
+  Hash: !ul 5907256766196871738
+  Name: EnemyBase
+  Phive:
+    Placement: {ID: !ul 5907256766196871738}
+  Rotate: [3.1415927410125732, 0.5235989093780518, 3.1415927410125732]
+  SRTHash: !u 0x4a0500fc
+  Translate: [13.0956449508667, 0.8199999928474426, -2.585275411605835]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.699999988079071}
+  Gyaml: Land_Dream_EnemyPedestal_A_01
+  Hash: !ul 17082585471893168568
+  Name: EnemyBase
+  Phive:
+    Placement: {ID: !ul 17082585471893168568}
+  Rotate: [3.1415927410125732, 0.7853983044624329, 3.1415927410125732]
+  SRTHash: !u 0x693064be
+  Translate: [11.393743515014648, 0.8199999928474426, -4.438096046447754]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.699999988079071}
+  Gyaml: Land_Dream_EnemyPedestal_A_01
+  Hash: !ul 9926162845376248241
+  Name: EnemyBase
+  Phive:
+    Placement: {ID: !ul 9926162845376248241}
+  Rotate: [3.1415927410125732, 1.047197699546814, 3.1415927410125732]
+  SRTHash: !u 0xce6b7640
+  Translate: [11.373102188110352, 0.8199999928474426, -6.983537673950195]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.699999988079071}
+  Gyaml: Land_Dream_EnemyPedestal_A_01
+  Hash: !ul 14654280989087435869
+  Name: EnemyBase
+  Phive:
+    Placement: {ID: !ul 14654280989087435869}
+  Rotate: [3.1415927410125732, 1.3089971542358398, 3.1415927410125732]
+  SRTHash: !u 0xe877de89
+  Translate: [9.151958465576172, 0.8199999928474426, -8.170104026794434]
+- Gyaml: Enemy_PhantomGanonHorse_Dictionary
+  Hash: !ul 3222917083525501932
+  Links:
+  - {Dst: !ul 17231274768012447248, Gyaml: Reference, Name: Reference, Src: !ul 3222917083525501932}
+  Phive:
+    Placement: {ID: !ul 3222917083525501932}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_DungeonBoss_PhantomGanon, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [0.0, -1.5707961320877075, -7.54979225803254e-08]
+  SRTHash: !u 0xc688d5f4
+  Translate: [39.9559440612793, 11.91100025177002, -23.447364807128906]
+- Gyaml: Enemy_Dekubaba_Withered_Dictionary
+  Hash: !ul 1285530080096259558
+  Links:
+  - {Dst: !ul 5907256766196871738, Gyaml: Reference, Name: Reference, Src: !ul 1285530080096259558}
+  Phive:
+    Placement: {ID: !ul 1285530080096259558}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Dekubaba, IsCheckLazy: true, IsNegation: false}
+  Rotate: [0.0, -1.5707958936691284, -4.371133144331907e-08]
+  SRTHash: !u 0xa8298c48
+  Translate: [13.075164794921875, 1.2782810926437378, -2.266277551651001]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.699999988079071}
+  Gyaml: Land_Dream_EnemyPedestal_A_02
+  Hash: !ul 1413813772799736012
+  Name: EnemyBase
+  Phive:
+    Placement: {ID: !ul 1413813772799736012}
+  Rotate: [-6.562381145158724e-07, -1.3089971542358398, 5.635244519908156e-07]
+  SRTHash: !u 0xb942a7fb
+  Translate: [11.5037260055542, 1.6397123336791992, -13.555746078491211]
+- Gyaml: Enemy_Floormaster_Dictionary
+  Hash: !ul 1301441268025867560
+  Links:
+  - {Dst: !ul 1413813772799736012, Gyaml: Reference, Name: Reference, Src: !ul 1301441268025867560}
+  - {Dst: !ul 6020551388661384928, Gyaml: Reference, Name: Reference, Src: !ul 1301441268025867560}
+  Phive:
+    Placement: {ID: !ul 1301441268025867560}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Floormaster, IsCheckLazy: true, IsNegation: false}
+  Rotate: [3.3592718295949453e-07, -0.7853981852531433, -2.0626410446311638e-07]
+  SRTHash: !u 0xb9510fc0
+  Translate: [11.780102729797363, 2.130112886428833, -13.49419116973877]
+- Gyaml: Enemy_Wallmaster_Dictionary
+  Hash: !ul 17799977048767589772
+  Links:
+  - {Dst: !ul 975057425059277422, Gyaml: Reference, Name: Reference, Src: !ul 17799977048767589772}
+  Phive:
+    Placement: {ID: !ul 17799977048767589772}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Wallmaster, IsCheckLazy: true, IsNegation: false}
+  Rotate: [3.1415836811065674, -1.5564894676208496, -3.1415836811065674]
+  SRTHash: !u 0xbab04ce3
+  Translate: [18.326690673828125, 2.1001968383789062, -3.6453404426574707]
+- Gyaml: Enemy_Floormaster_Little_Dictionary
+  Hash: !ul 6020551388661384928
+  Links:
+  - {Dst: !ul 1413813772799736012, Gyaml: Reference, Name: Reference, Src: !ul 6020551388661384928}
+  Phive:
+    Placement: {ID: !ul 6020551388661384928}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Floormaster, IsCheckLazy: true, IsNegation: false}
+  Rotate: [3.141592502593994, -1.3089967966079712, -3.141592264175415]
+  SRTHash: !u 0x8be1b7c4
+  Translate: [11.305423736572266, 2.137807846069336, -14.245323181152344]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.699999988079071}
+  Gyaml: Land_Dream_EnemyPedestal_A_01
+  Hash: !ul 975057425059277422
+  Name: EnemyBase
+  Phive:
+    Placement: {ID: !ul 975057425059277422}
+  Rotate: [3.1415836811065674, -1.5564894676208496, -3.1415836811065674]
+  SRTHash: !u 0x70d7b507
+  Translate: [17.868850708007812, 1.6403945684432983, -3.4828734397888184]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_02
+  Hash: !ul 7346607112363766060
+  Links:
+  - {Dst: !ul 13181996684549078920, Gyaml: Reference, Name: Reference, Src: !ul 7346607112363766060}
+  - {Dst: !ul 3879249469812868235, Gyaml: Reference, Name: Reference, Src: !ul 7346607112363766060}
+  Phive:
+    Placement: {ID: !ul 7346607112363766060}
+  Presence: {FlagName: DreamWorldPlate_Enemy_Scrub_Mad, IsCheckLazy: true, IsNegation: false}
+  Rotate: [3.1415927410125732, 1.2092516422271729, 3.1415927410125732]
+  SRTHash: !u 0x42c86289
+  Translate: [10.600260734558105, 1.2700283527374268, -4.14908504486084]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_01
+  Hash: !ul 16037359041020944251
+  Links:
+  - {Dst: !ul 11536331433652302797, Gyaml: Reference, Name: Reference, Src: !ul 16037359041020944251}
+  - {Dst: !ul 18417681152038460759, Gyaml: Reference, Name: Reference, Src: !ul 16037359041020944251}
+  Phive:
+    Placement: {ID: !ul 16037359041020944251}
+  Presence: {FlagName: DreamWorldPlate_Enemy_Dekubaba, IsCheckLazy: true, IsNegation: false}
+  Rotate: [3.1415927410125732, 1.3856221437454224, 3.1415927410125732]
+  SRTHash: !u 0x648e32f4
+  Translate: [12.364480972290039, 1.2670531272888184, -2.7643094062805176]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_01
+  Hash: !ul 3774553378206450022
+  Links:
+  - {Dst: !ul 13366111159346983546, Gyaml: Reference, Name: Reference, Src: !ul 3774553378206450022}
+  - {Dst: !ul 7540639956597369141, Gyaml: Reference, Name: Reference, Src: !ul 3774553378206450022}
+  Phive:
+    Placement: {ID: !ul 3774553378206450022}
+  Presence: {FlagName: DreamWorldPlate_Enemy_Gohma_Larva, IsCheckLazy: true, IsNegation: false}
+  Rotate: [-3.141592502593994, 0.9914239645004272, 3.1415927410125732]
+  SRTHash: !u 0x93f80835
+  Translate: [10.652216911315918, 1.2700474262237549, -6.591382026672363]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_02
+  Hash: !ul 6576002853155031793
+  Links:
+  - {Dst: !ul 10650098905368575090, Gyaml: Reference, Name: Reference, Src: !ul 6576002853155031793}
+  - {Dst: !ul 3060383613022118567, Gyaml: Reference, Name: Reference, Src: !ul 6576002853155031793}
+  Phive:
+    Placement: {ID: !ul 6576002853155031793}
+  Presence: {FlagName: DreamWorldPlate_Enemy_Scrub_Deku, IsCheckLazy: true, IsNegation: false}
+  Rotate: [3.1415927410125732, 0.8367894887924194, 3.1415927410125732]
+  SRTHash: !u 0x8e6eb08a
+  Translate: [8.533910751342773, 1.270033836364746, -7.604328155517578]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_01
+  Hash: !ul 10320814212796291882
+  Links:
+  - {Dst: !ul 9396776501082958848, Gyaml: Reference, Name: Reference, Src: !ul 10320814212796291882}
+  - {Dst: !ul 5585376622876242780, Gyaml: Reference, Name: Reference, Src: !ul 10320814212796291882}
+  Phive:
+    Placement: {ID: !ul 10320814212796291882}
+  Presence: {FlagName: DreamWorldPlate_Enemy_SkullKid, IsCheckLazy: true, IsNegation: false}
+  Rotate: [3.1415927410125732, 0.7008395195007324, 3.1415927410125732]
+  SRTHash: !u 0x5a912270
+  Translate: [8.365287780761719, 1.270232915878296, -10.063265800476074]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_01_Boss
+  Hash: !ul 6751937180976320487
+  Links:
+  - {Dst: !ul 6067156289718352740, Gyaml: Reference, Name: Reference, Src: !ul 6751937180976320487}
+  Phive:
+    Placement: {ID: !ul 6751937180976320487}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Wolfos, IsCheckLazy: true, IsNegation: false}
+  Rotate: [3.1415927410125732, 0.772549569606781, 3.1415927410125732]
+  SRTHash: !u 0xa4229912
+  Translate: [17.09815788269043, 3.674999952316284, -14.524157524108887]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_02_Boss
+  Hash: !ul 824663737811474352
+  Links:
+  - {Dst: !ul 3416216453179908560, Gyaml: Reference, Name: Reference, Src: !ul 824663737811474352}
+  Phive:
+    Placement: {ID: !ul 824663737811474352}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_MiddleBoss_Poe_Meg, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [3.1415927410125732, 1.047197699546814, 3.1415927410125732]
+  SRTHash: !u 0x88f21bbf
+  Translate: [20.652225494384766, 4.125, -11.537346839904785]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_01_Boss
+  Hash: !ul 12373889497385127331
+  Links:
+  - {Dst: !ul 5743644504385048594, Gyaml: Reference, Name: Reference, Src: !ul 12373889497385127331}
+  Phive:
+    Placement: {ID: !ul 12373889497385127331}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Stalfos_Weak, IsCheckLazy: true, IsNegation: false}
+  Rotate: [3.1415927410125732, 1.3218426704406738, 3.1415927410125732]
+  SRTHash: !u 0xd580f717
+  Translate: [21.064424514770508, 3.674999952316284, -7.926759719848633]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_03
+  Hash: !ul 9837375931499737105
+  Links:
+  - {Dst: !ul 7941428194074597240, Gyaml: Reference, Name: Reference, Src: !ul 9837375931499737105}
+  Phive:
+    Placement: {ID: !ul 9837375931499737105}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_DungeonBoss_Gohma, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [3.1415927410125732, 1.047197699546814, 3.1415927410125732]
+  SRTHash: !u 0x8e7bbe2c
+  Translate: [27.06012725830078, 5.704999923706055, -14.654844284057617]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_03
+  Hash: !ul 1849588649043160402
+  Links:
+  - {Dst: !ul 9552573131068919237, Gyaml: Reference, Name: Reference, Src: !ul 1849588649043160402}
+  Phive:
+    Placement: {ID: !ul 1849588649043160402}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_DungeonBoss_PhantomGanon, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [3.1415927410125732, 1.047197699546814, 3.1415927410125732]
+  SRTHash: !u 0x7f24ea93
+  Translate: [37.042701721191406, 11.904999732971191, -22.299259185791016]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_02
+  Hash: !ul 10947483594768093199
+  Links:
+  - {Dst: !ul 1301441268025867560, Gyaml: Reference, Name: Reference, Src: !ul 10947483594768093199}
+  - {Dst: !ul 15011771423850469000, Gyaml: Reference, Name: Reference, Src: !ul 10947483594768093199}
+  Phive:
+    Placement: {ID: !ul 10947483594768093199}
+  Presence: {FlagName: DreamWorldPlate_Enemy_Floormaster, IsCheckLazy: true, IsNegation: false}
+  Rotate: [3.1415927410125732, 0.8962723016738892, 3.1415927410125732]
+  SRTHash: !u 0xdb979e50
+  Translate: [10.475275993347168, 2.090830087661743, -13.281700134277344]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_01
+  Hash: !ul 15839584088532934825
+  Links:
+  - {Dst: !ul 16681750503852226968, Gyaml: Reference, Name: Reference, Src: !ul 15839584088532934825}
+  - {Dst: !ul 4912306634731453656, Gyaml: Reference, Name: Reference, Src: !ul 15839584088532934825}
+  Phive:
+    Placement: {ID: !ul 15839584088532934825}
+  Presence: {FlagName: DreamWorldPlate_Enemy_Poe_Joelle, IsCheckLazy: true, IsNegation: false}
+  Rotate: [-3.141592502593994, 0.8523237705230713, 3.1415927410125732]
+  SRTHash: !u 0xffb92b5d
+  Translate: [13.723133087158203, 2.0900139808654785, -11.112085342407227]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_02
+  Hash: !ul 2232547669550044611
+  Links:
+  - {Dst: !ul 13629212734782687630, Gyaml: Reference, Name: Reference, Src: !ul 2232547669550044611}
+  - {Dst: !ul 14525266758892847196, Gyaml: Reference, Name: Reference, Src: !ul 2232547669550044611}
+  Phive:
+    Placement: {ID: !ul 2232547669550044611}
+  Presence: {FlagName: DreamWorldPlate_Enemy_Poe_Beth, IsCheckLazy: true, IsNegation: false}
+  Rotate: [-3.141592502593994, 1.0582917928695679, 3.1415927410125732]
+  SRTHash: !u 0x569e2899
+  Translate: [15.36872673034668, 2.0900020599365234, -8.536113739013672]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_01
+  Hash: !ul 4599388795438722402
+  Links:
+  - {Dst: !ul 8759887017783435402, Gyaml: Reference, Name: Reference, Src: !ul 4599388795438722402}
+  - {Dst: !ul 12768271059226080025, Gyaml: Reference, Name: Reference, Src: !ul 4599388795438722402}
+  Phive:
+    Placement: {ID: !ul 4599388795438722402}
+  Presence: {FlagName: DreamWorldPlate_Enemy_Poe_Amy, IsCheckLazy: true, IsNegation: false}
+  Rotate: [-3.141592502593994, 1.2125228643417358, 3.1415927410125732]
+  SRTHash: !u 0xb6669f62
+  Translate: [16.649402618408203, 2.09000563621521, -5.95522928237915]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_02
+  Hash: !ul 2446277697434406159
+  Links:
+  - {Dst: !ul 17799977048767589772, Gyaml: Reference, Name: Reference, Src: !ul 2446277697434406159}
+  - {Dst: !ul 2538448314512085723, Gyaml: Reference, Name: Reference, Src: !ul 2446277697434406159}
+  Phive:
+    Placement: {ID: !ul 2446277697434406159}
+  Presence: {FlagName: DreamWorldPlate_Enemy_Wallmaster, IsCheckLazy: true, IsNegation: false}
+  Rotate: [-3.141592264175415, 1.3741484880447388, 3.1415927410125732]
+  SRTHash: !u 0xf1017d3e
+  Translate: [17.120361328125, 2.0904057025909424, -3.6638288497924805]
+- Gyaml: Weapon_PoeSisters_Beth_Torch_Dictionary
+  Hash: !ul 9174424298086731338
+  Links:
+  - {Dst: !ul 13629212734782687630, Gyaml: Reference, Name: Reference, Src: !ul 9174424298086731338}
+  Phive:
+    Placement: {ID: !ul 9174424298086731338}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Poe_Beth, IsCheckLazy: true, IsNegation: false}
+  Rotate: [-9.364432003167167e-07, -1.047197699546814, 1.255666234101227e-06]
+  SRTHash: !u 0x34e18c77
+  Translate: [15.796425819396973, 2.0743789672851562, -9.119940757751465]
+- Gyaml: Weapon_PoeSisters_Joelle_Torch_Dictionary
+  Hash: !ul 10075704880947898183
+  Links:
+  - {Dst: !ul 16681750503852226968, Gyaml: Reference, Name: Reference, Src: !ul 10075704880947898183}
+  Phive:
+    Placement: {ID: !ul 10075704880947898183}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Poe_Joelle, IsCheckLazy: true, IsNegation: false}
+  Rotate: [-1.2119331813664758e-06, -0.7853983044624329, 1.1833217286039144e-06]
+  SRTHash: !u 0xe4b1b598
+  Translate: [14.03861141204834, 2.0743801593780518, -11.781929016113281]
+- Gyaml: Weapon_PoeSisters_Meg_Torch_Dictionary
+  Hash: !ul 12051680226719943640
+  Links:
+  - {Dst: !ul 3416216453179908560, Gyaml: Reference, Name: Reference, Src: !ul 12051680226719943640}
+  Phive:
+    Placement: {ID: !ul 12051680226719943640}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_MiddleBoss_Poe_Meg, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [4.1252886262554966e-07, -1.0471988916397095, -3.0199231559890904e-07]
+  SRTHash: !u 0xbca8dacb
+  Translate: [21.12063980102539, 3.8075387477874756, -12.194002151489258]
+- Gyaml: Weapon_PoeSisters_Amy_Torch_Dictionary
+  Hash: !ul 6254583616191168535
+  Links:
+  - {Dst: !ul 8759887017783435402, Gyaml: Reference, Name: Reference, Src: !ul 6254583616191168535}
+  Phive:
+    Placement: {ID: !ul 6254583616191168535}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Poe_Amy, IsCheckLazy: true, IsNegation: false}
+  Rotate: [-1.2920980907438206e-06, -1.2707743644714355, 1.2848363439843524e-06]
+  SRTHash: !u 0x046ac92c
+  Translate: [17.167314529418945, 2.0843772888183594, -6.449812889099121]
+- Gyaml: Enemy_Scrub_Deku_Leaf_Dictionary
+  Hash: !ul 2513266034516795640
+  Phive:
+    Placement: {ID: !ul 2513266034516795640}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Scrub_Deku, IsCheckLazy: true, IsNegation: false}
+  SRTHash: !u 0xe20ac44e
+  Translate: [9.151958465576172, 1.3085442781448364, -8.170104026794434]
+- Gyaml: Enemy_Scrub_Mad_Leaf_Dictionary
+  Hash: !ul 585482520524904278
+  Phive:
+    Placement: {ID: !ul 585482520524904278}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Scrub_Mad, IsCheckLazy: true, IsNegation: false}
+  SRTHash: !u 0xbddafa39
+  Translate: [11.393742561340332, 1.3085442781448364, -4.4380950927734375]
+- Gyaml: Enemy_Poe_Beth_Dictionary_Undefeated
+  Hash: !ul 14525266758892847196
+  Phive:
+    Placement: {ID: !ul 14525266758892847196}
+  Presence: {FlagName: UndefeatedEnemyAfterGameClear_Enemy_Poe_Beth, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [-9.364432003167167e-07, -1.047197699546814, 1.255666234101227e-06]
+  SRTHash: !u 0x34e18c77
+  Translate: [15.796425819396973, 2.0743789672851562, -9.119940757751465]
+- Gyaml: Enemy_Poe_Joelle_Dictionary_Undefeated
+  Hash: !ul 4912306634731453656
+  Phive:
+    Placement: {ID: !ul 4912306634731453656}
+  Presence: {FlagName: UndefeatedEnemyAfterGameClear_Enemy_Poe_Joelle, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [-1.2119331813664758e-06, -0.7853983044624329, 1.1833217286039144e-06]
+  SRTHash: !u 0xe4b1b598
+  Translate: [14.03861141204834, 2.0743801593780518, -11.781929016113281]
+- Gyaml: Enemy_Poe_Amy_Dictionary_Undefeated
+  Hash: !ul 12768271059226080025
+  Phive:
+    Placement: {ID: !ul 12768271059226080025}
+  Presence: {FlagName: UndefeatedEnemyAfterGameClear_Enemy_Poe_Amy, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [-1.2920980907438206e-06, -1.2707743644714355, 1.2848363439843524e-06]
+  SRTHash: !u 0x046ac92c
+  Translate: [17.167314529418945, 2.0843772888183594, -6.449812889099121]
+- Gyaml: Enemy_Floormaster_Dictionary_Undefeated
+  Hash: !ul 15011771423850469000
+  Phive:
+    Placement: {ID: !ul 15011771423850469000}
+  Presence: {FlagName: UndefeatedEnemyAfterGameClear_Enemy_Floormaster, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [3.3592718295949453e-07, -0.7853981852531433, -2.0626410446311638e-07]
+  SRTHash: !u 0xb9510fc0
+  Translate: [11.780102729797363, 2.130112886428833, -13.49419116973877]
+- Gyaml: Enemy_Wallmaster_Dictionary_Undefeated
+  Hash: !ul 2538448314512085723
+  Phive:
+    Placement: {ID: !ul 2538448314512085723}
+  Presence: {FlagName: UndefeatedEnemyAfterGameClear_Enemy_Wallmaster, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [3.1415836811065674, -1.5564894676208496, -3.1415836811065674]
+  SRTHash: !u 0xbab04ce3
+  Translate: [18.326690673828125, 2.1001968383789062, -3.6453404426574707]
+- Gyaml: Enemy_Scrub_Deku_Dictionary_Undefeated
+  Hash: !ul 3060383613022118567
+  Phive:
+    Placement: {ID: !ul 3060383613022118567}
+  Presence: {FlagName: UndefeatedEnemyAfterGameClear_Enemy_Scrub_Deku, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [-1.040707729771384e-06, -0.9133235812187195, 1.0181582865698147e-06]
+  SRTHash: !u 0x29a68084
+  Translate: [9.178218841552734, 0.6221871376037598, -8.18526554107666]
+- Gyaml: Enemy_Dekubaba_Dictionary_Undefeated
+  Hash: !ul 18417681152038460759
+  Phive:
+    Placement: {ID: !ul 18417681152038460759}
+  Presence: {FlagName: UndefeatedEnemyAfterGameClear_Enemy_Dekubaba, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [3.141592025756836, -1.1350376605987549, -3.141592025756836]
+  SRTHash: !u 0xdfd8cbbb
+  Translate: [13.145878791809082, 0.9435847997665405, -2.947937250137329]
+- Gyaml: Enemy_SkullKid_Dictionary_Undefeated
+  Hash: !ul 5585376622876242780
+  Phive:
+    Placement: {ID: !ul 5585376622876242780}
+  Presence: {FlagName: UndefeatedEnemyAfterGameClear_Enemy_SkullKid, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [-5.260464490675076e-07, -0.4528753459453583, 3.588115475849918e-07]
+  SRTHash: !u 0x52c8b2e6
+  Translate: [9.014936447143555, 0.9455398321151733, -10.163728713989258]
+- Gyaml: Enemy_Scrub_Mad_Dictionary_Undefeated
+  Hash: !ul 3879249469812868235
+  Phive:
+    Placement: {ID: !ul 3879249469812868235}
+  Presence: {FlagName: UndefeatedEnemyAfterGameClear_Enemy_Scrub_Mad, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [-8.49196055696666e-07, -1.0666990280151367, 8.060588356784137e-07]
+  SRTHash: !u 0x81b50478
+  Translate: [11.402167320251465, 0.5524944067001343, -4.442959308624268]
+- Gyaml: Enemy_Gohma_Larva_Dictionary_Undefeated
+  Hash: !ul 7540639956597369141
+  Phive:
+    Placement: {ID: !ul 7540639956597369141}
+  Presence: {FlagName: UndefeatedEnemyAfterGameClear_Enemy_Gohma_Larva, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [-1.21061566460412e-06, -0.7841541767120361, 1.1814573781521176e-06]
+  SRTHash: !u 0xe5c44f3e
+  Translate: [11.10572338104248, 1.2629196643829346, -6.4973273277282715]
+- Gyaml: Enemy_Moblin_Club_Dictionary
+  Hash: !ul 8573075741715573584
+  Links:
+  - {Dst: !ul 847119738041867868, Gyaml: Reference, Name: Reference, Src: !ul 8573075741715573584}
+  Phive:
+    Placement: {ID: !ul 8573075741715573584}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Moblin_Club, IsCheckLazy: true, IsNegation: false}
+  Rotate: [-4.444502224032476e-07, -0.9236384630203247, 0.0]
+  SRTHash: !u 0x2eaccf05
+  Translate: [2.4338490962982178, 2.1019065380096436, -19.215795516967773]
+- Gyaml: Enemy_DungeonBoss_Ganondorf_Dictionary
+  Hash: !ul 7987211239331813963
+  Links:
+  - {Dst: !ul 16451554546396359873, Gyaml: Reference, Name: Reference, Src: !ul 7987211239331813963}
+  Phive:
+    Placement: {ID: !ul 7987211239331813963}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_DungeonBoss_Ganondorf, IsCheckLazy: true,
+    IsNegation: false}
+  SRTHash: !u 0x3ec785d1
+  Translate: [0.0, 7.577742099761963, -36.41684341430664]
+- Gyaml: Enemy_Skullwalltula_Dictionary
+  Hash: !ul 6967735084406583496
+  Links:
+  - {Dst: !ul 11024524114121254000, Gyaml: Reference, Name: Reference, Src: !ul 6967735084406583496}
+  Phive:
+    Placement: {ID: !ul 6967735084406583496}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Skullwalltula, IsCheckLazy: true, IsNegation: false}
+  Rotate: [1.5707963705062866, 0.21141047775745392, 0.0]
+  SRTHash: !u 0x2a5c9d64
+  Translate: [-2.0190582275390625, 2.1985809803009033, -11.39074993133545]
+- Gyaml: Enemy_IronKnuckle_White_Dictionary
+  Hash: !ul 17512965546074123650
+  Links:
+  - {Dst: !ul 2416009367244143683, Gyaml: Reference, Name: Reference, Src: !ul 17512965546074123650}
+  Phive:
+    Placement: {ID: !ul 17512965546074123650}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_IronKnuckle_White, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [0.0, 0.42271068692207336, 0.0]
+  SRTHash: !u 0x7c95d08b
+  Translate: [1.155287265777588, 3.667839765548706, -26.335758209228516]
+- Gyaml: Enemy_Stalchild_Dictionary
+  Hash: !ul 8313155521712065312
+  Links:
+  - {Dst: !ul 11716619811873764641, Gyaml: Reference, Name: Reference, Src: !ul 8313155521712065312}
+  - {Dst: !ul 2384599473796289695, Gyaml: Reference, Name: Reference, Src: !ul 8313155521712065312}
+  Phive:
+    Placement: {ID: !ul 8313155521712065312}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Stalchild, IsCheckLazy: true, IsNegation: false}
+  Rotate: [0.0, -0.6046857237815857, 0.0]
+  SRTHash: !u 0xe325cf8d
+  Translate: [3.392775774002075, 1.2699999809265137, -12.082869529724121]
+- Gyaml: Enemy_IronKnuckle_Black_Dictionary
+  Hash: !ul 10240097550014660440
+  Links:
+  - {Dst: !ul 2416009367244143683, Gyaml: Reference, Name: Reference, Src: !ul 10240097550014660440}
+  - {Dst: !ul 17512965546074123650, Gyaml: Reference, Name: Reference, Src: !ul 10240097550014660440}
+  Phive:
+    Placement: {ID: !ul 10240097550014660440}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_IronKnuckle_Black, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [0.0, -0.27913540601730347, 0.0]
+  SRTHash: !u 0x3d7a2636
+  Translate: [-0.9874939918518066, 3.667839765548706, -26.289432525634766]
+- Gyaml: Enemy_Skulltula_Gold_Dictionary
+  Hash: !ul 10195917152992259877
+  Links:
+  - {Dst: !ul 4652590314071169387, Gyaml: Reference, Name: Reference, Src: !ul 10195917152992259877}
+  Phive:
+    Placement: {ID: !ul 10195917152992259877}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Skulltula_Gold, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [1.5707963705062866, -0.2088971734046936, 0.0]
+  SRTHash: !u 0x221206e0
+  Translate: [1.2736190557479858, 2.1876113414764404, -11.596860885620117]
+- Gyaml: Enemy_DungeonBoss_Ganon_Dictionary
+  Hash: !ul 15465409877376987290
+  Links:
+  - {Dst: !ul 4272712035258737491, Gyaml: Reference, Name: Reference, Src: !ul 15465409877376987290}
+  Phive:
+    Placement: {ID: !ul 15465409877376987290}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_DungeonBoss_Ganon, IsCheckLazy: true,
+    IsNegation: false}
+  SRTHash: !u 0xc82c2cf3
+  Translate: [0.0, 11.899999618530273, -46.752716064453125]
+- Gyaml: Enemy_Moblin_Dictionary
+  Hash: !ul 14585288357306981553
+  Links:
+  - {Dst: !ul 15903281107287603818, Gyaml: Reference, Name: Reference, Src: !ul 14585288357306981553}
+  Phive:
+    Placement: {ID: !ul 14585288357306981553}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Moblin, IsCheckLazy: true, IsNegation: false}
+  Rotate: [-2.4658271513544605e-07, 0.5133280754089355, 0.0]
+  SRTHash: !u 0xb2d1beaa
+  Translate: [-2.387767791748047, 2.101905345916748, -19.874727249145508]
+- Gyaml: Enemy_Skulltula_Dictionary
+  Hash: !ul 6660117017740842058
+  Links:
+  - {Dst: !ul 11268970552144137635, Gyaml: Reference, Name: Reference, Src: !ul 6660117017740842058}
+  Phive:
+    Placement: {ID: !ul 6660117017740842058}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Skulltula, IsCheckLazy: true, IsNegation: false}
+  SRTHash: !u 0xfd8be50a
+  Translate: [-0.41699397563934326, 2.490000009536743, -13.336982727050781]
+- Gyaml: Enemy_Peahat_Larva_Dictionary
+  Hash: !ul 9752031370773266170
+  Links:
+  - {Dst: !ul 2904308884504360156, Gyaml: Reference, Name: Reference, Src: !ul 9752031370773266170}
+  Phive:
+    Placement: {ID: !ul 9752031370773266170}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Peahat_Larva, IsCheckLazy: true, IsNegation: false}
+  Rotate: [0.0, 0.5235987901687622, 0.0]
+  SRTHash: !u 0xf325ec12
+  Translate: [-4.256748199462891, 1.5789296627044678, -12.655888557434082]
+- Gyaml: Enemy_Peahat_Dictionary
+  Hash: !ul 11929261422820035309
+  Links:
+  - {Dst: !ul 11168227127866559711, Gyaml: Reference, Name: Reference, Src: !ul 11929261422820035309}
+  Phive:
+    Placement: {ID: !ul 11929261422820035309}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Peahat, IsCheckLazy: true, IsNegation: false}
+  Rotate: [0.0, 0.6981316804885864, -0.10471975803375244]
+  SRTHash: !u 0x9a39a054
+  Scale: [0.8500000238418579, 0.8500000238418579, 0.8500000238418579]
+  Translate: [-6.059901237487793, 3.127873182296753, -16.93320083618164]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.699999988079071}
+  Gyaml: Land_Dream_EnemyPedestal_A_03
+  Hash: !ul 15903281107287603818
+  Name: EnemyBase
+  Phive:
+    Placement: {ID: !ul 15903281107287603818}
+  Rotate: [-2.4658271513544605e-07, 0.2617993950843811, 0.0]
+  SRTHash: !u 0x36ef7c0d
+  Translate: [-2.4410228729248047, 1.6399980783462524, -19.969194412231445]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.699999988079071}
+  Gyaml: Land_Dream_EnemyPedestal_A_02
+  Hash: !ul 11168227127866559711
+  Name: EnemyBase
+  Phive:
+    Placement: {ID: !ul 11168227127866559711}
+  SRTHash: !u 0x551e448c
+  Translate: [-6.059901237487793, 1.6399999856948853, -16.93320083618164]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.699999988079071}
+  Gyaml: Land_Dream_EnemyPedestal_A_03
+  Hash: !ul 847119738041867868
+  Name: EnemyBase
+  Phive:
+    Placement: {ID: !ul 847119738041867868}
+  Rotate: [-4.444501939815382e-07, -0.2617993950843811, 0.0]
+  SRTHash: !u 0xd2593663
+  Translate: [3.3190829753875732, 1.639997124671936, -19.884794235229492]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.699999988079071}
+  Gyaml: Land_Dream_EnemyPedestal_A_01
+  Hash: !ul 2904308884504360156
+  Name: EnemyBase
+  Phive:
+    Placement: {ID: !ul 2904308884504360156}
+  Rotate: [0.0, 0.5235987901687622, 0.0]
+  SRTHash: !u 0x542f9403
+  Translate: [-4.256748199462891, 0.8199999928474426, -12.655888557434082]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.699999988079071}
+  Gyaml: Land_Dream_EnemyPedestal_A_04
+  Hash: !ul 11024524114121254000
+  Name: EnemyBase
+  Phive:
+    Placement: {ID: !ul 11024524114121254000}
+  Rotate: [0.0, 0.2617994248867035, 0.0]
+  SRTHash: !u 0x92d790d5
+  Translate: [-2.0190582275390625, 0.8199999928474426, -11.39074993133545]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.699999988079071}
+  Gyaml: Land_Dream_EnemyPedestal_A_01
+  Hash: !ul 11268970552144137635
+  Name: EnemyBase
+  Phive:
+    Placement: {ID: !ul 11268970552144137635}
+  SRTHash: !u 0xdfbb4ec7
+  Translate: [-0.41699397563934326, 0.8199999928474426, -13.336982727050781]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.699999988079071}
+  Gyaml: Land_Dream_EnemyPedestal_A_04
+  Hash: !ul 4652590314071169387
+  Name: EnemyBase
+  Phive:
+    Placement: {ID: !ul 4652590314071169387}
+  Rotate: [0.0, -0.2617994248867035, 0.0]
+  SRTHash: !u 0x70284f65
+  Translate: [1.2581673860549927, 0.8199999928474426, -11.523970603942871]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.699999988079071}
+  Gyaml: Land_Dream_EnemyPedestal_A_02
+  Hash: !ul 11716619811873764641
+  Name: EnemyBase
+  Phive:
+    Placement: {ID: !ul 11716619811873764641}
+  Rotate: [0.0, -0.5235987901687622, 0.0]
+  SRTHash: !u 0xd1792054
+  Translate: [4.036778450012207, 0.8199999928474426, -12.431676864624023]
+- Gyaml: Enemy_Stalchild_Big_Dictionary
+  Hash: !ul 2384599473796289695
+  Links:
+  - {Dst: !ul 11716619811873764641, Gyaml: Reference, Name: Reference, Src: !ul 2384599473796289695}
+  Phive:
+    Placement: {ID: !ul 2384599473796289695}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Stalchild, IsCheckLazy: true, IsNegation: false}
+  Rotate: [0.0, -0.1591038852930069, 0.0]
+  SRTHash: !u 0xc5c91964
+  Translate: [4.499218463897705, 1.2630000114440918, -12.583572387695312]
+- Gyaml: Enemy_Scrub_Business_Dictionary
+  Hash: !ul 3131149882522767442
+  Links:
+  - {Dst: !ul 8094180417065426675, Gyaml: Reference, Name: Reference, Src: !ul 3131149882522767442}
+  - {Dst: !ul 8258988726465164821, Gyaml: Reference, Name: Reference, Src: !ul 3131149882522767442}
+  Phive:
+    Placement: {ID: !ul 3131149882522767442}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Scrub_Business, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [-1.2817056358471746e-06, -0.5721250176429749, 9.162297942566511e-07]
+  SRTHash: !u 0xef1a7841
+  Translate: [5.892103672027588, 2.324380874633789, -16.956398010253906]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.699999988079071}
+  Gyaml: Land_Dream_EnemyPedestal_A_05
+  Hash: !ul 8094180417065426675
+  Name: EnemyBase
+  Phive:
+    Placement: {ID: !ul 8094180417065426675}
+  Rotate: [-1.3066104429526604e-06, -0.6130044460296631, 9.608137361283298e-07]
+  SRTHash: !u 0xa1afec4e
+  Translate: [5.82545804977417, 1.6399999856948853, -16.917922973632812]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_02
+  Hash: !ul 10567333144721429119
+  Links:
+  - {Dst: !ul 8313155521712065312, Gyaml: Reference, Name: Reference, Src: !ul 10567333144721429119}
+  - {Dst: !ul 442781067151071293, Gyaml: Reference, Name: Reference, Src: !ul 10567333144721429119}
+  Phive:
+    Placement: {ID: !ul 10567333144721429119}
+  Presence: {FlagName: DreamWorldPlate_Enemy_Stalchild, IsCheckLazy: true, IsNegation: false}
+  Rotate: [3.1415927410125732, 0.3169983923435211, 3.1415927410125732]
+  SRTHash: !u 0x687540a0
+  Translate: [4.145978927612305, 1.2711188793182373, -11.381142616271973]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_02
+  Hash: !ul 9530675418331749009
+  Links:
+  - {Dst: !ul 6660117017740842058, Gyaml: Reference, Name: Reference, Src: !ul 9530675418331749009}
+  - {Dst: !ul 18179022296597045634, Gyaml: Reference, Name: Reference, Src: !ul 9530675418331749009}
+  Phive:
+    Placement: {ID: !ul 9530675418331749009}
+  Presence: {FlagName: DreamWorldPlate_Enemy_Skulltula, IsCheckLazy: true, IsNegation: false}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0x5b8b88dd
+  Translate: [-0.058739542961120605, 1.270033836364746, -12.684248924255371]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_01
+  Hash: !ul 2614176248413126461
+  Links:
+  - {Dst: !ul 10195917152992259877, Gyaml: Reference, Name: Reference, Src: !ul 2614176248413126461}
+  - {Dst: !ul 12782072444978841835, Gyaml: Reference, Name: Reference, Src: !ul 2614176248413126461}
+  Phive:
+    Placement: {ID: !ul 2614176248413126461}
+  Presence: {FlagName: DreamWorldPlate_Enemy_Skulltula_Gold, IsCheckLazy: true, IsNegation: false}
+  Rotate: [-3.141592502593994, 0.09951312839984894, -3.141592502593994]
+  SRTHash: !u 0x0e832081
+  Translate: [1.4072542190551758, 1.2699992656707764, -11.063817977905273]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_01
+  Hash: !ul 10422164405946297447
+  Links:
+  - {Dst: !ul 6967735084406583496, Gyaml: Reference, Name: Reference, Src: !ul 10422164405946297447}
+  - {Dst: !ul 15705428109261687291, Gyaml: Reference, Name: Reference, Src: !ul 10422164405946297447}
+  Phive:
+    Placement: {ID: !ul 10422164405946297447}
+  Presence: {FlagName: DreamWorldPlate_Enemy_Skullwalltula, IsCheckLazy: true, IsNegation: false}
+  Rotate: [-3.141592502593994, -0.18217484652996063, -3.141592502593994]
+  SRTHash: !u 0xb3038174
+  Translate: [-1.7665449380874634, 1.2700002193450928, -11.010926246643066]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_02
+  Hash: !ul 9872400489662249175
+  Links:
+  - {Dst: !ul 9752031370773266170, Gyaml: Reference, Name: Reference, Src: !ul 9872400489662249175}
+  - {Dst: !ul 11166469786595775561, Gyaml: Reference, Name: Reference, Src: !ul 9872400489662249175}
+  Phive:
+    Placement: {ID: !ul 9872400489662249175}
+  Presence: {FlagName: DreamWorldPlate_Enemy_Peahat_Larva, IsCheckLazy: true, IsNegation: false}
+  Rotate: [-3.141592502593994, -0.3244348466396332, -3.141592502593994]
+  SRTHash: !u 0xe56f32df
+  Translate: [-3.8099124431610107, 1.2700436115264893, -12.01484489440918]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_01
+  Hash: !ul 11749638130580123240
+  Links:
+  - {Dst: !ul 11929261422820035309, Gyaml: Reference, Name: Reference, Src: !ul 11749638130580123240}
+  - {Dst: !ul 2094891057334479999, Gyaml: Reference, Name: Reference, Src: !ul 11749638130580123240}
+  Phive:
+    Placement: {ID: !ul 11749638130580123240}
+  Presence: {FlagName: DreamWorldPlate_Enemy_Peahat, IsCheckLazy: true, IsNegation: false}
+  Rotate: [3.1415927410125732, -0.195610910654068, 3.1415927410125732]
+  SRTHash: !u 0x69608232
+  Translate: [-5.863049030303955, 2.0911178588867188, -15.848426818847656]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_02
+  Hash: !ul 5480517912564221153
+  Links:
+  - {Dst: !ul 14585288357306981553, Gyaml: Reference, Name: Reference, Src: !ul 5480517912564221153}
+  - {Dst: !ul 7696019802155879836, Gyaml: Reference, Name: Reference, Src: !ul 5480517912564221153}
+  Phive:
+    Placement: {ID: !ul 5480517912564221153}
+  Presence: {FlagName: DreamWorldPlate_Enemy_Moblin, IsCheckLazy: true, IsNegation: false}
+  Rotate: [-3.141592502593994, -0.417978435754776, -3.141592502593994]
+  SRTHash: !u 0x6568b3aa
+  Translate: [-1.4297661781311035, 2.091214418411255, -19.21584129333496]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_02
+  Hash: !ul 13361579571730128098
+  Links:
+  - {Dst: !ul 8573075741715573584, Gyaml: Reference, Name: Reference, Src: !ul 13361579571730128098}
+  - {Dst: !ul 6788546101637164412, Gyaml: Reference, Name: Reference, Src: !ul 13361579571730128098}
+  Phive:
+    Placement: {ID: !ul 13361579571730128098}
+  Presence: {FlagName: DreamWorldPlate_Enemy_Moblin_Club, IsCheckLazy: true, IsNegation: false}
+  Rotate: [3.1415927410125732, 0.5467044711112976, 3.1415927410125732]
+  SRTHash: !u 0xec3c21bd
+  Translate: [2.1910226345062256, 2.0912134647369385, -19.27157974243164]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_01
+  Hash: !ul 10660655211619110372
+  Links:
+  - {Dst: !ul 3131149882522767442, Gyaml: Reference, Name: Reference, Src: !ul 10660655211619110372}
+  - {Dst: !ul 12965091993992811789, Gyaml: Reference, Name: Reference, Src: !ul 10660655211619110372}
+  Phive:
+    Placement: {ID: !ul 10660655211619110372}
+  Presence: {FlagName: DreamWorldPlate_Enemy_Scrub_Business, IsCheckLazy: true, IsNegation: false}
+  Rotate: [-3.141592502593994, 0.3237263262271881, -3.141592502593994]
+  SRTHash: !u 0x0cbe6015
+  Translate: [5.363894462585449, 2.091216802597046, -15.68882942199707]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_03
+  Hash: !ul 4462192316387731681
+  Links:
+  - {Dst: !ul 10240097550014660440, Gyaml: Reference, Name: Reference, Src: !ul 4462192316387731681}
+  Phive:
+    Placement: {ID: !ul 4462192316387731681}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_IronKnuckle_Black, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0xb762a46b
+  Translate: [2.2745394706726074, 3.674999952316284, -25.236103057861328]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_03
+  Hash: !ul 6944810942072599889
+  Links:
+  - {Dst: !ul 7987211239331813963, Gyaml: Reference, Name: Reference, Src: !ul 6944810942072599889}
+  Phive:
+    Placement: {ID: !ul 6944810942072599889}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_DungeonBoss_Ganondorf, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0x100adfc8
+  Translate: [-0.2578137516975403, 7.132976055145264, -35.12946319580078]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_03
+  Hash: !ul 8905651708001513697
+  Links:
+  - {Dst: !ul 15465409877376987290, Gyaml: Reference, Name: Reference, Src: !ul 8905651708001513697}
+  Phive:
+    Placement: {ID: !ul 8905651708001513697}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_DungeonBoss_Ganon, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0xef94b078
+  Translate: [-0.5093015432357788, 11.904999732971191, -42.88600158691406]
+- Gyaml: Enemy_Scrub_Business_Leaf_Dictionary
+  Hash: !ul 8258988726465164821
+  Phive:
+    Placement: {ID: !ul 8258988726465164821}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Scrub_Business, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [-7.591235657855577e-07, -0.08940643817186356, 0.0]
+  SRTHash: !u 0x896767a9
+  Translate: [5.82545804977417, 2.07438063621521, -16.917922973632812]
+- Gyaml: Enemy_Moblin_Dictionary_Undefeated
+  Hash: !ul 7696019802155879836
+  Phive:
+    Placement: {ID: !ul 7696019802155879836}
+  Presence: {FlagName: UndefeatedEnemyAfterGameClear_Enemy_Moblin, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [-2.4658271513544605e-07, 0.5133280754089355, 0.0]
+  SRTHash: !u 0x0e491da9
+  Translate: [-2.387767791748047, 3.161963939666748, -19.874727249145508]
+- Gyaml: Enemy_Moblin_Club_Dictionary_Undefeated
+  Hash: !ul 6788546101637164412
+  Phive:
+    Placement: {ID: !ul 6788546101637164412}
+  Presence: {FlagName: UndefeatedEnemyAfterGameClear_Enemy_Moblin_Club, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [-4.4444971081247786e-07, -0.07336713373661041, 0.0]
+  SRTHash: !u 0x15730917
+  Translate: [3.5385539531707764, 3.174410581588745, -19.96017837524414]
+- Gyaml: Enemy_Scrub_Business_Dictionary_Undefeated
+  Hash: !ul 12965091993992811789
+  Phive:
+    Placement: {ID: !ul 12965091993992811789}
+  Presence: {FlagName: UndefeatedEnemyAfterGameClear_Enemy_Scrub_Business, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [-1.2817056358471746e-06, -0.5721250176429749, 9.162297942566511e-07]
+  SRTHash: !u 0x2612076f
+  Translate: [5.892103672027588, 2.2300491333007812, -16.956398010253906]
+- Gyaml: Enemy_Peahat_Dictionary_Undefeated
+  Hash: !ul 2094891057334479999
+  Phive:
+    Placement: {ID: !ul 2094891057334479999}
+  Presence: {FlagName: UndefeatedEnemyAfterGameClear_Enemy_Peahat, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [0.0, 0.9171062707901001, 2.482990453245293e-07]
+  SRTHash: !u 0x589d057f
+  Scale: [0.8500000238418579, 0.8500000238418579, 0.8500000238418579]
+  Translate: [-6.059901237487793, 3.127873182296753, -16.93320083618164]
+- Gyaml: Enemy_Peahat_Larva_Dictionary_Undefeated
+  Hash: !ul 11166469786595775561
+  Phive:
+    Placement: {ID: !ul 11166469786595775561}
+  Presence: {FlagName: UndefeatedEnemyAfterGameClear_Enemy_Peahat_Larva, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [0.0, 0.5235987901687622, 0.0]
+  SRTHash: !u 0xa44e7df9
+  Translate: [-4.256748199462891, 1.4895875453948975, -12.655888557434082]
+- Gyaml: Enemy_Skulltula_Dictionary_Undefeated
+  Hash: !ul 18179022296597045634
+  Phive:
+    Placement: {ID: !ul 18179022296597045634}
+  Presence: {FlagName: UndefeatedEnemyAfterGameClear_Enemy_Skulltula, IsCheckLazy: true,
+    IsNegation: false}
+  SRTHash: !u 0x1e794386
+  Translate: [-0.41699397563934326, 1.020311951637268, -13.336982727050781]
+- Gyaml: Enemy_Skullwalltula_Dictionary_Undefeated
+  Hash: !ul 15705428109261687291
+  Phive:
+    Placement: {ID: !ul 15705428109261687291}
+  Presence: {FlagName: UndefeatedEnemyAfterGameClear_Enemy_Skullwalltula, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [1.5707963705062866, 0.38767215609550476, 0.0]
+  SRTHash: !u 0x6754a7f9
+  Translate: [-2.421856641769409, 1.8711459636688232, -12.298694610595703]
+- Gyaml: Enemy_Skulltula_Gold_Dictionary_Undefeated
+  Hash: !ul 12782072444978841835
+  Phive:
+    Placement: {ID: !ul 12782072444978841835}
+  Presence: {FlagName: UndefeatedEnemyAfterGameClear_Enemy_Skulltula_Gold, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [1.5707963705062866, -0.2088971734046936, 0.0]
+  SRTHash: !u 0x3d7ac89e
+  Translate: [1.5123685598373413, 1.8556421995162964, -12.494236946105957]
+- Gyaml: Enemy_Stalchild_Dictionary_Undefeated
+  Hash: !ul 442781067151071293
+  Phive:
+    Placement: {ID: !ul 442781067151071293}
+  Presence: {FlagName: UndefeatedEnemyAfterGameClear_Enemy_Stalchild, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [0.0, -0.6046857237815857, 0.0]
+  SRTHash: !u 0xe325cf8d
+  Translate: [3.392775774002075, 1.2699999809265137, -12.082869529724121]
+- Gyaml: Enemy_DungeonBoss_BongoBongo_RightHand_Dictionary
+  Hash: !ul 6876234046610929508
+  Links:
+  - {Dst: !ul 9651672526426908006, Gyaml: Reference, Name: Reference, Src: !ul 6876234046610929508}
+  - {Dst: !ul 8247743249614640661, Gyaml: Reference, Name: Reference, Src: !ul 6876234046610929508}
+  Phive:
+    Placement: {ID: !ul 6876234046610929508}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_DungeonBoss_BongoBongo, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [0.1202385276556015, 1.042992353439331, 0.13895206153392792]
+  SRTHash: !u 0x211b3d7b
+  Translate: [-34.98352813720703, 5.878665924072266, -12.005088806152344]
+- Gyaml: Enemy_Gibdo_Dictionary
+  Hash: !ul 15608861951680539056
+  Links:
+  - {Dst: !ul 12788133810497799853, Gyaml: Reference, Name: Reference, Src: !ul 15608861951680539056}
+  Phive:
+    Placement: {ID: !ul 15608861951680539056}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Gibdo, IsCheckLazy: true, IsNegation: false}
+  Rotate: [8.204640647977747e-15, 0.5235987305641174, -1.5099578831723193e-07]
+  SRTHash: !u 0xf6f326f6
+  Translate: [-8.835174560546875, 1.2669984102249146, -10.133447647094727]
+- Gyaml: Enemy_DungeonBoss_BongoBongo_LeftHand_Dictionary
+  Hash: !ul 10068941360821516061
+  Links:
+  - {Dst: !ul 9651672526426908006, Gyaml: Reference, Name: Reference, Src: !ul 10068941360821516061}
+  - {Dst: !ul 8247743249614640661, Gyaml: Reference, Name: Reference, Src: !ul 10068941360821516061}
+  Phive:
+    Placement: {ID: !ul 10068941360821516061}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_DungeonBoss_BongoBongo, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [-0.6161432266235352, 0.9601827263832092, -0.37051957845687866]
+  SRTHash: !u 0xea74fa1f
+  Translate: [-26.690824508666992, 5.178666114807129, -22.744577407836914]
+- Gyaml: Enemy_Bubble_Green_Big_Dictionary
+  Hash: !ul 2436542481697595528
+  Links:
+  - {Dst: !ul 2566179978935060344, Gyaml: Reference, Name: Reference, Src: !ul 2436542481697595528}
+  Phive:
+    Placement: {ID: !ul 2436542481697595528}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Bubble_Green_Big, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [-1.1053656123749533e-07, 1.0471974611282349, -3.0199157663446385e-07]
+  SRTHash: !u 0x5864dc18
+  Translate: [-11.774872779846191, 0.7548106908798218, -6.727685928344727]
+- Gyaml: Enemy_Stalfos_Dictionary
+  Hash: !ul 14483435929572565504
+  Links:
+  - {Dst: !ul 7528590478154584672, Gyaml: Reference, Name: Reference, Src: !ul 14483435929572565504}
+  Phive:
+    Placement: {ID: !ul 14483435929572565504}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Stalfos_ShadowTemple, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [3.1415836811065674, 1.531416416168213, 3.1415843963623047]
+  SRTHash: !u 0x5c878893
+  Translate: [-22.173063278198242, 3.6700000762939453, -6.978031158447266]
+- Gyaml: Enemy_Poe_Dictionary
+  Hash: !ul 7140819764794993517
+  Links:
+  - {Dst: !ul 915465234767232846, Gyaml: Reference, Name: Reference, Src: !ul 7140819764794993517}
+  - {Dst: !ul 13230724149136217960, Gyaml: Reference, Name: Reference, Src: !ul 7140819764794993517}
+  Name: Poe_Dictionary
+  Phive:
+    Placement: {ID: !ul 7140819764794993517}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Poe, IsCheckLazy: true, IsNegation: false}
+  Rotate: [-3.5458950264910527e-07, 1.3091789484024048, -5.638796096718579e-07]
+  SRTHash: !u 0x27744f55
+  Translate: [-17.303415298461914, 2.090132474899292, -6.026281356811523]
+- Gyaml: Enemy_Bubble_Blue_Dictionary
+  Hash: !ul 17492380447999684853
+  Links:
+  - {Dst: !ul 14420237223711527395, Gyaml: Reference, Name: Reference, Src: !ul 17492380447999684853}
+  Phive:
+    Placement: {ID: !ul 17492380447999684853}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Bubble_Blue, IsCheckLazy: true, IsNegation: false}
+  Rotate: [-3.3935517507188706e-08, 0.7853980660438538, -2.0626409025226167e-07]
+  SRTHash: !u 0x50aa8cd7
+  Translate: [-9.519731521606445, 1.4726778268814087, -7.6280622482299805]
+- Gyaml: Enemy_DeadHand_Dictionary
+  Hash: !ul 787527368126885615
+  Links:
+  - {Dst: !ul 1839364306265743064, Gyaml: Reference, Name: Reference, Src: !ul 787527368126885615}
+  - {Dst: !ul 12576523443064146224, Gyaml: Reference, Name: Reference, Src: !ul 787527368126885615}
+  - {Dst: !ul 15273708889364819835, Gyaml: Reference, Name: Reference, Src: !ul 787527368126885615}
+  Phive:
+    Placement: {ID: !ul 787527368126885615}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_DeadHand, IsCheckLazy: true, IsNegation: false}
+  Rotate: [3.3935517507188706e-08, 0.7853980660438538, 2.0626409025226167e-07]
+  SRTHash: !u 0xf0a15267
+  Translate: [-17.4338436126709, 3.6700000762939453, -15.539194107055664]
+- Gyaml: Enemy_Poe_Sharp_Dictionary
+  Hash: !ul 1467715845464085224
+  Links:
+  - {Dst: !ul 2407320035533845265, Gyaml: Reference, Name: Reference, Src: !ul 1467715845464085224}
+  - {Dst: !ul 10351913028461573131, Gyaml: Reference, Name: Reference, Src: !ul 1467715845464085224}
+  Name: Poe_Dictionary
+  Phive:
+    Placement: {ID: !ul 1467715845464085224}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Poe_Sharp, IsCheckLazy: true, IsNegation: false}
+  Rotate: [0.0, 1.5707961320877075, 2.2649371089755732e-07]
+  SRTHash: !u 0x71c764ca
+  Translate: [-17.94420051574707, 2.1095786094665527, -2.900221824645996]
+- Gyaml: Enemy_Poe_Flat_Dictionary
+  Hash: !ul 4042135141567415026
+  Links:
+  - {Dst: !ul 2761967615518716182, Gyaml: Reference, Name: Reference, Src: !ul 4042135141567415026}
+  - {Dst: !ul 10874083424886735563, Gyaml: Reference, Name: Reference, Src: !ul 4042135141567415026}
+  Name: Poe_Dictionary
+  Phive:
+    Placement: {ID: !ul 4042135141567415026}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Poe_Flat, IsCheckLazy: true, IsNegation: false}
+  Rotate: [-8.204640647977747e-15, 0.5235987305641174, 1.5099578831723193e-07]
+  SRTHash: !u 0xef3fc53c
+  Translate: [-11.80738639831543, 2.1095573902130127, -13.719688415527344]
+- Gyaml: Enemy_DungeonBoss_BongoBongo_Dictionary
+  Hash: !ul 9651672526426908006
+  Links:
+  - {Dst: !ul 8247743249614640661, Gyaml: Reference, Name: Reference, Src: !ul 9651672526426908006}
+  - {Dst: !ul 6876234046610929508, Gyaml: Reference, Name: Reference, Src: !ul 9651672526426908006}
+  - {Dst: !ul 10068941360821516061, Gyaml: Reference, Name: Reference, Src: !ul 9651672526426908006}
+  Phive:
+    Placement: {ID: !ul 9651672526426908006}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_DungeonBoss_BongoBongo, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [1.1053602833044351e-07, 1.0471962690353394, 3.019909513568564e-07]
+  SRTHash: !u 0x89562cc9
+  Translate: [-35.29776382446289, 6.826504230499268, -20.361705780029297]
+- Gyaml: Enemy_ReDead_Dictionary
+  Hash: !ul 7436807061305389352
+  Links:
+  - {Dst: !ul 13950683961887609287, Gyaml: Reference, Name: Reference, Src: !ul 7436807061305389352}
+  Phive:
+    Placement: {ID: !ul 7436807061305389352}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_ReDead, IsCheckLazy: true, IsNegation: false}
+  Rotate: [0.0, 1.5707961320877075, -2.2649371089755732e-07]
+  SRTHash: !u 0x21073c5e
+  Translate: [-13.130668640136719, 1.26699697971344, -2.609266519546509]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.699999988079071}
+  Gyaml: Land_Dream_EnemyPedestal_A_01
+  Hash: !ul 12788133810497799853
+  Name: EnemyBase
+  Phive:
+    Placement: {ID: !ul 12788133810497799853}
+  Rotate: [8.204640647977747e-15, 0.5235987305641174, -1.5099578831723193e-07]
+  SRTHash: !u 0xa60aeff7
+  Translate: [-8.844459533691406, 0.8199450373649597, -10.028446197509766]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.699999988079071}
+  Gyaml: Land_Dream_EnemyPedestal_A_01
+  Hash: !ul 13950683961887609287
+  Name: EnemyBase
+  Phive:
+    Placement: {ID: !ul 13950683961887609287}
+  Rotate: [0.0, 1.5707961320877075, -2.2649371089755732e-07]
+  SRTHash: !u 0x37848e4a
+  Translate: [-13.108695983886719, 0.8199440836906433, -2.6870839595794678]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.699999988079071}
+  Gyaml: Land_Dream_EnemyPedestal_A_01
+  Hash: !ul 2566179978935060344
+  Name: EnemyBase
+  Phive:
+    Placement: {ID: !ul 2566179978935060344}
+  Rotate: [-1.1053656123749533e-07, 1.0471974611282349, -3.0199157663446385e-07]
+  SRTHash: !u 0x74432a39
+  Translate: [-11.604718208312988, 0.8199478983879089, -6.699741840362549]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.699999988079071}
+  Gyaml: Land_Dream_EnemyPedestal_A_01
+  Hash: !ul 915465234767232846
+  Name: EnemyBase
+  Phive:
+    Placement: {ID: !ul 915465234767232846}
+  Rotate: [-3.5458950264910527e-07, 1.3091789484024048, -5.638796096718579e-07]
+  SRTHash: !u 0x9c30657c
+  Translate: [-17.200185775756836, 1.639578938484192, -5.968162536621094]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.699999988079071}
+  Gyaml: Land_Dream_EnemyPedestal_A_04
+  Hash: !ul 14420237223711527395
+  Name: EnemyBase
+  Phive:
+    Placement: {ID: !ul 14420237223711527395}
+  Rotate: [-3.3935517507188706e-08, 0.7853980660438538, -2.0626409025226167e-07]
+  SRTHash: !u 0xbc92aec6
+  Translate: [-9.345537185668945, 0.8199999928474426, -7.624077796936035]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.699999988079071}
+  Gyaml: Land_Dream_EnemyPedestal_A_01
+  Hash: !ul 2761967615518716182
+  Name: EnemyBase
+  Phive:
+    Placement: {ID: !ul 2761967615518716182}
+  Rotate: [-8.204640647977747e-15, 0.5235987305641174, 1.5099578831723193e-07]
+  SRTHash: !u 0xa50ec72e
+  Translate: [-11.749187469482422, 1.6395775079727173, -13.661715507507324]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.699999988079071}
+  Gyaml: Land_Dream_EnemyPedestal_A_01
+  Hash: !ul 2407320035533845265
+  Name: EnemyBase
+  Phive:
+    Placement: {ID: !ul 2407320035533845265}
+  Rotate: [0.0, 1.5707961320877075, 2.2649371089755732e-07]
+  SRTHash: !u 0xeaa215b4
+  Translate: [-17.792919158935547, 1.6395784616470337, -2.8882155418395996]
+- Gyaml: Enemy_Keese_Dictionary
+  Hash: !ul 10598774061486885245
+  Links:
+  - {Dst: !ul 12951910410492724093, Gyaml: Reference, Name: Reference, Src: !ul 10598774061486885245}
+  Phive:
+    Placement: {ID: !ul 10598774061486885245}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Keese, IsCheckLazy: true, IsNegation: false}
+  Rotate: [-1.2347920801403234e-06, 1.4154889583587646, -9.107005780606414e-07]
+  SRTHash: !u 0x77f0847f
+  Translate: [-11.305830955505371, 1.671522855758667, -4.30247163772583]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.699999988079071}
+  Gyaml: Land_Dream_EnemyPedestal_A_01
+  Hash: !ul 9278608546357100226
+  Name: EnemyBase
+  Phive:
+    Placement: {ID: !ul 9278608546357100226}
+  Rotate: [-9.840109171932454e-09, 0.6214397549629211, -1.6913759282033425e-07]
+  SRTHash: !u 0x2520bae1
+  Translate: [-13.993953704833984, 1.6396373510360718, -11.802303314208984]
+- Gyaml: Enemy_Poe_Big_Dictionary
+  Hash: !ul 771423158665116631
+  Links:
+  - {Dst: !ul 17203012426401728444, Gyaml: Reference, Name: Reference, Src: !ul 771423158665116631}
+  - {Dst: !ul 15063390899302593793, Gyaml: Reference, Name: Reference, Src: !ul 771423158665116631}
+  Phive:
+    Placement: {ID: !ul 771423158665116631}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Poe_Big, IsCheckLazy: true, IsNegation: false}
+  Rotate: [-1.3391988318289805e-07, 1.0939668416976929, -3.286325238605059e-07]
+  SRTHash: !u 0xb45fe984
+  Translate: [-15.30201530456543, 2.10166597366333, -8.83504867553711]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.699999988079071}
+  Gyaml: Land_Dream_EnemyPedestal_A_04
+  Hash: !ul 12951910410492724093
+  Name: EnemyBase
+  Phive:
+    Placement: {ID: !ul 12951910410492724093}
+  Rotate: [-4.965305834048195e-06, 1.5422152280807495, -4.649520178645616e-06]
+  SRTHash: !u 0xaef3b2a6
+  Translate: [-11.267725944519043, 0.8195233345031738, -4.296505928039551]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.699999988079071}
+  Gyaml: Land_Dream_EnemyPedestal_A_02
+  Hash: !ul 17203012426401728444
+  Name: EnemyBase
+  Phive:
+    Placement: {ID: !ul 17203012426401728444}
+  Rotate: [-1.394480619865135e-07, 1.1037746667861938, -3.3483900097053265e-07]
+  SRTHash: !u 0x608aafcb
+  Translate: [-15.60749626159668, 1.6397594213485718, -8.985846519470215]
+- Gyaml: Enemy_Poe_Hyrule_Dictionary
+  Hash: !ul 17199135198987380032
+  Links:
+  - {Dst: !ul 9278608546357100226, Gyaml: Reference, Name: Reference, Src: !ul 17199135198987380032}
+  - {Dst: !ul 8450240579458856278, Gyaml: Reference, Name: Reference, Src: !ul 17199135198987380032}
+  Name: Poe_Dictionary
+  Phive:
+    Placement: {ID: !ul 17199135198987380032}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Poe_Hyrule, IsCheckLazy: true, IsNegation: false}
+  Rotate: [-1.9723568556173632e-08, 0.6982449293136597, -1.8524899303429265e-07]
+  SRTHash: !u 0xb54e80a2
+  Translate: [-13.993953704833984, 2.101545572280884, -11.802303314208984]
+- Gyaml: Enemy_DeadHand_Hand_Dictionary
+  Hash: !ul 15273708889364819835
+  Phive:
+    Placement: {ID: !ul 15273708889364819835}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_DeadHand, IsCheckLazy: true, IsNegation: false}
+  Rotate: [-6.39979020888859e-08, 1.0471974611282349, -1.74845538936097e-07]
+  SRTHash: !u 0x54e19f4b
+  Translate: [-18.885496139526367, 3.669999837875366, -15.40770149230957]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_02
+  Hash: !ul 10695910545902433614
+  Links:
+  - {Dst: !ul 4042135141567415026, Gyaml: Reference, Name: Reference, Src: !ul 10695910545902433614}
+  - {Dst: !ul 9041078160792572460, Gyaml: Reference, Name: Reference, Src: !ul 10695910545902433614}
+  Phive:
+    Placement: {ID: !ul 10695910545902433614}
+  Presence: {FlagName: DreamWorldPlate_Enemy_Poe_Flat, IsCheckLazy: true, IsNegation: false}
+  Rotate: [3.1415927410125732, -0.7050651907920837, 3.1415927410125732]
+  SRTHash: !u 0xe5316e43
+  Translate: [-11.102173805236816, 2.0895864963531494, -13.256250381469727]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_01
+  Hash: !ul 7717523791044409316
+  Links:
+  - {Dst: !ul 17199135198987380032, Gyaml: Reference, Name: Reference, Src: !ul 7717523791044409316}
+  - {Dst: !ul 6830265363970858071, Gyaml: Reference, Name: Reference, Src: !ul 7717523791044409316}
+  Phive:
+    Placement: {ID: !ul 7717523791044409316}
+  Presence: {FlagName: DreamWorldPlate_Enemy_Poe_Hyrule, IsCheckLazy: true, IsNegation: false}
+  Rotate: [3.1415927410125732, -0.8430261611938477, 3.1415927410125732]
+  SRTHash: !u 0x7c361ec3
+  Translate: [-13.296451568603516, 2.0896694660186768, -11.599628448486328]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_02
+  Hash: !ul 3517692040476170242
+  Links:
+  - {Dst: !ul 771423158665116631, Gyaml: Reference, Name: Reference, Src: !ul 3517692040476170242}
+  - {Dst: !ul 15030824992303672369, Gyaml: Reference, Name: Reference, Src: !ul 3517692040476170242}
+  Phive:
+    Placement: {ID: !ul 3517692040476170242}
+  Presence: {FlagName: DreamWorldPlate_Enemy_Poe_Big, IsCheckLazy: true, IsNegation: false}
+  Rotate: [3.1415927410125732, -1.0471974611282349, 3.1415927410125732]
+  SRTHash: !u 0xf39a950b
+  Translate: [-14.588301658630371, 2.0908777713775635, -8.79906177520752]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_01
+  Hash: !ul 4638483510313359956
+  Links:
+  - {Dst: !ul 7140819764794993517, Gyaml: Reference, Name: Reference, Src: !ul 4638483510313359956}
+  - {Dst: !ul 1738907554831384714, Gyaml: Reference, Name: Reference, Src: !ul 4638483510313359956}
+  Phive:
+    Placement: {ID: !ul 4638483510313359956}
+  Presence: {FlagName: DreamWorldPlate_Enemy_Poe, IsCheckLazy: true, IsNegation: false}
+  Rotate: [3.1415927410125732, -1.2907907962799072, 3.1415927410125732]
+  SRTHash: !u 0xa68136db
+  Translate: [-16.422462463378906, 2.0895986557006836, -6.020415306091309]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_02
+  Hash: !ul 1690164811269750192
+  Links:
+  - {Dst: !ul 1467715845464085224, Gyaml: Reference, Name: Reference, Src: !ul 1690164811269750192}
+  - {Dst: !ul 17224600732304208727, Gyaml: Reference, Name: Reference, Src: !ul 1690164811269750192}
+  Phive:
+    Placement: {ID: !ul 1690164811269750192}
+  Presence: {FlagName: DreamWorldPlate_Enemy_Poe_Sharp, IsCheckLazy: true, IsNegation: false}
+  Rotate: [3.141592502593994, -1.4786376953125, 3.1415927410125732]
+  SRTHash: !u 0x35d8b2f4
+  Translate: [-17.08066749572754, 2.0895888805389404, -3.114867687225342]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_01
+  Hash: !ul 3208199512121047488
+  Links:
+  - {Dst: !ul 7436807061305389352, Gyaml: Reference, Name: Reference, Src: !ul 3208199512121047488}
+  - {Dst: !ul 5665186350158516575, Gyaml: Reference, Name: Reference, Src: !ul 3208199512121047488}
+  Phive:
+    Placement: {ID: !ul 3208199512121047488}
+  Presence: {FlagName: DreamWorldPlate_Enemy_ReDead, IsCheckLazy: true, IsNegation: false}
+  Rotate: [3.141592502593994, -1.4071093797683716, 3.1415927410125732]
+  SRTHash: !u 0x58032979
+  Translate: [-12.384766578674316, 1.2699694633483887, -2.916105270385742]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_02
+  Hash: !ul 1446332676544752411
+  Links:
+  - {Dst: !ul 10598774061486885245, Gyaml: Reference, Name: Reference, Src: !ul 1446332676544752411}
+  - {Dst: !ul 11926083649662716340, Gyaml: Reference, Name: Reference, Src: !ul 1446332676544752411}
+  Phive:
+    Placement: {ID: !ul 1446332676544752411}
+  Presence: {FlagName: DreamWorldPlate_Enemy_Keese, IsCheckLazy: true, IsNegation: false}
+  Rotate: [3.1415927410125732, -1.2528061866760254, 3.1415927410125732]
+  SRTHash: !u 0x5eb6608d
+  Translate: [-10.783990859985352, 1.2695242166519165, -4.31204080581665]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_01
+  Hash: !ul 12417535828854370614
+  Links:
+  - {Dst: !ul 2436542481697595528, Gyaml: Reference, Name: Reference, Src: !ul 12417535828854370614}
+  - {Dst: !ul 16833643682216759099, Gyaml: Reference, Name: Reference, Src: !ul 12417535828854370614}
+  Phive:
+    Placement: {ID: !ul 12417535828854370614}
+  Presence: {FlagName: DreamWorldPlate_Enemy_Bubble_Green_Big, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [3.1415927410125732, -1.0471974611282349, 3.1415927410125732]
+  SRTHash: !u 0x5f659596
+  Translate: [-11.102744102478027, 1.2699685096740723, -6.08514404296875]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_02
+  Hash: !ul 5850224076531990483
+  Links:
+  - {Dst: !ul 17492380447999684853, Gyaml: Reference, Name: Reference, Src: !ul 5850224076531990483}
+  - {Dst: !ul 11302808239563387852, Gyaml: Reference, Name: Reference, Src: !ul 5850224076531990483}
+  Phive:
+    Placement: {ID: !ul 5850224076531990483}
+  Presence: {FlagName: DreamWorldPlate_Enemy_Bubble_Blue, IsCheckLazy: true, IsNegation: false}
+  Rotate: [3.1415927410125732, -0.8926598429679871, 3.1415927410125732]
+  SRTHash: !u 0x73f6a647
+  Translate: [-8.895458221435547, 1.2699992656707764, -7.464449882507324]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_01
+  Hash: !ul 4792690790862969156
+  Links:
+  - {Dst: !ul 15608861951680539056, Gyaml: Reference, Name: Reference, Src: !ul 4792690790862969156}
+  - {Dst: !ul 3628072100612474281, Gyaml: Reference, Name: Reference, Src: !ul 4792690790862969156}
+  Phive:
+    Placement: {ID: !ul 4792690790862969156}
+  Presence: {FlagName: DreamWorldPlate_Enemy_Gibdo, IsCheckLazy: true, IsNegation: false}
+  Rotate: [3.1415927410125732, -0.7147880792617798, 3.1415927410125732]
+  SRTHash: !u 0x53c7433f
+  Translate: [-8.546029090881348, 1.269952416419983, -9.331815719604492]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_02_Boss
+  Hash: !ul 3440759976416147638
+  Links:
+  - {Dst: !ul 14483435929572565504, Gyaml: Reference, Name: Reference, Src: !ul 3440759976416147638}
+  Phive:
+    Placement: {ID: !ul 3440759976416147638}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Stalfos_ShadowTemple, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [3.1415927410125732, -1.2611103057861328, 3.1415927410125732]
+  SRTHash: !u 0xf73b98ea
+  Translate: [-21.385204315185547, 3.674999952316284, -6.468314170837402]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_01_Boss
+  Hash: !ul 2001598886119789472
+  Links:
+  - {Dst: !ul 787527368126885615, Gyaml: Reference, Name: Reference, Src: !ul 2001598886119789472}
+  Phive:
+    Placement: {ID: !ul 2001598886119789472}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_DeadHand, IsCheckLazy: true, IsNegation: false}
+  Rotate: [3.1415927410125732, -0.8726645708084106, 3.1415927410125732]
+  SRTHash: !u 0x6cb75176
+  Translate: [-16.282726287841797, 3.674999952316284, -15.026778221130371]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_03
+  Hash: !ul 160372004463150724
+  Links:
+  - {Dst: !ul 9651672526426908006, Gyaml: Reference, Name: Reference, Src: !ul 160372004463150724}
+  Phive:
+    Placement: {ID: !ul 160372004463150724}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_DungeonBoss_BongoBongo, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [3.1415927410125732, -1.0471974611282349, 3.1415927410125732]
+  SRTHash: !u 0x135f86cd
+  Translate: [-30.106727600097656, 5.704999923706055, -17.382129669189453]
+- Gyaml: Weapon_PoeSharpCantera_Dictionary
+  Hash: !ul 10351913028461573131
+  Links:
+  - {Dst: !ul 1467715845464085224, Gyaml: Reference, Name: Reference, Src: !ul 10351913028461573131}
+  Phive:
+    Placement: {ID: !ul 10351913028461573131}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Poe_Sharp, IsCheckLazy: true, IsNegation: false}
+  Rotate: [0.0, 1.5707961320877075, 2.2649371089755732e-07]
+  SRTHash: !u 0x71c764ca
+  Translate: [-17.94420051574707, 2.1095786094665527, -2.900221824645996]
+- Gyaml: Weapon_PoeBigCantera_Dictionary
+  Hash: !ul 15063390899302593793
+  Links:
+  - {Dst: !ul 771423158665116631, Gyaml: Reference, Name: Reference, Src: !ul 15063390899302593793}
+  Phive:
+    Placement: {ID: !ul 15063390899302593793}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Poe_Big, IsCheckLazy: true, IsNegation: false}
+  Rotate: [-1.3391988318289805e-07, 1.0939668416976929, -3.286325238605059e-07]
+  SRTHash: !u 0xb45fe984
+  Translate: [-15.30201530456543, 2.10166597366333, -8.83504867553711]
+- Gyaml: Weapon_PoeFlatCantera_Dictionary
+  Hash: !ul 10874083424886735563
+  Links:
+  - {Dst: !ul 4042135141567415026, Gyaml: Reference, Name: Reference, Src: !ul 10874083424886735563}
+  Phive:
+    Placement: {ID: !ul 10874083424886735563}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Poe_Flat, IsCheckLazy: true, IsNegation: false}
+  Rotate: [-8.204640647977747e-15, 0.5235987305641174, 1.5099578831723193e-07]
+  SRTHash: !u 0xef3fc53c
+  Translate: [-11.80738639831543, 2.1095573902130127, -13.719688415527344]
+- Gyaml: Weapon_PoeHyrule_Dictionary
+  Hash: !ul 8450240579458856278
+  Links:
+  - {Dst: !ul 17199135198987380032, Gyaml: Reference, Name: Reference, Src: !ul 8450240579458856278}
+  Phive:
+    Placement: {ID: !ul 8450240579458856278}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Poe_Hyrule, IsCheckLazy: true, IsNegation: false}
+  Rotate: [-1.9723568556173632e-08, 0.6982449293136597, -1.8524899303429265e-07]
+  SRTHash: !u 0xb54e80a2
+  Translate: [-13.993953704833984, 2.101545572280884, -11.802303314208984]
+- Gyaml: Weapon_PoeCantera_Dictionary
+  Hash: !ul 13230724149136217960
+  Links:
+  - {Dst: !ul 7140819764794993517, Gyaml: Reference, Name: Reference, Src: !ul 13230724149136217960}
+  Phive:
+    Placement: {ID: !ul 13230724149136217960}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Poe, IsCheckLazy: true, IsNegation: false}
+  Rotate: [-3.5458950264910527e-07, 1.3091789484024048, -5.638796096718579e-07]
+  SRTHash: !u 0x27744f55
+  Translate: [-17.303415298461914, 2.090132474899292, -6.026281356811523]
+- Gyaml: Enemy_DeadHand_Hand_Sub_Dictionary
+  Hash: !ul 12576523443064146224
+  Phive:
+    Placement: {ID: !ul 12576523443064146224}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_DeadHand, IsCheckLazy: true, IsNegation: false}
+  Rotate: [-6.39979020888859e-08, 1.0471974611282349, -1.74845538936097e-07]
+  SRTHash: !u 0x89aa2ad9
+  Translate: [-17.520601272583008, 3.66999888420105, -17.007158279418945]
+- Gyaml: Enemy_ReDead_Dictionary_Undefeated
+  Hash: !ul 5665186350158516575
+  Phive:
+    Placement: {ID: !ul 5665186350158516575}
+  Presence: {FlagName: UndefeatedEnemyAfterGameClear_Enemy_ReDead, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [0.0, 1.5707961320877075, -2.2649371089755732e-07]
+  SRTHash: !u 0x0c9b8aa9
+  Translate: [-13.130668640136719, 1.8051735162734985, -2.609266519546509]
+- Gyaml: Enemy_Gibdo_Dictionary_Undefeated
+  Hash: !ul 3628072100612474281
+  Phive:
+    Placement: {ID: !ul 3628072100612474281}
+  Presence: {FlagName: UndefeatedEnemyAfterGameClear_Enemy_Gibdo, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [8.204640647977747e-15, 0.5235987305641174, -1.5099578831723193e-07]
+  SRTHash: !u 0x856acaf5
+  Translate: [-8.56413459777832, 1.8862205743789673, -9.663995742797852]
+- Gyaml: Enemy_Bubble_Blue_Dictionary_Undefeated
+  Hash: !ul 11302808239563387852
+  Phive:
+    Placement: {ID: !ul 11302808239563387852}
+  Presence: {FlagName: UndefeatedEnemyAfterGameClear_Enemy_Bubble_Blue, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [-3.3935517507188706e-08, 0.7853980660438538, -2.0626409025226167e-07]
+  SRTHash: !u 0x43188fa3
+  Translate: [-9.38158893585205, 0.8877667188644409, -7.585193634033203]
+- Gyaml: Enemy_Bubble_Green_Big_Dictionary_Undefeated
+  Hash: !ul 16833643682216759099
+  Phive:
+    Placement: {ID: !ul 16833643682216759099}
+  Presence: {FlagName: UndefeatedEnemyAfterGameClear_Enemy_Bubble_Green_Big, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [-1.1053656123749533e-07, 1.0471974611282349, -3.0199157663446385e-07]
+  SRTHash: !u 0x16522b59
+  Translate: [-11.774872779846191, 0.9074128866195679, -6.727685928344727]
+- Gyaml: Enemy_Keese_Dictionary_Undefeated
+  Hash: !ul 11926083649662716340
+  Phive:
+    Placement: {ID: !ul 11926083649662716340}
+  Presence: {FlagName: UndefeatedEnemyAfterGameClear_Enemy_Keese, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [-1.2347920801403234e-06, 1.4154889583587646, -9.107005780606414e-07]
+  SRTHash: !u 0x7355d5d7
+  Translate: [-11.163119316101074, 0.7694998979568481, -4.220077037811279]
+- Gyaml: Enemy_Poe_Sharp_Dictionary_Undefeated
+  Hash: !ul 17224600732304208727
+  Phive:
+    Placement: {ID: !ul 17224600732304208727}
+  Presence: {FlagName: UndefeatedEnemyAfterGameClear_Enemy_Poe_Sharp, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [0.0, 1.5707961320877075, 2.2649371089755732e-07]
+  SRTHash: !u 0x71c764ca
+  Translate: [-17.94420051574707, 2.1095786094665527, -2.900221824645996]
+- Gyaml: Enemy_Poe_Dictionary_Undefeated
+  Hash: !ul 1738907554831384714
+  Phive:
+    Placement: {ID: !ul 1738907554831384714}
+  Presence: {FlagName: UndefeatedEnemyAfterGameClear_Enemy_Poe, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [-3.545895310708147e-07, 1.3091789484024048, -5.638796665152768e-07]
+  SRTHash: !u 0x27744f55
+  Translate: [-17.303415298461914, 2.090132474899292, -6.026281356811523]
+- Gyaml: Enemy_Poe_Hyrule_Dictionary_Undefeated
+  Hash: !ul 6830265363970858071
+  Phive:
+    Placement: {ID: !ul 6830265363970858071}
+  Presence: {FlagName: UndefeatedEnemyAfterGameClear_Enemy_Poe_Hyrule, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [-1.9723568556173632e-08, 0.6982449293136597, -1.8524899303429265e-07]
+  SRTHash: !u 0xb54e80a2
+  Translate: [-13.993953704833984, 2.101545572280884, -11.802303314208984]
+- Gyaml: Enemy_Poe_Big_Dictionary_Undefeated
+  Hash: !ul 15030824992303672369
+  Name: Poe_Dictionary
+  Phive:
+    Placement: {ID: !ul 15030824992303672369}
+  Presence: {FlagName: UndefeatedEnemyAfterGameClear_Enemy_Poe_Big, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [-2.0409868284332333e-06, 1.5111043453216553, -2.2635763343714643e-06]
+  SRTHash: !u 0x3e5a767d
+  Translate: [-15.30201530456543, 2.795213222503662, -8.83504867553711]
+- Gyaml: Enemy_Poe_Flat_Dictionary_Undefeated
+  Hash: !ul 9041078160792572460
+  Phive:
+    Placement: {ID: !ul 9041078160792572460}
+  Presence: {FlagName: UndefeatedEnemyAfterGameClear_Enemy_Poe_Flat, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [-8.204640647977747e-15, 0.5235987305641174, 1.5099578831723193e-07]
+  SRTHash: !u 0xef3fc53c
+  Translate: [-11.80738639831543, 2.1095573902130127, -13.719688415527344]
+- Gyaml: Enemy_DungeonBoss_Koume_Dictionary
+  Hash: !ul 4618506106975395447
+  Links:
+  - {Dst: !ul 18186313709416649696, Gyaml: Reference, Name: Reference, Src: !ul 4618506106975395447}
+  Phive:
+    Placement: {ID: !ul 4618506106975395447}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_DungeonBoss_Twinrova, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [2.392221212387085, 0.7853333353996277, 3.1272881031036377]
+  SRTHash: !u 0x1c98a2e7
+  Translate: [-32.04196548461914, 7.096002101898193, 13.833229064941406]
+- Gyaml: Enemy_Anubis_Dictionary
+  Hash: !ul 594230071970629745
+  Links:
+  - {Dst: !ul 12461581686844957559, Gyaml: Reference, Name: Reference, Src: !ul 594230071970629745}
+  Phive:
+    Placement: {ID: !ul 594230071970629745}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Anubis, IsCheckLazy: true, IsNegation: false}
+  Rotate: [-3.0141918659210205, 1.0969533920288086, 3.026803731918335]
+  SRTHash: !u 0x45f23adf
+  Translate: [-16.002742767333984, 2.1491470336914062, 9.912856101989746]
+- Gyaml: Enemy_DungeonBoss_Twinrova_Dictionary
+  Hash: !ul 510029366067965596
+  Links:
+  - {Dst: !ul 18186313709416649696, Gyaml: Reference, Name: Reference, Src: !ul 510029366067965596}
+  - {Dst: !ul 16408960065415893765, Gyaml: Reference, Name: Reference, Src: !ul 510029366067965596}
+  - {Dst: !ul 4618506106975395447, Gyaml: Reference, Name: Reference, Src: !ul 510029366067965596}
+  Phive:
+    Placement: {ID: !ul 510029366067965596}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_DungeonBoss_Twinrova, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [3.041090250015259, 0.956428050994873, 2.804905891418457]
+  SRTHash: !u 0xaa8fcb08
+  Translate: [-36.22684097290039, 6.062661647796631, 19.296401977539062]
+- Gyaml: Enemy_Leever_Big_Dictionary
+  Hash: !ul 5568477628540920789
+  Links:
+  - {Dst: !ul 1319598436045690786, Gyaml: Reference, Name: Reference, Src: !ul 5568477628540920789}
+  Phive:
+    Placement: {ID: !ul 5568477628540920789}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Leever_Big, IsCheckLazy: true, IsNegation: false}
+  Rotate: [0.0, 1.5707961320877075, 2.2649371089755732e-07]
+  SRTHash: !u 0x0b060f90
+  Translate: [-17.422443389892578, 2.0920000076293945, 3.161557674407959]
+- Gyaml: Enemy_LikeLike_Dictionary
+  Hash: !ul 16202920474395765433
+  Links:
+  - {Dst: !ul 2154865245438959096, Gyaml: Reference, Name: Reference, Src: !ul 16202920474395765433}
+  Phive:
+    Placement: {ID: !ul 16202920474395765433}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_LikeLike, IsCheckLazy: true, IsNegation: false}
+  Rotate: [-3.141592502593994, 0.7853981852531433, -3.141592502593994]
+  SRTHash: !u 0xcfb69943
+  Translate: [-13.09099006652832, 2.0870532989501953, 12.036805152893066]
+- Gyaml: Enemy_FlyingPot_Dictionary
+  Hash: !ul 10068853527108770860
+  Links:
+  - {Dst: !ul 12421021397170727981, Gyaml: Reference, Name: Reference, Src: !ul 10068853527108770860}
+  Phive:
+    Placement: {ID: !ul 10068853527108770860}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_FlyingPot, IsCheckLazy: true, IsNegation: false}
+  Rotate: [-3.074531078338623, -0.24100184440612793, -2.8004214763641357]
+  SRTHash: !u 0x8c1ad901
+  Translate: [-9.070255279541016, 1.8040000200271606, 10.109209060668945]
+- Gyaml: Enemy_Guay_Dictionary
+  Hash: !ul 8662050923007049138
+  Links:
+  - {Dst: !ul 9530444968818543716, Gyaml: Reference, Name: Reference, Src: !ul 8662050923007049138}
+  - {Dst: !ul 14859981215141946041, Gyaml: Reference, Name: Reference, Src: !ul 8662050923007049138}
+  Phive:
+    Placement: {ID: !ul 8662050923007049138}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Guay, IsCheckLazy: true, IsNegation: false}
+  Rotate: [-2.9682681560516357, 0.020602013915777206, 3.0244674682617188]
+  SRTHash: !u 0x693b4397
+  Translate: [-10.65075397491455, 1.769963264465332, 8.265594482421875]
+- Gyaml: Enemy_MiddleBoss_GerudoThief_Dictionary
+  Hash: !ul 8502304136733584563
+  Phive:
+    Placement: {ID: !ul 8502304136733584563}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_MiddleBoss_GerudoThief, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [-3.141592502593994, 0.7298179864883423, 3.141592502593994]
+  SRTHash: !u 0x2c60f250
+  Translate: [-16.341224670410156, 3.6669347286224365, 16.370737075805664]
+- Gyaml: Enemy_Bubble_White_Dictionary
+  Hash: !ul 120351563831758212
+  Links:
+  - {Dst: !ul 2468935823413990491, Gyaml: Reference, Name: Reference, Src: !ul 120351563831758212}
+  Phive:
+    Placement: {ID: !ul 120351563831758212}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Bubble_White, IsCheckLazy: true, IsNegation: false}
+  Rotate: [3.1415927410125732, 0.5235987901687622, 3.141592502593994]
+  SRTHash: !u 0xbffb1fbc
+  Translate: [-11.441377639770508, 2.3918850421905518, 14.63536262512207]
+- Gyaml: Enemy_MiddleBoss_IronKnuckle_Nabooru_Dictionary
+  Hash: !ul 6344421149509702824
+  Phive:
+    Placement: {ID: !ul 6344421149509702824}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_MiddleBoss_IronKnuckle_Nabooru, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [-3.1415915489196777, 1.458390712738037, -3.1415913105010986]
+  SRTHash: !u 0xc7ddd0ec
+  Translate: [-22.463319778442383, 3.66693377494812, 5.756286144256592]
+- Gyaml: Enemy_IronKnuckle_Silver_Dictionary
+  Hash: !ul 6650015507629735824
+  Phive:
+    Placement: {ID: !ul 6650015507629735824}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_IronKnuckle_Silver, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [-3.141592502593994, 1.0471975803375244, -3.141592264175415]
+  SRTHash: !u 0xa3e5d2eb
+  Translate: [-20.993234634399414, 3.6669347286224365, 12.120448112487793]
+- Gyaml: Enemy_DungeonBoss_Kotake_Dictionary
+  Hash: !ul 16408960065415893765
+  Links:
+  - {Dst: !ul 18186313709416649696, Gyaml: Reference, Name: Reference, Src: !ul 16408960065415893765}
+  Phive:
+    Placement: {ID: !ul 16408960065415893765}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_DungeonBoss_Twinrova, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [2.7618408203125, 1.2945306301116943, 3.141592025756836]
+  SRTHash: !u 0xf117f214
+  Translate: [-27.309749603271484, 6.468663215637207, 19.571340560913086]
+- Gyaml: Enemy_Leever_Dictionary
+  Hash: !ul 6730988220089320423
+  Links:
+  - {Dst: !ul 7336089220777663667, Gyaml: Reference, Name: Reference, Src: !ul 6730988220089320423}
+  Phive:
+    Placement: {ID: !ul 6730988220089320423}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Leever, IsCheckLazy: true, IsNegation: false}
+  Rotate: [0.0, 1.5707961320877075, 2.2649371089755732e-07]
+  SRTHash: !u 0x1be704f7
+  Translate: [-13.035201072692871, 1.267052412033081, 3.0309035778045654]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.699999988079071}
+  Gyaml: Land_Dream_EnemyPedestal_A_03
+  Hash: !ul 2154865245438959096
+  Name: EnemyBase
+  Phive:
+    Placement: {ID: !ul 2154865245438959096}
+  Rotate: [-3.141592502593994, 0.7853981852531433, -3.141592502593994]
+  SRTHash: !u 0x17d5c88d
+  Translate: [-13.06314754486084, 1.6399999856948853, 12.064645767211914]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.699999988079071}
+  Gyaml: Land_Dream_EnemyPedestal_A_01
+  Hash: !ul 12461581686844957559
+  Name: EnemyBase
+  Phive:
+    Placement: {ID: !ul 12461581686844957559}
+  Rotate: [-3.141592502593994, 1.0471975803375244, -3.141592264175415]
+  SRTHash: !u 0xafaca944
+  Translate: [-15.495711326599121, 1.6399999856948853, 9.71828842163086]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.699999988079071}
+  Gyaml: Land_Dream_EnemyPedestal_A_05
+  Hash: !ul 1319598436045690786
+  Name: EnemyBase
+  Phive:
+    Placement: {ID: !ul 1319598436045690786}
+  Rotate: [0.0, 1.5707961320877075, 2.2649371089755732e-07]
+  SRTHash: !u 0x5c1f0557
+  Translate: [-17.422443389892578, 1.6399999856948853, 3.161557674407959]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.699999988079071}
+  Gyaml: Land_Dream_EnemyPedestal_A_04
+  Hash: !ul 2468935823413990491
+  Name: EnemyBase
+  Phive:
+    Placement: {ID: !ul 2468935823413990491}
+  Rotate: [3.1415927410125732, 0.5235987901687622, 3.141592502593994]
+  SRTHash: !u 0x8b2be979
+  Translate: [-11.408498764038086, 1.6399999856948853, 14.650659561157227]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.699999988079071}
+  Gyaml: Land_Dream_EnemyPedestal_A_01
+  Hash: !ul 7336089220777663667
+  Name: EnemyBase
+  Phive:
+    Placement: {ID: !ul 7336089220777663667}
+  Rotate: [0.0, 1.5707961320877075, 2.2649371089755732e-07]
+  SRTHash: !u 0xe17da624
+  Translate: [-13.035201072692871, 0.8199990391731262, 3.0309035778045654]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.699999988079071}
+  Gyaml: Land_Dream_EnemyPedestal_A_04
+  Hash: !ul 9530444968818543716
+  Name: EnemyBase
+  Phive:
+    Placement: {ID: !ul 9530444968818543716}
+  Rotate: [3.141592264175415, 0.7853981852531433, 3.141591787338257]
+  SRTHash: !u 0x457fe0c1
+  Translate: [-10.77214527130127, 0.8198381066322327, 8.149201393127441]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.699999988079071}
+  Gyaml: Land_Dream_EnemyPedestal_A_04
+  Hash: !ul 12421021397170727981
+  Name: EnemyBase
+  Phive:
+    Placement: {ID: !ul 12421021397170727981}
+  Rotate: [-3.141592264175415, 0.5235987901687622, -3.141592502593994]
+  SRTHash: !u 0x041129ff
+  Translate: [-9.095954895019531, 0.8199999928474426, 10.003890991210938]
+- Gyaml: Enemy_Guay_Boss_Dictionary
+  Hash: !ul 14859981215141946041
+  Links:
+  - {Dst: !ul 9530444968818543716, Gyaml: Reference, Name: Reference, Src: !ul 14859981215141946041}
+  Phive:
+    Placement: {ID: !ul 14859981215141946041}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Guay, IsCheckLazy: true, IsNegation: false}
+  Rotate: [0.0, 1.5707955360412598, 0.6337689161300659]
+  SRTHash: !u 0x33c1d96c
+  Translate: [-10.785293579101562, 2.348266839981079, 7.995997428894043]
+- Gyaml: Enemy_TrickyDoor_SpiritTemple_Dictionary
+  Hash: !ul 2095087602727550213
+  Links:
+  - {Dst: !ul 6765586732852912449, Gyaml: Reference, Name: Reference, Src: !ul 2095087602727550213}
+  Phive:
+    Placement: {ID: !ul 2095087602727550213}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_TrickyDoor_SpiritTemple, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [1.8350985050201416, 1.4610309600830078, 2.105483293533325]
+  SRTHash: !u 0xfd308e32
+  Translate: [-16.72170639038086, 2.0853357315063477, 5.990593433380127]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.699999988079071}
+  Gyaml: Land_Dream_EnemyPedestal_A_02
+  Hash: !ul 6765586732852912449
+  Name: EnemyBase
+  Phive:
+    Placement: {ID: !ul 6765586732852912449}
+  Rotate: [-3.141592264175415, 1.3089970350265503, -3.141592025756836]
+  SRTHash: !u 0xbb0d244c
+  Translate: [-16.83196258544922, 1.6399999856948853, 6.695130348205566]
+- Gyaml: Enemy_Bubble_Green_Dictionary
+  Hash: !ul 15255018127644654088
+  Links:
+  - {Dst: !ul 8187721656290493941, Gyaml: Reference, Name: Reference, Src: !ul 15255018127644654088}
+  Phive:
+    Placement: {ID: !ul 15255018127644654088}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Bubble_Green, IsCheckLazy: true, IsNegation: false}
+  Rotate: [3.1415915489196777, 1.3974688053131104, 3.141591787338257]
+  SRTHash: !u 0x513743e8
+  Translate: [-12.356094360351562, 1.6273125410079956, 5.685850620269775]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.699999988079071}
+  Gyaml: Land_Dream_EnemyPedestal_A_04
+  Hash: !ul 8187721656290493941
+  Name: EnemyBase
+  Phive:
+    Placement: {ID: !ul 8187721656290493941}
+  Rotate: [3.1415915489196777, 1.3974688053131104, 3.141591787338257]
+  SRTHash: !u 0xecb8b20d
+  Translate: [-12.27882194519043, 0.8199999928474426, 5.607264518737793]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_02
+  Hash: !ul 6288229381732434109
+  Links:
+  - {Dst: !ul 2095087602727550213, Gyaml: Reference, Name: Reference, Src: !ul 6288229381732434109}
+  - {Dst: !ul 17218037981173162342, Gyaml: Reference, Name: Reference, Src: !ul 6288229381732434109}
+  Phive:
+    Placement: {ID: !ul 6288229381732434109}
+  Presence: {FlagName: DreamWorldPlate_Enemy_TrickyDoor_SpiritTemple, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [0.0, -1.25541353225708, 0.0]
+  SRTHash: !u 0xebac9756
+  Translate: [-15.717205047607422, 2.091118812561035, 6.610345840454102]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_01
+  Hash: !ul 3585287417195072279
+  Links:
+  - {Dst: !ul 5568477628540920789, Gyaml: Reference, Name: Reference, Src: !ul 3585287417195072279}
+  - {Dst: !ul 3968018533584979184, Gyaml: Reference, Name: Reference, Src: !ul 3585287417195072279}
+  Phive:
+    Placement: {ID: !ul 3585287417195072279}
+  Presence: {FlagName: DreamWorldPlate_Enemy_Leever_Big, IsCheckLazy: true, IsNegation: false}
+  Rotate: [0.0, -1.4045848846435547, 0.0]
+  SRTHash: !u 0x4d072914
+  Translate: [-16.30270004272461, 2.0912160873413086, 2.5411810874938965]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_01
+  Hash: !ul 1776638212213391609
+  Links:
+  - {Dst: !ul 594230071970629745, Gyaml: Reference, Name: Reference, Src: !ul 1776638212213391609}
+  - {Dst: !ul 16082972214280905157, Gyaml: Reference, Name: Reference, Src: !ul 1776638212213391609}
+  Phive:
+    Placement: {ID: !ul 1776638212213391609}
+  Presence: {FlagName: DreamWorldPlate_Enemy_Anubis, IsCheckLazy: true, IsNegation: false}
+  Rotate: [0.0, -1.0471975803375244, 0.0]
+  SRTHash: !u 0x5b87f789
+  Translate: [-14.729104042053223, 2.0900208950042725, 9.584737777709961]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_02
+  Hash: !ul 18394027773291230842
+  Links:
+  - {Dst: !ul 16202920474395765433, Gyaml: Reference, Name: Reference, Src: !ul 18394027773291230842}
+  - {Dst: !ul 840235933625836686, Gyaml: Reference, Name: Reference, Src: !ul 18394027773291230842}
+  Phive:
+    Placement: {ID: !ul 18394027773291230842}
+  Presence: {FlagName: DreamWorldPlate_Enemy_LikeLike, IsCheckLazy: true, IsNegation: false}
+  Rotate: [0.0, -0.8732584714889526, 0.0]
+  SRTHash: !u 0xd9da4034
+  Translate: [-11.773782730102539, 2.0912163257598877, 11.553139686584473]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_01
+  Hash: !ul 10003729777439380898
+  Links:
+  - {Dst: !ul 15255018127644654088, Gyaml: Reference, Name: Reference, Src: !ul 10003729777439380898}
+  - {Dst: !ul 13444329644036544031, Gyaml: Reference, Name: Reference, Src: !ul 10003729777439380898}
+  Phive:
+    Placement: {ID: !ul 10003729777439380898}
+  Presence: {FlagName: DreamWorldPlate_Enemy_Bubble_Green, IsCheckLazy: true, IsNegation: false}
+  Rotate: [0.0, -1.152579665184021, 0.0]
+  SRTHash: !u 0x476a0bd8
+  Translate: [-11.922114372253418, 1.2670528888702393, 5.263194561004639]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_02
+  Hash: !ul 7233354757217687519
+  Links:
+  - {Dst: !ul 6730988220089320423, Gyaml: Reference, Name: Reference, Src: !ul 7233354757217687519}
+  - {Dst: !ul 14555582419968813178, Gyaml: Reference, Name: Reference, Src: !ul 7233354757217687519}
+  Phive:
+    Placement: {ID: !ul 7233354757217687519}
+  Presence: {FlagName: DreamWorldPlate_Enemy_Leever, IsCheckLazy: true, IsNegation: false}
+  Rotate: [0.0, -1.3673856258392334, 0.0]
+  SRTHash: !u 0x507e2c14
+  Translate: [-12.389106750488281, 1.2700254917144775, 2.59507155418396]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_02
+  Hash: !ul 9432695151797078626
+  Links:
+  - {Dst: !ul 8662050923007049138, Gyaml: Reference, Name: Reference, Src: !ul 9432695151797078626}
+  - {Dst: !ul 6767248996585120306, Gyaml: Reference, Name: Reference, Src: !ul 9432695151797078626}
+  Phive:
+    Placement: {ID: !ul 9432695151797078626}
+  Presence: {FlagName: DreamWorldPlate_Enemy_Guay, IsCheckLazy: true, IsNegation: false}
+  Rotate: [0.0, -0.8965185284614563, 0.0]
+  SRTHash: !u 0xcebefbed
+  Translate: [-10.273377418518066, 1.269837737083435, 7.949476718902588]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_01
+  Hash: !ul 14809616193622433530
+  Links:
+  - {Dst: !ul 10068853527108770860, Gyaml: Reference, Name: Reference, Src: !ul 14809616193622433530}
+  - {Dst: !ul 13275700294313308430, Gyaml: Reference, Name: Reference, Src: !ul 14809616193622433530}
+  Phive:
+    Placement: {ID: !ul 14809616193622433530}
+  Presence: {FlagName: DreamWorldPlate_Enemy_FlyingPot, IsCheckLazy: true, IsNegation: false}
+  Rotate: [0.0, -0.7010555863380432, 0.0]
+  SRTHash: !u 0xe3271494
+  Translate: [-8.675056457519531, 1.2700002193450928, 9.804526329040527]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_01
+  Hash: !ul 6084533017786340146
+  Links:
+  - {Dst: !ul 120351563831758212, Gyaml: Reference, Name: Reference, Src: !ul 6084533017786340146}
+  - {Dst: !ul 17610150577868991828, Gyaml: Reference, Name: Reference, Src: !ul 6084533017786340146}
+  Phive:
+    Placement: {ID: !ul 6084533017786340146}
+  Presence: {FlagName: DreamWorldPlate_Enemy_Bubble_White, IsCheckLazy: true, IsNegation: false}
+  Rotate: [0.0, -0.6787890195846558, 0.0]
+  SRTHash: !u 0xe75c5ce3
+  Translate: [-11.326889038085938, 2.090000629425049, 14.210700035095215]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_01_Boss
+  Hash: !ul 2389539885190626884
+  Links:
+  - {Dst: !ul 8502304136733584563, Gyaml: Reference, Name: Reference, Src: !ul 2389539885190626884}
+  Phive:
+    Placement: {ID: !ul 2389539885190626884}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_MiddleBoss_GerudoThief, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [0.0, -0.7725526094436646, 0.0]
+  SRTHash: !u 0xa5528be4
+  Translate: [-16.005483627319336, 3.674999952316284, 15.330992698669434]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_02_Boss
+  Hash: !ul 12678145628136727214
+  Links:
+  - {Dst: !ul 6650015507629735824, Gyaml: Reference, Name: Reference, Src: !ul 12678145628136727214}
+  Phive:
+    Placement: {ID: !ul 12678145628136727214}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_IronKnuckle_Silver, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [0.0, -1.0471975803375244, 0.0]
+  SRTHash: !u 0x120c0ac5
+  Translate: [-20.296655654907227, 3.674999952316284, 11.507416725158691]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_01_Boss
+  Hash: !ul 4025184147157507541
+  Links:
+  - {Dst: !ul 6344421149509702824, Gyaml: Reference, Name: Reference, Src: !ul 4025184147157507541}
+  Phive:
+    Placement: {ID: !ul 4025184147157507541}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_MiddleBoss_IronKnuckle_Nabooru, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [0.0, -1.3218425512313843, 0.0]
+  SRTHash: !u 0x3896a9b1
+  Translate: [-21.408857345581055, 3.674999952316284, 5.825199604034424]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_03
+  Hash: !ul 12482110443005854734
+  Links:
+  - {Dst: !ul 510029366067965596, Gyaml: Reference, Name: Reference, Src: !ul 12482110443005854734}
+  Phive:
+    Placement: {ID: !ul 12482110443005854734}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_DungeonBoss_Twinrova, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [0.0, -1.0471975803375244, 0.0]
+  SRTHash: !u 0xdb8fb787
+  Translate: [-28.35211753845215, 5.704999923706055, 16.217397689819336]
+- Gyaml: Enemy_Guay_Dictionary_Undefeated
+  Hash: !ul 6767248996585120306
+  Phive:
+    Placement: {ID: !ul 6767248996585120306}
+  Presence: {FlagName: UndefeatedEnemyAfterGameClear_Enemy_Guay, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [-2.9682681560516357, 0.020602013915777206, 3.0244674682617188]
+  SRTHash: !u 0xa9c6021c
+  Translate: [-10.788074493408203, 0.3957129716873169, 8.305421829223633]
+- Gyaml: Enemy_LikeLike_Dictionary_Undefeated
+  Hash: !ul 840235933625836686
+  Phive:
+    Placement: {ID: !ul 840235933625836686}
+  Presence: {FlagName: UndefeatedEnemyAfterGameClear_Enemy_LikeLike, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [-3.141592502593994, 0.9706624150276184, -3.141592502593994]
+  SRTHash: !u 0xd742a0fc
+  Translate: [-12.8795804977417, 2.1141340732574463, 11.914748191833496]
+- Gyaml: Enemy_Leever_Big_Dictionary_Undefeated
+  Hash: !ul 3968018533584979184
+  Phive:
+    Placement: {ID: !ul 3968018533584979184}
+  Presence: {FlagName: UndefeatedEnemyAfterGameClear_Enemy_Leever_Big, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [0.0, 1.5707961320877075, 2.2649371089755732e-07]
+  SRTHash: !u 0x19bee1fc
+  Translate: [-17.422443389892578, 1.6111935377120972, 3.161557674407959]
+- Gyaml: Enemy_Leever_Dictionary_Undefeated
+  Hash: !ul 14555582419968813178
+  Phive:
+    Placement: {ID: !ul 14555582419968813178}
+  Presence: {FlagName: UndefeatedEnemyAfterGameClear_Enemy_Leever, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [0.0, 1.5707961320877075, 2.2649371089755732e-07]
+  SRTHash: !u 0x1be704f7
+  Translate: [-13.035201072692871, 1.267052412033081, 3.0309035778045654]
+- Gyaml: Enemy_FlyingPot_Dictionary_Undefeated
+  Hash: !ul 13275700294313308430
+  Phive:
+    Placement: {ID: !ul 13275700294313308430}
+  Presence: {FlagName: UndefeatedEnemyAfterGameClear_Enemy_FlyingPot, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [-3.074531078338623, -0.24100184440612793, -2.8004214763641357]
+  SRTHash: !u 0x63162a25
+  Translate: [-9.082330703735352, 1.8040000200271606, 10.034071922302246]
+- Gyaml: Enemy_Bubble_White_Dictionary_Undefeated
+  Hash: !ul 17610150577868991828
+  Phive:
+    Placement: {ID: !ul 17610150577868991828}
+  Presence: {FlagName: UndefeatedEnemyAfterGameClear_Enemy_Bubble_White, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [3.141592502593994, 0.8327187895774841, 3.141592502593994]
+  SRTHash: !u 0xd7a2a840
+  Translate: [-11.387868881225586, 1.553929328918457, 14.764690399169922]
+- Gyaml: Enemy_Bubble_Green_Dictionary_Undefeated
+  Hash: !ul 13444329644036544031
+  Phive:
+    Placement: {ID: !ul 13444329644036544031}
+  Presence: {FlagName: UndefeatedEnemyAfterGameClear_Enemy_Bubble_Green, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [3.141591787338257, 1.3154096603393555, 3.141592025756836]
+  SRTHash: !u 0xa8ba0c98
+  Translate: [-12.294265747070312, 0.7758140563964844, 5.650153636932373]
+- Gyaml: Enemy_Anubis_Dictionary_Undefeated
+  Hash: !ul 16082972214280905157
+  Phive:
+    Placement: {ID: !ul 16082972214280905157}
+  Presence: {FlagName: UndefeatedEnemyAfterGameClear_Enemy_Anubis, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [-2.934584379196167, 0.40803998708724976, 3.084622859954834]
+  SRTHash: !u 0x9a9e4826
+  Translate: [-15.654465675354004, 2.1491470336914062, 9.711777687072754]
+- Gyaml: Enemy_TrickyDoor_SpiritTemple_Dictionary_Undefeated
+  Hash: !ul 17218037981173162342
+  Phive:
+    Placement: {ID: !ul 17218037981173162342}
+  Presence: {FlagName: UndefeatedEnemyAfterGameClear_Enemy_TrickyDoor_SpiritTemple,
+    IsCheckLazy: true, IsNegation: false}
+  Rotate: [2.4755430221557617, 1.4399808645248413, 2.3714516162872314]
+  SRTHash: !u 0xfdaa7ecf
+  Translate: [-16.850818634033203, 1.697577714920044, 6.010903358459473]
+- Gyaml: Enemy_Wolfos_White_Dictionary
+  Hash: !ul 14454749140174286391
+  Phive:
+    Placement: {ID: !ul 14454749140174286391}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Wolfos_White, IsCheckLazy: true, IsNegation: false}
+  Rotate: [-3.141592502593994, 0.3490658402442932, -3.141592502593994]
+  SRTHash: !u 0x0526bca1
+  Translate: [-5.098160266876221, 3.694506883621216, 22.396480560302734]
+- Gyaml: Enemy_Freezard_Dictionary
+  Hash: !ul 12462868487367635394
+  Links:
+  - {Dst: !ul 9613066027253466722, Gyaml: Reference, Name: Reference, Src: !ul 12462868487367635394}
+  Phive:
+    Placement: {ID: !ul 12462868487367635394}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Freezard, IsCheckLazy: true, IsNegation: false}
+  Rotate: [-3.141592502593994, -0.0, -3.141592264175415]
+  SRTHash: !u 0x45ef07d2
+  Translate: [-1.5227030515670776, 2.089665174484253, 18.309879302978516]
+- Gyaml: Enemy_Bari_Dictionary
+  Hash: !ul 10663310324250097923
+  Links:
+  - {Dst: !ul 12555452272886612283, Gyaml: Reference, Name: Reference, Src: !ul 10663310324250097923}
+  Phive:
+    Placement: {ID: !ul 10663310324250097923}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Bari, IsCheckLazy: true, IsNegation: false}
+  Rotate: [3.141592502593994, -0.049616556614637375, 3.141592502593994]
+  SRTHash: !u 0xee613cec
+  Translate: [-0.14718225598335266, 0.8370000123977661, 12.356379508972168]
+- Gyaml: Enemy_MiddleBoss_BigOcto_Dictionary
+  Hash: !ul 14174135863775071959
+  Links:
+  - {Dst: !ul 6380757271807610376, Gyaml: Reference, Name: Reference, Src: !ul 14174135863775071959}
+  Phive:
+    Placement: {ID: !ul 14174135863775071959}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_MiddleBoss_BigOcto, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [-3.141592502593994, -0.42586037516593933, -3.0892326831817627]
+  SRTHash: !u 0xc03a2acf
+  Translate: [6.756182670593262, 4.151000022888184, 24.143327713012695]
+- Gyaml: Enemy_Spike_Dictionary
+  Hash: !ul 7471417478211587871
+  Links:
+  - {Dst: !ul 5793509016425300314, Gyaml: Reference, Name: Reference, Src: !ul 7471417478211587871}
+  - {Dst: !ul 7540785966500380452, Gyaml: Reference, Name: Reference, Src: !ul 7471417478211587871}
+  Phive:
+    Placement: {ID: !ul 7471417478211587871}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Spike, IsCheckLazy: true, IsNegation: false}
+  Rotate: [3.141592502593994, -0.42369264364242554, 3.141592502593994]
+  SRTHash: !u 0x31c812db
+  Translate: [-3.868868112564087, 3.066101551055908, 17.886066436767578]
+- Gyaml: Enemy_Tektite_Blue_Dictionary
+  Hash: !ul 8754832471893014038
+  Links:
+  - {Dst: !ul 6166904827931029398, Gyaml: Reference, Name: Reference, Src: !ul 8754832471893014038}
+  Phive:
+    Placement: {ID: !ul 8754832471893014038}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Tektite_Blue, IsCheckLazy: true, IsNegation: false}
+  Rotate: [3.141592502593994, -0.0, 3.141592502593994]
+  SRTHash: !u 0x51903d0c
+  Translate: [1.3775348663330078, 2.0896666049957275, 17.789371490478516]
+- Gyaml: Enemy_Octorok_Dictionary
+  Hash: !ul 10243533025065916882
+  Links:
+  - {Dst: !ul 17922934033859210406, Gyaml: Reference, Name: Reference, Src: !ul 10243533025065916882}
+  Phive:
+    Placement: {ID: !ul 10243533025065916882}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Octorok, IsCheckLazy: true, IsNegation: false}
+  Rotate: [-3.071779489517212, 0.33680006861686707, -3.141592502593994]
+  SRTHash: !u 0x886f1dc5
+  Translate: [-6.552781581878662, 3.390000104904175, 17.009679794311523]
+- Gyaml: Enemy_DungeonBoss_Barinade_Dictionary
+  Hash: !ul 11402192551604926712
+  Links:
+  - {Dst: !ul 16424962014990124842, Gyaml: Reference, Name: Reference, Src: !ul 11402192551604926712}
+  - {Dst: !ul 6326997871779239812, Gyaml: Reference, Name: Reference, Src: !ul 11402192551604926712}
+  - {Dst: !ul 10698188656778575347, Gyaml: Reference, Name: Reference, Src: !ul 11402192551604926712}
+  - {Dst: !ul 13965606329879894513, Gyaml: Reference, Name: Reference, Src: !ul 11402192551604926712}
+  Phive:
+    Placement: {ID: !ul 11402192551604926712}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_DungeonBoss_Barinade, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [-3.141592502593994, 0.4041028320789337, -3.141592502593994]
+  SRTHash: !u 0x729de4de
+  Translate: [-7.001389026641846, 8.063511848449707, 31.16431999206543]
+- Gyaml: Enemy_MiddleBoss_DarkLink_Dictionary
+  Hash: !ul 1551501288907507690
+  Phive:
+    Placement: {ID: !ul 1551501288907507690}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_MiddleBoss_DarkLink, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0x06fadaf5
+  Translate: [0.0, 4.119999885559082, 23.14524269104004]
+- Gyaml: Enemy_Shabom_Dictionary
+  Hash: !ul 16294812362573081931
+  Links:
+  - {Dst: !ul 16469377531240708120, Gyaml: Reference, Name: Reference, Src: !ul 16294812362573081931}
+  Phive:
+    Placement: {ID: !ul 16294812362573081931}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Shabom, IsCheckLazy: true, IsNegation: false}
+  Rotate: [3.141592502593994, -0.2617994248867035, 2.7436575889587402]
+  SRTHash: !u 0x706984be
+  Translate: [2.193087100982666, 2.116227865219116, 13.435874938964844]
+- Gyaml: Enemy_Biri_Dictionary
+  Hash: !ul 8908007368901554626
+  Links:
+  - {Dst: !ul 3925921770543027112, Gyaml: Reference, Name: Reference, Src: !ul 8908007368901554626}
+  Phive:
+    Placement: {ID: !ul 8908007368901554626}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Biri, IsCheckLazy: true, IsNegation: false}
+  SRTHash: !u 0x993a17b9
+  Translate: [-2.4023170471191406, 2.2141010761260986, 13.246827125549316]
+- Gyaml: Enemy_Stinger_Dictionary
+  Hash: !ul 10920885211433187985
+  Links:
+  - {Dst: !ul 14701788324001339408, Gyaml: Reference, Name: Reference, Src: !ul 10920885211433187985}
+  Phive:
+    Placement: {ID: !ul 10920885211433187985}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Stinger, IsCheckLazy: true, IsNegation: false}
+  Rotate: [3.141592502593994, 0.5235987901687622, 3.141592502593994]
+  SRTHash: !u 0x4c06a1cd
+  Translate: [-4.084400653839111, 2.1080000400543213, 11.862167358398438]
+- Gyaml: Enemy_ShellBlade_Dictionary
+  Hash: !ul 17090970993082684301
+  Links:
+  - {Dst: !ul 1186154066712844728, Gyaml: Reference, Name: Reference, Src: !ul 17090970993082684301}
+  Phive:
+    Placement: {ID: !ul 17090970993082684301}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_ShellBlade, IsCheckLazy: true, IsNegation: false}
+  Rotate: [3.141591787338257, -0.8109569549560547, -3.1415910720825195]
+  SRTHash: !u 0x9722d2ec
+  Translate: [4.645711421966553, 2.0923011302948, 17.462827682495117]
+- Gyaml: Enemy_DungeonBoss_Morpha_Dictionary
+  Hash: !ul 10783370347036455930
+  Links:
+  - {Dst: !ul 13928222771065033260, Gyaml: Reference, Name: Reference, Src: !ul 10783370347036455930}
+  - {Dst: !ul 887703188045521261, Gyaml: Reference, Name: Reference, Src: !ul 10783370347036455930}
+  Phive:
+    Placement: {ID: !ul 10783370347036455930}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_DungeonBoss_Morpha, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0x9453320a
+  Translate: [0.09029293060302734, 11.977982521057129, 46.32024383544922]
+- Gyaml: Enemy_Tailpasaran_Dictionary
+  Hash: !ul 17497481279073234106
+  Links:
+  - {Dst: !ul 6922336903706090901, Gyaml: Reference, Name: Reference, Src: !ul 17497481279073234106}
+  Phive:
+    Placement: {ID: !ul 17497481279073234106}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Tailpasaran, IsCheckLazy: true, IsNegation: false}
+  Rotate: [-3.141592502593994, 0.3159045875072479, 3.141592502593994]
+  SRTHash: !u 0x5233f0c7
+  Translate: [4.331661224365234, 1.4162184000015259, 10.777826309204102]
+- Gyaml: Enemy_Keese_Ice_Dictionary
+  Hash: !ul 8313199392217213720
+  Links:
+  - {Dst: !ul 3473919688424290700, Gyaml: Reference, Name: Reference, Src: !ul 8313199392217213720}
+  Phive:
+    Placement: {ID: !ul 8313199392217213720}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Keese_Ice, IsCheckLazy: true, IsNegation: false}
+  Rotate: [-3.141592025756836, -0.6645742058753967, 3.141592264175415]
+  SRTHash: !u 0x1519eb2b
+  Translate: [6.9138569831848145, 2.44851016998291, 16.445972442626953]
+- Gyaml: Enemy_DungeonBoss_Morpha_Tentacle_Dictionary
+  Hash: !ul 887703188045521261
+  Links:
+  - {Dst: !ul 13928222771065033260, Gyaml: Reference, Name: Reference, Src: !ul 887703188045521261}
+  Phive:
+    Placement: {ID: !ul 887703188045521261}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_DungeonBoss_Morpha, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [-3.141592502593994, -0.0, 3.141592502593994]
+  SRTHash: !u 0xb1652752
+  Translate: [0.09895205497741699, 11.977982521057129, 46.339134216308594]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.699999988079071}
+  Gyaml: Land_Dream_EnemyPedestal_A_01
+  Hash: !ul 9613066027253466722
+  Name: EnemyBase
+  Phive:
+    Placement: {ID: !ul 9613066027253466722}
+  Rotate: [-3.141592502593994, -1.2041879892349243, -3.141592264175415]
+  SRTHash: !u 0x4ca8296a
+  Translate: [-1.5227030515670776, 1.6399999856948853, 18.246957778930664]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.699999988079071}
+  Gyaml: Land_Dream_EnemyPedestal_A_02
+  Hash: !ul 1186154066712844728
+  Name: EnemyBase
+  Phive:
+    Placement: {ID: !ul 1186154066712844728}
+  Rotate: [3.141592502593994, -0.2617993950843811, -3.141592264175415]
+  SRTHash: !u 0xd8104ecc
+  Translate: [4.532765865325928, 1.6399999856948853, 17.355510711669922]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.699999988079071}
+  Gyaml: Land_Dream_EnemyPedestal_A_02
+  Hash: !ul 6166904827931029398
+  Name: EnemyBase
+  Phive:
+    Placement: {ID: !ul 6166904827931029398}
+  Rotate: [3.141592502593994, -0.0, 3.141592502593994]
+  SRTHash: !u 0x76d9e461
+  Translate: [1.3775348663330078, 1.6399999856948853, 17.979511260986328]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.699999988079071}
+  Gyaml: Land_Dream_EnemyPedestal_A_01
+  Hash: !ul 5793509016425300314
+  Name: EnemyBase
+  Phive:
+    Placement: {ID: !ul 5793509016425300314}
+  Rotate: [0.0, 0.31702977418899536, 0.0]
+  SRTHash: !u 0xdcad9063
+  Translate: [-4.0538177490234375, 1.6399999856948853, 17.755146026611328]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.699999988079071}
+  Gyaml: Land_Dream_EnemyPedestal_A_01
+  Hash: !ul 17922934033859210406
+  Name: EnemyBase
+  Phive:
+    Placement: {ID: !ul 17922934033859210406}
+  Rotate: [-3.141592502593994, 0.5235987901687622, -3.141592502593994]
+  SRTHash: !u 0xdfe41c24
+  Translate: [-6.48049783706665, 1.6399999856948853, 16.789690017700195]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.699999988079071}
+  Gyaml: Land_Dream_EnemyPedestal_A_01
+  Hash: !ul 12555452272886612283
+  Name: EnemyBase
+  Phive:
+    Placement: {ID: !ul 12555452272886612283}
+  Rotate: [3.141592502593994, -0.049616556614637375, 3.141592502593994]
+  SRTHash: !u 0x5328ec62
+  Translate: [-0.14718225598335266, 0.8199121356010437, 12.356379508972168]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.699999988079071}
+  Gyaml: Land_Dream_EnemyPedestal_A_01
+  Hash: !ul 6922336903706090901
+  Name: EnemyBase
+  Phive:
+    Placement: {ID: !ul 6922336903706090901}
+  Rotate: [3.141592502593994, -0.4299328327178955, 3.141592502593994]
+  SRTHash: !u 0x45fe6003
+  Translate: [3.9726004600524902, 0.8199980854988098, 11.787785530090332]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.699999988079071}
+  Gyaml: Land_Dream_EnemyPedestal_A_04
+  Hash: !ul 16469377531240708120
+  Name: EnemyBase
+  Phive:
+    Placement: {ID: !ul 16469377531240708120}
+  Rotate: [3.141592502593994, -0.2617993950843811, 3.141592502593994]
+  SRTHash: !u 0x1af57f4f
+  Translate: [2.1987686157226562, 0.8199999928474426, 13.445011138916016]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.699999988079071}
+  Gyaml: Land_Dream_EnemyPedestal_A_04
+  Hash: !ul 3925921770543027112
+  Name: EnemyBase
+  Phive:
+    Placement: {ID: !ul 3925921770543027112}
+  Rotate: [3.141592502593994, 0.2617993950843811, 3.141592502593994]
+  SRTHash: !u 0x5100fe97
+  Translate: [-2.415466785430908, 0.8199999928474426, 13.411109924316406]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.699999988079071}
+  Gyaml: Land_Dream_EnemyPedestal_A_04
+  Hash: !ul 3473919688424290700
+  Name: EnemyBase
+  Phive:
+    Placement: {ID: !ul 3473919688424290700}
+  Rotate: [-3.141592025756836, -0.5235987901687622, 3.141592264175415]
+  SRTHash: !u 0xdb3e9dfc
+  Translate: [6.878479480743408, 1.6395111083984375, 16.42594337463379]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.699999988079071}
+  Gyaml: Land_Dream_EnemyPedestal_A_04
+  Hash: !ul 14701788324001339408
+  Name: EnemyBase
+  Phive:
+    Placement: {ID: !ul 14701788324001339408}
+  Rotate: [3.141592502593994, 0.5235987901687622, 3.141592502593994]
+  SRTHash: !u 0x776e2c9a
+  Translate: [-4.188207149505615, 0.8199999928474426, 12.008596420288086]
+- Gyaml: Enemy_Spike_Stone_Dictionary
+  Hash: !ul 7540785966500380452
+  Phive:
+    Placement: {ID: !ul 7540785966500380452}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Spike, IsCheckLazy: true, IsNegation: false}
+  SRTHash: !u 0x1b320304
+  Translate: [-4.250887393951416, 2.3362369537353516, 17.250852584838867]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyBlackFade_A_01
+  Hash: !ul 13965606329879894513
+  Phive:
+    Placement: {ID: !ul 13965606329879894513}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_DungeonBoss_Barinade, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [-3.141592502593994, 0.4041028320789337, -3.141592502593994]
+  SRTHash: !u 0xd7ad9b5f
+  Translate: [-7.001389026641846, 8.064000129699707, 31.16431999206543]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_01
+  Hash: !ul 8326386200034065603
+  Links:
+  - {Dst: !ul 17497481279073234106, Gyaml: Reference, Name: Reference, Src: !ul 8326386200034065603}
+  - {Dst: !ul 8181360258258137377, Gyaml: Reference, Name: Reference, Src: !ul 8326386200034065603}
+  Phive:
+    Placement: {ID: !ul 8326386200034065603}
+  Presence: {FlagName: DreamWorldPlate_Enemy_Tailpasaran, IsCheckLazy: true, IsNegation: false}
+  Rotate: [-1.1246208941884106e-07, 0.379376620054245, 0.0]
+  SRTHash: !u 0x1cf40cfd
+  Translate: [3.4673640727996826, 1.2700259685516357, 11.240615844726562]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_02
+  Hash: !ul 17554352298631271604
+  Links:
+  - {Dst: !ul 16294812362573081931, Gyaml: Reference, Name: Reference, Src: !ul 17554352298631271604}
+  - {Dst: !ul 10143180441683837836, Gyaml: Reference, Name: Reference, Src: !ul 17554352298631271604}
+  Phive:
+    Placement: {ID: !ul 17554352298631271604}
+  Presence: {FlagName: DreamWorldPlate_Enemy_Shabom, IsCheckLazy: true, IsNegation: false}
+  Rotate: [0.0, 0.1650492548942566, 0.0]
+  SRTHash: !u 0x8c442715
+  Translate: [1.9447386264801025, 1.2699998617172241, 13.044713973999023]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_01
+  Hash: !ul 17148290597595215729
+  Links:
+  - {Dst: !ul 10663310324250097923, Gyaml: Reference, Name: Reference, Src: !ul 17148290597595215729}
+  - {Dst: !ul 17377640849176002811, Gyaml: Reference, Name: Reference, Src: !ul 17148290597595215729}
+  Phive:
+    Placement: {ID: !ul 17148290597595215729}
+  Presence: {FlagName: DreamWorldPlate_Enemy_Bari, IsCheckLazy: true, IsNegation: false}
+  SRTHash: !u 0xc381eea3
+  Translate: [-0.38815629482269287, 1.2699263095855713, 11.63836669921875]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_02
+  Hash: !ul 16865752106659676041
+  Links:
+  - {Dst: !ul 8908007368901554626, Gyaml: Reference, Name: Reference, Src: !ul 16865752106659676041}
+  - {Dst: !ul 5066471846411621380, Gyaml: Reference, Name: Reference, Src: !ul 16865752106659676041}
+  Phive:
+    Placement: {ID: !ul 16865752106659676041}
+  Presence: {FlagName: DreamWorldPlate_Enemy_Biri, IsCheckLazy: true, IsNegation: false}
+  Rotate: [0.0, -0.18460999429225922, 0.0]
+  SRTHash: !u 0xc625d8bf
+  Translate: [-2.5437843799591064, 1.2699998617172241, 12.932318687438965]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_01
+  Hash: !ul 2480910831654910741
+  Links:
+  - {Dst: !ul 10920885211433187985, Gyaml: Reference, Name: Reference, Src: !ul 2480910831654910741}
+  - {Dst: !ul 818576240665545771, Gyaml: Reference, Name: Reference, Src: !ul 2480910831654910741}
+  Phive:
+    Placement: {ID: !ul 2480910831654910741}
+  Presence: {FlagName: DreamWorldPlate_Enemy_Stinger, IsCheckLazy: true, IsNegation: false}
+  Rotate: [0.0, -0.3522636890411377, 0.0]
+  SRTHash: !u 0xe0c0afc8
+  Translate: [-4.174411773681641, 1.269999623298645, 11.470707893371582]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_02
+  Hash: !ul 13419906722337131857
+  Links:
+  - {Dst: !ul 8313199392217213720, Gyaml: Reference, Name: Reference, Src: !ul 13419906722337131857}
+  - {Dst: !ul 2169091664155680761, Gyaml: Reference, Name: Reference, Src: !ul 13419906722337131857}
+  Phive:
+    Placement: {ID: !ul 13419906722337131857}
+  Presence: {FlagName: DreamWorldPlate_Enemy_Keese_Ice, IsCheckLazy: true, IsNegation: false}
+  Rotate: [0.0, 0.4134276807308197, 0.0]
+  SRTHash: !u 0xaca49d6d
+  Translate: [6.5497236251831055, 2.089510202407837, 16.075328826904297]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_01
+  Hash: !ul 3897617992036814523
+  Links:
+  - {Dst: !ul 17090970993082684301, Gyaml: Reference, Name: Reference, Src: !ul 3897617992036814523}
+  - {Dst: !ul 1608459895661519908, Gyaml: Reference, Name: Reference, Src: !ul 3897617992036814523}
+  Phive:
+    Placement: {ID: !ul 3897617992036814523}
+  Presence: {FlagName: DreamWorldPlate_Enemy_ShellBlade, IsCheckLazy: true, IsNegation: false}
+  Rotate: [0.0, 0.2382456213235855, 0.0]
+  SRTHash: !u 0x69d5318f
+  Translate: [4.736641883850098, 2.091118097305298, 16.31475257873535]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_02
+  Hash: !ul 8290519148112583803
+  Links:
+  - {Dst: !ul 8754832471893014038, Gyaml: Reference, Name: Reference, Src: !ul 8290519148112583803}
+  - {Dst: !ul 4963780652208370387, Gyaml: Reference, Name: Reference, Src: !ul 8290519148112583803}
+  Phive:
+    Placement: {ID: !ul 8290519148112583803}
+  Presence: {FlagName: DreamWorldPlate_Enemy_Tektite_Blue, IsCheckLazy: true, IsNegation: false}
+  Rotate: [0.0, 0.09788303822278976, 0.0]
+  SRTHash: !u 0x3a8b1751
+  Translate: [1.0028730630874634, 2.090021848678589, 17.024682998657227]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_01
+  Hash: !ul 17315039750904903896
+  Links:
+  - {Dst: !ul 12462868487367635394, Gyaml: Reference, Name: Reference, Src: !ul 17315039750904903896}
+  - {Dst: !ul 90586911544392340, Gyaml: Reference, Name: Reference, Src: !ul 17315039750904903896}
+  Phive:
+    Placement: {ID: !ul 17315039750904903896}
+  Presence: {FlagName: DreamWorldPlate_Enemy_Freezard, IsCheckLazy: true, IsNegation: false}
+  Rotate: [0.0, -0.058678388595581055, 0.0]
+  SRTHash: !u 0x7b3bc108
+  Translate: [-1.2246185541152954, 2.090022563934326, 17.51271629333496]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_02
+  Hash: !ul 14295268509020070895
+  Links:
+  - {Dst: !ul 7471417478211587871, Gyaml: Reference, Name: Reference, Src: !ul 14295268509020070895}
+  - {Dst: !ul 6905204153414722903, Gyaml: Reference, Name: Reference, Src: !ul 14295268509020070895}
+  Phive:
+    Placement: {ID: !ul 14295268509020070895}
+  Presence: {FlagName: DreamWorldPlate_Enemy_Spike, IsCheckLazy: true, IsNegation: false}
+  Rotate: [0.0, -0.22533228993415833, 0.0]
+  SRTHash: !u 0x40c318be
+  Translate: [-3.731240749359131, 2.0900280475616455, 17.006052017211914]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_01
+  Hash: !ul 6081321025339535103
+  Links:
+  - {Dst: !ul 10243533025065916882, Gyaml: Reference, Name: Reference, Src: !ul 6081321025339535103}
+  - {Dst: !ul 14119286152949407700, Gyaml: Reference, Name: Reference, Src: !ul 6081321025339535103}
+  Phive:
+    Placement: {ID: !ul 6081321025339535103}
+  Presence: {FlagName: DreamWorldPlate_Enemy_Octorok, IsCheckLazy: true, IsNegation: false}
+  Rotate: [0.0, -0.3416390120983124, 0.0]
+  SRTHash: !u 0xd2cbc0b1
+  Translate: [-6.039398193359375, 2.090029716491699, 16.180496215820312]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_03
+  Hash: !ul 11996702226000765858
+  Links:
+  - {Dst: !ul 14174135863775071959, Gyaml: Reference, Name: Reference, Src: !ul 11996702226000765858}
+  Phive:
+    Placement: {ID: !ul 11996702226000765858}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_MiddleBoss_BigOcto, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [0.0, 0.29378730058670044, 0.0]
+  SRTHash: !u 0x424947cb
+  Translate: [4.907270431518555, 4.125, 21.98422622680664]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_01_Boss
+  Hash: !ul 11074131480197784899
+  Links:
+  - {Dst: !ul 1551501288907507690, Gyaml: Reference, Name: Reference, Src: !ul 11074131480197784899}
+  Phive:
+    Placement: {ID: !ul 11074131480197784899}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_MiddleBoss_DarkLink, IsCheckLazy: true,
+    IsNegation: false}
+  SRTHash: !u 0xd130297c
+  Translate: [-0.2617880702018738, 4.124999046325684, 22.273178100585938]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_02_Boss
+  Hash: !ul 14878797904346188716
+  Links:
+  - {Dst: !ul 14454749140174286391, Gyaml: Reference, Name: Reference, Src: !ul 14878797904346188716}
+  Phive:
+    Placement: {ID: !ul 14878797904346188716}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Wolfos_White, IsCheckLazy: true, IsNegation: false}
+  Rotate: [0.0, -0.25895529985427856, 0.0]
+  SRTHash: !u 0x8d651cd8
+  Translate: [-5.394657135009766, 3.6750009059906006, 21.15131950378418]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_03
+  Hash: !ul 10306071754889578216
+  Links:
+  - {Dst: !ul 11402192551604926712, Gyaml: Reference, Name: Reference, Src: !ul 10306071754889578216}
+  Phive:
+    Placement: {ID: !ul 10306071754889578216}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_DungeonBoss_Barinade, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [0.0, -0.22547179460525513, 0.0]
+  SRTHash: !u 0xe31817d6
+  Translate: [-7.048283100128174, 5.70500373840332, 28.43006706237793]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_03
+  Hash: !ul 16904286695464637173
+  Links:
+  - {Dst: !ul 10783370347036455930, Gyaml: Reference, Name: Reference, Src: !ul 16904286695464637173}
+  Phive:
+    Placement: {ID: !ul 16904286695464637173}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_DungeonBoss_Morpha, IsCheckLazy: true,
+    IsNegation: false}
+  SRTHash: !u 0x2ab4481f
+  Translate: [-0.8575082421302795, 11.904999732971191, 43.203208923339844]
+- Gyaml: Enemy_Tailpasaran_Dictionary_Undefeated
+  Hash: !ul 8181360258258137377
+  Phive:
+    Placement: {ID: !ul 8181360258258137377}
+  Presence: {FlagName: UndefeatedEnemyAfterGameClear_Enemy_Tailpasaran, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [-3.141592502593994, 0.41568878293037415, 3.141592502593994]
+  SRTHash: !u 0x260ad129
+  Translate: [3.978119134902954, 0.9713751077651978, 11.172035217285156]
+- Gyaml: Enemy_Bari_Dictionary_Undefeated
+  Hash: !ul 17377640849176002811
+  Phive:
+    Placement: {ID: !ul 17377640849176002811}
+  Presence: {FlagName: UndefeatedEnemyAfterGameClear_Enemy_Bari, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [3.141592502593994, -0.3733045160770416, 3.141592502593994]
+  SRTHash: !u 0x5388ed20
+  Translate: [-0.14718225598335266, 0.49428093433380127, 12.415377616882324]
+- Gyaml: Enemy_Biri_Dictionary_Undefeated
+  Hash: !ul 5066471846411621380
+  Phive:
+    Placement: {ID: !ul 5066471846411621380}
+  Presence: {FlagName: UndefeatedEnemyAfterGameClear_Enemy_Biri, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [0.0, 0.6313247680664062, 0.0]
+  SRTHash: !u 0xb823dc25
+  Translate: [-2.501922130584717, 2.2141010761260986, 13.096111297607422]
+- Gyaml: Enemy_Spike_Dictionary_Undefeated
+  Hash: !ul 6905204153414722903
+  Phive:
+    Placement: {ID: !ul 6905204153414722903}
+  Presence: {FlagName: UndefeatedEnemyAfterGameClear_Enemy_Spike, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [3.141592502593994, -0.42369264364242554, 3.141592502593994]
+  SRTHash: !u 0x31c812db
+  Translate: [-3.868868112564087, 3.066101551055908, 17.886066436767578]
+- Gyaml: Enemy_ShellBlade_Dictionary_Undefeated
+  Hash: !ul 1608459895661519908
+  Phive:
+    Placement: {ID: !ul 1608459895661519908}
+  Presence: {FlagName: UndefeatedEnemyAfterGameClear_Enemy_ShellBlade, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [3.141591787338257, -0.8109569549560547, -3.1415910720825195]
+  SRTHash: !u 0xe073694c
+  Translate: [4.645711421966553, 2.115429401397705, 17.462827682495117]
+- Gyaml: Enemy_Shabom_Dictionary_Undefeated
+  Hash: !ul 10143180441683837836
+  Phive:
+    Placement: {ID: !ul 10143180441683837836}
+  Presence: {FlagName: UndefeatedEnemyAfterGameClear_Enemy_Shabom, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [-3.09074330329895, -0.37426868081092834, 2.7277283668518066]
+  SRTHash: !u 0x51c00139
+  Translate: [2.193087100982666, 2.093818187713623, 13.435874938964844]
+- Gyaml: Enemy_Octorok_Dictionary_Undefeated
+  Hash: !ul 14119286152949407700
+  Phive:
+    Placement: {ID: !ul 14119286152949407700}
+  Presence: {FlagName: UndefeatedEnemyAfterGameClear_Enemy_Octorok, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [-3.071779489517212, 0.6031396985054016, -3.141592502593994]
+  SRTHash: !u 0x927d3c54
+  Translate: [-6.552781581878662, 3.0709025859832764, 17.009679794311523]
+- Gyaml: Enemy_Keese_Ice_Dictionary_Undefeated
+  Hash: !ul 2169091664155680761
+  Phive:
+    Placement: {ID: !ul 2169091664155680761}
+  Presence: {FlagName: UndefeatedEnemyAfterGameClear_Enemy_Keese_Ice, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [-3.141592025756836, -0.6645742058753967, 3.141592264175415]
+  SRTHash: !u 0x954da05b
+  Translate: [6.9138569831848145, 1.5906062126159668, 16.30092430114746]
+- Gyaml: Enemy_Stinger_Dictionary_Undefeated
+  Hash: !ul 818576240665545771
+  Phive:
+    Placement: {ID: !ul 818576240665545771}
+  Presence: {FlagName: UndefeatedEnemyAfterGameClear_Enemy_Stinger, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [3.141592502593994, -0.1883445829153061, 3.141592502593994]
+  SRTHash: !u 0x5030c7cf
+  Translate: [-4.195405006408691, 0.8478677272796631, 11.506332397460938]
+- Gyaml: Enemy_Tektite_Blue_Dictionary_Undefeated
+  Hash: !ul 4963780652208370387
+  Phive:
+    Placement: {ID: !ul 4963780652208370387}
+  Presence: {FlagName: UndefeatedEnemyAfterGameClear_Enemy_Tektite_Blue, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [3.141592502593994, -0.0, 3.141592502593994]
+  SRTHash: !u 0x51903d0c
+  Translate: [1.3775348663330078, 2.0896666049957275, 17.789371490478516]
+- Gyaml: Enemy_Freezard_Dictionary_Undefeated
+  Hash: !ul 90586911544392340
+  Phive:
+    Placement: {ID: !ul 90586911544392340}
+  Presence: {FlagName: UndefeatedEnemyAfterGameClear_Enemy_Freezard, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [-3.141592502593994, 0.16616593301296234, -3.141592264175415]
+  SRTHash: !u 0xa53d5f4f
+  Translate: [-1.5227030515670776, 1.597876787185669, 18.246957778930664]
+- Gyaml: Enemy_DungeonBoss_Barinade_Jellyfish_Dictionary
+  Hash: !ul 10698188656778575347
+  Phive:
+    Placement: {ID: !ul 10698188656778575347}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_DungeonBoss_Barinade, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [-0.5235987901687622, -0.2617993950843811, -0.5235987901687622]
+  SRTHash: !u 0x12b45012
+  Translate: [-4.0899457931518555, 9.300000190734863, 29.71544075012207]
+- Gyaml: Enemy_DungeonBoss_Barinade_Jellyfish_Dictionary
+  Hash: !ul 6326997871779239812
+  Phive:
+    Placement: {ID: !ul 6326997871779239812}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_DungeonBoss_Barinade, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [-0.2617993950843811, -0.0, 0.2617993950843811]
+  SRTHash: !u 0x29412f9d
+  Translate: [-9.155506134033203, 10.452779769897461, 28.96548080444336]
+- Gyaml: Enemy_TorchSlug_Dictionary
+  Hash: !ul 11166069408651212685
+  Links:
+  - {Dst: !ul 4475056736924792444, Gyaml: Reference, Name: Reference, Src: !ul 11166069408651212685}
+  Phive:
+    Placement: {ID: !ul 11166069408651212685}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_TorchSlug, IsCheckLazy: true, IsNegation: false}
+  Rotate: [0.12304208427667618, -1.0268018245697021, 0.08157274127006531]
+  SRTHash: !u 0x1e4f9216
+  Translate: [11.709491729736328, 1.2039999961853027, 6.4181623458862305]
+- Gyaml: Enemy_BabyDodongo_Dictionary
+  Hash: !ul 18427885455297918256
+  Links:
+  - {Dst: !ul 12852580099331061199, Gyaml: Reference, Name: Reference, Src: !ul 18427885455297918256}
+  Phive:
+    Placement: {ID: !ul 18427885455297918256}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_BabyDodongo, IsCheckLazy: true, IsNegation: false}
+  Rotate: [0.0, -1.570796012878418, 2.2649371089755732e-07]
+  SRTHash: !u 0x7e671b0a
+  Translate: [11.573864936828613, 1.2400000095367432, 3.8767056465148926]
+- Gyaml: Enemy_DungeonBoss_Dodongo_Dictionary
+  Hash: !ul 1650482896595867789
+  Links:
+  - {Dst: !ul 8349167032467098339, Gyaml: Reference, Name: Reference, Src: !ul 1650482896595867789}
+  Phive:
+    Placement: {ID: !ul 1650482896595867789}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_DungeonBoss_Dodongo, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [3.141592502593994, -1.3373130559921265, -3.141592025756836]
+  SRTHash: !u 0x3da1b2e2
+  Translate: [29.912572860717773, 5.687691688537598, 8.611198425292969]
+- Gyaml: Enemy_Dinolfos_Dictionary
+  Hash: !ul 4068432296586709490
+  Phive:
+    Placement: {ID: !ul 4068432296586709490}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Dinolfos, IsCheckLazy: true, IsNegation: false}
+  Rotate: [-3.141592264175415, -0.846811830997467, 3.141592025756836]
+  SRTHash: !u 0x7b493350
+  Translate: [18.211599349975586, 3.6649999618530273, 15.158231735229492]
+- Gyaml: Enemy_Dodongo_Dictionary
+  Hash: !ul 12371256707449901479
+  Links:
+  - {Dst: !ul 6865235464691016425, Gyaml: Reference, Name: Reference, Src: !ul 12371256707449901479}
+  Phive:
+    Placement: {ID: !ul 12371256707449901479}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Dodongo, IsCheckLazy: true, IsNegation: false}
+  Rotate: [0.0, -1.570796012878418, 2.2649371089755732e-07]
+  SRTHash: !u 0xa723f37a
+  Translate: [16.12238311767578, 2.090493679046631, 9.171976089477539]
+- Gyaml: Enemy_MiddleBoss_Lizalfos_Dictionary
+  Hash: !ul 2128640322447578585
+  Phive:
+    Placement: {ID: !ul 2128640322447578585}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_MiddleBoss_Lizalfos, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [3.1415927410125732, -1.2484681606292725, -3.141592264175415]
+  SRTHash: !u 0xcb24ebac
+  Translate: [21.766437530517578, 3.6682326793670654, 8.194878578186035]
+- Gyaml: Enemy_Tektite_Red_Dictionary
+  Hash: !ul 2942847599087000299
+  Links:
+  - {Dst: !ul 4237264714262781505, Gyaml: Reference, Name: Reference, Src: !ul 2942847599087000299}
+  Phive:
+    Placement: {ID: !ul 2942847599087000299}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Tektite_Red, IsCheckLazy: true, IsNegation: false}
+  Rotate: [2.9451544284820557, -1.2347190380096436, -2.660383939743042]
+  SRTHash: !u 0x68d45476
+  Translate: [17.245441436767578, 2.6011252403259277, 5.765655517578125]
+- Gyaml: Enemy_TrickyDoor_Dictionary
+  Hash: !ul 8442959556732319774
+  Links:
+  - {Dst: !ul 17113906493504667497, Gyaml: Reference, Name: Reference, Src: !ul 8442959556732319774}
+  Phive:
+    Placement: {ID: !ul 8442959556732319774}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_TrickyDoor, IsCheckLazy: true, IsNegation: false}
+  Rotate: [2.686511993408203, -0.3178766369819641, -3.125178337097168]
+  SRTHash: !u 0xad232f16
+  Translate: [10.930046081542969, 2.110605478286743, 13.983095169067383]
+- Gyaml: Enemy_MiddleBoss_FlareDancer_FireBody_Dictionary
+  Hash: !ul 4402958974254902714
+  Links:
+  - {Dst: !ul 9805706248237827568, Gyaml: Reference, Name: Reference, Src: !ul 4402958974254902714}
+  - {Dst: !ul 4773468278563178071, Gyaml: Reference, Name: Reference, Src: !ul 4402958974254902714}
+  Phive:
+    Placement: {ID: !ul 4402958974254902714}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_MiddleBoss_FlareDancer, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [3.141592264175415, -1.0586872100830078, -3.141592264175415]
+  SRTHash: !u 0x1ac552dc
+  Translate: [21.339712142944336, 4.0305023193359375, 12.682409286499023]
+- Gyaml: Enemy_Bubble_Red_Dictionary
+  Hash: !ul 12380490557251798970
+  Links:
+  - {Dst: !ul 2382818425985328116, Gyaml: Reference, Name: Reference, Src: !ul 12380490557251798970}
+  Phive:
+    Placement: {ID: !ul 12380490557251798970}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Bubble_Red, IsCheckLazy: true, IsNegation: false}
+  Rotate: [3.1415905952453613, -1.5342416763305664, -3.1415905952453613]
+  SRTHash: !u 0xf9b8705e
+  Translate: [17.760828018188477, 2.3754286766052246, 3.0557785034179688]
+- Gyaml: Enemy_DungeonBoss_Volvagia_Dictionary
+  Hash: !ul 3587645945073111805
+  Links:
+  - {Dst: !ul 10075888307750050747, Gyaml: Reference, Name: Reference, Src: !ul 3587645945073111805}
+  Phive:
+    Placement: {ID: !ul 3587645945073111805}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_DungeonBoss_Volvagia, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [-3.141592264175415, -0.8726646900177002, 3.141592502593994]
+  SRTHash: !u 0x14210a27
+  Translate: [41.5943489074707, 12.801989555358887, 24.40627670288086]
+- Gyaml: Enemy_CrazyFloorTile_Dictionary
+  Hash: !ul 17433227225975824852
+  Links:
+  - {Dst: !ul 16834806528107724439, Gyaml: Reference, Name: Reference, Src: !ul 17433227225975824852}
+  Phive:
+    Placement: {ID: !ul 17433227225975824852}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_CrazyFloorTile, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [-2.860870599746704, -0.11219741404056549, -2.93160343170166]
+  SRTHash: !u 0xd2db2625
+  Translate: [14.206185340881348, 2.984999179840088, 12.005836486816406]
+- Gyaml: Enemy_MiddleBoss_FlareDancer_Dictionary
+  Hash: !ul 4773468278563178071
+  Links:
+  - {Dst: !ul 4402958974254902714, Gyaml: Reference, Name: Reference, Src: !ul 4773468278563178071}
+  - {Dst: !ul 9805706248237827568, Gyaml: Reference, Name: Reference, Src: !ul 4773468278563178071}
+  Phive:
+    Placement: {ID: !ul 4773468278563178071}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_MiddleBoss_FlareDancer, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [-3.141592264175415, -0.3658076226711273, 3.141592502593994]
+  SRTHash: !u 0x0fc33bec
+  Translate: [20.9680233001709, 4.119999885559082, 11.530197143554688]
+- Gyaml: Enemy_Keese_Fire_Dictionary
+  Hash: !ul 16933812987464218556
+  Links:
+  - {Dst: !ul 16618211203959276320, Gyaml: Reference, Name: Reference, Src: !ul 16933812987464218556}
+  Phive:
+    Placement: {ID: !ul 16933812987464218556}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Keese_Fire, IsCheckLazy: true, IsNegation: false}
+  Rotate: [-3.141592025756836, -1.251183271408081, 3.141592264175415]
+  SRTHash: !u 0x22544a81
+  Translate: [12.85873031616211, 1.5106130838394165, 2.13325572013855]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.699999988079071}
+  Gyaml: Land_Dream_EnemyPedestal_A_03
+  Hash: !ul 6865235464691016425
+  Name: EnemyBase
+  Phive:
+    Placement: {ID: !ul 6865235464691016425}
+  Rotate: [-3.141592502593994, -1.0471975803375244, -3.141592264175415]
+  SRTHash: !u 0xa500131b
+  Translate: [16.323862075805664, 1.6404938697814941, 9.17197322845459]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.699999988079071}
+  Gyaml: Land_Dream_EnemyPedestal_A_02
+  Hash: !ul 17113906493504667497
+  Name: EnemyBase
+  Phive:
+    Placement: {ID: !ul 17113906493504667497}
+  Rotate: [-3.141592502593994, -0.6108652353286743, 3.141592264175415]
+  SRTHash: !u 0x0ca3b4f4
+  Translate: [11.57150650024414, 1.6398615837097168, 13.791393280029297]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.699999988079071}
+  Gyaml: Land_Dream_EnemyPedestal_A_01
+  Hash: !ul 16834806528107724439
+  Name: EnemyBase
+  Phive:
+    Placement: {ID: !ul 16834806528107724439}
+  Rotate: [3.141592502593994, -1.0471975803375244, -3.141592264175415]
+  SRTHash: !u 0x1d21ad7d
+  Translate: [14.155623435974121, 1.6398770809173584, 11.976644515991211]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.699999988079071}
+  Gyaml: Land_Dream_EnemyPedestal_A_01
+  Hash: !ul 4237264714262781505
+  Name: EnemyBase
+  Phive:
+    Placement: {ID: !ul 4237264714262781505}
+  Rotate: [3.1415915489196777, -1.4835299253463745, -3.1415910720825195]
+  SRTHash: !u 0x8d35c3dd
+  Translate: [16.926767349243164, 1.6404950618743896, 5.661482810974121]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.699999988079071}
+  Gyaml: Land_Dream_EnemyPedestal_A_01
+  Hash: !ul 12852580099331061199
+  Name: EnemyBase
+  Phive:
+    Placement: {ID: !ul 12852580099331061199}
+  Rotate: [3.141591787338257, -1.0471975803375244, -3.141591787338257]
+  SRTHash: !u 0x1f8ab981
+  Translate: [11.758469581604004, 0.8199999928474426, 3.8490524291992188]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.699999988079071}
+  Gyaml: Land_Dream_EnemyPedestal_A_01
+  Hash: !ul 4475056736924792444
+  Name: EnemyBase
+  Phive:
+    Placement: {ID: !ul 4475056736924792444}
+  Rotate: [3.141592025756836, -1.0471975803375244, -3.141591787338257]
+  SRTHash: !u 0xac464395
+  Translate: [11.77477741241455, 0.8199999928474426, 6.346224784851074]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.699999988079071}
+  Gyaml: Land_Dream_EnemyPedestal_A_04
+  Hash: !ul 2382818425985328116
+  Name: EnemyBase
+  Phive:
+    Placement: {ID: !ul 2382818425985328116}
+  Rotate: [1.7944241790246451e-06, -1.3641213178634644, -1.4137467587715946e-06]
+  SRTHash: !u 0x53592761
+  Translate: [17.728736877441406, 1.6404285430908203, 3.083052158355713]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.699999988079071}
+  Gyaml: Land_Dream_EnemyPedestal_A_04
+  Hash: !ul 16618211203959276320
+  Name: EnemyBase
+  Phive:
+    Placement: {ID: !ul 16618211203959276320}
+  Rotate: [-3.141587734222412, -1.483530044555664, 3.1415886878967285]
+  SRTHash: !u 0x451d42e9
+  Translate: [13.116138458251953, 0.8199999928474426, 2.089364528656006]
+- Gyaml: Enemy_Beamos_Dictionary
+  Hash: !ul 14741421433163440553
+  Links:
+  - {Dst: !ul 5709219278458497695, Gyaml: Reference, Name: Reference, Src: !ul 14741421433163440553}
+  Phive:
+    Placement: {ID: !ul 14741421433163440553}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Beamos, IsCheckLazy: true, IsNegation: false}
+  Rotate: [3.1415927410125732, -0.543719470500946, -3.141592502593994]
+  SRTHash: !u 0x7975bd84
+  Translate: [8.69961166381836, 1.267238974571228, 10.129226684570312]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.699999988079071}
+  Gyaml: Land_Dream_EnemyPedestal_A_01
+  Hash: !ul 5709219278458497695
+  Name: EnemyBase
+  Phive:
+    Placement: {ID: !ul 5709219278458497695}
+  Rotate: [3.1415927410125732, -0.543719470500946, -3.141592502593994]
+  SRTHash: !u 0x25e32333
+  Translate: [8.67831039428711, 0.8201856017112732, 10.093985557556152]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.699999988079071}
+  Gyaml: Land_Dream_EnemyPedestal_A_01
+  Hash: !ul 14858544620599088928
+  Name: EnemyBase
+  Phive:
+    Placement: {ID: !ul 14858544620599088928}
+  Rotate: [3.141592502593994, -0.8228548765182495, -3.141592502593994]
+  SRTHash: !u 0x9b38f4b1
+  Translate: [9.667189598083496, 0.8198371529579163, 7.7140326499938965]
+- Gyaml: Enemy_Amos_Dictionary
+  Hash: !ul 8762761337852132070
+  Links:
+  - {Dst: !ul 14858544620599088928, Gyaml: Reference, Name: Reference, Src: !ul 8762761337852132070}
+  Phive:
+    Placement: {ID: !ul 8762761337852132070}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Amos, IsCheckLazy: true, IsNegation: false}
+  Rotate: [3.141592502593994, -0.8228548765182495, -3.141592502593994]
+  SRTHash: !u 0x9d911fcd
+  Translate: [9.723315238952637, 1.266890525817871, 7.808955192565918]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_02
+  Hash: !ul 12164513293533647707
+  Links:
+  - {Dst: !ul 14741421433163440553, Gyaml: Reference, Name: Reference, Src: !ul 12164513293533647707}
+  - {Dst: !ul 3110532312523008699, Gyaml: Reference, Name: Reference, Src: !ul 12164513293533647707}
+  Phive:
+    Placement: {ID: !ul 12164513293533647707}
+  Presence: {FlagName: DreamWorldPlate_Enemy_Beamos, IsCheckLazy: true, IsNegation: false}
+  Rotate: [0.0, 0.8519485592842102, 0.0]
+  SRTHash: !u 0x3016fe20
+  Translate: [7.94251823425293, 1.2702282667160034, 9.891416549682617]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_01
+  Hash: !ul 11383369711823867359
+  Links:
+  - {Dst: !ul 8762761337852132070, Gyaml: Reference, Name: Reference, Src: !ul 11383369711823867359}
+  - {Dst: !ul 3340252363426690932, Gyaml: Reference, Name: Reference, Src: !ul 11383369711823867359}
+  Phive:
+    Placement: {ID: !ul 11383369711823867359}
+  Presence: {FlagName: DreamWorldPlate_Enemy_Amos, IsCheckLazy: true, IsNegation: false}
+  Rotate: [0.0, 0.8488587141036987, 0.0]
+  SRTHash: !u 0x94612df3
+  Translate: [9.192608833312988, 1.2699999809265137, 7.040576934814453]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_02
+  Hash: !ul 13756425829522188083
+  Links:
+  - {Dst: !ul 11166069408651212685, Gyaml: Reference, Name: Reference, Src: !ul 13756425829522188083}
+  - {Dst: !ul 9581303586121927866, Gyaml: Reference, Name: Reference, Src: !ul 13756425829522188083}
+  Phive:
+    Placement: {ID: !ul 13756425829522188083}
+  Presence: {FlagName: DreamWorldPlate_Enemy_TorchSlug, IsCheckLazy: true, IsNegation: false}
+  Rotate: [0.0, 0.9817779660224915, 0.0]
+  SRTHash: !u 0x19072ecf
+  Translate: [11.24923038482666, 1.2700209617614746, 5.771615505218506]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_01
+  Hash: !ul 16170577278539348068
+  Links:
+  - {Dst: !ul 18427885455297918256, Gyaml: Reference, Name: Reference, Src: !ul 16170577278539348068}
+  - {Dst: !ul 16491074188373021174, Gyaml: Reference, Name: Reference, Src: !ul 16170577278539348068}
+  Phive:
+    Placement: {ID: !ul 16170577278539348068}
+  Presence: {FlagName: DreamWorldPlate_Enemy_BabyDodongo, IsCheckLazy: true, IsNegation: false}
+  Rotate: [0.0, 1.097430944442749, 0.0]
+  SRTHash: !u 0x1b9d2736
+  Translate: [11.108633041381836, 1.2700103521347046, 3.3968770503997803]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_02
+  Hash: !ul 342298720268353491
+  Links:
+  - {Dst: !ul 16933812987464218556, Gyaml: Reference, Name: Reference, Src: !ul 342298720268353491}
+  - {Dst: !ul 306359852999628255, Gyaml: Reference, Name: Reference, Src: !ul 342298720268353491}
+  Phive:
+    Placement: {ID: !ul 342298720268353491}
+  Presence: {FlagName: DreamWorldPlate_Enemy_Keese_Fire, IsCheckLazy: true, IsNegation: false}
+  Rotate: [0.0, 1.393068790435791, 0.0]
+  SRTHash: !u 0xe4fd372e
+  Translate: [12.68325424194336, 1.2699992656707764, 1.888054370880127]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_01
+  Hash: !ul 5574189673305700761
+  Links:
+  - {Dst: !ul 8442959556732319774, Gyaml: Reference, Name: Reference, Src: !ul 5574189673305700761}
+  - {Dst: !ul 5839640788375628608, Gyaml: Reference, Name: Reference, Src: !ul 5574189673305700761}
+  Phive:
+    Placement: {ID: !ul 5574189673305700761}
+  Presence: {FlagName: DreamWorldPlate_Enemy_TrickyDoor, IsCheckLazy: true, IsNegation: false}
+  Rotate: [0.0, 0.6753159761428833, 0.0]
+  SRTHash: !u 0x27409e2a
+  Translate: [11.451449394226074, 2.09097957611084, 12.847451210021973]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_02
+  Hash: !ul 15414002948161856086
+  Links:
+  - {Dst: !ul 17433227225975824852, Gyaml: Reference, Name: Reference, Src: !ul 15414002948161856086}
+  - {Dst: !ul 3577921847877448653, Gyaml: Reference, Name: Reference, Src: !ul 15414002948161856086}
+  Phive:
+    Placement: {ID: !ul 15414002948161856086}
+  Presence: {FlagName: DreamWorldPlate_Enemy_CrazyFloorTile, IsCheckLazy: true, IsNegation: false}
+  Rotate: [0.0, 0.8248337507247925, 0.0]
+  SRTHash: !u 0x7525d34c
+  Translate: [13.832178115844727, 2.0899035930633545, 11.27755355834961]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_01
+  Hash: !ul 14425103311317642517
+  Links:
+  - {Dst: !ul 12371256707449901479, Gyaml: Reference, Name: Reference, Src: !ul 14425103311317642517}
+  - {Dst: !ul 17208492856448155190, Gyaml: Reference, Name: Reference, Src: !ul 14425103311317642517}
+  Phive:
+    Placement: {ID: !ul 14425103311317642517}
+  Presence: {FlagName: DreamWorldPlate_Enemy_Dodongo, IsCheckLazy: true, IsNegation: false}
+  Rotate: [0.0, 1.0471975803375244, 0.0]
+  SRTHash: !u 0xaa8fae56
+  Translate: [15.24925422668457, 2.0917086601257324, 8.398853302001953]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_02
+  Hash: !ul 12022876092357595409
+  Links:
+  - {Dst: !ul 2942847599087000299, Gyaml: Reference, Name: Reference, Src: !ul 12022876092357595409}
+  - {Dst: !ul 8962493294619290729, Gyaml: Reference, Name: Reference, Src: !ul 12022876092357595409}
+  Phive:
+    Placement: {ID: !ul 12022876092357595409}
+  Presence: {FlagName: DreamWorldPlate_Enemy_Tektite_Red, IsCheckLazy: true, IsNegation: false}
+  Rotate: [0.0, 1.2714550495147705, 0.0]
+  SRTHash: !u 0xc00b9b40
+  Translate: [16.26338768005371, 2.0905251502990723, 5.311221122741699]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_01
+  Hash: !ul 14939749931339147793
+  Links:
+  - {Dst: !ul 12380490557251798970, Gyaml: Reference, Name: Reference, Src: !ul 14939749931339147793}
+  - {Dst: !ul 9464522513051544626, Gyaml: Reference, Name: Reference, Src: !ul 14939749931339147793}
+  Phive:
+    Placement: {ID: !ul 14939749931339147793}
+  Presence: {FlagName: DreamWorldPlate_Enemy_Bubble_Red, IsCheckLazy: true, IsNegation: false}
+  Rotate: [0.0, 1.4173765182495117, 0.0]
+  SRTHash: !u 0xc74f43ff
+  Translate: [17.250202178955078, 2.090428352355957, 3.1801624298095703]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_02_Boss
+  Hash: !ul 3568334566133695181
+  Links:
+  - {Dst: !ul 2128640322447578585, Gyaml: Reference, Name: Reference, Src: !ul 3568334566133695181}
+  Phive:
+    Placement: {ID: !ul 3568334566133695181}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_MiddleBoss_Lizalfos, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [0.0, 1.3218425512313843, 0.0]
+  SRTHash: !u 0xa14ebb85
+  Translate: [21.317699432373047, 3.674999952316284, 7.531095504760742]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_01_Boss
+  Hash: !ul 3474557144668718492
+  Links:
+  - {Dst: !ul 4402958974254902714, Gyaml: Reference, Name: Reference, Src: !ul 3474557144668718492}
+  Phive:
+    Placement: {ID: !ul 3474557144668718492}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_MiddleBoss_FlareDancer, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [0.0, 1.0471975803375244, 0.0]
+  SRTHash: !u 0xb2649231
+  Translate: [20.484756469726562, 4.125, 11.82687759399414]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_02_Boss
+  Hash: !ul 4434093537738994009
+  Links:
+  - {Dst: !ul 4068432296586709490, Gyaml: Reference, Name: Reference, Src: !ul 4434093537738994009}
+  Phive:
+    Placement: {ID: !ul 4434093537738994009}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_Dinolfos, IsCheckLazy: true, IsNegation: false}
+  Rotate: [0.0, 0.7725526094436646, 0.0]
+  SRTHash: !u 0x9c38ae82
+  Translate: [17.763225555419922, 3.674999952316284, 14.126938819885254]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_03
+  Hash: !ul 10206623656996632495
+  Links:
+  - {Dst: !ul 1650482896595867789, Gyaml: Reference, Name: Reference, Src: !ul 10206623656996632495}
+  Phive:
+    Placement: {ID: !ul 10206623656996632495}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_DungeonBoss_Dodongo, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [0.0, 1.3285850286483765, 0.0]
+  SRTHash: !u 0x2f8e9c7a
+  Translate: [27.451555252075195, 5.705000877380371, 9.104679107666016]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_03
+  Hash: !ul 16843261917893412104
+  Links:
+  - {Dst: !ul 3587645945073111805, Gyaml: Reference, Name: Reference, Src: !ul 16843261917893412104}
+  Phive:
+    Placement: {ID: !ul 16843261917893412104}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_DungeonBoss_Volvagia, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [0.0, 1.0471975803375244, 0.0]
+  SRTHash: !u 0x5e2aba1f
+  Translate: [36.7618408203125, 11.904999732971191, 21.95166015625]
+- Gyaml: Enemy_TrickyDoor_Dictionary_Undefeated
+  Hash: !ul 5839640788375628608
+  Phive:
+    Placement: {ID: !ul 5839640788375628608}
+  Presence: {FlagName: UndefeatedEnemyAfterGameClear_Enemy_TrickyDoor, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [2.686511993408203, -0.3178766369819641, -3.125178337097168]
+  SRTHash: !u 0xad232f16
+  Translate: [10.930046081542969, 2.110605478286743, 13.983095169067383]
+- Gyaml: Enemy_Amos_Dictionary_Undefeated
+  Hash: !ul 3340252363426690932
+  Phive:
+    Placement: {ID: !ul 3340252363426690932}
+  Presence: {FlagName: UndefeatedEnemyAfterGameClear_Enemy_Amos, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [3.141592502593994, -0.8228548765182495, -3.141592502593994]
+  SRTHash: !u 0x9d911fcd
+  Translate: [9.723315238952637, 1.266890525817871, 7.808955192565918]
+- Gyaml: Enemy_TorchSlug_Dictionary_Undefeated
+  Hash: !ul 9581303586121927866
+  Phive:
+    Placement: {ID: !ul 9581303586121927866}
+  Presence: {FlagName: UndefeatedEnemyAfterGameClear_Enemy_TorchSlug, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [0.12304208427667618, -1.0268018245697021, 0.08157274127006531]
+  SRTHash: !u 0x0354e401
+  Translate: [11.709491729736328, 0.6401574611663818, 6.4181623458862305]
+- Gyaml: Enemy_Dodongo_Dictionary_Undefeated
+  Hash: !ul 17208492856448155190
+  Phive:
+    Placement: {ID: !ul 17208492856448155190}
+  Presence: {FlagName: UndefeatedEnemyAfterGameClear_Enemy_Dodongo, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [0.0, -1.570796012878418, 2.2649371089755732e-07]
+  SRTHash: !u 0xa8e597ac
+  Translate: [16.12238311767578, 1.6327178478240967, 9.171976089477539]
+- Gyaml: Enemy_Beamos_Dictionary_Undefeated
+  Hash: !ul 3110532312523008699
+  Phive:
+    Placement: {ID: !ul 3110532312523008699}
+  Presence: {FlagName: UndefeatedEnemyAfterGameClear_Enemy_Beamos, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [3.1415927410125732, -0.543719470500946, -3.141592502593994]
+  SRTHash: !u 0x7975bd84
+  Translate: [8.69961166381836, 1.267238974571228, 10.129226684570312]
+- Gyaml: Enemy_Keese_Fire_Dictionary_Undefeated
+  Hash: !ul 306359852999628255
+  Phive:
+    Placement: {ID: !ul 306359852999628255}
+  Presence: {FlagName: UndefeatedEnemyAfterGameClear_Enemy_Keese_Fire, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [-3.1415905952453613, -1.2184048891067505, 3.1415915489196777]
+  SRTHash: !u 0x4a923deb
+  Translate: [13.064541816711426, 0.6853519678115845, 2.096653461456299]
+- Gyaml: Enemy_BabyDodongo_Dictionary_Undefeated
+  Hash: !ul 16491074188373021174
+  Phive:
+    Placement: {ID: !ul 16491074188373021174}
+  Presence: {FlagName: UndefeatedEnemyAfterGameClear_Enemy_BabyDodongo, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [4.0340341911360156e-07, -1.026196837425232, -1.403951159772987e-07]
+  SRTHash: !u 0x4d4052aa
+  Translate: [11.573864936828613, 0.4097096920013428, 3.8767056465148926]
+- Gyaml: Enemy_CrazyFloorTile_Dictionary_Undefeated
+  Hash: !ul 3577921847877448653
+  Phive:
+    Placement: {ID: !ul 3577921847877448653}
+  Presence: {FlagName: UndefeatedEnemyAfterGameClear_Enemy_CrazyFloorTile, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [-2.860870599746704, -0.11219741404056549, -2.93160343170166]
+  SRTHash: !u 0xefe69abf
+  Translate: [14.206185340881348, 2.7371773719787598, 12.005836486816406]
+- Gyaml: Enemy_Tektite_Red_Dictionary_Undefeated
+  Hash: !ul 8962493294619290729
+  Phive:
+    Placement: {ID: !ul 8962493294619290729}
+  Presence: {FlagName: UndefeatedEnemyAfterGameClear_Enemy_Tektite_Red, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [2.9451544284820557, -1.2347190380096436, -2.660383939743042]
+  SRTHash: !u 0x68d45476
+  Translate: [17.245441436767578, 2.6011252403259277, 5.765655517578125]
+- Gyaml: Enemy_Bubble_Red_Dictionary_Undefeated
+  Hash: !ul 9464522513051544626
+  Phive:
+    Placement: {ID: !ul 9464522513051544626}
+  Presence: {FlagName: UndefeatedEnemyAfterGameClear_Enemy_Bubble_Red, IsCheckLazy: true,
+    IsNegation: false}
+  Rotate: [1.6727095726309926e-06, -1.3473204374313354, -1.2891659935121424e-06]
+  SRTHash: !u 0x2f4e9bf2
+  Translate: [17.774797439575195, 1.571861982345581, 3.049633502960205]
+- Gyaml: Area
+  Hash: !ul 456702923505269110
+  Phive:
+    Placement: {ID: !ul 456702923505269110}
+  SRTHash: !u 0x3b841603
+  Scale: [62.0, 12.0, 62.0]
+- Gyaml: DestinationAnchor
+  Hash: !ul 8349167032467098339
+  Phive:
+    Placement: {ID: !ul 8349167032467098339}
+  Rotate: [0.0, 1.4137167930603027, 0.0]
+  SRTHash: !u 0x6cecf39c
+  Translate: [25.914384841918945, 4.820387840270996, 7.60305118560791]
+- Gyaml: DestinationAnchor
+  Hash: !ul 12367150699582276449
+  Phive:
+    Placement: {ID: !ul 12367150699582276449}
+  Rotate: [-3.141592502593994, 1.0471974611282349, -3.141592502593994]
+  SRTHash: !u 0x786208f6
+  Translate: [25.224334716796875, 4.820387840270996, -14.464789390563965]
+- Gyaml: DestinationAnchor
+  Hash: !ul 17231274768012447248
+  Phive:
+    Placement: {ID: !ul 17231274768012447248}
+  Rotate: [3.141592502593994, 1.0471974611282349, -3.141592502593994]
+  SRTHash: !u 0x5e4e1e56
+  Translate: [35.52678298950195, 11.014521598815918, -20.642881393432617]
+- Gyaml: DestinationAnchor
+  Hash: !ul 4272712035258737491
+  Phive:
+    Placement: {ID: !ul 4272712035258737491}
+  Rotate: [3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0xc484609b
+  Translate: [-0.03024713695049286, 11.006898880004883, -40.57805633544922]
+- Gyaml: DestinationAnchor
+  Hash: !ul 16451554546396359873
+  Phive:
+    Placement: {ID: !ul 16451554546396359873}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0x45e789af
+  Translate: [0.008308612741529942, 5.999969959259033, -33.94198989868164]
+- Gyaml: DestinationAnchor
+  Hash: !ul 8247743249614640661
+  Phive:
+    Placement: {ID: !ul 8247743249614640661}
+  Rotate: [3.141592502593994, -1.0471974611282349, -3.141592502593994]
+  SRTHash: !u 0x0d796597
+  Translate: [-28.036531448364258, 4.820389747619629, -16.258270263671875]
+- Gyaml: DestinationAnchor
+  Hash: !ul 18186313709416649696
+  Phive:
+    Placement: {ID: !ul 18186313709416649696}
+  Rotate: [0.0, -1.0471975803375244, 0.0]
+  SRTHash: !u 0x2feb5532
+  Translate: [-26.890296936035156, 4.820387840270996, 15.456977844238281]
+- Gyaml: DestinationAnchor
+  Hash: !ul 16424962014990124842
+  Phive:
+    Placement: {ID: !ul 16424962014990124842}
+  Rotate: [0.0, -0.20040985941886902, 0.0]
+  SRTHash: !u 0x029a06cd
+  Translate: [-5.82749080657959, 4.820387840270996, 26.931398391723633]
+- Gyaml: DestinationAnchor
+  Hash: !ul 13928222771065033260
+  Phive:
+    Placement: {ID: !ul 13928222771065033260}
+  SRTHash: !u 0xd910357a
+  Translate: [-0.2945089340209961, 11.014521598815918, 41.64701461791992]
+- Gyaml: DestinationAnchor
+  Hash: !ul 9805706248237827568
+  Phive:
+    Placement: {ID: !ul 9805706248237827568}
+  Rotate: [0.0, 1.0471975803375244, 0.0]
+  SRTHash: !u 0xb27b284f
+  Translate: [19.46331214904785, 3.2203879356384277, 11.329833984375]
+- Gyaml: DestinationAnchor
+  Hash: !ul 6380757271807610376
+  Phive:
+    Placement: {ID: !ul 6380757271807610376}
+  Rotate: [-0.0004694066592492163, 0.40275853872299194, -7.130343874450773e-05]
+  SRTHash: !u 0x5dd5e676
+  Translate: [5.5630574226379395, 3.21799373626709, 20.222412109375]
+- Gyaml: DestinationAnchor
+  Hash: !ul 2416009367244143683
+  Phive:
+    Placement: {ID: !ul 2416009367244143683}
+  Rotate: [3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0xede54472
+  Translate: [2.2776992321014404, 3.2203879356384277, -23.833724975585938]
+- Gyaml: DestinationAnchor
+  Hash: !ul 1839364306265743064
+  Phive:
+    Placement: {ID: !ul 1839364306265743064}
+  Rotate: [3.141592502593994, -0.8614593744277954, -3.141592502593994]
+  SRTHash: !u 0xedf12236
+  Translate: [-15.312379837036133, 3.2203879356384277, -13.852701187133789]
+- Gyaml: DestinationAnchor
+  Hash: !ul 10075888307750050747
+  Phive:
+    Placement: {ID: !ul 10075888307750050747}
+  Rotate: [3.1595311611454235e-07, 1.0471975803375244, 0.0]
+  SRTHash: !u 0xcb95a00a
+  Translate: [35.37215805053711, 11.014521598815918, 20.513315200805664]
+- Dynamic: {IsRoomArea: true}
+  Gyaml: DungeonRoomArea
+  Hash: !ul 17773430890674903062
+  Phive:
+    Placement: {ID: !ul 17773430890674903062}
+  SRTHash: !u 0x3b841603
+  Scale: [62.0, 12.0, 62.0]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyMuseum_A_02
+  Hash: !ul 4499476074958491996
+  Phive:
+    Placement: {ID: !ul 4499476074958491996}
+  Presence: {FlagName: DreamWorld_CompleteStatue, IsCheckLazy: false, IsNegation: false}
+  SRTHash: !u 0xc552a342
+- Bakeable: true
+  Dynamic: {EventNameFromInstanceParam: DreamBossStage_BossRush_01, IsUseEventNameInstanceParam: true}
+  Gyaml: Obj_Dream_Battle_StoneMonument_A_01
+  Hash: !ul 1505475409463607377
+  Links:
+  - {Dst: !ul 18173235174354726396, Gyaml: Reference, Name: Reference, Src: !ul 1505475409463607377}
+  Phive:
+    Placement: {ID: !ul 1505475409463607377}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_DungeonBoss_Barinade, IsCheckLazy: false,
+    IsNegation: false}
+  Rotate: [-3.141592502593994, -1.0471975803375244, -3.141592502593994]
+  SRTHash: !u 0x34b1f0e6
+  Translate: [7.058106899261475, 1.393795514559315e-06, 4.0749993324279785]
+- Bakeable: true
+  Dynamic: {EventNameFromInstanceParam: DreamBossStage_BossRush_03, IsUseEventNameInstanceParam: true}
+  Gyaml: Obj_Dream_Battle_StoneMonument_A_02
+  Hash: !ul 12502927356805030209
+  Links:
+  - {Dst: !ul 18173235174354726396, Gyaml: Reference, Name: Reference, Src: !ul 12502927356805030209}
+  Phive:
+    Placement: {ID: !ul 12502927356805030209}
+  Presence: {FlagName: HaveDefeatedEnemy_Enemy_DungeonBoss_Ganon, IsCheckLazy: false,
+    IsNegation: false}
+  SRTHash: !u 0x39d0eb52
+  Translate: [0.0, 0.0, -8.149999618530273]
+- Bakeable: true
+  Dynamic: {EventNameFromInstanceParam: DreamBossStage_BossRush_02, IsUseEventNameInstanceParam: true}
+  Gyaml: Obj_Dream_Battle_StoneMonument_A_03
+  Hash: !ul 4254711034887243653
+  Links:
+  - {Dst: !ul 18173235174354726396, Gyaml: Reference, Name: Reference, Src: !ul 4254711034887243653}
+  Phive:
+    Placement: {ID: !ul 4254711034887243653}
+  Presence: {FlagName: AllSage_IsAfter_Step01_01_Exp, IsCheckLazy: false, IsNegation: false}
+  Rotate: [-3.141592502593994, 1.0471975803375244, -3.141592502593994]
+  SRTHash: !u 0x1c5abbd0
+  Translate: [-7.058106899261475, 0.0, 4.0749993324279785]
+- Bakeable: true
+  Dynamic: {GameModelController_GeneralInstanceParam0: 0.0}
+  Gyaml: Land_Dream_EnemyMuseum_A_04
+  Hash: !ul 17717972618555339163
+  Phive:
+    Placement: {ID: !ul 17717972618555339163}
+  Presence: {FlagName: DreamWorld_CompleteStatue, IsCheckLazy: false, IsNegation: false}
+  Rotate: [0.0, -1.0471975803375244, 0.0]
+  SRTHash: !u 0x98c2d041
+  Translate: [22.88500213623047, 30.0, 39.63798522949219]
+- Bakeable: true
+  Dynamic: {GameModelController_GeneralInstanceParam0: 0.0}
+  Gyaml: Land_Dream_EnemyMuseum_A_04
+  Hash: !ul 17265888955488264399
+  Phive:
+    Placement: {ID: !ul 17265888955488264399}
+  Presence: {FlagName: DreamWorld_CompleteStatue, IsCheckLazy: false, IsNegation: false}
+  SRTHash: !u 0xf9bb4a3f
+  Translate: [45.77000427246094, 30.0, -2.972374772980402e-07]
+- Bakeable: true
+  Dynamic: {GameModelController_GeneralInstanceParam0: 0.0}
+  Gyaml: Land_Dream_EnemyMuseum_A_04
+  Hash: !ul 11983969880167143863
+  Phive:
+    Placement: {ID: !ul 11983969880167143863}
+  Presence: {FlagName: DreamWorld_CompleteStatue, IsCheckLazy: false, IsNegation: false}
+  Rotate: [0.0, 1.0471975803375244, 0.0]
+  SRTHash: !u 0x4fc1b14f
+  Translate: [22.88500213623047, 30.0, -39.63798522949219]
+- Bakeable: true
+  Dynamic: {GameModelController_GeneralInstanceParam0: 0.0}
+  Gyaml: Land_Dream_EnemyMuseum_A_03
+  Hash: !ul 10254153445947397342
+  Phive:
+    Placement: {ID: !ul 10254153445947397342}
+  Presence: {FlagName: DreamWorld_CompleteStatue, IsCheckLazy: false, IsNegation: false}
+  Rotate: [3.1415927410125732, 1.0471974611282349, 3.1415927410125732]
+  SRTHash: !u 0x87605a61
+  Translate: [-22.88500213623047, 30.0, -39.63798522949219]
+- Bakeable: true
+  Dynamic: {GameModelController_GeneralInstanceParam0: 0.0}
+  Gyaml: Land_Dream_EnemyMuseum_A_05
+  Hash: !ul 9194668182814346481
+  Phive:
+    Placement: {ID: !ul 9194668182814346481}
+  Presence: {FlagName: DreamWorld_CompleteStatue, IsCheckLazy: false, IsNegation: false}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x0a4e4e53
+  Translate: [-45.77000427246094, 30.0, -2.972374772980402e-07]
+- Bakeable: true
+  Dynamic: {GameModelController_GeneralInstanceParam0: 0.0}
+  Gyaml: Land_Dream_EnemyMuseum_A_04
+  Hash: !ul 15777394624421494993
+  Phive:
+    Placement: {ID: !ul 15777394624421494993}
+  Presence: {FlagName: DreamWorld_CompleteStatue, IsCheckLazy: false, IsNegation: false}
+  Rotate: [3.1415927410125732, -1.047197699546814, 3.1415927410125732]
+  SRTHash: !u 0xf0b72f9b
+  Translate: [-22.88500213623047, 30.0, 39.63798522949219]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 13805081040610052174
+  Phive:
+    Placement: {ID: !ul 13805081040610052174}
+  SRTHash: !u 0x748deadb
+  Scale: [54.5, 54.5, 54.5]
+  Translate: [0.0, -4.386255264282227, 0.0]
+- Dynamic: {RequestEventName: Npc_Dream_SurvivalTalk}
+  Gyaml: EventRequestActor
+  Hash: !ul 13470591534321397353
+  Links:
+  - {Dst: !ul 2281079167505532289, Gyaml: Reference, Name: Reference, Src: !ul 13470591534321397353}
+  Phive:
+    Placement: {ID: !ul 13470591534321397353}
+  SRTHash: !u 0x40573192
+  Translate: [17.7996826171875, 124.79658508300781, 0.0]
+- Gyaml: DestinationAnchor
+  Hash: !ul 2281079167505532289
+  Phive:
+    Placement: {ID: !ul 2281079167505532289}
+  Rotate: [3.1415927410125732, 0.523598849773407, 3.1415927410125732]
+  SRTHash: !u 0x1d828c38
+  Translate: [-0.315451443195343, 0.0, 0.543865978717804]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 18128663594334860876
+  Phive:
+    Placement: {ID: !ul 18128663594334860876}
+  Rotate: [3.1415927410125732, -1.0471974611282349, 3.1415927410125732]
+  SRTHash: !u 0x6108ce91
+  Scale: [18.0, 18.0, 18.0]
+  Translate: [-38.2782096862793, 3.5161914825439453, -21.907543182373047]
+- Gyaml: Area
+  Hash: !ul 15078658251906616463
+  Phive:
+    Placement: {ID: !ul 15078658251906616463}
+  Rotate: [3.1415927410125732, 1.0483895540237427, 3.1415927410125732]
+  SRTHash: !u 0x807bd252
+  Scale: [6.374698162078857, 19.8784122467041, 24.27273178100586]
+  Translate: [-24.483293533325195, 0.024593591690063477, -42.356048583984375]
+- Gyaml: Area
+  Hash: !ul 9404584720552808512
+  Phive:
+    Placement: {ID: !ul 9404584720552808512}
+  Rotate: [3.1415927410125732, -8.74227694680485e-08, 3.1415927410125732]
+  SRTHash: !u 0xd0f20e47
+  Scale: [6.374698162078857, 19.8784122467041, 23.630260467529297]
+  Translate: [-49.19837188720703, 0.024593591690063477, 1.0336445569992065]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 9174879675581763659
+  Phive:
+    Placement: {ID: !ul 9174879675581763659}
+  Rotate: [0.0, -1.0471975803375244, 0.0]
+  SRTHash: !u 0xff7c5cdf
+  Scale: [18.0, 18.0, 18.0]
+  Translate: [-38.30628204345703, 3.5161914825439453, 22.4650821685791]
+- Gyaml: Area
+  Hash: !ul 2182442923967014193
+  Phive:
+    Placement: {ID: !ul 2182442923967014193}
+  Rotate: [3.1415927410125732, -1.0337234735488892, 3.1415927410125732]
+  SRTHash: !u 0x7fc3ae33
+  Scale: [6.374698162078857, 19.8784122467041, 23.494945526123047]
+  Translate: [-24.23474884033203, 0.024593591690063477, 43.09075927734375]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 12722691213781614277
+  Phive:
+    Placement: {ID: !ul 12722691213781614277}
+  SRTHash: !u 0x53d4f74b
+  Scale: [18.0, 18.0, 18.0]
+  Translate: [-0.46483325958251953, 3.5161914825439453, 44.57413864135742]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 4497754802018957701
+  Phive:
+    Placement: {ID: !ul 4497754802018957701}
+  Rotate: [0.0, 1.0471975803375244, 0.0]
+  SRTHash: !u 0x324b9dfb
+  Scale: [18.0, 18.0, 18.0]
+  Translate: [38.51095962524414, 3.5161914825439453, 22.342994689941406]
+- Gyaml: Area
+  Hash: !ul 5287418613359059558
+  Phive:
+    Placement: {ID: !ul 5287418613359059558}
+  Rotate: [0.0, -1.0548410415649414, 0.0]
+  SRTHash: !u 0x416c50cf
+  Scale: [6.374698162078857, 19.8784122467041, 23.890426635742188]
+  Translate: [25.056991577148438, 0.024593591690063477, 42.537784576416016]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 4435238037679357204
+  Phive:
+    Placement: {ID: !ul 4435238037679357204}
+  Rotate: [3.1415927410125732, 1.0471974611282349, 3.1415927410125732]
+  SRTHash: !u 0xb5e75ef9
+  Scale: [18.0, 18.0, 18.0]
+  Translate: [38.38090133666992, 3.5161914825439453, -22.30023193359375]
+- Gyaml: Area
+  Hash: !ul 991622278196209867
+  Phive:
+    Placement: {ID: !ul 991622278196209867}
+  Rotate: [0.0, 0.004998702555894852, 0.0]
+  SRTHash: !u 0xd5408fd9
+  Scale: [6.374698162078857, 19.8784122467041, 24.028642654418945]
+  Translate: [49.133907318115234, 0.024593591690063477, -0.3440661132335663]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 8553598895591161163
+  Phive:
+    Placement: {ID: !ul 8553598895591161163}
+  Rotate: [3.1415927410125732, 8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x1de35a03
+  Scale: [18.0, 18.0, 18.0]
+  Translate: [0.33634185791015625, 3.5161914825439453, -44.28102493286133]
+- Gyaml: Area
+  Hash: !ul 17880508085655080618
+  Phive:
+    Placement: {ID: !ul 17880508085655080618}
+  Rotate: [0.0, 1.0382014513015747, 0.0]
+  SRTHash: !u 0x7229f011
+  Scale: [6.374698638916016, 19.8784122467041, 23.729406356811523]
+  Translate: [24.40785789489746, 0.024593591690063477, -42.8152961730957]
+- Gyaml: DestinationAnchor
+  Hash: !ul 7865805416578343485
+  Phive:
+    Placement: {ID: !ul 7865805416578343485}
+  Rotate: [-3.141592502593994, 1.0471975803375244, -3.141592502593994]
+  SRTHash: !u 0x11002555
+  Translate: [19.31022071838379, 3.219999313354492, -11.247543334960938]
+- Gyaml: DestinationAnchor
+  Hash: !ul 7528590478154584672
+  Phive:
+    Placement: {ID: !ul 7528590478154584672}
+  Rotate: [-3.141592502593994, -1.2217304706573486, -3.141592502593994]
+  SRTHash: !u 0xd227a6d4
+  Translate: [-20.022802352905273, 3.219999313354492, -6.232994079589844]
+AiGroups:
+- Blackboards: [Component/Blackboard/BlackboardInfo/DungeonRoom.engine__component__BlackboardInfo.gyml]
+  Hash: !ul 4826982586942067707
+  Logic: Logic/Root/EnemyMuseum/EnemyMuseum_245a.logic.root.ain
+  References:
+  - {Id: Area_dd06, Path: Area_dd06, Reference: !ul 17773430890674903062}
+- Hash: !ul 10864348272620692201
+  Logic: Logic/Root/EnemyMuseum/EnemyMuseum_8902.logic.root.ain
+  References:
+  - {Id: Area_7e8f, Path: Area_7e8f, Reference: !ul 13805081040610052174}
+  - {Id: EventRequestActor_c9ac, Path: EventRequestActor_c9ac, Reference: !ul 13470591534321397353}
+  - {Id: DestinationAnchor_dfe6, Path: DestinationAnchor_dfe6, Reference: !ul 2281079167505532289}
+  - {Id: Area_5e06, Path: Area_5e06, Reference: !ul 18128663594334860876}
+  - {Id: Area_d872, Path: Area_d872, Reference: !ul 15078658251906616463}
+  - {Id: Area_165e, Path: Area_165e, Reference: !ul 991622278196209867}
+  - {Id: Area_354e, Path: Area_354e, Reference: !ul 2182442923967014193}
+  - {Id: Area_44f4, Path: Area_44f4, Reference: !ul 17880508085655080618}
+  - {Id: Area_5f32, Path: Area_5f32, Reference: !ul 4435238037679357204}
+  - {Id: Area_64fd, Path: Area_64fd, Reference: !ul 5287418613359059558}
+  - {Id: Area_6798, Path: Area_6798, Reference: !ul 9404584720552808512}
+  - {Id: Area_b927, Path: Area_b927, Reference: !ul 9174879675581763659}
+  - {Id: Area_c34e, Path: Area_c34e, Reference: !ul 12722691213781614277}
+  - {Id: Area_c3de, Path: Area_c3de, Reference: !ul 4497754802018957701}
+  - {Id: Area_c69c, Path: Area_c69c, Reference: !ul 8553598895591161163}
+FarDeleteGroups:
+- [!ul 991622278196209867, !ul 2182442923967014193, !ul 2281079167505532289, !ul 4435238037679357204,
+  !ul 4497754802018957701, !ul 5287418613359059558, !ul 8553598895591161163, !ul 9174879675581763659,
+  !ul 9404584720552808512, !ul 12722691213781614277, !ul 13470591534321397353, !ul 13805081040610052174,
+  !ul 15078658251906616463, !ul 17880508085655080618, !ul 18128663594334860876]
+- [!ul 4499476074958491996, !ul 9194668182814346481, !ul 10254153445947397342, !ul 11983969880167143863,
+  !ul 15777394624421494993, !ul 17265888955488264399, !ul 17717972618555339163]
+- [!ul 11402192551604926712, !ul 13965606329879894513]
+FilePath: Work/Banc/Scene/DreamWorld/EnemyMuseum.bcett.json
+PhiveHeader:
+  PlacementGroups: []
+SimultaneousGroups:
+- [!ul 991622278196209867, !ul 2182442923967014193, !ul 2281079167505532289, !ul 4435238037679357204,
+  !ul 4497754802018957701, !ul 5287418613359059558, !ul 8553598895591161163, !ul 9174879675581763659,
+  !ul 9404584720552808512, !ul 12722691213781614277, !ul 13470591534321397353, !ul 13805081040610052174,
+  !ul 15078658251906616463, !ul 17880508085655080618, !ul 18128663594334860876]
+- [!ul 4499476074958491996, !ul 9194668182814346481, !ul 10254153445947397342, !ul 11983969880167143863,
+  !ul 15777394624421494993, !ul 17265888955488264399, !ul 17717972618555339163]
+- [!ul 11402192551604926712, !ul 13965606329879894513]

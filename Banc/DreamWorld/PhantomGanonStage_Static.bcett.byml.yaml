@@ -1,0 +1,425 @@
+Actors:
+- Bakeable: true
+  Gyaml: Land_ForestTemple_Room_A_22
+  Hash: !ul 1194638595234518719
+  Phive:
+    Placement: {ID: !ul 1194638595234518719}
+  SRTHash: !u 0xa176a32b
+  Translate: [0.0, 59.5, -47.5]
+- Gyaml: Obj_DreamWorldTimerManager
+  Hash: !ul 13099644403546749999
+  Links:
+  - {Dst: !ul 3949195992201972258, Gyaml: Reference, Name: Reference, Src: !ul 13099644403546749999}
+  Phive:
+    Placement: {ID: !ul 13099644403546749999}
+  SRTHash: !u 0x9bf1e55d
+  Translate: [-4.4118194580078125, 96.58235931396484, -46.95942687988281]
+- Dynamic: {IsIntendedForEventAppear: true}
+  Gyaml: Enemy_DungeonBoss_PhantomGanon
+  Hash: !ul 3949195992201972258
+  Links:
+  - {Dst: !ul 17274957772980164066, Gyaml: Reference, Name: Reference, Src: !ul 3949195992201972258}
+  - {Dst: !ul 156943989338235950, Gyaml: Reference, Name: Reference, Src: !ul 3949195992201972258}
+  - {Dst: !ul 2282548318078622101, Gyaml: Reference, Name: Reference, Src: !ul 3949195992201972258}
+  - {Dst: !ul 5050343888946184655, Gyaml: Reference, Name: Reference, Src: !ul 3949195992201972258}
+  - {Dst: !ul 7206495662193295918, Gyaml: Reference, Name: Reference, Src: !ul 3949195992201972258}
+  - {Dst: !ul 451005761096087089, Gyaml: Reference, Name: Reference, Src: !ul 3949195992201972258}
+  - {Dst: !ul 10369912034796653837, Gyaml: Reference, Name: Reference, Src: !ul 3949195992201972258}
+  - {Dst: !ul 3458737638510875733, Gyaml: Reference, Name: Reference, Src: !ul 3949195992201972258}
+  - {Dst: !ul 18182224215115671616, Gyaml: Reference, Name: Reference, Src: !ul 3949195992201972258}
+  - {Dst: !ul 17555666371193282591, Gyaml: Reference, Name: Reference, Src: !ul 3949195992201972258}
+  - {Dst: !ul 10437783918845215346, Gyaml: Reference, Name: Reference, Src: !ul 3949195992201972258}
+  Phive:
+    Placement: {ID: !ul 3949195992201972258}
+  Rotate: [-3.141592502593994, 0.0, -3.141592502593994]
+  SRTHash: !u 0x05aa421d
+  Translate: [-0.08757652342319489, 80.91477966308594, -62.583683013916016]
+- Gyaml: DestinationAnchor
+  Hash: !ul 17274957772980164066
+  Name: BattleBasePos
+  Phive:
+    Placement: {ID: !ul 17274957772980164066}
+  Rotate: [-3.141592502593994, 0.0, -3.141592502593994]
+  SRTHash: !u 0xdc6073f1
+  Translate: [-0.17723718285560608, 74.70714569091797, -62.76499557495117]
+- Gyaml: Area
+  Hash: !ul 10967428199784511177
+  Phive:
+    Placement: {ID: !ul 10967428199784511177}
+  Rotate: [-3.141592502593994, 0.5235987305641174, -3.141592502593994]
+  SRTHash: !u 0xb5f117a5
+  Scale: [5.0, 1.0, 9.0]
+  Translate: [-2.1679751873016357, 74.65714263916016, -63.47922897338867]
+- Gyaml: Obj_ForestTemple_SwitchShutter_A_01
+  Hash: !ul 166973580573499319
+  Phive:
+    Placement: {ID: !ul 166973580573499319}
+  Rotate: [-3.141592502593994, -1.0471975803375244, -3.141592502593994]
+  SRTHash: !u 0xde54af76
+  Translate: [-9.440178871154785, 74.64034271240234, -68.02767944335938]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 14135185230333739567
+  Phive:
+    Placement: {ID: !ul 14135185230333739567}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0x507df7ba
+  Scale: [0.8500000238418579, 1.5, 0.8500000238418579]
+  Translate: [0.016651615500450134, 74.65714263916016, -62.546119689941406]
+- Gyaml: Obj_WarpPoint_A_01
+  Hash: !ul 4840516613296644060
+  Phive:
+    Placement: {ID: !ul 4840516613296644060}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0x0a83c400
+  Translate: [0.016651615500450134, 74.65714263916016, -62.546119689941406]
+- Dynamic: {RequestEventName: ForestTemple_SageOfForest_EscapeFromTemple}
+  Gyaml: EventRequestActor
+  Hash: !ul 18335992526796505056
+  Links:
+  - {Dst: !ul 10220135002505341516, Gyaml: Reference, Name: Reference, Src: !ul 18335992526796505056}
+  Phive:
+    Placement: {ID: !ul 18335992526796505056}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0x693e3d63
+  Translate: [0.016651108860969543, 78.0129165649414, -62.546119689941406]
+- Gyaml: DestinationAnchor
+  Hash: !ul 10220135002505341516
+  Name: center
+  Phive:
+    Placement: {ID: !ul 10220135002505341516}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0x278fadfc
+  Translate: [0.016651608049869537, 74.71214294433594, -62.546119689941406]
+- Gyaml: FldObj_AirWall_Player_GenerateNavMesh
+  Hash: !ul 83141415242286906
+  Phive:
+    Placement: {ID: !ul 83141415242286906}
+  Rotate: [-3.141592502593994, 0.5235987305641174, -3.141592502593994]
+  SRTHash: !u 0x244939f8
+  Scale: [0.05999999865889549, 1.0, 1.2999999523162842]
+  Translate: [-9.440000534057617, 74.65714263916016, -68.02799987792969]
+- Gyaml: StartPos
+  Hash: !ul 156943989338235950
+  Name: StartPos_SageOfForest
+  Phive:
+    Placement: {ID: !ul 156943989338235950}
+  Rotate: [-8.085465310614381e-07, 1.0471975803375244, -5.582751896326954e-07]
+  SRTHash: !u 0xc641ebfd
+  Translate: [-5.992669582366943, 74.69308471679688, -66.01557922363281]
+- Dynamic: {RequestEventName: ForestTemple_SageOfForest_PhantomGanonAppearance}
+  Gyaml: EventRequestActor
+  Hash: !ul 4723273519319901099
+  Links:
+  - {Dst: !ul 156943989338235950, Gyaml: Reference, Name: Reference, Src: !ul 4723273519319901099}
+  Phive:
+    Placement: {ID: !ul 4723273519319901099}
+  Rotate: [-3.141592502593994, 0.0, -3.141592502593994]
+  SRTHash: !u 0x2ce025f0
+  Translate: [-9.006681442260742, 80.85154724121094, -67.94549560546875]
+- Gyaml: Enemy_GhostPicturePerformer_PhantomGanonHorse
+  Hash: !ul 16602722228376558335
+  Name: Performer
+  Phive:
+    Placement: {ID: !ul 16602722228376558335}
+  Rails:
+  - {Dst: !ul 13210051764196202152, Gyaml: Reference, Name: Reference}
+  - {Dst: !ul 13210051764196202152, Gyaml: Reference, Name: Reference}
+  SRTHash: !u 0xb671bd6d
+  Translate: [29.91900062561035, 50.944000244140625, -97.96499633789062]
+- Gyaml: Enemy_GhostPicturePerformer_PhantomGanon
+  Hash: !ul 2282548318078622101
+  Links:
+  - {Dst: !ul 16602722228376558335, Gyaml: Reference, Name: Reference, Src: !ul 2282548318078622101}
+  Name: Performer
+  Phive:
+    Placement: {ID: !ul 2282548318078622101}
+  Rails:
+  - {Dst: !ul 13210051764196202152, Gyaml: Reference, Name: Reference}
+  SRTHash: !u 0x655c5077
+  Translate: [29.91900062561035, 52.944000244140625, -97.96499633789062]
+- Gyaml: Enemy_GhostPicturePerformer_PhantomGanonImitation
+  Hash: !ul 5050343888946184655
+  Links:
+  - {Dst: !ul 15226183443857032239, Gyaml: Reference, Name: Reference, Src: !ul 5050343888946184655}
+  Name: ImitationPerformer
+  Phive:
+    Placement: {ID: !ul 5050343888946184655}
+  Rails:
+  - {Dst: !ul 539244452406922856, Gyaml: Reference, Name: Reference}
+  SRTHash: !u 0xbfcca92a
+  Translate: [-30.08099937438965, 52.944000244140625, -97.96499633789062]
+- Gyaml: Enemy_GhostPicturePerformer_PhantomGanonHorse_Imitation
+  Hash: !ul 15226183443857032239
+  Name: ImitationPerformer
+  Phive:
+    Placement: {ID: !ul 15226183443857032239}
+  Rails:
+  - {Dst: !ul 539244452406922856, Gyaml: Reference, Name: Reference}
+  SRTHash: !u 0x59883dda
+  Translate: [-30.08099937438965, 50.944000244140625, -97.96499633789062]
+- Bakeable: true
+  Dynamic: {PhantomGanonAppearPointActor_ID: 4}
+  Gyaml: Obj_ForestTemple_PhantomGanonPainting_A_01
+  Hash: !ul 18182224215115671616
+  Links:
+  - {Dst: !ul 2282548318078622101, Gyaml: Reference, Name: Reference, Src: !ul 18182224215115671616}
+  - {Dst: !ul 5050343888946184655, Gyaml: Reference, Name: Reference, Src: !ul 18182224215115671616}
+  Name: AppearAnchor_04
+  Phive:
+    Placement: {ID: !ul 18182224215115671616}
+  SRTHash: !u 0xff6e82e3
+  Translate: [2.950429916381836e-06, 84.19999694824219, -77.5999755859375]
+- Bakeable: true
+  Dynamic: {PhantomGanonAppearPointActor_ID: 1}
+  Gyaml: Obj_ForestTemple_PhantomGanonPainting_A_01
+  Hash: !ul 451005761096087089
+  Links:
+  - {Dst: !ul 2282548318078622101, Gyaml: Reference, Name: Reference, Src: !ul 451005761096087089}
+  - {Dst: !ul 5050343888946184655, Gyaml: Reference, Name: Reference, Src: !ul 451005761096087089}
+  Name: AppearAnchor_01
+  Phive:
+    Placement: {ID: !ul 451005761096087089}
+  Rotate: [-3.141592502593994, 0.0, -3.141592502593994]
+  SRTHash: !u 0xcb5ad1fd
+  Translate: [2.950429916381836e-06, 84.19999694824219, -47.449981689453125]
+- Bakeable: true
+  Dynamic: {PhantomGanonAppearPointActor_ID: 2}
+  Gyaml: Obj_ForestTemple_PhantomGanonPainting_A_01
+  Hash: !ul 10369912034796653837
+  Links:
+  - {Dst: !ul 2282548318078622101, Gyaml: Reference, Name: Reference, Src: !ul 10369912034796653837}
+  - {Dst: !ul 5050343888946184655, Gyaml: Reference, Name: Reference, Src: !ul 10369912034796653837}
+  Name: AppearAnchor_02
+  Phive:
+    Placement: {ID: !ul 10369912034796653837}
+  Rotate: [-3.141592502593994, 1.0471974611282349, -3.141592502593994]
+  SRTHash: !u 0x71f0df09
+  Translate: [-13.049997329711914, 84.19999694824219, -54.949981689453125]
+- Bakeable: true
+  Dynamic: {PhantomGanonAppearPointActor_ID: 5}
+  Gyaml: Obj_ForestTemple_PhantomGanonPainting_A_01
+  Hash: !ul 17555666371193282591
+  Links:
+  - {Dst: !ul 2282548318078622101, Gyaml: Reference, Name: Reference, Src: !ul 17555666371193282591}
+  - {Dst: !ul 5050343888946184655, Gyaml: Reference, Name: Reference, Src: !ul 17555666371193282591}
+  Name: AppearAnchor_05
+  Phive:
+    Placement: {ID: !ul 17555666371193282591}
+  Rotate: [0.0, -1.0471975803375244, 0.0]
+  SRTHash: !u 0x1d6dfe52
+  Translate: [13.050003051757812, 84.19999694824219, -70.04998779296875]
+- Bakeable: true
+  Dynamic: {PhantomGanonAppearPointActor_ID: 3}
+  Gyaml: Obj_ForestTemple_PhantomGanonPainting_A_01
+  Hash: !ul 3458737638510875733
+  Links:
+  - {Dst: !ul 2282548318078622101, Gyaml: Reference, Name: Reference, Src: !ul 3458737638510875733}
+  - {Dst: !ul 5050343888946184655, Gyaml: Reference, Name: Reference, Src: !ul 3458737638510875733}
+  Name: AppearAnchor_03
+  Phive:
+    Placement: {ID: !ul 3458737638510875733}
+  Rotate: [0.0, 1.0471975803375244, 0.0]
+  SRTHash: !u 0x46173c43
+  Translate: [-13.06999683380127, 84.19999694824219, -70.06997680664062]
+- Bakeable: true
+  Dynamic: {PhantomGanonAppearPointActor_ID: 0}
+  Gyaml: Obj_ForestTemple_PhantomGanonPainting_A_01
+  Hash: !ul 7206495662193295918
+  Links:
+  - {Dst: !ul 2282548318078622101, Gyaml: Reference, Name: Reference, Src: !ul 7206495662193295918}
+  - {Dst: !ul 5050343888946184655, Gyaml: Reference, Name: Reference, Src: !ul 7206495662193295918}
+  Name: AppearAnchor_00
+  Phive:
+    Placement: {ID: !ul 7206495662193295918}
+  Rotate: [-3.141592502593994, -1.0471974611282349, -3.141592502593994]
+  SRTHash: !u 0xcb619058
+  Translate: [13.00000286102295, 84.19999694824219, -54.89998245239258]
+- Gyaml: DestinationAnchor
+  Hash: !ul 10437783918845215346
+  Name: EndPos_SageOfForest
+  Phive:
+    Placement: {ID: !ul 10437783918845215346}
+  Rotate: [0.0, 1.0471975803375244, 0.0]
+  SRTHash: !u 0x4a332b5f
+  Translate: [-6.1579413414001465, 74.65714263916016, -66.11101531982422]
+- Gyaml: NoEscapeRangeAreaBox
+  Hash: !ul 15640184042476991021
+  Name: NoEscapeArea_SubEvent_AllBossBattle
+  Phive:
+    Placement: {ID: !ul 15640184042476991021}
+  SRTHash: !u 0xc3438d2c
+  Scale: [55.70426940917969, 53.29989242553711, 55.25141143798828]
+  Translate: [7.312398910522461, 79.98025512695312, -66.80152893066406]
+- Gyaml: Area
+  Hash: !ul 903785508746576248
+  Phive:
+    Placement: {ID: !ul 903785508746576248}
+  Rotate: [0.0, -1.570796251296997, 8.94069742685133e-08]
+  SRTHash: !u 0x6f894b0b
+  Scale: [27.911739349365234, 26.405155181884766, 26.662715911865234]
+  Translate: [7.416146278381348, 53.30068588256836, -67.09292602539062]
+- Dynamic: {AreaHintEventName: NaviHint_Rematch}
+  Gyaml: NaviAreaHintEventActor
+  Hash: !ul 4626984297848810784
+  Phive:
+    Placement: {ID: !ul 4626984297848810784}
+  SRTHash: !u 0x9144d736
+  Translate: [8.381494522094727, 83.68434143066406, -67.94676971435547]
+- Bakeable: true
+  Gyaml: Obj_DoorChainLock_A_02
+  Hash: !ul 12588121804175097569
+  Phive:
+    Placement: {ID: !ul 12588121804175097569}
+  SRTHash: !u 0x2c00f2a0
+  Translate: [-0.040486570447683334, 59.52628707885742, -40.86104965209961]
+- Bakeable: true
+  Dynamic: {NomralEvent: Common_Dungeon_OpenShutterMoveToPlusZ_Boss, OpenChainEvent: Common_Dungeon_OpenDoorChainLockMoveToPlusZ_Boss,
+    OpenChainShutterEvent: Common_Dungeon_OpenDoorChainLockMoveToPlusZ_Boss, ShutterEvent: Common_Dungeon_OpenShutterMoveToPlusZ_Boss}
+  Gyaml: Obj_ForestTemple_SwitchShutter_A_04
+  Hash: !ul 2418898332448833198
+  Links:
+  - {Dst: !ul 12588121804175097569, Gyaml: Reference, Name: Reference, Src: !ul 2418898332448833198}
+  - {Dst: !ul 2718600696791554107, Gyaml: Reference, Name: Reference, Src: !ul 2418898332448833198}
+  - {Dst: !ul 16495032267175057370, Gyaml: Reference, Name: Reference, Src: !ul 2418898332448833198}
+  Phive:
+    Placement: {ID: !ul 2418898332448833198}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0x655ac72f
+  Translate: [-0.040486570447683334, 59.52628707885742, -40.86104965209961]
+- Bakeable: true
+  Gyaml: Obj_SwitchShutter_A_06
+  Hash: !ul 2718600696791554107
+  Phive:
+    Placement: {ID: !ul 2718600696791554107}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0xd0172c0d
+  Translate: [-0.040486570447683334, 59.52628707885742, -41.2110481262207]
+- Gyaml: DestinationAnchor
+  Hash: !ul 16495032267175057370
+  Name: CameraPlusZ
+  Phive:
+    Placement: {ID: !ul 16495032267175057370}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0xed3904b9
+  Translate: [-0.040486570447683334, 59.52628707885742, -42.86104965209961]
+- Dynamic: {FogParams: ForestTemple_BossRoom}
+  Gyaml: VolumeFogArea
+  Hash: !ul 15343848670080406370
+  Phive:
+    Placement: {ID: !ul 15343848670080406370}
+  SRTHash: !u 0x64dff351
+  Scale: [36.441986083984375, 40.705665588378906, 33.13583755493164]
+  Translate: [-0.049610137939453125, 78.61827087402344, -63.34782409667969]
+- Gyaml: EftLoc_ForestTemple_PhantomGannonRoom_2dVolume_00
+  Hash: !ul 318249390152951097
+  Phive:
+    Placement: {ID: !ul 318249390152951097}
+  SRTHash: !u 0x79048f7f
+  Scale: [50.52676010131836, 19.084003448486328, 60.90916442871094]
+  Translate: [0.5317764282226562, 57.58325958251953, -28.801515579223633]
+AiGroups:
+- Hash: !ul 13241356294956198007
+  Logic: Logic/Root/PhantomGanonStage/PhantomGanonStage_b112.logic.root.ain
+  References:
+  - {Id: Enemy_DungeonBoss_PhantomGanon_7c41, Path: _71ff/Enemy_DungeonBoss_PhantomGanon_7c41,
+    Reference: !ul 3949195992201972258}
+  - {Id: EventRequestActor_024c, Path: _71ff/_2944/EventRequestActor_024c, Reference: !ul 18335992526796505056}
+  - {Id: Area_bfbc, Path: _71ff/_2944/Area_bfbc, Reference: !ul 14135185230333739567}
+  - {Id: Obj_WarpPoint_A_01_14a2, Path: _71ff/_2944/Obj_WarpPoint_A_01_14a2, Reference: !ul 4840516613296644060}
+  - {Id: DestinationAnchor_a8b5, Path: _71ff/_2944/DestinationAnchor_a8b5, Reference: !ul 10220135002505341516}
+  - {Id: AiGroup, InstanceName: Gimmick_Warp_FromDungeon_061c_312a, Logic: Logic/Module/Gimmick_Warp_FromDungeon/Gimmick_Warp_FromDungeon_061c.logic.module.ain,
+    Path: _71ff/_2944/AiGroup, Reference: !ul 5494861752071916387}
+  - {Id: EventRequestActor_f48d, Path: _71ff/EventRequestActor_f48d, Reference: !ul 4723273519319901099}
+  - {Id: Area_4d54, Path: _71ff/Area_4d54, Reference: !ul 10967428199784511177}
+  - {Id: Obj_ForestTemple_SwitchShutter_A_01_7b02, Path: _71ff/Obj_ForestTemple_SwitchShutter_A_01_7b02,
+    Reference: !ul 166973580573499319}
+  - {Id: Enemy_GhostPicturePerformer_PhantomGanonImitation_6795, Path: _71ff/_3823/Enemy_GhostPicturePerformer_PhantomGanonImitation_6795,
+    Reference: !ul 5050343888946184655}
+  - {Id: Enemy_GhostPicturePerformer_PhantomGanonHorse_Imitation_7ffd, Path: _71ff/_3823/Enemy_GhostPicturePerformer_PhantomGanonHorse_Imitation_7ffd,
+    Reference: !ul 15226183443857032239}
+  - {Id: AiGroup, InstanceName: EnemyDungeonBossPhantomGanondorf_ImitationPerformer_c119_8e70,
+    Logic: Logic/Module/EnemyDungeonBossPhantomGanondorf_ImitationPerformer/EnemyDungeonBossPhantomGanondorf_ImitationPerformer_c119.logic.module.ain,
+    Path: _71ff/_3823/AiGroup, Reference: !ul 472133214238392984}
+  - {Id: Enemy_GhostPicturePerformer_PhantomGanon_1919, Path: _71ff/_7b3a/Enemy_GhostPicturePerformer_PhantomGanon_1919,
+    Reference: !ul 2282548318078622101}
+  - {Id: Enemy_GhostPicturePerformer_PhantomGanonHorse_4369, Path: _71ff/_7b3a/Enemy_GhostPicturePerformer_PhantomGanonHorse_4369,
+    Reference: !ul 16602722228376558335}
+  - {Id: AiGroup, InstanceName: EnemyDungeonBossPhantomGanondorf_Performer_61a2_9fd4,
+    Logic: Logic/Module/EnemyDungeonBossPhantomGanondorf_Performer/EnemyDungeonBossPhantomGanondorf_Performer_61a2.logic.module.ain,
+    Path: _71ff/_7b3a/AiGroup, Reference: !ul 1480881556589744055}
+  - {Id: Obj_ForestTemple_PhantomGanonPainting_A_01_0b6d, Path: _71ff/Obj_ForestTemple_PhantomGanonPainting_A_01_0b6d,
+    Reference: !ul 17555666371193282591}
+  - {Id: Obj_ForestTemple_PhantomGanonPainting_A_01_1283, Path: _71ff/Obj_ForestTemple_PhantomGanonPainting_A_01_1283,
+    Reference: !ul 18182224215115671616}
+  - {Id: Obj_ForestTemple_PhantomGanonPainting_A_01_537c, Path: _71ff/Obj_ForestTemple_PhantomGanonPainting_A_01_537c,
+    Reference: !ul 10369912034796653837}
+  - {Id: Obj_ForestTemple_PhantomGanonPainting_A_01_922a, Path: _71ff/Obj_ForestTemple_PhantomGanonPainting_A_01_922a,
+    Reference: !ul 7206495662193295918}
+  - {Id: Obj_ForestTemple_PhantomGanonPainting_A_01_ba9c, Path: _71ff/Obj_ForestTemple_PhantomGanonPainting_A_01_ba9c,
+    Reference: !ul 3458737638510875733}
+  - {Id: Obj_ForestTemple_PhantomGanonPainting_A_01_cef9, Path: _71ff/Obj_ForestTemple_PhantomGanonPainting_A_01_cef9,
+    Reference: !ul 451005761096087089}
+  - {Id: FldObj_AirWall_Player_4fe1, Path: _71ff/FldObj_AirWall_Player_4fe1, Reference: !ul 83141415242286906}
+  - {Id: AiGroup, InstanceName: EnemyDungeonBossPhantomGanondorf_0ece_bb70, Logic: Logic/Module/EnemyDungeonBossPhantomGanondorf/EnemyDungeonBossPhantomGanondorf_0ece.logic.module.ain,
+    Path: _71ff/AiGroup, Reference: !ul 8192620908534373574}
+  - {Id: NaviAreaHintEventActor_7436, Path: NaviAreaHintEventActor_7436, Reference: !ul 4626984297848810784}
+  - {Id: Area_a5b9, Path: Area_a5b9, Reference: !ul 903785508746576248}
+- Hash: !ul 18048642203270928855
+  Logic: Logic/Module/DungeonSwitchShutterBossWithChainLockSet/DungeonSwitchShutterBossWithChainLockSet_15e6.logic.module.ain
+  References:
+  - {Id: ChainLockLocator_BossDoor_fabe, Path: ChainLockLocator_BossDoor_fabe, Reference: !ul 12588121804175097569}
+  - {Id: ShutterLocator_BossDoor_362a, Path: ShutterLocator_BossDoor_362a, Reference: !ul 2418898332448833198}
+  - {Id: ChainLockLocator_BossLattice_6223, Path: ChainLockLocator_BossLattice_6223,
+    Reference: !ul 2718600696791554107}
+FarDeleteGroups:
+- [!ul 83141415242286906, !ul 166973580573499319, !ul 451005761096087089, !ul 903785508746576248,
+  !ul 2282548318078622101, !ul 3458737638510875733, !ul 3949195992201972258, !ul 4626984297848810784,
+  !ul 4723273519319901099, !ul 4840516613296644060, !ul 5050343888946184655, !ul 7206495662193295918,
+  !ul 10220135002505341516, !ul 10369912034796653837, !ul 10967428199784511177, !ul 14135185230333739567,
+  !ul 15226183443857032239, !ul 16602722228376558335, !ul 17555666371193282591, !ul 18182224215115671616,
+  !ul 18335992526796505056]
+- [!ul 2418898332448833198, !ul 2718600696791554107, !ul 12588121804175097569]
+FilePath: Work/Banc/Scene/DreamWorld/PhantomGanonStage.bcett.json
+PhiveHeader:
+  PlacementGroups: []
+Rails:
+- Gyaml: Guide
+  Hash: !ul 539244452406922856
+  IsClosed: false
+  Name: Guide
+  Points:
+  - Gyaml: Guide
+    Hash: !ul 1949488575845597188
+    NextDistance: 103.00485229492188
+    Translate: [-30.08099937438965, 43.444000244140625, -97.96499633789062]
+  - Gyaml: Guide
+    Hash: !ul 16632531648441191597
+    NextDistance: 103.00485229492188
+    PrevDistance: 103.00485229492188
+    Translate: [-30.08099937438965, 42.444000244140625, 5.034999847412109]
+  - Gyaml: Guide
+    Hash: !ul 1208235768144763840
+    PrevDistance: 103.00485229492188
+    Translate: [-30.08099937438965, 43.444000244140625, -97.96499633789062]
+- Gyaml: Guide
+  Hash: !ul 13210051764196202152
+  IsClosed: false
+  Name: Guide
+  Points:
+  - Gyaml: Guide
+    Hash: !ul 314208567825740647
+    NextDistance: 103.00485229492188
+    Translate: [29.91900062561035, 43.444000244140625, -97.96499633789062]
+  - Gyaml: Guide
+    Hash: !ul 10454002195916596190
+    PrevDistance: 103.00485229492188
+    Translate: [29.91900062561035, 42.444000244140625, 5.034999847412109]
+SimultaneousGroups:
+- [!ul 83141415242286906, !ul 166973580573499319, !ul 451005761096087089, !ul 903785508746576248,
+  !ul 2282548318078622101, !ul 3458737638510875733, !ul 3949195992201972258, !ul 4626984297848810784,
+  !ul 4723273519319901099, !ul 4840516613296644060, !ul 5050343888946184655, !ul 7206495662193295918,
+  !ul 10220135002505341516, !ul 10369912034796653837, !ul 10967428199784511177, !ul 14135185230333739567,
+  !ul 15226183443857032239, !ul 16602722228376558335, !ul 17555666371193282591, !ul 18182224215115671616,
+  !ul 18335992526796505056]
+- [!ul 2418898332448833198, !ul 2718600696791554107, !ul 12588121804175097569]

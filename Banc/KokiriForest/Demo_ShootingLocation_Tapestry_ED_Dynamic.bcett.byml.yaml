@@ -1,0 +1,28 @@
+Actors:
+- Bakeable: true
+  Gyaml: Land_Kokiri_Interior_A_01
+  Hash: !ul 12352922670657592054
+  Phive:
+    Placement: {ID: !ul 12352922670657592054}
+  SRTHash: !u 0x450da66e
+  Translate: [-0.006350517272949219, 0.0, 0.051578521728515625]
+- Gyaml: StartPos
+  Hash: !ul 14582218010544282484
+  Phive:
+    Placement: {ID: !ul 14582218010544282484}
+  SRTHash: !u 0x46bcc6f9
+  Translate: [0.08088159561157227, 0.15872186422348022, 0.14557552337646484]
+- Gyaml: StartPos
+  Hash: !ul 7180386826744891560
+  Name: Ending
+  Phive:
+    Placement: {ID: !ul 7180386826744891560}
+  SRTHash: !u 0x46bcc6f9
+  Translate: [0.08088159561157227, 0.15872186422348022, 0.14557552337646484]
+- Gyaml: Tapestry_ChallengeMenu_ED
+  Hash: !ul 17160969215939765813
+  Phive:
+    Placement: {ID: !ul 17160969215939765813}
+  SRTHash: !u 0x877ec23c
+  Translate: [-44.0, -28.0, 16.0]
+FilePath: Work/Banc/Scene/KokiriForest/Demo_ShootingLocation_Tapestry_ED.bcett.json

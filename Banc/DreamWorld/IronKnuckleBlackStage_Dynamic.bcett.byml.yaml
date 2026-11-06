@@ -1,0 +1,209 @@
+Actors:
+- Gyaml: StartPos
+  Hash: !ul 15175028130264348845
+  Name: IronKnuckleBlackStage
+  Phive:
+    Placement: {ID: !ul 15175028130264348845}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0xc58f41ba
+  Translate: [12.366148948669434, 149.6500244140625, -24.65399932861328]
+- Gyaml: StartPos
+  Hash: !ul 6134427825684126491
+  Name: StartPos_SubEvent_AllBossBattle
+  Phive:
+    Placement: {ID: !ul 6134427825684126491}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0xc58f41ba
+  Translate: [12.366148948669434, 149.6500244140625, -24.65399932861328]
+- Bakeable: true
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_04
+  Hash: !ul 8495891633416816698
+  Phive:
+    Placement: {ID: !ul 8495891633416816698}
+  Rotate: [3.1415927410125732, 0.7136830687522888, 3.1415927410125732]
+  SRTHash: !u 0x4bbadaae
+  Translate: [-7.239360809326172, 150.12799072265625, -16.666902542114258]
+- Bakeable: true
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_04
+  Hash: !ul 15968457785483075031
+  Phive:
+    Placement: {ID: !ul 15968457785483075031}
+  Rotate: [3.1415927410125732, -0.7446133494377136, 3.1415927410125732]
+  SRTHash: !u 0x92149a37
+  Translate: [7.310187816619873, 150.12799072265625, -16.893043518066406]
+- Bakeable: true
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_04
+  Hash: !ul 7303005969202390034
+  Phive:
+    Placement: {ID: !ul 7303005969202390034}
+  Rotate: [0.0, -0.7386307120323181, 0.0]
+  SRTHash: !u 0x873563eb
+  Translate: [7.320130825042725, 150.12799072265625, -32.412471771240234]
+- Bakeable: true
+  Gyaml: Obj_InsideGanonCastle_CandleStand_A_04
+  Hash: !ul 4849919413008897686
+  Phive:
+    Placement: {ID: !ul 4849919413008897686}
+  Rotate: [0.0, 0.7005642652511597, 0.0]
+  SRTHash: !u 0x643adaef
+  Translate: [-7.241321086883545, 150.12844848632812, -32.623321533203125]
+- Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 13472243848558454017
+  Phive:
+    Placement: {ID: !ul 13472243848558454017}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x1e61df2d
+  Translate: [-14.581655502319336, 152.33349609375, -25.99534797668457]
+- Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 3709841926862693939
+  Phive:
+    Placement: {ID: !ul 3709841926862693939}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x818e591c
+  Translate: [-14.581655502319336, 152.33349609375, -23.296422958374023]
+- Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 17902050178263672332
+  Phive:
+    Placement: {ID: !ul 17902050178263672332}
+  Rotate: [3.1415927410125732, 0.8083113431930542, 3.1415927410125732]
+  SRTHash: !u 0xad989699
+  Translate: [-28.608440399169922, 154.1999969482422, -21.777835845947266]
+- Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 6880815447987105393
+  Phive:
+    Placement: {ID: !ul 6880815447987105393}
+  Rotate: [3.1415927410125732, 0.3478972017765045, 3.1415927410125732]
+  SRTHash: !u 0x1eb7c7c3
+  Translate: [-12.451555252075195, 158.79302978515625, 1.8004206418991089]
+- Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 14485459185655072549
+  Phive:
+    Placement: {ID: !ul 14485459185655072549}
+  Rotate: [3.1415927410125732, 0.7618209719657898, 3.1415927410125732]
+  SRTHash: !u 0xd7741d32
+  Translate: [-20.974252700805664, 157.208984375, -3.5920498371124268]
+- Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 6668859763757869059
+  Phive:
+    Placement: {ID: !ul 6668859763757869059}
+  SRTHash: !u 0x5fa3e069
+  Translate: [1.9813616275787354, 159.87200927734375, -6.487841606140137]
+- Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 5710972816100608716
+  Phive:
+    Placement: {ID: !ul 5710972816100608716}
+  Rotate: [3.1415927410125732, 1.190946340560913, 3.1415927410125732]
+  SRTHash: !u 0x73a37d2e
+  Translate: [-26.520660400390625, 155.60191345214844, -12.022741317749023]
+- Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 14451916562810025676
+  Phive:
+    Placement: {ID: !ul 14451916562810025676}
+  Rotate: [0.0, -0.3424285650253296, 0.0]
+  SRTHash: !u 0xd2c67c3d
+  Translate: [-10.415605545043945, 158.79513549804688, -3.756405830383301]
+- Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 6579518685615039644
+  Phive:
+    Placement: {ID: !ul 6579518685615039644}
+  Rotate: [3.1415927410125732, -0.7911097407341003, 3.1415927410125732]
+  SRTHash: !u 0xc0cf06d7
+  Translate: [-21.748268127441406, 154.1999969482422, -21.776371002197266]
+- Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 8649056626904950617
+  Phive:
+    Placement: {ID: !ul 8649056626904950617}
+  Rotate: [0.0, -0.768255889415741, 0.0]
+  SRTHash: !u 0x066bc13e
+  Translate: [-16.82758331298828, 157.19674682617188, -7.818389415740967]
+- Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 8432599751907859438
+  Phive:
+    Placement: {ID: !ul 8432599751907859438}
+  SRTHash: !u 0x00628eb0
+  Translate: [-1.8539276123046875, 159.87200927734375, -6.489470958709717]
+- Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 2856221521319908252
+  Phive:
+    Placement: {ID: !ul 2856221521319908252}
+  Rotate: [0.0, -1.2037569284439087, 0.0]
+  SRTHash: !u 0x28f836b0
+  Translate: [-20.99868392944336, 155.5963592529297, -14.153777122497559]
+- Bakeable: true
+  Gyaml: Land_InsideGanonCastle_Room23_A_01
+  Hash: !ul 4968868985574309910
+  Phive:
+    Placement: {ID: !ul 4968868985574309910}
+  SRTHash: !u 0xab385586
+  Translate: [0.0, 143.97000122070312, -3.9600000381469727]
+- Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 9282275558134252085
+  Phive:
+    Placement: {ID: !ul 9282275558134252085}
+  Rotate: [0.0, 1.5264310836791992, 0.0]
+  SRTHash: !u 0x710fa4d6
+  Translate: [18.559459686279297, 153.24783325195312, -17.36697769165039]
+- Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 1351381279871506503
+  Phive:
+    Placement: {ID: !ul 1351381279871506503}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x04c3cea8
+  Translate: [15.822198867797852, 152.8282012939453, -22.839462280273438]
+- Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 18322934028782849759
+  Phive:
+    Placement: {ID: !ul 18322934028782849759}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x8f8ae27d
+  Translate: [15.822980880737305, 152.8282012939453, -26.431621551513672]
+- Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 4342882456818428919
+  Phive:
+    Placement: {ID: !ul 4342882456818428919}
+  Rotate: [3.1415927410125732, -0.4892403185367584, 3.1415927410125732]
+  SRTHash: !u 0x2898520b
+  Translate: [15.265048027038574, 150.0181121826172, -4.191436767578125]
+- Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 4578022171630441607
+  Phive:
+    Placement: {ID: !ul 4578022171630441607}
+  Rotate: [3.1415927410125732, -0.8679653406143188, 3.1415927410125732]
+  SRTHash: !u 0x30ce4443
+  Translate: [3.475616693496704, 148.1614532470703, -1.3346571922302246]
+- Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 4295446099898050958
+  Phive:
+    Placement: {ID: !ul 4295446099898050958}
+  Rotate: [3.1415927410125732, -1.5473394393920898, 3.1415927410125732]
+  SRTHash: !u 0xa600f386
+  Translate: [22.64078140258789, 153.24783325195312, -16.9739933013916]
+- Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 8456869917234469866
+  Phive:
+    Placement: {ID: !ul 8456869917234469866}
+  Rotate: [0.0, 0.45035964250564575, 0.0]
+  SRTHash: !u 0xc2165804
+  Translate: [12.861455917358398, 150.0181121826172, -7.5276198387146]
+- Gyaml: Obj_InsideGanonCastle_CandleStand_A_01
+  Hash: !ul 2522536185567398627
+  Phive:
+    Placement: {ID: !ul 2522536185567398627}
+  Rotate: [0.0, -0.83775794506073, 0.0]
+  SRTHash: !u 0xf5c87a15
+  Translate: [3.502532482147217, 148.1614532470703, -6.584875583648682]
+- Bakeable: true
+  Gyaml: Land_InsideGanonCastle_Room23_A_02
+  Hash: !ul 10559359794072640795
+  Phive:
+    Placement: {ID: !ul 10559359794072640795}
+  SRTHash: !u 0xab385586
+  Translate: [0.0, 143.97000122070312, -3.9600000381469727]
+- Bakeable: true
+  Gyaml: Land_InsideGanonCastle_Room23_A_03
+  Hash: !ul 3474155468409740109
+  Phive:
+    Placement: {ID: !ul 3474155468409740109}
+  SRTHash: !u 0xab385586
+  Translate: [0.0, 143.97000122070312, -3.9600000381469727]
+FilePath: Work/Banc/Scene/DreamWorld/IronKnuckleBlackStage.bcett.json

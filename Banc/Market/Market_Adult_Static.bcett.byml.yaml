@@ -1,0 +1,1336 @@
+Actors:
+- Dynamic: {RequestEventName: Market_Adult_Field_AdultToChild}
+  Gyaml: EventRequestActor
+  Hash: !ul 16146179233394378722
+  Links:
+  - {Dst: !ul 848308898316998240, Gyaml: Reference, Name: Reference, Src: !ul 16146179233394378722}
+  Phive:
+    Placement: {ID: !ul 16146179233394378722}
+  Rotate: [3.1415927410125732, -3.8941436741879443e-07, 3.1415927410125732]
+  SRTHash: !u 0xfe78ed61
+  Translate: [140.42613220214844, 116.25801849365234, -27.64520263671875]
+- Gyaml: Area
+  Hash: !ul 3406708549665898725
+  Phive:
+    Placement: {ID: !ul 3406708549665898725}
+  Presence: {FlagName: Market_Adult_GetLightPrelude, IsCheckLazy: false, IsNegation: true}
+  Rotate: [-3.1117868423461914, -3.89414338997085e-07, -3.141592502593994]
+  SRTHash: !u 0x7dcc4bc9
+  Scale: [11.0, 2.5999999046325684, 4.999999523162842]
+  Translate: [132.87744140625, 104.79126739501953, -34.0]
+- Dynamic: {RequestEventName: Market_Adult_Field_GetLightPrelude}
+  Gyaml: EventRequestActor
+  Hash: !ul 3409851866200498477
+  Phive:
+    Placement: {ID: !ul 3409851866200498477}
+  Rotate: [-3.141592502593994, -6.258487701416016e-07, 3.141592502593994]
+  SRTHash: !u 0xbbed5bf0
+  Translate: [139.23036193847656, 114.291259765625, -33.263458251953125]
+- Gyaml: Npc_Hylia_048_BottleShop
+  Hash: !ul 8611096237640158008
+  Links:
+  - {Dst: !ul 7246838957476557887, Gyaml: Reference, Name: Reference, Src: !ul 8611096237640158008}
+  - {Dst: !ul 14411326876857838073, Gyaml: Reference, Name: Reference, Src: !ul 8611096237640158008}
+  - {Dst: !ul 4766725696403800076, Gyaml: Reference, Name: Reference, Src: !ul 8611096237640158008}
+  - {Dst: !ul 14113533617554611898, Gyaml: Reference, Name: Reference, Src: !ul 8611096237640158008}
+  - {Dst: !ul 11861167714919652335, Gyaml: Reference, Name: Reference, Src: !ul 8611096237640158008}
+  - {Dst: !ul 17327698857157540429, Gyaml: Reference, Name: Reference, Src: !ul 8611096237640158008}
+  - {Dst: !ul 8414686865233759730, Gyaml: Reference, Name: Reference, Src: !ul 8611096237640158008}
+  - {Dst: !ul 6374902610605429327, Gyaml: Reference, Name: Reference, Src: !ul 8611096237640158008}
+  - {Dst: !ul 1059550456039822207, Gyaml: Reference, Name: Reference, Src: !ul 8611096237640158008}
+  MoveRadius: 1.3335888385772705
+  Phive:
+    Placement: {ID: !ul 8611096237640158008}
+  Rotate: [0.0, -1.570796251296997, 1.7484555314695172e-07]
+  SRTHash: !u 0x87caedd7
+  Translate: [15.055947303771973, 102.79562377929688, 54.12665939331055]
+- Gyaml: AnchorAction1
+  Hash: !ul 7246838957476557887
+  Phive:
+    Placement: {ID: !ul 7246838957476557887}
+  Rotate: [0.0, -1.570796251296997, 1.7484555314695172e-07]
+  SRTHash: !u 0xbeca2d5a
+  Translate: [15.507162094116211, 102.17969512939453, 55.22004699707031]
+- Gyaml: Npc_Hylia_Sheik_Adult
+  Hash: !ul 2669233513522124871
+  Links:
+  - {Dst: !ul 3082534610608980032, Gyaml: Reference, Name: Reference, Src: !ul 2669233513522124871}
+  - {Dst: !ul 9054844105649494018, Gyaml: Reference, Name: Reference, Src: !ul 2669233513522124871}
+  MoveRadius: 2.63688063621521
+  Phive:
+    Placement: {ID: !ul 2669233513522124871}
+  Rotate: [0.0, -1.570796251296997, -4.116688614885788e-06]
+  SRTHash: !u 0x0464d6a3
+  Translate: [139.02650451660156, 106.35363006591797, -34.0]
+- Gyaml: AnchorAction1
+  Hash: !ul 3082534610608980032
+  Phive:
+    Placement: {ID: !ul 3082534610608980032}
+  Rotate: [0.0, -1.570796251296997, 1.7484555314695172e-07]
+  SRTHash: !u 0xcf6339d8
+  Translate: [136.87100219726562, 106.35359954833984, -34.0]
+- Gyaml: Obj_TimeTemple_MasterSword_A_01
+  Hash: !ul 7921822793324574197
+  Phive:
+    Placement: {ID: !ul 7921822793324574197}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x4da7611e
+  Translate: [137.63624572753906, 106.58602142333984, -34.0]
+- Gyaml: DestinationAnchor
+  Hash: !ul 848308898316998240
+  Name: Demo_Sword_Potision
+  Phive:
+    Placement: {ID: !ul 848308898316998240}
+  Rotate: [0.0, 1.570796251296997, -2.6429654553794535e-06]
+  SRTHash: !u 0xacf3b532
+  Translate: [137.2285614013672, 106.35399627685547, -34.0]
+- Bakeable: true
+  Gyaml: Land_HrlCityAdult_Ground_A_01
+  Hash: !ul 10425582227970842839
+  Phive:
+    Placement: {ID: !ul 10425582227970842839}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0xd9445ea5
+  Translate: [0.0, 99.8479995727539, 0.0]
+- Bakeable: true
+  Gyaml: Land_HrlCityAdult_Ground_A_02
+  Hash: !ul 8501220558667577675
+  Phive:
+    Placement: {ID: !ul 8501220558667577675}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0x822682d0
+  Translate: [3.0, 100.0, -2.0]
+- Bakeable: true
+  Gyaml: Land_HrlCityAdult_Ground_A_03
+  Hash: !ul 16900723723422063699
+  Phive:
+    Placement: {ID: !ul 16900723723422063699}
+  SRTHash: !u 0xc98fce9c
+  Translate: [-1.7999999523162842, 102.0999984741211, 58.400001525878906]
+- Bakeable: true
+  Gyaml: Land_HrlCityAdult_Gate_A_01
+  Hash: !ul 11346917458730120477
+  Phive:
+    Placement: {ID: !ul 11346917458730120477}
+  SRTHash: !u 0x03a7a415
+  Translate: [-1.7999999523162842, 102.0, 65.0]
+- Gyaml: Obj_WaterPlane_A_01
+  Hash: !ul 6118227286502756697
+  Phive:
+    Placement: {ID: !ul 6118227286502756697}
+  SRTHash: !u 0xe1656c51
+  Scale: [11.30965805053711, 1.8495473861694336, 2.135016918182373]
+  Translate: [-1.904953956604004, 97.8973617553711, 51.859954833984375]
+- Gyaml: Land_HrlCity_SceneConnectProp_B_01
+  Hash: !ul 9485454581331219385
+  Phive:
+    Placement: {ID: !ul 9485454581331219385}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x9fa5c824
+  Translate: [2.8610000610351562, 98.7040023803711, 156.60800170898438]
+- Dynamic: {FogParams: HyruleCity_Adult_01}
+  Gyaml: VolumeFogArea
+  Hash: !ul 4134823365371997715
+  Phive:
+    Placement: {ID: !ul 4134823365371997715}
+  SRTHash: !u 0x0bbb7119
+  Scale: [50.0, 20.0, 10.0]
+  Translate: [2.93133282661438, 112.65542602539062, 159.8556365966797]
+- Gyaml: Land_HrlCityAdult_Gate_A_02
+  Hash: !ul 911955619071631169
+  Phive:
+    Placement: {ID: !ul 911955619071631169}
+  SRTHash: !u 0x03a7a415
+  Translate: [-1.7999999523162842, 102.0, 65.0]
+- Bakeable: true
+  Gyaml: Land_HrlCityAdult_ProceduralIvy_A
+  Hash: !ul 16566204810242565737
+  Phive:
+    Placement: {ID: !ul 16566204810242565737}
+  SRTHash: !u 0x2dca4627
+  Translate: [36.60565948486328, 102.42402648925781, -16.765560150146484]
+- Gyaml: Land_DeathMountainFar_A_01
+  Hash: !ul 12146345479886813435
+  Phive:
+    Placement: {ID: !ul 12146345479886813435}
+  Rotate: [0.0, -0.5740792751312256, 0.0]
+  SRTHash: !u 0x7421b2e2
+  Translate: [1205.06982421875, 32.95140075683594, 108.7811279296875]
+- Gyaml: EftLoc_DeathMountain_Cloud_Far_00
+  Hash: !ul 6704495567218384206
+  Phive:
+    Placement: {ID: !ul 6704495567218384206}
+  Presence: {FlagName: SageOfFire_IsCompleted_Exp, IsCheckLazy: false, IsNegation: false}
+  Rotate: [-3.141592502593994, 0.5740792751312256, -3.141592502593994]
+  SRTHash: !u 0x12ec4897
+  Translate: [1216.9268798828125, 335.02801513671875, 93.28727722167969]
+- Gyaml: EftLoc_DeathMountain_CloudRed_Far_00
+  Hash: !ul 2399186858003229081
+  Phive:
+    Placement: {ID: !ul 2399186858003229081}
+  Presence: {FlagName: SageOfFire_IsCompleted_Exp, IsCheckLazy: false, IsNegation: true}
+  Rotate: [-3.141592502593994, 0.5740792751312256, -3.141592502593994]
+  SRTHash: !u 0x12ec4897
+  Translate: [1216.9268798828125, 335.02801513671875, 93.28727722167969]
+- Gyaml: Land_HrlCity_Child_Far02
+  Hash: !ul 9198280654464244377
+  Phive:
+    Placement: {ID: !ul 9198280654464244377}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xe97761ad
+  Translate: [0.0, 310.0, -1200.0]
+- Gyaml: Land_HrlCity_Child_Far03
+  Hash: !ul 3610099058950042470
+  Phive:
+    Placement: {ID: !ul 3610099058950042470}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x013a9da7
+  Translate: [1900.0, 100.0, 55.0]
+- Bakeable: true
+  Gyaml: Land_HrlCity_Adult_Far_GanonCastle
+  Hash: !ul 13661089680116448323
+  Phive:
+    Placement: {ID: !ul 13661089680116448323}
+  SRTHash: !u 0x3ee447cf
+  Translate: [14.5164794921875, 138.9873046875, -467.1513671875]
+- Dynamic: {Drop__DropTable: DropTable_RangeWeapon_01}
+  Gyaml: Obj_Pot_A_01
+  Hash: !ul 630840502432038415
+  IsPhysicsStable: true
+  Phive:
+    Placement: {ID: !ul 630840502432038415}
+  SRTHash: !u 0x39767bc8
+  Translate: [16.43305206298828, 102.09562683105469, 57.77585983276367]
+- Dynamic: {Drop__DropTable: None}
+  Gyaml: Obj_Pot_A_01
+  Hash: !ul 3527237855955722340
+  IsPhysicsStable: true
+  Phive:
+    Placement: {ID: !ul 3527237855955722340}
+  SRTHash: !u 0x11d9c53e
+  Translate: [17.09759521484375, 102.09562683105469, 58.81700134277344]
+- Dynamic: {Drop__DropActor: Obj_Rupee_Green}
+  Gyaml: Obj_Pot_A_01
+  Hash: !ul 7521824399864207059
+  IsPhysicsStable: true
+  Phive:
+    Placement: {ID: !ul 7521824399864207059}
+  SRTHash: !u 0x5065832b
+  Translate: [15.869964599609375, 102.09562683105469, 58.81700134277344]
+- Dynamic: {Drop__DropActor: Obj_Rupee_Green}
+  Gyaml: Obj_Pot_A_01
+  Hash: !ul 1661231129625843374
+  IsPhysicsStable: true
+  Phive:
+    Placement: {ID: !ul 1661231129625843374}
+  SRTHash: !u 0x48d28c14
+  Translate: [13.399177551269531, 102.09562683105469, 58.81663131713867]
+- Gyaml: EftLoc_HrlCity_GannonCastle_Cloud
+  Hash: !ul 14234079533586962789
+  Phive:
+    Placement: {ID: !ul 14234079533586962789}
+  SRTHash: !u 0x82bf06af
+  Translate: [16.023574829101562, 417.7412414550781, -620.3483276367188]
+- Gyaml: SupplyItemResetSystemActor
+  Hash: !ul 4581117523089932752
+  Links:
+  - {Dst: !ul 1661231129625843374, Gyaml: Reference, Name: Reference, Src: !ul 4581117523089932752}
+  - {Dst: !ul 7521824399864207059, Gyaml: Reference, Name: Reference, Src: !ul 4581117523089932752}
+  - {Dst: !ul 630840502432038415, Gyaml: Reference, Name: Reference, Src: !ul 4581117523089932752}
+  - {Dst: !ul 3527237855955722340, Gyaml: Reference, Name: Reference, Src: !ul 4581117523089932752}
+  Phive:
+    Placement: {ID: !ul 4581117523089932752}
+  SRTHash: !u 0x4e3880a9
+  Translate: [12.593116760253906, 104.26142883300781, 58.720821380615234]
+- Dynamic: {Location: TimeTemple}
+  Gyaml: LocationArea
+  Hash: !ul 9514953128660654811
+  Phive:
+    Placement: {ID: !ul 9514953128660654811}
+  Rotate: [-3.141592502593994, -3.8941439584050386e-07, -3.141592502593994]
+  SRTHash: !u 0x7cf5d083
+  Scale: [45.0, 3.0, 18.0]
+  Translate: [111.6098403930664, 103.5, -34.0]
+- Bakeable: true
+  Dynamic: {GameModelController_LodStartDistCoef: 1.350000023841858}
+  Gyaml: Land_TempleOfTime_A_01
+  Hash: !ul 17492249936266814130
+  Phive:
+    Placement: {ID: !ul 17492249936266814130}
+  Rotate: [0.0, -1.570796251296997, 1.7484555314695172e-07]
+  SRTHash: !u 0x413dac5e
+  Translate: [80.9260025024414, 102.0999984741211, -34.0]
+- Bakeable: true
+  Dynamic: {GameModelController_GeneralInstanceParam0: 0.0, GameModelController_GeneralInstanceParam2: 15.0}
+  Gyaml: Land_TempleOfTime_Inside_A_01
+  Hash: !ul 191810886446286990
+  Phive:
+    Placement: {ID: !ul 191810886446286990}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0xd5bc7bda
+  Translate: [95.57599639892578, 102.0999984741211, -34.0]
+- Bakeable: true
+  Gyaml: Land_TempleOfTime_A_02
+  Hash: !ul 2412077065205698448
+  Phive:
+    Placement: {ID: !ul 2412077065205698448}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x3537967f
+  Translate: [137.8159942626953, 102.0999984741211, -34.0]
+- Bakeable: true
+  Gyaml: Land_TempleOfTime_Inside_A_02
+  Hash: !ul 2099406064786032070
+  Phive:
+    Placement: {ID: !ul 2099406064786032070}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x143bb43b
+  Translate: [137.88600158691406, 102.0999984741211, -34.0]
+- Bakeable: true
+  Gyaml: Land_TempleOfTime_A_02_InnerMesh
+  Hash: !ul 18135326685227309743
+  Phive:
+    Placement: {ID: !ul 18135326685227309743}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x3537967f
+  Translate: [137.8159942626953, 102.0999984741211, -34.0]
+- Gyaml: DestinationAnchor
+  Hash: !ul 7266602371388390710
+  Name: FieldDungeonEntranceGo
+  Phive:
+    Placement: {ID: !ul 7266602371388390710}
+  Rotate: [-3.141592502593994, -3.89414338997085e-07, 3.141592502593994]
+  SRTHash: !u 0xa3dcce68
+  Translate: [-1.712018609046936, 103.23974609375, 85.32803344726562]
+- Gyaml: Area
+  Hash: !ul 10711147713855529366
+  Phive:
+    Placement: {ID: !ul 10711147713855529366}
+  Rotate: [-3.141592502593994, -3.89414338997085e-07, 3.141592502593994]
+  SRTHash: !u 0xa0a1ad44
+  Scale: [10.0, 10.0, 10.0]
+  Translate: [-1.7120188474655151, 101.23974609375, 76.68319702148438]
+- Dynamic: {FirstEventName: Dm_SY_BancChangeGo, NextBancParamNameAdult: HyruleField_Adult,
+    NextBancParamNameChild: HyruleField_Child, NextEventName: Dm_SY_BancChangeArrive_HyruleField_02,
+    NextStartPosName: HyruleField_FrontOfMarket}
+  Gyaml: FieldAndDungeonEntranceEventRequestActor
+  Hash: !ul 8090100398624302801
+  Links:
+  - {Dst: !ul 7266602371388390710, Gyaml: Reference, Name: Reference, Src: !ul 8090100398624302801}
+  - {Dst: !ul 15063586074842364507, Gyaml: Reference, Name: Reference, Src: !ul 8090100398624302801}
+  Name: Market_Entrance
+  Phive:
+    Placement: {ID: !ul 8090100398624302801}
+  Rotate: [-3.141592502593994, -3.89414338997085e-07, 3.141592502593994]
+  SRTHash: !u 0xf566e9ab
+  Translate: [-1.7120215892791748, 114.23974609375, 73.49629974365234]
+- Dynamic: {IsUseFailSafe: true, LoadRadius: 78.0}
+  Gyaml: ChangeBancBeforehandAnchor
+  Hash: !ul 6311764813185090529
+  Links:
+  - {Dst: !ul 8090100398624302801, Gyaml: Reference, Name: Reference, Src: !ul 6311764813185090529}
+  Name: 先読みの基準座標となるアンカー
+  Phive:
+    Placement: {ID: !ul 6311764813185090529}
+  Rotate: [-3.141592502593994, -3.89414338997085e-07, 3.141592502593994]
+  SRTHash: !u 0x6a165a72
+  Translate: [-1.844370722770691, 102.31251525878906, 62.750450134277344]
+- Gyaml: DestinationAnchor
+  Hash: !ul 15063586074842364507
+  Name: HorsePos
+  Phive:
+    Placement: {ID: !ul 15063586074842364507}
+  Rotate: [-3.141592502593994, -3.89414338997085e-07, 3.141592502593994]
+  SRTHash: !u 0x722172dc
+  Translate: [-1.7120294570922852, 102.23974609375, 57.750450134277344]
+- Gyaml: ForbiddenCreateDropArea
+  Hash: !ul 5907190290746053237
+  Phive:
+    Placement: {ID: !ul 5907190290746053237}
+  Rotate: [-3.141592502593994, -3.89414338997085e-07, 3.141592502593994]
+  SRTHash: !u 0x3790388c
+  Scale: [20.0, 20.0, 20.0]
+  Translate: [-1.7120188474655151, 111.23974609375, 76.68319702148438]
+- Bakeable: true
+  Dynamic: {EventNameFromInstanceParam: Check_SpiritStoneBase, IsUseEventNameInstanceParam: true}
+  Gyaml: Obj_TimeTemple_SpiritStoneBase_A_01
+  Hash: !ul 433111495078071306
+  Name: TempleOfTime_000
+  Phive:
+    Placement: {ID: !ul 433111495078071306}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x2e87c249
+  Translate: [110.43453216552734, 103.88055419921875, -34.0]
+- Dynamic: {RequestEventName: Market_Child_DoorOfTime_OpenDoor}
+  Gyaml: EventProxyRequestActor
+  Hash: !ul 8375730959944160703
+  Links:
+  - {Dst: !ul 433111495078071306, Gyaml: EventProxyRequestLink, Name: EventProxyRequestLink,
+    Src: !ul 8375730959944160703}
+  - {Dst: !ul 5792659642486821223, Gyaml: Reference, Name: Reference, Src: !ul 8375730959944160703}
+  - {Dst: !ul 18124620891613787741, Gyaml: Reference, Name: Reference, Src: !ul 8375730959944160703}
+  - {Dst: !ul 18023860044838456624, Gyaml: Reference, Name: Reference, Src: !ul 8375730959944160703}
+  - {Dst: !ul 1938092608882373604, Gyaml: Reference, Name: Reference, Src: !ul 8375730959944160703}
+  - {Dst: !ul 16871709635418385304, Gyaml: Reference, Name: Reference, Src: !ul 8375730959944160703}
+  Phive:
+    Placement: {ID: !ul 8375730959944160703}
+  SRTHash: !u 0x4a021dcb
+  Translate: [112.73104858398438, 113.28553009033203, -34.33676528930664]
+- Bakeable: true
+  Gyaml: Obj_TimeTemple_Door_A_01
+  Hash: !ul 1938092608882373604
+  Phive:
+    Placement: {ID: !ul 1938092608882373604}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x68aa4f6a
+  Translate: [118.37760162353516, 104.86031341552734, -34.0]
+- Gyaml: Obj_TimeTemple_SpiritStone_A_01
+  Hash: !ul 5792659642486821223
+  Links:
+  - {Dst: !ul 18124620891613787741, Gyaml: Reference, Name: SetLODParent, Src: !ul 5792659642486821223}
+  Phive:
+    Placement: {ID: !ul 5792659642486821223}
+  SRTHash: !u 0x2f1e2d8c
+  Translate: [117.94307708740234, 111.5, -36.84282302856445]
+- Bakeable: true
+  Gyaml: Obj_TimeTemple_TriforceRelief_A_01
+  Hash: !ul 6884261700324007292
+  Phive:
+    Placement: {ID: !ul 6884261700324007292}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x046c0060
+  Translate: [118.77963256835938, 114.99800109863281, -34.0]
+- Gyaml: Obj_TimeTemple_SpiritStone_A_03
+  Hash: !ul 18023860044838456624
+  Links:
+  - {Dst: !ul 18124620891613787741, Gyaml: Reference, Name: SetLODParent, Src: !ul 18023860044838456624}
+  Phive:
+    Placement: {ID: !ul 18023860044838456624}
+  SRTHash: !u 0x62f6e43e
+  Translate: [117.94308471679688, 111.5, -31.157819747924805]
+- Gyaml: Obj_TimeTemple_SpiritStone_A_02
+  Hash: !ul 18124620891613787741
+  Phive:
+    Placement: {ID: !ul 18124620891613787741}
+  SRTHash: !u 0xa5bdc82f
+  Translate: [117.94308471679688, 111.5, -34.00021743774414]
+- Gyaml: Area
+  Hash: !ul 17587513751668364403
+  Phive:
+    Placement: {ID: !ul 17587513751668364403}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xcfb4ac6a
+  Scale: [6.28169584274292, 1.0, 2.5]
+  Translate: [115.03030395507812, 104.0337905883789, -34.0]
+- Gyaml: Area
+  Hash: !ul 9407555290050795177
+  Phive:
+    Placement: {ID: !ul 9407555290050795177}
+  Rotate: [0.0, 1.1051992177963257, 0.0]
+  SRTHash: !u 0x7b67cc5a
+  Scale: [3.0, 1.0, 2.5]
+  Translate: [113.96332550048828, 104.0337905883789, -38.98027801513672]
+- Gyaml: Area
+  Hash: !ul 10252144455526564004
+  Phive:
+    Placement: {ID: !ul 10252144455526564004}
+  Rotate: [0.0, -0.8434136509895325, 0.0]
+  SRTHash: !u 0xabaa0718
+  Scale: [2.6645870208740234, 1.0, 2.361187696456909]
+  Translate: [112.62269592285156, 104.0337905883789, -31.546072006225586]
+- Gyaml: DestinationAnchor
+  Hash: !ul 16871709635418385304
+  Name: HyruleField_DoorOfTime_PlayedTimeSong
+  Phive:
+    Placement: {ID: !ul 16871709635418385304}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xf6dd4caa
+  Translate: [100.58695983886719, 104.01597595214844, -34.0]
+- Gyaml: EftLoc_CameraEnv_TempleOfTime_EnvEffect
+  Hash: !ul 9772521077357124632
+  Phive:
+    Placement: {ID: !ul 9772521077357124632}
+  SRTHash: !u 0x284dd635
+  Scale: [47.16435623168945, 16.177053451538086, 20.43616485595703]
+  Translate: [105.77557373046875, 98.74044036865234, -34.24212646484375]
+- Gyaml: Area
+  Hash: !ul 11895678965346120635
+  Phive:
+    Placement: {ID: !ul 11895678965346120635}
+  SRTHash: !u 0x65088a30
+  Scale: [70.0, 35.0, 40.0]
+  Translate: [93.0, 85.0, -31.83470916748047]
+- Gyaml: Area
+  Hash: !ul 3650546998727354802
+  Phive:
+    Placement: {ID: !ul 3650546998727354802}
+  SRTHash: !u 0x79f9a71b
+  Scale: [7.800000190734863, 3.0, 2.5]
+  Translate: [58.759559631347656, 103.94889831542969, -34.027950286865234]
+- Gyaml: Area
+  Hash: !ul 2122315589809297823
+  Phive:
+    Placement: {ID: !ul 2122315589809297823}
+  SRTHash: !u 0xf518d7d1
+  Scale: [45.0, 5.0, 18.0]
+  Translate: [111.6098403930664, 103.5, -34.0]
+- Gyaml: Area
+  Hash: !ul 18068525920826796952
+  Phive:
+    Placement: {ID: !ul 18068525920826796952}
+  SRTHash: !u 0x4155e8e1
+  Scale: [47.900001525878906, 20.0, 13.800000190734863]
+  Translate: [114.6500015258789, 103.91327667236328, -34.737091064453125]
+- Dynamic: {Distance: 13.0, SceneryName: Area_TempleOfTime}
+  Gyaml: SoundSettingActor
+  Hash: !ul 11972105294240647082
+  Links:
+  - {Dst: !ul 18068525920826796952, Gyaml: Reference, Name: Reference, Src: !ul 11972105294240647082}
+  Phive:
+    Placement: {ID: !ul 11972105294240647082}
+  SRTHash: !u 0x20b959cb
+  Translate: [58.98418426513672, 166.82301330566406, -33.17003631591797]
+- Dynamic: {FogParams: Market_TempleOfTime_00}
+  Gyaml: VolumeFogArea
+  Hash: !ul 4027601297304254922
+  Phive:
+    Placement: {ID: !ul 4027601297304254922}
+  SRTHash: !u 0x4c40c924
+  Scale: [36.102596282958984, 48.369754791259766, 36.370304107666016]
+  Translate: [137.77870178222656, 111.64108276367188, -33.99794006347656]
+- Gyaml: Area
+  Hash: !ul 1825252388471701227
+  Phive:
+    Placement: {ID: !ul 1825252388471701227}
+  SRTHash: !u 0xcaa2130b
+  Scale: [52.24391555786133, 27.747821807861328, 20.86420440673828]
+  Translate: [106.24542236328125, 101.87843322753906, -33.99794006347656]
+- Dynamic: {FogParams: Market_TempleOfTime_01}
+  Gyaml: VolumeFogArea
+  Hash: !ul 6824529889990435783
+  Phive:
+    Placement: {ID: !ul 6824529889990435783}
+  SRTHash: !u 0x0d10a167
+  Scale: [63.790985107421875, 25.275556564331055, 20.66640281677246]
+  Translate: [87.31199645996094, 112.65724182128906, -34.148929595947266]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 4922634265513816840
+  Phive:
+    Placement: {ID: !ul 4922634265513816840}
+  SRTHash: !u 0x300a16d1
+  Scale: [6.300000190734863, 1.0, 5.800000190734863]
+  Translate: [112.61624145507812, 104.0337905883789, -34.0]
+- Gyaml: Area
+  Hash: !ul 8928751460099207732
+  Phive:
+    Placement: {ID: !ul 8928751460099207732}
+  Rotate: [3.1415927410125732, 1.1637288331985474, 3.1415927410125732]
+  SRTHash: !u 0xd967d0be
+  Scale: [2.999999761581421, 1.0, 2.499999761581421]
+  Translate: [114.32992553710938, 104.0337905883789, -28.65473747253418]
+- Gyaml: Area
+  Hash: !ul 2569824084824152735
+  Phive:
+    Placement: {ID: !ul 2569824084824152735}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x6466bfa5
+  Scale: [3.0, 1.5, 2.0]
+  Translate: [115.1332015991211, 104.04685974121094, -41.472537994384766]
+- Gyaml: Area
+  Hash: !ul 13870760441947906758
+  Phive:
+    Placement: {ID: !ul 13870760441947906758}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x41eada96
+  Scale: [3.0, 1.5, 2.0]
+  Translate: [115.29256439208984, 104.0337905883789, -26.079124450683594]
+- Gyaml: DestinationAnchor
+  Hash: !ul 6977072827385800396
+  Name: FieldDungeonEntranceGo
+  Phive:
+    Placement: {ID: !ul 6977072827385800396}
+  Rotate: [0.12483511865139008, 8.929241630539764e-06, 0.01341854128986597]
+  SRTHash: !u 0x35ed557a
+  Translate: [-1.0711513757705688, 100.8804931640625, -37.58018112182617]
+- Gyaml: Area
+  Hash: !ul 14449009921425514489
+  Phive:
+    Placement: {ID: !ul 14449009921425514489}
+  SRTHash: !u 0x21ab2e31
+  Scale: [5.5, 5.0, 11.0]
+  Translate: [-1.4102232456207275, 99.60105895996094, -28.9565486907959]
+- Dynamic: {FirstEventName: Dm_SY_BancChangeGo, InitEventFlag: HavePlayedEvent.Dm_GanonCastle_0000,
+    InitEventName: GanonCastle_Adult_Field_EntryGanonCastle, NextBancParamNameAdult: GanonCastle,
+    NextBancParamNameChild: HyruleCastle, NextEventName: Dm_SY_BancChangeArrive_GanonCastle_01,
+    NextStartPosName: GanonCastleEntrance}
+  Gyaml: FieldAndDungeonEntranceEventRequestActor
+  Hash: !ul 10789936535211097064
+  Links:
+  - {Dst: !ul 6977072827385800396, Gyaml: Reference, Name: Reference, Src: !ul 10789936535211097064}
+  - {Dst: !ul 1505841027183314690, Gyaml: Reference, Name: Reference, Src: !ul 10789936535211097064}
+  Name: Market_Entrance_FromCastle
+  Phive:
+    Placement: {ID: !ul 10789936535211097064}
+  SRTHash: !u 0x343f5c4e
+  Translate: [-1.141462802886963, 111.9942398071289, -30.539548873901367]
+- Dynamic: {LoadRadius: 35.0}
+  Gyaml: ChangeBancBeforehandAnchor
+  Hash: !ul 8454509909919078327
+  Links:
+  - {Dst: !ul 10789936535211097064, Gyaml: Reference, Name: Reference, Src: !ul 8454509909919078327}
+  Name: 先読みの基準座標となるアンカー
+  Phive:
+    Placement: {ID: !ul 8454509909919078327}
+  SRTHash: !u 0x4eb7179e
+  Translate: [-1.6723425388336182, 100.74504089355469, -18.229476928710938]
+- Gyaml: DestinationAnchor
+  Hash: !ul 1505841027183314690
+  Name: HorsePos
+  Phive:
+    Placement: {ID: !ul 1505841027183314690}
+  SRTHash: !u 0x4e298c82
+  Translate: [-1.1414549350738525, 99.9942398071289, -25.539546966552734]
+- Gyaml: ForbiddenCreateDropArea
+  Hash: !ul 12447648016729968558
+  Phive:
+    Placement: {ID: !ul 12447648016729968558}
+  SRTHash: !u 0x172a0ff5
+  Scale: [11.0, 10.0, 22.0]
+  Translate: [-1.410223126411438, 104.60105895996094, -28.9565486907959]
+- Gyaml: Area
+  Hash: !ul 17615055063994354060
+  Phive:
+    Placement: {ID: !ul 17615055063994354060}
+  Presence: {FlagName: HavePlayedEvent.Dm_TimeTemple_0065, IsCheckLazy: false, IsNegation: true}
+  Rotate: [3.141592502593994, -3.8941436741879443e-07, -3.141592502593994]
+  SRTHash: !u 0x46a3878c
+  Scale: [2.0, 2.5, 3.0]
+  Translate: [63.21114730834961, 103.92839813232422, -34.01139450073242]
+- Dynamic: {RequestEventName: Dm_TimeTemple_0065}
+  Gyaml: EventRequestActor
+  Hash: !ul 18126183868861934659
+  Links:
+  - {Dst: !ul 17258643134046384342, Gyaml: Reference, Name: Reference, Src: !ul 18126183868861934659}
+  Phive:
+    Placement: {ID: !ul 18126183868861934659}
+  SRTHash: !u 0x3b268dc6
+  Translate: [67.99859619140625, 107.79882049560547, -32.51954650878906]
+- Gyaml: Area
+  Hash: !ul 4237862987475093278
+  Phive:
+    Placement: {ID: !ul 4237862987475093278}
+  SRTHash: !u 0x4a4ea452
+  Scale: [4.0, 1.0, 5.0]
+  Translate: [19.3629093170166, 100.8909912109375, -3.4867892265319824]
+- Dynamic: {Location: Market}
+  Gyaml: LocationArea
+  Hash: !ul 14391400116108071659
+  Phive:
+    Placement: {ID: !ul 14391400116108071659}
+  Presence: {FlagName: HavePlayedEvent.Dm_TimeTemple_0065, IsCheckLazy: false, IsNegation: false}
+  Rotate: [3.1415927410125732, -3.8941436741879443e-07, 3.1415927410125732]
+  SRTHash: !u 0xb9503eb7
+  Scale: [60.0, 4.0, 65.0]
+  Translate: [-10.077779769897461, 100.0, -0.8987393379211426]
+- Gyaml: BGM_ShrineOfTime_Adult
+  Hash: !ul 14332122982462220402
+  Links:
+  - {Dst: !ul 11895678965346120635, Gyaml: Reference, Name: Reference, Src: !ul 14332122982462220402}
+  Phive:
+    Placement: {ID: !ul 14332122982462220402}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x6b4b5b32
+  Translate: [65.83174896240234, 103.96304321289062, -33.74192810058594]
+- Dynamic: {ForbiddenAll: false, NonEnemySearch: true}
+  Gyaml: ForbidAutoPlacementAreaBox
+  Hash: !ul 3759357131795820755
+  Phive:
+    Placement: {ID: !ul 3759357131795820755}
+  SRTHash: !u 0x40002190
+  Scale: [10.5, 3.5, 12.5]
+  Translate: [12.120402336120605, 103.64460754394531, 58.63460922241211]
+- Gyaml: AnchorAction2
+  Hash: !ul 9054844105649494018
+  Phive:
+    Placement: {ID: !ul 9054844105649494018}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0xef589bfa
+  Translate: [136.39999389648438, 106.12000274658203, -34.0]
+- Dynamic: {EscapeAngleXMax: 30.0, EscapeAngleXMin: -30.0, EscapeAngleYMax: 30.0}
+  Gyaml: Obj_Spirit_Poe_Imprisoned_01
+  Hash: !ul 4766725696403800076
+  Name: Poe1
+  Phive:
+    Placement: {ID: !ul 4766725696403800076}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0xee4f9693
+  Translate: [17.014650344848633, 104.29273223876953, 54.707401275634766]
+- Dynamic: {EscapeAngleXMax: 30.0, EscapeAngleXMin: -30.0, EscapeAngleYMax: 30.0}
+  Gyaml: Obj_Spirit_Poe_Imprisoned_02
+  Hash: !ul 17327698857157540429
+  Name: Pow4
+  Phive:
+    Placement: {ID: !ul 17327698857157540429}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x9fd9321b
+  Translate: [17.31749725341797, 105.5473861694336, 56.13893508911133]
+- Dynamic: {EscapeAngleXMax: 30.0, EscapeAngleXMin: -30.0, EscapeAngleYMax: 30.0}
+  Gyaml: Obj_Spirit_Poe_Imprisoned_01
+  Hash: !ul 14113533617554611898
+  Name: Poe5
+  Phive:
+    Placement: {ID: !ul 14113533617554611898}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x0e9fe6f6
+  Translate: [17.294370651245117, 106.34101867675781, 54.310428619384766]
+- Dynamic: {EscapeAngleXMin: -30.0, EscapeAngleYMax: 30.0}
+  Gyaml: Obj_Spirit_Poe_Imprisoned_02
+  Hash: !ul 14411326876857838073
+  Name: Poe2
+  Phive:
+    Placement: {ID: !ul 14411326876857838073}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x82e640bc
+  Translate: [16.782669067382812, 105.1363525390625, 53.362606048583984]
+- Dynamic: {EscapeAngleXMax: 30.0, EscapeAngleXMin: -30.0, EscapeAngleYMax: 30.0}
+  Gyaml: Obj_Spirit_Poe_Imprisoned_01
+  Hash: !ul 11861167714919652335
+  Name: Poe3
+  Phive:
+    Placement: {ID: !ul 11861167714919652335}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0xf80af735
+  Translate: [16.528648376464844, 105.14544677734375, 57.05913162231445]
+- Dynamic: {ForbiddenAll: false, NonEnemySearch: true}
+  Gyaml: ForbidAutoPlacementAreaBox
+  Hash: !ul 5955385606961490642
+  Phive:
+    Placement: {ID: !ul 5955385606961490642}
+  SRTHash: !u 0xbb1ca372
+  Scale: [7.217441558837891, 4.5, 7.0]
+  Translate: [26.334369659423828, 102.3199691772461, -4.8942413330078125]
+- Gyaml: Area
+  Hash: !ul 16638288384282689845
+  Phive:
+    Placement: {ID: !ul 16638288384282689845}
+  SRTHash: !u 0x44186f9e
+  Scale: [6.309999942779541, 3.3399999141693115, 5.369999885559082]
+  Translate: [12.742219924926758, 101.15650177001953, 57.70000076293945]
+- Gyaml: BGM_Drugstore
+  Hash: !ul 9878285526846689365
+  Links:
+  - {Dst: !ul 16638288384282689845, Gyaml: Reference, Name: Reference, Src: !ul 9878285526846689365}
+  Phive:
+    Placement: {ID: !ul 9878285526846689365}
+  Rotate: [-0.3234173655509949, -0.0, 0.0]
+  SRTHash: !u 0xb59633b0
+  Translate: [9.330988883972168, 109.35076904296875, 54.04107666015625]
+- Bakeable: true
+  Gyaml: Land_HrlCity_Adult_Middle_A_01
+  Hash: !ul 17509361530657091495
+  Phive:
+    Placement: {ID: !ul 17509361530657091495}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xa9a997d2
+  Translate: [-1.5, 100.0, -70.0]
+- Bakeable: true
+  Gyaml: Land_HrlCity_Adult_Middle_B_02
+  Hash: !ul 903521287310310658
+  Phive:
+    Placement: {ID: !ul 903521287310310658}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x82e5232f
+  Translate: [-33.82500076293945, 100.0, 53.0]
+- Bakeable: true
+  Gyaml: Land_HrlCity_Adult_Middle_B_01
+  Hash: !ul 8712123104803567362
+  Phive:
+    Placement: {ID: !ul 8712123104803567362}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x95a38de4
+  Translate: [-68.0, 100.0, 46.0]
+- Bakeable: true
+  Gyaml: Land_HrlCity_Adult_Middle_C_02
+  Hash: !ul 3660003098922414166
+  Phive:
+    Placement: {ID: !ul 3660003098922414166}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x2d92fe23
+  Translate: [24.174999237060547, 100.0, 47.0]
+- Bakeable: true
+  Gyaml: Land_HrlCity_Adult_Middle_D_02
+  Hash: !ul 13935489734570317039
+  Phive:
+    Placement: {ID: !ul 13935489734570317039}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xe9a91afa
+  Translate: [130.0, 100.0, -100.0]
+- Bakeable: true
+  Gyaml: Land_HrlCity_Adult_SpikeRock_A_01
+  Hash: !ul 17370863754901849813
+  Phive:
+    Placement: {ID: !ul 17370863754901849813}
+  SRTHash: !u 0x771a6eb4
+  Translate: [-27.68279457092285, 105.64241790771484, -80.80909729003906]
+- Gyaml: EftLoc_TimeTemple_Fog_HideOutside_00
+  Hash: !ul 18425556803110941207
+  Phive:
+    Placement: {ID: !ul 18425556803110941207}
+  SRTHash: !u 0xc1bfe9b8
+  Translate: [50.091251373291016, 103.91703796386719, -34.0]
+- Gyaml: Obj_GossipStone_A_01
+  Hash: !ul 1942965670383903797
+  Links:
+  - {Dst: !ul 16033825080318963296, Gyaml: Reference, Name: Reference, Src: !ul 1942965670383903797}
+  - {Dst: !ul 5321852347492497484, Gyaml: Reference, Name: Reference, Src: !ul 1942965670383903797}
+  - {Dst: !ul 4336391168758611831, Gyaml: Reference, Name: Reference, Src: !ul 1942965670383903797}
+  Name: GOSSIP_HYRULE_MARKET_04
+  Phive:
+    Placement: {ID: !ul 1942965670383903797}
+  Presence: {FlagName: GossipStoneDisappear.GOSSIP_HYRULE_MARKET_04, IsCheckLazy: false,
+    IsNegation: true}
+  Rotate: [2.674107789993286, -1.4291268587112427, -2.6781463623046875]
+  SRTHash: !u 0xb798f139
+  Translate: [39.340572357177734, 103.19549560546875, -5.261691570281982]
+- Dynamic: {IsGossipStoneAppearance: true}
+  Gyaml: Obj_FairySpirit
+  Hash: !ul 16033825080318963296
+  Phive:
+    Placement: {ID: !ul 16033825080318963296}
+  Presence: {FlagName: GossipStoneDisappear.GOSSIP_HYRULE_MARKET_04, IsCheckLazy: false,
+    IsNegation: true}
+  Rotate: [2.674107789993286, -1.4291268587112427, -2.6781463623046875]
+  SRTHash: !u 0x29836206
+  Translate: [39.340572357177734, 104.37489318847656, -5.186495304107666]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 4776795099991634705
+  Phive:
+    Placement: {ID: !ul 4776795099991634705}
+  Presence: {FlagName: GossipStoneDisappear.GOSSIP_HYRULE_MARKET_04, IsCheckLazy: false,
+    IsNegation: true}
+  Rotate: [2.674107789993286, -1.4291268587112427, -2.6781463623046875]
+  SRTHash: !u 0x789f3a99
+  Scale: [8.5, 1.5, 9.0]
+  Translate: [39.64903259277344, 103.2000503540039, -5.333157539367676]
+- Gyaml: EventProxyRequestActor
+  Hash: !ul 4788576752758323285
+  Links:
+  - {Dst: !ul 1942965670383903797, Gyaml: EventProxyRequestLink, Name: EventProxyRequestLink,
+    Src: !ul 4788576752758323285}
+  - {Dst: !ul 5321852347492497484, Gyaml: Reference, Name: Reference, Src: !ul 4788576752758323285}
+  - {Dst: !ul 16033825080318963296, Gyaml: Reference, Name: Reference, Src: !ul 4788576752758323285}
+  - {Dst: !ul 4336391168758611831, Gyaml: Reference, Name: Reference, Src: !ul 4788576752758323285}
+  - {Dst: !ul 1942965670383903797, Gyaml: Reference, Name: Reference, Src: !ul 4788576752758323285}
+  - {Dst: !ul 16033825080318963296, Gyaml: EventProxyRequestLink, Name: EventProxyRequestLink,
+    Src: !ul 4788576752758323285}
+  Phive:
+    Placement: {ID: !ul 4788576752758323285}
+  Presence: {FlagName: GossipStoneDisappear.GOSSIP_HYRULE_MARKET_04, IsCheckLazy: false,
+    IsNegation: true}
+  Rotate: [2.674107789993286, -1.4291268587112427, -2.6781463623046875]
+  SRTHash: !u 0xb3e70be2
+  Translate: [39.41761016845703, 110.33544921875, -2.278172492980957]
+- Gyaml: DestinationAnchor
+  Hash: !ul 5321852347492497484
+  Name: FairySpirit_AppearPoint
+  Phive:
+    Placement: {ID: !ul 5321852347492497484}
+  Presence: {FlagName: GossipStoneDisappear.GOSSIP_HYRULE_MARKET_04, IsCheckLazy: false,
+    IsNegation: true}
+  Rotate: [2.674107789993286, -1.4291268587112427, -2.6781463623046875]
+  SRTHash: !u 0x69ffd214
+  Translate: [39.340572357177734, 103.75726318359375, -5.225873947143555]
+- Gyaml: DestinationAnchor
+  Hash: !ul 4336391168758611831
+  Name: PlayerPos
+  Phive:
+    Placement: {ID: !ul 4336391168758611831}
+  Presence: {FlagName: GossipStoneDisappear.GOSSIP_HYRULE_MARKET_04, IsCheckLazy: false,
+    IsNegation: true}
+  Rotate: [0.46748512983322144, 1.4291269779205322, 0.46344658732414246]
+  SRTHash: !u 0xb62b0e43
+  Translate: [37.35385513305664, 103.210205078125, -5.492335319519043]
+- Gyaml: Obj_GossipStone_A_01
+  Hash: !ul 2716114619250578356
+  Links:
+  - {Dst: !ul 18255571771279098607, Gyaml: Reference, Name: Reference, Src: !ul 2716114619250578356}
+  - {Dst: !ul 15265624473345344974, Gyaml: Reference, Name: Reference, Src: !ul 2716114619250578356}
+  - {Dst: !ul 2382067589326809337, Gyaml: Reference, Name: Reference, Src: !ul 2716114619250578356}
+  Name: GOSSIP_HYRULE_MARKET_03
+  Phive:
+    Placement: {ID: !ul 2716114619250578356}
+  Presence: {FlagName: GossipStoneDisappear.GOSSIP_HYRULE_MARKET_03, IsCheckLazy: false,
+    IsNegation: true}
+  Rotate: [-2.5151779651641846, -1.4149093627929688, 2.520960807800293]
+  SRTHash: !u 0x2e93afc0
+  Translate: [39.44199752807617, 103.11277770996094, -7.2625627517700195]
+- Dynamic: {IsGossipStoneAppearance: true}
+  Gyaml: Obj_FairySpirit
+  Hash: !ul 18255571771279098607
+  Phive:
+    Placement: {ID: !ul 18255571771279098607}
+  Presence: {FlagName: GossipStoneDisappear.GOSSIP_HYRULE_MARKET_03, IsCheckLazy: false,
+    IsNegation: true}
+  Rotate: [-2.5151779651641846, -1.4149093627929688, 2.520960807800293]
+  SRTHash: !u 0xaac79334
+  Translate: [39.44199752807617, 104.28966522216797, -7.370127201080322]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 8677133204796721311
+  Phive:
+    Placement: {ID: !ul 8677133204796721311}
+  Presence: {FlagName: GossipStoneDisappear.GOSSIP_HYRULE_MARKET_03, IsCheckLazy: false,
+    IsNegation: true}
+  Rotate: [-2.5151779651641846, -1.4149093627929688, 2.520960807800293]
+  SRTHash: !u 0x89213419
+  Scale: [8.5, 1.5000001192092896, 9.0]
+  Translate: [39.750457763671875, 103.10625457763672, -7.333876609802246]
+- Gyaml: EventProxyRequestActor
+  Hash: !ul 5274112602742567658
+  Links:
+  - {Dst: !ul 2716114619250578356, Gyaml: EventProxyRequestLink, Name: EventProxyRequestLink,
+    Src: !ul 5274112602742567658}
+  - {Dst: !ul 15265624473345344974, Gyaml: Reference, Name: Reference, Src: !ul 5274112602742567658}
+  - {Dst: !ul 18255571771279098607, Gyaml: Reference, Name: Reference, Src: !ul 5274112602742567658}
+  - {Dst: !ul 2382067589326809337, Gyaml: Reference, Name: Reference, Src: !ul 5274112602742567658}
+  - {Dst: !ul 2716114619250578356, Gyaml: Reference, Name: Reference, Src: !ul 5274112602742567658}
+  - {Dst: !ul 18255571771279098607, Gyaml: EventProxyRequestLink, Name: EventProxyRequestLink,
+    Src: !ul 5274112602742567658}
+  Phive:
+    Placement: {ID: !ul 5274112602742567658}
+  Presence: {FlagName: GossipStoneDisappear.GOSSIP_HYRULE_MARKET_03, IsCheckLazy: false,
+    IsNegation: true}
+  Rotate: [-2.5151779651641846, -1.4149093627929688, 2.520960807800293]
+  SRTHash: !u 0x20a564e3
+  Translate: [39.51903533935547, 110.62738037109375, -5.415696144104004]
+- Gyaml: DestinationAnchor
+  Hash: !ul 15265624473345344974
+  Name: FairySpirit_AppearPoint
+  Phive:
+    Placement: {ID: !ul 15265624473345344974}
+  Presence: {FlagName: GossipStoneDisappear.GOSSIP_HYRULE_MARKET_03, IsCheckLazy: false,
+    IsNegation: true}
+  Rotate: [-2.5151779651641846, -1.4149093627929688, 2.520960807800293]
+  SRTHash: !u 0xfa6d4509
+  Translate: [39.44199752807617, 103.67335510253906, -7.313797950744629]
+- Gyaml: DestinationAnchor
+  Hash: !ul 2382067589326809337
+  Name: PlayerPos
+  Phive:
+    Placement: {ID: !ul 2382067589326809337}
+  Presence: {FlagName: GossipStoneDisappear.GOSSIP_HYRULE_MARKET_03, IsCheckLazy: false,
+    IsNegation: true}
+  Rotate: [-0.6264150142669678, 1.4149094820022583, -0.6206321716308594]
+  SRTHash: !u 0xe8cdc0a2
+  Translate: [37.45528030395508, 103.09173583984375, -7.492716312408447]
+- Gyaml: Obj_GossipStone_A_01
+  Hash: !ul 4500093386167542326
+  Links:
+  - {Dst: !ul 18058582785781748425, Gyaml: Reference, Name: Reference, Src: !ul 4500093386167542326}
+  - {Dst: !ul 1467733361041369517, Gyaml: Reference, Name: Reference, Src: !ul 4500093386167542326}
+  - {Dst: !ul 15413291769892083, Gyaml: Reference, Name: Reference, Src: !ul 4500093386167542326}
+  Name: GOSSIP_HYRULE_MARKET_01
+  Phive:
+    Placement: {ID: !ul 4500093386167542326}
+  Presence: {FlagName: GossipStoneDisappear.GOSSIP_HYRULE_MARKET_01, IsCheckLazy: false,
+    IsNegation: true}
+  Rotate: [2.996004104614258, -1.4428151845932007, -2.997177839279175]
+  SRTHash: !u 0x0a48e546
+  Translate: [39.38466262817383, 103.11204528808594, -11.69970417022705]
+- Dynamic: {IsGossipStoneAppearance: true}
+  Gyaml: Obj_FairySpirit
+  Hash: !ul 18058582785781748425
+  Phive:
+    Placement: {ID: !ul 18058582785781748425}
+  Presence: {FlagName: GossipStoneDisappear.GOSSIP_HYRULE_MARKET_01, IsCheckLazy: false,
+    IsNegation: true}
+  Rotate: [2.996004104614258, -1.4428151845932007, -2.997177839279175]
+  SRTHash: !u 0x91d3862d
+  Translate: [39.38466262817383, 104.29363250732422, -11.67782211303711]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 9133944074478804056
+  Phive:
+    Placement: {ID: !ul 9133944074478804056}
+  Presence: {FlagName: GossipStoneDisappear.GOSSIP_HYRULE_MARKET_01, IsCheckLazy: false,
+    IsNegation: true}
+  Rotate: [2.996004104614258, -1.4428151845932007, -2.997177839279175]
+  SRTHash: !u 0x413199c5
+  Scale: [8.5, 1.5, 9.0]
+  Translate: [39.69312286376953, 103.11337280273438, -11.771303176879883]
+- Gyaml: EventProxyRequestActor
+  Hash: !ul 7930594760817662700
+  Links:
+  - {Dst: !ul 4500093386167542326, Gyaml: EventProxyRequestLink, Name: EventProxyRequestLink,
+    Src: !ul 7930594760817662700}
+  - {Dst: !ul 1467733361041369517, Gyaml: Reference, Name: Reference, Src: !ul 7930594760817662700}
+  - {Dst: !ul 18058582785781748425, Gyaml: Reference, Name: Reference, Src: !ul 7930594760817662700}
+  - {Dst: !ul 15413291769892083, Gyaml: Reference, Name: Reference, Src: !ul 7930594760817662700}
+  - {Dst: !ul 4500093386167542326, Gyaml: Reference, Name: Reference, Src: !ul 7930594760817662700}
+  - {Dst: !ul 18058582785781748425, Gyaml: EventProxyRequestLink, Name: EventProxyRequestLink,
+    Src: !ul 7930594760817662700}
+  Phive:
+    Placement: {ID: !ul 7930594760817662700}
+  Presence: {FlagName: GossipStoneDisappear.GOSSIP_HYRULE_MARKET_01, IsCheckLazy: false,
+    IsNegation: true}
+  Rotate: [2.996004104614258, -1.4428151845932007, -2.997177839279175]
+  SRTHash: !u 0xa88a416b
+  Translate: [39.461692810058594, 110.37939453125, -9.041519165039062]
+- Gyaml: DestinationAnchor
+  Hash: !ul 1467733361041369517
+  Name: FairySpirit_AppearPoint
+  Phive:
+    Placement: {ID: !ul 1467733361041369517}
+  Presence: {FlagName: GossipStoneDisappear.GOSSIP_HYRULE_MARKET_01, IsCheckLazy: false,
+    IsNegation: true}
+  Rotate: [2.996004104614258, -1.4428151845932007, -2.997177839279175]
+  SRTHash: !u 0xd997dcc5
+  Translate: [39.38466262817383, 103.67485809326172, -11.689281463623047]
+- Gyaml: DestinationAnchor
+  Hash: !ul 15413291769892083
+  Name: PlayerPos
+  Phive:
+    Placement: {ID: !ul 15413291769892083}
+  Presence: {FlagName: GossipStoneDisappear.GOSSIP_HYRULE_MARKET_01, IsCheckLazy: false,
+    IsNegation: true}
+  Rotate: [0.14558865129947662, 1.4428153038024902, 0.14441491663455963]
+  SRTHash: !u 0x620ceeb4
+  Translate: [37.397945404052734, 103.11632537841797, -11.930778503417969]
+- Gyaml: Obj_GossipStone_A_01
+  Hash: !ul 5217322733115943666
+  Links:
+  - {Dst: !ul 8065288860868724101, Gyaml: Reference, Name: Reference, Src: !ul 5217322733115943666}
+  - {Dst: !ul 9677456717248088698, Gyaml: Reference, Name: Reference, Src: !ul 5217322733115943666}
+  - {Dst: !ul 10248974776006775215, Gyaml: Reference, Name: Reference, Src: !ul 5217322733115943666}
+  Name: GOSSIP_HYRULE_MARKET_02
+  Phive:
+    Placement: {ID: !ul 5217322733115943666}
+  Presence: {FlagName: GossipStoneDisappear.GOSSIP_HYRULE_MARKET_02, IsCheckLazy: false,
+    IsNegation: true}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x7f55ec4c
+  Translate: [39.42463302612305, 102.98622131347656, -9.551087379455566]
+- Dynamic: {IsGossipStoneAppearance: true}
+  Gyaml: Obj_FairySpirit
+  Hash: !ul 8065288860868724101
+  Phive:
+    Placement: {ID: !ul 8065288860868724101}
+  Presence: {FlagName: GossipStoneDisappear.GOSSIP_HYRULE_MARKET_02, IsCheckLazy: false,
+    IsNegation: true}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x9745c3a4
+  Translate: [39.42463302612305, 104.16801452636719, -9.551087379455566]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 10223129755157709237
+  Phive:
+    Placement: {ID: !ul 10223129755157709237}
+  Presence: {FlagName: GossipStoneDisappear.GOSSIP_HYRULE_MARKET_02, IsCheckLazy: false,
+    IsNegation: true}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x55feb79d
+  Scale: [8.5, 1.5, 9.0]
+  Translate: [39.72157669067383, 102.98622131347656, -9.661084175109863]
+- Gyaml: EventProxyRequestActor
+  Hash: !ul 11176597506998556976
+  Links:
+  - {Dst: !ul 5217322733115943666, Gyaml: EventProxyRequestLink, Name: EventProxyRequestLink,
+    Src: !ul 11176597506998556976}
+  - {Dst: !ul 9677456717248088698, Gyaml: Reference, Name: Reference, Src: !ul 11176597506998556976}
+  - {Dst: !ul 8065288860868724101, Gyaml: Reference, Name: Reference, Src: !ul 11176597506998556976}
+  - {Dst: !ul 10248974776006775215, Gyaml: Reference, Name: Reference, Src: !ul 11176597506998556976}
+  - {Dst: !ul 5217322733115943666, Gyaml: Reference, Name: Reference, Src: !ul 11176597506998556976}
+  - {Dst: !ul 8065288860868724101, Gyaml: EventProxyRequestLink, Name: EventProxyRequestLink,
+    Src: !ul 11176597506998556976}
+  Phive:
+    Placement: {ID: !ul 11176597506998556976}
+  Presence: {FlagName: GossipStoneDisappear.GOSSIP_HYRULE_MARKET_02, IsCheckLazy: false,
+    IsNegation: true}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x50702051
+  Translate: [39.81973648071289, 110.3015365600586, -7.057857513427734]
+- Gyaml: DestinationAnchor
+  Hash: !ul 9677456717248088698
+  Name: FairySpirit_AppearPoint
+  Phive:
+    Placement: {ID: !ul 9677456717248088698}
+  Presence: {FlagName: GossipStoneDisappear.GOSSIP_HYRULE_MARKET_02, IsCheckLazy: false,
+    IsNegation: true}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x4ab8e995
+  Translate: [39.42463302612305, 103.54913330078125, -9.551087379455566]
+- Gyaml: DestinationAnchor
+  Hash: !ul 10248974776006775215
+  Name: PlayerPos
+  Phive:
+    Placement: {ID: !ul 10248974776006775215}
+  Presence: {FlagName: GossipStoneDisappear.GOSSIP_HYRULE_MARKET_02, IsCheckLazy: false,
+    IsNegation: true}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xd39c7cc2
+  Translate: [37.42463302612305, 102.98622131347656, -9.529420852661133]
+- Gyaml: Area
+  Hash: !ul 16909965198415951405
+  Phive:
+    Placement: {ID: !ul 16909965198415951405}
+  SRTHash: !u 0xba5724e9
+  Scale: [47.38146209716797, 9.471832275390625, 68.10667419433594]
+  Translate: [12.986675262451172, 98.60745239257812, -15.052417755126953]
+- Gyaml: DestinationAnchor
+  Hash: !ul 8414686865233759730
+  Name: CanteraCameraAt
+  Phive:
+    Placement: {ID: !ul 8414686865233759730}
+  Rotate: [3.141592502593994, -0.8960633277893066, -3.141592502593994]
+  SRTHash: !u 0x2e2a7d89
+  Translate: [15.346492767333984, 103.6500015258789, 55.92192840576172]
+- Gyaml: DestinationAnchor
+  Hash: !ul 6374902610605429327
+  Name: TrunPos
+  Phive:
+    Placement: {ID: !ul 6374902610605429327}
+  Rotate: [3.1415927410125732, -1.1648280620574951, 3.1415927410125732]
+  SRTHash: !u 0x72ebd501
+  Translate: [16.808082580566406, 102.98914337158203, 56.328372955322266]
+- Gyaml: EftLoc_HrlCity_Adult_EnvEffect_Cloud_InArea_00
+  Hash: !ul 6159086948264835801
+  Phive:
+    Placement: {ID: !ul 6159086948264835801}
+  SRTHash: !u 0x07406e62
+  Scale: [50.0, 50.0, 68.43846893310547]
+  Translate: [4.282009124755859, 73.692626953125, -16.780818939208984]
+- Gyaml: DestinationAnchor
+  Hash: !ul 1059550456039822207
+  Name: TrunPos2
+  Phive:
+    Placement: {ID: !ul 1059550456039822207}
+  Rotate: [0.0, -1.2313714027404785, 0.0]
+  SRTHash: !u 0x31b79d6c
+  Translate: [16.808082580566406, 102.98914337158203, 56.328372955322266]
+- Dynamic: {FogParams: Market_Adult_00}
+  Gyaml: VolumeFogArea
+  Hash: !ul 17824790781674213795
+  Phive:
+    Placement: {ID: !ul 17824790781674213795}
+  SRTHash: !u 0x5b80fc59
+  Scale: [40.86148452758789, 20.90756607055664, 69.15834045410156]
+  Translate: [35.95163345336914, 108.41094970703125, -35.43073654174805]
+- Dynamic: {SceneryName: Area_Market_PotHouse}
+  Gyaml: SoundSettingActor
+  Hash: !ul 8745763968906669844
+  Links:
+  - {Dst: !ul 16638288384282689845, Gyaml: Reference, Name: Reference, Src: !ul 8745763968906669844}
+  Phive:
+    Placement: {ID: !ul 8745763968906669844}
+  Rotate: [-0.32047486305236816, -0.0, 0.0049708252772688866]
+  SRTHash: !u 0xdeaa1136
+  Translate: [22.135801315307617, 116.5877456665039, 59.39191436767578]
+- Gyaml: Area
+  Hash: !ul 11085071794120779663
+  Phive:
+    Placement: {ID: !ul 11085071794120779663}
+  Rotate: [3.141592502593994, -3.8941436741879443e-07, -3.141592502593994]
+  SRTHash: !u 0xb908f4a3
+  Scale: [2.4700000286102295, 3.0, 17.0]
+  Translate: [84.94027709960938, 103.59708404541016, -34.0]
+- Dynamic: {RequestEventName: Market_Adult_Field_GetArrowLight}
+  Gyaml: EventRequestActor
+  Hash: !ul 14618314512807768969
+  Phive:
+    Placement: {ID: !ul 14618314512807768969}
+  Rotate: [2.4433488845825195, -1.1175870895385742e-07, 2.3821663856506348]
+  SRTHash: !u 0x9e818be6
+  Translate: [81.0074234008789, 112.78504180908203, -33.01742172241211]
+- Gyaml: Land_DemoSkySphereA
+  Hash: !ul 7771299190893499009
+  Phive:
+    Placement: {ID: !ul 7771299190893499009}
+  SRTHash: !u 0x4bc22255
+  Translate: [69.49055480957031, 52.745887756347656, -35.346229553222656]
+- Gyaml: DestinationAnchor
+  Hash: !ul 17258643134046384342
+  Name: Dm_TimeTemple_0065Destination
+  Phive:
+    Placement: {ID: !ul 17258643134046384342}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0xe4155291
+  Translate: [41.16999816894531, 102.79000091552734, -33.90999984741211]
+AiGroups:
+- Hash: !ul 214202546196413568
+  Logic: Logic/Module/GossipStoneWithFairySpirit/GossipStoneWithFairySpirit_d931.logic.module.ain
+  References:
+  - {Id: Obj_FairySpirit_5f24, Path: Obj_FairySpirit_5f24, Reference: !ul 8065288860868724101}
+  - {Id: Obj_GossipStone_A_01_68b6, Path: Obj_GossipStone_A_01_68b6, Reference: !ul 5217322733115943666}
+  - {Id: Area_32ae, Path: _1049/Area_32ae, Reference: !ul 10223129755157709237}
+  - {Id: AiGroup, InstanceName: Gimmick_AreaContact_Delete_1e20_d396, Logic: Logic/Module/Gimmick_AreaContact_Delete/Gimmick_AreaContact_Delete_1e20.logic.module.ain,
+    Path: _1049/AiGroup, Reference: !ul 558131915390119369}
+  - {Id: EventProxyRequestActor_64fd, Path: EventProxyRequestActor_64fd, Reference: !ul 11176597506998556976}
+  - {Id: DestinationAnchor_7fac, Path: DestinationAnchor_7fac, Reference: !ul 9677456717248088698}
+- Hash: !ul 685774246693646856
+  Logic: Logic/Module/Market_Common/Market_Common_6c72.logic.module.ain
+  References:
+  - {Id: Area_0b0b, Path: Area_0b0b, Reference: !ul 1825252388471701227}
+- Hash: !ul 2075259738076588912
+  Logic: Logic/Module/Market_Adult_Prefab/Market_Adult_Prefab_89da.logic.module.ain
+  References:
+  - {Id: EventRequestActor_9bc1, Path: EventRequestActor_9bc1, Reference: !ul 16146179233394378722}
+  - {Id: Obj_TimeTemple_MasterSword_A_01_b347, Path: Obj_TimeTemple_MasterSword_A_01_b347,
+    Reference: !ul 7921822793324574197}
+- Hash: !ul 2214125188753380157
+  Logic: Logic/Module/Common_FieldDungeonEntranceSet/Common_FieldDungeonEntranceSet_bad1.logic.module.ain
+  References:
+  - {Id: Area_6674, Path: Area_6674, Reference: !ul 10711147713855529366}
+  - {Id: FieldAndDungeonEntranceEventRequestActor_57cf, Path: FieldAndDungeonEntranceEventRequestActor_57cf,
+    Reference: !ul 8090100398624302801}
+- Hash: !ul 2452419794674672203
+  Logic: Logic/Module/Market_Common/Market_Common_5b1d.logic.module.ain
+  References:
+  - {Id: Area_c370, Path: Area_c370, Reference: !ul 3650546998727354802}
+  - {Id: Area_245b, Path: Area_245b, Reference: !ul 2122315589809297823}
+- Hash: !ul 2814264559214319001
+  Logic: Logic/Module/Market_Adult_Prefab/Market_Adult_Prefab_d932.logic.module.ain
+  References:
+  - {Id: Area_229b, Path: Area_229b, Reference: !ul 4237862987475093278}
+- Hash: !ul 5961408781703812398
+  Logic: Logic/Module/Market_Adult_Prefab/Market_Adult_Prefab_50e3.logic.module.ain
+  References:
+  - {Id: EventRequestActor_554a, Path: EventRequestActor_554a, Reference: !ul 18126183868861934659}
+  - {Id: Area_ed9a, Path: Area_ed9a, Reference: !ul 17615055063994354060}
+  - {Id: EftLoc_TimeTemple_Fog_HideOutside_00_0048, Path: EftLoc_TimeTemple_Fog_HideOutside_00_0048,
+    Reference: !ul 18425556803110941207}
+- Hash: !ul 6012439728933042438
+  Logic: Logic/Module/Market_Adult_Prefab/Market_Adult_Prefab_7f43.logic.module.ain
+  References:
+  - {Id: Npc_Hylia_Sheik_Adult_4b5b, Path: Npc_Hylia_Sheik_Adult_4b5b, Reference: !ul 2669233513522124871}
+- Hash: !ul 7647045874178036018
+  Logic: Logic/Module/Market_Adult_Prefab/Market_Adult_Prefab_f33e.logic.module.ain
+  References:
+  - {Id: Area_9858, Path: Area_9858, Reference: !ul 16909965198415951405}
+- Hash: !ul 8864174636426586951
+  Logic: Logic/Module/Market_Adult_Prefab/Market_Adult_Prefab_c668.logic.module.ain
+  References:
+  - {Id: EventRequestActor_1b60, Path: EventRequestActor_1b60, Reference: !ul 14618314512807768969}
+  - {Id: Area_a3ca, Path: Area_a3ca, Reference: !ul 11085071794120779663}
+- Hash: !ul 9076647876015150574
+  Logic: Logic/Module/Market_Common/Market_Common_f252.logic.module.ain
+  References:
+  - {Id: Obj_TimeTemple_Door_A_01_cb9f, Path: Obj_TimeTemple_Door_A_01_cb9f, Reference: !ul 1938092608882373604}
+  - {Id: Obj_TimeTemple_SpiritStone_A_01_d5f4, Path: Obj_TimeTemple_SpiritStone_A_01_d5f4,
+    Reference: !ul 5792659642486821223}
+  - {Id: Obj_TimeTemple_SpiritStone_A_02_9782, Path: Obj_TimeTemple_SpiritStone_A_02_9782,
+    Reference: !ul 18124620891613787741}
+  - {Id: Obj_TimeTemple_SpiritStone_A_03_e9ea, Path: Obj_TimeTemple_SpiritStone_A_03_e9ea,
+    Reference: !ul 18023860044838456624}
+  - {Id: Obj_TimeTemple_SpiritStoneBase_A_01_1282, Path: Obj_TimeTemple_SpiritStoneBase_A_01_1282,
+    Reference: !ul 433111495078071306}
+  - {Id: EventProxyRequestActor_dadb, Path: EventProxyRequestActor_dadb, Reference: !ul 8375730959944160703}
+  - {Id: Obj_TimeTemple_TriforceRelief_A_01_06d7, Path: Obj_TimeTemple_TriforceRelief_A_01_06d7,
+    Reference: !ul 6884261700324007292}
+  - {Id: Area_2fb7, Path: Area_2fb7, Reference: !ul 17587513751668364403}
+  - {Id: Area_64e2, Path: Area_64e2, Reference: !ul 9407555290050795177}
+  - {Id: Area_e463, Path: Area_e463, Reference: !ul 10252144455526564004}
+  - {Id: Area_64d6, Path: Area_64d6, Reference: !ul 4922634265513816840}
+  - {Id: Area_84b5, Path: Area_84b5, Reference: !ul 2569824084824152735}
+  - {Id: Area_b5c7, Path: Area_b5c7, Reference: !ul 8928751460099207732}
+  - {Id: Area_f9f1, Path: Area_f9f1, Reference: !ul 13870760441947906758}
+- Hash: !ul 14047246172694030055
+  Logic: Logic/Module/Common_FieldDungeonEntranceSet/Common_FieldDungeonEntranceSet_bad1.logic.module.ain
+  References:
+  - {Id: Area_6674, Path: Area_6674, Reference: !ul 14449009921425514489}
+  - {Id: FieldAndDungeonEntranceEventRequestActor_57cf, Path: FieldAndDungeonEntranceEventRequestActor_57cf,
+    Reference: !ul 10789936535211097064}
+- Hash: !ul 15225495093971472999
+  Logic: Logic/Module/GossipStoneWithFairySpirit/GossipStoneWithFairySpirit_d931.logic.module.ain
+  References:
+  - {Id: Obj_FairySpirit_5f24, Path: Obj_FairySpirit_5f24, Reference: !ul 16033825080318963296}
+  - {Id: Obj_GossipStone_A_01_68b6, Path: Obj_GossipStone_A_01_68b6, Reference: !ul 1942965670383903797}
+  - {Id: Area_32ae, Path: _c66c/Area_32ae, Reference: !ul 4776795099991634705}
+  - {Id: AiGroup, InstanceName: Gimmick_AreaContact_Delete_1e20_d396, Logic: Logic/Module/Gimmick_AreaContact_Delete/Gimmick_AreaContact_Delete_1e20.logic.module.ain,
+    Path: _c66c/AiGroup, Reference: !ul 8550419288523133906}
+  - {Id: EventProxyRequestActor_64fd, Path: EventProxyRequestActor_64fd, Reference: !ul 4788576752758323285}
+  - {Id: DestinationAnchor_7fac, Path: DestinationAnchor_7fac, Reference: !ul 5321852347492497484}
+- Hash: !ul 17364055337479607892
+  Logic: Logic/Module/Market_Adult_Prefab/Market_Adult_Prefab_edc2.logic.module.ain
+  References:
+  - {Id: Area_4729, Path: Area_4729, Reference: !ul 3406708549665898725}
+  - {Id: EventRequestActor_8fbc, Path: EventRequestActor_8fbc, Reference: !ul 3409851866200498477}
+- Hash: !ul 17649096639552665595
+  Logic: Logic/Module/GossipStoneWithFairySpirit/GossipStoneWithFairySpirit_d931.logic.module.ain
+  References:
+  - {Id: Obj_FairySpirit_5f24, Path: Obj_FairySpirit_5f24, Reference: !ul 18058582785781748425}
+  - {Id: Obj_GossipStone_A_01_68b6, Path: Obj_GossipStone_A_01_68b6, Reference: !ul 4500093386167542326}
+  - {Id: Area_32ae, Path: _f356/Area_32ae, Reference: !ul 9133944074478804056}
+  - {Id: AiGroup, InstanceName: Gimmick_AreaContact_Delete_1e20_d396, Logic: Logic/Module/Gimmick_AreaContact_Delete/Gimmick_AreaContact_Delete_1e20.logic.module.ain,
+    Path: _f356/AiGroup, Reference: !ul 9993562540374265860}
+  - {Id: EventProxyRequestActor_64fd, Path: EventProxyRequestActor_64fd, Reference: !ul 7930594760817662700}
+  - {Id: DestinationAnchor_7fac, Path: DestinationAnchor_7fac, Reference: !ul 1467733361041369517}
+- Hash: !ul 18235876945294954470
+  Logic: Logic/Module/GossipStoneWithFairySpirit/GossipStoneWithFairySpirit_d931.logic.module.ain
+  References:
+  - {Id: Obj_FairySpirit_5f24, Path: Obj_FairySpirit_5f24, Reference: !ul 18255571771279098607}
+  - {Id: Obj_GossipStone_A_01_68b6, Path: Obj_GossipStone_A_01_68b6, Reference: !ul 2716114619250578356}
+  - {Id: Area_32ae, Path: _ce2b/Area_32ae, Reference: !ul 8677133204796721311}
+  - {Id: AiGroup, InstanceName: Gimmick_AreaContact_Delete_1e20_d396, Logic: Logic/Module/Gimmick_AreaContact_Delete/Gimmick_AreaContact_Delete_1e20.logic.module.ain,
+    Path: _ce2b/AiGroup, Reference: !ul 6434726986708663379}
+  - {Id: EventProxyRequestActor_64fd, Path: EventProxyRequestActor_64fd, Reference: !ul 5274112602742567658}
+  - {Id: DestinationAnchor_7fac, Path: DestinationAnchor_7fac, Reference: !ul 15265624473345344974}
+FarDeleteGroups:
+- [!ul 433111495078071306, !ul 1938092608882373604, !ul 2569824084824152735, !ul 4922634265513816840,
+  !ul 5792659642486821223, !ul 6884261700324007292, !ul 8375730959944160703, !ul 8928751460099207732,
+  !ul 9407555290050795177, !ul 10252144455526564004, !ul 13870760441947906758, !ul 17587513751668364403,
+  !ul 18023860044838456624, !ul 18124620891613787741]
+- [!ul 1467733361041369517, !ul 4500093386167542326, !ul 7930594760817662700, !ul 9133944074478804056,
+  !ul 18058582785781748425]
+- [!ul 1942965670383903797, !ul 4776795099991634705, !ul 4788576752758323285, !ul 5321852347492497484,
+  !ul 16033825080318963296]
+- [!ul 2716114619250578356, !ul 5274112602742567658, !ul 8677133204796721311, !ul 15265624473345344974,
+  !ul 18255571771279098607]
+- [!ul 5217322733115943666, !ul 8065288860868724101, !ul 9677456717248088698, !ul 10223129755157709237,
+  !ul 11176597506998556976]
+- [!ul 17615055063994354060, !ul 18126183868861934659, !ul 18425556803110941207]
+- [!ul 2122315589809297823, !ul 3650546998727354802]
+- [!ul 3406708549665898725, !ul 3409851866200498477]
+- [!ul 7921822793324574197, !ul 16146179233394378722]
+- [!ul 8090100398624302801, !ul 10711147713855529366]
+- [!ul 10789936535211097064, !ul 14449009921425514489]
+- [!ul 11085071794120779663, !ul 14618314512807768969]
+FilePath: Work/Banc/Scene/Market/Market_Adult.bcett.json
+PhiveHeader:
+  PlacementGroups: []
+Rails:
+- Gyaml: NavigationMeshRoad
+  Hash: !ul 1261081776715316773
+  IsClosed: false
+  Name: NavigationMeshRoad
+  Points:
+  - Gyaml: NavigationMeshRoad
+    Hash: !ul 2183989943841603837
+    NextDistance: 6.0
+    RouteWidth: 2.0
+    Translate: [2.98451566696167, 102.02317810058594, 55.8656120300293]
+  - Gyaml: NavigationMeshRoad
+    Hash: !ul 13890246526825259830
+    PrevDistance: 6.0
+    RouteWidth: 2.0
+    Translate: [8.984516143798828, 102.02317810058594, 55.8656120300293]
+SimultaneousGroups:
+- [!ul 433111495078071306, !ul 1938092608882373604, !ul 2569824084824152735, !ul 4922634265513816840,
+  !ul 5792659642486821223, !ul 6884261700324007292, !ul 8375730959944160703, !ul 8928751460099207732,
+  !ul 9407555290050795177, !ul 10252144455526564004, !ul 13870760441947906758, !ul 17587513751668364403,
+  !ul 18023860044838456624, !ul 18124620891613787741]
+- [!ul 1467733361041369517, !ul 4500093386167542326, !ul 7930594760817662700, !ul 9133944074478804056,
+  !ul 18058582785781748425]
+- [!ul 1942965670383903797, !ul 4776795099991634705, !ul 4788576752758323285, !ul 5321852347492497484,
+  !ul 16033825080318963296]
+- [!ul 2716114619250578356, !ul 5274112602742567658, !ul 8677133204796721311, !ul 15265624473345344974,
+  !ul 18255571771279098607]
+- [!ul 5217322733115943666, !ul 8065288860868724101, !ul 9677456717248088698, !ul 10223129755157709237,
+  !ul 11176597506998556976]
+- [!ul 17615055063994354060, !ul 18126183868861934659, !ul 18425556803110941207]
+- [!ul 2122315589809297823, !ul 3650546998727354802]
+- [!ul 3406708549665898725, !ul 3409851866200498477]
+- [!ul 7921822793324574197, !ul 16146179233394378722]
+- [!ul 8090100398624302801, !ul 10711147713855529366]
+- [!ul 10789936535211097064, !ul 14449009921425514489]
+- [!ul 11085071794120779663, !ul 14618314512807768969]

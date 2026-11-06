@@ -1,0 +1,294 @@
+Actors:
+- Gyaml: Enemy_MiddleBoss_IronKnuckle_Nabooru
+  Hash: !ul 8490633936721582883
+  Links:
+  - {Dst: !ul 10309775626801448167, Gyaml: Reference, Name: Reference, Src: !ul 8490633936721582883}
+  - {Dst: !ul 8710087921581086295, Gyaml: BreakTarget, Name: BreakTarget, Src: !ul 8490633936721582883}
+  - {Dst: !ul 10490472943206697445, Gyaml: BreakTarget, Name: BreakTarget, Src: !ul 8490633936721582883}
+  - {Dst: !ul 1129728227269172906, Gyaml: BreakTarget, Name: BreakTarget, Src: !ul 8490633936721582883}
+  - {Dst: !ul 4948079151808736394, Gyaml: BreakTarget, Name: BreakTarget, Src: !ul 8490633936721582883}
+  - {Dst: !ul 4086923336414815041, Gyaml: BreakTarget, Name: BreakTarget, Src: !ul 8490633936721582883}
+  - {Dst: !ul 15963886789939350769, Gyaml: BreakTarget, Name: BreakTarget, Src: !ul 8490633936721582883}
+  - {Dst: !ul 17174255065170845166, Gyaml: BreakTarget, Name: BreakTarget, Src: !ul 8490633936721582883}
+  Phive:
+    Placement: {ID: !ul 8490633936721582883}
+  SRTHash: !u 0x327b9da9
+  Translate: [0.0725042000412941, 135.02212524414062, -95.58000183105469]
+- Bakeable: true
+  Gyaml: Obj_SwitchShutter_A_06
+  Hash: !ul 260001183495617992
+  Name: SwitchShutterPlusZ
+  Phive:
+    Placement: {ID: !ul 260001183495617992}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0xda1d255e
+  Translate: [-0.007612474262714386, 135.02212524414062, -102.08000183105469]
+- Gyaml: DestinationAnchor
+  Hash: !ul 359462710694344226
+  Phive:
+    Placement: {ID: !ul 359462710694344226}
+  SRTHash: !u 0xa3f59d02
+  Translate: [-0.007942358031868935, 136.02212524414062, -100.7300033569336]
+- Bakeable: true
+  Gyaml: Obj_SwitchShutter_A_06
+  Hash: !ul 10890501809253503325
+  Name: SwitchShutterMinusZ
+  Phive:
+    Placement: {ID: !ul 10890501809253503325}
+  SRTHash: !u 0xc11134d8
+  Translate: [-0.007612474262714386, 135.02212524414062, -101.3800048828125]
+- Bakeable: true
+  Gyaml: Obj_SpiritTemple_SwitchShutter_A_01
+  Hash: !ul 12744073029340563474
+  Links:
+  - {Dst: !ul 260001183495617992, Gyaml: Reference, Name: Reference, Src: !ul 12744073029340563474}
+  - {Dst: !ul 10890501809253503325, Gyaml: Reference, Name: Reference, Src: !ul 12744073029340563474}
+  - {Dst: !ul 5077887452930800103, Gyaml: Reference, Name: Reference, Src: !ul 12744073029340563474}
+  - {Dst: !ul 2195191086112423712, Gyaml: Reference, Name: Reference, Src: !ul 12744073029340563474}
+  - {Dst: !ul 7327232447705346457, Gyaml: Reference, Name: Reference, Src: !ul 12744073029340563474}
+  Phive:
+    Placement: {ID: !ul 12744073029340563474}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0x59b716ed
+  Translate: [-0.007612474262714386, 135.02212524414062, -101.73228454589844]
+- Gyaml: DestinationAnchor
+  Hash: !ul 16738563325895835573
+  Phive:
+    Placement: {ID: !ul 16738563325895835573}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0xe73360b7
+  Translate: [-0.007612625136971474, 136.02212524414062, -102.73228454589844]
+- Gyaml: AirWallEnemy
+  Hash: !ul 5853324272170177469
+  Phive:
+    Placement: {ID: !ul 5853324272170177469}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0x653558db
+  Scale: [3.0, 4.0, 1.7000000476837158]
+  Translate: [-0.007942508906126022, 137.02212524414062, -101.7300033569336]
+- Gyaml: DestinationAnchor
+  Hash: !ul 5077887452930800103
+  Name: CameraPlusZ
+  Phive:
+    Placement: {ID: !ul 5077887452930800103}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0x6e592534
+  Translate: [-0.007942207157611847, 135.02212524414062, -103.7300033569336]
+- Gyaml: DestinationAnchor
+  Hash: !ul 2195191086112423712
+  Name: CameraMinusZ
+  Phive:
+    Placement: {ID: !ul 2195191086112423712}
+  SRTHash: !u 0x9027533e
+  Translate: [-0.007942207157611847, 135.02212524414062, -99.7300033569336]
+- Dynamic:
+    MoveTime: 20.0
+    StartPosRate: [0.0, 0.0, -1.0]
+  Gyaml: PushAirWall_DoorFront
+  Hash: !ul 7327232447705346457
+  Phive:
+    Placement: {ID: !ul 7327232447705346457}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0x0c2f4b68
+  Scale: [2.0, 1.2999999523162842, 1.0]
+  Translate: [-0.007942207157611847, 135.02212524414062, -101.7300033569336]
+- Bakeable: true
+  Dynamic: {Drop__DropTable: Obj_IronKnuckle_Pillar_A_01}
+  Gyaml: Obj_IronKnuckle_Chair_A_02
+  Hash: !ul 17174255065170845166
+  Phive:
+    Placement: {ID: !ul 17174255065170845166}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x4aaf0a91
+  Translate: [0.06418272107839584, 134.97418212890625, -95.92048645019531]
+- Bakeable: true
+  Dynamic: {Drop__DropTable: Obj_IronKnuckle_Pillar_A_01}
+  Gyaml: Obj_IronKnuckle_Pillar_A_01
+  Hash: !ul 10490472943206697445
+  Phive:
+    Placement: {ID: !ul 10490472943206697445}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0x899bdec3
+  Translate: [-7.627495288848877, 134.797119140625, -95.47997283935547]
+- Bakeable: true
+  Dynamic: {Drop__DropTable: Obj_IronKnuckle_Pillar_A_01}
+  Gyaml: Obj_IronKnuckle_Pillar_A_01
+  Hash: !ul 8710087921581086295
+  Phive:
+    Placement: {ID: !ul 8710087921581086295}
+  Rotate: [3.141592025756836, -0.0, 3.141592502593994]
+  SRTHash: !u 0xe48adcff
+  Translate: [7.772491931915283, 135.00833129882812, -95.37995910644531]
+- Bakeable: true
+  Dynamic: {Drop__DropTable: Obj_IronKnuckle_Pillar_A_01}
+  Gyaml: Obj_IronKnuckle_Pillar_A_01
+  Hash: !ul 4948079151808736394
+  Phive:
+    Placement: {ID: !ul 4948079151808736394}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0xb870ca01
+  Translate: [4.772502899169922, 134.797119140625, -88.08000183105469]
+- Bakeable: true
+  Dynamic: {Drop__DropTable: Obj_IronKnuckle_Pillar_A_01}
+  Gyaml: Obj_IronKnuckle_Pillar_A_01
+  Hash: !ul 1129728227269172906
+  Phive:
+    Placement: {ID: !ul 1129728227269172906}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0x0b3ab5c6
+  Translate: [-4.527497291564941, 134.797119140625, -88.08000183105469]
+- Bakeable: true
+  Dynamic: {Drop__DropTable: Obj_IronKnuckle_Pillar_A_01}
+  Gyaml: Obj_IronKnuckle_Pillar_A_01
+  Hash: !ul 15963886789939350769
+  Phive:
+    Placement: {ID: !ul 15963886789939350769}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0x4e939b04
+  Translate: [-4.527496814727783, 134.797119140625, -82.08000183105469]
+- Bakeable: true
+  Dynamic: {Drop__DropTable: Obj_IronKnuckle_Pillar_A_01}
+  Gyaml: Obj_IronKnuckle_Pillar_A_01
+  Hash: !ul 4086923336414815041
+  Phive:
+    Placement: {ID: !ul 4086923336414815041}
+  Rotate: [3.141592025756836, -0.0, 3.141592264175415]
+  SRTHash: !u 0x72a35145
+  Translate: [4.27250337600708, 134.797119140625, -82.08000183105469]
+- Gyaml: NoEscapeRangeAreaBox
+  Hash: !ul 15465071182016564842
+  Name: NoEscapeArea_SubEvent_AllBossBattle
+  Phive:
+    Placement: {ID: !ul 15465071182016564842}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xe697910f
+  Scale: [32.15535354614258, 20.470191955566406, 57.12116622924805]
+  Translate: [0.14945483207702637, 143.14186096191406, -91.90156555175781]
+- Gyaml: Area
+  Hash: !ul 4149105849462234327
+  Phive:
+    Placement: {ID: !ul 4149105849462234327}
+  Rotate: [0.0, -1.570796251296997, 8.940696005765858e-08]
+  SRTHash: !u 0xb485a6e0
+  Scale: [28.8924503326416, 7.157034873962402, 23.023609161376953]
+  Translate: [-3.084609031677246, 134.88385009765625, -92.29438781738281]
+- Dynamic: {AreaHintEventName: NaviHint_Rematch}
+  Gyaml: NaviAreaHintEventActor
+  Hash: !ul 1218187201380611613
+  Phive:
+    Placement: {ID: !ul 1218187201380611613}
+  SRTHash: !u 0x71df1762
+  Translate: [8.381494522094727, 136.62474060058594, -97.51316833496094]
+- Bakeable: true
+  Dynamic: {NomralEvent: SageOfSpirit_MiddleBossStart, OpenChainShutterEvent: Common_Dungeon_OpenDoorChainLockMoveToPlusZ,
+    ShutterEvent: SageOfSpirit_MiddleBossStart}
+  Gyaml: Obj_SpiritTemple_SwitchShutter_A_03
+  Hash: !ul 8019029595909217726
+  Links:
+  - {Dst: !ul 17202678601964768509, Gyaml: Reference, Name: Reference, Src: !ul 8019029595909217726}
+  - {Dst: !ul 9334248311300911955, Gyaml: Reference, Name: Reference, Src: !ul 8019029595909217726}
+  Phive:
+    Placement: {ID: !ul 8019029595909217726}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0xae1df1dc
+  Translate: [0.0, 135.0, -76.58000183105469]
+- Gyaml: AirWallEnemy
+  Hash: !ul 18419844699364567850
+  Phive:
+    Placement: {ID: !ul 18419844699364567850}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0xabe8fc13
+  Scale: [3.0, 4.0, 1.7000000476837158]
+  Translate: [-3.019916050561733e-07, 137.0, -76.58000183105469]
+- Bakeable: true
+  Gyaml: Obj_SwitchShutter_A_06
+  Hash: !ul 17202678601964768509
+  Phive:
+    Placement: {ID: !ul 17202678601964768509}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0x9749e026
+  Translate: [7.979906713445183e-15, 135.0, -76.93000030517578]
+- Gyaml: DestinationAnchor
+  Hash: !ul 9334248311300911955
+  Name: CameraPlusZ
+  Phive:
+    Placement: {ID: !ul 9334248311300911955}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0xe85c9adf
+  Translate: [4.559946644995365e-14, 135.0, -78.58000183105469]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_RoomFloor_A_33
+  Hash: !ul 7203394965607139505
+  Phive:
+    Placement: {ID: !ul 7203394965607139505}
+  SRTHash: !u 0xcdb0d0b7
+  Translate: [0.0, 135.0, -89.08000183105469]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_RoomWall_A_33
+  Hash: !ul 6968761526191772451
+  Phive:
+    Placement: {ID: !ul 6968761526191772451}
+  SRTHash: !u 0xcdb0d0b7
+  Translate: [0.0, 135.0, -89.08000183105469]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_ModuleWall_K_10
+  Hash: !ul 2672210104561939760
+  Phive:
+    Placement: {ID: !ul 2672210104561939760}
+  SRTHash: !u 0xcdb0d0b7
+  Translate: [0.0, 135.0, -89.08000183105469]
+- Gyaml: DestinationAnchor
+  Hash: !ul 10309775626801448167
+  Name: MiddleBossEnd
+  Phive:
+    Placement: {ID: !ul 10309775626801448167}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x64324b98
+  Translate: [0.0729999989271164, 135.02200317382812, -91.700927734375]
+- Gyaml: Obj_DreamWorldTimerManager
+  Hash: !ul 2496424661210624564
+  Links:
+  - {Dst: !ul 8490633936721582883, Gyaml: Reference, Name: Reference, Src: !ul 2496424661210624564}
+  Phive:
+    Placement: {ID: !ul 2496424661210624564}
+  Rotate: [1.6727778984204633e-06, -0.0, -1.5707963705062866]
+  SRTHash: !u 0xa893cea3
+  Translate: [1.7194709777832031, 147.77825927734375, -94.41277313232422]
+- Gyaml: EftLoc_SpiritTemple_Boss_2dVolume_00
+  Hash: !ul 13422768238775133609
+  Phive:
+    Placement: {ID: !ul 13422768238775133609}
+  SRTHash: !u 0xd90a43a0
+  Scale: [44.93397903442383, 7.85816764831543, 68.72567749023438]
+  Translate: [0.05291748046875, 134.1455078125, -139.7096405029297]
+AiGroups:
+- Hash: !ul 16759915958126300955
+  Logic: Logic/Root/NaboruStage/NaboruStage_946b.logic.root.ain
+  References:
+  - {Id: Enemy_MiddleBoss_IronKnuckle_Nabooru_677e, Path: Enemy_MiddleBoss_IronKnuckle_Nabooru_677e,
+    Reference: !ul 8490633936721582883}
+  - {Id: ShutterLocator_Door_02_ba6d, Path: _25a6/ShutterLocator_Door_02_ba6d, Reference: !ul 12744073029340563474}
+  - {Id: ShutterLocator_Lattice_9be3, Path: _25a6/ShutterLocator_Lattice_9be3, Reference: !ul 260001183495617992}
+  - {Id: ShutterLocator_Lattice_abc3, Path: _25a6/ShutterLocator_Lattice_abc3, Reference: !ul 10890501809253503325}
+  - {Id: PushAirWall_DoorFront_7fb9, Path: _25a6/PushAirWall_DoorFront_7fb9, Reference: !ul 7327232447705346457}
+  - {Id: AiGroup, InstanceName: DungeonSwitchShutterLargeWithLockSet_5539_7638, Logic: Logic/Module/DungeonSwitchShutterLargeWithLockSet/DungeonSwitchShutterLargeWithLockSet_5539.logic.module.ain,
+    Path: _25a6/AiGroup, Reference: !ul 1740741006193657213}
+  - {Id: NaviAreaHintEventActor_aed7, Path: NaviAreaHintEventActor_aed7, Reference: !ul 1218187201380611613}
+  - {Id: Area_cad0, Path: Area_cad0, Reference: !ul 4149105849462234327}
+  - {Id: ShutterLocator_BossDoor_881e, Path: _da71/ShutterLocator_BossDoor_881e, Reference: !ul 8019029595909217726}
+  - {Id: ChainLockLocator_BossLattice_f3c1, Path: _da71/ChainLockLocator_BossLattice_f3c1,
+    Reference: !ul 17202678601964768509}
+  - {Id: AiGroup, InstanceName: DungeonSwitchShutterBossSet_1ee4_cb66, Logic: Logic/Module/DungeonSwitchShutterBossSet/DungeonSwitchShutterBossSet_1ee4.logic.module.ain,
+    Path: _da71/AiGroup, Reference: !ul 14612075500793510063}
+  - {Id: Obj_IronKnuckle_Chair_A_01_7d95, Path: Obj_IronKnuckle_Chair_A_01_7d95, Reference: !ul 17174255065170845166}
+FarDeleteGroups:
+- [!ul 260001183495617992, !ul 1218187201380611613, !ul 4149105849462234327, !ul 7327232447705346457,
+  !ul 8019029595909217726, !ul 8490633936721582883, !ul 10890501809253503325, !ul 12744073029340563474,
+  !ul 17174255065170845166, !ul 17202678601964768509]
+FilePath: Work/Banc/Scene/DreamWorld/NaboruStage.bcett.json
+PhiveHeader:
+  PlacementGroups: []
+SimultaneousGroups:
+- [!ul 260001183495617992, !ul 1218187201380611613, !ul 4149105849462234327, !ul 7327232447705346457,
+  !ul 8019029595909217726, !ul 8490633936721582883, !ul 10890501809253503325, !ul 12744073029340563474,
+  !ul 17174255065170845166, !ul 17202678601964768509]

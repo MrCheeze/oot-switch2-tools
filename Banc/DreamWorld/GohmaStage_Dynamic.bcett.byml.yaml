@@ -1,0 +1,258 @@
+Actors:
+- Gyaml: StartPos
+  Hash: !ul 11220568719787094329
+  Name: GohmaStage
+  Phive:
+    Placement: {ID: !ul 11220568719787094329}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xcf65517f
+  Translate: [6.668785095214844, 47.000003814697266, 67.62673950195312]
+- Gyaml: StartPos
+  Hash: !ul 7962357030036644357
+  Name: StartPos_SubEvent_AllBossBattle
+  Phive:
+    Placement: {ID: !ul 7962357030036644357}
+  Rotate: [3.1415927410125732, 1.4538382291793823, 3.1415927410125732]
+  SRTHash: !u 0x39abf897
+  Translate: [4.511575698852539, 46.999996185302734, 67.66827392578125]
+- Gyaml: EftLoc_DekunoKiSama_GohmaRoom_00
+  Hash: !ul 13331092036109385468
+  Phive:
+    Placement: {ID: !ul 13331092036109385468}
+  SRTHash: !u 0x52f88dc7
+  Translate: [20.768878936767578, 59.64380645751953, 68.96635437011719]
+- Bakeable: true
+  Gyaml: Land_Deku_BossProp_A_01
+  Hash: !ul 9446109305014089264
+  Phive:
+    Placement: {ID: !ul 9446109305014089264}
+  SRTHash: !u 0x8e73e6e1
+  Translate: [28.915346145629883, 47.0, 59.80558776855469]
+- Bakeable: true
+  Gyaml: Land_Deku_BossProp_A_01
+  Hash: !ul 5529237673534346582
+  Phive:
+    Placement: {ID: !ul 5529237673534346582}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xb521420d
+  Translate: [13.14671516418457, 47.0, 75.48075866699219]
+- Bakeable: true
+  Gyaml: Land_Deku_BossProp_A_01
+  Hash: !ul 10740495041394866381
+  Phive:
+    Placement: {ID: !ul 10740495041394866381}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x01be1366
+  Translate: [28.67090606689453, 47.0, 75.46186828613281]
+- Bakeable: true
+  Gyaml: Land_Deku_BossProp_A_01
+  Hash: !ul 6850666634155255380
+  Phive:
+    Placement: {ID: !ul 6850666634155255380}
+  Rotate: [0.0, -1.134463906288147, 0.0]
+  SRTHash: !u 0x3059cb40
+  Translate: [13.273853302001953, 47.0, 59.76325225830078]
+- Bakeable: true
+  Gyaml: Land_Deku_CaveProp_C_05
+  Hash: !ul 8453812980892905790
+  Phive:
+    Placement: {ID: !ul 8453812980892905790}
+  Rotate: [-3.058617353439331, 0.2025752067565918, -3.1248607635498047]
+  SRTHash: !u 0x6c9a4358
+  Translate: [15.675752639770508, 52.03248596191406, 88.56560516357422]
+- Bakeable: true
+  Gyaml: Land_Deku_CaveProp_C_05
+  Hash: !ul 7936456768747922226
+  Phive:
+    Placement: {ID: !ul 7936456768747922226}
+  SRTHash: !u 0xa5deabd5
+  Translate: [21.66537857055664, 53.20148849487305, 46.08163070678711]
+- Bakeable: true
+  Gyaml: Land_Deku_CaveProp_C_05
+  Hash: !ul 2221354151968224790
+  Phive:
+    Placement: {ID: !ul 2221354151968224790}
+  Rotate: [-2.530685776491737e-07, -0.5944359302520752, 1.822597397449499e-07]
+  SRTHash: !u 0xa663a0b7
+  Translate: [34.531715393066406, 53.605430603027344, 50.06940841674805]
+- Bakeable: true
+  Gyaml: Land_Deku_BossProp_A_01
+  Hash: !ul 3919210512820461366
+  Phive:
+    Placement: {ID: !ul 3919210512820461366}
+  Rotate: [0.0, -0.6570726633071899, 0.0]
+  SRTHash: !u 0x60f5b1f7
+  Scale: [1.5, 1.5, 1.5]
+  Translate: [30.15626335144043, 47.0, 89.77876281738281]
+- Bakeable: true
+  Gyaml: Land_Deku_BossProp_A_01
+  Hash: !ul 17771038475830759316
+  Phive:
+    Placement: {ID: !ul 17771038475830759316}
+  Rotate: [0.0, -1.541058897972107, 0.0]
+  SRTHash: !u 0xbc3b0216
+  Scale: [1.2999998331069946, 1.2999998331069946, 1.2999998331069946]
+  Translate: [41.58969497680664, 47.0, 57.49140930175781]
+- Bakeable: true
+  Gyaml: Land_Deku_BossProp_A_01
+  Hash: !ul 10900685248596407321
+  Phive:
+    Placement: {ID: !ul 10900685248596407321}
+  Rotate: [3.1415927410125732, 0.7870606184005737, 3.1415927410125732]
+  SRTHash: !u 0x272d65e5
+  Scale: [1.25, 1.25, 1.25]
+  Translate: [13.283220291137695, 47.0, 45.98469543457031]
+- Bakeable: true
+  Gyaml: Land_Deku_CaveProp_C_05
+  Hash: !ul 18137370410867980677
+  Phive:
+    Placement: {ID: !ul 18137370410867980677}
+  Rotate: [0.19781823456287384, -1.4878365993499756, -0.25735417008399963]
+  SRTHash: !u 0x39894ca2
+  Translate: [42.76738357543945, 50.5264892578125, 66.64132690429688]
+- Bakeable: true
+  Gyaml: Land_Deku_ShutterFrame_A_04
+  Hash: !ul 9005797070331298799
+  Phive:
+    Placement: {ID: !ul 9005797070331298799}
+  SRTHash: !u 0xccf0b1f6
+  Translate: [-1.027869701385498, 46.999996185302734, 67.63406372070312]
+- Bakeable: true
+  Gyaml: Land_Deku_BossProp_A_04
+  Hash: !ul 990664464459681487
+  Phive:
+    Placement: {ID: !ul 990664464459681487}
+  Rotate: [0.0, 0.9510079026222229, 0.0]
+  SRTHash: !u 0x22ed6075
+  Translate: [7.727866172790527, 47.0, 49.17245101928711]
+- Bakeable: true
+  Gyaml: Land_Deku_BossProp_A_04
+  Hash: !ul 4848340609564131760
+  Phive:
+    Placement: {ID: !ul 4848340609564131760}
+  SRTHash: !u 0xea06612c
+  Translate: [26.953231811523438, 46.99706268310547, 46.64603805541992]
+- Bakeable: true
+  Gyaml: Land_Deku_BossProp_A_04
+  Hash: !ul 13607522787338050911
+  Phive:
+    Placement: {ID: !ul 13607522787338050911}
+  SRTHash: !u 0x72cb186f
+  Translate: [42.68152618408203, 46.98131561279297, 71.60958862304688]
+- Bakeable: true
+  Gyaml: Land_Deku_BossProp_A_04
+  Hash: !ul 7303639573543512941
+  Phive:
+    Placement: {ID: !ul 7303639573543512941}
+  Rotate: [0.0, -1.097211241722107, 0.0]
+  SRTHash: !u 0x8108dab1
+  Translate: [42.10133361816406, 46.97028732299805, 76.63351440429688]
+- Bakeable: true
+  Gyaml: Land_Deku_BossProp_A_04
+  Hash: !ul 18036348395423825240
+  Phive:
+    Placement: {ID: !ul 18036348395423825240}
+  SRTHash: !u 0x700f232b
+  Translate: [9.330053329467773, 47.0, 86.67982482910156]
+- Bakeable: true
+  Gyaml: Land_Deku_BossProp_A_04
+  Hash: !ul 14219653989016196594
+  Phive:
+    Placement: {ID: !ul 14219653989016196594}
+  Rotate: [0.0, -0.9527367949485779, 0.0]
+  SRTHash: !u 0x979db8d2
+  Translate: [2.1008100509643555, 47.0, 80.425537109375]
+- Bakeable: true
+  Gyaml: Land_Deku_BossProp_A_03
+  Hash: !ul 11713954642567498299
+  Phive:
+    Placement: {ID: !ul 11713954642567498299}
+  Rotate: [0.0, 1.1306592226028442, 0.0]
+  SRTHash: !u 0x9a4d3b4b
+  Translate: [-0.06581880152225494, 46.821651458740234, 58.06904602050781]
+- Bakeable: true
+  Gyaml: Land_Deku_BossProp_A_05
+  Hash: !ul 6736295506787758550
+  Phive:
+    Placement: {ID: !ul 6736295506787758550}
+  Rotate: [3.1415927410125732, -0.15739908814430237, 3.1415927410125732]
+  SRTHash: !u 0x8723afa8
+  Translate: [26.141172409057617, 61.03706741333008, 90.79679107666016]
+- Bakeable: true
+  Gyaml: Land_Deku_BossProp_A_05
+  Hash: !ul 7509496211799123004
+  Phive:
+    Placement: {ID: !ul 7509496211799123004}
+  Rotate: [3.1415927410125732, 0.017133625224232674, 3.1415927410125732]
+  SRTHash: !u 0xf2f95fdf
+  Translate: [16.124935150146484, 61.03706741333008, 89.79051971435547]
+- Bakeable: true
+  Gyaml: Land_Deku_BossProp_A_05
+  Hash: !ul 6468524234906080102
+  Phive:
+    Placement: {ID: !ul 6468524234906080102}
+  Rotate: [3.1415927410125732, 0.017133625224232674, 3.1415927410125732]
+  SRTHash: !u 0xea1fdcc0
+  Translate: [9.680397033691406, 61.03706741333008, 88.87458038330078]
+- Bakeable: true
+  Gyaml: Land_Deku_BossProp_A_05
+  Hash: !ul 11700540736706726033
+  Phive:
+    Placement: {ID: !ul 11700540736706726033}
+  SRTHash: !u 0x16f2e350
+  Translate: [22.03669548034668, 61.1331901550293, 44.79791259765625]
+- Bakeable: true
+  Gyaml: Land_Deku_BossProp_A_05
+  Hash: !ul 3048428097531974266
+  Phive:
+    Placement: {ID: !ul 3048428097531974266}
+  SRTHash: !u 0x75db162a
+  Translate: [16.097278594970703, 61.1331901550293, 44.69847869873047]
+- Bakeable: true
+  Gyaml: Land_Deku_BossProp_A_05
+  Hash: !ul 3428090759024597804
+  Phive:
+    Placement: {ID: !ul 3428090759024597804}
+  Rotate: [0.0, -0.14167049527168274, 0.0]
+  SRTHash: !u 0x920445d7
+  Translate: [32.32102584838867, 61.16877746582031, 46.90031814575195]
+- Bakeable: true
+  Gyaml: Land_Deku_BossProp_A_05
+  Hash: !ul 14427530577053061530
+  Phive:
+    Placement: {ID: !ul 14427530577053061530}
+  Rotate: [0.0, -0.23258718848228455, 0.0]
+  SRTHash: !u 0x680ea172
+  Translate: [37.51374053955078, 60.963218688964844, 49.71409225463867]
+- Bakeable: true
+  Gyaml: Land_Deku_BossProp_A_05
+  Hash: !ul 17498229984993642380
+  Phive:
+    Placement: {ID: !ul 17498229984993642380}
+  Rotate: [3.1415927410125732, 0.017133625224232674, 3.1415927410125732]
+  SRTHash: !u 0x22ac7469
+  Translate: [11.853076934814453, 61.03706741333008, 89.79051971435547]
+- Bakeable: true
+  Gyaml: Land_Deku_BossProp_A_05
+  Hash: !ul 11842953470620726628
+  Phive:
+    Placement: {ID: !ul 11842953470620726628}
+  Rotate: [0.0, -1.3602590560913086, 0.0]
+  SRTHash: !u 0x566fdf7e
+  Translate: [44.8045654296875, 61.03706741333008, 68.33757019042969]
+- Bakeable: true
+  Gyaml: Land_Deku_BossProp_A_05
+  Hash: !ul 3208883731613453744
+  Phive:
+    Placement: {ID: !ul 3208883731613453744}
+  Rotate: [0.0, -1.2855099439620972, 0.0]
+  SRTHash: !u 0x078698a4
+  Translate: [44.0972785949707, 61.03706741333008, 62.980098724365234]
+- Bakeable: true
+  Gyaml: Land_Deku_Room_A_11_ceilSpiderWeb
+  Hash: !ul 17942454039703779820
+  Phive:
+    Placement: {ID: !ul 17942454039703779820}
+  SRTHash: !u 0x68ba9bc7
+  Translate: [20.0, 60.0, 68.0]
+FilePath: Work/Banc/Scene/DreamWorld/GohmaStage.bcett.json

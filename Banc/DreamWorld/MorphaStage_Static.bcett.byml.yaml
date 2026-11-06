@@ -1,0 +1,734 @@
+Actors:
+- Gyaml: Obj_DreamWorldTimerManager
+  Hash: !ul 14750103599746133322
+  Links:
+  - {Dst: !ul 7502049082398136738, Gyaml: Reference, Name: Reference, Src: !ul 14750103599746133322}
+  Phive:
+    Placement: {ID: !ul 14750103599746133322}
+  SRTHash: !u 0x13f45682
+  Translate: [7.377319812774658, 148.22024536132812, -73.14068603515625]
+- Dynamic: {IsIntendedForEventAppear: true}
+  Gyaml: Enemy_DungeonBoss_Morpha
+  Hash: !ul 7502049082398136738
+  Links:
+  - {Dst: !ul 10460424583167599542, Gyaml: Reference, Name: Reference, Src: !ul 7502049082398136738}
+  - {Dst: !ul 4146158267703550023, Gyaml: Reference, Name: Reference, Src: !ul 7502049082398136738}
+  - {Dst: !ul 2049665883600250488, Gyaml: Reference, Name: Reference, Src: !ul 7502049082398136738}
+  - {Dst: !ul 1701282856246148804, Gyaml: Reference, Name: Reference, Src: !ul 7502049082398136738}
+  - {Dst: !ul 5795648709304574662, Gyaml: Reference, Name: Reference, Src: !ul 7502049082398136738}
+  - {Dst: !ul 5446184024017588876, Gyaml: Reference, Name: Reference, Src: !ul 7502049082398136738}
+  - {Dst: !ul 12845049917578935242, Gyaml: Reference, Name: Reference, Src: !ul 7502049082398136738}
+  - {Dst: !ul 6027948173075544822, Gyaml: Reference, Name: Reference, Src: !ul 7502049082398136738}
+  - {Dst: !ul 11054996038721282098, Gyaml: Reference, Name: Reference, Src: !ul 7502049082398136738}
+  - {Dst: !ul 18358785245529563487, Gyaml: Reference, Name: Reference, Src: !ul 7502049082398136738}
+  - {Dst: !ul 4925129086676663659, Gyaml: Reference, Name: Reference, Src: !ul 7502049082398136738}
+  - {Dst: !ul 16716800819430556614, Gyaml: Reference, Name: Reference, Src: !ul 7502049082398136738}
+  - {Dst: !ul 2136702942753550609, Gyaml: Reference, Name: Reference, Src: !ul 7502049082398136738}
+  - {Dst: !ul 2534930677784860881, Gyaml: Reference, Name: Reference, Src: !ul 7502049082398136738}
+  - {Dst: !ul 4744571319452759415, Gyaml: Reference, Name: Reference, Src: !ul 7502049082398136738}
+  - {Dst: !ul 772666724088379923, Gyaml: Reference, Name: Reference, Src: !ul 7502049082398136738}
+  - {Dst: !ul 9188287713403305865, Gyaml: Reference, Name: Reference, Src: !ul 7502049082398136738}
+  - {Dst: !ul 1450219272716512271, Gyaml: Reference, Name: Reference, Src: !ul 7502049082398136738}
+  - {Dst: !ul 16704868154770548217, Gyaml: Reference, Name: Reference, Src: !ul 7502049082398136738}
+  - {Dst: !ul 560853237841922292, Gyaml: Reference, Name: Reference, Src: !ul 7502049082398136738}
+  - {Dst: !ul 75554563751388045, Gyaml: Reference, Name: Reference, Src: !ul 7502049082398136738}
+  - {Dst: !ul 11699125905774604729, Gyaml: Reference, Name: Reference, Src: !ul 7502049082398136738}
+  - {Dst: !ul 11317576075820434654, Gyaml: Reference, Name: Reference, Src: !ul 7502049082398136738}
+  - {Dst: !ul 9664514235422857049, Gyaml: Reference, Name: Reference, Src: !ul 7502049082398136738}
+  - {Dst: !ul 17627258783861010082, Gyaml: Reference, Name: Reference, Src: !ul 7502049082398136738}
+  - {Dst: !ul 14736993195038403155, Gyaml: Reference, Name: Reference, Src: !ul 7502049082398136738}
+  - {Dst: !ul 14596872202215035325, Gyaml: Reference, Name: Reference, Src: !ul 7502049082398136738}
+  - {Dst: !ul 5128542349737946322, Gyaml: Reference, Name: Reference, Src: !ul 7502049082398136738}
+  - {Dst: !ul 8605349605858400712, Gyaml: Reference, Name: Reference, Src: !ul 7502049082398136738}
+  - {Dst: !ul 7545734182908534552, Gyaml: Reference, Name: Reference, Src: !ul 7502049082398136738}
+  - {Dst: !ul 14289724113571231801, Gyaml: Reference, Name: Reference, Src: !ul 7502049082398136738}
+  - {Dst: !ul 2209470239839153425, Gyaml: Reference, Name: Reference, Src: !ul 7502049082398136738}
+  - {Dst: !ul 13542332193423958677, Gyaml: Reference, Name: Reference, Src: !ul 7502049082398136738}
+  - {Dst: !ul 9503586258157111767, Gyaml: Reference, Name: Reference, Src: !ul 7502049082398136738}
+  - {Dst: !ul 16669920545160792882, Gyaml: Reference, Name: Reference, Src: !ul 7502049082398136738}
+  - {Dst: !ul 9467324636346583874, Gyaml: Reference, Name: Reference, Src: !ul 7502049082398136738}
+  - {Dst: !ul 6412019455366539838, Gyaml: Reference, Name: Reference, Src: !ul 7502049082398136738}
+  - {Dst: !ul 15971970032265826395, Gyaml: Reference, Name: Reference, Src: !ul 7502049082398136738}
+  - {Dst: !ul 15435261259075230638, Gyaml: Reference, Name: Reference, Src: !ul 7502049082398136738}
+  - {Dst: !ul 1806821011358270789, Gyaml: Reference, Name: Reference, Src: !ul 7502049082398136738}
+  - {Dst: !ul 3339433897467246352, Gyaml: Reference, Name: Reference, Src: !ul 7502049082398136738}
+  - {Dst: !ul 11600194231716300078, Gyaml: Reference, Name: Reference, Src: !ul 7502049082398136738}
+  - {Dst: !ul 14150305435192626104, Gyaml: Reference, Name: Reference, Src: !ul 7502049082398136738}
+  - {Dst: !ul 15701677191731744578, Gyaml: Reference, Name: Reference, Src: !ul 7502049082398136738}
+  - {Dst: !ul 7545242030921629197, Gyaml: Reference, Name: Reference, Src: !ul 7502049082398136738}
+  - {Dst: !ul 7807026406402166177, Gyaml: Reference, Name: Reference, Src: !ul 7502049082398136738}
+  Name: BossDefeat
+  Phive:
+    Placement: {ID: !ul 7502049082398136738}
+  SRTHash: !u 0xa2ee5747
+  Translate: [-4.5176310539245605, 129.20999145507812, -91.76644134521484]
+- Gyaml: Area
+  Hash: !ul 16236357016492484393
+  Phive:
+    Placement: {ID: !ul 16236357016492484393}
+  SRTHash: !u 0xc8165857
+  Scale: [3.5, 1.0, 3.5]
+  Translate: [0.48236894607543945, 131.09799194335938, -86.86643981933594]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 3073724976478567574
+  Phive:
+    Placement: {ID: !ul 3073724976478567574}
+  SRTHash: !u 0xef68d40a
+  Scale: [0.8500000238418579, 1.5, 0.8500000238418579]
+  Translate: [-4.526973724365234, 124.40998840332031, -91.77787017822266]
+- Gyaml: Obj_WarpPoint_A_01
+  Hash: !ul 16704541039185127163
+  Phive:
+    Placement: {ID: !ul 16704541039185127163}
+  SRTHash: !u 0x338845c4
+  Translate: [-4.526973724365234, 124.40998840332031, -91.77787017822266]
+- Dynamic: {RequestEventName: Demo_SageOfWater_ClearEvent}
+  Gyaml: EventRequestActor
+  Hash: !ul 10016942881074853821
+  Links:
+  - {Dst: !ul 4444975895202620713, Gyaml: Reference, Name: Reference, Src: !ul 10016942881074853821}
+  Phive:
+    Placement: {ID: !ul 10016942881074853821}
+  SRTHash: !u 0x10017f5b
+  Translate: [-4.526973724365234, 127.76576232910156, -91.77787017822266]
+- Gyaml: DestinationAnchor
+  Hash: !ul 4444975895202620713
+  Name: center
+  Phive:
+    Placement: {ID: !ul 4444975895202620713}
+  SRTHash: !u 0x338845c4
+  Translate: [-4.526973724365234, 124.40998840332031, -91.77787017822266]
+- Gyaml: Area
+  Hash: !ul 18300423939545783081
+  Phive:
+    Placement: {ID: !ul 18300423939545783081}
+  SRTHash: !u 0x11a7b30b
+  Scale: [3.5, 1.0, 3.5]
+  Translate: [0.48236894607543945, 131.09799194335938, -96.86643981933594]
+- Dynamic: {RequestEventName: Demo_SageOfWater_BossAppears}
+  Gyaml: EventRequestActor
+  Hash: !ul 11144363949540596389
+  Links:
+  - {Dst: !ul 15937685389069788602, Gyaml: Reference, Name: Reference, Src: !ul 11144363949540596389}
+  - {Dst: !ul 13580112080642367431, Gyaml: Reference, Name: Reference, Src: !ul 11144363949540596389}
+  Phive:
+    Placement: {ID: !ul 11144363949540596389}
+  SRTHash: !u 0xcd9346b6
+  Translate: [-0.5176310539245605, 139.40853881835938, -89.93048095703125]
+- Gyaml: Area
+  Hash: !ul 2667497696562082203
+  Phive:
+    Placement: {ID: !ul 2667497696562082203}
+  SRTHash: !u 0x4a458870
+  Scale: [3.5, 1.0, 3.5]
+  Translate: [-9.517631530761719, 131.09799194335938, -96.86643981933594]
+- Gyaml: Area
+  Hash: !ul 7935427986915191325
+  Phive:
+    Placement: {ID: !ul 7935427986915191325}
+  SRTHash: !u 0x36dda3a0
+  Scale: [3.5, 1.0, 3.5]
+  Translate: [-9.517631530761719, 131.09799194335938, -86.86643981933594]
+- Gyaml: DestinationAnchor
+  Hash: !ul 10460424583167599542
+  Name: BossDefeat
+  Phive:
+    Placement: {ID: !ul 10460424583167599542}
+  Rotate: [3.141592502593994, 0.0, -3.141592502593994]
+  SRTHash: !u 0x85e3394f
+  Translate: [-4.5176310539245605, 124.41049194335938, -83.62401580810547]
+- Gyaml: AnchorAction1
+  Hash: !ul 7545734182908534552
+  Name: AppearPoint
+  Phive:
+    Placement: {ID: !ul 7545734182908534552}
+  SRTHash: !u 0x08154572
+  Translate: [-14.517631530761719, 130.8099822998047, -101.76644134521484]
+- Gyaml: AnchorAction1
+  Hash: !ul 5128542349737946322
+  Name: AppearPoint
+  Phive:
+    Placement: {ID: !ul 5128542349737946322}
+  SRTHash: !u 0xb00ca243
+  Translate: [-14.517631530761719, 130.8099822998047, -96.76644134521484]
+- Gyaml: AnchorAction1
+  Hash: !ul 772666724088379923
+  Name: AppearPoint
+  Phive:
+    Placement: {ID: !ul 772666724088379923}
+  SRTHash: !u 0x1d4d8d40
+  Translate: [0.48236894607543945, 130.8099822998047, -81.76644134521484]
+- Gyaml: AnchorAction1
+  Hash: !ul 11317576075820434654
+  Name: AppearPointSub
+  Phive:
+    Placement: {ID: !ul 11317576075820434654}
+  SRTHash: !u 0xd771b96b
+  Translate: [-14.517631530761719, 130.8099822998047, -84.26644134521484]
+- Gyaml: AnchorAction1
+  Hash: !ul 12845049917578935242
+  Name: AppearPointSub
+  Phive:
+    Placement: {ID: !ul 12845049917578935242}
+  SRTHash: !u 0x51d1e7fd
+  Translate: [5.4823689460754395, 130.8099822998047, -99.26644134521484]
+- Gyaml: AnchorAction1
+  Hash: !ul 11699125905774604729
+  Name: AppearPoint
+  Phive:
+    Placement: {ID: !ul 11699125905774604729}
+  SRTHash: !u 0xa3cacc6f
+  Translate: [-14.517631530761719, 130.8099822998047, -81.76644134521484]
+- Gyaml: AnchorAction1
+  Hash: !ul 9188287713403305865
+  Name: AppearPointSub
+  Phive:
+    Placement: {ID: !ul 9188287713403305865}
+  SRTHash: !u 0x89dbab55
+  Translate: [-2.0176310539245605, 130.8099822998047, -81.76644134521484]
+- Gyaml: AnchorAction1
+  Hash: !ul 17627258783861010082
+  Name: AppearPointSub
+  Phive:
+    Placement: {ID: !ul 17627258783861010082}
+  SRTHash: !u 0xa657580b
+  Translate: [-14.517631530761719, 130.8099822998047, -89.26644134521484]
+- Gyaml: AnchorAction1
+  Hash: !ul 2136702942753550609
+  Name: AppearPointSub
+  Phive:
+    Placement: {ID: !ul 2136702942753550609}
+  SRTHash: !u 0x8ac30924
+  Translate: [5.4823689460754395, 130.8099822998047, -84.26644134521484]
+- Gyaml: AnchorAction1
+  Hash: !ul 9664514235422857049
+  Name: AppearPoint
+  Phive:
+    Placement: {ID: !ul 9664514235422857049}
+  SRTHash: !u 0x80656744
+  Translate: [-14.517631530761719, 130.8099822998047, -86.76644134521484]
+- Gyaml: AnchorAction1
+  Hash: !ul 5446184024017588876
+  Name: AppearPoint
+  Phive:
+    Placement: {ID: !ul 5446184024017588876}
+  SRTHash: !u 0x34342f9b
+  Translate: [5.4823689460754395, 130.8099822998047, -101.76644134521484]
+- Gyaml: AnchorAction1
+  Hash: !ul 14289724113571231801
+  Name: AppearPointSub
+  Phive:
+    Placement: {ID: !ul 14289724113571231801}
+  SRTHash: !u 0x4decb1df
+  Translate: [-12.017631530761719, 130.8099822998047, -101.76644134521484]
+- Gyaml: AnchorAction1
+  Hash: !ul 1450219272716512271
+  Name: AppearPoint
+  Phive:
+    Placement: {ID: !ul 1450219272716512271}
+  SRTHash: !u 0xc441a94f
+  Translate: [-4.5176310539245605, 130.8099822998047, -81.76644134521484]
+- Gyaml: AnchorAction1
+  Hash: !ul 4925129086676663659
+  Name: AppearPointSub
+  Phive:
+    Placement: {ID: !ul 4925129086676663659}
+  SRTHash: !u 0x797e4bbd
+  Translate: [5.4823689460754395, 130.8099822998047, -89.26644134521484]
+- Gyaml: AnchorAction1
+  Hash: !ul 6027948173075544822
+  Name: AppearPoint
+  Phive:
+    Placement: {ID: !ul 6027948173075544822}
+  SRTHash: !u 0xa6d91234
+  Translate: [5.4823689460754395, 130.8099822998047, -96.76644134521484]
+- Gyaml: AnchorAction1
+  Hash: !ul 18358785245529563487
+  Name: AppearPoint
+  Phive:
+    Placement: {ID: !ul 18358785245529563487}
+  SRTHash: !u 0xf92dae7a
+  Translate: [5.4823689460754395, 130.8099822998047, -91.76644134521484]
+- Gyaml: AnchorAction1
+  Hash: !ul 4744571319452759415
+  Name: AppearPointSub
+  Phive:
+    Placement: {ID: !ul 4744571319452759415}
+  SRTHash: !u 0x18f3360b
+  Translate: [2.9823689460754395, 130.8099822998047, -81.76644134521484]
+- Gyaml: AnchorAction1
+  Hash: !ul 1701282856246148804
+  Name: AppearPoint
+  Phive:
+    Placement: {ID: !ul 1701282856246148804}
+  SRTHash: !u 0x3a5489ae
+  Translate: [0.48236894607543945, 130.8099822998047, -101.76644134521484]
+- Gyaml: AnchorAction1
+  Hash: !ul 16716800819430556614
+  Name: AppearPoint
+  Phive:
+    Placement: {ID: !ul 16716800819430556614}
+  SRTHash: !u 0xcbaaabbd
+  Translate: [5.4823689460754395, 130.8099822998047, -86.76644134521484]
+- Gyaml: AnchorAction1
+  Hash: !ul 11054996038721282098
+  Name: AppearPointSub
+  Phive:
+    Placement: {ID: !ul 11054996038721282098}
+  SRTHash: !u 0xa76deaaa
+  Translate: [5.4823689460754395, 130.8099822998047, -94.26644134521484]
+- Gyaml: AnchorAction1
+  Hash: !ul 2049665883600250488
+  Name: AppearPointSub
+  Phive:
+    Placement: {ID: !ul 2049665883600250488}
+  SRTHash: !u 0x7de3eaee
+  Translate: [-2.0176310539245605, 130.8099822998047, -101.76644134521484]
+- Gyaml: AnchorAction1
+  Hash: !ul 5795648709304574662
+  Name: AppearPointSub
+  Phive:
+    Placement: {ID: !ul 5795648709304574662}
+  SRTHash: !u 0x5a3ee1fe
+  Translate: [2.9823689460754395, 130.8099822998047, -101.76644134521484]
+- Gyaml: AnchorAction1
+  Hash: !ul 4146158267703550023
+  Name: AppearPoint
+  Phive:
+    Placement: {ID: !ul 4146158267703550023}
+  SRTHash: !u 0x1e48441c
+  Translate: [-4.5176310539245605, 130.8099822998047, -101.76644134521484]
+- Gyaml: AnchorAction1
+  Hash: !ul 14736993195038403155
+  Name: AppearPoint
+  Phive:
+    Placement: {ID: !ul 14736993195038403155}
+  SRTHash: !u 0xc69d6148
+  Translate: [-14.517631530761719, 130.8099822998047, -91.76644134521484]
+- Gyaml: AnchorAction1
+  Hash: !ul 16704868154770548217
+  Name: AppearPointSub
+  Phive:
+    Placement: {ID: !ul 16704868154770548217}
+  SRTHash: !u 0xcdcf28fe
+  Translate: [-7.0176310539245605, 130.8099822998047, -81.76644134521484]
+- Gyaml: AnchorAction1
+  Hash: !ul 2209470239839153425
+  Name: AppearPoint
+  Phive:
+    Placement: {ID: !ul 2209470239839153425}
+  SRTHash: !u 0x8fb76881
+  Translate: [-9.517631530761719, 130.8099822998047, -101.76644134521484]
+- Gyaml: AnchorAction1
+  Hash: !ul 8605349605858400712
+  Name: AppearPointSub
+  Phive:
+    Placement: {ID: !ul 8605349605858400712}
+  SRTHash: !u 0xd5f0d019
+  Translate: [-14.517631530761719, 130.8099822998047, -99.26644134521484]
+- Gyaml: AnchorAction1
+  Hash: !ul 75554563751388045
+  Name: AppearPointSub
+  Phive:
+    Placement: {ID: !ul 75554563751388045}
+  SRTHash: !u 0xba327a41
+  Translate: [-12.017631530761719, 130.8099822998047, -81.76644134521484]
+- Gyaml: AnchorAction1
+  Hash: !ul 13542332193423958677
+  Name: AppearPointSub
+  Phive:
+    Placement: {ID: !ul 13542332193423958677}
+  SRTHash: !u 0x4355e587
+  Translate: [-7.0176310539245605, 130.8099822998047, -101.76644134521484]
+- Gyaml: AnchorAction1
+  Hash: !ul 2534930677784860881
+  Name: AppearPoint
+  Phive:
+    Placement: {ID: !ul 2534930677784860881}
+  SRTHash: !u 0xdfb4f037
+  Translate: [5.4823689460754395, 130.8099822998047, -81.76644134521484]
+- Gyaml: AnchorAction1
+  Hash: !ul 14596872202215035325
+  Name: AppearPointSub
+  Phive:
+    Placement: {ID: !ul 14596872202215035325}
+  SRTHash: !u 0x1026db7c
+  Translate: [-14.517631530761719, 130.8099822998047, -94.26644134521484]
+- Gyaml: AnchorAction1
+  Hash: !ul 560853237841922292
+  Name: AppearPoint
+  Phive:
+    Placement: {ID: !ul 560853237841922292}
+  SRTHash: !u 0x00f949d9
+  Translate: [-9.517631530761719, 130.8099822998047, -81.76644134521484]
+- Dynamic: {WaterFogType: 2}
+  Gyaml: Obj_WaterTemple_WaterPlane_A_08
+  Hash: !ul 9404047253592751591
+  Phive:
+    Placement: {ID: !ul 9404047253592751591}
+  Presence: {FlagName: DreamWorld_CreateWarp, IsCheckLazy: false, IsNegation: true}
+  SRTHash: !u 0xb79c79ab
+  Scale: [2.5, 0.699999988079071, 2.5]
+  Translate: [-4.5176310539245605, 130.84799194335938, -91.76644134521484]
+- Gyaml: AnchorAction1
+  Hash: !ul 1806821011358270789
+  Name: AppearPointSub
+  Phive:
+    Placement: {ID: !ul 1806821011358270789}
+  SRTHash: !u 0xd64bb9ac
+  Translate: [-2.0176310539245605, 130.8099822998047, -91.76644134521484]
+- Gyaml: AnchorAction1
+  Hash: !ul 11600194231716300078
+  Name: AppearPointSub
+  Phive:
+    Placement: {ID: !ul 11600194231716300078}
+  SRTHash: !u 0x2aa8fc53
+  Translate: [2.9823689460754395, 130.8099822998047, -91.76644134521484]
+- Gyaml: AnchorAction1
+  Hash: !ul 9467324636346583874
+  Name: AppearPointSub
+  Phive:
+    Placement: {ID: !ul 9467324636346583874}
+  SRTHash: !u 0x94306308
+  Translate: [-12.017631530761719, 130.8099822998047, -91.76644134521484]
+- Gyaml: AnchorAction1
+  Hash: !ul 15971970032265826395
+  Name: AppearPoint
+  Phive:
+    Placement: {ID: !ul 15971970032265826395}
+  SRTHash: !u 0x8e13ac29
+  Translate: [-4.5176310539245605, 130.8099822998047, -96.76644134521484]
+- Gyaml: AnchorAction1
+  Hash: !ul 6412019455366539838
+  Name: AppearPointSub
+  Phive:
+    Placement: {ID: !ul 6412019455366539838}
+  SRTHash: !u 0x5e690219
+  Translate: [-4.5176310539245605, 130.8099822998047, -94.26644134521484]
+- Gyaml: AnchorAction1
+  Hash: !ul 15701677191731744578
+  Name: AppearPoint
+  Phive:
+    Placement: {ID: !ul 15701677191731744578}
+  SRTHash: !u 0x1824e6f5
+  Translate: [-4.5176310539245605, 130.8099822998047, -86.76644134521484]
+- Gyaml: AnchorAction1
+  Hash: !ul 16669920545160792882
+  Name: AppearPoint
+  Phive:
+    Placement: {ID: !ul 16669920545160792882}
+  SRTHash: !u 0xb7531af8
+  Translate: [-9.517631530761719, 130.8099822998047, -91.76644134521484]
+- Gyaml: AnchorAction1
+  Hash: !ul 3339433897467246352
+  Name: AppearPoint
+  Phive:
+    Placement: {ID: !ul 3339433897467246352}
+  SRTHash: !u 0x2ca4a9d5
+  Translate: [0.48236894607543945, 130.8099822998047, -91.76644134521484]
+- Gyaml: AnchorAction1
+  Hash: !ul 14150305435192626104
+  Name: AppearPointSub
+  Phive:
+    Placement: {ID: !ul 14150305435192626104}
+  SRTHash: !u 0x3bd97e07
+  Translate: [-4.5176310539245605, 130.8099822998047, -89.26644134521484]
+- Gyaml: AnchorAction1
+  Hash: !ul 7545242030921629197
+  Name: AppearPointSub
+  Phive:
+    Placement: {ID: !ul 7545242030921629197}
+  SRTHash: !u 0xac6ae980
+  Translate: [-4.5176310539245605, 130.8099822998047, -84.26644134521484]
+- Gyaml: AnchorAction1
+  Hash: !ul 15435261259075230638
+  Name: AppearPointSub
+  Phive:
+    Placement: {ID: !ul 15435261259075230638}
+  SRTHash: !u 0xd2bb39bd
+  Translate: [-4.5176310539245605, 130.8099822998047, -99.26644134521484]
+- Gyaml: AnchorAction1
+  Hash: !ul 9503586258157111767
+  Name: AppearPointSub
+  Phive:
+    Placement: {ID: !ul 9503586258157111767}
+  SRTHash: !u 0xbe16f2a4
+  Translate: [-7.0176310539245605, 130.8099822998047, -91.76644134521484]
+- Gyaml: AnchorAction1
+  Hash: !ul 7807026406402166177
+  Name: AppearPointInner
+  Phive:
+    Placement: {ID: !ul 7807026406402166177}
+  SRTHash: !u 0x1e86daf7
+  Translate: [-4.5176310539245605, 130.8099822998047, -91.76644134521484]
+- Gyaml: DestinationAnchor
+  Hash: !ul 15937685389069788602
+  Name: BossAppear
+  Phive:
+    Placement: {ID: !ul 15937685389069788602}
+  Rotate: [-3.141592502593994, -0.7853982448577881, -3.141592502593994]
+  SRTHash: !u 0x845622a8
+  Translate: [0.15968084335327148, 131.3079833984375, -87.10070037841797]
+- Bakeable: true
+  Gyaml: Obj_DoorChainLock_A_02
+  Hash: !ul 16983902703344905092
+  Phive:
+    Placement: {ID: !ul 16983902703344905092}
+  SRTHash: !u 0xef4d4c89
+  Translate: [-4.5176310539245605, 131.3079833984375, -71.14643859863281]
+- Bakeable: true
+  Dynamic: {NomralEvent: Common_Dungeon_OpenShutterMoveToPlusZ_Boss, OpenChainEvent: Common_Dungeon_OpenDoorChainLockMoveToPlusZ_Boss,
+    OpenChainShutterEvent: Common_Dungeon_OpenDoorChainLockMoveToPlusZ_Boss, ShutterEvent: Common_Dungeon_OpenShutterMoveToPlusZ_Boss}
+  Gyaml: Obj_WaterTemple_SwitchShutter_A_04
+  Hash: !ul 5482206711554272203
+  Links:
+  - {Dst: !ul 16983902703344905092, Gyaml: Reference, Name: Reference, Src: !ul 5482206711554272203}
+  - {Dst: !ul 17349373039953628604, Gyaml: Reference, Name: Reference, Src: !ul 5482206711554272203}
+  - {Dst: !ul 8305541811608900679, Gyaml: Reference, Name: Reference, Src: !ul 5482206711554272203}
+  Phive:
+    Placement: {ID: !ul 5482206711554272203}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0x2e0096a3
+  Translate: [-4.5176310539245605, 131.3079833984375, -71.14643859863281]
+- Gyaml: AirWallEnemy
+  Hash: !ul 234470899396867173
+  Phive:
+    Placement: {ID: !ul 234470899396867173}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0x245710de
+  Scale: [3.0, 4.0, 1.7000000476837158]
+  Translate: [-4.5176310539245605, 133.3079833984375, -71.14643859863281]
+- Bakeable: true
+  Gyaml: Obj_SwitchShutter_A_06
+  Hash: !ul 17349373039953628604
+  Phive:
+    Placement: {ID: !ul 17349373039953628604}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0xfed9bd03
+  Translate: [-4.5176310539245605, 131.3079833984375, -71.4964370727539]
+- Gyaml: DestinationAnchor
+  Hash: !ul 8305541811608900679
+  Name: CameraPlusZ
+  Phive:
+    Placement: {ID: !ul 8305541811608900679}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0xcd720636
+  Translate: [-4.5176310539245605, 131.3079833984375, -73.14643859863281]
+- Gyaml: NoEscapeRangeAreaBox
+  Hash: !ul 9519297107902661708
+  Name: NoEscapeArea_SubEvent_AllBossBattle
+  Phive:
+    Placement: {ID: !ul 9519297107902661708}
+  SRTHash: !u 0x9a10d413
+  Scale: [59.86734390258789, 33.4542121887207, 71.81155395507812]
+  Translate: [-4.492794513702393, 136.59011840820312, -101.82855987548828]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_BossIsland_A_02
+  Hash: !ul 13580112080642367431
+  Phive:
+    Placement: {ID: !ul 13580112080642367431}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x923a02f9
+  Translate: [0.5300002098083496, 124.36000061035156, -86.83000183105469]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_BossCeiling_A_01
+  Hash: !ul 10942268268587689052
+  Phive:
+    Placement: {ID: !ul 10942268268587689052}
+  SRTHash: !u 0x5910ab96
+  Translate: [-4.46999979019165, 131.36000061035156, -71.08000183105469]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_BossFloor_B_01
+  Hash: !ul 1274145013373312263
+  Phive:
+    Placement: {ID: !ul 1274145013373312263}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0xf2b8b311
+  Translate: [-4.46999979019165, 131.36000061035156, -91.83000183105469]
+- Gyaml: Obj_WaterTemple_WaterPlane_A_04
+  Hash: !ul 12122102314526833054
+  Phive:
+    Placement: {ID: !ul 12122102314526833054}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x45b37bc0
+  Scale: [0.6399999856948853, 1.0, 4.03000020980835]
+  Translate: [-4.4472198486328125, 131.3118133544922, -73.84742736816406]
+- Gyaml: Obj_WaterTemple_WaterPlane_A_04
+  Hash: !ul 2060786042226492527
+  Phive:
+    Placement: {ID: !ul 2060786042226492527}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xa8a9f7f4
+  Scale: [0.7099999785423279, 1.0, 4.03000020980835]
+  Translate: [-4.4472198486328125, 131.3118133544922, -108.62498474121094]
+- Gyaml: EftLoc_InsideTheDekuTree_WaterDrop_00
+  Hash: !ul 15113303073939688328
+  Phive:
+    Placement: {ID: !ul 15113303073939688328}
+  SRTHash: !u 0x29314ef3
+  Translate: [-2.928781270980835, 129.37384033203125, -93.44456481933594]
+- Gyaml: EftLoc_InsideTheDekuTree_WaterDrop_00
+  Hash: !ul 8440806713985742412
+  Phive:
+    Placement: {ID: !ul 8440806713985742412}
+  SRTHash: !u 0x2852dcc8
+  Translate: [-6.382516384124756, 129.37384033203125, -89.90074920654297]
+- Gyaml: EftLoc_InsideTheDekuTree_WaterDrop_00
+  Hash: !ul 10755595568777465299
+  Phive:
+    Placement: {ID: !ul 10755595568777465299}
+  SRTHash: !u 0x35006110
+  Translate: [-1.0883774757385254, 127.43525695800781, -88.48712158203125]
+- Gyaml: EftLoc_InsideTheDekuTree_WaterDrop_00
+  Hash: !ul 8902448444090465783
+  Phive:
+    Placement: {ID: !ul 8902448444090465783}
+  SRTHash: !u 0xec24d45b
+  Translate: [-11.145303726196289, 127.43525695800781, -95.07156372070312]
+- Gyaml: Area
+  Hash: !ul 12868038627807153741
+  Phive:
+    Placement: {ID: !ul 12868038627807153741}
+  SRTHash: !u 0xf48b3a86
+  Scale: [45.0, 12.0, 45.0]
+  Translate: [-5.099656581878662, 85.22093200683594, -89.73157501220703]
+- Dynamic: {AreaHintEventName: NaviHint_Rematch}
+  Gyaml: NaviAreaHintEventActor
+  Hash: !ul 10746171189032997191
+  Phive:
+    Placement: {ID: !ul 10746171189032997191}
+  SRTHash: !u 0x7a779ebd
+  Translate: [3.911494731903076, 146.3658905029297, -112.51168060302734]
+- Gyaml: Area
+  Hash: !ul 6959795109560723802
+  Phive:
+    Placement: {ID: !ul 6959795109560723802}
+  Rotate: [0.0, -1.570796251296997, 8.940696716308594e-08]
+  SRTHash: !u 0x2bbfd3f7
+  Scale: [37.575233459472656, 19.49767303466797, 27.149581909179688]
+  Translate: [-3.3087966442108154, 116.98246765136719, -101.00752258300781]
+- Dynamic: {IsRoomArea: true}
+  Gyaml: DungeonRoomArea
+  Hash: !ul 4762819571324285851
+  Phive:
+    Placement: {ID: !ul 4762819571324285851}
+  SRTHash: !u 0x8a543ebf
+  Scale: [1.622682809829712, 1.4390318393707275, 1.1936907768249512]
+  Translate: [-4.559624671936035, 123.21893310546875, -114.81018829345703]
+- Bakeable: true
+  Gyaml: Obj_DoorChainLock_A_02
+  Hash: !ul 12352201457951814838
+  Phive:
+    Placement: {ID: !ul 12352201457951814838}
+  SRTHash: !u 0xaf6a6f2b
+  Translate: [-4.5, 131.30673217773438, -71.17613983154297]
+- Bakeable: true
+  Dynamic: {NomralEvent: Common_Dungeon_OpenShutterMoveToPlusZ_Boss, OpenChainEvent: Common_Dungeon_OpenDoorChainLockMoveToPlusZ_Boss,
+    OpenChainShutterEvent: Common_Dungeon_OpenDoorChainLockMoveToPlusZ_Boss, ShutterEvent: Common_Dungeon_OpenShutterMoveToPlusZ_Boss}
+  Gyaml: Obj_WaterTemple_SwitchShutter_A_04
+  Hash: !ul 3935014019074930041
+  Links:
+  - {Dst: !ul 12352201457951814838, Gyaml: Reference, Name: Reference, Src: !ul 3935014019074930041}
+  - {Dst: !ul 6265742247990773326, Gyaml: Reference, Name: Reference, Src: !ul 3935014019074930041}
+  - {Dst: !ul 15219067791858229202, Gyaml: Reference, Name: Reference, Src: !ul 3935014019074930041}
+  Phive:
+    Placement: {ID: !ul 3935014019074930041}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xd266a507
+  Translate: [-4.5, 131.30673217773438, -71.17613983154297]
+- Bakeable: true
+  Gyaml: Obj_SwitchShutter_A_06
+  Hash: !ul 6265742247990773326
+  Phive:
+    Placement: {ID: !ul 6265742247990773326}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xd885bc4f
+  Translate: [-4.5, 131.30673217773438, -71.52613830566406]
+- Gyaml: DestinationAnchor
+  Hash: !ul 15219067791858229202
+  Name: CameraPlusZ
+  Phive:
+    Placement: {ID: !ul 15219067791858229202}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xde6daa7b
+  Translate: [-4.5, 131.30673217773438, -73.17613983154297]
+AiGroups:
+- Hash: !ul 6192284191939888445
+  Logic: Logic/Module/WaterTemple_Map_Room_23_Prefab/WaterTemple_Map_Room_23_Prefab_2d57.logic.module.ain
+  References:
+  - {Id: Land_WaterTemple_BossIsland_A_02_5e49, Path: Land_WaterTemple_BossIsland_A_02_5e49,
+    Reference: !ul 13580112080642367431}
+  - {Id: Area_6e2d, Path: Area_6e2d, Reference: !ul 12868038627807153741}
+- Hash: !ul 9588546500742220701
+  Logic: Logic/Module/WaterTemple_Map_Room_23_Prefab/WaterTemple_Map_Room_23_Prefab_5d42.logic.module.ain
+  References:
+  - {Id: EftLoc_InsideTheDekuTree_WaterDrop_00_31f6, Path: EftLoc_InsideTheDekuTree_WaterDrop_00_31f6,
+    Reference: !ul 15113303073939688328}
+  - {Id: EftLoc_InsideTheDekuTree_WaterDrop_00_3a62, Path: EftLoc_InsideTheDekuTree_WaterDrop_00_3a62,
+    Reference: !ul 8440806713985742412}
+  - {Id: EftLoc_InsideTheDekuTree_WaterDrop_00_84d4, Path: EftLoc_InsideTheDekuTree_WaterDrop_00_84d4,
+    Reference: !ul 8902448444090465783}
+  - {Id: EftLoc_InsideTheDekuTree_WaterDrop_00_dd02, Path: EftLoc_InsideTheDekuTree_WaterDrop_00_dd02,
+    Reference: !ul 10755595568777465299}
+- Blackboards: [Component/Blackboard/BlackboardInfo/DungeonRoom.engine__component__BlackboardInfo.gyml]
+  Hash: !ul 12696008477378802584
+  Logic: Logic/Root/MorphaStage/MorphaStage_b2a6.logic.root.ain
+  References:
+  - {Id: Area_c45b, Path: Area_c45b, Reference: !ul 4762819571324285851}
+- Hash: !ul 13213528946105767877
+  Logic: Logic/Root/MorphaStage/MorphaStage_0120.logic.root.ain
+  References:
+  - {Id: Enemy_DungeonBoss_Morpha_3487, Path: _4a32/Enemy_DungeonBoss_Morpha_3487,
+    Reference: !ul 7502049082398136738}
+  - {Id: EventRequestActor_024c, Path: _4a32/_5cbe/EventRequestActor_024c, Reference: !ul 10016942881074853821}
+  - {Id: Area_bfbc, Path: _4a32/_5cbe/Area_bfbc, Reference: !ul 3073724976478567574}
+  - {Id: Obj_WarpPoint_A_01_14a2, Path: _4a32/_5cbe/Obj_WarpPoint_A_01_14a2, Reference: !ul 16704541039185127163}
+  - {Id: DestinationAnchor_a8b5, Path: _4a32/_5cbe/DestinationAnchor_a8b5, Reference: !ul 4444975895202620713}
+  - {Id: AiGroup, InstanceName: Gimmick_Warp_FromDungeon_061c_f542, Logic: Logic/Module/Gimmick_Warp_FromDungeon/Gimmick_Warp_FromDungeon_061c.logic.module.ain,
+    Path: _4a32/_5cbe/AiGroup, Reference: !ul 4517118441060860860}
+  - {Id: EventRequestActor_e171, Path: _4a32/EventRequestActor_e171, Reference: !ul 11144363949540596389}
+  - {Id: Area_08c2, Path: _4a32/Area_08c2, Reference: !ul 7935427986915191325}
+  - {Id: Area_2b02, Path: _4a32/Area_2b02, Reference: !ul 18300423939545783081}
+  - {Id: Area_723e, Path: _4a32/Area_723e, Reference: !ul 2667497696562082203}
+  - {Id: Area_c39b, Path: _4a32/Area_c39b, Reference: !ul 16236357016492484393}
+  - {Id: ChainLockLocator_BossDoor_fabe, Path: _4a32/_cfa2/ChainLockLocator_BossDoor_fabe,
+    Reference: !ul 16983902703344905092}
+  - {Id: ShutterLocator_BossDoor_362a, Path: _4a32/_cfa2/ShutterLocator_BossDoor_362a,
+    Reference: !ul 5482206711554272203}
+  - {Id: ChainLockLocator_BossLattice_6223, Path: _4a32/_cfa2/ChainLockLocator_BossLattice_6223,
+    Reference: !ul 17349373039953628604}
+  - {Id: AiGroup, InstanceName: DungeonSwitchShutterBossWithChainLockSet_15e6_50ec,
+    Logic: Logic/Module/DungeonSwitchShutterBossWithChainLockSet/DungeonSwitchShutterBossWithChainLockSet_15e6.logic.module.ain,
+    Path: _4a32/_cfa2/AiGroup, Reference: !ul 6912104740175397779}
+  - {Id: AiGroup, InstanceName: Enemy_DungeonBoss_Morpha_Prefab_870e_a312, Logic: Logic/Module/Enemy_DungeonBoss_Morpha_Prefab/Enemy_DungeonBoss_Morpha_Prefab_870e.logic.module.ain,
+    Path: _4a32/AiGroup, Reference: !ul 17950525016501762959}
+  - {Id: NaviAreaHintEventActor_a400, Path: NaviAreaHintEventActor_a400, Reference: !ul 10746171189032997191}
+  - {Id: Area_dd6f, Path: Area_dd6f, Reference: !ul 6959795109560723802}
+- Hash: !ul 17811563471207417316
+  InstanceName: DungeonSwitchShutterBossWithChainLockSet_15e6_5a01
+  Logic: Logic/Module/DungeonSwitchShutterBossWithChainLockSet/DungeonSwitchShutterBossWithChainLockSet_15e6.logic.module.ain
+  References:
+  - {Id: ChainLockLocator_BossDoor_fabe, Path: ChainLockLocator_BossDoor_fabe, Reference: !ul 12352201457951814838}
+  - {Id: ShutterLocator_BossDoor_362a, Path: ShutterLocator_BossDoor_362a, Reference: !ul 3935014019074930041}
+  - {Id: ChainLockLocator_BossLattice_6223, Path: ChainLockLocator_BossLattice_6223,
+    Reference: !ul 6265742247990773326}
+FarDeleteGroups:
+- [!ul 2667497696562082203, !ul 3073724976478567574, !ul 4444975895202620713, !ul 5482206711554272203,
+  !ul 6959795109560723802, !ul 7502049082398136738, !ul 7935427986915191325, !ul 10016942881074853821,
+  !ul 10746171189032997191, !ul 11144363949540596389, !ul 16236357016492484393, !ul 16704541039185127163,
+  !ul 16983902703344905092, !ul 17349373039953628604, !ul 18300423939545783081]
+- [!ul 8440806713985742412, !ul 8902448444090465783, !ul 10755595568777465299, !ul 15113303073939688328]
+- [!ul 3935014019074930041, !ul 6265742247990773326, !ul 12352201457951814838]
+- [!ul 12868038627807153741, !ul 13580112080642367431]
+FilePath: Work/Banc/Scene/DreamWorld/MorphaStage.bcett.json
+PhiveHeader:
+  PlacementGroups: []
+SimultaneousGroups:
+- [!ul 2667497696562082203, !ul 3073724976478567574, !ul 4444975895202620713, !ul 5482206711554272203,
+  !ul 6959795109560723802, !ul 7502049082398136738, !ul 7935427986915191325, !ul 10016942881074853821,
+  !ul 10746171189032997191, !ul 11144363949540596389, !ul 16236357016492484393, !ul 16704541039185127163,
+  !ul 16983902703344905092, !ul 17349373039953628604, !ul 18300423939545783081]
+- [!ul 8440806713985742412, !ul 8902448444090465783, !ul 10755595568777465299, !ul 15113303073939688328]
+- [!ul 3935014019074930041, !ul 6265742247990773326, !ul 12352201457951814838]
+- [!ul 12868038627807153741, !ul 13580112080642367431]

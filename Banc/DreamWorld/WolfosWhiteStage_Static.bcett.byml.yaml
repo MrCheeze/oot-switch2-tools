@@ -1,0 +1,239 @@
+Actors:
+- Bakeable: true
+  Gyaml: Land_IceCave_Floor_A_05
+  Hash: !ul 8539580397746527431
+  Phive:
+    Placement: {ID: !ul 8539580397746527431}
+  SRTHash: !u 0xb93fb4cc
+  Translate: [-46.29999923706055, 109.5999984741211, 25.799999237060547]
+- Gyaml: Land_IceCave_Icicles_B_01
+  Hash: !ul 8158836208296838081
+  Phive:
+    Placement: {ID: !ul 8158836208296838081}
+  SRTHash: !u 0xb93fb4cc
+  Translate: [-46.29999923706055, 109.5999984741211, 25.799999237060547]
+- Bakeable: true
+  Gyaml: Land_IceCave_IceBlock_A_01
+  Hash: !ul 18413663801677510260
+  Phive:
+    Placement: {ID: !ul 18413663801677510260}
+  SRTHash: !u 0xd5713bd0
+  Translate: [-46.17206954956055, 109.5999984741211, 26.129915237426758]
+- Bakeable: true
+  Dynamic: {GameModelController_LightTimeTableParamKey: IceCavernEntrance}
+  Gyaml: Land_IceCave_Floor_A_03
+  Hash: !ul 3717692223745595072
+  Phive:
+    Placement: {ID: !ul 3717692223745595072}
+  SRTHash: !u 0xff3d163d
+  Translate: [-46.20000076293945, 109.69999694824219, 50.400001525878906]
+- Dynamic: {FogParams: SceneConnectArea_White_01}
+  Gyaml: VolumeFogArea
+  Hash: !ul 4891301366086866174
+  Phive:
+    Placement: {ID: !ul 4891301366086866174}
+  SRTHash: !u 0x6b3d3a13
+  Scale: [20.0, 20.0, 29.0]
+  Translate: [-46.20000076293945, 99.69999694824219, 92.79998779296875]
+- Gyaml: Obj_WaterPlane_A_01
+  Hash: !ul 14589469973057660253
+  Phive:
+    Placement: {ID: !ul 14589469973057660253}
+  SRTHash: !u 0x73b736a4
+  Scale: [4.0, 4.0, 4.0]
+  Translate: [-47.26679992675781, 107.94007873535156, 80.08716583251953]
+- Gyaml: NoEscapeRangeAreaBox
+  Hash: !ul 10643296452971022985
+  Name: NoEscapeArea_SubEvent_AllBossBattle
+  Phive:
+    Placement: {ID: !ul 10643296452971022985}
+  SRTHash: !u 0x1846533c
+  Scale: [63.95399475097656, 44.34735870361328, 75.7598876953125]
+  Translate: [-45.38418960571289, 113.83479309082031, 48.061553955078125]
+- Bakeable: true
+  Dynamic: {ShutterEvent: Common_Dungeon_OpenShutterWithLockMoveToPlusZ_FocusWhiteWolfos}
+  Gyaml: Obj_IceCave_SwitchShutter_A_02
+  Hash: !ul 8232310084329217032
+  Links:
+  - {Dst: !ul 1913474580029400140, Gyaml: Reference, Name: Reference, Src: !ul 8232310084329217032}
+  - {Dst: !ul 6978886680202946018, Gyaml: Reference, Name: Reference, Src: !ul 8232310084329217032}
+  - {Dst: !ul 3043757943077778402, Gyaml: Reference, Name: Reference, Src: !ul 8232310084329217032}
+  - {Dst: !ul 736612578105785984, Gyaml: Reference, Name: Reference, Src: !ul 8232310084329217032}
+  - {Dst: !ul 9127754143614201145, Gyaml: Reference, Name: Reference, Src: !ul 8232310084329217032}
+  - {Dst: !ul 8238632113488908819, Gyaml: Reference, Name: Reference, Src: !ul 8232310084329217032}
+  - {Dst: !ul 8358783442742377109, Gyaml: Reference, Name: Reference, Src: !ul 8232310084329217032}
+  Phive:
+    Placement: {ID: !ul 8232310084329217032}
+  SRTHash: !u 0x18341f49
+  Translate: [-46.295692443847656, 109.57070922851562, 25.95426368713379]
+- Bakeable: true
+  Gyaml: Obj_SwitchShutter_A_02
+  Hash: !ul 6978886680202946018
+  Name: SwitchShutterPlusZ
+  Phive:
+    Placement: {ID: !ul 6978886680202946018}
+  SRTHash: !u 0x4f430963
+  Translate: [-46.295692443847656, 109.57070922851562, 26.394264221191406]
+- Bakeable: true
+  Gyaml: Obj_SwitchShutter_A_02
+  Hash: !ul 1913474580029400140
+  Name: SwitchShutterMinusZ
+  Phive:
+    Placement: {ID: !ul 1913474580029400140}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0x1924102c
+  Translate: [-46.295692443847656, 109.57070922851562, 25.514263153076172]
+- Gyaml: DestinationAnchor
+  Hash: !ul 17110115244918308
+  Phive:
+    Placement: {ID: !ul 17110115244918308}
+  SRTHash: !u 0xad487d8d
+  Translate: [-46.295692443847656, 110.57070922851562, 26.95426368713379]
+- Gyaml: DestinationAnchor
+  Hash: !ul 8605694645685238254
+  Phive:
+    Placement: {ID: !ul 8605694645685238254}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x4892351e
+  Translate: [-46.295692443847656, 110.57070922851562, 24.95426368713379]
+- Gyaml: AirWallEnemy
+  Hash: !ul 9553024963420188651
+  Phive:
+    Placement: {ID: !ul 9553024963420188651}
+  SRTHash: !u 0x9c0181cb
+  Scale: [1.7000000476837158, 2.5999999046325684, 1.7000000476837158]
+  Translate: [-46.295692443847656, 110.87071228027344, 25.95426368713379]
+- Gyaml: DestinationAnchor
+  Hash: !ul 736612578105785984
+  Name: CameraMinusZ
+  Phive:
+    Placement: {ID: !ul 736612578105785984}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x387d22b8
+  Translate: [-46.295692443847656, 109.57070922851562, 23.95426368713379]
+- Gyaml: DestinationAnchor
+  Hash: !ul 3043757943077778402
+  Name: CameraPlusZ
+  Phive:
+    Placement: {ID: !ul 3043757943077778402}
+  SRTHash: !u 0x71a835bc
+  Translate: [-46.295692443847656, 109.57070922851562, 27.95426368713379]
+- Dynamic:
+    MoveTime: 20.0
+    StartPosRate: [0.0, 0.0, -1.0]
+  Gyaml: PushAirWall_DoorFront
+  Hash: !ul 9127754143614201145
+  Phive:
+    Placement: {ID: !ul 9127754143614201145}
+  SRTHash: !u 0x18341f49
+  Translate: [-46.295692443847656, 109.57070922851562, 25.95426368713379]
+- Gyaml: Enemy_Wolfos_White
+  Hash: !ul 8358783442742377109
+  Name: First
+  Phive:
+    Placement: {ID: !ul 8358783442742377109}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0xf9487744
+  Translate: [-46.22492980957031, 109.63104248046875, 42.1456298828125]
+- Gyaml: DestinationAnchor
+  Hash: !ul 8238632113488908819
+  Name: WhiteWolfos
+  Phive:
+    Placement: {ID: !ul 8238632113488908819}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0xf9487744
+  Translate: [-46.224998474121094, 109.63076782226562, 42.145999908447266]
+- Gyaml: Area
+  Hash: !ul 13946176374272159061
+  Phive:
+    Placement: {ID: !ul 13946176374272159061}
+  Rotate: [0.0, -1.570796251296997, 8.940696716308594e-08]
+  SRTHash: !u 0x37572e7d
+  Scale: [36.719486236572266, 19.49767303466797, 19.719167709350586]
+  Translate: [-48.31393814086914, 93.79962921142578, 48.38187789916992]
+- Dynamic: {AreaHintEventName: NaviHint_Rematch}
+  Gyaml: NaviAreaHintEventActor
+  Hash: !ul 8326606179584635320
+  Phive:
+    Placement: {ID: !ul 8326606179584635320}
+  SRTHash: !u 0x87d6f7bc
+  Translate: [-37.618507385253906, 123.18305206298828, 27.668212890625]
+- Dynamic: {RequestEventName: DreamBossStage_TimeCountStop_WolfosWhite}
+  Gyaml: EventRequestActor
+  Hash: !ul 621654115011580444
+  Phive:
+    Placement: {ID: !ul 621654115011580444}
+  SRTHash: !u 0x6c303a78
+  Translate: [-45.97796630859375, 111.3507080078125, 35.33228302001953]
+- Dynamic: {IsRoomArea: true}
+  Gyaml: DungeonRoomArea
+  Hash: !ul 13607280608839630077
+  Phive:
+    Placement: {ID: !ul 13607280608839630077}
+  SRTHash: !u 0x0ab3cab2
+  Scale: [5.6671295166015625, 3.258904457092285, 2.7398757934570312]
+  Translate: [-46.555908203125, 107.23789978027344, 29.072837829589844]
+- Gyaml: Obj_DreamWorldTimerManager
+  Hash: !ul 9629866079918803353
+  Phive:
+    Placement: {ID: !ul 9629866079918803353}
+  Rotate: [0.007121553178876638, -0.0, -0.1029924750328064]
+  SRTHash: !u 0x94ccb01f
+  Translate: [-26.93106460571289, 113.6707534790039, 86.54664611816406]
+- Gyaml: Obj_EnemyCounter_A_06
+  Hash: !ul 17404993151380329822
+  Links:
+  - {Dst: !ul 8358783442742377109, Gyaml: Reference, Name: Reference, Src: !ul 17404993151380329822}
+  Phive:
+    Placement: {ID: !ul 17404993151380329822}
+  Rotate: [3.141592502593994, 0.2617993652820587, -3.141592502593994]
+  SRTHash: !u 0xa3cd7f33
+  Translate: [-46.17048263549805, 109.69000244140625, 50.31654739379883]
+- Dynamic: {FogParams: iceCaven_boss}
+  Gyaml: VolumeFogArea
+  Hash: !ul 3364392540103418440
+  Phive:
+    Placement: {ID: !ul 3364392540103418440}
+  SRTHash: !u 0x27eb818d
+  Scale: [65.66000366210938, 7.0, 27.670000076293945]
+  Translate: [-46.09080123901367, 111.98999786376953, 39.87862014770508]
+- Gyaml: Obj_EnemyCounter_A_01
+  Hash: !ul 6254035319712264674
+  Links:
+  - {Dst: !ul 8358783442742377109, Gyaml: Reference, Name: Reference, Src: !ul 6254035319712264674}
+  Phive:
+    Placement: {ID: !ul 6254035319712264674}
+  SRTHash: !u 0x03e06019
+  Translate: [-46.297264099121094, 109.56962585449219, 26.349050521850586]
+AiGroups:
+- Blackboards: [Component/Blackboard/BlackboardInfo/DungeonRoom.engine__component__BlackboardInfo.gyml]
+  Hash: !ul 14675791103398832382
+  Logic: Logic/Root/WolfosWhiteStage/WolfosWhiteStage_6d1d.logic.root.ain
+  References:
+  - {Id: Area_4468, Path: Area_4468, Reference: !ul 13607280608839630077}
+- Hash: !ul 14679004642752681729
+  Logic: Logic/Root/WolfosWhiteStage/WolfosWhiteStage_92d3.logic.root.ain
+  References:
+  - {Id: Enemy_Wolfos_White_e812, Path: Enemy_Wolfos_White_e812, Reference: !ul 8358783442742377109}
+  - {Id: ShutterLocator_Lattice_ff7d, Path: _cc9d/ShutterLocator_Lattice_ff7d, Reference: !ul 6978886680202946018}
+  - {Id: ShutterLocator_Lattice_4b8b, Path: _cc9d/ShutterLocator_Lattice_4b8b, Reference: !ul 1913474580029400140}
+  - {Id: ShutterLocator_Door_fb86, Path: _cc9d/ShutterLocator_Door_fb86, Reference: !ul 8232310084329217032}
+  - {Id: PushAirWall_DoorFront_6427, Path: _cc9d/PushAirWall_DoorFront_6427, Reference: !ul 9127754143614201145}
+  - {Id: AiGroup, InstanceName: DungeonSwitchShutterWithLockSet_3b94_64cd, Logic: Logic/Module/DungeonSwitchShutterWithLockSet/DungeonSwitchShutterWithLockSet_3b94.logic.module.ain,
+    Path: _cc9d/AiGroup, Reference: !ul 465116726651609205}
+  - {Id: Area_7672, Path: Area_7672, Reference: !ul 13946176374272159061}
+  - {Id: NaviAreaHintEventActor_803d, Path: NaviAreaHintEventActor_803d, Reference: !ul 8326606179584635320}
+  - {Id: EventRequestActor_c34f, Path: EventRequestActor_c34f, Reference: !ul 621654115011580444}
+  - {Id: Obj_EnemyCounter_A_06_b374, Path: Obj_EnemyCounter_A_06_b374, Reference: !ul 17404993151380329822}
+  - {Id: Obj_EnemyCounter_A_01_4eab, Path: Obj_EnemyCounter_A_01_4eab, Reference: !ul 6254035319712264674}
+FarDeleteGroups:
+- [!ul 621654115011580444, !ul 1913474580029400140, !ul 6254035319712264674, !ul 6978886680202946018,
+  !ul 8232310084329217032, !ul 8326606179584635320, !ul 8358783442742377109, !ul 9127754143614201145,
+  !ul 13946176374272159061, !ul 17404993151380329822]
+FilePath: Work/Banc/Scene/DreamWorld/WolfosWhiteStage.bcett.json
+PhiveHeader:
+  PlacementGroups: []
+SimultaneousGroups:
+- [!ul 621654115011580444, !ul 1913474580029400140, !ul 6254035319712264674, !ul 6978886680202946018,
+  !ul 8232310084329217032, !ul 8326606179584635320, !ul 8358783442742377109, !ul 9127754143614201145,
+  !ul 13946176374272159061, !ul 17404993151380329822]

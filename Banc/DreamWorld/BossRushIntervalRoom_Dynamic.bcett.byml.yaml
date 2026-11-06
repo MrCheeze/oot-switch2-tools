@@ -1,0 +1,18 @@
+Actors:
+- Gyaml: StartPos
+  Hash: !ul 10380422811833132311
+  Name: BossRush
+  Phive:
+    Placement: {ID: !ul 10380422811833132311}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0x647e9b3b
+  Translate: [0.0, 0.026577234268188477, 4.27412223815918]
+- Gyaml: StartPos
+  Hash: !ul 10514870776082348234
+  Name: StartPos_SubEvent_AllBossBattle
+  Phive:
+    Placement: {ID: !ul 10514870776082348234}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xd3ea1892
+  Translate: [0.0, 0.0, 4.25]
+FilePath: Work/Banc/Scene/DreamWorld/BossRushIntervalRoom.bcett.json

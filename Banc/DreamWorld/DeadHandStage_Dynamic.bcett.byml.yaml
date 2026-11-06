@@ -1,0 +1,146 @@
+Actors:
+- Bakeable: true
+  Gyaml: Land_Well_Room_A_03
+  Hash: !ul 2813281604268736720
+  Phive:
+    Placement: {ID: !ul 2813281604268736720}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xa5519141
+  Translate: [0.0, 92.29000091552734, -102.87999725341797]
+- Gyaml: Land_ShadowTemple_Pebble_A_01
+  Hash: !ul 1259856947354266374
+  Phive:
+    Placement: {ID: !ul 1259856947354266374}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xc404aef6
+  Translate: [2.6117942333221436, 92.27666473388672, -108.35775756835938]
+- Gyaml: Land_ShadowTemple_Pebble_A_01
+  Hash: !ul 10797771185110977160
+  Phive:
+    Placement: {ID: !ul 10797771185110977160}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x446bf498
+  Translate: [5.6432013511657715, 92.30509185791016, -107.21676635742188]
+- Gyaml: Land_ShadowTemple_Pebble_A_01
+  Hash: !ul 7377081346180302956
+  Phive:
+    Placement: {ID: !ul 7377081346180302956}
+  Rotate: [0.0, -0.1796647310256958, 0.0]
+  SRTHash: !u 0xfca303bc
+  Translate: [5.797003746032715, 92.31277465820312, -100.29130554199219]
+- Gyaml: Land_ShadowTemple_Pebble_A_01
+  Hash: !ul 4993311290771573693
+  Phive:
+    Placement: {ID: !ul 4993311290771573693}
+  Rotate: [0.0, -0.1796647310256958, 0.0]
+  SRTHash: !u 0xc8a32df8
+  Translate: [7.461343765258789, 92.28150939941406, -103.07002258300781]
+- Gyaml: Land_ShadowTemple_Pebble_A_01
+  Hash: !ul 298445918949102613
+  Phive:
+    Placement: {ID: !ul 298445918949102613}
+  Rotate: [0.0, -0.1796647310256958, 0.0]
+  SRTHash: !u 0x59dc256d
+  Translate: [-0.6948748826980591, 92.28453063964844, -110.3946304321289]
+- Gyaml: Land_ShadowTemple_Pebble_A_01
+  Hash: !ul 11525964583980500283
+  Phive:
+    Placement: {ID: !ul 11525964583980500283}
+  Rotate: [0.0, -0.1796647310256958, 0.0]
+  SRTHash: !u 0xaebf7e9b
+  Translate: [-2.3592140674591064, 92.3438491821289, -107.61591339111328]
+- Gyaml: Land_ShadowTemple_Pebble_A_01
+  Hash: !ul 6616176292542681890
+  Phive:
+    Placement: {ID: !ul 6616176292542681890}
+  Rotate: [0.0, -0.1796647310256958, 0.0]
+  SRTHash: !u 0x2fa58676
+  Translate: [-8.343620300292969, 92.28184509277344, -102.83814239501953]
+- Gyaml: Land_ShadowTemple_Pebble_A_01
+  Hash: !ul 10129489646823933070
+  Phive:
+    Placement: {ID: !ul 10129489646823933070}
+  Rotate: [0.0, -0.1796647310256958, 0.0]
+  SRTHash: !u 0x13c2d4ce
+  Translate: [-6.679283142089844, 92.29634094238281, -105.61685943603516]
+- Gyaml: Land_ShadowTemple_Pebble_A_01
+  Hash: !ul 12926486885943051548
+  Phive:
+    Placement: {ID: !ul 12926486885943051548}
+  Rotate: [0.0, -0.1796647310256958, 0.0]
+  SRTHash: !u 0x969d3ef8
+  Translate: [-3.4586668014526367, 92.31159973144531, -96.13937377929688]
+- Gyaml: Land_ShadowTemple_Pebble_A_01
+  Hash: !ul 1882663296001813915
+  Phive:
+    Placement: {ID: !ul 1882663296001813915}
+  Rotate: [0.0, -0.1796647310256958, 0.0]
+  SRTHash: !u 0x71113167
+  Translate: [-1.7943283319473267, 92.32084655761719, -98.91809844970703]
+- Gyaml: Land_ShadowTemple_Pebble_A_01
+  Hash: !ul 2819797229517191511
+  Phive:
+    Placement: {ID: !ul 2819797229517191511}
+  Rotate: [0.0, -0.1796647310256958, 0.0]
+  SRTHash: !u 0x74c7a4bb
+  Translate: [-2.171109914779663, 92.28839874267578, -106.3946304321289]
+- Gyaml: Land_ShadowTemple_Pebble_A_01
+  Hash: !ul 14512419022860049386
+  Phive:
+    Placement: {ID: !ul 14512419022860049386}
+  Rotate: [0.0, -0.1796647310256958, 0.0]
+  SRTHash: !u 0x18090af6
+  Translate: [2.1902055740356445, 92.30082702636719, -104.02470397949219]
+- Gyaml: Land_ShadowTemple_Pebble_A_01
+  Hash: !ul 17393784845263768423
+  Phive:
+    Placement: {ID: !ul 17393784845263768423}
+  Rotate: [0.0, -0.1796647310256958, 0.0]
+  SRTHash: !u 0x15c05294
+  Translate: [2.7539055347442627, 92.30595397949219, -98.88802337646484]
+- Gyaml: StartPos
+  Hash: !ul 6619803275246388658
+  Name: DeadHandStage
+  Phive:
+    Placement: {ID: !ul 6619803275246388658}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x300f3b97
+  Translate: [-5.653133143823652e-07, 92.37980651855469, -104.35826110839844]
+- Gyaml: StartPos
+  Hash: !ul 9915621288829523884
+  Name: StartPos_SubEvent_AllBossBattle
+  Phive:
+    Placement: {ID: !ul 9915621288829523884}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x300f3b97
+  Translate: [-5.653133143823652e-07, 92.37980651855469, -104.35826110839844]
+- Bakeable: true
+  Gyaml: Obj_Well_GlassTruth_A_30
+  Hash: !ul 242053066097983889
+  Phive:
+    Placement: {ID: !ul 242053066097983889}
+  SRTHash: !u 0x28526f81
+  Translate: [-0.009669816121459007, 102.17068481445312, -97.56163787841797]
+- Bakeable: true
+  Gyaml: Obj_Well_GlassTruth_A_17
+  Hash: !ul 14225014162410902915
+  Phive:
+    Placement: {ID: !ul 14225014162410902915}
+  SRTHash: !u 0xa49d6beb
+  Translate: [5.0105580157833174e-05, 92.5107650756836, -87.05999755859375]
+- Bakeable: true
+  Gyaml: Land_Well_FaceRelief_A_01
+  Hash: !ul 6372596175851229932
+  Phive:
+    Placement: {ID: !ul 6372596175851229932}
+  SRTHash: !u 0xddb968cb
+  Translate: [0.02456768788397312, 103.34906005859375, -102.43241882324219]
+- Bakeable: true
+  Gyaml: Obj_TBoxPedestal_A_01
+  Hash: !ul 2103315962929361062
+  Phive:
+    Placement: {ID: !ul 2103315962929361062}
+  Rotate: [0.0, -1.570796251296997, 5.960464477539062e-07]
+  SRTHash: !u 0x30238b08
+  Translate: [-0.045375823974609375, 92.32119750976562, -110.36893463134766]
+FilePath: Work/Banc/Scene/DreamWorld/DeadHandStage.bcett.json

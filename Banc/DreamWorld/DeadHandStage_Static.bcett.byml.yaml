@@ -1,0 +1,153 @@
+Actors:
+- Dynamic: {DeadHand_IsManageHandNumByLife: true}
+  Gyaml: Enemy_DeadHand
+  Hash: !ul 16854568816335211769
+  Links:
+  - {Dst: !ul 10263972799973697572, Gyaml: Reference, Name: Reference, Src: !ul 16854568816335211769}
+  - {Dst: !ul 6669230610414026003, Gyaml: Reference, Name: Reference, Src: !ul 16854568816335211769}
+  - {Dst: !ul 15626246819817716873, Gyaml: Reference, Name: Reference, Src: !ul 16854568816335211769}
+  - {Dst: !ul 8464902351067988911, Gyaml: Reference, Name: Reference, Src: !ul 16854568816335211769}
+  - {Dst: !ul 17990401463142452188, Gyaml: Reference, Name: Reference, Src: !ul 16854568816335211769}
+  - {Dst: !ul 1979301608296655106, Gyaml: Reference, Name: Reference, Src: !ul 16854568816335211769}
+  Name: DeadHand
+  Phive:
+    Placement: {ID: !ul 16854568816335211769}
+  SRTHash: !u 0xd5f47a66
+  Translate: [-0.15745162963867188, 92.30901336669922, -105.05751037597656]
+- Gyaml: DestinationAnchor
+  Hash: !ul 17990401463142452188
+  Phive:
+    Placement: {ID: !ul 17990401463142452188}
+  SRTHash: !u 0xb311e722
+  Translate: [0.0, 92.30901336669922, -103.43009948730469]
+- Dynamic: {DeadHandHand_IsEnableAppearDelay: false}
+  Gyaml: Enemy_DeadHand_Hand
+  Hash: !ul 6669230610414026003
+  Phive:
+    Placement: {ID: !ul 6669230610414026003}
+  SRTHash: !u 0x11d154ae
+  Translate: [0.0, 92.30901336669922, -108.43000030517578]
+- Dynamic: {DeadHandHand_AppearOrderNum: 2}
+  Gyaml: Enemy_DeadHand_Hand
+  Hash: !ul 15626246819817716873
+  Phive:
+    Placement: {ID: !ul 15626246819817716873}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x7a49f437
+  Translate: [0.0, 92.30901336669922, -98.43000030517578]
+- Dynamic: {DeadHandHand_AppearOrderNum: 3}
+  Gyaml: Enemy_DeadHand_Hand
+  Hash: !ul 8464902351067988911
+  Phive:
+    Placement: {ID: !ul 8464902351067988911}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x30f281ac
+  Translate: [-5.0, 92.30901336669922, -103.43009948730469]
+- Dynamic: {DeadHandHand_AppearOrderNum: 3}
+  Gyaml: Enemy_DeadHand_Hand
+  Hash: !ul 10263972799973697572
+  Phive:
+    Placement: {ID: !ul 10263972799973697572}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0xbd989e11
+  Translate: [5.0, 92.30901336669922, -103.43009948730469]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 11381211576656043502
+  Phive:
+    Placement: {ID: !ul 11381211576656043502}
+  SRTHash: !u 0xe2f5d672
+  Scale: [7.0, 1.917370319366455, 7.0]
+  Translate: [-0.003025054931640625, 92.29671478271484, -110.6856918334961]
+- Gyaml: NoEscapeRangeAreaBox
+  Hash: !ul 7504673906653268406
+  Name: NoEscapeArea_SubEvent_AllBossBattle
+  Phive:
+    Placement: {ID: !ul 7504673906653268406}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xab800d92
+  Scale: [28.18433380126953, 17.350215911865234, 34.89590835571289]
+  Translate: [0.011363714933395386, 95.062744140625, -100.96416473388672]
+- Dynamic: {RequestEventName: DreamBossStage_TimeCountStop_DeadHand}
+  Gyaml: EventRequestActor
+  Hash: !ul 11689976693560156416
+  Phive:
+    Placement: {ID: !ul 11689976693560156416}
+  SRTHash: !u 0xd15cd19e
+  Translate: [-0.21061134338378906, 102.61833190917969, -114.56099700927734]
+- Gyaml: Area
+  Hash: !ul 5895237852761634292
+  Phive:
+    Placement: {ID: !ul 5895237852761634292}
+  Rotate: [0.0, -1.570796251296997, 8.940696716308594e-08]
+  SRTHash: !u 0xfc6912c4
+  Scale: [20.38232421875, 15.241806030273438, 16.994251251220703]
+  Translate: [-2.2523193359375, 83.31136322021484, -100.94853210449219]
+- Dynamic: {AreaHintEventName: NaviHint_Rematch}
+  Gyaml: NaviAreaHintEventActor
+  Hash: !ul 17066717355115007717
+  Phive:
+    Placement: {ID: !ul 17066717355115007717}
+  SRTHash: !u 0x7e3ef809
+  Translate: [8.381494522094727, 104.18305206298828, -109.331787109375]
+- Bakeable: true
+  Gyaml: Land_Well_Room_A_10
+  Hash: !ul 9386262133024616317
+  Phive:
+    Placement: {ID: !ul 9386262133024616317}
+  SRTHash: !u 0xb23497fd
+  Translate: [4.2045023292303085e-05, 101.80000305175781, -72.0]
+- Dynamic: {FogParams: BottomOfTheWell_Boss}
+  Gyaml: VolumeFogArea
+  Hash: !ul 5379773361963716437
+  Phive:
+    Placement: {ID: !ul 5379773361963716437}
+  SRTHash: !u 0x13989c19
+  Scale: [18.465452194213867, 6.633295059204102, 18.228181838989258]
+  Translate: [-0.1658775508403778, 95.13191223144531, -102.87667846679688]
+- Gyaml: Obj_DreamWorldTimerManager
+  Hash: !ul 1360839119622526035
+  Phive:
+    Placement: {ID: !ul 1360839119622526035}
+  SRTHash: !u 0x1a5787e9
+  Translate: [0.9484900236129761, 106.54703521728516, -106.115234375]
+- Gyaml: Obj_EnemyCounter_A_09
+  Hash: !ul 1979301608296655106
+  Links:
+  - {Dst: !ul 16854568816335211769, Gyaml: Reference, Name: Reference, Src: !ul 1979301608296655106}
+  Phive:
+    Placement: {ID: !ul 1979301608296655106}
+  SRTHash: !u 0xc89e1b46
+  Translate: [0.037334054708480835, 92.31700134277344, -94.43159484863281]
+- Gyaml: EftLoc_CameraEnv_BottomOfTheWell_Boss_EnvEffect
+  Hash: !ul 12743956234306686219
+  Phive:
+    Placement: {ID: !ul 12743956234306686219}
+  SRTHash: !u 0x1bbcde6f
+  Scale: [24.143465042114258, 10.0, 23.373001098632812]
+  Translate: [-3.723106622695923, 80.69984436035156, -97.18218994140625]
+AiGroups:
+- Hash: !ul 16589957559116506498
+  Logic: Logic/Root/DeadHandStage/DeadHandStage_53e5.logic.root.ain
+  References:
+  - {Id: Enemy_DeadHand_25c7, Path: Enemy_DeadHand_25c7, Reference: !ul 16854568816335211769}
+  - {Id: Enemy_DeadHand_Hand_b18d, Path: Enemy_DeadHand_Hand_b18d, Reference: !ul 15626246819817716873}
+  - {Id: Enemy_DeadHand_Hand_d1d8, Path: Enemy_DeadHand_Hand_d1d8, Reference: !ul 8464902351067988911}
+  - {Id: Enemy_DeadHand_Hand_f1ba, Path: Enemy_DeadHand_Hand_f1ba, Reference: !ul 10263972799973697572}
+  - {Id: Enemy_DeadHand_Hand_f2c8, Path: Enemy_DeadHand_Hand_f2c8, Reference: !ul 6669230610414026003}
+  - {Id: Area_d86f, Path: Area_d86f, Reference: !ul 11381211576656043502}
+  - {Id: EventRequestActor_8fd6, Path: EventRequestActor_8fd6, Reference: !ul 11689976693560156416}
+  - {Id: NaviAreaHintEventActor_ab44, Path: NaviAreaHintEventActor_ab44, Reference: !ul 17066717355115007717}
+  - {Id: Area_f949, Path: Area_f949, Reference: !ul 5895237852761634292}
+  - {Id: Obj_EnemyCounter_A_09_a0b5, Path: Obj_EnemyCounter_A_09_a0b5, Reference: !ul 1979301608296655106}
+FarDeleteGroups:
+- [!ul 1979301608296655106, !ul 5895237852761634292, !ul 6669230610414026003, !ul 8464902351067988911,
+  !ul 10263972799973697572, !ul 11381211576656043502, !ul 11689976693560156416, !ul 15626246819817716873,
+  !ul 16854568816335211769, !ul 17066717355115007717]
+FilePath: Work/Banc/Scene/DreamWorld/DeadHandStage.bcett.json
+PhiveHeader:
+  PlacementGroups: []
+SimultaneousGroups:
+- [!ul 1979301608296655106, !ul 5895237852761634292, !ul 6669230610414026003, !ul 8464902351067988911,
+  !ul 10263972799973697572, !ul 11381211576656043502, !ul 11689976693560156416, !ul 15626246819817716873,
+  !ul 16854568816335211769, !ul 17066717355115007717]

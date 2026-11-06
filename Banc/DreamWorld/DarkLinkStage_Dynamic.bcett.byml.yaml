@@ -1,0 +1,109 @@
+Actors:
+- Gyaml: DestinationAnchor
+  Hash: !ul 14561139780878718066
+  Name: DarkLinkRoomFocus
+  Phive:
+    Placement: {ID: !ul 14561139780878718066}
+  SRTHash: !u 0xf484fe92
+  Translate: [-77.89089965820312, 127.2037124633789, -87.68062591552734]
+- Gyaml: StartPos
+  Hash: !ul 14777698365716911793
+  Name: StartPos_SubEvent_AllBossBattle
+  Phive:
+    Placement: {ID: !ul 14777698365716911793}
+  SRTHash: !u 0x6741441f
+  Translate: [-77.9000015258789, 125.49999237060547, -75.842041015625]
+- Gyaml: StartPos
+  Hash: !ul 15399045037227753593
+  Name: DarkLinkStage
+  Phive:
+    Placement: {ID: !ul 15399045037227753593}
+  SRTHash: !u 0x6741441f
+  Translate: [-77.9000015258789, 125.5, -75.842041015625]
+- Bakeable: true
+  Gyaml: Obj_WaterTemple_Plant_Tree_A_01
+  Hash: !ul 16486819374328673609
+  Phive:
+    Placement: {ID: !ul 16486819374328673609}
+  Rotate: [3.1415927410125732, -0.13542760908603668, 3.1415927410125732]
+  SRTHash: !u 0x6e795bfd
+  Translate: [-76.5099105834961, 126.62064361572266, -63.75]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_Room22_A_01
+  Hash: !ul 13198484598225011068
+  Phive:
+    Placement: {ID: !ul 13198484598225011068}
+  SRTHash: !u 0x22259c2a
+  Translate: [-77.9000015258789, 125.5, -36.70000076293945]
+- Gyaml: Land_WaterTemple_Room22_FakeWall_A_01
+  Hash: !ul 10228973675361381726
+  Phive:
+    Placement: {ID: !ul 10228973675361381726}
+  SRTHash: !u 0x22259c2a
+  Translate: [-77.9000015258789, 125.5, -36.70000076293945]
+- Gyaml: Obj_WaterTemple_WaterPlane_A_03
+  Hash: !ul 5206587169686046090
+  Phive:
+    Placement: {ID: !ul 5206587169686046090}
+  SRTHash: !u 0x4b167d63
+  Translate: [-77.9000015258789, 125.44999694824219, -61.70000076293945]
+- Bakeable: true
+  Gyaml: Obj_WaterTemple_ShutterFrame_A_02
+  Hash: !ul 7320513185581098405
+  Phive:
+    Placement: {ID: !ul 7320513185581098405}
+  Rotate: [3.1415927410125732, 8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x6c00347a
+  Translate: [-77.9000015258789, 125.5, -36.23973846435547]
+- Bakeable: true
+  Gyaml: Obj_WaterTemple_ShutterFrame_B_01
+  Hash: !ul 6603239929574132416
+  Phive:
+    Placement: {ID: !ul 6603239929574132416}
+  SRTHash: !u 0xb2545f65
+  Translate: [-77.9000015258789, 125.5, -36.23999786376953]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_Gate_D_02
+  Hash: !ul 14061566450537514043
+  Phive:
+    Placement: {ID: !ul 14061566450537514043}
+  SRTHash: !u 0xb42a9a54
+  Translate: [-77.9000015258789, 125.5, -35.790000915527344]
+- Bakeable: true
+  Gyaml: Obj_WaterTemple_ShutterFrame_A_03
+  Hash: !ul 1266324580475951182
+  Phive:
+    Placement: {ID: !ul 1266324580475951182}
+  SRTHash: !u 0xb2545f65
+  Translate: [-77.9000015258789, 125.5, -36.23973846435547]
+- Bakeable: true
+  Gyaml: Obj_WaterTemple_ShutterFrame_A_02
+  Hash: !ul 3354321968857318488
+  Phive:
+    Placement: {ID: !ul 3354321968857318488}
+  SRTHash: !u 0x66a30bde
+  Translate: [-77.9000015258789, 125.5, -87.19999694824219]
+- Bakeable: true
+  Gyaml: Obj_WaterTemple_ShutterFrame_A_03
+  Hash: !ul 14301620054618932560
+  Phive:
+    Placement: {ID: !ul 14301620054618932560}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x36c487da
+  Translate: [-77.9000015258789, 125.5, -87.19999694824219]
+- Bakeable: true
+  Gyaml: Land_WaterTemple_Gate_D_02
+  Hash: !ul 4985740142829121713
+  Phive:
+    Placement: {ID: !ul 4985740142829121713}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0x76859851
+  Translate: [-77.9000015258789, 125.5, -87.69999694824219]
+- Bakeable: true
+  Gyaml: Obj_WaterTemple_ShutterFrame_B_01
+  Hash: !ul 13129117922996690895
+  Phive:
+    Placement: {ID: !ul 13129117922996690895}
+  SRTHash: !u 0xd60c0471
+  Translate: [-77.9000015258789, 125.5, -87.20099639892578]
+FilePath: Work/Banc/Scene/DreamWorld/DarkLinkStage.bcett.json

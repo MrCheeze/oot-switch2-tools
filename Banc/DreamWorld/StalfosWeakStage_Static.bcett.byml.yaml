@@ -1,0 +1,262 @@
+Actors:
+- Bakeable: true
+  Gyaml: Obj_ForestTemple_SwitchShutter_A_03
+  Hash: !ul 4355519653858124188
+  Links:
+  - {Dst: !ul 6368752489122908607, Gyaml: Reference, Name: Reference, Src: !ul 4355519653858124188}
+  - {Dst: !ul 6252105459293454555, Gyaml: Reference, Name: Reference, Src: !ul 4355519653858124188}
+  - {Dst: !ul 17038973164644316881, Gyaml: Reference, Name: Reference, Src: !ul 4355519653858124188}
+  - {Dst: !ul 14439094441133636733, Gyaml: Reference, Name: Reference, Src: !ul 4355519653858124188}
+  - {Dst: !ul 4367462577622370453, Gyaml: Reference, Name: Reference, Src: !ul 4355519653858124188}
+  Phive:
+    Placement: {ID: !ul 4355519653858124188}
+  SRTHash: !u 0x664def4d
+  Translate: [0.0036049634218215942, 105.5, -47.0880012512207]
+- Bakeable: true
+  Gyaml: Obj_SwitchShutter_A_02
+  Hash: !ul 6252105459293454555
+  Name: SwitchShutterPlusZ
+  Phive:
+    Placement: {ID: !ul 6252105459293454555}
+  SRTHash: !u 0xae917790
+  Translate: [0.0036049634218215942, 105.5, -46.64800262451172]
+- Bakeable: true
+  Gyaml: Obj_SwitchShutter_A_02
+  Hash: !ul 6368752489122908607
+  Name: SwitchShutterMinusZ
+  Phive:
+    Placement: {ID: !ul 6368752489122908607}
+  Rotate: [-3.141592502593994, 0.0, -3.141592502593994]
+  SRTHash: !u 0xbd54e299
+  Translate: [0.0036049634218215942, 105.5, -47.52799987792969]
+- Gyaml: DestinationAnchor
+  Hash: !ul 17719341914340303795
+  Phive:
+    Placement: {ID: !ul 17719341914340303795}
+  SRTHash: !u 0x50c8f38f
+  Translate: [0.0036049634218215942, 106.5, -46.0880012512207]
+- Gyaml: DestinationAnchor
+  Hash: !ul 2861931970025405056
+  Phive:
+    Placement: {ID: !ul 2861931970025405056}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x423ce80a
+  Translate: [0.0036049634218215942, 106.5, -48.0880012512207]
+- Gyaml: AirWallEnemy
+  Hash: !ul 8855259666848811731
+  Phive:
+    Placement: {ID: !ul 8855259666848811731}
+  SRTHash: !u 0xe660d5b4
+  Scale: [1.7000000476837158, 2.5999999046325684, 1.7000000476837158]
+  Translate: [0.0036049634218215942, 106.80000305175781, -47.0880012512207]
+- Gyaml: DestinationAnchor
+  Hash: !ul 14439094441133636733
+  Name: CameraMinusZ
+  Phive:
+    Placement: {ID: !ul 14439094441133636733}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x9580fdd2
+  Translate: [0.0036049634218215942, 105.5, -49.0880012512207]
+- Gyaml: DestinationAnchor
+  Hash: !ul 17038973164644316881
+  Name: CameraPlusZ
+  Phive:
+    Placement: {ID: !ul 17038973164644316881}
+  SRTHash: !u 0x9413ae41
+  Translate: [0.0036049634218215942, 105.5, -45.0880012512207]
+- Dynamic:
+    MoveTime: 20.0
+    StartPosRate: [0.0, 0.0, -1.0]
+  Gyaml: PushAirWall_DoorFront
+  Hash: !ul 4367462577622370453
+  Phive:
+    Placement: {ID: !ul 4367462577622370453}
+  SRTHash: !u 0x664def4d
+  Translate: [0.0036049634218215942, 105.5, -47.0880012512207]
+- Gyaml: Enemy_Stalfos_Weak
+  Hash: !ul 13029323220274971633
+  Links:
+  - {Dst: !ul 18159595672533113582, Gyaml: Reference, Name: Reference, Src: !ul 13029323220274971633}
+  Phive:
+    Placement: {ID: !ul 13029323220274971633}
+  SRTHash: !u 0xfcd50fb3
+  Translate: [2.990225315093994, 105.5, -58.97600173950195]
+- Gyaml: Enemy_Stalfos_Weak
+  Hash: !ul 18159595672533113582
+  Links:
+  - {Dst: !ul 13029323220274971633, Gyaml: Reference, Name: Reference, Src: !ul 18159595672533113582}
+  Phive:
+    Placement: {ID: !ul 18159595672533113582}
+  SRTHash: !u 0x68ce80f7
+  Translate: [-2.9372177124023438, 105.5, -58.16600036621094]
+- Gyaml: Area
+  Hash: !ul 13981474602804689685
+  Phive:
+    Placement: {ID: !ul 13981474602804689685}
+  SRTHash: !u 0xdf7438fd
+  Scale: [9.423128128051758, 2.0, 7.275541305541992]
+  Translate: [0.5043485164642334, 105.5, -58.5585823059082]
+- Gyaml: NoEscapeRangeAreaBox
+  Hash: !ul 5063176838693513863
+  Name: NoEscapeArea_SubEvent_AllBossBattle
+  Phive:
+    Placement: {ID: !ul 5063176838693513863}
+  SRTHash: !u 0xad65002e
+  Scale: [26.1868953704834, 10.985721588134766, 39.88422775268555]
+  Translate: [0.3431668281555176, 110.25206756591797, -47.665592193603516]
+- Dynamic: {RequestEventName: DreamBossStage_TimeCountStop_StalfosWeak}
+  Gyaml: EventRequestActor
+  Hash: !ul 6111192837342505006
+  Phive:
+    Placement: {ID: !ul 6111192837342505006}
+  SRTHash: !u 0x315eaa19
+  Translate: [-0.21061134338378906, 117.61833190917969, -70.56099700927734]
+- Dynamic: {AreaHintEventName: NaviHint_Rematch}
+  Gyaml: NaviAreaHintEventActor
+  Hash: !ul 16551896202450471004
+  Phive:
+    Placement: {ID: !ul 16551896202450471004}
+  SRTHash: !u 0x0e1d2833
+  Translate: [8.381494522094727, 119.18305206298828, -65.331787109375]
+- Gyaml: Area
+  Hash: !ul 670724985645446562
+  Phive:
+    Placement: {ID: !ul 670724985645446562}
+  Rotate: [0.0, -1.570796251296997, 8.940696716308594e-08]
+  SRTHash: !u 0x48ca691d
+  Scale: [26.380821228027344, 12.566478729248047, 15.18344783782959]
+  Translate: [-0.2066744565963745, 98.31136322021484, -47.424278259277344]
+- Bakeable: true
+  Gyaml: Obj_ForestTemple_SwitchShutter_A_03
+  Hash: !ul 1291278674272791234
+  Links:
+  - {Dst: !ul 9158802405767300727, Gyaml: Reference, Name: Reference, Src: !ul 1291278674272791234}
+  - {Dst: !ul 6992244805315959787, Gyaml: Reference, Name: Reference, Src: !ul 1291278674272791234}
+  - {Dst: !ul 17291041982675195369, Gyaml: Reference, Name: Reference, Src: !ul 1291278674272791234}
+  - {Dst: !ul 14405748352154045769, Gyaml: Reference, Name: Reference, Src: !ul 1291278674272791234}
+  - {Dst: !ul 2007699649661820765, Gyaml: Reference, Name: Reference, Src: !ul 1291278674272791234}
+  Phive:
+    Placement: {ID: !ul 1291278674272791234}
+  SRTHash: !u 0x9d9c7fb6
+  Translate: [0.0, 105.5, -32.26775360107422]
+- Bakeable: true
+  Gyaml: Obj_SwitchShutter_A_02
+  Hash: !ul 6992244805315959787
+  Name: SwitchShutterPlusZ
+  Phive:
+    Placement: {ID: !ul 6992244805315959787}
+  SRTHash: !u 0xd59cd57a
+  Translate: [0.0, 105.5, -31.8277530670166]
+- Bakeable: true
+  Gyaml: Obj_SwitchShutter_A_02
+  Hash: !ul 9158802405767300727
+  Name: SwitchShutterMinusZ
+  Phive:
+    Placement: {ID: !ul 9158802405767300727}
+  Rotate: [-3.141592502593994, 0.0, -3.141592502593994]
+  SRTHash: !u 0x9e3ba204
+  Translate: [0.0, 105.5, -32.7077522277832]
+- Gyaml: DestinationAnchor
+  Hash: !ul 14372455335637529835
+  Phive:
+    Placement: {ID: !ul 14372455335637529835}
+  SRTHash: !u 0x9e765b30
+  Translate: [0.0, 106.5, -31.26775360107422]
+- Gyaml: DestinationAnchor
+  Hash: !ul 1456094874180817847
+  Phive:
+    Placement: {ID: !ul 1456094874180817847}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x68ab7dbd
+  Translate: [0.0, 106.5, -33.26775360107422]
+- Gyaml: AirWallEnemy
+  Hash: !ul 5148902642234425571
+  Phive:
+    Placement: {ID: !ul 5148902642234425571}
+  SRTHash: !u 0x3a640681
+  Scale: [1.7000000476837158, 2.5999999046325684, 1.7000000476837158]
+  Translate: [0.0, 106.80000305175781, -32.26775360107422]
+- Gyaml: DestinationAnchor
+  Hash: !ul 14405748352154045769
+  Name: CameraMinusZ
+  Phive:
+    Placement: {ID: !ul 14405748352154045769}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x722439ad
+  Translate: [0.0, 105.5, -34.26775360107422]
+- Gyaml: DestinationAnchor
+  Hash: !ul 17291041982675195369
+  Name: CameraPlusZ
+  Phive:
+    Placement: {ID: !ul 17291041982675195369}
+  SRTHash: !u 0x975bdcdd
+  Translate: [0.0, 105.5, -30.26775360107422]
+- Dynamic:
+    MoveTime: 20.0
+    StartPosRate: [0.0, 0.0, -1.0]
+  Gyaml: PushAirWall_DoorFront
+  Hash: !ul 2007699649661820765
+  Phive:
+    Placement: {ID: !ul 2007699649661820765}
+  SRTHash: !u 0x9d9c7fb6
+  Translate: [0.0, 105.5, -32.26775360107422]
+- Gyaml: Obj_DreamWorldTimerManager
+  Hash: !ul 11706142141261500622
+  Phive:
+    Placement: {ID: !ul 11706142141261500622}
+  SRTHash: !u 0x99125d56
+  Translate: [-2.1575496196746826, 120.37761688232422, -61.38039779663086]
+- Dynamic: {FogParams: ForestTemple_Room28}
+  Gyaml: VolumeFogArea
+  Hash: !ul 7678731238667472473
+  Phive:
+    Placement: {ID: !ul 7678731238667472473}
+  SRTHash: !u 0x80431df7
+  Scale: [19.565990447998047, 9.911287307739258, 17.76055335998535]
+  Translate: [0.0001543936668895185, 109.2890625, -56.401817321777344]
+- Gyaml: Obj_EnemyCounter_A_01
+  Hash: !ul 4819964435958964940
+  Links:
+  - {Dst: !ul 18159595672533113582, Gyaml: Reference, Name: Reference, Src: !ul 4819964435958964940}
+  - {Dst: !ul 13029323220274971633, Gyaml: Reference, Name: Reference, Src: !ul 4819964435958964940}
+  Phive:
+    Placement: {ID: !ul 4819964435958964940}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x56de1e80
+  Translate: [0.003604927798733115, 105.5, -47.491050720214844]
+AiGroups:
+- Hash: !ul 9496906822211876190
+  Logic: Logic/Root/StalfosWeakStage/StalfosWeakStage_497d.logic.root.ain
+  References:
+  - {Id: Area_1d1e, Path: Area_1d1e, Reference: !ul 13981474602804689685}
+  - {Id: ShutterLocator_Lattice_ff7d, Path: _b88e/ShutterLocator_Lattice_ff7d, Reference: !ul 6252105459293454555}
+  - {Id: ShutterLocator_Lattice_4b8b, Path: _b88e/ShutterLocator_Lattice_4b8b, Reference: !ul 6368752489122908607}
+  - {Id: ShutterLocator_Door_fb86, Path: _b88e/ShutterLocator_Door_fb86, Reference: !ul 4355519653858124188}
+  - {Id: PushAirWall_DoorFront_6427, Path: _b88e/PushAirWall_DoorFront_6427, Reference: !ul 4367462577622370453}
+  - {Id: AiGroup, InstanceName: DungeonSwitchShutterWithLockSet_3b94_5771, Logic: Logic/Module/DungeonSwitchShutterWithLockSet/DungeonSwitchShutterWithLockSet_3b94.logic.module.ain,
+    Path: _b88e/AiGroup, Reference: !ul 14464571664489090880}
+  - {Id: Enemy_Stalfos_Weak_77dd, Path: Enemy_Stalfos_Weak_77dd, Reference: !ul 18159595672533113582}
+  - {Id: Enemy_Stalfos_Weak_ff21, Path: Enemy_Stalfos_Weak_ff21, Reference: !ul 13029323220274971633}
+  - {Id: NaviAreaHintEventActor_1514, Path: NaviAreaHintEventActor_1514, Reference: !ul 16551896202450471004}
+  - {Id: EventRequestActor_2c5f, Path: EventRequestActor_2c5f, Reference: !ul 6111192837342505006}
+  - {Id: Area_a0ed, Path: Area_a0ed, Reference: !ul 670724985645446562}
+  - {Id: ShutterLocator_Lattice_ff7d, Path: _dde1/ShutterLocator_Lattice_ff7d, Reference: !ul 6992244805315959787}
+  - {Id: ShutterLocator_Lattice_4b8b, Path: _dde1/ShutterLocator_Lattice_4b8b, Reference: !ul 9158802405767300727}
+  - {Id: ShutterLocator_Door_fb86, Path: _dde1/ShutterLocator_Door_fb86, Reference: !ul 1291278674272791234}
+  - {Id: PushAirWall_DoorFront_6427, Path: _dde1/PushAirWall_DoorFront_6427, Reference: !ul 2007699649661820765}
+  - {Id: AiGroup, InstanceName: DungeonSwitchShutterWithLockSet_3b94_7cc3, Logic: Logic/Module/DungeonSwitchShutterWithLockSet/DungeonSwitchShutterWithLockSet_3b94.logic.module.ain,
+    Path: _dde1/AiGroup, Reference: !ul 14248522382679645966}
+  - {Id: Obj_EnemyCounter_A_01_81c7, Path: Obj_EnemyCounter_A_01_81c7, Reference: !ul 4819964435958964940}
+FarDeleteGroups:
+- [!ul 670724985645446562, !ul 1291278674272791234, !ul 2007699649661820765, !ul 4355519653858124188,
+  !ul 4367462577622370453, !ul 4819964435958964940, !ul 6111192837342505006, !ul 6252105459293454555,
+  !ul 6368752489122908607, !ul 6992244805315959787, !ul 9158802405767300727, !ul 13029323220274971633,
+  !ul 13981474602804689685, !ul 16551896202450471004, !ul 18159595672533113582]
+FilePath: Work/Banc/Scene/DreamWorld/StalfosWeakStage.bcett.json
+PhiveHeader:
+  PlacementGroups: []
+SimultaneousGroups:
+- [!ul 670724985645446562, !ul 1291278674272791234, !ul 2007699649661820765, !ul 4355519653858124188,
+  !ul 4367462577622370453, !ul 4819964435958964940, !ul 6111192837342505006, !ul 6252105459293454555,
+  !ul 6368752489122908607, !ul 6992244805315959787, !ul 9158802405767300727, !ul 13029323220274971633,
+  !ul 13981474602804689685, !ul 16551896202450471004, !ul 18159595672533113582]

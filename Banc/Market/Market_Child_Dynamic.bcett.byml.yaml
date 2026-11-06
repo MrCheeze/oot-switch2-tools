@@ -1,0 +1,4408 @@
+Actors:
+- Gyaml: FldObj_AirWall_CharacterSight_GenerateNavMesh
+  Hash: !ul 13618563615694219032
+  Phive:
+    Placement: {ID: !ul 13618563615694219032}
+  Rotate: [-3.141592502593994, -0.5235992670059204, -3.141592502593994]
+  SRTHash: !u 0x03318b9f
+  Scale: [1.0, 1.0, 0.20000000298023224]
+  Translate: [4.748078346252441, 104.29524993896484, 24.432764053344727]
+- Gyaml: FldObj_AirWall_ExcludeNpcAndAnimal
+  Hash: !ul 12849529018734128086
+  Phive:
+    Placement: {ID: !ul 12849529018734128086}
+  Rotate: [-1.823415729518274e-08, -1.0471971035003662, 4.817657668354514e-07]
+  SRTHash: !u 0x8601f7df
+  Scale: [0.4999999701976776, 0.800000011920929, 0.800000011920929]
+  Translate: [4.956186771392822, 104.20320129394531, 25.074506759643555]
+- Gyaml: FldObj_AirWall_CameraSightAndCameraBody
+  Hash: !ul 7994253883813710709
+  Phive:
+    Placement: {ID: !ul 7994253883813710709}
+  Rotate: [-1.8234166176966937e-08, -1.0471971035003662, 4.817657668354514e-07]
+  SRTHash: !u 0xf1dc2308
+  Translate: [5.4822306632995605, 104.20320129394531, 25.985639572143555]
+- Gyaml: FldObj_AirWall_Cucco_GenerateNavMesh
+  Hash: !ul 759371578169602075
+  Phive:
+    Placement: {ID: !ul 759371578169602075}
+  Rotate: [-1.823415729518274e-08, -1.0471971035003662, 4.817657668354514e-07]
+  SRTHash: !u 0x8601f7df
+  Scale: [0.4999999701976776, 0.800000011920929, 0.800000011920929]
+  Translate: [4.956186771392822, 104.20320129394531, 25.074506759643555]
+- Gyaml: FldObj_AirWall_CharacterSight_GenerateNavMesh
+  Hash: !ul 6595297477382178669
+  Phive:
+    Placement: {ID: !ul 6595297477382178669}
+  Rotate: [-1.5492578597786633e-07, -0.026020316407084465, 1.5104667738796707e-07]
+  SRTHash: !u 0xe1473e01
+  Scale: [1.0, 1.0, 0.20000000298023224]
+  Translate: [-26.355220794677734, 100.15599822998047, -12.043456077575684]
+- Gyaml: FldObj_AirWall_ExcludeNpcAndAnimal
+  Hash: !ul 1149388124085683184
+  Phive:
+    Placement: {ID: !ul 1149388124085683184}
+  Rotate: [-5.131581929163076e-06, 1.5447759628295898, -5.250583853921853e-06]
+  SRTHash: !u 0x7b5889a5
+  Scale: [0.5, 0.800000011920929, 0.800000011920929]
+  Translate: [-26.19745635986328, 100.06394958496094, -12.699394226074219]
+- Gyaml: FldObj_AirWall_CameraSightAndCameraBody
+  Hash: !ul 17040894131669029714
+  Phive:
+    Placement: {ID: !ul 17040894131669029714}
+  Rotate: [-5.131581929163076e-06, 1.5447759628295898, -5.250583853921853e-06]
+  SRTHash: !u 0x2fdc4a8a
+  Translate: [-26.17008399963379, 100.06394958496094, -13.75112533569336]
+- Gyaml: FldObj_AirWall_Cucco_GenerateNavMesh
+  Hash: !ul 10132180857747994385
+  Phive:
+    Placement: {ID: !ul 10132180857747994385}
+  Rotate: [-5.131581929163076e-06, 1.5447759628295898, -5.250583853921853e-06]
+  SRTHash: !u 0x7b5889a5
+  Scale: [0.5, 0.800000011920929, 0.800000011920929]
+  Translate: [-26.19745635986328, 100.06394958496094, -12.699394226074219]
+- Gyaml: FldObj_AirWall_CharacterSight_GenerateNavMesh
+  Hash: !ul 12328262351629708220
+  Phive:
+    Placement: {ID: !ul 12328262351629708220}
+  Rotate: [0.0, -1.570451021194458, -0.0]
+  SRTHash: !u 0x2bae3853
+  Scale: [1.0, 1.0, 0.20000000298023224]
+  Translate: [5.954222202301025, 100.07986450195312, 30.454072952270508]
+- Gyaml: FldObj_AirWall_ExcludeNpcAndAnimal
+  Hash: !ul 9275990879070983750
+  Phive:
+    Placement: {ID: !ul 9275990879070983750}
+  SRTHash: !u 0x8f10942b
+  Scale: [0.5, 0.800000011920929, 0.800000011920929]
+  Translate: [6.614090919494629, 99.9878158569336, 30.5944881439209]
+- Gyaml: FldObj_AirWall_CameraSightAndCameraBody
+  Hash: !ul 8875404737968623579
+  Phive:
+    Placement: {ID: !ul 8875404737968623579}
+  SRTHash: !u 0xe77bc8bc
+  Translate: [7.666177272796631, 99.9878158569336, 30.594125747680664]
+- Gyaml: FldObj_AirWall_Cucco_GenerateNavMesh
+  Hash: !ul 1685391283660876933
+  Phive:
+    Placement: {ID: !ul 1685391283660876933}
+  SRTHash: !u 0x8f10942b
+  Scale: [0.5, 0.800000011920929, 0.800000011920929]
+  Translate: [6.614090919494629, 99.9878158569336, 30.5944881439209]
+- Gyaml: StartPos
+  Hash: !ul 14917829351707191507
+  Phive:
+    Placement: {ID: !ul 14917829351707191507}
+  Rotate: [-3.141592502593994, -3.8941436741879443e-07, -3.141592502593994]
+  SRTHash: !u 0x9421cd2b
+  Translate: [-1.4930959939956665, 102.09561157226562, 76.74972534179688]
+- Gyaml: FldObj_AirWall_CharacterSight_GenerateNavMesh
+  Hash: !ul 9069491201516177314
+  Phive:
+    Placement: {ID: !ul 9069491201516177314}
+  SRTHash: !u 0x48b8d244
+  Scale: [1.0, 1.0, 0.20000000298023224]
+  Translate: [-26.41554069519043, 100.40518188476562, 16.66509246826172]
+- Gyaml: FldObj_AirWall_ExcludeNpcAndAnimal
+  Hash: !ul 16173895529022555071
+  Phive:
+    Placement: {ID: !ul 16173895529022555071}
+  Rotate: [0.0, 1.5707951784133911, -2.6822092991096724e-07]
+  SRTHash: !u 0xfd07f684
+  Scale: [0.5, 0.800000011920929, 0.800000011920929]
+  Translate: [-26.274898529052734, 100.3131332397461, 16.00527000427246]
+- Gyaml: FldObj_AirWall_CameraSightAndCameraBody
+  Hash: !ul 9875053641677789979
+  Phive:
+    Placement: {ID: !ul 9875053641677789979}
+  Rotate: [0.0, 1.5707951784133911, -2.6822092991096724e-07]
+  SRTHash: !u 0xeed1aa82
+  Translate: [-26.274898529052734, 100.3131332397461, 14.953184127807617]
+- Gyaml: FldObj_AirWall_Cucco_GenerateNavMesh
+  Hash: !ul 5309830650096203500
+  Phive:
+    Placement: {ID: !ul 5309830650096203500}
+  Rotate: [0.0, 1.5707951784133911, -2.6822092991096724e-07]
+  SRTHash: !u 0xfd07f684
+  Scale: [0.5, 0.800000011920929, 0.800000011920929]
+  Translate: [-26.274898529052734, 100.3131332397461, 16.00527000427246]
+- Gyaml: FldObj_AirWall_CharacterSight_GenerateNavMesh
+  Hash: !ul 8042492580344452029
+  Phive:
+    Placement: {ID: !ul 8042492580344452029}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xefb29010
+  Scale: [1.0, 1.0, 0.20000000298023224]
+  Translate: [-19.965576171875, 104.53369140625, 7.871638298034668]
+- Gyaml: FldObj_AirWall_ExcludeNpcAndAnimal
+  Hash: !ul 18101231206773972537
+  Phive:
+    Placement: {ID: !ul 18101231206773972537}
+  Rotate: [-3.141592502593994, 8.498649606281106e-08, 3.1415927410125732]
+  SRTHash: !u 0xfe0f4684
+  Scale: [0.5, 0.800000011920929, 0.800000011920929]
+  Translate: [-20.625396728515625, 104.44164276123047, 7.730993270874023]
+- Gyaml: FldObj_AirWall_CameraSightAndCameraBody
+  Hash: !ul 13702903696755492829
+  Phive:
+    Placement: {ID: !ul 13702903696755492829}
+  Rotate: [-3.141592502593994, 8.498649606281106e-08, 3.1415927410125732]
+  SRTHash: !u 0xd4f3f058
+  Translate: [-21.67748260498047, 104.44164276123047, 7.730993270874023]
+- Gyaml: FldObj_AirWall_Cucco_GenerateNavMesh
+  Hash: !ul 7094062693452391672
+  Phive:
+    Placement: {ID: !ul 7094062693452391672}
+  Rotate: [-3.141592502593994, 8.498649606281106e-08, 3.1415927410125732]
+  SRTHash: !u 0xfe0f4684
+  Scale: [0.5, 0.800000011920929, 0.800000011920929]
+  Translate: [-20.625396728515625, 104.44164276123047, 7.730993270874023]
+- Gyaml: AnchorAction1
+  Hash: !ul 10802351663939698718
+  Phive:
+    Placement: {ID: !ul 10802351663939698718}
+  SRTHash: !u 0x36c0d3df
+  Translate: [4.364119529724121, 100.08000183105469, 5.301687717437744]
+- Gyaml: FldObj_AirWall_CharacterSight_GenerateNavMesh
+  Hash: !ul 18237530562777519017
+  Phive:
+    Placement: {ID: !ul 18237530562777519017}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x18227a24
+  Scale: [1.0, 1.0, 0.20000000298023224]
+  Translate: [-5.67335319519043, 100.08629608154297, 26.897953033447266]
+- Gyaml: FldObj_AirWall_ExcludeNpcAndAnimal
+  Hash: !ul 8273394756502101930
+  Phive:
+    Placement: {ID: !ul 8273394756502101930}
+  Rotate: [-3.141592502593994, 8.498649606281106e-08, 3.1415927410125732]
+  SRTHash: !u 0xf11fabc2
+  Scale: [0.5, 0.800000011920929, 0.800000011920929]
+  Translate: [-6.3331732749938965, 99.99424743652344, 26.757308959960938]
+- Gyaml: FldObj_AirWall_CameraSightAndCameraBody
+  Hash: !ul 3266215011330697198
+  Phive:
+    Placement: {ID: !ul 3266215011330697198}
+  Rotate: [-3.141592502593994, 8.498649606281106e-08, 3.1415927410125732]
+  SRTHash: !u 0xcadef548
+  Translate: [-7.385260105133057, 99.99424743652344, 26.757308959960938]
+- Gyaml: FldObj_AirWall_Cucco_GenerateNavMesh
+  Hash: !ul 14211740154483114745
+  Phive:
+    Placement: {ID: !ul 14211740154483114745}
+  Rotate: [-3.141592502593994, 8.498649606281106e-08, 3.1415927410125732]
+  SRTHash: !u 0xf11fabc2
+  Scale: [0.5, 0.800000011920929, 0.800000011920929]
+  Translate: [-6.3331732749938965, 99.99424743652344, 26.757308959960938]
+- Gyaml: Npc_Hylia_080_Child
+  Hash: !ul 11993059689968816035
+  Phive:
+    Placement: {ID: !ul 11993059689968816035}
+  SRTHash: !u 0x8f6b9148
+  Translate: [-25.074371337890625, 100.05512237548828, -12.599617958068848]
+- Gyaml: Npc_Hylia_082_Child
+  Hash: !ul 13221791983863430423
+  Phive:
+    Placement: {ID: !ul 13221791983863430423}
+  SRTHash: !u 0x969a2579
+  Translate: [-29.147964477539062, 100.25518798828125, 15.84151840209961]
+- Gyaml: Npc_Hylia_081_Child
+  Hash: !ul 10031435928015997743
+  Phive:
+    Placement: {ID: !ul 10031435928015997743}
+  Rotate: [0.0, 1.569704532623291, -0.011878125369548798]
+  SRTHash: !u 0x04578295
+  Translate: [-7.835394382476807, 99.98323822021484, 26.25428009033203]
+- Gyaml: Obj_HrlField_DrawBridge_A_01
+  Hash: !ul 13044519189908385000
+  Phive:
+    Placement: {ID: !ul 13044519189908385000}
+  Presence: {FlagName: IsHyruleFieldBridgeClose, IsCheckLazy: false, IsNegation: true}
+  SRTHash: !u 0xef91c44d
+  Scale: [0.6000000238418579, 0.6000000238418579, 0.6000000238418579]
+  Translate: [-1.876523494720459, 101.98974609375, 90.40824127197266]
+- Gyaml: Land_HrlCity_MasterSword
+  Hash: !ul 17782082896185345906
+  Phive:
+    Placement: {ID: !ul 17782082896185345906}
+  Rotate: [0.0, 1.570796251296997, -1.5707963705062866]
+  SRTHash: !u 0xceb2af5e
+  Translate: [137.68313598632812, 107.0929183959961, -34.0]
+- Gyaml: StartPos
+  Hash: !ul 8312484936849198795
+  Phive:
+    Placement: {ID: !ul 8312484936849198795}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0x4509d7cd
+  Translate: [-1.9115630388259888, 102.09559631347656, 65.22693634033203]
+- Dynamic: {InterestEmitType: 21}
+  Gyaml: InterestSpotActor
+  Hash: !ul 1171738864044331399
+  Phive:
+    Placement: {ID: !ul 1171738864044331399}
+  SRTHash: !u 0x31f09572
+  Translate: [-48.16120529174805, 98.55516052246094, -19.88604736328125]
+- Dynamic: {InterestEmitType: 21}
+  Gyaml: InterestSpotActor
+  Hash: !ul 2549805138452372771
+  Phive:
+    Placement: {ID: !ul 2549805138452372771}
+  SRTHash: !u 0x1256469b
+  Translate: [-47.80241775512695, 98.199462890625, -16.160234451293945]
+- Dynamic: {InterestEmitType: 21}
+  Gyaml: InterestSpotActor
+  Hash: !ul 3343912901072145872
+  Phive:
+    Placement: {ID: !ul 3343912901072145872}
+  SRTHash: !u 0xc695670f
+  Translate: [-43.357269287109375, 98.56682586669922, -20.283931732177734]
+- Dynamic: {InterestEmitType: 21}
+  Gyaml: InterestSpotActor
+  Hash: !ul 7891405382544799986
+  Phive:
+    Placement: {ID: !ul 7891405382544799986}
+  SRTHash: !u 0xcc0af609
+  Translate: [-43.26219177246094, 98.41986083984375, -13.952631950378418]
+- Dynamic: {MapIconAnchorType: 16, MapIconFacilityIsOpen: Market_DrugStore_FirstTalk}
+  Gyaml: MapIconFacilityAnchor
+  Hash: !ul 16291444002866747860
+  Phive:
+    Placement: {ID: !ul 16291444002866747860}
+  SRTHash: !u 0x0012ab06
+  Translate: [20.574474334716797, 112.2168197631836, 5.434666156768799]
+- Dynamic: {MapIconAnchorType: 1, MapIconFacilityIsOpen: Market_HappyMaskShop_FirstTalk}
+  Gyaml: MapIconFacilityAnchor
+  Hash: !ul 4206565430124184560
+  Phive:
+    Placement: {ID: !ul 4206565430124184560}
+  SRTHash: !u 0x955ba132
+  Translate: [8.961694717407227, 110.25689697265625, -17.69147300720215]
+- Dynamic: {MapIconAnchorType: 20, MapIconFacilityIsOpen: Market_MiniGame_HitTarget_FirstTalk}
+  Gyaml: MapIconFacilityAnchor
+  Hash: !ul 3576065904214803228
+  Phive:
+    Placement: {ID: !ul 3576065904214803228}
+  SRTHash: !u 0x3cbac515
+  Translate: [-12.99337387084961, 112.72222137451172, -18.907550811767578]
+- Dynamic: {MapIconAnchorType: 4, MapIconFacilityIsOpen: Market_BombchuShop_FirstTalk}
+  Gyaml: MapIconFacilityAnchor
+  Hash: !ul 3726335697603476906
+  Phive:
+    Placement: {ID: !ul 3726335697603476906}
+  SRTHash: !u 0x4ed7c7be
+  Translate: [-24.538145065307617, 117.71556091308594, 32.876121520996094]
+- Dynamic: {MapIconAnchorType: 18, MapIconFacilityIsOpen: Market_NandemoShop_FirstTalk}
+  Gyaml: MapIconFacilityAnchor
+  Hash: !ul 12446007402905842523
+  Phive:
+    Placement: {ID: !ul 12446007402905842523}
+  SRTHash: !u 0x89bce37e
+  Translate: [19.690990447998047, 113.92884063720703, 16.762428283691406]
+- Dynamic: {HeartPieceAnchor_GameDataPath: SubEvent_FindRichard_GetHeartPiece, MapIconHeartPieceAnchorType: 2}
+  Gyaml: HeartPieceAnchor
+  Hash: !ul 8568137720802848289
+  Phive:
+    Placement: {ID: !ul 8568137720802848289}
+  SRTHash: !u 0x5b691517
+  Translate: [1.6605249643325806, 100.0863037109375, 26.596019744873047]
+- Bakeable: true
+  Gyaml: Obj_TimeTemple_MasterSwordBase_A_01
+  Hash: !ul 11816086351956332409
+  Phive:
+    Placement: {ID: !ul 11816086351956332409}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x1d49e268
+  Translate: [137.67138671875, 104.86035919189453, -34.0]
+- Bakeable: true
+  Gyaml: Obj_TimeTemple_WarpPoint_A_01
+  Hash: !ul 15388247093283360095
+  Phive:
+    Placement: {ID: !ul 15388247093283360095}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0xcf41489c
+  Translate: [84.75125885009766, 103.78602600097656, -34.0]
+- Gyaml: StartPos
+  Hash: !ul 4578708010518158057
+  Name: LightPrelude
+  Phive:
+    Placement: {ID: !ul 4578708010518158057}
+  Rotate: [0.0, 1.5707961320877075, -1.5099580252808664e-07]
+  SRTHash: !u 0xb1fb2a27
+  Translate: [84.75125885009766, 104.23249053955078, -34.0]
+- Gyaml: StartPos
+  Hash: !ul 6954283778145760095
+  Name: Market_Entrance
+  Phive:
+    Placement: {ID: !ul 6954283778145760095}
+  Rotate: [-3.141592502593994, -3.89414338997085e-07, 3.141592502593994]
+  SRTHash: !u 0x34a10e01
+  Translate: [-1.7120263576507568, 102.23974609375, 65.77322387695312]
+- Gyaml: StartPos
+  Hash: !ul 2606038993346201701
+  Name: EntrancePos
+  Phive:
+    Placement: {ID: !ul 2606038993346201701}
+  Rotate: [-3.141592502593994, -3.89414338997085e-07, 3.141592502593994]
+  SRTHash: !u 0xdc5b8186
+  Translate: [-1.712023377418518, 102.23974609375, 73.32803344726562]
+- Dynamic: {IconRotate: 180, Location: HyruleField}
+  Gyaml: MapIconEntranceAnchor
+  Hash: !ul 13900700779632347206
+  Phive:
+    Placement: {ID: !ul 13900700779632347206}
+  Rotate: [-3.141592502593994, -3.89414338997085e-07, 3.141592502593994]
+  SRTHash: !u 0xeccc7678
+  Translate: [-1.8238556385040283, 102.16484069824219, 66.68424224853516]
+- Gyaml: PlayerIconMapWarpPosAnchor
+  Hash: !ul 14896969165300248745
+  Phive:
+    Placement: {ID: !ul 14896969165300248745}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x246a9e90
+  Translate: [51.63392639160156, 104.65219116210938, -33.9659423828125]
+- Gyaml: EftLoc_HrlCity_TimeTemple_LightShaft_00
+  Hash: !ul 1252295887903407275
+  Phive:
+    Placement: {ID: !ul 1252295887903407275}
+  SRTHash: !u 0x6804efc5
+  Translate: [137.7075958251953, 106.34770202636719, -33.993709564208984]
+- Gyaml: EftLoc_TempleOfTime_MasterSwordRoom_2DVolumeChild_00
+  Hash: !ul 10675652166516852207
+  Phive:
+    Placement: {ID: !ul 10675652166516852207}
+  SRTHash: !u 0x4a865569
+  Translate: [137.43739318847656, 106.17591857910156, -34.01414108276367]
+- Gyaml: Weapon_Bottle
+  Hash: !ul 6177505292770218128
+  Phive:
+    Placement: {ID: !ul 6177505292770218128}
+  Presence: {FlagName: Npc_Hylia_020_Shop_Item_Bottle_Present, IsCheckLazy: false,
+    IsNegation: true}
+  Rotate: [1.5707963705062866, -0.0, -3.141592502593994]
+  SRTHash: !u 0x613b55a6
+  Translate: [22.343669891357422, 101.18499755859375, 6.561438083648682]
+- Dynamic: {RestingPosMaxRadius: 2.5}
+  Gyaml: EnvironmentalAnimal_Bird_Swarm_Ground
+  Hash: !ul 9748875253248563252
+  Phive:
+    Placement: {ID: !ul 9748875253248563252}
+  SRTHash: !u 0xbaccbfa6
+  Translate: [-1.8538507223129272, 100.09058380126953, -3.9103407859802246]
+- Gyaml: EnvironmentalAnimal_Bird_Single
+  Hash: !ul 629388971565654872
+  Phive:
+    Placement: {ID: !ul 629388971565654872}
+  SRTHash: !u 0x445c1f40
+  Translate: [26.04422950744629, 105.44096374511719, -8.482400894165039]
+- Gyaml: EnvironmentalAnimal_Bird_Swarm_Tree
+  Hash: !ul 4175059823242922650
+  Phive:
+    Placement: {ID: !ul 4175059823242922650}
+  Rotate: [1.2413547665346414e-06, 1.2904857397079468, 1.5433869293701719e-06]
+  SRTHash: !u 0x3947a1da
+  Translate: [43.87282180786133, 114.46552276611328, -0.8985365033149719]
+- Dynamic: {FlyToSkyLongitude: 90.0}
+  Gyaml: EnvironmentalAnimal_Bird_Swarm_Ground
+  Hash: !ul 11592637510338289565
+  Phive:
+    Placement: {ID: !ul 11592637510338289565}
+  Rotate: [1.5868813534325454e-06, 0.00027683688676916063, -0.6539453864097595]
+  SRTHash: !u 0x757046ac
+  Translate: [-22.449941635131836, 112.89555358886719, 5.946588516235352]
+- Gyaml: EnvironmentalAnimal_Bird_Single
+  Hash: !ul 5819413849237664610
+  Phive:
+    Placement: {ID: !ul 5819413849237664610}
+  Rotate: [0.0, 1.2231031656265259, 0.0]
+  SRTHash: !u 0x834f5fb9
+  Translate: [0.6163966059684753, 104.00504302978516, 6.429932117462158]
+- Bakeable: true
+  Gyaml: Obj_Shop_TargetRail_A_01
+  Hash: !ul 8548303580099991176
+  Phive:
+    Placement: {ID: !ul 8548303580099991176}
+  SRTHash: !u 0x0bafecff
+  Translate: [-14.273148536682129, 104.72915649414062, -27.902034759521484]
+- Gyaml: StartPos
+  Hash: !ul 11597111705663015419
+  Name: HitTargetStartPos
+  Phive:
+    Placement: {ID: !ul 11597111705663015419}
+  Rotate: [3.141592502593994, -8.742277657347586e-08, -3.141592502593994]
+  SRTHash: !u 0x583de13b
+  Translate: [-14.248189926147461, 100.11699676513672, -12.432838439941406]
+- Dynamic:
+    FlyingDirection: 360.0
+    FlyingDirectionRandomRange: 50.0
+    FlyingDistance: 190.0
+    FlyingSpeed: 20.0
+    SpawnCircleCenterOffset: [0.0, 30.0, -100.0]
+    SpawnCircleRadius: 70.0
+  Gyaml: EnvironmentalAnimal_Bird_Swarm_Few
+  Hash: !ul 15731087346898847555
+  Phive:
+    Placement: {ID: !ul 15731087346898847555}
+  SRTHash: !u 0x1a318bee
+  Translate: [-1.3972517251968384, 103.27982330322266, 33.78615951538086]
+- Dynamic:
+    FlyingDirection: 20.0
+    FlyingDirectionRandomRange: 40.0
+    FlyingDistance: 150.0
+    FlyingSpeed: 15.0
+    SpawnCircleCenterOffset: [-60.0, 17.0, 30.0]
+    SpawnCircleRadius: 70.0
+  Gyaml: EnvironmentalAnimal_Bird_Swarm_Few
+  Hash: !ul 17615059210475460809
+  Phive:
+    Placement: {ID: !ul 17615059210475460809}
+  SRTHash: !u 0xfdacc74b
+  Translate: [32.76123809814453, 108.42378997802734, -14.041214942932129]
+- Bakeable: true
+  Dynamic: {EventNameFromInstanceParam: SignboardCheck_MaskSalesman_HrlCity_001, IsUseEventNameInstanceParam: true}
+  Gyaml: Obj_HrlCity_SignBoard_A_01
+  Hash: !ul 13661147823472757198
+  Name: HrlCity_001
+  Phive:
+    Placement: {ID: !ul 13661147823472757198}
+  Rotate: [0.0, 0.8189365863800049, 0.0]
+  SRTHash: !u 0xf92add3c
+  Translate: [6.524669647216797, 100.26537322998047, -18.605602264404297]
+- Gyaml: DropKeepAwayArea_TBox_A_02
+  Hash: !ul 6926992803122113086
+  Phive:
+    Placement: {ID: !ul 6926992803122113086}
+  Rotate: [0.0, 1.5707961320877075, -1.5099580252808664e-07]
+  SRTHash: !u 0xd88a934b
+  Translate: [-131.57797241210938, 97.8905029296875, 12.671160697937012]
+- Gyaml: DropKeepAwayArea_TBox_A_02
+  Hash: !ul 10934933008410211100
+  Phive:
+    Placement: {ID: !ul 10934933008410211100}
+  Rotate: [0.0, 1.5707961320877075, -1.5099580252808664e-07]
+  SRTHash: !u 0xd88a934b
+  Translate: [-131.57797241210938, 97.8905029296875, 12.671160697937012]
+- Gyaml: EnvironmentalAnimal_Bird_Swarm_Tree
+  Hash: !ul 13955505339660730751
+  Phive:
+    Placement: {ID: !ul 13955505339660730751}
+  SRTHash: !u 0x688abe12
+  Translate: [28.4913387298584, 111.01741790771484, -58.2951774597168]
+- Bakeable: true
+  Gyaml: Land_HrlCity_PotsRoom
+  Hash: !ul 158984422747356183
+  Phive:
+    Placement: {ID: !ul 158984422747356183}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, -3.141592502593994]
+  SRTHash: !u 0x5aa70c2e
+  Translate: [6.774474620819092, 102.10101318359375, 54.78718185424805]
+- Gyaml: Land_HrlCastle_CandleStick_A_01
+  Hash: !ul 15273521838805304736
+  Phive:
+    Placement: {ID: !ul 15273521838805304736}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x2f72dbc4
+  Translate: [1.8799999952316284, 105.5, 61.770023345947266]
+- Gyaml: Land_HrlCastle_CandleStick_A_01
+  Hash: !ul 14427530935501984068
+  Phive:
+    Placement: {ID: !ul 14427530935501984068}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x3b679655
+  Translate: [-5.610453128814697, 105.5, 61.770023345947266]
+- Gyaml: Land_HrlCastle_CandleStick_A_01
+  Hash: !ul 10977241908068015465
+  Phive:
+    Placement: {ID: !ul 10977241908068015465}
+  Rotate: [0.0, -1.570796251296997, 1.9237560877627402e-07]
+  SRTHash: !u 0x02b36882
+  Translate: [17.670677185058594, 105.27140045166016, 57.849510192871094]
+- Gyaml: Land_HrlCastle_CandleStick_A_01
+  Hash: !ul 8228481453524377831
+  Phive:
+    Placement: {ID: !ul 8228481453524377831}
+  SRTHash: !u 0x25c276ed
+  Translate: [11.991945266723633, 105.32051849365234, 53.38483810424805]
+- Gyaml: Land_HrlCastle_CandleStick_A_01
+  Hash: !ul 16495451993622533249
+  Phive:
+    Placement: {ID: !ul 16495451993622533249}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x10836e79
+  Translate: [7.669745922088623, 105.32051849365234, 58.11379623413086]
+- Bakeable: true
+  Gyaml: Land_HrlField_Emblem_A_01
+  Hash: !ul 9662023849550312408
+  Phive:
+    Placement: {ID: !ul 9662023849550312408}
+  Rotate: [3.1415927410125732, 8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xb9f455c7
+  Translate: [-1.7999999523162842, 113.80000305175781, 61.7599983215332]
+- Gyaml: Land_HrlCity_Signboard_A
+  Hash: !ul 838973167456799891
+  Phive:
+    Placement: {ID: !ul 838973167456799891}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x20ae97ad
+  Scale: [0.6000000238418579, 0.6000000238418579, 0.6000000238418579]
+  Translate: [-8.97475814819336, 105.06629943847656, 55.931922912597656]
+- Gyaml: Obj_GanonCastle_TatteredFlag_A_01
+  Hash: !ul 12341912607167314043
+  Phive:
+    Placement: {ID: !ul 12341912607167314043}
+  SRTHash: !u 0x24ed88c8
+  Translate: [-5.72313928604126, 102.1219482421875, 53.400394439697266]
+- Gyaml: Obj_GanonCastle_TatteredFlag_A_01
+  Hash: !ul 17665562274467494821
+  Phive:
+    Placement: {ID: !ul 17665562274467494821}
+  SRTHash: !u 0xe6e6e5d1
+  Translate: [1.9368606805801392, 102.1219482421875, 53.400394439697266]
+- Bakeable: true
+  Gyaml: CmnTex_Map_CityPropsSet_RoyalFlag_A_01
+  Hash: !ul 1756326293976499393
+  Phive:
+    Placement: {ID: !ul 1756326293976499393}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x5ea104cc
+  Translate: [18.07792091369629, 107.99788665771484, 60.03955841064453]
+- Bakeable: true
+  Gyaml: CmnTex_Map_CityPropsSet_RoyalFlag_A_01
+  Hash: !ul 15245517806108163879
+  Phive:
+    Placement: {ID: !ul 15245517806108163879}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xc701e7af
+  Translate: [18.107921600341797, 107.99788665771484, 55.649600982666016]
+- Gyaml: FldObj_AirWall_ObjectAndSmallObject
+  Hash: !ul 2508725921122330949
+  Phive:
+    Placement: {ID: !ul 2508725921122330949}
+  SRTHash: !u 0x1533c1b8
+  Scale: [0.699999988079071, 1.7999999523162842, 0.20000000298023224]
+  Translate: [17.073698043823242, 102.07766723632812, 52.93488311767578]
+- Gyaml: FldObj_AirWall_ObjectAndSmallObject
+  Hash: !ul 3095526698603337423
+  Phive:
+    Placement: {ID: !ul 3095526698603337423}
+  SRTHash: !u 0xcbf9438f
+  Scale: [0.20000000298023224, 1.7999999523162842, 0.800000011920929]
+  Translate: [18.08370018005371, 102.07766723632812, 54.524906158447266]
+- Gyaml: FldObj_AirWall_ObjectAndSmallObject
+  Hash: !ul 12575285738531779410
+  Phive:
+    Placement: {ID: !ul 12575285738531779410}
+  SRTHash: !u 0xc73c1a54
+  Scale: [0.6000000238418579, 1.2000000476837158, 0.15000000596046448]
+  Translate: [9.773701667785645, 103.95775604248047, 52.964656829833984]
+- Gyaml: FldObj_AirWall_ObjectAndSmallObject
+  Hash: !ul 8842564266478164241
+  Phive:
+    Placement: {ID: !ul 8842564266478164241}
+  SRTHash: !u 0xd5933c95
+  Scale: [0.25, 2.0, 0.25]
+  Translate: [7.103693008422852, 103.6577377319336, 60.92470932006836]
+- Gyaml: FldObj_AirWall_ObjectAndSmallObject
+  Hash: !ul 15330126720484152185
+  Phive:
+    Placement: {ID: !ul 15330126720484152185}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x682d0a5d
+  Scale: [0.6000000238418579, 1.2000000476837158, 0.10000000149011612]
+  Translate: [7.34370231628418, 104.74774932861328, 55.78463363647461]
+- Gyaml: FldObj_AirWall_ObjectAndSmallObject
+  Hash: !ul 5996893049978237346
+  Phive:
+    Placement: {ID: !ul 5996893049978237346}
+  SRTHash: !u 0x546e1c7b
+  Scale: [1.25, 1.2000000476837158, 0.15000000596046448]
+  Translate: [13.323695182800293, 103.95775604248047, 52.794681549072266]
+- Bakeable: true
+  Gyaml: Land_HrlCity_Shop_B
+  Hash: !ul 17158038882221531364
+  Phive:
+    Placement: {ID: !ul 17158038882221531364}
+  SRTHash: !u 0x1cef8bc0
+  Translate: [8.965999603271484, 100.25499725341797, -16.922000885009766]
+- Bakeable: true
+  Gyaml: Land_HrlCity_Shop_Inside_B
+  Hash: !ul 11718009930097243485
+  Phive:
+    Placement: {ID: !ul 11718009930097243485}
+  SRTHash: !u 0x1cef8bc0
+  Translate: [8.965999603271484, 100.25499725341797, -16.922000885009766]
+- Gyaml: Land_ShadowTemple_CandleStick_A_01
+  Hash: !ul 7064384843136896111
+  Phive:
+    Placement: {ID: !ul 7064384843136896111}
+  Rotate: [0.0, 0.20943796634674072, 0.0]
+  SRTHash: !u 0xd0014220
+  Translate: [5.50230598449707, 102.25889587402344, -14.221052169799805]
+- Bakeable: true
+  Gyaml: Land_HrlCity_ShopMask_Inside_candleholder
+  Hash: !ul 6166539555642364208
+  Phive:
+    Placement: {ID: !ul 6166539555642364208}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x1f1f6469
+  Translate: [5.17440938949585, 101.9736328125, -14.392024993896484]
+- Gyaml: Land_ShadowTemple_CandleStick_A_01
+  Hash: !ul 880515802786331565
+  Phive:
+    Placement: {ID: !ul 880515802786331565}
+  Rotate: [0.0, -0.8028517365455627, 0.0]
+  SRTHash: !u 0x49c6f996
+  Translate: [5.493310451507568, 102.25894165039062, -14.56396484375]
+- Gyaml: Land_ShadowTemple_CandleStick_A_01
+  Hash: !ul 11897177475561416014
+  Phive:
+    Placement: {ID: !ul 11897177475561416014}
+  Rotate: [0.0, 0.20943796634674072, 0.0]
+  SRTHash: !u 0xcac92506
+  Translate: [5.5146355628967285, 102.25889587402344, -17.329612731933594]
+- Bakeable: true
+  Gyaml: Land_HrlCity_ShopMask_Inside_candleholder
+  Hash: !ul 671419524796235863
+  Phive:
+    Placement: {ID: !ul 671419524796235863}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x5d34fde5
+  Translate: [5.186738967895508, 101.9736328125, -17.500585556030273]
+- Gyaml: Land_ShadowTemple_CandleStick_A_01
+  Hash: !ul 4595995434833022089
+  Phive:
+    Placement: {ID: !ul 4595995434833022089}
+  Rotate: [0.0, -0.8028517365455627, 0.0]
+  SRTHash: !u 0xe422bdeb
+  Translate: [5.505640029907227, 102.25894165039062, -17.67252540588379]
+- Gyaml: Land_ShadowTemple_CandleStick_A_01
+  Hash: !ul 6099563257209883715
+  Phive:
+    Placement: {ID: !ul 6099563257209883715}
+  Rotate: [3.1415927410125732, -0.20943787693977356, 3.1415927410125732]
+  SRTHash: !u 0xd65e2657
+  Translate: [12.400470733642578, 102.25889587402344, -14.562997817993164]
+- Bakeable: true
+  Gyaml: Land_HrlCity_ShopMask_Inside_candleholder
+  Hash: !ul 4705172605001082586
+  Phive:
+    Placement: {ID: !ul 4705172605001082586}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x7a2c971b
+  Translate: [12.72836685180664, 101.9736328125, -14.392024993896484]
+- Gyaml: Land_ShadowTemple_CandleStick_A_01
+  Hash: !ul 18157817798420980750
+  Phive:
+    Placement: {ID: !ul 18157817798420980750}
+  Rotate: [3.1415927410125732, 0.8028519153594971, 3.1415927410125732]
+  SRTHash: !u 0x7bc5807a
+  Translate: [12.409465789794922, 102.25894165039062, -14.220085144042969]
+- Gyaml: Land_ShadowTemple_CandleStick_A_01
+  Hash: !ul 16637553746256750692
+  Phive:
+    Placement: {ID: !ul 16637553746256750692}
+  Rotate: [3.1415927410125732, -0.20943787693977356, 3.1415927410125732]
+  SRTHash: !u 0x4817e88c
+  Translate: [12.400470733642578, 102.25889587402344, -18.422090530395508]
+- Bakeable: true
+  Gyaml: Land_HrlCity_ShopMask_Inside_candleholder
+  Hash: !ul 14793673977779484573
+  Phive:
+    Placement: {ID: !ul 14793673977779484573}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0xdf091ec8
+  Translate: [12.72836685180664, 101.9736328125, -18.251117706298828]
+- Gyaml: Land_ShadowTemple_CandleStick_A_01
+  Hash: !ul 8997477977306894438
+  Phive:
+    Placement: {ID: !ul 8997477977306894438}
+  Rotate: [3.1415927410125732, 0.8028519153594971, 3.1415927410125732]
+  SRTHash: !u 0xaa3f3876
+  Translate: [12.409465789794922, 102.25894165039062, -18.079177856445312]
+- Bakeable: true
+  Gyaml: Land_HrlCity_Shop_Inside_A
+  Hash: !ul 15974638595750359172
+  Phive:
+    Placement: {ID: !ul 15974638595750359172}
+  SRTHash: !u 0x76405638
+  Translate: [-13.656999588012695, 100.26699829101562, -15.291000366210938]
+- Bakeable: true
+  Gyaml: Land_HrlCity_Shop_A
+  Hash: !ul 13322624552360090069
+  Phive:
+    Placement: {ID: !ul 13322624552360090069}
+  SRTHash: !u 0x76405638
+  Translate: [-13.656559944152832, 100.26699829101562, -15.291000366210938]
+- Bakeable: true
+  Gyaml: Land_HrlCity_Shop_C
+  Hash: !ul 4830268194700822658
+  Phive:
+    Placement: {ID: !ul 4830268194700822658}
+  Rotate: [0.0, -1.570796251296997, 3.019916050561733e-07]
+  SRTHash: !u 0x5b2c9778
+  Translate: [16.95400047302246, 100.11139678955078, 5.322057247161865]
+- Bakeable: true
+  Gyaml: Land_HrlCity_Shop_Inside_C
+  Hash: !ul 4732946360105644198
+  Phive:
+    Placement: {ID: !ul 4732946360105644198}
+  Rotate: [0.0, -1.570796251296997, 3.019916050561733e-07]
+  SRTHash: !u 0x6203da8c
+  Translate: [16.985000610351562, 100.11100006103516, 5.436110019683838]
+- Gyaml: Land_HrlCity_ShopMedicine_Inside_driedFlowersA
+  Hash: !ul 5889927327307967059
+  Phive:
+    Placement: {ID: !ul 5889927327307967059}
+  Rotate: [0.010758643969893456, 0.33395373821258545, -0.021210508421063423]
+  SRTHash: !u 0x1161ffc2
+  Translate: [16.497900009155273, 103.33000183105469, 9.734254837036133]
+- Gyaml: Land_HrlCity_ShopMedicine_Inside_driedFlowersB
+  Hash: !ul 9547431463034773097
+  Phive:
+    Placement: {ID: !ul 9547431463034773097}
+  Rotate: [0.0, -1.4533531665802002, 0.0]
+  SRTHash: !u 0x80200b92
+  Translate: [20.906160354614258, 103.33000183105469, 7.477323532104492]
+- Gyaml: Land_HrlCity_ShopMedicine_Inside_driedFlowersC
+  Hash: !ul 17445187726879528453
+  Phive:
+    Placement: {ID: !ul 17445187726879528453}
+  Rotate: [3.1415927410125732, -0.2642952501773834, 3.1415927410125732]
+  SRTHash: !u 0x3765c690
+  Translate: [20.569379806518555, 103.33000183105469, 7.123465538024902]
+- Gyaml: Land_HrlCity_ShopMedicine_Inside_driedFlowersD
+  Hash: !ul 16724714664972366318
+  Phive:
+    Placement: {ID: !ul 16724714664972366318}
+  Rotate: [3.1415927410125732, 0.09238037467002869, 3.1415927410125732]
+  SRTHash: !u 0xdc57e9bd
+  Translate: [21.189922332763672, 103.33000183105469, 7.984365463256836]
+- Gyaml: Land_HrlCity_ShopMedicine_Inside_driedFlowersE
+  Hash: !ul 7326298888863960797
+  Phive:
+    Placement: {ID: !ul 7326298888863960797}
+  Rotate: [0.0, 1.36662757396698, 0.0]
+  SRTHash: !u 0x5986fe93
+  Translate: [20.5789794921875, 103.33000183105469, 8.443476676940918]
+- Gyaml: Land_HrlCity_ShopMedicine_Inside_driedFlowersB
+  Hash: !ul 10867550408901900761
+  Phive:
+    Placement: {ID: !ul 10867550408901900761}
+  Rotate: [0.09048997610807419, -0.5535432696342468, -0.10833385586738586]
+  SRTHash: !u 0x60a13783
+  Translate: [21.20264434814453, 103.33000183105469, 8.806537628173828]
+- Gyaml: Land_HrlCity_ShopMedicine_Inside_driedFlowersB
+  Hash: !ul 18425368842160710214
+  Phive:
+    Placement: {ID: !ul 18425368842160710214}
+  Rotate: [0.0880388468503952, 0.5365572571754456, -0.05149045214056969]
+  SRTHash: !u 0x03b4a7bb
+  Translate: [15.939138412475586, 103.33000183105469, 9.768022537231445]
+- Gyaml: Land_HrlCity_ShopMedicine_Inside_driedFlowersC
+  Hash: !ul 1606521346950974298
+  Phive:
+    Placement: {ID: !ul 1606521346950974298}
+  Rotate: [3.1415927410125732, -0.6759835481643677, 3.1415927410125732]
+  SRTHash: !u 0x2060541f
+  Translate: [20.261333465576172, 103.33000183105469, 8.698101043701172]
+- Gyaml: Land_HrlCity_ShopMedicine_Inside_driedFlowersC
+  Hash: !ul 10773651303313304721
+  Phive:
+    Placement: {ID: !ul 10773651303313304721}
+  Rotate: [3.1415927410125732, 0.9572432637214661, 3.1415927410125732]
+  SRTHash: !u 0x7ef668fd
+  Translate: [20.945636749267578, 103.33000183105469, 8.420492172241211]
+- Gyaml: Land_HrlCity_ShopMedicine_Inside_driedFlowersD
+  Hash: !ul 4330057098119776122
+  Phive:
+    Placement: {ID: !ul 4330057098119776122}
+  Rotate: [3.1415927410125732, 0.09238037467002869, 3.1415927410125732]
+  SRTHash: !u 0x0198f698
+  Translate: [20.570119857788086, 103.33000183105469, 7.57435417175293]
+- Gyaml: Land_HrlCity_ShopMedicine_Inside_driedFlowersE
+  Hash: !ul 12184882312233276447
+  Phive:
+    Placement: {ID: !ul 12184882312233276447}
+  SRTHash: !u 0x4fce6663
+  Translate: [20.25170135498047, 103.33000183105469, 7.841230869293213]
+- Gyaml: Land_HrlCity_ShopMedicine_Inside_driedFlowersE
+  Hash: !ul 16181192988108497076
+  Phive:
+    Placement: {ID: !ul 16181192988108497076}
+  Rotate: [3.1415927410125732, -1.4844199419021606, 3.1415927410125732]
+  SRTHash: !u 0xe9ee63e6
+  Translate: [20.563215255737305, 103.33000183105469, 9.098062515258789]
+- Gyaml: Land_HrlCity_ShopMedicine_Inside_driedFlowersD
+  Hash: !ul 6524942623156659212
+  Phive:
+    Placement: {ID: !ul 6524942623156659212}
+  Rotate: [3.1415927410125732, 0.09238037467002869, 3.1415927410125732]
+  SRTHash: !u 0xaa078842
+  Translate: [20.89422035217285, 103.33000183105469, 8.032819747924805]
+- Gyaml: Land_HrlCity_ShopMedicine_Inside_driedFlowersA
+  Hash: !ul 16792906874210498991
+  Phive:
+    Placement: {ID: !ul 16792906874210498991}
+  Rotate: [0.010758643969893456, 0.33395373821258545, -0.021210508421063423]
+  SRTHash: !u 0x63e2856d
+  Translate: [21.208389282226562, 103.33000183105469, 7.319103717803955]
+- Gyaml: Land_Kakariko_BuildingParts_A_44
+  Hash: !ul 4855169620590846801
+  Phive:
+    Placement: {ID: !ul 4855169620590846801}
+  Rotate: [0.0, -1.570796251296997, -0.041718896478414536]
+  SRTHash: !u 0x4d28ee9d
+  Translate: [13.991037368774414, 102.89581298828125, 2.0160908699035645]
+- Gyaml: Land_Kakariko_BuildingParts_A_45
+  Hash: !ul 11536258224456400669
+  Phive:
+    Placement: {ID: !ul 11536258224456400669}
+  Rotate: [0.0, -1.570796251296997, -0.08177685737609863]
+  SRTHash: !u 0x9f59247b
+  Translate: [13.962814331054688, 102.8904800415039, 2.6031124591827393]
+- Gyaml: Land_Kakariko_BuildingParts_A_44
+  Hash: !ul 9974160283591044970
+  Phive:
+    Placement: {ID: !ul 9974160283591044970}
+  Rotate: [-3.141592502593994, -0.7113133072853088, 3.0728366374969482]
+  SRTHash: !u 0x63a7cd7b
+  Translate: [13.97472095489502, 102.88810729980469, 3.1974074840545654]
+- Gyaml: Land_Kakariko_BuildingParts_A_44
+  Hash: !ul 10741457220282124093
+  Phive:
+    Placement: {ID: !ul 10741457220282124093}
+  Rotate: [-3.141592502593994, 0.1758023053407669, 3.0428380966186523]
+  SRTHash: !u 0x43a78425
+  Translate: [13.965577125549316, 102.86882781982422, 3.9351794719696045]
+- Gyaml: Land_Kakariko_BuildingParts_A_46
+  Hash: !ul 13118150186795597891
+  Phive:
+    Placement: {ID: !ul 13118150186795597891}
+  Rotate: [0.0, -0.6265379786491394, 0.0]
+  SRTHash: !u 0xa3e3bfcc
+  Translate: [13.992634773254395, 102.87018585205078, 3.5011394023895264]
+- Gyaml: Land_Kakariko_BuildingParts_A_45
+  Hash: !ul 7568775425268486376
+  Phive:
+    Placement: {ID: !ul 7568775425268486376}
+  Rotate: [1.7484542524925928e-07, 0.536456823348999, 0.0]
+  SRTHash: !u 0x12da465f
+  Translate: [13.987056732177734, 102.8904800415039, 7.435571193695068]
+- Gyaml: Land_Kakariko_BuildingParts_A_44
+  Hash: !ul 3797404441632976266
+  Phive:
+    Placement: {ID: !ul 3797404441632976266}
+  Rotate: [0.0, 0.31830155849456787, -0.0942932590842247]
+  SRTHash: !u 0x036262d6
+  Translate: [13.985182762145996, 102.86882781982422, 9.43754768371582]
+- Gyaml: Land_Kakariko_BuildingParts_A_49
+  Hash: !ul 14377518584839580873
+  Phive:
+    Placement: {ID: !ul 14377518584839580873}
+  SRTHash: !u 0xa10a4ad6
+  Translate: [13.988729476928711, 102.9248275756836, 7.81613302230835]
+- Gyaml: Land_Kakariko_BuildingParts_A_49
+  Hash: !ul 7900177128524170937
+  Phive:
+    Placement: {ID: !ul 7900177128524170937}
+  Rotate: [0.0, -1.3845405578613281, 0.0]
+  SRTHash: !u 0x4889b16f
+  Translate: [13.999531745910645, 102.92221069335938, 8.044740676879883]
+- Gyaml: Land_Kakariko_BuildingParts_A_44
+  Hash: !ul 2116352218823932809
+  Phive:
+    Placement: {ID: !ul 2116352218823932809}
+  Rotate: [-3.141592502593994, -0.655304491519928, 3.0586490631103516]
+  SRTHash: !u 0x7313566c
+  Translate: [13.991037368774414, 102.87176513671875, 2.3094751834869385]
+- Bakeable: true
+  Gyaml: Land_HrlCity_Shop_D
+  Hash: !ul 17675516091375242800
+  Phive:
+    Placement: {ID: !ul 17675516091375242800}
+  Rotate: [0.0, -1.570796251296997, 1.7484555314695172e-07]
+  SRTHash: !u 0x422f181f
+  Translate: [15.253433227539062, 100.03350067138672, 16.67364501953125]
+- Bakeable: true
+  Gyaml: Land_HrlCity_Shop_Inside_D
+  Hash: !ul 4728556775002779595
+  Phive:
+    Placement: {ID: !ul 4728556775002779595}
+  Rotate: [0.0, -1.570796251296997, 1.7484555314695172e-07]
+  SRTHash: !u 0xe73ead47
+  Translate: [14.843400001525879, 100.24534606933594, 16.563983917236328]
+- Gyaml: Land_HrlCity_Signboard_A
+  Hash: !ul 3410082458488774538
+  Phive:
+    Placement: {ID: !ul 3410082458488774538}
+  Rotate: [0.0, -1.570796251296997, 5.116787633596687e-06]
+  SRTHash: !u 0xdb3eab99
+  Translate: [11.569999694824219, 104.55999755859375, 10.75]
+- Bakeable: true
+  Gyaml: Land_HrlCity_Shop_Inside_E
+  Hash: !ul 8403583986635973518
+  Phive:
+    Placement: {ID: !ul 8403583986635973518}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x2c3a546e
+  Translate: [-25.632999420166016, 100.05500030517578, 5.811999797821045]
+- Bakeable: true
+  Gyaml: Obj_Chair_BombBoringMarket
+  Hash: !ul 8556162792953860885
+  Phive:
+    Placement: {ID: !ul 8556162792953860885}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x35b5aeda
+  Translate: [-14.421720504760742, 100.05167388916016, 13.504399299621582]
+- Bakeable: true
+  Gyaml: Land_HrlCity_Shop_E_01
+  Hash: !ul 8183169112299446506
+  Phive:
+    Placement: {ID: !ul 8183169112299446506}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x7dbc92e4
+  Translate: [-25.632959365844727, 100.05509948730469, 5.811826229095459]
+- Bakeable: true
+  Gyaml: Land_HrlCity_ShopBombBoring_Inside_Separate
+  Hash: !ul 5456609083128902748
+  Phive:
+    Placement: {ID: !ul 5456609083128902748}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x2c3a546e
+  Translate: [-25.632999420166016, 100.05500030517578, 5.811999797821045]
+- Gyaml: Land_Kakariko_BuildingParts_A_49
+  Hash: !ul 5109569635892091531
+  Phive:
+    Placement: {ID: !ul 5109569635892091531}
+  SRTHash: !u 0x6a0717cc
+  Translate: [-11.419790267944336, 102.61054992675781, 15.44249153137207]
+- Gyaml: Land_Kakariko_BuildingParts_A_45
+  Hash: !ul 8230185932396636821
+  Phive:
+    Placement: {ID: !ul 8230185932396636821}
+  SRTHash: !u 0xcaebfd64
+  Translate: [-11.434690475463867, 102.44318389892578, 12.393327713012695]
+- Gyaml: Land_Kakariko_BuildingParts_A_44
+  Hash: !ul 14057830737702681897
+  Phive:
+    Placement: {ID: !ul 14057830737702681897}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x2b6bf195
+  Translate: [-11.301603317260742, 102.470703125, 14.525697708129883]
+- Gyaml: Land_Kakariko_BuildingParts_A_46
+  Hash: !ul 1853208082797251458
+  Phive:
+    Placement: {ID: !ul 1853208082797251458}
+  SRTHash: !u 0x4e98e310
+  Translate: [-11.3856782913208, 102.54400634765625, 14.930948257446289]
+- Gyaml: Land_HrlCity_ShopMedicine_Inside_driedFlowersE
+  Hash: !ul 6736334314453071454
+  Phive:
+    Placement: {ID: !ul 6736334314453071454}
+  SRTHash: !u 0x9ad2feca
+  Translate: [-11.419689178466797, 102.5573959350586, 15.213085174560547]
+- Gyaml: Land_Kakariko_BuildingParts_A_44
+  Hash: !ul 15360167486359036579
+  Phive:
+    Placement: {ID: !ul 15360167486359036579}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x4aa21d21
+  Translate: [-11.43160629272461, 102.52071380615234, 12.245694160461426]
+- Gyaml: Land_HrlCity_Flag_A_02
+  Hash: !ul 11793609407226584016
+  Phive:
+    Placement: {ID: !ul 11793609407226584016}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xe3982c7e
+  Translate: [-44.90022277832031, 106.00623321533203, -12.137125015258789]
+- Bakeable: true
+  Gyaml: Land_HrlCity_ShopBombBoring_Inside_CeilingLamp
+  Hash: !ul 1952381362167835125
+  Phive:
+    Placement: {ID: !ul 1952381362167835125}
+  Rotate: [3.1415927410125732, 8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xcd92c08e
+  Translate: [-21.98362922668457, 104.1690902709961, 2.688678503036499]
+- Bakeable: true
+  Gyaml: Land_HrlCity_ShopBombBoring_Inside_CeilingLamp
+  Hash: !ul 12878871290944197773
+  Phive:
+    Placement: {ID: !ul 12878871290944197773}
+  Rotate: [3.1415927410125732, 8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xdc7dedf1
+  Translate: [-21.98362922668457, 104.1690902709961, 8.969046592712402]
+- Bakeable: true
+  Gyaml: Land_HrlCity_ShopBombBoring_Inside_CeilingLamp
+  Hash: !ul 11997514806215531861
+  Phive:
+    Placement: {ID: !ul 11997514806215531861}
+  Rotate: [3.1415927410125732, 8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xc9c92ffa
+  Translate: [-27.156879425048828, 104.1690902709961, 8.969046592712402]
+- Bakeable: true
+  Gyaml: Land_HrlCity_ShopBombBoring_Inside_CeilingLamp_Small_01
+  Hash: !ul 10373474334077033448
+  Phive:
+    Placement: {ID: !ul 10373474334077033448}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xf494437e
+  Translate: [-24.658279418945312, 104.26141357421875, 9.92220401763916]
+- Bakeable: true
+  Gyaml: Land_HrlCity_ShopBombBoring_Inside_CeilingLamp_Small_01
+  Hash: !ul 3051945473355641785
+  Phive:
+    Placement: {ID: !ul 3051945473355641785}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x2e1bdde6
+  Translate: [-26.01544761657715, 104.26141357421875, 10.131916999816895]
+- Bakeable: true
+  Gyaml: Land_HrlCity_ShopBombBoring_Inside_CeilingLamp_Small_02
+  Hash: !ul 8658843162643608726
+  Phive:
+    Placement: {ID: !ul 8658843162643608726}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x2425b621
+  Translate: [-25.107139587402344, 104.25379943847656, 10.298855781555176]
+- Gyaml: ForbiddenCreateDropArea
+  Hash: !ul 3199033353241470472
+  Phive:
+    Placement: {ID: !ul 3199033353241470472}
+  Rotate: [-1.0471951961517334, -0.0, -1.5707963705062866]
+  SRTHash: !u 0x87ca386a
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [-33.95074462890625, 101.33795166015625, -6.028815746307373]
+- Gyaml: ForbiddenCreateDropArea
+  Hash: !ul 15822791574213554665
+  Phive:
+    Placement: {ID: !ul 15822791574213554665}
+  Rotate: [-0.5235987901687622, -0.0, -1.5707963705062866]
+  SRTHash: !u 0xb3f9ab21
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [-36.20476531982422, 101.33795166015625, -5.805861949920654]
+- Bakeable: true
+  Gyaml: Land_HrlCity_Shop_F
+  Hash: !ul 5434858107496011789
+  Phive:
+    Placement: {ID: !ul 5434858107496011789}
+  Rotate: [3.141592502593994, -0.0, 3.141592502593994]
+  SRTHash: !u 0x5571e83f
+  Translate: [-24.880374908447266, 100.03450012207031, 31.165773391723633]
+- Bakeable: true
+  Gyaml: Land_HrlCity_Shop_Inside_F
+  Hash: !ul 2037009281442024711
+  Phive:
+    Placement: {ID: !ul 2037009281442024711}
+  Rotate: [3.141592502593994, -0.0, 3.141592502593994]
+  SRTHash: !u 0x72df2fe9
+  Translate: [-24.880535125732422, 100.03500366210938, 31.165773391723633]
+- Gyaml: CmnTex_Map_CityPropsSet_Candle_Chandelier_A_01
+  Hash: !ul 13026929065399176046
+  Phive:
+    Placement: {ID: !ul 13026929065399176046}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xf59b323f
+  Translate: [-22.6080265045166, 105.0856704711914, 33.414772033691406]
+- Gyaml: CmnTex_Map_CityPropsSet_Candle_Chandelier_A_01
+  Hash: !ul 12516575178370360267
+  Phive:
+    Placement: {ID: !ul 12516575178370360267}
+  SRTHash: !u 0x29f1fb99
+  Translate: [-22.6080265045166, 105.0856704711914, 28.917232513427734]
+- Gyaml: CmnTex_Map_CityPropsSet_Candle_Chandelier_A_01
+  Hash: !ul 3318739503594632907
+  Phive:
+    Placement: {ID: !ul 3318739503594632907}
+  Rotate: [0.0, -1.5707963705062866, -0.0]
+  SRTHash: !u 0xd05267ea
+  Translate: [-25.5424861907959, 105.0856704711914, 33.414772033691406]
+- Gyaml: CmnTex_Map_CityPropsSet_Candle_Chandelier_A_01
+  Hash: !ul 16320272945954175082
+  Phive:
+    Placement: {ID: !ul 16320272945954175082}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x6e968879
+  Translate: [-25.5424861907959, 105.0856704711914, 28.917232513427734]
+- Bakeable: true
+  Gyaml: CmnTex_Map_CityPropsA_Candelabra_A_01
+  Hash: !ul 9371823797054294117
+  Phive:
+    Placement: {ID: !ul 9371823797054294117}
+  Rotate: [0.0, -0.7780371904373169, 0.0]
+  SRTHash: !u 0xf3ee9672
+  Translate: [-26.7836856842041, 101.43660736083984, 29.266429901123047]
+- Gyaml: Land_ShadowTemple_CandleStick_A_01
+  Hash: !ul 14730448454877652364
+  Phive:
+    Placement: {ID: !ul 14730448454877652364}
+  Rotate: [0.0, -0.7780371904373169, 0.0]
+  SRTHash: !u 0x0d30bc8b
+  Translate: [-26.7836856842041, 101.86560821533203, 29.266429901123047]
+- Bakeable: true
+  Gyaml: CmnTex_Map_CityPropsA_Candelabra_A_01
+  Hash: !ul 12981812938118342808
+  Phive:
+    Placement: {ID: !ul 12981812938118342808}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x82cb9c71
+  Translate: [-27.57947540283203, 101.43660736083984, 31.86551856994629]
+- Gyaml: Land_ShadowTemple_CandleStick_A_01
+  Hash: !ul 14299093485209750735
+  Phive:
+    Placement: {ID: !ul 14299093485209750735}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xe60ac8de
+  Translate: [-27.57947540283203, 101.86560821533203, 31.86551856994629]
+- Bakeable: true
+  Gyaml: CmnTex_Map_CityPropsA_Candelabra_A_01
+  Hash: !ul 13071445691036962538
+  Phive:
+    Placement: {ID: !ul 13071445691036962538}
+  Rotate: [3.1415927410125732, -1.1923249959945679, 3.1415927410125732]
+  SRTHash: !u 0xe9b3a677
+  Translate: [-27.382614135742188, 101.43660736083984, 27.066558837890625]
+- Gyaml: Land_ShadowTemple_CandleStick_A_01
+  Hash: !ul 3262067175219145296
+  Phive:
+    Placement: {ID: !ul 3262067175219145296}
+  Rotate: [3.1415927410125732, -1.1923249959945679, 3.1415927410125732]
+  SRTHash: !u 0xbbac6c1c
+  Translate: [-27.382614135742188, 101.86560821533203, 27.066558837890625]
+- Bakeable: true
+  Gyaml: CmnTex_Map_CityPropsA_Candelabra_A_01
+  Hash: !ul 8609410168888603678
+  Phive:
+    Placement: {ID: !ul 8609410168888603678}
+  Rotate: [3.1415927410125732, -1.1498901844024658, 3.1415927410125732]
+  SRTHash: !u 0xb18ef569
+  Translate: [-21.581480026245117, 101.43659973144531, 30.062559127807617]
+- Gyaml: Land_ShadowTemple_CandleStick_A_01
+  Hash: !ul 16386115259681171475
+  Phive:
+    Placement: {ID: !ul 16386115259681171475}
+  Rotate: [3.1415927410125732, -1.1498901844024658, 3.1415927410125732]
+  SRTHash: !u 0x3907bbd3
+  Translate: [-21.581480026245117, 101.8656005859375, 30.062559127807617]
+- Bakeable: true
+  Gyaml: CmnTex_Map_CityPropsA_Candelabra_A_01
+  Hash: !ul 15388013727692246032
+  Phive:
+    Placement: {ID: !ul 15388013727692246032}
+  SRTHash: !u 0xe5e954af
+  Translate: [-21.98296546936035, 101.43659973144531, 32.26395797729492]
+- Gyaml: Land_ShadowTemple_CandleStick_A_01
+  Hash: !ul 9650948426021970014
+  Phive:
+    Placement: {ID: !ul 9650948426021970014}
+  SRTHash: !u 0x23b5504d
+  Translate: [-21.98296546936035, 101.8656005859375, 32.26395797729492]
+- Bakeable: true
+  Gyaml: CmnTex_Map_CityPropsA_Candelabra_A_01
+  Hash: !ul 1650935429936224397
+  Phive:
+    Placement: {ID: !ul 1650935429936224397}
+  Rotate: [0.0, 0.7853981852531433, 0.0]
+  SRTHash: !u 0x0e756e93
+  Translate: [-26.980289459228516, 101.43500518798828, 34.41291809082031]
+- Gyaml: Land_ShadowTemple_CandleStick_A_01
+  Hash: !ul 14163445271746106588
+  Phive:
+    Placement: {ID: !ul 14163445271746106588}
+  Rotate: [0.0, 0.7853981852531433, 0.0]
+  SRTHash: !u 0x7ddce0d0
+  Translate: [-26.980289459228516, 101.86400604248047, 34.41291809082031]
+- Bakeable: true
+  Gyaml: Land_HrlCity_SceneConnectProp_A_01
+  Hash: !ul 662024839903585700
+  Phive:
+    Placement: {ID: !ul 662024839903585700}
+  Rotate: [3.141592502593994, -0.0, 3.141592502593994]
+  SRTHash: !u 0xe9aff101
+  Translate: [0.0, 100.0, -3.0999999046325684]
+- Gyaml: EftLoc_WaterFall_Basin_M_00
+  Hash: !ul 8467578158510193348
+  Phive:
+    Placement: {ID: !ul 8467578158510193348}
+  Rotate: [0.0, 1.0471975803375244, 0.0]
+  SRTHash: !u 0xf16943e0
+  Translate: [0.6373897194862366, 100.38046264648438, 7.232165813446045]
+- Gyaml: Land_HrlCity_Child_WaterFall_B_01
+  Hash: !ul 6016989320847550828
+  Phive:
+    Placement: {ID: !ul 6016989320847550828}
+  Rotate: [0.0, 1.0471975803375244, 0.0]
+  SRTHash: !u 0x623f81d1
+  Translate: [-0.03444985672831535, 102.24046325683594, 6.855826377868652]
+- Gyaml: EftLoc_WaterFall_Basin_M_00
+  Hash: !ul 11175699222390850539
+  Phive:
+    Placement: {ID: !ul 11175699222390850539}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x9a12b02d
+  Translate: [-1.8023293018341064, 100.38046264648438, 3.0659821033477783]
+- Gyaml: Land_HrlCity_Child_WaterFall_B_01
+  Hash: !ul 17368982154887541637
+  Phive:
+    Placement: {ID: !ul 17368982154887541637}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xb3445889
+  Translate: [-1.79232919216156, 102.24046325683594, 3.835982084274292]
+- Gyaml: EftLoc_WaterFall_Basin_M_00
+  Hash: !ul 629812090898177606
+  Phive:
+    Placement: {ID: !ul 629812090898177606}
+  Rotate: [0.0, -1.0471975803375244, 0.0]
+  SRTHash: !u 0x93e6629b
+  Translate: [-4.146273612976074, 100.38046264648438, 7.215447425842285]
+- Gyaml: Land_HrlCity_Child_WaterFall_B_01
+  Hash: !ul 12575059812900401438
+  Phive:
+    Placement: {ID: !ul 12575059812900401438}
+  Rotate: [0.0, -1.0471975803375244, 0.0]
+  SRTHash: !u 0x8f0b0c9c
+  Translate: [-3.4844343662261963, 102.24046325683594, 6.821787357330322]
+- Bakeable: true
+  Gyaml: Land_HrlCity_House_A
+  Hash: !ul 13342074963449707421
+  Phive:
+    Placement: {ID: !ul 13342074963449707421}
+  Rotate: [0.0, -1.570796251296997, 1.7484555314695172e-07]
+  SRTHash: !u 0xc071ccbb
+  Translate: [10.119000434875488, 100.16130065917969, 39.56541061401367]
+- Bakeable: true
+  Gyaml: Land_HrlCity_House_D
+  Hash: !ul 8372455278848876299
+  Phive:
+    Placement: {ID: !ul 8372455278848876299}
+  Rotate: [0.0, -1.570796251296997, 1.7484555314695172e-07]
+  SRTHash: !u 0x87c186ac
+  Translate: [9.04699993133545, 100.04808044433594, 28.01743507385254]
+- Bakeable: true
+  Gyaml: Land_HrlCity_Stall_A
+  Hash: !ul 14006423743740914638
+  Phive:
+    Placement: {ID: !ul 14006423743740914638}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x7425f71f
+  Translate: [5.253084182739258, 100.03662109375, 19.308809280395508]
+- Gyaml: Land_HrlCity_FoliageIvyStem_A_01
+  Hash: !ul 13835559021687281016
+  Phive:
+    Placement: {ID: !ul 13835559021687281016}
+  Rotate: [0.0, -1.570796251296997, 1.7484555314695172e-07]
+  SRTHash: !u 0xc071ccbb
+  Translate: [10.119000434875488, 100.16100311279297, 39.564998626708984]
+- Gyaml: Land_HrlCity_Signboard_B
+  Hash: !ul 3884160345549598123
+  Phive:
+    Placement: {ID: !ul 3884160345549598123}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x225e8c2a
+  Translate: [1.337301254272461, 103.80919647216797, 33.963985443115234]
+- Gyaml: Land_Kakariko_BuildingParts_A_47
+  Hash: !ul 3304842625661352416
+  Phive:
+    Placement: {ID: !ul 3304842625661352416}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0x393c281d
+  Translate: [3.2056832313537598, 102.76126098632812, 18.911930084228516]
+- Gyaml: Land_Kakariko_BuildingParts_A_45
+  Hash: !ul 14202436283136526215
+  Phive:
+    Placement: {ID: !ul 14202436283136526215}
+  Rotate: [-3.141592502593994, 0.06256521493196487, -3.141592502593994]
+  SRTHash: !u 0x883d4560
+  Translate: [3.546548843383789, 102.74004364013672, 18.89333152770996]
+- Gyaml: Land_Kakariko_BuildingParts_A_49
+  Hash: !ul 4954324729876197593
+  Phive:
+    Placement: {ID: !ul 4954324729876197593}
+  Rotate: [0.0, -1.5522831678390503, 0.0]
+  SRTHash: !u 0xbc00d361
+  Translate: [7.397965431213379, 102.86815643310547, 18.865575790405273]
+- Gyaml: Land_Kakariko_BuildingParts_A_48
+  Hash: !ul 2616890238643894962
+  Phive:
+    Placement: {ID: !ul 2616890238643894962}
+  Rotate: [0.0, 1.3972008228302002, 0.0]
+  SRTHash: !u 0xaa41fbc4
+  Translate: [6.528510093688965, 102.84133911132812, 18.860219955444336]
+- Gyaml: CmnTex_Map_CityPropsSet_RoyalFlag_C_01
+  Hash: !ul 6588280168880656830
+  Phive:
+    Placement: {ID: !ul 6588280168880656830}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x3b9ebf46
+  Translate: [3.373450756072998, 106.57506561279297, 33.98406219482422]
+- Bakeable: true
+  Gyaml: Land_HrlCity_House_C
+  Hash: !ul 9718751974309996804
+  Phive:
+    Placement: {ID: !ul 9718751974309996804}
+  Rotate: [0.0, 1.570796251296997, -1.5099580252808664e-07]
+  SRTHash: !u 0x9a110fbb
+  Translate: [-12.755999565124512, 100.08309173583984, 28.61773109436035]
+- Gyaml: Land_HrlCity_Signboard_C
+  Hash: !ul 6922589767961451111
+  Phive:
+    Placement: {ID: !ul 6922589767961451111}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x8d580063
+  Translate: [-10.690051078796387, 103.16802215576172, 22.705259323120117]
+- Gyaml: CmnTex_Map_CityPropsSet_RoyalFlag_C_01
+  Hash: !ul 15064662516057416589
+  Phive:
+    Placement: {ID: !ul 15064662516057416589}
+  SRTHash: !u 0xee5bc861
+  Translate: [-7.26005744934082, 107.7594223022461, 43.219913482666016]
+- Gyaml: CmnTex_Map_CityPropsSet_RoyalFlag_C_01
+  Hash: !ul 18325127433348635357
+  Phive:
+    Placement: {ID: !ul 18325127433348635357}
+  SRTHash: !u 0xc06a4e30
+  Translate: [-5.560055255889893, 109.88939666748047, 24.499914169311523]
+- Bakeable: true
+  Gyaml: Land_HrlCity_House_F
+  Hash: !ul 16727671473092785467
+  Phive:
+    Placement: {ID: !ul 16727671473092785467}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x61e18b97
+  Translate: [-59.547550201416016, 97.26213073730469, 0.2320244014263153]
+- Bakeable: true
+  Gyaml: Land_HrlCity_ShopTreasureBox_Inside_Subroom_A
+  Hash: !ul 1328297318956287254
+  Phive:
+    Placement: {ID: !ul 1328297318956287254}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xb406e442
+  Translate: [-69.82379913330078, 97.26200103759766, 0.23199999332427979]
+- Bakeable: true
+  Gyaml: Land_HrlCity_ShopTreasureBox_Inside_Subroom_B
+  Hash: !ul 15957477631959213052
+  Phive:
+    Placement: {ID: !ul 15957477631959213052}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xe852118b
+  Translate: [-80.8239974975586, 97.26200103759766, 0.23199999332427979]
+- Bakeable: true
+  Gyaml: Land_HrlCity_ShopTreasureBox_Inside_Subroom_C
+  Hash: !ul 14726830605012641934
+  Phive:
+    Placement: {ID: !ul 14726830605012641934}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x8cf0dd0a
+  Translate: [-91.8239974975586, 97.26200103759766, 0.23199999332427979]
+- Bakeable: true
+  Gyaml: Land_HrlCity_ShopTreasureBox_Inside_Subroom_D
+  Hash: !ul 6409128250201884613
+  Phive:
+    Placement: {ID: !ul 6409128250201884613}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xfb00bbf5
+  Translate: [-102.8239974975586, 97.26200103759766, 0.23199999332427979]
+- Bakeable: true
+  Gyaml: Land_HrlCity_ShopTreasureBox_Inside_Subroom_E
+  Hash: !ul 17613087490097210920
+  Phive:
+    Placement: {ID: !ul 17613087490097210920}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xcf3138c3
+  Translate: [-113.8239974975586, 97.26200103759766, 0.23199999332427979]
+- Bakeable: true
+  Gyaml: Land_HrlCity_ShopTreasureBox_Inside_Subroom_F
+  Hash: !ul 1751312384080256491
+  Phive:
+    Placement: {ID: !ul 1751312384080256491}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xdb938443
+  Translate: [-124.8239974975586, 97.26200103759766, 0.23199999332427979]
+- Gyaml: Land_HrlCity_ShopTreasureBox_Inside_candleholder
+  Hash: !ul 1775443721147283803
+  Phive:
+    Placement: {ID: !ul 1775443721147283803}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x1ea13dd3
+  Translate: [-68.90330505371094, 98.83948516845703, 11.465431213378906]
+- Gyaml: Land_ShadowTemple_CandleStick_A_01
+  Hash: !ul 17384758091211781615
+  Phive:
+    Placement: {ID: !ul 17384758091211781615}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x194d3bc5
+  Translate: [-68.64199829101562, 99.03486633300781, 11.47024917602539]
+- Gyaml: Land_HrlCity_ShopTreasureBox_Inside_candleholder
+  Hash: !ul 9202326271060871218
+  Phive:
+    Placement: {ID: !ul 9202326271060871218}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x8d0bc3d4
+  Translate: [-68.90330505371094, 98.83948516845703, 13.895962715148926]
+- Gyaml: Land_ShadowTemple_CandleStick_A_01
+  Hash: !ul 3337237851473286278
+  Phive:
+    Placement: {ID: !ul 3337237851473286278}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x5abd88ab
+  Translate: [-68.64199829101562, 99.03486633300781, 13.90078067779541]
+- Gyaml: Land_HrlCity_ShopTreasureBox_Inside_candleholder
+  Hash: !ul 3049374320639498995
+  Phive:
+    Placement: {ID: !ul 3049374320639498995}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x940729d3
+  Translate: [-79.9281997680664, 98.83948516845703, 11.25753402709961]
+- Gyaml: Land_ShadowTemple_CandleStick_A_01
+  Hash: !ul 14032405625709482852
+  Phive:
+    Placement: {ID: !ul 14032405625709482852}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xd64c2694
+  Translate: [-79.6668930053711, 99.03486633300781, 11.262351989746094]
+- Gyaml: Land_HrlCity_ShopTreasureBox_Inside_candleholder
+  Hash: !ul 8417555327923468736
+  Phive:
+    Placement: {ID: !ul 8417555327923468736}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x00603401
+  Translate: [-79.9281997680664, 98.83948516845703, 14.068607330322266]
+- Gyaml: Land_ShadowTemple_CandleStick_A_01
+  Hash: !ul 3797857408341210551
+  Phive:
+    Placement: {ID: !ul 3797857408341210551}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xd00cb1bf
+  Translate: [-79.6668930053711, 99.03486633300781, 14.07342529296875]
+- Gyaml: Land_HrlCity_ShopTreasureBox_Inside_candleholder
+  Hash: !ul 3253295936622094323
+  Phive:
+    Placement: {ID: !ul 3253295936622094323}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xc92ab6cd
+  Translate: [-90.92457580566406, 98.83948516845703, 14.068607330322266]
+- Gyaml: Land_ShadowTemple_CandleStick_A_01
+  Hash: !ul 15978319745997674088
+  Phive:
+    Placement: {ID: !ul 15978319745997674088}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xe9e2d48f
+  Translate: [-90.66326904296875, 99.03486633300781, 14.07342529296875]
+- Gyaml: Land_HrlCity_ShopTreasureBox_Inside_candleholder
+  Hash: !ul 11192198170216410672
+  Phive:
+    Placement: {ID: !ul 11192198170216410672}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xfc329456
+  Translate: [-90.92457580566406, 98.83948516845703, 11.25753402709961]
+- Gyaml: Land_ShadowTemple_CandleStick_A_01
+  Hash: !ul 9471864670493675077
+  Phive:
+    Placement: {ID: !ul 9471864670493675077}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xabaec93f
+  Translate: [-90.66326904296875, 99.03486633300781, 11.262351989746094]
+- Gyaml: Land_HrlCity_ShopTreasureBox_Inside_candleholder
+  Hash: !ul 12244466539340226606
+  Phive:
+    Placement: {ID: !ul 12244466539340226606}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x0d6cc510
+  Translate: [-101.92231750488281, 98.83948516845703, 11.25753402709961]
+- Gyaml: Land_ShadowTemple_CandleStick_A_01
+  Hash: !ul 5906866433037317307
+  Phive:
+    Placement: {ID: !ul 5906866433037317307}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x2968a95c
+  Translate: [-101.6610107421875, 99.03486633300781, 11.262351989746094]
+- Gyaml: Land_HrlCity_ShopTreasureBox_Inside_candleholder
+  Hash: !ul 1654111740793162158
+  Phive:
+    Placement: {ID: !ul 1654111740793162158}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x317c64e7
+  Translate: [-101.92231750488281, 98.83948516845703, 14.068607330322266]
+- Gyaml: Land_ShadowTemple_CandleStick_A_01
+  Hash: !ul 441201671902467610
+  Phive:
+    Placement: {ID: !ul 441201671902467610}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x442bde73
+  Translate: [-101.6610107421875, 99.03486633300781, 14.07342529296875]
+- Gyaml: Land_HrlCity_ShopTreasureBox_Inside_candleholder
+  Hash: !ul 2544039918643125894
+  Phive:
+    Placement: {ID: !ul 2544039918643125894}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x4ef6cf84
+  Translate: [-112.9228286743164, 98.83948516845703, 11.25753402709961]
+- Gyaml: Land_ShadowTemple_CandleStick_A_01
+  Hash: !ul 802119122829810962
+  Phive:
+    Placement: {ID: !ul 802119122829810962}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xef97bbd4
+  Translate: [-112.6615219116211, 99.03486633300781, 11.262351989746094]
+- Gyaml: Land_HrlCity_ShopTreasureBox_Inside_candleholder
+  Hash: !ul 7356179401457947895
+  Phive:
+    Placement: {ID: !ul 7356179401457947895}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xba3642bf
+  Translate: [-112.9228286743164, 98.83948516845703, 14.068607330322266]
+- Gyaml: Land_ShadowTemple_CandleStick_A_01
+  Hash: !ul 1260894615104611099
+  Phive:
+    Placement: {ID: !ul 1260894615104611099}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x408ad91b
+  Translate: [-112.6615219116211, 99.03486633300781, 14.07342529296875]
+- Gyaml: Land_HrlCity_ShopTreasureBox_Inside_candleholder
+  Hash: !ul 9022260510025141639
+  Phive:
+    Placement: {ID: !ul 9022260510025141639}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x5b4ace60
+  Translate: [-123.92504119873047, 98.83948516845703, 14.068607330322266]
+- Gyaml: Land_ShadowTemple_CandleStick_A_01
+  Hash: !ul 3354645615040385034
+  Phive:
+    Placement: {ID: !ul 3354645615040385034}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xcd7fba9f
+  Translate: [-123.66373443603516, 99.03486633300781, 14.07342529296875]
+- Gyaml: Land_HrlCity_ShopTreasureBox_Inside_candleholder
+  Hash: !ul 11674252834025873510
+  Phive:
+    Placement: {ID: !ul 11674252834025873510}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xeaf5e087
+  Translate: [-123.92504119873047, 98.83948516845703, 11.25753402709961]
+- Gyaml: Land_ShadowTemple_CandleStick_A_01
+  Hash: !ul 6513307121935510746
+  Phive:
+    Placement: {ID: !ul 6513307121935510746}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xfa1a6dd8
+  Translate: [-123.66373443603516, 99.03486633300781, 11.262351989746094]
+- Bakeable: true
+  Gyaml: Land_HrlCity_ShopTreasureBox_Inside_candleholder_gold
+  Hash: !ul 17427195860518771968
+  Phive:
+    Placement: {ID: !ul 17427195860518771968}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x32528d33
+  Translate: [-134.9296417236328, 99.33818054199219, 11.25753402709961]
+- Gyaml: Land_ShadowTemple_CandleStick_A_01
+  Hash: !ul 10450894875713525779
+  Phive:
+    Placement: {ID: !ul 10450894875713525779}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x8a0957da
+  Translate: [-134.66854858398438, 99.5331802368164, 11.262534141540527]
+- Gyaml: Land_HrlCity_ShopTreasureBox_Inside_candleholder
+  Hash: !ul 10903272447497879854
+  Phive:
+    Placement: {ID: !ul 10903272447497879854}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x45f15bf3
+  Translate: [-61.34614181518555, 99.02814483642578, 13.139580726623535]
+- Gyaml: Land_ShadowTemple_CandleStick_A_01
+  Hash: !ul 10823476834697104722
+  Phive:
+    Placement: {ID: !ul 10823476834697104722}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0xec84fc86
+  Translate: [-61.60744857788086, 99.22352600097656, 13.13476276397705]
+- Bakeable: true
+  Gyaml: Land_HrlCity_ShopTreasureBox_Inside_candleholder_gold
+  Hash: !ul 1164420231374973323
+  Phive:
+    Placement: {ID: !ul 1164420231374973323}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xeb09fad4
+  Translate: [-134.9296417236328, 99.33818054199219, 14.068607330322266]
+- Gyaml: Land_ShadowTemple_CandleStick_A_01
+  Hash: !ul 17310145911577749242
+  Phive:
+    Placement: {ID: !ul 17310145911577749242}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x0adeae07
+  Translate: [-134.66854858398438, 99.5331802368164, 14.073607444763184]
+- Bakeable: true
+  Gyaml: Land_HrlCity_House_F_Flag_01
+  Hash: !ul 14540297459985668347
+  Phive:
+    Placement: {ID: !ul 14540297459985668347}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x6863a0d5
+  Translate: [-59.54800033569336, 97.26200103759766, 0.23199999332427979]
+- Gyaml: FldObj_AirWall_HitOnlyBomb
+  Hash: !ul 9496815509178555269
+  Phive:
+    Placement: {ID: !ul 9496815509178555269}
+  SRTHash: !u 0x306a01a8
+  Scale: [2.132180690765381, 4.088372707366943, 2.362046718597412]
+  Translate: [-68.37947845458984, 97.37423706054688, 7.918420791625977]
+- Gyaml: ForbiddenCreateDropArea
+  Hash: !ul 12126616468290309611
+  Phive:
+    Placement: {ID: !ul 12126616468290309611}
+  SRTHash: !u 0x5857a512
+  Scale: [3.0, 3.0, 3.0]
+  Translate: [-61.053321838378906, 98.48612213134766, -7.906599044799805]
+- Bakeable: true
+  Gyaml: Land_HrlCity_House_Inside_E
+  Hash: !ul 2054662232142037544
+  Phive:
+    Placement: {ID: !ul 2054662232142037544}
+  Rotate: [0.0, 0.1745329350233078, 0.0]
+  SRTHash: !u 0xb6e35a9d
+  Translate: [-43.667999267578125, 101.67230224609375, -13.666999816894531]
+- Gyaml: Land_HrlCity_Signboard_B
+  Hash: !ul 15126407402796459394
+  Phive:
+    Placement: {ID: !ul 15126407402796459394}
+  Rotate: [0.0, -0.2617993950843811, 0.0]
+  SRTHash: !u 0x57b0ff52
+  Translate: [-29.299837112426758, 104.18115234375, -10.99843978881836]
+- Gyaml: CmnTex_Map_CityPropsSet_Candle_Chandelier_A_01
+  Hash: !ul 15568657745143826721
+  Phive:
+    Placement: {ID: !ul 15568657745143826721}
+  SRTHash: !u 0xa97e0511
+  Scale: [0.699999988079071, 0.699999988079071, 0.699999988079071]
+  Translate: [-46.500186920166016, 101.95553588867188, -18.041440963745117]
+- Gyaml: Land_HrlCity_Child_Middle_D_03
+  Hash: !ul 1462730812869440843
+  Phive:
+    Placement: {ID: !ul 1462730812869440843}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x35a7af5d
+  Translate: [380.0, 100.0, -14.0]
+- Bakeable: true
+  Gyaml: Land_HrlCity_Child_Middle_D_01
+  Hash: !ul 14881090002559330849
+  Phive:
+    Placement: {ID: !ul 14881090002559330849}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x6eba683f
+  Translate: [198.5, 100.0, -2.0]
+- Bakeable: true
+  Gyaml: Land_HrlCity_Child_Middle_C_01
+  Hash: !ul 2255201003299714869
+  Phive:
+    Placement: {ID: !ul 2255201003299714869}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x3bf8af22
+  Translate: [48.0, 100.0, 32.5]
+- Bakeable: true
+  Gyaml: Land_HrlCity_Child_Middle_A_02
+  Hash: !ul 5660259515819589400
+  Phive:
+    Placement: {ID: !ul 5660259515819589400}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x3aae9df9
+  Translate: [-64.0, 100.0, -35.0]
+- Bakeable: true
+  Gyaml: Land_HrlCity_House_Inside_G
+  Hash: !ul 6666930542957293016
+  Phive:
+    Placement: {ID: !ul 6666930542957293016}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xb7ca0a54
+  Translate: [-52.78900146484375, 97.33377075195312, 22.913000106811523]
+- Bakeable: true
+  Gyaml: Land_HrlCity_House_G
+  Hash: !ul 1984047896516387613
+  Phive:
+    Placement: {ID: !ul 1984047896516387613}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xfebcb061
+  Translate: [-52.789119720458984, 97.34676361083984, 22.9127197265625]
+- Bakeable: true
+  Gyaml: Land_HrlCity_madamHouse
+  Hash: !ul 18025774475550689516
+  Phive:
+    Placement: {ID: !ul 18025774475550689516}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xfebcb061
+  Translate: [-52.78900146484375, 97.34700012207031, 22.913000106811523]
+- Gyaml: Land_ShadowTemple_CandleStick_A_01
+  Hash: !ul 1060474270081290097
+  Phive:
+    Placement: {ID: !ul 1060474270081290097}
+  Rotate: [0.0, -0.6632252335548401, 0.0]
+  SRTHash: !u 0xf1427bf3
+  Translate: [-54.663909912109375, 99.86444854736328, 31.632278442382812]
+- Gyaml: Land_ShadowTemple_CandleStick_A_01
+  Hash: !ul 9033885179906453332
+  Phive:
+    Placement: {ID: !ul 9033885179906453332}
+  Rotate: [0.0, 1.535889744758606, 0.0]
+  SRTHash: !u 0x858cc0c7
+  Translate: [-56.13703536987305, 99.86444854736328, 31.632278442382812]
+- Gyaml: Land_ShadowTemple_CandleStick_A_01
+  Hash: !ul 17400175931259245830
+  Phive:
+    Placement: {ID: !ul 17400175931259245830}
+  Rotate: [0.0, 1.1344640254974365, 0.0]
+  SRTHash: !u 0x58c63aa8
+  Translate: [-52.45615768432617, 99.05952453613281, 31.81021499633789]
+- Gyaml: NavMeshCutBoxArea
+  Hash: !ul 16041134343511011691
+  Phive:
+    Placement: {ID: !ul 16041134343511011691}
+  SRTHash: !u 0x863f0009
+  Scale: [2.5, 2.5, 2.5]
+  Translate: [4.170148849487305, 100.5701675415039, 5.596471309661865]
+- Gyaml: StartPos
+  Hash: !ul 4775828231079773474
+  Name: StartPos_Market_Item_Bottle_TutorialEvent
+  Phive:
+    Placement: {ID: !ul 4775828231079773474}
+  Rotate: [3.1415927410125732, 1.4835299253463745, 3.1415927410125732]
+  SRTHash: !u 0x8b90cc3a
+  Translate: [17.63288688659668, 100.1267318725586, 5.819892406463623]
+- Gyaml: StartPos
+  Hash: !ul 16021072485294910705
+  Name: Market_FrontOfHyruleCastle
+  Phive:
+    Placement: {ID: !ul 16021072485294910705}
+  SRTHash: !u 0x1afe6dce
+  Translate: [-2.040984630584717, 100.08914184570312, -16.09671974182129]
+- Gyaml: StartPos
+  Hash: !ul 1328418292310917580
+  Name: EntrancePos
+  Phive:
+    Placement: {ID: !ul 1328418292310917580}
+  SRTHash: !u 0x527190a6
+  Translate: [-2.1409859657287598, 100.08914184570312, -16.83672523498535]
+- Dynamic: {Location: HyruleCastle}
+  Gyaml: MapIconEntranceAnchor
+  Hash: !ul 1319590203142680608
+  Phive:
+    Placement: {ID: !ul 1319590203142680608}
+  SRTHash: !u 0x7ab230ef
+  Translate: [-1.9765658378601074, 99.69596099853516, -36.539546966552734]
+- Dynamic: {InterestEmitType: 27, UseInterestSpotRotation: true}
+  Gyaml: InterestSpotActor
+  Hash: !ul 8283318650157604498
+  Phive:
+    Placement: {ID: !ul 8283318650157604498}
+  Rotate: [0.0, -1.5707961320877075, 1.7321210066256754e-07]
+  SRTHash: !u 0x936569ed
+  Translate: [-45.6122932434082, 98.40615844726562, 24.11064910888672]
+- Dynamic: {InterestEmitType: 27, UseInterestSpotRotation: true}
+  Gyaml: InterestSpotActor
+  Hash: !ul 1618811786145932623
+  Phive:
+    Placement: {ID: !ul 1618811786145932623}
+  Rotate: [-3.141592264175415, -1.047197699546814, 3.141592502593994]
+  SRTHash: !u 0xffaa5fe3
+  Translate: [-46.86520767211914, 99.41445922851562, -9.722675323486328]
+- Dynamic: {InterestEmitType: 27, UseInterestSpotRotation: true}
+  Gyaml: InterestSpotActor
+  Hash: !ul 9069042060068156501
+  Phive:
+    Placement: {ID: !ul 9069042060068156501}
+  Rotate: [-3.141592502593994, 0.8726648092269897, -3.141592264175415]
+  SRTHash: !u 0x8035b7d1
+  Translate: [-12.95279598236084, 101.10787963867188, -3.967665433883667]
+- Dynamic: {InterestEmitType: 27, UseInterestSpotRotation: true}
+  Gyaml: InterestSpotActor
+  Hash: !ul 8292334223187510444
+  Phive:
+    Placement: {ID: !ul 8292334223187510444}
+  Rotate: [0.0, 1.5707961320877075, 1.7321210066256754e-07]
+  SRTHash: !u 0x567b7262
+  Translate: [7.640192031860352, 101.00028991699219, 14.005026817321777]
+- Dynamic: {InterestEmitType: 27, UseInterestSpotRotation: true}
+  Gyaml: InterestSpotActor
+  Hash: !ul 5283992484450936969
+  Phive:
+    Placement: {ID: !ul 5283992484450936969}
+  Rotate: [0.0, 1.5707961320877075, 1.7321210066256754e-07]
+  SRTHash: !u 0xd59b8854
+  Translate: [1.213464379310608, 100.98051452636719, 31.309202194213867]
+- Dynamic: {InterestEmitType: 27, UseInterestSpotRotation: true}
+  Gyaml: InterestSpotActor
+  Hash: !ul 4853909012927566870
+  Phive:
+    Placement: {ID: !ul 4853909012927566870}
+  Rotate: [-3.141592264175415, -1.0471974611282349, 3.141592502593994]
+  SRTHash: !u 0x7b711d49
+  Translate: [-4.842707633972168, 100.83258819580078, 38.28736877441406]
+- Dynamic: {InterestEmitType: 27, UseInterestSpotRotation: true}
+  Gyaml: InterestSpotActor
+  Hash: !ul 7503144972815101512
+  Phive:
+    Placement: {ID: !ul 7503144972815101512}
+  Rotate: [-4.241765054757707e-07, 1.221730351448059, -2.2538338839694916e-07]
+  SRTHash: !u 0x7b734340
+  Translate: [1.9682518243789673, 102.9928970336914, 55.33945083618164]
+- Dynamic: {InterestEmitType: 27, UseInterestSpotRotation: true}
+  Gyaml: InterestSpotActor
+  Hash: !ul 6014261624691866219
+  Phive:
+    Placement: {ID: !ul 6014261624691866219}
+  Rotate: [-3.141592502593994, 0.6981319785118103, -3.141592264175415]
+  SRTHash: !u 0x774847d0
+  Translate: [20.73175048828125, 101.5, -4.6789870262146]
+- Gyaml: Obj_Tree_A_01
+  Hash: !ul 15208331741259317796
+  Phive:
+    Placement: {ID: !ul 15208331741259317796}
+  SRTHash: !u 0x26c02fba
+  Translate: [-4.960283279418945, 100.02366638183594, 18.611364364624023]
+- Gyaml: Land_HrlCity_Middle_Tree_A_01
+  Hash: !ul 14958634206218791922
+  Phive:
+    Placement: {ID: !ul 14958634206218791922}
+  SRTHash: !u 0x884f8e2c
+  Translate: [102.83454895019531, 101.9535140991211, 4.423862457275391]
+- Gyaml: Land_HrlCity_Middle_Tree_A_01
+  Hash: !ul 13639479581929139967
+  Phive:
+    Placement: {ID: !ul 13639479581929139967}
+  SRTHash: !u 0x52d32280
+  Scale: [0.8999999761581421, 0.8999999761581421, 0.8999999761581421]
+  Translate: [39.82417297363281, 99.44032287597656, 4.1636528968811035]
+- Gyaml: Land_HrlCity_Middle_Tree_A_01
+  Hash: !ul 11835712578755290448
+  Phive:
+    Placement: {ID: !ul 11835712578755290448}
+  SRTHash: !u 0xb71ca019
+  Translate: [76.3719253540039, 102.689208984375, -5.294895648956299]
+- Gyaml: Land_HrlCity_Middle_Tree_A_01
+  Hash: !ul 17240145416836715869
+  Phive:
+    Placement: {ID: !ul 17240145416836715869}
+  SRTHash: !u 0x459760fb
+  Translate: [65.2853012084961, 101.7861099243164, 3.0799951553344727]
+- Gyaml: Land_HrlCity_Middle_Tree_A_01
+  Hash: !ul 116811510342808214
+  Phive:
+    Placement: {ID: !ul 116811510342808214}
+  Rotate: [0.0, 0.4950657784938812, 0.0]
+  SRTHash: !u 0x4c88ec08
+  Translate: [53.885135650634766, 99.49398040771484, 3.2043631076812744]
+- Gyaml: Land_HrlCity_Middle_Tree_A_01
+  Hash: !ul 8254172750709559134
+  Phive:
+    Placement: {ID: !ul 8254172750709559134}
+  SRTHash: !u 0xb726483d
+  Translate: [77.29698944091797, 99.46218872070312, 5.4831156730651855]
+- Gyaml: Land_HrlCity_Middle_Tree_A_01
+  Hash: !ul 163014446499683951
+  Phive:
+    Placement: {ID: !ul 163014446499683951}
+  SRTHash: !u 0x99927fe3
+  Translate: [95.99757385253906, 102.65396881103516, -5.262960433959961]
+- Gyaml: Land_HrlCity_Middle_Tree_A_01
+  Hash: !ul 8462415990834340030
+  Phive:
+    Placement: {ID: !ul 8462415990834340030}
+  SRTHash: !u 0x1525f8f5
+  Translate: [57.32470703125, 102.83425903320312, -11.03010082244873]
+- Gyaml: Land_HrlCity_Middle_Tree_A_01
+  Hash: !ul 3930386373824053378
+  Phive:
+    Placement: {ID: !ul 3930386373824053378}
+  SRTHash: !u 0x7cb32132
+  Translate: [72.84363555908203, 102.6074447631836, -9.903793334960938]
+- Gyaml: Land_HrlCity_Middle_Tree_A_01
+  Hash: !ul 11885886099219008434
+  Phive:
+    Placement: {ID: !ul 11885886099219008434}
+  Rotate: [0.0, 0.41862332820892334, 0.0]
+  SRTHash: !u 0x46a4a747
+  Translate: [87.98019409179688, 100.17271423339844, 4.928277015686035]
+- Gyaml: Land_HrlCity_Middle_Tree_A_01
+  Hash: !ul 9251100598085551973
+  Phive:
+    Placement: {ID: !ul 9251100598085551973}
+  Rotate: [3.1415927410125732, -1.054139494895935, 3.1415927410125732]
+  SRTHash: !u 0x511d50ee
+  Scale: [0.8999999761581421, 0.8999999761581421, 0.8999999761581421]
+  Translate: [47.12434005737305, 101.09911346435547, -56.51530838012695]
+- Gyaml: Land_HrlCity_Middle_Tree_A_01
+  Hash: !ul 10914774572624941485
+  Phive:
+    Placement: {ID: !ul 10914774572624941485}
+  Rotate: [0.0, -0.7983767986297607, 0.0]
+  SRTHash: !u 0x9a234477
+  Translate: [55.09078598022461, 101.7861099243164, -56.58469772338867]
+- Gyaml: Land_HrlCity_Middle_Tree_A_01
+  Hash: !ul 135659270912917108
+  Phive:
+    Placement: {ID: !ul 135659270912917108}
+  SRTHash: !u 0x1f6b4cde
+  Translate: [64.08451843261719, 103.52371215820312, -56.820167541503906]
+- Gyaml: Land_HrlCity_Middle_Tree_A_01
+  Hash: !ul 877761797866700746
+  Phive:
+    Placement: {ID: !ul 877761797866700746}
+  SRTHash: !u 0x030a71ec
+  Translate: [17.34097671508789, 99.57723236083984, -62.2494010925293]
+- Gyaml: Land_HrlCity_Middle_Tree_A_01
+  Hash: !ul 14678477531687604825
+  Phive:
+    Placement: {ID: !ul 14678477531687604825}
+  SRTHash: !u 0xad2f75f4
+  Translate: [17.429107666015625, 99.57723236083984, -56.37411117553711]
+- Gyaml: Land_HrlCity_Middle_Tree_A_01
+  Hash: !ul 1676268531552716948
+  Phive:
+    Placement: {ID: !ul 1676268531552716948}
+  SRTHash: !u 0x4f3436bc
+  Translate: [21.562610626220703, 99.57723236083984, -51.34352111816406]
+- Gyaml: Land_HrlCity_Middle_Tree_A_01
+  Hash: !ul 6616999706955342371
+  Phive:
+    Placement: {ID: !ul 6616999706955342371}
+  Rotate: [0.0, -0.666767418384552, 0.0]
+  SRTHash: !u 0x999978eb
+  Translate: [16.836822509765625, 98.58882904052734, -47.10740661621094]
+- Gyaml: Land_HrlCity_Middle_Tree_A_01
+  Hash: !ul 15791619832401348492
+  Phive:
+    Placement: {ID: !ul 15791619832401348492}
+  Rotate: [3.1415927410125732, -0.9937247037887573, 3.1415927410125732]
+  SRTHash: !u 0x0f4d9795
+  Translate: [29.183963775634766, 102.52519226074219, -41.1195182800293]
+- Gyaml: Land_HrlCity_Middle_Tree_A_01
+  Hash: !ul 11994157263262009001
+  Phive:
+    Placement: {ID: !ul 11994157263262009001}
+  Rotate: [3.1415927410125732, 0.906709611415863, 3.1415927410125732]
+  SRTHash: !u 0xce1ba065
+  Translate: [16.836822509765625, 99.14704895019531, -37.70561218261719]
+- Gyaml: Land_HrlCity_Middle_Tree_A_01
+  Hash: !ul 13978420764872641470
+  Phive:
+    Placement: {ID: !ul 13978420764872641470}
+  Rotate: [0.0, -0.38492071628570557, 0.0]
+  SRTHash: !u 0x51777703
+  Translate: [18.28993797302246, 98.86034393310547, -25.650390625]
+- Gyaml: Land_HrlCity_Middle_Tree_A_01
+  Hash: !ul 13641217107735596384
+  Phive:
+    Placement: {ID: !ul 13641217107735596384}
+  Rotate: [0.0, 0.27588796615600586, 0.0]
+  SRTHash: !u 0xc07ff307
+  Scale: [0.8999999761581421, 0.8999999761581421, 0.8999999761581421]
+  Translate: [16.94588851928711, 100.24322509765625, -15.50068187713623]
+- Gyaml: Land_HrlCity_Middle_Tree_A_01
+  Hash: !ul 1767797902059574651
+  Phive:
+    Placement: {ID: !ul 1767797902059574651}
+  Rotate: [0.0, -0.7065171003341675, 0.0]
+  SRTHash: !u 0x50ad1375
+  Scale: [0.8999999761581421, 0.8999999761581421, 0.8999999761581421]
+  Translate: [22.068368911743164, 100.189208984375, -19.458467483520508]
+- Gyaml: Land_HrlCity_Middle_Tree_A_01
+  Hash: !ul 12327938307723682423
+  Phive:
+    Placement: {ID: !ul 12327938307723682423}
+  Rotate: [3.1415927410125732, -0.9575628042221069, 3.1415927410125732]
+  SRTHash: !u 0xfdb1c032
+  Scale: [0.75, 0.75, 0.75]
+  Translate: [22.132474899291992, 100.15034484863281, -30.479957580566406]
+- Gyaml: Land_HrlCity_Middle_Tree_A_01
+  Hash: !ul 7251060330098922300
+  Phive:
+    Placement: {ID: !ul 7251060330098922300}
+  Rotate: [0.0, -0.23940087854862213, 0.0]
+  SRTHash: !u 0x8edb83d3
+  Translate: [19.52585792541504, 98.58882904052734, -44.80079650878906]
+- Gyaml: Land_HrlCity_Middle_Tree_A_01
+  Hash: !ul 17188171228169905018
+  Phive:
+    Placement: {ID: !ul 17188171228169905018}
+  Rotate: [0.0, 1.0120201110839844, 0.0]
+  SRTHash: !u 0xaa1a4655
+  Scale: [0.8999999761581421, 0.8999999761581421, 0.8999999761581421]
+  Translate: [28.53376579284668, 101.80892944335938, -57.49895477294922]
+- Gyaml: Land_HrlCity_Middle_Tree_A_01
+  Hash: !ul 10660697847190480402
+  Phive:
+    Placement: {ID: !ul 10660697847190480402}
+  SRTHash: !u 0xab6aa1e5
+  Scale: [0.8999999761581421, 0.8999999761581421, 0.8999999761581421]
+  Translate: [23.24496078491211, 99.57723236083984, -63.72745895385742]
+- Gyaml: Land_HrlCity_Middle_Tree_A_01
+  Hash: !ul 7513248603714852983
+  Phive:
+    Placement: {ID: !ul 7513248603714852983}
+  SRTHash: !u 0x27fc0976
+  Scale: [0.8999999761581421, 0.8999999761581421, 0.8999999761581421]
+  Translate: [20.11814308166504, 102.21589660644531, -71.7177505493164]
+- Gyaml: Land_HrlCity_Middle_Tree_A_01
+  Hash: !ul 6659251316134106395
+  Phive:
+    Placement: {ID: !ul 6659251316134106395}
+  SRTHash: !u 0xb5bcacb1
+  Scale: [0.8999999761581421, 0.8999999761581421, 0.8999999761581421]
+  Translate: [43.03433609008789, 101.54058837890625, -71.7177505493164]
+- Gyaml: Land_HrlCity_Middle_Tree_A_01
+  Hash: !ul 12485231801922722171
+  Phive:
+    Placement: {ID: !ul 12485231801922722171}
+  SRTHash: !u 0xd03fad77
+  Translate: [49.15117263793945, 102.21589660644531, -71.7177505493164]
+- Gyaml: Land_HrlCity_Middle_Tree_A_01
+  Hash: !ul 12864979779071900221
+  Phive:
+    Placement: {ID: !ul 12864979779071900221}
+  SRTHash: !u 0xf1dcab8f
+  Scale: [0.8999999761581421, 0.8999999761581421, 0.8999999761581421]
+  Translate: [49.15117263793945, 101.07014465332031, -65.63603973388672]
+- Gyaml: Land_HrlCity_Middle_Tree_A_01
+  Hash: !ul 17261708409718502666
+  Phive:
+    Placement: {ID: !ul 17261708409718502666}
+  SRTHash: !u 0x74a89403
+  Translate: [55.1205940246582, 102.21589660644531, -68.46717071533203]
+- Gyaml: Land_HrlCity_Middle_Tree_A_01
+  Hash: !ul 18052696333910992647
+  Phive:
+    Placement: {ID: !ul 18052696333910992647}
+  SRTHash: !u 0xfb80e3a8
+  Translate: [60.60469055175781, 102.21589660644531, -71.7177505493164]
+- Gyaml: Land_HrlCity_Middle_Tree_A_01
+  Hash: !ul 3890598916319219398
+  Phive:
+    Placement: {ID: !ul 3890598916319219398}
+  SRTHash: !u 0x0bb5c75d
+  Translate: [70.13140106201172, 102.21589660644531, -67.27184295654297]
+- Gyaml: Land_HrlCity_Middle_Tree_A_01
+  Hash: !ul 11915192817473151574
+  Phive:
+    Placement: {ID: !ul 11915192817473151574}
+  SRTHash: !u 0x44cd0455
+  Translate: [79.2332992553711, 102.21589660644531, -67.07464599609375]
+- Gyaml: Land_HrlCity_Middle_Tree_A_01
+  Hash: !ul 13644463505378369655
+  Phive:
+    Placement: {ID: !ul 13644463505378369655}
+  SRTHash: !u 0xc271abc0
+  Translate: [83.80653381347656, 102.21589660644531, -71.7177505493164]
+- Gyaml: Land_HrlCity_Middle_Tree_A_01
+  Hash: !ul 4255543699559169724
+  Phive:
+    Placement: {ID: !ul 4255543699559169724}
+  SRTHash: !u 0xb11f2158
+  Translate: [63.15178298950195, 102.21589660644531, -66.34001159667969]
+- Gyaml: Land_HrlCity_Middle_Tree_A_01
+  Hash: !ul 542011280733788593
+  Phive:
+    Placement: {ID: !ul 542011280733788593}
+  SRTHash: !u 0x6db616c0
+  Scale: [0.8999999761581421, 0.8999999761581421, 0.8999999761581421]
+  Translate: [38.840003967285156, 103.31926727294922, -57.80610656738281]
+- Gyaml: Land_HrlCity_Middle_Tree_A_01
+  Hash: !ul 2757127790825781823
+  Phive:
+    Placement: {ID: !ul 2757127790825781823}
+  SRTHash: !u 0x7d6e0a42
+  Translate: [95.99757385253906, 102.65396881103516, -10.294099807739258]
+- Gyaml: Land_HrlCity_Middle_Tree_A_01
+  Hash: !ul 10642612519714037720
+  Phive:
+    Placement: {ID: !ul 10642612519714037720}
+  SRTHash: !u 0x135d9d0c
+  Translate: [108.08393096923828, 101.9535140991211, -1.733856201171875]
+- Gyaml: Land_HrlCity_Middle_Tree_A_01
+  Hash: !ul 314682306847303617
+  Phive:
+    Placement: {ID: !ul 314682306847303617}
+  SRTHash: !u 0xd36c9d3d
+  Translate: [92.1364517211914, 102.6074447631836, -6.645520210266113]
+- Gyaml: Land_HrlCity_Middle_Tree_A_01
+  Hash: !ul 3411957740436927836
+  Phive:
+    Placement: {ID: !ul 3411957740436927836}
+  SRTHash: !u 0xd9a61df2
+  Translate: [107.2400131225586, 102.5314712524414, -9.849008560180664]
+- Dynamic: {DuplicatedModel_OverwriteModelNum: 2, RestingPosMaxRadius: 2.0}
+  Gyaml: EnvironmentalAnimal_Rat
+  Hash: !ul 7032819768933178090
+  Phive:
+    Placement: {ID: !ul 7032819768933178090}
+  Rotate: [-0.6431648135185242, 0.15093578398227692, -0.11221995204687119]
+  SRTHash: !u 0x64b8c21f
+  Translate: [-55.701534271240234, 107.30852508544922, 23.75306510925293]
+- Dynamic:
+    FlyingDirection: 270.0
+    FlyingDirectionRandomRange: 30.0
+    FlyingDistance: 120.0
+    SpawnCircleCenterOffset: [-10.0, 30.0, -70.0]
+    SpawnCircleRadius: 60.0
+  Gyaml: EnvironmentalAnimal_Bird_Swarm_Few
+  Hash: !ul 7275237101809759249
+  Phive:
+    Placement: {ID: !ul 7275237101809759249}
+  SRTHash: !u 0x0e90be46
+  Translate: [4.122551918029785, 101.0, 5.606576442718506]
+- Dynamic:
+    FlyingDirection: 90.0
+    FlyingDirectionRandomRange: 50.0
+    FlyingDistance: 120.0
+    SpawnCircleCenterOffset: [0.0, 25.0, 60.0]
+    SpawnCircleRadius: 60.0
+  Gyaml: EnvironmentalAnimal_Bird_Swarm_Few
+  Hash: !ul 14363013053866536544
+  Phive:
+    Placement: {ID: !ul 14363013053866536544}
+  SRTHash: !u 0xb17b934c
+  Translate: [-3.6539955139160156, 101.0, 15.590060234069824]
+- Gyaml: Land_Market_Child_CubemapModel_A_01
+  Hash: !ul 4713660491156914132
+  Phive:
+    Placement: {ID: !ul 4713660491156914132}
+  SRTHash: !u 0x30ae2169
+  Translate: [0.9988861083984375, 0.10391998291015625, -0.8464431762695312]
+- Gyaml: Land_HrlCity_Middle_Tree_A_01
+  Hash: !ul 15673408928293399587
+  Phive:
+    Placement: {ID: !ul 15673408928293399587}
+  Rotate: [3.1415927410125732, 1.3467016220092773, 3.1415927410125732]
+  SRTHash: !u 0x8cc89fd0
+  Translate: [28.80185317993164, 102.52519226074219, -23.73664093017578]
+- Gyaml: Land_HrlCity_Middle_Tree_A_01
+  Hash: !ul 14322924343484810023
+  Phive:
+    Placement: {ID: !ul 14322924343484810023}
+  Rotate: [0.0, 0.4140004813671112, 0.0]
+  SRTHash: !u 0xe8caee69
+  Scale: [0.9000000357627869, 0.9000000357627869, 0.9000000357627869]
+  Translate: [35.9592399597168, 96.13504791259766, -74.30347442626953]
+- Gyaml: Land_HrlCity_Middle_Tree_A_01
+  Hash: !ul 9921987197465045337
+  Phive:
+    Placement: {ID: !ul 9921987197465045337}
+  Rotate: [-3.141592502593994, 1.509420394897461, -3.141592502593994]
+  SRTHash: !u 0x15b32491
+  Scale: [0.8999999761581421, 0.8999999761581421, 0.8999999761581421]
+  Translate: [29.852466583251953, 96.13504791259766, -72.56781005859375]
+- Gyaml: Land_HrlCity_Middle_Tree_A_01
+  Hash: !ul 8864303960460724527
+  Phive:
+    Placement: {ID: !ul 8864303960460724527}
+  Rotate: [-3.141592502593994, 0.5954033732414246, -3.141592502593994]
+  SRTHash: !u 0x0000f06a
+  Scale: [0.8999999761581421, 0.8999999761581421, 0.8999999761581421]
+  Translate: [32.84404754638672, 96.13504791259766, -73.41807556152344]
+- Gyaml: Land_HrlCity_Middle_Tree_A_01
+  Hash: !ul 4783740870275347068
+  Phive:
+    Placement: {ID: !ul 4783740870275347068}
+  Rotate: [-3.141592502593994, -0.6887195110321045, -3.141592502593994]
+  SRTHash: !u 0x71e85ec2
+  Scale: [0.8999999761581421, 0.8999999761581421, 0.8999999761581421]
+  Translate: [25.12509536743164, 96.13504791259766, -71.22419738769531]
+- Gyaml: Land_HrlCity_Middle_Tree_A_01
+  Hash: !ul 11475175544760958671
+  Phive:
+    Placement: {ID: !ul 11475175544760958671}
+  Rotate: [0.0, 0.6495280265808105, 0.0]
+  SRTHash: !u 0x591da116
+  Scale: [0.8999999761581421, 0.8999999761581421, 0.8999999761581421]
+  Translate: [27.354326248168945, 97.1706314086914, -71.8577880859375]
+- Gyaml: SupplyItemResetSystemActor
+  Hash: !ul 1488834923146389903
+  Phive:
+    Placement: {ID: !ul 1488834923146389903}
+  SRTHash: !u 0x5bf2273c
+  Translate: [-19.27203369140625, 105.47123718261719, -1.9245648384094238]
+- Gyaml: NavMeshCutBoxArea
+  Hash: !ul 6238777833874364543
+  Phive:
+    Placement: {ID: !ul 6238777833874364543}
+  Presence: {FlagName: Market_Hylia_018_Shop_Talking, IsCheckLazy: false, IsNegation: false}
+  SRTHash: !u 0x3d6a4c6f
+  Scale: [3.0, 1.0, 5.0]
+  Translate: [19.868127822875977, 100.52996826171875, 16.127132415771484]
+- Gyaml: NavMeshCutBoxArea
+  Hash: !ul 791894505954303399
+  Phive:
+    Placement: {ID: !ul 791894505954303399}
+  Presence: {FlagName: Market_Hylia_020_Shop_Talking, IsCheckLazy: false, IsNegation: false}
+  SRTHash: !u 0x64f04015
+  Scale: [3.0, 1.0, 3.0]
+  Translate: [20.940261840820312, 100.52996826171875, 6.148252964019775]
+- Gyaml: Land_HrlCity_ShopSign_A_01
+  Hash: !ul 7765672504758317189
+  Name: HrlCity_002
+  Phive:
+    Placement: {ID: !ul 7765672504758317189}
+  Presence: {FlagName: Get_StoneOfFire_IsCompleted_Exp, IsCheckLazy: false, IsNegation: true}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x4cfbd0b2
+  Translate: [-22.340646743774414, 102.34087371826172, 25.583520889282227]
+- Dynamic: {EnableGameData: Market_Adult_GetLightPrelude, NextBancParamName: EnemyMuseum,
+    Priority: 2}
+  Gyaml: ChangeBancBeforehandAnchor
+  Hash: !ul 4802935810046369444
+  Phive:
+    Placement: {ID: !ul 4802935810046369444}
+  Rotate: [0.0, -1.3962633609771729, 0.0]
+  SRTHash: !u 0x87ae3e45
+  Translate: [-44.120662689208984, 98.85126495361328, -18.711772918701172]
+- Gyaml: Land_HrlCity_ProceduralIvy_A
+  Hash: !ul 11227308727689899444
+  Phive:
+    Placement: {ID: !ul 11227308727689899444}
+  SRTHash: !u 0x380c9d3c
+  Translate: [31.898618698120117, 102.42403411865234, -26.680574417114258]
+- Gyaml: Land_HrlCity_ProceduralIvy_C
+  Hash: !ul 17101802596274384837
+  Phive:
+    Placement: {ID: !ul 17101802596274384837}
+  SRTHash: !u 0x678b490d
+  Translate: [16.311769485473633, 102.42403411865234, -5.006977558135986]
+- Gyaml: Land_HrlCity_ProceduralIvy_D
+  Hash: !ul 4158807727033782269
+  Phive:
+    Placement: {ID: !ul 4158807727033782269}
+  SRTHash: !u 0x5e104382
+  Translate: [-0.8981107473373413, 100.64122772216797, -18.49338150024414]
+- Gyaml: Land_HrlCity_ProceduralIvy_E
+  Hash: !ul 9092800192330782173
+  Phive:
+    Placement: {ID: !ul 9092800192330782173}
+  SRTHash: !u 0x6531bd6e
+  Translate: [-14.60234260559082, 106.8896713256836, -5.151989936828613]
+- Gyaml: Land_HrlCity_ProceduralIvy_F
+  Hash: !ul 9966594530149870013
+  Phive:
+    Placement: {ID: !ul 9966594530149870013}
+  SRTHash: !u 0x0401df15
+  Translate: [-32.55828857421875, 103.85590362548828, -9.62925910949707]
+- Gyaml: Land_HrlCity_ProceduralIvy_G
+  Hash: !ul 5992062306861216304
+  Phive:
+    Placement: {ID: !ul 5992062306861216304}
+  SRTHash: !u 0xfef54f5b
+  Translate: [-56.7411003112793, 100.11605072021484, -5.420708179473877]
+- Gyaml: Land_HrlCity_ProceduralIvy_H
+  Hash: !ul 11224841262220131425
+  Phive:
+    Placement: {ID: !ul 11224841262220131425}
+  SRTHash: !u 0x4237f999
+  Translate: [-51.33920669555664, 100.11605072021484, 19.509201049804688]
+- Gyaml: Land_HrlCity_Middle_Tree_A_01
+  Hash: !ul 10410264375511563581
+  Phive:
+    Placement: {ID: !ul 10410264375511563581}
+  Rotate: [0.0, -0.10530367493629456, 0.0]
+  SRTHash: !u 0xb60a2343
+  Scale: [0.8999999761581421, 0.8999999761581421, 0.8999999761581421]
+  Translate: [43.43576431274414, 102.52519226074219, -2.5935168266296387]
+- Gyaml: Land_HrlCity_Middle_Tree_A_01
+  Hash: !ul 4062604251380440149
+  Phive:
+    Placement: {ID: !ul 4062604251380440149}
+  Rotate: [0.0, -1.3658571243286133, 0.0]
+  SRTHash: !u 0x7b70eee1
+  Translate: [43.490665435791016, 102.92359924316406, -11.219381332397461]
+- Gyaml: Obj_Pot_A_01
+  Hash: !ul 17535587547850276606
+  Phive:
+    Placement: {ID: !ul 17535587547850276606}
+  Rotate: [3.1414942741394043, -0.0008401097729802132, -3.141575813293457]
+  SRTHash: !u 0x2b5510da
+  Translate: [-19.099102020263672, 104.55511474609375, -1.9001193046569824]
+- Gyaml: EftLoc_Insects_Fly_00
+  Hash: !ul 15168201812399307152
+  Phive:
+    Placement: {ID: !ul 15168201812399307152}
+  SRTHash: !u 0xda20d649
+  Translate: [-5.6645636558532715, 101.6393051147461, 40.46643829345703]
+- Gyaml: EftLoc_Insects_Fly_00
+  Hash: !ul 12529443885954056876
+  Phive:
+    Placement: {ID: !ul 12529443885954056876}
+  SRTHash: !u 0x9a798f87
+  Translate: [-6.339706897735596, 101.48087310791016, 35.49177169799805]
+- Gyaml: EftLoc_Insects_Fly_00
+  Hash: !ul 13226677357156791465
+  Phive:
+    Placement: {ID: !ul 13226677357156791465}
+  SRTHash: !u 0xbee1dcd8
+  Translate: [-3.915163278579712, 101.48087310791016, 31.155179977416992]
+- Gyaml: EftLoc_Insects_Fly_00
+  Hash: !ul 11350424570463018012
+  Phive:
+    Placement: {ID: !ul 11350424570463018012}
+  SRTHash: !u 0x66ed4888
+  Translate: [2.954084873199463, 105.06892395019531, 47.06744384765625]
+- Gyaml: EftLoc_Insects_Fly_00
+  Hash: !ul 4616713102789701729
+  Phive:
+    Placement: {ID: !ul 4616713102789701729}
+  SRTHash: !u 0x314acf0f
+  Translate: [-11.426020622253418, 101.93025970458984, -7.279568672180176]
+- Gyaml: EftLoc_Insects_Fly_00
+  Hash: !ul 12234794493440541917
+  Phive:
+    Placement: {ID: !ul 12234794493440541917}
+  SRTHash: !u 0xe012f76c
+  Translate: [-14.950511932373047, 106.14997863769531, -3.655379295349121]
+- Gyaml: EftLoc_Insects_Fly_00
+  Hash: !ul 2595991525050513272
+  Phive:
+    Placement: {ID: !ul 2595991525050513272}
+  SRTHash: !u 0x0b1ba2ac
+  Translate: [-13.404592514038086, 106.14997863769531, 0.24855199456214905]
+- Gyaml: EftLoc_Insects_Fly_00
+  Hash: !ul 6147845204736429167
+  Phive:
+    Placement: {ID: !ul 6147845204736429167}
+  SRTHash: !u 0x42e8ebca
+  Translate: [-12.322656631469727, 106.11621856689453, 12.869134902954102]
+- Gyaml: EftLoc_Insects_Fly_00
+  Hash: !ul 7835874592643117585
+  Phive:
+    Placement: {ID: !ul 7835874592643117585}
+  SRTHash: !u 0x36797f55
+  Translate: [-14.086912155151367, 106.14997863769531, 17.935468673706055]
+- Gyaml: EftLoc_Insects_Fly_00
+  Hash: !ul 11487744912687405272
+  Phive:
+    Placement: {ID: !ul 11487744912687405272}
+  SRTHash: !u 0xcb2c48d4
+  Translate: [-45.104034423828125, 99.69052124023438, -11.812116622924805]
+- Gyaml: EftLoc_Insects_Fly_00
+  Hash: !ul 13142121123071281266
+  Phive:
+    Placement: {ID: !ul 13142121123071281266}
+  SRTHash: !u 0xf57be827
+  Translate: [-59.057289123535156, 98.44280242919922, 12.43697738647461]
+- Gyaml: EftLoc_Insects_Fly_00
+  Hash: !ul 10699625596507194505
+  Phive:
+    Placement: {ID: !ul 10699625596507194505}
+  SRTHash: !u 0x1107de0c
+  Translate: [-58.274349212646484, 100.2562255859375, 6.626322269439697]
+- Gyaml: EftLoc_Insects_Fly_00
+  Hash: !ul 11081331323469300894
+  Phive:
+    Placement: {ID: !ul 11081331323469300894}
+  SRTHash: !u 0x27f9fb65
+  Translate: [-48.9559326171875, 99.16477966308594, 22.856002807617188]
+- Gyaml: EftLoc_Insects_Fly_00
+  Hash: !ul 9117168568373392255
+  Phive:
+    Placement: {ID: !ul 9117168568373392255}
+  SRTHash: !u 0xf5cc7c65
+  Translate: [-38.36924743652344, 100.32229614257812, 18.068374633789062]
+- Gyaml: EftLoc_Insects_Fly_00
+  Hash: !ul 9546274539430656516
+  Phive:
+    Placement: {ID: !ul 9546274539430656516}
+  SRTHash: !u 0x334bc675
+  Translate: [-22.325088500976562, 102.35929870605469, 19.187807083129883]
+- Gyaml: EftLoc_Insects_Fly_00
+  Hash: !ul 1881286760753694949
+  Phive:
+    Placement: {ID: !ul 1881286760753694949}
+  SRTHash: !u 0x5ddb85c9
+  Translate: [3.8497021198272705, 101.48815155029297, -10.440215110778809]
+- Gyaml: Land_HrlCity_Middle_Tree_A_01
+  Hash: !ul 9043348004840818875
+  Phive:
+    Placement: {ID: !ul 9043348004840818875}
+  Rotate: [3.1415927410125732, 1.293879508972168, 3.1415927410125732]
+  SRTHash: !u 0xad3deb7a
+  Translate: [54.8138313293457, 102.87702941894531, -5.317758560180664]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_02
+  Hash: !ul 2935818806543924883
+  Phive:
+    Placement: {ID: !ul 2935818806543924883}
+  SRTHash: !u 0x34ff0f33
+  Translate: [30.111434936523438, 104.18553924560547, -31.597087860107422]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_01
+  Hash: !ul 292797436875978555
+  Phive:
+    Placement: {ID: !ul 292797436875978555}
+  Rotate: [0.0, 0.46627235412597656, 0.0]
+  SRTHash: !u 0xd4657143
+  Translate: [30.639013290405273, 104.38346099853516, -57.112510681152344]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_01
+  Hash: !ul 18194759364633387612
+  Phive:
+    Placement: {ID: !ul 18194759364633387612}
+  Rotate: [0.0, 0.46627235412597656, 0.0]
+  SRTHash: !u 0xc577218b
+  Translate: [34.61936950683594, 104.38346099853516, -56.822845458984375]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_01
+  Hash: !ul 18379935610566578719
+  Phive:
+    Placement: {ID: !ul 18379935610566578719}
+  SRTHash: !u 0x70ad4bd8
+  Translate: [28.37289047241211, 104.38346099853516, -19.04562759399414]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.30000001192092896, GameModelController_LodStartDistCoef: 0.30000001192092896}
+  Gyaml: Land_HrlCity_Low_Tree_A_01
+  Hash: !ul 14748359661585149835
+  Phive:
+    Placement: {ID: !ul 14748359661585149835}
+  Rotate: [0.0, 0.46627235412597656, 0.0]
+  SRTHash: !u 0x4a1377f9
+  Translate: [42.90870666503906, 104.1060791015625, -7.51032829284668]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.30000001192092896, GameModelController_LodStartDistCoef: 0.30000001192092896}
+  Gyaml: Land_HrlCity_Low_Tree_A_01
+  Hash: !ul 9680952769184176104
+  Phive:
+    Placement: {ID: !ul 9680952769184176104}
+  Rotate: [0.0, 0.46627235412597656, 0.0]
+  SRTHash: !u 0xc176072b
+  Translate: [68.94512939453125, 104.1060791015625, -9.700278282165527]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_01
+  Hash: !ul 10383546971420259869
+  Phive:
+    Placement: {ID: !ul 10383546971420259869}
+  Rotate: [0.0, 0.46627235412597656, 0.0]
+  SRTHash: !u 0x174cb078
+  Translate: [49.45289993286133, 104.1060791015625, -7.7099833488464355]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.30000001192092896, GameModelController_LodStartDistCoef: 0.30000001192092896}
+  Gyaml: Land_HrlCity_Low_Tree_A_01
+  Hash: !ul 2209391557068888890
+  Phive:
+    Placement: {ID: !ul 2209391557068888890}
+  Rotate: [0.0, 0.46627235412597656, 0.0]
+  SRTHash: !u 0xc26658fe
+  Translate: [79.61508178710938, 104.1060791015625, -5.519533157348633]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_02
+  Hash: !ul 15262331643139394950
+  Phive:
+    Placement: {ID: !ul 15262331643139394950}
+  SRTHash: !u 0x99260de7
+  Translate: [28.932231903076172, 104.18553924560547, -16.925273895263672]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_02
+  Hash: !ul 4534410165209315265
+  Phive:
+    Placement: {ID: !ul 4534410165209315265}
+  SRTHash: !u 0xd25fa783
+  Translate: [27.684406280517578, 104.18553924560547, -25.93815803527832]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_01
+  Hash: !ul 8015682542243728414
+  Phive:
+    Placement: {ID: !ul 8015682542243728414}
+  Rotate: [0.0, 0.46627235412597656, 0.0]
+  SRTHash: !u 0xee5d51f9
+  Translate: [45.508914947509766, 104.38346099853516, -56.35929870605469]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_02
+  Hash: !ul 11616288725860456050
+  Phive:
+    Placement: {ID: !ul 11616288725860456050}
+  Rotate: [0.0, 0.5346850156784058, 0.0]
+  SRTHash: !u 0x2004ce22
+  Translate: [30.273303985595703, 104.18553924560547, -36.590213775634766]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_02
+  Hash: !ul 14183275699032347829
+  Phive:
+    Placement: {ID: !ul 14183275699032347829}
+  SRTHash: !u 0xf655b44c
+  Translate: [50.627811431884766, 104.18553924560547, -56.099281311035156]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_01
+  Hash: !ul 2430471901206349888
+  Phive:
+    Placement: {ID: !ul 2430471901206349888}
+  Rotate: [0.0, 0.46627235412597656, 0.0]
+  SRTHash: !u 0x399b5d04
+  Translate: [64.12847900390625, 104.1060791015625, -9.119627952575684]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_01
+  Hash: !ul 472187249813154912
+  Phive:
+    Placement: {ID: !ul 472187249813154912}
+  SRTHash: !u 0x80876eea
+  Translate: [28.117977142333984, 104.38328552246094, -14.958468437194824]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_01
+  Hash: !ul 4281686495122686477
+  Phive:
+    Placement: {ID: !ul 4281686495122686477}
+  Rotate: [0.0, -1.441158652305603, 0.0]
+  SRTHash: !u 0xd5856697
+  Translate: [30.361038208007812, 104.38346099853516, -34.13444519042969]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_01
+  Hash: !ul 10853530895783986159
+  Phive:
+    Placement: {ID: !ul 10853530895783986159}
+  Rotate: [-3.141592502593994, 0.3517524302005768, -3.141592502593994]
+  SRTHash: !u 0x0a9a09d8
+  Translate: [27.98744010925293, 104.38346099853516, -43.04730987548828]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_02
+  Hash: !ul 6538290269112570781
+  Phive:
+    Placement: {ID: !ul 6538290269112570781}
+  SRTHash: !u 0x677f11a1
+  Translate: [28.06315803527832, 104.18553924560547, -45.37824249267578]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.30000001192092896, GameModelController_LodStartDistCoef: 0.30000001192092896}
+  Gyaml: Land_HrlCity_Low_Tree_A_02
+  Hash: !ul 13024653373346781540
+  Phive:
+    Placement: {ID: !ul 13024653373346781540}
+  SRTHash: !u 0x50c2c3ab
+  Translate: [45.6021842956543, 104.18553161621094, -7.945165634155273]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_01
+  Hash: !ul 11898518268343797983
+  Phive:
+    Placement: {ID: !ul 11898518268343797983}
+  Rotate: [0.0, 0.46627235412597656, 0.0]
+  SRTHash: !u 0xfb24c01d
+  Translate: [42.99764633178711, 104.38346099853516, -56.52714157104492]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_02
+  Hash: !ul 5364946791109956266
+  Phive:
+    Placement: {ID: !ul 5364946791109956266}
+  SRTHash: !u 0xb3f1b920
+  Translate: [41.068260192871094, 104.18553924560547, -56.079856872558594]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_01
+  Hash: !ul 4030375416801751367
+  Phive:
+    Placement: {ID: !ul 4030375416801751367}
+  Rotate: [0.0, 0.5950983762741089, 0.0]
+  SRTHash: !u 0x0140405e
+  Translate: [28.2156925201416, 104.38346099853516, -52.94990921020508]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_01
+  Hash: !ul 830749395847001075
+  Phive:
+    Placement: {ID: !ul 830749395847001075}
+  Rotate: [0.0, -0.5002762079238892, 0.0]
+  SRTHash: !u 0x5774ac2e
+  Translate: [28.170005798339844, 104.38346099853516, -30.542510986328125]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.30000001192092896, GameModelController_LodStartDistCoef: 0.30000001192092896}
+  Gyaml: Land_HrlCity_Low_Tree_A_02
+  Hash: !ul 7260028400607496181
+  Phive:
+    Placement: {ID: !ul 7260028400607496181}
+  SRTHash: !u 0xe5e19ac0
+  Translate: [42.47610092163086, 104.06635284423828, -5.529679298400879]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_01
+  Hash: !ul 1283886050350563263
+  Phive:
+    Placement: {ID: !ul 1283886050350563263}
+  Rotate: [0.0, 0.46627235412597656, 0.0]
+  SRTHash: !u 0x1c04d34d
+  Translate: [82.8685302734375, 104.1060791015625, -5.518030166625977]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_02
+  Hash: !ul 15723092527215943493
+  Phive:
+    Placement: {ID: !ul 15723092527215943493}
+  SRTHash: !u 0x0b9286fd
+  Translate: [79.71538543701172, 104.18553161621094, -7.665424346923828]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_01
+  Hash: !ul 16817181174389420235
+  Phive:
+    Placement: {ID: !ul 16817181174389420235}
+  Rotate: [0.0, 0.46627235412597656, 0.0]
+  SRTHash: !u 0xc5a78fab
+  Translate: [85.05258178710938, 104.1060791015625, -7.4505414962768555]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_01
+  Hash: !ul 14622361542886522544
+  Phive:
+    Placement: {ID: !ul 14622361542886522544}
+  Rotate: [0.0, 0.46627235412597656, 0.0]
+  SRTHash: !u 0x1b1a2b2f
+  Translate: [58.24577331542969, 104.38346099853516, -56.23725891113281]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_01
+  Hash: !ul 1860618112486734431
+  Phive:
+    Placement: {ID: !ul 1860618112486734431}
+  Rotate: [0.0, 0.46627235412597656, 0.0]
+  SRTHash: !u 0x9d73768f
+  Translate: [48.6238899230957, 104.38346099853516, -56.78038024902344]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_01
+  Hash: !ul 1627673111022530878
+  Phive:
+    Placement: {ID: !ul 1627673111022530878}
+  Rotate: [0.0, 0.46627235412597656, 0.0]
+  SRTHash: !u 0x97962cae
+  Translate: [36.99623489379883, 104.38346099853516, -56.378177642822266]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_02
+  Hash: !ul 12102888140897369236
+  Phive:
+    Placement: {ID: !ul 12102888140897369236}
+  SRTHash: !u 0xb10b94fd
+  Translate: [27.65196990966797, 104.18553924560547, -23.92766761779785]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_01
+  Hash: !ul 14611255645977232007
+  Phive:
+    Placement: {ID: !ul 14611255645977232007}
+  Rotate: [0.0, 0.46627235412597656, 0.0]
+  SRTHash: !u 0x50def0b1
+  Translate: [87.86980438232422, 104.1060791015625, -5.749504089355469]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_01
+  Hash: !ul 10717740696754783672
+  Phive:
+    Placement: {ID: !ul 10717740696754783672}
+  Rotate: [-3.141592502593994, -0.33473315834999084, -3.141592502593994]
+  SRTHash: !u 0x7bec50b8
+  Translate: [27.820568084716797, 104.38346099853516, -40.5928840637207]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_01
+  Hash: !ul 181398589772025986
+  Phive:
+    Placement: {ID: !ul 181398589772025986}
+  Rotate: [-3.141592502593994, 1.5235282182693481, -3.141592502593994]
+  SRTHash: !u 0x346449c2
+  Translate: [28.455821990966797, 104.38346099853516, -47.577781677246094]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_01
+  Hash: !ul 13917838859377969047
+  Phive:
+    Placement: {ID: !ul 13917838859377969047}
+  Rotate: [0.0, 0.894902229309082, 0.0]
+  SRTHash: !u 0x5f1db613
+  Translate: [29.177146911621094, 104.38346099853516, -55.076019287109375]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_01
+  Hash: !ul 9271313572793622358
+  Phive:
+    Placement: {ID: !ul 9271313572793622358}
+  Rotate: [0.0, 0.46627235412597656, 0.0]
+  SRTHash: !u 0x3586d611
+  Translate: [52.50440979003906, 104.38346099853516, -56.89347839355469]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_01
+  Hash: !ul 10280433841578064727
+  Phive:
+    Placement: {ID: !ul 10280433841578064727}
+  Rotate: [0.0, 0.46627235412597656, 0.0]
+  SRTHash: !u 0x9d7cd771
+  Translate: [39.39672088623047, 104.38346099853516, -57.16879653930664]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_01
+  Hash: !ul 16443344057996222303
+  Phive:
+    Placement: {ID: !ul 16443344057996222303}
+  Rotate: [0.0, 0.5950983762741089, 0.0]
+  SRTHash: !u 0xffe6a2a3
+  Translate: [27.739879608154297, 104.38346099853516, -56.85350799560547]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_02
+  Hash: !ul 4066938108325992530
+  Phive:
+    Placement: {ID: !ul 4066938108325992530}
+  SRTHash: !u 0x194e8ac7
+  Translate: [50.71315383911133, 104.18553161621094, -5.249851226806641]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_01
+  Hash: !ul 5127737939095962778
+  Phive:
+    Placement: {ID: !ul 5127737939095962778}
+  Rotate: [0.0, 0.9369726777076721, 0.0]
+  SRTHash: !u 0xf9c41fc1
+  Translate: [28.2586669921875, 104.38346099853516, -50.28889846801758]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_02
+  Hash: !ul 5416788034481396286
+  Phive:
+    Placement: {ID: !ul 5416788034481396286}
+  SRTHash: !u 0xd16ac63b
+  Translate: [32.399139404296875, 104.18553924560547, -56.39580535888672]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_01
+  Hash: !ul 9991410626699717971
+  Phive:
+    Placement: {ID: !ul 9991410626699717971}
+  Rotate: [0.0, 0.9152605533599854, 0.0]
+  SRTHash: !u 0x3f988664
+  Translate: [28.75443458557129, 104.38346099853516, -21.67070198059082]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_01
+  Hash: !ul 2698284202189638147
+  Phive:
+    Placement: {ID: !ul 2698284202189638147}
+  Rotate: [-3.141592502593994, -1.2586452960968018, -3.141592502593994]
+  SRTHash: !u 0x7a60edb9
+  Translate: [28.62196922302246, 104.38346099853516, -38.08320999145508]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_02
+  Hash: !ul 7761372476944763192
+  Phive:
+    Placement: {ID: !ul 7761372476944763192}
+  SRTHash: !u 0x932c2859
+  Translate: [81.65399932861328, 104.18553161621094, -7.93375301361084]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_01
+  Hash: !ul 1656547349407869035
+  Phive:
+    Placement: {ID: !ul 1656547349407869035}
+  Rotate: [0.0, 0.46627235412597656, 0.0]
+  SRTHash: !u 0x778e1d3c
+  Translate: [47.64055252075195, 104.1060791015625, -5.35819149017334]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_01
+  Hash: !ul 13656745114231848662
+  Phive:
+    Placement: {ID: !ul 13656745114231848662}
+  Rotate: [-3.141592502593994, -1.2586452960968018, -3.141592502593994]
+  SRTHash: !u 0x567155cf
+  Translate: [28.218704223632812, 104.38346099853516, -35.4854736328125]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_01
+  Hash: !ul 4272822293176404232
+  Phive:
+    Placement: {ID: !ul 4272822293176404232}
+  Rotate: [0.0, -1.120545506477356, 0.0]
+  SRTHash: !u 0x3115e39a
+  Translate: [28.075881958007812, 104.38346099853516, -32.8816032409668]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.30000001192092896, GameModelController_LodStartDistCoef: 0.30000001192092896}
+  Gyaml: Land_HrlCity_Low_Tree_A_01
+  Hash: !ul 11519643367226700494
+  Phive:
+    Placement: {ID: !ul 11519643367226700494}
+  Rotate: [0.0, 0.46627235412597656, 0.0]
+  SRTHash: !u 0xc28afe30
+  Translate: [66.28776550292969, 104.1060791015625, -11.097145080566406]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.30000001192092896, GameModelController_LodStartDistCoef: 0.30000001192092896}
+  Gyaml: Land_HrlCity_Low_Tree_A_01
+  Hash: !ul 16615944516786222917
+  Phive:
+    Placement: {ID: !ul 16615944516786222917}
+  Rotate: [0.0, 0.46627235412597656, 0.0]
+  SRTHash: !u 0xd50e83a6
+  Translate: [44.916446685791016, 104.1060791015625, -5.089552879333496]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_02
+  Hash: !ul 4918902056108760829
+  Phive:
+    Placement: {ID: !ul 4918902056108760829}
+  SRTHash: !u 0x690556e4
+  Translate: [61.107418060302734, 104.18553161621094, -9.07758617401123]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_01
+  Hash: !ul 8683768211735070569
+  Phive:
+    Placement: {ID: !ul 8683768211735070569}
+  Rotate: [0.0, 0.46627235412597656, 0.0]
+  SRTHash: !u 0x03372a5a
+  Translate: [60.88875961303711, 104.1060791015625, -11.417560577392578]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_01
+  Hash: !ul 10670244710697489587
+  Phive:
+    Placement: {ID: !ul 10670244710697489587}
+  Rotate: [0.0, 0.46627235412597656, 0.0]
+  SRTHash: !u 0xf8fb61f7
+  Translate: [55.80904006958008, 104.38346099853516, -56.44455337524414]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_01
+  Hash: !ul 14733825635249154008
+  Phive:
+    Placement: {ID: !ul 14733825635249154008}
+  Rotate: [0.0, 0.012112903408706188, 0.0]
+  SRTHash: !u 0x25f14ae4
+  Translate: [28.68666648864746, 104.38346099853516, -28.072311401367188]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_01
+  Hash: !ul 2295261433675414408
+  Phive:
+    Placement: {ID: !ul 2295261433675414408}
+  SRTHash: !u 0xf7677365
+  Translate: [24.180469512939453, 102.95414733886719, -10.195867538452148]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_01
+  Hash: !ul 17140884458317557152
+  Phive:
+    Placement: {ID: !ul 17140884458317557152}
+  SRTHash: !u 0xc8b770d5
+  Translate: [21.851612091064453, 102.94666290283203, -10.262206077575684]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.30000001192092896, GameModelController_LodStartDistCoef: 0.30000001192092896}
+  Gyaml: Land_HrlCity_Low_Tree_A_01
+  Hash: !ul 8563439030910747953
+  Phive:
+    Placement: {ID: !ul 8563439030910747953}
+  SRTHash: !u 0xe7da5ac7
+  Translate: [17.204254150390625, 103.1783676147461, -13.128666877746582]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_01
+  Hash: !ul 79028201633123918
+  Phive:
+    Placement: {ID: !ul 79028201633123918}
+  SRTHash: !u 0xc047cde7
+  Translate: [17.117691040039062, 102.95414733886719, -10.258356094360352]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_01
+  Hash: !ul 9852869949420584961
+  Phive:
+    Placement: {ID: !ul 9852869949420584961}
+  SRTHash: !u 0x4fc441f0
+  Translate: [19.536418914794922, 102.94666290283203, -10.259997367858887]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.30000001192092896, GameModelController_LodStartDistCoef: 0.30000001192092896}
+  Gyaml: Land_HrlCity_Low_Tree_A_01
+  Hash: !ul 17170405030627914314
+  Phive:
+    Placement: {ID: !ul 17170405030627914314}
+  SRTHash: !u 0xd37c1581
+  Translate: [17.204254150390625, 103.1783676147461, -17.078168869018555]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_01
+  Hash: !ul 6133074203480857516
+  Phive:
+    Placement: {ID: !ul 6133074203480857516}
+  SRTHash: !u 0x0bdf5603
+  Translate: [17.204254150390625, 103.1783676147461, -21.355079650878906]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_01
+  Hash: !ul 12952342849630385466
+  Phive:
+    Placement: {ID: !ul 12952342849630385466}
+  SRTHash: !u 0xcac90cff
+  Translate: [17.204254150390625, 103.1783676147461, -24.013587951660156]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.30000001192092896, GameModelController_LodStartDistCoef: 0.30000001192092896}
+  Gyaml: Land_HrlCity_Low_Tree_A_01
+  Hash: !ul 9991107036006972217
+  Phive:
+    Placement: {ID: !ul 9991107036006972217}
+  SRTHash: !u 0xfb9b89ad
+  Translate: [17.204254150390625, 103.1783676147461, -27.573238372802734]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_01
+  Hash: !ul 16715544645518037380
+  Phive:
+    Placement: {ID: !ul 16715544645518037380}
+  SRTHash: !u 0xce98a684
+  Translate: [17.204254150390625, 103.1783676147461, -30.516075134277344]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_02
+  Hash: !ul 9935769845974797208
+  Phive:
+    Placement: {ID: !ul 9935769845974797208}
+  SRTHash: !u 0x7b33761e
+  Translate: [37.684906005859375, 104.18553161621094, -2.482210159301758]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_02
+  Hash: !ul 1449216187295431219
+  Phive:
+    Placement: {ID: !ul 1449216187295431219}
+  SRTHash: !u 0x27caacd0
+  Translate: [39.766883850097656, 104.18553161621094, -2.482210159301758]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_02
+  Hash: !ul 15563091216954864566
+  Phive:
+    Placement: {ID: !ul 15563091216954864566}
+  SRTHash: !u 0xf89cb68a
+  Translate: [50.821617126464844, 104.18553161621094, -2.482210159301758]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_02
+  Hash: !ul 5927449110045233268
+  Phive:
+    Placement: {ID: !ul 5927449110045233268}
+  SRTHash: !u 0x89c7a963
+  Translate: [48.73963928222656, 104.18553161621094, -2.482210159301758]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_02
+  Hash: !ul 13885279992461495777
+  Phive:
+    Placement: {ID: !ul 13885279992461495777}
+  SRTHash: !u 0x07129813
+  Translate: [52.863800048828125, 104.18553161621094, -2.482210159301758]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_02
+  Hash: !ul 9384472340291617708
+  Phive:
+    Placement: {ID: !ul 9384472340291617708}
+  SRTHash: !u 0x220511af
+  Translate: [54.945777893066406, 104.18553161621094, -2.482210159301758]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_02
+  Hash: !ul 16363616650186777486
+  Phive:
+    Placement: {ID: !ul 16363616650186777486}
+  SRTHash: !u 0xb02c26b3
+  Translate: [56.970088958740234, 104.18553161621094, -2.482210159301758]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.30000001192092896, GameModelController_LodStartDistCoef: 0.30000001192092896}
+  Gyaml: Land_HrlCity_Low_Tree_A_02
+  Hash: !ul 3544696960162740309
+  Phive:
+    Placement: {ID: !ul 3544696960162740309}
+  SRTHash: !u 0x5ac13b0c
+  Translate: [59.052066802978516, 104.18553161621094, -2.482210159301758]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.30000001192092896, GameModelController_LodStartDistCoef: 0.30000001192092896}
+  Gyaml: Land_HrlCity_Low_Tree_A_01
+  Hash: !ul 11063938486593640243
+  Phive:
+    Placement: {ID: !ul 11063938486593640243}
+  Rotate: [0.0, 0.46627235412597656, 0.0]
+  SRTHash: !u 0x04b4954f
+  Translate: [46.464576721191406, 104.1060791015625, -2.4014530181884766]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_02
+  Hash: !ul 17438183445400620958
+  Phive:
+    Placement: {ID: !ul 17438183445400620958}
+  SRTHash: !u 0x2a9422b6
+  Translate: [67.9533920288086, 104.18553161621094, -2.482210159301758]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_02
+  Hash: !ul 6460425447766630298
+  Phive:
+    Placement: {ID: !ul 6460425447766630298}
+  SRTHash: !u 0x444a14e5
+  Translate: [63.8292236328125, 104.18553161621094, -2.482210159301758]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_01
+  Hash: !ul 3692507446174740284
+  Phive:
+    Placement: {ID: !ul 3692507446174740284}
+  Rotate: [0.0, 0.46627235412597656, 0.0]
+  SRTHash: !u 0xe71ae35d
+  Translate: [61.554161071777344, 104.1060791015625, -2.2326440811157227]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_02
+  Hash: !ul 5668518174613318360
+  Phive:
+    Placement: {ID: !ul 5668518174613318360}
+  SRTHash: !u 0x6f9f303d
+  Translate: [65.91120910644531, 104.18553161621094, -2.482210159301758]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_02
+  Hash: !ul 2024200466193441115
+  Phive:
+    Placement: {ID: !ul 2024200466193441115}
+  SRTHash: !u 0xc04be51a
+  Translate: [74.14165496826172, 104.18553161621094, -2.482210159301758]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_02
+  Hash: !ul 13264854793844599137
+  Phive:
+    Placement: {ID: !ul 13264854793844599137}
+  SRTHash: !u 0x6314f4fe
+  Translate: [70.03536987304688, 104.18553161621094, -2.482210159301758]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_02
+  Hash: !ul 9555664960930197116
+  Phive:
+    Placement: {ID: !ul 9555664960930197116}
+  SRTHash: !u 0x0ee2be1a
+  Translate: [72.05967712402344, 104.18553161621094, -2.482210159301758]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_02
+  Hash: !ul 5184212178660811502
+  Phive:
+    Placement: {ID: !ul 5184212178660811502}
+  SRTHash: !u 0x663e7601
+  Translate: [89.37037658691406, 104.18553161621094, -2.482210159301758]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_01
+  Hash: !ul 12590552767787931812
+  Phive:
+    Placement: {ID: !ul 12590552767787931812}
+  Rotate: [0.0, 0.46627235412597656, 0.0]
+  SRTHash: !u 0xb9be218d
+  Translate: [76.78288269042969, 104.1060791015625, -2.2326440811157227]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.30000001192092896, GameModelController_LodStartDistCoef: 0.30000001192092896}
+  Gyaml: Land_HrlCity_Low_Tree_A_02
+  Hash: !ul 16799158624940687461
+  Phive:
+    Placement: {ID: !ul 16799158624940687461}
+  SRTHash: !u 0x51a941db
+  Translate: [85.26408386230469, 104.18553161621094, -2.482210159301758]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.30000001192092896, GameModelController_LodStartDistCoef: 0.30000001192092896}
+  Gyaml: Land_HrlCity_Low_Tree_A_02
+  Hash: !ul 8380497258577637216
+  Phive:
+    Placement: {ID: !ul 8380497258577637216}
+  SRTHash: !u 0xf1f4bb33
+  Translate: [83.18211364746094, 104.18553161621094, -2.482210159301758]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.30000001192092896, GameModelController_LodStartDistCoef: 0.30000001192092896}
+  Gyaml: Land_HrlCity_Low_Tree_A_02
+  Hash: !ul 9261975626972351772
+  Phive:
+    Placement: {ID: !ul 9261975626972351772}
+  SRTHash: !u 0x7bf41f27
+  Translate: [81.13992309570312, 104.18553161621094, -2.482210159301758]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.30000001192092896, GameModelController_LodStartDistCoef: 0.30000001192092896}
+  Gyaml: Land_HrlCity_Low_Tree_A_02
+  Hash: !ul 16606154344925032839
+  Phive:
+    Placement: {ID: !ul 16606154344925032839}
+  SRTHash: !u 0x83ddd37b
+  Translate: [79.05794525146484, 104.18553161621094, -2.482210159301758]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_02
+  Hash: !ul 5644838506966885043
+  Phive:
+    Placement: {ID: !ul 5644838506966885043}
+  SRTHash: !u 0xed4f0208
+  Translate: [87.28839874267578, 104.18553161621094, -2.482210159301758]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_01
+  Hash: !ul 12344476415650715202
+  Phive:
+    Placement: {ID: !ul 12344476415650715202}
+  Rotate: [0.0, 0.46627235412597656, 0.0]
+  SRTHash: !u 0x55488731
+  Translate: [61.65032196044922, 104.15335845947266, -56.23725891113281]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_01
+  Hash: !ul 13337271121671194544
+  Phive:
+    Placement: {ID: !ul 13337271121671194544}
+  Rotate: [0.0, 0.46627235412597656, 0.0]
+  SRTHash: !u 0x61082e07
+  Translate: [67.01898193359375, 104.15335845947266, -56.23725891113281]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_01
+  Hash: !ul 15631113284779296672
+  Phive:
+    Placement: {ID: !ul 15631113284779296672}
+  Rotate: [0.0, 0.46627235412597656, 0.0]
+  SRTHash: !u 0x573a25fc
+  Translate: [92.40104675292969, 104.15335845947266, -56.68803024291992]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_01
+  Hash: !ul 8620423589387735264
+  Phive:
+    Placement: {ID: !ul 8620423589387735264}
+  Rotate: [0.0, 0.46627235412597656, 0.0]
+  SRTHash: !u 0xb8e73572
+  Translate: [79.40303039550781, 104.15335845947266, -56.68803024291992]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.6000000238418579, GameModelController_LodStartDistCoef: 0.6000000238418579}
+  Gyaml: Land_HrlCity_Low_Tree_A_01
+  Hash: !ul 16332688084947609786
+  Phive:
+    Placement: {ID: !ul 16332688084947609786}
+  Rotate: [0.0, 0.46627235412597656, 0.0]
+  SRTHash: !u 0x63ddcbf6
+  Translate: [89.0196762084961, 104.15335845947266, -56.68803024291992]
+- Gyaml: FldObj_AirWall_Cucco_GenerateNavMesh
+  Hash: !ul 16143813578256465022
+  Phive:
+    Placement: {ID: !ul 16143813578256465022}
+  Rotate: [0.0, 0.7853980660438538, 0.0]
+  SRTHash: !u 0xf8239521
+  Scale: [0.05799999460577965, 0.699999988079071, 0.550000011920929]
+  Translate: [-50.45000076293945, 97.80000305175781, 24.309999465942383]
+- Gyaml: FldObj_AirWall_Animal_GenerateNavMesh
+  Hash: !ul 914970348348960626
+  Phive:
+    Placement: {ID: !ul 914970348348960626}
+  SRTHash: !u 0xfd3949c5
+  Scale: [0.057999998331069946, 0.7699999809265137, 0.550000011920929]
+  Translate: [-60.900001525878906, 97.2699966430664, 11.199999809265137]
+- Gyaml: FldObj_AirWall_Animal_GenerateNavMesh
+  Hash: !ul 7383272381101572063
+  Phive:
+    Placement: {ID: !ul 7383272381101572063}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x5a1908f2
+  Scale: [0.057999998331069946, 0.7699999809265137, 0.5]
+  Translate: [-13.5, 100.0, -7.880000114440918]
+- Gyaml: FldObj_AirWall_Animal_GenerateNavMesh
+  Hash: !ul 6704629820032891886
+  Phive:
+    Placement: {ID: !ul 6704629820032891886}
+  SRTHash: !u 0x51165b69
+  Scale: [0.057999998331069946, 0.6700000166893005, 0.5]
+  Translate: [-16.68000030517578, 100.19999694824219, 6.760000228881836]
+- Gyaml: FldObj_AirWall_Animal_GenerateNavMesh
+  Hash: !ul 12610318936259631591
+  Phive:
+    Placement: {ID: !ul 12610318936259631591}
+  SRTHash: !u 0x8dc7ede0
+  Scale: [0.057999998331069946, 0.800000011920929, 0.5]
+  Translate: [14.899999618530273, 100.0, 5.900000095367432]
+- Gyaml: FldObj_AirWall_Animal_GenerateNavMesh
+  Hash: !ul 11851541294822866166
+  Phive:
+    Placement: {ID: !ul 11851541294822866166}
+  SRTHash: !u 0xe412c530
+  Scale: [0.057999998331069946, 0.8700000047683716, 0.5]
+  Translate: [12.930000305175781, 100.44999694824219, 16.670000076293945]
+- Gyaml: FldObj_AirWall_Animal_GenerateNavMesh
+  Hash: !ul 13062605241541740165
+  Phive:
+    Placement: {ID: !ul 13062605241541740165}
+  SRTHash: !u 0xe93e995d
+  Scale: [0.057999998331069946, 0.800000011920929, 0.6399999856948853]
+  Translate: [6.800000190734863, 102.0, 55.79999923706055]
+- Gyaml: FldObj_AirWall_Animal_GenerateNavMesh
+  Hash: !ul 192339912204173646
+  Phive:
+    Placement: {ID: !ul 192339912204173646}
+  Rotate: [0.0, 1.3700834512710571, 0.0]
+  SRTHash: !u 0xfe7a33d1
+  Scale: [0.05799999460577965, 0.800000011920929, 0.550000011920929]
+  Translate: [-47.52000045776367, 98.2300033569336, -12.65999984741211]
+- Gyaml: FldObj_AirWall_Animal_GenerateNavMesh
+  Hash: !ul 12034859144304883523
+  Phive:
+    Placement: {ID: !ul 12034859144304883523}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x036a5f7f
+  Scale: [0.057999998331069946, 0.8600000143051147, 0.5199999809265137]
+  Translate: [-22.34000015258789, 100.43499755859375, 25.68000030517578]
+- Gyaml: FldObj_AirWall_Animal_GenerateNavMesh
+  Hash: !ul 12831936702301871696
+  Phive:
+    Placement: {ID: !ul 12831936702301871696}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x89a35534
+  Scale: [0.05700000002980232, 0.8600000143051147, 0.47600001096725464]
+  Translate: [8.979999542236328, 100.25499725341797, -11.84000015258789]
+- Gyaml: NavMeshCutBoxArea
+  Hash: !ul 10788199002448135887
+  Phive:
+    Placement: {ID: !ul 10788199002448135887}
+  Rotate: [0.0, -0.12217304110527039, 0.0]
+  SRTHash: !u 0x79926940
+  Scale: [4.5, 1.0, 0.5]
+  Translate: [-48.68050003051758, 97.73161315917969, 22.31496810913086]
+- Gyaml: Land_HrlCity_Middle_Tree_A_01
+  Hash: !ul 12319417216639629884
+  Phive:
+    Placement: {ID: !ul 12319417216639629884}
+  Rotate: [0.0, -0.27759599685668945, 0.0]
+  SRTHash: !u 0xcf7eedad
+  Translate: [74.3479995727539, 103.02308654785156, -56.820167541503906]
+- Gyaml: Land_HrlCity_Middle_Tree_A_01
+  Hash: !ul 6266724118276126424
+  Phive:
+    Placement: {ID: !ul 6266724118276126424}
+  Rotate: [0.0, 0.5076727271080017, 0.0]
+  SRTHash: !u 0x7ddc0353
+  Translate: [86.06275177001953, 103.52371215820312, -56.820167541503906]
+- Bakeable: true
+  Gyaml: Land_Plant_D_01
+  Hash: !ul 17027359220472728490
+  Phive:
+    Placement: {ID: !ul 17027359220472728490}
+  Rotate: [3.1415927410125732, 0.7170695066452026, 3.1415927410125732]
+  SRTHash: !u 0xe45807f8
+  Translate: [39.67910385131836, 102.69999694824219, -26.91285514831543]
+- Bakeable: true
+  Gyaml: Land_Plant_D_01
+  Hash: !ul 9368008592987241456
+  Phive:
+    Placement: {ID: !ul 9368008592987241456}
+  SRTHash: !u 0x2c547918
+  Translate: [41.078983306884766, 102.69999694824219, -27.06926155090332]
+- Bakeable: true
+  Gyaml: Land_Plant_D_01
+  Hash: !ul 732316521216081623
+  Phive:
+    Placement: {ID: !ul 732316521216081623}
+  Rotate: [0.0, -0.8305813074111938, 0.0]
+  SRTHash: !u 0x2c983edc
+  Translate: [40.59391403198242, 102.69999694824219, -25.801761627197266]
+- Bakeable: true
+  Gyaml: Land_Plant_D_01
+  Hash: !ul 18408563125092791040
+  Phive:
+    Placement: {ID: !ul 18408563125092791040}
+  Rotate: [3.1415927410125732, -1.1345926523208618, 3.1415927410125732]
+  SRTHash: !u 0x127c6c13
+  Translate: [42.286346435546875, 102.69999694824219, -26.064292907714844]
+- Bakeable: true
+  Gyaml: Land_Plant_D_01
+  Hash: !ul 7816625424284936535
+  Phive:
+    Placement: {ID: !ul 7816625424284936535}
+  Rotate: [0.0, -0.8029295206069946, 0.0]
+  SRTHash: !u 0x4c614790
+  Translate: [39.31309127807617, 102.69999694824219, -25.311561584472656]
+- Bakeable: true
+  Gyaml: Land_Plant_D_02
+  Hash: !ul 13334139648890333598
+  Phive:
+    Placement: {ID: !ul 13334139648890333598}
+  Rotate: [0.0, -1.5369760990142822, 0.0]
+  SRTHash: !u 0xbc732f46
+  Translate: [41.564971923828125, 102.69999694824219, -25.033594131469727]
+- Bakeable: true
+  Gyaml: Land_Plant_D_02
+  Hash: !ul 14641094530539458165
+  Phive:
+    Placement: {ID: !ul 14641094530539458165}
+  Rotate: [0.0, -0.1857420951128006, 0.0]
+  SRTHash: !u 0xb459d5dd
+  Translate: [42.55564498901367, 102.69999694824219, -27.265148162841797]
+- Bakeable: true
+  Gyaml: Land_Plant_D_02
+  Hash: !ul 4338513192685736806
+  Phive:
+    Placement: {ID: !ul 4338513192685736806}
+  Rotate: [3.1415927410125732, -0.6795083284378052, 3.1415927410125732]
+  SRTHash: !u 0xfe77afbd
+  Translate: [39.114540100097656, 102.69999694824219, -24.08378791809082]
+- Bakeable: true
+  Gyaml: Land_Plant_D_01
+  Hash: !ul 5212006233872354458
+  Phive:
+    Placement: {ID: !ul 5212006233872354458}
+  SRTHash: !u 0xc66f2134
+  Translate: [41.078983306884766, 102.5644302368164, -26.492618560791016]
+- Bakeable: true
+  Gyaml: Land_Plant_D_01
+  Hash: !ul 15555840419186440727
+  Phive:
+    Placement: {ID: !ul 15555840419186440727}
+  Rotate: [0.0, -0.6289895176887512, 0.0]
+  SRTHash: !u 0x6b2ee5bf
+  Translate: [39.85573959350586, 102.5644302368164, -24.791757583618164]
+- Bakeable: true
+  Gyaml: Land_Plant_D_02
+  Hash: !ul 3196565616857088223
+  Phive:
+    Placement: {ID: !ul 3196565616857088223}
+  Rotate: [3.1415927410125732, -0.6795083284378052, 3.1415927410125732]
+  SRTHash: !u 0xc204bb66
+  Translate: [40.07020950317383, 102.55130767822266, -23.545434951782227]
+- Bakeable: true
+  Gyaml: Land_Plant_D_02
+  Hash: !ul 2052478655498523304
+  Phive:
+    Placement: {ID: !ul 2052478655498523304}
+  Rotate: [3.1415927410125732, 0.7303143739700317, 3.1415927410125732]
+  SRTHash: !u 0x906e6da5
+  Translate: [47.99257278442383, 102.69999694824219, -26.60392951965332]
+- Bakeable: true
+  Gyaml: Land_Plant_D_02
+  Hash: !ul 12877122311291661005
+  Phive:
+    Placement: {ID: !ul 12877122311291661005}
+  Rotate: [3.1415927410125732, -0.911784827709198, 3.1415927410125732]
+  SRTHash: !u 0x56b4cc3d
+  Translate: [49.16794967651367, 102.69999694824219, -25.528812408447266]
+- Bakeable: true
+  Gyaml: Land_Plant_D_01
+  Hash: !ul 7291480510667650220
+  Phive:
+    Placement: {ID: !ul 7291480510667650220}
+  SRTHash: !u 0x240b5987
+  Translate: [39.23210525512695, 102.69999694824219, -14.863500595092773]
+- Bakeable: true
+  Gyaml: Land_Plant_D_01
+  Hash: !ul 4247832602932087035
+  Phive:
+    Placement: {ID: !ul 4247832602932087035}
+  Rotate: [0.0, -1.0031046867370605, 0.0]
+  SRTHash: !u 0x43e5e651
+  Translate: [40.57899856567383, 102.69999694824219, -14.91326904296875]
+- Bakeable: true
+  Gyaml: Land_Plant_D_01
+  Hash: !ul 36121726731549355
+  Phive:
+    Placement: {ID: !ul 36121726731549355}
+  Rotate: [0.0, 0.511674165725708, 0.0]
+  SRTHash: !u 0x1408ab17
+  Translate: [46.7607536315918, 102.69999694824219, -14.821839332580566]
+- Bakeable: true
+  Gyaml: Land_Plant_D_01
+  Hash: !ul 264206095549640877
+  Phive:
+    Placement: {ID: !ul 264206095549640877}
+  Rotate: [0.0, 0.5107923746109009, 0.0]
+  SRTHash: !u 0x2c168f9b
+  Translate: [45.21780776977539, 102.69999694824219, -14.760457992553711]
+- Bakeable: true
+  Gyaml: Land_Plant_D_01
+  Hash: !ul 13190070293159326722
+  Phive:
+    Placement: {ID: !ul 13190070293159326722}
+  Rotate: [0.0, -0.6945574283599854, 0.0]
+  SRTHash: !u 0x4dcafed1
+  Translate: [45.96508026123047, 102.69999694824219, -15.939616203308105]
+- Bakeable: true
+  Gyaml: Land_Plant_D_01
+  Hash: !ul 12111810515692427535
+  Phive:
+    Placement: {ID: !ul 12111810515692427535}
+  Rotate: [0.0, -1.3008580207824707, 0.0]
+  SRTHash: !u 0xbf8d92d4
+  Translate: [39.18161392211914, 102.69999694824219, -16.22471046447754]
+- Bakeable: true
+  Gyaml: Land_Plant_D_02
+  Hash: !ul 13562420462857500933
+  Phive:
+    Placement: {ID: !ul 13562420462857500933}
+  SRTHash: !u 0xaacacd4d
+  Translate: [40.20020294189453, 102.69999694824219, -16.4824161529541]
+- Bakeable: true
+  Gyaml: Land_Plant_D_02
+  Hash: !ul 15234920516559127596
+  Phive:
+    Placement: {ID: !ul 15234920516559127596}
+  Rotate: [3.1415927410125732, 0.8495482206344604, 3.1415927410125732]
+  SRTHash: !u 0x44d72450
+  Translate: [44.0059928894043, 102.69999694824219, -14.386859893798828]
+- Bakeable: true
+  Gyaml: Land_Plant_D_02
+  Hash: !ul 8725630946508315228
+  Phive:
+    Placement: {ID: !ul 8725630946508315228}
+  Rotate: [0.0, -0.8896835446357727, 0.0]
+  SRTHash: !u 0x1817849e
+  Translate: [48.03436279296875, 102.69999694824219, -14.581398010253906]
+- Bakeable: true
+  Gyaml: Land_Plant_D_02
+  Hash: !ul 9682561520036344139
+  Phive:
+    Placement: {ID: !ul 9682561520036344139}
+  Rotate: [0.0, 1.4102877378463745, 0.0]
+  SRTHash: !u 0x9df55268
+  Translate: [43.51945495605469, 102.55130767822266, -16.252111434936523]
+- Bakeable: true
+  Gyaml: Land_Plant_D_01
+  Hash: !ul 5811202987300566309
+  Phive:
+    Placement: {ID: !ul 5811202987300566309}
+  Rotate: [3.1415927410125732, -1.364155650138855, 3.1415927410125732]
+  SRTHash: !u 0xd784619f
+  Translate: [44.690059661865234, 102.5644302368164, -15.901922225952148]
+- Bakeable: true
+  Gyaml: Land_Plant_D_01
+  Hash: !ul 10139587644955113832
+  Phive:
+    Placement: {ID: !ul 10139587644955113832}
+  Rotate: [3.1415927410125732, -1.364155650138855, 3.1415927410125732]
+  SRTHash: !u 0x5ea1b847
+  Translate: [39.40815734863281, 102.5644302368164, -17.06866455078125]
+- Bakeable: true
+  Gyaml: Land_Plant_D_02
+  Hash: !ul 11224837933739261287
+  Phive:
+    Placement: {ID: !ul 11224837933739261287}
+  Rotate: [0.0, -0.7591486573219299, 0.0]
+  SRTHash: !u 0xeaf0b66e
+  Translate: [43.485191345214844, 102.69999694824219, -26.61159324645996]
+- Bakeable: true
+  Gyaml: Land_Plant_D_01
+  Hash: !ul 14323016909635002347
+  Phive:
+    Placement: {ID: !ul 14323016909635002347}
+  Rotate: [0.0, -0.6289895176887512, 0.0]
+  SRTHash: !u 0xcec3fd7a
+  Translate: [47.61859893798828, 102.5644302368164, -26.21095848083496]
+- Bakeable: true
+  Gyaml: Land_Plant_D_02
+  Hash: !ul 12978341752340192181
+  Phive:
+    Placement: {ID: !ul 12978341752340192181}
+  Rotate: [0.0, 1.3677914142608643, 0.0]
+  SRTHash: !u 0xc7ac0424
+  Translate: [40.105323791503906, 102.55130767822266, -17.936010360717773]
+- Bakeable: true
+  Gyaml: Land_Plant_D_01
+  Hash: !ul 9689242480638869515
+  Phive:
+    Placement: {ID: !ul 9689242480638869515}
+  Rotate: [0.0, 0.7142247557640076, 0.0]
+  SRTHash: !u 0x039bd7f5
+  Translate: [51.75739288330078, 102.69999694824219, -14.947669982910156]
+- Bakeable: true
+  Gyaml: Land_Plant_D_01
+  Hash: !ul 15877593683166332851
+  Phive:
+    Placement: {ID: !ul 15877593683166332851}
+  Rotate: [0.0, -0.5503718256950378, 0.0]
+  SRTHash: !u 0xc327865b
+  Translate: [51.5705680847168, 102.69999694824219, -16.381010055541992]
+- Bakeable: true
+  Gyaml: Land_Plant_D_01
+  Hash: !ul 16763686347639000755
+  Phive:
+    Placement: {ID: !ul 16763686347639000755}
+  Rotate: [0.0, 0.3304637372493744, 0.0]
+  SRTHash: !u 0x3f6bafbc
+  Translate: [51.51554489135742, 102.69999694824219, -17.659914016723633]
+- Bakeable: true
+  Gyaml: Land_Plant_D_02
+  Hash: !ul 8192038184985914940
+  Phive:
+    Placement: {ID: !ul 8192038184985914940}
+  Rotate: [3.1415927410125732, 0.4696296453475952, 3.1415927410125732]
+  SRTHash: !u 0x9d0d3918
+  Translate: [50.249088287353516, 102.69999694824219, -15.695253372192383]
+- Bakeable: true
+  Gyaml: Land_Plant_D_02
+  Hash: !ul 15892895854945479471
+  Phive:
+    Placement: {ID: !ul 15892895854945479471}
+  Rotate: [3.1415927410125732, 0.9380594491958618, 3.1415927410125732]
+  SRTHash: !u 0x731513a4
+  Translate: [50.575504302978516, 102.69999694824219, -14.608616828918457]
+- Bakeable: true
+  Gyaml: Land_Plant_D_02
+  Hash: !ul 14753137959618027744
+  Phive:
+    Placement: {ID: !ul 14753137959618027744}
+  SRTHash: !u 0xa05772f1
+  Translate: [49.41587829589844, 102.69999694824219, -14.697839736938477]
+- Bakeable: true
+  Gyaml: Land_Plant_D_01
+  Hash: !ul 17154902107480321933
+  Phive:
+    Placement: {ID: !ul 17154902107480321933}
+  Rotate: [3.1415927410125732, -1.364155650138855, 3.1415927410125732]
+  SRTHash: !u 0xc044b8bc
+  Translate: [49.62955093383789, 102.5644302368164, -15.368292808532715]
+- Bakeable: true
+  Gyaml: Land_Plant_D_02
+  Hash: !ul 4542062403608940189
+  Phive:
+    Placement: {ID: !ul 4542062403608940189}
+  Rotate: [0.0, -1.2270922660827637, 0.0]
+  SRTHash: !u 0x6f560493
+  Translate: [39.01016616821289, 102.69999694824219, -26.320823669433594]
+- Bakeable: true
+  Gyaml: Land_Plant_D_01
+  Hash: !ul 2676898046246915216
+  Phive:
+    Placement: {ID: !ul 2676898046246915216}
+  SRTHash: !u 0x134076c2
+  Translate: [40.02890396118164, 102.5644302368164, -25.97109031677246]
+- Bakeable: true
+  Gyaml: Land_Plant_D_01
+  Hash: !ul 2921240053381859572
+  Phive:
+    Placement: {ID: !ul 2921240053381859572}
+  Rotate: [0.0, -0.6423712372779846, 0.0]
+  SRTHash: !u 0x8d23000c
+  Translate: [40.9258918762207, 102.5644302368164, -24.65027618408203]
+- Bakeable: true
+  Gyaml: Land_Plant_D_01
+  Hash: !ul 4119740474727507533
+  Phive:
+    Placement: {ID: !ul 4119740474727507533}
+  Rotate: [3.1415927410125732, 0.06781235337257385, 3.1415927410125732]
+  SRTHash: !u 0xf718a7a1
+  Translate: [46.05160903930664, 102.5644302368164, -14.688896179199219]
+- Bakeable: true
+  Gyaml: Land_Plant_D_01
+  Hash: !ul 16852643161568541101
+  Phive:
+    Placement: {ID: !ul 16852643161568541101}
+  Rotate: [3.1415927410125732, 0.06781235337257385, 3.1415927410125732]
+  SRTHash: !u 0x4910f743
+  Translate: [39.8313102722168, 102.5644302368164, -14.584345817565918]
+- Bakeable: true
+  Gyaml: Land_Plant_D_01
+  Hash: !ul 7002885107242181562
+  Phive:
+    Placement: {ID: !ul 7002885107242181562}
+  Rotate: [3.1415927410125732, 0.06781235337257385, 3.1415927410125732]
+  SRTHash: !u 0x748ed128
+  Translate: [51.08486557006836, 102.5644302368164, -15.09394359588623]
+- Bakeable: true
+  Gyaml: Land_Plant_D_01
+  Hash: !ul 8776655454471032735
+  Phive:
+    Placement: {ID: !ul 8776655454471032735}
+  Rotate: [0.0, -0.06568526476621628, 0.0]
+  SRTHash: !u 0xff656ae3
+  Translate: [53.583457946777344, 102.69999694824219, -21.174394607543945]
+- Bakeable: true
+  Gyaml: Land_Plant_D_01
+  Hash: !ul 12452421800577496504
+  Phive:
+    Placement: {ID: !ul 12452421800577496504}
+  Rotate: [0.0, 0.9823310375213623, 0.0]
+  SRTHash: !u 0xc52da3a8
+  Translate: [53.58940887451172, 102.69999694824219, -22.431047439575195]
+- Bakeable: true
+  Gyaml: Land_Plant_D_01
+  Hash: !ul 17498504478145392640
+  Phive:
+    Placement: {ID: !ul 17498504478145392640}
+  Rotate: [0.0, -0.14133577048778534, 0.0]
+  SRTHash: !u 0x3077b5e4
+  Translate: [53.59303283691406, 102.69999694824219, -27.095849990844727]
+- Bakeable: true
+  Gyaml: Land_Plant_D_02
+  Hash: !ul 890217089204548543
+  Phive:
+    Placement: {ID: !ul 890217089204548543}
+  SRTHash: !u 0xac8047ca
+  Translate: [52.54079055786133, 102.69999694824219, -21.420270919799805]
+- Bakeable: true
+  Gyaml: Land_Plant_D_02
+  Hash: !ul 6822618689053246115
+  Phive:
+    Placement: {ID: !ul 6822618689053246115}
+  Rotate: [3.1415927410125732, -0.6840773820877075, 3.1415927410125732]
+  SRTHash: !u 0x2512ec8d
+  Translate: [53.71234893798828, 102.69999694824219, -25.77515411376953]
+- Bakeable: true
+  Gyaml: Land_Plant_D_01
+  Hash: !ul 14186368431661390419
+  Phive:
+    Placement: {ID: !ul 14186368431661390419}
+  Rotate: [3.1415927410125732, -1.364155650138855, 3.1415927410125732]
+  SRTHash: !u 0xf3da5f75
+  Translate: [53.23963165283203, 102.5644302368164, -21.63653564453125]
+- Bakeable: true
+  Gyaml: Land_Plant_D_02
+  Hash: !ul 3548854774780873328
+  Phive:
+    Placement: {ID: !ul 3548854774780873328}
+  Rotate: [3.1415927410125732, 0.8556262850761414, 3.1415927410125732]
+  SRTHash: !u 0x9b998c74
+  Translate: [52.13249206542969, 102.55130767822266, -21.788150787353516]
+- Bakeable: true
+  Gyaml: Land_Plant_D_01
+  Hash: !ul 14384885639812489225
+  Phive:
+    Placement: {ID: !ul 14384885639812489225}
+  SRTHash: !u 0xf1a9341f
+  Translate: [52.108055114746094, 102.69999694824219, -53.4342041015625]
+- Bakeable: true
+  Gyaml: Land_Plant_D_01
+  Hash: !ul 11471803239218712367
+  Phive:
+    Placement: {ID: !ul 11471803239218712367}
+  SRTHash: !u 0xcff2870e
+  Translate: [51.450714111328125, 102.69999694824219, -52.26823806762695]
+- Bakeable: true
+  Gyaml: Land_Plant_D_01
+  Hash: !ul 2395453491055701370
+  Phive:
+    Placement: {ID: !ul 2395453491055701370}
+  Rotate: [3.1415927410125732, 1.4170007705688477, 3.1415927410125732]
+  SRTHash: !u 0xa0e5b680
+  Translate: [51.64345932006836, 102.69999694824219, -48.550716400146484]
+- Bakeable: true
+  Gyaml: Land_Plant_D_01
+  Hash: !ul 2957034776201312147
+  Phive:
+    Placement: {ID: !ul 2957034776201312147}
+  Rotate: [0.0, 0.1847766488790512, 0.0]
+  SRTHash: !u 0xfc09589a
+  Translate: [53.58218002319336, 102.69999694824219, -47.0060920715332]
+- Bakeable: true
+  Gyaml: Land_Plant_D_01
+  Hash: !ul 13786819927539634235
+  Phive:
+    Placement: {ID: !ul 13786819927539634235}
+  SRTHash: !u 0x959810af
+  Translate: [53.5896110534668, 102.69999694824219, -41.120361328125]
+- Bakeable: true
+  Gyaml: Land_Plant_D_01
+  Hash: !ul 603787505898819600
+  Phive:
+    Placement: {ID: !ul 603787505898819600}
+  Rotate: [0.0, -0.5072734355926514, 0.0]
+  SRTHash: !u 0x82d937ee
+  Translate: [41.65826416015625, 102.69999694824219, -53.35729217529297]
+- Bakeable: true
+  Gyaml: Land_Plant_D_01
+  Hash: !ul 17802717235271082408
+  Phive:
+    Placement: {ID: !ul 17802717235271082408}
+  Rotate: [3.1415927410125732, -1.2619518041610718, 3.1415927410125732]
+  SRTHash: !u 0x308c4d12
+  Translate: [40.13747024536133, 102.69999694824219, -52.3499641418457]
+- Bakeable: true
+  Gyaml: Land_Plant_D_01
+  Hash: !ul 15032165089821598188
+  Phive:
+    Placement: {ID: !ul 15032165089821598188}
+  Rotate: [3.1415927410125732, -1.2653576135635376, 3.1415927410125732]
+  SRTHash: !u 0xa17c388c
+  Translate: [39.271690368652344, 102.69999694824219, -53.26905059814453]
+- Bakeable: true
+  Gyaml: Land_Plant_D_01
+  Hash: !ul 7067339900706721416
+  Phive:
+    Placement: {ID: !ul 7067339900706721416}
+  Rotate: [3.1415927410125732, -0.10951605439186096, 3.1415927410125732]
+  SRTHash: !u 0xc7579391
+  Translate: [41.59403991699219, 102.69999694824219, -40.8824462890625]
+- Bakeable: true
+  Gyaml: Land_Plant_D_01
+  Hash: !ul 15002494719869593862
+  Phive:
+    Placement: {ID: !ul 15002494719869593862}
+  Rotate: [0.0, 0.6665500998497009, 0.0]
+  SRTHash: !u 0xb2a863cd
+  Translate: [40.48662185668945, 102.69999694824219, -41.96122741699219]
+- Bakeable: true
+  Gyaml: Land_Plant_D_01
+  Hash: !ul 4958823197824413172
+  Phive:
+    Placement: {ID: !ul 4958823197824413172}
+  Rotate: [0.0, -0.170331671833992, 0.0]
+  SRTHash: !u 0x9edf5ce6
+  Translate: [39.20646286010742, 102.69999694824219, -41.10076141357422]
+- Bakeable: true
+  Gyaml: Land_Plant_D_02
+  Hash: !ul 9939030141396650061
+  Phive:
+    Placement: {ID: !ul 9939030141396650061}
+  Rotate: [0.0, -0.276716411113739, 0.0]
+  SRTHash: !u 0x698edd8b
+  Translate: [40.50303649902344, 102.69999694824219, -53.58195114135742]
+- Bakeable: true
+  Gyaml: Land_Plant_D_02
+  Hash: !ul 3373536870750403659
+  Phive:
+    Placement: {ID: !ul 3373536870750403659}
+  Rotate: [3.1415927410125732, -1.042110800743103, 3.1415927410125732]
+  SRTHash: !u 0xe577894b
+  Translate: [42.798065185546875, 102.69999694824219, -53.02769470214844]
+- Bakeable: true
+  Gyaml: Land_Plant_D_02
+  Hash: !ul 6270295306797079888
+  Phive:
+    Placement: {ID: !ul 6270295306797079888}
+  Rotate: [0.0, 1.0180861949920654, 0.0]
+  SRTHash: !u 0xdadb517d
+  Translate: [38.83987808227539, 102.69999694824219, -52.10215759277344]
+- Bakeable: true
+  Gyaml: Land_Plant_D_02
+  Hash: !ul 6205925473475906002
+  Phive:
+    Placement: {ID: !ul 6205925473475906002}
+  Rotate: [0.0, 1.300756812095642, 0.0]
+  SRTHash: !u 0x5be98971
+  Translate: [39.75595474243164, 102.69999694824219, -42.57573318481445]
+- Bakeable: true
+  Gyaml: Land_Plant_D_02
+  Hash: !ul 12452634712600455482
+  Phive:
+    Placement: {ID: !ul 12452634712600455482}
+  Rotate: [0.0, -1.2768359184265137, 0.0]
+  SRTHash: !u 0x141f87e6
+  Translate: [43.818904876708984, 102.69999694824219, -40.59334182739258]
+- Bakeable: true
+  Gyaml: Land_Plant_D_01
+  Hash: !ul 742554808976370305
+  Phive:
+    Placement: {ID: !ul 742554808976370305}
+  Rotate: [3.1415927410125732, 1.4311420917510986, 3.1415927410125732]
+  SRTHash: !u 0xa75832f1
+  Translate: [42.80862808227539, 102.69999694824219, -41.15956497192383]
+- Bakeable: true
+  Gyaml: Land_Plant_D_02
+  Hash: !ul 15451921502403932830
+  Phive:
+    Placement: {ID: !ul 15451921502403932830}
+  Rotate: [3.1415927410125732, 0.6021265387535095, 3.1415927410125732]
+  SRTHash: !u 0x82281e94
+  Translate: [40.437095642089844, 102.69999694824219, -40.677581787109375]
+- Bakeable: true
+  Gyaml: Land_Plant_D_02
+  Hash: !ul 8314982578005461785
+  Phive:
+    Placement: {ID: !ul 8314982578005461785}
+  Rotate: [0.0, 0.8863098621368408, 0.0]
+  SRTHash: !u 0xa5213cc4
+  Translate: [48.56378173828125, 102.69999694824219, -42.359127044677734]
+- Bakeable: true
+  Gyaml: Land_Plant_D_02
+  Hash: !ul 4806001775332139049
+  Phive:
+    Placement: {ID: !ul 4806001775332139049}
+  Rotate: [3.1415927410125732, 0.8464846014976501, 3.1415927410125732]
+  SRTHash: !u 0xde5e297e
+  Translate: [48.12564468383789, 102.69999694824219, -40.932960510253906]
+- Bakeable: true
+  Gyaml: Land_Plant_D_02
+  Hash: !ul 7435003110950120466
+  Phive:
+    Placement: {ID: !ul 7435003110950120466}
+  Rotate: [3.1415927410125732, -0.1683277189731598, 3.1415927410125732]
+  SRTHash: !u 0xf7b23de4
+  Translate: [53.70552062988281, 102.69999694824219, -45.806095123291016]
+- Bakeable: true
+  Gyaml: Land_Plant_D_02
+  Hash: !ul 14256028196270917394
+  Phive:
+    Placement: {ID: !ul 14256028196270917394}
+  Rotate: [0.0, 1.018279790878296, 0.0]
+  SRTHash: !u 0x23610218
+  Translate: [52.40851593017578, 102.69999694824219, -40.96632385253906]
+- Bakeable: true
+  Gyaml: Land_Plant_D_02
+  Hash: !ul 2336221729007461394
+  Phive:
+    Placement: {ID: !ul 2336221729007461394}
+  Rotate: [3.1415927410125732, 0.7814847826957703, 3.1415927410125732]
+  SRTHash: !u 0xcef9a40b
+  Translate: [50.86992645263672, 102.69999694824219, -53.277374267578125]
+- Bakeable: true
+  Gyaml: Land_Plant_D_02
+  Hash: !ul 12714321068675173786
+  Phive:
+    Placement: {ID: !ul 12714321068675173786}
+  Rotate: [3.1415927410125732, 0.14059200882911682, 3.1415927410125732]
+  SRTHash: !u 0xcc5d18fa
+  Translate: [52.1632080078125, 102.69999694824219, -47.35475540161133]
+- Bakeable: true
+  Gyaml: Land_Plant_D_01
+  Hash: !ul 4304133137442648066
+  Phive:
+    Placement: {ID: !ul 4304133137442648066}
+  Rotate: [0.0, -0.6423712372779846, 0.0]
+  SRTHash: !u 0xac196029
+  Translate: [40.9258918762207, 102.5644302368164, -52.11978530883789]
+- Bakeable: true
+  Gyaml: Land_Plant_D_02
+  Hash: !ul 3873899061475008531
+  Phive:
+    Placement: {ID: !ul 3873899061475008531}
+  Rotate: [3.1415927410125732, -0.6795083284378052, 3.1415927410125732]
+  SRTHash: !u 0x27c4ae6a
+  Translate: [40.07020950317383, 102.55130767822266, -51.01494598388672]
+- Bakeable: true
+  Gyaml: Land_Plant_D_01
+  Hash: !ul 141379101394495176
+  Phive:
+    Placement: {ID: !ul 141379101394495176}
+  Rotate: [3.1415927410125732, -1.0857824087142944, 3.1415927410125732]
+  SRTHash: !u 0xd9189d8d
+  Translate: [39.974578857421875, 102.5644302368164, -53.11235809326172]
+- Bakeable: true
+  Gyaml: Land_Plant_D_01
+  Hash: !ul 13149936143999025234
+  Phive:
+    Placement: {ID: !ul 13149936143999025234}
+  Rotate: [3.1415927410125732, -1.0857824087142944, 3.1415927410125732]
+  SRTHash: !u 0x4b94b773
+  Translate: [40.57162094116211, 102.5644302368164, -41.003108978271484]
+- Bakeable: true
+  Gyaml: Land_Plant_D_01
+  Hash: !ul 6392598295459960522
+  Phive:
+    Placement: {ID: !ul 6392598295459960522}
+  Rotate: [0.0, -1.1493736505508423, 0.0]
+  SRTHash: !u 0xaaa4143e
+  Translate: [40.01996994018555, 102.5644302368164, -42.13869857788086]
+- Bakeable: true
+  Gyaml: Land_Plant_D_02
+  Hash: !ul 8299171802583156987
+  Phive:
+    Placement: {ID: !ul 8299171802583156987}
+  Rotate: [0.0, 0.38503599166870117, 0.0]
+  SRTHash: !u 0xd3756537
+  Translate: [40.50605773925781, 102.55130767822266, -43.27305221557617]
+- Bakeable: true
+  Gyaml: Land_Plant_D_01
+  Hash: !ul 2396791977033444646
+  Phive:
+    Placement: {ID: !ul 2396791977033444646}
+  Rotate: [0.0, -1.1493736505508423, 0.0]
+  SRTHash: !u 0x7547c514
+  Translate: [53.54563903808594, 102.5644302368164, -41.53304672241211]
+- Bakeable: true
+  Gyaml: Land_Plant_D_01
+  Hash: !ul 14605906953909955330
+  Phive:
+    Placement: {ID: !ul 14605906953909955330}
+  Rotate: [0.0, -1.1493736505508423, 0.0]
+  SRTHash: !u 0x6406c6ec
+  Translate: [52.94941329956055, 102.5644302368164, -46.7337646484375]
+- Bakeable: true
+  Gyaml: Land_Plant_D_01
+  Hash: !ul 16137855049753045014
+  Phive:
+    Placement: {ID: !ul 16137855049753045014}
+  Rotate: [0.0, -0.2873673439025879, 0.0]
+  SRTHash: !u 0xdf0c748b
+  Translate: [39.57695388793945, 102.69999694824219, -51.162166595458984]
+- Bakeable: true
+  Gyaml: Land_Plant_D_02
+  Hash: !ul 4511317439925190748
+  Phive:
+    Placement: {ID: !ul 4511317439925190748}
+  Rotate: [3.1415927410125732, 0.06593719124794006, 3.1415927410125732]
+  SRTHash: !u 0x15ea9a7b
+  Translate: [41.04904556274414, 102.69999694824219, -52.328372955322266]
+- Bakeable: true
+  Gyaml: Land_Plant_D_02
+  Hash: !ul 17973353093880369144
+  Phive:
+    Placement: {ID: !ul 17973353093880369144}
+  Rotate: [3.1415927410125732, -0.975765585899353, 3.1415927410125732]
+  SRTHash: !u 0x6b5bb588
+  Translate: [39.13975143432617, 102.69999694824219, -49.96977233886719]
+- Bakeable: true
+  Gyaml: Land_Plant_D_02
+  Hash: !ul 17260889538102441791
+  Phive:
+    Placement: {ID: !ul 17260889538102441791}
+  SRTHash: !u 0x135a59de
+  Translate: [40.45137405395508, 102.69999694824219, -50.53604507446289]
+- Bakeable: true
+  Gyaml: Land_Plant_D_01
+  Hash: !ul 7492313896893934830
+  Phive:
+    Placement: {ID: !ul 7492313896893934830}
+  Rotate: [0.0, -1.1493736505508423, 0.0]
+  SRTHash: !u 0x118743f4
+  Translate: [47.91796112060547, 102.5644302368164, -41.430301666259766]
+- Dynamic: {DuplicatedModel_OverwriteModelNum: 2}
+  Gyaml: EnvironmentalAnimal_Rat
+  Hash: !ul 2068691642415961458
+  Phive:
+    Placement: {ID: !ul 2068691642415961458}
+  Rotate: [0.0031336848624050617, -0.6164465546607971, -0.49221885204315186]
+  SRTHash: !u 0x99e66479
+  Translate: [-54.3798713684082, 104.89830780029297, -11.923096656799316]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.0, GameModelController_LodStartDistCoef: 0.0}
+  Gyaml: Land_HrlCity_Low_Tree_A_03
+  Hash: !ul 8899163565740505399
+  Phive:
+    Placement: {ID: !ul 8899163565740505399}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xae77e766
+  Translate: [44.16999816894531, 102.78500366210938, 2.0]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.0, GameModelController_LodStartDistCoef: 0.0}
+  Gyaml: Land_HrlCity_Low_Tree_A_05
+  Hash: !ul 8575809487170946277
+  Phive:
+    Placement: {ID: !ul 8575809487170946277}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x38ada336
+  Translate: [26.170000076293945, 102.78500366210938, -22.0]
+- Bakeable: true
+  Dynamic: {GameModelController_LodMaxLevelDistScale: 0.0, GameModelController_LodStartDistCoef: 0.0}
+  Gyaml: Land_HrlCity_Low_Tree_A_06
+  Hash: !ul 16884723583723041477
+  Phive:
+    Placement: {ID: !ul 16884723583723041477}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xd910ad52
+  Translate: [26.170000076293945, 102.78500366210938, -44.0]
+- Bakeable: true
+  Gyaml: Land_Plant_D_02
+  Hash: !ul 12797868998559410169
+  Phive:
+    Placement: {ID: !ul 12797868998559410169}
+  Rotate: [3.1415927410125732, -1.4587785005569458, 3.1415927410125732]
+  SRTHash: !u 0x0c5512f4
+  Translate: [39.160377502441406, 102.69999694824219, -42.08270263671875]
+- Bakeable: true
+  Gyaml: Land_Plant_D_02
+  Hash: !ul 5644542318763317337
+  Phive:
+    Placement: {ID: !ul 5644542318763317337}
+  Rotate: [0.0, 0.9286931753158569, 0.0]
+  SRTHash: !u 0xbae39ee2
+  Translate: [39.33231735229492, 102.69999694824219, -43.509498596191406]
+- Gyaml: Land_Tree_A_01
+  Hash: !ul 17585941661963680548
+  Phive:
+    Placement: {ID: !ul 17585941661963680548}
+  Rotate: [0.0, -0.02259867638349533, 0.0]
+  SRTHash: !u 0xb3cca1c5
+  Translate: [45.63273239135742, 100.4083480834961, 9.548077583312988]
+- Gyaml: Land_Tree_A_01
+  Hash: !ul 9771648627213741743
+  Phive:
+    Placement: {ID: !ul 9771648627213741743}
+  Rotate: [3.1415927410125732, 1.2478407621383667, 3.1415927410125732]
+  SRTHash: !u 0x085da5be
+  Translate: [43.23079299926758, 99.6480941772461, 19.287628173828125]
+- Gyaml: Land_Tree_A_01
+  Hash: !ul 1229323839769427013
+  Phive:
+    Placement: {ID: !ul 1229323839769427013}
+  Rotate: [0.0, -0.6516258120536804, 0.0]
+  SRTHash: !u 0x1c055586
+  Translate: [48.124168395996094, 100.51203155517578, 5.224442481994629]
+- Gyaml: Land_Tree_A_01
+  Hash: !ul 72668200813204156
+  Phive:
+    Placement: {ID: !ul 72668200813204156}
+  Rotate: [0.0, -1.2242512702941895, 0.0]
+  SRTHash: !u 0xdd691511
+  Translate: [64.32062530517578, 100.34992980957031, 14.260560989379883]
+- Gyaml: Land_Tree_A_01
+  Hash: !ul 8275442075972890572
+  Phive:
+    Placement: {ID: !ul 8275442075972890572}
+  Rotate: [0.0, -1.2242512702941895, 0.0]
+  SRTHash: !u 0xe27b36b9
+  Translate: [94.41161346435547, 102.06535339355469, 18.045196533203125]
+- Gyaml: Land_Tree_A_01
+  Hash: !ul 8954323260498120264
+  Phive:
+    Placement: {ID: !ul 8954323260498120264}
+  Rotate: [0.0, -1.2242512702941895, 0.0]
+  SRTHash: !u 0x31a5671e
+  Translate: [101.17070770263672, 101.7264633178711, 17.041751861572266]
+- Gyaml: Land_Tree_A_01
+  Hash: !ul 8444513003109271166
+  Phive:
+    Placement: {ID: !ul 8444513003109271166}
+  Rotate: [0.0, -1.2242512702941895, 0.0]
+  SRTHash: !u 0x6511e5dd
+  Translate: [106.24280548095703, 101.01698303222656, 20.51643943786621]
+- Gyaml: Land_Tree_A_01
+  Hash: !ul 9266074574573972327
+  Phive:
+    Placement: {ID: !ul 9266074574573972327}
+  Rotate: [0.0, -1.2242512702941895, 0.0]
+  SRTHash: !u 0x850819b6
+  Scale: [1.100000023841858, 1.100000023841858, 1.100000023841858]
+  Translate: [112.39012145996094, 100.29400634765625, 20.937318801879883]
+- Gyaml: Land_Tree_A_01
+  Hash: !ul 9123384472209157835
+  Phive:
+    Placement: {ID: !ul 9123384472209157835}
+  SRTHash: !u 0xa4518b73
+  Translate: [34.44671630859375, 99.39414978027344, -78.04985809326172]
+- Gyaml: Land_Tree_A_01
+  Hash: !ul 4707411368339895443
+  Phive:
+    Placement: {ID: !ul 4707411368339895443}
+  Rotate: [0.0, 0.9854779243469238, 0.0]
+  SRTHash: !u 0xa23fd1e5
+  Translate: [24.919095993041992, 99.39414978027344, -76.85673522949219]
+- Gyaml: Land_Tree_A_01
+  Hash: !ul 3558650271853447175
+  Phive:
+    Placement: {ID: !ul 3558650271853447175}
+  SRTHash: !u 0x0d0c2cb0
+  Scale: [0.5, 0.5, 0.5]
+  Translate: [-40.61423873901367, 98.96607208251953, -24.965496063232422]
+- Gyaml: Land_Tree_A_01
+  Hash: !ul 2801966695832215237
+  Phive:
+    Placement: {ID: !ul 2801966695832215237}
+  SRTHash: !u 0xfd147bc4
+  Scale: [0.44999998807907104, 0.44999998807907104, 0.44999998807907104]
+  Translate: [-41.404083251953125, 106.21644592285156, -34.806705474853516]
+- Gyaml: Land_Tree_A_01
+  Hash: !ul 3636073334533647950
+  Phive:
+    Placement: {ID: !ul 3636073334533647950}
+  SRTHash: !u 0x6562d6d6
+  Scale: [0.44999998807907104, 0.44999998807907104, 0.44999998807907104]
+  Translate: [-42.34220504760742, 106.54279327392578, -34.95673370361328]
+- Gyaml: Land_Tree_A_01
+  Hash: !ul 5828541780783219200
+  Phive:
+    Placement: {ID: !ul 5828541780783219200}
+  SRTHash: !u 0x95f7ea38
+  Scale: [0.44999998807907104, 0.44999998807907104, 0.44999998807907104]
+  Translate: [-36.457618713378906, 106.79534912109375, -35.24913787841797]
+- Gyaml: Land_Tree_A_01
+  Hash: !ul 729347999397084160
+  Phive:
+    Placement: {ID: !ul 729347999397084160}
+  SRTHash: !u 0x9cdc2440
+  Scale: [0.699999988079071, 0.699999988079071, 0.699999988079071]
+  Translate: [-35.39242172241211, 97.93960571289062, -27.92197608947754]
+- Gyaml: Land_Tree_A_01
+  Hash: !ul 79504119778538892
+  Phive:
+    Placement: {ID: !ul 79504119778538892}
+  SRTHash: !u 0x3ccf9896
+  Scale: [0.550000011920929, 0.550000011920929, 0.550000011920929]
+  Translate: [-35.259010314941406, 98.17682647705078, -25.378843307495117]
+- Gyaml: Land_Tree_A_01
+  Hash: !ul 13216069293462510415
+  Phive:
+    Placement: {ID: !ul 13216069293462510415}
+  SRTHash: !u 0x99b12607
+  Scale: [0.550000011920929, 0.550000011920929, 0.550000011920929]
+  Translate: [-51.63493347167969, 98.13248443603516, -27.914016723632812]
+- Gyaml: Land_Tree_A_01
+  Hash: !ul 14610206267229183715
+  Phive:
+    Placement: {ID: !ul 14610206267229183715}
+  SRTHash: !u 0x51f8a36e
+  Scale: [0.550000011920929, 0.550000011920929, 0.550000011920929]
+  Translate: [-54.57497787475586, 98.40277099609375, -28.46999168395996]
+- Gyaml: Land_Tree_A_01
+  Hash: !ul 14272641536486635928
+  Phive:
+    Placement: {ID: !ul 14272641536486635928}
+  Rotate: [-1.283781472238843e-07, -0.7652626037597656, 1.8532321632847015e-07]
+  SRTHash: !u 0xeb8e34f4
+  Scale: [0.550000011920929, 0.550000011920929, 0.550000011920929]
+  Translate: [-54.39494323730469, 99.132080078125, -30.60796356201172]
+- Gyaml: Land_Tree_A_01
+  Hash: !ul 971845403325954265
+  Phive:
+    Placement: {ID: !ul 971845403325954265}
+  SRTHash: !u 0x9fbdd5f6
+  Scale: [0.5, 0.5, 0.5]
+  Translate: [-51.71261215209961, 99.73713684082031, -37.201866149902344]
+- Gyaml: Land_Tree_A_01
+  Hash: !ul 14576389286556062011
+  Phive:
+    Placement: {ID: !ul 14576389286556062011}
+  SRTHash: !u 0x5ab180f5
+  Scale: [0.4000000059604645, 0.4000000059604645, 0.4000000059604645]
+  Translate: [-50.99342727661133, 106.78085327148438, -46.33895492553711]
+- Gyaml: Land_Tree_A_01
+  Hash: !ul 8666026772947757269
+  Phive:
+    Placement: {ID: !ul 8666026772947757269}
+  SRTHash: !u 0xcff820b0
+  Scale: [0.44999998807907104, 0.44999998807907104, 0.44999998807907104]
+  Translate: [-53.374656677246094, 106.25440216064453, -47.63889694213867]
+- Gyaml: EftLoc_Market_Fog_00
+  Hash: !ul 11887249014710209004
+  Phive:
+    Placement: {ID: !ul 11887249014710209004}
+  SRTHash: !u 0x5aecf916
+  Translate: [29.988189697265625, 143.13180541992188, -247.6824493408203]
+- Gyaml: EftLoc_HrlCity_TimeTemple_LightShaft_Windows_00
+  Hash: !ul 10282291297789181597
+  Phive:
+    Placement: {ID: !ul 10282291297789181597}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xb5f19056
+  Translate: [113.77018737792969, 120.45037841796875, -23.71593475341797]
+- Bakeable: true
+  Gyaml: Obj_Shop_SignBoard_A_01
+  Hash: !ul 6553846784439837397
+  Name: HrlCity_000
+  Phive:
+    Placement: {ID: !ul 6553846784439837397}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x239f13e4
+  Translate: [-9.081836700439453, 102.8987808227539, -11.63837718963623]
+- Bakeable: true
+  Gyaml: Land_TempleOfTime_Inside_Chandelier_A_01
+  Hash: !ul 13159556444878026883
+  Phive:
+    Placement: {ID: !ul 13159556444878026883}
+  SRTHash: !u 0xf1524ffc
+  Translate: [106.5910873413086, 120.58799743652344, -34.0]
+- Bakeable: true
+  Gyaml: Land_TempleOfTime_Inside_Chandelier_A_01
+  Hash: !ul 7293330634541787192
+  Phive:
+    Placement: {ID: !ul 7293330634541787192}
+  SRTHash: !u 0xe3c8202d
+  Translate: [92.20732879638672, 120.58799743652344, -34.0]
+- Gyaml: ForbiddenCreateDropArea
+  Hash: !ul 5527432546167778830
+  Phive:
+    Placement: {ID: !ul 5527432546167778830}
+  SRTHash: !u 0x0221f18d
+  Scale: [3.0, 3.0, 3.0]
+  Translate: [-7.984992027282715, 101.49171447753906, 34.02985763549805]
+- Gyaml: NavMeshCutBoxArea
+  Hash: !ul 13328762275601067144
+  Phive:
+    Placement: {ID: !ul 13328762275601067144}
+  Rotate: [0.0, -0.03490658104419708, 0.0]
+  SRTHash: !u 0xbf3789b7
+  Scale: [4.5, 1.0, 0.5]
+  Translate: [-52.58545684814453, 97.73161315917969, 22.004056930541992]
+- Bakeable: true
+  Gyaml: Land_HrlCity_Airwall_Outer_Boundary
+  Hash: !ul 502360649646663469
+  Phive:
+    Placement: {ID: !ul 502360649646663469}
+  SRTHash: !u 0xc552a342
+- Gyaml: FldObj_AirWall_Player
+  Hash: !ul 14094141920648588360
+  Phive:
+    Placement: {ID: !ul 14094141920648588360}
+  SRTHash: !u 0x9720199c
+  Scale: [0.5, 1.5, 0.5]
+  Translate: [-60.091182708740234, 101.61679077148438, 18.3154354095459]
+- Gyaml: ForbiddenCreateDropArea
+  Hash: !ul 12280550411093175398
+  Phive:
+    Placement: {ID: !ul 12280550411093175398}
+  SRTHash: !u 0x38b793eb
+  Scale: [1.5, 3.0, 1.5]
+  Translate: [-8.364705085754395, 103.47931671142578, 61.42420196533203]
+- Dynamic: {NextBancParamName: Market_Adult}
+  Gyaml: ChangeBancBeforehandAnchor
+  Hash: !ul 2552121942314714388
+  Phive:
+    Placement: {ID: !ul 2552121942314714388}
+  SRTHash: !u 0x7a035acd
+  Translate: [136.33396911621094, 106.11634063720703, -33.97127151489258]
+- Gyaml: FldObj_AirWall_CharacterSight_GenerateNavMesh
+  Hash: !ul 5081744233787490076
+  Phive:
+    Placement: {ID: !ul 5081744233787490076}
+  Rotate: [-0.5965196490287781, -0.0, 0.0]
+  SRTHash: !u 0x957130ed
+  Scale: [0.05000000074505806, 0.3499999940395355, 0.20000000298023224]
+  Translate: [7.883787155151367, 100.0522232055664, 19.304384231567383]
+- Gyaml: FldObj_AirWall_CharacterSight_GenerateNavMesh
+  Hash: !ul 9389346003623565531
+  Phive:
+    Placement: {ID: !ul 9389346003623565531}
+  Rotate: [-0.30098626017570496, -0.0, 0.0]
+  SRTHash: !u 0xad41cd44
+  Scale: [0.05000000074505806, 0.5, 0.10000000149011612]
+  Translate: [7.883787155151367, 100.0248031616211, 19.442140579223633]
+- Gyaml: ForbiddenCreateDropArea
+  Hash: !ul 15954670032287583687
+  Phive:
+    Placement: {ID: !ul 15954670032287583687}
+  Rotate: [0.0, -0.19011633098125458, 0.0]
+  SRTHash: !u 0x642f5668
+  Scale: [1.5, 1.0, 1.0]
+  Translate: [3.6108105182647705, 102.41899108886719, -14.737275123596191]
+- Gyaml: ForbiddenCreateDropArea
+  Hash: !ul 11197730524625469240
+  Phive:
+    Placement: {ID: !ul 11197730524625469240}
+  Rotate: [0.0, -0.8285240530967712, 0.0]
+  SRTHash: !u 0xb8ea6485
+  Scale: [1.5, 1.0, 1.0]
+  Translate: [2.6452367305755615, 102.41899108886719, -15.283195495605469]
+- Gyaml: ForbiddenCreateDropArea
+  Hash: !ul 1705125628452742468
+  Phive:
+    Placement: {ID: !ul 1705125628452742468}
+  Rotate: [0.0, -1.3442096710205078, 0.0]
+  SRTHash: !u 0x1af178cd
+  Scale: [1.5, 1.0, 1.0]
+  Translate: [2.089158773422241, 102.41899108886719, -16.336214065551758]
+- Bakeable: true
+  Gyaml: Obj_Door_A_05
+  Hash: !ul 3646315241077774126
+  Name: RestrictedDoor_Common_20
+  Phive:
+    Placement: {ID: !ul 3646315241077774126}
+  Rotate: [0.0, 1.5707950592041016, -0.0]
+  SRTHash: !u 0x603864fb
+  Translate: [-60.54924774169922, 100.99398803710938, 10.463841438293457]
+- Gyaml: FldObj_AirWall_CharacterSight_GenerateNavMesh
+  Hash: !ul 7549042153791441238
+  Phive:
+    Placement: {ID: !ul 7549042153791441238}
+  Rotate: [0.0, 1.5707950592041016, -0.0]
+  SRTHash: !u 0x5021e1e5
+  Scale: [1.0, 1.0, 0.20000000298023224]
+  Translate: [-60.949249267578125, 101.12531280517578, 11.274163246154785]
+- Gyaml: FldObj_AirWall_ExcludeNpcAndAnimal
+  Hash: !ul 15949311680201816218
+  Phive:
+    Placement: {ID: !ul 15949311680201816218}
+  Rotate: [-3.141592502593994, -1.194529090753349e-06, 3.1415927410125732]
+  SRTHash: !u 0xc069145d
+  Scale: [0.5, 0.800000011920929, 0.800000011920929]
+  Translate: [-61.60906982421875, 101.03326416015625, 11.13351821899414]
+- Gyaml: FldObj_AirWall_CameraSightAndCameraBody
+  Hash: !ul 2204553786858551608
+  Phive:
+    Placement: {ID: !ul 2204553786858551608}
+  Rotate: [-3.141592502593994, -1.194529090753349e-06, 3.1415927410125732]
+  SRTHash: !u 0x1c9a2221
+  Translate: [-62.661155700683594, 101.03326416015625, 11.133520126342773]
+- Gyaml: FldObj_AirWall_Cucco_GenerateNavMesh
+  Hash: !ul 13438202104699217455
+  Phive:
+    Placement: {ID: !ul 13438202104699217455}
+  Rotate: [-3.141592502593994, -1.194529090753349e-06, 3.1415927410125732]
+  SRTHash: !u 0xc069145d
+  Scale: [0.5, 0.800000011920929, 0.800000011920929]
+  Translate: [-61.60906982421875, 101.03326416015625, 11.13351821899414]
+- Bakeable: true
+  Gyaml: Obj_Door_A_05
+  Hash: !ul 5010783274428624259
+  Name: RestrictedDoor_Common_20
+  Phive:
+    Placement: {ID: !ul 5010783274428624259}
+  Rotate: [0.0, 1.5707950592041016, -0.0]
+  SRTHash: !u 0x9ad175c5
+  Translate: [-61.96350860595703, 97.51385498046875, -5.471043586730957]
+- Gyaml: FldObj_AirWall_CharacterSight_GenerateNavMesh
+  Hash: !ul 15798633688299736803
+  Phive:
+    Placement: {ID: !ul 15798633688299736803}
+  Rotate: [0.0, 1.5707950592041016, -0.0]
+  SRTHash: !u 0xb5b3c251
+  Scale: [1.0, 1.0, 0.20000000298023224]
+  Translate: [-62.36351013183594, 97.64517974853516, -4.660722255706787]
+- Gyaml: FldObj_AirWall_ExcludeNpcAndAnimal
+  Hash: !ul 5703992546396158823
+  Phive:
+    Placement: {ID: !ul 5703992546396158823}
+  Rotate: [-3.141592502593994, -1.194529090753349e-06, 3.1415927410125732]
+  SRTHash: !u 0xdc99a7e9
+  Scale: [0.5, 0.800000011920929, 0.800000011920929]
+  Translate: [-63.02333068847656, 97.55313110351562, -4.801366329193115]
+- Gyaml: FldObj_AirWall_CameraSightAndCameraBody
+  Hash: !ul 12941820833674194155
+  Phive:
+    Placement: {ID: !ul 12941820833674194155}
+  Rotate: [-3.141592502593994, -1.194529090753349e-06, 3.1415927410125732]
+  SRTHash: !u 0x22fc9bd7
+  Translate: [-64.0754165649414, 97.55313110351562, -4.801365375518799]
+- Gyaml: FldObj_AirWall_Cucco_GenerateNavMesh
+  Hash: !ul 17290308634937397035
+  Phive:
+    Placement: {ID: !ul 17290308634937397035}
+  Rotate: [-3.141592502593994, -1.194529090753349e-06, 3.1415927410125732]
+  SRTHash: !u 0xdc99a7e9
+  Scale: [0.5, 0.800000011920929, 0.800000011920929]
+  Translate: [-63.02333068847656, 97.55313110351562, -4.801366329193115]
+- Bakeable: true
+  Gyaml: Obj_Door_A_05
+  Hash: !ul 10754046821613379093
+  Name: RestrictedDoor_Common_20
+  Phive:
+    Placement: {ID: !ul 10754046821613379093}
+  Rotate: [0.0, 1.5707950592041016, -0.0]
+  SRTHash: !u 0x5016f482
+  Translate: [-54.21976089477539, 100.55974578857422, -12.367481231689453]
+- Gyaml: FldObj_AirWall_CharacterSight_GenerateNavMesh
+  Hash: !ul 3783088728323111826
+  Phive:
+    Placement: {ID: !ul 3783088728323111826}
+  Rotate: [0.0, 1.5707950592041016, -0.0]
+  SRTHash: !u 0x3add0322
+  Scale: [1.0, 1.0, 0.20000000298023224]
+  Translate: [-54.6197624206543, 100.69107055664062, -11.557159423828125]
+- Gyaml: FldObj_AirWall_ExcludeNpcAndAnimal
+  Hash: !ul 4483779265228666705
+  Phive:
+    Placement: {ID: !ul 4483779265228666705}
+  Rotate: [-3.141592502593994, -1.194529090753349e-06, 3.1415927410125732]
+  SRTHash: !u 0x2d64d273
+  Scale: [0.5, 0.800000011920929, 0.800000011920929]
+  Translate: [-55.279579162597656, 100.5990219116211, -11.69780445098877]
+- Gyaml: FldObj_AirWall_CameraSightAndCameraBody
+  Hash: !ul 8847290652640002044
+  Phive:
+    Placement: {ID: !ul 8847290652640002044}
+  Rotate: [-3.141592502593994, -1.194529090753349e-06, 3.1415927410125732]
+  SRTHash: !u 0x3ec7f4ef
+  Translate: [-56.331668853759766, 100.5990219116211, -11.697802543640137]
+- Gyaml: FldObj_AirWall_Cucco_GenerateNavMesh
+  Hash: !ul 6887888228159554448
+  Phive:
+    Placement: {ID: !ul 6887888228159554448}
+  Rotate: [-3.141592502593994, -1.194529090753349e-06, 3.1415927410125732]
+  SRTHash: !u 0x2d64d273
+  Scale: [0.5, 0.800000011920929, 0.800000011920929]
+  Translate: [-55.279579162597656, 100.5990219116211, -11.69780445098877]
+- Gyaml: CmnTex_Map_CityPropsSet_Candle_Chandelier_A_01
+  Hash: !ul 17735120474307229920
+  Phive:
+    Placement: {ID: !ul 17735120474307229920}
+  SRTHash: !u 0x1b6c6ee4
+  Scale: [0.75, 0.75, 0.75]
+  Translate: [-55.533817291259766, 101.63972473144531, 27.61747932434082]
+FilePath: Work/Banc/Scene/Market/Market_Child.bcett.json

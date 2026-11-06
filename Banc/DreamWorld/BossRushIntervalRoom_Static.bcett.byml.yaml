@@ -1,0 +1,2156 @@
+Actors:
+- Dynamic: {Drop__DropActor: TBox_Rupee_Gold, IsEnableRepeatOpen: true}
+  Gyaml: Obj_TBox_A_01
+  Hash: !ul 7589985979641292928
+  Phive:
+    Placement: {ID: !ul 7589985979641292928}
+  SRTHash: !u 0x1db00253
+  Translate: [0.0, 0.2064117193222046, -6.451208591461182]
+- Dynamic: {ScrubBusiness_BalloonMessageInDream: 'EventFlowMsg/Enemy_Scrub_Business_Dream:Near_09',
+    ScrubBusiness_IsGenerateNPC: true, ScrubBusiness_ShopItemActorName0: Shop_DekuNutBundle_01,
+    TalkEventName: Enemy_Scrub_Business_Dream_Onetime}
+  Gyaml: Enemy_Scrub_Business
+  Hash: !ul 12348001881738527373
+  Phive:
+    Placement: {ID: !ul 12348001881738527373}
+  Rotate: [0.0, -0.5235986709594727, 0.0]
+  SRTHash: !u 0x55f27187
+  Translate: [5.853680610656738, 0.42657724022865295, -10.002613067626953]
+- Gyaml: Enemy_Scrub_Business_Leaf
+  Hash: !ul 11831190685037554094
+  Phive:
+    Placement: {ID: !ul 11831190685037554094}
+  Rotate: [0.0, -0.5235986709594727, 0.0]
+  SRTHash: !u 0xff44bc11
+  Translate: [5.853680610656738, -0.9734227657318115, -10.002613067626953]
+- Gyaml: Enemy_Scrub_Business_Leaf
+  Hash: !ul 17394792496485638098
+  Links:
+  - {Dst: !ul 12348001881738527373, Gyaml: Reference, Name: Reference, Src: !ul 17394792496485638098}
+  Phive:
+    Placement: {ID: !ul 17394792496485638098}
+  Rotate: [0.0, -0.5235986709594727, 0.0]
+  SRTHash: !u 0xa697288d
+  Translate: [5.853680610656738, 0.026577234268188477, -10.002613067626953]
+- Dynamic: {ScrubBusiness_BalloonMessageInDream: 'EventFlowMsg/Enemy_Scrub_Business_Dream:Near_03',
+    ScrubBusiness_IsGenerateNPC: true, ScrubBusiness_ShopItemActorName0: Obj_Heart_Container,
+    TalkEventName: Enemy_Scrub_Business_Dream_Onetime}
+  Gyaml: Enemy_Scrub_Business
+  Hash: !ul 11815162303205742822
+  Phive:
+    Placement: {ID: !ul 11815162303205742822}
+  Rotate: [0.0, -0.5235986709594727, 0.0]
+  SRTHash: !u 0x8c10050b
+  Translate: [5.701312065124512, 0.42657724022865295, -11.258035659790039]
+- Gyaml: Enemy_Scrub_Business_Leaf
+  Hash: !ul 6636650772312998083
+  Phive:
+    Placement: {ID: !ul 6636650772312998083}
+  Rotate: [0.0, -0.5235986709594727, 0.0]
+  SRTHash: !u 0xd028f4ef
+  Translate: [5.701312065124512, -0.9734227657318115, -11.258035659790039]
+- Gyaml: Enemy_Scrub_Business_Leaf
+  Hash: !ul 14614618685639029777
+  Links:
+  - {Dst: !ul 11815162303205742822, Gyaml: Reference, Name: Reference, Src: !ul 14614618685639029777}
+  Phive:
+    Placement: {ID: !ul 14614618685639029777}
+  Rotate: [0.0, -0.5235986709594727, 0.0]
+  SRTHash: !u 0x33def5a8
+  Translate: [5.701312065124512, 0.026577234268188477, -11.258035659790039]
+- Dynamic: {AttackedEventName: Enemy_Scrub_Business_DekuSeed_01_Fear, ScrubBusiness_BalloonMessageInDream: 'EventFlowMsg/Enemy_Scrub_Business_Dream:Near_00',
+    ScrubBusiness_IsGenerateNPC: true, ScrubBusiness_ShopItemActorName0: Item_Bottle_RedPotion,
+    ScrubBusiness_ShopItemActorName1: Item_Bottle_GreenPotion, ScrubBusiness_ShopItemActorName2: Shop_Heart_Bundle,
+    TalkEventName: Enemy_Scrub_Business_Dream}
+  Gyaml: Enemy_Scrub_Business
+  Hash: !ul 14618027811648608213
+  Phive:
+    Placement: {ID: !ul 14618027811648608213}
+  Rotate: [0.0, 0.5235989093780518, 0.0]
+  SRTHash: !u 0x0ee3859b
+  Translate: [-5.72126579284668, 0.42657724022865295, -11.255456924438477]
+- Gyaml: Enemy_Scrub_Business_Leaf
+  Hash: !ul 9923786537124407828
+  Phive:
+    Placement: {ID: !ul 9923786537124407828}
+  Rotate: [0.0, 0.5235989093780518, 0.0]
+  SRTHash: !u 0xb44fae3a
+  Translate: [-5.72126579284668, -1.0070446729660034, -11.255456924438477]
+- Gyaml: Enemy_Scrub_Business_Leaf
+  Hash: !ul 11312769825361895486
+  Links:
+  - {Dst: !ul 14618027811648608213, Gyaml: Reference, Name: Reference, Src: !ul 11312769825361895486}
+  Phive:
+    Placement: {ID: !ul 11312769825361895486}
+  Rotate: [0.0, 0.5235989093780518, 0.0]
+  SRTHash: !u 0xf4d1cedf
+  Translate: [-5.72126579284668, 0.026577234268188477, -11.255456924438477]
+- Gyaml: DropKeepAwayArea_TBox_A_01
+  Hash: !ul 1585731094126711754
+  Phive:
+    Placement: {ID: !ul 1585731094126711754}
+  SRTHash: !u 0x1db00253
+  Translate: [0.0, 0.2064117193222046, -6.451208591461182]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyMuseum_Interval_A_01
+  Hash: !ul 16890462235057812795
+  Links:
+  - {Dst: !ul 12348001881738527373, Gyaml: Reference, Name: Reference, Src: !ul 16890462235057812795}
+  - {Dst: !ul 11815162303205742822, Gyaml: Reference, Name: Reference, Src: !ul 16890462235057812795}
+  Phive:
+    Placement: {ID: !ul 16890462235057812795}
+  SRTHash: !u 0xc552a342
+- Dynamic: {Drop__DropActor: TBox_Rupee_Gold, IsEnableRepeatOpen: true}
+  Gyaml: Obj_TBox_A_01
+  Hash: !ul 7234638808238324101
+  Phive:
+    Placement: {ID: !ul 7234638808238324101}
+  SRTHash: !u 0x1db00253
+  Translate: [0.0, 0.2064117193222046, -6.451208591461182]
+- Dynamic: {ScrubBusiness_BalloonMessageInDream: 'EventFlowMsg/Enemy_Scrub_Business_Dream:Near_08',
+    ScrubBusiness_IsGenerateNPC: true, ScrubBusiness_ShopItemActorName0: Shop_BombBundle_01,
+    TalkEventName: Enemy_Scrub_Business_Dream_Onetime}
+  Gyaml: Enemy_Scrub_Business
+  Hash: !ul 10389660471903520136
+  Phive:
+    Placement: {ID: !ul 10389660471903520136}
+  Rotate: [0.0, -0.5235986709594727, 0.0]
+  SRTHash: !u 0xd95f9436
+  Translate: [5.699999809265137, 0.42657724022865295, -11.25]
+- Gyaml: Enemy_Scrub_Business_Leaf
+  Hash: !ul 8611487545320332779
+  Phive:
+    Placement: {ID: !ul 8611487545320332779}
+  Rotate: [0.0, -0.5235986709594727, 0.0]
+  SRTHash: !u 0x6df4135e
+  Translate: [5.699999809265137, -0.9734227657318115, -11.25]
+- Gyaml: Enemy_Scrub_Business_Leaf
+  Hash: !ul 2771337889903133416
+  Links:
+  - {Dst: !ul 10389660471903520136, Gyaml: Reference, Name: Reference, Src: !ul 2771337889903133416}
+  Phive:
+    Placement: {ID: !ul 2771337889903133416}
+  Rotate: [0.0, -0.5235986709594727, 0.0]
+  SRTHash: !u 0xf3a36607
+  Translate: [5.699999809265137, 0.026577234268188477, -11.25]
+- Dynamic: {ScrubBusiness_BalloonMessageInDream: 'EventFlowMsg/Enemy_Scrub_Business_Dream:Near_03',
+    ScrubBusiness_IsGenerateNPC: true, ScrubBusiness_ShopItemActorName0: Obj_Heart_Container,
+    TalkEventName: Enemy_Scrub_Business_Dream_Onetime}
+  Gyaml: Enemy_Scrub_Business
+  Hash: !ul 10960205823204645592
+  Phive:
+    Placement: {ID: !ul 10960205823204645592}
+  Rotate: [0.0, -0.5235986709594727, 0.0]
+  SRTHash: !u 0x8e82f424
+  Translate: [4.367474555969238, 0.42657724022865295, -11.667911529541016]
+- Gyaml: Enemy_Scrub_Business_Leaf
+  Hash: !ul 9171488340333101535
+  Phive:
+    Placement: {ID: !ul 9171488340333101535}
+  Rotate: [0.0, -0.5235986709594727, 0.0]
+  SRTHash: !u 0x997b5bfb
+  Translate: [4.367474555969238, -0.9734227657318115, -11.667911529541016]
+- Gyaml: Enemy_Scrub_Business_Leaf
+  Hash: !ul 3378882435079862073
+  Links:
+  - {Dst: !ul 10960205823204645592, Gyaml: Reference, Name: Reference, Src: !ul 3378882435079862073}
+  Phive:
+    Placement: {ID: !ul 3378882435079862073}
+  Rotate: [0.0, -0.5235986709594727, 0.0]
+  SRTHash: !u 0x58d09175
+  Translate: [4.367474555969238, 0.026577234268188477, -11.667911529541016]
+- Dynamic: {AttackedEventName: Enemy_Scrub_Business_DekuSeed_01_Fear, ScrubBusiness_BalloonMessageInDream: 'EventFlowMsg/Enemy_Scrub_Business_Dream:Near_00',
+    ScrubBusiness_IsGenerateNPC: true, ScrubBusiness_ShopItemActorName0: Item_Bottle_RedPotion,
+    ScrubBusiness_ShopItemActorName1: Item_Bottle_GreenPotion, ScrubBusiness_ShopItemActorName2: Shop_Heart_Bundle,
+    TalkEventName: Enemy_Scrub_Business_Dream}
+  Gyaml: Enemy_Scrub_Business
+  Hash: !ul 13225441039464943861
+  Phive:
+    Placement: {ID: !ul 13225441039464943861}
+  Rotate: [0.0, 0.5235989093780518, 0.0]
+  SRTHash: !u 0x0ee3859b
+  Translate: [-5.72126579284668, 0.42657724022865295, -11.255456924438477]
+- Gyaml: Enemy_Scrub_Business_Leaf
+  Hash: !ul 6109662415107897586
+  Phive:
+    Placement: {ID: !ul 6109662415107897586}
+  Rotate: [0.0, 0.5235989093780518, 0.0]
+  SRTHash: !u 0xb44fae3a
+  Translate: [-5.72126579284668, -1.0070446729660034, -11.255456924438477]
+- Gyaml: Enemy_Scrub_Business_Leaf
+  Hash: !ul 18441276947439724500
+  Links:
+  - {Dst: !ul 13225441039464943861, Gyaml: Reference, Name: Reference, Src: !ul 18441276947439724500}
+  Phive:
+    Placement: {ID: !ul 18441276947439724500}
+  Rotate: [0.0, 0.5235989093780518, 0.0]
+  SRTHash: !u 0xf4d1cedf
+  Translate: [-5.72126579284668, 0.026577234268188477, -11.255456924438477]
+- Gyaml: DropKeepAwayArea_TBox_A_01
+  Hash: !ul 13752093877233898487
+  Phive:
+    Placement: {ID: !ul 13752093877233898487}
+  SRTHash: !u 0x1db00253
+  Translate: [0.0, 0.2064117193222046, -6.451208591461182]
+- Dynamic: {Drop__DropActor: TBox_Rupee_Gold, IsEnableRepeatOpen: true}
+  Gyaml: Obj_TBox_A_01
+  Hash: !ul 15858708076894317041
+  Phive:
+    Placement: {ID: !ul 15858708076894317041}
+  SRTHash: !u 0x1db00253
+  Translate: [0.0, 0.2064117193222046, -6.451208591461182]
+- Dynamic: {ScrubBusiness_BalloonMessageInDream: 'EventFlowMsg/Enemy_Scrub_Business_Dream:Near_02',
+    ScrubBusiness_IsGenerateNPC: true, ScrubBusiness_ShopItemActorName0: Item_DinFire,
+    TalkEventName: Enemy_Scrub_Business_Dream_Onetime}
+  Gyaml: Enemy_Scrub_Business
+  Hash: !ul 6452979286927095228
+  Phive:
+    Placement: {ID: !ul 6452979286927095228}
+  Rotate: [0.0, -0.5235986709594727, 0.0]
+  SRTHash: !u 0x55f27187
+  Translate: [5.853680610656738, 0.42657724022865295, -10.002613067626953]
+- Gyaml: Enemy_Scrub_Business_Leaf
+  Hash: !ul 4049135373926862515
+  Phive:
+    Placement: {ID: !ul 4049135373926862515}
+  Rotate: [0.0, -0.5235986709594727, 0.0]
+  SRTHash: !u 0xff44bc11
+  Translate: [5.853680610656738, -0.9734227657318115, -10.002613067626953]
+- Gyaml: Enemy_Scrub_Business_Leaf
+  Hash: !ul 8235493189275128485
+  Links:
+  - {Dst: !ul 6452979286927095228, Gyaml: Reference, Name: Reference, Src: !ul 8235493189275128485}
+  Phive:
+    Placement: {ID: !ul 8235493189275128485}
+  Rotate: [0.0, -0.5235986709594727, 0.0]
+  SRTHash: !u 0xa697288d
+  Translate: [5.853680610656738, 0.026577234268188477, -10.002613067626953]
+- Dynamic: {ScrubBusiness_BalloonMessageInDream: 'EventFlowMsg/Enemy_Scrub_Business_Dream:Near_03',
+    ScrubBusiness_IsGenerateNPC: true, ScrubBusiness_ShopItemActorName0: Obj_Heart_Container,
+    TalkEventName: Enemy_Scrub_Business_Dream_Onetime}
+  Gyaml: Enemy_Scrub_Business
+  Hash: !ul 2365036819279686131
+  Phive:
+    Placement: {ID: !ul 2365036819279686131}
+  Rotate: [0.0, -0.5235986709594727, 0.0]
+  SRTHash: !u 0x8e82f424
+  Translate: [4.367474555969238, 0.42657724022865295, -11.667911529541016]
+- Gyaml: Enemy_Scrub_Business_Leaf
+  Hash: !ul 2415744806966088174
+  Phive:
+    Placement: {ID: !ul 2415744806966088174}
+  Rotate: [0.0, -0.5235986709594727, 0.0]
+  SRTHash: !u 0x997b5bfb
+  Translate: [4.367474555969238, -0.9734227657318115, -11.667911529541016]
+- Gyaml: Enemy_Scrub_Business_Leaf
+  Hash: !ul 8858981201188841421
+  Links:
+  - {Dst: !ul 2365036819279686131, Gyaml: Reference, Name: Reference, Src: !ul 8858981201188841421}
+  Phive:
+    Placement: {ID: !ul 8858981201188841421}
+  Rotate: [0.0, -0.5235986709594727, 0.0]
+  SRTHash: !u 0x58d09175
+  Translate: [4.367474555969238, 0.026577234268188477, -11.667911529541016]
+- Dynamic: {AttackedEventName: Enemy_Scrub_Business_DekuSeed_01_Fear, ScrubBusiness_BalloonMessageInDream: 'EventFlowMsg/Enemy_Scrub_Business_Dream:Near_00',
+    ScrubBusiness_IsGenerateNPC: true, ScrubBusiness_ShopItemActorName0: Item_Bottle_RedPotion,
+    ScrubBusiness_ShopItemActorName1: Item_Bottle_GreenPotion, ScrubBusiness_ShopItemActorName2: Shop_Heart_Bundle,
+    TalkEventName: Enemy_Scrub_Business_Dream}
+  Gyaml: Enemy_Scrub_Business
+  Hash: !ul 9063056136570470566
+  Phive:
+    Placement: {ID: !ul 9063056136570470566}
+  Rotate: [0.0, 0.5235989093780518, 0.0]
+  SRTHash: !u 0x0ee3859b
+  Translate: [-5.72126579284668, 0.42657724022865295, -11.255456924438477]
+- Gyaml: Enemy_Scrub_Business_Leaf
+  Hash: !ul 2029642893281143234
+  Phive:
+    Placement: {ID: !ul 2029642893281143234}
+  Rotate: [0.0, 0.5235989093780518, 0.0]
+  SRTHash: !u 0xb44fae3a
+  Translate: [-5.72126579284668, -1.0070446729660034, -11.255456924438477]
+- Gyaml: Enemy_Scrub_Business_Leaf
+  Hash: !ul 714793171056965536
+  Links:
+  - {Dst: !ul 9063056136570470566, Gyaml: Reference, Name: Reference, Src: !ul 714793171056965536}
+  Phive:
+    Placement: {ID: !ul 714793171056965536}
+  Rotate: [0.0, 0.5235989093780518, 0.0]
+  SRTHash: !u 0xf4d1cedf
+  Translate: [-5.72126579284668, 0.026577234268188477, -11.255456924438477]
+- Gyaml: DropKeepAwayArea_TBox_A_01
+  Hash: !ul 5829520800299162753
+  Phive:
+    Placement: {ID: !ul 5829520800299162753}
+  SRTHash: !u 0x1db00253
+  Translate: [0.0, 0.2064117193222046, -6.451208591461182]
+- Dynamic: {Drop__DropActor: TBox_Rupee_Gold, IsEnableRepeatOpen: true}
+  Gyaml: Obj_TBox_A_01
+  Hash: !ul 4529748032854378492
+  Phive:
+    Placement: {ID: !ul 4529748032854378492}
+  SRTHash: !u 0x1db00253
+  Translate: [0.0, 0.2064117193222046, -6.451208591461182]
+- Dynamic: {ScrubBusiness_BalloonMessageInDream: 'EventFlowMsg/Enemy_Scrub_Business_Dream:Near_14',
+    ScrubBusiness_IsGenerateNPC: true, ScrubBusiness_ShopItemActorName0: Weapon_Sword_Giant,
+    TalkEventName: Enemy_Scrub_Business_Dream_Onetime}
+  Gyaml: Enemy_Scrub_Business
+  Hash: !ul 8346509435886545225
+  Phive:
+    Placement: {ID: !ul 8346509435886545225}
+  Rotate: [0.0, -0.5235986709594727, 0.0]
+  SRTHash: !u 0x4fd1ebd3
+  Translate: [5.716576099395752, 0.42657724022865295, -11.230554580688477]
+- Gyaml: Enemy_Scrub_Business_Leaf
+  Hash: !ul 1349106469915685550
+  Phive:
+    Placement: {ID: !ul 1349106469915685550}
+  Rotate: [0.0, -0.5235986709594727, 0.0]
+  SRTHash: !u 0x57ab1a6f
+  Translate: [5.716576099395752, -0.9734227657318115, -11.230554580688477]
+- Gyaml: Enemy_Scrub_Business_Leaf
+  Hash: !ul 647935916374860458
+  Links:
+  - {Dst: !ul 8346509435886545225, Gyaml: Reference, Name: Reference, Src: !ul 647935916374860458}
+  Phive:
+    Placement: {ID: !ul 647935916374860458}
+  Rotate: [0.0, -0.5235986709594727, 0.0]
+  SRTHash: !u 0x35e0f1e7
+  Translate: [5.716517925262451, 0.026577234268188477, -11.230588912963867]
+- Dynamic: {ScrubBusiness_BalloonMessageInDream: 'EventFlowMsg/Enemy_Scrub_Business_Dream:Near_03',
+    ScrubBusiness_IsGenerateNPC: true, ScrubBusiness_ShopItemActorName0: Obj_Heart_Container,
+    TalkEventName: Enemy_Scrub_Business_Dream_Onetime}
+  Gyaml: Enemy_Scrub_Business
+  Hash: !ul 5335420137275360230
+  Phive:
+    Placement: {ID: !ul 5335420137275360230}
+  Rotate: [0.0, -0.5235986709594727, 0.0]
+  SRTHash: !u 0x55f27187
+  Translate: [5.853680610656738, 0.42657724022865295, -10.002613067626953]
+- Gyaml: Enemy_Scrub_Business_Leaf
+  Hash: !ul 841897315102648218
+  Phive:
+    Placement: {ID: !ul 841897315102648218}
+  Rotate: [0.0, -0.5235986709594727, 0.0]
+  SRTHash: !u 0xff44bc11
+  Translate: [5.853680610656738, -0.9734227657318115, -10.002613067626953]
+- Gyaml: Enemy_Scrub_Business_Leaf
+  Hash: !ul 1174005241599318270
+  Links:
+  - {Dst: !ul 5335420137275360230, Gyaml: Reference, Name: Reference, Src: !ul 1174005241599318270}
+  Phive:
+    Placement: {ID: !ul 1174005241599318270}
+  Rotate: [0.0, -0.5235986709594727, 0.0]
+  SRTHash: !u 0xa697288d
+  Translate: [5.853680610656738, 0.026577234268188477, -10.002613067626953]
+- Dynamic: {AttackedEventName: Enemy_Scrub_Business_DekuSeed_01_Fear, ScrubBusiness_BalloonMessageInDream: 'EventFlowMsg/Enemy_Scrub_Business_Dream:Near_00',
+    ScrubBusiness_IsGenerateNPC: true, ScrubBusiness_ShopItemActorName0: Item_Bottle_RedPotion,
+    ScrubBusiness_ShopItemActorName1: Item_Bottle_GreenPotion, ScrubBusiness_ShopItemActorName2: Shop_Heart_Bundle,
+    TalkEventName: Enemy_Scrub_Business_Dream}
+  Gyaml: Enemy_Scrub_Business
+  Hash: !ul 10713153038780806065
+  Phive:
+    Placement: {ID: !ul 10713153038780806065}
+  Rotate: [0.0, 0.5235989093780518, 0.0]
+  SRTHash: !u 0x0ee3859b
+  Translate: [-5.72126579284668, 0.42657724022865295, -11.255456924438477]
+- Gyaml: Enemy_Scrub_Business_Leaf
+  Hash: !ul 8444590707700336561
+  Phive:
+    Placement: {ID: !ul 8444590707700336561}
+  Rotate: [0.0, 0.5235989093780518, 0.0]
+  SRTHash: !u 0xb44fae3a
+  Translate: [-5.72126579284668, -1.0070446729660034, -11.255456924438477]
+- Gyaml: Enemy_Scrub_Business_Leaf
+  Hash: !ul 2522825604004955549
+  Links:
+  - {Dst: !ul 10713153038780806065, Gyaml: Reference, Name: Reference, Src: !ul 2522825604004955549}
+  Phive:
+    Placement: {ID: !ul 2522825604004955549}
+  Rotate: [0.0, 0.5235989093780518, 0.0]
+  SRTHash: !u 0xf4d1cedf
+  Translate: [-5.72126579284668, 0.026577234268188477, -11.255456924438477]
+- Gyaml: DropKeepAwayArea_TBox_A_01
+  Hash: !ul 5236717958381130372
+  Phive:
+    Placement: {ID: !ul 5236717958381130372}
+  SRTHash: !u 0x1db00253
+  Translate: [0.0, 0.2064117193222046, -6.451208591461182]
+- Dynamic: {Drop__DropActor: TBox_Rupee_Gold, IsEnableRepeatOpen: true}
+  Gyaml: Obj_TBox_A_01
+  Hash: !ul 566103236844767323
+  Phive:
+    Placement: {ID: !ul 566103236844767323}
+  SRTHash: !u 0x1db00253
+  Translate: [0.0, 0.2064117193222046, -6.451208591461182]
+- Dynamic: {ScrubBusiness_BalloonMessageInDream: 'EventFlowMsg/Enemy_Scrub_Business_Dream:Near_04',
+    ScrubBusiness_IsGenerateNPC: true, ScrubBusiness_ShopItemActorName0: Item_Arrow_Ice,
+    TalkEventName: Enemy_Scrub_Business_Dream_Onetime}
+  Gyaml: Enemy_Scrub_Business
+  Hash: !ul 8166106286463476423
+  Phive:
+    Placement: {ID: !ul 8166106286463476423}
+  Rotate: [0.0, -0.5235986709594727, 0.0]
+  SRTHash: !u 0x55f27187
+  Translate: [5.853680610656738, 0.42657724022865295, -10.002613067626953]
+- Gyaml: Enemy_Scrub_Business_Leaf
+  Hash: !ul 1299110288397488106
+  Phive:
+    Placement: {ID: !ul 1299110288397488106}
+  Rotate: [0.0, -0.5235986709594727, 0.0]
+  SRTHash: !u 0xff44bc11
+  Translate: [5.853680610656738, -0.9734227657318115, -10.002613067626953]
+- Gyaml: Enemy_Scrub_Business_Leaf
+  Hash: !ul 806306469963545866
+  Links:
+  - {Dst: !ul 8166106286463476423, Gyaml: Reference, Name: Reference, Src: !ul 806306469963545866}
+  Phive:
+    Placement: {ID: !ul 806306469963545866}
+  Rotate: [0.0, -0.5235986709594727, 0.0]
+  SRTHash: !u 0xa697288d
+  Translate: [5.853680610656738, 0.026577234268188477, -10.002613067626953]
+- Dynamic: {ScrubBusiness_BalloonMessageInDream: 'EventFlowMsg/Enemy_Scrub_Business_Dream:Near_03',
+    ScrubBusiness_IsGenerateNPC: true, ScrubBusiness_ShopItemActorName0: Obj_Heart_Container,
+    TalkEventName: Enemy_Scrub_Business_Dream_Onetime}
+  Gyaml: Enemy_Scrub_Business
+  Hash: !ul 8766291445951268906
+  Phive:
+    Placement: {ID: !ul 8766291445951268906}
+  Rotate: [0.0, -0.5235986709594727, 0.0]
+  SRTHash: !u 0x8e82f424
+  Translate: [4.367474555969238, 0.42657724022865295, -11.667911529541016]
+- Gyaml: Enemy_Scrub_Business_Leaf
+  Hash: !ul 1894901536010133770
+  Phive:
+    Placement: {ID: !ul 1894901536010133770}
+  Rotate: [0.0, -0.5235986709594727, 0.0]
+  SRTHash: !u 0x997b5bfb
+  Translate: [4.367474555969238, -0.9734227657318115, -11.667911529541016]
+- Gyaml: Enemy_Scrub_Business_Leaf
+  Hash: !ul 1202279058548905303
+  Links:
+  - {Dst: !ul 8766291445951268906, Gyaml: Reference, Name: Reference, Src: !ul 1202279058548905303}
+  Phive:
+    Placement: {ID: !ul 1202279058548905303}
+  Rotate: [0.0, -0.5235986709594727, 0.0]
+  SRTHash: !u 0x58d09175
+  Translate: [4.367474555969238, 0.026577234268188477, -11.667911529541016]
+- Dynamic: {AttackedEventName: Enemy_Scrub_Business_DekuSeed_01_Fear, ScrubBusiness_BalloonMessageInDream: 'EventFlowMsg/Enemy_Scrub_Business_Dream:Near_00',
+    ScrubBusiness_IsGenerateNPC: true, ScrubBusiness_ShopItemActorName0: Item_Bottle_RedPotion,
+    ScrubBusiness_ShopItemActorName1: Item_Bottle_GreenPotion, ScrubBusiness_ShopItemActorName2: Shop_Heart_Bundle,
+    TalkEventName: Enemy_Scrub_Business_Dream}
+  Gyaml: Enemy_Scrub_Business
+  Hash: !ul 10668849733012173071
+  Phive:
+    Placement: {ID: !ul 10668849733012173071}
+  Rotate: [0.0, 0.5235989093780518, 0.0]
+  SRTHash: !u 0x0ee3859b
+  Translate: [-5.72126579284668, 0.42657724022865295, -11.255456924438477]
+- Gyaml: Enemy_Scrub_Business_Leaf
+  Hash: !ul 8308133463996200237
+  Phive:
+    Placement: {ID: !ul 8308133463996200237}
+  Rotate: [0.0, 0.5235989093780518, 0.0]
+  SRTHash: !u 0xb44fae3a
+  Translate: [-5.72126579284668, -1.0070446729660034, -11.255456924438477]
+- Gyaml: Enemy_Scrub_Business_Leaf
+  Hash: !ul 2495319958623764728
+  Links:
+  - {Dst: !ul 10668849733012173071, Gyaml: Reference, Name: Reference, Src: !ul 2495319958623764728}
+  Phive:
+    Placement: {ID: !ul 2495319958623764728}
+  Rotate: [0.0, 0.5235989093780518, 0.0]
+  SRTHash: !u 0xf4d1cedf
+  Translate: [-5.72126579284668, 0.026577234268188477, -11.255456924438477]
+- Gyaml: DropKeepAwayArea_TBox_A_01
+  Hash: !ul 2062078281354214654
+  Phive:
+    Placement: {ID: !ul 2062078281354214654}
+  SRTHash: !u 0x1db00253
+  Translate: [0.0, 0.2064117193222046, -6.451208591461182]
+- Dynamic: {Drop__DropActor: TBox_Rupee_Gold, IsEnableRepeatOpen: true}
+  Gyaml: Obj_TBox_A_01
+  Hash: !ul 3522439980243161940
+  Phive:
+    Placement: {ID: !ul 3522439980243161940}
+  SRTHash: !u 0x1db00253
+  Translate: [0.0, 0.2064117193222046, -6.451208591461182]
+- Dynamic: {ScrubBusiness_BalloonMessageInDream: 'EventFlowMsg/Enemy_Scrub_Business_Dream:Near_10',
+    ScrubBusiness_IsGenerateNPC: true, ScrubBusiness_ShopItemActorName0: Item_Longshot,
+    TalkEventName: Enemy_Scrub_Business_Dream_Onetime}
+  Gyaml: Enemy_Scrub_Business
+  Hash: !ul 4880259336453891282
+  Phive:
+    Placement: {ID: !ul 4880259336453891282}
+  Rotate: [0.0, -0.5235986709594727, 0.0]
+  SRTHash: !u 0x23e65536
+  Translate: [5.713479518890381, 0.42657724022865295, -11.245834350585938]
+- Gyaml: Enemy_Scrub_Business_Leaf
+  Hash: !ul 920457332436043542
+  Phive:
+    Placement: {ID: !ul 920457332436043542}
+  Rotate: [0.0, -0.5235986709594727, 0.0]
+  SRTHash: !u 0x517bbfac
+  Translate: [5.713479518890381, -0.9734227657318115, -11.245834350585938]
+- Gyaml: Enemy_Scrub_Business_Leaf
+  Hash: !ul 1939237014558058534
+  Links:
+  - {Dst: !ul 4880259336453891282, Gyaml: Reference, Name: Reference, Src: !ul 1939237014558058534}
+  Phive:
+    Placement: {ID: !ul 1939237014558058534}
+  Rotate: [0.0, -0.5235986709594727, 0.0]
+  SRTHash: !u 0x73c5b724
+  Translate: [5.713597297668457, 0.026577234268188477, -11.245766639709473]
+- Dynamic: {ScrubBusiness_BalloonMessageInDream: 'EventFlowMsg/Enemy_Scrub_Business_Dream:Near_03',
+    ScrubBusiness_IsGenerateNPC: true, ScrubBusiness_ShopItemActorName0: Obj_Heart_Container,
+    TalkEventName: Enemy_Scrub_Business_Dream_Onetime}
+  Gyaml: Enemy_Scrub_Business
+  Hash: !ul 5487387410159587118
+  Phive:
+    Placement: {ID: !ul 5487387410159587118}
+  Rotate: [0.0, -0.5235986709594727, 0.0]
+  SRTHash: !u 0x8e82f424
+  Translate: [4.367474555969238, 0.42657724022865295, -11.667911529541016]
+- Gyaml: Enemy_Scrub_Business_Leaf
+  Hash: !ul 3727598801386756621
+  Phive:
+    Placement: {ID: !ul 3727598801386756621}
+  Rotate: [0.0, -0.5235986709594727, 0.0]
+  SRTHash: !u 0x997b5bfb
+  Translate: [4.367474555969238, -0.9734227657318115, -11.667911529541016]
+- Gyaml: Enemy_Scrub_Business_Leaf
+  Hash: !ul 7088760330487689794
+  Links:
+  - {Dst: !ul 5487387410159587118, Gyaml: Reference, Name: Reference, Src: !ul 7088760330487689794}
+  Phive:
+    Placement: {ID: !ul 7088760330487689794}
+  Rotate: [0.0, -0.5235986709594727, 0.0]
+  SRTHash: !u 0x58d09175
+  Translate: [4.367474555969238, 0.026577234268188477, -11.667911529541016]
+- Dynamic: {AttackedEventName: Enemy_Scrub_Business_DekuSeed_01_Fear, ScrubBusiness_BalloonMessageInDream: 'EventFlowMsg/Enemy_Scrub_Business_Dream:Near_00',
+    ScrubBusiness_IsGenerateNPC: true, ScrubBusiness_ShopItemActorName0: Item_Bottle_RedPotion,
+    ScrubBusiness_ShopItemActorName1: Item_Bottle_GreenPotion, ScrubBusiness_ShopItemActorName2: Shop_Heart_Bundle,
+    TalkEventName: Enemy_Scrub_Business_Dream}
+  Gyaml: Enemy_Scrub_Business
+  Hash: !ul 7111563862361837355
+  Phive:
+    Placement: {ID: !ul 7111563862361837355}
+  Rotate: [0.0, 0.5235989093780518, 0.0]
+  SRTHash: !u 0x0ee3859b
+  Translate: [-5.72126579284668, 0.42657724022865295, -11.255456924438477]
+- Gyaml: Enemy_Scrub_Business_Leaf
+  Hash: !ul 6998144068656812232
+  Phive:
+    Placement: {ID: !ul 6998144068656812232}
+  Rotate: [0.0, 0.5235989093780518, 0.0]
+  SRTHash: !u 0xb44fae3a
+  Translate: [-5.72126579284668, -1.0070446729660034, -11.255456924438477]
+- Gyaml: Enemy_Scrub_Business_Leaf
+  Hash: !ul 799473170453728743
+  Links:
+  - {Dst: !ul 7111563862361837355, Gyaml: Reference, Name: Reference, Src: !ul 799473170453728743}
+  Phive:
+    Placement: {ID: !ul 799473170453728743}
+  Rotate: [0.0, 0.5235989093780518, 0.0]
+  SRTHash: !u 0xf4d1cedf
+  Translate: [-5.72126579284668, 0.026577234268188477, -11.255456924438477]
+- Gyaml: DropKeepAwayArea_TBox_A_01
+  Hash: !ul 9718484990726860469
+  Phive:
+    Placement: {ID: !ul 9718484990726860469}
+  SRTHash: !u 0x1db00253
+  Translate: [0.0, 0.2064117193222046, -6.451208591461182]
+- Dynamic: {Drop__DropActor: TBox_Rupee_Gold, IsEnableRepeatOpen: true}
+  Gyaml: Obj_TBox_A_01
+  Hash: !ul 7346745174625046398
+  Phive:
+    Placement: {ID: !ul 7346745174625046398}
+  SRTHash: !u 0x1db00253
+  Translate: [0.0, 0.2064117193222046, -6.451208591461182]
+- Dynamic: {ScrubBusiness_BalloonMessageInDream: 'EventFlowMsg/Enemy_Scrub_Business_Dream:Near_12',
+    ScrubBusiness_IsGenerateNPC: true, ScrubBusiness_ShopItemActorName0: Armor_Adult_HeavyBoot,
+    ScrubBusiness_ShopItemActorName1: Armor_Adult_HoverBoot, TalkEventName: Enemy_Scrub_Business_Dream_Onetime}
+  Gyaml: Enemy_Scrub_Business
+  Hash: !ul 10557494758378864579
+  Phive:
+    Placement: {ID: !ul 10557494758378864579}
+  Rotate: [0.0, -0.5235986709594727, 0.0]
+  SRTHash: !u 0x55f27187
+  Translate: [5.853680610656738, 0.42657724022865295, -10.002613067626953]
+- Gyaml: Enemy_Scrub_Business_Leaf
+  Hash: !ul 8201291275328629548
+  Phive:
+    Placement: {ID: !ul 8201291275328629548}
+  Rotate: [0.0, -0.5235986709594727, 0.0]
+  SRTHash: !u 0xff44bc11
+  Translate: [5.853680610656738, -0.9734227657318115, -10.002613067626953]
+- Gyaml: Enemy_Scrub_Business_Leaf
+  Hash: !ul 3298212020669813260
+  Links:
+  - {Dst: !ul 10557494758378864579, Gyaml: Reference, Name: Reference, Src: !ul 3298212020669813260}
+  Phive:
+    Placement: {ID: !ul 3298212020669813260}
+  Rotate: [0.0, -0.5235986709594727, 0.0]
+  SRTHash: !u 0xa697288d
+  Translate: [5.853680610656738, 0.026577234268188477, -10.002613067626953]
+- Dynamic: {ScrubBusiness_BalloonMessageInDream: 'EventFlowMsg/Enemy_Scrub_Business_Dream:Near_03',
+    ScrubBusiness_IsGenerateNPC: true, ScrubBusiness_ShopItemActorName0: Obj_Heart_Container,
+    TalkEventName: Enemy_Scrub_Business_Dream_Onetime}
+  Gyaml: Enemy_Scrub_Business
+  Hash: !ul 11192593209286237028
+  Phive:
+    Placement: {ID: !ul 11192593209286237028}
+  Rotate: [0.0, -0.5235986709594727, 0.0]
+  SRTHash: !u 0x8e82f424
+  Translate: [4.367474555969238, 0.42657724022865295, -11.667911529541016]
+- Gyaml: Enemy_Scrub_Business_Leaf
+  Hash: !ul 8699549070219661317
+  Phive:
+    Placement: {ID: !ul 8699549070219661317}
+  Rotate: [0.0, -0.5235986709594727, 0.0]
+  SRTHash: !u 0x997b5bfb
+  Translate: [4.367474555969238, -0.9734227657318115, -11.667911529541016]
+- Gyaml: Enemy_Scrub_Business_Leaf
+  Hash: !ul 3854688847111568763
+  Links:
+  - {Dst: !ul 11192593209286237028, Gyaml: Reference, Name: Reference, Src: !ul 3854688847111568763}
+  Phive:
+    Placement: {ID: !ul 3854688847111568763}
+  Rotate: [0.0, -0.5235986709594727, 0.0]
+  SRTHash: !u 0x58d09175
+  Translate: [4.367474555969238, 0.026577234268188477, -11.667911529541016]
+- Dynamic: {AttackedEventName: Enemy_Scrub_Business_DekuSeed_01_Fear, ScrubBusiness_BalloonMessageInDream: 'EventFlowMsg/Enemy_Scrub_Business_Dream:Near_00',
+    ScrubBusiness_IsGenerateNPC: true, ScrubBusiness_ShopItemActorName0: Item_Bottle_RedPotion,
+    ScrubBusiness_ShopItemActorName1: Item_Bottle_GreenPotion, ScrubBusiness_ShopItemActorName2: Shop_Heart_Bundle,
+    TalkEventName: Enemy_Scrub_Business_Dream}
+  Gyaml: Enemy_Scrub_Business
+  Hash: !ul 13347762629618360331
+  Phive:
+    Placement: {ID: !ul 13347762629618360331}
+  Rotate: [0.0, 0.5235989093780518, 0.0]
+  SRTHash: !u 0x0ee3859b
+  Translate: [-5.72126579284668, 0.42657724022865295, -11.255456924438477]
+- Gyaml: Enemy_Scrub_Business_Leaf
+  Hash: !ul 6780532295040437798
+  Phive:
+    Placement: {ID: !ul 6780532295040437798}
+  Rotate: [0.0, 0.5235989093780518, 0.0]
+  SRTHash: !u 0xb44fae3a
+  Translate: [-5.72126579284668, -1.0070446729660034, -11.255456924438477]
+- Gyaml: Enemy_Scrub_Business_Leaf
+  Hash: !ul 13861766751611875615
+  Links:
+  - {Dst: !ul 13347762629618360331, Gyaml: Reference, Name: Reference, Src: !ul 13861766751611875615}
+  Phive:
+    Placement: {ID: !ul 13861766751611875615}
+  Rotate: [0.0, 0.5235989093780518, 0.0]
+  SRTHash: !u 0xf4d1cedf
+  Translate: [-5.72126579284668, 0.026577234268188477, -11.255456924438477]
+- Gyaml: DropKeepAwayArea_TBox_A_01
+  Hash: !ul 4804362737112297173
+  Phive:
+    Placement: {ID: !ul 4804362737112297173}
+  SRTHash: !u 0x1db00253
+  Translate: [0.0, 0.2064117193222046, -6.451208591461182]
+- Dynamic: {Drop__DropActor: TBox_Rupee_Gold, IsEnableRepeatOpen: true}
+  Gyaml: Obj_TBox_A_01
+  Hash: !ul 7458365564915336038
+  Phive:
+    Placement: {ID: !ul 7458365564915336038}
+  SRTHash: !u 0x1db00253
+  Translate: [0.0, 0.2064117193222046, -6.451208591461182]
+- Dynamic: {ScrubBusiness_BalloonMessageInDream: 'EventFlowMsg/Enemy_Scrub_Business_Dream:Near_06',
+    ScrubBusiness_IsGenerateNPC: true, ScrubBusiness_ShopItemActorName0: Item_NayruLove,
+    TalkEventName: Enemy_Scrub_Business_Dream_Onetime}
+  Gyaml: Enemy_Scrub_Business
+  Hash: !ul 15066390631441652636
+  Phive:
+    Placement: {ID: !ul 15066390631441652636}
+  Rotate: [0.0, -0.5235986709594727, 0.0]
+  SRTHash: !u 0xced4b82a
+  Translate: [5.712014675140381, 0.42657724022865295, -11.242202758789062]
+- Gyaml: Enemy_Scrub_Business_Leaf
+  Hash: !ul 12727882619733724869
+  Phive:
+    Placement: {ID: !ul 12727882619733724869}
+  Rotate: [0.0, -0.5235986709594727, 0.0]
+  SRTHash: !u 0x403f0ae5
+  Translate: [5.712014675140381, -0.9734227657318115, -11.242202758789062]
+- Gyaml: Enemy_Scrub_Business_Leaf
+  Hash: !ul 18120346814260264503
+  Links:
+  - {Dst: !ul 15066390631441652636, Gyaml: Reference, Name: Reference, Src: !ul 18120346814260264503}
+  Phive:
+    Placement: {ID: !ul 18120346814260264503}
+  Rotate: [0.0, -0.5235986709594727, 0.0]
+  SRTHash: !u 0x4e8b6ec5
+  Translate: [5.712085723876953, 0.026577234268188477, -11.24216079711914]
+- Dynamic: {ScrubBusiness_BalloonMessageInDream: 'EventFlowMsg/Enemy_Scrub_Business_Dream:Near_03',
+    ScrubBusiness_IsGenerateNPC: true, ScrubBusiness_ShopItemActorName0: Obj_Heart_Container,
+    TalkEventName: Enemy_Scrub_Business_Dream_Onetime}
+  Gyaml: Enemy_Scrub_Business
+  Hash: !ul 12232809552265217868
+  Phive:
+    Placement: {ID: !ul 12232809552265217868}
+  Rotate: [0.0, -0.5235986709594727, 0.0]
+  SRTHash: !u 0x8e82f424
+  Translate: [4.367474555969238, 0.42657724022865295, -11.667911529541016]
+- Gyaml: Enemy_Scrub_Business_Leaf
+  Hash: !ul 12119044254346830895
+  Phive:
+    Placement: {ID: !ul 12119044254346830895}
+  Rotate: [0.0, -0.5235986709594727, 0.0]
+  SRTHash: !u 0x997b5bfb
+  Translate: [4.367474555969238, -0.9734227657318115, -11.667911529541016]
+- Gyaml: Enemy_Scrub_Business_Leaf
+  Hash: !ul 17438343949261592844
+  Links:
+  - {Dst: !ul 12232809552265217868, Gyaml: Reference, Name: Reference, Src: !ul 17438343949261592844}
+  Phive:
+    Placement: {ID: !ul 17438343949261592844}
+  Rotate: [0.0, -0.5235986709594727, 0.0]
+  SRTHash: !u 0x58d09175
+  Translate: [4.367474555969238, 0.026577234268188477, -11.667911529541016]
+- Dynamic: {AttackedEventName: Enemy_Scrub_Business_DekuSeed_01_Fear, ScrubBusiness_BalloonMessageInDream: 'EventFlowMsg/Enemy_Scrub_Business_Dream:Near_00',
+    ScrubBusiness_IsGenerateNPC: true, ScrubBusiness_ShopItemActorName0: Item_Bottle_RedPotion,
+    ScrubBusiness_ShopItemActorName1: Item_Bottle_GreenPotion, ScrubBusiness_ShopItemActorName2: Shop_Heart_Bundle,
+    TalkEventName: Enemy_Scrub_Business_Dream}
+  Gyaml: Enemy_Scrub_Business
+  Hash: !ul 16920430673386189865
+  Phive:
+    Placement: {ID: !ul 16920430673386189865}
+  Rotate: [0.0, 0.5235989093780518, 0.0]
+  SRTHash: !u 0x0ee3859b
+  Translate: [-5.72126579284668, 0.42657724022865295, -11.255456924438477]
+- Gyaml: Enemy_Scrub_Business_Leaf
+  Hash: !ul 12368502380890655241
+  Phive:
+    Placement: {ID: !ul 12368502380890655241}
+  Rotate: [0.0, 0.5235989093780518, 0.0]
+  SRTHash: !u 0xb44fae3a
+  Translate: [-5.72126579284668, -1.0070446729660034, -11.255456924438477]
+- Gyaml: Enemy_Scrub_Business_Leaf
+  Hash: !ul 9280634782853514729
+  Links:
+  - {Dst: !ul 16920430673386189865, Gyaml: Reference, Name: Reference, Src: !ul 9280634782853514729}
+  Phive:
+    Placement: {ID: !ul 9280634782853514729}
+  Rotate: [0.0, 0.5235989093780518, 0.0]
+  SRTHash: !u 0xf4d1cedf
+  Translate: [-5.72126579284668, 0.026577234268188477, -11.255456924438477]
+- Gyaml: DropKeepAwayArea_TBox_A_01
+  Hash: !ul 14760867260354099184
+  Phive:
+    Placement: {ID: !ul 14760867260354099184}
+  SRTHash: !u 0x1db00253
+  Translate: [0.0, 0.2064117193222046, -6.451208591461182]
+- Dynamic: {Drop__DropActor: TBox_Rupee_Gold, IsEnableRepeatOpen: true}
+  Gyaml: Obj_TBox_A_01
+  Hash: !ul 2854211238375368215
+  Phive:
+    Placement: {ID: !ul 2854211238375368215}
+  SRTHash: !u 0x1db00253
+  Translate: [0.0, 0.2064117193222046, -6.451208591461182]
+- Dynamic: {ScrubBusiness_BalloonMessageInDream: 'EventFlowMsg/Enemy_Scrub_Business_Dream:Near_07',
+    ScrubBusiness_IsGenerateNPC: true, ScrubBusiness_ShopItemActorName0: Weapon_Sword_Biggoron,
+    TalkEventName: Enemy_Scrub_Business_Dream_Onetime}
+  Gyaml: Enemy_Scrub_Business
+  Hash: !ul 5842539133075689752
+  Phive:
+    Placement: {ID: !ul 5842539133075689752}
+  Rotate: [0.0, -0.5235986709594727, 0.0]
+  SRTHash: !u 0x55f27187
+  Translate: [5.853680610656738, 0.42657724022865295, -10.002613067626953]
+- Gyaml: Enemy_Scrub_Business_Leaf
+  Hash: !ul 3476856502693317145
+  Phive:
+    Placement: {ID: !ul 3476856502693317145}
+  Rotate: [0.0, -0.5235986709594727, 0.0]
+  SRTHash: !u 0xff44bc11
+  Translate: [5.853680610656738, -0.9734227657318115, -10.002613067626953]
+- Gyaml: Enemy_Scrub_Business_Leaf
+  Hash: !ul 7726868997538364231
+  Links:
+  - {Dst: !ul 5842539133075689752, Gyaml: Reference, Name: Reference, Src: !ul 7726868997538364231}
+  Phive:
+    Placement: {ID: !ul 7726868997538364231}
+  Rotate: [0.0, -0.5235986709594727, 0.0]
+  SRTHash: !u 0xa697288d
+  Translate: [5.853680610656738, 0.026577234268188477, -10.002613067626953]
+- Dynamic: {ScrubBusiness_BalloonMessageInDream: 'EventFlowMsg/Enemy_Scrub_Business_Dream:Near_03',
+    ScrubBusiness_IsGenerateNPC: true, ScrubBusiness_ShopItemActorName0: Obj_Heart_Container,
+    TalkEventName: Enemy_Scrub_Business_Dream_Onetime}
+  Gyaml: Enemy_Scrub_Business
+  Hash: !ul 6459820369809156649
+  Phive:
+    Placement: {ID: !ul 6459820369809156649}
+  Rotate: [0.0, -0.5235986709594727, 0.0]
+  SRTHash: !u 0x8e82f424
+  Translate: [4.367474555969238, 0.42657724022865295, -11.667911529541016]
+- Gyaml: Enemy_Scrub_Business_Leaf
+  Hash: !ul 4037813362307889102
+  Phive:
+    Placement: {ID: !ul 4037813362307889102}
+  Rotate: [0.0, -0.5235986709594727, 0.0]
+  SRTHash: !u 0x997b5bfb
+  Translate: [4.367474555969238, -0.9734227657318115, -11.667911529541016]
+- Gyaml: Enemy_Scrub_Business_Leaf
+  Hash: !ul 8299742095476007146
+  Links:
+  - {Dst: !ul 6459820369809156649, Gyaml: Reference, Name: Reference, Src: !ul 8299742095476007146}
+  Phive:
+    Placement: {ID: !ul 8299742095476007146}
+  Rotate: [0.0, -0.5235986709594727, 0.0]
+  SRTHash: !u 0x58d09175
+  Translate: [4.367474555969238, 0.026577234268188477, -11.667911529541016]
+- Dynamic: {AttackedEventName: Enemy_Scrub_Business_DekuSeed_01_Fear, ScrubBusiness_BalloonMessageInDream: 'EventFlowMsg/Enemy_Scrub_Business_Dream:Near_00',
+    ScrubBusiness_IsGenerateNPC: true, ScrubBusiness_ShopItemActorName0: Item_Bottle_RedPotion,
+    ScrubBusiness_ShopItemActorName1: Item_Bottle_GreenPotion, ScrubBusiness_ShopItemActorName2: Shop_Heart_Bundle,
+    TalkEventName: Enemy_Scrub_Business_Dream}
+  Gyaml: Enemy_Scrub_Business
+  Hash: !ul 8813359509638530114
+  Phive:
+    Placement: {ID: !ul 8813359509638530114}
+  Rotate: [0.0, 0.5235989093780518, 0.0]
+  SRTHash: !u 0x0ee3859b
+  Translate: [-5.72126579284668, 0.42657724022865295, -11.255456924438477]
+- Gyaml: Enemy_Scrub_Business_Leaf
+  Hash: !ul 1984761918761887649
+  Phive:
+    Placement: {ID: !ul 1984761918761887649}
+  Rotate: [0.0, 0.5235989093780518, 0.0]
+  SRTHash: !u 0xb44fae3a
+  Translate: [-5.72126579284668, -1.0070446729660034, -11.255456924438477]
+- Gyaml: Enemy_Scrub_Business_Leaf
+  Hash: !ul 47907220166563397
+  Links:
+  - {Dst: !ul 8813359509638530114, Gyaml: Reference, Name: Reference, Src: !ul 47907220166563397}
+  Phive:
+    Placement: {ID: !ul 47907220166563397}
+  Rotate: [0.0, 0.5235989093780518, 0.0]
+  SRTHash: !u 0xf4d1cedf
+  Translate: [-5.72126579284668, 0.026577234268188477, -11.255456924438477]
+- Gyaml: DropKeepAwayArea_TBox_A_01
+  Hash: !ul 7493158828528370073
+  Phive:
+    Placement: {ID: !ul 7493158828528370073}
+  SRTHash: !u 0x1db00253
+  Translate: [0.0, 0.2064117193222046, -6.451208591461182]
+- Gyaml: Enemy_DungeonBoss_Gohma_Dictionary
+  Hash: !ul 8937216721625292255
+  Phive:
+    Placement: {ID: !ul 8937216721625292255}
+  SRTHash: !u 0x271b155a
+  Translate: [0.0, 1.9003019332885742, -23.676774978637695]
+- Gyaml: Enemy_DungeonBoss_Barinade_Dictionary
+  Hash: !ul 14525285585422918954
+  Phive:
+    Placement: {ID: !ul 14525285585422918954}
+  Rotate: [2.436528347971034e-07, -0.17720994353294373, 0.0]
+  SRTHash: !u 0x524c622f
+  Translate: [0.03725939616560936, 4.260469436645508, -24.483707427978516]
+- Gyaml: Enemy_PhantomGanonHorse_Dictionary
+  Hash: !ul 11544433408017924171
+  Phive:
+    Placement: {ID: !ul 11544433408017924171}
+  Rotate: [-1.5099578831723193e-07, -0.5235986709594727, 1.5099578831723193e-07]
+  SRTHash: !u 0x7a0aab28
+  Translate: [-0.27528876066207886, 1.9048559665679932, -24.913209915161133]
+- Gyaml: Enemy_DungeonBoss_BongoBongo_RightHand_Dictionary
+  Hash: !ul 15388037838554474192
+  Phive:
+    Placement: {ID: !ul 15388037838554474192}
+  Rotate: [1.2116969401176902e-06, -1.1405195436964277e-06, 0.06981278955936432]
+  SRTHash: !u 0xb4ac85f7
+  Translate: [-7.0948309898376465, 2.0793209075927734, -23.390474319458008]
+- Gyaml: Enemy_DungeonBoss_BongoBongo_LeftHand_Dictionary
+  Hash: !ul 2586492480413777306
+  Phive:
+    Placement: {ID: !ul 2586492480413777306}
+  Rotate: [-0.29670581221580505, -0.0532335601747036, -0.20943978428840637]
+  SRTHash: !u 0xf3d43417
+  Translate: [6.352180004119873, 1.3793201446533203, -21.578542709350586]
+- Gyaml: Enemy_DungeonBoss_BongoBongo_Dictionary
+  Hash: !ul 9532367146766754311
+  Phive:
+    Placement: {ID: !ul 9532367146766754311}
+  Rotate: [-0.0039601754397153854, -1.2381477176859335e-07, 0.0]
+  SRTHash: !u 0x2c869c50
+  Translate: [-0.01489959005266428, 3.0271592140197754, -27.840932846069336]
+- Gyaml: Enemy_DungeonBoss_Morpha_Dictionary
+  Hash: !ul 15856442911347786362
+  Phive:
+    Placement: {ID: !ul 15856442911347786362}
+  SRTHash: !u 0x40fa4bdf
+  Translate: [0.008737574331462383, 1.9767359495162964, -24.985456466674805]
+- Gyaml: Enemy_DungeonBoss_Morpha_Tentacle_Dictionary
+  Hash: !ul 14039311624461008705
+  Phive:
+    Placement: {ID: !ul 14039311624461008705}
+  SRTHash: !u 0xecef6e76
+  Translate: [7.844468200346455e-05, 1.9767359495162964, -25.00434684753418]
+- Gyaml: Enemy_DungeonBoss_Ganondorf_Dictionary
+  Hash: !ul 18398737672658144951
+  Phive:
+    Placement: {ID: !ul 18398737672658144951}
+  SRTHash: !u 0x851916f4
+  Translate: [0.0, 2.551499605178833, -23.300949096679688]
+- Gyaml: Enemy_DungeonBoss_PhantomGanon_Dictionary
+  Hash: !ul 13660893828419832198
+  Phive:
+    Placement: {ID: !ul 13660893828419832198}
+  Rotate: [-0.3490659296512604, -0.6998769044876099, -1.5099578831723193e-07]
+  SRTHash: !u 0xb5a7df64
+  Translate: [0.3280515670776367, 4.664804935455322, -25.62697410583496]
+- Gyaml: Enemy_DungeonBoss_Dodongo_Dictionary
+  Hash: !ul 10483048461584193372
+  Phive:
+    Placement: {ID: !ul 10483048461584193372}
+  SRTHash: !u 0xfd26f383
+  Translate: [0.0, 1.9005193710327148, -24.189502716064453]
+- Gyaml: Enemy_DungeonBoss_Volvagia_Dictionary
+  Hash: !ul 12679611193182783006
+  Phive:
+    Placement: {ID: !ul 12679611193182783006}
+  Rotate: [0.005708992946892977, -0.17453305423259735, 0.0]
+  SRTHash: !u 0x590ac553
+  Translate: [0.4099124073982239, 2.798154830932617, -27.270164489746094]
+- Gyaml: Enemy_DungeonBoss_Twinrova_Dictionary
+  Hash: !ul 13549232334162953604
+  Phive:
+    Placement: {ID: !ul 13549232334162953604}
+  Rotate: [0.1902407854795456, 0.062656931579113, 0.1919861137866974]
+  SRTHash: !u 0x7d50e6cb
+  Translate: [1.338012933731079, 2.2668166160583496, -30.204538345336914]
+- Gyaml: Land_Dream_BossPedestal_A_Interval_02
+  Hash: !ul 1766356444594594063
+  Phive:
+    Placement: {ID: !ul 1766356444594594063}
+  SRTHash: !u 0xdaa74ed4
+  Translate: [0.0, 1.0, -25.0]
+- Gyaml: NoEscapeRangeAreaBox
+  Hash: !ul 10540603873892573917
+  Name: NoEscapeArea_SubEvent_AllBossBattle
+  Phive:
+    Placement: {ID: !ul 10540603873892573917}
+  SRTHash: !u 0x7529dced
+  Scale: [48.791961669921875, 55.22102737426758, 75.30048370361328]
+  Translate: [0.0, 20.728578567504883, -13.960952758789062]
+- Dynamic: {IsRoomArea: true}
+  Gyaml: DungeonRoomArea
+  Hash: !ul 658532176552242472
+  Phive:
+    Placement: {ID: !ul 658532176552242472}
+  SRTHash: !u 0x39862960
+  Scale: [20.755237579345703, 12.668367385864258, 32.78556823730469]
+  Translate: [-1.2289466857910156, -1.3367347717285156, -12.175437927246094]
+- Gyaml: Area
+  Hash: !ul 4674392672323926350
+  Phive:
+    Placement: {ID: !ul 4674392672323926350}
+  SRTHash: !u 0xceb0d38b
+  Scale: [37.254119873046875, 15.478525161743164, 35.82514572143555]
+  Translate: [0.016411423683166504, 0.026576995849609375, -13.928507804870605]
+- Dynamic: {AreaHintEventName: NaviHint_Rematch}
+  Gyaml: NaviAreaHintEventActor
+  Hash: !ul 5024237952884877076
+  Phive:
+    Placement: {ID: !ul 5024237952884877076}
+  SRTHash: !u 0x0e17490c
+  Translate: [19.049617767333984, 0.026580810546875, -6.5236968994140625]
+- Gyaml: Area
+  Hash: !ul 13980149711183394657
+  Phive:
+    Placement: {ID: !ul 13980149711183394657}
+  SRTHash: !u 0xceb0d38b
+  Scale: [37.254119873046875, 15.478525161743164, 35.82514572143555]
+  Translate: [0.016411423683166504, 0.026576995849609375, -13.928507804870605]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_03
+  Hash: !ul 13909917191732498932
+  Links:
+  - {Dst: !ul 8937216721625292255, Gyaml: Reference, Name: Reference, Src: !ul 13909917191732498932}
+  Phive:
+    Placement: {ID: !ul 13909917191732498932}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x1fa885e8
+  Translate: [0.9025933146476746, 1.9060090780258179, -21.85513687133789]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_03
+  Hash: !ul 14552048162783827798
+  Links:
+  - {Dst: !ul 10483048461584193372, Gyaml: Reference, Name: Reference, Src: !ul 14552048162783827798}
+  Phive:
+    Placement: {ID: !ul 14552048162783827798}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x4401b3e5
+  Translate: [0.9779496192932129, 1.9060090780258179, -21.85513687133789]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_03
+  Hash: !ul 1192580205843844794
+  Links:
+  - {Dst: !ul 14525285585422918954, Gyaml: Reference, Name: Reference, Src: !ul 1192580205843844794}
+  Phive:
+    Placement: {ID: !ul 1192580205843844794}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x64a65a8d
+  Translate: [0.6977777481079102, 1.9060090780258179, -21.85513687133789]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_03
+  Hash: !ul 10344289176655942580
+  Links:
+  - {Dst: !ul 13660893828419832198, Gyaml: Reference, Name: Reference, Src: !ul 10344289176655942580}
+  Phive:
+    Placement: {ID: !ul 10344289176655942580}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xdc4156ff
+  Translate: [-0.7324827313423157, 1.9060090780258179, -21.85513687133789]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_03
+  Hash: !ul 16241583359334470576
+  Links:
+  - {Dst: !ul 12679611193182783006, Gyaml: Reference, Name: Reference, Src: !ul 16241583359334470576}
+  Phive:
+    Placement: {ID: !ul 16241583359334470576}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x5861c3fb
+  Translate: [0.7019762396812439, 1.9060090780258179, -21.85513687133789]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_03
+  Hash: !ul 4475943513313398336
+  Links:
+  - {Dst: !ul 15856442911347786362, Gyaml: Reference, Name: Reference, Src: !ul 4475943513313398336}
+  Phive:
+    Placement: {ID: !ul 4475943513313398336}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xde27ea11
+  Translate: [0.9534692764282227, 1.9060090780258179, -21.85513687133789]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_03
+  Hash: !ul 6920458325113655443
+  Links:
+  - {Dst: !ul 9532367146766754311, Gyaml: Reference, Name: Reference, Src: !ul 6920458325113655443}
+  Phive:
+    Placement: {ID: !ul 6920458325113655443}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x4924c086
+  Translate: [0.0, 1.9060090780258179, -21.85513687133789]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_03
+  Hash: !ul 4612245259727296745
+  Links:
+  - {Dst: !ul 13549232334162953604, Gyaml: Reference, Name: Reference, Src: !ul 4612245259727296745}
+  Phive:
+    Placement: {ID: !ul 4612245259727296745}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x4924c086
+  Translate: [0.0, 1.9060090780258179, -21.85513687133789]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_03
+  Hash: !ul 936519273937635866
+  Links:
+  - {Dst: !ul 18398737672658144951, Gyaml: Reference, Name: Reference, Src: !ul 936519273937635866}
+  Phive:
+    Placement: {ID: !ul 936519273937635866}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xae1e947e
+  Translate: [-0.4200495481491089, 1.9060090780258179, -21.85513687133789]
+- Gyaml: DestinationAnchor
+  Hash: !ul 6689636081757075351
+  Phive:
+    Placement: {ID: !ul 6689636081757075351}
+  Rotate: [3.1415927410125732, 8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xf9345894
+  Translate: [0.0, 0.0, 4.254575252532959]
+- Dynamic: {RequestEventName: Npc_Dream_ResetPosition_Intervalroom}
+  Gyaml: EventRequestActor
+  Hash: !ul 7081339672527653556
+  Links:
+  - {Dst: !ul 6689636081757075351, Gyaml: Reference, Name: Reference, Src: !ul 7081339672527653556}
+  - {Dst: !ul 14618027811648608213, Gyaml: Reference, Name: Reference, Src: !ul 7081339672527653556}
+  - {Dst: !ul 12348001881738527373, Gyaml: Reference, Name: Reference, Src: !ul 7081339672527653556}
+  - {Dst: !ul 11815162303205742822, Gyaml: Reference, Name: Reference, Src: !ul 7081339672527653556}
+  - {Dst: !ul 13225441039464943861, Gyaml: Reference, Name: Reference, Src: !ul 7081339672527653556}
+  - {Dst: !ul 10960205823204645592, Gyaml: Reference, Name: Reference, Src: !ul 7081339672527653556}
+  - {Dst: !ul 10389660471903520136, Gyaml: Reference, Name: Reference, Src: !ul 7081339672527653556}
+  - {Dst: !ul 9063056136570470566, Gyaml: Reference, Name: Reference, Src: !ul 7081339672527653556}
+  - {Dst: !ul 2365036819279686131, Gyaml: Reference, Name: Reference, Src: !ul 7081339672527653556}
+  - {Dst: !ul 6452979286927095228, Gyaml: Reference, Name: Reference, Src: !ul 7081339672527653556}
+  - {Dst: !ul 10713153038780806065, Gyaml: Reference, Name: Reference, Src: !ul 7081339672527653556}
+  - {Dst: !ul 5335420137275360230, Gyaml: Reference, Name: Reference, Src: !ul 7081339672527653556}
+  - {Dst: !ul 8346509435886545225, Gyaml: Reference, Name: Reference, Src: !ul 7081339672527653556}
+  - {Dst: !ul 10668849733012173071, Gyaml: Reference, Name: Reference, Src: !ul 7081339672527653556}
+  - {Dst: !ul 8766291445951268906, Gyaml: Reference, Name: Reference, Src: !ul 7081339672527653556}
+  - {Dst: !ul 8166106286463476423, Gyaml: Reference, Name: Reference, Src: !ul 7081339672527653556}
+  - {Dst: !ul 7111563862361837355, Gyaml: Reference, Name: Reference, Src: !ul 7081339672527653556}
+  - {Dst: !ul 5487387410159587118, Gyaml: Reference, Name: Reference, Src: !ul 7081339672527653556}
+  - {Dst: !ul 4880259336453891282, Gyaml: Reference, Name: Reference, Src: !ul 7081339672527653556}
+  - {Dst: !ul 13347762629618360331, Gyaml: Reference, Name: Reference, Src: !ul 7081339672527653556}
+  - {Dst: !ul 11192593209286237028, Gyaml: Reference, Name: Reference, Src: !ul 7081339672527653556}
+  - {Dst: !ul 10557494758378864579, Gyaml: Reference, Name: Reference, Src: !ul 7081339672527653556}
+  - {Dst: !ul 12232809552265217868, Gyaml: Reference, Name: Reference, Src: !ul 7081339672527653556}
+  - {Dst: !ul 15066390631441652636, Gyaml: Reference, Name: Reference, Src: !ul 7081339672527653556}
+  - {Dst: !ul 16920430673386189865, Gyaml: Reference, Name: Reference, Src: !ul 7081339672527653556}
+  - {Dst: !ul 5842539133075689752, Gyaml: Reference, Name: Reference, Src: !ul 7081339672527653556}
+  - {Dst: !ul 6459820369809156649, Gyaml: Reference, Name: Reference, Src: !ul 7081339672527653556}
+  - {Dst: !ul 8813359509638530114, Gyaml: Reference, Name: Reference, Src: !ul 7081339672527653556}
+  - {Dst: !ul 16816367850302556717, Gyaml: Reference, Name: Reference, Src: !ul 7081339672527653556}
+  - {Dst: !ul 14016446905325653814, Gyaml: Reference, Name: Reference, Src: !ul 7081339672527653556}
+  - {Dst: !ul 15728086910025589774, Gyaml: Reference, Name: Reference, Src: !ul 7081339672527653556}
+  Phive:
+    Placement: {ID: !ul 7081339672527653556}
+  SRTHash: !u 0x360156f0
+  Translate: [0.0, 39.49146270751953, 0.0]
+- Gyaml: Area
+  Hash: !ul 7232862877236313947
+  Phive:
+    Placement: {ID: !ul 7232862877236313947}
+  SRTHash: !u 0x0b9b1172
+  Scale: [16.656272888183594, 22.43431854248047, 29.526975631713867]
+  Translate: [0.0, 0.0, -11.57295036315918]
+- Gyaml: Enemy_DungeonBoss_Ganon_Dictionary
+  Hash: !ul 13318159107603756213
+  Phive:
+    Placement: {ID: !ul 13318159107603756213}
+  SRTHash: !u 0x4edd87f3
+  Translate: [0.0, 1.8995349407196045, -25.791751861572266]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyPedestalPlate_03
+  Hash: !ul 7788685138302461547
+  Links:
+  - {Dst: !ul 13318159107603756213, Gyaml: Reference, Name: Reference, Src: !ul 7788685138302461547}
+  Phive:
+    Placement: {ID: !ul 7788685138302461547}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x9ca68580
+  Translate: [-0.4200495481491089, 1.9049999713897705, -21.855751037597656]
+- Gyaml: Enemy_DungeonBoss_Kotake_Dictionary
+  Hash: !ul 13058599617529768417
+  Phive:
+    Placement: {ID: !ul 13058599617529768417}
+  Rotate: [-0.3797510266304016, -0.247333362698555, 2.796152784867445e-07]
+  SRTHash: !u 0x6cb41f7a
+  Translate: [-3.358633518218994, 2.672818183898926, -22.619586944580078]
+- Gyaml: Enemy_DungeonBoss_Koume_Dictionary
+  Hash: !ul 10339132869884073711
+  Phive:
+    Placement: {ID: !ul 10339132869884073711}
+  Rotate: [-0.7365461587905884, 0.2617996037006378, 0.01047239825129509]
+  SRTHash: !u 0xbe94c775
+  Translate: [3.976815700531006, 3.300157070159912, -23.848752975463867]
+- Gyaml: Enemy_DungeonBoss_Barinade_Jellyfish_Dictionary
+  Hash: !ul 11149362225020813555
+  Phive:
+    Placement: {ID: !ul 11149362225020813555}
+  Rotate: [2.505047559738159, 0.06405429542064667, -2.6364235877990723]
+  SRTHash: !u 0xe458eb71
+  Translate: [-2.4736316204071045, 5.4969587326049805, -22.417036056518555]
+- Gyaml: Enemy_DungeonBoss_Barinade_Jellyfish_Dictionary
+  Hash: !ul 3733323081890313573
+  Phive:
+    Placement: {ID: !ul 3733323081890313573}
+  Rotate: [2.9394757747650146, -0.21903318166732788, 2.8732290267944336]
+  SRTHash: !u 0x432e0fde
+  Translate: [2.6307995319366455, 6.649740219116211, -22.825801849365234]
+- Dynamic: {Drop__DropActor: TBox_Rupee_Gold, IsEnableRepeatOpen: true}
+  Gyaml: Obj_TBox_A_01
+  Hash: !ul 9947351236862205040
+  Phive:
+    Placement: {ID: !ul 9947351236862205040}
+  SRTHash: !u 0x1db00253
+  Translate: [0.0, 0.2064117193222046, -6.451208591461182]
+- Dynamic: {ScrubBusiness_BalloonMessageInDream: 'EventFlowMsg/Enemy_Scrub_Business_Dream:Near_07',
+    ScrubBusiness_IsGenerateNPC: true, ScrubBusiness_ShopItemActorName0: Weapon_Sword_Biggoron,
+    TalkEventName: Enemy_Scrub_Business_Dream_Onetime}
+  Gyaml: Enemy_Scrub_Business
+  Hash: !ul 14016446905325653814
+  Phive:
+    Placement: {ID: !ul 14016446905325653814}
+  Rotate: [0.0, -0.5235986709594727, 0.0]
+  SRTHash: !u 0x55f27187
+  Translate: [5.853680610656738, 0.42657724022865295, -10.002613067626953]
+- Gyaml: Enemy_Scrub_Business_Leaf
+  Hash: !ul 9306890943293439030
+  Phive:
+    Placement: {ID: !ul 9306890943293439030}
+  Rotate: [0.0, -0.5235986709594727, 0.0]
+  SRTHash: !u 0xff44bc11
+  Translate: [5.853680610656738, -0.9734227657318115, -10.002613067626953]
+- Gyaml: Enemy_Scrub_Business_Leaf
+  Hash: !ul 10719319909239998755
+  Links:
+  - {Dst: !ul 14016446905325653814, Gyaml: Reference, Name: Reference, Src: !ul 10719319909239998755}
+  Phive:
+    Placement: {ID: !ul 10719319909239998755}
+  Rotate: [0.0, -0.5235986709594727, 0.0]
+  SRTHash: !u 0xa697288d
+  Translate: [5.853680610656738, 0.026577234268188477, -10.002613067626953]
+- Dynamic: {ScrubBusiness_BalloonMessageInDream: 'EventFlowMsg/Enemy_Scrub_Business_Dream:Near_03',
+    ScrubBusiness_IsGenerateNPC: true, ScrubBusiness_ShopItemActorName0: Obj_Heart_Container,
+    TalkEventName: Enemy_Scrub_Business_Dream_Onetime}
+  Gyaml: Enemy_Scrub_Business
+  Hash: !ul 15728086910025589774
+  Phive:
+    Placement: {ID: !ul 15728086910025589774}
+  Rotate: [0.0, -0.5235986709594727, 0.0]
+  SRTHash: !u 0xcbc22f6b
+  Translate: [5.696350574493408, 0.42657724022865295, -11.23417854309082]
+- Gyaml: Enemy_Scrub_Business_Leaf
+  Hash: !ul 13371530187366866195
+  Phive:
+    Placement: {ID: !ul 13371530187366866195}
+  Rotate: [0.0, -0.5235986709594727, 0.0]
+  SRTHash: !u 0x1516dc0e
+  Translate: [5.696350574493408, -0.9734227657318115, -11.23417854309082]
+- Gyaml: Enemy_Scrub_Business_Leaf
+  Hash: !ul 17122605129698156865
+  Links:
+  - {Dst: !ul 15728086910025589774, Gyaml: Reference, Name: Reference, Src: !ul 17122605129698156865}
+  Phive:
+    Placement: {ID: !ul 17122605129698156865}
+  Rotate: [0.0, -0.5235986709594727, 0.0]
+  SRTHash: !u 0x81732510
+  Translate: [5.696350574493408, 0.026577234268188477, -11.23417854309082]
+- Dynamic: {AttackedEventName: Enemy_Scrub_Business_DekuSeed_01_Fear, ScrubBusiness_BalloonMessageInDream: 'EventFlowMsg/Enemy_Scrub_Business_Dream:Near_00',
+    ScrubBusiness_IsGenerateNPC: true, ScrubBusiness_ShopItemActorName0: Item_Bottle_RedPotion,
+    ScrubBusiness_ShopItemActorName1: Item_Bottle_GreenPotion, ScrubBusiness_ShopItemActorName2: Shop_Heart_Bundle,
+    TalkEventName: Enemy_Scrub_Business_Dream}
+  Gyaml: Enemy_Scrub_Business
+  Hash: !ul 16816367850302556717
+  Phive:
+    Placement: {ID: !ul 16816367850302556717}
+  Rotate: [0.0, 0.5235989093780518, 0.0]
+  SRTHash: !u 0x0ee3859b
+  Translate: [-5.72126579284668, 0.42657724022865295, -11.255456924438477]
+- Gyaml: Enemy_Scrub_Business_Leaf
+  Hash: !ul 16583317756334809420
+  Phive:
+    Placement: {ID: !ul 16583317756334809420}
+  Rotate: [0.0, 0.5235989093780518, 0.0]
+  SRTHash: !u 0xb44fae3a
+  Translate: [-5.72126579284668, -1.0070446729660034, -11.255456924438477]
+- Gyaml: Enemy_Scrub_Business_Leaf
+  Hash: !ul 12786016605514558497
+  Links:
+  - {Dst: !ul 16816367850302556717, Gyaml: Reference, Name: Reference, Src: !ul 12786016605514558497}
+  Phive:
+    Placement: {ID: !ul 12786016605514558497}
+  Rotate: [0.0, 0.5235989093780518, 0.0]
+  SRTHash: !u 0xf4d1cedf
+  Translate: [-5.72126579284668, 0.026577234268188477, -11.255456924438477]
+- Gyaml: DropKeepAwayArea_TBox_A_01
+  Hash: !ul 1195681875078245340
+  Phive:
+    Placement: {ID: !ul 1195681875078245340}
+  SRTHash: !u 0x1db00253
+  Translate: [0.0, 0.2064117193222046, -6.451208591461182]
+- Gyaml: Land_Dream_BossPedestal_A_Interval_01
+  Hash: !ul 2901931043074610839
+  Phive:
+    Placement: {ID: !ul 2901931043074610839}
+  SRTHash: !u 0xe20c4d27
+  Translate: [0.0, 1.0, -24.36437225341797]
+- Gyaml: Land_Dream_BossPedestal_A_Interval05
+  Hash: !ul 13515345822217890736
+  Phive:
+    Placement: {ID: !ul 13515345822217890736}
+  SRTHash: !u 0xdae2bb52
+  Translate: [0.0, 1.0, -23.023693084716797]
+- Gyaml: Land_Dream_BossPedestal_A_Interval_03
+  Hash: !ul 5217496963147980554
+  Phive:
+    Placement: {ID: !ul 5217496963147980554}
+  SRTHash: !u 0x31a81bed
+  Translate: [0.0, 1.0, -25.40682601928711]
+- Gyaml: Land_Dream_BossPedestal_Interval_04
+  Hash: !ul 11902863110800134218
+  Phive:
+    Placement: {ID: !ul 11902863110800134218}
+  SRTHash: !u 0x47d0bb22
+  Translate: [0.0, 1.0, -25.54490089416504]
+- Bakeable: true
+  Gyaml: Land_Dream_EnemyBlackFade_A_01
+  Hash: !ul 14427897085496485875
+  Phive:
+    Placement: {ID: !ul 14427897085496485875}
+  Rotate: [2.436528347971034e-07, -0.17720994353294373, 0.0]
+  SRTHash: !u 0x524c622f
+  Translate: [0.03725939616560936, 4.260469436645508, -24.483707427978516]
+- Gyaml: FldObj_AirWall_All
+  Hash: !ul 14174176080039028585
+  Phive:
+    Placement: {ID: !ul 14174176080039028585}
+  SRTHash: !u 0x6cd78b92
+  Scale: [1.216953158378601, 1.216953158378601, 1.216953158378601]
+  Translate: [0.0, 3.0352559089660645, -23.732053756713867]
+- Gyaml: FldObj_AirWall_All
+  Hash: !ul 8946540120070849930
+  Phive:
+    Placement: {ID: !ul 8946540120070849930}
+  SRTHash: !u 0x7959eccc
+  Translate: [0.0, 3.525083065032959, -24.86954689025879]
+- Gyaml: FldObj_AirWall_All
+  Hash: !ul 12224987448408407651
+  Phive:
+    Placement: {ID: !ul 12224987448408407651}
+  SRTHash: !u 0x6eeebeec
+  Translate: [0.0, 3.411170721054077, -25.745304107666016]
+- Gyaml: FldObj_AirWall_All
+  Hash: !ul 692693884620914508
+  Phive:
+    Placement: {ID: !ul 692693884620914508}
+  SRTHash: !u 0xe0ddba6c
+  Translate: [0.0, 2.5687503814697266, -25.85772132873535]
+- Gyaml: FldObj_AirWall_All
+  Hash: !ul 1216643622029091850
+  Phive:
+    Placement: {ID: !ul 1216643622029091850}
+  SRTHash: !u 0xb19987a4
+  Translate: [0.0, 1.7838952541351318, -25.61758041381836]
+- Gyaml: FldObj_AirWall_All
+  Hash: !ul 10769049568158740127
+  Phive:
+    Placement: {ID: !ul 10769049568158740127}
+  SRTHash: !u 0x1bd749c5
+  Scale: [1.216953158378601, 1.216953158378601, 1.216953158378601]
+  Translate: [0.0, 1.8415355682373047, -23.732053756713867]
+- Gyaml: FldObj_AirWall_All
+  Hash: !ul 1230644618150408454
+  Phive:
+    Placement: {ID: !ul 1230644618150408454}
+  SRTHash: !u 0x786c4829
+  Scale: [1.216953158378601, 1.216953158378601, 1.216953158378601]
+  Translate: [1.2061164379119873, 3.2417831420898438, -23.732053756713867]
+- Gyaml: FldObj_AirWall_All
+  Hash: !ul 9156611382680735393
+  Phive:
+    Placement: {ID: !ul 9156611382680735393}
+  SRTHash: !u 0x34615002
+  Scale: [1.216953158378601, 1.216953158378601, 1.216953158378601]
+  Translate: [-1.2080650329589844, 3.2417831420898438, -23.732053756713867]
+- Gyaml: FldObj_AirWall_All
+  Hash: !ul 16712182939351247826
+  Phive:
+    Placement: {ID: !ul 16712182939351247826}
+  SRTHash: !u 0x5c918c6a
+  Translate: [-2.1362719535827637, 3.716257095336914, -23.242774963378906]
+- Gyaml: FldObj_AirWall_All
+  Hash: !ul 15249426609469292910
+  Phive:
+    Placement: {ID: !ul 15249426609469292910}
+  SRTHash: !u 0x4a190324
+  Translate: [1.9618620872497559, 4.0806379318237305, -23.242774963378906]
+- Gyaml: FldObj_AirWall_All
+  Hash: !ul 4968647583971929973
+  Phive:
+    Placement: {ID: !ul 4968647583971929973}
+  SRTHash: !u 0x644e5174
+  Scale: [2.5, 2.5, 2.5]
+  Translate: [-0.09563541412353516, 1.8995349407196045, -27.81441879272461]
+- Gyaml: FldObj_AirWall_All
+  Hash: !ul 3285740031366395287
+  Phive:
+    Placement: {ID: !ul 3285740031366395287}
+  SRTHash: !u 0xb9642db8
+  Scale: [3.0, 3.0, 3.0]
+  Translate: [-0.09563541412353516, 2.513965606689453, -25.854196548461914]
+- Gyaml: FldObj_AirWall_All
+  Hash: !ul 11124278227141937473
+  Phive:
+    Placement: {ID: !ul 11124278227141937473}
+  SRTHash: !u 0x7ed82847
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [-0.09563541412353516, 2.869788408279419, -22.91265296936035]
+- Gyaml: FldObj_AirWall_All
+  Hash: !ul 13998883818525497296
+  Phive:
+    Placement: {ID: !ul 13998883818525497296}
+  SRTHash: !u 0x8c15999b
+  Scale: [5.0, 5.0, 5.0]
+  Translate: [-0.09563541412353516, -1.1800734996795654, -25.330978393554688]
+- Gyaml: FldObj_AirWall_All
+  Hash: !ul 42618956329583795
+  Phive:
+    Placement: {ID: !ul 42618956329583795}
+  SRTHash: !u 0xca736955
+  Scale: [2.5, 2.5, 2.5]
+  Translate: [0.0, 5.816697120666504, -24.43549156188965]
+- Gyaml: FldObj_AirWall_All
+  Hash: !ul 6895236164761853696
+  Phive:
+    Placement: {ID: !ul 6895236164761853696}
+  SRTHash: !u 0x5c2df6ad
+  Scale: [1.9900000095367432, 1.9900000095367432, 1.9900000095367432]
+  Translate: [0.0, 8.27198600769043, -24.43549156188965]
+- Gyaml: FldObj_AirWall_All
+  Hash: !ul 7333200007615362487
+  Phive:
+    Placement: {ID: !ul 7333200007615362487}
+  SRTHash: !u 0x074a093a
+  Scale: [1.5, 1.5, 1.5]
+  Translate: [0.0, 4.347239017486572, -24.43549156188965]
+- Gyaml: FldObj_AirWall_All
+  Hash: !ul 14024770474908351875
+  Phive:
+    Placement: {ID: !ul 14024770474908351875}
+  Rotate: [0.0, 1.0471975803375244, 0.0]
+  SRTHash: !u 0x217ad667
+  Scale: [1.5, 1.5, 1.5]
+  Translate: [0.2181248515844345, 1.826930046081543, -25.708261489868164]
+- Gyaml: FldObj_AirWall_All
+  Hash: !ul 12696097600104199506
+  Phive:
+    Placement: {ID: !ul 12696097600104199506}
+  Rotate: [0.0, 1.0471975803375244, 0.0]
+  SRTHash: !u 0x0a244611
+  Scale: [1.5, 1.5, 1.5]
+  Translate: [-0.3044397234916687, 3.870993137359619, -24.78204345703125]
+- Gyaml: FldObj_AirWall_All
+  Hash: !ul 3376318262346147271
+  Phive:
+    Placement: {ID: !ul 3376318262346147271}
+  Rotate: [0.6823654174804688, 0.8707399368286133, 0.8156761527061462]
+  SRTHash: !u 0xcc68825a
+  Scale: [1.5, 1.5, 1.5]
+  Translate: [0.2661084234714508, 2.973386526107788, -25.791357040405273]
+- Gyaml: FldObj_AirWall_All
+  Hash: !ul 8557010422892223729
+  Phive:
+    Placement: {ID: !ul 8557010422892223729}
+  SRTHash: !u 0xb15772b9
+  Scale: [3.0, 3.0, 3.0]
+  Translate: [0.0, 2.5874290466308594, -27.43500328063965]
+- Gyaml: FldObj_AirWall_All
+  Hash: !ul 3455564479595541119
+  Phive:
+    Placement: {ID: !ul 3455564479595541119}
+  SRTHash: !u 0xb596dd53
+  Scale: [3.0, 3.0, 3.0]
+  Translate: [-1.4069504737854004, 4.725279331207275, -24.41155242919922]
+- Gyaml: FldObj_AirWall_All
+  Hash: !ul 13148597292794086468
+  Phive:
+    Placement: {ID: !ul 13148597292794086468}
+  SRTHash: !u 0x9b381185
+  Scale: [2.5, 2.5, 2.5]
+  Translate: [0.0, 1.8995349407196045, -24.767953872680664]
+- Gyaml: FldObj_AirWall_All
+  Hash: !ul 2619927700155731112
+  Phive:
+    Placement: {ID: !ul 2619927700155731112}
+  SRTHash: !u 0x0601705f
+  Scale: [2.5, 2.5, 2.5]
+  Translate: [0.0, 4.339752197265625, -24.767953872680664]
+- Gyaml: FldObj_AirWall_All
+  Hash: !ul 17550925572288096641
+  Phive:
+    Placement: {ID: !ul 17550925572288096641}
+  SRTHash: !u 0x410bec7f
+  Scale: [5.0, 5.0, 5.0]
+  Translate: [0.0, 4.395324230194092, -26.509143829345703]
+- Gyaml: FldObj_AirWall_All
+  Hash: !ul 13573358344032596095
+  Phive:
+    Placement: {ID: !ul 13573358344032596095}
+  SRTHash: !u 0x949b43be
+  Scale: [8.0, 8.0, 8.0]
+  Translate: [0.0, 7.423576354980469, -30.159067153930664]
+- Gyaml: FldObj_AirWall_All
+  Hash: !ul 4387044942071812216
+  Phive:
+    Placement: {ID: !ul 4387044942071812216}
+  SRTHash: !u 0x73727232
+  Scale: [5.0, 5.0, 5.0]
+  Translate: [0.0, 11.16006088256836, -35.09709930419922]
+- Gyaml: FldObj_AirWall_All
+  Hash: !ul 5755911784552097851
+  Phive:
+    Placement: {ID: !ul 5755911784552097851}
+  SRTHash: !u 0xd49e1f26
+  Scale: [9.0, 9.0, 9.0]
+  Translate: [0.0, 15.313070297241211, -32.45024108886719]
+- Gyaml: FldObj_AirWall_All
+  Hash: !ul 8108131267623814219
+  Phive:
+    Placement: {ID: !ul 8108131267623814219}
+  Rotate: [-0.6663445234298706, -0.0, 0.0]
+  SRTHash: !u 0xb51475ff
+  Scale: [7.0, 7.0, 7.0]
+  Translate: [-5.594118595123291, 9.079416275024414, -34.44408416748047]
+- Gyaml: FldObj_AirWall_All
+  Hash: !ul 3057916643740285305
+  Phive:
+    Placement: {ID: !ul 3057916643740285305}
+  Rotate: [-0.5860431790351868, -0.0, 0.0]
+  SRTHash: !u 0x00af5987
+  Scale: [7.0, 7.0, 7.0]
+  Translate: [7.4795942306518555, 8.867477416992188, -28.856285095214844]
+- Gyaml: FldObj_AirWall_All
+  Hash: !ul 14584526487217666741
+  Phive:
+    Placement: {ID: !ul 14584526487217666741}
+  SRTHash: !u 0xa9d49706
+  Scale: [3.0, 3.0, 3.0]
+  Translate: [0.0, 6.51712703704834, -29.225679397583008]
+- Gyaml: FldObj_AirWall_All
+  Hash: !ul 134345671005855250
+  Phive:
+    Placement: {ID: !ul 134345671005855250}
+  Rotate: [0.0, -0.0, -0.5477105379104614]
+  SRTHash: !u 0x988b1bb0
+  Scale: [3.999999761581421, 3.999999761581421, 3.999999761581421]
+  Translate: [-0.019081268459558487, 8.628297805786133, -29.225679397583008]
+- Gyaml: FldObj_AirWall_All
+  Hash: !ul 10087816712000079328
+  Phive:
+    Placement: {ID: !ul 10087816712000079328}
+  Rotate: [0.0, -0.311446875333786, 0.0]
+  SRTHash: !u 0xe548152b
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [-3.572144031524658, 4.656773567199707, -22.370288848876953]
+- Gyaml: FldObj_AirWall_All
+  Hash: !ul 3964388871771698997
+  Phive:
+    Placement: {ID: !ul 3964388871771698997}
+  Rotate: [0.0, -0.311446875333786, 0.0]
+  SRTHash: !u 0xbff79e3f
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [-3.498878002166748, 2.895408868789673, -22.597871780395508]
+- Gyaml: FldObj_AirWall_All
+  Hash: !ul 9030176730517600378
+  Phive:
+    Placement: {ID: !ul 9030176730517600378}
+  Rotate: [-0.21272876858711243, 0.27558815479278564, 0.0]
+  SRTHash: !u 0x33b36e7c
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [3.8750834465026855, 2.949765920639038, -24.133573532104492]
+- Gyaml: FldObj_AirWall_All
+  Hash: !ul 5637340224549884617
+  Phive:
+    Placement: {ID: !ul 5637340224549884617}
+  Rotate: [-0.21272876858711243, 0.27558815479278564, 0.0]
+  SRTHash: !u 0xcbe3e1a9
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [4.004872798919678, 3.959665298461914, -23.696687698364258]
+- Gyaml: FldObj_AirWall_All
+  Hash: !ul 16554249012683624075
+  Phive:
+    Placement: {ID: !ul 16554249012683624075}
+  SRTHash: !u 0xacce29ef
+  Scale: [1.5, 1.5, 1.5]
+  Translate: [0.0, 2.7352547645568848, -23.427156448364258]
+- Gyaml: FldObj_AirWall_All
+  Hash: !ul 5199496001357621728
+  Phive:
+    Placement: {ID: !ul 5199496001357621728}
+  SRTHash: !u 0x9edf7846
+  Translate: [0.0, 4.165101528167725, -23.427156448364258]
+- Gyaml: FldObj_AirWall_All
+  Hash: !ul 17657913528718374227
+  Phive:
+    Placement: {ID: !ul 17657913528718374227}
+  SRTHash: !u 0x1a1614cb
+  Scale: [3.0, 3.0, 3.0]
+  Translate: [0.0, 3.9202957153320312, -24.858720779418945]
+- Gyaml: FldObj_AirWall_All
+  Hash: !ul 8808722743098150400
+  Phive:
+    Placement: {ID: !ul 8808722743098150400}
+  SRTHash: !u 0x5f434b47
+  Scale: [4.0, 4.0, 4.0]
+  Translate: [0.22987142205238342, 1.7268034219741821, -26.17801284790039]
+- Gyaml: FldObj_AirWall_All
+  Hash: !ul 4531375951209093774
+  Phive:
+    Placement: {ID: !ul 4531375951209093774}
+  Rotate: [-0.5533900856971741, 0.17338642477989197, 0.2723192870616913]
+  SRTHash: !u 0x7678a0d9
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [3.1755759716033936, 4.081106662750244, -24.637298583984375]
+- Gyaml: FldObj_AirWall_All
+  Hash: !ul 11355598864399974854
+  Phive:
+    Placement: {ID: !ul 11355598864399974854}
+  Rotate: [-0.5464469194412231, -0.19615747034549713, -0.31010445952415466]
+  SRTHash: !u 0x17098a8f
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [-2.306077718734741, 3.6534924507141113, -25.277437210083008]
+AiGroups:
+- Hash: !ul 764889063391530322
+  Logic: Logic/Root/BossRushIntervalRoom/BossRushIntervalRoom_1b54.logic.root.ain
+  References:
+  - {Id: Land_Dream_BossPedestal_A_06_3535, Path: Land_Dream_BossPedestal_A_06_3535,
+    Reference: !ul 13515345822217890736}
+  - {Id: Land_Dream_BossPedestal_A_05_521d, Path: Land_Dream_BossPedestal_A_05_521d,
+    Reference: !ul 5217496963147980554}
+  - {Id: Land_Dream_BossPedestal_A_07_a77d, Path: Land_Dream_BossPedestal_A_07_a77d,
+    Reference: !ul 1766356444594594063}
+  - {Id: Land_Dream_BossPedestal_B_01_a80a, Path: Land_Dream_BossPedestal_B_01_a80a,
+    Reference: !ul 11902863110800134218}
+  - {Id: Land_Dream_BossPedestal_A_03_c227, Path: Land_Dream_BossPedestal_A_03_c227,
+    Reference: !ul 2901931043074610839}
+- Hash: !ul 2337135087414595803
+  Logic: Logic/Root/BossRushIntervalRoom/BossRushIntervalRoom_ec85.logic.root.ain
+  References:
+  - {Id: FldObj_AirWall_All_0bec, Path: FldObj_AirWall_All_0bec, Reference: !ul 8946540120070849930}
+  - {Id: FldObj_AirWall_All_3496, Path: FldObj_AirWall_All_3496, Reference: !ul 14174176080039028585}
+  - {Id: FldObj_AirWall_All_5135, Path: FldObj_AirWall_All_5135, Reference: !ul 10769049568158740127}
+  - {Id: FldObj_AirWall_All_53b4, Path: FldObj_AirWall_All_53b4, Reference: !ul 692693884620914508}
+  - {Id: FldObj_AirWall_All_61dc, Path: FldObj_AirWall_All_61dc, Reference: !ul 12224987448408407651}
+  - {Id: FldObj_AirWall_All_9836, Path: FldObj_AirWall_All_9836, Reference: !ul 1230644618150408454}
+  - {Id: FldObj_AirWall_All_9b03, Path: FldObj_AirWall_All_9b03, Reference: !ul 15249426609469292910}
+  - {Id: FldObj_AirWall_All_d7dd, Path: FldObj_AirWall_All_d7dd, Reference: !ul 1216643622029091850}
+  - {Id: FldObj_AirWall_All_e953, Path: FldObj_AirWall_All_e953, Reference: !ul 16712182939351247826}
+  - {Id: FldObj_AirWall_All_f63d, Path: FldObj_AirWall_All_f63d, Reference: !ul 9156611382680735393}
+  - {Id: FldObj_AirWall_All_1f26, Path: FldObj_AirWall_All_1f26, Reference: !ul 3285740031366395287}
+  - {Id: FldObj_AirWall_All_2cfe, Path: FldObj_AirWall_All_2cfe, Reference: !ul 13998883818525497296}
+  - {Id: FldObj_AirWall_All_3d5f, Path: FldObj_AirWall_All_3d5f, Reference: !ul 11124278227141937473}
+  - {Id: FldObj_AirWall_All_56e2, Path: FldObj_AirWall_All_56e2, Reference: !ul 4968647583971929973}
+  - {Id: FldObj_AirWall_All_8cd7, Path: FldObj_AirWall_All_8cd7, Reference: !ul 7333200007615362487}
+  - {Id: FldObj_AirWall_All_c4e6, Path: FldObj_AirWall_All_c4e6, Reference: !ul 6895236164761853696}
+  - {Id: FldObj_AirWall_All_d57f, Path: FldObj_AirWall_All_d57f, Reference: !ul 42618956329583795}
+  - {Id: FldObj_AirWall_All_5f90, Path: FldObj_AirWall_All_5f90, Reference: !ul 12696097600104199506}
+  - {Id: FldObj_AirWall_All_6084, Path: FldObj_AirWall_All_6084, Reference: !ul 3376318262346147271}
+  - {Id: FldObj_AirWall_All_faeb, Path: FldObj_AirWall_All_faeb, Reference: !ul 14024770474908351875}
+  - {Id: FldObj_AirWall_All_25d5, Path: FldObj_AirWall_All_25d5, Reference: !ul 8557010422892223729}
+  - {Id: FldObj_AirWall_All_3bc6, Path: FldObj_AirWall_All_3bc6, Reference: !ul 3455564479595541119}
+- Hash: !ul 2441257076115066657
+  Logic: Logic/Root/BossRushIntervalRoom/BossRushIntervalRoom_c990.logic.root.ain
+  References:
+  - {Id: Enemy_Scrub_Business_Leaf_b4bb, Path: _2e45/_42a3/Enemy_Scrub_Business_Leaf_b4bb,
+    Reference: !ul 9280634782853514729}
+  - {Id: Enemy_Scrub_Business_036d, Path: _2e45/_42a3/_4fc4/Enemy_Scrub_Business_036d,
+    Reference: !ul 16920430673386189865}
+  - {Id: Enemy_Scrub_Business_Leaf_75f4, Path: _2e45/_42a3/_4fc4/Enemy_Scrub_Business_Leaf_75f4,
+    Reference: !ul 12368502380890655241}
+  - {Id: AiGroup, InstanceName: Enemy_Scrub_Business_Set_01_d7f2_9399, Logic: Logic/Module/Enemy_Scrub_Business_Set_01/Enemy_Scrub_Business_Set_01_d7f2.logic.module.ain,
+    Path: _2e45/_42a3/_4fc4/AiGroup, Reference: !ul 14785698942081510795}
+  - {Id: AiGroup, InstanceName: Enemy_Scrub_Business_Dream_01_cd6f_2703, Logic: Logic/Module/Enemy_Scrub_Business_Dream_01/Enemy_Scrub_Business_Dream_01_cd6f.logic.module.ain,
+    Path: _2e45/_42a3/AiGroup, Reference: !ul 898039615546952487}
+  - {Id: Enemy_Scrub_Business_Leaf_d461, Path: _2e45/_548d/Enemy_Scrub_Business_Leaf_d461,
+    Reference: !ul 17438343949261592844}
+  - {Id: Enemy_Scrub_Business_036d, Path: _2e45/_548d/_f171/Enemy_Scrub_Business_036d,
+    Reference: !ul 12232809552265217868}
+  - {Id: Enemy_Scrub_Business_Leaf_75f4, Path: _2e45/_548d/_f171/Enemy_Scrub_Business_Leaf_75f4,
+    Reference: !ul 12119044254346830895}
+  - {Id: AiGroup, InstanceName: Enemy_Scrub_Business_Set_01_d7f2_737d, Logic: Logic/Module/Enemy_Scrub_Business_Set_01/Enemy_Scrub_Business_Set_01_d7f2.logic.module.ain,
+    Path: _2e45/_548d/_f171/AiGroup, Reference: !ul 12872021202084579680}
+  - {Id: AiGroup, InstanceName: Enemy_Scrub_Business_Dream_00_04b9_ed34, Logic: Logic/Module/Enemy_Scrub_Business_Dream_00/Enemy_Scrub_Business_Dream_00_04b9.logic.module.ain,
+    Path: _2e45/_548d/AiGroup, Reference: !ul 6749641835864850490}
+  - {Id: Obj_TBox_A_01_d1ab, Path: _2e45/Obj_TBox_A_01_d1ab, Reference: !ul 7458365564915336038}
+  - {Id: Enemy_Scrub_Business_Leaf_d461, Path: _2e45/_c969/Enemy_Scrub_Business_Leaf_d461,
+    Reference: !ul 18120346814260264503}
+  - {Id: Enemy_Scrub_Business_036d, Path: _2e45/_c969/_664d/Enemy_Scrub_Business_036d,
+    Reference: !ul 15066390631441652636}
+  - {Id: Enemy_Scrub_Business_Leaf_75f4, Path: _2e45/_c969/_664d/Enemy_Scrub_Business_Leaf_75f4,
+    Reference: !ul 12727882619733724869}
+  - {Id: AiGroup, InstanceName: Enemy_Scrub_Business_Set_01_d7f2_737d, Logic: Logic/Module/Enemy_Scrub_Business_Set_01/Enemy_Scrub_Business_Set_01_d7f2.logic.module.ain,
+    Path: _2e45/_c969/_664d/AiGroup, Reference: !ul 12301666339346985155}
+  - {Id: AiGroup, InstanceName: Enemy_Scrub_Business_Dream_00_04b9_dbd6, Logic: Logic/Module/Enemy_Scrub_Business_Dream_00/Enemy_Scrub_Business_Dream_00_04b9.logic.module.ain,
+    Path: _2e45/_c969/AiGroup, Reference: !ul 6135785567862614639}
+  - {Id: AiGroup, InstanceName: HidingHole_Dream_00_Prefab_a5b2_8bc5, Logic: Logic/Module/HidingHole_Dream_00_Prefab/HidingHole_Dream_00_Prefab_a5b2.logic.module.ain,
+    Path: _2e45/AiGroup, Reference: !ul 13978535179221106157}
+  - {Id: Enemy_DungeonBoss_Ganondorf_Dictionary_3a4b, Path: Enemy_DungeonBoss_Ganondorf_Dictionary_3a4b,
+    Reference: !ul 18398737672658144951}
+  - {Id: Enemy_Scrub_Business_Leaf_b4bb, Path: _5c2f/_708d/Enemy_Scrub_Business_Leaf_b4bb,
+    Reference: !ul 13861766751611875615}
+  - {Id: Enemy_Scrub_Business_036d, Path: _5c2f/_708d/_7dae/Enemy_Scrub_Business_036d,
+    Reference: !ul 13347762629618360331}
+  - {Id: Enemy_Scrub_Business_Leaf_75f4, Path: _5c2f/_708d/_7dae/Enemy_Scrub_Business_Leaf_75f4,
+    Reference: !ul 6780532295040437798}
+  - {Id: AiGroup, InstanceName: Enemy_Scrub_Business_Set_01_d7f2_9399, Logic: Logic/Module/Enemy_Scrub_Business_Set_01/Enemy_Scrub_Business_Set_01_d7f2.logic.module.ain,
+    Path: _5c2f/_708d/_7dae/AiGroup, Reference: !ul 13593745529215428956}
+  - {Id: AiGroup, InstanceName: Enemy_Scrub_Business_Dream_01_cd6f_2703, Logic: Logic/Module/Enemy_Scrub_Business_Dream_01/Enemy_Scrub_Business_Dream_01_cd6f.logic.module.ain,
+    Path: _5c2f/_708d/AiGroup, Reference: !ul 5036125670643797790}
+  - {Id: Enemy_Scrub_Business_Leaf_d461, Path: _5c2f/_8276/Enemy_Scrub_Business_Leaf_d461,
+    Reference: !ul 3854688847111568763}
+  - {Id: Enemy_Scrub_Business_036d, Path: _5c2f/_8276/_1f5b/Enemy_Scrub_Business_036d,
+    Reference: !ul 11192593209286237028}
+  - {Id: Enemy_Scrub_Business_Leaf_75f4, Path: _5c2f/_8276/_1f5b/Enemy_Scrub_Business_Leaf_75f4,
+    Reference: !ul 8699549070219661317}
+  - {Id: AiGroup, InstanceName: Enemy_Scrub_Business_Set_01_d7f2_737d, Logic: Logic/Module/Enemy_Scrub_Business_Set_01/Enemy_Scrub_Business_Set_01_d7f2.logic.module.ain,
+    Path: _5c2f/_8276/_1f5b/AiGroup, Reference: !ul 6214624586028658047}
+  - {Id: AiGroup, InstanceName: Enemy_Scrub_Business_Dream_00_04b9_ed34, Logic: Logic/Module/Enemy_Scrub_Business_Dream_00/Enemy_Scrub_Business_Dream_00_04b9.logic.module.ain,
+    Path: _5c2f/_8276/AiGroup, Reference: !ul 12624783987398446107}
+  - {Id: Obj_TBox_A_01_d1ab, Path: _5c2f/Obj_TBox_A_01_d1ab, Reference: !ul 7346745174625046398}
+  - {Id: Enemy_Scrub_Business_Leaf_d461, Path: _5c2f/_f752/Enemy_Scrub_Business_Leaf_d461,
+    Reference: !ul 3298212020669813260}
+  - {Id: Enemy_Scrub_Business_036d, Path: _5c2f/_f752/_9437/Enemy_Scrub_Business_036d,
+    Reference: !ul 10557494758378864579}
+  - {Id: Enemy_Scrub_Business_Leaf_75f4, Path: _5c2f/_f752/_9437/Enemy_Scrub_Business_Leaf_75f4,
+    Reference: !ul 8201291275328629548}
+  - {Id: AiGroup, InstanceName: Enemy_Scrub_Business_Set_01_d7f2_737d, Logic: Logic/Module/Enemy_Scrub_Business_Set_01/Enemy_Scrub_Business_Set_01_d7f2.logic.module.ain,
+    Path: _5c2f/_f752/_9437/AiGroup, Reference: !ul 6857840231204816033}
+  - {Id: AiGroup, InstanceName: Enemy_Scrub_Business_Dream_00_04b9_dbd6, Logic: Logic/Module/Enemy_Scrub_Business_Dream_00/Enemy_Scrub_Business_Dream_00_04b9.logic.module.ain,
+    Path: _5c2f/_f752/AiGroup, Reference: !ul 12996162225019833880}
+  - {Id: AiGroup, InstanceName: HidingHole_Dream_00_Prefab_a5b2_b9af, Logic: Logic/Module/HidingHole_Dream_00_Prefab/HidingHole_Dream_00_Prefab_a5b2.logic.module.ain,
+    Path: _5c2f/AiGroup, Reference: !ul 10327333352424673410}
+  - {Id: Enemy_DungeonBoss_BongoBongo_Dictionary_83a7, Path: Enemy_DungeonBoss_BongoBongo_Dictionary_83a7,
+    Reference: !ul 9532367146766754311}
+  - {Id: Enemy_DungeonBoss_BongoBongo_LeftHand_Dictionary_8c7d, Path: Enemy_DungeonBoss_BongoBongo_LeftHand_Dictionary_8c7d,
+    Reference: !ul 2586492480413777306}
+  - {Id: Enemy_Scrub_Business_Leaf_b4bb, Path: _96f1/_ab4e/Enemy_Scrub_Business_Leaf_b4bb,
+    Reference: !ul 47907220166563397}
+  - {Id: Enemy_Scrub_Business_036d, Path: _96f1/_ab4e/_b870/Enemy_Scrub_Business_036d,
+    Reference: !ul 8813359509638530114}
+  - {Id: Enemy_Scrub_Business_Leaf_75f4, Path: _96f1/_ab4e/_b870/Enemy_Scrub_Business_Leaf_75f4,
+    Reference: !ul 1984761918761887649}
+  - {Id: AiGroup, InstanceName: Enemy_Scrub_Business_Set_01_d7f2_9399, Logic: Logic/Module/Enemy_Scrub_Business_Set_01/Enemy_Scrub_Business_Set_01_d7f2.logic.module.ain,
+    Path: _96f1/_ab4e/_b870/AiGroup, Reference: !ul 9040571213535152683}
+  - {Id: AiGroup, InstanceName: Enemy_Scrub_Business_Dream_01_cd6f_2703, Logic: Logic/Module/Enemy_Scrub_Business_Dream_01/Enemy_Scrub_Business_Dream_01_cd6f.logic.module.ain,
+    Path: _96f1/_ab4e/AiGroup, Reference: !ul 9490572661310236231}
+  - {Id: Enemy_Scrub_Business_Leaf_d461, Path: _96f1/_bd38/Enemy_Scrub_Business_Leaf_d461,
+    Reference: !ul 8299742095476007146}
+  - {Id: Enemy_Scrub_Business_036d, Path: _96f1/_bd38/_5a1c/Enemy_Scrub_Business_036d,
+    Reference: !ul 6459820369809156649}
+  - {Id: Enemy_Scrub_Business_Leaf_75f4, Path: _96f1/_bd38/_5a1c/Enemy_Scrub_Business_Leaf_75f4,
+    Reference: !ul 4037813362307889102}
+  - {Id: AiGroup, InstanceName: Enemy_Scrub_Business_Set_01_d7f2_737d, Logic: Logic/Module/Enemy_Scrub_Business_Set_01/Enemy_Scrub_Business_Set_01_d7f2.logic.module.ain,
+    Path: _96f1/_bd38/_5a1c/AiGroup, Reference: !ul 1316116850612973764}
+  - {Id: AiGroup, InstanceName: Enemy_Scrub_Business_Dream_00_04b9_ed34, Logic: Logic/Module/Enemy_Scrub_Business_Dream_00/Enemy_Scrub_Business_Dream_00_04b9.logic.module.ain,
+    Path: _96f1/_bd38/AiGroup, Reference: !ul 17114943026615974322}
+  - {Id: Obj_TBox_A_01_d1ab, Path: _96f1/Obj_TBox_A_01_d1ab, Reference: !ul 2854211238375368215}
+  - {Id: Enemy_Scrub_Business_Leaf_d461, Path: _96f1/_3214/Enemy_Scrub_Business_Leaf_d461,
+    Reference: !ul 7726868997538364231}
+  - {Id: Enemy_Scrub_Business_036d, Path: _96f1/_3214/_cef8/Enemy_Scrub_Business_036d,
+    Reference: !ul 5842539133075689752}
+  - {Id: Enemy_Scrub_Business_Leaf_75f4, Path: _96f1/_3214/_cef8/Enemy_Scrub_Business_Leaf_75f4,
+    Reference: !ul 3476856502693317145}
+  - {Id: AiGroup, InstanceName: Enemy_Scrub_Business_Set_01_d7f2_737d, Logic: Logic/Module/Enemy_Scrub_Business_Set_01/Enemy_Scrub_Business_Set_01_d7f2.logic.module.ain,
+    Path: _96f1/_3214/_cef8/AiGroup, Reference: !ul 1945133971451785131}
+  - {Id: AiGroup, InstanceName: Enemy_Scrub_Business_Dream_00_04b9_dbd6, Logic: Logic/Module/Enemy_Scrub_Business_Dream_00/Enemy_Scrub_Business_Dream_00_04b9.logic.module.ain,
+    Path: _96f1/_3214/AiGroup, Reference: !ul 17709689189600761295}
+  - {Id: AiGroup, InstanceName: HidingHole_Dream_00_Prefab_a5b2_f470, Logic: Logic/Module/HidingHole_Dream_00_Prefab/HidingHole_Dream_00_Prefab_a5b2.logic.module.ain,
+    Path: _96f1/AiGroup, Reference: !ul 4729640337931337549}
+  - {Id: Enemy_DungeonBoss_BongoBongo_RightHand_Dictionary_b71b, Path: Enemy_DungeonBoss_BongoBongo_RightHand_Dictionary_b71b,
+    Reference: !ul 15388037838554474192}
+  - {Id: Enemy_DungeonBoss_Twinrova_Dictionary_b768, Path: Enemy_DungeonBoss_Twinrova_Dictionary_b768,
+    Reference: !ul 13549232334162953604}
+  - {Id: Area_8d12, Path: Area_8d12, Reference: !ul 4674392672323926350}
+  - {Id: Land_Dream_EnemyPedestalPlate_03_7158, Path: Land_Dream_EnemyPedestalPlate_03_7158,
+    Reference: !ul 6920458325113655443}
+  - {Id: Land_Dream_EnemyPedestalPlate_03_9199, Path: Land_Dream_EnemyPedestalPlate_03_9199,
+    Reference: !ul 936519273937635866}
+  - {Id: Land_Dream_EnemyPedestalPlate_03_cf7c, Path: Land_Dream_EnemyPedestalPlate_03_cf7c,
+    Reference: !ul 4612245259727296745}
+  - {Id: Land_Dream_EnemyPedestalPlate_03_a0da, Path: Land_Dream_EnemyPedestalPlate_03_a0da,
+    Reference: !ul 7788685138302461547}
+  - {Id: Enemy_DungeonBoss_Ganon_Dictionary_fb95, Path: Enemy_DungeonBoss_Ganon_Dictionary_fb95,
+    Reference: !ul 13318159107603756213}
+  - {Id: Enemy_DungeonBoss_Koume_Dictionary_0b74, Path: Enemy_DungeonBoss_Koume_Dictionary_0b74,
+    Reference: !ul 10339132869884073711}
+  - {Id: Enemy_DungeonBoss_Kotake_Dictionary_9111, Path: Enemy_DungeonBoss_Kotake_Dictionary_9111,
+    Reference: !ul 13058599617529768417}
+  - {Id: Enemy_Scrub_Business_Leaf_b4bb, Path: _f0b1/_050f/Enemy_Scrub_Business_Leaf_b4bb,
+    Reference: !ul 12786016605514558497}
+  - {Id: Enemy_Scrub_Business_036d, Path: _f0b1/_050f/_1230/Enemy_Scrub_Business_036d,
+    Reference: !ul 16816367850302556717}
+  - {Id: Enemy_Scrub_Business_Leaf_75f4, Path: _f0b1/_050f/_1230/Enemy_Scrub_Business_Leaf_75f4,
+    Reference: !ul 16583317756334809420}
+  - {Id: AiGroup, InstanceName: Enemy_Scrub_Business_Set_01_d7f2_9399, Logic: Logic/Module/Enemy_Scrub_Business_Set_01/Enemy_Scrub_Business_Set_01_d7f2.logic.module.ain,
+    Path: _f0b1/_050f/_1230/AiGroup, Reference: !ul 17633703734565346375}
+  - {Id: AiGroup, InstanceName: Enemy_Scrub_Business_Dream_01_cd6f_2703, Logic: Logic/Module/Enemy_Scrub_Business_Dream_01/Enemy_Scrub_Business_Dream_01_cd6f.logic.module.ain,
+    Path: _f0b1/_050f/AiGroup, Reference: !ul 2153921345508073700}
+  - {Id: Enemy_Scrub_Business_Leaf_d461, Path: _f0b1/_16f8/Enemy_Scrub_Business_Leaf_d461,
+    Reference: !ul 17122605129698156865}
+  - {Id: Enemy_Scrub_Business_036d, Path: _f0b1/_16f8/_b3dc/Enemy_Scrub_Business_036d,
+    Reference: !ul 15728086910025589774}
+  - {Id: Enemy_Scrub_Business_Leaf_75f4, Path: _f0b1/_16f8/_b3dc/Enemy_Scrub_Business_Leaf_75f4,
+    Reference: !ul 13371530187366866195}
+  - {Id: AiGroup, InstanceName: Enemy_Scrub_Business_Set_01_d7f2_737d, Logic: Logic/Module/Enemy_Scrub_Business_Set_01/Enemy_Scrub_Business_Set_01_d7f2.logic.module.ain,
+    Path: _f0b1/_16f8/_b3dc/AiGroup, Reference: !ul 11482309526220529274}
+  - {Id: AiGroup, InstanceName: Enemy_Scrub_Business_Dream_00_04b9_ed34, Logic: Logic/Module/Enemy_Scrub_Business_Dream_00/Enemy_Scrub_Business_Dream_00_04b9.logic.module.ain,
+    Path: _f0b1/_16f8/AiGroup, Reference: !ul 4906039236139555805}
+  - {Id: Obj_TBox_A_01_d1ab, Path: _f0b1/Obj_TBox_A_01_d1ab, Reference: !ul 9947351236862205040}
+  - {Id: Enemy_Scrub_Business_Leaf_d461, Path: _f0b1/_8bd4/Enemy_Scrub_Business_Leaf_d461,
+    Reference: !ul 10719319909239998755}
+  - {Id: Enemy_Scrub_Business_036d, Path: _f0b1/_8bd4/_28b8/Enemy_Scrub_Business_036d,
+    Reference: !ul 14016446905325653814}
+  - {Id: Enemy_Scrub_Business_Leaf_75f4, Path: _f0b1/_8bd4/_28b8/Enemy_Scrub_Business_Leaf_75f4,
+    Reference: !ul 9306890943293439030}
+  - {Id: AiGroup, InstanceName: Enemy_Scrub_Business_Set_01_d7f2_737d, Logic: Logic/Module/Enemy_Scrub_Business_Set_01/Enemy_Scrub_Business_Set_01_d7f2.logic.module.ain,
+    Path: _f0b1/_8bd4/_28b8/AiGroup, Reference: !ul 16655015845250562447}
+  - {Id: AiGroup, InstanceName: Enemy_Scrub_Business_Dream_00_04b9_dbd6, Logic: Logic/Module/Enemy_Scrub_Business_Dream_00/Enemy_Scrub_Business_Dream_00_04b9.logic.module.ain,
+    Path: _f0b1/_8bd4/AiGroup, Reference: !ul 8981455547681160979}
+  - {Id: AiGroup, InstanceName: HidingHole_Dream_00_Prefab_a5b2_4e30, Logic: Logic/Module/HidingHole_Dream_00_Prefab/HidingHole_Dream_00_Prefab_a5b2.logic.module.ain,
+    Path: _f0b1/AiGroup, Reference: !ul 17747546917188785576}
+- Hash: !ul 3721797968268308132
+  Logic: Logic/Root/BossRushIntervalRoom/BossRushIntervalRoom_50e3.logic.root.ain
+  References:
+  - {Id: Enemy_Scrub_Business_Leaf_b4bb, Path: _1604/_2a61/Enemy_Scrub_Business_Leaf_b4bb,
+    Reference: !ul 714793171056965536}
+  - {Id: Enemy_Scrub_Business_036d, Path: _1604/_2a61/_3783/Enemy_Scrub_Business_036d,
+    Reference: !ul 9063056136570470566}
+  - {Id: Enemy_Scrub_Business_Leaf_75f4, Path: _1604/_2a61/_3783/Enemy_Scrub_Business_Leaf_75f4,
+    Reference: !ul 2029642893281143234}
+  - {Id: AiGroup, InstanceName: Enemy_Scrub_Business_Set_01_d7f2_9399, Logic: Logic/Module/Enemy_Scrub_Business_Set_01/Enemy_Scrub_Business_Set_01_d7f2.logic.module.ain,
+    Path: _1604/_2a61/_3783/AiGroup, Reference: !ul 8260065558369553090}
+  - {Id: AiGroup, InstanceName: Enemy_Scrub_Business_Dream_01_cd6f_2703, Logic: Logic/Module/Enemy_Scrub_Business_Dream_01/Enemy_Scrub_Business_Dream_01_cd6f.logic.module.ain,
+    Path: _1604/_2a61/AiGroup, Reference: !ul 10699566810543040102}
+  - {Id: Enemy_Scrub_Business_Leaf_d461, Path: _1604/_3c4b/Enemy_Scrub_Business_Leaf_d461,
+    Reference: !ul 8858981201188841421}
+  - {Id: Enemy_Scrub_Business_036d, Path: _1604/_3c4b/_d92f/Enemy_Scrub_Business_036d,
+    Reference: !ul 2365036819279686131}
+  - {Id: Enemy_Scrub_Business_Leaf_75f4, Path: _1604/_3c4b/_d92f/Enemy_Scrub_Business_Leaf_75f4,
+    Reference: !ul 2415744806966088174}
+  - {Id: AiGroup, InstanceName: Enemy_Scrub_Business_Set_01_d7f2_737d, Logic: Logic/Module/Enemy_Scrub_Business_Set_01/Enemy_Scrub_Business_Set_01_d7f2.logic.module.ain,
+    Path: _1604/_3c4b/_d92f/AiGroup, Reference: !ul 807157600391304168}
+  - {Id: AiGroup, InstanceName: Enemy_Scrub_Business_Dream_00_04b9_ed34, Logic: Logic/Module/Enemy_Scrub_Business_Dream_00/Enemy_Scrub_Business_Dream_00_04b9.logic.module.ain,
+    Path: _1604/_3c4b/AiGroup, Reference: !ul 16301806323626136918}
+  - {Id: Obj_TBox_A_01_d1ab, Path: _1604/Obj_TBox_A_01_d1ab, Reference: !ul 15858708076894317041}
+  - {Id: Enemy_Scrub_Business_Leaf_d461, Path: _1604/_b127/Enemy_Scrub_Business_Leaf_d461,
+    Reference: !ul 8235493189275128485}
+  - {Id: Enemy_Scrub_Business_036d, Path: _1604/_b127/_4e0b/Enemy_Scrub_Business_036d,
+    Reference: !ul 6452979286927095228}
+  - {Id: Enemy_Scrub_Business_Leaf_75f4, Path: _1604/_b127/_4e0b/Enemy_Scrub_Business_Leaf_75f4,
+    Reference: !ul 4049135373926862515}
+  - {Id: AiGroup, InstanceName: Enemy_Scrub_Business_Set_01_d7f2_737d, Logic: Logic/Module/Enemy_Scrub_Business_Set_01/Enemy_Scrub_Business_Set_01_d7f2.logic.module.ain,
+    Path: _1604/_b127/_4e0b/AiGroup, Reference: !ul 1379911581697093128}
+  - {Id: AiGroup, InstanceName: Enemy_Scrub_Business_Dream_00_04b9_dbd6, Logic: Logic/Module/Enemy_Scrub_Business_Dream_00/Enemy_Scrub_Business_Dream_00_04b9.logic.module.ain,
+    Path: _1604/_b127/AiGroup, Reference: !ul 17126273499171646350}
+  - {Id: AiGroup, InstanceName: HidingHole_Dream_00_Prefab_a5b2_7383, Logic: Logic/Module/HidingHole_Dream_00_Prefab/HidingHole_Dream_00_Prefab_a5b2.logic.module.ain,
+    Path: _1604/AiGroup, Reference: !ul 5256886085780905518}
+  - {Id: Enemy_Scrub_Business_Leaf_b4bb, Path: _2833/_3c91/Enemy_Scrub_Business_Leaf_b4bb,
+    Reference: !ul 18441276947439724500}
+  - {Id: Enemy_Scrub_Business_036d, Path: _2833/_3c91/_49b2/Enemy_Scrub_Business_036d,
+    Reference: !ul 13225441039464943861}
+  - {Id: Enemy_Scrub_Business_Leaf_75f4, Path: _2833/_3c91/_49b2/Enemy_Scrub_Business_Leaf_75f4,
+    Reference: !ul 6109662415107897586}
+  - {Id: AiGroup, InstanceName: Enemy_Scrub_Business_Set_01_d7f2_9399, Logic: Logic/Module/Enemy_Scrub_Business_Set_01/Enemy_Scrub_Business_Set_01_d7f2.logic.module.ain,
+    Path: _2833/_3c91/_49b2/AiGroup, Reference: !ul 13415142406461061784}
+  - {Id: AiGroup, InstanceName: Enemy_Scrub_Business_Dream_01_cd6f_2703, Logic: Logic/Module/Enemy_Scrub_Business_Dream_01/Enemy_Scrub_Business_Dream_01_cd6f.logic.module.ain,
+    Path: _2833/_3c91/AiGroup, Reference: !ul 6665138869369296470}
+  - {Id: Enemy_Scrub_Business_Leaf_d461, Path: _2833/_4e7b/Enemy_Scrub_Business_Leaf_d461,
+    Reference: !ul 3378882435079862073}
+  - {Id: Enemy_Scrub_Business_036d, Path: _2833/_4e7b/_eb5f/Enemy_Scrub_Business_036d,
+    Reference: !ul 10960205823204645592}
+  - {Id: Enemy_Scrub_Business_Leaf_75f4, Path: _2833/_4e7b/_eb5f/Enemy_Scrub_Business_Leaf_75f4,
+    Reference: !ul 9171488340333101535}
+  - {Id: AiGroup, InstanceName: Enemy_Scrub_Business_Set_01_d7f2_737d, Logic: Logic/Module/Enemy_Scrub_Business_Set_01/Enemy_Scrub_Business_Set_01_d7f2.logic.module.ain,
+    Path: _2833/_4e7b/_eb5f/AiGroup, Reference: !ul 6740882266392650676}
+  - {Id: AiGroup, InstanceName: Enemy_Scrub_Business_Dream_00_04b9_ed34, Logic: Logic/Module/Enemy_Scrub_Business_Dream_00/Enemy_Scrub_Business_Dream_00_04b9.logic.module.ain,
+    Path: _2833/_4e7b/AiGroup, Reference: !ul 12304636113933772134}
+  - {Id: Obj_TBox_A_01_d1ab, Path: _2833/Obj_TBox_A_01_d1ab, Reference: !ul 7234638808238324101}
+  - {Id: Enemy_Scrub_Business_Leaf_d461, Path: _2833/_c357/Enemy_Scrub_Business_Leaf_d461,
+    Reference: !ul 2771337889903133416}
+  - {Id: Enemy_Scrub_Business_036d, Path: _2833/_c357/_603b/Enemy_Scrub_Business_036d,
+    Reference: !ul 10389660471903520136}
+  - {Id: Enemy_Scrub_Business_Leaf_75f4, Path: _2833/_c357/_603b/Enemy_Scrub_Business_Leaf_75f4,
+    Reference: !ul 8611487545320332779}
+  - {Id: AiGroup, InstanceName: Enemy_Scrub_Business_Set_01_d7f2_737d, Logic: Logic/Module/Enemy_Scrub_Business_Set_01/Enemy_Scrub_Business_Set_01_d7f2.logic.module.ain,
+    Path: _2833/_c357/_603b/AiGroup, Reference: !ul 6140404310907052020}
+  - {Id: AiGroup, InstanceName: Enemy_Scrub_Business_Dream_00_04b9_dbd6, Logic: Logic/Module/Enemy_Scrub_Business_Dream_00/Enemy_Scrub_Business_Dream_00_04b9.logic.module.ain,
+    Path: _2833/_c357/AiGroup, Reference: !ul 12830493703402101341}
+  - {Id: AiGroup, InstanceName: HidingHole_Dream_00_Prefab_a5b2_85b3, Logic: Logic/Module/HidingHole_Dream_00_Prefab/HidingHole_Dream_00_Prefab_a5b2.logic.module.ain,
+    Path: _2833/AiGroup, Reference: !ul 9286683098903629790}
+  - {Id: Enemy_DungeonBoss_Barinade_Dictionary_3f6e, Path: Enemy_DungeonBoss_Barinade_Dictionary_3f6e,
+    Reference: !ul 14525285585422918954}
+  - {Id: Enemy_DungeonBoss_Dodongo_Dictionary_9292, Path: Enemy_DungeonBoss_Dodongo_Dictionary_9292,
+    Reference: !ul 10483048461584193372}
+  - {Id: Enemy_Scrub_Business_Leaf_b4bb, Path: _9fc2/_b420/Enemy_Scrub_Business_Leaf_b4bb,
+    Reference: !ul 11312769825361895486}
+  - {Id: Enemy_Scrub_Business_036d, Path: _9fc2/_b420/_c141/Enemy_Scrub_Business_036d,
+    Reference: !ul 14618027811648608213}
+  - {Id: Enemy_Scrub_Business_Leaf_75f4, Path: _9fc2/_b420/_c141/Enemy_Scrub_Business_Leaf_75f4,
+    Reference: !ul 9923786537124407828}
+  - {Id: AiGroup, InstanceName: Enemy_Scrub_Business_Set_01_d7f2_9399, Logic: Logic/Module/Enemy_Scrub_Business_Set_01/Enemy_Scrub_Business_Set_01_d7f2.logic.module.ain,
+    Path: _9fc2/_b420/_c141/AiGroup, Reference: !ul 15546851371838785790}
+  - {Id: AiGroup, InstanceName: Enemy_Scrub_Business_Dream_01_cd6f_2703, Logic: Logic/Module/Enemy_Scrub_Business_Dream_01/Enemy_Scrub_Business_Dream_01_cd6f.logic.module.ain,
+    Path: _9fc2/_b420/AiGroup, Reference: !ul 8092056379902831484}
+  - {Id: Enemy_Scrub_Business_Leaf_d461, Path: _9fc2/_c609/Enemy_Scrub_Business_Leaf_d461,
+    Reference: !ul 14614618685639029777}
+  - {Id: Enemy_Scrub_Business_036d, Path: _9fc2/_c609/_62ed/Enemy_Scrub_Business_036d,
+    Reference: !ul 11815162303205742822}
+  - {Id: Enemy_Scrub_Business_Leaf_75f4, Path: _9fc2/_c609/_62ed/Enemy_Scrub_Business_Leaf_75f4,
+    Reference: !ul 6636650772312998083}
+  - {Id: AiGroup, InstanceName: Enemy_Scrub_Business_Set_01_d7f2_737d, Logic: Logic/Module/Enemy_Scrub_Business_Set_01/Enemy_Scrub_Business_Set_01_d7f2.logic.module.ain,
+    Path: _9fc2/_c609/_62ed/AiGroup, Reference: !ul 13753979322354069209}
+  - {Id: AiGroup, InstanceName: Enemy_Scrub_Business_Dream_00_04b9_ed34, Logic: Logic/Module/Enemy_Scrub_Business_Dream_00/Enemy_Scrub_Business_Dream_00_04b9.logic.module.ain,
+    Path: _9fc2/_c609/AiGroup, Reference: !ul 12076195073222124645}
+  - {Id: Obj_TBox_A_01_d1ab, Path: _9fc2/Obj_TBox_A_01_d1ab, Reference: !ul 7589985979641292928}
+  - {Id: Enemy_Scrub_Business_Leaf_d461, Path: _9fc2/_3ae5/Enemy_Scrub_Business_Leaf_d461,
+    Reference: !ul 17394792496485638098}
+  - {Id: Enemy_Scrub_Business_036d, Path: _9fc2/_3ae5/_d7c9/Enemy_Scrub_Business_036d,
+    Reference: !ul 12348001881738527373}
+  - {Id: Enemy_Scrub_Business_Leaf_75f4, Path: _9fc2/_3ae5/_d7c9/Enemy_Scrub_Business_Leaf_75f4,
+    Reference: !ul 11831190685037554094}
+  - {Id: AiGroup, InstanceName: Enemy_Scrub_Business_Set_01_d7f2_737d, Logic: Logic/Module/Enemy_Scrub_Business_Set_01/Enemy_Scrub_Business_Set_01_d7f2.logic.module.ain,
+    Path: _9fc2/_3ae5/_d7c9/AiGroup, Reference: !ul 13153480235912989671}
+  - {Id: AiGroup, InstanceName: Enemy_Scrub_Business_Dream_00_04b9_dbd6, Logic: Logic/Module/Enemy_Scrub_Business_Dream_00/Enemy_Scrub_Business_Dream_00_04b9.logic.module.ain,
+    Path: _9fc2/_3ae5/AiGroup, Reference: !ul 6898557323518561602}
+  - {Id: AiGroup, InstanceName: HidingHole_Dream_00_Prefab_a5b2_fd41, Logic: Logic/Module/HidingHole_Dream_00_Prefab/HidingHole_Dream_00_Prefab_a5b2.logic.module.ain,
+    Path: _9fc2/AiGroup, Reference: !ul 15561365790696112312}
+  - {Id: Enemy_DungeonBoss_Gohma_Dictionary_be01, Path: Enemy_DungeonBoss_Gohma_Dictionary_be01,
+    Reference: !ul 8937216721625292255}
+  - {Id: Land_Dream_EnemyPedestalPlate_03_4d90, Path: Land_Dream_EnemyPedestalPlate_03_4d90,
+    Reference: !ul 14552048162783827798}
+  - {Id: Land_Dream_EnemyPedestalPlate_03_8006, Path: Land_Dream_EnemyPedestalPlate_03_8006,
+    Reference: !ul 13909917191732498932}
+  - {Id: Land_Dream_EnemyPedestalPlate_03_b3d3, Path: Land_Dream_EnemyPedestalPlate_03_b3d3,
+    Reference: !ul 1192580205843844794}
+  - {Id: Enemy_DungeonBoss_Barinade_Jellyfish_Dictionary_5dc4, Path: Enemy_DungeonBoss_Barinade_Jellyfish_Dictionary_5dc4,
+    Reference: !ul 11149362225020813555}
+  - {Id: Enemy_DungeonBoss_Barinade_Jellyfish_Dictionary_8fb2, Path: Enemy_DungeonBoss_Barinade_Jellyfish_Dictionary_8fb2,
+    Reference: !ul 3733323081890313573}
+  - {Id: Land_Dream_EnemyBlackFade_A_01_7ae3, Path: Land_Dream_EnemyBlackFade_A_01_7ae3,
+    Reference: !ul 14427897085496485875}
+- Blackboards: [Component/Blackboard/BlackboardInfo/DungeonRoom.engine__component__BlackboardInfo.gyml]
+  Hash: !ul 5385214389190671957
+  Logic: Logic/Root/BossRushIntervalRoom/BossRushIntervalRoom_9013.logic.root.ain
+  References:
+  - {Id: Area_0219, Path: Area_0219, Reference: !ul 658532176552242472}
+- Hash: !ul 6787937384658985643
+  Logic: Logic/Root/BossRushIntervalRoom/BossRushIntervalRoom_1413.logic.root.ain
+  References:
+  - {Id: DestinationAnchor_0d40, Path: DestinationAnchor_0d40, Reference: !ul 6689636081757075351}
+  - {Id: Area_8255, Path: Area_8255, Reference: !ul 7232862877236313947}
+  - {Id: EventRequestActor_b280, Path: EventRequestActor_b280, Reference: !ul 7081339672527653556}
+- Hash: !ul 12494290600350063095
+  Logic: Logic/Root/BossRushIntervalRoom/BossRushIntervalRoom_0084.logic.root.ain
+  References:
+  - {Id: FldObj_AirWall_All_02da, Path: FldObj_AirWall_All_02da, Reference: !ul 13148597292794086468}
+  - {Id: FldObj_AirWall_All_73d8, Path: FldObj_AirWall_All_73d8, Reference: !ul 2619927700155731112}
+  - {Id: FldObj_AirWall_All_4d25, Path: FldObj_AirWall_All_4d25, Reference: !ul 13573358344032596095}
+  - {Id: FldObj_AirWall_All_5328, Path: FldObj_AirWall_All_5328, Reference: !ul 3057916643740285305}
+  - {Id: FldObj_AirWall_All_54a8, Path: FldObj_AirWall_All_54a8, Reference: !ul 17550925572288096641}
+  - {Id: FldObj_AirWall_All_9dd6, Path: FldObj_AirWall_All_9dd6, Reference: !ul 8108131267623814219}
+  - {Id: FldObj_AirWall_All_a6f2, Path: FldObj_AirWall_All_a6f2, Reference: !ul 4387044942071812216}
+  - {Id: FldObj_AirWall_All_f584, Path: FldObj_AirWall_All_f584, Reference: !ul 5755911784552097851}
+  - {Id: FldObj_AirWall_All_0dcb, Path: FldObj_AirWall_All_0dcb, Reference: !ul 5637340224549884617}
+  - {Id: FldObj_AirWall_All_1dab, Path: FldObj_AirWall_All_1dab, Reference: !ul 14584526487217666741}
+  - {Id: FldObj_AirWall_All_2830, Path: FldObj_AirWall_All_2830, Reference: !ul 10087816712000079328}
+  - {Id: FldObj_AirWall_All_2e47, Path: FldObj_AirWall_All_2e47, Reference: !ul 134345671005855250}
+  - {Id: FldObj_AirWall_All_373a, Path: FldObj_AirWall_All_373a, Reference: !ul 9030176730517600378}
+  - {Id: FldObj_AirWall_All_f0a0, Path: FldObj_AirWall_All_f0a0, Reference: !ul 3964388871771698997}
+  - {Id: FldObj_AirWall_All_846b, Path: FldObj_AirWall_All_846b, Reference: !ul 16554249012683624075}
+  - {Id: FldObj_AirWall_All_c248, Path: FldObj_AirWall_All_c248, Reference: !ul 5199496001357621728}
+  - {Id: FldObj_AirWall_All_0bdf, Path: FldObj_AirWall_All_0bdf, Reference: !ul 4531375951209093774}
+  - {Id: FldObj_AirWall_All_1189, Path: FldObj_AirWall_All_1189, Reference: !ul 11355598864399974854}
+  - {Id: FldObj_AirWall_All_5cfb, Path: FldObj_AirWall_All_5cfb, Reference: !ul 17657913528718374227}
+  - {Id: FldObj_AirWall_All_c837, Path: FldObj_AirWall_All_c837, Reference: !ul 8808722743098150400}
+- Hash: !ul 14542855206284718116
+  Logic: Logic/Root/BossRushIntervalRoom/BossRushIntervalRoom_ce6b.logic.root.ain
+  References:
+  - {Id: Enemy_Scrub_Business_Leaf_b4bb, Path: _6690/_7aee/Enemy_Scrub_Business_Leaf_b4bb,
+    Reference: !ul 2522825604004955549}
+  - {Id: Enemy_Scrub_Business_036d, Path: _6690/_7aee/_880f/Enemy_Scrub_Business_036d,
+    Reference: !ul 10713153038780806065}
+  - {Id: Enemy_Scrub_Business_Leaf_75f4, Path: _6690/_7aee/_880f/Enemy_Scrub_Business_Leaf_75f4,
+    Reference: !ul 8444590707700336561}
+  - {Id: AiGroup, InstanceName: Enemy_Scrub_Business_Set_01_d7f2_9399, Logic: Logic/Module/Enemy_Scrub_Business_Set_01/Enemy_Scrub_Business_Set_01_d7f2.logic.module.ain,
+    Path: _6690/_7aee/_880f/AiGroup, Reference: !ul 6357565317470201310}
+  - {Id: AiGroup, InstanceName: Enemy_Scrub_Business_Dream_01_cd6f_2703, Logic: Logic/Module/Enemy_Scrub_Business_Dream_01/Enemy_Scrub_Business_Dream_01_cd6f.logic.module.ain,
+    Path: _6690/_7aee/AiGroup, Reference: !ul 12319567526570428051}
+  - {Id: Enemy_Scrub_Business_Leaf_d461, Path: _6690/_8cd7/Enemy_Scrub_Business_Leaf_d461,
+    Reference: !ul 1174005241599318270}
+  - {Id: Enemy_Scrub_Business_036d, Path: _6690/_8cd7/_29bb/Enemy_Scrub_Business_036d,
+    Reference: !ul 5335420137275360230}
+  - {Id: Enemy_Scrub_Business_Leaf_75f4, Path: _6690/_8cd7/_29bb/Enemy_Scrub_Business_Leaf_75f4,
+    Reference: !ul 841897315102648218}
+  - {Id: AiGroup, InstanceName: Enemy_Scrub_Business_Set_01_d7f2_737d, Logic: Logic/Module/Enemy_Scrub_Business_Set_01/Enemy_Scrub_Business_Set_01_d7f2.logic.module.ain,
+    Path: _6690/_8cd7/_29bb/AiGroup, Reference: !ul 7902368960093215229}
+  - {Id: AiGroup, InstanceName: Enemy_Scrub_Business_Dream_00_04b9_ed34, Logic: Logic/Module/Enemy_Scrub_Business_Dream_00/Enemy_Scrub_Business_Dream_00_04b9.logic.module.ain,
+    Path: _6690/_8cd7/AiGroup, Reference: !ul 14423950289938907553}
+  - {Id: Obj_TBox_A_01_d1ab, Path: _6690/Obj_TBox_A_01_d1ab, Reference: !ul 4529748032854378492}
+  - {Id: Enemy_Scrub_Business_Leaf_d461, Path: _6690/_01b3/Enemy_Scrub_Business_Leaf_d461,
+    Reference: !ul 647935916374860458}
+  - {Id: Enemy_Scrub_Business_036d, Path: _6690/_01b3/_9e97/Enemy_Scrub_Business_036d,
+    Reference: !ul 8346509435886545225}
+  - {Id: Enemy_Scrub_Business_Leaf_75f4, Path: _6690/_01b3/_9e97/Enemy_Scrub_Business_Leaf_75f4,
+    Reference: !ul 1349106469915685550}
+  - {Id: AiGroup, InstanceName: Enemy_Scrub_Business_Set_01_d7f2_737d, Logic: Logic/Module/Enemy_Scrub_Business_Set_01/Enemy_Scrub_Business_Set_01_d7f2.logic.module.ain,
+    Path: _6690/_01b3/_9e97/AiGroup, Reference: !ul 8376578450607095607}
+  - {Id: AiGroup, InstanceName: Enemy_Scrub_Business_Dream_00_04b9_dbd6, Logic: Logic/Module/Enemy_Scrub_Business_Dream_00/Enemy_Scrub_Business_Dream_00_04b9.logic.module.ain,
+    Path: _6690/_01b3/AiGroup, Reference: !ul 17237422115660494210}
+  - {Id: AiGroup, InstanceName: HidingHole_Dream_00_Prefab_a5b2_c410, Logic: Logic/Module/HidingHole_Dream_00_Prefab/HidingHole_Dream_00_Prefab_a5b2.logic.module.ain,
+    Path: _6690/AiGroup, Reference: !ul 7385122796244168477}
+  - {Id: Enemy_Scrub_Business_Leaf_b4bb, Path: _71bb/_8619/Enemy_Scrub_Business_Leaf_b4bb,
+    Reference: !ul 2495319958623764728}
+  - {Id: Enemy_Scrub_Business_036d, Path: _71bb/_8619/_933a/Enemy_Scrub_Business_036d,
+    Reference: !ul 10668849733012173071}
+  - {Id: Enemy_Scrub_Business_Leaf_75f4, Path: _71bb/_8619/_933a/Enemy_Scrub_Business_Leaf_75f4,
+    Reference: !ul 8308133463996200237}
+  - {Id: AiGroup, InstanceName: Enemy_Scrub_Business_Set_01_d7f2_9399, Logic: Logic/Module/Enemy_Scrub_Business_Set_01/Enemy_Scrub_Business_Set_01_d7f2.logic.module.ain,
+    Path: _71bb/_8619/_933a/AiGroup, Reference: !ul 6482762504810047670}
+  - {Id: AiGroup, InstanceName: Enemy_Scrub_Business_Dream_01_cd6f_2703, Logic: Logic/Module/Enemy_Scrub_Business_Dream_01/Enemy_Scrub_Business_Dream_01_cd6f.logic.module.ain,
+    Path: _71bb/_8619/AiGroup, Reference: !ul 13416977775542080571}
+  - {Id: Enemy_Scrub_Business_Leaf_d461, Path: _71bb/_9802/Enemy_Scrub_Business_Leaf_d461,
+    Reference: !ul 1202279058548905303}
+  - {Id: Enemy_Scrub_Business_036d, Path: _71bb/_9802/_34e7/Enemy_Scrub_Business_036d,
+    Reference: !ul 8766291445951268906}
+  - {Id: Enemy_Scrub_Business_Leaf_75f4, Path: _71bb/_9802/_34e7/Enemy_Scrub_Business_Leaf_75f4,
+    Reference: !ul 1894901536010133770}
+  - {Id: AiGroup, InstanceName: Enemy_Scrub_Business_Set_01_d7f2_737d, Logic: Logic/Module/Enemy_Scrub_Business_Set_01/Enemy_Scrub_Business_Set_01_d7f2.logic.module.ain,
+    Path: _71bb/_9802/_34e7/AiGroup, Reference: !ul 8865678121619767939}
+  - {Id: AiGroup, InstanceName: Enemy_Scrub_Business_Dream_00_04b9_ed34, Logic: Logic/Module/Enemy_Scrub_Business_Dream_00/Enemy_Scrub_Business_Dream_00_04b9.logic.module.ain,
+    Path: _71bb/_9802/AiGroup, Reference: !ul 14538013888056166207}
+  - {Id: Obj_TBox_A_01_d1ab, Path: _71bb/Obj_TBox_A_01_d1ab, Reference: !ul 566103236844767323}
+  - {Id: Enemy_Scrub_Business_Leaf_d461, Path: _71bb/_0cde/Enemy_Scrub_Business_Leaf_d461,
+    Reference: !ul 806306469963545866}
+  - {Id: Enemy_Scrub_Business_036d, Path: _71bb/_0cde/_a9c3/Enemy_Scrub_Business_036d,
+    Reference: !ul 8166106286463476423}
+  - {Id: Enemy_Scrub_Business_Leaf_75f4, Path: _71bb/_0cde/_a9c3/Enemy_Scrub_Business_Leaf_75f4,
+    Reference: !ul 1299110288397488106}
+  - {Id: AiGroup, InstanceName: Enemy_Scrub_Business_Set_01_d7f2_737d, Logic: Logic/Module/Enemy_Scrub_Business_Set_01/Enemy_Scrub_Business_Set_01_d7f2.logic.module.ain,
+    Path: _71bb/_0cde/_a9c3/AiGroup, Reference: !ul 8966875204636421536}
+  - {Id: AiGroup, InstanceName: Enemy_Scrub_Business_Dream_00_04b9_dbd6, Logic: Logic/Module/Enemy_Scrub_Business_Dream_00/Enemy_Scrub_Business_Dream_00_04b9.logic.module.ain,
+    Path: _71bb/_0cde/AiGroup, Reference: !ul 15098996428576156426}
+  - {Id: AiGroup, InstanceName: HidingHole_Dream_00_Prefab_a5b2_cf3b, Logic: Logic/Module/HidingHole_Dream_00_Prefab/HidingHole_Dream_00_Prefab_a5b2.logic.module.ain,
+    Path: _71bb/AiGroup, Reference: !ul 7035211716250984833}
+  - {Id: Enemy_PhantomGanonHorse_Dictionary_9983, Path: Enemy_PhantomGanonHorse_Dictionary_9983,
+    Reference: !ul 11544433408017924171}
+  - {Id: Enemy_DungeonBoss_Volvagia_Dictionary_db07, Path: Enemy_DungeonBoss_Volvagia_Dictionary_db07,
+    Reference: !ul 12679611193182783006}
+  - {Id: Enemy_DungeonBoss_PhantomGanon_Dictionary_19a0, Path: Enemy_DungeonBoss_PhantomGanon_Dictionary_19a0,
+    Reference: !ul 13660893828419832198}
+  - {Id: Land_Dream_EnemyPedestalPlate_03_a4ae, Path: Land_Dream_EnemyPedestalPlate_03_a4ae,
+    Reference: !ul 16241583359334470576}
+  - {Id: Land_Dream_EnemyPedestalPlate_03_e7af, Path: Land_Dream_EnemyPedestalPlate_03_e7af,
+    Reference: !ul 10344289176655942580}
+  - {Id: Land_Dream_EnemyPedestalPlate_03_272c, Path: Land_Dream_EnemyPedestalPlate_03_272c,
+    Reference: !ul 4475943513313398336}
+  - {Id: Enemy_DungeonBoss_Morpha_Tentacle_Dictionary_595b, Path: Enemy_DungeonBoss_Morpha_Tentacle_Dictionary_595b,
+    Reference: !ul 14039311624461008705}
+  - {Id: Enemy_DungeonBoss_Morpha_Dictionary_790c, Path: Enemy_DungeonBoss_Morpha_Dictionary_790c,
+    Reference: !ul 15856442911347786362}
+  - {Id: Enemy_Scrub_Business_Leaf_b4bb, Path: _94e4/_a941/Enemy_Scrub_Business_Leaf_b4bb,
+    Reference: !ul 799473170453728743}
+  - {Id: Enemy_Scrub_Business_036d, Path: _94e4/_a941/_b663/Enemy_Scrub_Business_036d,
+    Reference: !ul 7111563862361837355}
+  - {Id: Enemy_Scrub_Business_Leaf_75f4, Path: _94e4/_a941/_b663/Enemy_Scrub_Business_Leaf_75f4,
+    Reference: !ul 6998144068656812232}
+  - {Id: AiGroup, InstanceName: Enemy_Scrub_Business_Set_01_d7f2_9399, Logic: Logic/Module/Enemy_Scrub_Business_Set_01/Enemy_Scrub_Business_Set_01_d7f2.logic.module.ain,
+    Path: _94e4/_a941/_b663/AiGroup, Reference: !ul 5751226599016977733}
+  - {Id: AiGroup, InstanceName: Enemy_Scrub_Business_Dream_01_cd6f_2703, Logic: Logic/Module/Enemy_Scrub_Business_Dream_01/Enemy_Scrub_Business_Dream_01_cd6f.logic.module.ain,
+    Path: _94e4/_a941/AiGroup, Reference: !ul 9857134018369893177}
+  - {Id: Enemy_Scrub_Business_Leaf_d461, Path: _94e4/_bb2b/Enemy_Scrub_Business_Leaf_d461,
+    Reference: !ul 7088760330487689794}
+  - {Id: Enemy_Scrub_Business_036d, Path: _94e4/_bb2b/_580f/Enemy_Scrub_Business_036d,
+    Reference: !ul 5487387410159587118}
+  - {Id: Enemy_Scrub_Business_Leaf_75f4, Path: _94e4/_bb2b/_580f/Enemy_Scrub_Business_Leaf_75f4,
+    Reference: !ul 3727598801386756621}
+  - {Id: AiGroup, InstanceName: Enemy_Scrub_Business_Set_01_d7f2_737d, Logic: Logic/Module/Enemy_Scrub_Business_Set_01/Enemy_Scrub_Business_Set_01_d7f2.logic.module.ain,
+    Path: _94e4/_bb2b/_580f/AiGroup, Reference: !ul 7584099076094068118}
+  - {Id: AiGroup, InstanceName: Enemy_Scrub_Business_Dream_00_04b9_ed34, Logic: Logic/Module/Enemy_Scrub_Business_Dream_00/Enemy_Scrub_Business_Dream_00_04b9.logic.module.ain,
+    Path: _94e4/_bb2b/AiGroup, Reference: !ul 18304435249290141243}
+  - {Id: Obj_TBox_A_01_d1ab, Path: _94e4/Obj_TBox_A_01_d1ab, Reference: !ul 3522439980243161940}
+  - {Id: Enemy_Scrub_Business_Leaf_d461, Path: _94e4/_3007/Enemy_Scrub_Business_Leaf_d461,
+    Reference: !ul 1939237014558058534}
+  - {Id: Enemy_Scrub_Business_036d, Path: _94e4/_3007/_cceb/Enemy_Scrub_Business_036d,
+    Reference: !ul 4880259336453891282}
+  - {Id: Enemy_Scrub_Business_Leaf_75f4, Path: _94e4/_3007/_cceb/Enemy_Scrub_Business_Leaf_75f4,
+    Reference: !ul 920457332436043542}
+  - {Id: AiGroup, InstanceName: Enemy_Scrub_Business_Set_01_d7f2_737d, Logic: Logic/Module/Enemy_Scrub_Business_Set_01/Enemy_Scrub_Business_Set_01_d7f2.logic.module.ain,
+    Path: _94e4/_3007/_cceb/AiGroup, Reference: !ul 7929638184703535757}
+  - {Id: AiGroup, InstanceName: Enemy_Scrub_Business_Dream_00_04b9_dbd6, Logic: Logic/Module/Enemy_Scrub_Business_Dream_00/Enemy_Scrub_Business_Dream_00_04b9.logic.module.ain,
+    Path: _94e4/_3007/AiGroup, Reference: !ul 14358412382826389513}
+  - {Id: AiGroup, InstanceName: HidingHole_Dream_00_Prefab_a5b2_f263, Logic: Logic/Module/HidingHole_Dream_00_Prefab/HidingHole_Dream_00_Prefab_a5b2.logic.module.ain,
+    Path: _94e4/AiGroup, Reference: !ul 8963678472690604779}
+- Hash: !ul 16497531029384295651
+  Logic: Logic/Root/BossRushIntervalRoom/BossRushIntervalRoom_2bb7.logic.root.ain
+  References:
+  - {Id: NaviAreaHintEventActor_0d79, Path: NaviAreaHintEventActor_0d79, Reference: !ul 5024237952884877076}
+  - {Id: Area_b76c, Path: Area_b76c, Reference: !ul 13980149711183394657}
+FarDeleteGroups:
+- [!ul 47907220166563397, !ul 936519273937635866, !ul 1984761918761887649, !ul 2586492480413777306,
+  !ul 2854211238375368215, !ul 3298212020669813260, !ul 3476856502693317145, !ul 3854688847111568763,
+  !ul 4037813362307889102, !ul 4612245259727296745, !ul 4674392672323926350, !ul 5842539133075689752,
+  !ul 6459820369809156649, !ul 6780532295040437798, !ul 6920458325113655443, !ul 7346745174625046398,
+  !ul 7458365564915336038, !ul 7726868997538364231, !ul 7788685138302461547, !ul 8201291275328629548,
+  !ul 8299742095476007146, !ul 8699549070219661317, !ul 8813359509638530114, !ul 9280634782853514729,
+  !ul 9306890943293439030, !ul 9532367146766754311, !ul 9947351236862205040, !ul 10339132869884073711,
+  !ul 10557494758378864579, !ul 10719319909239998755, !ul 11192593209286237028, !ul 12119044254346830895,
+  !ul 12232809552265217868, !ul 12368502380890655241, !ul 12727882619733724869, !ul 12786016605514558497,
+  !ul 13058599617529768417, !ul 13318159107603756213, !ul 13347762629618360331, !ul 13371530187366866195,
+  !ul 13549232334162953604, !ul 13861766751611875615, !ul 14016446905325653814, !ul 15066390631441652636,
+  !ul 15388037838554474192, !ul 15728086910025589774, !ul 16583317756334809420, !ul 16816367850302556717,
+  !ul 16920430673386189865, !ul 17122605129698156865, !ul 17438343949261592844, !ul 18120346814260264503,
+  !ul 18398737672658144951]
+- [!ul 714793171056965536, !ul 1192580205843844794, !ul 2029642893281143234, !ul 2365036819279686131,
+  !ul 2415744806966088174, !ul 2771337889903133416, !ul 3378882435079862073, !ul 3733323081890313573,
+  !ul 4049135373926862515, !ul 6109662415107897586, !ul 6452979286927095228, !ul 6636650772312998083,
+  !ul 7234638808238324101, !ul 7589985979641292928, !ul 8235493189275128485, !ul 8611487545320332779,
+  !ul 8858981201188841421, !ul 8937216721625292255, !ul 9063056136570470566, !ul 9171488340333101535,
+  !ul 9923786537124407828, !ul 10389660471903520136, !ul 10483048461584193372, !ul 10960205823204645592,
+  !ul 11149362225020813555, !ul 11312769825361895486, !ul 11815162303205742822, !ul 11831190685037554094,
+  !ul 12348001881738527373, !ul 13225441039464943861, !ul 13909917191732498932, !ul 14427897085496485875,
+  !ul 14525285585422918954, !ul 14552048162783827798, !ul 14614618685639029777, !ul 14618027811648608213,
+  !ul 15858708076894317041, !ul 17394792496485638098, !ul 18441276947439724500]
+- [!ul 566103236844767323, !ul 647935916374860458, !ul 799473170453728743, !ul 806306469963545866,
+  !ul 841897315102648218, !ul 920457332436043542, !ul 1174005241599318270, !ul 1202279058548905303,
+  !ul 1299110288397488106, !ul 1349106469915685550, !ul 1894901536010133770, !ul 1939237014558058534,
+  !ul 2495319958623764728, !ul 2522825604004955549, !ul 3522439980243161940, !ul 3727598801386756621,
+  !ul 4475943513313398336, !ul 4529748032854378492, !ul 4880259336453891282, !ul 5335420137275360230,
+  !ul 5487387410159587118, !ul 6998144068656812232, !ul 7088760330487689794, !ul 7111563862361837355,
+  !ul 8166106286463476423, !ul 8308133463996200237, !ul 8346509435886545225, !ul 8444590707700336561,
+  !ul 8766291445951268906, !ul 10344289176655942580, !ul 10668849733012173071, !ul 10713153038780806065,
+  !ul 11544433408017924171, !ul 12679611193182783006, !ul 13660893828419832198, !ul 14039311624461008705,
+  !ul 15856442911347786362, !ul 16241583359334470576]
+- [!ul 42618956329583795, !ul 692693884620914508, !ul 1216643622029091850, !ul 1230644618150408454,
+  !ul 3285740031366395287, !ul 3376318262346147271, !ul 3455564479595541119, !ul 4968647583971929973,
+  !ul 6895236164761853696, !ul 7333200007615362487, !ul 8557010422892223729, !ul 8946540120070849930,
+  !ul 9156611382680735393, !ul 10769049568158740127, !ul 11124278227141937473, !ul 12224987448408407651,
+  !ul 12696097600104199506, !ul 13998883818525497296, !ul 14024770474908351875, !ul 14174176080039028585,
+  !ul 15249426609469292910, !ul 16712182939351247826]
+- [!ul 134345671005855250, !ul 2619927700155731112, !ul 3057916643740285305, !ul 3964388871771698997,
+  !ul 4387044942071812216, !ul 4531375951209093774, !ul 5199496001357621728, !ul 5637340224549884617,
+  !ul 5755911784552097851, !ul 8108131267623814219, !ul 8808722743098150400, !ul 9030176730517600378,
+  !ul 10087816712000079328, !ul 11355598864399974854, !ul 13148597292794086468, !ul 13573358344032596095,
+  !ul 14584526487217666741, !ul 16554249012683624075, !ul 17550925572288096641, !ul 17657913528718374227]
+- [!ul 1766356444594594063, !ul 2901931043074610839, !ul 5217496963147980554, !ul 11902863110800134218,
+  !ul 13515345822217890736]
+- [!ul 6689636081757075351, !ul 7081339672527653556, !ul 7232862877236313947]
+- [!ul 5024237952884877076, !ul 13980149711183394657]
+FilePath: Work/Banc/Scene/DreamWorld/BossRushIntervalRoom.bcett.json
+PhiveHeader:
+  PlacementGroups: []
+SimultaneousGroups:
+- [!ul 47907220166563397, !ul 936519273937635866, !ul 1984761918761887649, !ul 2586492480413777306,
+  !ul 2854211238375368215, !ul 3298212020669813260, !ul 3476856502693317145, !ul 3854688847111568763,
+  !ul 4037813362307889102, !ul 4612245259727296745, !ul 4674392672323926350, !ul 5842539133075689752,
+  !ul 6459820369809156649, !ul 6780532295040437798, !ul 6920458325113655443, !ul 7346745174625046398,
+  !ul 7458365564915336038, !ul 7726868997538364231, !ul 7788685138302461547, !ul 8201291275328629548,
+  !ul 8299742095476007146, !ul 8699549070219661317, !ul 8813359509638530114, !ul 9280634782853514729,
+  !ul 9306890943293439030, !ul 9532367146766754311, !ul 9947351236862205040, !ul 10339132869884073711,
+  !ul 10557494758378864579, !ul 10719319909239998755, !ul 11192593209286237028, !ul 12119044254346830895,
+  !ul 12232809552265217868, !ul 12368502380890655241, !ul 12727882619733724869, !ul 12786016605514558497,
+  !ul 13058599617529768417, !ul 13318159107603756213, !ul 13347762629618360331, !ul 13371530187366866195,
+  !ul 13549232334162953604, !ul 13861766751611875615, !ul 14016446905325653814, !ul 15066390631441652636,
+  !ul 15388037838554474192, !ul 15728086910025589774, !ul 16583317756334809420, !ul 16816367850302556717,
+  !ul 16920430673386189865, !ul 17122605129698156865, !ul 17438343949261592844, !ul 18120346814260264503,
+  !ul 18398737672658144951]
+- [!ul 714793171056965536, !ul 1192580205843844794, !ul 2029642893281143234, !ul 2365036819279686131,
+  !ul 2415744806966088174, !ul 2771337889903133416, !ul 3378882435079862073, !ul 3733323081890313573,
+  !ul 4049135373926862515, !ul 6109662415107897586, !ul 6452979286927095228, !ul 6636650772312998083,
+  !ul 7234638808238324101, !ul 7589985979641292928, !ul 8235493189275128485, !ul 8611487545320332779,
+  !ul 8858981201188841421, !ul 8937216721625292255, !ul 9063056136570470566, !ul 9171488340333101535,
+  !ul 9923786537124407828, !ul 10389660471903520136, !ul 10483048461584193372, !ul 10960205823204645592,
+  !ul 11149362225020813555, !ul 11312769825361895486, !ul 11815162303205742822, !ul 11831190685037554094,
+  !ul 12348001881738527373, !ul 13225441039464943861, !ul 13909917191732498932, !ul 14427897085496485875,
+  !ul 14525285585422918954, !ul 14552048162783827798, !ul 14614618685639029777, !ul 14618027811648608213,
+  !ul 15858708076894317041, !ul 17394792496485638098, !ul 18441276947439724500]
+- [!ul 566103236844767323, !ul 647935916374860458, !ul 799473170453728743, !ul 806306469963545866,
+  !ul 841897315102648218, !ul 920457332436043542, !ul 1174005241599318270, !ul 1202279058548905303,
+  !ul 1299110288397488106, !ul 1349106469915685550, !ul 1894901536010133770, !ul 1939237014558058534,
+  !ul 2495319958623764728, !ul 2522825604004955549, !ul 3522439980243161940, !ul 3727598801386756621,
+  !ul 4475943513313398336, !ul 4529748032854378492, !ul 4880259336453891282, !ul 5335420137275360230,
+  !ul 5487387410159587118, !ul 6998144068656812232, !ul 7088760330487689794, !ul 7111563862361837355,
+  !ul 8166106286463476423, !ul 8308133463996200237, !ul 8346509435886545225, !ul 8444590707700336561,
+  !ul 8766291445951268906, !ul 10344289176655942580, !ul 10668849733012173071, !ul 10713153038780806065,
+  !ul 11544433408017924171, !ul 12679611193182783006, !ul 13660893828419832198, !ul 14039311624461008705,
+  !ul 15856442911347786362, !ul 16241583359334470576]
+- [!ul 42618956329583795, !ul 692693884620914508, !ul 1216643622029091850, !ul 1230644618150408454,
+  !ul 3285740031366395287, !ul 3376318262346147271, !ul 3455564479595541119, !ul 4968647583971929973,
+  !ul 6895236164761853696, !ul 7333200007615362487, !ul 8557010422892223729, !ul 8946540120070849930,
+  !ul 9156611382680735393, !ul 10769049568158740127, !ul 11124278227141937473, !ul 12224987448408407651,
+  !ul 12696097600104199506, !ul 13998883818525497296, !ul 14024770474908351875, !ul 14174176080039028585,
+  !ul 15249426609469292910, !ul 16712182939351247826]
+- [!ul 134345671005855250, !ul 2619927700155731112, !ul 3057916643740285305, !ul 3964388871771698997,
+  !ul 4387044942071812216, !ul 4531375951209093774, !ul 5199496001357621728, !ul 5637340224549884617,
+  !ul 5755911784552097851, !ul 8108131267623814219, !ul 8808722743098150400, !ul 9030176730517600378,
+  !ul 10087816712000079328, !ul 11355598864399974854, !ul 13148597292794086468, !ul 13573358344032596095,
+  !ul 14584526487217666741, !ul 16554249012683624075, !ul 17550925572288096641, !ul 17657913528718374227]
+- [!ul 1766356444594594063, !ul 2901931043074610839, !ul 5217496963147980554, !ul 11902863110800134218,
+  !ul 13515345822217890736]
+- [!ul 6689636081757075351, !ul 7081339672527653556, !ul 7232862877236313947]
+- [!ul 5024237952884877076, !ul 13980149711183394657]

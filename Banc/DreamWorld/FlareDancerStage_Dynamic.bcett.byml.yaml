@@ -1,0 +1,793 @@
+Actors:
+- Bakeable: true
+  Gyaml: Land_FireTemple_24_Floor_A_01
+  Hash: !ul 7903792930592243045
+  Phive:
+    Placement: {ID: !ul 7903792930592243045}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x9b56eb19
+  Translate: [-71.92250061035156, 148.0, 2.3524999618530273]
+- Bakeable: true
+  Gyaml: Land_FireTemple_24_Center_A_01
+  Hash: !ul 14719002681810740836
+  Phive:
+    Placement: {ID: !ul 14719002681810740836}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x5c66a9a8
+  Translate: [-71.9384994506836, 148.0, 2.3524999618530273]
+- Bakeable: true
+  Gyaml: Land_FireTemple_24_Ceiling_A_01
+  Hash: !ul 15233924485450800567
+  Phive:
+    Placement: {ID: !ul 15233924485450800567}
+  SRTHash: !u 0xc2c6ca25
+  Translate: [-71.92250061035156, 160.63624572753906, 2.3524999618530273]
+- Bakeable: true
+  Gyaml: Land_FireTemple_24_Pillar_A_01
+  Hash: !ul 15208075497498525137
+  Phive:
+    Placement: {ID: !ul 15208075497498525137}
+  Rotate: [0.0, -0.3490658402442932, 0.0]
+  SRTHash: !u 0x423e621e
+  Translate: [-67.75395202636719, 148.0, -8.900199890136719]
+- Bakeable: true
+  Gyaml: Land_FireTemple_24_Pillar_A_01
+  Hash: !ul 4230372789810717633
+  Phive:
+    Placement: {ID: !ul 4230372789810717633}
+  Rotate: [0.0, -1.1344640254974365, 0.0]
+  SRTHash: !u 0x28ebc21f
+  Translate: [-61.018028259277344, 148.0, -2.656740188598633]
+- Bakeable: true
+  Gyaml: Land_FireTemple_24_Pillar_A_01
+  Hash: !ul 11247958169722933398
+  Phive:
+    Placement: {ID: !ul 11247958169722933398}
+  Rotate: [3.1415927410125732, -1.2217305898666382, 3.1415927410125732]
+  SRTHash: !u 0x656c3abe
+  Translate: [-60.6697998046875, 148.0, 6.521049976348877]
+- Bakeable: true
+  Gyaml: Land_FireTemple_24_Pillar_A_01
+  Hash: !ul 11969342002660692743
+  Phive:
+    Placement: {ID: !ul 11969342002660692743}
+  Rotate: [3.1415927410125732, -0.4363323152065277, 3.1415927410125732]
+  SRTHash: !u 0xccc1a3ff
+  Translate: [-66.91326141357422, 148.0, 13.256970405578613]
+- Bakeable: true
+  Gyaml: Land_FireTemple_24_Pillar_A_01
+  Hash: !ul 17140217651900173583
+  Phive:
+    Placement: {ID: !ul 17140217651900173583}
+  Rotate: [3.1415927410125732, 0.3490659296512604, 3.1415927410125732]
+  SRTHash: !u 0x61f11067
+  Translate: [-76.09105682373047, 148.0, 13.605199813842773]
+- Bakeable: true
+  Gyaml: Land_FireTemple_24_Pillar_A_01
+  Hash: !ul 3707828571045386442
+  Phive:
+    Placement: {ID: !ul 3707828571045386442}
+  Rotate: [3.1415927410125732, 1.134463906288147, 3.1415927410125732]
+  SRTHash: !u 0xe5d234f1
+  Translate: [-82.82697296142578, 148.0, 7.3617401123046875]
+- Bakeable: true
+  Gyaml: Land_FireTemple_24_Pillar_A_01
+  Hash: !ul 18203300477867914199
+  Phive:
+    Placement: {ID: !ul 18203300477867914199}
+  Rotate: [0.0, 1.2217304706573486, 0.0]
+  SRTHash: !u 0x069bfe8b
+  Translate: [-83.17520141601562, 148.0, -1.8160500526428223]
+- Bakeable: true
+  Gyaml: Land_FireTemple_24_Pillar_A_01
+  Hash: !ul 6958998153676357120
+  Phive:
+    Placement: {ID: !ul 6958998153676357120}
+  Rotate: [0.0, 0.4363323450088501, 0.0]
+  SRTHash: !u 0x881b56fe
+  Translate: [-76.9317398071289, 148.0, -8.551969528198242]
+- Bakeable: true
+  Gyaml: Land_FireTemple_24_Wall_A_02
+  Hash: !ul 17762026123416882899
+  Phive:
+    Placement: {ID: !ul 17762026123416882899}
+  Rotate: [0.0, -1.5328704118728638, 0.0]
+  SRTHash: !u 0x82b721bc
+  Translate: [-59.931129455566406, 148.0, 1.8975000381469727]
+- Bakeable: true
+  Gyaml: Land_FireTemple_24_Wall_A_02
+  Hash: !ul 8507672629158750244
+  Phive:
+    Placement: {ID: !ul 8507672629158750244}
+  Rotate: [3.1415927410125732, -0.8233242630958557, 3.1415927410125732]
+  SRTHash: !u 0x467c9403
+  Translate: [-63.12158966064453, 148.0, 10.509940147399902]
+- Bakeable: true
+  Gyaml: Land_FireTemple_24_Wall_A_02
+  Hash: !ul 11316052764976134562
+  Phive:
+    Placement: {ID: !ul 11316052764976134562}
+  Rotate: [3.1415927410125732, -0.037926048040390015, 3.1415927410125732]
+  SRTHash: !u 0x081a3a73
+  Translate: [-71.46749877929688, 148.0, 14.343870162963867]
+- Bakeable: true
+  Gyaml: Land_FireTemple_24_Wall_A_02
+  Hash: !ul 10575724912337312133
+  Phive:
+    Placement: {ID: !ul 10575724912337312133}
+  Rotate: [3.1415927410125732, 0.7474722266197205, 3.1415927410125732]
+  SRTHash: !u 0xe2bf6bc9
+  Translate: [-80.07994079589844, 148.0, 11.153409957885742]
+- Bakeable: true
+  Gyaml: Land_FireTemple_24_Wall_A_02
+  Hash: !ul 16908119302882929295
+  Phive:
+    Placement: {ID: !ul 16908119302882929295}
+  Rotate: [3.1415927410125732, 1.5328702926635742, 3.1415927410125732]
+  SRTHash: !u 0x5570e130
+  Translate: [-83.91387176513672, 148.0, 2.807499885559082]
+- Bakeable: true
+  Gyaml: Land_FireTemple_24_Wall_A_02
+  Hash: !ul 10413907345746378712
+  Phive:
+    Placement: {ID: !ul 10413907345746378712}
+  Rotate: [0.0, 0.8233242034912109, 0.0]
+  SRTHash: !u 0x49b607b6
+  Translate: [-80.7234115600586, 148.0, -5.804940223693848]
+- Bakeable: true
+  Gyaml: Land_FireTemple_24_Wall_A_02
+  Hash: !ul 11239002553215080391
+  Phive:
+    Placement: {ID: !ul 11239002553215080391}
+  Rotate: [0.0, 0.03792601078748703, 0.0]
+  SRTHash: !u 0xa25fbd12
+  Translate: [-72.37750244140625, 148.01522827148438, -9.638870239257812]
+- Bakeable: true
+  Gyaml: Land_FireTemple_03_Base_A_01
+  Hash: !ul 316478249308033667
+  Phive:
+    Placement: {ID: !ul 316478249308033667}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x9b56eb19
+  Translate: [-71.92250061035156, 148.0, 2.3524999618530273]
+- Bakeable: true
+  Gyaml: Land_FireTemple_03_Wall_Frame_A_01
+  Hash: !ul 12763914569168222503
+  Phive:
+    Placement: {ID: !ul 12763914569168222503}
+  Rotate: [0.0, -0.7853981852531433, 0.0]
+  SRTHash: !u 0xb54bdd24
+  Translate: [-64.03600311279297, 147.99908447265625, -6.4770002365112305]
+- Bakeable: true
+  Gyaml: Land_FireTemple_18_Wall_A_05
+  Hash: !ul 2997229748055428918
+  Phive:
+    Placement: {ID: !ul 2997229748055428918}
+  Rotate: [0.0, -0.7853981852531433, 0.0]
+  SRTHash: !u 0xbdd149cd
+  Translate: [-64.25625610351562, 148.0, -6.0239410400390625]
+- Gyaml: StartPos
+  Hash: !ul 13431741862618581719
+  Name: StartPos_SubEvent_AllBossBattle
+  Phive:
+    Placement: {ID: !ul 13431741862618581719}
+  Rotate: [0.0, -0.7853981852531433, 0.0]
+  SRTHash: !u 0xfc127c71
+  Translate: [-66.62061309814453, 148.0, -3.8723130226135254]
+- Gyaml: StartPos
+  Hash: !ul 8358864910357671993
+  Name: FlareDancerStage
+  Phive:
+    Placement: {ID: !ul 8358864910357671993}
+  Rotate: [0.0, -0.7853981852531433, 0.0]
+  SRTHash: !u 0xfc127c71
+  Translate: [-66.62062072753906, 148.0, -3.8723111152648926]
+- Bakeable: true
+  Gyaml: Land_FireTemple_12_Ceiling_A_01
+  Hash: !ul 2228375948303109594
+  Phive:
+    Placement: {ID: !ul 2228375948303109594}
+  SRTHash: !u 0x04ff4c0d
+  Translate: [-69.0, 174.5, 6.0]
+- Bakeable: true
+  Gyaml: Land_FireTemple_12_Gate_A_01
+  Hash: !ul 7172885879899143817
+  Phive:
+    Placement: {ID: !ul 7172885879899143817}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xf85e6f0c
+  Translate: [-67.34870147705078, 174.5, 2.4564099311828613]
+- Gyaml: Land_FireTemple_12_Wall_B_01
+  Hash: !ul 12721756003395829470
+  Phive:
+    Placement: {ID: !ul 12721756003395829470}
+  SRTHash: !u 0x4eae9c6f
+  Translate: [-69.80699920654297, 182.1479949951172, -2.094005584716797]
+- Gyaml: Land_FireTemple_12_Wall_B_02
+  Hash: !ul 3246866101247085059
+  Phive:
+    Placement: {ID: !ul 3246866101247085059}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x5fd708c6
+  Translate: [-66.95500183105469, 174.5, 11.093997955322266]
+- Bakeable: true
+  Gyaml: Land_FireTemple_12_Wall_A_02
+  Hash: !ul 8051239463149286764
+  Phive:
+    Placement: {ID: !ul 8051239463149286764}
+  SRTHash: !u 0x04ff4c0d
+  Translate: [-69.0, 174.5, 6.0]
+- Bakeable: true
+  Gyaml: Land_FireTemple_00_Pillar_A_09
+  Hash: !ul 10496119844039858105
+  Phive:
+    Placement: {ID: !ul 10496119844039858105}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x2b2e36d2
+  Translate: [-62.05500030517578, 171.27999877929688, 14.617194175720215]
+- Bakeable: true
+  Gyaml: Land_FireTemple_00_Pillar_A_09
+  Hash: !ul 12028161740166078410
+  Phive:
+    Placement: {ID: !ul 12028161740166078410}
+  SRTHash: !u 0xfe63e6ba
+  Translate: [-67.39675903320312, 173.89999389648438, 13.847599983215332]
+- Bakeable: true
+  Gyaml: Land_FireTemple_00_Pillar_A_09
+  Hash: !ul 10267006803152959945
+  Phive:
+    Placement: {ID: !ul 10267006803152959945}
+  SRTHash: !u 0x8cbe0d8f
+  Translate: [-67.43112182617188, 173.77023315429688, -1.9079461097717285]
+- Bakeable: true
+  Gyaml: Land_FireTemple_00_Pillar_A_09
+  Hash: !ul 8519948138322061134
+  Phive:
+    Placement: {ID: !ul 8519948138322061134}
+  SRTHash: !u 0x64a19b40
+  Translate: [-61.932167053222656, 170.84646606445312, -1.9079461097717285]
+- Bakeable: true
+  Gyaml: Land_FireTemple_00_Wall_A_06
+  Hash: !ul 4842274351040205818
+  Phive:
+    Placement: {ID: !ul 4842274351040205818}
+  SRTHash: !u 0x8a213732
+  Translate: [-63.91579818725586, 174.53318786621094, -1.8499999046325684]
+- Bakeable: true
+  Gyaml: Land_FireTemple_00_Wall_A_06
+  Hash: !ul 12142727849608624752
+  Phive:
+    Placement: {ID: !ul 12142727849608624752}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xb2d78121
+  Translate: [-67.31047821044922, 174.53318786621094, -3.775670051574707]
+- Bakeable: true
+  Gyaml: Land_FireTemple_00_Wall_A_06
+  Hash: !ul 8240835172246843343
+  Phive:
+    Placement: {ID: !ul 8240835172246843343}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x92e98c7c
+  Translate: [-67.30195617675781, 174.53318786621094, 8.693062782287598]
+- Bakeable: true
+  Gyaml: Land_FireTemple_00_Pillar_A_10
+  Hash: !ul 11419268511126126077
+  Phive:
+    Placement: {ID: !ul 11419268511126126077}
+  SRTHash: !u 0xa4277ec7
+  Translate: [-62.05405044555664, 174.44798278808594, 14.617305755615234]
+- Bakeable: true
+  Gyaml: Land_FireTemple_00_Pillar_A_10
+  Hash: !ul 14045958865082902328
+  Phive:
+    Placement: {ID: !ul 14045958865082902328}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x9cb012e0
+  Translate: [-67.64581298828125, 174.44798278808594, 13.88759994506836]
+- Bakeable: true
+  Gyaml: Land_FireTemple_00_Pillar_A_10
+  Hash: !ul 4282411671616646728
+  Phive:
+    Placement: {ID: !ul 4282411671616646728}
+  SRTHash: !u 0xee633cf4
+  Translate: [-67.4300537109375, 174.44798278808594, -1.9079999923706055]
+- Bakeable: true
+  Gyaml: Land_FireTemple_00_Pillar_A_10
+  Hash: !ul 6283723893467305287
+  Phive:
+    Placement: {ID: !ul 6283723893467305287}
+  SRTHash: !u 0xa64f362f
+  Translate: [-61.931053161621094, 174.44798278808594, -1.9079999923706055]
+- Bakeable: true
+  Gyaml: Land_FireTemple_00_Pillar_A_09
+  Hash: !ul 1766756164646432368
+  Phive:
+    Placement: {ID: !ul 1766756164646432368}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xd324b6c7
+  Translate: [-62.05519104003906, 178.8438262939453, 18.766571044921875]
+- Bakeable: true
+  Gyaml: Land_FireTemple_00_Pillar_A_09
+  Hash: !ul 15577422690151151670
+  Phive:
+    Placement: {ID: !ul 15577422690151151670}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x57c0aac2
+  Translate: [-68.6082992553711, 179.33383178710938, 19.11487579345703]
+- Bakeable: true
+  Gyaml: Land_FireTemple_00_Pillar_A_09
+  Hash: !ul 15496118027003237249
+  Phive:
+    Placement: {ID: !ul 15496118027003237249}
+  SRTHash: !u 0x28d0e6b8
+  Translate: [-75.41192626953125, 178.5338134765625, 18.766571044921875]
+- Bakeable: true
+  Gyaml: Land_FireTemple_00_Pillar_A_09
+  Hash: !ul 10010957070803567228
+  Phive:
+    Placement: {ID: !ul 10010957070803567228}
+  SRTHash: !u 0x97cd4979
+  Translate: [-75.41192626953125, 181.55723571777344, -1.9850964546203613]
+- Bakeable: true
+  Gyaml: Land_FireTemple_00_Pillar_A_10
+  Hash: !ul 15499650359938515016
+  Phive:
+    Placement: {ID: !ul 15499650359938515016}
+  SRTHash: !u 0xd5f34630
+  Translate: [-75.98743438720703, 174.47547912597656, -1.723240852355957]
+- Bakeable: true
+  Gyaml: Land_FireTemple_00_Pillar_A_09
+  Hash: !ul 2129309449311183251
+  Phive:
+    Placement: {ID: !ul 2129309449311183251}
+  SRTHash: !u 0x99839683
+  Translate: [-75.98760223388672, 173.5702362060547, -1.72318696975708]
+- Bakeable: true
+  Gyaml: Land_FireTemple_00_Pillar_A_09
+  Hash: !ul 1381485247537866745
+  Phive:
+    Placement: {ID: !ul 1381485247537866745}
+  SRTHash: !u 0xa06a7774
+  Translate: [-61.932167053222656, 178.7778778076172, -1.9079461097717285]
+- Bakeable: true
+  Gyaml: Land_FireTemple_00_Pillar_A_10
+  Hash: !ul 2590796748432187838
+  Phive:
+    Placement: {ID: !ul 2590796748432187838}
+  SRTHash: !u 0x120c4cdd
+  Translate: [-68.16043853759766, 174.47547912597656, -1.723240852355957]
+- Bakeable: true
+  Gyaml: Land_FireTemple_00_Pillar_A_09
+  Hash: !ul 17896981844302212241
+  Phive:
+    Placement: {ID: !ul 17896981844302212241}
+  SRTHash: !u 0xb502d95e
+  Translate: [-68.16060638427734, 173.5702362060547, -1.72318696975708]
+- Bakeable: true
+  Gyaml: Land_FireTemple_00_Pillar_A_10
+  Hash: !ul 7995723330259652256
+  Phive:
+    Placement: {ID: !ul 7995723330259652256}
+  SRTHash: !u 0x32f71a85
+  Translate: [-75.98743438720703, 174.47547912597656, 6.564960956573486]
+- Bakeable: true
+  Gyaml: Land_FireTemple_00_Pillar_A_09
+  Hash: !ul 14312501575678888954
+  Phive:
+    Placement: {ID: !ul 14312501575678888954}
+  SRTHash: !u 0x2e2efeec
+  Translate: [-75.98760223388672, 173.5702362060547, 6.565014839172363]
+- Bakeable: true
+  Gyaml: Land_FireTemple_00_Pillar_A_10
+  Hash: !ul 11148241336839209670
+  Phive:
+    Placement: {ID: !ul 11148241336839209670}
+  SRTHash: !u 0x2084b7c7
+  Translate: [-68.16043853759766, 174.47547912597656, 6.564960956573486]
+- Bakeable: true
+  Gyaml: Land_FireTemple_00_Pillar_A_09
+  Hash: !ul 17538506352230386787
+  Phive:
+    Placement: {ID: !ul 17538506352230386787}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x8c868aca
+  Translate: [-68.16060638427734, 173.5702362060547, 6.565014839172363]
+- Bakeable: true
+  Gyaml: Land_FireTemple_00_Wall_A_06
+  Hash: !ul 16237903155224140405
+  Phive:
+    Placement: {ID: !ul 16237903155224140405}
+  SRTHash: !u 0xfc6ef193
+  Translate: [-71.99260711669922, 174.53318786621094, -1.5261406898498535]
+- Bakeable: true
+  Gyaml: Land_FireTemple_00_Wall_A_06
+  Hash: !ul 14721824755925577340
+  Phive:
+    Placement: {ID: !ul 14721824755925577340}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xfcc7bb6c
+  Translate: [-71.99260711669922, 174.53318786621094, 6.470386028289795]
+- Bakeable: true
+  Gyaml: Land_FireTemple_00_Wall_A_06
+  Hash: !ul 9058809995600375114
+  Phive:
+    Placement: {ID: !ul 9058809995600375114}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x3dc229fe
+  Translate: [-75.91849517822266, 174.53318786621094, 2.418006181716919]
+- Bakeable: true
+  Gyaml: Land_FireTemple_00_Wall_A_06
+  Hash: !ul 3135059129198023302
+  Phive:
+    Placement: {ID: !ul 3135059129198023302}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x0eadd46b
+  Translate: [-61.99591064453125, 174.56027221679688, 10.476205825805664]
+- Bakeable: true
+  Gyaml: Land_FireTemple_00_Wall_A_06
+  Hash: !ul 9338382421022013249
+  Phive:
+    Placement: {ID: !ul 9338382421022013249}
+  Rotate: [3.1415927410125732, -0.017453281208872795, 3.1415927410125732]
+  SRTHash: !u 0xbcb20e07
+  Translate: [-64.84175872802734, 174.53318786621094, 14.169706344604492]
+- Bakeable: true
+  Gyaml: Land_FireTemple_00_Wall_A_06
+  Hash: !ul 7529539598682030101
+  Phive:
+    Placement: {ID: !ul 7529539598682030101}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x91de9dfc
+  Translate: [-68.2178955078125, 174.53318786621094, -3.5520477294921875]
+- Bakeable: true
+  Gyaml: Land_FireTemple_00_Wall_A_06
+  Hash: !ul 10981807623666393131
+  Phive:
+    Placement: {ID: !ul 10981807623666393131}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0xb95cb769
+  Translate: [-68.17369079589844, 174.53318786621094, 8.788097381591797]
+- Bakeable: true
+  Gyaml: Land_FireTemple_12_Floor_A_01
+  Hash: !ul 5124590968091069715
+  Phive:
+    Placement: {ID: !ul 5124590968091069715}
+  SRTHash: !u 0x04ff4c0d
+  Translate: [-69.0, 174.5, 6.0]
+- Bakeable: true
+  Gyaml: Land_FireTemple_00_Wall_A_06
+  Hash: !ul 893468317589977594
+  Phive:
+    Placement: {ID: !ul 893468317589977594}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x26d2940a
+  Translate: [-61.99591064453125, 174.56027221679688, 2.4760000705718994]
+- Bakeable: true
+  Gyaml: Land_FireTemple_00_Wall_A_06
+  Hash: !ul 4581325168209781707
+  Phive:
+    Placement: {ID: !ul 4581325168209781707}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xf9a12e9c
+  Translate: [-67.30195617675781, 174.53318786621094, 16.69300079345703]
+- Bakeable: true
+  Gyaml: Land_FireTemple_Common_Curb_B_02
+  Hash: !ul 894327350028893587
+  Phive:
+    Placement: {ID: !ul 894327350028893587}
+  SRTHash: !u 0xb365517e
+  Translate: [-67.30000305175781, 181.94398498535156, 13.999199867248535]
+- Gyaml: Obj_FireTemple_CandleStick_A_03
+  Hash: !ul 14128370981140639303
+  Phive:
+    Placement: {ID: !ul 14128370981140639303}
+  SRTHash: !u 0xc9ff5a5d
+  Translate: [-72.0999984741211, 181.7826385498047, 19.0]
+- Bakeable: true
+  Gyaml: Land_FireTemple_Common_Rock_A_10
+  Hash: !ul 5179640552634457447
+  Phive:
+    Placement: {ID: !ul 5179640552634457447}
+  SRTHash: !u 0x89ed18a6
+  Translate: [-74.65151977539062, 174.51400756835938, 5.890115737915039]
+- Bakeable: true
+  Gyaml: Land_FireTemple_Common_Rock_A_10
+  Hash: !ul 7061940982830969323
+  Phive:
+    Placement: {ID: !ul 7061940982830969323}
+  Rotate: [3.1415927410125732, 0.7853981852531433, 3.1415927410125732]
+  SRTHash: !u 0xbf7a5f71
+  Translate: [-67.12779998779297, 174.5, 6.723402500152588]
+- Bakeable: true
+  Gyaml: Land_FireTemple_Common_Rock_A_04
+  Hash: !ul 12562567760272284379
+  Phive:
+    Placement: {ID: !ul 12562567760272284379}
+  Rotate: [-3.141592502593994, -0.7345418334007263, -3.141592502593994]
+  SRTHash: !u 0x95d87b44
+  Translate: [-74.60298156738281, 182.1320037841797, -1.0967273712158203]
+- Bakeable: true
+  Gyaml: Land_FireTemple_Common_Curb_B_01
+  Hash: !ul 3152728744899072729
+  Phive:
+    Placement: {ID: !ul 3152728744899072729}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x05d009bd
+  Translate: [-67.19999694824219, 182.0, 3.0754048824310303]
+- Bakeable: true
+  Gyaml: Land_FireTemple_Common_Curb_B_02
+  Hash: !ul 5554535619641737232
+  Phive:
+    Placement: {ID: !ul 5554535619641737232}
+  SRTHash: !u 0x774340d1
+  Translate: [-62.21722412109375, 179.5177001953125, 14.500000953674316]
+- Gyaml: Obj_FireTemple_CandleStick_A_03
+  Hash: !ul 9702264131140255053
+  Phive:
+    Placement: {ID: !ul 9702264131140255053}
+  SRTHash: !u 0xde9b13a6
+  Translate: [-65.30000305175781, 181.7826385498047, 19.0]
+- Bakeable: true
+  Gyaml: Land_FireTemple_Common_Curb_A_04
+  Hash: !ul 15685301271896499538
+  Phive:
+    Placement: {ID: !ul 15685301271896499538}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x0b35954b
+  Translate: [-65.76722717285156, 179.5177001953125, 14.300000190734863]
+- Bakeable: true
+  Gyaml: Land_FireTemple_Common_Rock_A_04
+  Hash: !ul 8861922182259732880
+  Phive:
+    Placement: {ID: !ul 8861922182259732880}
+  Rotate: [0.0, -0.7853981852531433, 0.0]
+  SRTHash: !u 0x64b3c60c
+  Translate: [-63.49127197265625, 174.5, -0.7649030685424805]
+- Bakeable: true
+  Gyaml: Land_FireTemple_Common_Curb_A_02
+  Hash: !ul 3304792666743578277
+  Phive:
+    Placement: {ID: !ul 3304792666743578277}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x6c84de8b
+  Translate: [-63.967227935791016, 179.5177001953125, 14.300000190734863]
+- Bakeable: true
+  Gyaml: Land_FireTemple_Common_Rock_A_10
+  Hash: !ul 4181605960372994709
+  Phive:
+    Placement: {ID: !ul 4181605960372994709}
+  SRTHash: !u 0x21ba44f8
+  Translate: [-62.92780303955078, 174.5, 12.823402404785156]
+- Bakeable: true
+  Gyaml: Land_FireTemple_Common_Rock_A_04
+  Hash: !ul 10893985822150332877
+  Phive:
+    Placement: {ID: !ul 10893985822150332877}
+  Rotate: [3.1415927410125732, 0.33893194794654846, 3.1415927410125732]
+  SRTHash: !u 0xc93251f8
+  Translate: [-72.56117248535156, 174.5, -1.7389955520629883]
+- Bakeable: true
+  Gyaml: Land_FireTemple_Common_Curb_B_01
+  Hash: !ul 2444610816922774826
+  Phive:
+    Placement: {ID: !ul 2444610816922774826}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x4c83abc7
+  Translate: [-67.19999694824219, 182.0, -1.1245932579040527]
+- Bakeable: true
+  Gyaml: Land_FireTemple_Common_Curb_B_01
+  Hash: !ul 13953546610492827259
+  Phive:
+    Placement: {ID: !ul 13953546610492827259}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xdfe8b79e
+  Translate: [-67.19999694824219, 182.0, 7.275405406951904]
+- Bakeable: true
+  Gyaml: Land_FireTemple_Common_Wall_A_11
+  Hash: !ul 1024002719156391544
+  Phive:
+    Placement: {ID: !ul 1024002719156391544}
+  Rotate: [-0.48703357577323914, -0.8111556172370911, -3.000303030014038]
+  SRTHash: !u 0xadddc17c
+  Translate: [-75.07257843017578, 184.8428955078125, -1.6557164192199707]
+- Bakeable: true
+  Gyaml: Land_FireTemple_Common_Curb_B_01
+  Hash: !ul 17214542100308143061
+  Phive:
+    Placement: {ID: !ul 17214542100308143061}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x3c0f1f9a
+  Translate: [-67.19999694824219, 182.0, 11.475406646728516]
+- Bakeable: true
+  Gyaml: Land_FireTemple_Common_Ground_A_02
+  Hash: !ul 15785838397962576130
+  Phive:
+    Placement: {ID: !ul 15785838397962576130}
+  SRTHash: !u 0xa0784c2b
+  Translate: [-67.50983428955078, 179.6300048828125, 14.891240119934082]
+- Bakeable: true
+  Gyaml: Land_FireTemple_00_Pillar_A_09
+  Hash: !ul 636040623402170034
+  Phive:
+    Placement: {ID: !ul 636040623402170034}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xa2c8b97e
+  Translate: [-75.3067626953125, 173.85000610351562, 13.957602500915527]
+- Bakeable: true
+  Gyaml: Land_FireTemple_Common_Curb_B_02
+  Hash: !ul 3507828499521944907
+  Phive:
+    Placement: {ID: !ul 3507828499521944907}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x4566948f
+  Translate: [-75.18000030517578, 181.94398498535156, 14.05920124053955]
+- Bakeable: true
+  Gyaml: Land_FireTemple_Common_Curb_A_02
+  Hash: !ul 9151558548743355358
+  Phive:
+    Placement: {ID: !ul 9151558548743355358}
+  SRTHash: !u 0xc82459ee
+  Translate: [-69.05000305175781, 181.97500610351562, 14.199999809265137]
+- Bakeable: true
+  Gyaml: Land_FireTemple_Common_Rock_A_04
+  Hash: !ul 15227320349733485591
+  Phive:
+    Placement: {ID: !ul 15227320349733485591}
+  Rotate: [1.4209703207015991, -1.0406440496444702, -1.3103070259094238]
+  SRTHash: !u 0xa0e3edcd
+  Translate: [-73.89677429199219, 179.86228942871094, 13.337203979492188]
+- Bakeable: true
+  Gyaml: Land_FireTemple_Common_Rock_A_10
+  Hash: !ul 5390528324164716622
+  Phive:
+    Placement: {ID: !ul 5390528324164716622}
+  Rotate: [0.5235987305641174, -0.0, 0.0]
+  SRTHash: !u 0x10b0fa5f
+  Translate: [-72.76803588867188, 179.10272216796875, 14.390035629272461]
+- Bakeable: true
+  Gyaml: Land_FireTemple_Common_Ground_A_01
+  Hash: !ul 5767980149754043951
+  Phive:
+    Placement: {ID: !ul 5767980149754043951}
+  Rotate: [0.3434963822364807, 0.34768185019493103, -0.03171152621507645]
+  SRTHash: !u 0x87f64c24
+  Translate: [-74.80936431884766, 178.9855499267578, 14.632880210876465]
+- Bakeable: true
+  Gyaml: Land_FireTemple_Common_Ground_A_02
+  Hash: !ul 15986749595601988802
+  Phive:
+    Placement: {ID: !ul 15986749595601988802}
+  Rotate: [0.17453300952911377, -0.0, -0.08726640045642853]
+  SRTHash: !u 0x0b3f3cad
+  Translate: [-74.6907958984375, 178.7730712890625, 14.764310836791992]
+- Bakeable: true
+  Gyaml: Land_FireTemple_Common_Ground_A_02
+  Hash: !ul 3853174265112087875
+  Phive:
+    Placement: {ID: !ul 3853174265112087875}
+  Rotate: [0.08726643770933151, -0.0, 0.0]
+  SRTHash: !u 0x74ac6750
+  Translate: [-73.35081481933594, 178.68307495117188, 15.14745807647705]
+- Bakeable: true
+  Gyaml: Land_FireTemple_Common_Ground_A_02
+  Hash: !ul 13030038441088917896
+  Phive:
+    Placement: {ID: !ul 13030038441088917896}
+  Rotate: [0.5061454176902771, -0.0, 0.0]
+  SRTHash: !u 0x5abd5a07
+  Translate: [-72.76202392578125, 179.28485107421875, 14.262707710266113]
+- Bakeable: true
+  Gyaml: Land_FireTemple_Common_Ground_A_02
+  Hash: !ul 13546333144069642931
+  Phive:
+    Placement: {ID: !ul 13546333144069642931}
+  Rotate: [0.3323989510536194, 0.2798311412334442, 0.1663014441728592]
+  SRTHash: !u 0x9cad3762
+  Translate: [-71.36809539794922, 178.9199981689453, 14.619760513305664]
+- Bakeable: true
+  Gyaml: Land_FireTemple_Common_Pebble_A_05
+  Hash: !ul 11486501181802785753
+  Phive:
+    Placement: {ID: !ul 11486501181802785753}
+  Rotate: [-3.141592502593994, -0.0, 3.141592502593994]
+  SRTHash: !u 0x17c8a911
+  Translate: [-69.37118530273438, 179.62997436523438, 18.797866821289062]
+- Bakeable: true
+  Gyaml: Land_FireTemple_Common_Pebble_A_06
+  Hash: !ul 2300400155670000571
+  Phive:
+    Placement: {ID: !ul 2300400155670000571}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0xa17d1aa5
+  Translate: [-61.870182037353516, 179.62997436523438, 18.60285758972168]
+- Bakeable: true
+  Gyaml: Land_FireTemple_Common_Pebble_A_06
+  Hash: !ul 9681408856939247026
+  Phive:
+    Placement: {ID: !ul 9681408856939247026}
+  Rotate: [-3.141592502593994, -0.0, 3.141592502593994]
+  SRTHash: !u 0x49dcb23e
+  Translate: [-75.3161849975586, 178.674072265625, 18.69585418701172]
+- Bakeable: true
+  Gyaml: Land_FireTemple_Common_Pebble_A_06
+  Hash: !ul 17275863617151636947
+  Phive:
+    Placement: {ID: !ul 17275863617151636947}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xd0bf6e45
+  Translate: [-75.43318176269531, 178.674072265625, 15.107860565185547]
+- Bakeable: true
+  Gyaml: Land_FireTemple_Common_Pebble_A_06
+  Hash: !ul 17907088963455983879
+  Phive:
+    Placement: {ID: !ul 17907088963455983879}
+  Rotate: [-3.1361501216888428, 0.012858171947300434, -2.7411670684814453]
+  SRTHash: !u 0xaeac5864
+  Scale: [0.800000011920929, 0.800000011920929, 0.800000011920929]
+  Translate: [-72.11480712890625, 178.46575927734375, 18.73757553100586]
+- Bakeable: true
+  Gyaml: Land_FireTemple_Common_Pebble_A_05
+  Hash: !ul 16563852346082262213
+  Phive:
+    Placement: {ID: !ul 16563852346082262213}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xcfb90941
+  Translate: [-75.52802276611328, 182.15237426757812, 5.393383026123047]
+- Bakeable: true
+  Gyaml: Land_FireTemple_Common_Pebble_A_05
+  Hash: !ul 12325060696210444989
+  Phive:
+    Placement: {ID: !ul 12325060696210444989}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xca514792
+  Translate: [-75.41602325439453, 182.15338134765625, -2.2806167602539062]
+- Bakeable: true
+  Gyaml: Land_FireTemple_Common_Pebble_A_05
+  Hash: !ul 10500258657976619379
+  Phive:
+    Placement: {ID: !ul 10500258657976619379}
+  SRTHash: !u 0x31ef0706
+  Translate: [-67.29002380371094, 182.15338134765625, -2.0306215286254883]
+- Bakeable: true
+  Gyaml: Land_FireTemple_Common_Pebble_A_02
+  Hash: !ul 8371457982186745225
+  Phive:
+    Placement: {ID: !ul 8371457982186745225}
+  Rotate: [3.1415927410125732, 0.07284799218177795, 3.1415927410125732]
+  SRTHash: !u 0x23c48cb5
+  Translate: [-73.5294189453125, 182.15037536621094, 0.41698694229125977]
+- Gyaml: FldObj_AirWall_Horse_GenerateNavMesh
+  Hash: !ul 47512820496695704
+  Phive:
+    Placement: {ID: !ul 47512820496695704}
+  SRTHash: !u 0x523f9d3e
+  Scale: [0.5250523686408997, 0.12474209070205688, 0.5250523686408997]
+  Translate: [-68.75740051269531, 189.22219848632812, -1.0477566719055176]
+- Gyaml: Obj_BombFlower_A_03
+  Hash: !ul 3322290277023076755
+  Phive:
+    Placement: {ID: !ul 3322290277023076755}
+  Rotate: [0.0, 0.17453305423259735, 0.0]
+  SRTHash: !u 0x6b32cdce
+  Translate: [-76.9000015258789, 148.0, 11.40000057220459]
+- Gyaml: Obj_BombFlower_A_03
+  Hash: !ul 405583061928922088
+  Phive:
+    Placement: {ID: !ul 405583061928922088}
+  Rotate: [0.0, 0.5235987901687622, 0.0]
+  SRTHash: !u 0x4dc9bdd3
+  Translate: [-81.4351806640625, 148.0, -1.9531002044677734]
+- Gyaml: Obj_BombFlower_A_03
+  Hash: !ul 10954412516560035728
+  Phive:
+    Placement: {ID: !ul 10954412516560035728}
+  Rotate: [0.026157472282648087, 0.5210281610488892, 0.008547091856598854]
+  SRTHash: !u 0xa77ccc5c
+  Translate: [-62.51584243774414, 148.00399780273438, -2.1121749877929688]
+- Gyaml: Obj_BombFlower_A_03
+  Hash: !ul 12935279398052335342
+  Phive:
+    Placement: {ID: !ul 12935279398052335342}
+  SRTHash: !u 0x67bae515
+  Translate: [-62.00987243652344, 148.0, -0.8666043281555176]
+FilePath: Work/Banc/Scene/DreamWorld/FlareDancerStage.bcett.json

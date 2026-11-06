@@ -1,0 +1,2655 @@
+Actors:
+- Gyaml: DestinationAnchor
+  Hash: !ul 6287281383520176967
+  Name: FieldDungeonEntranceGo
+  Phive:
+    Placement: {ID: !ul 6287281383520176967}
+  Rotate: [-0.044432949274778366, 1.012242078781128, 0.0147565808147192]
+  SRTHash: !u 0xaa7d2ad4
+  Translate: [138.04946899414062, 97.31709289550781, 68.67207336425781]
+- Gyaml: Area
+  Hash: !ul 17801154711673008960
+  Phive:
+    Placement: {ID: !ul 17801154711673008960}
+  Rotate: [0.0, 1.0122909545898438, 0.0]
+  SRTHash: !u 0x29108076
+  Scale: [48.63558578491211, 6.387138366699219, 6.543846130371094]
+  Translate: [127.10665893554688, 95.05209350585938, 63.45144271850586]
+- Dynamic: {FirstEventName: Dm_SY_BancChangeGo, NextBancParamNameAdult: GerudoFortress_Adult,
+    NextBancParamNameChild: HyruleField_Child, NextEventName: Dm_SY_BancChangeArrive_GerudoFortress_02,
+    NextStartPosName: GerudoFortress_FromHountedWasteland}
+  Gyaml: FieldAndDungeonEntranceEventRequestActor
+  Hash: !ul 6480555586895679330
+  Links:
+  - {Dst: !ul 6287281383520176967, Gyaml: Reference, Name: Reference, Src: !ul 6480555586895679330}
+  - {Dst: !ul 14606539516732287513, Gyaml: Reference, Name: Reference, Src: !ul 6480555586895679330}
+  Name: HountedWasteland_FromGerudoFortress
+  Phive:
+    Placement: {ID: !ul 6480555586895679330}
+  Rotate: [0.0, 1.0122909545898438, 0.0]
+  SRTHash: !u 0x72bfdf90
+  Translate: [118.08538818359375, 108.71681213378906, 54.664249420166016]
+- Dynamic: {LoadRadius: 100.0}
+  Gyaml: ChangeBancBeforehandAnchor
+  Hash: !ul 8520171522086810460
+  Links:
+  - {Dst: !ul 6480555586895679330, Gyaml: Reference, Name: Reference, Src: !ul 8520171522086810460}
+  Name: 先読みの基準座標となるアンカー
+  Phive:
+    Placement: {ID: !ul 8520171522086810460}
+  Rotate: [3.1415927410125732, -1.0646508932113647, 3.1415927410125732]
+  SRTHash: !u 0x654b43a7
+  Translate: [114.95372772216797, 95.09839630126953, 52.705177307128906]
+- Gyaml: DestinationAnchor
+  Hash: !ul 14606539516732287513
+  Name: HorsePos
+  Phive:
+    Placement: {ID: !ul 14606539516732287513}
+  Rotate: [0.0, 1.0122909545898438, 0.0]
+  SRTHash: !u 0xbce9d703
+  Translate: [122.32563018798828, 96.32510375976562, 57.313846588134766]
+- Gyaml: ForbiddenCreateDropArea
+  Hash: !ul 13137644470031229667
+  Phive:
+    Placement: {ID: !ul 13137644470031229667}
+  Rotate: [0.0, 1.0122909545898438, 0.0]
+  SRTHash: !u 0xfb3b8095
+  Scale: [97.27117156982422, 12.774276733398438, 31.587692260742188]
+  Translate: [134.95111083984375, 101.55209350585938, 68.35319519042969]
+- Gyaml: StartPos
+  Hash: !ul 7822070257779149527
+  Name: HountedWasteland_FromDesertColossus
+  Phive:
+    Placement: {ID: !ul 7822070257779149527}
+  Rotate: [0.0, 1.570796251296997, 7.078051567077637e-07]
+  SRTHash: !u 0xb2866093
+  Translate: [-103.15462493896484, 99.22450256347656, -55.814239501953125]
+- Gyaml: DestinationAnchor
+  Hash: !ul 9904696488859088029
+  Name: FieldDungeonEntranceGo
+  Phive:
+    Placement: {ID: !ul 9904696488859088029}
+  Rotate: [0.0, -1.5707958936691284, 8.588009450249956e-07]
+  SRTHash: !u 0x76322477
+  Translate: [-142.2309112548828, 98.73036193847656, -54.95689010620117]
+- Gyaml: Area
+  Hash: !ul 1226730615084752641
+  Phive:
+    Placement: {ID: !ul 1226730615084752641}
+  Rotate: [0.0, 1.570796251296997, 7.078051567077637e-07]
+  SRTHash: !u 0xcd03fa76
+  Scale: [50.0, 10.0, 11.87899398803711]
+  Translate: [-119.09050750732422, 96.7822036743164, -55.799957275390625]
+- Dynamic: {FirstEventName: Dm_SY_BancChangeGo, InitEventFlag: HavePlayedEvent.Dm_DesertColossus_0000,
+    InitEventName: FromWasteland_ArriveColossus, NextBancParamNameAdult: DesertColossus_Adult,
+    NextBancParamNameChild: DesertColossus_Child, NextEventName: Dm_SY_BancChangeArrive_DesertColossus_01,
+    NextStartPosName: DesertColossus_FromHountedWasteland}
+  Gyaml: FieldAndDungeonEntranceEventRequestActor
+  Hash: !ul 12259052763112244129
+  Links:
+  - {Dst: !ul 9904696488859088029, Gyaml: Reference, Name: Reference, Src: !ul 12259052763112244129}
+  - {Dst: !ul 1685308697588103226, Gyaml: Reference, Name: Reference, Src: !ul 12259052763112244129}
+  - {Dst: !ul 6644450856897532759, Gyaml: Reference, Name: Reference, Src: !ul 12259052763112244129}
+  - {Dst: !ul 5574525658605260589, Gyaml: Reference, Name: Reference, Src: !ul 12259052763112244129}
+  Name: HountedWasteland_FromDesertColossus
+  Phive:
+    Placement: {ID: !ul 12259052763112244129}
+  Rotate: [0.0, 1.570796251296997, 7.078051567077637e-07]
+  SRTHash: !u 0x7e1cb3a3
+  Translate: [-117.3567886352539, 111.4804916381836, -55.799957275390625]
+- Dynamic: {IsUseFailSafe: true, LoadRadius: 100.0}
+  Gyaml: ChangeBancBeforehandAnchor
+  Hash: !ul 6122512595179495926
+  Links:
+  - {Dst: !ul 12259052763112244129, Gyaml: Reference, Name: Reference, Src: !ul 6122512595179495926}
+  Name: 先読みの基準座標となるアンカー
+  Phive:
+    Placement: {ID: !ul 6122512595179495926}
+  Rotate: [0.0, 1.570796251296997, 7.078051567077637e-07]
+  SRTHash: !u 0x05d2b74c
+  Translate: [-103.70768737792969, 99.84052276611328, -55.799957275390625]
+- Gyaml: DestinationAnchor
+  Hash: !ul 1685308697588103226
+  Name: HorsePos
+  Phive:
+    Placement: {ID: !ul 1685308697588103226}
+  Rotate: [0.0, 1.570796251296997, 7.078051567077637e-07]
+  SRTHash: !u 0x4d209cdf
+  Translate: [-112.35678100585938, 99.4804916381836, -55.799957275390625]
+- Gyaml: ForbiddenCreateDropArea
+  Hash: !ul 11178522426622185502
+  Phive:
+    Placement: {ID: !ul 11178522426622185502}
+  Rotate: [0.0, 1.570796251296997, 7.078051567077637e-07]
+  SRTHash: !u 0xe720338f
+  Scale: [100.0, 20.0, 23.75798797607422]
+  Translate: [-119.09050750732422, 106.7822036743164, -55.799957275390625]
+- Dynamic: {Location: HountedWasteland}
+  Gyaml: LocationArea
+  Hash: !ul 11538998566570940914
+  Phive:
+    Placement: {ID: !ul 11538998566570940914}
+  SRTHash: !u 0xe0e4dfd6
+  Scale: [200.0, 20.0, 180.0]
+  Translate: [26.998703002929688, 82.35517120361328, -7.119903564453125]
+- Gyaml: AnchorAction1
+  Hash: !ul 2955208840593365993
+  Phive:
+    Placement: {ID: !ul 2955208840593365993}
+  SRTHash: !u 0xacad83ad
+  Translate: [16.0, 107.5, -88.53318786621094]
+- Gyaml: Area
+  Hash: !ul 10009295322297041593
+  Links:
+  - {Dst: !ul 2955208840593365993, Gyaml: Reference, Name: Reference, Src: !ul 10009295322297041593}
+  - {Dst: !ul 18006332753891104582, Gyaml: Reference, Name: Reference, Src: !ul 10009295322297041593}
+  Phive:
+    Placement: {ID: !ul 10009295322297041593}
+  Rails:
+  - {Dst: !ul 17501080215698710148, Gyaml: Reference, Name: Reference}
+  SRTHash: !u 0xdb444cb1
+  Scale: [4.15123176574707, 2.6026554107666016, 3.1708030700683594]
+  Translate: [15.935462951660156, 106.17079162597656, -84.03451538085938]
+- Dynamic: {RequestEventName: Npc_GuidePoe_Adult_Appearance}
+  Gyaml: EventRequestActor
+  Hash: !ul 18006332753891104582
+  Links:
+  - {Dst: !ul 7627648647414273184, Gyaml: Reference, Name: Reference, Src: !ul 18006332753891104582}
+  - {Dst: !ul 12470972334058919326, Gyaml: Reference, Name: Reference, Src: !ul 18006332753891104582}
+  - {Dst: !ul 18228426797135545843, Gyaml: Reference, Name: Reference, Src: !ul 18006332753891104582}
+  - {Dst: !ul 2955208840593365993, Gyaml: Reference, Name: Reference, Src: !ul 18006332753891104582}
+  - {Dst: !ul 10009295322297041593, Gyaml: Reference, Name: Reference, Src: !ul 18006332753891104582}
+  Phive:
+    Placement: {ID: !ul 18006332753891104582}
+  SRTHash: !u 0xbcd73002
+  Translate: [16.604230880737305, 113.57921600341797, -86.96658325195312]
+- Gyaml: DustArea
+  Hash: !ul 8987474265552894016
+  Phive:
+    Placement: {ID: !ul 8987474265552894016}
+  Rotate: [0.04295308142900467, -0.5525116324424744, -0.1413601189851761]
+  SRTHash: !u 0x8a676d3b
+  Scale: [48.6333122253418, 35.41252899169922, 22.97498893737793]
+  Translate: [11.705391883850098, 86.39994812011719, 63.38179016113281]
+- Gyaml: DustArea
+  Hash: !ul 7826410505871172975
+  Phive:
+    Placement: {ID: !ul 7826410505871172975}
+  Rotate: [0.03655887022614479, -0.0, -0.11880715936422348]
+  SRTHash: !u 0x4cc03309
+  Scale: [40.28515625, 33.106605529785156, 38.3780403137207]
+  Translate: [22.386661529541016, 90.28714752197266, -27.553049087524414]
+- Dynamic: {RequestEventName: HountedWasteland_Field_RestartToEntrance}
+  Gyaml: EventRequestActor
+  Hash: !ul 6626676952790523847
+  Links:
+  - {Dst: !ul 1177575630280901032, Gyaml: Reference, Name: Reference, Src: !ul 6626676952790523847}
+  - {Dst: !ul 108927548172062424, Gyaml: Reference, Name: Reference, Src: !ul 6626676952790523847}
+  - {Dst: !ul 3094741997956583342, Gyaml: Reference, Name: Reference, Src: !ul 6626676952790523847}
+  - {Dst: !ul 101459617364783408, Gyaml: Reference, Name: Reference, Src: !ul 6626676952790523847}
+  - {Dst: !ul 1636696411989835715, Gyaml: Reference, Name: Reference, Src: !ul 6626676952790523847}
+  - {Dst: !ul 12646406470461756053, Gyaml: Reference, Name: Reference, Src: !ul 6626676952790523847}
+  - {Dst: !ul 14777693618168182303, Gyaml: Reference, Name: Reference, Src: !ul 6626676952790523847}
+  - {Dst: !ul 9184974253283754923, Gyaml: Reference, Name: Reference, Src: !ul 6626676952790523847}
+  - {Dst: !ul 18228426797135545843, Gyaml: Reference, Name: Reference, Src: !ul 6626676952790523847}
+  Phive:
+    Placement: {ID: !ul 6626676952790523847}
+  SRTHash: !u 0xc22a8d8a
+  Translate: [37.822998046875, 176.51788330078125, 31.485702514648438]
+- Gyaml: Area
+  Hash: !ul 2623669026960014998
+  Phive:
+    Placement: {ID: !ul 2623669026960014998}
+  Rotate: [-3.1344962120056152, 0.7263990044593811, -3.128559112548828]
+  SRTHash: !u 0x7e67dcee
+  Scale: [13.133719444274902, 12.143527030944824, 17.862913131713867]
+  Translate: [60.30474853515625, 84.97109985351562, 82.20496368408203]
+- Gyaml: Area
+  Hash: !ul 18304627046161751483
+  Phive:
+    Placement: {ID: !ul 18304627046161751483}
+  Rotate: [0.0, -0.36741578578948975, 0.0]
+  SRTHash: !u 0xc8ff51b4
+  Scale: [35.15491485595703, 11.118619918823242, 13.20603084564209]
+  Translate: [22.370500564575195, 88.95307159423828, 86.9688491821289]
+- Gyaml: Area
+  Hash: !ul 9690411522113640080
+  Phive:
+    Placement: {ID: !ul 9690411522113640080}
+  Rotate: [-0.003029919695109129, 0.14973177015781403, -0.00985350925475359]
+  SRTHash: !u 0xbb1b5042
+  Scale: [7.819609642028809, 7.184248924255371, 7.268342018127441]
+  Translate: [48.23623275756836, 90.64356231689453, 12.128993034362793]
+- Gyaml: Area
+  Hash: !ul 17848391553310454807
+  Phive:
+    Placement: {ID: !ul 17848391553310454807}
+  Rotate: [0.007882512174546719, -0.35161396861076355, -0.009241887368261814]
+  SRTHash: !u 0x69dcf7fb
+  Scale: [19.014787673950195, 5.865172863006592, 8.543662071228027]
+  Translate: [100.84228515625, 88.73538208007812, 67.54436492919922]
+- Gyaml: Area
+  Hash: !ul 8163708110714522741
+  Phive:
+    Placement: {ID: !ul 8163708110714522741}
+  Rotate: [-0.02302440069615841, 1.1446415185928345, -0.023571942001581192]
+  SRTHash: !u 0x481ae6e0
+  Scale: [16.3457088470459, 8.226837158203125, 4.963799953460693]
+  Translate: [49.48454284667969, 90.44904327392578, -2.7181143760681152]
+- Gyaml: Area
+  Hash: !ul 312097080525144525
+  Phive:
+    Placement: {ID: !ul 312097080525144525}
+  Rotate: [0.0025330474600195885, -0.3976958394050598, -0.010568060912191868]
+  SRTHash: !u 0xb338a446
+  Scale: [13.763998985290527, 14.669166564941406, 12.0]
+  Translate: [-5.136247634887695, 91.22496032714844, 3.4477927684783936]
+- Gyaml: Area
+  Hash: !ul 7578300150522353212
+  Phive:
+    Placement: {ID: !ul 7578300150522353212}
+  Rotate: [0.0014850225998088717, -0.47211456298828125, -0.010453663766384125]
+  SRTHash: !u 0x4777298e
+  Scale: [15.992355346679688, 14.472350120544434, 20.359840393066406]
+  Translate: [57.59064483642578, 90.60035705566406, -56.390464782714844]
+- Gyaml: Area
+  Hash: !ul 16831189106211139584
+  Phive:
+    Placement: {ID: !ul 16831189106211139584}
+  Rotate: [0.17657822370529175, -1.521991491317749, -0.18128924071788788]
+  SRTHash: !u 0x22801688
+  Scale: [16.124134063720703, 12.247482299804688, 12.02308177947998]
+  Translate: [7.77384614944458, 88.83004760742188, -0.033494409173727036]
+- Gyaml: Area
+  Hash: !ul 17900901603658915973
+  Phive:
+    Placement: {ID: !ul 17900901603658915973}
+  Rotate: [0.003042402444407344, -0.44128403067588806, -0.010775547474622726]
+  SRTHash: !u 0xb37f1264
+  Scale: [15.523943901062012, 10.415433883666992, 11.974748611450195]
+  Translate: [60.14714431762695, 90.52790069580078, -25.64872932434082]
+- Gyaml: Area
+  Hash: !ul 12229672372831193106
+  Phive:
+    Placement: {ID: !ul 12229672372831193106}
+  Rotate: [0.0008539229165762663, 0.04066763445734978, -0.009795693680644035]
+  SRTHash: !u 0x129ac350
+  Scale: [14.895608901977539, 12.247482299804688, 30.94163703918457]
+  Translate: [4.298299312591553, 88.82288360595703, 42.5565185546875]
+- Gyaml: Area
+  Hash: !ul 4357921032232213983
+  Phive:
+    Placement: {ID: !ul 4357921032232213983}
+  Rotate: [0.013316691853106022, -0.9909363985061646, -0.017783232033252716]
+  SRTHash: !u 0x4bbb1f42
+  Scale: [18.136686325073242, 8.278660774230957, 13.438641548156738]
+  Translate: [106.20423889160156, 83.77713775634766, 10.037668228149414]
+- Gyaml: Area
+  Hash: !ul 13823312653523978813
+  Phive:
+    Placement: {ID: !ul 13823312653523978813}
+  Rotate: [0.004709860309958458, -0.5717791318893433, -0.011586240492761135]
+  SRTHash: !u 0xf13d78aa
+  Scale: [21.232566833496094, 9.271750450134277, 15.602829933166504]
+  Translate: [88.18280029296875, 86.07485961914062, -4.89576530456543]
+- Gyaml: AnchorAction1
+  Hash: !ul 1177575630280901032
+  Name: WarpPoint01_1
+  Phive:
+    Placement: {ID: !ul 1177575630280901032}
+  Rotate: [3.1415927410125732, -1.047197699546814, 3.1415927410125732]
+  SRTHash: !u 0xfb22f75e
+  Translate: [114.87745666503906, 95.14827728271484, 52.980674743652344]
+- Gyaml: Area
+  Hash: !ul 5458082207704524264
+  Phive:
+    Placement: {ID: !ul 5458082207704524264}
+  Rotate: [0.0018562974873930216, -0.33722999691963196, -0.010324805974960327]
+  SRTHash: !u 0x741b821e
+  Scale: [31.10598373413086, 13.202249526977539, 39.723045349121094]
+  Translate: [-82.47708892822266, 91.63492584228516, -124.40396881103516]
+- Gyaml: Area
+  Hash: !ul 14711547578755358911
+  Phive:
+    Placement: {ID: !ul 14711547578755358911}
+  Rotate: [0.0013363517355173826, 0.3149818181991577, -0.009371211752295494]
+  SRTHash: !u 0x13c7cf3c
+  Scale: [1.966452956199646, 13.202249526977539, 15.434943199157715]
+  Translate: [-15.983221054077148, 90.90284729003906, -72.57658386230469]
+- Gyaml: Area
+  Hash: !ul 2333683030810438036
+  Phive:
+    Placement: {ID: !ul 2333683030810438036}
+  Rotate: [-0.002415026305243373, 0.08752568066120148, -0.009780693799257278]
+  SRTHash: !u 0x7b56de80
+  Scale: [52.59580993652344, 13.202250480651855, 14.632734298706055]
+  Translate: [-17.795141220092773, 90.93270874023438, -151.40414428710938]
+- Gyaml: Area
+  Hash: !ul 6391568521433718432
+  Phive:
+    Placement: {ID: !ul 6391568521433718432}
+  Rotate: [-0.012033057399094105, 0.8214590549468994, -0.014304290525615215]
+  SRTHash: !u 0x4a683ed8
+  Scale: [19.086986541748047, 13.202249526977539, 15.186180114746094]
+  Translate: [-113.90497589111328, 91.9038314819336, -93.23754119873047]
+- Gyaml: Area
+  Hash: !ul 2711190047079802366
+  Phive:
+    Placement: {ID: !ul 2711190047079802366}
+  Rotate: [-0.002677887212485075, 0.11422935128211975, -0.009807163849473]
+  SRTHash: !u 0x8653b659
+  Scale: [20.019025802612305, 13.202249526977539, 7.827667236328125]
+  Translate: [-87.12005615234375, 91.71011352539062, -19.18939971923828]
+- Dynamic: {RequestEventName: HountedWasteland_Field_RestartToCheckpoint}
+  Gyaml: EventRequestActor
+  Hash: !ul 14048552151273697287
+  Links:
+  - {Dst: !ul 108927548172062424, Gyaml: Reference, Name: Reference, Src: !ul 14048552151273697287}
+  - {Dst: !ul 3094741997956583342, Gyaml: Reference, Name: Reference, Src: !ul 14048552151273697287}
+  - {Dst: !ul 1177575630280901032, Gyaml: Reference, Name: Reference, Src: !ul 14048552151273697287}
+  - {Dst: !ul 101459617364783408, Gyaml: Reference, Name: Reference, Src: !ul 14048552151273697287}
+  - {Dst: !ul 1636696411989835715, Gyaml: Reference, Name: Reference, Src: !ul 14048552151273697287}
+  - {Dst: !ul 12646406470461756053, Gyaml: Reference, Name: Reference, Src: !ul 14048552151273697287}
+  - {Dst: !ul 14777693618168182303, Gyaml: Reference, Name: Reference, Src: !ul 14048552151273697287}
+  - {Dst: !ul 9184974253283754923, Gyaml: Reference, Name: Reference, Src: !ul 14048552151273697287}
+  - {Dst: !ul 18228426797135545843, Gyaml: Reference, Name: Reference, Src: !ul 14048552151273697287}
+  Phive:
+    Placement: {ID: !ul 14048552151273697287}
+  SRTHash: !u 0x52af0381
+  Translate: [-20.67414665222168, 170.89627075195312, -80.57937622070312]
+- Gyaml: Area
+  Hash: !ul 9913432228528074888
+  Phive:
+    Placement: {ID: !ul 9913432228528074888}
+  Rotate: [-0.0015060669975355268, -0.07728469371795654, -0.009636165574193]
+  SRTHash: !u 0xeda4f12a
+  Scale: [9.333707809448242, 13.202249526977539, 16.26119613647461]
+  Translate: [-13.924700736999512, 90.92784118652344, -40.71110534667969]
+- Gyaml: Area
+  Hash: !ul 13686385409331864915
+  Phive:
+    Placement: {ID: !ul 13686385409331864915}
+  Rotate: [-0.015075760893523693, 0.9461629986763, -0.016661355271935463]
+  SRTHash: !u 0x4f36cf5e
+  Scale: [14.881057739257812, 13.202248573303223, 18.04791259765625]
+  Translate: [42.776344299316406, 89.77117919921875, -150.11517333984375]
+- Gyaml: Area
+  Hash: !ul 14709775582691597629
+  Phive:
+    Placement: {ID: !ul 14709775582691597629}
+  Rotate: [-0.005833313334733248, 0.3296479284763336, -0.010067776776850224]
+  SRTHash: !u 0xda83453e
+  Scale: [11.369743347167969, 13.202250480651855, 47.94404602050781]
+  Translate: [56.31964111328125, 90.1969985961914, -127.20138549804688]
+- Gyaml: AnchorAction1
+  Hash: !ul 108927548172062424
+  Name: WarpPoint03_1
+  Phive:
+    Placement: {ID: !ul 108927548172062424}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xf6db2882
+  Translate: [15.935462951660156, 103.6966552734375, -69.0]
+- Gyaml: Area
+  Hash: !ul 11041059582542397003
+  Phive:
+    Placement: {ID: !ul 11041059582542397003}
+  Rotate: [-0.01684245653450489, 1.0031946897506714, -0.018123917281627655]
+  SRTHash: !u 0x5e867b39
+  Scale: [4.770386695861816, 13.202249526977539, 6.698941230773926]
+  Translate: [-25.301809310913086, 91.09651947021484, -85.28594970703125]
+- Gyaml: Area
+  Hash: !ul 9989707057913175788
+  Phive:
+    Placement: {ID: !ul 9989707057913175788}
+  Rotate: [-3.0831031799316406, 1.4098832607269287, -3.0807595252990723]
+  SRTHash: !u 0x0d33d8cf
+  Scale: [4.698015213012695, 13.202250480651855, 9.060022354125977]
+  Translate: [-25.233612060546875, 91.00313568115234, -91.00959777832031]
+- Gyaml: DustArea
+  Hash: !ul 794458597249039227
+  Phive:
+    Placement: {ID: !ul 794458597249039227}
+  Rotate: [-0.00962827354669571, -0.17987675964832306, -0.12219730019569397]
+  SRTHash: !u 0x768ea676
+  Scale: [37.12543487548828, 35.41252899169922, 10.830842971801758]
+  Translate: [17.21995735168457, 87.77859497070312, 23.64727020263672]
+- Gyaml: Area
+  Hash: !ul 14782134310013431013
+  Phive:
+    Placement: {ID: !ul 14782134310013431013}
+  SRTHash: !u 0xad8cb704
+  Scale: [89.97676849365234, 39.45072937011719, 45.38275146484375]
+  Translate: [-54.09270477294922, 85.29667663574219, -90.55865478515625]
+- Gyaml: Area
+  Hash: !ul 3741712712052834472
+  Phive:
+    Placement: {ID: !ul 3741712712052834472}
+  Rotate: [-0.006370370276272297, -1.1997628211975098, 0.006835437845438719]
+  SRTHash: !u 0x6d2903cb
+  Scale: [5.288448810577393, 7.358799934387207, 3.899719476699829]
+  Translate: [43.2119140625, 92.81092834472656, 13.646581649780273]
+- Gyaml: Obj_Flag_A_01
+  Hash: !ul 6644450856897532759
+  Phive:
+    Placement: {ID: !ul 6644450856897532759}
+  Rotate: [0.0, 0.5235987901687622, 0.0]
+  SRTHash: !u 0x28550bf8
+  Translate: [-99.5053482055664, 99.29000091552734, -58.055206298828125]
+- Gyaml: Obj_Flag_A_01
+  Hash: !ul 5574525658605260589
+  Phive:
+    Placement: {ID: !ul 5574525658605260589}
+  Rotate: [0.0, 0.5235987901687622, 0.0]
+  SRTHash: !u 0x393cfca7
+  Translate: [-99.5053482055664, 99.11524963378906, -53.620269775390625]
+- Gyaml: AnchorAction1
+  Hash: !ul 3094741997956583342
+  Name: WarpPoint04_2
+  Phive:
+    Placement: {ID: !ul 3094741997956583342}
+  Rotate: [0.0, 1.570796251296997, 7.152557373046875e-07]
+  SRTHash: !u 0x798075b8
+  Translate: [-100.20761108398438, 99.4251708984375, -55.814239501953125]
+- Gyaml: DustArea
+  Hash: !ul 10626607952329198227
+  Phive:
+    Placement: {ID: !ul 10626607952329198227}
+  SRTHash: !u 0x9c4ef25c
+  Scale: [46.061397552490234, 29.41872787475586, 57.729732513427734]
+  Translate: [-45.57732391357422, 94.8797607421875, -79.10176086425781]
+- Bakeable: true
+  Gyaml: Land_Desert_Border_B_01
+  Hash: !ul 7458510245398183337
+  Phive:
+    Placement: {ID: !ul 7458510245398183337}
+  SRTHash: !u 0x2cd45fc3
+  Translate: [-104.27600860595703, 98.71630096435547, -55.02885055541992]
+- Bakeable: true
+  Gyaml: Land_Desert_MerchantBaggage_A_01
+  Hash: !ul 5892304212581515948
+  Phive:
+    Placement: {ID: !ul 5892304212581515948}
+  Rotate: [3.1415927410125732, 0.3252638876438141, 3.1415927410125732]
+  SRTHash: !u 0x645c9b38
+  Translate: [37.7574348449707, 90.45899963378906, 61.968238830566406]
+- Gyaml: Land_Desert_MerchantBaggage_A_06
+  Hash: !ul 17876941385664371942
+  Phive:
+    Placement: {ID: !ul 17876941385664371942}
+  Rotate: [0.0, -1.4681674242019653, 0.0]
+  SRTHash: !u 0x9f0ec553
+  Translate: [39.98640823364258, 90.45899963378906, 59.52259826660156]
+- Bakeable: true
+  Gyaml: Land_Desert_MerchantBaggage_A_02
+  Hash: !ul 15252764118181787373
+  Phive:
+    Placement: {ID: !ul 15252764118181787373}
+  Rotate: [0.0, -0.8945953845977783, 0.0]
+  SRTHash: !u 0x210fe80e
+  Translate: [37.29850387573242, 90.45899963378906, 57.22127151489258]
+- Bakeable: true
+  Gyaml: Land_Desert_MerchantBaggage_A_07
+  Hash: !ul 731999260795302545
+  Phive:
+    Placement: {ID: !ul 731999260795302545}
+  Rotate: [3.1415927410125732, 0.5657488107681274, 3.1415927410125732]
+  SRTHash: !u 0xb33d5615
+  Translate: [35.35386276245117, 90.45899963378906, 60.79426193237305]
+- Bakeable: true
+  Gyaml: Land_Desert_MerchantBaggage_A_03
+  Hash: !ul 13943994831486398983
+  Phive:
+    Placement: {ID: !ul 13943994831486398983}
+  Rotate: [0.0, 0.37084466218948364, 0.0]
+  SRTHash: !u 0x2fe23637
+  Translate: [35.16230773925781, 90.45899963378906, 60.08591842651367]
+- Bakeable: true
+  Gyaml: Land_Desert_MerchantBaggage_A_04
+  Hash: !ul 3874834076148202626
+  Phive:
+    Placement: {ID: !ul 3874834076148202626}
+  SRTHash: !u 0x074fbcbd
+  Translate: [38.828311920166016, 90.45899963378906, 61.93846893310547]
+- Bakeable: true
+  Gyaml: Land_Desert_MerchantBaggage_A_05
+  Hash: !ul 10111529850573941795
+  Phive:
+    Placement: {ID: !ul 10111529850573941795}
+  Rotate: [-3.141592502593994, 0.5182002782821655, -3.141592502593994]
+  SRTHash: !u 0x19f7d005
+  Translate: [36.208702087402344, 90.45899963378906, 59.993167877197266]
+- Bakeable: true
+  Gyaml: Land_Desert_MerchantBaggage_A_08
+  Hash: !ul 4309582845570805434
+  Phive:
+    Placement: {ID: !ul 4309582845570805434}
+  Rotate: [0.0, -0.8250716328620911, 0.0]
+  SRTHash: !u 0xa2b0711e
+  Translate: [36.689571380615234, 90.45899963378906, 57.45437240600586]
+- Gyaml: Land_Desert_MerchantBaggage_A_09
+  Hash: !ul 3227526311529693453
+  Phive:
+    ConstraintLink:
+      ID: !ul 3227526311529693453
+      Refers:
+      - {Owner: !ul 5776071442945884372, Type: Slider}
+    Placement: {ID: !ul 3227526311529693453}
+  Rotate: [0.0, -1.4856579303741455, 0.0]
+  SRTHash: !u 0x9c4e2ee0
+  Translate: [38.046390533447266, 90.45899963378906, 60.727455139160156]
+- Bakeable: true
+  Gyaml: Land_Desert_MerchantBaggage_A_10
+  Hash: !ul 2170665455752159410
+  Phive:
+    Placement: {ID: !ul 2170665455752159410}
+  Rotate: [0.0, -0.8262449502944946, 0.0]
+  SRTHash: !u 0xca2b7fb6
+  Translate: [37.23004150390625, 90.45899963378906, 57.87194061279297]
+- Gyaml: Land_Desert_GerudoWall_A_01
+  Hash: !ul 2008683064666520724
+  Phive:
+    Placement: {ID: !ul 2008683064666520724}
+  Rotate: [3.1415927410125732, -1.0471974611282349, 3.1415927410125732]
+  SRTHash: !u 0xfed0c7f8
+  Scale: [3.0, 3.0, 3.0]
+  Translate: [162.77108764648438, 97.89984893798828, 79.35884857177734]
+- Bakeable: true
+  Gyaml: Land_Desert_RuinBrick_A_01
+  Hash: !ul 15893867470259335498
+  Phive:
+    Placement: {ID: !ul 15893867470259335498}
+  Rotate: [0.0, -0.5590344071388245, 0.0]
+  SRTHash: !u 0x40354b0b
+  Translate: [78.5574951171875, 93.80999755859375, 32.42008590698242]
+- Bakeable: true
+  Gyaml: Land_Desert_RuinBrick_A_02
+  Hash: !ul 11757537430592452358
+  Phive:
+    Placement: {ID: !ul 11757537430592452358}
+  Rotate: [0.0, -0.5590344071388245, 0.0]
+  SRTHash: !u 0x40354b0b
+  Translate: [78.5574951171875, 93.80999755859375, 32.42008590698242]
+- Bakeable: true
+  Gyaml: Land_Desert_MerchantBaggage_A_11
+  Hash: !ul 4007700366631322160
+  Phive:
+    Placement: {ID: !ul 4007700366631322160}
+  Rotate: [0.0, -0.40929126739501953, 0.0]
+  SRTHash: !u 0xa404b225
+  Translate: [40.41476058959961, 90.45899963378906, 59.13323211669922]
+- Bakeable: true
+  Gyaml: Land_Desert_MerchantBaggage_A_12
+  Hash: !ul 19622875782908932
+  Phive:
+    Placement: {ID: !ul 19622875782908932}
+  Rotate: [0.0, -0.4092797338962555, 0.0]
+  SRTHash: !u 0xe8aabec2
+  Translate: [39.6825065612793, 90.45899963378906, 58.904239654541016]
+- Dynamic: {RequestEventName: HountedWasteland_Ruins_AppearTreasureBox}
+  Gyaml: EventRequestActor
+  Hash: !ul 8292026280019138460
+  Links:
+  - {Dst: !ul 348053841831234803, Gyaml: Reference, Name: Reference, Src: !ul 8292026280019138460}
+  - {Dst: !ul 8825521833684392638, Gyaml: Reference, Name: Reference, Src: !ul 8292026280019138460}
+  - {Dst: !ul 16056437971076802347, Gyaml: Reference, Name: Reference, Src: !ul 8292026280019138460}
+  - {Dst: !ul 12092957556057904794, Gyaml: Reference, Name: Reference, Src: !ul 8292026280019138460}
+  - {Dst: !ul 17074480942171706160, Gyaml: Reference, Name: Reference, Src: !ul 8292026280019138460}
+  Phive:
+    Placement: {ID: !ul 8292026280019138460}
+  SRTHash: !u 0xcd3a60ca
+  Translate: [16.012569427490234, 87.66375732421875, -96.09648132324219]
+- Dynamic: {Drop__DropActor: Item_ScrubBusinessSeed, SpawnType: 1}
+  Gyaml: Obj_TBox_A_01_NoBake
+  Hash: !ul 8825521833684392638
+  Phive:
+    Placement: {ID: !ul 8825521833684392638}
+  SRTHash: !u 0x85c07385
+  Translate: [16.012569427490234, 87.66375732421875, -98.34648132324219]
+- Gyaml: DestinationAnchor
+  Hash: !ul 348053841831234803
+  Name: Point1
+  Phive:
+    Placement: {ID: !ul 348053841831234803}
+  Rotate: [3.1415927410125732, -1.2208125591278076, 3.1415927410125732]
+  SRTHash: !u 0xdde283ce
+  Translate: [8.760425567626953, 88.07721710205078, -100.22238159179688]
+- Gyaml: DestinationAnchor
+  Hash: !ul 16056437971076802347
+  Name: TBox
+  Phive:
+    Placement: {ID: !ul 16056437971076802347}
+  SRTHash: !u 0x85c07385
+  Translate: [16.012569427490234, 87.66375732421875, -98.34648132324219]
+- Gyaml: DropKeepAwayArea_TBox_A_01
+  Hash: !ul 13179422595631456429
+  Phive:
+    Placement: {ID: !ul 13179422595631456429}
+  SRTHash: !u 0x85c07385
+  Translate: [16.012569427490234, 87.66375732421875, -98.34648132324219]
+- Gyaml: Enemy_Skulltula_Gold
+  Hash: !ul 14910672274965350769
+  Phive:
+    Placement: {ID: !ul 14910672274965350769}
+  Rotate: [1.5707963705062866, -0.0, 0.0]
+  SRTHash: !u 0xb0af82a2
+  Translate: [16.01300048828125, 88.84510040283203, -99.79999542236328]
+- Bakeable: true
+  Gyaml: Land_SkulltulaGold_SpiderWeb_A_01
+  Hash: !ul 3885199316049097573
+  Phive:
+    Placement: {ID: !ul 3885199316049097573}
+  Rotate: [1.5707963705062866, -0.0, 0.0]
+  SRTHash: !u 0xe1b565f0
+  Translate: [16.084583282470703, 88.84510040283203, -100.09823608398438]
+- Gyaml: Obj_CandleStick_A_02
+  Hash: !ul 18414650647124863657
+  Phive:
+    Placement: {ID: !ul 18414650647124863657}
+  SRTHash: !u 0x686d129a
+  Translate: [12.695338249206543, 86.87102508544922, -98.49677276611328]
+- Gyaml: Obj_CandleStick_A_02
+  Hash: !ul 10760995785488763638
+  Phive:
+    Placement: {ID: !ul 10760995785488763638}
+  SRTHash: !u 0xbdc918c4
+  Translate: [19.34670639038086, 86.87102508544922, -98.49677276611328]
+- Gyaml: Area
+  Hash: !ul 11855399436229457476
+  Phive:
+    Placement: {ID: !ul 11855399436229457476}
+  SRTHash: !u 0x13c56fbd
+  Scale: [8.722550392150879, 8.0, 10.34041976928711]
+  Translate: [15.95382022857666, 84.91474151611328, -90.42840576171875]
+- Gyaml: Obj_Gerudo_FlyingCarpetFloor_A_01
+  Hash: !ul 13179061956735664867
+  Phive:
+    Placement: {ID: !ul 13179061956735664867}
+  Rotate: [0.0, -0.5364164710044861, 0.0]
+  SRTHash: !u 0xb7c01bae
+  Translate: [37.64723587036133, 90.45899963378906, 59.746986389160156]
+- Gyaml: DestinationAnchor
+  Hash: !ul 7627648647414273184
+  Name: GuidePoeApperance
+  Phive:
+    Placement: {ID: !ul 7627648647414273184}
+  SRTHash: !u 0xacad83ad
+  Translate: [16.0, 107.5, -88.53318786621094]
+- Gyaml: AnchorAction3
+  Hash: !ul 4166084983080116428
+  Phive:
+    Placement: {ID: !ul 4166084983080116428}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xa1ab2520
+  Translate: [11.317765235900879, 107.5, -84.0]
+- Gyaml: Area
+  Hash: !ul 8562550870143126474
+  Phive:
+    Placement: {ID: !ul 8562550870143126474}
+  Rotate: [0.021354349330067635, -1.1687120199203491, -0.024899480864405632]
+  SRTHash: !u 0x1854ce6e
+  Scale: [11.717559814453125, 13.202249526977539, 6.514564514160156]
+  Translate: [-113.3315658569336, 91.95217895507812, -33.69463348388672]
+- Gyaml: Area
+  Hash: !ul 12219562129397234442
+  Phive:
+    Placement: {ID: !ul 12219562129397234442}
+  Rotate: [-0.0034624093677848577, 0.1928192675113678, -0.009927217848598957]
+  SRTHash: !u 0x860892fd
+  Scale: [17.347278594970703, 13.202249526977539, 9.48974895477295]
+  Translate: [-50.7879524230957, 91.9293441772461, -22.662639617919922]
+- Gyaml: Area
+  Hash: !ul 2593841657070478157
+  Phive:
+    Placement: {ID: !ul 2593841657070478157}
+  Rotate: [-0.007448416203260422, 0.5435996651649475, -0.011384320445358753]
+  SRTHash: !u 0xc6f1e3e5
+  Scale: [14.118690490722656, 13.202250480651855, 14.296773910522461]
+  Translate: [-24.640979766845703, 91.86548614501953, -25.747926712036133]
+- Gyaml: Area
+  Hash: !ul 6359154108060735653
+  Phive:
+    Placement: {ID: !ul 6359154108060735653}
+  Rotate: [0.0, -1.4994863271713257, 0.0]
+  SRTHash: !u 0x5dac84f0
+  Scale: [4.579928398132324, 14.472350120544434, 23.645946502685547]
+  Translate: [59.11129379272461, 90.84428405761719, -51.860443115234375]
+- Gyaml: Area
+  Hash: !ul 9593260380041960227
+  Phive:
+    Placement: {ID: !ul 9593260380041960227}
+  Rotate: [0.0, -1.4994863271713257, 0.0]
+  SRTHash: !u 0x6b6c6ae8
+  Scale: [21.418344497680664, 14.472350120544434, 5.4496002197265625]
+  Translate: [-0.16189850866794586, 90.84428405761719, -34.90053939819336]
+- Gyaml: Area
+  Hash: !ul 17072483262285941704
+  Phive:
+    Placement: {ID: !ul 17072483262285941704}
+  Rotate: [-0.030078314244747162, 1.2416844367980957, -0.03013538010418415]
+  SRTHash: !u 0xf276f736
+  Scale: [11.355229377746582, 13.202249526977539, 2.6319549083709717]
+  Translate: [-16.351518630981445, 90.98410034179688, -93.6886215209961]
+- Dynamic: {ForbiddenGeneratingEnemy: true, ForbiddenGeneratingEnemyLeeverBig: true,
+    NonEnemySearch: true}
+  Gyaml: ForbidAutoPlacementAreaBox
+  Hash: !ul 12030189241358814555
+  Phive:
+    Placement: {ID: !ul 12030189241358814555}
+  SRTHash: !u 0xcd5d8c6a
+  Scale: [215.11572265625, 76.3267593383789, 350.5748596191406]
+  Translate: [153.4791717529297, 110.56925201416016, -17.291732788085938]
+- Dynamic: {ForbiddenGeneratingEnemy: true, ForbiddenGeneratingEnemyLeeverBig: true,
+    NonEnemySearch: true}
+  Gyaml: ForbidAutoPlacementAreaBox
+  Hash: !ul 3836922287178227522
+  Phive:
+    Placement: {ID: !ul 3836922287178227522}
+  Rotate: [3.141592502593994, 0.9290636777877808, 3.141592502593994]
+  SRTHash: !u 0x9946c75b
+  Scale: [11.88269329071045, 76.3267593383789, 22.43661117553711]
+  Translate: [40.80328369140625, 110.56925201416016, -53.807411193847656]
+- Dynamic: {ForbiddenGeneratingEnemy: true, ForbiddenGeneratingEnemyLeeverBig: true,
+    NonEnemySearch: true}
+  Gyaml: ForbidAutoPlacementAreaBox
+  Hash: !ul 10717093822168159626
+  Phive:
+    Placement: {ID: !ul 10717093822168159626}
+  Rotate: [0.0, 0.6136338710784912, 0.0]
+  SRTHash: !u 0x6ce08e3d
+  Scale: [21.511396408081055, 76.3267593383789, 6.054971694946289]
+  Translate: [-4.71889591217041, 110.56925201416016, -110.21791076660156]
+- Dynamic: {ForbiddenGeneratingEnemy: true, ForbiddenGeneratingEnemyLeeverBig: true,
+    NonEnemySearch: true}
+  Gyaml: ForbidAutoPlacementAreaBox
+  Hash: !ul 362308925979408419
+  Phive:
+    Placement: {ID: !ul 362308925979408419}
+  SRTHash: !u 0xcf9bd839
+  Scale: [45.77339172363281, 76.3267593383789, 80.0740737915039]
+  Translate: [24.324676513671875, 110.56925201416016, -152.6915740966797]
+- Dynamic: {ForbiddenGeneratingEnemy: true, ForbiddenGeneratingEnemyLeeverBig: true}
+  Gyaml: ForbidAutoPlacementAreaBox
+  Hash: !ul 11409225069965270603
+  Phive:
+    Placement: {ID: !ul 11409225069965270603}
+  SRTHash: !u 0x7c6d208d
+  Scale: [225.73886108398438, 76.3267593383789, 350.5748596191406]
+  Translate: [-126.917236328125, 110.56925201416016, -17.291732788085938]
+- Dynamic: {ForbiddenGeneratingEnemy: true, ForbiddenGeneratingEnemyLeeverBig: true,
+    NonEnemySearch: true}
+  Gyaml: ForbidAutoPlacementAreaBox
+  Hash: !ul 8543420545610164816
+  Phive:
+    Placement: {ID: !ul 8543420545610164816}
+  Rotate: [-3.141592502593994, -1.2336786985397339, -3.141592502593994]
+  SRTHash: !u 0x8cb1e76f
+  Scale: [37.74309539794922, 76.3267593383789, 11.995323181152344]
+  Translate: [54.22488784790039, 110.56925201416016, -72.3189697265625]
+- Dynamic: {ForbiddenGeneratingEnemy: true, ForbiddenGeneratingEnemyLeeverBig: true,
+    NonEnemySearch: true}
+  Gyaml: ForbidAutoPlacementAreaBox
+  Hash: !ul 5136392282499798704
+  Phive:
+    Placement: {ID: !ul 5136392282499798704}
+  Rotate: [0.0, -1.2609447240829468, 0.0]
+  SRTHash: !u 0xe2db9643
+  Scale: [26.29356575012207, 76.3267593383789, 7.781376838684082]
+  Translate: [55.420204162597656, 108.20883178710938, -100.06210327148438]
+- Dynamic: {ForbiddenGeneratingEnemy: true, ForbiddenGeneratingEnemyLeeverBig: true,
+    NonEnemySearch: true}
+  Gyaml: ForbidAutoPlacementAreaBox
+  Hash: !ul 16453082333086071586
+  Phive:
+    Placement: {ID: !ul 16453082333086071586}
+  Rotate: [-3.141592502593994, 0.6327783465385437, -3.141592502593994]
+  SRTHash: !u 0x9c01845a
+  Scale: [21.511396408081055, 76.3267593383789, 15.137258529663086]
+  Translate: [-7.778887748718262, 110.56925201416016, -53.768917083740234]
+- Dynamic: {ForbiddenGeneratingEnemy: true, ForbiddenGeneratingEnemyLeeverBig: true,
+    NonEnemySearch: true}
+  Gyaml: ForbidAutoPlacementAreaBox
+  Hash: !ul 143117935203546633
+  Phive:
+    Placement: {ID: !ul 143117935203546633}
+  Rotate: [0.0, 0.31950274109840393, 0.0]
+  SRTHash: !u 0x097c9ac2
+  Scale: [6.523466110229492, 76.3267593383789, 25.221067428588867]
+  Translate: [-16.833740234375, 110.56925201416016, -72.25043487548828]
+- Dynamic: {ForbiddenGeneratingEnemy: true, ForbiddenGeneratingEnemyLeeverBig: true,
+    NonEnemySearch: true}
+  Gyaml: ForbidAutoPlacementAreaBox
+  Hash: !ul 6441285386571892336
+  Phive:
+    Placement: {ID: !ul 6441285386571892336}
+  SRTHash: !u 0x0057b388
+  Scale: [61.628963470458984, 76.3267593383789, 213.54034423828125]
+  Translate: [15.72968864440918, 110.56925201416016, 51.112281799316406]
+- Dynamic: {ForbiddenGeneratingEnemy: true, ForbiddenGeneratingEnemyLeeverBig: true,
+    NonEnemySearch: true}
+  Gyaml: ForbidAutoPlacementAreaBox
+  Hash: !ul 5704831282978557667
+  Phive:
+    Placement: {ID: !ul 5704831282978557667}
+  Rotate: [-3.141592502593994, 0.6252301931381226, -3.141592502593994]
+  SRTHash: !u 0x11fbdb83
+  Scale: [30.880842208862305, 76.3267593383789, 15.106977462768555]
+  Translate: [45.24755096435547, 110.56925201416016, -120.0531005859375]
+- Dynamic: {ForbiddenGeneratingEnemy: true, ForbiddenGeneratingEnemyLeeverBig: true,
+    NonEnemySearch: true}
+  Gyaml: ForbidAutoPlacementAreaBox
+  Hash: !ul 13133596752960619036
+  Phive:
+    Placement: {ID: !ul 13133596752960619036}
+  Rotate: [0.0, 1.2654699087142944, 0.0]
+  SRTHash: !u 0x3c9d34f4
+  Scale: [30.880842208862305, 76.3267593383789, 6.283505916595459]
+  Translate: [-14.398633003234863, 110.56925201416016, -95.9013671875]
+- Dynamic: {ForbiddenGeneratingEnemy: true, ForbiddenGeneratingEnemyLeeverBig: true,
+    NonEnemySearch: true}
+  Gyaml: ForbidAutoPlacementAreaCylinder
+  Hash: !ul 8034740956681839078
+  Phive:
+    Placement: {ID: !ul 8034740956681839078}
+  Presence: {FlagName: GuidePoe_IsGuiding, IsCheckLazy: false, IsNegation: false}
+  SRTHash: !u 0x99c1ef85
+  Scale: [35.0, 35.0, 35.0]
+  Translate: [17.182798385620117, 69.85111999511719, -83.89046478271484]
+- Dynamic: {ForbiddenGeneratingEnemy: true, ForbiddenGeneratingEnemyLeeverBig: true}
+  Gyaml: ForbidAutoPlacementAreaBox
+  Hash: !ul 10459312257142353519
+  Phive:
+    Placement: {ID: !ul 10459312257142353519}
+  Rotate: [-3.130882501602173, 0.6358147859573364, -3.1304335594177246]
+  SRTHash: !u 0x885d85f1
+  Scale: [14.453658103942871, 29.338333129882812, 16.318260192871094]
+  Translate: [-4.726467132568359, 105.27647399902344, -56.64618682861328]
+- Dynamic: {ForbiddenGeneratingEnemy: true, ForbiddenGeneratingEnemyLeeverBig: true}
+  Gyaml: ForbidAutoPlacementAreaBox
+  Hash: !ul 9756113038596061784
+  Phive:
+    Placement: {ID: !ul 9756113038596061784}
+  Rotate: [-0.027106044813990593, 1.2394888401031494, -0.03006453812122345]
+  SRTHash: !u 0x93c30150
+  Scale: [36.34307861328125, 29.338333129882812, 23.979454040527344]
+  Translate: [52.24293899536133, 105.34548950195312, -67.79374694824219]
+- Dynamic: {ForbiddenGeneratingEnemy: true, ForbiddenGeneratingEnemyLeeverBig: true}
+  Gyaml: ForbidAutoPlacementAreaBox
+  Hash: !ul 1337880726988542064
+  Phive:
+    Placement: {ID: !ul 1337880726988542064}
+  Rotate: [-0.030078310519456863, 1.2416844367980957, -0.030135378241539]
+  SRTHash: !u 0xdf69276e
+  Scale: [17.550596237182617, 29.338333129882812, 8.510751724243164]
+  Translate: [-12.485211372375488, 103.50390625, -93.41397857666016]
+- Dynamic: {ForbiddenGeneratingEnemy: true, ForbiddenGeneratingEnemyLeeverBig: true}
+  Gyaml: ForbidAutoPlacementAreaBox
+  Hash: !ul 2273654044117449045
+  Phive:
+    Placement: {ID: !ul 2273654044117449045}
+  Rotate: [-0.010991191491484642, 0.6399778127670288, -0.010995767079293728]
+  SRTHash: !u 0x9c95f907
+  Scale: [24.825891494750977, 29.338335037231445, 8.547883987426758]
+  Translate: [39.4991569519043, 105.34093475341797, -62.645538330078125]
+- Dynamic: {ForbiddenGeneratingEnemy: true, ForbiddenGeneratingEnemyLeeverBig: true}
+  Gyaml: ForbidAutoPlacementAreaBox
+  Hash: !ul 15677273843457678195
+  Phive:
+    Placement: {ID: !ul 15677273843457678195}
+  Rotate: [-3.1138484477996826, 1.2549372911453247, -3.110421657562256]
+  SRTHash: !u 0xdf30b11c
+  Scale: [34.52882766723633, 29.33833122253418, 20.335920333862305]
+  Translate: [-16.540861129760742, 103.6620101928711, -67.70532989501953]
+- Dynamic: {ForbiddenGeneratingEnemy: true, ForbiddenGeneratingEnemyLeeverBig: true}
+  Gyaml: ForbidAutoPlacementAreaBox
+  Hash: !ul 5171998329202305613
+  Phive:
+    Placement: {ID: !ul 5171998329202305613}
+  Rotate: [-0.005920518655329943, 0.3378198742866516, -0.010096348822116852]
+  SRTHash: !u 0xcef61e39
+  Scale: [41.484291076660156, 29.338333129882812, 90.82540893554688]
+  Translate: [61.77042770385742, 105.24968719482422, -106.99526977539062]
+- Dynamic: {ForbiddenGeneratingEnemy: true, ForbiddenGeneratingEnemyLeeverBig: true}
+  Gyaml: ForbidAutoPlacementAreaBox
+  Hash: !ul 16862964891880087872
+  Phive:
+    Placement: {ID: !ul 16862964891880087872}
+  SRTHash: !u 0xbe324b1c
+  Scale: [60.40999984741211, 29.338333129882812, 100.41664123535156]
+  Translate: [27.419391632080078, 105.66503143310547, -8.70207405090332]
+- Dynamic: {ForbiddenGeneratingEnemy: true, ForbiddenGeneratingEnemyLeeverBig: true}
+  Gyaml: ForbidAutoPlacementAreaBox
+  Hash: !ul 971207834858214781
+  Phive:
+    Placement: {ID: !ul 971207834858214781}
+  Rotate: [0.0, 0.0747113972902298, 0.0]
+  SRTHash: !u 0x84b1ba0c
+  Scale: [108.92076873779297, 27.5694580078125, 50.19826889038086]
+  Translate: [-14.777294158935547, 106.66632080078125, -124.82463073730469]
+- Gyaml: Area
+  Hash: !ul 9649845937898315538
+  Phive:
+    Placement: {ID: !ul 9649845937898315538}
+  Rotate: [-3.1138484477996826, 1.2549368143081665, -3.110421657562256]
+  SRTHash: !u 0x94f394c0
+  Scale: [17.287574768066406, 13.202248573303223, 4.910337448120117]
+  Translate: [-18.770950317382812, 91.21330261230469, -69.8107681274414]
+- Gyaml: Area
+  Hash: !ul 17367403188958265277
+  Phive:
+    Placement: {ID: !ul 17367403188958265277}
+  Rotate: [-3.130882501602173, 0.6358147859573364, -3.1304335594177246]
+  SRTHash: !u 0xae54f89b
+  Scale: [9.100090026855469, 13.202249526977539, 3.0002129077911377]
+  Translate: [-9.035013198852539, 91.36898040771484, -57.15053939819336]
+- Gyaml: Area
+  Hash: !ul 766636953716757872
+  Phive:
+    Placement: {ID: !ul 766636953716757872}
+  Rotate: [-0.027106042951345444, 1.2394890785217285, -0.03006453812122345]
+  SRTHash: !u 0xfde7d7b6
+  Scale: [18.22624397277832, 13.202249526977539, 3.878669023513794]
+  Translate: [54.475746154785156, 90.400146484375, -72.90032958984375]
+- Gyaml: Area
+  Hash: !ul 4018427104299588537
+  Phive:
+    Placement: {ID: !ul 4018427104299588537}
+  Rotate: [-0.010991188697516918, 0.639977753162384, -0.010995768010616302]
+  SRTHash: !u 0x374cd8ff
+  Scale: [8.422685623168945, 13.202250480651855, 1.3092230558395386]
+  Translate: [41.97646713256836, 90.56773376464844, -60.180259704589844]
+- Gyaml: Area
+  Hash: !ul 14667289466670167386
+  Phive:
+    Placement: {ID: !ul 14667289466670167386}
+  Rotate: [0.0, 0.9922499656677246, 0.0]
+  SRTHash: !u 0xc6eb26c5
+  Scale: [14.544853210449219, 7.184248924255371, 5.221455097198486]
+  Translate: [59.23157501220703, 90.47402954101562, -4.145598888397217]
+- Gyaml: Area
+  Hash: !ul 16838265395229257394
+  Phive:
+    Placement: {ID: !ul 16838265395229257394}
+  Rotate: [0.00045750377466902137, -0.6567991375923157, -0.010140014812350273]
+  SRTHash: !u 0xe087df35
+  Scale: [17.71339225769043, 8.278660774230957, 9.145526885986328]
+  Translate: [121.82855224609375, 83.56375885009766, 31.574644088745117]
+- Gyaml: Area
+  Hash: !ul 13466152434067280044
+  Phive:
+    Placement: {ID: !ul 13466152434067280044}
+  SRTHash: !u 0xb0435d07
+  Scale: [15.239121437072754, 12.406255722045898, 12.281089782714844]
+  Translate: [-101.52067565917969, 95.61373901367188, -56.09345245361328]
+- Gyaml: Area
+  Hash: !ul 9633192700510886059
+  Phive:
+    Placement: {ID: !ul 9633192700510886059}
+  Rotate: [0.0, -0.1491139680147171, 0.0]
+  SRTHash: !u 0x8829aa83
+  Scale: [22.680173873901367, 12.406255722045898, 19.143461227416992]
+  Translate: [-48.687747955322266, 95.61373901367188, -94.86042785644531]
+- Gyaml: Area
+  Hash: !ul 3034365320579698153
+  Phive:
+    Placement: {ID: !ul 3034365320579698153}
+  Rotate: [0.0, 0.13111014664173126, 0.0]
+  SRTHash: !u 0x6deaf31b
+  Scale: [13.709859848022461, 12.406255722045898, 26.507034301757812]
+  Translate: [-32.059879302978516, 95.61373901367188, -54.3527717590332]
+- Gyaml: Area
+  Hash: !ul 12100032889537622466
+  Phive:
+    Placement: {ID: !ul 12100032889537622466}
+  Rotate: [0.0, 0.046404529362916946, 0.0]
+  SRTHash: !u 0x93e1903f
+  Scale: [21.754581451416016, 12.406255722045898, 9.910199165344238]
+  Translate: [-39.662025451660156, 95.61373901367188, -41.97227096557617]
+- Gyaml: Area
+  Hash: !ul 17596666342530421899
+  Phive:
+    Placement: {ID: !ul 17596666342530421899}
+  Rotate: [0.0, 0.10343508422374725, 0.0]
+  SRTHash: !u 0x9c972a0e
+  Scale: [44.26457595825195, 12.406255722045898, 18.07137680053711]
+  Translate: [-10.420915603637695, 95.61373901367188, -119.63873291015625]
+- Dynamic: {ForbiddenAll: false, ForbiddenGeneratingEnemy: true, ForbiddenGeneratingEnemyLeeverBig: true}
+  Gyaml: ForbidAutoPlacementAreaBox
+  Hash: !ul 16517500181233650562
+  Phive:
+    Placement: {ID: !ul 16517500181233650562}
+  SRTHash: !u 0x65383fc4
+  Scale: [20.978546142578125, 7.499999046325684, 13.98040771484375]
+  Translate: [15.210668563842773, 104.3176498413086, -83.69569396972656]
+- Gyaml: DestinationAnchor
+  Hash: !ul 12092957556057904794
+  Name: HountedWasteland__AppearTreasureBox_CameraPos
+  Phive:
+    Placement: {ID: !ul 12092957556057904794}
+  Rotate: [0.0022125327959656715, -0.0, 0.006195822264999151]
+  SRTHash: !u 0x47a202e8
+  Translate: [16.012569427490234, 87.90534210205078, -97.73611450195312]
+- Gyaml: DustArea
+  Hash: !ul 17167044088016412093
+  Phive:
+    Placement: {ID: !ul 17167044088016412093}
+  SRTHash: !u 0xa358fe2f
+  Scale: [37.29132080078125, 29.41872787475586, 27.019268035888672]
+  Translate: [12.74344253540039, 94.8797607421875, -125.10981750488281]
+- Dynamic: {ForbiddenAll: false, ForbiddenGeneratingEnemy: true, ForbiddenGeneratingEnemyLeeverBig: true}
+  Gyaml: ForbidAutoPlacementAreaBox
+  Hash: !ul 752385649134735681
+  Phive:
+    Placement: {ID: !ul 752385649134735681}
+  Rotate: [0.0, 0.2617993652820587, 0.0]
+  SRTHash: !u 0x9e3edfe8
+  Scale: [3.0, 7.499999046325684, 2.9000000953674316]
+  Translate: [-55.986602783203125, 102.0928726196289, -55.32209777832031]
+- Dynamic: {ForbiddenAll: false, ForbiddenGeneratingEnemy: true, ForbiddenGeneratingEnemyLeeverBig: true}
+  Gyaml: ForbidAutoPlacementAreaBox
+  Hash: !ul 1404769261150564637
+  Phive:
+    Placement: {ID: !ul 1404769261150564637}
+  SRTHash: !u 0xf85c75a5
+  Scale: [5.394298553466797, 7.499999046325684, 6.0]
+  Translate: [15.890539169311523, 104.3176498413086, -74.00285339355469]
+- Dynamic: {ForbiddenAll: false, ForbiddenGeneratingEnemy: true, ForbiddenGeneratingEnemyLeeverBig: true}
+  Gyaml: ForbidAutoPlacementAreaBox
+  Hash: !ul 1683718437263800645
+  Phive:
+    Placement: {ID: !ul 1683718437263800645}
+  SRTHash: !u 0x97f2606f
+  Scale: [26.0, 7.499999046325684, 20.5]
+  Translate: [15.890539169311523, 88.08409118652344, -91.28193664550781]
+- Gyaml: Obj_Gerudo_QuickSand_A_03
+  Hash: !ul 4254301877886569179
+  Phive:
+    Placement: {ID: !ul 4254301877886569179}
+  Rotate: [-0.002431743312627077, -0.0009870039066299796, 0.002033454133197665]
+  SRTHash: !u 0x73e7babb
+  Translate: [86.22728729248047, 99.95872497558594, 34.24168395996094]
+- Gyaml: Obj_Gerudo_QuickSand_A_04
+  Hash: !ul 7813183334217218292
+  Phive:
+    Placement: {ID: !ul 7813183334217218292}
+  SRTHash: !u 0x32543c3a
+  Translate: [37.4998664855957, 100.02205657958984, 60.170440673828125]
+- Gyaml: Area
+  Hash: !ul 16332850370608554409
+  Phive:
+    Placement: {ID: !ul 16332850370608554409}
+  SRTHash: !u 0x646df002
+  Scale: [100.0, 20.0, 150.0]
+  Translate: [60.0, 85.0, -21.342254638671875]
+- Gyaml: Area
+  Hash: !ul 12239528692757788353
+  Phive:
+    Placement: {ID: !ul 12239528692757788353}
+  Rotate: [0.0025330474600195885, -0.3976958692073822, -0.010568059980869293]
+  SRTHash: !u 0x5abf4c82
+  Scale: [9.69731330871582, 14.669166564941406, 10.935999870300293]
+  Translate: [8.854875564575195, 91.14971923828125, -21.771644592285156]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 5511627411523086463
+  Phive:
+    Placement: {ID: !ul 5511627411523086463}
+  SRTHash: !u 0xb7ef0986
+  Scale: [28.0, 35.0, 28.0]
+  Translate: [17.182798385620117, 69.85111999511719, -83.89046478271484]
+- Gyaml: Area
+  Hash: !ul 1501253940421019014
+  Phive:
+    Placement: {ID: !ul 1501253940421019014}
+  SRTHash: !u 0x61929541
+  Scale: [17.739166259765625, 6.0, 20.0]
+  Translate: [-109.2337646484375, 98.4154052734375, -55.78092956542969]
+- Gyaml: Area
+  Hash: !ul 14871354194770026209
+  Phive:
+    Placement: {ID: !ul 14871354194770026209}
+  Rotate: [0.04910964146256447, -0.5252748727798462, -0.05679135397076607]
+  SRTHash: !u 0xe28ca7a7
+  Scale: [16.0, 6.000000476837158, 40.000003814697266]
+  Translate: [109.92504119873047, 89.61254119873047, 45.109107971191406]
+- Gyaml: Area
+  Hash: !ul 15697983035194617103
+  Phive:
+    Placement: {ID: !ul 15697983035194617103}
+  SRTHash: !u 0x8367da47
+  Scale: [10.0, 35.0, 10.0]
+  Translate: [17.182798385620117, 69.85111999511719, -61.890464782714844]
+- Gyaml: EnvPaletteTimeTableChangeArea
+  Hash: !ul 16359182621478730708
+  Phive:
+    Placement: {ID: !ul 16359182621478730708}
+  Rotate: [0.0, -0.13596804440021515, 0.0]
+  SRTHash: !u 0xc4155dcf
+  Scale: [62.27423858642578, 62.27423858642578, 62.27423858642578]
+  Translate: [128.26316833496094, 107.45596313476562, 60.899906158447266]
+- Gyaml: EnvPaletteTimeTableChangeArea
+  Hash: !ul 78789095653370890
+  Phive:
+    Placement: {ID: !ul 78789095653370890}
+  Rotate: [0.0, -0.35740482807159424, 0.0]
+  SRTHash: !u 0x1eefcfca
+  Scale: [26.054431915283203, 26.054431915283203, 26.054431915283203]
+  Translate: [15.6632080078125, 105.44902038574219, -85.39320373535156]
+- Gyaml: EnvPaletteTimeTableChangeArea
+  Hash: !ul 14220580166318210992
+  Phive:
+    Placement: {ID: !ul 14220580166318210992}
+  Rotate: [0.0, -0.35740482807159424, 0.0]
+  SRTHash: !u 0x6fe5afac
+  Scale: [36.235530853271484, 36.235530853271484, 36.235530853271484]
+  Translate: [-114.19722747802734, 107.45596313476562, -56.40506362915039]
+- Gyaml: Area
+  Hash: !ul 16883598718831879637
+  Phive:
+    Placement: {ID: !ul 16883598718831879637}
+  SRTHash: !u 0xfb629373
+  Scale: [9.0, 8.0, 11.600000381469727]
+  Translate: [16.200000762939453, 84.0, -90.0]
+- Dynamic: {Distance: 3.0, FadeTime: 3.0, SceneryName: Area_HountedWasteland_Room}
+  Gyaml: SoundSettingActor
+  Hash: !ul 17892914862029368686
+  Links:
+  - {Dst: !ul 16883598718831879637, Gyaml: Reference, Name: Reference, Src: !ul 17892914862029368686}
+  Phive:
+    Placement: {ID: !ul 17892914862029368686}
+  SRTHash: !u 0xa633ed8c
+  Translate: [16.049999237060547, 76.0, -77.0199966430664]
+- Gyaml: AnchorAction1
+  Hash: !ul 101459617364783408
+  Name: WarpPoint02_1
+  Phive:
+    Placement: {ID: !ul 101459617364783408}
+  Rotate: [3.1415927410125732, -1.035850167274475, 3.1415927410125732]
+  SRTHash: !u 0x5f32aa5d
+  Translate: [77.96729278564453, 93.8394546508789, 31.997417449951172]
+- Gyaml: Area
+  Hash: !ul 6672264300012124281
+  Phive:
+    Placement: {ID: !ul 6672264300012124281}
+  Rotate: [0.0, -0.4951198697090149, 0.0]
+  SRTHash: !u 0x7e6f3f5e
+  Scale: [11.521655082702637, 9.800000190734863, 47.34553527832031]
+  Translate: [61.14301681518555, 83.58531188964844, 46.58231735229492]
+- Gyaml: AnchorAction1
+  Hash: !ul 1636696411989835715
+  Name: WarpPoint04_1
+  Phive:
+    Placement: {ID: !ul 1636696411989835715}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x54b113db
+  Translate: [-91.1767578125, 99.69393920898438, -55.69619369506836]
+- Gyaml: Area
+  Hash: !ul 9032160804850118326
+  Phive:
+    Placement: {ID: !ul 9032160804850118326}
+  Rotate: [-3.141592502593994, -1.035850167274475, -3.141592502593994]
+  SRTHash: !u 0x3c2403a4
+  Scale: [20.0, 20.0, 10.0]
+  Translate: [60.054080963134766, 88.7026138305664, 21.38243865966797]
+- Gyaml: Area
+  Hash: !ul 16809839460325436529
+  Phive:
+    Placement: {ID: !ul 16809839460325436529}
+  Rotate: [-3.141592502593994, -0.2050367146730423, -3.141592502593994]
+  SRTHash: !u 0x11f8fd6a
+  Scale: [20.0, 20.0, 10.0]
+  Translate: [74.76974487304688, 88.7026138305664, 3.7387521266937256]
+- Gyaml: Area
+  Hash: !ul 5195260341760086140
+  Phive:
+    Placement: {ID: !ul 5195260341760086140}
+  Rotate: [2.546542248182959e-07, -0.9078541994094849, 0.0]
+  SRTHash: !u 0x29334e18
+  Scale: [20.0, 20.0, 10.0]
+  Translate: [51.540794372558594, 88.7026138305664, 42.789066314697266]
+- Gyaml: Area
+  Hash: !ul 13173332180231490606
+  Phive:
+    Placement: {ID: !ul 13173332180231490606}
+  Rotate: [-0.29032981395721436, -0.4600831866264343, 0.5797380805015564]
+  SRTHash: !u 0x7e83a1d8
+  Scale: [3.159166097640991, 1.5, 31.312421798706055]
+  Translate: [93.34347534179688, 87.9032974243164, 35.04483413696289]
+- Gyaml: Area
+  Hash: !ul 9431700095918140377
+  Phive:
+    Placement: {ID: !ul 9431700095918140377}
+  Rotate: [0.2903970777988434, -0.4331534504890442, -0.6508262753486633]
+  SRTHash: !u 0xdc2a3ca5
+  Scale: [4.279240131378174, 1.2999999523162842, 21.812419891357422]
+  Translate: [86.8573226928711, 89.07478332519531, 33.29376220703125]
+- Gyaml: Area
+  Hash: !ul 14418467798480335789
+  Phive:
+    Placement: {ID: !ul 14418467798480335789}
+  SRTHash: !u 0xd56182f8
+  Scale: [17.30246353149414, 5.865172386169434, 16.26016616821289]
+  Translate: [75.92818450927734, 88.8781509399414, 69.86537170410156]
+- Gyaml: Area
+  Hash: !ul 6114590109587145113
+  Phive:
+    Placement: {ID: !ul 6114590109587145113}
+  Rotate: [0.3536898195743561, -0.43509694933891296, -0.7193732261657715]
+  SRTHash: !u 0xbd622d5b
+  Scale: [5.717870712280273, 1.0, 5.959770202636719]
+  Translate: [29.59800148010254, 84.63467407226562, 55.310386657714844]
+- Gyaml: Area
+  Hash: !ul 2045500732765115313
+  Phive:
+    Placement: {ID: !ul 2045500732765115313}
+  Rotate: [0.0, -0.5534855723381042, 0.0]
+  SRTHash: !u 0x2ffde605
+  Scale: [6.88957405090332, 1.0, 6.836799144744873]
+  Translate: [37.88653564453125, 83.02227020263672, 60.431968688964844]
+- Gyaml: Area
+  Hash: !ul 466610258614643886
+  Phive:
+    Placement: {ID: !ul 466610258614643886}
+  Rotate: [-0.36838647723197937, -0.4229661822319031, 0.7546989917755127]
+  SRTHash: !u 0x3b8361e4
+  Scale: [5.717870712280273, 1.0, 5.959770202636719]
+  Translate: [44.99345397949219, 84.3238754272461, 64.82341766357422]
+- Gyaml: Area
+  Hash: !ul 8159777565812826284
+  Phive:
+    Placement: {ID: !ul 8159777565812826284}
+  Rotate: [-0.14018608629703522, 0.18535679578781128, -0.6534577012062073]
+  SRTHash: !u 0xef35cae4
+  Scale: [5.717871189117432, 1.0000001192092896, 5.959770202636719]
+  Translate: [28.489248275756836, 84.63467407226562, 62.14665222167969]
+- Gyaml: Area
+  Hash: !ul 10957420872825074553
+  Phive:
+    Placement: {ID: !ul 10957420872825074553}
+  Rotate: [0.14647313952445984, 0.18045127391815186, 0.688019871711731]
+  SRTHash: !u 0x92fa6a69
+  Scale: [5.717870712280273, 1.0, 5.959770202636719]
+  Translate: [46.10220718383789, 84.3238754272461, 57.987152099609375]
+- Gyaml: Area
+  Hash: !ul 10495605699852077103
+  Phive:
+    Placement: {ID: !ul 10495605699852077103}
+  Rotate: [-0.7686240673065186, 0.7506771087646484, -0.9564481377601624]
+  SRTHash: !u 0x662d00bf
+  Scale: [5.717870712280273, 1.0, 5.959770202636719]
+  Translate: [32.53921127319336, 84.63467407226562, 67.7646255493164]
+- Gyaml: Area
+  Hash: !ul 3028290795630200233
+  Phive:
+    Placement: {ID: !ul 3028290795630200233}
+  Rotate: [0.7908595204353333, 0.7265315055847168, 0.9894706606864929]
+  SRTHash: !u 0x325d7f32
+  Scale: [5.717870712280273, 1.0, 5.959770679473877]
+  Translate: [42.052242279052734, 84.3238754272461, 52.36917495727539]
+- Gyaml: Area
+  Hash: !ul 11285648572654929858
+  Phive:
+    Placement: {ID: !ul 11285648572654929858}
+  Rotate: [-1.947188377380371, 0.8952827453613281, -1.8699744939804077]
+  SRTHash: !u 0x515fa9a9
+  Scale: [5.717870712280273, 1.0000001192092896, 5.959770202636719]
+  Translate: [39.37547302246094, 84.63467407226562, 68.87338256835938]
+- Gyaml: Area
+  Hash: !ul 17072684194525899498
+  Phive:
+    Placement: {ID: !ul 17072684194525899498}
+  Rotate: [1.9322304725646973, 0.863254189491272, 1.8505581617355347]
+  SRTHash: !u 0xa97cf397
+  Scale: [5.717870712280273, 1.0, 5.9597697257995605]
+  Translate: [35.21597671508789, 84.3238754272461, 51.26042175292969]
+- Gyaml: AnchorAction1
+  Hash: !ul 12646406470461756053
+  Name: WarpPoint01_2
+  Phive:
+    Placement: {ID: !ul 12646406470461756053}
+  Rotate: [3.1415927410125732, -1.0358355045318604, 3.1415927410125732]
+  SRTHash: !u 0x6d00a656
+  Translate: [113.98042297363281, 94.89352416992188, 52.462772369384766]
+- Gyaml: AnchorAction1
+  Hash: !ul 14777693618168182303
+  Name: WarpPoint02_2
+  Phive:
+    Placement: {ID: !ul 14777693618168182303}
+  Rotate: [-0.19156332314014435, 1.0329376459121704, -0.08026428520679474]
+  SRTHash: !u 0xa689a71e
+  Translate: [75.84767150878906, 93.6443099975586, 30.245304107666016]
+- Gyaml: AnchorAction1
+  Hash: !ul 9184974253283754923
+  Name: WarpPoint03_2
+  Phive:
+    Placement: {ID: !ul 9184974253283754923}
+  Rotate: [0.0, 0.6515463590621948, 0.0]
+  SRTHash: !u 0x032b8574
+  Translate: [3.7300000190734863, 102.22000122070312, -85.83999633789062]
+- Gyaml: DestinationAnchor
+  Hash: !ul 17074480942171706160
+  Name: AppearTreasurePlayerPos
+  Phive:
+    Placement: {ID: !ul 17074480942171706160}
+  Rotate: [-3.13118839263916, -8.742277657347586e-08, -3.117514133453369]
+  SRTHash: !u 0x3d02ab5c
+  Translate: [16.05204200744629, 87.67443084716797, -97.06014251708984]
+- Gyaml: IndoorAreaOutCameraBox
+  Hash: !ul 5759528140637484431
+  Phive:
+    Placement: {ID: !ul 5759528140637484431}
+  SRTHash: !u 0x5a497984
+  Scale: [11.519775390625, 10.28631591796875, 17.482749938964844]
+  Translate: [10.202825546264648, 86.49372100830078, -100.27840423583984]
+- Gyaml: Area
+  Hash: !ul 1658630274412021033
+  Phive:
+    Placement: {ID: !ul 1658630274412021033}
+  Rotate: [0.0, -0.1491139531135559, 0.0]
+  SRTHash: !u 0xcd1bda64
+  Scale: [31.500242233276367, 13.78472900390625, 26.58814239501953]
+  Translate: [-48.687747955322266, 95.61373901367188, -94.86042785644531]
+- Gyaml: Area
+  Hash: !ul 14854089367165211438
+  Phive:
+    Placement: {ID: !ul 14854089367165211438}
+  Rotate: [0.0, 0.13111010193824768, 0.0]
+  SRTHash: !u 0x8800b4da
+  Scale: [19.041473388671875, 13.78472900390625, 32.06721496582031]
+  Translate: [-31.612945556640625, 95.61373901367188, -50.96347427368164]
+- Gyaml: Area
+  Hash: !ul 8232756689419754826
+  Phive:
+    Placement: {ID: !ul 8232756689419754826}
+  Rotate: [0.0, 0.0747113972902298, 0.0]
+  SRTHash: !u 0x53be1be1
+  Scale: [54.460384368896484, 13.78472900390625, 25.09913444519043]
+  Translate: [-14.751111030578613, 95.61373901367188, -124.474853515625]
+- Gyaml: Area
+  Hash: !ul 5335727593497214358
+  Phive:
+    Placement: {ID: !ul 5335727593497214358}
+  Rotate: [-0.008337100967764854, -0.9243335723876953, -0.0018389320466667414]
+  SRTHash: !u 0x2b71bc4e
+  Scale: [10.061681747436523, 14.669167518615723, 8.187579154968262]
+  Translate: [-17.39848518371582, 91.14481353759766, -64.30205535888672]
+- Gyaml: Area
+  Hash: !ul 7224573805536771523
+  Phive:
+    Placement: {ID: !ul 7224573805536771523}
+  Rotate: [-0.0026778869796544313, 0.11422935873270035, -0.009807163849473]
+  SRTHash: !u 0xb72f573f
+  Scale: [27.804203033447266, 14.669166564941406, 10.871759414672852]
+  Translate: [-87.12005615234375, 91.71011352539062, -19.18939971923828]
+- Gyaml: Area
+  Hash: !ul 15237781772162092419
+  Phive:
+    Placement: {ID: !ul 15237781772162092419}
+  Rotate: [-0.0024150267709046602, 0.08752567321062088, -0.009780691005289555]
+  SRTHash: !u 0xd2606751
+  Scale: [66.87141418457031, 14.669167518615723, 18.21513557434082]
+  Translate: [-13.496695518493652, 90.88700103759766, -153.30502319335938]
+- Gyaml: Area
+  Hash: !ul 9134799761303221542
+  Phive:
+    Placement: {ID: !ul 9134799761303221542}
+  Rotate: [-0.027106044813990593, 1.2394888401031494, -0.030064530670642853]
+  SRTHash: !u 0x78faff6c
+  Scale: [18.171539306640625, 14.669166564941406, 11.989727020263672]
+  Translate: [52.24293899536133, 90.45509338378906, -67.79374694824219]
+- Gyaml: Area
+  Hash: !ul 18292029559486782099
+  Phive:
+    Placement: {ID: !ul 18292029559486782099}
+  Rotate: [0.0053278300911188126, -1.124484896659851, -0.014401589520275593]
+  SRTHash: !u 0x07615089
+  Scale: [2.8130533695220947, 14.669166564941406, 7.409951686859131]
+  Translate: [-23.99412727355957, 91.1542739868164, -72.36206817626953]
+- Gyaml: Area
+  Hash: !ul 17708201365159188910
+  Phive:
+    Placement: {ID: !ul 17708201365159188910}
+  Rotate: [-0.0015060671139508486, -0.07728467881679535, -0.009636166505515575]
+  SRTHash: !u 0xa0fb8518
+  Scale: [8.482998847961426, 14.669166564941406, 15.801545143127441]
+  Translate: [-8.868999481201172, 90.8757095336914, -42.580162048339844]
+- Gyaml: Area
+  Hash: !ul 16961031393632505907
+  Phive:
+    Placement: {ID: !ul 16961031393632505907}
+  Rotate: [-3.1138484477996826, 1.2549370527267456, -3.110421657562256]
+  SRTHash: !u 0xb7bd57b9
+  Scale: [17.264413833618164, 14.66916561126709, 10.167961120605469]
+  Translate: [-16.540861129760742, 91.24198913574219, -67.70532989501953]
+- Gyaml: Area
+  Hash: !ul 2555038804491260556
+  Phive:
+    Placement: {ID: !ul 2555038804491260556}
+  SRTHash: !u 0xad9f2dfa
+  Scale: [21.165447235107422, 13.78472900390625, 17.057069778442383]
+  Translate: [-101.52067565917969, 95.61373901367188, -56.09345245361328]
+- Gyaml: Area
+  Hash: !ul 18259820371475449104
+  Phive:
+    Placement: {ID: !ul 18259820371475449104}
+  Rotate: [0.0, 0.04640452563762665, 0.0]
+  SRTHash: !u 0xe69fa8c1
+  Scale: [30.214698791503906, 13.78472900390625, 13.764164924621582]
+  Translate: [-39.662025451660156, 95.61373901367188, -41.97227096557617]
+- Gyaml: Area
+  Hash: !ul 5553784731587202364
+  Phive:
+    Placement: {ID: !ul 5553784731587202364}
+  Rotate: [-0.01203305646777153, 0.8214589953422546, -0.014304292388260365]
+  SRTHash: !u 0x0b0ddfa9
+  Scale: [18.492294311523438, 14.669166564941406, 17.2491397857666]
+  Translate: [-114.46973419189453, 91.91651153564453, -92.06979370117188]
+- Gyaml: Area
+  Hash: !ul 17985666607574038988
+  Phive:
+    Placement: {ID: !ul 17985666607574038988}
+  Rotate: [-0.005920518655329943, 0.3378198742866516, -0.010096346028149128]
+  SRTHash: !u 0x8c51ec52
+  Scale: [20.742145538330078, 14.669166564941406, 45.41270446777344]
+  Translate: [61.6524772644043, 90.75144958496094, -106.91427612304688]
+- Gyaml: Area
+  Hash: !ul 14189776882603810860
+  Phive:
+    Placement: {ID: !ul 14189776882603810860}
+  Rotate: [-0.015075759962201118, 0.9461629986763, -0.016661353409290314]
+  SRTHash: !u 0xa44f634c
+  Scale: [20.668136596679688, 14.66916561126709, 17.427656173706055]
+  Translate: [59.026634216308594, 90.46847534179688, -62.863059997558594]
+- Gyaml: Area
+  Hash: !ul 10773798996006720956
+  Phive:
+    Placement: {ID: !ul 10773798996006720956}
+  Rotate: [-0.010991191491484642, 0.6399778127670288, -0.010995768010616302]
+  SRTHash: !u 0xee8866e6
+  Scale: [12.412945747375488, 14.669167518615723, 4.273941993713379]
+  Translate: [39.4991569519043, 90.55696105957031, -62.645538330078125]
+- Gyaml: Area
+  Hash: !ul 4599231900021576643
+  Phive:
+    Placement: {ID: !ul 4599231900021576643}
+  Rotate: [0.0013363516191020608, 0.3149818181991577, -0.00937121082097292]
+  SRTHash: !u 0xf0df17f0
+  Scale: [2.731184720993042, 14.669166564941406, 21.437419891357422]
+  Translate: [-15.983221054077148, 90.90284729003906, -72.57658386230469]
+- Gyaml: Area
+  Hash: !ul 16757748612886971509
+  Phive:
+    Placement: {ID: !ul 16757748612886971509}
+  Rotate: [0.0020884694531559944, -0.3582901656627655, -0.010403935797512531]
+  SRTHash: !u 0x4cc26e5d
+  Scale: [17.703031539916992, 14.669166564941406, 16.480419158935547]
+  Translate: [-45.062599182128906, 91.87934875488281, -25.31452751159668]
+- Gyaml: Area
+  Hash: !ul 10290457401371315206
+  Phive:
+    Placement: {ID: !ul 10290457401371315206}
+  Rotate: [0.021354353055357933, -1.1687119007110596, -0.024899477139115334]
+  SRTHash: !u 0xcc11cdca
+  Scale: [14.444705963134766, 14.669166564941406, 9.048006057739258]
+  Translate: [-112.81619262695312, 91.93934631347656, -32.48232650756836]
+- Gyaml: Area
+  Hash: !ul 4894860036215835713
+  Phive:
+    Placement: {ID: !ul 4894860036215835713}
+  Rotate: [0.0018562977202236652, -0.33723002672195435, -0.010324805043637753]
+  SRTHash: !u 0xbc618d41
+  Scale: [24.241697311401367, 14.669166564941406, 36.22938919067383]
+  Translate: [-74.79246520996094, 91.54345703125, -114.79016876220703]
+- Gyaml: Area
+  Hash: !ul 6507259716844618405
+  Phive:
+    Placement: {ID: !ul 6507259716844618405}
+  Rotate: [-0.030078306794166565, 1.2416844367980957, -0.0301353819668293]
+  SRTHash: !u 0x4ff3786a
+  Scale: [8.775298118591309, 14.669166564941406, 4.255375862121582]
+  Translate: [-12.506129264831543, 90.98157501220703, -93.292236328125]
+- Gyaml: Area
+  Hash: !ul 3551300456966766162
+  Phive:
+    Placement: {ID: !ul 3551300456966766162}
+  Rotate: [-0.016842449083924294, 1.0031946897506714, -0.018123924732208252]
+  SRTHash: !u 0x6a696c40
+  Scale: [5.441872596740723, 14.669166564941406, 9.977621078491211]
+  Translate: [-26.145957946777344, 91.107666015625, -84.42041778564453]
+- Gyaml: Area
+  Hash: !ul 5189949822246771150
+  Phive:
+    Placement: {ID: !ul 5189949822246771150}
+  Rotate: [-3.0831031799316406, 1.4098832607269287, -3.0807595252990723]
+  SRTHash: !u 0x71916156
+  Scale: [4.215322971343994, 14.669166564941406, 11.56536865234375]
+  Translate: [-26.60971450805664, 90.9972152709961, -91.18701171875]
+- Gyaml: Area
+  Hash: !ul 8211889420644189819
+  Phive:
+    Placement: {ID: !ul 8211889420644189819}
+  Rotate: [-0.007448417134582996, 0.5435997843742371, -0.011384321376681328]
+  SRTHash: !u 0xcd5f6dd0
+  Scale: [19.609291076660156, 14.669167518615723, 19.468210220336914]
+  Translate: [-24.904489517211914, 91.86469268798828, -26.183916091918945]
+- Gyaml: Area
+  Hash: !ul 17069830727604362821
+  Phive:
+    Placement: {ID: !ul 17069830727604362821}
+  Rotate: [-3.130882501602173, 0.6358147859573364, -3.1304335594177246]
+  SRTHash: !u 0x6260feb1
+  Scale: [7.2268290519714355, 14.669166564941406, 8.159130096435547]
+  Translate: [-4.659852504730225, 91.39539337158203, -56.52656173706055]
+- Gyaml: Area
+  Hash: !ul 1903385121239324630
+  Phive:
+    Placement: {ID: !ul 1903385121239324630}
+  Rotate: [0.0025330474600195885, -0.3976958394050598, -0.010568059980869293]
+  SRTHash: !u 0x3977cab6
+  Scale: [17.204999923706055, 14.669166564941406, 14.999999046325684]
+  Translate: [-5.136247634887695, 91.22496032714844, 3.4477927684783936]
+- Gyaml: Area
+  Hash: !ul 8281365029692668728
+  Phive:
+    Placement: {ID: !ul 8281365029692668728}
+  Rotate: [0.0025330474600195885, -0.3976958692073822, -0.010568059980869293]
+  SRTHash: !u 0x033fc423
+  Scale: [13.204998970031738, 14.669166564941406, 15.64306354522705]
+  Translate: [10.419392585754395, 91.13819122314453, -23.254487991333008]
+- Gyaml: Area
+  Hash: !ul 7193849091793569306
+  Phive:
+    Placement: {ID: !ul 7193849091793569306}
+  Rotate: [0.0, -1.4994863271713257, 0.0]
+  SRTHash: !u 0xd666ca78
+  Scale: [12.625059127807617, 14.472350120544434, 4.322555065155029]
+  Translate: [2.3781986236572266, 90.84428405761719, -43.34850311279297]
+- Gyaml: Area
+  Hash: !ul 9560979037373995475
+  Phive:
+    Placement: {ID: !ul 9560979037373995475}
+  Rotate: [-3.134815216064453, 0.707794725894928, -3.1287686824798584]
+  SRTHash: !u 0xf5a0d831
+  Scale: [17.38848876953125, 12.143526077270508, 21.574731826782227]
+  Translate: [61.97225570678711, 84.95820617675781, 77.14679718017578]
+- Gyaml: Area
+  Hash: !ul 3106519678814683076
+  Phive:
+    Placement: {ID: !ul 3106519678814683076}
+  Rotate: [0.003042402444407344, -0.44128403067588806, -0.010775547474622726]
+  SRTHash: !u 0x52649a10
+  Scale: [19.9033145904541, 10.415433883666992, 17.23015785217285]
+  Translate: [58.91255187988281, 90.53559875488281, -24.1978702545166]
+- Gyaml: Area
+  Hash: !ul 1822326969542841695
+  Phive:
+    Placement: {ID: !ul 1822326969542841695}
+  Rotate: [0.0014850225998088717, -0.4721145033836365, -0.010453661903738976]
+  SRTHash: !u 0x58b4dfd0
+  Scale: [20.320125579833984, 14.472350120544434, 7.430748462677002]
+  Translate: [48.97490692138672, 90.655517578125, -40.914642333984375]
+- Gyaml: Area
+  Hash: !ul 587709894780207568
+  Phive:
+    Placement: {ID: !ul 587709894780207568}
+  Rotate: [-0.0022703257855027914, 0.07277420908212662, -0.009769121184945107]
+  SRTHash: !u 0xf79a5311
+  Scale: [8.997306823730469, 7.184248447418213, 9.18400764465332]
+  Translate: [46.55708312988281, 90.67039489746094, 14.316546440124512]
+- Gyaml: Area
+  Hash: !ul 15314168923907282864
+  Phive:
+    Placement: {ID: !ul 15314168923907282864}
+  Rotate: [0.17609424889087677, -1.521959662437439, -0.18080487847328186]
+  SRTHash: !u 0x8e133403
+  Scale: [20.080272674560547, 12.247482299804688, 16.01752471923828]
+  Translate: [7.772032737731934, 88.82291412353516, -0.6658718585968018]
+- Gyaml: Area
+  Hash: !ul 6921619113404535424
+  Phive:
+    Placement: {ID: !ul 6921619113404535424}
+  Rotate: [0.0, -1.4994858503341675, 0.0]
+  SRTHash: !u 0x21c614b2
+  Scale: [7.092172622680664, 14.472350120544434, 6.700200080871582]
+  Translate: [31.3792724609375, 90.84428405761719, -50.90255355834961]
+- Gyaml: Area
+  Hash: !ul 4497982865276037861
+  Phive:
+    Placement: {ID: !ul 4497982865276037861}
+  Rotate: [-0.02302440069615841, 1.1446415185928345, -0.02357194572687149]
+  SRTHash: !u 0x3ad12c07
+  Scale: [14.171010971069336, 8.226837158203125, 7.237724781036377]
+  Translate: [45.992889404296875, 90.50757598876953, 2.475844621658325]
+- Gyaml: Area
+  Hash: !ul 788085598033523359
+  Phive:
+    Placement: {ID: !ul 788085598033523359}
+  Rotate: [-0.0004196219961158931, 0.03341679275035858, -0.00987246073782444]
+  SRTHash: !u 0xbe79244d
+  Scale: [20.491653442382812, 12.247482299804688, 38.91691589355469]
+  Translate: [4.169928550720215, 88.84471130371094, 39.977882385253906]
+- Gyaml: Area
+  Hash: !ul 16630727522684652076
+  Phive:
+    Placement: {ID: !ul 16630727522684652076}
+  Rotate: [0.005902306642383337, -0.6535852551460266, -0.012272585183382034]
+  SRTHash: !u 0x977c85c4
+  Scale: [18.05188751220703, 8.278661727905273, 14.341241836547852]
+  Translate: [124.41522216796875, 83.519775390625, 32.09389877319336]
+- Gyaml: Area
+  Hash: !ul 3216784452543648424
+  Phive:
+    Placement: {ID: !ul 3216784452543648424}
+  Rotate: [0.0, -0.04350811243057251, 0.0]
+  SRTHash: !u 0x166ab437
+  Scale: [21.203907012939453, 5.865172386169434, 20.69734764099121]
+  Translate: [72.89442443847656, 88.8781509399414, 69.28034210205078]
+- Gyaml: Area
+  Hash: !ul 9337467895413433327
+  Phive:
+    Placement: {ID: !ul 9337467895413433327}
+  Rotate: [-0.00637036981061101, -1.1997628211975098, 0.006835437845438719]
+  SRTHash: !u 0xe5573ee9
+  Scale: [6.351254940032959, 7.358799934387207, 6.5531086921691895]
+  Translate: [42.14045333862305, 92.81515502929688, 15.75818157196045]
+- Gyaml: Area
+  Hash: !ul 14073002504452288022
+  Phive:
+    Placement: {ID: !ul 14073002504452288022}
+  Rotate: [0.0025408840738236904, -0.39837557077407837, -0.010571064427495003]
+  SRTHash: !u 0x48f23a17
+  Scale: [19.414596557617188, 5.865172863006592, 16.477771759033203]
+  Translate: [100.15918731689453, 88.66931915283203, 72.4306869506836]
+- Gyaml: Area
+  Hash: !ul 13080170205529011424
+  Phive:
+    Placement: {ID: !ul 13080170205529011424}
+  Rotate: [0.006244567688554525, -0.6753561496734619, -0.012483648024499416]
+  SRTHash: !u 0xa1bb0c5a
+  Scale: [15.095006942749023, 8.278661727905273, 13.686051368713379]
+  Translate: [100.0196533203125, 83.7954330444336, 15.864479064941406]
+- Gyaml: Area
+  Hash: !ul 16742072510441743949
+  Phive:
+    Placement: {ID: !ul 16742072510441743949}
+  Rotate: [0.004709860309958458, -0.5717791318893433, -0.011586240492761135]
+  SRTHash: !u 0x1a264130
+  Scale: [21.57291603088379, 7.184248447418213, 16.126319885253906]
+  Translate: [81.18759155273438, 90.29153442382812, 0.6041016578674316]
+- Gyaml: Area
+  Hash: !ul 6501467446844890317
+  Phive:
+    Placement: {ID: !ul 6501467446844890317}
+  Rotate: [0.0, 0.9922499060630798, 0.0]
+  SRTHash: !u 0x7492f787
+  Scale: [21.100791931152344, 7.184248924255371, 6.764449119567871]
+  Translate: [62.44009780883789, 90.47402954101562, 1.4371174573898315]
+- Gyaml: Area
+  Hash: !ul 8553393101137545005
+  Phive:
+    Placement: {ID: !ul 8553393101137545005}
+  Rotate: [0.0, -0.3920302987098694, 0.0]
+  SRTHash: !u 0x15e4f361
+  Scale: [43.94364547729492, 11.251668930053711, 19.466825485229492]
+  Translate: [22.5762939453125, 88.68697357177734, 87.2801742553711]
+- Gyaml: Area
+  Hash: !ul 17813038397465436333
+  Phive:
+    Placement: {ID: !ul 17813038397465436333}
+  SRTHash: !u 0xfba64b26
+  Scale: [2.2791709899902344, 1.3066444396972656, 2.663818359375]
+  Translate: [15.955876350402832, 106.21266174316406, -83.24790954589844]
+- Gyaml: DestinationAnchor
+  Hash: !ul 12470972334058919326
+  Name: PlayerPos
+  Phive:
+    Placement: {ID: !ul 12470972334058919326}
+  Rotate: [-3.125901460647583, -8.742277657347586e-08, -3.1306493282318115]
+  SRTHash: !u 0x8fec67ca
+  Translate: [15.898804664611816, 106.68335723876953, -83.63191223144531]
+- Gyaml: AnchorAction2
+  Hash: !ul 3051799900272840093
+  Phive:
+    Placement: {ID: !ul 3051799900272840093}
+  Rotate: [3.1415927410125732, 1.2974680662155151, 3.1415927410125732]
+  SRTHash: !u 0xe422912f
+  Translate: [-97.99742126464844, 100.5615463256836, -53.470489501953125]
+- Gyaml: Npc_GuidePoe_Adult
+  Hash: !ul 18228426797135545843
+  Links:
+  - {Dst: !ul 2955208840593365993, Gyaml: Reference, Name: Reference, Src: !ul 18228426797135545843}
+  - {Dst: !ul 3051799900272840093, Gyaml: Reference, Name: Reference, Src: !ul 18228426797135545843}
+  - {Dst: !ul 5574525658605260589, Gyaml: Reference, Name: Reference, Src: !ul 18228426797135545843}
+  - {Dst: !ul 6644450856897532759, Gyaml: Reference, Name: Reference, Src: !ul 18228426797135545843}
+  - {Dst: !ul 10626607952329198227, Gyaml: Reference, Name: Reference, Src: !ul 18228426797135545843}
+  - {Dst: !ul 16512785194065662364, Gyaml: Reference, Name: Reference, Src: !ul 18228426797135545843}
+  - {Dst: !ul 4166084983080116428, Gyaml: Reference, Name: Reference, Src: !ul 18228426797135545843}
+  - {Dst: !ul 7627648647414273184, Gyaml: Reference, Name: Reference, Src: !ul 18228426797135545843}
+  - {Dst: !ul 7822070257779149527, Gyaml: Reference, Name: Reference, Src: !ul 18228426797135545843}
+  - {Dst: !ul 9904696488859088029, Gyaml: Reference, Name: Reference, Src: !ul 18228426797135545843}
+  - {Dst: !ul 6715122905049460599, Gyaml: Reference, Name: Reference, Src: !ul 18228426797135545843}
+  MoveRadius: 117.92393493652344
+  Phive:
+    Placement: {ID: !ul 18228426797135545843}
+  Rails:
+  - {Dst: !ul 17501080215698710148, Gyaml: Reference, Name: Reference}
+  SRTHash: !u 0x26a8cf01
+  Translate: [15.95053482055664, 106.68521881103516, -83.20968627929688]
+- Gyaml: DestinationAnchor
+  Hash: !ul 16512785194065662364
+  Name: GuidePoeComplete
+  Phive:
+    Placement: {ID: !ul 16512785194065662364}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x4b22b8d9
+  Translate: [-99.42787170410156, 102.6041488647461, -55.738487243652344]
+- Gyaml: ForbidUseScrubBusinessSead
+  Hash: !ul 2375953147678351624
+  Phive:
+    Placement: {ID: !ul 2375953147678351624}
+  Rotate: [0.0, -0.5364164113998413, 0.0]
+  SRTHash: !u 0x785d47a7
+  Scale: [6.0, 6.0, 6.0]
+  Translate: [37.64723587036133, 89.45899963378906, 59.746986389160156]
+- Gyaml: Area
+  Hash: !ul 3365404108515052646
+  Phive:
+    Placement: {ID: !ul 3365404108515052646}
+  Rotate: [-0.390006422996521, -0.3876577913761139, 0.8677331209182739]
+  SRTHash: !u 0x8f67c4e4
+  Scale: [1.0, 1.2000000476837158, 6.193056583404541]
+  Translate: [90.86833190917969, 86.54191589355469, 35.29140853881836]
+- Gyaml: Area
+  Hash: !ul 14487568893460400549
+  Phive:
+    Placement: {ID: !ul 14487568893460400549}
+  Rotate: [-0.22104397416114807, -0.3077342212200165, 0.833183228969574]
+  SRTHash: !u 0x2e8ad35f
+  Scale: [0.9999998807907104, 1.2000000476837158, 16.595867156982422]
+  Translate: [104.63640594482422, 86.82227325439453, 6.2321553230285645]
+- Gyaml: Area
+  Hash: !ul 9101248464809114197
+  Phive:
+    Placement: {ID: !ul 9101248464809114197}
+  Rotate: [-0.19848763942718506, -0.26025164127349854, 0.735150933265686]
+  SRTHash: !u 0x738d2ae6
+  Scale: [1.0, 1.2000000476837158, 9.5]
+  Translate: [74.60865783691406, 86.74166107177734, 69.73160552978516]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 11059913788041543379
+  Phive:
+    Placement: {ID: !ul 11059913788041543379}
+  SRTHash: !u 0xfe594ca8
+  Scale: [5.0, 1.0, 5.0]
+  Translate: [37.415863037109375, 83.45899963378906, 60.19176483154297]
+- Gyaml: Area
+  Hash: !ul 16031763938354192582
+  Phive:
+    Placement: {ID: !ul 16031763938354192582}
+  Rotate: [-0.09933831542730331, -0.1615644097328186, 0.5205049514770508]
+  SRTHash: !u 0x9efb8baa
+  Scale: [3.159166097640991, 1.5, 17.812421798706055]
+  Translate: [74.68082427978516, 88.23802947998047, 76.18775939941406]
+- Gyaml: Area
+  Hash: !ul 3474755270912156556
+  Phive:
+    Placement: {ID: !ul 3474755270912156556}
+  Rotate: [0.18031775951385498, -0.29210174083709717, -0.6116458773612976]
+  SRTHash: !u 0x271cd1df
+  Scale: [4.279240131378174, 1.2999998331069946, 21.812421798706055]
+  Translate: [70.3573226928711, 89.49649810791016, 68.29376220703125]
+- Gyaml: Area
+  Hash: !ul 15159156535797539537
+  Phive:
+    Placement: {ID: !ul 15159156535797539537}
+  Rotate: [-0.41237470507621765, -0.3209000527858734, 0.8392000198364258]
+  SRTHash: !u 0x93732a10
+  Scale: [1.0, 1.2000000476837158, 5.0]
+  Translate: [86.36759185791016, 86.58269500732422, 42.919471740722656]
+- Gyaml: Area
+  Hash: !ul 12548399783954340078
+  Phive:
+    Placement: {ID: !ul 12548399783954340078}
+  Rotate: [-0.2392800897359848, -0.34031686186790466, 0.842092752456665]
+  SRTHash: !u 0x93373682
+  Scale: [1.0, 1.2000000476837158, 5.0]
+  Translate: [82.47207641601562, 86.58080291748047, 50.89289474487305]
+- Gyaml: Area
+  Hash: !ul 5518148016430497340
+  Phive:
+    Placement: {ID: !ul 5518148016430497340}
+  Rotate: [-0.31925302743911743, -0.3329026401042938, 0.8463077545166016]
+  SRTHash: !u 0x6e88ff7b
+  Scale: [1.0, 1.1999999284744263, 5.0]
+  Translate: [79.54393005371094, 86.54986572265625, 56.4081916809082]
+- Gyaml: Area
+  Hash: !ul 14775995034425863145
+  Phive:
+    Placement: {ID: !ul 14775995034425863145}
+  Rotate: [-0.41082143783569336, -0.2618067264556885, 0.8158686757087708]
+  SRTHash: !u 0x2c1ded55
+  Scale: [0.9999999403953552, 1.2000000476837158, 4.873126983642578]
+  Translate: [96.12208557128906, 86.21231842041016, 26.16803741455078]
+- Gyaml: Area
+  Hash: !ul 15437544283341257484
+  Phive:
+    Placement: {ID: !ul 15437544283341257484}
+  Rotate: [-0.19063051044940948, -0.09311104565858841, 0.7851977348327637]
+  SRTHash: !u 0x8523b610
+  Scale: [1.0, 1.2000000476837158, 9.5]
+  Translate: [70.27960205078125, 87.32178497314453, 87.98100280761719]
+- Gyaml: Area
+  Hash: !ul 8313227336843521073
+  Phive:
+    Placement: {ID: !ul 8313227336843521073}
+  SRTHash: !u 0x89d34236
+  Scale: [30.204999923706055, 14.669166564941406, 50.20832061767578]
+  Translate: [27.419391632080078, 91.13819122314453, -8.70207405090332]
+- Gyaml: Area
+  Hash: !ul 8504311239099585852
+  Phive:
+    Placement: {ID: !ul 8504311239099585852}
+  Rotate: [0.0, -0.5235987901687622, 0.0]
+  SRTHash: !u 0x7e0b3c81
+  Scale: [30.204999923706055, 14.669166564941406, 44.64306640625]
+  Translate: [20.419391632080078, 91.13819122314453, 10.905769348144531]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 16323095861194660110
+  Phive:
+    Placement: {ID: !ul 16323095861194660110}
+  Rotate: [0.0, -0.5235987901687622, 0.0]
+  SRTHash: !u 0xb4180794
+  Scale: [20.0, 5.0, 20.0]
+  Translate: [37.792232513427734, 80.14250946044922, 60.0]
+- Gyaml: Area
+  Hash: !ul 12696820767682719101
+  Phive:
+    Placement: {ID: !ul 12696820767682719101}
+  Rotate: [0.0, 1.0471975803375244, 0.0]
+  SRTHash: !u 0xa43748ff
+  Scale: [21.203907012939453, 5.865172386169434, 9.377654075622559]
+  Translate: [87.82321166992188, 88.8781509399414, 38.06229019165039]
+- Gyaml: Area
+  Hash: !ul 16890265121351125120
+  Phive:
+    Placement: {ID: !ul 16890265121351125120}
+  Rotate: [0.0, -0.5235987901687622, 0.0]
+  SRTHash: !u 0x9b370aa1
+  Scale: [24.20665168762207, 14.669166564941406, 32.08468246459961]
+  Translate: [46.055809020996094, 91.13819122314453, 4.014042377471924]
+- Gyaml: DestinationAnchor
+  Hash: !ul 3358775032461407433
+  Name: SwapRestartPosAnchor
+  Phive:
+    Placement: {ID: !ul 3358775032461407433}
+  Rotate: [0.0, -0.5235987305641174, 0.0]
+  SRTHash: !u 0xe9964ed5
+  Translate: [42.71601486206055, 90.45899963378906, 51.00109100341797]
+- Gyaml: Area
+  Hash: !ul 8763709914002872586
+  Phive:
+    Placement: {ID: !ul 8763709914002872586}
+  Rotate: [0.0, 1.0471975803375244, 0.0]
+  SRTHash: !u 0x95925825
+  Scale: [5.0, 5.0, 5.0]
+  Translate: [37.956787109375, 88.99147033691406, 60.027488708496094]
+- Gyaml: DestinationAnchor
+  Hash: !ul 17097246040018140063
+  Name: SwapRestartPosAnchor
+  Phive:
+    Placement: {ID: !ul 17097246040018140063}
+  Rotate: [-2.9500293731689453, -1.03293776512146, 3.061328411102295]
+  SRTHash: !u 0xbb4101af
+  Translate: [75.84767150878906, 93.6443099975586, 30.245304107666016]
+- Gyaml: Area
+  Hash: !ul 6496106405301305800
+  Phive:
+    Placement: {ID: !ul 6496106405301305800}
+  Rotate: [-0.19156330823898315, 1.0329376459121704, -0.08026428520679474]
+  SRTHash: !u 0xc20e8eef
+  Scale: [24.0, 7.5, 8.757343292236328]
+  Translate: [68.166748046875, 92.54750061035156, 25.730680465698242]
+- Gyaml: DestinationAnchor
+  Hash: !ul 11800296889139980076
+  Name: SwapRestartPosAnchor
+  Phive:
+    Placement: {ID: !ul 11800296889139980076}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0x565d041e
+  Translate: [15.935462951660156, 103.6966552734375, -69.0]
+- Gyaml: Area
+  Hash: !ul 203963082369411383
+  Phive:
+    Placement: {ID: !ul 203963082369411383}
+  Presence: {FlagName: HountedWasteland_IsRespawnAtGuidePoeRuins, IsCheckLazy: false,
+    IsNegation: false}
+  Rotate: [0.0, -0.1695195734500885, 0.0]
+  SRTHash: !u 0xc93b456d
+  Scale: [60.247039794921875, 20.84069061279297, 71.99185180664062]
+  Translate: [-62.414485931396484, 97.57545471191406, -77.44271087646484]
+- Gyaml: DestinationAnchor
+  Hash: !ul 15372102368048146926
+  Name: SwapRestartPosAnchor
+  Phive:
+    Placement: {ID: !ul 15372102368048146926}
+  Rotate: [0.0, 1.570796251296997, 7.152557373046875e-07]
+  SRTHash: !u 0x798075b8
+  Translate: [-100.20817565917969, 99.4254150390625, -55.814239501953125]
+- Gyaml: Area
+  Hash: !ul 185046783895556552
+  Phive:
+    Placement: {ID: !ul 185046783895556552}
+  Presence: {FlagName: HountedWasteland_IsRespawnAtGuidePoeRuins, IsCheckLazy: false,
+    IsNegation: true}
+  Rotate: [0.0, -0.1695195734500885, 0.0]
+  SRTHash: !u 0xc93b456d
+  Scale: [60.247039794921875, 20.84069061279297, 71.99185180664062]
+  Translate: [-62.414485931396484, 97.57545471191406, -77.44271087646484]
+- Gyaml: Area
+  Hash: !ul 16522287245121881128
+  Phive:
+    Placement: {ID: !ul 16522287245121881128}
+  Presence: {FlagName: HountedWasteland_IsRespawnAtGuidePoeRuins, IsCheckLazy: false,
+    IsNegation: true}
+  Rotate: [0.0, -1.5354067087173462, 0.0]
+  SRTHash: !u 0x9fd5ae54
+  Scale: [30.040000915527344, 19.828290939331055, 50.0]
+  Translate: [14.085515022277832, 98.60026550292969, -129.25259399414062]
+- Gyaml: Area
+  Hash: !ul 13347093912759167278
+  Phive:
+    Placement: {ID: !ul 13347093912759167278}
+  Presence: {FlagName: HountedWasteland_IsRespawnAtGuidePoeRuins, IsCheckLazy: false,
+    IsNegation: true}
+  Rotate: [0.0, -1.5354067087173462, 0.0]
+  SRTHash: !u 0x9fd5ae54
+  Scale: [30.040000915527344, 19.828290939331055, 50.0]
+  Translate: [14.085515022277832, 98.60026550292969, -129.25259399414062]
+- Gyaml: FldObj_AirWall_CameraSightAndCameraBody
+  Hash: !ul 7141431765772823344
+  Phive:
+    Placement: {ID: !ul 7141431765772823344}
+  Rotate: [1.4128064321994316e-05, 1.0710256099700928, -0.04083189368247986]
+  SRTHash: !u 0x674ee97d
+  Scale: [12.079697608947754, 0.6169877052307129, 1.4612020254135132]
+  Translate: [88.30374908447266, 86.98125457763672, 37.56027603149414]
+- Dynamic: {FogParams: SceneConnectArea_White_HountedWasteland_01}
+  Gyaml: VolumeFogArea
+  Hash: !ul 12904512128854293716
+  Phive:
+    Placement: {ID: !ul 12904512128854293716}
+  SRTHash: !u 0xa7db1a30
+  Scale: [38.58658218383789, 23.680110931396484, 26.026771545410156]
+  Translate: [-134.60430908203125, 104.77713012695312, -57.55891036987305]
+- Dynamic: {FogParams: SceneConnectArea_White_HountedWasteland_02}
+  Gyaml: VolumeFogArea
+  Hash: !ul 17309350775613573561
+  Phive:
+    Placement: {ID: !ul 17309350775613573561}
+  Rotate: [0.0, -0.6815711259841919, 0.0]
+  SRTHash: !u 0xaf248bed
+  Scale: [38.58658218383789, 23.680110931396484, 26.026771545410156]
+  Translate: [142.11129760742188, 98.07122802734375, 72.057861328125]
+- Dynamic: {IsOverwriteEnvEffectType: true, OverwriteEnvEffectType: 43}
+  Gyaml: AreaOverwriteEnvParam
+  Hash: !ul 12096363460356475164
+  Phive:
+    Placement: {ID: !ul 12096363460356475164}
+  Rotate: [0.030895501375198364, -0.0, 0.018074452877044678]
+  SRTHash: !u 0x369e13f2
+  Scale: [10.000000953674316, 7.5, 12.0]
+  Translate: [17.031421661376953, 85.0, -90.20820617675781]
+- Gyaml: DestinationAnchor
+  Hash: !ul 6715122905049460599
+  Name: GuideStartPos
+  Phive:
+    Placement: {ID: !ul 6715122905049460599}
+  SRTHash: !u 0x47ebb4ee
+  Translate: [13.100000381469727, 106.86869812011719, -104.00589752197266]
+- Gyaml: Npc_Hylia_044_Adult
+  Hash: !ul 5776071442945884372
+  Links:
+  - {Dst: !ul 16261921332210605255, Gyaml: Reference, Name: Reference, Src: !ul 5776071442945884372}
+  - {Dst: !ul 13179061956735664867, Gyaml: Reference, Name: Reference, Src: !ul 5776071442945884372}
+  - {Dst: !ul 5892304212581515948, Gyaml: Reference, Name: Reference, Src: !ul 5776071442945884372}
+  - {Dst: !ul 3874834076148202626, Gyaml: Reference, Name: Reference, Src: !ul 5776071442945884372}
+  - {Dst: !ul 13943994831486398983, Gyaml: Reference, Name: Reference, Src: !ul 5776071442945884372}
+  - {Dst: !ul 17876941385664371942, Gyaml: Reference, Name: Reference, Src: !ul 5776071442945884372}
+  - {Dst: !ul 15252764118181787373, Gyaml: Reference, Name: Reference, Src: !ul 5776071442945884372}
+  - {Dst: !ul 731999260795302545, Gyaml: Reference, Name: Reference, Src: !ul 5776071442945884372}
+  - {Dst: !ul 10111529850573941795, Gyaml: Reference, Name: Reference, Src: !ul 5776071442945884372}
+  - {Dst: !ul 3227526311529693453, Gyaml: Reference, Name: Reference, Src: !ul 5776071442945884372}
+  Phive:
+    ConstraintLink:
+      ID: !ul 5776071442945884372
+      Owners:
+      - ClusterData: {DisableContact: true}
+        OwnerPose:
+          Rotate: [-3.141592502593994, 0.523598849773407, -3.141592502593994]
+          Trans: [37.25802993774414, 90.45899963378906, 60.56468200683594]
+        ParamData: {EnableMotor: false, EnableRotateAroundAxis: false, EnableSliderSpring: false,
+          MotorForce: 100.0, MotorRatchetType: 0, MotorVelocity: 1.0, SliderFrictionForce: 1.0,
+          SliderLimitMax: 0.20000000298023224, SliderLimitMin: -0.20000000298023224,
+          SliderSpringDamping: 10.0, SliderSpringStiffness: 100.0, SliderSpringTargetPosition: 0.0}
+        PivotData:
+          Axis: 1
+          Pivot: [0.0, 0.0, 0.0]
+        Refer: !ul 3227526311529693453
+        ReferPose:
+          Rotate: [0.0, -1.4856582880020142, 0.0]
+          Trans: [38.046390533447266, 90.45899963378906, 60.727455139160156]
+        Type: Slider
+    Placement: {ID: !ul 5776071442945884372}
+  Rotate: [-3.141592502593994, 0.523598849773407, -3.141592502593994]
+  SRTHash: !u 0x7a8bd40a
+  Translate: [37.25802993774414, 90.45899963378906, 60.56468200683594]
+- Gyaml: AnchorAction1
+  Hash: !ul 16261921332210605255
+  Phive:
+    Placement: {ID: !ul 16261921332210605255}
+  Rotate: [-3.141592502593994, 0.523598849773407, -3.141592502593994]
+  SRTHash: !u 0x7a8bd40a
+  Translate: [37.25802993774414, 90.45899963378906, 60.56468200683594]
+- Gyaml: Enemy_Leever_Fixed
+  Hash: !ul 6373925416777755042
+  Phive:
+    Placement: {ID: !ul 6373925416777755042}
+  Rotate: [0.0, 1.24837064743042, 0.0]
+  SRTHash: !u 0xcabb879e
+  Translate: [-26.87109375, 100.35047912597656, -83.83683013916016]
+- Gyaml: Area
+  Hash: !ul 15566376227880850895
+  Phive:
+    Placement: {ID: !ul 15566376227880850895}
+  Rotate: [3.1415927410125732, 1.0205576419830322, 3.1415927410125732]
+  SRTHash: !u 0x39a12591
+  Scale: [0.9999999403953552, 9.062675476074219, 13.004386901855469]
+  Translate: [-51.80862808227539, 97.56531524658203, -87.18912506103516]
+- Dynamic: {IsAimTarget: true}
+  Gyaml: Enemy_Leever_Fixed
+  Hash: !ul 4104874373242717517
+  Phive:
+    Placement: {ID: !ul 4104874373242717517}
+  SRTHash: !u 0x90c8454b
+  Translate: [-52.14775085449219, 104.10447692871094, -80.47213745117188]
+- Gyaml: Area
+  Hash: !ul 4068767863898445838
+  Phive:
+    Placement: {ID: !ul 4068767863898445838}
+  Rotate: [2.2502331733703613, 1.525591492652893, 2.2685892581939697]
+  SRTHash: !u 0xd694713a
+  Scale: [1.0, 9.062675476074219, 9.89411449432373]
+  Translate: [-55.37199401855469, 97.02635192871094, -64.0123519897461]
+- Dynamic: {IsAimTarget: true}
+  Gyaml: Enemy_Leever_Fixed
+  Hash: !ul 10272886839598156534
+  Phive:
+    Placement: {ID: !ul 10272886839598156534}
+  Rotate: [0.0, -0.6097697019577026, 0.0]
+  SRTHash: !u 0xfb4ebccd
+  Translate: [-80.2933349609375, 103.76937103271484, -52.84735870361328]
+- Gyaml: Area
+  Hash: !ul 17179803719430901388
+  Phive:
+    Placement: {ID: !ul 17179803719430901388}
+  Rotate: [0.0, 0.0010955336038023233, 0.0]
+  SRTHash: !u 0x37db0dc5
+  Scale: [1.0, 9.062675476074219, 10.90128231048584]
+  Translate: [-60.47705078125, 97.36956787109375, -55.68475341796875]
+- Dynamic: {IsAimTarget: true}
+  Gyaml: Enemy_Leever_Fixed
+  Hash: !ul 15045364431914667380
+  Phive:
+    Placement: {ID: !ul 15045364431914667380}
+  Rotate: [0.0, -0.798523485660553, 0.0]
+  SRTHash: !u 0x658ebe33
+  Translate: [-59.0422477722168, 99.23709106445312, -59.56907653808594]
+- Gyaml: Area
+  Hash: !ul 11552835774393053511
+  Phive:
+    Placement: {ID: !ul 11552835774393053511}
+  Rotate: [-1.3034221524321765e-07, -0.1876579374074936, 0.0]
+  SRTHash: !u 0x0b109d59
+  Scale: [0.9999999403953552, 9.062675476074219, 8.504386901855469]
+  Translate: [-37.941612243652344, 96.70892333984375, -47.052513122558594]
+- Gyaml: Enemy_Leever_Fixed
+  Hash: !ul 16908929648307902639
+  Phive:
+    Placement: {ID: !ul 16908929648307902639}
+  SRTHash: !u 0x484db3e4
+  Translate: [-73.41645050048828, 101.2916030883789, -60.63080978393555]
+- Gyaml: Area
+  Hash: !ul 5368605881625746571
+  Phive:
+    Placement: {ID: !ul 5368605881625746571}
+  Rotate: [-0.007781604770570993, -0.0, -0.009046134538948536]
+  SRTHash: !u 0x2311a634
+  Scale: [1.0, 9.062676429748535, 14.39411449432373]
+  Translate: [-57.22565841674805, 96.80474853515625, -57.06061553955078]
+- Gyaml: Enemy_Leever_Fixed
+  Hash: !ul 16271566791569456076
+  Phive:
+    Placement: {ID: !ul 16271566791569456076}
+  Rotate: [0.0, 0.2533888518810272, 0.0]
+  SRTHash: !u 0x2598a4cb
+  Translate: [-32.65529251098633, 103.1474838256836, -103.7210693359375]
+- Gyaml: Area
+  Hash: !ul 5843967944471717783
+  Phive:
+    Placement: {ID: !ul 5843967944471717783}
+  Rotate: [-0.01812887005507946, 0.98656165599823, -0.02299492619931698]
+  SRTHash: !u 0x1f64cd8e
+  Scale: [0.9999999403953552, 9.062675476074219, 13.08949089050293]
+  Translate: [-15.081321716308594, 97.66486358642578, -121.001708984375]
+- Dynamic: {FogParams: HountedWasteland_DobonArea_00}
+  Gyaml: VolumeFogArea
+  Hash: !ul 10391018718614260800
+  Phive:
+    Placement: {ID: !ul 10391018718614260800}
+  Rotate: [0.0, 1.0122909545898438, 0.0]
+  SRTHash: !u 0xea737916
+  Scale: [50.0, 5.983123779296875, 16.849224090576172]
+  Translate: [86.45152282714844, 91.06161499023438, 38.5]
+- Dynamic: {FogParams: HountedWasteland_DobonArea_01}
+  Gyaml: VolumeFogArea
+  Hash: !ul 7196699080092412346
+  Phive:
+    Placement: {ID: !ul 7196699080092412346}
+  SRTHash: !u 0xfd9a02c5
+  Scale: [32.67207336425781, 5.7688727378845215, 28.316490173339844]
+  Translate: [37.31452560424805, 86.88381958007812, 60.75758743286133]
+AiGroups:
+- Hash: !ul 239332145462036800
+  Logic: Logic/Module/HountedWasteland_Common/HountedWasteland_Common_cebd.logic.module.ain
+  References:
+  - {Id: Area_e466, Path: Area_e466, Reference: !ul 5458082207704524264}
+  - {Id: Area_27f4, Path: Area_27f4, Reference: !ul 14711547578755358911}
+  - {Id: Area_faac, Path: Area_faac, Reference: !ul 2333683030810438036}
+  - {Id: Area_e948, Path: Area_e948, Reference: !ul 6391568521433718432}
+  - {Id: Area_f4c7, Path: Area_f4c7, Reference: !ul 14709775582691597629}
+  - {Id: EventRequestActor_1d07, Path: EventRequestActor_1d07, Reference: !ul 14048552151273697287}
+  - {Id: Area_c0c5, Path: Area_c0c5, Reference: !ul 2711190047079802366}
+  - {Id: Area_bff4, Path: Area_bff4, Reference: !ul 13686385409331864915}
+  - {Id: Area_bb4b, Path: Area_bb4b, Reference: !ul 9913432228528074888}
+  - {Id: Area_170b, Path: Area_170b, Reference: !ul 9989707057913175788}
+  - {Id: Area_18bd, Path: Area_18bd, Reference: !ul 11041059582542397003}
+  - {Id: Area_07a3, Path: Area_07a3, Reference: !ul 2593841657070478157}
+  - {Id: Area_33e2, Path: Area_33e2, Reference: !ul 8562550870143126474}
+  - {Id: Area_4ba3, Path: Area_4ba3, Reference: !ul 12219562129397234442}
+  - {Id: Area_1cc1, Path: Area_1cc1, Reference: !ul 17072483262285941704}
+  - {Id: Area_0618, Path: Area_0618, Reference: !ul 17367403188958265277}
+  - {Id: Area_9de8, Path: Area_9de8, Reference: !ul 9649845937898315538}
+  - {Id: Area_528a, Path: Area_528a, Reference: !ul 4018427104299588537}
+  - {Id: Area_d185, Path: Area_d185, Reference: !ul 766636953716757872}
+  - {Id: Area_9b39, Path: Area_9b39, Reference: !ul 13466152434067280044}
+  - {Id: Area_fdfa, Path: Area_fdfa, Reference: !ul 9633192700510886059}
+  - {Id: Area_fd11, Path: Area_fd11, Reference: !ul 3034365320579698153}
+  - {Id: Area_987c, Path: Area_987c, Reference: !ul 12100032889537622466}
+  - {Id: Area_f89f, Path: Area_f89f, Reference: !ul 17596666342530421899}
+- Hash: !ul 415415172156987843
+  Logic: Logic/Module/HountedWasteland_Common/HountedWasteland_Common_be1c.logic.module.ain
+  References:
+  - {Id: Area_c051, Path: Area_c051, Reference: !ul 3365404108515052646}
+  - {Id: Area_6dd3, Path: Area_6dd3, Reference: !ul 14487568893460400549}
+  - {Id: Area_0b0a, Path: Area_0b0a, Reference: !ul 9101248464809114197}
+  - {Id: Area_54d9, Path: Area_54d9, Reference: !ul 11059913788041543379}
+  - {Id: Area_291c, Path: Area_291c, Reference: !ul 15159156535797539537}
+  - {Id: Area_4e3e, Path: Area_4e3e, Reference: !ul 12548399783954340078}
+  - {Id: Area_6c58, Path: Area_6c58, Reference: !ul 5518148016430497340}
+  - {Id: Area_7f2d, Path: Area_7f2d, Reference: !ul 14775995034425863145}
+  - {Id: Area_8f36, Path: Area_8f36, Reference: !ul 15437544283341257484}
+- Hash: !ul 461517864396573081
+  Logic: Logic/Module/HountedWasteland_Level_House/HountedWasteland_Level_House_9aa0.logic.module.ain
+  References:
+  - {Id: Obj_CandleStick_A_02_b64c, Path: Obj_CandleStick_A_02_b64c, Reference: !ul 10760995785488763638}
+  - {Id: Obj_CandleStick_A_02_b573, Path: Obj_CandleStick_A_02_b573, Reference: !ul 18414650647124863657}
+  - {Id: EventRequestActor_7019, Path: _bac4/EventRequestActor_7019, Reference: !ul 8292026280019138460}
+  - {Id: DestinationAnchor_b66b, Path: _bac4/DestinationAnchor_b66b, Reference: !ul 348053841831234803}
+  - {Id: Obj_TBox_A_01_NoBake_8fbc, Path: _bac4/Obj_TBox_A_01_NoBake_8fbc, Reference: !ul 8825521833684392638}
+  - {Id: AiGroup, InstanceName: Gimmick_TreasureBoxAppear_Fall_c6e5_dce7, Logic: Logic/Module/Gimmick_TreasureBoxAppear_Fall/Gimmick_TreasureBoxAppear_Fall_c6e5.logic.module.ain,
+    Path: _bac4/AiGroup, Reference: !ul 8485369679035989975}
+- Hash: !ul 687404611831264279
+  Logic: Logic/Module/Gimmick_Area_Pop_Leever/Gimmick_Area_Pop_Leever_bcaa.logic.module.ain
+  References:
+  - {Id: Area_87d8, Path: Area_87d8, Reference: !ul 11552835774393053511}
+  - {Id: Enemy_Leever_Fixed_d28c, Path: Enemy_Leever_Fixed_d28c, Reference: !ul 15045364431914667380}
+- Hash: !ul 1831734583380586352
+  Logic: Logic/Module/Gimmick_Area_Pop_Leever/Gimmick_Area_Pop_Leever_bcaa.logic.module.ain
+  References:
+  - {Id: Area_87d8, Path: Area_87d8, Reference: !ul 5843967944471717783}
+  - {Id: Enemy_Leever_Fixed_d28c, Path: Enemy_Leever_Fixed_d28c, Reference: !ul 16271566791569456076}
+- Hash: !ul 2067360624178932277
+  InstanceName: SwapRestartPos_d8f4_1875
+  Logic: Logic/Module/HountedWasteland_Common/HountedWasteland_Common_01db.logic.module.ain
+  References:
+  - {Id: DestinationAnchor_98a9, Path: DestinationAnchor_98a9, Reference: !ul 15372102368048146926}
+  - {Id: Area_a8f8, Path: Area_a8f8, Reference: !ul 185046783895556552}
+  - {Id: Area_dce5, Path: Area_dce5, Reference: !ul 13347093912759167278}
+- Hash: !ul 2814118463449979386
+  Logic: Logic/Module/HountedWasteland_Level_House/HountedWasteland_Level_House_0386.logic.module.ain
+  References:
+  - {Id: Area_452f, Path: Area_452f, Reference: !ul 11855399436229457476}
+- Hash: !ul 4255937819850951738
+  Logic: Logic/Module/HountedWasteland_Common/HountedWasteland_Common_b5cc.logic.module.ain
+  References:
+  - {Id: Area_88fb, Path: Area_88fb, Reference: !ul 5511627411523086463}
+  - {Id: Area_b9d9, Path: Area_b9d9, Reference: !ul 1501253940421019014}
+  - {Id: Area_6cf2, Path: Area_6cf2, Reference: !ul 14871354194770026209}
+  - {Id: Area_84ec, Path: Area_84ec, Reference: !ul 15697983035194617103}
+  - {Id: Area_a9e5, Path: Area_a9e5, Reference: !ul 6672264300012124281}
+- Hash: !ul 6756244615169753172
+  Logic: Logic/Module/Gimmick_Area_Pop_Leever/Gimmick_Area_Pop_Leever_bcaa.logic.module.ain
+  References:
+  - {Id: Area_87d8, Path: Area_87d8, Reference: !ul 5368605881625746571}
+  - {Id: Enemy_Leever_Fixed_d28c, Path: Enemy_Leever_Fixed_d28c, Reference: !ul 16908929648307902639}
+- Hash: !ul 6837482157292005742
+  Logic: Logic/Module/HountedWasteland_Common/HountedWasteland_Common_1251.logic.module.ain
+  References:
+  - {Id: Area_0504, Path: Area_0504, Reference: !ul 5553784731587202364}
+  - {Id: Area_07e8, Path: Area_07e8, Reference: !ul 17069830727604362821}
+  - {Id: Area_08e6, Path: Area_08e6, Reference: !ul 6507259716844618405}
+  - {Id: Area_0dc0, Path: Area_0dc0, Reference: !ul 14189776882603810860}
+  - {Id: Area_0dec, Path: Area_0dec, Reference: !ul 6501467446844890317}
+  - {Id: Area_132a, Path: Area_132a, Reference: !ul 8211889420644189819}
+  - {Id: Area_1447, Path: Area_1447, Reference: !ul 16757748612886971509}
+  - {Id: Area_1838, Path: Area_1838, Reference: !ul 7193849091793569306}
+  - {Id: Area_1f84, Path: Area_1f84, Reference: !ul 17985666607574038988}
+  - {Id: Area_252c, Path: Area_252c, Reference: !ul 788085598033523359}
+  - {Id: Area_2848, Path: Area_2848, Reference: !ul 1903385121239324630}
+  - {Id: Area_2995, Path: Area_2995, Reference: !ul 9560979037373995475}
+  - {Id: Area_2bae, Path: Area_2bae, Reference: !ul 4497982865276037861}
+  - {Id: Area_2f8a, Path: Area_2f8a, Reference: !ul 587709894780207568}
+  - {Id: Area_32f4, Path: Area_32f4, Reference: !ul 14073002504452288022}
+  - {Id: Area_3f35, Path: Area_3f35, Reference: !ul 4599231900021576643}
+  - {Id: Area_423c, Path: Area_423c, Reference: !ul 18259820371475449104}
+  - {Id: Area_434e, Path: Area_434e, Reference: !ul 10773798996006720956}
+  - {Id: Area_48bb, Path: Area_48bb, Reference: !ul 8232756689419754826}
+  - {Id: Area_4ab8, Path: Area_4ab8, Reference: !ul 1822326969542841695}
+  - {Id: Area_5187, Path: Area_5187, Reference: !ul 13080170205529011424}
+  - {Id: Area_6195, Path: Area_6195, Reference: !ul 8553393101137545005}
+  - {Id: Area_6791, Path: Area_6791, Reference: !ul 3216784452543648424}
+  - {Id: Area_6aa2, Path: Area_6aa2, Reference: !ul 15237781772162092419}
+  - {Id: Area_6bcb, Path: Area_6bcb, Reference: !ul 7224573805536771523}
+  - {Id: Area_6db3, Path: Area_6db3, Reference: !ul 3106519678814683076}
+  - {Id: Area_76a8, Path: Area_76a8, Reference: !ul 5335727593497214358}
+  - {Id: Area_7e4c, Path: Area_7e4c, Reference: !ul 9134799761303221542}
+  - {Id: Area_7e5c, Path: Area_7e5c, Reference: !ul 6921619113404535424}
+  - {Id: Area_866a, Path: Area_866a, Reference: !ul 16961031393632505907}
+  - {Id: Area_8e50, Path: Area_8e50, Reference: !ul 16630727522684652076}
+  - {Id: Area_9b5e, Path: Area_9b5e, Reference: !ul 17708201365159188910}
+  - {Id: Area_9e02, Path: Area_9e02, Reference: !ul 18292029559486782099}
+  - {Id: Area_a43e, Path: Area_a43e, Reference: !ul 5189949822246771150}
+  - {Id: Area_aa4b, Path: Area_aa4b, Reference: !ul 15314168923907282864}
+  - {Id: Area_ae8d, Path: Area_ae8d, Reference: !ul 9337467895413433327}
+  - {Id: Area_b20e, Path: Area_b20e, Reference: !ul 16742072510441743949}
+  - {Id: Area_bcc2, Path: Area_bcc2, Reference: !ul 3551300456966766162}
+  - {Id: Area_be91, Path: Area_be91, Reference: !ul 2555038804491260556}
+  - {Id: Area_c3f8, Path: Area_c3f8, Reference: !ul 4894860036215835713}
+  - {Id: Area_cb57, Path: Area_cb57, Reference: !ul 1658630274412021033}
+  - {Id: Area_d35b, Path: Area_d35b, Reference: !ul 8281365029692668728}
+  - {Id: Area_dee5, Path: Area_dee5, Reference: !ul 10290457401371315206}
+  - {Id: Area_f9ea, Path: Area_f9ea, Reference: !ul 14854089367165211438}
+  - {Id: Area_82b2, Path: Area_82b2, Reference: !ul 8504311239099585852}
+  - {Id: Area_bcb5, Path: Area_bcb5, Reference: !ul 8313227336843521073}
+  - {Id: Area_d7c5, Path: Area_d7c5, Reference: !ul 16323095861194660110}
+  - {Id: Area_acc3, Path: Area_acc3, Reference: !ul 12696820767682719101}
+  - {Id: Area_13c3, Path: Area_13c3, Reference: !ul 16890265121351125120}
+- Hash: !ul 7075177341514065741
+  Logic: Logic/Module/HountedWasteland_Common/HountedWasteland_Common_47db.logic.module.ain
+  References:
+  - {Id: EventRequestActor_d0f1, Path: EventRequestActor_d0f1, Reference: !ul 6626676952790523847}
+  - {Id: Area_0fda, Path: Area_0fda, Reference: !ul 17900901603658915973}
+  - {Id: Area_15b1, Path: Area_15b1, Reference: !ul 13823312653523978813}
+  - {Id: Area_1940, Path: Area_1940, Reference: !ul 4357921032232213983}
+  - {Id: Area_1faf, Path: Area_1faf, Reference: !ul 16831189106211139584}
+  - {Id: Area_4d4f, Path: Area_4d4f, Reference: !ul 9690411522113640080}
+  - {Id: Area_6506, Path: Area_6506, Reference: !ul 2623669026960014998}
+  - {Id: Area_736c, Path: Area_736c, Reference: !ul 17848391553310454807}
+  - {Id: Area_8736, Path: Area_8736, Reference: !ul 8163708110714522741}
+  - {Id: Area_8bb0, Path: Area_8bb0, Reference: !ul 12229672372831193106}
+  - {Id: Area_9286, Path: Area_9286, Reference: !ul 18304627046161751483}
+  - {Id: Area_c94a, Path: Area_c94a, Reference: !ul 312097080525144525}
+  - {Id: Area_ea51, Path: Area_ea51, Reference: !ul 7578300150522353212}
+  - {Id: Area_4135, Path: Area_4135, Reference: !ul 3741712712052834472}
+  - {Id: Area_a8e8, Path: Area_a8e8, Reference: !ul 6359154108060735653}
+  - {Id: Area_d6de, Path: Area_d6de, Reference: !ul 9593260380041960227}
+  - {Id: Area_2442, Path: Area_2442, Reference: !ul 14667289466670167386}
+  - {Id: Area_4b04, Path: Area_4b04, Reference: !ul 16838265395229257394}
+  - {Id: Area_df69, Path: Area_df69, Reference: !ul 12239528692757788353}
+  - {Id: Area_46f5, Path: Area_46f5, Reference: !ul 14418467798480335789}
+- Hash: !ul 8149399487752276216
+  Logic: Logic/Module/HountedWasteland_Common/HountedWasteland_Common_c2ba.logic.module.ain
+  References:
+  - {Id: Area_1e66, Path: Area_1e66, Reference: !ul 9032160804850118326}
+  - {Id: Area_cbc3, Path: Area_cbc3, Reference: !ul 5195260341760086140}
+  - {Id: Area_e19a, Path: Area_e19a, Reference: !ul 16809839460325436529}
+- Hash: !ul 8570045419816035321
+  Logic: Logic/Module/HountedWasteland_Common/HountedWasteland_Common_599d.logic.module.ain
+  References:
+  - {Id: EventRequestActor_6659, Path: EventRequestActor_6659, Reference: !ul 18006332753891104582}
+  - {Id: Area_6914, Path: Area_6914, Reference: !ul 10009295322297041593}
+  - {Id: Area_89c4, Path: Area_89c4, Reference: !ul 17813038397465436333}
+- Hash: !ul 10069830313692737290
+  Logic: Logic/Module/HountedWasteland_Common/HountedWasteland_Common_4031.logic.module.ain
+  References:
+  - {Id: Area_33b6, Path: Area_33b6, Reference: !ul 16332850370608554409}
+  - {Id: Npc_GuidePoe_Adult_43db, Path: Npc_GuidePoe_Adult_43db, Reference: !ul 18228426797135545843}
+- Hash: !ul 10313777678117539131
+  Logic: Logic/Module/Common_FieldDungeonEntranceSet/Common_FieldDungeonEntranceSet_bad1.logic.module.ain
+  References:
+  - {Id: Area_6674, Path: Area_6674, Reference: !ul 17801154711673008960}
+  - {Id: FieldAndDungeonEntranceEventRequestActor_57cf, Path: FieldAndDungeonEntranceEventRequestActor_57cf,
+    Reference: !ul 6480555586895679330}
+- Hash: !ul 10612258029355110767
+  Logic: Logic/Module/Gimmick_Area_Pop_Leever/Gimmick_Area_Pop_Leever_bcaa.logic.module.ain
+  References:
+  - {Id: Area_87d8, Path: Area_87d8, Reference: !ul 15566376227880850895}
+  - {Id: Enemy_Leever_Fixed_d28c, Path: Enemy_Leever_Fixed_d28c, Reference: !ul 6373925416777755042}
+- Hash: !ul 10671289039259102457
+  Logic: Logic/Module/Gimmick_AllDay_Skulltula/Gimmick_AllDay_Skulltula_115c.logic.module.ain
+  References:
+  - {Id: Land_SkulltulaGold_SpiderWeb_A_01_a32a, Path: Land_SkulltulaGold_SpiderWeb_A_01_a32a,
+    Reference: !ul 3885199316049097573}
+  - {Id: Enemy_Skulltula_Gold_e916, Path: Enemy_Skulltula_Gold_e916, Reference: !ul 14910672274965350769}
+- Hash: !ul 10713241142423335645
+  Logic: Logic/Module/SwapRestartPos/SwapRestartPos_d8f4.logic.module.ain
+  References:
+  - {Id: DestinationAnchor_98a9, Path: DestinationAnchor_98a9, Reference: !ul 17097246040018140063}
+  - {Id: Area_a8f8, Path: Area_a8f8, Reference: !ul 6496106405301305800}
+- Hash: !ul 11048279376649916774
+  Logic: Logic/Module/Common_FieldDungeonEntranceSet/Common_FieldDungeonEntranceSet_bad1.logic.module.ain
+  References:
+  - {Id: Area_6674, Path: Area_6674, Reference: !ul 1226730615084752641}
+  - {Id: FieldAndDungeonEntranceEventRequestActor_57cf, Path: FieldAndDungeonEntranceEventRequestActor_57cf,
+    Reference: !ul 12259052763112244129}
+- Hash: !ul 11266696034495745676
+  Logic: Logic/Module/HountedWasteland_Common/HountedWasteland_Common_cd47.logic.module.ain
+  References:
+  - {Id: Area_3f73, Path: Area_3f73, Reference: !ul 9431700095918140377}
+  - {Id: Area_9bd2, Path: Area_9bd2, Reference: !ul 13173332180231490606}
+  - {Id: Area_1686, Path: Area_1686, Reference: !ul 3028290795630200233}
+  - {Id: Area_31f8, Path: Area_31f8, Reference: !ul 2045500732765115313}
+  - {Id: Area_35cc, Path: Area_35cc, Reference: !ul 10957420872825074553}
+  - {Id: Area_6a56, Path: Area_6a56, Reference: !ul 10495605699852077103}
+  - {Id: Area_963c, Path: Area_963c, Reference: !ul 466610258614643886}
+  - {Id: Area_ac35, Path: Area_ac35, Reference: !ul 11285648572654929858}
+  - {Id: Area_cfa2, Path: Area_cfa2, Reference: !ul 6114590109587145113}
+  - {Id: Area_f0dc, Path: Area_f0dc, Reference: !ul 8159777565812826284}
+  - {Id: Area_fbaf, Path: Area_fbaf, Reference: !ul 17072684194525899498}
+  - {Id: Area_33a2, Path: Area_33a2, Reference: !ul 3474755270912156556}
+  - {Id: Area_6609, Path: Area_6609, Reference: !ul 16031763938354192582}
+- Hash: !ul 11616219748680877521
+  Logic: Logic/Module/Gimmick_Area_Pop_Leever/Gimmick_Area_Pop_Leever_bcaa.logic.module.ain
+  References:
+  - {Id: Area_87d8, Path: Area_87d8, Reference: !ul 4068767863898445838}
+  - {Id: Enemy_Leever_Fixed_d28c, Path: Enemy_Leever_Fixed_d28c, Reference: !ul 4104874373242717517}
+- Hash: !ul 11868622753479932390
+  Logic: Logic/Module/SwapRestartPos/SwapRestartPos_d8f4.logic.module.ain
+  References:
+  - {Id: DestinationAnchor_98a9, Path: DestinationAnchor_98a9, Reference: !ul 3358775032461407433}
+  - {Id: Area_a8f8, Path: Area_a8f8, Reference: !ul 8763709914002872586}
+- Hash: !ul 13186753946283807796
+  Logic: Logic/Module/HountedWasteland_Common/HountedWasteland_Common_c69a.logic.module.ain
+  References:
+  - {Id: EnvPaletteChangeArea_9477, Path: EnvPaletteChangeArea_9477, Reference: !ul 16359182621478730708}
+  - {Id: EnvPaletteTimeTableChangeArea_6705, Path: EnvPaletteTimeTableChangeArea_6705,
+    Reference: !ul 14220580166318210992}
+  - {Id: EnvPaletteTimeTableChangeArea_c9ca, Path: EnvPaletteTimeTableChangeArea_c9ca,
+    Reference: !ul 78789095653370890}
+- Hash: !ul 14278165318934513002
+  Logic: Logic/Module/Gimmick_Area_Pop_Leever/Gimmick_Area_Pop_Leever_bcaa.logic.module.ain
+  References:
+  - {Id: Area_87d8, Path: Area_87d8, Reference: !ul 17179803719430901388}
+  - {Id: Enemy_Leever_Fixed_d28c, Path: Enemy_Leever_Fixed_d28c, Reference: !ul 10272886839598156534}
+- Hash: !ul 14883675606646123939
+  Logic: Logic/Module/HountedWasteland_Common/HountedWasteland_Common_adbb.logic.module.ain
+  References:
+  - {Id: Area_48cc, Path: Area_48cc, Reference: !ul 7826410505871172975}
+  - {Id: Area_cd4e, Path: Area_cd4e, Reference: !ul 8987474265552894016}
+  - {Id: Area_3c1c, Path: Area_3c1c, Reference: !ul 794458597249039227}
+  - {Id: Area_37d8, Path: Area_37d8, Reference: !ul 10626607952329198227}
+  - {Id: Area_dc6f, Path: Area_dc6f, Reference: !ul 17167044088016412093}
+- Hash: !ul 15085401483524424726
+  InstanceName: SwapRestartPos_d8f4_b3e6
+  Logic: Logic/Module/HountedWasteland_Common/HountedWasteland_Common_6252.logic.module.ain
+  References:
+  - {Id: DestinationAnchor_98a9, Path: DestinationAnchor_98a9, Reference: !ul 11800296889139980076}
+  - {Id: Area_a8f8, Path: Area_a8f8, Reference: !ul 203963082369411383}
+  - {Id: Area_6564, Path: Area_6564, Reference: !ul 16522287245121881128}
+- Hash: !ul 17282368372249830911
+  Logic: Logic/Module/HountedWasteland_Common/HountedWasteland_Common_5b1f.logic.module.ain
+  References:
+  - {Id: Area_3f44, Path: Area_3f44, Reference: !ul 14782134310013431013}
+FarDeleteGroups:
+- [!ul 587709894780207568, !ul 788085598033523359, !ul 1658630274412021033, !ul 1822326969542841695,
+  !ul 1903385121239324630, !ul 2555038804491260556, !ul 3106519678814683076, !ul 3216784452543648424,
+  !ul 3551300456966766162, !ul 4497982865276037861, !ul 4599231900021576643, !ul 4894860036215835713,
+  !ul 5189949822246771150, !ul 5335727593497214358, !ul 5553784731587202364, !ul 6501467446844890317,
+  !ul 6507259716844618405, !ul 6921619113404535424, !ul 7193849091793569306, !ul 7224573805536771523,
+  !ul 8211889420644189819, !ul 8232756689419754826, !ul 8281365029692668728, !ul 8313227336843521073,
+  !ul 8504311239099585852, !ul 8553393101137545005, !ul 9134799761303221542, !ul 9337467895413433327,
+  !ul 9560979037373995475, !ul 10290457401371315206, !ul 10773798996006720956, !ul 12696820767682719101,
+  !ul 13080170205529011424, !ul 14073002504452288022, !ul 14189776882603810860, !ul 14854089367165211438,
+  !ul 15237781772162092419, !ul 15314168923907282864, !ul 16323095861194660110, !ul 16630727522684652076,
+  !ul 16742072510441743949, !ul 16757748612886971509, !ul 16890265121351125120, !ul 16961031393632505907,
+  !ul 17069830727604362821, !ul 17708201365159188910, !ul 17985666607574038988, !ul 18259820371475449104,
+  !ul 18292029559486782099]
+- [!ul 766636953716757872, !ul 2333683030810438036, !ul 2593841657070478157, !ul 2711190047079802366,
+  !ul 3034365320579698153, !ul 4018427104299588537, !ul 5458082207704524264, !ul 6391568521433718432,
+  !ul 8562550870143126474, !ul 9633192700510886059, !ul 9649845937898315538, !ul 9913432228528074888,
+  !ul 9989707057913175788, !ul 11041059582542397003, !ul 12100032889537622466, !ul 12219562129397234442,
+  !ul 13466152434067280044, !ul 13686385409331864915, !ul 14048552151273697287, !ul 14709775582691597629,
+  !ul 14711547578755358911, !ul 17072483262285941704, !ul 17367403188958265277, !ul 17596666342530421899]
+- [!ul 312097080525144525, !ul 2623669026960014998, !ul 3741712712052834472, !ul 4357921032232213983,
+  !ul 6359154108060735653, !ul 6626676952790523847, !ul 7578300150522353212, !ul 8163708110714522741,
+  !ul 9593260380041960227, !ul 9690411522113640080, !ul 12229672372831193106, !ul 12239528692757788353,
+  !ul 13823312653523978813, !ul 14418467798480335789, !ul 14667289466670167386, !ul 16831189106211139584,
+  !ul 16838265395229257394, !ul 17848391553310454807, !ul 17900901603658915973, !ul 18304627046161751483]
+- [!ul 19622875782908932, !ul 731999260795302545, !ul 2170665455752159410, !ul 3227526311529693453,
+  !ul 3874834076148202626, !ul 4007700366631322160, !ul 4309582845570805434, !ul 5892304212581515948,
+  !ul 10111529850573941795, !ul 13179061956735664867, !ul 13943994831486398983, !ul 15252764118181787373,
+  !ul 17876941385664371942]
+- [!ul 466610258614643886, !ul 2045500732765115313, !ul 3028290795630200233, !ul 3474755270912156556,
+  !ul 6114590109587145113, !ul 8159777565812826284, !ul 9431700095918140377, !ul 10495605699852077103,
+  !ul 10957420872825074553, !ul 11285648572654929858, !ul 13173332180231490606, !ul 16031763938354192582,
+  !ul 17072684194525899498]
+- [!ul 3365404108515052646, !ul 5518148016430497340, !ul 9101248464809114197, !ul 11059913788041543379,
+  !ul 12548399783954340078, !ul 14487568893460400549, !ul 14775995034425863145, !ul 15159156535797539537,
+  !ul 15437544283341257484]
+- [!ul 348053841831234803, !ul 8292026280019138460, !ul 8825521833684392638, !ul 10760995785488763638,
+  !ul 18414650647124863657]
+- [!ul 794458597249039227, !ul 7826410505871172975, !ul 8987474265552894016, !ul 10626607952329198227,
+  !ul 17167044088016412093]
+- [!ul 1501253940421019014, !ul 5511627411523086463, !ul 6672264300012124281, !ul 14871354194770026209,
+  !ul 15697983035194617103]
+- [!ul 78789095653370890, !ul 14220580166318210992, !ul 16359182621478730708]
+- [!ul 185046783895556552, !ul 13347093912759167278, !ul 15372102368048146926]
+- [!ul 203963082369411383, !ul 11800296889139980076, !ul 16522287245121881128]
+- [!ul 5195260341760086140, !ul 9032160804850118326, !ul 16809839460325436529]
+- [!ul 10009295322297041593, !ul 17813038397465436333, !ul 18006332753891104582]
+- [!ul 1226730615084752641, !ul 12259052763112244129]
+- [!ul 3358775032461407433, !ul 8763709914002872586]
+- [!ul 3885199316049097573, !ul 14910672274965350769]
+- [!ul 4068767863898445838, !ul 4104874373242717517]
+- [!ul 5368605881625746571, !ul 16908929648307902639]
+- [!ul 5843967944471717783, !ul 16271566791569456076]
+- [!ul 6373925416777755042, !ul 15566376227880850895]
+- [!ul 6480555586895679330, !ul 17801154711673008960]
+- [!ul 6496106405301305800, !ul 17097246040018140063]
+- [!ul 10272886839598156534, !ul 17179803719430901388]
+- [!ul 11552835774393053511, !ul 15045364431914667380]
+- [!ul 16332850370608554409, !ul 18228426797135545843]
+FilePath: Work/Banc/Scene/HountedWasteland/HountedWasteland_Adult.bcett.json
+PhiveHeader:
+  PlacementGroups: []
+Rails:
+- Gyaml: Guide
+  Hash: !ul 17501080215698710148
+  IsClosed: false
+  Name: Guide
+  Points:
+  - Control0: [17.42243766784668, 102.75773620605469, -27.82105255126953]
+    Control1: [10.730222702026367, 110.97964477539062, -158.19076538085938]
+    Gyaml: Guide
+    Hash: !ul 9253608565185267951
+    NextDistance: 74.51331329345703
+    Translate: [14.076330184936523, 106.86869049072266, -93.00590515136719]
+  - Control0: [-19.80553436279297, 101.25677490234375, -112.40034484863281]
+    Control1: [-29.624393463134766, 108.3623046875, -98.915283203125]
+    Gyaml: Guide
+    Hash: !ul 13184452150128337013
+    NextDistance: 28.571229934692383
+    PrevDistance: 74.51331329345703
+    Translate: [-24.714963912963867, 104.80953979492188, -105.6578140258789]
+  - Control0: [-50.59700012207031, 103.31568908691406, -99.16600036621094]
+    Control1: [-51.766334533691406, 103.66947937011719, -95.93753051757812]
+    Gyaml: Guide
+    Hash: !ul 12015961337031700322
+    NextDistance: 16.146387100219727
+    PrevDistance: 28.571229934692383
+    Translate: [-51.18166732788086, 103.49258422851562, -97.55176544189453]
+  - Control0: [-54.89822769165039, 104.79297637939453, -85.77649688720703]
+    Control1: [-37.98861312866211, 104.72574615478516, -83.59925079345703]
+    Gyaml: Guide
+    Hash: !ul 13729869215085278841
+    NextDistance: 16.373981475830078
+    PrevDistance: 16.146387100219727
+    Translate: [-46.44342041015625, 104.75936126708984, -84.68787384033203]
+  - Control0: [-34.90081024169922, 105.17064666748047, -79.6884994506836]
+    Control1: [-32.350555419921875, 102.27242279052734, -72.66510772705078]
+    Gyaml: Guide
+    Hash: !ul 1622223582766517469
+    NextDistance: 12.24455738067627
+    PrevDistance: 16.373981475830078
+    Translate: [-33.62568283081055, 103.7215347290039, -76.17680358886719]
+  - Control0: [-43.40107345581055, 104.56404876708984, -73.72863006591797]
+    Control1: [-41.00400161743164, 101.01038360595703, -65.6747817993164]
+    Gyaml: Guide
+    Hash: !ul 8459127609705857932
+    NextDistance: 19.40334129333496
+    PrevDistance: 12.24455738067627
+    Translate: [-42.202537536621094, 102.78721618652344, -69.70170593261719]
+  - Control0: [-27.958200454711914, 102.28590393066406, -68.6722183227539]
+    Control1: [-27.59337043762207, 100.3416748046875, -50.213279724121094]
+    Gyaml: Guide
+    Hash: !ul 3338109102253398258
+    NextDistance: 18.512619018554688
+    PrevDistance: 19.40334129333496
+    Translate: [-27.775785446166992, 101.31378936767578, -59.4427490234375]
+  - Control0: [-31.362205505371094, 101.9286117553711, -46.92056655883789]
+    Control1: [-42.16114807128906, 102.82337188720703, -43.44050216674805]
+    Gyaml: Guide
+    Hash: !ul 1240698483315991661
+    NextDistance: 19.27972412109375
+    PrevDistance: 18.512619018554688
+    Translate: [-36.76167678833008, 102.37599182128906, -45.18053436279297]
+  - Control0: [-49.36198043823242, 100.84146118164062, -44.72810363769531]
+    Control1: [-55.89614486694336, 100.08206176757812, -59.689292907714844]
+    Gyaml: Guide
+    Hash: !ul 17506399397949931257
+    NextDistance: 34.22864532470703
+    PrevDistance: 19.27972412109375
+    Translate: [-52.62906265258789, 100.46176147460938, -52.20869827270508]
+  - Control0: [-39.1922607421875, 104.30094146728516, -76.56784057617188]
+    Control1: [-64.05062103271484, 105.70069122314453, -89.84733581542969]
+    Gyaml: Guide
+    Hash: !ul 5149433319141700497
+    NextDistance: 18.28965187072754
+    PrevDistance: 34.22864532470703
+    Translate: [-51.62144088745117, 105.00081634521484, -83.20758819580078]
+  - Control0: [-44.220054626464844, 102.63290405273438, -88.2000961303711]
+    Control1: [-43.236053466796875, 105.59323120117188, -88.2000961303711]
+    Gyaml: Guide
+    Hash: !ul 1789477424038622213
+    NextDistance: 34.98066329956055
+    PrevDistance: 18.28965187072754
+    Translate: [-43.72805404663086, 104.11306762695312, -88.2000961303711]
+  - Control0: [-42.78927993774414, 102.23426818847656, -54.89550018310547]
+    Control1: [-52.36528396606445, 99.18739318847656, -54.316192626953125]
+    Gyaml: Guide
+    Hash: !ul 3237529805561054946
+    NextDistance: 8.093850135803223
+    PrevDistance: 34.98066329956055
+    Translate: [-47.5772819519043, 100.71083068847656, -54.6058464050293]
+  - Control0: [-53.26144027709961, 100.77430725097656, -58.14168167114258]
+    Control1: [-55.13302230834961, 101.248046875, -58.17312240600586]
+    Gyaml: Guide
+    Hash: !ul 16505791559557902729
+    NextDistance: 13.839394569396973
+    PrevDistance: 8.093850135803223
+    Translate: [-54.19723129272461, 101.01117706298828, -58.15740203857422]
+  - Control0: [-64.24641418457031, 100.72064208984375, -57.31830978393555]
+    Control1: [-71.72074890136719, 102.03628540039062, -57.0002555847168]
+    Gyaml: Guide
+    Hash: !ul 18437737585454964480
+    NextDistance: 25.194089889526367
+    PrevDistance: 13.839394569396973
+    Translate: [-67.98358154296875, 101.37846374511719, -57.15928268432617]
+  - Control0: [-79.11051177978516, 107.55306243896484, -56.81965255737305]
+    Control1: [-105.4374771118164, 94.71598052978516, -55.4891471862793]
+    Dynamic: {IsAdjustPosAndDirToPoint: true, OnFlagName: GuidePoe_Disappear}
+    Gyaml: Guide
+    Hash: !ul 5310783108697841312
+    PrevDistance: 25.194089889526367
+    Rotate: [0.0, 1.570796251296997, -0.0]
+    Translate: [-92.27399444580078, 101.134521484375, -56.15439987182617]
+SimultaneousGroups:
+- [!ul 587709894780207568, !ul 788085598033523359, !ul 1658630274412021033, !ul 1822326969542841695,
+  !ul 1903385121239324630, !ul 2555038804491260556, !ul 3106519678814683076, !ul 3216784452543648424,
+  !ul 3551300456966766162, !ul 4497982865276037861, !ul 4599231900021576643, !ul 4894860036215835713,
+  !ul 5189949822246771150, !ul 5335727593497214358, !ul 5553784731587202364, !ul 6501467446844890317,
+  !ul 6507259716844618405, !ul 6921619113404535424, !ul 7193849091793569306, !ul 7224573805536771523,
+  !ul 8211889420644189819, !ul 8232756689419754826, !ul 8281365029692668728, !ul 8313227336843521073,
+  !ul 8504311239099585852, !ul 8553393101137545005, !ul 9134799761303221542, !ul 9337467895413433327,
+  !ul 9560979037373995475, !ul 10290457401371315206, !ul 10773798996006720956, !ul 12696820767682719101,
+  !ul 13080170205529011424, !ul 14073002504452288022, !ul 14189776882603810860, !ul 14854089367165211438,
+  !ul 15237781772162092419, !ul 15314168923907282864, !ul 16323095861194660110, !ul 16630727522684652076,
+  !ul 16742072510441743949, !ul 16757748612886971509, !ul 16890265121351125120, !ul 16961031393632505907,
+  !ul 17069830727604362821, !ul 17708201365159188910, !ul 17985666607574038988, !ul 18259820371475449104,
+  !ul 18292029559486782099]
+- [!ul 766636953716757872, !ul 2333683030810438036, !ul 2593841657070478157, !ul 2711190047079802366,
+  !ul 3034365320579698153, !ul 4018427104299588537, !ul 5458082207704524264, !ul 6391568521433718432,
+  !ul 8562550870143126474, !ul 9633192700510886059, !ul 9649845937898315538, !ul 9913432228528074888,
+  !ul 9989707057913175788, !ul 11041059582542397003, !ul 12100032889537622466, !ul 12219562129397234442,
+  !ul 13466152434067280044, !ul 13686385409331864915, !ul 14048552151273697287, !ul 14709775582691597629,
+  !ul 14711547578755358911, !ul 17072483262285941704, !ul 17367403188958265277, !ul 17596666342530421899]
+- [!ul 312097080525144525, !ul 2623669026960014998, !ul 3741712712052834472, !ul 4357921032232213983,
+  !ul 6359154108060735653, !ul 6626676952790523847, !ul 7578300150522353212, !ul 8163708110714522741,
+  !ul 9593260380041960227, !ul 9690411522113640080, !ul 12229672372831193106, !ul 12239528692757788353,
+  !ul 13823312653523978813, !ul 14418467798480335789, !ul 14667289466670167386, !ul 16831189106211139584,
+  !ul 16838265395229257394, !ul 17848391553310454807, !ul 17900901603658915973, !ul 18304627046161751483]
+- [!ul 19622875782908932, !ul 731999260795302545, !ul 2170665455752159410, !ul 3227526311529693453,
+  !ul 3874834076148202626, !ul 4007700366631322160, !ul 4309582845570805434, !ul 5776071442945884372,
+  !ul 5892304212581515948, !ul 10111529850573941795, !ul 13179061956735664867, !ul 13943994831486398983,
+  !ul 15252764118181787373, !ul 17876941385664371942]
+- [!ul 466610258614643886, !ul 2045500732765115313, !ul 3028290795630200233, !ul 3474755270912156556,
+  !ul 6114590109587145113, !ul 8159777565812826284, !ul 9431700095918140377, !ul 10495605699852077103,
+  !ul 10957420872825074553, !ul 11285648572654929858, !ul 13173332180231490606, !ul 16031763938354192582,
+  !ul 17072684194525899498]
+- [!ul 3365404108515052646, !ul 5518148016430497340, !ul 9101248464809114197, !ul 11059913788041543379,
+  !ul 12548399783954340078, !ul 14487568893460400549, !ul 14775995034425863145, !ul 15159156535797539537,
+  !ul 15437544283341257484]
+- [!ul 348053841831234803, !ul 8292026280019138460, !ul 8825521833684392638, !ul 10760995785488763638,
+  !ul 18414650647124863657]
+- [!ul 794458597249039227, !ul 7826410505871172975, !ul 8987474265552894016, !ul 10626607952329198227,
+  !ul 17167044088016412093]
+- [!ul 1501253940421019014, !ul 5511627411523086463, !ul 6672264300012124281, !ul 14871354194770026209,
+  !ul 15697983035194617103]
+- [!ul 78789095653370890, !ul 14220580166318210992, !ul 16359182621478730708]
+- [!ul 185046783895556552, !ul 13347093912759167278, !ul 15372102368048146926]
+- [!ul 203963082369411383, !ul 11800296889139980076, !ul 16522287245121881128]
+- [!ul 5195260341760086140, !ul 9032160804850118326, !ul 16809839460325436529]
+- [!ul 10009295322297041593, !ul 17813038397465436333, !ul 18006332753891104582]
+- [!ul 1226730615084752641, !ul 12259052763112244129]
+- [!ul 3358775032461407433, !ul 8763709914002872586]
+- [!ul 3885199316049097573, !ul 14910672274965350769]
+- [!ul 4068767863898445838, !ul 4104874373242717517]
+- [!ul 5368605881625746571, !ul 16908929648307902639]
+- [!ul 5843967944471717783, !ul 16271566791569456076]
+- [!ul 6373925416777755042, !ul 15566376227880850895]
+- [!ul 6480555586895679330, !ul 17801154711673008960]
+- [!ul 6496106405301305800, !ul 17097246040018140063]
+- [!ul 10272886839598156534, !ul 17179803719430901388]
+- [!ul 11552835774393053511, !ul 15045364431914667380]
+- [!ul 16332850370608554409, !ul 18228426797135545843]

@@ -1,0 +1,561 @@
+Actors:
+- Gyaml: Obj_DreamWorldTimerManager
+  Hash: !ul 561922847263939136
+  Links:
+  - {Dst: !ul 11560767588996499066, Gyaml: Reference, Name: Reference, Src: !ul 561922847263939136}
+  Phive:
+    Placement: {ID: !ul 561922847263939136}
+  SRTHash: !u 0x5942eb92
+  Translate: [-54.16576385498047, 109.41805267333984, 8.070703506469727]
+- Gyaml: DestinationAnchor
+  Hash: !ul 7784353152940532583
+  Phive:
+    Placement: {ID: !ul 7784353152940532583}
+  SRTHash: !u 0x4b9ebb81
+  Translate: [-80.25, 102.27999877929688, -0.005140905734151602]
+- Gyaml: DestinationAnchor
+  Hash: !ul 14920545411539052915
+  Phive:
+    Placement: {ID: !ul 14920545411539052915}
+  SRTHash: !u 0x327b3cd1
+  Translate: [-85.5, 102.27999877929688, -5.40000057220459]
+- Gyaml: DestinationAnchor
+  Hash: !ul 3867430015810695197
+  Phive:
+    Placement: {ID: !ul 3867430015810695197}
+  SRTHash: !u 0xcebb0f0f
+  Translate: [-68.5999984741211, 102.27999877929688, -1.0000005960464478]
+- Gyaml: DestinationAnchor
+  Hash: !ul 7840758665927891630
+  Phive:
+    Placement: {ID: !ul 7840758665927891630}
+  SRTHash: !u 0x2b60ca6c
+  Translate: [-81.30000305175781, 102.27999877929688, 13.799999237060547]
+- Gyaml: DestinationAnchor
+  Hash: !ul 4885989793673264713
+  Phive:
+    Placement: {ID: !ul 4885989793673264713}
+  SRTHash: !u 0xdbde5e8c
+  Translate: [-74.9000015258789, 102.27999877929688, -7.40000057220459]
+- Dynamic: {IsIntendedForEventAppear: true}
+  Gyaml: Enemy_DungeonBoss_Volvagia
+  Hash: !ul 11560767588996499066
+  Links:
+  - {Dst: !ul 11092637755539845492, Gyaml: Reference, Name: Three, Src: !ul 11560767588996499066}
+  - {Dst: !ul 1281369617816292856, Gyaml: Reference, Name: Zero, Src: !ul 11560767588996499066}
+  - {Dst: !ul 14920545411539052915, Gyaml: Reference, Name: One, Src: !ul 11560767588996499066}
+  - {Dst: !ul 7840758665927891630, Gyaml: Reference, Name: Six, Src: !ul 11560767588996499066}
+  - {Dst: !ul 3867430015810695197, Gyaml: Reference, Name: Eight, Src: !ul 11560767588996499066}
+  - {Dst: !ul 12456770406128994202, Gyaml: Reference, Name: Two, Src: !ul 11560767588996499066}
+  - {Dst: !ul 13165463738872899721, Gyaml: Reference, Name: Seven, Src: !ul 11560767588996499066}
+  - {Dst: !ul 7784353152940532583, Gyaml: Reference, Name: RoomCenter, Src: !ul 11560767588996499066}
+  - {Dst: !ul 4885989793673264713, Gyaml: Reference, Name: Five, Src: !ul 11560767588996499066}
+  - {Dst: !ul 10443401612132437879, Gyaml: Reference, Name: Reference, Src: !ul 11560767588996499066}
+  - {Dst: !ul 15481928390655338251, Gyaml: Reference, Name: Reference, Src: !ul 11560767588996499066}
+  - {Dst: !ul 17692071100285077257, Gyaml: Reference, Name: Reference, Src: !ul 11560767588996499066}
+  Phive:
+    Placement: {ID: !ul 11560767588996499066}
+  SRTHash: !u 0x9b2fac34
+  Translate: [-80.62922668457031, 93.33000183105469, 16.305999755859375]
+- Gyaml: DestinationAnchor
+  Hash: !ul 11092637755539845492
+  Phive:
+    Placement: {ID: !ul 11092637755539845492}
+  SRTHash: !u 0xe37b996b
+  Translate: [-85.5, 102.27999877929688, 7.499999523162842]
+- Gyaml: DestinationAnchor
+  Hash: !ul 1281369617816292856
+  Phive:
+    Placement: {ID: !ul 1281369617816292856}
+  SRTHash: !u 0xab889765
+  Translate: [-94.0, 102.27999877929688, -1.1000006198883057]
+- Gyaml: DestinationAnchor
+  Hash: !ul 12456770406128994202
+  Phive:
+    Placement: {ID: !ul 12456770406128994202}
+  SRTHash: !u 0xabbdd0dd
+  Translate: [-79.19999694824219, 102.27999877929688, -13.750000953674316]
+- Gyaml: DestinationAnchor
+  Hash: !ul 13165463738872899721
+  Phive:
+    Placement: {ID: !ul 13165463738872899721}
+  SRTHash: !u 0x4e3af5ca
+  Translate: [-72.80000305175781, 102.27999877929688, 5.299999713897705]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 10256942162468540492
+  Phive:
+    Placement: {ID: !ul 10256942162468540492}
+  Rotate: [0.0, 0.942477822303772, 0.0]
+  SRTHash: !u 0x1d068c21
+  Scale: [19.5, 1.0, 19.5]
+  Translate: [-80.25, 102.5, -6.01031672431418e-07]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 15840603659042378879
+  Phive:
+    Placement: {ID: !ul 15840603659042378879}
+  SRTHash: !u 0xfb9e5e7b
+  Scale: [0.8500000238418579, 1.5, 0.8500000238418579]
+  Translate: [-80.25, 102.45999908447266, 0.0834466964006424]
+- Gyaml: Obj_WarpPoint_A_01
+  Hash: !ul 4535970465425503116
+  Phive:
+    Placement: {ID: !ul 4535970465425503116}
+  SRTHash: !u 0x27bf3029
+  Translate: [-80.25, 102.45999908447266, 0.0834466964006424]
+- Dynamic: {RequestEventName: Demo_SageOfFire_ClearEvent}
+  Gyaml: EventRequestActor
+  Hash: !ul 14823987656347690256
+  Links:
+  - {Dst: !ul 8224057282915243932, Gyaml: Reference, Name: Reference, Src: !ul 14823987656347690256}
+  Phive:
+    Placement: {ID: !ul 14823987656347690256}
+  SRTHash: !u 0xedf6628e
+  Translate: [-80.25, 105.8157730102539, 0.0834466964006424]
+- Gyaml: DestinationAnchor
+  Hash: !ul 8224057282915243932
+  Name: center
+  Phive:
+    Placement: {ID: !ul 8224057282915243932}
+  SRTHash: !u 0x27bf3029
+  Translate: [-80.25, 102.45999908447266, 0.0834466964006424]
+- Gyaml: MinusObj_EldinHardLavaPlane_A_01
+  Hash: !ul 4764090333392228783
+  Phive:
+    Placement: {ID: !ul 4764090333392228783}
+  SRTHash: !u 0xaf63492c
+  Scale: [8.5, 1.2999999523162842, 8.5]
+  Translate: [-80.09405517578125, 97.05000305175781, -6.01031672431418e-07]
+- Gyaml: Obj_FireTemple_SinkFloor_A_02
+  Hash: !ul 1694690559569002760
+  Phive:
+    Placement: {ID: !ul 1694690559569002760}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x8a965634
+  Translate: [-54.849998474121094, 102.5030746459961, -0.022492069751024246]
+- Gyaml: StartPos
+  Hash: !ul 10443401612132437879
+  Name: StartPos_SageOfFire
+  Phive:
+    Placement: {ID: !ul 10443401612132437879}
+  Rotate: [0.0, -1.570796251296997, 3.019916050561733e-07]
+  SRTHash: !u 0xbc54bbe6
+  Translate: [-64.5, 102.50199890136719, 1.3063170172245009e-06]
+- Dynamic: {RequestEventName: SageOfFire_BossAppear}
+  Gyaml: EventRequestActor
+  Hash: !ul 4517888963286542107
+  Links:
+  - {Dst: !ul 10443401612132437879, Gyaml: Reference, Name: Reference, Src: !ul 4517888963286542107}
+  - {Dst: !ul 17692071100285077257, Gyaml: Reference, Name: Reference, Src: !ul 4517888963286542107}
+  Phive:
+    Placement: {ID: !ul 4517888963286542107}
+  SRTHash: !u 0x71a8018d
+  Translate: [-64.75, 108.5, 0.06554877012968063]
+- Gyaml: StartPos
+  Hash: !ul 15481928390655338251
+  Name: BossDefeat
+  Phive:
+    Placement: {ID: !ul 15481928390655338251}
+  Rotate: [0.0, -1.570796251296997, 3.019916050561733e-07]
+  SRTHash: !u 0xb1ccac02
+  Translate: [-71.25, 102.50199890136719, 1.3063170172245009e-06]
+- Gyaml: Land_FireTemple_26_LavaFloor_A_01
+  Hash: !ul 4949239372471837258
+  Phive:
+    Placement: {ID: !ul 4949239372471837258}
+  SRTHash: !u 0x89fa29ae
+  Translate: [-80.25, 102.02999877929688, -6.01031672431418e-07]
+- Gyaml: Obj_FireTemple_LavaDirty_A_02
+  Hash: !ul 17692071100285077257
+  Phive:
+    Placement: {ID: !ul 17692071100285077257}
+  SRTHash: !u 0x89fa29ae
+  Translate: [-80.25, 102.02999877929688, -6.01031672431418e-07]
+- Dynamic: {FallIntervalFrameMax: 5.0, FallIntervalFrameMin: 5.0, FallRangeXZ: 17.0,
+    FallRangeXZ_Rare: 1.0, MaxFallSpeed: 12.0, RareRateDefault: 0.10000000149011612,
+    ShadowRadius_min: 0.0, Shadow_TransHeight: 25.0, TargetAdvFrame: 45.0, TwinFallRatio: 0.0,
+    WithoutFireRatio: 1.0}
+  Gyaml: Obj_FallingRockManager_A_03
+  Hash: !ul 12322304294270356646
+  Links:
+  - {Dst: !ul 4043601056482760737, Gyaml: Reference, Name: Reference, Src: !ul 12322304294270356646}
+  Phive:
+    Placement: {ID: !ul 12322304294270356646}
+  SRTHash: !u 0x028d22f2
+  Translate: [-80.19999694824219, 131.97999572753906, -6.01031672431418e-07]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 9309253141405446582
+  Phive:
+    Placement: {ID: !ul 9309253141405446582}
+  Rotate: [0.0, 0.39269912242889404, 0.0]
+  SRTHash: !u 0x2dda5700
+  Scale: [41.0, 25.0, 41.0]
+  Translate: [-80.09405517578125, 93.02999877929688, -6.01031672431418e-07]
+- Gyaml: DestinationAnchor
+  Hash: !ul 4043601056482760737
+  Phive:
+    Placement: {ID: !ul 4043601056482760737}
+  SRTHash: !u 0xf63d8cdf
+  Translate: [-80.19999694824219, 119.27999877929688, -6.01031672431418e-07]
+- Gyaml: Area
+  Hash: !ul 7593550667489143652
+  Phive:
+    Placement: {ID: !ul 7593550667489143652}
+  Rotate: [0.0, -0.6981256604194641, 0.0]
+  SRTHash: !u 0xf7d98785
+  Scale: [2.0, 1.0, 1.0]
+  Translate: [-62.26092529296875, 102.54209899902344, 8.03278636932373]
+- Gyaml: Area
+  Hash: !ul 9661848852978632325
+  Phive:
+    Placement: {ID: !ul 9661848852978632325}
+  Rotate: [0.0, 0.3490718603134155, 0.0]
+  SRTHash: !u 0x5c90b2ef
+  Scale: [2.0, 1.0, 1.0]
+  Translate: [-62.34416961669922, 102.54209899902344, -8.320322036743164]
+- Gyaml: FallingRockExclusionArea_Cylinder
+  Hash: !ul 4404467942595979444
+  Phive:
+    Placement: {ID: !ul 4404467942595979444}
+  SRTHash: !u 0x404a79dd
+  Scale: [1.100000023841858, 7.0, 1.100000023841858]
+  Translate: [-94.0, 105.43000030517578, -1.1000006198883057]
+- Gyaml: FallingRockExclusionArea_Cylinder
+  Hash: !ul 4693073797425623815
+  Phive:
+    Placement: {ID: !ul 4693073797425623815}
+  SRTHash: !u 0x827d8c43
+  Scale: [1.100000023841858, 7.0, 1.100000023841858]
+  Translate: [-80.19999694824219, 105.43000030517578, -6.01031672431418e-07]
+- Gyaml: FallingRockExclusionArea_Cylinder
+  Hash: !ul 2667463142312035364
+  Phive:
+    Placement: {ID: !ul 2667463142312035364}
+  SRTHash: !u 0x59abb17b
+  Scale: [1.100000023841858, 7.0, 1.100000023841858]
+  Translate: [-81.30000305175781, 105.43000030517578, 13.799999237060547]
+- Gyaml: FallingRockExclusionArea_Cylinder
+  Hash: !ul 7334150891247655823
+  Phive:
+    Placement: {ID: !ul 7334150891247655823}
+  SRTHash: !u 0x6bfe1cf9
+  Scale: [1.100000023841858, 7.0, 1.100000023841858]
+  Translate: [-85.5999984741211, 105.43000030517578, 7.399999618530273]
+- Gyaml: FallingRockExclusionArea_Cylinder
+  Hash: !ul 15267552587326758445
+  Phive:
+    Placement: {ID: !ul 15267552587326758445}
+  SRTHash: !u 0xf3be6f99
+  Scale: [1.100000023841858, 7.0, 1.100000023841858]
+  Translate: [-72.80000305175781, 105.43000030517578, 5.299999713897705]
+- Gyaml: FallingRockExclusionArea_Cylinder
+  Hash: !ul 6078648602947720773
+  Phive:
+    Placement: {ID: !ul 6078648602947720773}
+  SRTHash: !u 0xd47d0286
+  Scale: [1.100000023841858, 7.0, 1.100000023841858]
+  Translate: [-68.5999984741211, 105.43000030517578, -1.0000005960464478]
+- Gyaml: FallingRockExclusionArea_Cylinder
+  Hash: !ul 3866855665199878544
+  Phive:
+    Placement: {ID: !ul 3866855665199878544}
+  SRTHash: !u 0xe47e101f
+  Scale: [1.100000023841858, 7.0, 1.100000023841858]
+  Translate: [-75.0, 105.43000030517578, -7.40000057220459]
+- Gyaml: FallingRockExclusionArea_Cylinder
+  Hash: !ul 7665318472987392893
+  Phive:
+    Placement: {ID: !ul 7665318472987392893}
+  SRTHash: !u 0xbf74c081
+  Scale: [1.100000023841858, 7.0, 1.100000023841858]
+  Translate: [-79.19999694824219, 105.43000030517578, -13.80000114440918]
+- Gyaml: FallingRockExclusionArea_Cylinder
+  Hash: !ul 13879885908826060122
+  Phive:
+    Placement: {ID: !ul 13879885908826060122}
+  SRTHash: !u 0x41203838
+  Scale: [1.100000023841858, 7.0, 1.100000023841858]
+  Translate: [-85.5, 105.43000030517578, -5.3000006675720215]
+- Bakeable: true
+  Gyaml: Land_FireTemple_26_Wall_A_02
+  Hash: !ul 16100922817579895601
+  Phive:
+    Placement: {ID: !ul 16100922817579895601}
+  SRTHash: !u 0x717b2f98
+  Translate: [-80.25, 119.875, 0.0]
+- Gyaml: Land_FireTemple_26_Ceiling_A_01
+  Hash: !ul 15125616314532536359
+  Phive:
+    Placement: {ID: !ul 15125616314532536359}
+  SRTHash: !u 0x717b2f98
+  Translate: [-80.25, 119.875, 0.0]
+- Bakeable: true
+  Gyaml: Land_FireTemple_26_Floor_A_02
+  Hash: !ul 8528641673272205250
+  Phive:
+    Placement: {ID: !ul 8528641673272205250}
+  Rotate: [0.0, 0.7853981852531433, 0.0]
+  SRTHash: !u 0xc7582179
+  Translate: [-80.25, 102.5, 0.0]
+- Gyaml: Land_FireTemple_26_Lava_A_01
+  Hash: !ul 12162922445766019967
+  Phive:
+    Placement: {ID: !ul 12162922445766019967}
+  SRTHash: !u 0x924010f0
+  Translate: [-80.25, 97.75, 0.0]
+- Gyaml: Land_FireTemple_26_Ceiling_A_03
+  Hash: !ul 13311214903900334798
+  Phive:
+    Placement: {ID: !ul 13311214903900334798}
+  SRTHash: !u 0x828dcd9e
+  Translate: [-80.25, 118.21820068359375, 0.0]
+- Gyaml: NoEscapeRangeAreaBox
+  Hash: !ul 864309096051392775
+  Name: NoEscapeArea_SubEvent_AllBossBattle
+  Phive:
+    Placement: {ID: !ul 864309096051392775}
+  SRTHash: !u 0x14673c29
+  Scale: [92.30306243896484, 57.56996536254883, 111.97152709960938]
+  Translate: [-79.70506286621094, 118.6244125366211, -11.321354866027832]
+- Dynamic: {IsRoomArea: true}
+  Gyaml: DungeonRoomArea
+  Hash: !ul 12472338562370906228
+  Phive:
+    Placement: {ID: !ul 12472338562370906228}
+  SRTHash: !u 0xd3f04af3
+  Scale: [45.5, 28.0, 44.0]
+  Translate: [-80.0, 90.32362365722656, -0.49000000953674316]
+- Dynamic: {AreaHintEventName: NaviHint_Rematch}
+  Gyaml: NaviAreaHintEventActor
+  Hash: !ul 8471978788989028297
+  Phive:
+    Placement: {ID: !ul 8471978788989028297}
+  SRTHash: !u 0xf9006c4e
+  Translate: [-71.8505859375, 120.69349670410156, -16.208955764770508]
+- Gyaml: Area
+  Hash: !ul 4037089736104657625
+  Phive:
+    Placement: {ID: !ul 4037089736104657625}
+  Rotate: [0.0, -1.570796251296997, 8.940696716308594e-08]
+  SRTHash: !u 0xb03e00cf
+  Scale: [55.0976676940918, 19.49767303466797, 41.620182037353516]
+  Translate: [-80.40264892578125, 91.31007385253906, -12.005350112915039]
+- Bakeable: true
+  Gyaml: Dm_Obj_DoorChainLock_A_01
+  Hash: !ul 7842174868300044867
+  Phive:
+    Placement: {ID: !ul 7842174868300044867}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x39439f98
+  Translate: [-39.0, 105.0, 0.0]
+- Bakeable: true
+  Dynamic: {NomralEvent: Common_Dungeon_OpenShutterMoveToPlusZ_Boss, OpenChainEvent: Common_Dungeon_OpenDoorChainLockMoveToPlusZ_Boss,
+    OpenChainShutterEvent: Common_Dungeon_OpenDoorChainLockMoveToPlusZ_Boss, ShutterEvent: Common_Dungeon_OpenShutterMoveToPlusZ_Boss}
+  Gyaml: Obj_FireTemple_SwitchShutter_A_02
+  Hash: !ul 16875381288782403850
+  Links:
+  - {Dst: !ul 7842174868300044867, Gyaml: Reference, Name: Reference, Src: !ul 16875381288782403850}
+  - {Dst: !ul 1826185695328940189, Gyaml: Reference, Name: Reference, Src: !ul 16875381288782403850}
+  - {Dst: !ul 12310983326554597126, Gyaml: Reference, Name: Reference, Src: !ul 16875381288782403850}
+  Phive:
+    Placement: {ID: !ul 16875381288782403850}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x2f9c7eed
+  Translate: [-39.0, 105.0, 0.0]
+- Bakeable: true
+  Gyaml: Obj_FireTemple_SwitchShutter_A_03
+  Hash: !ul 1826185695328940189
+  Phive:
+    Placement: {ID: !ul 1826185695328940189}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0xb1737ead
+  Translate: [-39.349998474121094, 105.0, -1.529898518981554e-08]
+- Gyaml: DestinationAnchor
+  Hash: !ul 12310983326554597126
+  Name: CameraPlusZ
+  Phive:
+    Placement: {ID: !ul 12310983326554597126}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0xc4e06794
+  Translate: [-41.0, 105.0, -8.742277657347586e-08]
+- Bakeable: true
+  Gyaml: Land_FireTemple_02_Wall_A_02
+  Hash: !ul 7207633710361441414
+  Phive:
+    Placement: {ID: !ul 7207633710361441414}
+  SRTHash: !u 0x38fec3d8
+  Translate: [-27.0, 100.0, 4.0]
+- Gyaml: Land_FireTemple_02_Lava_A_01
+  Hash: !ul 1616941207804685036
+  Phive:
+    Placement: {ID: !ul 1616941207804685036}
+  SRTHash: !u 0xbd312a46
+  Translate: [-25.5, 100.19999694824219, 1.0]
+- Bakeable: true
+  Gyaml: Land_FireTemple_02_Ceiling_A_02
+  Hash: !ul 4145952113006434308
+  Phive:
+    Placement: {ID: !ul 4145952113006434308}
+  SRTHash: !u 0x38fec3d8
+  Translate: [-27.0, 100.0, 4.0]
+- Dynamic: {FogParams: Lava_Abyss_02}
+  Gyaml: VolumeFogArea
+  Hash: !ul 445057829284947066
+  Phive:
+    Placement: {ID: !ul 445057829284947066}
+  Rotate: [-0.006353704258799553, 0.7836443185806274, -0.003610583720728755]
+  SRTHash: !u 0xf6f7d365
+  Scale: [15.0, 20.0, 20.0]
+  Translate: [-59.06484603881836, 105.89188385009766, 22.035276412963867]
+- Dynamic: {FogParams: Lava_Abyss_02}
+  Gyaml: VolumeFogArea
+  Hash: !ul 6401956023906024770
+  Phive:
+    Placement: {ID: !ul 6401956023906024770}
+  Rotate: [-0.006353703793138266, 0.7836443781852722, -0.0036105839535593987]
+  SRTHash: !u 0x35c6ab46
+  Scale: [20.0, 20.0, 15.000000953674316]
+  Translate: [-101.09528350830078, 105.89188385009766, 21.789186477661133]
+- Dynamic: {FogParams: FireTemple_BossRoom}
+  Gyaml: VolumeFogArea
+  Hash: !ul 6026590592217526332
+  Phive:
+    Placement: {ID: !ul 6026590592217526332}
+  Rotate: [-0.0038050974253565073, -0.0, -0.0025575393810868263]
+  SRTHash: !u 0x22d7533c
+  Scale: [80.0, 20.0, 80.0]
+  Translate: [-80.36064147949219, 132.16363525390625, -0.7905826568603516]
+- Dynamic: {FogParams: Lava_Abyss_02}
+  Gyaml: VolumeFogArea
+  Hash: !ul 436712921447384980
+  Phive:
+    Placement: {ID: !ul 436712921447384980}
+  Rotate: [-0.0038050974253565073, -0.0, -0.0025575393810868263]
+  SRTHash: !u 0x7534b800
+  Scale: [20.0, 20.0, 15.000000953674316]
+  Translate: [-109.73838806152344, 105.89188385009766, 0.29479122161865234]
+- Dynamic: {FogParams: Lava_Abyss_02}
+  Gyaml: VolumeFogArea
+  Hash: !ul 13291618752290247122
+  Phive:
+    Placement: {ID: !ul 13291618752290247122}
+  Rotate: [-0.006353703793138266, 0.7836443781852722, -0.0036105839535593987]
+  SRTHash: !u 0xa0160e6d
+  Scale: [20.0, 20.0, 15.000000953674316]
+  Translate: [-59.58416748046875, 105.89188385009766, -21.122142791748047]
+- Dynamic: {FogParams: Lava_Abyss_02}
+  Gyaml: VolumeFogArea
+  Hash: !ul 13474411801117448087
+  Phive:
+    Placement: {ID: !ul 13474411801117448087}
+  Rotate: [-0.006353704258799553, 0.7836443185806274, -0.003610583720728755]
+  SRTHash: !u 0xecaa9280
+  Scale: [15.0, 20.0, 20.0]
+  Translate: [-100.77967071533203, 105.89188385009766, -21.037153244018555]
+- Dynamic: {FogParams: Lava_Abyss_02}
+  Gyaml: VolumeFogArea
+  Hash: !ul 4596183575172274492
+  Phive:
+    Placement: {ID: !ul 4596183575172274492}
+  Rotate: [-0.005213642958551645, 0.5034067630767822, -0.0029197530820965767]
+  SRTHash: !u 0x17294f3b
+  Scale: [10.0, 19.999998092651367, 10.0]
+  Translate: [-48.15288543701172, 98.89019775390625, -9.836899757385254]
+- Dynamic: {FogParams: Lava_Abyss_02}
+  Gyaml: VolumeFogArea
+  Hash: !ul 11797574460904941894
+  Phive:
+    Placement: {ID: !ul 11797574460904941894}
+  Rotate: [-0.0038050974253565073, -0.0, -0.0025575393810868263]
+  SRTHash: !u 0x4569186c
+  Scale: [14.999999046325684, 20.0, 20.0]
+  Translate: [-79.96480560302734, 105.89188385009766, -29.769746780395508]
+- Dynamic: {FogParams: Lava_Abyss_02}
+  Gyaml: VolumeFogArea
+  Hash: !ul 5516738103574504906
+  Phive:
+    Placement: {ID: !ul 5516738103574504906}
+  Rotate: [-0.0038050974253565073, -0.0, -0.0025575393810868263]
+  SRTHash: !u 0xc876e5ec
+  Scale: [14.999999046325684, 20.0, 20.0]
+  Translate: [-79.49238586425781, 105.89188385009766, 30.056499481201172]
+- Dynamic: {FogParams: Lava_Abyss_02}
+  Gyaml: VolumeFogArea
+  Hash: !ul 17460920819997032052
+  Phive:
+    Placement: {ID: !ul 17460920819997032052}
+  Rotate: [-0.002158982213586569, -0.5718901753425598, -0.003041506977751851]
+  SRTHash: !u 0x8663c8b3
+  Scale: [9.999999046325684, 19.999998092651367, 10.0]
+  Translate: [-47.83292770385742, 98.89019775390625, 10.679854393005371]
+AiGroups:
+- Hash: !ul 382334244544412913
+  Logic: Logic/Module/FireTemple_LavaSet/FireTemple_LavaSet_ac5f.logic.module.ain
+  References:
+  - {Id: MinusObj_EldinHardLavaPlane_A_01_1c0e, Path: MinusObj_EldinHardLavaPlane_A_01_1c0e,
+    Reference: !ul 4764090333392228783}
+- Blackboards: [Component/Blackboard/BlackboardInfo/DungeonRoom.engine__component__BlackboardInfo.gyml]
+  Dynamic: {DungeonRoomID: 1}
+  Hash: !ul 1654280408898778882
+  Logic: Logic/Root/VolvagiaStage/VolvagiaStage_b088.logic.root.ain
+  References:
+  - {Id: Area_18b6, Path: Area_18b6, Reference: !ul 12472338562370906228}
+- Hash: !ul 11578450273233924785
+  Logic: Logic/Module/DungeonSwitchShutterBossWithChainLockSet/DungeonSwitchShutterBossWithChainLockSet_15e6.logic.module.ain
+  References:
+  - {Id: ChainLockLocator_BossDoor_fabe, Path: ChainLockLocator_BossDoor_fabe, Reference: !ul 7842174868300044867}
+  - {Id: ShutterLocator_BossDoor_362a, Path: ShutterLocator_BossDoor_362a, Reference: !ul 16875381288782403850}
+  - {Id: ChainLockLocator_BossLattice_6223, Path: ChainLockLocator_BossLattice_6223,
+    Reference: !ul 1826185695328940189}
+- Hash: !ul 16316433960525319838
+  Logic: Logic/Root/VolvagiaStage/VolvagiaStage_ca22.logic.root.ain
+  References:
+  - {Id: Enemy_DungeonBoss_Volvagia_c12f, Path: _67fe/Enemy_DungeonBoss_Volvagia_c12f,
+    Reference: !ul 11560767588996499066}
+  - {Id: Obj_FireTemple_SinkFloor_A_02_3162, Path: _67fe/Obj_FireTemple_SinkFloor_A_02_3162,
+    Reference: !ul 1694690559569002760}
+  - {Id: EventRequestActor_77ef, Path: _67fe/EventRequestActor_77ef, Reference: !ul 4517888963286542107}
+  - {Id: Area_ee9c, Path: _67fe/Area_ee9c, Reference: !ul 10256942162468540492}
+  - {Id: EventRequestActor_024c, Path: _67fe/_4b63/EventRequestActor_024c, Reference: !ul 14823987656347690256}
+  - {Id: Area_bfbc, Path: _67fe/_4b63/Area_bfbc, Reference: !ul 15840603659042378879}
+  - {Id: Obj_WarpPoint_A_01_14a2, Path: _67fe/_4b63/Obj_WarpPoint_A_01_14a2, Reference: !ul 4535970465425503116}
+  - {Id: DestinationAnchor_a8b5, Path: _67fe/_4b63/DestinationAnchor_a8b5, Reference: !ul 8224057282915243932}
+  - {Id: AiGroup, InstanceName: Gimmick_Warp_FromDungeon_061c_b068, Logic: Logic/Module/Gimmick_Warp_FromDungeon/Gimmick_Warp_FromDungeon_061c.logic.module.ain,
+    Path: _67fe/_4b63/AiGroup, Reference: !ul 4977622506262083282}
+  - {Id: Land_FireTemple_26_LavaFloor_A_01_0ad3, Path: _67fe/Land_FireTemple_26_LavaFloor_A_01_0ad3,
+    Reference: !ul 4949239372471837258}
+  - {Id: Obj_FireTemple_LavaDirty_A_02_b5b0, Path: _67fe/Obj_FireTemple_LavaDirty_A_02_b5b0,
+    Reference: !ul 17692071100285077257}
+  - {Id: Obj_FallingRockManager_A_03_c3ab, Path: _67fe/Obj_FallingRockManager_A_03_c3ab,
+    Reference: !ul 12322304294270356646}
+  - {Id: Area_663f, Path: _67fe/_dcf1/Area_663f, Reference: !ul 9309253141405446582}
+  - {Id: AiGroup, InstanceName: Gimmick_AreaContact_8e0d_0185, Logic: Logic/Module/Gimmick_AreaContact/Gimmick_AreaContact_8e0d.logic.module.ain,
+    Path: _67fe/_dcf1/AiGroup, Reference: !ul 17676629906658442239}
+  - {Id: Area_0534, Path: _67fe/Area_0534, Reference: !ul 9661848852978632325}
+  - {Id: Area_3dcf, Path: _67fe/Area_3dcf, Reference: !ul 7593550667489143652}
+  - {Id: AiGroup, InstanceName: Enemy_DungeonBoss_Volvagia_Main_e0cf_3052, Logic: Logic/Module/Enemy_DungeonBoss_Volvagia_Main/Enemy_DungeonBoss_Volvagia_Main_e0cf.logic.module.ain,
+    Path: _67fe/AiGroup, Reference: !ul 11989532036555991440}
+  - {Id: NaviAreaHintEventActor_aaf5, Path: NaviAreaHintEventActor_aaf5, Reference: !ul 8471978788989028297}
+  - {Id: Area_beab, Path: Area_beab, Reference: !ul 4037089736104657625}
+- Hash: !ul 18358365588095930075
+  Logic: Logic/Module/FireTemple_Map_Room_26_Prefab/FireTemple_Map_Room_26_Prefab_2102.logic.module.ain
+  References:
+  - {Id: Land_FireTemple_26_Floor_A_02_c94f, Path: Land_FireTemple_26_Floor_A_02_c94f,
+    Reference: !ul 8528641673272205250}
+FarDeleteGroups:
+- [!ul 1694690559569002760, !ul 4037089736104657625, !ul 4517888963286542107, !ul 4535970465425503116,
+  !ul 4949239372471837258, !ul 7593550667489143652, !ul 8224057282915243932, !ul 8471978788989028297,
+  !ul 9309253141405446582, !ul 9661848852978632325, !ul 10256942162468540492, !ul 11560767588996499066,
+  !ul 12322304294270356646, !ul 14823987656347690256, !ul 15840603659042378879, !ul 17692071100285077257]
+- [!ul 1826185695328940189, !ul 7842174868300044867, !ul 16875381288782403850]
+FilePath: Work/Banc/Scene/DreamWorld/VolvagiaStage.bcett.json
+PhiveHeader:
+  PlacementGroups: []
+SimultaneousGroups:
+- [!ul 1694690559569002760, !ul 4037089736104657625, !ul 4517888963286542107, !ul 4535970465425503116,
+  !ul 4949239372471837258, !ul 7593550667489143652, !ul 8224057282915243932, !ul 8471978788989028297,
+  !ul 9309253141405446582, !ul 9661848852978632325, !ul 10256942162468540492, !ul 11560767588996499066,
+  !ul 12322304294270356646, !ul 14823987656347690256, !ul 15840603659042378879, !ul 17692071100285077257]
+- [!ul 1826185695328940189, !ul 7842174868300044867, !ul 16875381288782403850]

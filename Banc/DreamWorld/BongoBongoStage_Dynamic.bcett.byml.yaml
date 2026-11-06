@@ -1,0 +1,93 @@
+Actors:
+- Gyaml: StartPos
+  Hash: !ul 1311158334401429459
+  Name: BongoBongoStage
+  Phive:
+    Placement: {ID: !ul 1311158334401429459}
+  SRTHash: !u 0xa540b39b
+  Translate: [-138.26405334472656, -11.461357116699219, 22.00848960876465]
+- Gyaml: StartPos
+  Hash: !ul 14227461163155664941
+  Name: StartPos_SubEvent_AllBossBattle
+  Phive:
+    Placement: {ID: !ul 14227461163155664941}
+  SRTHash: !u 0x854391bf
+  Translate: [-138.2776641845703, -11.461357116699219, 22.091670989990234]
+- Bakeable: true
+  Dynamic: {GameModelController_LodStartDistCoef: 2.0}
+  Gyaml: Land_ShadowTemple_DrumField_A_01
+  Hash: !ul 1967079122898622672
+  Phive:
+    Placement: {ID: !ul 1967079122898622672}
+  SRTHash: !u 0x8d6eb42a
+  Translate: [-138.5784149169922, -14.06999683380127, 30.016963958740234]
+- Bakeable: true
+  Gyaml: Obj_WaterPlaneDirty_A_07
+  Hash: !ul 15235485576049598962
+  Phive:
+    Placement: {ID: !ul 15235485576049598962}
+  SRTHash: !u 0x1fa42903
+  Scale: [0.878842294216156, 0.878842294216156, 0.878842294216156]
+  Translate: [-138.55035400390625, -13.477996826171875, 29.989999771118164]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Room10_A_02
+  Hash: !ul 14384211370371114112
+  Phive:
+    Placement: {ID: !ul 14384211370371114112}
+  SRTHash: !u 0x3959e3e5
+  Translate: [-155.7411346435547, -16.60989761352539, 12.16302490234375]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Room10_A_02
+  Hash: !ul 15817694511014579320
+  Phive:
+    Placement: {ID: !ul 15817694511014579320}
+  SRTHash: !u 0xf4c7afe4
+  Translate: [-154.2349395751953, -16.630769729614258, 48.928890228271484]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Room10_A_02
+  Hash: !ul 17292891154799427055
+  Phive:
+    Placement: {ID: !ul 17292891154799427055}
+  SRTHash: !u 0x25c3ff98
+  Translate: [-120.69265747070312, -16.65765380859375, 47.07904052734375]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Room10_A_02
+  Hash: !ul 12535142953430913998
+  Phive:
+    Placement: {ID: !ul 12535142953430913998}
+  SRTHash: !u 0xbfcdb129
+  Translate: [-121.10243225097656, -16.63763999938965, 12.54269027709961]
+- Gyaml: EftLoc_ShadowTemple_Bubble_PoisonBog_00
+  Hash: !ul 4472597589500825000
+  Phive:
+    Placement: {ID: !ul 4472597589500825000}
+  SRTHash: !u 0xd7b3154d
+  Translate: [-138.55035400390625, -13.477996826171875, 29.989999771118164]
+- Gyaml: Land_ShadowTemple_WaterFallDirty_A_01
+  Hash: !ul 14828523121919567777
+  Phive:
+    Placement: {ID: !ul 14828523121919567777}
+  SRTHash: !u 0xc28c9432
+  Translate: [-138.55035400390625, -13.467996597290039, 29.989999771118164]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Room_A_09
+  Hash: !ul 10126474020141899998
+  Phive:
+    Placement: {ID: !ul 10126474020141899998}
+  SRTHash: !u 0x69fde7b3
+  Translate: [-138.52999877929688, 41.999969482421875, 29.709999084472656]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Room09_A_01
+  Hash: !ul 13761151598530681820
+  Phive:
+    Placement: {ID: !ul 13761151598530681820}
+  SRTHash: !u 0x69fde7b3
+  Translate: [-138.52999877929688, 41.999969482421875, 29.709999084472656]
+- Gyaml: AirWallEnemy
+  Hash: !ul 14485561042565417113
+  Phive:
+    Placement: {ID: !ul 14485561042565417113}
+  SRTHash: !u 0xb9f86766
+  Scale: [3.0, 4.0, 1.7000000476837158]
+  Translate: [-138.51148986816406, 43.998348236083984, 19.053382873535156]
+FilePath: Work/Banc/Scene/DreamWorld/BongoBongoStage.bcett.json

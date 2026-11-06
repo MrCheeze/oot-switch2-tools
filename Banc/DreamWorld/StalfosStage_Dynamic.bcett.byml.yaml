@@ -1,0 +1,919 @@
+Actors:
+- Gyaml: StartPos
+  Hash: !ul 10046846274037084744
+  Name: StartPos_SubEvent_AllBossBattle
+  Phive:
+    Placement: {ID: !ul 10046846274037084744}
+  Rotate: [0.0, -1.570796251296997, 8.742277657347586e-08]
+  SRTHash: !u 0x46593019
+  Translate: [70.53363037109375, 46.220191955566406, -62.26522445678711]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Room_A_28
+  Hash: !ul 12430910352474801218
+  Phive:
+    Placement: {ID: !ul 12430910352474801218}
+  SRTHash: !u 0x8f2bd5f2
+  Translate: [113.45024108886719, 41.95000076293945, -44.63600158691406]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Room_A_29
+  Hash: !ul 258339825171798729
+  Phive:
+    Placement: {ID: !ul 258339825171798729}
+  SRTHash: !u 0x1c5d7fbb
+  Translate: [-137.15499877929688, 41.974281311035156, -45.9530029296875]
+- Gyaml: Land_ShadowTemple_Lamp_A_03
+  Hash: !ul 7825887806821022617
+  Phive:
+    Placement: {ID: !ul 7825887806821022617}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x83960302
+  Translate: [-157.87660217285156, 46.4409294128418, -43.64387893676758]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Floor_C_02
+  Hash: !ul 4001444158876143014
+  Phive:
+    Placement: {ID: !ul 4001444158876143014}
+  SRTHash: !u 0xbfc64262
+  Translate: [107.68753814697266, 41.9653205871582, -44.79715347290039]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Floor_C_02
+  Hash: !ul 10221671082230523751
+  Phive:
+    Placement: {ID: !ul 10221671082230523751}
+  SRTHash: !u 0x3a7bddc5
+  Translate: [110.17601776123047, 41.9653205871582, -44.79715347290039]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Floor_C_02
+  Hash: !ul 16984337836695093787
+  Phive:
+    Placement: {ID: !ul 16984337836695093787}
+  SRTHash: !u 0x7106dd3f
+  Translate: [112.62145233154297, 41.9653205871582, -44.79715347290039]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Floor_C_02
+  Hash: !ul 8865189105880529368
+  Phive:
+    Placement: {ID: !ul 8865189105880529368}
+  SRTHash: !u 0xd2c5c3e8
+  Translate: [115.07528686523438, 41.9653205871582, -44.79715347290039]
+- Gyaml: FldObj_AirWall_ClimbPlayer
+  Hash: !ul 6572460223649027538
+  Phive:
+    Placement: {ID: !ul 6572460223649027538}
+  SRTHash: !u 0xd4d41282
+  Scale: [1.0, 1.100000023841858, 1.0]
+  Translate: [105.55000305175781, 41.79999923706055, -40.7400016784668]
+- Gyaml: FldObj_AirWall_ClimbPlayer
+  Hash: !ul 4055514789198136677
+  Phive:
+    Placement: {ID: !ul 4055514789198136677}
+  SRTHash: !u 0xd478df4a
+  Scale: [1.0, 1.100000023841858, 1.0]
+  Translate: [105.55000305175781, 41.79999923706055, -46.52000045776367]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_DoorJointParts_A_01
+  Hash: !ul 7722627835952073261
+  Phive:
+    Placement: {ID: !ul 7722627835952073261}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xa1c0672a
+  Translate: [109.69000244140625, 52.0099983215332, -27.080001831054688]
+- Gyaml: Land_ShadowTemple_Lamp_A_04
+  Hash: !ul 8453709649180871565
+  Phive:
+    Placement: {ID: !ul 8453709649180871565}
+  SRTHash: !u 0x87ef7a51
+  Translate: [-133.5911865234375, 42.006248474121094, -44.7230110168457]
+- Gyaml: Land_ShadowTemple_Lamp_A_04
+  Hash: !ul 8454043079782431192
+  Phive:
+    Placement: {ID: !ul 8454043079782431192}
+  SRTHash: !u 0xc7a25c42
+  Translate: [-143.69241333007812, 42.006248474121094, -53.953208923339844]
+- Gyaml: Land_ShadowTemple_Lamp_A_05
+  Hash: !ul 13192162083195497012
+  Phive:
+    Placement: {ID: !ul 13192162083195497012}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x11b4759f
+  Translate: [-144.03042602539062, 42.006248474121094, -44.68596267700195]
+- Gyaml: Land_ShadowTemple_Lamp_A_05
+  Hash: !ul 1747929288927713377
+  Phive:
+    Placement: {ID: !ul 1747929288927713377}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x562add3e
+  Translate: [-133.5382080078125, 42.00209045410156, -21.896217346191406]
+- Gyaml: Land_ShadowTemple_Lamp_A_06
+  Hash: !ul 12371421675588876353
+  Phive:
+    Placement: {ID: !ul 12371421675588876353}
+  SRTHash: !u 0x2cc5eb47
+  Translate: [-143.7742156982422, 42.00209045410156, -21.910011291503906]
+- Gyaml: Land_ShadowTemple_Lamp_A_06
+  Hash: !ul 14403380742013797621
+  Phive:
+    Placement: {ID: !ul 14403380742013797621}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xe15b3ed0
+  Translate: [-133.65415954589844, 42.006248474121094, -53.50851058959961]
+- Dynamic: {GameModelController_LodStartDistCoef: 3.0}
+  Gyaml: Land_ShadowTemple_Lamp_A_07
+  Hash: !ul 14700055208922938414
+  Phive:
+    Placement: {ID: !ul 14700055208922938414}
+  SRTHash: !u 0xb2504f6d
+  Translate: [137.6225128173828, 45.21432876586914, -51.98405456542969]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_FallDownPillar_A_03
+  Hash: !ul 8712392206590844077
+  Phive:
+    Placement: {ID: !ul 8712392206590844077}
+  SRTHash: !u 0x665c1131
+  Translate: [-149.91537475585938, 42.006248474121094, -43.22345733642578]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Rubble_A_10
+  Hash: !ul 16032646598428729719
+  Phive:
+    Placement: {ID: !ul 16032646598428729719}
+  SRTHash: !u 0x8f2bd5f2
+  Translate: [113.45024108886719, 41.95000076293945, -44.63600158691406]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_AltarStep_A_03
+  Hash: !ul 8956081404586883029
+  Phive:
+    Placement: {ID: !ul 8956081404586883029}
+  SRTHash: !u 0x00f52d9b
+  Translate: [-149.89154052734375, 43.04969024658203, -25.60055923461914]
+- Gyaml: Land_ShadowTemple_BlackFade_B_02
+  Hash: !ul 15257863553553367590
+  Phive:
+    Placement: {ID: !ul 15257863553553367590}
+  SRTHash: !u 0xb95d0688
+  Translate: [-138.54998779296875, 48.31999969482422, -11.119998931884766]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Room_A_30
+  Hash: !ul 17594672515836442581
+  Phive:
+    Placement: {ID: !ul 17594672515836442581}
+  SRTHash: !u 0x1c5d7fbb
+  Translate: [-137.15499877929688, 41.974281311035156, -45.9530029296875]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Bone_A_01
+  Hash: !ul 17436902457306589540
+  Phive:
+    Placement: {ID: !ul 17436902457306589540}
+  SRTHash: !u 0x1b5b3c1e
+  Translate: [109.62028503417969, 39.552093505859375, -36.60821533203125]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Bone_A_01
+  Hash: !ul 14912728493537836691
+  Phive:
+    Placement: {ID: !ul 14912728493537836691}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x6f07b73e
+  Translate: [99.62553405761719, 43.552093505859375, -43.65785217285156]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Room_A_13
+  Hash: !ul 17041788829479846194
+  Phive:
+    Placement: {ID: !ul 17041788829479846194}
+  SRTHash: !u 0xb40292f7
+  Translate: [125.302001953125, 40.54999923706055, -62.27000045776367]
+- Gyaml: Obj_ShadowTemple_MoveFloor_A_03
+  Hash: !ul 10240615404777610471
+  Phive:
+    Placement: {ID: !ul 10240615404777610471}
+  SRTHash: !u 0x36a81469
+  Translate: [99.43949890136719, 73.59852600097656, -43.62393569946289]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_FallDownPillar_A_02
+  Hash: !ul 9883185023113179603
+  Name: FallDownPillar_After
+  Phive:
+    Placement: {ID: !ul 9883185023113179603}
+  Rotate: [1.597318410873413, -0.0, -2.665805993729009e-07]
+  SRTHash: !u 0xa8307d11
+  Translate: [-127.40562438964844, 41.762847900390625, -42.53049087524414]
+- Gyaml: Land_ShadowTemple_Rubble_A_05
+  Hash: !ul 2452417557245543701
+  Phive:
+    Placement: {ID: !ul 2452417557245543701}
+  SRTHash: !u 0x74be8136
+  Translate: [-127.3803939819336, 41.93484878540039, -26.066282272338867]
+- Gyaml: Land_ShadowTemple_AltarStep_A_02
+  Hash: !ul 10147943479403927469
+  Phive:
+    Placement: {ID: !ul 10147943479403927469}
+  SRTHash: !u 0xb5004c74
+  Translate: [-127.39641571044922, 42.97808837890625, -26.0213565826416]
+- Gyaml: Land_ShadowTemple_Lamp_A_03
+  Hash: !ul 13194587002981459814
+  Phive:
+    Placement: {ID: !ul 13194587002981459814}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xee7b8b85
+  Translate: [-141.42184448242188, 45.630001068115234, 17.456222534179688]
+- Gyaml: Land_ShadowTemple_Lamp_A_03
+  Hash: !ul 6811542228778617426
+  Phive:
+    Placement: {ID: !ul 6811542228778617426}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xa4748a4e
+  Translate: [-135.5992431640625, 45.630001068115234, 17.405017852783203]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_DoorFrame_A_01
+  Hash: !ul 14701738171287988220
+  Phive:
+    Placement: {ID: !ul 14701738171287988220}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x2afc3d43
+  Translate: [-138.5500030517578, 42.0, -8.031545639038086]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_DoorFrame_A_04
+  Hash: !ul 12412616964290103758
+  Phive:
+    Placement: {ID: !ul 12412616964290103758}
+  SRTHash: !u 0x7ea6067a
+  Translate: [-138.5500030517578, 42.0, -7.595640659332275]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_DoorJointParts_A_01
+  Hash: !ul 16508001283093061835
+  Phive:
+    Placement: {ID: !ul 16508001283093061835}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x850a7361
+  Translate: [-138.5500030517578, 42.02000045776367, -7.860000133514404]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_DoorJointParts_A_02
+  Hash: !ul 17072225027159877256
+  Phive:
+    Placement: {ID: !ul 17072225027159877256}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x850a7361
+  Translate: [-138.5500030517578, 42.02000045776367, -7.860000133514404]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Pillar_D_01
+  Hash: !ul 2547489856340566692
+  Phive:
+    Placement: {ID: !ul 2547489856340566692}
+  Rotate: [3.1415927410125732, -0.7853982448577881, 3.1415927410125732]
+  SRTHash: !u 0x0f0088fd
+  Translate: [-167.02308654785156, 41.27000045776367, -38.82258605957031]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Pillar_D_01
+  Hash: !ul 4622591881597015383
+  Phive:
+    Placement: {ID: !ul 4622591881597015383}
+  Rotate: [0.0, -0.7853982448577881, 0.0]
+  SRTHash: !u 0x1d79a3a6
+  Translate: [-171.97283935546875, 41.27000045776367, -33.87283706665039]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Pillar_D_01
+  Hash: !ul 13955165407085154023
+  Phive:
+    Placement: {ID: !ul 13955165407085154023}
+  Rotate: [3.1415927410125732, 0.7853980660438538, 3.1415927410125732]
+  SRTHash: !u 0x9eb44bc6
+  Translate: [-176.9239959716797, 41.27000045776367, -28.92450523376465]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Pillar_D_01
+  Hash: !ul 12890261183651588669
+  Phive:
+    Placement: {ID: !ul 12890261183651588669}
+  Rotate: [3.1415927410125732, -0.7853980660438538, 3.1415927410125732]
+  SRTHash: !u 0x578f771e
+  Translate: [-186.56044006347656, 41.27000045776367, -28.9400577545166]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Pillar_D_01
+  Hash: !ul 14335762098277678320
+  Phive:
+    Placement: {ID: !ul 14335762098277678320}
+  Rotate: [0.0, 0.7853981852531433, 0.0]
+  SRTHash: !u 0x9e8ddda5
+  Translate: [-181.75, 41.27000045776367, -33.75050354003906]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Pillar_D_01
+  Hash: !ul 8025906128080476543
+  Phive:
+    Placement: {ID: !ul 8025906128080476543}
+  Rotate: [0.0, -0.7853982448577881, 0.0]
+  SRTHash: !u 0x68446e64
+  Translate: [-176.8002471923828, 41.27000045776367, -38.700252532958984]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Pillar_D_01
+  Hash: !ul 614024799460613678
+  Phive:
+    Placement: {ID: !ul 614024799460613678}
+  Rotate: [3.1415927410125732, 0.7853980660438538, 3.1415927410125732]
+  SRTHash: !u 0xbc7bd3ee
+  Translate: [-171.85049438476562, 41.27000045776367, -43.650001525878906]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Pillar_D_01
+  Hash: !ul 15213592467665021743
+  Phive:
+    Placement: {ID: !ul 15213592467665021743}
+  Rotate: [0.0, 0.7853981852531433, 0.0]
+  SRTHash: !u 0x79b40f28
+  Translate: [-167.03298950195312, 41.27000045776367, -48.4675178527832]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Pillar_D_01
+  Hash: !ul 9564919861397436438
+  Phive:
+    Placement: {ID: !ul 9564919861397436438}
+  Rotate: [3.1415927410125732, -0.7853980660438538, 3.1415927410125732]
+  SRTHash: !u 0x45490711
+  Translate: [-171.98272705078125, 41.27000045776367, -53.417266845703125]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Pillar_D_01
+  Hash: !ul 14092500275172745009
+  Phive:
+    Placement: {ID: !ul 14092500275172745009}
+  Rotate: [3.1415927410125732, -0.7853982448577881, 3.1415927410125732]
+  SRTHash: !u 0x05f2d7bd
+  Translate: [-176.8002471923828, 41.27000045776367, -48.59975051879883]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Pillar_D_01
+  Hash: !ul 8089567298408004136
+  Phive:
+    Placement: {ID: !ul 8089567298408004136}
+  Rotate: [0.0, -0.7853982448577881, 0.0]
+  SRTHash: !u 0x397606c4
+  Translate: [-181.75, 41.27000045776367, -43.650001525878906]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Pillar_D_01
+  Hash: !ul 13871441926283832669
+  Phive:
+    Placement: {ID: !ul 13871441926283832669}
+  Rotate: [3.1415927410125732, 0.7853980660438538, 3.1415927410125732]
+  SRTHash: !u 0x349d8f80
+  Translate: [-186.6997528076172, 41.27000045776367, -38.700252532958984]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Pillar_D_01
+  Hash: !ul 308562170166959088
+  Phive:
+    Placement: {ID: !ul 308562170166959088}
+  Rotate: [0.0, 0.7853981852531433, 0.0]
+  SRTHash: !u 0x696856c3
+  Translate: [-191.51019287109375, 41.27000045776367, -33.889808654785156]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Pillar_D_01
+  Hash: !ul 9331197983235965302
+  Phive:
+    Placement: {ID: !ul 9331197983235965302}
+  Rotate: [3.1415927410125732, 0.7853980660438538, 3.1415927410125732]
+  SRTHash: !u 0xe39269d1
+  Translate: [-196.45994567871094, 41.27000045776367, -38.83955383300781]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Pillar_D_01
+  Hash: !ul 14427928368920282509
+  Phive:
+    Placement: {ID: !ul 14427928368920282509}
+  Rotate: [0.0, -0.7853981852531433, 0.0]
+  SRTHash: !u 0x2966fb0e
+  Translate: [-191.64950561523438, 41.27000045776367, -43.650001525878906]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Pillar_D_01
+  Hash: !ul 5257869757863028463
+  Phive:
+    Placement: {ID: !ul 5257869757863028463}
+  Rotate: [3.1415927410125732, -0.7853982448577881, 3.1415927410125732]
+  SRTHash: !u 0x49d11a23
+  Translate: [-186.6997528076172, 41.27000045776367, -48.59975051879883]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Pillar_D_01
+  Hash: !ul 14686187260868158180
+  Phive:
+    Placement: {ID: !ul 14686187260868158180}
+  Rotate: [0.0, 0.7853981852531433, 0.0]
+  SRTHash: !u 0x8f75307f
+  Translate: [-181.75, 41.27000045776367, -53.54949951171875]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Pillar_D_01
+  Hash: !ul 15320561841420590550
+  Phive:
+    Placement: {ID: !ul 15320561841420590550}
+  Rotate: [3.1415927410125732, 0.7853980660438538, 3.1415927410125732]
+  SRTHash: !u 0x5d7e187e
+  Translate: [-176.9324951171875, 41.27000045776367, -58.36701583862305]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Pillar_D_01
+  Hash: !ul 14356340544954977785
+  Phive:
+    Placement: {ID: !ul 14356340544954977785}
+  Rotate: [0.0, -0.7853981852531433, 0.0]
+  SRTHash: !u 0xe35b0fc3
+  Translate: [-186.6007537841797, 41.27000045776367, -58.40024948120117]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Pillar_D_01
+  Hash: !ul 8482013360251488695
+  Phive:
+    Placement: {ID: !ul 8482013360251488695}
+  Rotate: [0.0, 0.7853981852531433, 0.0]
+  SRTHash: !u 0x32cc8470
+  Translate: [-191.55050659179688, 41.27000045776367, -53.45050048828125]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Pillar_D_01
+  Hash: !ul 15834122965675265087
+  Phive:
+    Placement: {ID: !ul 15834122965675265087}
+  Rotate: [3.1415927410125732, -0.7853982448577881, 3.1415927410125732]
+  SRTHash: !u 0x7e6cc87c
+  Translate: [-196.50025939941406, 41.27000045776367, -48.50075149536133]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Decoration_C_01
+  Hash: !ul 17417360817193118671
+  Phive:
+    Placement: {ID: !ul 17417360817193118671}
+  Rotate: [0.0, 0.7853981852531433, 0.0]
+  SRTHash: !u 0xedbbbaa5
+  Translate: [-182.40834045410156, 41.31500244140625, -33.701744079589844]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Decoration_C_01
+  Hash: !ul 6565305614101857562
+  Phive:
+    Placement: {ID: !ul 6565305614101857562}
+  Rotate: [0.0, 0.7853981852531433, 0.0]
+  SRTHash: !u 0x05280ead
+  Translate: [-177.45858764648438, 41.31500244140625, -38.651493072509766]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Decoration_C_01
+  Hash: !ul 12400936138273958603
+  Phive:
+    Placement: {ID: !ul 12400936138273958603}
+  Rotate: [0.0, 0.7853981852531433, 0.0]
+  SRTHash: !u 0xa32a75f9
+  Translate: [-172.50885009765625, 41.31500244140625, -43.60124206542969]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Decoration_C_01
+  Hash: !ul 6216586522263813752
+  Phive:
+    Placement: {ID: !ul 6216586522263813752}
+  Rotate: [0.0, 0.7853981852531433, 0.0]
+  SRTHash: !u 0x98e55070
+  Translate: [-167.55909729003906, 41.31500244140625, -48.550987243652344]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Decoration_C_01
+  Hash: !ul 16248427746246375873
+  Phive:
+    Placement: {ID: !ul 16248427746246375873}
+  Rotate: [0.0, 0.7853981852531433, 0.0]
+  SRTHash: !u 0xbd41a3a3
+  Translate: [-172.50885009765625, 41.31500244140625, -53.500736236572266]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Decoration_C_01
+  Hash: !ul 4341576781522009435
+  Phive:
+    Placement: {ID: !ul 4341576781522009435}
+  Rotate: [0.0, 0.7853981852531433, 0.0]
+  SRTHash: !u 0x27f5f89d
+  Translate: [-177.45860290527344, 41.31500244140625, -48.55099105834961]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Decoration_C_01
+  Hash: !ul 11196538281035943491
+  Phive:
+    Placement: {ID: !ul 11196538281035943491}
+  Rotate: [0.0, 0.7853981852531433, 0.0]
+  SRTHash: !u 0x015ddad9
+  Translate: [-182.40834045410156, 41.31500244140625, -43.60124206542969]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Decoration_C_01
+  Hash: !ul 12877758785007518300
+  Phive:
+    Placement: {ID: !ul 12877758785007518300}
+  Rotate: [0.0, 0.7853981852531433, 0.0]
+  SRTHash: !u 0x2e9c0ef0
+  Translate: [-187.35809326171875, 41.31500244140625, -38.65149688720703]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Decoration_C_01
+  Hash: !ul 13271758034841856435
+  Phive:
+    Placement: {ID: !ul 13271758034841856435}
+  Rotate: [0.0, 0.7853981852531433, 0.0]
+  SRTHash: !u 0xe09de3f8
+  Translate: [-192.30784606933594, 41.31500244140625, -43.60124206542969]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Decoration_C_01
+  Hash: !ul 11934474583835601851
+  Phive:
+    Placement: {ID: !ul 11934474583835601851}
+  Rotate: [0.0, 0.7853981852531433, 0.0]
+  SRTHash: !u 0xaba7f6cc
+  Translate: [-187.35809326171875, 41.31500244140625, -48.550987243652344]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Decoration_C_01
+  Hash: !ul 11327990134341784976
+  Phive:
+    Placement: {ID: !ul 11327990134341784976}
+  Rotate: [0.0, 0.7853981852531433, 0.0]
+  SRTHash: !u 0xf3a67c95
+  Translate: [-182.40835571289062, 41.31500244140625, -53.500736236572266]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Decoration_C_01
+  Hash: !ul 4034364720631507809
+  Phive:
+    Placement: {ID: !ul 4034364720631507809}
+  Rotate: [0.0, 0.7853981852531433, 0.0]
+  SRTHash: !u 0x7da8238f
+  Translate: [-177.45860290527344, 41.31500244140625, -58.45048141479492]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Decoration_C_01
+  Hash: !ul 1123039374657984304
+  Phive:
+    Placement: {ID: !ul 1123039374657984304}
+  Rotate: [0.0, 1.570796251296997, 0.23522628843784332]
+  SRTHash: !u 0xe4b41140
+  Translate: [-164.39227294921875, 41.307682037353516, -45.940677642822266]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Decoration_C_01
+  Hash: !ul 16397754056968425237
+  Phive:
+    Placement: {ID: !ul 16397754056968425237}
+  Rotate: [3.1415927410125732, 0.7853980660438538, 3.1415927410125732]
+  SRTHash: !u 0x55b0a22c
+  Translate: [-176.73687744140625, 41.31500244140625, -47.956031799316406]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Decoration_C_01
+  Hash: !ul 4955890849514944823
+  Phive:
+    Placement: {ID: !ul 4955890849514944823}
+  Rotate: [3.1415927410125732, 0.7853980660438538, 3.1415927410125732]
+  SRTHash: !u 0xc664fd83
+  Translate: [-181.68661499023438, 41.31500244140625, -52.90578079223633]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Decoration_C_01
+  Hash: !ul 5596988601597123279
+  Phive:
+    Placement: {ID: !ul 5596988601597123279}
+  Rotate: [3.1415927410125732, 0.7853980660438538, 3.1415927410125732]
+  SRTHash: !u 0x9f2c5232
+  Translate: [-186.6363525390625, 41.31500244140625, -57.855525970458984]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Decoration_C_01
+  Hash: !ul 1335837280476500518
+  Phive:
+    Placement: {ID: !ul 1335837280476500518}
+  Rotate: [3.1415927410125732, 0.7853980660438538, 3.1415927410125732]
+  SRTHash: !u 0xa55fa82d
+  Translate: [-191.5861053466797, 41.31500244140625, -52.90577697753906]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Decoration_C_01
+  Hash: !ul 1551259057111826595
+  Phive:
+    Placement: {ID: !ul 1551259057111826595}
+  Rotate: [3.1415927410125732, 0.7853980660438538, 3.1415927410125732]
+  SRTHash: !u 0xb7b4d6be
+  Translate: [-186.6363525390625, 41.31500244140625, -47.956031799316406]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Decoration_C_01
+  Hash: !ul 9015107155205281441
+  Phive:
+    Placement: {ID: !ul 9015107155205281441}
+  Rotate: [3.1415927410125732, 0.7853980660438538, 3.1415927410125732]
+  SRTHash: !u 0xf68fa6eb
+  Translate: [-181.68661499023438, 41.31500244140625, -43.006282806396484]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Decoration_C_01
+  Hash: !ul 11068112441446905985
+  Phive:
+    Placement: {ID: !ul 11068112441446905985}
+  Rotate: [3.1415927410125732, 0.7853980660438538, 3.1415927410125732]
+  SRTHash: !u 0x7e14967b
+  Translate: [-176.7368621826172, 41.31500244140625, -38.05653762817383]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Decoration_C_01
+  Hash: !ul 6094125972587524896
+  Phive:
+    Placement: {ID: !ul 6094125972587524896}
+  Rotate: [3.1415927410125732, 0.7853980660438538, 3.1415927410125732]
+  SRTHash: !u 0x0ec5c332
+  Translate: [-181.68661499023438, 41.31500244140625, -33.10679244995117]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Decoration_C_01
+  Hash: !ul 7521358390625835683
+  Phive:
+    Placement: {ID: !ul 7521358390625835683}
+  Rotate: [3.1415927410125732, 0.7853980660438538, 3.1415927410125732]
+  SRTHash: !u 0x9253fcb8
+  Translate: [-186.63636779785156, 41.31500244140625, -38.05653762817383]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Decoration_C_01
+  Hash: !ul 6039566545421288275
+  Phive:
+    Placement: {ID: !ul 6039566545421288275}
+  Rotate: [3.1415927410125732, 0.7853980660438538, 3.1415927410125732]
+  SRTHash: !u 0x7cd2c86b
+  Translate: [-191.5861053466797, 41.31500244140625, -43.00628662109375]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Decoration_C_01
+  Hash: !ul 15239494165079049232
+  Phive:
+    Placement: {ID: !ul 15239494165079049232}
+  Rotate: [3.1415927410125732, 0.7853980660438538, 3.1415927410125732]
+  SRTHash: !u 0x62381827
+  Translate: [-196.53585815429688, 41.31500244140625, -47.956031799316406]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Decoration_B_01
+  Hash: !ul 9186528182342252261
+  Phive:
+    Placement: {ID: !ul 9186528182342252261}
+  Rotate: [3.1415927410125732, 0.7853980660438538, 3.1415927410125732]
+  SRTHash: !u 0x6e4777e1
+  Translate: [-186.14443969726562, 41.290000915527344, -28.528291702270508]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Decoration_B_01
+  Hash: !ul 6120246156527876430
+  Phive:
+    Placement: {ID: !ul 6120246156527876430}
+  Rotate: [-3.1415927410125732, 0.7853980660438538, -3.1415927410125732]
+  SRTHash: !u 0x752c2542
+  Translate: [-191.80128479003906, 41.290000915527344, -34.185142517089844]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Decoration_B_01
+  Hash: !ul 9103227635585081819
+  Phive:
+    Placement: {ID: !ul 9103227635585081819}
+  Rotate: [3.1415927410125732, 0.7853982448577881, 3.1415927410125732]
+  SRTHash: !u 0x68ea99e3
+  Translate: [-197.4581298828125, 41.290000915527344, -39.84198760986328]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Decoration_B_01
+  Hash: !ul 16421789134300592615
+  Phive:
+    Placement: {ID: !ul 16421789134300592615}
+  Rotate: [0.0, -0.7853982448577881, 0.0]
+  SRTHash: !u 0xeb1e5cda
+  Translate: [-178.0518341064453, 41.290000915527344, -59.39726638793945]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Decoration_B_01
+  Hash: !ul 11804491805664990940
+  Phive:
+    Placement: {ID: !ul 11804491805664990940}
+  Rotate: [0.0, -0.7853982448577881, 0.0]
+  SRTHash: !u 0x32d5d4af
+  Translate: [-172.3949737548828, 41.290000915527344, -53.740413665771484]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Decoration_B_01
+  Hash: !ul 14613626533215567167
+  Phive:
+    Placement: {ID: !ul 14613626533215567167}
+  Rotate: [0.0, -0.7853982448577881, 0.0]
+  SRTHash: !u 0x9cc50bf8
+  Translate: [-166.73812866210938, 41.290000915527344, -48.083560943603516]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Decoration_B_01
+  Hash: !ul 9597810339138162193
+  Phive:
+    Placement: {ID: !ul 9597810339138162193}
+  Rotate: [0.0, 0.7852236032485962, 0.0]
+  SRTHash: !u 0x3c9878ed
+  Translate: [-197.3430938720703, 41.290000915527344, -47.505126953125]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Decoration_B_01
+  Hash: !ul 12015076888232324128
+  Phive:
+    Placement: {ID: !ul 12015076888232324128}
+  Rotate: [0.0, 0.7852236032485962, 0.0]
+  SRTHash: !u 0x736d7792
+  Translate: [-191.68524169921875, 41.290000915527344, -53.160987854003906]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Decoration_B_01
+  Hash: !ul 14375699304406432783
+  Phive:
+    Placement: {ID: !ul 14375699304406432783}
+  Rotate: [0.0, 0.7852236032485962, 0.0]
+  SRTHash: !u 0xf2cd62a0
+  Translate: [-186.0274200439453, 41.290000915527344, -58.81685256958008]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Decoration_B_01
+  Hash: !ul 6411926706946556142
+  Phive:
+    Placement: {ID: !ul 6411926706946556142}
+  Rotate: [3.1415927410125732, -0.7853982448577881, 3.1415927410125732]
+  SRTHash: !u 0x7440779e
+  Translate: [-166.69569396972656, 41.290000915527344, -39.25886917114258]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Decoration_B_01
+  Hash: !ul 2303939619899492454
+  Phive:
+    Placement: {ID: !ul 2303939619899492454}
+  Rotate: [3.1415927410125732, -0.7853982448577881, 3.1415927410125732]
+  SRTHash: !u 0x7213befc
+  Translate: [-178.0093994140625, 41.290000915527344, -27.945161819458008]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Decoration_B_01
+  Hash: !ul 14700026358502452549
+  Phive:
+    Placement: {ID: !ul 14700026358502452549}
+  Rotate: [3.1415927410125732, -0.7853982448577881, 3.1415927410125732]
+  SRTHash: !u 0x7a9a77e4
+  Translate: [-172.35255432128906, 41.290000915527344, -33.60201644897461]
+- Gyaml: Land_ShadowTemple_Lamp_A_03
+  Hash: !ul 7580243063812251630
+  Phive:
+    Placement: {ID: !ul 7580243063812251630}
+  SRTHash: !u 0xdc719e64
+  Translate: [-181.76414489746094, 45.34000015258789, -60.33771896362305]
+- Gyaml: Land_ShadowTemple_Lamp_A_03
+  Hash: !ul 14884900128043073765
+  Phive:
+    Placement: {ID: !ul 14884900128043073765}
+  Rotate: [0.0, 1.5707963705062866, -0.0]
+  SRTHash: !u 0x58fdfc97
+  Translate: [-198.8124542236328, 45.34000015258789, -43.536865234375]
+- Gyaml: Land_ShadowTemple_Lamp_A_03
+  Hash: !ul 10908873581119773240
+  Phive:
+    Placement: {ID: !ul 10908873581119773240}
+  Rotate: [3.1415927410125732, -0.0, 3.1415927410125732]
+  SRTHash: !u 0x2555e21f
+  Translate: [-181.79949951171875, 45.34000015258789, -26.96935272216797]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_DoorFrame_A_01
+  Hash: !ul 4881500096204003503
+  Phive:
+    Placement: {ID: !ul 4881500096204003503}
+  Rotate: [3.1415927410125732, -0.0, 3.1415927410125732]
+  SRTHash: !u 0xce13e63b
+  Translate: [-181.8419189453125, 41.28999328613281, -25.922836303710938]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_DoorFrame_A_01
+  Hash: !ul 16460892318177695323
+  Phive:
+    Placement: {ID: !ul 16460892318177695323}
+  Rotate: [0.0, 1.5707963705062866, -0.0]
+  SRTHash: !u 0x83217999
+  Translate: [-199.85702514648438, 41.28999328613281, -43.650001525878906]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_DoorFrame_A_01
+  Hash: !ul 1721133746468091052
+  Phive:
+    Placement: {ID: !ul 1721133746468091052}
+  SRTHash: !u 0x8344c38a
+  Translate: [-181.742919921875, 41.290000915527344, -61.37787628173828]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_DoorFrame_A_01
+  Hash: !ul 4703451171618296973
+  Phive:
+    Placement: {ID: !ul 4703451171618296973}
+  Rotate: [0.0, -1.5707963705062866, -0.0]
+  SRTHash: !u 0xb4521b9e
+  Translate: [-159.91036987304688, 42.0, -43.6739387512207]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_DoorJointParts_A_01
+  Hash: !ul 4079614984740961668
+  Phive:
+    Placement: {ID: !ul 4079614984740961668}
+  Rotate: [0.0, -1.5707963705062866, -0.0]
+  SRTHash: !u 0x56979bb3
+  Translate: [-159.7731170654297, 42.02000045776367, -43.67393493652344]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_DoorJointParts_A_02
+  Hash: !ul 1430623037788191123
+  Phive:
+    Placement: {ID: !ul 1430623037788191123}
+  Rotate: [0.0, -1.5707963705062866, -0.0]
+  SRTHash: !u 0x56979bb3
+  Translate: [-159.7731170654297, 42.02000045776367, -43.67393493652344]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_DoorJointParts_A_03
+  Hash: !ul 16728140945126748830
+  Phive:
+    Placement: {ID: !ul 16728140945126748830}
+  Rotate: [0.0, 1.5707963705062866, -0.0]
+  SRTHash: !u 0xab597afa
+  Translate: [-199.99334716796875, 41.310001373291016, -43.650001525878906]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_DoorJointParts_A_02
+  Hash: !ul 14582823935228935406
+  Phive:
+    Placement: {ID: !ul 14582823935228935406}
+  Rotate: [0.0, 1.5707963705062866, -0.0]
+  SRTHash: !u 0xab597afa
+  Translate: [-199.99334716796875, 41.310001373291016, -43.650001525878906]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_DoorJointParts_B_02
+  Hash: !ul 3496892332827743266
+  Phive:
+    Placement: {ID: !ul 3496892332827743266}
+  SRTHash: !u 0x49b5cdf2
+  Translate: [-181.742919921875, 41.310001373291016, -61.70243835449219]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_DoorJointParts_B_01
+  Hash: !ul 8880164275778772823
+  Phive:
+    Placement: {ID: !ul 8880164275778772823}
+  Rotate: [3.1415927410125732, -0.0, 3.1415927410125732]
+  SRTHash: !u 0xf0430f72
+  Translate: [-181.8136444091797, 41.310001373291016, -25.55514144897461]
+- Bakeable: true
+  Gyaml: Land_Deku_SpiderWebProp_A_04_01
+  Hash: !ul 10551331821339436869
+  Phive:
+    Placement: {ID: !ul 10551331821339436869}
+  Rotate: [0.0, -0.7866384983062744, 0.0]
+  SRTHash: !u 0x3029d5fb
+  Scale: [1.2000000476837158, 1.2000000476837158, 1.2000000476837158]
+  Translate: [-165.2332763671875, 47.025447845458984, -46.35146713256836]
+- Bakeable: true
+  Gyaml: Land_Deku_SpiderWebProp_A_04_01
+  Hash: !ul 10973484869574273268
+  Phive:
+    Placement: {ID: !ul 10973484869574273268}
+  Rotate: [3.0520377159118652, -0.5335932970046997, 3.141592502593994]
+  SRTHash: !u 0x785ecd12
+  Scale: [1.1999999284744263, 1.1999999284744263, 1.1999999284744263]
+  Translate: [-164.26708984375, 45.71415710449219, -41.815826416015625]
+- Bakeable: true
+  Gyaml: Land_Deku_SpiderWebProp_A_04_03
+  Hash: !ul 2772501359212656323
+  Phive:
+    Placement: {ID: !ul 2772501359212656323}
+  Rotate: [-3.0384979248046875, -0.48821115493774414, -3.101740598678589]
+  SRTHash: !u 0x786f1af4
+  Scale: [1.5000001192092896, 1.5000001192092896, 1.5000001192092896]
+  Translate: [-166.44314575195312, 46.73831558227539, -40.30384063720703]
+- Bakeable: true
+  Gyaml: Land_Deku_SpiderWebProp_A_04_02
+  Hash: !ul 15313892060218885475
+  Phive:
+    Placement: {ID: !ul 15313892060218885475}
+  Rotate: [0.0, -1.3261724710464478, 0.0]
+  SRTHash: !u 0xbfc800a5
+  Translate: [-165.10015869140625, 46.82114791870117, -44.86073303222656]
+- Bakeable: true
+  Gyaml: Land_Deku_SpiderWebProp_A_04_01
+  Hash: !ul 3679052923045943454
+  Phive:
+    Placement: {ID: !ul 3679052923045943454}
+  Rotate: [3.1415927410125732, -1.0356017351150513, 3.1415927410125732]
+  SRTHash: !u 0x8e91d888
+  Translate: [-161.41195678710938, 47.150596618652344, -43.02973556518555]
+- Bakeable: true
+  Gyaml: Land_Deku_SpiderWebProp_A_04_03
+  Hash: !ul 13401399269524932166
+  Phive:
+    Placement: {ID: !ul 13401399269524932166}
+  Rotate: [0.0, -0.8957909941673279, 0.0]
+  SRTHash: !u 0x7a643576
+  Scale: [1.600000023841858, 1.600000023841858, 1.600000023841858]
+  Translate: [-168.52320861816406, 46.4077033996582, -49.267486572265625]
+- Bakeable: true
+  Gyaml: Land_ShadowTemple_Decoration_C_01
+  Hash: !ul 1244052058385710071
+  Phive:
+    Placement: {ID: !ul 1244052058385710071}
+  Rotate: [3.1415927410125732, 0.7853980660438538, 3.1415927410125732]
+  SRTHash: !u 0x2fb81a3b
+  Translate: [-171.79840087890625, 41.31500244140625, -42.99501037597656]
+- Gyaml: EftLoc_ShadowTemple_PaddleShip_Smoke_01
+  Hash: !ul 1955233801904466222
+  Phive:
+    Placement: {ID: !ul 1955233801904466222}
+  SRTHash: !u 0xd1b4669c
+  Translate: [57.4329833984375, 41.09199905395508, -47.302734375]
+- Gyaml: EftLoc_ShadowTemple_PaddleShip_Smoke_02
+  Hash: !ul 14446987880680761468
+  Phive:
+    Placement: {ID: !ul 14446987880680761468}
+  SRTHash: !u 0xfb1df19e
+  Translate: [38.57173156738281, 41.09199905395508, -79.98959350585938]
+- Gyaml: EftLoc_ShadowTemple_PaddleShip_Smoke_04
+  Hash: !ul 11692266699462054418
+  Phive:
+    Placement: {ID: !ul 11692266699462054418}
+  Rotate: [0.002125212224200368, -0.0, 0.000626306573394686]
+  SRTHash: !u 0xbd17450a
+  Translate: [-37.10784149169922, 41.09199905395508, -42.793495178222656]
+- Gyaml: EftLoc_ShadowTemple_PaddleShip_Smoke_00
+  Hash: !ul 11557057209902003841
+  Phive:
+    Placement: {ID: !ul 11557057209902003841}
+  SRTHash: !u 0x6572e068
+  Translate: [78.81388854980469, 41.09199905395508, -82.5776596069336]
+- Gyaml: EftLoc_ShadowTemple_PaddleShip_Smoke_03
+  Hash: !ul 2453820546113526415
+  Phive:
+    Placement: {ID: !ul 2453820546113526415}
+  SRTHash: !u 0xff1c4437
+  Translate: [14.285179138183594, 41.09199905395508, -39.605430603027344]
+- Gyaml: EftLoc_ShadowTemple_PaddleShip_Smoke_05
+  Hash: !ul 10015737865953869720
+  Phive:
+    Placement: {ID: !ul 10015737865953869720}
+  SRTHash: !u 0xa6355033
+  Translate: [-60.3834342956543, 41.09199905395508, -88.09993743896484]
+- Gyaml: EftLoc_ShadowTemple_PaddleShip_00
+  Hash: !ul 15101902857036694318
+  Phive:
+    Placement: {ID: !ul 15101902857036694318}
+  SRTHash: !u 0x9be52f57
+  Translate: [15.880800247192383, 41.09199905395508, -58.578800201416016]
+- Gyaml: Obj_Abyss_A_01
+  Hash: !ul 5517677806936542211
+  Phive:
+    Placement: {ID: !ul 5517677806936542211}
+  SRTHash: !u 0xf3434a08
+  Scale: [0.05000000074505806, 0.05000000074505806, 0.05000000074505806]
+  Translate: [99.42200469970703, 74.8672103881836, -43.918701171875]
+FilePath: Work/Banc/Scene/DreamWorld/StalfosStage.bcett.json

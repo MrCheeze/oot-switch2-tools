@@ -1,0 +1,4228 @@
+Actors:
+- Dynamic: {Location: IceCavern}
+  Gyaml: LocationArea
+  Hash: !ul 532051959809599792
+  Phive:
+    Placement: {ID: !ul 532051959809599792}
+  SRTHash: !u 0x0eac39e1
+  Scale: [102.15516662597656, 52.90819549560547, 144.327392578125]
+  Translate: [-5.874013900756836, 63.12501525878906, -22.575801849365234]
+- Gyaml: DestinationAnchor
+  Hash: !ul 9793270860614284194
+  Name: FieldDungeonEntranceGo
+  Phive:
+    Placement: {ID: !ul 9793270860614284194}
+  Rotate: [-3.141592502593994, -3.8941436741879443e-07, -3.141592502593994]
+  SRTHash: !u 0x0bb84cab
+  Translate: [-46.87348937988281, 94.27813720703125, 83.1975326538086]
+- Gyaml: Area
+  Hash: !ul 4022311407414159915
+  Phive:
+    Placement: {ID: !ul 4022311407414159915}
+  Rotate: [-3.141592502593994, -3.8941439584050386e-07, -3.141592502593994]
+  SRTHash: !u 0x30228634
+  Scale: [13.534645080566406, 5.0, 10.0]
+  Translate: [-46.87348937988281, 93.27813720703125, 88.1975326538086]
+- Dynamic: {FirstEventName: Dm_SY_BancChangeGo_ZoraFountain, IsChangableAirPos: true,
+    IsNoDisplayMapIcon: true, NextBancParamNameAdult: ZoraFountain_Adult, NextBancParamNameChild: ZoraFountain_Child,
+    NextEventName: Dm_SY_BancChangeArrive_IceCaven_01, NextStartPosName: ZoraFountain_FromIceCavern_Backdoor}
+  Gyaml: FieldAndDungeonEntranceEventRequestActor
+  Hash: !ul 10544815606216485062
+  Links:
+  - {Dst: !ul 9793270860614284194, Gyaml: Reference, Name: Reference, Src: !ul 10544815606216485062}
+  - {Dst: !ul 1219760122201895072, Gyaml: Reference, Name: Reference, Src: !ul 10544815606216485062}
+  Name: IceCavern_FromZoraFountain_Backdoor
+  Phive:
+    Placement: {ID: !ul 10544815606216485062}
+  Rotate: [-3.141592502593994, -3.8941436741879443e-07, -3.141592502593994]
+  SRTHash: !u 0xaf76395c
+  Translate: [-46.87348937988281, 106.27813720703125, 83.1975326538086]
+- Dynamic: {IsUseFailSafe: true}
+  Gyaml: ChangeBancBeforehandAnchor
+  Hash: !ul 3460336713617951477
+  Links:
+  - {Dst: !ul 10544815606216485062, Gyaml: Reference, Name: Reference, Src: !ul 3460336713617951477}
+  Name: 先読みの基準座標となるアンカー
+  Phive:
+    Placement: {ID: !ul 3460336713617951477}
+  Rotate: [-3.141592502593994, -3.8941436741879443e-07, -3.141592502593994]
+  SRTHash: !u 0x62eed8fd
+  Translate: [-46.87348937988281, 99.27813720703125, 70.68738555908203]
+- Gyaml: DestinationAnchor
+  Hash: !ul 1219760122201895072
+  Name: HorsePos
+  Phive:
+    Placement: {ID: !ul 1219760122201895072}
+  Rotate: [-3.141592502593994, -3.8941436741879443e-07, -3.141592502593994]
+  SRTHash: !u 0x2230709b
+  Translate: [-46.87349319458008, 94.27813720703125, 78.1975326538086]
+- Gyaml: ForbiddenCreateDropArea
+  Hash: !ul 17353834028804429848
+  Phive:
+    Placement: {ID: !ul 17353834028804429848}
+  Rotate: [-3.141592502593994, -3.8941439584050386e-07, -3.141592502593994]
+  SRTHash: !u 0xb7a4ab3f
+  Scale: [27.069290161132812, 10.0, 20.0]
+  Translate: [-46.87348937988281, 98.27813720703125, 88.1975326538086]
+- Dynamic: {DefaultDungeonRoomIndex: 1}
+  Gyaml: AirWallEnemy
+  Hash: !ul 1278896797372029673
+  Phive:
+    Placement: {ID: !ul 1278896797372029673}
+  Rotate: [-3.12469220161438, -0.004854073282331228, -3.1409575939178467]
+  SRTHash: !u 0xf5f81075
+  Scale: [8.681575775146484, 11.011514663696289, 1.0]
+  Translate: [-0.6125364303588867, 102.07820129394531, 22.1861572265625]
+- Dynamic: {DefaultDungeonRoomIndex: 0}
+  Gyaml: AirWallEnemy
+  Hash: !ul 13092707085685507630
+  Phive:
+    Placement: {ID: !ul 13092707085685507630}
+  Rotate: [-3.1250600814819336, -0.5284525752067566, -3.140857458114624]
+  SRTHash: !u 0x971bd529
+  Scale: [8.681575775146484, 11.011514663696289, 1.0]
+  Translate: [1.8413677215576172, 102.83734130859375, 66.17495727539062]
+- Dynamic: {DefaultDungeonRoomIndex: 3}
+  Gyaml: AirWallEnemy
+  Hash: !ul 7716457282221616601
+  Phive:
+    Placement: {ID: !ul 7716457282221616601}
+  Rotate: [0.0, 1.4925240278244019, 0.0]
+  SRTHash: !u 0x0fbe4c4a
+  Scale: [13.515881538391113, 8.850809097290039, 1.0]
+  Translate: [-4.269742488861084, 101.9644775390625, -14.212828636169434]
+- Bakeable: true
+  Dynamic: {GameModelController_LightTimeTableParamKey: IceCavernEntrance}
+  Gyaml: Land_IceCave_Floor_A_01
+  Hash: !ul 6007949191757028317
+  Phive:
+    Placement: {ID: !ul 6007949191757028317}
+  SRTHash: !u 0x47553216
+  Translate: [0.5, 100.30000305175781, 66.80000305175781]
+- Dynamic: {FogParams: SceneConnectArea_White_01}
+  Gyaml: VolumeFogArea
+  Hash: !ul 3182149941482531635
+  Phive:
+    Placement: {ID: !ul 3182149941482531635}
+  SRTHash: !u 0xa2ea36ca
+  Scale: [19.629451751708984, 15.5, 28.085556030273438]
+  Translate: [11.967341423034668, 106.55221557617188, 116.86065673828125]
+- Bakeable: true
+  Gyaml: Land_IceCave_Floor_A_02
+  Hash: !ul 8360387560566885273
+  Phive:
+    Placement: {ID: !ul 8360387560566885273}
+  SRTHash: !u 0x2d0f64ea
+  Translate: [0.5, 99.69999694824219, 66.80000305175781]
+- Bakeable: true
+  Dynamic: {GameModelController_LightTimeTableParamKey: IceCavernEntrance}
+  Gyaml: Land_IceCave_Floor_A_03
+  Hash: !ul 3615655655925706183
+  Phive:
+    Placement: {ID: !ul 3615655655925706183}
+  SRTHash: !u 0xff3d163d
+  Translate: [-46.20000076293945, 109.69999694824219, 50.400001525878906]
+- Dynamic: {FogParams: SceneConnectArea_White_01}
+  Gyaml: VolumeFogArea
+  Hash: !ul 7339917881044114031
+  Phive:
+    Placement: {ID: !ul 7339917881044114031}
+  SRTHash: !u 0x6b3d3a13
+  Scale: [20.0, 20.0, 29.0]
+  Translate: [-46.20000076293945, 99.69999694824219, 92.79998779296875]
+- Bakeable: true
+  Gyaml: Land_IceCave_Floor_A_04
+  Hash: !ul 6393263390422659602
+  Phive:
+    Placement: {ID: !ul 6393263390422659602}
+  SRTHash: !u 0x49f1c6b3
+  Translate: [-36.0, 104.1500015258789, -11.100000381469727]
+- Bakeable: true
+  Gyaml: Land_IceCave_Floor_A_05
+  Hash: !ul 6126838228239625894
+  Phive:
+    Placement: {ID: !ul 6126838228239625894}
+  SRTHash: !u 0xb93fb4cc
+  Translate: [-46.29999923706055, 109.5999984741211, 25.799999237060547]
+- Gyaml: Land_IceCave_Icicles_B_01
+  Hash: !ul 5591933263996164772
+  Phive:
+    Placement: {ID: !ul 5591933263996164772}
+  SRTHash: !u 0xb93fb4cc
+  Translate: [-46.29999923706055, 109.5999984741211, 25.799999237060547]
+- Bakeable: true
+  Gyaml: Land_IceCave_IceBlock_A_01
+  Hash: !ul 15784466003726886695
+  Phive:
+    Placement: {ID: !ul 15784466003726886695}
+  SRTHash: !u 0xd5713bd0
+  Translate: [-46.17206954956055, 109.5999984741211, 26.129915237426758]
+- Bakeable: true
+  Gyaml: Land_IceCave_UmeCliff_A_06
+  Hash: !ul 7812339986876350534
+  Phive:
+    Placement: {ID: !ul 7812339986876350534}
+  SRTHash: !u 0x060afc72
+  Translate: [7.199999809265137, 100.0, -3.4000000953674316]
+- Gyaml: Land_IceCave_BlackFade_A_01
+  Hash: !ul 3243809651280414457
+  Phive:
+    Placement: {ID: !ul 3243809651280414457}
+  SRTHash: !u 0x5eb5b0e0
+  Scale: [0.9525975584983826, 2.5, 0.9525975584983826]
+  Translate: [9.194360733032227, 111.0, -14.643373489379883]
+- Bakeable: true
+  Gyaml: Land_IceCave_Floor_A_07
+  Hash: !ul 6851432756996804517
+  Phive:
+    Placement: {ID: !ul 6851432756996804517}
+  SRTHash: !u 0x13afe813
+  Translate: [-20.0, 101.5, -27.600000381469727]
+- Bakeable: true
+  Gyaml: Land_IceCave_UmeCliff_A_07
+  Hash: !ul 11890030969245559436
+  Phive:
+    Placement: {ID: !ul 11890030969245559436}
+  SRTHash: !u 0x13afe813
+  Translate: [-20.0, 101.5, -27.600000381469727]
+- Bakeable: true
+  Gyaml: Land_IceCave_Gate_A_02
+  Hash: !ul 335042595319188921
+  Phive:
+    Placement: {ID: !ul 335042595319188921}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xc744ede4
+  Translate: [-51.697750091552734, 104.05644989013672, -20.957611083984375]
+- Gyaml: Land_IceCave_BlackFade_A_04
+  Hash: !ul 8295470820833003635
+  Phive:
+    Placement: {ID: !ul 8295470820833003635}
+  SRTHash: !u 0x13afe813
+  Translate: [-20.0, 101.5, -27.600000381469727]
+- Bakeable: true
+  Gyaml: Land_IceCave_Floor_A_08
+  Hash: !ul 18184819345786292922
+  Phive:
+    Placement: {ID: !ul 18184819345786292922}
+  SRTHash: !u 0xb0c140c2
+  Translate: [8.300000190734863, 104.4000015258789, -32.900001525878906]
+- Bakeable: true
+  Gyaml: Land_IceCave_Gate_A_01
+  Hash: !ul 376305116007076795
+  Phive:
+    Placement: {ID: !ul 376305116007076795}
+  Rotate: [0.0, -0.4784497022628784, 0.0]
+  SRTHash: !u 0x746f9a37
+  Translate: [24.734882354736328, 111.4800033569336, -73.11488342285156]
+- Bakeable: true
+  Gyaml: Land_IceCave_UmeCliff_A_08
+  Hash: !ul 8063522454009768469
+  Phive:
+    Placement: {ID: !ul 8063522454009768469}
+  SRTHash: !u 0xb0c140c2
+  Translate: [8.300000190734863, 104.4000015258789, -32.900001525878906]
+- Dynamic: {DefaultDungeonRoomIndex: 5}
+  Gyaml: AirWallEnemy_NavMeshCut
+  Hash: !ul 6001560061412404137
+  Phive:
+    Placement: {ID: !ul 6001560061412404137}
+  Rotate: [0.0, -1.2998014688491821, 0.0]
+  SRTHash: !u 0x2acf5a7d
+  Scale: [5.087188720703125, 1.0, 5.328861713409424]
+  Translate: [31.870094299316406, 103.16812133789062, -64.4209976196289]
+- Dynamic: {DefaultDungeonRoomIndex: 5}
+  Gyaml: AirWallEnemy_NavMeshCut
+  Hash: !ul 10385938892016657537
+  Phive:
+    Placement: {ID: !ul 10385938892016657537}
+  Rotate: [0.0, -0.15918739140033722, 0.0]
+  SRTHash: !u 0x3a6105df
+  Scale: [2.100123882293701, 1.0, 8.6607084274292]
+  Translate: [12.897133827209473, 103.16812133789062, -79.80838012695312]
+- Gyaml: Land_IceCave_BlackFade_A_02
+  Hash: !ul 17997233854822753169
+  Phive:
+    Placement: {ID: !ul 17997233854822753169}
+  SRTHash: !u 0x2133b1d8
+  Translate: [8.300000190734863, 105.4000015258789, -32.900001525878906]
+- Bakeable: true
+  Gyaml: Land_IceCave_Floor_A_09
+  Hash: !ul 1998996241895851307
+  Phive:
+    Placement: {ID: !ul 1998996241895851307}
+  SRTHash: !u 0x9e9813ad
+  Translate: [22.200000762939453, 103.8499984741211, -12.399999618530273]
+- Bakeable: true
+  Gyaml: Land_IceCave_Floor_A_10
+  Hash: !ul 11325897272294288645
+  Phive:
+    Placement: {ID: !ul 11325897272294288645}
+  SRTHash: !u 0x7e763f5d
+  Translate: [-3.950000047683716, 100.19999694824219, -14.699999809265137]
+- Bakeable: true
+  Gyaml: Land_IceCave_Floor_A_11
+  Hash: !ul 8592968067685885873
+  Phive:
+    Placement: {ID: !ul 8592968067685885873}
+  SRTHash: !u 0x1a7172f2
+  Translate: [69.9000015258789, 104.9000015258789, 8.300000190734863]
+- Bakeable: true
+  Gyaml: Land_IceCave_Floor_A_12
+  Hash: !ul 18309054092742175611
+  Phive:
+    Placement: {ID: !ul 18309054092742175611}
+  SRTHash: !u 0x2f5b2ff1
+  Translate: [0.0, 100.0, 23.600000381469727]
+- Dynamic: {FogParams: iceCaven_03}
+  Gyaml: VolumeFogArea
+  Hash: !ul 10952199643311053211
+  Phive:
+    Placement: {ID: !ul 10952199643311053211}
+  SRTHash: !u 0xb4425248
+  Scale: [32.33000183105469, 11.0, 55.66999816894531]
+  Translate: [3.059999942779541, 105.5, 44.86000061035156]
+- Dynamic: {FogParams: iceCaven_01}
+  Gyaml: VolumeFogArea
+  Hash: !ul 854477650072026379
+  Phive:
+    Placement: {ID: !ul 854477650072026379}
+  SRTHash: !u 0xd8de62e7
+  Scale: [35.65999984741211, 11.0, 61.0]
+  Translate: [11.0600004196167, 106.5, 98.86000061035156]
+- Dynamic: {FogParams: iceCaven_02}
+  Gyaml: VolumeFogArea
+  Hash: !ul 10866257430082043172
+  Phive:
+    Placement: {ID: !ul 10866257430082043172}
+  SRTHash: !u 0x81673e39
+  Scale: [21.65999984741211, 4.5, 27.010000228881836]
+  Translate: [2.4000000953674316, 103.5, 8.859999656677246]
+- Dynamic: {FogParams: iceCaven_07}
+  Gyaml: VolumeFogArea
+  Hash: !ul 4864682395968072244
+  Phive:
+    Placement: {ID: !ul 4864682395968072244}
+  SRTHash: !u 0x2c59b60d
+  Scale: [25.65999984741211, 10.0, 30.34000015258789]
+  Translate: [8.390000343322754, 105.21490478515625, -15.8100004196167]
+- Dynamic: {FogParams: iceCaven_04}
+  Gyaml: VolumeFogArea
+  Hash: !ul 7035233389307366986
+  Phive:
+    Placement: {ID: !ul 7035233389307366986}
+  SRTHash: !u 0x4f8c7141
+  Scale: [36.9900016784668, 7.0, 61.0099983215332]
+  Translate: [17.729999542236328, 105.0, -60.810001373291016]
+- Dynamic: {FogParams: iceCaven_00}
+  Gyaml: VolumeFogArea
+  Hash: !ul 1446691832624977516
+  Phive:
+    Placement: {ID: !ul 1446691832624977516}
+  SRTHash: !u 0x64e1c72b
+  Scale: [37.65999984741211, 13.0, 39.0]
+  Translate: [78.4000015258789, 108.66999816894531, 2.859999895095825]
+- Dynamic: {FogParams: iceCaven_naraku}
+  Gyaml: VolumeFogArea
+  Hash: !ul 10154414541502799758
+  Phive:
+    Placement: {ID: !ul 10154414541502799758}
+  SRTHash: !u 0x02056de0
+  Scale: [46.31999969482422, 22.0, 41.68000030517578]
+  Translate: [-32.16999816894531, 90.01000213623047, -20.440000534057617]
+- Dynamic: {FogParams: iceCaven_05}
+  Gyaml: VolumeFogArea
+  Hash: !ul 13169365590653572452
+  Phive:
+    Placement: {ID: !ul 13169365590653572452}
+  SRTHash: !u 0x79a4aa38
+  Scale: [33.650001525878906, 19.0, 28.34000015258789]
+  Translate: [-34.84000015258789, 108.01000213623047, -23.770000457763672]
+- Dynamic: {FogParams: iceCaven_06}
+  Gyaml: VolumeFogArea
+  Hash: !ul 16676459600047299580
+  Phive:
+    Placement: {ID: !ul 16676459600047299580}
+  SRTHash: !u 0x282a7efb
+  Scale: [38.9900016784668, 7.0, 19.670000076293945]
+  Translate: [-37.33000183105469, 107.33999633789062, 1.7100000381469727]
+- Dynamic: {FogParams: iceCaven_boss}
+  Gyaml: VolumeFogArea
+  Hash: !ul 5208661020900627099
+  Phive:
+    Placement: {ID: !ul 5208661020900627099}
+  SRTHash: !u 0x27eb818d
+  Scale: [65.66000366210938, 7.0, 27.670000076293945]
+  Translate: [-46.09080123901367, 111.98999786376953, 39.87862014770508]
+- Dynamic: {FogParams: iceCaven_08}
+  Gyaml: VolumeFogArea
+  Hash: !ul 13263647023486090080
+  Phive:
+    Placement: {ID: !ul 13263647023486090080}
+  SRTHash: !u 0x5b99fcf7
+  Scale: [22.989999771118164, 4.0, 23.010000228881836]
+  Translate: [-50.86909103393555, 109.5, 63.74534606933594]
+- Dynamic: {FogParams: iceCaven_04_b}
+  Gyaml: VolumeFogArea
+  Hash: !ul 7897848443298503515
+  Phive:
+    Placement: {ID: !ul 7897848443298503515}
+  Rotate: [0.0, 0.11623892933130264, 0.0]
+  SRTHash: !u 0x2d302dc1
+  Scale: [39.65999984741211, 7.670000076293945, 20.350000381469727]
+  Translate: [13.729999542236328, 113.33999633789062, -85.4800033569336]
+- Dynamic: {FogParams: iceCaven_05_b}
+  Gyaml: VolumeFogArea
+  Hash: !ul 6637622191597622763
+  Phive:
+    Placement: {ID: !ul 6637622191597622763}
+  SRTHash: !u 0x73e8ce2a
+  Scale: [14.989999771118164, 3.6700000762939453, 23.670000076293945]
+  Translate: [-12.84000015258789, 101.3499984741211, -21.770000457763672]
+- Dynamic: {FogParams: iceCaven_06_b}
+  Gyaml: VolumeFogArea
+  Hash: !ul 3068461676585014383
+  Phive:
+    Placement: {ID: !ul 3068461676585014383}
+  SRTHash: !u 0x0a6d0400
+  Scale: [16.989999771118164, 7.0, 13.670000076293945]
+  Translate: [-46.66999816894531, 110.66999816894531, 17.709999084472656]
+- Dynamic: {FogParams: iceCaven_00}
+  Gyaml: VolumeFogArea
+  Hash: !ul 7201362639001439991
+  Phive:
+    Placement: {ID: !ul 7201362639001439991}
+  SRTHash: !u 0xcaf7d24b
+  Scale: [42.33000183105469, 13.0, 39.0]
+  Translate: [43.0, 108.66999816894531, 2.859999895095825]
+- Dynamic: {DefaultDungeonRoomIndex: 5, IsDungeonRoomCheckDisable: true}
+  Gyaml: Enemy_Freezard
+  Hash: !ul 4194541240725322457
+  Phive:
+    Placement: {ID: !ul 4194541240725322457}
+  SRTHash: !u 0xf9acf3b6
+  Translate: [5.209656715393066, 103.19999694824219, -55.60639190673828]
+- Bakeable: true
+  Dynamic: {DefaultDungeonRoomIndex: 5}
+  Gyaml: Obj_RedIce_A_01
+  Hash: !ul 3200723622177405753
+  Links:
+  - {Dst: !ul 11498802739257120175, Gyaml: FrozenInIce, Name: FrozenInIce, Src: !ul 3200723622177405753}
+  Phive:
+    Placement: {ID: !ul 3200723622177405753}
+  Rotate: [-3.141592502593994, 1.2217305898666382, -3.141592502593994]
+  SRTHash: !u 0xf8cf25dd
+  Translate: [3.380357027053833, 113.6500015258789, -80.39341735839844]
+- Dynamic: {DefaultDungeonRoomIndex: 5, Drop__DropActor: Item_Dungeon_Map}
+  Gyaml: Obj_TBox_A_02
+  Hash: !ul 11498802739257120175
+  Phive:
+    Placement: {ID: !ul 11498802739257120175}
+  Rotate: [3.1415746212005615, 1.4835314750671387, 3.1415786743164062]
+  SRTHash: !u 0xd71099d3
+  Translate: [3.380000114440918, 113.71260833740234, -80.19999694824219]
+- Bakeable: true
+  Dynamic: {DefaultDungeonRoomIndex: 5}
+  Gyaml: Obj_RedIce_A_01
+  Hash: !ul 8455825898678675056
+  Links:
+  - {Dst: !ul 3105481948394149361, Gyaml: FrozenInIce, Name: FrozenInIce, Src: !ul 8455825898678675056}
+  Phive:
+    Placement: {ID: !ul 8455825898678675056}
+  Presence: {FlagName: IceCavern_Room07_RedRupeePot_IsCrushed, IsCheckLazy: true,
+    IsNegation: true}
+  Rotate: [-3.141488552093506, 1.2908803224563599, 3.141570806503296]
+  SRTHash: !u 0x738b674d
+  Translate: [28.834854125976562, 107.16310119628906, -52.14574432373047]
+- Gyaml: DungeonRoomArea
+  Hash: !ul 13727709691053600578
+  Phive:
+    Placement: {ID: !ul 13727709691053600578}
+  SRTHash: !u 0xa32887cc
+  Scale: [5.67304801940918, 3.7218375205993652, 1.0]
+  Translate: [8.683094024658203, 103.80000305175781, -29.700098037719727]
+- Gyaml: DungeonRoomCenterAnchor
+  Hash: !ul 15728613007443756192
+  Phive:
+    Placement: {ID: !ul 15728613007443756192}
+  SRTHash: !u 0x19a0971f
+  Translate: [18.431045532226562, 103.32041931152344, -57.66689682006836]
+- Dynamic: {DefaultDungeonRoomIndex: 5}
+  Gyaml: Obj_BlueFirePedestalLid_A_01
+  Hash: !ul 14467008483541670155
+  Phive:
+    Placement: {ID: !ul 14467008483541670155}
+  Rotate: [0.0, -0.3490658402442932, 0.0]
+  SRTHash: !u 0x436f7ebc
+  Translate: [26.090312957763672, 111.74616241455078, -75.7335433959961]
+- Gyaml: Area
+  Hash: !ul 3673856988548209885
+  Phive:
+    Placement: {ID: !ul 3673856988548209885}
+  SRTHash: !u 0xfe53c1ae
+  Scale: [15.0, 1.0, 10.0]
+  Translate: [14.0, 102.19999694824219, -44.5]
+- Dynamic: {RequestEventName: IceCavern_Gimmick_BlueFireShowup}
+  Gyaml: EventRequestActor
+  Hash: !ul 17358699032032347832
+  Links:
+  - {Dst: !ul 16575500211022051538, Gyaml: Reference, Name: Reference, Src: !ul 17358699032032347832}
+  - {Dst: !ul 16768829294388633732, Gyaml: Reference, Name: Reference, Src: !ul 17358699032032347832}
+  - {Dst: !ul 12884698874863066861, Gyaml: Reference, Name: Reference, Src: !ul 17358699032032347832}
+  - {Dst: !ul 18000537145324707666, Gyaml: Reference, Name: Reference, Src: !ul 17358699032032347832}
+  - {Dst: !ul 11172846462061012452, Gyaml: Reference, Name: Reference, Src: !ul 17358699032032347832}
+  - {Dst: !ul 2225603179845955367, Gyaml: Reference, Name: Reference, Src: !ul 17358699032032347832}
+  - {Dst: !ul 18058228622693136411, Gyaml: Reference, Name: Reference, Src: !ul 17358699032032347832}
+  - {Dst: !ul 18436921108716486371, Gyaml: Reference, Name: Reference, Src: !ul 17358699032032347832}
+  Phive:
+    Placement: {ID: !ul 17358699032032347832}
+  Rotate: [0.018102871254086494, -0.0, 0.005535310599952936]
+  SRTHash: !u 0x0a053fa4
+  Translate: [19.09771728515625, 115.23212432861328, -69.89756774902344]
+- Gyaml: DestinationAnchor
+  Hash: !ul 16575500211022051538
+  Name: TargetPoint
+  Phive:
+    Placement: {ID: !ul 16575500211022051538}
+  Rotate: [-0.010005297139286995, -0.6383171677589417, 0.01483248732984066]
+  SRTHash: !u 0x084301d7
+  Translate: [26.022705078125, 112.906494140625, -75.57781982421875]
+- Dynamic: {DefaultDungeonRoomIndex: 5, IsDungeonRoomCheckDisable: true}
+  Gyaml: Enemy_Freezard
+  Hash: !ul 16890461732001804265
+  Phive:
+    Placement: {ID: !ul 16890461732001804265}
+  Rotate: [0.0, -0.9599310159683228, 0.0]
+  SRTHash: !u 0x9929e2cb
+  Translate: [29.25, 103.19999694824219, -61.75]
+- Gyaml: Area
+  Hash: !ul 17749523208826847202
+  Phive:
+    Placement: {ID: !ul 17749523208826847202}
+  SRTHash: !u 0xfecd7cc8
+  Scale: [10.0, 1.0, 7.0]
+  Translate: [25.5, 102.19999694824219, -60.25]
+- Gyaml: Area
+  Hash: !ul 13845597996321780582
+  Phive:
+    Placement: {ID: !ul 13845597996321780582}
+  SRTHash: !u 0x2c1bea74
+  Scale: [15.0, 1.0, 12.0]
+  Translate: [15.5, 102.19999694824219, -79.5]
+- Dynamic: {DefaultDungeonRoomIndex: 5, IsDungeonRoomCheckDisable: true}
+  Gyaml: Enemy_Freezard
+  Hash: !ul 15310665127516265947
+  Phive:
+    Placement: {ID: !ul 15310665127516265947}
+  Rotate: [0.0, 0.43633246421813965, 0.0]
+  SRTHash: !u 0x2523eabc
+  Translate: [3.25, 103.19999694824219, -70.5]
+- Gyaml: Area
+  Hash: !ul 12506966263951788558
+  Phive:
+    Placement: {ID: !ul 12506966263951788558}
+  SRTHash: !u 0xd75da46a
+  Scale: [8.0, 1.0, 12.0]
+  Translate: [5.5, 102.19999694824219, -69.25]
+- Gyaml: Area
+  Hash: !ul 8465015584727272464
+  Phive:
+    Placement: {ID: !ul 8465015584727272464}
+  SRTHash: !u 0x8e9b7f48
+  Scale: [7.0, 1.0, 7.0]
+  Translate: [28.5, 102.19999694824219, -74.25]
+- Bakeable: true
+  Gyaml: Obj_BlueFirePedestal_A_01
+  Hash: !ul 13080207042766113207
+  Phive:
+    Placement: {ID: !ul 13080207042766113207}
+  Rotate: [0.0, 1.0471974611282349, 0.0]
+  SRTHash: !u 0x7de01fd3
+  Translate: [26.125, 111.64599609375, -75.7249984741211]
+- Gyaml: Obj_BlueFire_A_06
+  Hash: !ul 16768829294388633732
+  Links:
+  - {Dst: !ul 10110503708123096378, Gyaml: Reference, Name: Reference, Src: !ul 16768829294388633732}
+  - {Dst: !ul 8301746798071964304, Gyaml: Reference, Name: Reference, Src: !ul 16768829294388633732}
+  - {Dst: !ul 16768829294388633732, Gyaml: Reference, Name: Reference, Src: !ul 16768829294388633732}
+  - {Dst: !ul 3009441619944696170, Gyaml: Reference, Name: Reference, Src: !ul 16768829294388633732}
+  - {Dst: !ul 9168739090281858867, Gyaml: Reference, Name: Reference, Src: !ul 16768829294388633732}
+  - {Dst: !ul 3413314147308295740, Gyaml: Reference, Name: Reference, Src: !ul 16768829294388633732}
+  - {Dst: !ul 8559560914430596438, Gyaml: Reference, Name: Reference, Src: !ul 16768829294388633732}
+  - {Dst: !ul 14214074907171025618, Gyaml: Reference, Name: Reference, Src: !ul 16768829294388633732}
+  - {Dst: !ul 5397175894638213033, Gyaml: Reference, Name: Reference, Src: !ul 16768829294388633732}
+  - {Dst: !ul 17907507953304002727, Gyaml: Reference, Name: Reference, Src: !ul 16768829294388633732}
+  - {Dst: !ul 7438091810759538660, Gyaml: Reference, Name: Reference, Src: !ul 16768829294388633732}
+  - {Dst: !ul 10071898997868652728, Gyaml: Reference, Name: Reference, Src: !ul 16768829294388633732}
+  - {Dst: !ul 6722084179837521792, Gyaml: Reference, Name: Reference, Src: !ul 16768829294388633732}
+  - {Dst: !ul 16356752138552477448, Gyaml: Reference, Name: Reference, Src: !ul 16768829294388633732}
+  - {Dst: !ul 13088484744619785210, Gyaml: Reference, Name: Reference, Src: !ul 16768829294388633732}
+  - {Dst: !ul 5522321744463741325, Gyaml: Reference, Name: Reference, Src: !ul 16768829294388633732}
+  Phive:
+    Placement: {ID: !ul 16768829294388633732}
+  Rotate: [0.0, 1.0471974611282349, 0.0]
+  SRTHash: !u 0x29b3745e
+  Translate: [26.125, 112.14599609375, -75.7249984741211]
+- Gyaml: DestinationAnchor
+  Hash: !ul 10110503708123096378
+  Name: from_1
+  Phive:
+    Placement: {ID: !ul 10110503708123096378}
+  SRTHash: !u 0x1bf8ea98
+  Translate: [26.359792709350586, 113.85902404785156, -73.98785400390625]
+- Gyaml: DestinationAnchor
+  Hash: !ul 8301746798071964304
+  Name: from_3
+  Phive:
+    Placement: {ID: !ul 8301746798071964304}
+  SRTHash: !u 0xa4c4ed38
+  Translate: [25.471487045288086, 114.27641296386719, -76.1863784790039]
+- Gyaml: DestinationAnchor
+  Hash: !ul 9168739090281858867
+  Name: from_5
+  Phive:
+    Placement: {ID: !ul 9168739090281858867}
+  SRTHash: !u 0x4052161f
+  Translate: [26.085412979125977, 114.61836242675781, -76.8935317993164]
+- Gyaml: DestinationAnchor
+  Hash: !ul 3009441619944696170
+  Name: from_4
+  Phive:
+    Placement: {ID: !ul 3009441619944696170}
+  SRTHash: !u 0x839d0051
+  Translate: [26.93901252746582, 114.61836242675781, -76.64468383789062]
+- Gyaml: DestinationAnchor
+  Hash: !ul 3413314147308295740
+  Name: from_6
+  Phive:
+    Placement: {ID: !ul 3413314147308295740}
+  SRTHash: !u 0x3bd6a1a9
+  Translate: [27.154329299926758, 114.27182006835938, -75.76140594482422]
+- Gyaml: DestinationAnchor
+  Hash: !ul 8559560914430596438
+  Name: '1'
+  Phive:
+    Placement: {ID: !ul 8559560914430596438}
+  SRTHash: !u 0x6676645c
+  Translate: [26.8537654876709, 112.81103515625, -76.17815399169922]
+- Gyaml: DestinationAnchor
+  Hash: !ul 7438091810759538660
+  Name: '3'
+  Phive:
+    Placement: {ID: !ul 7438091810759538660}
+  SRTHash: !u 0xe1ecd251
+  Translate: [25.481441497802734, 112.6305923461914, -76.0877914428711]
+- Gyaml: DestinationAnchor
+  Hash: !ul 17907507953304002727
+  Name: '5'
+  Phive:
+    Placement: {ID: !ul 17907507953304002727}
+  SRTHash: !u 0xbe306d02
+  Translate: [25.956941604614258, 113.10981750488281, -76.282958984375]
+- Gyaml: DestinationAnchor
+  Hash: !ul 5397175894638213033
+  Name: '6'
+  Phive:
+    Placement: {ID: !ul 5397175894638213033}
+  SRTHash: !u 0xe8e01ad4
+  Translate: [26.277971267700195, 113.80306243896484, -75.7049331665039]
+- Gyaml: DestinationAnchor
+  Hash: !ul 14214074907171025618
+  Name: '4'
+  Phive:
+    Placement: {ID: !ul 14214074907171025618}
+  SRTHash: !u 0x29d62270
+  Translate: [25.930456161499023, 112.84639739990234, -75.1736831665039]
+- Gyaml: DropKeepAwayArea
+  Hash: !ul 432027302660177812
+  Phive:
+    Placement: {ID: !ul 432027302660177812}
+  Rotate: [0.0, 0.2617993950843811, 0.0]
+  SRTHash: !u 0xb99408ff
+  Scale: [1.2000000476837158, 1.2000000476837158, 1.2000000476837158]
+  Translate: [26.125, 112.2459945678711, -75.7249984741211]
+- Gyaml: DestinationAnchor
+  Hash: !ul 12884698874863066861
+  Name: Point2
+  Phive:
+    Placement: {ID: !ul 12884698874863066861}
+  Rotate: [-0.008925262838602066, -0.4646238684654236, 0.012920652516186237]
+  SRTHash: !u 0xde48c9f3
+  Translate: [27.394824981689453, 113.00007629394531, -77.94998168945312]
+- Dynamic: {DefaultDungeonRoomIndex: 5, Drop__DropActor: Obj_Rupee_Blue}
+  Gyaml: Obj_Pot_A_04
+  Hash: !ul 3105481948394149361
+  Phive:
+    Placement: {ID: !ul 3105481948394149361}
+  Presence: {FlagName: IceCavern_Room07_RedRupeePot_IsCrushed, IsCheckLazy: true,
+    IsNegation: true}
+  Rotate: [-0.005043813493102789, -0.0, -0.0011420504888519645]
+  SRTHash: !u 0x6a3e1f7a
+  Translate: [28.807933807373047, 107.20880126953125, -51.75135803222656]
+- Bakeable: true
+  Dynamic: {DefaultDungeonRoomIndex: 5}
+  Gyaml: Obj_RedIce_A_06
+  Hash: !ul 18000537145324707666
+  Links:
+  - {Dst: !ul 11172846462061012452, Gyaml: Reference, Name: Reference, Src: !ul 18000537145324707666}
+  - {Dst: !ul 18436921108716486371, Gyaml: Reference, Name: Reference, Src: !ul 18000537145324707666}
+  Name: '4'
+  Phive:
+    Placement: {ID: !ul 18000537145324707666}
+  Rotate: [3.1415927410125732, 0.5253898501396179, 3.1415927410125732]
+  SRTHash: !u 0x89b8fecb
+  Translate: [27.237770080566406, 111.77059936523438, -77.78843688964844]
+- Bakeable: true
+  Dynamic: {DefaultDungeonRoomIndex: 5}
+  Gyaml: Obj_RedIce_A_07
+  Hash: !ul 11172846462061012452
+  Links:
+  - {Dst: !ul 18000537145324707666, Gyaml: Reference, Name: Reference, Src: !ul 11172846462061012452}
+  - {Dst: !ul 18436921108716486371, Gyaml: Reference, Name: Reference, Src: !ul 11172846462061012452}
+  Name: '3'
+  Phive:
+    Placement: {ID: !ul 11172846462061012452}
+  Rotate: [3.1415927410125732, 0.7543813586235046, 3.1415927410125732]
+  SRTHash: !u 0x15481dae
+  Translate: [24.649999618530273, 111.77099609375, -76.20803833007812]
+- Gyaml: DestinationAnchor
+  Hash: !ul 10071898997868652728
+  Name: to_1
+  Phive:
+    Placement: {ID: !ul 10071898997868652728}
+  SRTHash: !u 0x3f0d18e7
+  Translate: [27.35266876220703, 113.37175750732422, -74.43046569824219]
+- Gyaml: DestinationAnchor
+  Hash: !ul 6722084179837521792
+  Name: to_3
+  Phive:
+    Placement: {ID: !ul 6722084179837521792}
+  SRTHash: !u 0xf1f1e173
+  Translate: [25.064537048339844, 112.478515625, -76.43877410888672]
+- Gyaml: DestinationAnchor
+  Hash: !ul 13088484744619785210
+  Name: to_5
+  Phive:
+    Placement: {ID: !ul 13088484744619785210}
+  SRTHash: !u 0xb83f48cb
+  Translate: [25.404481887817383, 113.14511108398438, -77.14201354980469]
+- Gyaml: DestinationAnchor
+  Hash: !ul 5522321744463741325
+  Name: to_6
+  Phive:
+    Placement: {ID: !ul 5522321744463741325}
+  SRTHash: !u 0x5042a5af
+  Translate: [27.460725784301758, 112.74203491210938, -76.1127700805664]
+- Gyaml: DestinationAnchor
+  Hash: !ul 16356752138552477448
+  Name: to_4
+  Phive:
+    Placement: {ID: !ul 16356752138552477448}
+  SRTHash: !u 0xa2149ada
+  Translate: [26.812108993530273, 113.88693237304688, -76.73409271240234]
+- Dynamic: {DefaultDungeonRoomIndex: 5}
+  Gyaml: Obj_MoveSpike_A_02
+  Hash: !ul 15607376457515758563
+  Links:
+  - {Dst: !ul 5138374410172655241, Gyaml: Reference, Name: Reference, Src: !ul 15607376457515758563}
+  Phive:
+    Placement: {ID: !ul 15607376457515758563}
+  SRTHash: !u 0xa20dd295
+  Translate: [15.223846435546875, 103.16311645507812, -58.7769889831543]
+- Gyaml: DestinationAnchor
+  Hash: !ul 5138374410172655241
+  Phive:
+    Placement: {ID: !ul 5138374410172655241}
+  SRTHash: !u 0xe698f265
+  Translate: [19.000953674316406, 103.16311645507812, -64.56797790527344]
+- Gyaml: Area
+  Hash: !ul 3412963530709051527
+  Phive:
+    Placement: {ID: !ul 3412963530709051527}
+  Rotate: [0.0, -0.45509326457977295, 0.0]
+  SRTHash: !u 0xac0bf7cd
+  Scale: [3.690746784210205, 8.22303295135498, 9.261934280395508]
+  Translate: [26.570480346679688, 100.48934173583984, -67.61005401611328]
+- Gyaml: DestinationAnchor
+  Hash: !ul 2225603179845955367
+  Name: ViewPoint1
+  Phive:
+    Placement: {ID: !ul 2225603179845955367}
+  Rotate: [-0.010005297139286995, -0.6383171677589417, 0.01483248732984066]
+  SRTHash: !u 0x3e5c3656
+  Translate: [22.610097885131836, 113.1692123413086, -72.61397552490234]
+- Gyaml: DestinationAnchor
+  Hash: !ul 18058228622693136411
+  Name: ViewPoint2
+  Phive:
+    Placement: {ID: !ul 18058228622693136411}
+  Rotate: [-0.010005297139286995, -0.6383171677589417, 0.01483248732984066]
+  SRTHash: !u 0xb84d0ce8
+  Translate: [25.365337371826172, 113.18609619140625, -70.86226654052734]
+- Bakeable: true
+  Dynamic: {DefaultDungeonRoomIndex: 5}
+  Gyaml: Obj_RedIce_A_08
+  Hash: !ul 18436921108716486371
+  Links:
+  - {Dst: !ul 11172846462061012452, Gyaml: Reference, Name: Reference, Src: !ul 18436921108716486371}
+  - {Dst: !ul 18000537145324707666, Gyaml: Reference, Name: Reference, Src: !ul 18436921108716486371}
+  Name: '1'
+  Phive:
+    Placement: {ID: !ul 18436921108716486371}
+  Rotate: [3.1415927410125732, 0.36651909351348877, 3.1415927410125732]
+  SRTHash: !u 0x775b5fd2
+  Translate: [27.450000762939453, 111.77099609375, -74.73113250732422]
+- Dynamic: {RigidBodyShapeType: 0}
+  Gyaml: Area
+  Hash: !ul 7567046725663335481
+  Phive:
+    Placement: {ID: !ul 7567046725663335481}
+  SRTHash: !u 0xf0daf1d0
+  Scale: [5.0, 5.0, 5.0]
+  Translate: [15.663378715515137, 96.90003967285156, -62.440216064453125]
+- Gyaml: FldObj_AirWall_Player_GenerateNavMesh
+  Hash: !ul 15647282051608701308
+  Phive:
+    Placement: {ID: !ul 15647282051608701308}
+  Rotate: [0.0, -0.46932369470596313, 0.0]
+  SRTHash: !u 0xf4b5d99f
+  Scale: [1.1429755687713623, 1.2752940654754639, 1.0]
+  Translate: [26.771575927734375, 111.69270324707031, -77.0478744506836]
+- Gyaml: Area
+  Hash: !ul 9448956687419482255
+  Phive:
+    Placement: {ID: !ul 9448956687419482255}
+  Rotate: [0.0, -1.570796251296997, -3.141592502593994]
+  SRTHash: !u 0x6e53f513
+  Scale: [7.0, 10.0, 7.0]
+  Translate: [-43.5, 95.0, -11.200002670288086]
+- Dynamic: {DefaultDungeonRoomIndex: 8}
+  Gyaml: Obj_Abyss_A_01
+  Hash: !ul 8031034453736472584
+  Phive:
+    Placement: {ID: !ul 8031034453736472584}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x2bfa6185
+  Scale: [0.14000000059604645, 0.9959787726402283, 0.14000000059604645]
+  Translate: [-43.5, 90.16999816894531, -11.200002670288086]
+- Gyaml: Area
+  Hash: !ul 2249015181427375060
+  Phive:
+    Placement: {ID: !ul 2249015181427375060}
+  Rotate: [0.0, -1.570796251296997, -3.141592502593994]
+  SRTHash: !u 0x507a3d7b
+  Scale: [9.0, 10.0, 7.5]
+  Translate: [-20.290000915527344, 95.0, -17.25]
+- Dynamic: {DefaultDungeonRoomIndex: 8}
+  Gyaml: Obj_Abyss_A_01
+  Hash: !ul 11125197970258156888
+  Phive:
+    Placement: {ID: !ul 11125197970258156888}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0xa3397953
+  Scale: [0.17999999225139618, 0.9940023422241211, 0.15000000596046448]
+  Translate: [-20.290000915527344, 90.15799713134766, -17.25]
+- Gyaml: Area
+  Hash: !ul 734819136168332225
+  Phive:
+    Placement: {ID: !ul 734819136168332225}
+  Rotate: [0.0, -1.570796251296997, -3.141592502593994]
+  SRTHash: !u 0xb509ba9a
+  Scale: [7.5, 10.0, 7.5]
+  Translate: [-21.5, 95.0, -34.29999923706055]
+- Dynamic: {DefaultDungeonRoomIndex: 8}
+  Gyaml: Obj_Abyss_A_01
+  Hash: !ul 16826594948087998674
+  Phive:
+    Placement: {ID: !ul 16826594948087998674}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0xd56d3569
+  Scale: [0.15000000596046448, 0.9994513392448425, 0.15000000596046448]
+  Translate: [-21.5, 90.25, -34.29999923706055]
+- Gyaml: Area
+  Hash: !ul 4153794706152716959
+  Phive:
+    Placement: {ID: !ul 4153794706152716959}
+  Rotate: [0.0, -1.570796251296997, -3.141592502593994]
+  SRTHash: !u 0xe8873821
+  Scale: [9.0, 10.0, 8.5]
+  Translate: [-47.0, 95.0, -30.8700008392334]
+- Dynamic: {DefaultDungeonRoomIndex: 8}
+  Gyaml: Obj_Abyss_A_01
+  Hash: !ul 9821135282770189060
+  Phive:
+    Placement: {ID: !ul 9821135282770189060}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x93feb9ee
+  Scale: [0.17999999225139618, 0.9969574809074402, 0.17000000178813934]
+  Translate: [-47.0, 90.2030029296875, -30.8700008392334]
+- Dynamic: {RequestEventName: IceCavern_Room06_SilverToken_Unlock}
+  Gyaml: EventRequestActor
+  Hash: !ul 17392729928915335548
+  Links:
+  - {Dst: !ul 6148355509540389547, Gyaml: Reference, Name: Reference, Src: !ul 17392729928915335548}
+  - {Dst: !ul 6874997892371023062, Gyaml: Reference, Name: Reference, Src: !ul 17392729928915335548}
+  - {Dst: !ul 7358957810395899450, Gyaml: Reference, Name: Reference, Src: !ul 17392729928915335548}
+  - {Dst: !ul 10169213272312887158, Gyaml: Reference, Name: Reference, Src: !ul 17392729928915335548}
+  - {Dst: !ul 7241953878866093533, Gyaml: Reference, Name: Reference, Src: !ul 17392729928915335548}
+  - {Dst: !ul 6554307454311215168, Gyaml: Reference, Name: Reference, Src: !ul 17392729928915335548}
+  - {Dst: !ul 9589276576518015200, Gyaml: Reference, Name: Reference, Src: !ul 17392729928915335548}
+  - {Dst: !ul 7824844424325034830, Gyaml: Reference, Name: Reference, Src: !ul 17392729928915335548}
+  - {Dst: !ul 14878708000988711847, Gyaml: Reference, Name: Reference, Src: !ul 17392729928915335548}
+  - {Dst: !ul 9380864357397957709, Gyaml: Reference, Name: Reference, Src: !ul 17392729928915335548}
+  Phive:
+    Placement: {ID: !ul 17392729928915335548}
+  SRTHash: !u 0xfa82c503
+  Translate: [-49.208866119384766, 107.34654235839844, -7.690995216369629]
+- Gyaml: DestinationAnchor
+  Hash: !ul 6148355509540389547
+  Name: TargetPoint1
+  Phive:
+    Placement: {ID: !ul 6148355509540389547}
+  Rotate: [3.1415927410125732, 0.057072073221206665, 3.1415927410125732]
+  SRTHash: !u 0x5a149d91
+  Translate: [-35.66817092895508, 105.92294311523438, -10.10276985168457]
+- Dynamic: {DefaultDungeonRoomIndex: 8}
+  Gyaml: Obj_SliderBox_A_01
+  Hash: !ul 12016193116493700167
+  Phive:
+    Placement: {ID: !ul 12016193116493700167}
+  SRTHash: !u 0x8cd0c628
+  Translate: [-26.0, 100.0, -27.139108657836914]
+- Gyaml: DungeonRoomArea
+  Hash: !ul 8684937983749141213
+  Phive:
+    Placement: {ID: !ul 8684937983749141213}
+  SRTHash: !u 0xf5022595
+  Scale: [4.0, 3.863250255584717, 1.0]
+  Translate: [-34.665000915527344, 104.05949401855469, -8.819999694824219]
+- Gyaml: DungeonRoomArea
+  Hash: !ul 14274504974530584510
+  Phive:
+    Placement: {ID: !ul 14274504974530584510}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x1e001b4b
+  Scale: [5.559653282165527, 2.992856502532959, 1.3367481231689453]
+  Translate: [-17.007970809936523, 100.13871765136719, -28.879972457885742]
+- Gyaml: Obj_BlueFire_A_01
+  Hash: !ul 1175203092964096670
+  Links:
+  - {Dst: !ul 1857685114163972105, Gyaml: Reference, Name: Reference, Src: !ul 1175203092964096670}
+  - {Dst: !ul 17649028038010534391, Gyaml: Reference, Name: Reference, Src: !ul 1175203092964096670}
+  - {Dst: !ul 17763604330402327559, Gyaml: Reference, Name: Reference, Src: !ul 1175203092964096670}
+  - {Dst: !ul 14154396335724229748, Gyaml: Reference, Name: Reference, Src: !ul 1175203092964096670}
+  - {Dst: !ul 1175203092964096670, Gyaml: Reference, Name: Reference, Src: !ul 1175203092964096670}
+  - {Dst: !ul 11600103901077307686, Gyaml: Reference, Name: Reference, Src: !ul 1175203092964096670}
+  - {Dst: !ul 5419296011977003761, Gyaml: Reference, Name: Reference, Src: !ul 1175203092964096670}
+  - {Dst: !ul 16561204256766362112, Gyaml: Reference, Name: Reference, Src: !ul 1175203092964096670}
+  Phive:
+    Placement: {ID: !ul 1175203092964096670}
+  Rotate: [0.0, 1.0471974611282349, 0.0]
+  SRTHash: !u 0xe70fc598
+  Translate: [-53.965206146240234, 104.37999725341797, -20.902442932128906]
+- Gyaml: DestinationAnchor
+  Hash: !ul 1857685114163972105
+  Name: '0'
+  Phive:
+    Placement: {ID: !ul 1857685114163972105}
+  SRTHash: !u 0x4cd35543
+  Translate: [-54.406532287597656, 104.80097961425781, -20.12355613708496]
+- Gyaml: DestinationAnchor
+  Hash: !ul 17649028038010534391
+  Name: '1'
+  Phive:
+    Placement: {ID: !ul 17649028038010534391}
+  SRTHash: !u 0xe2b26ecb
+  Translate: [-53.42231750488281, 105.08341217041016, -19.852550506591797]
+- Gyaml: DestinationAnchor
+  Hash: !ul 17763604330402327559
+  Name: '2'
+  Phive:
+    Placement: {ID: !ul 17763604330402327559}
+  SRTHash: !u 0xc25be435
+  Translate: [-53.23644256591797, 105.04503631591797, -21.355602264404297]
+- Gyaml: DestinationAnchor
+  Hash: !ul 14154396335724229748
+  Name: '3'
+  Phive:
+    Placement: {ID: !ul 14154396335724229748}
+  SRTHash: !u 0x21c57626
+  Translate: [-54.6087646484375, 104.86459350585938, -21.265235900878906]
+- Gyaml: DestinationAnchor
+  Hash: !ul 5419296011977003761
+  Name: '5'
+  Phive:
+    Placement: {ID: !ul 5419296011977003761}
+  SRTHash: !u 0x4911de69
+  Translate: [-54.133262634277344, 105.34381866455078, -21.460403442382812]
+- Gyaml: DestinationAnchor
+  Hash: !ul 11600103901077307686
+  Name: '4'
+  Phive:
+    Placement: {ID: !ul 11600103901077307686}
+  SRTHash: !u 0x00dd03c3
+  Translate: [-54.15974807739258, 105.08039855957031, -20.351131439208984]
+- Gyaml: DestinationAnchor
+  Hash: !ul 16561204256766362112
+  Name: '6'
+  Phive:
+    Placement: {ID: !ul 16561204256766362112}
+  SRTHash: !u 0x7eb0a1f9
+  Translate: [-53.812232971191406, 106.03706359863281, -20.88237762451172]
+- Dynamic: {DefaultDungeonRoomIndex: 8}
+  Gyaml: Enemy_Skulltula_Gold
+  Hash: !ul 14822647495538506998
+  Phive:
+    Placement: {ID: !ul 14822647495538506998}
+  Rotate: [1.2660274505615234, -1.4729009866714478, 0.8077102303504944]
+  SRTHash: !u 0x1076f5fa
+  Translate: [-18.1279239654541, 108.6768569946289, -16.56170654296875]
+- Bakeable: true
+  Gyaml: Land_SkulltulaGold_SpiderWeb_A_01
+  Hash: !ul 8046019389425829145
+  Phive:
+    Placement: {ID: !ul 8046019389425829145}
+  Rotate: [1.2660274505615234, -1.4729009866714478, 0.8077102303504944]
+  SRTHash: !u 0xdd38451d
+  Translate: [-17.86271858215332, 108.8246841430664, -16.518272399902344]
+- Bakeable: true
+  Dynamic: {DefaultDungeonRoomIndex: 8}
+  Gyaml: Obj_SongOfTimeBlock_A_01
+  Hash: !ul 7387093753918398613
+  Links:
+  - {Dst: !ul 3386770102738146980, Gyaml: Reference, Name: Reference, Src: !ul 7387093753918398613}
+  Phive:
+    Placement: {ID: !ul 7387093753918398613}
+  SRTHash: !u 0x5584604b
+  Translate: [-49.98616027832031, 104.05857849121094, -24.72239875793457]
+- Bakeable: true
+  Dynamic: {DefaultDungeonRoomIndex: 8}
+  Gyaml: Obj_SongOfTimeBlock_A_01
+  Hash: !ul 2867135263981799357
+  Links:
+  - {Dst: !ul 3386770102738146980, Gyaml: Reference, Name: Reference, Src: !ul 2867135263981799357}
+  Phive:
+    Placement: {ID: !ul 2867135263981799357}
+  SRTHash: !u 0x888c2111
+  Translate: [-49.98616027832031, 104.05857849121094, -27.22239875793457]
+- Bakeable: true
+  Dynamic: {DefaultDungeonRoomIndex: 8}
+  Gyaml: Obj_SongOfTimeBlock_A_01
+  Hash: !ul 15032883683184642823
+  Links:
+  - {Dst: !ul 9737358720946733051, Gyaml: Reference, Name: Reference, Src: !ul 15032883683184642823}
+  Phive:
+    Placement: {ID: !ul 15032883683184642823}
+  SRTHash: !u 0x0def4d73
+  Translate: [-49.98616027832031, 104.05857849121094, -29.72239875793457]
+- Bakeable: true
+  Dynamic: {DefaultDungeonRoomIndex: 8, isDefaultActive: false, isSaveGameData: true}
+  Gyaml: Obj_SongOfTimeSign_A_01
+  Hash: !ul 10005195530866645031
+  Links:
+  - {Dst: !ul 7387093753918398613, Gyaml: Reference, Name: Reference, Src: !ul 10005195530866645031}
+  - {Dst: !ul 2867135263981799357, Gyaml: Reference, Name: Reference, Src: !ul 10005195530866645031}
+  - {Dst: !ul 15032883683184642823, Gyaml: Reference, Name: Reference, Src: !ul 10005195530866645031}
+  Phive:
+    Placement: {ID: !ul 10005195530866645031}
+  Rotate: [1.589906096458435, 0.0002720635966397822, 0.0]
+  SRTHash: !u 0xce7e3e74
+  Translate: [-49.98615646362305, 105.30857849121094, -31.075647354125977]
+- Gyaml: DestinationAnchor
+  Hash: !ul 11968610717389303590
+  Phive:
+    Placement: {ID: !ul 11968610717389303590}
+  Rotate: [-0.3337750732898712, 1.0106525421142578, 0.0]
+  SRTHash: !u 0xb6096dfe
+  Translate: [-45.41391372680664, 107.64175415039062, -23.913175582885742]
+- Gyaml: EventProxyRequestActor
+  Hash: !ul 15433332054602472874
+  Links:
+  - {Dst: !ul 10005195530866645031, Gyaml: EventProxyRequestLink, Name: EventProxyRequestLink,
+    Src: !ul 15433332054602472874}
+  - {Dst: !ul 7387093753918398613, Gyaml: EventProxyRequestLink, Name: EventProxyRequestLink,
+    Src: !ul 15433332054602472874}
+  - {Dst: !ul 2867135263981799357, Gyaml: EventProxyRequestLink, Name: EventProxyRequestLink,
+    Src: !ul 15433332054602472874}
+  - {Dst: !ul 15032883683184642823, Gyaml: EventProxyRequestLink, Name: EventProxyRequestLink,
+    Src: !ul 15433332054602472874}
+  - {Dst: !ul 11968610717389303590, Gyaml: Reference, Name: Reference, Src: !ul 15433332054602472874}
+  - {Dst: !ul 7387093753918398613, Gyaml: Reference, Name: Reference, Src: !ul 15433332054602472874}
+  - {Dst: !ul 2867135263981799357, Gyaml: Reference, Name: Reference, Src: !ul 15433332054602472874}
+  - {Dst: !ul 15032883683184642823, Gyaml: Reference, Name: Reference, Src: !ul 15433332054602472874}
+  - {Dst: !ul 10005195530866645031, Gyaml: Reference, Name: Reference, Src: !ul 15433332054602472874}
+  Phive:
+    Placement: {ID: !ul 15433332054602472874}
+  SRTHash: !u 0x5932254b
+  Translate: [-42.75, 107.25, -18.625]
+- Gyaml: DestinationAnchor
+  Hash: !ul 3386770102738146980
+  Phive:
+    Placement: {ID: !ul 3386770102738146980}
+  Rotate: [3.1415927410125732, -0.011808784678578377, 3.1415927410125732]
+  SRTHash: !u 0x072fde90
+  Translate: [-50.059532165527344, 104.05895233154297, -21.003801345825195]
+- Gyaml: DungeonRoomCenterAnchor
+  Hash: !ul 12548908281930120924
+  Phive:
+    Placement: {ID: !ul 12548908281930120924}
+  SRTHash: !u 0xa140c88b
+  Translate: [-32.06316375732422, 100.0, -20.411375045776367]
+- Dynamic: {RigidBodyShapeType: 0}
+  Gyaml: Area
+  Hash: !ul 15192507475453581300
+  Phive:
+    Placement: {ID: !ul 15192507475453581300}
+  SRTHash: !u 0xdc6400a2
+  Scale: [10.0, 10.0, 10.0]
+  Translate: [-46.29875183105469, 95.30899810791016, -27.198999404907227]
+- Gyaml: Area
+  Hash: !ul 15340218311375425750
+  Phive:
+    Placement: {ID: !ul 15340218311375425750}
+  SRTHash: !u 0xaf074c0c
+  Scale: [7.0025835037231445, 3.6109867095947266, 8.647860527038574]
+  Translate: [-24.075138092041016, 99.48115539550781, -29.066394805908203]
+- Dynamic: {RequestEventName: IceCavern_Room06_SilverToken_Appear}
+  Gyaml: EventRequestActor
+  Hash: !ul 4414708903701805042
+  Links:
+  - {Dst: !ul 6148355509540389547, Gyaml: Reference, Name: Reference, Src: !ul 4414708903701805042}
+  - {Dst: !ul 10169213272312887158, Gyaml: Reference, Name: Reference, Src: !ul 4414708903701805042}
+  - {Dst: !ul 7358957810395899450, Gyaml: Reference, Name: Reference, Src: !ul 4414708903701805042}
+  - {Dst: !ul 6874997892371023062, Gyaml: Reference, Name: Reference, Src: !ul 4414708903701805042}
+  - {Dst: !ul 6554307454311215168, Gyaml: Reference, Name: Reference, Src: !ul 4414708903701805042}
+  - {Dst: !ul 7241953878866093533, Gyaml: Reference, Name: Reference, Src: !ul 4414708903701805042}
+  - {Dst: !ul 9589276576518015200, Gyaml: Reference, Name: Reference, Src: !ul 4414708903701805042}
+  Phive:
+    Placement: {ID: !ul 4414708903701805042}
+  SRTHash: !u 0xc37287ab
+  Translate: [-49.070404052734375, 112.9752197265625, -8.542961120605469]
+- Dynamic: {DefaultDungeonRoomIndex: 8}
+  Gyaml: Obj_silverRupeeCounter_05
+  Hash: !ul 9589276576518015200
+  Links:
+  - {Dst: !ul 6874997892371023062, Gyaml: Reference, Name: Reference, Src: !ul 9589276576518015200}
+  - {Dst: !ul 7358957810395899450, Gyaml: Reference, Name: Reference, Src: !ul 9589276576518015200}
+  - {Dst: !ul 10169213272312887158, Gyaml: Reference, Name: Reference, Src: !ul 9589276576518015200}
+  - {Dst: !ul 7241953878866093533, Gyaml: Reference, Name: Reference, Src: !ul 9589276576518015200}
+  - {Dst: !ul 6554307454311215168, Gyaml: Reference, Name: Reference, Src: !ul 9589276576518015200}
+  Phive:
+    Placement: {ID: !ul 9589276576518015200}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xa0035afb
+  Translate: [-35.69109344482422, 104.15946197509766, -8.419768333435059]
+- Dynamic: {DefaultDungeonRoomIndex: 8}
+  Gyaml: Obj_RupeeToken_Silver
+  Hash: !ul 6874997892371023062
+  Phive:
+    Placement: {ID: !ul 6874997892371023062}
+  SRTHash: !u 0x58e81d1a
+  Translate: [-26.5, 104.0, -16.25]
+- Dynamic: {DefaultDungeonRoomIndex: 8}
+  Gyaml: Obj_RupeeToken_Silver
+  Hash: !ul 7241953878866093533
+  Phive:
+    Placement: {ID: !ul 7241953878866093533}
+  SRTHash: !u 0x5195e5b4
+  Translate: [-39.0, 101.05949401855469, -28.149999618530273]
+- Dynamic: {DefaultDungeonRoomIndex: 8}
+  Gyaml: Obj_RupeeToken_Silver
+  Hash: !ul 7358957810395899450
+  Phive:
+    Placement: {ID: !ul 7358957810395899450}
+  SRTHash: !u 0x427a1ac9
+  Translate: [-42.0, 104.0, -18.0]
+- Dynamic: {DefaultDungeonRoomIndex: 8}
+  Gyaml: Obj_RupeeToken_Silver
+  Hash: !ul 10169213272312887158
+  Phive:
+    Placement: {ID: !ul 10169213272312887158}
+  SRTHash: !u 0x2e693e63
+  Translate: [-33.60000228881836, 104.0, -26.850000381469727]
+- Dynamic: {DefaultDungeonRoomIndex: 8}
+  Gyaml: Obj_RupeeToken_Silver
+  Hash: !ul 6554307454311215168
+  Phive:
+    Placement: {ID: !ul 6554307454311215168}
+  SRTHash: !u 0xc3ec5f41
+  Translate: [-28.163694381713867, 104.68456268310547, -42.548789978027344]
+- Gyaml: Area
+  Hash: !ul 16712617196303220870
+  Phive:
+    Placement: {ID: !ul 16712617196303220870}
+  Rotate: [0.0023036026395857334, -0.0, -0.003921442199498415]
+  SRTHash: !u 0x08594869
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [-53.49998474121094, 107.00392150878906, -33.810001373291016]
+- Gyaml: Area
+  Hash: !ul 6482697601949025693
+  Phive:
+    Placement: {ID: !ul 6482697601949025693}
+  Rotate: [0.0023036026395857334, -0.0, -0.003921442199498415]
+  SRTHash: !u 0xc9b3ac22
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [-49.5, 107.00392150878906, -35.279998779296875]
+- Gyaml: Area
+  Hash: !ul 12597549401391562879
+  Phive:
+    Placement: {ID: !ul 12597549401391562879}
+  Rotate: [-0.0037369546480476856, -0.0, 0.029148772358894348]
+  SRTHash: !u 0x22705c15
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [-53.5, 104.5, -21.06999969482422]
+- Gyaml: FldObj_AirWall_Player_Unridable
+  Hash: !ul 17395497836786963999
+  Phive:
+    Placement: {ID: !ul 17395497836786963999}
+  Rotate: [4.781460916092328e-07, 0.3490656912326813, 4.687647674472828e-07]
+  SRTHash: !u 0x6b49c76f
+  Translate: [-29.187519073486328, 104.0, -43.04961395263672]
+- Gyaml: FldObj_AirWall_Player_Unridable
+  Hash: !ul 10726945289617962774
+  Phive:
+    Placement: {ID: !ul 10726945289617962774}
+  Rotate: [6.874380460430984e-07, 0.698131799697876, 5.750250693381531e-07]
+  SRTHash: !u 0xf9785c63
+  Translate: [-25.240076065063477, 104.0, -43.26255798339844]
+- Bakeable: true
+  Dynamic: {DefaultDungeonRoomIndex: 8}
+  Gyaml: Obj_RedIce_A_09
+  Hash: !ul 12153144952635432432
+  Phive:
+    Placement: {ID: !ul 12153144952635432432}
+  Rotate: [0.05329519137740135, 0.08504648506641388, 0.006937630940228701]
+  SRTHash: !u 0x59cb3a64
+  Translate: [-28.184667587280273, 103.8871078491211, -40.77065658569336]
+- Gyaml: Area
+  Hash: !ul 7122406090280745646
+  Phive:
+    Placement: {ID: !ul 7122406090280745646}
+  SRTHash: !u 0x4df3b8c8
+  Translate: [-26.0, 100.0, -17.756614685058594]
+- Gyaml: Area
+  Hash: !ul 3801409472098678257
+  Phive:
+    Placement: {ID: !ul 3801409472098678257}
+  SRTHash: !u 0x5789a712
+  Scale: [2.0, 2.0, 2.0]
+  Translate: [-35.6725959777832, 104.05949401855469, -8.00246810913086]
+- Gyaml: Area
+  Hash: !ul 1389017483214612822
+  Phive:
+    Placement: {ID: !ul 1389017483214612822}
+  SRTHash: !u 0x227b7415
+  Translate: [-31.953880310058594, 100.0, -26.87539291381836]
+- Gyaml: Area
+  Hash: !ul 15248716932228560311
+  Phive:
+    Placement: {ID: !ul 15248716932228560311}
+  SRTHash: !u 0x2dc68ed8
+  Translate: [-26.133216857910156, 100.0, -31.785133361816406]
+- Gyaml: Area
+  Hash: !ul 18342353007178806857
+  Phive:
+    Placement: {ID: !ul 18342353007178806857}
+  SRTHash: !u 0xbc3415a2
+  Translate: [-19.769086837768555, 100.0, -27.11980438232422]
+- Gyaml: DestinationAnchor
+  Hash: !ul 7824844424325034830
+  Name: ViewPoint1
+  Phive:
+    Placement: {ID: !ul 7824844424325034830}
+  Rotate: [0.0, 0.04153040423989296, 0.0]
+  SRTHash: !u 0xa39bd53f
+  Translate: [-26.87403106689453, 106.13626098632812, -44.20062255859375]
+- Gyaml: DestinationAnchor
+  Hash: !ul 14878708000988711847
+  Name: TargetPoint2
+  Phive:
+    Placement: {ID: !ul 14878708000988711847}
+  Rotate: [3.1415927410125732, 0.09323206543922424, 3.1415927410125732]
+  SRTHash: !u 0xbfe5bcc1
+  Translate: [-28.905981063842773, 103.94564056396484, -36.923789978027344]
+- Gyaml: DestinationAnchor
+  Hash: !ul 9380864357397957709
+  Name: WalkPoint
+  Phive:
+    Placement: {ID: !ul 9380864357397957709}
+  Rotate: [0.0015920145669952035, 0.04153040051460266, -0.0003939337329939008]
+  SRTHash: !u 0x8fe3b9b1
+  Translate: [-28.402284622192383, 104.02134704589844, -41.776695251464844]
+- Dynamic: {InvalidSlopeCliffLatInterpolate: true}
+  Gyaml: CameraChangeAreaBox
+  Hash: !ul 3979616000341716001
+  Phive:
+    Placement: {ID: !ul 3979616000341716001}
+  SRTHash: !u 0x4580e242
+  Scale: [3.586578369140625, 1.6385574340820312, 5.575773239135742]
+  Translate: [-49.93126678466797, 103.73954772949219, -21.277393341064453]
+- Gyaml: Area
+  Hash: !ul 17733143943330305095
+  Phive:
+    Placement: {ID: !ul 17733143943330305095}
+  SRTHash: !u 0xc9c47621
+  Scale: [1.0847816467285156, 1.0, 1.0]
+  Translate: [-35.75431442260742, 100.00499725341797, -11.108736038208008]
+- Gyaml: FldObj_AirWall_Player_GenerateNavMesh
+  Hash: !ul 3023276641175087844
+  Phive:
+    Placement: {ID: !ul 3023276641175087844}
+  SRTHash: !u 0x5a3fd66d
+  Scale: [1.1351563930511475, 1.2047066688537598, 0.5991687774658203]
+  Translate: [-35.60614013671875, 103.86860656738281, -9.012523651123047]
+- Gyaml: Area
+  Hash: !ul 17684557679787955023
+  Phive:
+    Placement: {ID: !ul 17684557679787955023}
+  SRTHash: !u 0x461b2b24
+  Scale: [2.0, 2.0, 1.5054841041564941]
+  Translate: [-35.6725959777832, 104.05949401855469, -6.943556785583496]
+- Gyaml: DestinationAnchor
+  Hash: !ul 9737358720946733051
+  Phive:
+    Placement: {ID: !ul 9737358720946733051}
+  Rotate: [1.5099580252808664e-07, 0.011815937235951424, 1.5099580252808664e-07]
+  SRTHash: !u 0x3aa4d4f4
+  Translate: [-49.986000061035156, 106.5999984741211, -31.699569702148438]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 16575753449468057955
+  Phive:
+    Placement: {ID: !ul 16575753449468057955}
+  SRTHash: !u 0x987e61e2
+  Scale: [6.0, 1.0, 6.0]
+  Translate: [17.25682830810547, 101.5900650024414, 79.33911895751953]
+- Dynamic: {DefaultDungeonRoomIndex: 0}
+  Gyaml: Obj_FallingIcicle_A_01
+  Hash: !ul 4466114351986683199
+  Phive:
+    Placement: {ID: !ul 4466114351986683199}
+  SRTHash: !u 0x03d72b63
+  Translate: [12.528810501098633, 109.02619934082031, 72.97563171386719]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 13841323250724418681
+  Phive:
+    Placement: {ID: !ul 13841323250724418681}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x8059f54e
+  Scale: [6.0, 1.0, 6.0]
+  Translate: [7.437335968017578, 99.66072082519531, 71.19416046142578]
+- Dynamic: {DefaultDungeonRoomIndex: 0}
+  Gyaml: Obj_FallingIcicle_A_02
+  Hash: !ul 12989490724736996864
+  Phive:
+    Placement: {ID: !ul 12989490724736996864}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x4275497c
+  Translate: [3.0442416667938232, 107.3192367553711, 67.47993469238281]
+- Bakeable: true
+  Dynamic: {DefaultDungeonRoomIndex: 0}
+  Gyaml: Obj_RedIce_A_01
+  Hash: !ul 16919949776496418098
+  Links:
+  - {Dst: !ul 13545259034644162992, Gyaml: FrozenInIce, Name: FrozenInIce, Src: !ul 16919949776496418098}
+  Phive:
+    Placement: {ID: !ul 16919949776496418098}
+  Rotate: [0.0, -1.5567302703857422, 0.0]
+  SRTHash: !u 0xe2786167
+  Translate: [-2.04650616645813, 99.71720886230469, 65.7991943359375]
+- Gyaml: DungeonRoomArea
+  Hash: !ul 4062908956644107976
+  Phive:
+    Placement: {ID: !ul 4062908956644107976}
+  SRTHash: !u 0x7e2e9630
+  Scale: [4.872426986694336, 5.856282711029053, 8.289043426513672]
+  Translate: [16.64266014099121, 100.4339370727539, 104.53572845458984]
+- Gyaml: DungeonRoomArea
+  Hash: !ul 4569669338772768966
+  Phive:
+    Placement: {ID: !ul 4569669338772768966}
+  SRTHash: !u 0x7898f5bb
+  Scale: [7.820777416229248, 3.6845815181732178, 1.4755735397338867]
+  Translate: [-0.2900899648666382, 99.75831604003906, 46.80763626098633]
+- Gyaml: DestinationAnchor
+  Hash: !ul 3879227983124601012
+  Name: FieldDungeonEntranceGo
+  Phive:
+    Placement: {ID: !ul 3879227983124601012}
+  SRTHash: !u 0x89dd95a5
+  Translate: [16.5, 102.30707550048828, 114.66000366210938]
+- Gyaml: Area
+  Hash: !ul 10788019594209586225
+  Phive:
+    Placement: {ID: !ul 10788019594209586225}
+  Rotate: [3.1415927410125732, -3.89414338997085e-07, 3.1415927410125732]
+  SRTHash: !u 0x1ae4dd2f
+  Scale: [10.0, 10.0, 10.0]
+  Translate: [16.71684455871582, 101.4339370727539, 115.1500015258789]
+- Dynamic: {FirstEventName: Dm_SY_BancChangeGo_ZoraFountain, NextBancParamNameAdult: ZoraFountain_Adult,
+    NextBancParamNameChild: ZoraFountain_Child, NextEventName: Dm_SY_BancChangeArrive_IceCaven_02,
+    NextStartPosName: ZoraFountain_FromIceCavern}
+  Gyaml: FieldAndDungeonEntranceEventRequestActor
+  Hash: !ul 4069798734802445712
+  Links:
+  - {Dst: !ul 3879227983124601012, Gyaml: Reference, Name: Reference, Src: !ul 4069798734802445712}
+  - {Dst: !ul 12334114966075499530, Gyaml: Reference, Name: Reference, Src: !ul 4069798734802445712}
+  Name: IceCavern_FromZoraFountain
+  Phive:
+    Placement: {ID: !ul 4069798734802445712}
+  Rotate: [3.1415927410125732, -3.8941436741879443e-07, 3.1415927410125732]
+  SRTHash: !u 0xf8f8ca44
+  Translate: [16.71684455871582, 114.4339370727539, 89.98693084716797]
+- Gyaml: ChangeBancBeforehandAnchor
+  Hash: !ul 15728806554850576239
+  Links:
+  - {Dst: !ul 4069798734802445712, Gyaml: Reference, Name: Reference, Src: !ul 15728806554850576239}
+  Name: 先読みの基準座標となるアンカー
+  Phive:
+    Placement: {ID: !ul 15728806554850576239}
+  Rotate: [3.1415927410125732, -3.8941436741879443e-07, 3.1415927410125732]
+  SRTHash: !u 0x219da23b
+  Translate: [13.83130168914795, 102.67127227783203, 87.2459945678711]
+- Gyaml: DestinationAnchor
+  Hash: !ul 12334114966075499530
+  Name: HorsePos
+  Phive:
+    Placement: {ID: !ul 12334114966075499530}
+  Rotate: [3.1415927410125732, -3.8941436741879443e-07, 3.1415927410125732]
+  SRTHash: !u 0x3b19511a
+  Translate: [16.716842651367188, 102.4339370727539, 104.25276184082031]
+- Gyaml: ForbiddenCreateDropArea
+  Hash: !ul 1728138385841470710
+  Phive:
+    Placement: {ID: !ul 1728138385841470710}
+  Rotate: [-3.141592502593994, -3.89414338997085e-07, -3.141592502593994]
+  SRTHash: !u 0x143e15c0
+  Scale: [20.0, 20.0, 20.0]
+  Translate: [16.71684455871582, 111.4339370727539, 115.1500015258789]
+- Gyaml: DungeonRoomCenterAnchor
+  Hash: !ul 18199595481145527782
+  Phive:
+    Placement: {ID: !ul 18199595481145527782}
+  SRTHash: !u 0xaf93e970
+  Translate: [17.342790603637695, 102.30471801757812, 79.76934051513672]
+- Gyaml: Area
+  Hash: !ul 16766821276481305585
+  Phive:
+    Placement: {ID: !ul 16766821276481305585}
+  Rotate: [0.0, 0.8726646304130554, 0.0]
+  SRTHash: !u 0x4500f7bb
+  Scale: [3.0, 3.0, 3.0]
+  Translate: [0.03069162368774414, 98.96015930175781, 68.36406707763672]
+- Dynamic: {DefaultDungeonRoomIndex: 0, Drop__DropActor: Obj_MagicJar_Small}
+  Gyaml: Obj_Pot_A_04
+  Hash: !ul 13545259034644162992
+  Phive:
+    Placement: {ID: !ul 13545259034644162992}
+  SRTHash: !u 0xf8c79f37
+  Translate: [-2.0946502685546875, 99.72386932373047, 65.8297348022461]
+- Gyaml: Area
+  Hash: !ul 3167439866722416657
+  Phive:
+    Placement: {ID: !ul 3167439866722416657}
+  Rotate: [0.0, 0.7315347194671631, 0.0]
+  SRTHash: !u 0x70752feb
+  Scale: [7.185647964477539, 3.869232177734375, 12.793435096740723]
+  Translate: [10.51394271850586, 99.7032470703125, 74.19857788085938]
+- Dynamic: {RequestEventName: IceCavern_Room01_DefeatEnemy}
+  Gyaml: EventRequestActor
+  Hash: !ul 15050224037407511147
+  Links:
+  - {Dst: !ul 15865407262894612038, Gyaml: Reference, Name: Reference, Src: !ul 15050224037407511147}
+  - {Dst: !ul 13930176761513686547, Gyaml: Reference, Name: Reference, Src: !ul 15050224037407511147}
+  Phive:
+    Placement: {ID: !ul 15050224037407511147}
+  SRTHash: !u 0x524d5446
+  Translate: [-5.794003009796143, 109.5, 26.25]
+- Gyaml: DestinationAnchor
+  Hash: !ul 15865407262894612038
+  Phive:
+    Placement: {ID: !ul 15865407262894612038}
+  SRTHash: !u 0x0a643193
+  Translate: [-0.02009439468383789, 101.65618896484375, 23.119731903076172]
+- Dynamic: {DefaultDungeonRoomIndex: 1, Drop__DropTable: None}
+  Gyaml: Enemy_Freezard_Fixed
+  Hash: !ul 4350068369424404996
+  Phive:
+    Placement: {ID: !ul 4350068369424404996}
+  Rotate: [0.0, -0.36049211025238037, 0.0]
+  SRTHash: !u 0x7dad3692
+  Translate: [0.018844813108444214, 99.72000122070312, 25.22197914123535]
+- Dynamic: {DefaultDungeonRoomIndex: 1, Drop__DropTable: None}
+  Gyaml: Enemy_Freezard_Fixed
+  Hash: !ul 9123353740107412760
+  Phive:
+    Placement: {ID: !ul 9123353740107412760}
+  Rotate: [0.0, -0.1356300711631775, 0.0]
+  SRTHash: !u 0x58db5070
+  Translate: [3.3086843490600586, 99.72026062011719, 40.54769515991211]
+- Dynamic: {DefaultDungeonRoomIndex: 1, Drop__DropTable: None}
+  Gyaml: Enemy_Freezard_Fixed
+  Hash: !ul 977775272737165598
+  Phive:
+    Placement: {ID: !ul 977775272737165598}
+  Rotate: [0.0, 0.6017650365829468, 0.0]
+  SRTHash: !u 0xfdf9e170
+  Translate: [-5.549472332000732, 99.72000122070312, 30.258604049682617]
+- Bakeable: true
+  Dynamic: {DefaultDungeonRoomIndex: 1}
+  Gyaml: Obj_RedIce_A_01
+  Hash: !ul 11834825470400057740
+  Links:
+  - {Dst: !ul 6330430963809465220, Gyaml: FrozenInIce, Name: FrozenInIce, Src: !ul 11834825470400057740}
+  Phive:
+    Placement: {ID: !ul 11834825470400057740}
+  Presence: {FlagName: IceCavern_Room01_BlueRupeePot_IsCrushed, IsCheckLazy: true,
+    IsNegation: true}
+  SRTHash: !u 0xbf246403
+  Translate: [-6.9710187911987305, 99.75, 39.19367599487305]
+- Bakeable: true
+  Dynamic: {DefaultDungeonRoomIndex: 1}
+  Gyaml: Obj_RedIce_A_01
+  Hash: !ul 6768917453344093312
+  Links:
+  - {Dst: !ul 15712947819189423505, Gyaml: FrozenInIce, Name: FrozenInIce, Src: !ul 6768917453344093312}
+  Phive:
+    Placement: {ID: !ul 6768917453344093312}
+  Rotate: [0.0, -0.8435349464416504, 0.0]
+  SRTHash: !u 0xa87d0173
+  Translate: [5.2474493980407715, 99.71499633789062, 25.310331344604492]
+- Gyaml: DungeonRoomArea
+  Hash: !ul 10183935273980528705
+  Phive:
+    Placement: {ID: !ul 10183935273980528705}
+  SRTHash: !u 0xfbd67187
+  Scale: [7.856962203979492, 3.341376781463623, 0.7520675659179688]
+  Translate: [1.026259422302246, 99.75, 45.50323486328125]
+- Gyaml: DungeonRoomArea
+  Hash: !ul 3391806285355866473
+  Phive:
+    Placement: {ID: !ul 3391806285355866473}
+  SRTHash: !u 0x02533a8c
+  Scale: [4.0, 2.992856502532959, 1.0]
+  Translate: [-0.034088134765625, 99.75, 22.677478790283203]
+- Dynamic: {DefaultDungeonRoomIndex: 2, IsSkipClose: true}
+  Gyaml: Obj_EnemyCounter_A_06
+  Hash: !ul 13930176761513686547
+  Links:
+  - {Dst: !ul 9123353740107412760, Gyaml: Reference, Name: Reference, Src: !ul 13930176761513686547}
+  - {Dst: !ul 4350068369424404996, Gyaml: Reference, Name: Reference, Src: !ul 13930176761513686547}
+  - {Dst: !ul 977775272737165598, Gyaml: Reference, Name: Reference, Src: !ul 13930176761513686547}
+  Phive:
+    Placement: {ID: !ul 13930176761513686547}
+  SRTHash: !u 0x4a372663
+  Translate: [0.0, 99.69999694824219, 21.700000762939453]
+- Gyaml: DungeonRoomCenterAnchor
+  Hash: !ul 4665080770465038645
+  Phive:
+    Placement: {ID: !ul 4665080770465038645}
+  SRTHash: !u 0xd1979859
+  Translate: [0.0, 99.75, 35.910377502441406]
+- Dynamic: {DefaultDungeonRoomIndex: 1}
+  Gyaml: Obj_MoveSpike_A_01
+  Hash: !ul 8785893478841699627
+  Phive:
+    Placement: {ID: !ul 8785893478841699627}
+  Rails:
+  - {Dst: !ul 12296720220118864228, Gyaml: Reference, Name: Reference}
+  SRTHash: !u 0xd9495b35
+  Translate: [6.687636375427246, 99.75, 28.076549530029297]
+- Dynamic: {DefaultDungeonRoomIndex: 1, Drop__DropActor: Obj_Fairy}
+  Gyaml: Obj_Pot_A_04
+  Hash: !ul 6330430963809465220
+  Phive:
+    Placement: {ID: !ul 6330430963809465220}
+  Presence: {FlagName: IceCavern_Room01_BlueRupeePot_IsCrushed, IsCheckLazy: true,
+    IsNegation: true}
+  SRTHash: !u 0xbebb6c18
+  Translate: [-7.077475070953369, 99.7300033569336, 39.14578628540039]
+- Gyaml: Area
+  Hash: !ul 10657817492995254673
+  Phive:
+    Placement: {ID: !ul 10657817492995254673}
+  SRTHash: !u 0x67905455
+  Scale: [5.0, 4.5, 1.0]
+  Translate: [0.039185523986816406, 98.7666244506836, 20.84653091430664]
+- Dynamic: {DefaultDungeonRoomIndex: 1}
+  Gyaml: Obj_MoveSpike_A_01
+  Hash: !ul 591935540700893727
+  Phive:
+    Placement: {ID: !ul 591935540700893727}
+  Rails:
+  - {Dst: !ul 4767033047892368117, Gyaml: Reference, Name: Reference}
+  SRTHash: !u 0xaa0527ee
+  Translate: [-7.08233642578125, 99.75, 35.245941162109375]
+- Dynamic: {DefaultDungeonRoomIndex: 1, Drop__DropActor: Obj_Rupee_Red}
+  Gyaml: Obj_Pot_A_04
+  Hash: !ul 15712947819189423505
+  Phive:
+    Placement: {ID: !ul 15712947819189423505}
+  SRTHash: !u 0x743fa101
+  Translate: [5.039221286773682, 99.72540283203125, 25.22828483581543]
+- Gyaml: Area
+  Hash: !ul 4016085751206990302
+  Phive:
+    Placement: {ID: !ul 4016085751206990302}
+  SRTHash: !u 0xe324719c
+  Scale: [8.801152229309082, 5.07265567779541, 29.309932708740234]
+  Translate: [15.093931198120117, 99.27015686035156, 95.2125244140625]
+- Gyaml: Area
+  Hash: !ul 15549293104904026493
+  Phive:
+    Placement: {ID: !ul 15549293104904026493}
+  SRTHash: !u 0xd37c0a9f
+  Scale: [8.161141395568848, 2.0, 0.9570770263671875]
+  Translate: [-0.5085935592651367, 99.72026062011719, 28.124980926513672]
+- Gyaml: Area
+  Hash: !ul 12059961990812375872
+  Phive:
+    Placement: {ID: !ul 12059961990812375872}
+  SRTHash: !u 0x42d71b3c
+  Scale: [8.161141395568848, 2.0, 0.9570770263671875]
+  Translate: [-0.5085935592651367, 99.72026062011719, 35.187103271484375]
+- Gyaml: DestinationAnchor
+  Hash: !ul 10304411466031109600
+  Name: TargetPoint
+  Phive:
+    Placement: {ID: !ul 10304411466031109600}
+  SRTHash: !u 0xfe251740
+  Translate: [8.800000190734863, 106.5118179321289, -21.668153762817383]
+- Dynamic: {RequestEventName: IceCavern_Room05_SilverToken_Unlock}
+  Gyaml: EventRequestActor
+  Hash: !ul 18304931574222247223
+  Links:
+  - {Dst: !ul 10304411466031109600, Gyaml: Reference, Name: Reference, Src: !ul 18304931574222247223}
+  - {Dst: !ul 3247210302672998706, Gyaml: Reference, Name: Reference, Src: !ul 18304931574222247223}
+  - {Dst: !ul 13864016966418971913, Gyaml: Reference, Name: Reference, Src: !ul 18304931574222247223}
+  - {Dst: !ul 12012255417149986652, Gyaml: Reference, Name: Reference, Src: !ul 18304931574222247223}
+  - {Dst: !ul 18421279879242817175, Gyaml: Reference, Name: Reference, Src: !ul 18304931574222247223}
+  - {Dst: !ul 8517392616992133533, Gyaml: Reference, Name: Reference, Src: !ul 18304931574222247223}
+  - {Dst: !ul 12613027945768783129, Gyaml: Reference, Name: Reference, Src: !ul 18304931574222247223}
+  - {Dst: !ul 5188278409932697368, Gyaml: Reference, Name: Reference, Src: !ul 18304931574222247223}
+  - {Dst: !ul 11639269698118177806, Gyaml: Reference, Name: Reference, Src: !ul 18304931574222247223}
+  - {Dst: !ul 13118820033887319835, Gyaml: Reference, Name: Reference, Src: !ul 18304931574222247223}
+  Phive:
+    Placement: {ID: !ul 18304931574222247223}
+  SRTHash: !u 0xc11829b9
+  Translate: [14.895378112792969, 107.875, -23.973478317260742]
+- Dynamic: {DefaultDungeonRoomIndex: 3}
+  Gyaml: Obj_BrokenIcePillar_A_01
+  Hash: !ul 15385443856643814272
+  Phive:
+    Placement: {ID: !ul 15385443856643814272}
+  Rotate: [0.0, 1.1101070642471313, 0.0]
+  SRTHash: !u 0x4b8672bf
+  Scale: [1.0, 0.8999999761581421, 1.0]
+  Translate: [0.6457232236862183, 100.0003433227539, -8.31037712097168]
+- Dynamic: {DefaultDungeonRoomIndex: 3}
+  Gyaml: Obj_BrokenIcePillar_A_01
+  Hash: !ul 13347739217376945456
+  Phive:
+    Placement: {ID: !ul 13347739217376945456}
+  SRTHash: !u 0xaf790d62
+  Translate: [1.3332998752593994, 100.12457275390625, -6.842499256134033]
+- Bakeable: true
+  Dynamic: {DefaultDungeonRoomIndex: 4}
+  Gyaml: Obj_RedIce_A_04
+  Hash: !ul 6188311488374461733
+  Phive:
+    Placement: {ID: !ul 6188311488374461733}
+  Rotate: [0.0, 0.8740731477737427, -1.5086655480445188e-07]
+  SRTHash: !u 0x18bc4d48
+  Translate: [24.15653419494629, 103.94876861572266, -12.687359809875488]
+- Bakeable: true
+  Dynamic: {DefaultDungeonRoomIndex: 7}
+  Gyaml: Obj_RedIce_A_04
+  Hash: !ul 12214319674592646459
+  Phive:
+    Placement: {ID: !ul 12214319674592646459}
+  Rotate: [3.1415927410125732, 1.1808608770370483, 3.1415927410125732]
+  SRTHash: !u 0x1b0aff20
+  Translate: [-5.367686748504639, 100.02687072753906, -14.197867393493652]
+- Gyaml: DungeonRoomArea
+  Hash: !ul 3599662807571250341
+  Phive:
+    Placement: {ID: !ul 3599662807571250341}
+  SRTHash: !u 0xb627d4ba
+  Scale: [4.0, 2.992856502532959, 1.0]
+  Translate: [6.881573677062988, 100.4010238647461, 0.06933212280273438]
+- Gyaml: DungeonRoomArea
+  Hash: !ul 14678897413397731979
+  Phive:
+    Placement: {ID: !ul 14678897413397731979}
+  Rotate: [0.0, 1.2217302322387695, 0.0]
+  SRTHash: !u 0xff422ad4
+  Scale: [4.323581695556641, 4.613105773925781, 1.0]
+  Translate: [21.163738250732422, 102.23619079589844, -13.01887321472168]
+- Gyaml: DungeonRoomArea
+  Hash: !ul 11594286969679782816
+  Phive:
+    Placement: {ID: !ul 11594286969679782816}
+  SRTHash: !u 0x7a859917
+  Scale: [5.0, 2.992856502532959, 1.0]
+  Translate: [8.597891807556152, 104.13835906982422, -27.745859146118164]
+- Gyaml: DungeonRoomArea
+  Hash: !ul 8850051382223446353
+  Phive:
+    Placement: {ID: !ul 8850051382223446353}
+  Rotate: [3.1415927410125732, 1.483529806137085, 3.1415927410125732]
+  SRTHash: !u 0xc3dcf172
+  Scale: [4.0, 2.992856502532959, 1.0]
+  Translate: [-5.13934326171875, 100.4010238647461, -14.399417877197266]
+- Gyaml: DungeonRoomCenterAnchor
+  Hash: !ul 6128305437160010115
+  Phive:
+    Placement: {ID: !ul 6128305437160010115}
+  SRTHash: !u 0xcea6fe72
+  Translate: [7.291545867919922, 105.2331314086914, -13.354443550109863]
+- Dynamic: {DefaultDungeonRoomIndex: 3}
+  Gyaml: Obj_IceCave_RotateBlade_A_01
+  Hash: !ul 5188278409932697368
+  Phive:
+    Placement: {ID: !ul 5188278409932697368}
+  SRTHash: !u 0x8e610075
+  Translate: [7.53466796875, 100.05458068847656, -13.357685089111328]
+- Dynamic: {DefaultDungeonRoomIndex: 3}
+  Gyaml: Enemy_Skulltula_Gold
+  Hash: !ul 7165255787572043804
+  Phive:
+    Placement: {ID: !ul 7165255787572043804}
+  Rotate: [-1.8474406003952026, -0.5600444674491882, -0.09700914472341537]
+  SRTHash: !u 0xac3a305b
+  Translate: [-1.4165087938308716, 107.22708129882812, -6.200536727905273]
+- Bakeable: true
+  Gyaml: Land_SkulltulaGold_SpiderWeb_A_01
+  Hash: !ul 2026092539963912193
+  Phive:
+    Placement: {ID: !ul 2026092539963912193}
+  Rotate: [-1.8474406003952026, -0.5600444674491882, -0.09700914472341537]
+  SRTHash: !u 0x4edd329b
+  Translate: [-1.4999507665634155, 107.31704711914062, -5.919437408447266]
+- Dynamic: {DefaultDungeonRoomIndex: 3}
+  Gyaml: Obj_RupeeToken_Silver
+  Hash: !ul 18421279879242817175
+  Phive:
+    Placement: {ID: !ul 18421279879242817175}
+  SRTHash: !u 0x6bad85c8
+  Translate: [10.207972526550293, 101.7068099975586, -15.895821571350098]
+- Dynamic: {DefaultDungeonRoomIndex: 3}
+  Gyaml: Obj_RupeeToken_Silver
+  Hash: !ul 3247210302672998706
+  Phive:
+    Placement: {ID: !ul 3247210302672998706}
+  SRTHash: !u 0x43dfc0b9
+  Translate: [7.914151668548584, 101.7093276977539, -10.285268783569336]
+- Dynamic: {DefaultDungeonRoomIndex: 3}
+  Gyaml: Obj_RupeeToken_Silver
+  Hash: !ul 12012255417149986652
+  Phive:
+    Placement: {ID: !ul 12012255417149986652}
+  SRTHash: !u 0xa7951fe0
+  Translate: [6.283586502075195, 105.27593231201172, -19.350717544555664]
+- Dynamic: {DefaultDungeonRoomIndex: 3}
+  Gyaml: Obj_RupeeToken_Silver
+  Hash: !ul 13864016966418971913
+  Phive:
+    Placement: {ID: !ul 13864016966418971913}
+  SRTHash: !u 0x27417115
+  Translate: [4.417637348175049, 101.7093276977539, -16.86433982849121]
+- Dynamic: {DefaultDungeonRoomIndex: 3}
+  Gyaml: Obj_RupeeToken_Silver
+  Hash: !ul 8517392616992133533
+  Phive:
+    Placement: {ID: !ul 8517392616992133533}
+  SRTHash: !u 0x15d9d6be
+  Translate: [-0.2749372720718384, 100.8838119506836, -7.917569160461426]
+- Dynamic: {RequestEventName: IceCavern_Room05_SilverToken_Appear}
+  Gyaml: EventRequestActor
+  Hash: !ul 1001435611054403820
+  Links:
+  - {Dst: !ul 12613027945768783129, Gyaml: Reference, Name: Reference, Src: !ul 1001435611054403820}
+  - {Dst: !ul 3247210302672998706, Gyaml: Reference, Name: Reference, Src: !ul 1001435611054403820}
+  - {Dst: !ul 18421279879242817175, Gyaml: Reference, Name: Reference, Src: !ul 1001435611054403820}
+  - {Dst: !ul 12012255417149986652, Gyaml: Reference, Name: Reference, Src: !ul 1001435611054403820}
+  - {Dst: !ul 13864016966418971913, Gyaml: Reference, Name: Reference, Src: !ul 1001435611054403820}
+  - {Dst: !ul 8517392616992133533, Gyaml: Reference, Name: Reference, Src: !ul 1001435611054403820}
+  - {Dst: !ul 12442062112891729644, Gyaml: Reference, Name: Reference, Src: !ul 1001435611054403820}
+  - {Dst: !ul 5185792312528035469, Gyaml: Reference, Name: Reference, Src: !ul 1001435611054403820}
+  - {Dst: !ul 5723356247351022879, Gyaml: Reference, Name: Reference, Src: !ul 1001435611054403820}
+  - {Dst: !ul 6489186174689030307, Gyaml: Reference, Name: Reference, Src: !ul 1001435611054403820}
+  - {Dst: !ul 5188278409932697368, Gyaml: Reference, Name: Reference, Src: !ul 1001435611054403820}
+  - {Dst: !ul 10304411466031109600, Gyaml: Reference, Name: Reference, Src: !ul 1001435611054403820}
+  Phive:
+    Placement: {ID: !ul 1001435611054403820}
+  SRTHash: !u 0x1fd8e2dc
+  Translate: [11.011091232299805, 107.875, -23.973478317260742]
+- Dynamic: {DefaultDungeonRoomIndex: 3}
+  Gyaml: Obj_silverRupeeCounter_03
+  Hash: !ul 12613027945768783129
+  Links:
+  - {Dst: !ul 3247210302672998706, Gyaml: Reference, Name: Reference, Src: !ul 12613027945768783129}
+  - {Dst: !ul 18421279879242817175, Gyaml: Reference, Name: Reference, Src: !ul 12613027945768783129}
+  - {Dst: !ul 13864016966418971913, Gyaml: Reference, Name: Reference, Src: !ul 12613027945768783129}
+  - {Dst: !ul 12012255417149986652, Gyaml: Reference, Name: Reference, Src: !ul 12613027945768783129}
+  - {Dst: !ul 8517392616992133533, Gyaml: Reference, Name: Reference, Src: !ul 12613027945768783129}
+  Phive:
+    Placement: {ID: !ul 12613027945768783129}
+  SRTHash: !u 0xa604cb2c
+  Translate: [8.73748779296875, 104.44628143310547, -28.644609451293945]
+- Gyaml: Area
+  Hash: !ul 17054320445416272725
+  Phive:
+    Placement: {ID: !ul 17054320445416272725}
+  SRTHash: !u 0xecc729b7
+  Scale: [4.019369602203369, 3.9572572708129883, 2.888336658477783]
+  Translate: [7.9955315589904785, 99.89839935302734, -3.596402645111084]
+- Gyaml: DestinationAnchor
+  Hash: !ul 12442062112891729644
+  Phive:
+    Placement: {ID: !ul 12442062112891729644}
+  Rotate: [0.2380584180355072, 0.6672110557556152, 0.00993992667645216]
+  SRTHash: !u 0x0c348038
+  Translate: [7.910630226135254, 102.18138122558594, -10.326655387878418]
+- Dynamic: {DefaultDungeonRoomIndex: 3}
+  Gyaml: Obj_BrokenIcePillar_A_02
+  Hash: !ul 9210445307482204523
+  Phive:
+    Placement: {ID: !ul 9210445307482204523}
+  Rotate: [3.1415927410125732, -0.4817294180393219, 3.1415927410125732]
+  SRTHash: !u 0x79aa16ae
+  Scale: [1.0, 0.949999988079071, 1.0]
+  Translate: [0.4656068682670593, 100.08248901367188, -7.510097503662109]
+- Dynamic: {DefaultDungeonRoomIndex: 3}
+  Gyaml: Obj_BrokenIcePillar_A_02
+  Hash: !ul 10856112040922903683
+  Phive:
+    Placement: {ID: !ul 10856112040922903683}
+  Rotate: [0.0, 1.2217302322387695, 0.0]
+  SRTHash: !u 0xb40127d9
+  Scale: [0.800000011920929, 0.800000011920929, 0.800000011920929]
+  Translate: [-0.0979190468788147, 100.02274322509766, -8.575128555297852]
+- Dynamic: {DefaultDungeonRoomIndex: 3}
+  Gyaml: Obj_BrokenIcePillar_A_02
+  Hash: !ul 15376233358778239416
+  Phive:
+    Placement: {ID: !ul 15376233358778239416}
+  Rotate: [0.0, -1.0408474206924438, 0.0]
+  SRTHash: !u 0x91fd1e8f
+  Scale: [1.0, 1.25, 1.0]
+  Translate: [1.3689383268356323, 99.95457458496094, -7.718291282653809]
+- Gyaml: DestinationAnchor
+  Hash: !ul 5185792312528035469
+  Name: Point2
+  Phive:
+    Placement: {ID: !ul 5185792312528035469}
+  Rotate: [0.0, 1.227701187133789, 0.0]
+  SRTHash: !u 0x85f646ae
+  Translate: [7.491833209991455, 102.74208068847656, -11.989524841308594]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 16650168177369138742
+  Phive:
+    Placement: {ID: !ul 16650168177369138742}
+  SRTHash: !u 0x66ed0c4b
+  Scale: [7.0, 6.0, 7.0]
+  Translate: [7.570610046386719, 100.0, -13.310705184936523]
+- Gyaml: DestinationAnchor
+  Hash: !ul 6489186174689030307
+  Name: ViewPoint1
+  Phive:
+    Placement: {ID: !ul 6489186174689030307}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x3a15055d
+  Translate: [7.037047386169434, 104.97599029541016, 2.785691499710083]
+- Dynamic: {DefaultDungeonRoomIndex: 3}
+  Gyaml: Obj_BrokenIcePillar_A_02
+  Hash: !ul 13225717517056621259
+  Phive:
+    Placement: {ID: !ul 13225717517056621259}
+  SRTHash: !u 0x571246ed
+  Scale: [1.0, 1.2000000476837158, 1.0]
+  Translate: [0.4414675831794739, 100.04402923583984, -9.092254638671875]
+- Gyaml: DestinationAnchor
+  Hash: !ul 5723356247351022879
+  Name: TargetPoint1
+  Phive:
+    Placement: {ID: !ul 5723356247351022879}
+  Rotate: [0.0, -0.08694859594106674, 0.0]
+  SRTHash: !u 0x0542780a
+  Translate: [7.536231994628906, 103.17916107177734, -5.626249313354492]
+- Gyaml: Area
+  Hash: !ul 10800122871686931773
+  Phive:
+    Placement: {ID: !ul 10800122871686931773}
+  Rotate: [0.0, 0.48970574140548706, 0.0]
+  SRTHash: !u 0x6d71e2b0
+  Scale: [4.019369602203369, 3.099917411804199, 1.4085086584091187]
+  Translate: [3.189964771270752, 99.89839935302734, -3.5408778190612793]
+- Gyaml: Area
+  Hash: !ul 13456646645635052253
+  Phive:
+    Placement: {ID: !ul 13456646645635052253}
+  Rotate: [0.0, -0.5155913829803467, 0.0]
+  SRTHash: !u 0x59368acc
+  Scale: [4.019369602203369, 3.097712993621826, 1.408508539199829]
+  Translate: [12.673903465270996, 99.89839935302734, -2.865938901901245]
+- Gyaml: DestinationAnchor
+  Hash: !ul 11639269698118177806
+  Name: ViewPoint
+  Phive:
+    Placement: {ID: !ul 11639269698118177806}
+  SRTHash: !u 0x532037de
+  Translate: [8.78026294708252, 106.62513732910156, -18.394765853881836]
+- Gyaml: DestinationAnchor
+  Hash: !ul 13118820033887319835
+  Name: NearPoint
+  Phive:
+    Placement: {ID: !ul 13118820033887319835}
+  Rotate: [3.1415927410125732, 0.9127346873283386, 3.1415927410125732]
+  SRTHash: !u 0x2ac2a50f
+  Translate: [-0.5793490409851074, 100.38353729248047, -7.616278648376465]
+- Dynamic: {DefaultDungeonRoomIndex: 2}
+  Gyaml: Obj_BrokenIcePillar_A_02
+  Hash: !ul 10036345510171334973
+  Phive:
+    Placement: {ID: !ul 10036345510171334973}
+  Rotate: [0.0, 0.4137202203273773, 0.0]
+  SRTHash: !u 0x457a4301
+  Scale: [1.100000023841858, 1.100000023841858, 1.100000023841858]
+  Translate: [8.080033302307129, 103.29676818847656, 5.277059078216553]
+- Dynamic: {DefaultDungeonRoomIndex: 2}
+  Gyaml: Obj_BrokenIcePillar_A_02
+  Hash: !ul 14253337296082374911
+  Phive:
+    Placement: {ID: !ul 14253337296082374911}
+  Rotate: [0.0, -0.24045082926750183, 0.0]
+  SRTHash: !u 0x61fec1ba
+  Scale: [0.800000011920929, 0.800000011920929, 0.800000011920929]
+  Translate: [7.780810356140137, 103.29676818847656, 4.562832832336426]
+- Dynamic: {DefaultDungeonRoomIndex: 3}
+  Gyaml: AirWall_EnemyPerceptionSight
+  Hash: !ul 17931684720416575340
+  Phive:
+    Placement: {ID: !ul 17931684720416575340}
+  Rotate: [3.1415927410125732, 3.8941436741879443e-07, 3.1415927410125732]
+  SRTHash: !u 0xe81c6670
+  Scale: [2.0, 2.0, 5.5]
+  Translate: [18.30000114440918, 105.31620025634766, -10.40000057220459]
+- Gyaml: Area
+  Hash: !ul 5795326397976258080
+  Phive:
+    Placement: {ID: !ul 5795326397976258080}
+  Rotate: [0.05892206355929375, -1.3086321353912354, -0.0538758747279644]
+  SRTHash: !u 0x9859eb2d
+  Scale: [8.0, 0.9999999403953552, 4.0]
+  Translate: [18.736309051513672, 104.226806640625, -16.883771896362305]
+- Gyaml: FldObj_AirWall_Player
+  Hash: !ul 2330025700268530954
+  Phive:
+    Placement: {ID: !ul 2330025700268530954}
+  Rotate: [0.0, -1.3357791900634766, 0.0]
+  SRTHash: !u 0x152c05e9
+  Scale: [0.1618468016386032, 2.1498067378997803, 0.08163152635097504]
+  Translate: [-0.3142464756965637, 99.43557739257812, -9.299168586730957]
+- Gyaml: FldObj_AirWall_Player
+  Hash: !ul 7376686878673244959
+  Phive:
+    Placement: {ID: !ul 7376686878673244959}
+  Rotate: [0.0, 0.2691513001918793, 0.0]
+  SRTHash: !u 0xfe5d6a5d
+  Scale: [0.3278391361236572, 2.132049322128296, 0.2502109408378601]
+  Translate: [1.1722567081451416, 99.47023010253906, -6.608592987060547]
+- Gyaml: FldObj_AirWall_Player
+  Hash: !ul 5899218435325483950
+  Phive:
+    Placement: {ID: !ul 5899218435325483950}
+  Rotate: [0.0, 0.2382969707250595, 0.0]
+  SRTHash: !u 0x7d23f5a7
+  Scale: [0.26983046531677246, 2.132049322128296, 0.12736518681049347]
+  Translate: [1.0003701448440552, 99.47023010253906, -7.672941207885742]
+- Gyaml: FldObj_AirWall_Player
+  Hash: !ul 13341380261102987873
+  Phive:
+    Placement: {ID: !ul 13341380261102987873}
+  Rotate: [0.0, 1.3861935138702393, 0.0]
+  SRTHash: !u 0x0b587cfa
+  Scale: [0.22799047827720642, 2.1454076766967773, 0.10742314159870148]
+  Translate: [0.5679632425308228, 99.43557739257812, -7.934696674346924]
+- Gyaml: FldObj_AirWall_Player
+  Hash: !ul 37448381021102239
+  Phive:
+    Placement: {ID: !ul 37448381021102239}
+  Rotate: [0.0, 0.7591165900230408, 0.0]
+  SRTHash: !u 0xc61b6ef0
+  Scale: [0.22799047827720642, 2.1498067378997803, 0.07986818253993988]
+  Translate: [0.15188640356063843, 99.43557739257812, -8.811325073242188]
+- Gyaml: FldObj_AirWall_Player
+  Hash: !ul 3006378171520377700
+  Phive:
+    Placement: {ID: !ul 3006378171520377700}
+  Rotate: [0.0, -1.220323920249939, 0.0]
+  SRTHash: !u 0xb8561796
+  Scale: [0.24467600882053375, 0.8569628596305847, 0.10930079966783524]
+  Translate: [7.932433128356934, 103.13388061523438, 4.963397979736328]
+- Dynamic: {DefaultDungeonRoomIndex: 3}
+  Gyaml: Obj_BrokenIcePillar_A_01
+  Hash: !ul 726022167757098036
+  Phive:
+    Placement: {ID: !ul 726022167757098036}
+  SRTHash: !u 0xec2c2808
+  Scale: [0.800000011920929, 0.800000011920929, 0.800000011920929]
+  Translate: [-0.32728374004364014, 100.18923950195312, -9.367085456848145]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 15178725825351742029
+  Phive:
+    Placement: {ID: !ul 15178725825351742029}
+  Rotate: [0.0, -1.4841245412826538, 0.0]
+  SRTHash: !u 0xe78d7cf2
+  Scale: [4.0, 1.0, 4.0]
+  Translate: [56.112491607666016, 102.60208892822266, 11.328493118286133]
+- Dynamic: {DefaultDungeonRoomIndex: 4}
+  Gyaml: Obj_FallingIcicle_A_02
+  Hash: !ul 7038413869877657485
+  Phive:
+    Placement: {ID: !ul 7038413869877657485}
+  Rotate: [0.0, -1.4841245412826538, 0.0]
+  SRTHash: !u 0xb4ffca22
+  Translate: [56.112491607666016, 109.24439239501953, 11.328493118286133]
+- Gyaml: Obj_BlueFire_A_01
+  Hash: !ul 1500566488932665284
+  Links:
+  - {Dst: !ul 1390315457592777835, Gyaml: Reference, Name: Reference, Src: !ul 1500566488932665284}
+  - {Dst: !ul 12709446309293764492, Gyaml: Reference, Name: Reference, Src: !ul 1500566488932665284}
+  - {Dst: !ul 13406721086432508330, Gyaml: Reference, Name: Reference, Src: !ul 1500566488932665284}
+  - {Dst: !ul 11023351600652886186, Gyaml: Reference, Name: Reference, Src: !ul 1500566488932665284}
+  - {Dst: !ul 1500566488932665284, Gyaml: Reference, Name: Reference, Src: !ul 1500566488932665284}
+  - {Dst: !ul 4930938292237693821, Gyaml: Reference, Name: Reference, Src: !ul 1500566488932665284}
+  - {Dst: !ul 2428107925408542419, Gyaml: Reference, Name: Reference, Src: !ul 1500566488932665284}
+  - {Dst: !ul 13787822763967976097, Gyaml: Reference, Name: Reference, Src: !ul 1500566488932665284}
+  Phive:
+    Placement: {ID: !ul 1500566488932665284}
+  Rotate: [0.0, 1.134463906288147, 0.0]
+  SRTHash: !u 0x21441b9a
+  Translate: [82.67426300048828, 103.29183959960938, 13.049989700317383]
+- Gyaml: DestinationAnchor
+  Hash: !ul 1390315457592777835
+  Name: '0'
+  Phive:
+    Placement: {ID: !ul 1390315457592777835}
+  Rotate: [0.0, 0.0872664749622345, 0.0]
+  SRTHash: !u 0x0d1d720c
+  Translate: [82.30249786376953, 103.71282196044922, 13.86437702178955]
+- Gyaml: DestinationAnchor
+  Hash: !ul 12709446309293764492
+  Name: '1'
+  Phive:
+    Placement: {ID: !ul 12709446309293764492}
+  Rotate: [0.0, 0.0872664749622345, 0.0]
+  SRTHash: !u 0xf396bba3
+  Translate: [83.30659484863281, 103.99525451660156, 14.048571586608887]
+- Gyaml: DestinationAnchor
+  Hash: !ul 13406721086432508330
+  Name: '2'
+  Phive:
+    Placement: {ID: !ul 13406721086432508330}
+  Rotate: [0.0, 0.0872664749622345, 0.0]
+  SRTHash: !u 0x9b008ba1
+  Translate: [83.36075592041016, 103.95687866210938, 12.535038948059082]
+- Gyaml: DestinationAnchor
+  Hash: !ul 11023351600652886186
+  Name: '3'
+  Phive:
+    Placement: {ID: !ul 11023351600652886186}
+  Rotate: [0.0, 0.0872664749622345, 0.0]
+  SRTHash: !u 0xfc02797c
+  Translate: [82.00153350830078, 103.77643585205078, 12.74466609954834]
+- Gyaml: DestinationAnchor
+  Hash: !ul 2428107925408542419
+  Name: '5'
+  Phive:
+    Placement: {ID: !ul 2428107925408542419}
+  Rotate: [0.0, 0.0872664749622345, 0.0]
+  SRTHash: !u 0x57dc110a
+  Translate: [82.45821380615234, 104.25566101074219, 12.50879955291748]
+- Gyaml: DestinationAnchor
+  Hash: !ul 4930938292237693821
+  Name: '4'
+  Phive:
+    Placement: {ID: !ul 4930938292237693821}
+  Rotate: [0.0, 0.0872664749622345, 0.0]
+  SRTHash: !u 0x85a83b28
+  Translate: [82.52851104736328, 103.99224090576172, 13.616158485412598]
+- Gyaml: DestinationAnchor
+  Hash: !ul 13787822763967976097
+  Name: '6'
+  Phive:
+    Placement: {ID: !ul 13787822763967976097}
+  Rotate: [0.0, 0.0872664749622345, 0.0]
+  SRTHash: !u 0x8135f5a4
+  Translate: [82.82839965820312, 104.94890594482422, 13.056646347045898]
+- Dynamic: {DefaultDungeonRoomIndex: 6, Drop__DropActor: Item_Dungeon_Compass}
+  Gyaml: Obj_TBox_A_02
+  Hash: !ul 13542013937093159888
+  Phive:
+    Placement: {ID: !ul 13542013937093159888}
+  Rotate: [-0.014668912626802921, -1.3089574575424194, 0.017810441553592682]
+  SRTHash: !u 0x91a5ceb5
+  Translate: [90.21640014648438, 104.51268005371094, 2.9221553802490234]
+- Dynamic: {DefaultDungeonRoomIndex: 6}
+  Gyaml: Enemy_Skulltula_Gold
+  Hash: !ul 1612219105489330028
+  Phive:
+    Placement: {ID: !ul 1612219105489330028}
+  Rotate: [-1.570796012878418, -1.0297480821609497, -1.1924639409244264e-07]
+  SRTHash: !u 0x80c0b42e
+  Translate: [83.67357635498047, 108.25199890136719, -0.4505326747894287]
+- Bakeable: true
+  Gyaml: Land_SkulltulaGold_SpiderWeb_A_01
+  Hash: !ul 2879361409392102017
+  Phive:
+    Placement: {ID: !ul 2879361409392102017}
+  Rotate: [-1.570796012878418, -1.0297480821609497, -1.1924639409244264e-07]
+  SRTHash: !u 0x82e569e9
+  Translate: [83.45480346679688, 108.25199890136719, -0.23556913435459137]
+- Gyaml: DungeonRoomArea
+  Hash: !ul 11058592044798098483
+  Phive:
+    Placement: {ID: !ul 11058592044798098483}
+  Rotate: [3.1415927410125732, 1.2217307090759277, 3.1415927410125732]
+  SRTHash: !u 0xcfd82c9c
+  Scale: [4.6532511711120605, 5.160905361175537, 1.0]
+  Translate: [71.99137878417969, 102.16883850097656, 6.553506851196289]
+- Dynamic: {DefaultDungeonRoomIndex: 6, IsCreateOnSurface: true, IsSpJumpOutKeese: true,
+    Keese_IsUseCustomPerceptionRangeLarge: true, TurnMoveHeightOffset: 2.700000047683716}
+  Gyaml: Enemy_Keese
+  Hash: !ul 9226278655856967506
+  Phive:
+    Placement: {ID: !ul 9226278655856967506}
+  Rotate: [1.579097032546997, -0.3136056661605835, -0.02652154117822647]
+  SRTHash: !u 0xd20c7818
+  Translate: [88.06328582763672, 105.51339721679688, -0.13903427124023438]
+- Dynamic: {DefaultDungeonRoomIndex: 6, IsCreateOnSurface: true, IsSpJumpOutKeese: true,
+    Keese_IsUseCustomPerceptionRangeLarge: true, TurnMoveHeightOffset: 3.0}
+  Gyaml: Enemy_Keese
+  Hash: !ul 11623246256522999002
+  Phive:
+    Placement: {ID: !ul 11623246256522999002}
+  Rotate: [-1.570796012878418, -1.1525068283081055, 3.141592264175415]
+  SRTHash: !u 0x038e8069
+  Translate: [88.95838928222656, 105.80459594726562, 6.775104522705078]
+- Gyaml: DungeonRoomCenterAnchor
+  Hash: !ul 1831246369900185690
+  Phive:
+    Placement: {ID: !ul 1831246369900185690}
+  Rotate: [-1.3550639721415791e-07, 0.9599310159683228, 0.0]
+  SRTHash: !u 0x19c74697
+  Translate: [80.59877014160156, 103.02306365966797, 4.527828216552734]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 2213121481914297135
+  Phive:
+    Placement: {ID: !ul 2213121481914297135}
+  Rotate: [0.0, -1.4841245412826538, 0.0]
+  SRTHash: !u 0xdc2d3598
+  Scale: [4.0, 1.0, 4.0]
+  Translate: [56.82572937011719, 102.60428619384766, 10.133612632751465]
+- Dynamic: {DefaultDungeonRoomIndex: 4}
+  Gyaml: Obj_FallingIcicle_A_02
+  Hash: !ul 15833416661599990895
+  Phive:
+    Placement: {ID: !ul 15833416661599990895}
+  Rotate: [3.1415927410125732, -0.08667174726724625, 3.1415927410125732]
+  SRTHash: !u 0xb3718daa
+  Translate: [56.82572937011719, 108.7969970703125, 10.133612632751465]
+- Dynamic: {DefaultDungeonRoomIndex: 6}
+  Gyaml: Obj_BrokenIcePillar_A_01
+  Hash: !ul 10717980523000027768
+  Phive:
+    Placement: {ID: !ul 10717980523000027768}
+  Rotate: [0.0, -0.19484128057956696, 0.0]
+  SRTHash: !u 0x534d0e0f
+  Scale: [1.0, 1.0052547454833984, 1.0]
+  Translate: [83.896484375, 103.32545471191406, 2.158498764038086]
+- Dynamic: {DefaultDungeonRoomIndex: 6}
+  Gyaml: Obj_BrokenIcePillar_A_01
+  Hash: !ul 3972365762764282907
+  Phive:
+    Placement: {ID: !ul 3972365762764282907}
+  Rotate: [0.0, -0.9719040393829346, 0.0]
+  SRTHash: !u 0x79fb2ee5
+  Scale: [1.2999999523162842, 1.2999999523162842, 1.2999999523162842]
+  Translate: [83.8578109741211, 103.36022186279297, 4.157785415649414]
+- Dynamic: {DefaultDungeonRoomIndex: 6}
+  Gyaml: Obj_BrokenIcePillar_A_02
+  Hash: !ul 6700614180232247638
+  Phive:
+    Placement: {ID: !ul 6700614180232247638}
+  Rotate: [0.0, 1.2321327924728394, 0.0]
+  SRTHash: !u 0xe165f779
+  Translate: [83.03740692138672, 103.1104507446289, 3.5173702239990234]
+- Dynamic: {DefaultDungeonRoomIndex: 6}
+  Gyaml: Obj_BrokenIcePillar_A_02
+  Hash: !ul 11834116694864372269
+  Phive:
+    Placement: {ID: !ul 11834116694864372269}
+  Rotate: [3.1415927410125732, -1.2143301963806152, 3.1415927410125732]
+  SRTHash: !u 0x994055f1
+  Scale: [1.2000000476837158, 1.2000000476837158, 1.2000000476837158]
+  Translate: [84.31861877441406, 103.22869110107422, 6.257131576538086]
+- Dynamic: {DefaultDungeonRoomIndex: 6}
+  Gyaml: Obj_BrokenIcePillar_A_02
+  Hash: !ul 7754940778057670101
+  Phive:
+    Placement: {ID: !ul 7754940778057670101}
+  Rotate: [3.1415927410125732, 1.0407745838165283, 3.1415927410125732]
+  SRTHash: !u 0x49065638
+  Scale: [1.2000000476837158, 1.2000000476837158, 1.2000000476837158]
+  Translate: [84.28356170654297, 103.37663269042969, 5.258159637451172]
+- Dynamic: {DefaultDungeonRoomIndex: 6}
+  Gyaml: Obj_BrokenIcePillar_A_02
+  Hash: !ul 4895084081999526202
+  Phive:
+    Placement: {ID: !ul 4895084081999526202}
+  Rotate: [0.0, -0.10919018089771271, 0.0]
+  SRTHash: !u 0x667fe31b
+  Scale: [1.2999999523162842, 1.2999999523162842, 1.2999999523162842]
+  Translate: [84.28488159179688, 103.37779235839844, 3.1325531005859375]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 15910281845875670410
+  Phive:
+    Placement: {ID: !ul 15910281845875670410}
+  Rotate: [0.0, -0.8732594847679138, 0.0]
+  SRTHash: !u 0xfd53d6fc
+  Scale: [6.000000476837158, 1.0, 6.000000476837158]
+  Translate: [78.3409194946289, 102.7232894897461, 4.50140380859375]
+- Dynamic: {DefaultDungeonRoomIndex: 6}
+  Gyaml: Obj_FallingIcicle_A_02
+  Hash: !ul 10485883698284393202
+  Phive:
+    Placement: {ID: !ul 10485883698284393202}
+  Rotate: [0.0, -0.8732594847679138, 0.0]
+  SRTHash: !u 0xd5003304
+  Translate: [78.03279113769531, 110.659423828125, 5.089007377624512]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 948530657482773985
+  Phive:
+    Placement: {ID: !ul 948530657482773985}
+  Rotate: [0.0, -0.8732594847679138, 0.0]
+  SRTHash: !u 0x2a758cf1
+  Scale: [6.000000476837158, 1.0, 6.000000476837158]
+  Translate: [82.12071228027344, 102.7232894897461, 5.523836135864258]
+- Dynamic: {DefaultDungeonRoomIndex: 6}
+  Gyaml: Obj_FallingIcicle_A_02
+  Hash: !ul 12186909882694874088
+  Phive:
+    Placement: {ID: !ul 12186909882694874088}
+  Rotate: [0.0, -0.8732594847679138, 0.0]
+  SRTHash: !u 0x9032e1b0
+  Translate: [81.1187973022461, 110.5094223022461, 6.347364902496338]
+- Dynamic: {DefaultDungeonRoomIndex: 6, Drop__DropActor: Obj_Rupee_Blue}
+  Gyaml: Obj_Pot_A_04
+  Hash: !ul 17314383705983097019
+  Phive:
+    Placement: {ID: !ul 17314383705983097019}
+  Rotate: [0.0, 0.9599310159683228, 0.0]
+  SRTHash: !u 0xe8cde219
+  Translate: [79.5947036743164, 102.9688949584961, -1.3683948516845703]
+- Dynamic: {DefaultDungeonRoomIndex: 6, Drop__DropActor: Obj_Rupee_Blue}
+  Gyaml: Obj_Pot_A_04
+  Hash: !ul 15011057361189787608
+  Phive:
+    Placement: {ID: !ul 15011057361189787608}
+  Rotate: [0.0, 0.9599310159683228, 0.0]
+  SRTHash: !u 0xbe546bd6
+  Translate: [80.31111907958984, 102.96768188476562, -1.3980331420898438]
+- Dynamic: {DefaultDungeonRoomIndex: 6}
+  Gyaml: Obj_FairySpirit
+  Hash: !ul 9440081431188561357
+  Phive:
+    Placement: {ID: !ul 9440081431188561357}
+  Rotate: [0.07585148513317108, 0.11374974995851517, -0.04113663360476494]
+  SRTHash: !u 0x1428057d
+  Translate: [79.16007232666016, 104.23056030273438, -3.3552634716033936]
+- Dynamic: {DefaultDungeonRoomIndex: 6}
+  Gyaml: FairySpirit_AppearPoint_SunSong
+  Hash: !ul 8584250520029000414
+  Links:
+  - {Dst: !ul 9440081431188561357, Gyaml: Reference, Name: Reference, Src: !ul 8584250520029000414}
+  - {Dst: !ul 3267652807666061189, Gyaml: Reference, Name: Reference, Src: !ul 8584250520029000414}
+  Phive:
+    Placement: {ID: !ul 8584250520029000414}
+  Rotate: [0.07585148513317108, 0.11374974995851517, -0.04113663360476494]
+  SRTHash: !u 0x1428057d
+  Translate: [79.16007232666016, 104.23056030273438, -3.3552634716033936]
+- Gyaml: DestinationAnchor
+  Hash: !ul 3267652807666061189
+  Name: FairySpirit_AppearPoint
+  Phive:
+    Placement: {ID: !ul 3267652807666061189}
+  Rotate: [-0.0012685584370046854, 0.11279625445604324, -0.028628507629036903]
+  SRTHash: !u 0xb061459d
+  Translate: [79.16007232666016, 104.23056030273438, -3.3552634716033936]
+- Gyaml: EventProxyRequestActor
+  Hash: !ul 4526902915751638722
+  Links:
+  - {Dst: !ul 8584250520029000414, Gyaml: EventProxyRequestLink, Name: EventProxyRequestLink,
+    Src: !ul 4526902915751638722}
+  - {Dst: !ul 3267652807666061189, Gyaml: Reference, Name: Reference, Src: !ul 4526902915751638722}
+  - {Dst: !ul 9440081431188561357, Gyaml: Reference, Name: Reference, Src: !ul 4526902915751638722}
+  Phive:
+    Placement: {ID: !ul 4526902915751638722}
+  Rotate: [0.07878030836582184, 0.042598169296979904, -0.04090774804353714]
+  SRTHash: !u 0xeba6d45e
+  Translate: [79.1072998046875, 107.21975708007812, -3.0305819511413574]
+- Bakeable: true
+  Dynamic: {DefaultDungeonRoomIndex: 6}
+  Gyaml: Obj_RedIce_A_06
+  Hash: !ul 5982607659326270053
+  Links:
+  - {Dst: !ul 15011057361189787608, Gyaml: FrozenInIce, Name: FrozenInIce, Src: !ul 5982607659326270053}
+  - {Dst: !ul 17314383705983097019, Gyaml: FrozenInIce, Name: FrozenInIce, Src: !ul 5982607659326270053}
+  Phive:
+    Placement: {ID: !ul 5982607659326270053}
+  Rotate: [0.00030973940738476813, 0.19120320677757263, 0.00037074866122566164]
+  SRTHash: !u 0xa0930486
+  Translate: [79.84794616699219, 103.0219955444336, -1.7194900512695312]
+- Gyaml: DungeonRoomArea
+  Hash: !ul 5958251901540614659
+  Phive:
+    Placement: {ID: !ul 5958251901540614659}
+  SRTHash: !u 0x779edd3c
+  Scale: [4.0, 5.199629783630371, 1.0]
+  Translate: [7.479974746704102, 100.4010238647461, 2.2120189666748047]
+- Gyaml: DungeonRoomArea
+  Hash: !ul 1216242061412655155
+  Phive:
+    Placement: {ID: !ul 1216242061412655155}
+  SRTHash: !u 0xb026e45a
+  Scale: [4.0, 2.992856502532959, 1.0]
+  Translate: [0.5600204467773438, 100.4010238647461, 20.8009033203125]
+- Gyaml: DungeonRoomCenterAnchor
+  Hash: !ul 13418735372637160056
+  Phive:
+    Placement: {ID: !ul 13418735372637160056}
+  SRTHash: !u 0xf214b20c
+  Translate: [2.147209644317627, 103.05471801757812, 12.300055503845215]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 16366631943866601428
+  Phive:
+    Placement: {ID: !ul 16366631943866601428}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x632dda06
+  Scale: [6.0, 1.0, 6.0]
+  Translate: [3.815187931060791, 102.50975036621094, 13.212479591369629]
+- Dynamic: {DefaultDungeonRoomIndex: 2}
+  Gyaml: Obj_FallingIcicle_A_02
+  Hash: !ul 13198009118954074500
+  Phive:
+    Placement: {ID: !ul 13198009118954074500}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xee6f584a
+  Translate: [0.23061567544937134, 109.5, 11.461210250854492]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 8666438741445863560
+  Phive:
+    Placement: {ID: !ul 8666438741445863560}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x8c131c97
+  Scale: [6.0, 1.0, 6.0]
+  Translate: [4.569690704345703, 102.51529693603516, 13.168540954589844]
+- Dynamic: {DefaultDungeonRoomIndex: 2}
+  Gyaml: Obj_FallingIcicle_A_02
+  Hash: !ul 330512059634959441
+  Phive:
+    Placement: {ID: !ul 330512059634959441}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x3db38f1d
+  Translate: [1.1449432373046875, 109.78657531738281, 10.562493324279785]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 2817263178388555373
+  Phive:
+    Placement: {ID: !ul 2817263178388555373}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xe4e2e25c
+  Scale: [6.0, 1.0, 6.0]
+  Translate: [4.2885518074035645, 102.24169158935547, 10.357815742492676]
+- Dynamic: {DefaultDungeonRoomIndex: 2}
+  Gyaml: Obj_FallingIcicle_A_02
+  Hash: !ul 14647737365927700334
+  Phive:
+    Placement: {ID: !ul 14647737365927700334}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x640dd83f
+  Translate: [1.1190321445465088, 109.20112609863281, 9.137053489685059]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 7537975346125684821
+  Phive:
+    Placement: {ID: !ul 7537975346125684821}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xa68852fe
+  Scale: [6.0, 1.0, 6.0]
+  Translate: [-4.839822292327881, 103.39584350585938, 12.223633766174316]
+- Dynamic: {DefaultDungeonRoomIndex: 2}
+  Gyaml: Obj_FallingIcicle_A_02
+  Hash: !ul 926948822559436133
+  Phive:
+    Placement: {ID: !ul 926948822559436133}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x5bb8ee3f
+  Translate: [-4.404690742492676, 109.70236206054688, 10.080318450927734]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 11086026086240489253
+  Phive:
+    Placement: {ID: !ul 11086026086240489253}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x7af3c91e
+  Scale: [6.0, 1.0, 6.0]
+  Translate: [7.230488300323486, 102.73421478271484, 12.572601318359375]
+- Dynamic: {DefaultDungeonRoomIndex: 2}
+  Gyaml: Obj_FallingIcicle_A_02
+  Hash: !ul 6701681840690338518
+  Phive:
+    Placement: {ID: !ul 6701681840690338518}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xd47b8934
+  Translate: [3.5639891624450684, 109.92664337158203, 11.068105697631836]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 547698890087007970
+  Phive:
+    Placement: {ID: !ul 547698890087007970}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x3c5eafe0
+  Scale: [6.0, 1.0, 6.0]
+  Translate: [6.939329147338867, 102.73421478271484, 15.272396087646484]
+- Dynamic: {DefaultDungeonRoomIndex: 2}
+  Gyaml: Obj_FallingIcicle_A_02
+  Hash: !ul 17532724766258883307
+  Phive:
+    Placement: {ID: !ul 17532724766258883307}
+  SRTHash: !u 0x3fac0789
+  Translate: [3.7037553787231445, 109.7067642211914, 12.841684341430664]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 10787245651212510566
+  Phive:
+    Placement: {ID: !ul 10787245651212510566}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x8ac8f5a5
+  Scale: [6.0, 1.0, 6.0]
+  Translate: [9.282543182373047, 102.73421478271484, 14.430973052978516]
+- Dynamic: {DefaultDungeonRoomIndex: 2}
+  Gyaml: Obj_FallingIcicle_A_02
+  Hash: !ul 7005256429862164518
+  Phive:
+    Placement: {ID: !ul 7005256429862164518}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x29768d75
+  Translate: [6.046969413757324, 109.5, 12.000260353088379]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 8240281087226836283
+  Phive:
+    Placement: {ID: !ul 8240281087226836283}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x7aebfbca
+  Scale: [6.0, 1.0, 6.0]
+  Translate: [2.3241443634033203, 102.73421478271484, 10.346858978271484]
+- Dynamic: {DefaultDungeonRoomIndex: 2}
+  Gyaml: Obj_FallingIcicle_A_02
+  Hash: !ul 1046750468166414563
+  Phive:
+    Placement: {ID: !ul 1046750468166414563}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x87f8b5d2
+  Translate: [-0.9114294052124023, 109.2067642211914, 7.916146278381348]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 1298767794833018871
+  Phive:
+    Placement: {ID: !ul 1298767794833018871}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x5e096379
+  Scale: [6.0, 1.0, 6.0]
+  Translate: [5.237626552581787, 102.51529693603516, 14.883298873901367]
+- Dynamic: {DefaultDungeonRoomIndex: 2}
+  Gyaml: Obj_FallingIcicle_A_02
+  Hash: !ul 14896531813095348884
+  Phive:
+    Placement: {ID: !ul 14896531813095348884}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xaf19da8b
+  Translate: [2.0020527839660645, 108.83802032470703, 12.45258617401123]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 5747340177546361110
+  Phive:
+    Placement: {ID: !ul 5747340177546361110}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x48b28040
+  Scale: [6.0, 1.0, 6.0]
+  Translate: [2.890899658203125, 102.73421478271484, 12.264734268188477]
+- Dynamic: {DefaultDungeonRoomIndex: 2}
+  Gyaml: Obj_FallingIcicle_A_02
+  Hash: !ul 3138853771372965862
+  Phive:
+    Placement: {ID: !ul 3138853771372965862}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xcb39e58a
+  Translate: [-0.3446742296218872, 109.8067626953125, 9.83402156829834]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 12409102020626853471
+  Phive:
+    Placement: {ID: !ul 12409102020626853471}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x6cfba8e2
+  Scale: [6.0, 1.0, 6.0]
+  Translate: [4.956487655639648, 102.24169158935547, 12.0725736618042]
+- Dynamic: {DefaultDungeonRoomIndex: 2}
+  Gyaml: Obj_FallingIcicle_A_02
+  Hash: !ul 5239167285434626493
+  Phive:
+    Placement: {ID: !ul 5239167285434626493}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x8a71faa8
+  Translate: [1.7425278425216675, 109.73541259765625, 10.711518287658691]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 5290365303423301584
+  Phive:
+    Placement: {ID: !ul 5290365303423301584}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x5cdd3330
+  Scale: [6.0, 1.0, 6.0]
+  Translate: [4.483123779296875, 102.50975036621094, 14.927237510681152]
+- Dynamic: {DefaultDungeonRoomIndex: 2}
+  Gyaml: Obj_FallingIcicle_A_01
+  Hash: !ul 13321537296350001066
+  Phive:
+    Placement: {ID: !ul 13321537296350001066}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x1eb28908
+  Translate: [0.8985512852668762, 109.10000610351562, 13.175968170166016]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 16116229095796055083
+  Phive:
+    Placement: {ID: !ul 16116229095796055083}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xbda81d23
+  Scale: [6.0, 1.0, 6.0]
+  Translate: [-1.5260071754455566, 101.79685974121094, 8.964359283447266]
+- Dynamic: {DefaultDungeonRoomIndex: 2}
+  Gyaml: Obj_FallingIcicle_A_02
+  Hash: !ul 11214466807514581984
+  Phive:
+    Placement: {ID: !ul 11214466807514581984}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x6f9eca2b
+  Translate: [-1.9042282104492188, 108.805908203125, 7.703070640563965]
+- Dynamic: {DefaultDungeonRoomIndex: 4}
+  Gyaml: AirWallEnemy
+  Hash: !ul 8157994509979418098
+  Phive:
+    Placement: {ID: !ul 8157994509979418098}
+  Rotate: [3.1415927410125732, -1.1462371349334717, 3.1415927410125732]
+  SRTHash: !u 0xacec66fa
+  Scale: [13.17609691619873, 7.370128631591797, 6.762821197509766]
+  Translate: [22.655019760131836, 107.48505401611328, -10.978019714355469]
+- Dynamic: {DefaultDungeonRoomIndex: 4}
+  Gyaml: AirWallEnemy
+  Hash: !ul 9167918508871290705
+  Phive:
+    Placement: {ID: !ul 9167918508871290705}
+  Rotate: [3.1415927410125732, -1.3010258674621582, 3.1415927410125732]
+  SRTHash: !u 0x938fcc58
+  Scale: [17.52239990234375, 8.676557540893555, 5.774131774902344]
+  Translate: [52.673709869384766, 108.13826751708984, 13.950170516967773]
+- Dynamic: {DefaultDungeonRoomIndex: 4, MoveSpeed: 11.0}
+  Gyaml: Obj_MoveSpike_A_01
+  Hash: !ul 14829564649276413799
+  Phive:
+    Placement: {ID: !ul 14829564649276413799}
+  Rails:
+  - {Dst: !ul 4275301180663999611, Gyaml: Reference, Name: Reference}
+  Rotate: [3.1415927410125732, -1.0995572805404663, 3.1415927410125732]
+  SRTHash: !u 0xf67ae00e
+  Translate: [37.465423583984375, 103.95477294921875, 1.2758970260620117]
+- Dynamic: {DefaultDungeonRoomIndex: 4, MoveSpeed: 11.0}
+  Gyaml: Obj_MoveSpike_A_01
+  Hash: !ul 16598819576654442998
+  Phive:
+    Placement: {ID: !ul 16598819576654442998}
+  Rails:
+  - {Dst: !ul 6086098547135201209, Gyaml: Reference, Name: Reference}
+  Rotate: [3.141592502593994, -1.0995572805404663, 3.1415927410125732]
+  SRTHash: !u 0xd9243b89
+  Translate: [45.517940521240234, 103.69293212890625, 7.27402400970459]
+- Gyaml: DungeonRoomCenterAnchor
+  Hash: !ul 12867142335402887923
+  Phive:
+    Placement: {ID: !ul 12867142335402887923}
+  Rotate: [3.1415927410125732, -1.0995572805404663, 3.1415927410125732]
+  SRTHash: !u 0xff2977ce
+  Translate: [41.00480651855469, 104.30000305175781, 3.6491222381591797]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 15155739620501610902
+  Phive:
+    Placement: {ID: !ul 15155739620501610902}
+  Rotate: [3.1415927410125732, 0.7336331009864807, 3.1415927410125732]
+  SRTHash: !u 0xe6174788
+  Scale: [6.0, 1.0, 6.0]
+  Translate: [39.01106643676758, 103.03678894042969, 1.8695125579833984]
+- Dynamic: {DefaultDungeonRoomIndex: 4}
+  Gyaml: Obj_FallingIcicle_A_02
+  Hash: !ul 12581669068849400903
+  Phive:
+    Placement: {ID: !ul 12581669068849400903}
+  Rotate: [3.1415927410125732, 0.7336331605911255, 3.1415927410125732]
+  SRTHash: !u 0x86dbc9af
+  Translate: [39.01106643676758, 110.46289825439453, 1.8695125579833984]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 5157627828636126143
+  Phive:
+    Placement: {ID: !ul 5157627828636126143}
+  Rotate: [3.1415927410125732, 0.7336331009864807, 3.1415927410125732]
+  SRTHash: !u 0x8823b970
+  Scale: [6.0, 1.0, 6.0]
+  Translate: [34.257537841796875, 103.03678894042969, 6.903661727905273]
+- Dynamic: {DefaultDungeonRoomIndex: 4}
+  Gyaml: Obj_FallingIcicle_A_02
+  Hash: !ul 1428945053135656991
+  Phive:
+    Placement: {ID: !ul 1428945053135656991}
+  Rotate: [3.1415927410125732, 0.7336331605911255, 3.1415927410125732]
+  SRTHash: !u 0x24f3d205
+  Translate: [34.257537841796875, 109.55630493164062, 6.903661727905273]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 3572504496801554395
+  Phive:
+    Placement: {ID: !ul 3572504496801554395}
+  Rotate: [3.1415927410125732, 0.7336331009864807, 3.1415927410125732]
+  SRTHash: !u 0x1ecbf859
+  Scale: [6.0, 1.0, 6.0]
+  Translate: [44.060298919677734, 103.03678894042969, 2.878549575805664]
+- Dynamic: {DefaultDungeonRoomIndex: 4}
+  Gyaml: Obj_FallingIcicle_A_01
+  Hash: !ul 9785011882542280206
+  Phive:
+    Placement: {ID: !ul 9785011882542280206}
+  Rotate: [3.1415927410125732, 0.7336331605911255, 3.1415927410125732]
+  SRTHash: !u 0x9c7895ae
+  Translate: [44.060298919677734, 111.7729263305664, 2.878549575805664]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 4891217100666614737
+  Phive:
+    Placement: {ID: !ul 4891217100666614737}
+  Rotate: [3.1415927410125732, 0.7336331009864807, 3.1415927410125732]
+  SRTHash: !u 0x83867121
+  Scale: [6.0, 1.0, 6.0]
+  Translate: [46.007781982421875, 103.03678894042969, 10.535926818847656]
+- Dynamic: {DefaultDungeonRoomIndex: 4}
+  Gyaml: Obj_FallingIcicle_A_02
+  Hash: !ul 3998750774773305736
+  Phive:
+    Placement: {ID: !ul 3998750774773305736}
+  Rotate: [0.0, -0.7336330413818359, 0.0]
+  SRTHash: !u 0x730744f8
+  Translate: [46.007781982421875, 109.8729248046875, 10.535926818847656]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 3739811407461576956
+  Phive:
+    Placement: {ID: !ul 3739811407461576956}
+  Rotate: [3.1415927410125732, 0.7336331009864807, 3.1415927410125732]
+  SRTHash: !u 0xad8f65ec
+  Scale: [6.0, 1.0, 6.0]
+  Translate: [48.58348083496094, 103.03678894042969, 6.670200347900391]
+- Dynamic: {DefaultDungeonRoomIndex: 4}
+  Gyaml: Obj_FallingIcicle_A_02
+  Hash: !ul 14368071009809299359
+  Phive:
+    Placement: {ID: !ul 14368071009809299359}
+  Rotate: [3.1415927410125732, 0.7336331605911255, 3.1415927410125732]
+  SRTHash: !u 0xc8a86164
+  Translate: [48.58348083496094, 111.61277770996094, 6.670200347900391]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 17122231681614050373
+  Phive:
+    Placement: {ID: !ul 17122231681614050373}
+  Rotate: [3.1415927410125732, 0.7336331009864807, 3.1415927410125732]
+  SRTHash: !u 0xb87ee3b1
+  Scale: [6.0, 1.0, 6.0]
+  Translate: [50.001609802246094, 103.03678894042969, 11.8857421875]
+- Dynamic: {DefaultDungeonRoomIndex: 4}
+  Gyaml: Obj_FallingIcicle_A_02
+  Hash: !ul 12196095805855726357
+  Phive:
+    Placement: {ID: !ul 12196095805855726357}
+  Rotate: [3.1415927410125732, 0.7336331605911255, 3.1415927410125732]
+  SRTHash: !u 0x49fd1595
+  Translate: [50.001609802246094, 111.1105728149414, 11.8857421875]
+- Gyaml: DungeonRoomArea
+  Hash: !ul 10112109527546235600
+  Phive:
+    Placement: {ID: !ul 10112109527546235600}
+  Rotate: [0.0, -1.2170559167861938, 0.0]
+  SRTHash: !u 0x567f43ef
+  Scale: [5.0, 5.0, 1.0]
+  Translate: [70.58621215820312, 102.95288848876953, 8.594022750854492]
+- Gyaml: DungeonRoomArea
+  Hash: !ul 18255979151985924082
+  Phive:
+    Placement: {ID: !ul 18255979151985924082}
+  Rotate: [3.1415927410125732, -1.163428544998169, 3.1415927410125732]
+  SRTHash: !u 0xd120ea64
+  Scale: [5.0, 5.0, 1.0]
+  Translate: [22.844804763793945, 101.6640625, -12.305682182312012]
+- Gyaml: Area
+  Hash: !ul 13421591690628773020
+  Phive:
+    Placement: {ID: !ul 13421591690628773020}
+  Rotate: [2.8718221187591553, 3.894712818919288e-08, 1.570796251296997]
+  SRTHash: !u 0x2cb45b70
+  Scale: [2.0, 0.8000074028968811, 5.558164119720459]
+  Translate: [44.90587615966797, 105.79286193847656, 5.781610488891602]
+- Gyaml: Area
+  Hash: !ul 13835879481635489519
+  Phive:
+    Placement: {ID: !ul 13835879481635489519}
+  Rotate: [2.759918451309204, 3.894712818919288e-08, 1.570796251296997]
+  SRTHash: !u 0x4e32a6f2
+  Scale: [2.0, 0.8000074625015259, 5.558164119720459]
+  Translate: [35.137062072753906, 105.79286193847656, 5.559913635253906]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 6492922285966638932
+  Phive:
+    Placement: {ID: !ul 6492922285966638932}
+  Rotate: [0.009679440408945084, -0.37107139825820923, -0.0044996426440775394]
+  SRTHash: !u 0x63d84c79
+  Scale: [3.0, 1.0, 2.999999761581421]
+  Translate: [-11.459704399108887, 100.39866638183594, -23.08924674987793]
+- Dynamic: {DefaultDungeonRoomIndex: 7}
+  Gyaml: Obj_FallingIcicle_A_02
+  Hash: !ul 1640445864853155252
+  Phive:
+    Placement: {ID: !ul 1640445864853155252}
+  Rotate: [0.009679440408945084, -0.37107139825820923, -0.0044996426440775394]
+  SRTHash: !u 0xe55dd00a
+  Translate: [-11.45317268371582, 106.4512939453125, -23.029712677001953]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 15324670055555749996
+  Phive:
+    Placement: {ID: !ul 15324670055555749996}
+  Rotate: [0.009679440408945084, -0.37107139825820923, -0.0044996426440775394]
+  SRTHash: !u 0x6a51206c
+  Scale: [3.0, 1.0, 2.999999761581421]
+  Translate: [-9.854524612426758, 99.92647552490234, -24.078182220458984]
+- Dynamic: {DefaultDungeonRoomIndex: 7}
+  Gyaml: Obj_FallingIcicle_A_02
+  Hash: !ul 9236258918509145699
+  Phive:
+    Placement: {ID: !ul 9236258918509145699}
+  Rotate: [0.009679440408945084, -0.37107139825820923, -0.0044996426440775394]
+  SRTHash: !u 0x774d259c
+  Translate: [-9.847993850708008, 106.52597045898438, -24.018648147583008]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 1197216466557570294
+  Phive:
+    Placement: {ID: !ul 1197216466557570294}
+  Rotate: [0.009679441340267658, -0.37107139825820923, -0.0044996426440775394]
+  SRTHash: !u 0xbbb6c4db
+  Scale: [2.5, 1.0, 2.499999761581421]
+  Translate: [-9.160543441772461, 100.34258270263672, -22.963577270507812]
+- Dynamic: {DefaultDungeonRoomIndex: 7}
+  Gyaml: Obj_FallingIcicle_A_02
+  Hash: !ul 15876394073918759366
+  Phive:
+    Placement: {ID: !ul 15876394073918759366}
+  Rotate: [0.009679440408945084, -0.37107139825820923, -0.0044996426440775394]
+  SRTHash: !u 0xe724b7e8
+  Translate: [-9.154012680053711, 106.94207763671875, -22.904043197631836]
+- Gyaml: DungeonRoomArea
+  Hash: !ul 2927966307388341383
+  Phive:
+    Placement: {ID: !ul 2927966307388341383}
+  Rotate: [-6.390437761183421e-07, 1.5541408061981201, -6.395086984412046e-07]
+  SRTHash: !u 0x2631f0ab
+  Scale: [4.0, 2.992856502532959, 1.0]
+  Translate: [-5.389571666717529, 100.40101623535156, -13.626331329345703]
+- Gyaml: DungeonRoomCenterAnchor
+  Hash: !ul 4213493501717898
+  Phive:
+    Placement: {ID: !ul 4213493501717898}
+  SRTHash: !u 0x1fd01be1
+  Translate: [-13.721349716186523, 100.65999603271484, -17.498537063598633]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 8460553754560139666
+  Phive:
+    Placement: {ID: !ul 8460553754560139666}
+  Rotate: [0.009679440408945084, -0.37107139825820923, -0.0044996426440775394]
+  SRTHash: !u 0x59b77068
+  Scale: [3.0, 1.0, 2.999999761581421]
+  Translate: [-7.072099685668945, 100.39866638183594, -22.878881454467773]
+- Dynamic: {DefaultDungeonRoomIndex: 7}
+  Gyaml: Obj_FallingIcicle_A_02
+  Hash: !ul 4170340469262595147
+  Phive:
+    Placement: {ID: !ul 4170340469262595147}
+  Rotate: [0.009679440408945084, -0.37107139825820923, -0.0044996426440775394]
+  SRTHash: !u 0x499a699c
+  Translate: [-7.066554546356201, 106.38458251953125, -22.82833480834961]
+- Bakeable: true
+  Dynamic: {DefaultDungeonRoomIndex: 10, IsDisableSaveAndWarp: true, ShutterEvent: Common_Dungeon_OpenShutterWithLockMoveToPlusZ_FocusWhiteWolfos}
+  Gyaml: Obj_IceCave_SwitchShutter_A_02
+  Hash: !ul 6080385011425235023
+  Links:
+  - {Dst: !ul 8075604269458561056, Gyaml: Reference, Name: Reference, Src: !ul 6080385011425235023}
+  - {Dst: !ul 8796415083080143374, Gyaml: Reference, Name: Reference, Src: !ul 6080385011425235023}
+  - {Dst: !ul 11276776130352040718, Gyaml: Reference, Name: Reference, Src: !ul 6080385011425235023}
+  - {Dst: !ul 9327000257852860012, Gyaml: Reference, Name: Reference, Src: !ul 6080385011425235023}
+  - {Dst: !ul 7225222299237517629, Gyaml: Reference, Name: Reference, Src: !ul 6080385011425235023}
+  - {Dst: !ul 15445147015390979650, Gyaml: Reference, Name: Reference, Src: !ul 6080385011425235023}
+  - {Dst: !ul 15472048667451368083, Gyaml: Reference, Name: Reference, Src: !ul 6080385011425235023}
+  - {Dst: !ul 6842265258982926303, Gyaml: Reference, Name: Reference, Src: !ul 6080385011425235023}
+  Phive:
+    Placement: {ID: !ul 6080385011425235023}
+  SRTHash: !u 0x416bbe81
+  Translate: [-46.29563903808594, 109.57070922851562, 25.827438354492188]
+- Bakeable: true
+  Dynamic: {DefaultDungeonRoomIndex: 10}
+  Gyaml: Obj_SwitchShutter_A_02
+  Hash: !ul 8796415083080143374
+  Name: SwitchShutterPlusZ
+  Phive:
+    Placement: {ID: !ul 8796415083080143374}
+  SRTHash: !u 0xa9497b04
+  Translate: [-46.29563903808594, 109.57070922851562, 26.267438888549805]
+- Bakeable: true
+  Dynamic: {DefaultDungeonRoomIndex: 9}
+  Gyaml: Obj_SwitchShutter_A_02
+  Hash: !ul 8075604269458561056
+  Name: SwitchShutterMinusZ
+  Phive:
+    Placement: {ID: !ul 8075604269458561056}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0xbb40eb13
+  Translate: [-46.29563903808594, 109.57070922851562, 25.38743782043457]
+- Gyaml: DestinationAnchor
+  Hash: !ul 10014889397023125040
+  Phive:
+    Placement: {ID: !ul 10014889397023125040}
+  SRTHash: !u 0xafda6001
+  Translate: [-46.29563903808594, 110.57070922851562, 26.827438354492188]
+- Gyaml: DestinationAnchor
+  Hash: !ul 5913053151989970114
+  Phive:
+    Placement: {ID: !ul 5913053151989970114}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xb3d9d7d7
+  Translate: [-46.29563903808594, 110.57070922851562, 24.827438354492188]
+- Dynamic: {DefaultDungeonRoomIndex: 10}
+  Gyaml: AirWallEnemy
+  Hash: !ul 147667037159417838
+  Phive:
+    Placement: {ID: !ul 147667037159417838}
+  SRTHash: !u 0x22104fb0
+  Scale: [1.7000000476837158, 2.5999999046325684, 1.7000000476837158]
+  Translate: [-46.29563903808594, 110.87071228027344, 25.827438354492188]
+- Gyaml: DestinationAnchor
+  Hash: !ul 9327000257852860012
+  Name: CameraMinusZ
+  Phive:
+    Placement: {ID: !ul 9327000257852860012}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xc330856a
+  Translate: [-46.29563903808594, 109.57070922851562, 23.827438354492188]
+- Gyaml: DestinationAnchor
+  Hash: !ul 11276776130352040718
+  Name: CameraPlusZ
+  Phive:
+    Placement: {ID: !ul 11276776130352040718}
+  SRTHash: !u 0xd19ce799
+  Translate: [-46.29563903808594, 109.57070922851562, 27.827438354492188]
+- Dynamic:
+    MoveTime: 20.0
+    StartPosRate: [0.0, 0.0, -1.0]
+  Gyaml: PushAirWall_DoorFront
+  Hash: !ul 7225222299237517629
+  Phive:
+    Placement: {ID: !ul 7225222299237517629}
+  SRTHash: !u 0x416bbe81
+  Translate: [-46.29563903808594, 109.57070922851562, 25.827438354492188]
+- Gyaml: DungeonRoomArea
+  Hash: !ul 17370557715539707972
+  Phive:
+    Placement: {ID: !ul 17370557715539707972}
+  SRTHash: !u 0xd9433113
+  Scale: [4.0, 2.992856502532959, 1.0]
+  Translate: [-45.72493362426758, 109.65117645263672, 27.298233032226562]
+- Gyaml: DungeonRoomArea
+  Hash: !ul 5026910073755526260
+  Phive:
+    Placement: {ID: !ul 5026910073755526260}
+  Rotate: [0.0, -0.2617994248867035, 2.1515366199764685e-07]
+  SRTHash: !u 0x1bed1ca7
+  Scale: [5.550313949584961, 3.711202621459961, 1.0]
+  Translate: [-46.684234619140625, 109.615234375, 49.1164665222168]
+- Dynamic: {DefaultDungeonRoomIndex: 10, Drop__DropTable: None, IsIntendedForEventAppear: true}
+  Gyaml: Enemy_Wolfos_White
+  Hash: !ul 15472048667451368083
+  Name: First
+  Phive:
+    Placement: {ID: !ul 15472048667451368083}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xed7f3e95
+  Translate: [-46.22492980957031, 109.68278503417969, 40.0]
+- Dynamic: {DefaultDungeonRoomIndex: 11}
+  Gyaml: Obj_EnemyCounter_A_06
+  Hash: !ul 10089091431590063965
+  Links:
+  - {Dst: !ul 15472048667451368083, Gyaml: Reference, Name: Reference, Src: !ul 10089091431590063965}
+  Phive:
+    Placement: {ID: !ul 10089091431590063965}
+  Rotate: [3.141592502593994, 0.2617993950843811, -3.141592502593994]
+  SRTHash: !u 0x4c18b47b
+  Translate: [-46.099998474121094, 109.69999694824219, 50.400001525878906]
+- Dynamic: {RequestEventName: TreasureBoxAppear_Room04}
+  Gyaml: EventRequestActor
+  Hash: !ul 14093347216660958637
+  Links:
+  - {Dst: !ul 8179891458486778443, Gyaml: Reference, Name: Reference, Src: !ul 14093347216660958637}
+  - {Dst: !ul 6859289214373847284, Gyaml: Reference, Name: Reference, Src: !ul 14093347216660958637}
+  - {Dst: !ul 3286195787828114835, Gyaml: Reference, Name: Reference, Src: !ul 14093347216660958637}
+  - {Dst: !ul 12870350099179067732, Gyaml: Reference, Name: Reference, Src: !ul 14093347216660958637}
+  - {Dst: !ul 6141854514833870223, Gyaml: Reference, Name: Reference, Src: !ul 14093347216660958637}
+  - {Dst: !ul 6842265258982926303, Gyaml: Reference, Name: Reference, Src: !ul 14093347216660958637}
+  - {Dst: !ul 3725029984551228346, Gyaml: Reference, Name: Reference, Src: !ul 14093347216660958637}
+  - {Dst: !ul 7478036095365563012, Gyaml: Reference, Name: Reference, Src: !ul 14093347216660958637}
+  - {Dst: !ul 10089091431590063965, Gyaml: Reference, Name: Reference, Src: !ul 14093347216660958637}
+  Phive:
+    Placement: {ID: !ul 14093347216660958637}
+  Rotate: [-3.1415927410125732, -0.0, 3.1415927410125732]
+  SRTHash: !u 0x078f6f90
+  Translate: [-44.254398345947266, 111.1884765625, 40.277000427246094]
+- Gyaml: DestinationAnchor
+  Hash: !ul 3286195787828114835
+  Name: TargetPoint1
+  Phive:
+    Placement: {ID: !ul 3286195787828114835}
+  Rotate: [-3.141592502593994, 0.19237105548381805, -3.1415927410125732]
+  SRTHash: !u 0x1ebad2ad
+  Translate: [-45.87156295776367, 111.7344970703125, 49.13412094116211]
+- Dynamic: {DefaultDungeonRoomIndex: 10, Drop__DropActor: Item_HeavyBoot, GetEventName: SageOfWater_MelodyGet_Water}
+  Gyaml: Obj_TBox_A_02_NoBake
+  Hash: !ul 6859289214373847284
+  Links:
+  - {Dst: !ul 8112940862681562601, Gyaml: Reference, Name: Reference, Src: !ul 6859289214373847284}
+  Phive:
+    Placement: {ID: !ul 6859289214373847284}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, -3.1415927410125732]
+  SRTHash: !u 0x9204c5c7
+  Translate: [-46.22481155395508, 109.70999908447266, 42.527000427246094]
+- Gyaml: DestinationAnchor
+  Hash: !ul 8179891458486778443
+  Name: Point2
+  Phive:
+    Placement: {ID: !ul 8179891458486778443}
+  Rotate: [-3.1415927410125732, -0.0, 3.1415927410125732]
+  SRTHash: !u 0x086b8f2c
+  Translate: [-46.22481155395508, 110.24165344238281, 41.4648551940918]
+- Gyaml: DestinationAnchor
+  Hash: !ul 12870350099179067732
+  Name: TBox
+  Phive:
+    Placement: {ID: !ul 12870350099179067732}
+  Rotate: [-3.1415927410125732, -0.0, 3.1415927410125732]
+  SRTHash: !u 0x427f389c
+  Translate: [-46.22481155395508, 109.70999908447266, 42.527000427246094]
+- Dynamic:
+    LimitDirection: [0.0, 1.0, 0.0]
+    MoveTime: 120.0
+  Gyaml: PushAirWall_Box
+  Hash: !ul 6141854514833870223
+  Phive:
+    Placement: {ID: !ul 6141854514833870223}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x75dbabb2
+  Scale: [0.24734127521514893, 0.2971465587615967, 0.32871583104133606]
+  Translate: [-46.21113204956055, 109.70996856689453, 42.516510009765625]
+- Gyaml: DestinationAnchor
+  Hash: !ul 3725029984551228346
+  Name: ViewPoint1
+  Phive:
+    Placement: {ID: !ul 3725029984551228346}
+  Rotate: [-3.141592502593994, 0.19237105548381805, -3.1415927410125732]
+  SRTHash: !u 0x20fb9e7d
+  Translate: [-44.32359313964844, 111.91000366210938, 42.37229537963867]
+- Gyaml: DestinationAnchor
+  Hash: !ul 7478036095365563012
+  Name: ViewPoint2
+  Phive:
+    Placement: {ID: !ul 7478036095365563012}
+  Rotate: [-3.141592502593994, 0.19237105548381805, -3.1415927410125732]
+  SRTHash: !u 0xba81e443
+  Translate: [-46.3571891784668, 111.93473815917969, 34.88736343383789]
+- Gyaml: DropKeepAwayArea_TBox_A_02
+  Hash: !ul 18086014326882703628
+  Phive:
+    Placement: {ID: !ul 18086014326882703628}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, -3.1415927410125732]
+  SRTHash: !u 0x9204c5c7
+  Translate: [-46.22481155395508, 109.70999908447266, 42.527000427246094]
+- Gyaml: DungeonRoomCenterAnchor
+  Hash: !ul 14849540181110847725
+  Phive:
+    Placement: {ID: !ul 14849540181110847725}
+  SRTHash: !u 0x183e480a
+  Translate: [-46.22493362426758, 109.615234375, 36.645626068115234]
+- Gyaml: DestinationAnchor
+  Hash: !ul 8112940862681562601
+  Name: Dm_PlayerPos_IceCavern_WaterSerenade_00
+  Phive:
+    Placement: {ID: !ul 8112940862681562601}
+  SRTHash: !u 0x5b3b4691
+  Translate: [-46.249332427978516, 109.65660095214844, 34.015647888183594]
+- Dynamic: {IsAlwaysAutoSaveWhenEnter: true, IsNeedAutoSave: true}
+  Gyaml: Area
+  Hash: !ul 3797417899490731587
+  Phive:
+    Placement: {ID: !ul 3797417899490731587}
+  Rotate: [0.08783968538045883, -0.0, -0.03869694471359253]
+  SRTHash: !u 0x1be107f8
+  Translate: [-46.4622802734375, 109.3991928100586, 26.40279197692871]
+- Gyaml: DestinationAnchor
+  Hash: !ul 15445147015390979650
+  Name: WhiteWolfos
+  Phive:
+    Placement: {ID: !ul 15445147015390979650}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0xd0ef2b90
+  Translate: [-46.224998474121094, 109.63076782226562, 37.735862731933594]
+- Dynamic: {DefaultDungeonRoomIndex: 10}
+  Gyaml: Obj_EnemyCounter_A_01
+  Hash: !ul 6842265258982926303
+  Links:
+  - {Dst: !ul 15472048667451368083, Gyaml: Reference, Name: Reference, Src: !ul 6842265258982926303}
+  Phive:
+    Placement: {ID: !ul 6842265258982926303}
+  SRTHash: !u 0xb55f5047
+  Translate: [-46.30620574951172, 109.712158203125, 26.472314834594727]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 3854638079633445674
+  Phive:
+    Placement: {ID: !ul 3854638079633445674}
+  SRTHash: !u 0x04aa9334
+  Scale: [5.0, 1.0, 5.0]
+  Translate: [-44.215728759765625, 105.48312377929688, 8.73828125]
+- Dynamic: {DefaultDungeonRoomIndex: 9}
+  Gyaml: Obj_FallingIcicle_A_02
+  Hash: !ul 16644044579805868641
+  Phive:
+    Placement: {ID: !ul 16644044579805868641}
+  SRTHash: !u 0x80de93fc
+  Translate: [-45.274295806884766, 111.5, 8.73828125]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 12241304348677045401
+  Phive:
+    Placement: {ID: !ul 12241304348677045401}
+  SRTHash: !u 0xad891045
+  Scale: [5.0, 1.0, 5.0]
+  Translate: [-44.0, 105.37557220458984, 10.289999961853027]
+- Dynamic: {DefaultDungeonRoomIndex: 9}
+  Gyaml: Obj_FallingIcicle_A_02
+  Hash: !ul 7883930213443440881
+  Phive:
+    Placement: {ID: !ul 7883930213443440881}
+  SRTHash: !u 0x8384fed1
+  Translate: [-44.0, 111.11170959472656, 10.289999961853027]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 6766371720604932730
+  Phive:
+    Placement: {ID: !ul 6766371720604932730}
+  SRTHash: !u 0x19793e12
+  Scale: [5.0, 1.0, 5.0]
+  Translate: [-35.81922149658203, 104.04828643798828, 0.6087093353271484]
+- Dynamic: {DefaultDungeonRoomIndex: 9}
+  Gyaml: Obj_FallingIcicle_A_02
+  Hash: !ul 1831621353832305989
+  Phive:
+    Placement: {ID: !ul 1831621353832305989}
+  SRTHash: !u 0xbc515d44
+  Translate: [-35.81922149658203, 110.68441772460938, 0.6087093353271484]
+- Gyaml: DungeonRoomArea
+  Hash: !ul 9422051707709067574
+  Phive:
+    Placement: {ID: !ul 9422051707709067574}
+  SRTHash: !u 0xc08822cd
+  Scale: [4.0, 3.7633705139160156, 1.0]
+  Translate: [-35.38984680175781, 104.17139434814453, -6.369999885559082]
+- Gyaml: DungeonRoomArea
+  Hash: !ul 5092116498062362067
+  Phive:
+    Placement: {ID: !ul 5092116498062362067}
+  Rotate: [0.0, 0.08726652711629868, 0.0]
+  SRTHash: !u 0xa0906390
+  Scale: [1.6785553693771362, 2.1793601512908936, 1.0]
+  Translate: [-46.539649963378906, 109.90200805664062, 24.26634979248047]
+- Gyaml: DungeonRoomCenterAnchor
+  Hash: !ul 10821004122637053323
+  Phive:
+    Placement: {ID: !ul 10821004122637053323}
+  Rotate: [0.0, -0.6981317400932312, 0.0]
+  SRTHash: !u 0xa39ccb87
+  Translate: [-41.75084686279297, 105.80604553222656, 8.03839111328125]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 11187316231566479790
+  Phive:
+    Placement: {ID: !ul 11187316231566479790}
+  SRTHash: !u 0x473e65ff
+  Scale: [2.0, 1.0, 2.0]
+  Translate: [-25.75, 108.04828643798828, -0.36500000953674316]
+- Dynamic: {DefaultDungeonRoomIndex: 9}
+  Gyaml: Obj_FallingIcicle_A_02
+  Hash: !ul 5123163983533574945
+  Phive:
+    Placement: {ID: !ul 5123163983533574945}
+  SRTHash: !u 0x85d6fa9a
+  Translate: [-25.5, 114.68441772460938, -0.49000000953674316]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 7858326366429010212
+  Phive:
+    Placement: {ID: !ul 7858326366429010212}
+  SRTHash: !u 0x707b8a6a
+  Scale: [2.0, 1.0, 2.0]
+  Translate: [-25.5, 107.79828643798828, 1.8450000286102295]
+- Dynamic: {DefaultDungeonRoomIndex: 9}
+  Gyaml: Obj_FallingIcicle_A_02
+  Hash: !ul 3477860405817413460
+  Phive:
+    Placement: {ID: !ul 3477860405817413460}
+  SRTHash: !u 0xb7fc58c2
+  Translate: [-26.0, 113.93441772460938, 1.4700000286102295]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 13171869948201376477
+  Phive:
+    Placement: {ID: !ul 13171869948201376477}
+  SRTHash: !u 0x4f3dd798
+  Scale: [2.5, 1.0, 2.5]
+  Translate: [-25.257465362548828, 107.79828643798828, 1.7299480438232422]
+- Dynamic: {DefaultDungeonRoomIndex: 9}
+  Gyaml: Obj_FallingIcicle_A_02
+  Hash: !ul 7065918455368714750
+  Phive:
+    Placement: {ID: !ul 7065918455368714750}
+  SRTHash: !u 0x8858434e
+  Translate: [-25.257465362548828, 113.6344223022461, 1.7299480438232422]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 3810940912278186802
+  Phive:
+    Placement: {ID: !ul 3810940912278186802}
+  SRTHash: !u 0xa492c30c
+  Scale: [2.5, 1.0, 2.5]
+  Translate: [-25.257465362548828, 108.17328643798828, 0.6049480438232422]
+- Dynamic: {DefaultDungeonRoomIndex: 9}
+  Gyaml: Obj_FallingIcicle_A_02
+  Hash: !ul 16243451399402928811
+  Phive:
+    Placement: {ID: !ul 16243451399402928811}
+  SRTHash: !u 0x8c858b25
+  Translate: [-25.257465362548828, 114.45941925048828, 0.6049480438232422]
+- Dynamic: {RigidBodyShapeType: 3}
+  Gyaml: Area
+  Hash: !ul 8853062980272126378
+  Phive:
+    Placement: {ID: !ul 8853062980272126378}
+  SRTHash: !u 0xec84eed2
+  Scale: [2.5, 1.0, 2.5]
+  Translate: [-25.757465362548828, 108.17329406738281, -1.3950519561767578]
+- Dynamic: {DefaultDungeonRoomIndex: 9}
+  Gyaml: Obj_FallingIcicle_A_02
+  Hash: !ul 2781865107940036577
+  Phive:
+    Placement: {ID: !ul 2781865107940036577}
+  SRTHash: !u 0xafae6fc8
+  Translate: [-25.757465362548828, 114.60942840576172, -1.3950519561767578]
+- Gyaml: Obj_BlueFire_A_01
+  Hash: !ul 24422648145807631
+  Links:
+  - {Dst: !ul 675149632026023301, Gyaml: Reference, Name: Reference, Src: !ul 24422648145807631}
+  - {Dst: !ul 9576884761876112550, Gyaml: Reference, Name: Reference, Src: !ul 24422648145807631}
+  - {Dst: !ul 16608382915602870424, Gyaml: Reference, Name: Reference, Src: !ul 24422648145807631}
+  - {Dst: !ul 17845857652649613656, Gyaml: Reference, Name: Reference, Src: !ul 24422648145807631}
+  - {Dst: !ul 24422648145807631, Gyaml: Reference, Name: Reference, Src: !ul 24422648145807631}
+  - {Dst: !ul 5772520003468416471, Gyaml: Reference, Name: Reference, Src: !ul 24422648145807631}
+  - {Dst: !ul 8893626035135374725, Gyaml: Reference, Name: Reference, Src: !ul 24422648145807631}
+  - {Dst: !ul 10686694243401682583, Gyaml: Reference, Name: Reference, Src: !ul 24422648145807631}
+  Phive:
+    Placement: {ID: !ul 24422648145807631}
+  Rotate: [0.0, 0.8832380771636963, 0.0]
+  SRTHash: !u 0x04d41e73
+  Translate: [-22.8551025390625, 108.70999908447266, -0.09724640846252441]
+- Gyaml: DestinationAnchor
+  Hash: !ul 675149632026023301
+  Name: '0'
+  Phive:
+    Placement: {ID: !ul 675149632026023301}
+  Rotate: [0.0, -0.16395938396453857, 0.0]
+  SRTHash: !u 0x047e7f84
+  Translate: [-23.417646408081055, 109.1309814453125, 0.5991578102111816]
+- Gyaml: DestinationAnchor
+  Hash: !ul 9576884761876112550
+  Name: '1'
+  Phive:
+    Placement: {ID: !ul 9576884761876112550}
+  Rotate: [0.0, -0.16395938396453857, 0.0]
+  SRTHash: !u 0xdff91579
+  Translate: [-22.490863800048828, 109.41341400146484, 1.0271797180175781]
+- Gyaml: DestinationAnchor
+  Hash: !ul 16608382915602870424
+  Name: '2'
+  Phive:
+    Placement: {ID: !ul 16608382915602870424}
+  Rotate: [0.0, -0.16395938396453857, 0.0]
+  SRTHash: !u 0xb038c973
+  Translate: [-22.062143325805664, 109.37503814697266, -0.42537492513656616]
+- Gyaml: DestinationAnchor
+  Hash: !ul 17845857652649613656
+  Name: '3'
+  Phive:
+    Placement: {ID: !ul 17845857652649613656}
+  Rotate: [0.0, -0.16395938396453857, 0.0]
+  SRTHash: !u 0xe9e0c6c7
+  Translate: [-23.43081283569336, 109.19459533691406, -0.5602192878723145]
+- Gyaml: DestinationAnchor
+  Hash: !ul 8893626035135374725
+  Name: '5'
+  Phive:
+    Placement: {ID: !ul 8893626035135374725}
+  Rotate: [0.0, -0.16395938396453857, 0.0]
+  SRTHash: !u 0x9046c59f
+  Translate: [-22.929832458496094, 109.67382049560547, -0.6751556396484375]
+- Gyaml: DestinationAnchor
+  Hash: !ul 5772520003468416471
+  Name: '4'
+  Phive:
+    Placement: {ID: !ul 5772520003468416471}
+  Rotate: [0.0, -0.16395938396453857, 0.0]
+  SRTHash: !u 0x3dbb539a
+  Translate: [-23.137025833129883, 109.410400390625, 0.41491684317588806]
+- Gyaml: DestinationAnchor
+  Hash: !ul 10686694243401682583
+  Name: '6'
+  Phive:
+    Placement: {ID: !ul 10686694243401682583}
+  Rotate: [0.0, -0.16395938396453857, 0.0]
+  SRTHash: !u 0x34e84d4a
+  Translate: [-22.707456588745117, 110.3670654296875, -0.05248136818408966]
+- Bakeable: true
+  Dynamic: {DefaultDungeonRoomIndex: 9}
+  Gyaml: Obj_RedIce_A_04
+  Hash: !ul 16134962554615344128
+  Phive:
+    Placement: {ID: !ul 16134962554615344128}
+  Rotate: [0.0, -0.5205349326133728, 0.0]
+  SRTHash: !u 0x8aa3d4f2
+  Translate: [-46.672367095947266, 109.09359741210938, 24.901426315307617]
+- Gyaml: DungeonRoomArea
+  Hash: !ul 17839348686013908122
+  Phive:
+    Placement: {ID: !ul 17839348686013908122}
+  SRTHash: !u 0xc290c51a
+  Scale: [6.235015869140625, 4.0, 1.0]
+  Translate: [-47.252750396728516, 94.0, 77.3436279296875]
+- Gyaml: DungeonRoomArea
+  Hash: !ul 7379406517873510107
+  Phive:
+    Placement: {ID: !ul 7379406517873510107}
+  Rotate: [0.0, -0.2617993950843811, 0.0]
+  SRTHash: !u 0xbedd2d83
+  Scale: [4.0, 4.095232963562012, 1.0]
+  Translate: [-46.1755485534668, 109.55862426757812, 51.47909164428711]
+- Gyaml: Obj_BlueFire_A_01
+  Hash: !ul 321528797119211780
+  Links:
+  - {Dst: !ul 269676319327323540, Gyaml: Reference, Name: Reference, Src: !ul 321528797119211780}
+  - {Dst: !ul 9277824556648013011, Gyaml: Reference, Name: Reference, Src: !ul 321528797119211780}
+  - {Dst: !ul 11067697704761155755, Gyaml: Reference, Name: Reference, Src: !ul 321528797119211780}
+  - {Dst: !ul 17985023681310480939, Gyaml: Reference, Name: Reference, Src: !ul 321528797119211780}
+  - {Dst: !ul 321528797119211780, Gyaml: Reference, Name: Reference, Src: !ul 321528797119211780}
+  - {Dst: !ul 8426380141353387229, Gyaml: Reference, Name: Reference, Src: !ul 321528797119211780}
+  - {Dst: !ul 8228141314568879538, Gyaml: Reference, Name: Reference, Src: !ul 321528797119211780}
+  - {Dst: !ul 10964659458550615458, Gyaml: Reference, Name: Reference, Src: !ul 321528797119211780}
+  Phive:
+    Placement: {ID: !ul 321528797119211780}
+  Rotate: [4.412538941140709e-15, -0.5235987901687622, 1.7484555314695172e-07]
+  SRTHash: !u 0xc0309a8b
+  Translate: [-57.62089157104492, 108.56752014160156, 61.0349235534668]
+- Gyaml: DestinationAnchor
+  Hash: !ul 269676319327323540
+  Name: '0'
+  Phive:
+    Placement: {ID: !ul 269676319327323540}
+  Rotate: [0.0, -1.570796251296997, 1.7484555314695172e-07]
+  SRTHash: !u 0xa0a987e1
+  Translate: [-58.399776458740234, 108.9885025024414, 60.593597412109375]
+- Gyaml: DestinationAnchor
+  Hash: !ul 9277824556648013011
+  Name: '1'
+  Phive:
+    Placement: {ID: !ul 9277824556648013011}
+  Rotate: [0.0, -1.570796251296997, 1.7484555314695172e-07]
+  SRTHash: !u 0x642342b9
+  Translate: [-58.67078399658203, 109.27093505859375, 61.57781219482422]
+- Gyaml: DestinationAnchor
+  Hash: !ul 11067697704761155755
+  Name: '2'
+  Phive:
+    Placement: {ID: !ul 11067697704761155755}
+  Rotate: [0.0, -1.570796251296997, 1.7484555314695172e-07]
+  SRTHash: !u 0xa0667048
+  Translate: [-57.16773223876953, 109.23255920410156, 61.76368713378906]
+- Gyaml: DestinationAnchor
+  Hash: !ul 17985023681310480939
+  Name: '3'
+  Phive:
+    Placement: {ID: !ul 17985023681310480939}
+  Rotate: [0.0, -1.570796251296997, 1.7484555314695172e-07]
+  SRTHash: !u 0x108bb81c
+  Translate: [-57.25809860229492, 109.05211639404297, 60.39136505126953]
+- Gyaml: DestinationAnchor
+  Hash: !ul 8228141314568879538
+  Name: '5'
+  Phive:
+    Placement: {ID: !ul 8228141314568879538}
+  Rotate: [0.0, -1.570796251296997, 1.7484555314695172e-07]
+  SRTHash: !u 0x479a8f5d
+  Translate: [-57.062931060791016, 109.53134155273438, 60.86686706542969]
+- Gyaml: DestinationAnchor
+  Hash: !ul 8426380141353387229
+  Name: '4'
+  Phive:
+    Placement: {ID: !ul 8426380141353387229}
+  Rotate: [0.0, -1.570796251296997, 1.7484555314695172e-07]
+  SRTHash: !u 0x9af29791
+  Translate: [-58.172203063964844, 109.2679214477539, 60.84038162231445]
+- Gyaml: DestinationAnchor
+  Hash: !ul 10964659458550615458
+  Name: '6'
+  Phive:
+    Placement: {ID: !ul 10964659458550615458}
+  Rotate: [0.0, -1.570796251296997, 1.7484555314695172e-07]
+  SRTHash: !u 0x1c9bda9d
+  Translate: [-57.64095687866211, 110.2245864868164, 61.187896728515625]
+- Gyaml: DungeonRoomCenterAnchor
+  Hash: !ul 3516035625674524055
+  Phive:
+    Placement: {ID: !ul 3516035625674524055}
+  Rotate: [0.0, -1.570796251296997, 1.7484555314695172e-07]
+  SRTHash: !u 0x3e2bfa38
+  Translate: [-50.74235534667969, 113.1114501953125, 62.73600769042969]
+- Gyaml: Area
+  Hash: !ul 2045985114799882744
+  Phive:
+    Placement: {ID: !ul 2045985114799882744}
+  SRTHash: !u 0xba434d83
+  Scale: [6.0, 1.0, 5.0]
+  Translate: [-27.5, 100.94548034667969, -10.5]
+- Gyaml: Obj_WaterPlane_A_01
+  Hash: !ul 16773273737460589237
+  Phive:
+    Placement: {ID: !ul 16773273737460589237}
+  SRTHash: !u 0xa57218f4
+  Scale: [4.0, 4.0, 4.0]
+  Translate: [-47.26679992675781, 107.94007873535156, 76.44000244140625]
+- Gyaml: Area
+  Hash: !ul 11892892346725177495
+  Phive:
+    Placement: {ID: !ul 11892892346725177495}
+  SRTHash: !u 0x6847e09f
+  Scale: [9.5, 4.0, 1.0]
+  Translate: [-47.04246520996094, 95.53417205810547, 79.18630981445312]
+- Gyaml: Area
+  Hash: !ul 7445657268056122607
+  Phive:
+    Placement: {ID: !ul 7445657268056122607}
+  Rotate: [-3.141592502593994, -0.0, 0.0]
+  SRTHash: !u 0xe7cc1f5e
+  Scale: [12.0, 15.0, 22.0]
+  Translate: [-47.625, 108.12680053710938, 80.25]
+- Gyaml: Area
+  Hash: !ul 9073988755612139841
+  Phive:
+    Placement: {ID: !ul 9073988755612139841}
+  SRTHash: !u 0xb71a2894
+  Scale: [8.0, 2.0, 15.0]
+  Translate: [-48.04922103881836, 95.5, 72.5]
+AiGroups:
+- Hash: !ul 36885447128851602
+  Logic: Logic/Module/IceCavern_Level_Room_00_Prefab_icicle02/IceCavern_Level_Room_00_Prefab_icicle02_f254.logic.module.ain
+  References:
+  - {Id: Area_1f96, Path: Area_1f96, Reference: !ul 15178725825351742029}
+  - {Id: Obj_FallingIcicle_A_02_6900, Path: Obj_FallingIcicle_A_02_6900, Reference: !ul 7038413869877657485}
+- Hash: !ul 70847809069058370
+  Logic: Logic/Module/IceCavern_Level_Room_02_Prefab/IceCavern_Level_Room_02_Prefab_d2d7.logic.module.ain
+  References:
+  - {Id: Area_bdf9, Path: Area_bdf9, Reference: !ul 2045985114799882744}
+- Hash: !ul 114099936973442192
+  Logic: Logic/Module/InvalidateRestartArea/InvalidateRestartArea_0016.logic.module.ain
+  References:
+  - {Id: Area_7eb6, Path: Area_7eb6, Reference: !ul 15549293104904026493}
+- Hash: !ul 255418476353787870
+  Logic: Logic/Module/IceCavern_Level_Room_00_Prefab_icicle02/IceCavern_Level_Room_00_Prefab_icicle02_f254.logic.module.ain
+  References:
+  - {Id: Area_1f96, Path: Area_1f96, Reference: !ul 15155739620501610902}
+  - {Id: Obj_FallingIcicle_A_02_6900, Path: Obj_FallingIcicle_A_02_6900, Reference: !ul 12581669068849400903}
+- Hash: !ul 392324719654041684
+  Logic: Logic/Module/IceCavern_Level_Room_05_Prefab/IceCavern_Level_Room_05_Prefab_7267.logic.module.ain
+  References:
+  - {Id: Obj_BrokenIcePillar_A_02_2a2d, Path: Obj_BrokenIcePillar_A_02_2a2d, Reference: !ul 10036345510171334973}
+  - {Id: Obj_BrokenIcePillar_A_02_74e3, Path: Obj_BrokenIcePillar_A_02_74e3, Reference: !ul 14253337296082374911}
+  - {Id: FldObj_AirWall_Player_87c5, Path: FldObj_AirWall_Player_87c5, Reference: !ul 3006378171520377700}
+- Hash: !ul 567066319309686922
+  Logic: Logic/Module/IceCavern_Level_Room_00_Prefab_icicle02/IceCavern_Level_Room_00_Prefab_icicle02_f254.logic.module.ain
+  References:
+  - {Id: Area_1f96, Path: Area_1f96, Reference: !ul 13171869948201376477}
+  - {Id: Obj_FallingIcicle_A_02_6900, Path: Obj_FallingIcicle_A_02_6900, Reference: !ul 7065918455368714750}
+- Hash: !ul 671974376821545606
+  Logic: Logic/Module/IceCavern_Level_Room_07_Prefab/IceCavern_Level_Room_07_Prefab_e1e5.logic.module.ain
+  References:
+  - {Id: Obj_RedIce_A_01_0d50, Path: _d8c0/Obj_RedIce_A_01_0d50, Reference: !ul 8455825898678675056}
+  - {Id: AiGroup, InstanceName: Gimmick_RedIce_Any_01_7042_e12d, Logic: Logic/Module/Gimmick_RedIce_Any_01/Gimmick_RedIce_Any_01_7042.logic.module.ain,
+    Path: _d8c0/AiGroup, Reference: !ul 14476247095064922329}
+- Hash: !ul 686892722129703009
+  Logic: Logic/Module/IceCavern_Level_Room_00_Prefab_icicle/IceCavern_Level_Room_00_Prefab_icicle_c762.logic.module.ain
+  References:
+  - {Id: Area_d344, Path: Area_d344, Reference: !ul 16575753449468057955}
+  - {Id: Obj_FallingIcicle_A_01_7a45, Path: Obj_FallingIcicle_A_01_7a45, Reference: !ul 4466114351986683199}
+- Blackboards: [Component/Blackboard/BlackboardInfo/DungeonRoom.engine__component__BlackboardInfo.gyml]
+  Dynamic: {DungeonRoomID: 6}
+  Hash: !ul 745529123475137660
+  Logic: Logic/Module/IceCavern_Level_Room_10_Prefab/IceCavern_Level_Room_10_Prefab_1427.logic.module.ain
+  References:
+  - {Id: Area_6fad, Path: Area_6fad, Reference: !ul 11058592044798098483}
+  - {Id: DungeonRoomCenterAnchor_7e0f, Path: DungeonRoomCenterAnchor_7e0f, Reference: !ul 1831246369900185690}
+  - {Id: Obj_TBox_A_02_6d40, Path: Obj_TBox_A_02_6d40, Reference: !ul 13542013937093159888}
+- Hash: !ul 752847038949204889
+  Logic: Logic/Module/IceCavern_Level_Room_05_Prefab/IceCavern_Level_Room_05_Prefab_9dfc.logic.module.ain
+  References:
+  - {Id: FldObj_AirWall_Player_25ac, Path: FldObj_AirWall_Player_25ac, Reference: !ul 37448381021102239}
+  - {Id: Obj_BrokenIcePillar_A_02_40ee, Path: Obj_BrokenIcePillar_A_02_40ee, Reference: !ul 13225717517056621259}
+  - {Id: Obj_BrokenIcePillar_A_02_5b1c, Path: Obj_BrokenIcePillar_A_02_5b1c, Reference: !ul 10856112040922903683}
+- Hash: !ul 971419072787964473
+  Logic: Logic/Module/IceCavern_Level_Room_00_Prefab_icicle02/IceCavern_Level_Room_00_Prefab_icicle02_f254.logic.module.ain
+  References:
+  - {Id: Area_1f96, Path: Area_1f96, Reference: !ul 13841323250724418681}
+  - {Id: Obj_FallingIcicle_A_02_6900, Path: Obj_FallingIcicle_A_02_6900, Reference: !ul 12989490724736996864}
+- Hash: !ul 1601049033634982058
+  Logic: Logic/Module/InvalidateRestartArea/InvalidateRestartArea_0016.logic.module.ain
+  References:
+  - {Id: Area_7eb6, Path: Area_7eb6, Reference: !ul 13835879481635489519}
+- Hash: !ul 1731122661316148223
+  Logic: Logic/Module/IceCavern_Level_Room_05_Prefab/IceCavern_Level_Room_05_Prefab_b7b3.logic.module.ain
+  References:
+  - {Id: EventRequestActor_8ed3, Path: EventRequestActor_8ed3, Reference: !ul 18304931574222247223}
+  - {Id: EventRequestActor_3d4d, Path: EventRequestActor_3d4d, Reference: !ul 1001435611054403820}
+  - {Id: Obj_RupeeToken_Silver_aa72, Path: Obj_RupeeToken_Silver_aa72, Reference: !ul 12012255417149986652}
+  - {Id: Obj_RupeeToken_Silver_2f01, Path: Obj_RupeeToken_Silver_2f01, Reference: !ul 13864016966418971913}
+  - {Id: Obj_RupeeToken_Silver_1d15, Path: Obj_RupeeToken_Silver_1d15, Reference: !ul 18421279879242817175}
+  - {Id: Obj_RupeeToken_Silver_b076, Path: Obj_RupeeToken_Silver_b076, Reference: !ul 3247210302672998706}
+  - {Id: Obj_RupeeToken_Silver_631e, Path: Obj_RupeeToken_Silver_631e, Reference: !ul 8517392616992133533}
+  - {Id: Area_4b05, Path: Area_4b05, Reference: !ul 17054320445416272725}
+  - {Id: Obj_silverRupeeCounter_03_1924, Path: Obj_silverRupeeCounter_03_1924, Reference: !ul 12613027945768783129}
+  - {Id: Obj_IceCave_RotateBlade_A_01_a415, Path: Obj_IceCave_RotateBlade_A_01_a415,
+    Reference: !ul 5188278409932697368}
+  - {Id: Area_fd3f, Path: Area_fd3f, Reference: !ul 13456646645635052253}
+  - {Id: Area_1c29, Path: Area_1c29, Reference: !ul 10800122871686931773}
+- Hash: !ul 1886799270055404630
+  Logic: Logic/Module/IceCavern_Level_Room_00_Prefab_icicle02/IceCavern_Level_Room_00_Prefab_icicle02_f254.logic.module.ain
+  References:
+  - {Id: Area_1f96, Path: Area_1f96, Reference: !ul 11187316231566479790}
+  - {Id: Obj_FallingIcicle_A_02_6900, Path: Obj_FallingIcicle_A_02_6900, Reference: !ul 5123163983533574945}
+- Hash: !ul 2187120679439994697
+  Logic: Logic/Module/IceCavern_Level_Room_00_Prefab_icicle02/IceCavern_Level_Room_00_Prefab_icicle02_f254.logic.module.ain
+  References:
+  - {Id: Area_1f96, Path: Area_1f96, Reference: !ul 15910281845875670410}
+  - {Id: Obj_FallingIcicle_A_02_6900, Path: Obj_FallingIcicle_A_02_6900, Reference: !ul 10485883698284393202}
+- Hash: !ul 2231927072481537611
+  Logic: Logic/Module/IceCavern_Level_Room_00_Prefab_icicle02/IceCavern_Level_Room_00_Prefab_icicle02_f254.logic.module.ain
+  References:
+  - {Id: Area_1f96, Path: Area_1f96, Reference: !ul 16116229095796055083}
+  - {Id: Obj_FallingIcicle_A_02_6900, Path: Obj_FallingIcicle_A_02_6900, Reference: !ul 11214466807514581984}
+- Hash: !ul 2242595842527262034
+  InstanceName: IceCavern_Level_Room_01_Prefab_88fc_76c0
+  Logic: Logic/Module/IceCavern_Level_Room_01_Prefab/IceCavern_Level_Room_01_Prefab_88fc.logic.module.ain
+  References:
+  - {Id: Obj_RedIce_A_01_0d50, Path: _8ad6/Obj_RedIce_A_01_0d50, Reference: !ul 6768917453344093312}
+  - {Id: AiGroup, InstanceName: Gimmick_RedIce_Any_01_7042_b05a, Logic: Logic/Module/Gimmick_RedIce_Any_01/Gimmick_RedIce_Any_01_7042.logic.module.ain,
+    Path: _8ad6/AiGroup, Reference: !ul 3925856266293587878}
+- Hash: !ul 2546426708203295311
+  Logic: Logic/Module/Gimmick_BlueFire_A_01_Prefab/Gimmick_BlueFire_A_01_Prefab_e59a.logic.module.ain
+  References:
+  - {Id: Obj_BlueFire_A_01_157c, Path: Obj_BlueFire_A_01_157c, Reference: !ul 321528797119211780}
+- Hash: !ul 2548399599658448148
+  Logic: Logic/Module/IceCavern_Level_Room_00_Prefab_icicle02/IceCavern_Level_Room_00_Prefab_icicle02_f254.logic.module.ain
+  References:
+  - {Id: Area_1f96, Path: Area_1f96, Reference: !ul 15324670055555749996}
+  - {Id: Obj_FallingIcicle_A_02_6900, Path: Obj_FallingIcicle_A_02_6900, Reference: !ul 9236258918509145699}
+- Hash: !ul 3006750608458740782
+  Logic: Logic/Module/Common_FieldDungeonEntranceSet/Common_FieldDungeonEntranceSet_bad1.logic.module.ain
+  References:
+  - {Id: Area_6674, Path: Area_6674, Reference: !ul 10788019594209586225}
+  - {Id: FieldAndDungeonEntranceEventRequestActor_57cf, Path: FieldAndDungeonEntranceEventRequestActor_57cf,
+    Reference: !ul 4069798734802445712}
+- Hash: !ul 3041674473441226276
+  Logic: Logic/Module/Gimmick_BlueFire_A_01_Prefab/Gimmick_BlueFire_A_01_Prefab_e59a.logic.module.ain
+  References:
+  - {Id: Obj_BlueFire_A_01_157c, Path: Obj_BlueFire_A_01_157c, Reference: !ul 24422648145807631}
+- Hash: !ul 3164255059839780674
+  Logic: Logic/Module/Gimmick_AutoSave/Gimmick_AutoSave_a6ec.logic.module.ain
+  References:
+  - {Id: Area_29f9, Path: Area_29f9, Reference: !ul 3797417899490731587}
+- Hash: !ul 3261507436065919847
+  Logic: Logic/Module/IceCavern_Level_Room_02_Prefab/IceCavern_Level_Room_02_Prefab_cd00.logic.module.ain
+  References:
+  - {Id: Area_78df, Path: Area_78df, Reference: !ul 7445657268056122607}
+  - {Id: Area_0094, Path: Area_0094, Reference: !ul 9073988755612139841}
+- Hash: !ul 3303755135264652288
+  Logic: Logic/Module/IceCavern_Level_Room_05_Prefab/IceCavern_Level_Room_05_Prefab_2472.logic.module.ain
+  References:
+  - {Id: FldObj_AirWall_Player_0a20, Path: FldObj_AirWall_Player_0a20, Reference: !ul 7376686878673244959}
+  - {Id: Obj_BrokenIcePillar_A_01_b52e, Path: Obj_BrokenIcePillar_A_01_b52e, Reference: !ul 13347739217376945456}
+- Blackboards: [Component/Blackboard/BlackboardInfo/DungeonRoom.engine__component__BlackboardInfo.gyml]
+  Dynamic: {DungeonRoomID: 8}
+  Hash: !ul 3670852019741339611
+  Logic: Logic/Module/IceCavern_Level_Room_06_Prefab/IceCavern_Level_Room_06_Prefab_c73e.logic.module.ain
+  References:
+  - {Id: Area_80cc, Path: Area_80cc, Reference: !ul 14274504974530584510}
+  - {Id: Area_9689, Path: Area_9689, Reference: !ul 8684937983749141213}
+  - {Id: DungeonRoomCenterAnchor_b586, Path: DungeonRoomCenterAnchor_b586, Reference: !ul 12548908281930120924}
+  - {Id: Area_568b, Path: Area_568b, Reference: !ul 3801409472098678257}
+- Hash: !ul 4205445692815129467
+  Logic: Logic/Module/Gimmick_BlueFire_A_01_Prefab/Gimmick_BlueFire_A_01_Prefab_e59a.logic.module.ain
+  References:
+  - {Id: Obj_BlueFire_A_01_157c, Path: Obj_BlueFire_A_01_157c, Reference: !ul 1175203092964096670}
+- Hash: !ul 4258680304247576223
+  InstanceName: IceCavern_Level_Room_01_Prefab_38f7_26bc
+  Logic: Logic/Module/IceCavern_Level_Room_01_Prefab/IceCavern_Level_Room_01_Prefab_38f7.logic.module.ain
+  References:
+  - {Id: Enemy_Freezard_Fixed_b49c, Path: Enemy_Freezard_Fixed_b49c, Reference: !ul 9123353740107412760}
+  - {Id: EventRequestActor_b8ff, Path: EventRequestActor_b8ff, Reference: !ul 15050224037407511147}
+  - {Id: Enemy_Freezard_Fixed_6b6a, Path: Enemy_Freezard_Fixed_6b6a, Reference: !ul 977775272737165598}
+  - {Id: Enemy_Freezard_Fixed_1ece, Path: Enemy_Freezard_Fixed_1ece, Reference: !ul 4350068369424404996}
+  - {Id: Obj_EnemyCounter_A_06_2936, Path: Obj_EnemyCounter_A_06_2936, Reference: !ul 13930176761513686547}
+- Hash: !ul 4359177260969812651
+  Logic: Logic/Module/IceCavern_Level_Room_00_Prefab_icicle02/IceCavern_Level_Room_00_Prefab_icicle02_f254.logic.module.ain
+  References:
+  - {Id: Area_1f96, Path: Area_1f96, Reference: !ul 16366631943866601428}
+  - {Id: Obj_FallingIcicle_A_02_6900, Path: Obj_FallingIcicle_A_02_6900, Reference: !ul 13198009118954074500}
+- Hash: !ul 4740063427431007946
+  Logic: Logic/Module/IceCavern_Level_Room_05_Prefab/IceCavern_Level_Room_05_Prefab_8145.logic.module.ain
+  References:
+  - {Id: Obj_RedIce_A_04_3f0a, Path: _fe21/Obj_RedIce_A_04_3f0a, Reference: !ul 12214319674592646459}
+  - {Id: AiGroup, InstanceName: Gimmick_RedIce_Any_04_3311_606f, Logic: Logic/Module/Gimmick_RedIce_Any_04/Gimmick_RedIce_Any_04_3311.logic.module.ain,
+    Path: _fe21/AiGroup, Reference: !ul 12814112190207148390}
+- Hash: !ul 4789283134349920319
+  Logic: Logic/Module/IceCavern_Level_Room_00_Prefab_icicle02/IceCavern_Level_Room_00_Prefab_icicle02_f254.logic.module.ain
+  References:
+  - {Id: Area_1f96, Path: Area_1f96, Reference: !ul 10787245651212510566}
+  - {Id: Obj_FallingIcicle_A_02_6900, Path: Obj_FallingIcicle_A_02_6900, Reference: !ul 7005256429862164518}
+- Hash: !ul 4885661785398970954
+  Logic: Logic/Module/IceCavern_Level_Room_00_Prefab_icicle02/IceCavern_Level_Room_00_Prefab_icicle02_f254.logic.module.ain
+  References:
+  - {Id: Area_1f96, Path: Area_1f96, Reference: !ul 8853062980272126378}
+  - {Id: Obj_FallingIcicle_A_02_6900, Path: Obj_FallingIcicle_A_02_6900, Reference: !ul 2781865107940036577}
+- Hash: !ul 4931019206745577842
+  Logic: Logic/Module/IceCavern_Level_Room_00_Prefab_icicle02/IceCavern_Level_Room_00_Prefab_icicle02_f254.logic.module.ain
+  References:
+  - {Id: Area_1f96, Path: Area_1f96, Reference: !ul 11086026086240489253}
+  - {Id: Obj_FallingIcicle_A_02_6900, Path: Obj_FallingIcicle_A_02_6900, Reference: !ul 6701681840690338518}
+- Blackboards: [Component/Blackboard/BlackboardInfo/DungeonRoom.engine__component__BlackboardInfo.gyml]
+  Dynamic: {DungeonRoomID: 10}
+  Hash: !ul 5797731371532007257
+  Logic: Logic/Module/IceCavern_Level_Room_04_Prefab/IceCavern_Level_Room_04_Prefab_a9ca.logic.module.ain
+  References:
+  - {Id: Area_0060, Path: Area_0060, Reference: !ul 5026910073755526260}
+  - {Id: Area_33f7, Path: Area_33f7, Reference: !ul 17370557715539707972}
+  - {Id: DungeonRoomCenterAnchor_c6bf, Path: DungeonRoomCenterAnchor_c6bf, Reference: !ul 14849540181110847725}
+- Hash: !ul 5800641393883013069
+  Logic: Logic/Module/IceCavern_Level_Room_05_Prefab/IceCavern_Level_Room_05_Prefab_c4ca.logic.module.ain
+  References:
+  - {Id: Obj_RedIce_A_04_3f0a, Path: _1c76/Obj_RedIce_A_04_3f0a, Reference: !ul 6188311488374461733}
+  - {Id: AiGroup, InstanceName: Gimmick_RedIce_Any_04_3311_7ec4, Logic: Logic/Module/Gimmick_RedIce_Any_04/Gimmick_RedIce_Any_04_3311.logic.module.ain,
+    Path: _1c76/AiGroup, Reference: !ul 788705669282707939}
+- Hash: !ul 6253077531246297306
+  Logic: Logic/Module/IceCavern_Level_Room_06_Prefab/IceCavern_Level_Room_06_Prefab_48dc.logic.module.ain
+  References:
+  - {Id: Area_bb60, Path: Area_bb60, Reference: !ul 17733143943330305095}
+  - {Id: FldObj_AirWall_Player_GenerateNavMesh_c188, Path: FldObj_AirWall_Player_GenerateNavMesh_c188,
+    Reference: !ul 3023276641175087844}
+  - {Id: Area_b26a, Path: Area_b26a, Reference: !ul 17684557679787955023}
+- Hash: !ul 6544975120345239137
+  Logic: Logic/Module/Gimmick_Ocarina_Appearance_04/Gimmick_Ocarina_Appearance_04_8ebe.logic.module.ain
+  References:
+  - {Id: Obj_FairySpirit_9748, Path: Obj_FairySpirit_9748, Reference: !ul 9440081431188561357}
+  - {Id: FairySpirit_AppearPoint_SunSong_74e5, Path: FairySpirit_AppearPoint_SunSong_74e5,
+    Reference: !ul 8584250520029000414}
+  - {Id: DestinationAnchor_525a, Path: DestinationAnchor_525a, Reference: !ul 3267652807666061189}
+  - {Id: EventProxyRequestActor_3efb, Path: EventProxyRequestActor_3efb, Reference: !ul 4526902915751638722}
+- Hash: !ul 6553118085006503530
+  Logic: Logic/Module/IceCavern_Level_Room_05_Prefab/IceCavern_Level_Room_05_Prefab_226f.logic.module.ain
+  References:
+  - {Id: FldObj_AirWall_Player_59c7, Path: FldObj_AirWall_Player_59c7, Reference: !ul 2330025700268530954}
+  - {Id: Obj_BrokenIcePillar_A_01_23e1, Path: Obj_BrokenIcePillar_A_01_23e1, Reference: !ul 726022167757098036}
+- Blackboards: [Component/Blackboard/BlackboardInfo/DungeonRoom.engine__component__BlackboardInfo.gyml]
+  Dynamic: {DungeonRoomID: 9}
+  Hash: !ul 7141736519632899732
+  Logic: Logic/Module/IceCavern_Level_Room_03_Prefab/IceCavern_Level_Room_03_Prefab_6165.logic.module.ain
+  References:
+  - {Id: Area_1e6e, Path: Area_1e6e, Reference: !ul 5092116498062362067}
+  - {Id: Area_d448, Path: Area_d448, Reference: !ul 9422051707709067574}
+  - {Id: DungeonRoomCenterAnchor_6773, Path: DungeonRoomCenterAnchor_6773, Reference: !ul 10821004122637053323}
+- Hash: !ul 7156174379538550967
+  Logic: Logic/Module/IceCavern_Level_Room_07_Prefab/IceCavern_Level_Room_07_Prefab_73b1.logic.module.ain
+  References:
+  - {Id: Obj_BlueFirePedestalLid_A_01_1954, Path: Obj_BlueFirePedestalLid_A_01_1954,
+    Reference: !ul 14467008483541670155}
+  - {Id: EventRequestActor_af08, Path: EventRequestActor_af08, Reference: !ul 17358699032032347832}
+  - {Id: Obj_BlueFire_A_06_0ce8, Path: _31d2/Obj_BlueFire_A_06_0ce8, Reference: !ul 16768829294388633732}
+  - {Id: AiGroup, InstanceName: Gimmick_BlueFire_A_02_Prefab_9512_1602, Logic: Logic/Module/Gimmick_BlueFire_A_02_Prefab/Gimmick_BlueFire_A_02_Prefab_9512.logic.module.ain,
+    Path: _31d2/AiGroup, Reference: !ul 2578554139889542937}
+  - {Id: Obj_RedIce_A_07_0c46, Path: Obj_RedIce_A_07_0c46, Reference: !ul 11172846462061012452}
+  - {Id: Obj_RedIce_A_06_933d, Path: Obj_RedIce_A_06_933d, Reference: !ul 18000537145324707666}
+  - {Id: Area_43ee, Path: Area_43ee, Reference: !ul 3412963530709051527}
+  - {Id: Obj_RedIce_A_08_737a, Path: Obj_RedIce_A_08_737a, Reference: !ul 18436921108716486371}
+  - {Id: FldObj_AirWall_Player_GenerateNavMesh_a5a7, Path: FldObj_AirWall_Player_GenerateNavMesh_a5a7,
+    Reference: !ul 15647282051608701308}
+- Hash: !ul 7307630738832671515
+  Logic: Logic/Module/IceCavern_Level_Room_05_Prefab/IceCavern_Level_Room_05_Prefab_0dc8.logic.module.ain
+  References:
+  - {Id: Area_3bd5, Path: Area_3bd5, Reference: !ul 5795326397976258080}
+  - {Id: AirWall_EnemyPerceptionSight_665e, Path: AirWall_EnemyPerceptionSight_665e,
+    Reference: !ul 17931684720416575340}
+- Hash: !ul 7640062278118176311
+  Logic: Logic/Module/IceCavern_Level_Room_01_Prefab/IceCavern_Level_Room_01_Prefab_db47.logic.module.ain
+  References:
+  - {Id: Obj_Pot_A_04_2f3d, Path: Obj_Pot_A_04_2f3d, Reference: !ul 6330430963809465220}
+- Hash: !ul 7703722165095965366
+  Logic: Logic/Module/IceCavern_Level_Room_07_Prefab/IceCavern_Level_Room_07_Prefab_fcb8.logic.module.ain
+  References:
+  - {Id: Obj_TBox_A_02_25c1, Path: Obj_TBox_A_02_25c1, Reference: !ul 11498802739257120175}
+  - {Id: Obj_RedIce_A_01_0d50, Path: _b1b3/Obj_RedIce_A_01_0d50, Reference: !ul 3200723622177405753}
+  - {Id: AiGroup, InstanceName: Gimmick_RedIce_Any_01_7042_ba20, Logic: Logic/Module/Gimmick_RedIce_Any_01/Gimmick_RedIce_Any_01_7042.logic.module.ain,
+    Path: _b1b3/AiGroup, Reference: !ul 567546890219352099}
+- Hash: !ul 8022849481109110871
+  Logic: Logic/Module/IceCavern_Level_Room_00_Prefab_icicle02/IceCavern_Level_Room_00_Prefab_icicle02_f254.logic.module.ain
+  References:
+  - {Id: Area_1f96, Path: Area_1f96, Reference: !ul 12409102020626853471}
+  - {Id: Obj_FallingIcicle_A_02_6900, Path: Obj_FallingIcicle_A_02_6900, Reference: !ul 5239167285434626493}
+- Hash: !ul 8272076189797741519
+  Logic: Logic/Module/IceCavern_Level_Room_05_Prefab/IceCavern_Level_Room_05_Prefab_22ab.logic.module.ain
+  References:
+  - {Id: Obj_BrokenIcePillar_A_02_4383, Path: Obj_BrokenIcePillar_A_02_4383, Reference: !ul 15376233358778239416}
+  - {Id: FldObj_AirWall_Player_2825, Path: FldObj_AirWall_Player_2825, Reference: !ul 5899218435325483950}
+- Hash: !ul 8273141068469303310
+  Logic: Logic/Module/Gimmick_BlueFire_A_01_Prefab/Gimmick_BlueFire_A_01_Prefab_e59a.logic.module.ain
+  References:
+  - {Id: Obj_BlueFire_A_01_157c, Path: Obj_BlueFire_A_01_157c, Reference: !ul 1500566488932665284}
+- Hash: !ul 8539919265190650202
+  Logic: Logic/Module/IceCavern_Level_Room_00_Prefab_icicle02/IceCavern_Level_Room_00_Prefab_icicle02_f254.logic.module.ain
+  References:
+  - {Id: Area_1f96, Path: Area_1f96, Reference: !ul 12241304348677045401}
+  - {Id: Obj_FallingIcicle_A_02_6900, Path: Obj_FallingIcicle_A_02_6900, Reference: !ul 7883930213443440881}
+- Hash: !ul 8653624972411905786
+  Logic: Logic/Module/InvalidateRestartArea/InvalidateRestartArea_0016.logic.module.ain
+  References:
+  - {Id: Area_7eb6, Path: Area_7eb6, Reference: !ul 13421591690628773020}
+- Hash: !ul 8928306817201141256
+  Logic: Logic/Module/IceCavern_Level_Room_00_Prefab/IceCavern_Level_Room_00_Prefab_aa59.logic.module.ain
+  References:
+  - {Id: Obj_RedIce_A_01_0d50, Path: _afa3/Obj_RedIce_A_01_0d50, Reference: !ul 16919949776496418098}
+  - {Id: AiGroup, InstanceName: Gimmick_RedIce_Any_01_7042_a620, Logic: Logic/Module/Gimmick_RedIce_Any_01/Gimmick_RedIce_Any_01_7042.logic.module.ain,
+    Path: _afa3/AiGroup, Reference: !ul 6430569480544837180}
+- Hash: !ul 9007556803036280388
+  Logic: Logic/Module/InvalidateRestartArea/InvalidateRestartArea_0016.logic.module.ain
+  References:
+  - {Id: Area_7eb6, Path: Area_7eb6, Reference: !ul 12059961990812375872}
+- Hash: !ul 9350237483658507970
+  Logic: Logic/Module/IceCavern_Level_Room_00_Prefab_icicle02/IceCavern_Level_Room_00_Prefab_icicle02_f254.logic.module.ain
+  References:
+  - {Id: Area_1f96, Path: Area_1f96, Reference: !ul 3810940912278186802}
+  - {Id: Obj_FallingIcicle_A_02_6900, Path: Obj_FallingIcicle_A_02_6900, Reference: !ul 16243451399402928811}
+- Hash: !ul 9498785267692332555
+  Logic: Logic/Module/IceCavern_Level_Room_00_Prefab_icicle02/IceCavern_Level_Room_00_Prefab_icicle02_f254.logic.module.ain
+  References:
+  - {Id: Area_1f96, Path: Area_1f96, Reference: !ul 3854638079633445674}
+  - {Id: Obj_FallingIcicle_A_02_6900, Path: Obj_FallingIcicle_A_02_6900, Reference: !ul 16644044579805868641}
+- Hash: !ul 9592582888974929028
+  Logic: Logic/Module/Gimmick_AllDay_Skulltula/Gimmick_AllDay_Skulltula_115c.logic.module.ain
+  References:
+  - {Id: Land_SkulltulaGold_SpiderWeb_A_01_a32a, Path: Land_SkulltulaGold_SpiderWeb_A_01_a32a,
+    Reference: !ul 2879361409392102017}
+  - {Id: Enemy_Skulltula_Gold_e916, Path: Enemy_Skulltula_Gold_e916, Reference: !ul 1612219105489330028}
+- Hash: !ul 10132762016647375439
+  Logic: Logic/Module/IceCavern_Level_Room_00_Prefab_icicle02/IceCavern_Level_Room_00_Prefab_icicle02_f254.logic.module.ain
+  References:
+  - {Id: Area_1f96, Path: Area_1f96, Reference: !ul 5747340177546361110}
+  - {Id: Obj_FallingIcicle_A_02_6900, Path: Obj_FallingIcicle_A_02_6900, Reference: !ul 3138853771372965862}
+- Hash: !ul 10138100791037288514
+  Logic: Logic/Module/IceCavern_Level_Room_04_Prefab/IceCavern_Level_Room_04_Prefab_2b51.logic.module.ain
+  References:
+  - {Id: Enemy_Wolfos_White_e812, Path: Enemy_Wolfos_White_e812, Reference: !ul 15472048667451368083}
+  - {Id: ShutterLocator_Lattice_ff7d, Path: _b9dc/ShutterLocator_Lattice_ff7d, Reference: !ul 8796415083080143374}
+  - {Id: ShutterLocator_Lattice_4b8b, Path: _b9dc/ShutterLocator_Lattice_4b8b, Reference: !ul 8075604269458561056}
+  - {Id: ShutterLocator_Door_fb86, Path: _b9dc/ShutterLocator_Door_fb86, Reference: !ul 6080385011425235023}
+  - {Id: PushAirWall_DoorFront_6427, Path: _b9dc/PushAirWall_DoorFront_6427, Reference: !ul 7225222299237517629}
+  - {Id: AiGroup, InstanceName: DungeonSwitchShutterWithLockSet_3b94_64cd, Logic: Logic/Module/DungeonSwitchShutterWithLockSet/DungeonSwitchShutterWithLockSet_3b94.logic.module.ain,
+    Path: _b9dc/AiGroup, Reference: !ul 9274906854195451265}
+  - {Id: Obj_EnemyCounter_A_06_b88a, Path: Obj_EnemyCounter_A_06_b88a, Reference: !ul 10089091431590063965}
+  - {Id: EventRequestActor_8fa8, Path: _dae0/EventRequestActor_8fa8, Reference: !ul 14093347216660958637}
+  - {Id: Obj_TBox_A_02_NoBake_64ee, Path: _dae0/Obj_TBox_A_02_NoBake_64ee, Reference: !ul 6859289214373847284}
+  - {Id: PushAirWall_Box_c2a5, Path: _dae0/PushAirWall_Box_c2a5, Reference: !ul 6141854514833870223}
+  - {Id: AiGroup, InstanceName: Gimmick_TreasureBoxAppear_02_Any_Magic_6843_da80,
+    Logic: Logic/Module/Gimmick_TreasureBoxAppear_02_Any_Magic/Gimmick_TreasureBoxAppear_02_Any_Magic_6843.logic.module.ain,
+    Path: _dae0/AiGroup, Reference: !ul 12734481450278861970}
+  - {Id: Obj_EnemyCounter_A_01_a040, Path: Obj_EnemyCounter_A_01_a040, Reference: !ul 6842265258982926303}
+- Blackboards: [Component/Blackboard/BlackboardInfo/DungeonRoom.engine__component__BlackboardInfo.gyml]
+  Dynamic: {DungeonRoomID: 1}
+  Hash: !ul 10173406232613439424
+  Logic: Logic/Module/IceCavern_Level_Room_01_Prefab/IceCavern_Level_Room_01_Prefab_e51c.logic.module.ain
+  References:
+  - {Id: Area_32a5, Path: Area_32a5, Reference: !ul 10183935273980528705}
+  - {Id: Area_f793, Path: Area_f793, Reference: !ul 3391806285355866473}
+  - {Id: DungeonRoomCenterAnchor_de9b, Path: DungeonRoomCenterAnchor_de9b, Reference: !ul 4665080770465038645}
+  - {Id: Area_60ec, Path: Area_60ec, Reference: !ul 10657817492995254673}
+- Hash: !ul 10390697149227485866
+  Logic: Logic/Module/IceCavern_Level_Room_01_Prefab/IceCavern_Level_Room_01_Prefab_093d.logic.module.ain
+  References:
+  - {Id: Area_8d0e, Path: Area_8d0e, Reference: !ul 4016085751206990302}
+- Hash: !ul 10445287320024799732
+  Logic: Logic/Module/IceCavern_Level_Room_00_Prefab_icicle02/IceCavern_Level_Room_00_Prefab_icicle02_f254.logic.module.ain
+  References:
+  - {Id: Area_1f96, Path: Area_1f96, Reference: !ul 5157627828636126143}
+  - {Id: Obj_FallingIcicle_A_02_6900, Path: Obj_FallingIcicle_A_02_6900, Reference: !ul 1428945053135656991}
+- Blackboards: [Component/Blackboard/BlackboardInfo/DungeonRoom.engine__component__BlackboardInfo.gyml]
+  Hash: !ul 10595568215561896201
+  Logic: Logic/Module/IceCavern_Level_Room_00_Prefab/IceCavern_Level_Room_00_Prefab_caea.logic.module.ain
+  References:
+  - {Id: Area_522a, Path: Area_522a, Reference: !ul 4569669338772768966}
+  - {Id: Area_b9fc, Path: Area_b9fc, Reference: !ul 4062908956644107976}
+  - {Id: DungeonRoomCenterAnchor_f453, Path: DungeonRoomCenterAnchor_f453, Reference: !ul 18199595481145527782}
+  - {Id: Area_68e6, Path: Area_68e6, Reference: !ul 16766821276481305585}
+- Blackboards: [Component/Blackboard/BlackboardInfo/DungeonRoom.engine__component__BlackboardInfo.gyml]
+  Dynamic: {DungeonRoomID: 4}
+  Hash: !ul 10821732037063041196
+  Logic: Logic/Module/IceCavern_Level_Room_08_Prefab/IceCavern_Level_Room_08_Prefab_53fa.logic.module.ain
+  References:
+  - {Id: DungeonRoomCenterAnchor_f754, Path: DungeonRoomCenterAnchor_f754, Reference: !ul 12867142335402887923}
+  - {Id: Area_4d12, Path: Area_4d12, Reference: !ul 18255979151985924082}
+  - {Id: Area_c809, Path: Area_c809, Reference: !ul 10112109527546235600}
+- Hash: !ul 10932076418129229004
+  Logic: Logic/Module/IceCavern_Level_Room_00_Prefab_icicle/IceCavern_Level_Room_00_Prefab_icicle_c762.logic.module.ain
+  References:
+  - {Id: Area_d344, Path: Area_d344, Reference: !ul 5290365303423301584}
+  - {Id: Obj_FallingIcicle_A_01_7a45, Path: Obj_FallingIcicle_A_01_7a45, Reference: !ul 13321537296350001066}
+- Hash: !ul 11115699224137305403
+  Logic: Logic/Module/IceCavern_Level_Room_00_Prefab_icicle02/IceCavern_Level_Room_00_Prefab_icicle02_f254.logic.module.ain
+  References:
+  - {Id: Area_1f96, Path: Area_1f96, Reference: !ul 6766371720604932730}
+  - {Id: Obj_FallingIcicle_A_02_6900, Path: Obj_FallingIcicle_A_02_6900, Reference: !ul 1831621353832305989}
+- Hash: !ul 11382113970898299999
+  Logic: Logic/Module/IceCavern_Level_Room_00_Prefab_icicle02/IceCavern_Level_Room_00_Prefab_icicle02_f254.logic.module.ain
+  References:
+  - {Id: Area_1f96, Path: Area_1f96, Reference: !ul 6492922285966638932}
+  - {Id: Obj_FallingIcicle_A_02_6900, Path: Obj_FallingIcicle_A_02_6900, Reference: !ul 1640445864853155252}
+- Hash: !ul 11476715718981402308
+  Logic: Logic/Module/InvalidateRestartArea/InvalidateRestartArea_0016.logic.module.ain
+  References:
+  - {Id: Area_7eb6, Path: Area_7eb6, Reference: !ul 7567046725663335481}
+- Hash: !ul 11667024578296817530
+  Logic: Logic/Module/IceCavern_Level_Room_00_Prefab_icicle02/IceCavern_Level_Room_00_Prefab_icicle02_f254.logic.module.ain
+  References:
+  - {Id: Area_1f96, Path: Area_1f96, Reference: !ul 8240281087226836283}
+  - {Id: Obj_FallingIcicle_A_02_6900, Path: Obj_FallingIcicle_A_02_6900, Reference: !ul 1046750468166414563}
+- Hash: !ul 11777942076729111202
+  Logic: Logic/Module/IceCavern_Level_Room_00_Prefab_icicle02/IceCavern_Level_Room_00_Prefab_icicle02_f254.logic.module.ain
+  References:
+  - {Id: Area_1f96, Path: Area_1f96, Reference: !ul 1197216466557570294}
+  - {Id: Obj_FallingIcicle_A_02_6900, Path: Obj_FallingIcicle_A_02_6900, Reference: !ul 15876394073918759366}
+- Hash: !ul 12082171544833455370
+  Logic: Logic/Module/IceCavern_Level_Room_00_Prefab_icicle02/IceCavern_Level_Room_00_Prefab_icicle02_f254.logic.module.ain
+  References:
+  - {Id: Area_1f96, Path: Area_1f96, Reference: !ul 7537975346125684821}
+  - {Id: Obj_FallingIcicle_A_02_6900, Path: Obj_FallingIcicle_A_02_6900, Reference: !ul 926948822559436133}
+- Blackboards: [Component/Blackboard/BlackboardInfo/DungeonRoom.engine__component__BlackboardInfo.gyml]
+  Dynamic: {DungeonRoomID: 2}
+  Hash: !ul 12337543997652620993
+  Logic: Logic/Module/IceCavern_Level_Room_11_Prefab/IceCavern_Level_Room_11_Prefab_d453.logic.module.ain
+  References:
+  - {Id: Area_9686, Path: Area_9686, Reference: !ul 5958251901540614659}
+  - {Id: Area_f5cc, Path: Area_f5cc, Reference: !ul 1216242061412655155}
+  - {Id: DungeonRoomCenterAnchor_2231, Path: DungeonRoomCenterAnchor_2231, Reference: !ul 13418735372637160056}
+- Hash: !ul 12611906239772432000
+  Logic: Logic/Module/Common_FieldDungeonEntranceSet/Common_FieldDungeonEntranceSet_bad1.logic.module.ain
+  References:
+  - {Id: Area_6674, Path: Area_6674, Reference: !ul 4022311407414159915}
+  - {Id: FieldAndDungeonEntranceEventRequestActor_57cf, Path: FieldAndDungeonEntranceEventRequestActor_57cf,
+    Reference: !ul 10544815606216485062}
+- Hash: !ul 12704516816119824545
+  Logic: Logic/Module/IceCavern_Level_Room_00_Prefab_icicle02/IceCavern_Level_Room_00_Prefab_icicle02_f254.logic.module.ain
+  References:
+  - {Id: Area_1f96, Path: Area_1f96, Reference: !ul 4891217100666614737}
+  - {Id: Obj_FallingIcicle_A_02_6900, Path: Obj_FallingIcicle_A_02_6900, Reference: !ul 3998750774773305736}
+- Blackboards: [Component/Blackboard/BlackboardInfo/DungeonRoom.engine__component__BlackboardInfo.gyml]
+  Dynamic: {DungeonRoomID: 11}
+  Hash: !ul 13238572163841605454
+  Logic: Logic/Module/IceCavern_Level_Room_02_Prefab/IceCavern_Level_Room_02_Prefab_128f.logic.module.ain
+  References:
+  - {Id: Area_bc47, Path: Area_bc47, Reference: !ul 17839348686013908122}
+  - {Id: Area_6e87, Path: Area_6e87, Reference: !ul 7379406517873510107}
+  - {Id: DungeonRoomCenterAnchor_bd3e, Path: DungeonRoomCenterAnchor_bd3e, Reference: !ul 3516035625674524055}
+  - {Id: Area_e532, Path: Area_e532, Reference: !ul 11892892346725177495}
+- Hash: !ul 13742483543741537797
+  Logic: Logic/Module/Gimmick_AllDay_Skulltula/Gimmick_AllDay_Skulltula_115c.logic.module.ain
+  References:
+  - {Id: Land_SkulltulaGold_SpiderWeb_A_01_a32a, Path: Land_SkulltulaGold_SpiderWeb_A_01_a32a,
+    Reference: !ul 2026092539963912193}
+  - {Id: Enemy_Skulltula_Gold_e916, Path: Enemy_Skulltula_Gold_e916, Reference: !ul 7165255787572043804}
+- Hash: !ul 13828151424841389515
+  Logic: Logic/Module/IceCavern_Level_Room_00_Prefab_icicle02/IceCavern_Level_Room_00_Prefab_icicle02_f254.logic.module.ain
+  References:
+  - {Id: Area_1f96, Path: Area_1f96, Reference: !ul 8666438741445863560}
+  - {Id: Obj_FallingIcicle_A_02_6900, Path: Obj_FallingIcicle_A_02_6900, Reference: !ul 330512059634959441}
+- Hash: !ul 13896120108962194935
+  Logic: Logic/Module/IceCavern_Level_Room_06_Prefab/IceCavern_Level_Room_06_Prefab_337b.logic.module.ain
+  References:
+  - {Id: Obj_SongOfTimeSign_A_01_09b3, Path: Obj_SongOfTimeSign_A_01_09b3, Reference: !ul 10005195530866645031}
+  - {Id: Area_99a2, Path: Area_99a2, Reference: !ul 15192507475453581300}
+  - {Id: Area_4e34, Path: Area_4e34, Reference: !ul 12597549401391562879}
+  - {Id: Area_785b, Path: Area_785b, Reference: !ul 6482697601949025693}
+  - {Id: Area_8d18, Path: Area_8d18, Reference: !ul 16712617196303220870}
+- Hash: !ul 14428396924671026146
+  Logic: Logic/Module/IceCavern_Level_Room_00_Prefab_icicle02/IceCavern_Level_Room_00_Prefab_icicle02_f254.logic.module.ain
+  References:
+  - {Id: Area_1f96, Path: Area_1f96, Reference: !ul 8460553754560139666}
+  - {Id: Obj_FallingIcicle_A_02_6900, Path: Obj_FallingIcicle_A_02_6900, Reference: !ul 4170340469262595147}
+- Hash: !ul 14604690398025033532
+  Logic: Logic/Module/IceCavern_Level_Room_00_Prefab_icicle02/IceCavern_Level_Room_00_Prefab_icicle02_f254.logic.module.ain
+  References:
+  - {Id: Area_1f96, Path: Area_1f96, Reference: !ul 17122231681614050373}
+  - {Id: Obj_FallingIcicle_A_02_6900, Path: Obj_FallingIcicle_A_02_6900, Reference: !ul 12196095805855726357}
+- Hash: !ul 14842446196679480168
+  Logic: Logic/Module/InvalidateRestartArea/InvalidateRestartArea_0016.logic.module.ain
+  References:
+  - {Id: Area_7eb6, Path: Area_7eb6, Reference: !ul 16650168177369138742}
+- Hash: !ul 14846057302321186449
+  Logic: Logic/Module/IceCavern_Level_Room_00_Prefab_icicle02/IceCavern_Level_Room_00_Prefab_icicle02_f254.logic.module.ain
+  References:
+  - {Id: Area_1f96, Path: Area_1f96, Reference: !ul 948530657482773985}
+  - {Id: Obj_FallingIcicle_A_02_6900, Path: Obj_FallingIcicle_A_02_6900, Reference: !ul 12186909882694874088}
+- Hash: !ul 14899813449201767138
+  Logic: Logic/Module/Gimmick_AllDay_Skulltula/Gimmick_AllDay_Skulltula_115c.logic.module.ain
+  References:
+  - {Id: Land_SkulltulaGold_SpiderWeb_A_01_a32a, Path: Land_SkulltulaGold_SpiderWeb_A_01_a32a,
+    Reference: !ul 8046019389425829145}
+  - {Id: Enemy_Skulltula_Gold_e916, Path: Enemy_Skulltula_Gold_e916, Reference: !ul 14822647495538506998}
+- Blackboards: [Component/Blackboard/BlackboardInfo/DungeonRoom.engine__component__BlackboardInfo.gyml]
+  Dynamic: {DungeonRoomID: 7}
+  Hash: !ul 15203304006774163234
+  Logic: Logic/Module/IceCavern_Level_Room_09_Prefab/IceCavern_Level_Room_09_Prefab_942c.logic.module.ain
+  References:
+  - {Id: Area_dfab, Path: Area_dfab, Reference: !ul 2927966307388341383}
+  - {Id: DungeonRoomCenterAnchor_de1d, Path: DungeonRoomCenterAnchor_de1d, Reference: !ul 4213493501717898}
+- Hash: !ul 15211320691623881711
+  Logic: Logic/Module/IceCavern_Level_Room_00_Prefab_icicle02/IceCavern_Level_Room_00_Prefab_icicle02_f254.logic.module.ain
+  References:
+  - {Id: Area_1f96, Path: Area_1f96, Reference: !ul 7858326366429010212}
+  - {Id: Obj_FallingIcicle_A_02_6900, Path: Obj_FallingIcicle_A_02_6900, Reference: !ul 3477860405817413460}
+- Hash: !ul 15533587418003884745
+  Logic: Logic/Module/IceCavern_Level_Room_05_Prefab/IceCavern_Level_Room_05_Prefab_3c8a.logic.module.ain
+  References:
+  - {Id: FldObj_AirWall_Player_40a2, Path: FldObj_AirWall_Player_40a2, Reference: !ul 13341380261102987873}
+  - {Id: Obj_BrokenIcePillar_A_01_be11, Path: Obj_BrokenIcePillar_A_01_be11, Reference: !ul 15385443856643814272}
+  - {Id: Obj_BrokenIcePillar_A_02_fc61, Path: Obj_BrokenIcePillar_A_02_fc61, Reference: !ul 9210445307482204523}
+- Hash: !ul 15862924656709851021
+  Logic: Logic/Module/IceCavern_Level_Room_00_Prefab/IceCavern_Level_Room_00_Prefab_cade.logic.module.ain
+  References:
+  - {Id: Area_6cd2, Path: Area_6cd2, Reference: !ul 3167439866722416657}
+- Hash: !ul 15898936749936631358
+  Logic: Logic/Module/IceCavern_Level_Room_10_Prefab/IceCavern_Level_Room_10_Prefab_de1c.logic.module.ain
+  References:
+  - {Id: Obj_BrokenIcePillar_A_01_1fff, Path: Obj_BrokenIcePillar_A_01_1fff, Reference: !ul 3972365762764282907}
+  - {Id: Obj_BrokenIcePillar_A_02_2fd7, Path: Obj_BrokenIcePillar_A_02_2fd7, Reference: !ul 11834116694864372269}
+  - {Id: Obj_BrokenIcePillar_A_01_4bae, Path: Obj_BrokenIcePillar_A_01_4bae, Reference: !ul 10717980523000027768}
+  - {Id: Enemy_Keese_57cd, Path: Enemy_Keese_57cd, Reference: !ul 9226278655856967506}
+  - {Id: Obj_BrokenIcePillar_A_02_7547, Path: Obj_BrokenIcePillar_A_02_7547, Reference: !ul 7754940778057670101}
+  - {Id: Obj_BrokenIcePillar_A_02_9556, Path: Obj_BrokenIcePillar_A_02_9556, Reference: !ul 6700614180232247638}
+  - {Id: Enemy_Keese_d2b0, Path: Enemy_Keese_d2b0, Reference: !ul 11623246256522999002}
+  - {Id: Obj_BrokenIcePillar_A_02_18cc, Path: Obj_BrokenIcePillar_A_02_18cc, Reference: !ul 4895084081999526202}
+- Hash: !ul 16100948854959045638
+  Logic: Logic/Module/IceCavern_Level_Room_00_Prefab_icicle02/IceCavern_Level_Room_00_Prefab_icicle02_f254.logic.module.ain
+  References:
+  - {Id: Area_1f96, Path: Area_1f96, Reference: !ul 2213121481914297135}
+  - {Id: Obj_FallingIcicle_A_02_6900, Path: Obj_FallingIcicle_A_02_6900, Reference: !ul 15833416661599990895}
+- Hash: !ul 16139301146899165266
+  Logic: Logic/Module/IceCavern_Level_Room_07_Prefab/IceCavern_Level_Room_07_Prefab_d62e.logic.module.ain
+  References:
+  - {Id: Obj_Pot_A_04_0b21, Path: Obj_Pot_A_04_0b21, Reference: !ul 3105481948394149361}
+- Hash: !ul 16413935645388970204
+  InstanceName: IceCavern_Level_Room_06_Prefab_09f6_e372
+  Logic: Logic/Module/IceCavern_Level_Room_06_Prefab/IceCavern_Level_Room_06_Prefab_09f6.logic.module.ain
+  References:
+  - {Id: Area_ed22, Path: _1449/Area_ed22, Reference: !ul 2249015181427375060}
+  - {Id: AiGroup, InstanceName: Gimmick_AreaContact_FallDown_0a27_feb9, Logic: Logic/Module/Gimmick_AreaContact_FallDown/Gimmick_AreaContact_FallDown_0a27.logic.module.ain,
+    Path: _1449/AiGroup, Reference: !ul 4729621364242518722}
+  - {Id: Area_ed22, Path: _1908/Area_ed22, Reference: !ul 9448956687419482255}
+  - {Id: AiGroup, InstanceName: Gimmick_AreaContact_FallDown_0a27_0378, Logic: Logic/Module/Gimmick_AreaContact_FallDown/Gimmick_AreaContact_FallDown_0a27.logic.module.ain,
+    Path: _1908/AiGroup, Reference: !ul 15733658043646324226}
+  - {Id: Area_ed22, Path: _2dcc/Area_ed22, Reference: !ul 734819136168332225}
+  - {Id: AiGroup, InstanceName: Gimmick_AreaContact_FallDown_0a27_183c, Logic: Logic/Module/Gimmick_AreaContact_FallDown/Gimmick_AreaContact_FallDown_0a27.logic.module.ain,
+    Path: _2dcc/AiGroup, Reference: !ul 6236981609551560764}
+  - {Id: Obj_SliderBox_A_01_d4d9, Path: Obj_SliderBox_A_01_d4d9, Reference: !ul 12016193116493700167}
+  - {Id: Area_ed22, Path: _82d8/Area_ed22, Reference: !ul 4153794706152716959}
+  - {Id: AiGroup, InstanceName: Gimmick_AreaContact_FallDown_0a27_6d48, Logic: Logic/Module/Gimmick_AreaContact_FallDown/Gimmick_AreaContact_FallDown_0a27.logic.module.ain,
+    Path: _82d8/AiGroup, Reference: !ul 12917700688725763899}
+  - {Id: Area_021c, Path: Area_021c, Reference: !ul 7122406090280745646}
+  - {Id: Area_2a0d, Path: Area_2a0d, Reference: !ul 15248716932228560311}
+  - {Id: Area_7f50, Path: Area_7f50, Reference: !ul 18342353007178806857}
+  - {Id: Area_c418, Path: Area_c418, Reference: !ul 1389017483214612822}
+- Hash: !ul 16420775957656541631
+  Logic: Logic/Module/IceCavern_Level_Room_00_Prefab_icicle02/IceCavern_Level_Room_00_Prefab_icicle02_f254.logic.module.ain
+  References:
+  - {Id: Area_1f96, Path: Area_1f96, Reference: !ul 1298767794833018871}
+  - {Id: Obj_FallingIcicle_A_02_6900, Path: Obj_FallingIcicle_A_02_6900, Reference: !ul 14896531813095348884}
+- Blackboards: [Component/Blackboard/BlackboardInfo/DungeonRoom.engine__component__BlackboardInfo.gyml]
+  Dynamic: {DungeonRoomID: 3}
+  Hash: !ul 16458780902532254470
+  Logic: Logic/Module/IceCavern_Level_Room_05_Prefab/IceCavern_Level_Room_05_Prefab_214a.logic.module.ain
+  References:
+  - {Id: Area_2f55, Path: Area_2f55, Reference: !ul 8850051382223446353}
+  - {Id: Area_405c, Path: Area_405c, Reference: !ul 3599662807571250341}
+  - {Id: Area_944a, Path: Area_944a, Reference: !ul 14678897413397731979}
+  - {Id: Area_ef97, Path: Area_ef97, Reference: !ul 11594286969679782816}
+  - {Id: DungeonRoomCenterAnchor_22e1, Path: DungeonRoomCenterAnchor_22e1, Reference: !ul 6128305437160010115}
+- Hash: !ul 16863237288897184388
+  Logic: Logic/Module/IceCavern_Level_Room_00_Prefab_icicle02/IceCavern_Level_Room_00_Prefab_icicle02_f254.logic.module.ain
+  References:
+  - {Id: Area_1f96, Path: Area_1f96, Reference: !ul 3739811407461576956}
+  - {Id: Obj_FallingIcicle_A_02_6900, Path: Obj_FallingIcicle_A_02_6900, Reference: !ul 14368071009809299359}
+- Hash: !ul 16902749068357142303
+  Logic: Logic/Module/IceCavern_Level_Room_07_Prefab/IceCavern_Level_Room_07_Prefab_29bf.logic.module.ain
+  References:
+  - {Id: Area_15a1, Path: Area_15a1, Reference: !ul 3673856988548209885}
+  - {Id: Enemy_Freezard_19eb, Path: Enemy_Freezard_19eb, Reference: !ul 4194541240725322457}
+  - {Id: Enemy_Freezard_a495, Path: Enemy_Freezard_a495, Reference: !ul 16890461732001804265}
+  - {Id: Area_cdfe, Path: Area_cdfe, Reference: !ul 17749523208826847202}
+  - {Id: Area_3b4b, Path: Area_3b4b, Reference: !ul 13845597996321780582}
+  - {Id: Enemy_Freezard_ff98, Path: Enemy_Freezard_ff98, Reference: !ul 15310665127516265947}
+  - {Id: Area_6b3e, Path: Area_6b3e, Reference: !ul 8465015584727272464}
+  - {Id: Area_cbba, Path: Area_cbba, Reference: !ul 12506966263951788558}
+- Hash: !ul 17154235701062031984
+  InstanceName: IceCavern_Level_Room_06_Prefab_ef28_c8a3
+  Logic: Logic/Module/IceCavern_Level_Room_06_Prefab/IceCavern_Level_Room_06_Prefab_ef28.logic.module.ain
+  References:
+  - {Id: EventRequestActor_ebe8, Path: EventRequestActor_ebe8, Reference: !ul 17392729928915335548}
+  - {Id: EventRequestActor_66f9, Path: EventRequestActor_66f9, Reference: !ul 4414708903701805042}
+  - {Id: Area_efed, Path: Area_efed, Reference: !ul 15340218311375425750}
+  - {Id: Obj_silverRupeeCounter_03_a6a5, Path: Obj_silverRupeeCounter_03_a6a5, Reference: !ul 9589276576518015200}
+  - {Id: Obj_RupeeToken_Silver_f359, Path: Obj_RupeeToken_Silver_f359, Reference: !ul 7358957810395899450}
+  - {Id: Obj_RupeeToken_Silver_9636, Path: Obj_RupeeToken_Silver_9636, Reference: !ul 7241953878866093533}
+  - {Id: Obj_RupeeToken_Silver_c143, Path: Obj_RupeeToken_Silver_c143, Reference: !ul 10169213272312887158}
+  - {Id: Obj_RupeeToken_Silver_0e1a, Path: Obj_RupeeToken_Silver_0e1a, Reference: !ul 6874997892371023062}
+  - {Id: Obj_RupeeToken_Silver_8f88, Path: Obj_RupeeToken_Silver_8f88, Reference: !ul 6554307454311215168}
+  - {Id: FldObj_AirWall_Player_Unridable_b626, Path: FldObj_AirWall_Player_Unridable_b626,
+    Reference: !ul 10726945289617962774}
+  - {Id: FldObj_AirWall_Player_Unridable_b7c4, Path: FldObj_AirWall_Player_Unridable_b7c4,
+    Reference: !ul 17395497836786963999}
+  - {Id: Obj_RedIce_A_06_c15d, Path: Obj_RedIce_A_06_c15d, Reference: !ul 12153144952635432432}
+- Hash: !ul 17302294280847367894
+  InstanceName: IceCavern_Level_Room_01_Prefab_5e6a_4c2f
+  Logic: Logic/Module/IceCavern_Level_Room_01_Prefab/IceCavern_Level_Room_01_Prefab_5e6a.logic.module.ain
+  References:
+  - {Id: Obj_RedIce_A_01_0d50, Path: _086b/Obj_RedIce_A_01_0d50, Reference: !ul 11834825470400057740}
+  - {Id: AiGroup, InstanceName: Gimmick_RedIce_Any_01_7042_2def, Logic: Logic/Module/Gimmick_RedIce_Any_01/Gimmick_RedIce_Any_01_7042.logic.module.ain,
+    Path: _086b/AiGroup, Reference: !ul 10639893609579142839}
+- Hash: !ul 17611492941573157637
+  Logic: Logic/Module/IceCavern_Level_Room_00_Prefab_icicle02/IceCavern_Level_Room_00_Prefab_icicle02_f254.logic.module.ain
+  References:
+  - {Id: Area_1f96, Path: Area_1f96, Reference: !ul 2817263178388555373}
+  - {Id: Obj_FallingIcicle_A_02_6900, Path: Obj_FallingIcicle_A_02_6900, Reference: !ul 14647737365927700334}
+- Hash: !ul 17615580091560769949
+  Logic: Logic/Module/IceCavern_Level_Room_00_Prefab_icicle02/IceCavern_Level_Room_00_Prefab_icicle02_f254.logic.module.ain
+  References:
+  - {Id: Area_1f96, Path: Area_1f96, Reference: !ul 547698890087007970}
+  - {Id: Obj_FallingIcicle_A_02_6900, Path: Obj_FallingIcicle_A_02_6900, Reference: !ul 17532724766258883307}
+- Hash: !ul 17731611383092775818
+  Logic: Logic/Module/IceCavern_Level_Room_03_Prefab/IceCavern_Level_Room_03_Prefab_a5dd.logic.module.ain
+  References:
+  - {Id: Obj_RedIce_A_04_3f0a, Path: _817c/Obj_RedIce_A_04_3f0a, Reference: !ul 16134962554615344128}
+  - {Id: AiGroup, InstanceName: Gimmick_RedIce_Any_04_3311_7b6d, Logic: Logic/Module/Gimmick_RedIce_Any_04/Gimmick_RedIce_Any_04_3311.logic.module.ain,
+    Path: _817c/AiGroup, Reference: !ul 14982360412633851582}
+- Hash: !ul 18099077077784285414
+  Logic: Logic/Module/IceCavern_Level_Room_00_Prefab_icicle/IceCavern_Level_Room_00_Prefab_icicle_c762.logic.module.ain
+  References:
+  - {Id: Area_d344, Path: Area_d344, Reference: !ul 3572504496801554395}
+  - {Id: Obj_FallingIcicle_A_01_7a45, Path: Obj_FallingIcicle_A_01_7a45, Reference: !ul 9785011882542280206}
+- Blackboards: [Component/Blackboard/BlackboardInfo/DungeonRoom.engine__component__BlackboardInfo.gyml]
+  Dynamic: {DungeonRoomID: 5}
+  Hash: !ul 18293572854376561405
+  Logic: Logic/Module/IceCavern_Level_Room_07_Prefab/IceCavern_Level_Room_07_Prefab_a8fc.logic.module.ain
+  References:
+  - {Id: Area_cacd, Path: Area_cacd, Reference: !ul 13727709691053600578}
+  - {Id: DungeonRoomCenterAnchor_1e35, Path: DungeonRoomCenterAnchor_1e35, Reference: !ul 15728613007443756192}
+FarDeleteGroups:
+- [!ul 1001435611054403820, !ul 3247210302672998706, !ul 5188278409932697368, !ul 8517392616992133533,
+  !ul 10800122871686931773, !ul 12012255417149986652, !ul 12613027945768783129, !ul 13456646645635052253,
+  !ul 13864016966418971913, !ul 17054320445416272725, !ul 18304931574222247223, !ul 18421279879242817175]
+- [!ul 2867135263981799357, !ul 3386770102738146980, !ul 6482697601949025693, !ul 7387093753918398613,
+  !ul 9737358720946733051, !ul 10005195530866645031, !ul 11968610717389303590, !ul 12597549401391562879,
+  !ul 15032883683184642823, !ul 15192507475453581300, !ul 15433332054602472874, !ul 16712617196303220870]
+- [!ul 4414708903701805042, !ul 6554307454311215168, !ul 6874997892371023062, !ul 7241953878866093533,
+  !ul 7358957810395899450, !ul 9589276576518015200, !ul 10169213272312887158, !ul 10726945289617962774,
+  !ul 12153144952635432432, !ul 15340218311375425750, !ul 17392729928915335548, !ul 17395497836786963999]
+- [!ul 6080385011425235023, !ul 6141854514833870223, !ul 6842265258982926303, !ul 6859289214373847284,
+  !ul 7225222299237517629, !ul 8075604269458561056, !ul 8796415083080143374, !ul 10089091431590063965,
+  !ul 14093347216660958637, !ul 15472048667451368083]
+- [!ul 734819136168332225, !ul 1389017483214612822, !ul 2249015181427375060, !ul 4153794706152716959,
+  !ul 7122406090280745646, !ul 9448956687419482255, !ul 12016193116493700167, !ul 15248716932228560311,
+  !ul 18342353007178806857]
+- [!ul 3412963530709051527, !ul 11172846462061012452, !ul 14467008483541670155, !ul 15647282051608701308,
+  !ul 16768829294388633732, !ul 17358699032032347832, !ul 18000537145324707666, !ul 18436921108716486371]
+- [!ul 3673856988548209885, !ul 4194541240725322457, !ul 8465015584727272464, !ul 12506966263951788558,
+  !ul 13845597996321780582, !ul 15310665127516265947, !ul 16890461732001804265, !ul 17749523208826847202]
+- [!ul 3972365762764282907, !ul 4895084081999526202, !ul 6700614180232247638, !ul 7754940778057670101,
+  !ul 9226278655856967506, !ul 10717980523000027768, !ul 11623246256522999002, !ul 11834116694864372269]
+- [!ul 977775272737165598, !ul 4350068369424404996, !ul 9123353740107412760, !ul 13930176761513686547,
+  !ul 15050224037407511147]
+- [!ul 3599662807571250341, !ul 6128305437160010115, !ul 8850051382223446353, !ul 11594286969679782816,
+  !ul 14678897413397731979]
+- [!ul 3267652807666061189, !ul 4526902915751638722, !ul 8584250520029000414, !ul 9440081431188561357]
+- [!ul 3391806285355866473, !ul 4665080770465038645, !ul 10183935273980528705, !ul 10657817492995254673]
+- [!ul 3516035625674524055, !ul 7379406517873510107, !ul 11892892346725177495, !ul 17839348686013908122]
+- [!ul 3801409472098678257, !ul 8684937983749141213, !ul 12548908281930120924, !ul 14274504974530584510]
+- [!ul 4062908956644107976, !ul 4569669338772768966, !ul 16766821276481305585, !ul 18199595481145527782]
+- [!ul 37448381021102239, !ul 10856112040922903683, !ul 13225717517056621259]
+- [!ul 1216242061412655155, !ul 5958251901540614659, !ul 13418735372637160056]
+- [!ul 1831246369900185690, !ul 11058592044798098483, !ul 13542013937093159888]
+- [!ul 3006378171520377700, !ul 10036345510171334973, !ul 14253337296082374911]
+- [!ul 3023276641175087844, !ul 17684557679787955023, !ul 17733143943330305095]
+- [!ul 5026910073755526260, !ul 14849540181110847725, !ul 17370557715539707972]
+- [!ul 5092116498062362067, !ul 9422051707709067574, !ul 10821004122637053323]
+- [!ul 5982607659326270053, !ul 15011057361189787608, !ul 17314383705983097019]
+- [!ul 9210445307482204523, !ul 13341380261102987873, !ul 15385443856643814272]
+- [!ul 10112109527546235600, !ul 12867142335402887923, !ul 18255979151985924082]
+- [!ul 4213493501717898, !ul 2927966307388341383]
+- [!ul 330512059634959441, !ul 8666438741445863560]
+- [!ul 547698890087007970, !ul 17532724766258883307]
+- [!ul 726022167757098036, !ul 2330025700268530954]
+- [!ul 926948822559436133, !ul 7537975346125684821]
+- [!ul 948530657482773985, !ul 12186909882694874088]
+- [!ul 1046750468166414563, !ul 8240281087226836283]
+- [!ul 1197216466557570294, !ul 15876394073918759366]
+- [!ul 1298767794833018871, !ul 14896531813095348884]
+- [!ul 1428945053135656991, !ul 5157627828636126143]
+- [!ul 1612219105489330028, !ul 2879361409392102017]
+- [!ul 1640445864853155252, !ul 6492922285966638932]
+- [!ul 1831621353832305989, !ul 6766371720604932730]
+- [!ul 2026092539963912193, !ul 7165255787572043804]
+- [!ul 2213121481914297135, !ul 15833416661599990895]
+- [!ul 2781865107940036577, !ul 8853062980272126378]
+- [!ul 2817263178388555373, !ul 14647737365927700334]
+- [!ul 3105481948394149361, !ul 8455825898678675056]
+- [!ul 3138853771372965862, !ul 5747340177546361110]
+- [!ul 3200723622177405753, !ul 11498802739257120175]
+- [!ul 3477860405817413460, !ul 7858326366429010212]
+- [!ul 3572504496801554395, !ul 9785011882542280206]
+- [!ul 3739811407461576956, !ul 14368071009809299359]
+- [!ul 3810940912278186802, !ul 16243451399402928811]
+- [!ul 3854638079633445674, !ul 16644044579805868641]
+- [!ul 3998750774773305736, !ul 4891217100666614737]
+- [!ul 4022311407414159915, !ul 10544815606216485062]
+- [!ul 4069798734802445712, !ul 10788019594209586225]
+- [!ul 4170340469262595147, !ul 8460553754560139666]
+- [!ul 4466114351986683199, !ul 16575753449468057955]
+- [!ul 5123163983533574945, !ul 11187316231566479790]
+- [!ul 5239167285434626493, !ul 12409102020626853471]
+- [!ul 5290365303423301584, !ul 13321537296350001066]
+- [!ul 5795326397976258080, !ul 17931684720416575340]
+- [!ul 5899218435325483950, !ul 15376233358778239416]
+- [!ul 6330430963809465220, !ul 11834825470400057740]
+- [!ul 6701681840690338518, !ul 11086026086240489253]
+- [!ul 6768917453344093312, !ul 15712947819189423505]
+- [!ul 7005256429862164518, !ul 10787245651212510566]
+- [!ul 7038413869877657485, !ul 15178725825351742029]
+- [!ul 7065918455368714750, !ul 13171869948201376477]
+- [!ul 7376686878673244959, !ul 13347739217376945456]
+- [!ul 7445657268056122607, !ul 9073988755612139841]
+- [!ul 7883930213443440881, !ul 12241304348677045401]
+- [!ul 8046019389425829145, !ul 14822647495538506998]
+- [!ul 9236258918509145699, !ul 15324670055555749996]
+- [!ul 10485883698284393202, !ul 15910281845875670410]
+- [!ul 11214466807514581984, !ul 16116229095796055083]
+- [!ul 12196095805855726357, !ul 17122231681614050373]
+- [!ul 12581669068849400903, !ul 15155739620501610902]
+- [!ul 12989490724736996864, !ul 13841323250724418681]
+- [!ul 13198009118954074500, !ul 16366631943866601428]
+- [!ul 13545259034644162992, !ul 16919949776496418098]
+- [!ul 13727709691053600578, !ul 15728613007443756192]
+FilePath: Work/Banc/Scene/IceCavern/IceCavern.bcett.json
+PhiveHeader:
+  PlacementGroups: []
+Rails:
+- Hash: !ul 4275301180663999611
+  IsClosed: false
+  Points:
+  - Hash: !ul 2481787873577573158
+    NextDistance: 11.595935821533203
+    Translate: [37.8164176940918, 103.95477294921875, 0.5870361328125]
+  - Hash: !ul 664955497594245020
+    PrevDistance: 11.595935821533203
+    Translate: [33.62752914428711, 103.95477294921875, 11.399942398071289]
+- Hash: !ul 4767033047892368117
+  IsClosed: false
+  Points:
+  - Hash: !ul 4146890577274386880
+    NextDistance: 14.076325416564941
+    Translate: [-8.027273178100586, 99.75, 35.244449615478516]
+  - Hash: !ul 1688092486069366530
+    PrevDistance: 14.076325416564941
+    Translate: [6.0490522384643555, 99.75, 35.244449615478516]
+- Hash: !ul 6086098547135201209
+  IsClosed: false
+  Points:
+  - Hash: !ul 835923341157822221
+    NextDistance: 10.732946395874023
+    Translate: [47.19095993041992, 103.95477294921875, 1.161468505859375]
+  - Hash: !ul 1015276522790348514
+    PrevDistance: 10.732946395874023
+    Translate: [44.02853775024414, 103.95477294921875, 11.417940139770508]
+- Hash: !ul 12296720220118864228
+  IsClosed: false
+  Points:
+  - Hash: !ul 18296338547416421900
+    NextDistance: 14.063708305358887
+    Translate: [5.959280967712402, 99.75, 28.046056747436523]
+  - Hash: !ul 14120335380614358244
+    PrevDistance: 14.063708305358887
+    Translate: [-8.104427337646484, 99.75, 28.046056747436523]
+SimultaneousGroups:
+- [!ul 1001435611054403820, !ul 3247210302672998706, !ul 5188278409932697368, !ul 8517392616992133533,
+  !ul 10800122871686931773, !ul 12012255417149986652, !ul 12613027945768783129, !ul 13456646645635052253,
+  !ul 13864016966418971913, !ul 17054320445416272725, !ul 18304931574222247223, !ul 18421279879242817175]
+- [!ul 2867135263981799357, !ul 3386770102738146980, !ul 6482697601949025693, !ul 7387093753918398613,
+  !ul 9737358720946733051, !ul 10005195530866645031, !ul 11968610717389303590, !ul 12597549401391562879,
+  !ul 15032883683184642823, !ul 15192507475453581300, !ul 15433332054602472874, !ul 16712617196303220870]
+- [!ul 4414708903701805042, !ul 6554307454311215168, !ul 6874997892371023062, !ul 7241953878866093533,
+  !ul 7358957810395899450, !ul 9589276576518015200, !ul 10169213272312887158, !ul 10726945289617962774,
+  !ul 12153144952635432432, !ul 15340218311375425750, !ul 17392729928915335548, !ul 17395497836786963999]
+- [!ul 6080385011425235023, !ul 6141854514833870223, !ul 6842265258982926303, !ul 6859289214373847284,
+  !ul 7225222299237517629, !ul 8075604269458561056, !ul 8796415083080143374, !ul 10089091431590063965,
+  !ul 14093347216660958637, !ul 15472048667451368083]
+- [!ul 734819136168332225, !ul 1389017483214612822, !ul 2249015181427375060, !ul 4153794706152716959,
+  !ul 7122406090280745646, !ul 9448956687419482255, !ul 12016193116493700167, !ul 15248716932228560311,
+  !ul 18342353007178806857]
+- [!ul 3412963530709051527, !ul 11172846462061012452, !ul 14467008483541670155, !ul 15647282051608701308,
+  !ul 16768829294388633732, !ul 17358699032032347832, !ul 18000537145324707666, !ul 18436921108716486371]
+- [!ul 3673856988548209885, !ul 4194541240725322457, !ul 8465015584727272464, !ul 12506966263951788558,
+  !ul 13845597996321780582, !ul 15310665127516265947, !ul 16890461732001804265, !ul 17749523208826847202]
+- [!ul 3972365762764282907, !ul 4895084081999526202, !ul 6700614180232247638, !ul 7754940778057670101,
+  !ul 9226278655856967506, !ul 10717980523000027768, !ul 11623246256522999002, !ul 11834116694864372269]
+- [!ul 977775272737165598, !ul 4350068369424404996, !ul 9123353740107412760, !ul 13930176761513686547,
+  !ul 15050224037407511147]
+- [!ul 3599662807571250341, !ul 6128305437160010115, !ul 8850051382223446353, !ul 11594286969679782816,
+  !ul 14678897413397731979]
+- [!ul 3267652807666061189, !ul 4526902915751638722, !ul 8584250520029000414, !ul 9440081431188561357]
+- [!ul 3391806285355866473, !ul 4665080770465038645, !ul 10183935273980528705, !ul 10657817492995254673]
+- [!ul 3516035625674524055, !ul 7379406517873510107, !ul 11892892346725177495, !ul 17839348686013908122]
+- [!ul 3801409472098678257, !ul 8684937983749141213, !ul 12548908281930120924, !ul 14274504974530584510]
+- [!ul 4062908956644107976, !ul 4569669338772768966, !ul 16766821276481305585, !ul 18199595481145527782]
+- [!ul 37448381021102239, !ul 10856112040922903683, !ul 13225717517056621259]
+- [!ul 1216242061412655155, !ul 5958251901540614659, !ul 13418735372637160056]
+- [!ul 1831246369900185690, !ul 11058592044798098483, !ul 13542013937093159888]
+- [!ul 3006378171520377700, !ul 10036345510171334973, !ul 14253337296082374911]
+- [!ul 3023276641175087844, !ul 17684557679787955023, !ul 17733143943330305095]
+- [!ul 5026910073755526260, !ul 14849540181110847725, !ul 17370557715539707972]
+- [!ul 5092116498062362067, !ul 9422051707709067574, !ul 10821004122637053323]
+- [!ul 5982607659326270053, !ul 15011057361189787608, !ul 17314383705983097019]
+- [!ul 9210445307482204523, !ul 13341380261102987873, !ul 15385443856643814272]
+- [!ul 10112109527546235600, !ul 12867142335402887923, !ul 18255979151985924082]
+- [!ul 4213493501717898, !ul 2927966307388341383]
+- [!ul 330512059634959441, !ul 8666438741445863560]
+- [!ul 547698890087007970, !ul 17532724766258883307]
+- [!ul 726022167757098036, !ul 2330025700268530954]
+- [!ul 926948822559436133, !ul 7537975346125684821]
+- [!ul 948530657482773985, !ul 12186909882694874088]
+- [!ul 1046750468166414563, !ul 8240281087226836283]
+- [!ul 1197216466557570294, !ul 15876394073918759366]
+- [!ul 1298767794833018871, !ul 14896531813095348884]
+- [!ul 1428945053135656991, !ul 5157627828636126143]
+- [!ul 1612219105489330028, !ul 2879361409392102017]
+- [!ul 1640445864853155252, !ul 6492922285966638932]
+- [!ul 1831621353832305989, !ul 6766371720604932730]
+- [!ul 2026092539963912193, !ul 7165255787572043804]
+- [!ul 2213121481914297135, !ul 15833416661599990895]
+- [!ul 2781865107940036577, !ul 8853062980272126378]
+- [!ul 2817263178388555373, !ul 14647737365927700334]
+- [!ul 3105481948394149361, !ul 8455825898678675056]
+- [!ul 3138853771372965862, !ul 5747340177546361110]
+- [!ul 3200723622177405753, !ul 11498802739257120175]
+- [!ul 3477860405817413460, !ul 7858326366429010212]
+- [!ul 3572504496801554395, !ul 9785011882542280206]
+- [!ul 3739811407461576956, !ul 14368071009809299359]
+- [!ul 3810940912278186802, !ul 16243451399402928811]
+- [!ul 3854638079633445674, !ul 16644044579805868641]
+- [!ul 3998750774773305736, !ul 4891217100666614737]
+- [!ul 4022311407414159915, !ul 10544815606216485062]
+- [!ul 4069798734802445712, !ul 10788019594209586225]
+- [!ul 4170340469262595147, !ul 8460553754560139666]
+- [!ul 4466114351986683199, !ul 16575753449468057955]
+- [!ul 5123163983533574945, !ul 11187316231566479790]
+- [!ul 5239167285434626493, !ul 12409102020626853471]
+- [!ul 5290365303423301584, !ul 13321537296350001066]
+- [!ul 5795326397976258080, !ul 17931684720416575340]
+- [!ul 5899218435325483950, !ul 15376233358778239416]
+- [!ul 6330430963809465220, !ul 11834825470400057740]
+- [!ul 6701681840690338518, !ul 11086026086240489253]
+- [!ul 6768917453344093312, !ul 15712947819189423505]
+- [!ul 7005256429862164518, !ul 10787245651212510566]
+- [!ul 7038413869877657485, !ul 15178725825351742029]
+- [!ul 7065918455368714750, !ul 13171869948201376477]
+- [!ul 7376686878673244959, !ul 13347739217376945456]
+- [!ul 7445657268056122607, !ul 9073988755612139841]
+- [!ul 7883930213443440881, !ul 12241304348677045401]
+- [!ul 8046019389425829145, !ul 14822647495538506998]
+- [!ul 9236258918509145699, !ul 15324670055555749996]
+- [!ul 10485883698284393202, !ul 15910281845875670410]
+- [!ul 11214466807514581984, !ul 16116229095796055083]
+- [!ul 12196095805855726357, !ul 17122231681614050373]
+- [!ul 12581669068849400903, !ul 15155739620501610902]
+- [!ul 12989490724736996864, !ul 13841323250724418681]
+- [!ul 13198009118954074500, !ul 16366631943866601428]
+- [!ul 13545259034644162992, !ul 16919949776496418098]
+- [!ul 13727709691053600578, !ul 15728613007443756192]

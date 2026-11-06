@@ -1,0 +1,2620 @@
+Actors:
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_DoorFrame_A_00
+  Hash: !ul 10250817443636953623
+  Phive:
+    Placement: {ID: !ul 10250817443636953623}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x727f537e
+  Translate: [-1.7999999523162842, 99.5, 10.739999771118164]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_LionHead_A_00
+  Hash: !ul 2511579850366838176
+  Phive:
+    Placement: {ID: !ul 2511579850366838176}
+  SRTHash: !u 0xa2c98874
+  Translate: [-1.7999999523162842, 98.0, -32.35000228881836]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_LionHead_A_00
+  Hash: !ul 5833091237002137882
+  Phive:
+    Placement: {ID: !ul 5833091237002137882}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x30681214
+  Translate: [24.150001525878906, 98.0, -5.400000095367432]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_LionHead_A_00
+  Hash: !ul 14467370478973290185
+  Phive:
+    Placement: {ID: !ul 14467370478973290185}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x86c72804
+  Translate: [-27.75, 98.0, -5.400000095367432]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Pillar_A_01
+  Hash: !ul 12469734640991901134
+  Phive:
+    Placement: {ID: !ul 12469734640991901134}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xd9bd4432
+  Translate: [6.0, 99.5, -9.360000610351562]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Pillar_A_01
+  Hash: !ul 3409696323504756196
+  Phive:
+    Placement: {ID: !ul 3409696323504756196}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xb7af34b0
+  Translate: [1.8614110946655273, 99.5, -13.200000762939453]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Pillar_A_01
+  Hash: !ul 13116505091070424013
+  Phive:
+    Placement: {ID: !ul 13116505091070424013}
+  SRTHash: !u 0xcfed7a08
+  Translate: [-5.4708333015441895, 99.5, -13.200000762939453]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Pillar_A_01
+  Hash: !ul 13446338357888382479
+  Phive:
+    Placement: {ID: !ul 13446338357888382479}
+  Rotate: [0.0, -1.5707963705062866, -0.0]
+  SRTHash: !u 0x0be0470a
+  Translate: [-9.600000381469727, 99.5, -9.360000610351562]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Stair_A_00
+  Hash: !ul 16510968345155665212
+  Phive:
+    Placement: {ID: !ul 16510968345155665212}
+  SRTHash: !u 0xd8ccea4f
+  Translate: [-1.7999999523162842, 99.25, 2.4000000953674316]
+- Dynamic: {DefaultDungeonRoomIndex: 0}
+  Gyaml: Land_GerudoTraining_CandleStick_A_01
+  Hash: !ul 2396403760003921219
+  Phive:
+    Placement: {ID: !ul 2396403760003921219}
+  SRTHash: !u 0x82371d4e
+  Translate: [-9.601053237915039, 104.5114974975586, -8.872567176818848]
+- Dynamic: {DefaultDungeonRoomIndex: 0}
+  Gyaml: Land_GerudoTraining_CandleStick_A_01
+  Hash: !ul 4174608005896383155
+  Phive:
+    Placement: {ID: !ul 4174608005896383155}
+  SRTHash: !u 0xaa1b45b2
+  Translate: [-5.4722900390625, 104.5114974975586, -12.706080436706543]
+- Dynamic: {DefaultDungeonRoomIndex: 0}
+  Gyaml: Land_GerudoTraining_CandleStick_A_01
+  Hash: !ul 2467845423050832903
+  Phive:
+    Placement: {ID: !ul 2467845423050832903}
+  SRTHash: !u 0x59e14359
+  Translate: [1.8487327098846436, 104.5114974975586, -12.714372634887695]
+- Dynamic: {DefaultDungeonRoomIndex: 0}
+  Gyaml: Land_GerudoTraining_CandleStick_A_01
+  Hash: !ul 15226465585767527256
+  Phive:
+    Placement: {ID: !ul 15226465585767527256}
+  SRTHash: !u 0x8a960a54
+  Translate: [6.007413864135742, 104.5114974975586, -8.860057830810547]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Pillar_A_01
+  Hash: !ul 5946140857074831142
+  Phive:
+    Placement: {ID: !ul 5946140857074831142}
+  SRTHash: !u 0x064d8422
+  Translate: [-9.662565231323242, 99.53433990478516, 4.253417491912842]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Pillar_A_01
+  Hash: !ul 8051610045020236949
+  Phive:
+    Placement: {ID: !ul 8051610045020236949}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x535a32ee
+  Translate: [6.07451057434082, 99.45426940917969, 4.120199680328369]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Stair_A_01
+  Hash: !ul 10424166538767110590
+  Phive:
+    Placement: {ID: !ul 10424166538767110590}
+  SRTHash: !u 0xcc54f966
+  Translate: [-1.7999999523162842, 99.25, -5.400000095367432]
+- Bakeable: true
+  Dynamic: {DefaultDungeonRoomIndex: 0}
+  Gyaml: Land_GerudoValley_Torch_A_01_B
+  Hash: !ul 14720826109075304437
+  Phive:
+    Placement: {ID: !ul 14720826109075304437}
+  Rotate: [0.0025558157358318567, 0.3409194350242615, 0.0]
+  SRTHash: !u 0x9d197110
+  Translate: [-4.760000228881836, 99.25, 0.6999998092651367]
+- Bakeable: true
+  Dynamic: {DefaultDungeonRoomIndex: 0}
+  Gyaml: Land_GerudoValley_Torch_A_01_B
+  Hash: !ul 14223556959273178610
+  Phive:
+    Placement: {ID: !ul 14223556959273178610}
+  Rotate: [0.0, -0.9545947909355164, 0.0]
+  SRTHash: !u 0x05613357
+  Translate: [1.2699999809265137, 99.25, 0.6999998092651367]
+- Bakeable: true
+  Dynamic: {GameModelController_LightTimeTableParamKey: InsideGerudoTrainingEntrance}
+  Gyaml: Land_GerudoTraining_Border_A_01
+  Hash: !ul 3996844068208640173
+  Phive:
+    Placement: {ID: !ul 3996844068208640173}
+  Rotate: [3.1415927410125732, 0.01745334453880787, 3.1415927410125732]
+  SRTHash: !u 0x6dca6b5d
+  Translate: [-1.7999999523162842, 114.75, 41.76033401489258]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Tapestry_A_01
+  Hash: !ul 16934432980962594195
+  Phive:
+    Placement: {ID: !ul 16934432980962594195}
+  SRTHash: !u 0xcc54f966
+  Translate: [-1.7999999523162842, 99.25, -5.400000095367432]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Tapestry_A_02
+  Hash: !ul 6271613189337159351
+  Phive:
+    Placement: {ID: !ul 6271613189337159351}
+  SRTHash: !u 0xcc54f966
+  Translate: [-1.7999999523162842, 99.25, -5.400000095367432]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Tapestry_A_03
+  Hash: !ul 15892803680879489532
+  Phive:
+    Placement: {ID: !ul 15892803680879489532}
+  SRTHash: !u 0xcc54f966
+  Translate: [-1.7999999523162842, 99.25, -5.400000095367432]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Tapestry_A_04
+  Hash: !ul 10301877339576904656
+  Phive:
+    Placement: {ID: !ul 10301877339576904656}
+  SRTHash: !u 0xcc54f966
+  Translate: [-1.7999999523162842, 99.25, -5.400000095367432]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_RoomWall_A_01
+  Hash: !ul 10207597899193188996
+  Phive:
+    Placement: {ID: !ul 10207597899193188996}
+  SRTHash: !u 0x7a700da4
+  Translate: [-47.369998931884766, 98.0, -5.400000095367432]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_RoomFloor_A_01
+  Hash: !ul 13059878414736146751
+  Phive:
+    Placement: {ID: !ul 13059878414736146751}
+  SRTHash: !u 0x7a700da4
+  Translate: [-47.369998931884766, 98.0, -5.400000095367432]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_RoomCeiling_A_01
+  Hash: !ul 13475951308927285630
+  Phive:
+    Placement: {ID: !ul 13475951308927285630}
+  SRTHash: !u 0x7a700da4
+  Translate: [-47.369998931884766, 98.0, -5.400000095367432]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Pillar_B_01
+  Hash: !ul 18258270039335998718
+  Phive:
+    Placement: {ID: !ul 18258270039335998718}
+  Rotate: [0.0, -0.8203047513961792, 0.0]
+  SRTHash: !u 0xb480e78e
+  Translate: [-35.16999816894531, 97.9000015258789, -11.200000762939453]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Pillar_B_01
+  Hash: !ul 17626102932749461993
+  Phive:
+    Placement: {ID: !ul 17626102932749461993}
+  Rotate: [0.0, -0.4363323450088501, 0.0]
+  SRTHash: !u 0x6da2ed92
+  Translate: [-42.00600051879883, 97.9000015258789, -18.0]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Pillar_B_01
+  Hash: !ul 10554949014694388604
+  Phive:
+    Placement: {ID: !ul 10554949014694388604}
+  Rotate: [0.0, 0.4363323450088501, 0.0]
+  SRTHash: !u 0x6cd2d8d2
+  Translate: [-52.80500030517578, 97.9000015258789, -18.0]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Pillar_B_01
+  Hash: !ul 5879725767592442537
+  Phive:
+    Placement: {ID: !ul 5879725767592442537}
+  Rotate: [0.0, 1.1344640254974365, 0.0]
+  SRTHash: !u 0xa66be26e
+  Translate: [-60.06999969482422, 97.9000015258789, -10.800000190734863]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Pillar_B_01
+  Hash: !ul 14963294249050772606
+  Phive:
+    Placement: {ID: !ul 14963294249050772606}
+  Rotate: [3.1415927410125732, 1.134463906288147, 3.1415927410125732]
+  SRTHash: !u 0x70f0a4c1
+  Translate: [-60.040000915527344, 97.9000015258789, 0.0]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Pillar_B_01
+  Hash: !ul 16430972263800435258
+  Phive:
+    Placement: {ID: !ul 16430972263800435258}
+  Rotate: [3.1415927410125732, 0.4363323748111725, 3.1415927410125732]
+  SRTHash: !u 0xec893c8f
+  Translate: [-52.80500030517578, 97.9000015258789, 7.320000171661377]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Pillar_B_01
+  Hash: !ul 6561776107229847599
+  Phive:
+    Placement: {ID: !ul 6561776107229847599}
+  Rotate: [3.1415927410125732, -0.4363323748111725, 3.1415927410125732]
+  SRTHash: !u 0x759b0dc7
+  Translate: [-42.00499725341797, 97.9000015258789, 7.259999752044678]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Pillar_B_01
+  Hash: !ul 13194956325954952122
+  Phive:
+    Placement: {ID: !ul 13194956325954952122}
+  Rotate: [3.1415927410125732, -0.820304811000824, 3.1415927410125732]
+  SRTHash: !u 0x8f8eb842
+  Translate: [-35.16999816894531, 97.9000015258789, 0.40000009536743164]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Pillar_B_01
+  Hash: !ul 18443373653775332949
+  Phive:
+    Placement: {ID: !ul 18443373653775332949}
+  Rotate: [0.0, 0.7853981852531433, 0.0]
+  SRTHash: !u 0x0c14a90e
+  Translate: [-29.009998321533203, 97.80000305175781, 0.0]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Pillar_B_01
+  Hash: !ul 3372524100604639228
+  Phive:
+    Placement: {ID: !ul 3372524100604639228}
+  Rotate: [3.1415927410125732, 0.7679449915885925, 3.1415927410125732]
+  SRTHash: !u 0x24d7cdea
+  Translate: [-29.009998321533203, 97.80000305175781, -10.800000190734863]
+- Bakeable: true
+  Dynamic: {DefaultDungeonRoomIndex: 1}
+  Gyaml: Land_GerudoTraining_HangingLight_A_01
+  Hash: !ul 2509124942304605289
+  Phive:
+    Placement: {ID: !ul 2509124942304605289}
+  SRTHash: !u 0xedebfe8d
+  Translate: [-35.89965057373047, 111.37074279785156, -6.926040172576904]
+- Bakeable: true
+  Dynamic: {DefaultDungeonRoomIndex: 1}
+  Gyaml: Land_GerudoTraining_HangingLight_A_01
+  Hash: !ul 17307078187401027244
+  Phive:
+    Placement: {ID: !ul 17307078187401027244}
+  SRTHash: !u 0xae5e2fc5
+  Translate: [-40.715084075927734, 108.40516662597656, -13.718414306640625]
+- Bakeable: true
+  Dynamic: {DefaultDungeonRoomIndex: 1}
+  Gyaml: Land_GerudoTraining_HangingLight_A_01
+  Hash: !ul 17517584344580700367
+  Phive:
+    Placement: {ID: !ul 17517584344580700367}
+  SRTHash: !u 0x11138def
+  Translate: [-45.695159912109375, 110.38751220703125, 0.6868939399719238]
+- Bakeable: true
+  Dynamic: {DefaultDungeonRoomIndex: 1}
+  Gyaml: Land_GerudoTraining_HangingLight_A_01
+  Hash: !ul 10009885916313559089
+  Phive:
+    Placement: {ID: !ul 10009885916313559089}
+  SRTHash: !u 0xab248c12
+  Translate: [-52.603057861328125, 111.53678131103516, -8.601125717163086]
+- Bakeable: true
+  Dynamic: {DefaultDungeonRoomIndex: 1}
+  Gyaml: Land_GerudoTraining_HangingLight_A_01
+  Hash: !ul 9795061802080213502
+  Phive:
+    Placement: {ID: !ul 9795061802080213502}
+  SRTHash: !u 0xed27a2ad
+  Translate: [-55.69053649902344, 109.76793670654297, 0.9785418510437012]
+- Dynamic: {DefaultDungeonRoomIndex: 1}
+  Gyaml: Land_GerudoTraining_Torch_A_01
+  Hash: !ul 14318739332270986307
+  Phive:
+    Placement: {ID: !ul 14318739332270986307}
+  SRTHash: !u 0x6c8a467f
+  Translate: [-44.80685806274414, 100.19999694824219, -18.200000762939453]
+- Dynamic: {DefaultDungeonRoomIndex: 1}
+  Gyaml: Land_GerudoTraining_Torch_A_01
+  Hash: !ul 8252553347478404959
+  Phive:
+    Placement: {ID: !ul 8252553347478404959}
+  SRTHash: !u 0xea347834
+  Translate: [-50.02299880981445, 100.19999694824219, -18.200000762939453]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Tapestry_B_01
+  Hash: !ul 4829311126875923830
+  Phive:
+    Placement: {ID: !ul 4829311126875923830}
+  SRTHash: !u 0x7a700da4
+  Translate: [-47.369998931884766, 98.0, -5.400000095367432]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_HangingLightBase_A_01
+  Hash: !ul 14536917090872576193
+  Phive:
+    Placement: {ID: !ul 14536917090872576193}
+  SRTHash: !u 0x272df370
+  Translate: [-52.602996826171875, 110.02064514160156, -8.60099983215332]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_HangingLightBase_A_01
+  Hash: !ul 9484235748455506927
+  Phive:
+    Placement: {ID: !ul 9484235748455506927}
+  SRTHash: !u 0xc8a44cfe
+  Translate: [-45.69499969482422, 109.97852325439453, 0.6869997978210449]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_HangingLightBase_A_01
+  Hash: !ul 8556961340406009386
+  Phive:
+    Placement: {ID: !ul 8556961340406009386}
+  SRTHash: !u 0x911b9f8f
+  Translate: [-35.89999771118164, 109.15031433105469, -6.926000118255615]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_HangingLightBase_A_01
+  Hash: !ul 17607092501894650774
+  Phive:
+    Placement: {ID: !ul 17607092501894650774}
+  SRTHash: !u 0x3f89df41
+  Translate: [-40.71500015258789, 107.7270278930664, -13.718000411987305]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_HangingLightBase_A_01
+  Hash: !ul 7537756368481191113
+  Phive:
+    Placement: {ID: !ul 7537756368481191113}
+  SRTHash: !u 0xc385a770
+  Translate: [-55.69099807739258, 107.76553344726562, 0.9790000915527344]
+- Bakeable: true
+  Dynamic: {DefaultDungeonRoomIndex: 1}
+  Gyaml: Land_GerudoValley_Torch_A_01_B
+  Hash: !ul 5539758351792460561
+  Phive:
+    Placement: {ID: !ul 5539758351792460561}
+  Rotate: [0.0, 1.4736415147781372, 0.0]
+  SRTHash: !u 0x2a03fe51
+  Translate: [-29.619998931884766, 98.0, -2.9000000953674316]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_DoorFrame_B_02
+  Hash: !ul 3158619897686060745
+  Phive:
+    Placement: {ID: !ul 3158619897686060745}
+  SRTHash: !u 0xb839c94c
+  Translate: [-47.39999771118164, 98.0199966430664, -18.600000381469727]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_DoorFrame_B_02
+  Hash: !ul 4327860871662938571
+  Phive:
+    Placement: {ID: !ul 4327860871662938571}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x39bab2bc
+  Translate: [-28.369998931884766, 98.0199966430664, -5.400000095367432]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Pillar_C_02
+  Hash: !ul 15396380570378939771
+  Phive:
+    Placement: {ID: !ul 15396380570378939771}
+  Rotate: [3.1415927410125732, 1.5023555755615234, 3.1415927410125732]
+  SRTHash: !u 0x785d7598
+  Translate: [-41.4473876953125, 96.5721664428711, -10.205402374267578]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Pillar_C_02
+  Hash: !ul 15696038625564716607
+  Phive:
+    Placement: {ID: !ul 15696038625564716607}
+  Rotate: [0.0, -1.0428978204727173, 0.0]
+  SRTHash: !u 0x9cda9e51
+  Translate: [-44.27933120727539, 96.29302215576172, -3.58268404006958]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Pillar_C_02
+  Hash: !ul 6280393328227641871
+  Phive:
+    Placement: {ID: !ul 6280393328227641871}
+  Rotate: [3.1415927410125732, -0.64857017993927, 3.1415927410125732]
+  SRTHash: !u 0xf7af9686
+  Translate: [-49.59551239013672, 96.95441436767578, 3.1386542320251465]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Pillar_C_02
+  Hash: !ul 9841223183258556009
+  Phive:
+    Placement: {ID: !ul 9841223183258556009}
+  Rotate: [3.1415927410125732, -1.1644535064697266, 3.1415927410125732]
+  SRTHash: !u 0xd095f624
+  Translate: [-53.18321990966797, 97.49514770507812, -7.556032180786133]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_FloorSand_A_02
+  Hash: !ul 4643308248300348957
+  Phive:
+    Placement: {ID: !ul 4643308248300348957}
+  SRTHash: !u 0x7a700da4
+  Translate: [-47.369998931884766, 98.0, -5.400000095367432]
+- Bakeable: true
+  Dynamic: {DefaultDungeonRoomIndex: 1}
+  Gyaml: Land_GerudoValley_Torch_A_01_B
+  Hash: !ul 17522830293797591622
+  Phive:
+    Placement: {ID: !ul 17522830293797591622}
+  Rotate: [0.0, -0.3677064776420593, 0.0]
+  SRTHash: !u 0x6a93075f
+  Translate: [-29.619998931884766, 98.0, -7.900000095367432]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_DoorFrame_B_03
+  Hash: !ul 9975095744398363500
+  Phive:
+    Placement: {ID: !ul 9975095744398363500}
+  SRTHash: !u 0xec1d09b5
+  Translate: [-47.369998931884766, 98.0, -42.0]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_DoorFrame_C_01
+  Hash: !ul 9129268339341307107
+  Phive:
+    Placement: {ID: !ul 9129268339341307107}
+  SRTHash: !u 0x39e9fe5c
+  Translate: [-47.369998931884766, 106.9000015258789, -59.279998779296875]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_IronBars_A_01
+  Hash: !ul 15469261405728620086
+  Phive:
+    Placement: {ID: !ul 15469261405728620086}
+  SRTHash: !u 0xec1d09b5
+  Translate: [-47.369998931884766, 98.0, -42.0]
+- Dynamic: {DefaultDungeonRoomIndex: 2}
+  Gyaml: Land_GerudoTraining_Torch_B_01
+  Hash: !ul 5785443584920748455
+  Phive:
+    Placement: {ID: !ul 5785443584920748455}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xd6f2d1d6
+  Translate: [-34.65425109863281, 107.70384216308594, -56.67953109741211]
+- Dynamic: {DefaultDungeonRoomIndex: 2}
+  Gyaml: Land_GerudoTraining_Torch_B_01
+  Hash: !ul 8320296577738491627
+  Phive:
+    Placement: {ID: !ul 8320296577738491627}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xdb182e71
+  Translate: [-34.649871826171875, 107.70384216308594, -46.79759216308594]
+- Dynamic: {DefaultDungeonRoomIndex: 2}
+  Gyaml: Land_GerudoTraining_Torch_B_01
+  Hash: !ul 10183216734285828559
+  Phive:
+    Placement: {ID: !ul 10183216734285828559}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x3629fa9a
+  Translate: [-34.54741668701172, 106.24513244628906, -36.00627136230469]
+- Dynamic: {DefaultDungeonRoomIndex: 2}
+  Gyaml: Land_GerudoTraining_Torch_B_01
+  Hash: !ul 14520227106029640330
+  Phive:
+    Placement: {ID: !ul 14520227106029640330}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0xc4f2453e
+  Translate: [-59.96321105957031, 106.25047302246094, -32.617950439453125]
+- Dynamic: {DefaultDungeonRoomIndex: 2}
+  Gyaml: Land_GerudoTraining_Torch_B_01
+  Hash: !ul 2910449361883496904
+  Phive:
+    Placement: {ID: !ul 2910449361883496904}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x51c69f3f
+  Translate: [-59.95988082885742, 106.57313537597656, -41.99054718017578]
+- Dynamic: {DefaultDungeonRoomIndex: 2}
+  Gyaml: Land_GerudoTraining_Torch_B_01
+  Hash: !ul 3506759441228356044
+  Phive:
+    Placement: {ID: !ul 3506759441228356044}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x83ad61e4
+  Translate: [-59.968536376953125, 107.68291473388672, -51.133487701416016]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_FireGutter_A_03
+  Hash: !ul 326197907410614375
+  Phive:
+    Placement: {ID: !ul 326197907410614375}
+  SRTHash: !u 0x51e676f0
+  Translate: [-42.27000045776367, 98.0, -28.33278465270996]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_FireGutter_A_01
+  Hash: !ul 12479946277490652548
+  Phive:
+    Placement: {ID: !ul 12479946277490652548}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x4462ed73
+  Translate: [-45.369998931884766, 104.0, -53.39999008178711]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_FireGutter_A_03
+  Hash: !ul 12257913084418512474
+  Phive:
+    Placement: {ID: !ul 12257913084418512474}
+  SRTHash: !u 0xe6dae150
+  Translate: [-52.3699951171875, 104.0, -56.2130126953125]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_BridgePillar_A_01
+  Hash: !ul 1406517128767442618
+  Phive:
+    Placement: {ID: !ul 1406517128767442618}
+  SRTHash: !u 0xec1d09b5
+  Translate: [-47.369998931884766, 98.0, -42.0]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_DoorFrame_B_02
+  Hash: !ul 3095944964816680331
+  Phive:
+    Placement: {ID: !ul 3095944964816680331}
+  SRTHash: !u 0x53e98b3b
+  Translate: [-47.369998931884766, 104.0196304321289, -65.01000213623047]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_FloorSand_A_01
+  Hash: !ul 3770964346024028308
+  Phive:
+    Placement: {ID: !ul 3770964346024028308}
+  SRTHash: !u 0xec1d09b5
+  Translate: [-47.369998931884766, 98.0, -42.0]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_FireGutter_A_03
+  Hash: !ul 9994333694833010012
+  Phive:
+    Placement: {ID: !ul 9994333694833010012}
+  Rotate: [0.0, -0.0, 0.41887903213500977]
+  SRTHash: !u 0xf31e9c33
+  Translate: [-52.36186218261719, 102.8218002319336, -46.47554397583008]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_FireGutter_A_03
+  Hash: !ul 14523850081770852842
+  Phive:
+    Placement: {ID: !ul 14523850081770852842}
+  SRTHash: !u 0x65e10ecf
+  Translate: [-52.3699951171875, 98.0, -34.44255065917969]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_FireGutter_A_03
+  Hash: !ul 4349053884093070564
+  Phive:
+    Placement: {ID: !ul 4349053884093070564}
+  Rotate: [0.0, -0.0, 0.41887903213500977]
+  SRTHash: !u 0xc3583b70
+  Translate: [-42.27000045776367, 99.33438873291016, -40.5242805480957]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_FireGutter_A_03
+  Hash: !ul 5648342101322602006
+  Phive:
+    Placement: {ID: !ul 5648342101322602006}
+  Rotate: [0.0, -0.0, -0.41887903213500977]
+  SRTHash: !u 0x414c7afa
+  Translate: [-42.27000045776367, 102.75398254394531, -50.127830505371094]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_FireGutter_A_01
+  Hash: !ul 13998558742140894535
+  Phive:
+    Placement: {ID: !ul 13998558742140894535}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x79d1c9e7
+  Translate: [-45.369998931884766, 98.0, -28.026700973510742]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_TargetFrame_A_01
+  Hash: !ul 17034185277965787148
+  Phive:
+    Placement: {ID: !ul 17034185277965787148}
+  Rotate: [1.5707963705062866, -0.0, 0.0]
+  SRTHash: !u 0x8c4cd5e8
+  Translate: [-47.24715042114258, 109.10617065429688, -30.005722045898438]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_TargetFrame_A_01
+  Hash: !ul 8265777811071538221
+  Phive:
+    Placement: {ID: !ul 8265777811071538221}
+  Rotate: [0.0, 1.570796251296997, -1.5707963705062866]
+  SRTHash: !u 0x40677918
+  Translate: [-47.24886703491211, 110.5810317993164, -51.165374755859375]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_TargetFrame_A_01
+  Hash: !ul 9748438873318350248
+  Phive:
+    Placement: {ID: !ul 9748438873318350248}
+  Rotate: [-1.570796251296997, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x4a0ff343
+  Translate: [-47.25498962402344, 110.59186553955078, -55.15050506591797]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_TargetFrame_A_01
+  Hash: !ul 12043506450302514298
+  Phive:
+    Placement: {ID: !ul 12043506450302514298}
+  Rotate: [0.0, -1.5707963705062866, 1.5707963705062866]
+  SRTHash: !u 0x50628200
+  Translate: [-49.709468841552734, 110.58773040771484, -57.6569709777832]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_FireGutter_A_04
+  Hash: !ul 10298373177674706365
+  Phive:
+    Placement: {ID: !ul 10298373177674706365}
+  SRTHash: !u 0xd1ce5268
+  Translate: [-52.3699951171875, 98.05999755859375, -34.189998626708984]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_FireGutter_A_04
+  Hash: !ul 3371684495201813723
+  Phive:
+    Placement: {ID: !ul 3371684495201813723}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x4ff86748
+  Translate: [-52.3699951171875, 98.05999755859375, -37.82999801635742]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_FireGutter_A_04
+  Hash: !ul 5692754426975224454
+  Phive:
+    Placement: {ID: !ul 5692754426975224454}
+  Rotate: [0.0, -0.0, 0.41887903213500977]
+  SRTHash: !u 0x8e8e17b0
+  Translate: [-52.37813186645508, 102.85834503173828, -46.185001373291016]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_FireGutter_A_04
+  Hash: !ul 13367988009852674582
+  Phive:
+    Placement: {ID: !ul 13367988009852674582}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, -2.7227137088775635]
+  SRTHash: !u 0x8487f56f
+  Translate: [-52.37813186645508, 102.85834503173828, -49.814998626708984]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_FireGutter_A_04
+  Hash: !ul 16857320041137946207
+  Phive:
+    Placement: {ID: !ul 16857320041137946207}
+  Rotate: [0.0, -0.0, 0.41887903213500977]
+  SRTHash: !u 0x676f1b67
+  Translate: [-42.28219985961914, 99.3617935180664, -40.174278259277344]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_FireGutter_A_04
+  Hash: !ul 16008665905131710452
+  Phive:
+    Placement: {ID: !ul 16008665905131710452}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, -2.7227137088775635]
+  SRTHash: !u 0x65cdd38d
+  Translate: [-42.28627014160156, 99.37093353271484, -43.8849983215332]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_FireGutter_A_04
+  Hash: !ul 1247272078519002086
+  Phive:
+    Placement: {ID: !ul 1247272078519002086}
+  Rotate: [0.0, -0.0, -0.41887903213500977]
+  SRTHash: !u 0x97b2db10
+  Translate: [-42.24966049194336, 102.79965209960938, -49.79783248901367]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_FireGutter_A_04
+  Hash: !ul 14912686370258131935
+  Phive:
+    Placement: {ID: !ul 14912686370258131935}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 2.7227137088775635]
+  SRTHash: !u 0x6e3d3fc5
+  Translate: [-42.24966049194336, 102.79965209960938, -53.29499816894531]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_RoomCeiling_A_03
+  Hash: !ul 5575010349575458040
+  Phive:
+    Placement: {ID: !ul 5575010349575458040}
+  SRTHash: !u 0x32bfcd77
+  Translate: [-47.369998931884766, 103.98750305175781, -82.41000366210938]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_DoorFrame_C_02
+  Hash: !ul 13566966632485241775
+  Phive:
+    Placement: {ID: !ul 13566966632485241775}
+  SRTHash: !u 0x32bfcd77
+  Translate: [-47.369998931884766, 103.98750305175781, -82.41000366210938]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Pillar_B_02
+  Hash: !ul 18358913248716634350
+  Phive:
+    Placement: {ID: !ul 18358913248716634350}
+  Rotate: [3.1415927410125732, -0.39269909262657166, 3.1415927410125732]
+  SRTHash: !u 0x9124c5c3
+  Translate: [-41.94076919555664, 103.98750305175781, -69.73621368408203]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Pillar_B_02
+  Hash: !ul 5163605240901550042
+  Phive:
+    Placement: {ID: !ul 5163605240901550042}
+  Rotate: [0.0, 1.1780972480773926, 0.0]
+  SRTHash: !u 0x0dac574c
+  Translate: [-34.75042724609375, 103.98750305175781, -77.02674865722656]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Pillar_B_02
+  Hash: !ul 3359999857787625034
+  Phive:
+    Placement: {ID: !ul 3359999857787625034}
+  Rotate: [0.0, -1.1780970096588135, 0.0]
+  SRTHash: !u 0x0ebbe9ae
+  Translate: [-34.754119873046875, 103.98750305175781, -87.7917251586914]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Pillar_B_02
+  Hash: !ul 4093999874266886043
+  Phive:
+    Placement: {ID: !ul 4093999874266886043}
+  Rotate: [3.1415927410125732, -1.178097128868103, 3.1415927410125732]
+  SRTHash: !u 0x1af36939
+  Translate: [-60.03813171386719, 103.98750305175781, -87.84395599365234]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Pillar_B_02
+  Hash: !ul 12431654336780215634
+  Phive:
+    Placement: {ID: !ul 12431654336780215634}
+  Rotate: [3.1415927410125732, 1.1780972480773926, 3.1415927410125732]
+  SRTHash: !u 0xb9492c56
+  Translate: [-60.03715133666992, 103.98750305175781, -77.0087890625]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Pillar_B_02
+  Hash: !ul 1522413002505727465
+  Phive:
+    Placement: {ID: !ul 1522413002505727465}
+  Rotate: [0.0, -0.39269912242889404, 0.0]
+  SRTHash: !u 0xd2239ee5
+  Translate: [-52.81782913208008, 103.98750305175781, -69.73189544677734]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Carpet_A_01
+  Hash: !ul 1203839962183949199
+  Phive:
+    Placement: {ID: !ul 1203839962183949199}
+  Rotate: [0.0, 0.6575219035148621, 0.0]
+  SRTHash: !u 0x0bda2182
+  Translate: [-55.13311004638672, 103.9986343383789, -90.28890991210938]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Pillar_B_02
+  Hash: !ul 18313940899208042063
+  Phive:
+    Placement: {ID: !ul 18313940899208042063}
+  Rotate: [0.0, -0.6127806305885315, 0.0]
+  SRTHash: !u 0x6306bb5a
+  Translate: [-42.92732620239258, 103.98750305175781, -94.29724884033203]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Pillar_B_02
+  Hash: !ul 14717023068901616350
+  Phive:
+    Placement: {ID: !ul 14717023068901616350}
+  Rotate: [3.1415927410125732, -0.39269909262657166, 3.1415927410125732]
+  SRTHash: !u 0xa98f0524
+  Translate: [-51.75938415527344, 103.98750305175781, -94.4258804321289]
+- Dynamic: {DefaultDungeonRoomIndex: 3}
+  Gyaml: Land_GerudoTraining_Torch_A_01
+  Hash: !ul 740078033441899974
+  Phive:
+    Placement: {ID: !ul 740078033441899974}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x971feee0
+  Translate: [-34.654998779296875, 106.78750610351562, -80.31000518798828]
+- Dynamic: {DefaultDungeonRoomIndex: 3}
+  Gyaml: Land_GerudoTraining_Torch_A_01
+  Hash: !ul 2745486222680662450
+  Phive:
+    Placement: {ID: !ul 2745486222680662450}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0xdc64bce1
+  Translate: [-34.65530776977539, 106.78750610351562, -84.51000213623047]
+- Dynamic: {DefaultDungeonRoomIndex: 3}
+  Gyaml: Land_GerudoTraining_Torch_A_01
+  Hash: !ul 10337921690560673581
+  Phive:
+    Placement: {ID: !ul 10337921690560673581}
+  Rotate: [0.0, 0.6656461954116821, 0.0]
+  SRTHash: !u 0x5fd9df5f
+  Translate: [-55.947059631347656, 106.78750610351562, -91.19640350341797]
+- Dynamic: {DefaultDungeonRoomIndex: 3}
+  Gyaml: Land_GerudoTraining_Torch_A_01
+  Hash: !ul 5004659364585397376
+  Phive:
+    Placement: {ID: !ul 5004659364585397376}
+  SRTHash: !u 0xc2fed745
+  Translate: [-44.12062072753906, 106.78750610351562, -94.52783203125]
+- Dynamic: {DefaultDungeonRoomIndex: 3}
+  Gyaml: Land_GerudoTraining_Torch_A_01
+  Hash: !ul 4345148100388900840
+  Phive:
+    Placement: {ID: !ul 4345148100388900840}
+  SRTHash: !u 0x16b2cc95
+  Translate: [-50.4703254699707, 106.78750610351562, -94.52783203125]
+- Dynamic: {DefaultDungeonRoomIndex: 3}
+  Gyaml: Land_GerudoTraining_Torch_A_01
+  Hash: !ul 15475003501730502971
+  Phive:
+    Placement: {ID: !ul 15475003501730502971}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xaee8d19d
+  Translate: [-50.25782775878906, 106.6875, -69.6381607055664]
+- Dynamic: {DefaultDungeonRoomIndex: 3}
+  Gyaml: Land_GerudoTraining_Torch_A_01
+  Hash: !ul 16655529028634411995
+  Phive:
+    Placement: {ID: !ul 16655529028634411995}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x6acd8963
+  Translate: [-44.481998443603516, 106.6875, -69.6381607055664]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_DoorFrame_B_02
+  Hash: !ul 2704084037424757426
+  Phive:
+    Placement: {ID: !ul 2704084037424757426}
+  SRTHash: !u 0x9285b3d7
+  Translate: [-47.34000015258789, 104.00210571289062, -111.2239990234375]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_DoorFrame_B_02
+  Hash: !ul 17846328364944240066
+  Phive:
+    Placement: {ID: !ul 17846328364944240066}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x4423d7ee
+  Translate: [-25.8439998626709, 105.994140625, -82.41000366210938]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_TargetFrame_A_01
+  Hash: !ul 8358858888166724084
+  Phive:
+    Placement: {ID: !ul 8358858888166724084}
+  Rotate: [-1.570796251296997, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x102d8b05
+  Translate: [-32.744998931884766, 110.01625061035156, -82.41000366210938]
+- Dynamic: {DefaultDungeonRoomIndex: 3}
+  Gyaml: Land_GerudoTraining_Torch_A_01
+  Hash: !ul 9813986239642102924
+  Phive:
+    Placement: {ID: !ul 9813986239642102924}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xa10803e5
+  Translate: [-49.86922073364258, 106.71705627441406, -107.61409759521484]
+- Dynamic: {DefaultDungeonRoomIndex: 3}
+  Gyaml: Land_GerudoTraining_Torch_A_01
+  Hash: !ul 16871400753438141863
+  Phive:
+    Placement: {ID: !ul 16871400753438141863}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x8000f01c
+  Translate: [-44.75389862060547, 106.71705627441406, -107.61409759521484]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_DoorFrame_B_02
+  Hash: !ul 1026434063132118817
+  Phive:
+    Placement: {ID: !ul 1026434063132118817}
+  SRTHash: !u 0xadaf21e1
+  Translate: [-2.3399999141693115, 105.99140930175781, -58.906002044677734]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_DoorFrame_B_02
+  Hash: !ul 15583219571317748572
+  Phive:
+    Placement: {ID: !ul 15583219571317748572}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0xb6d40660
+  Translate: [24.690000534057617, 97.99736022949219, -82.44000244140625]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_RoomWall_A_05
+  Hash: !ul 250883671571195065
+  Phive:
+    Placement: {ID: !ul 250883671571195065}
+  SRTHash: !u 0x40425731
+  Translate: [43.290000915527344, 97.9749984741211, -82.44000244140625]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_RoomFloor_A_05
+  Hash: !ul 4014247145848894735
+  Phive:
+    Placement: {ID: !ul 4014247145848894735}
+  SRTHash: !u 0x40425731
+  Translate: [43.290000915527344, 97.9749984741211, -82.44000244140625]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_RoomCeiling_A_05
+  Hash: !ul 16134135049263620243
+  Phive:
+    Placement: {ID: !ul 16134135049263620243}
+  SRTHash: !u 0x40425731
+  Translate: [43.290000915527344, 97.9749984741211, -82.44000244140625]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Pillar_D_01
+  Hash: !ul 14443705929450559884
+  Phive:
+    Placement: {ID: !ul 14443705929450559884}
+  SRTHash: !u 0x14594ae6
+  Translate: [39.69000244140625, 97.9749984741211, -91.99000549316406]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Pillar_D_01
+  Hash: !ul 13500458218670541339
+  Phive:
+    Placement: {ID: !ul 13500458218670541339}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x42422a95
+  Translate: [52.88999938964844, 97.9749984741211, -85.9800033569336]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Pillar_D_01
+  Hash: !ul 10550356349780941867
+  Phive:
+    Placement: {ID: !ul 10550356349780941867}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x5e98df09
+  Translate: [52.88999938964844, 97.9749984741211, -78.79000091552734]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Pillar_D_02
+  Hash: !ul 12681634988059976376
+  Phive:
+    Placement: {ID: !ul 12681634988059976376}
+  SRTHash: !u 0xbd9c0ac0
+  Translate: [46.88999938964844, 97.9749984741211, -91.9800033569336]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_FireGutter_A_02
+  Hash: !ul 1194287390382368747
+  Phive:
+    Placement: {ID: !ul 1194287390382368747}
+  SRTHash: !u 0x80d05127
+  Translate: [43.290000915527344, 98.375, -82.44000244140625]
+- Dynamic: {DefaultDungeonRoomIndex: 5}
+  Gyaml: Land_GerudoTraining_Torch_B_01
+  Hash: !ul 5710292125742075683
+  Phive:
+    Placement: {ID: !ul 5710292125742075683}
+  Rotate: [0.0, 0.8104748129844666, 0.0]
+  SRTHash: !u 0xdd2703c8
+  Translate: [34.36829376220703, 103.01704406738281, -91.5645751953125]
+- Dynamic: {DefaultDungeonRoomIndex: 5}
+  Gyaml: Land_GerudoTraining_Torch_B_01
+  Hash: !ul 7979761210923667516
+  Phive:
+    Placement: {ID: !ul 7979761210923667516}
+  Rotate: [0.0, 1.2999330759048462, 0.0]
+  SRTHash: !u 0x88d8ba8c
+  Translate: [52.385379791259766, 103.01704406738281, -91.5259017944336]
+- Dynamic: {DefaultDungeonRoomIndex: 5}
+  Gyaml: Land_GerudoTraining_Torch_B_01
+  Hash: !ul 3677121562026414040
+  Phive:
+    Placement: {ID: !ul 3677121562026414040}
+  Rotate: [0.0, -0.32114437222480774, 0.0]
+  SRTHash: !u 0x87d5a954
+  Translate: [52.33991622924805, 103.01704406738281, -73.4342041015625]
+- Dynamic: {DefaultDungeonRoomIndex: 5}
+  Gyaml: Land_GerudoTraining_Torch_B_01
+  Hash: !ul 16053205960967395026
+  Phive:
+    Placement: {ID: !ul 16053205960967395026}
+  Rotate: [0.0, 0.2833700478076935, 0.0]
+  SRTHash: !u 0x6dd8a6e6
+  Translate: [34.36532974243164, 103.01704406738281, -73.46724700927734]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Pillar_D_01
+  Hash: !ul 17618102349702393444
+  Phive:
+    Placement: {ID: !ul 17618102349702393444}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x77ce08cb
+  Translate: [39.69000244140625, 97.9749984741211, -72.9000015258789]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Pillar_D_01
+  Hash: !ul 17222037187683333810
+  Phive:
+    Placement: {ID: !ul 17222037187683333810}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x1956f1d7
+  Translate: [46.88999938964844, 97.9749984741211, -72.9000015258789]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Pillar_D_01
+  Hash: !ul 9546526146714537347
+  Phive:
+    Placement: {ID: !ul 9546526146714537347}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x6b5458c3
+  Translate: [33.92466735839844, 97.9749984741211, -78.44000244140625]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Pillar_D_01
+  Hash: !ul 1763744669325796091
+  Phive:
+    Placement: {ID: !ul 1763744669325796091}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x40d3268f
+  Translate: [33.92466735839844, 97.9749984741211, -86.44000244140625]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Carpet_A_01
+  Hash: !ul 7579908256172172050
+  Phive:
+    Placement: {ID: !ul 7579908256172172050}
+  SRTHash: !u 0x1f8570e4
+  Translate: [43.5130615234375, 97.98885345458984, -90.83472442626953]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_DoorFrame_B_02
+  Hash: !ul 3544407549725811579
+  Phive:
+    Placement: {ID: !ul 3544407549725811579}
+  SRTHash: !u 0xfbac20e6
+  Translate: [43.290000915527344, 98.0250015258789, -72.24000549316406]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_DoorFrame_B_08
+  Hash: !ul 8926789215429883964
+  Phive:
+    Placement: {ID: !ul 8926789215429883964}
+  SRTHash: !u 0xbb869d38
+  Translate: [43.290000915527344, 97.49800109863281, -66.38999938964844]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Stair_B_01
+  Hash: !ul 9634670616211766655
+  Phive:
+    Placement: {ID: !ul 9634670616211766655}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xffa806f2
+  Translate: [44.38500213623047, 93.4800033569336, -31.141998291015625]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Stair_C_01
+  Hash: !ul 9852426660302137252
+  Phive:
+    Placement: {ID: !ul 9852426660302137252}
+  SRTHash: !u 0xbb869d38
+  Translate: [43.290000915527344, 97.49800109863281, -66.38999938964844]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_FireGutter_A_02
+  Hash: !ul 14606323641260344044
+  Phive:
+    Placement: {ID: !ul 14606323641260344044}
+  SRTHash: !u 0x2e56ca90
+  Translate: [33.48999786376953, 94.8499984741211, -56.39999771118164]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_DoorFrame_B_02
+  Hash: !ul 7867979313636433150
+  Phive:
+    Placement: {ID: !ul 7867979313636433150}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x7d317250
+  Translate: [57.65999984741211, 94.02203369140625, -43.91999816894531]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_DoorFrame_B_02
+  Hash: !ul 9101632685593638414
+  Phive:
+    Placement: {ID: !ul 9101632685593638414}
+  SRTHash: !u 0x49a6296e
+  Translate: [44.4010009765625, 98.04717254638672, -17.999998092651367]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_TargetFrame_A_01
+  Hash: !ul 6065965746240625882
+  Phive:
+    Placement: {ID: !ul 6065965746240625882}
+  Rotate: [-3.141592502593994, -1.51433265209198, -3.010000705718994]
+  SRTHash: !u 0x7d0e72ec
+  Translate: [56.37394714355469, 102.74259948730469, -59.2373046875]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_TargetFrame_A_01
+  Hash: !ul 17165010542212255168
+  Phive:
+    Placement: {ID: !ul 17165010542212255168}
+  Rotate: [0.01257336512207985, -0.0, 0.0]
+  SRTHash: !u 0x046c4521
+  Translate: [43.25784683227539, 102.27881622314453, -66.5681381225586]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_TargetFrame_A_01
+  Hash: !ul 16762860778215809891
+  Phive:
+    Placement: {ID: !ul 16762860778215809891}
+  Rotate: [0.0, -1.521840214729309, 0.03322887420654297]
+  SRTHash: !u 0xafeb822f
+  Translate: [56.04642105102539, 97.50069427490234, -49.91112518310547]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_TargetFrame_A_02
+  Hash: !ul 8637614849125952932
+  Phive:
+    Placement: {ID: !ul 8637614849125952932}
+  Rotate: [3.1415927410125732, 0.6632250547409058, 3.1415927410125732]
+  SRTHash: !u 0x04c1bd0b
+  Translate: [45.88037872314453, 92.96847534179688, -35.20176696777344]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_RoomWall_A_07
+  Hash: !ul 4211249581945974911
+  Phive:
+    Placement: {ID: !ul 4211249581945974911}
+  SRTHash: !u 0x0cfb509f
+  Translate: [44.400001525878906, 98.0, -5.400000095367432]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_RoomFloor_A_07
+  Hash: !ul 7504738254720891039
+  Phive:
+    Placement: {ID: !ul 7504738254720891039}
+  SRTHash: !u 0x0cfb509f
+  Translate: [44.400001525878906, 98.0, -5.400000095367432]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_RoomCeiling_A_07
+  Hash: !ul 2333328658972507049
+  Phive:
+    Placement: {ID: !ul 2333328658972507049}
+  SRTHash: !u 0x0cfb509f
+  Translate: [44.400001525878906, 98.0, -5.400000095367432]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Pillar_B_03
+  Hash: !ul 1036382165201306941
+  Phive:
+    Placement: {ID: !ul 1036382165201306941}
+  Rotate: [0.0, -0.050593599677085876, 0.0]
+  SRTHash: !u 0x268c311c
+  Translate: [38.6776237487793, 99.5, -16.77956199645996]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Pillar_B_03
+  Hash: !ul 3063658514239368332
+  Phive:
+    Placement: {ID: !ul 3063658514239368332}
+  Rotate: [3.1415927410125732, -1.5632787942886353, 3.1415927410125732]
+  SRTHash: !u 0x1f287a5f
+  Translate: [33.09822082519531, 99.5, -11.160260200500488]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Pillar_B_03
+  Hash: !ul 6223872424268128593
+  Phive:
+    Placement: {ID: !ul 6223872424268128593}
+  Rotate: [0.0, 0.7509362101554871, 0.0]
+  SRTHash: !u 0x44d1e98d
+  Translate: [33.129329681396484, 99.5, 0.38876867294311523]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Pillar_B_03
+  Hash: !ul 9775500754581483724
+  Phive:
+    Placement: {ID: !ul 9775500754581483724}
+  Rotate: [0.0, -0.8532853722572327, 0.0]
+  SRTHash: !u 0x4882d416
+  Translate: [38.77882766723633, 99.5, 6.013426303863525]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Pillar_B_03
+  Hash: !ul 11829306587355022329
+  Phive:
+    Placement: {ID: !ul 11829306587355022329}
+  Rotate: [0.0, -0.7046535611152649, 0.0]
+  SRTHash: !u 0x052fdf81
+  Translate: [50.083717346191406, 99.5, 5.969926357269287]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Pillar_B_03
+  Hash: !ul 10742479582396333077
+  Phive:
+    Placement: {ID: !ul 10742479582396333077}
+  Rotate: [0.0, -0.8929651379585266, 0.0]
+  SRTHash: !u 0x1ce02440
+  Translate: [55.76420593261719, 99.5, 0.3136777877807617]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Pillar_B_03
+  Hash: !ul 6611283942766351541
+  Phive:
+    Placement: {ID: !ul 6611283942766351541}
+  Rotate: [0.0, 0.8473982810974121, 0.0]
+  SRTHash: !u 0x6e063190
+  Translate: [55.7750358581543, 99.5, -11.066070556640625]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Pillar_B_03
+  Hash: !ul 1282828370390879842
+  Phive:
+    Placement: {ID: !ul 1282828370390879842}
+  Rotate: [0.0, -0.7864567637443542, 0.0]
+  SRTHash: !u 0x721467e8
+  Translate: [50.04646301269531, 99.5, -16.776611328125]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_FireGutter_A_01
+  Hash: !ul 6271846312926818816
+  Phive:
+    Placement: {ID: !ul 6271846312926818816}
+  SRTHash: !u 0x2366c2a0
+  Translate: [54.19875717163086, 98.05000305175781, -1.540104866027832]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_FireGutter_A_01
+  Hash: !ul 6056526555671467691
+  Phive:
+    Placement: {ID: !ul 6056526555671467691}
+  SRTHash: !u 0xa9c6a275
+  Translate: [54.19875717163086, 98.05000305175781, -5.54010534286499]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_FireGutter_A_01
+  Hash: !ul 2376818985942005244
+  Phive:
+    Placement: {ID: !ul 2376818985942005244}
+  Rotate: [0.0, 0.7853981256484985, 0.0]
+  SRTHash: !u 0x2fb2dddb
+  Translate: [51.62354278564453, 98.05000305175781, -12.634170532226562]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_FireGutter_A_01
+  Hash: !ul 2870569183590049465
+  Phive:
+    Placement: {ID: !ul 2870569183590049465}
+  Rotate: [0.0, 0.7853981256484985, 0.0]
+  SRTHash: !u 0xddc9cd9e
+  Translate: [54.19085693359375, 98.05000305175781, -10.06378173828125]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_FireGutter_A_01
+  Hash: !ul 3967812245723326640
+  Phive:
+    Placement: {ID: !ul 3967812245723326640}
+  Rotate: [0.0, -0.7853981852531433, 0.0]
+  SRTHash: !u 0x4ac721e7
+  Translate: [51.5469970703125, 98.05000305175781, 1.9247431755065918]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_FireGutter_A_01
+  Hash: !ul 4811810860024759224
+  Phive:
+    Placement: {ID: !ul 4811810860024759224}
+  Rotate: [0.0, -0.7853981852531433, 0.0]
+  SRTHash: !u 0xfbb8f406
+  Translate: [48.8643913269043, 98.05000305175781, 4.607354640960693]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_FireGutter_A_01
+  Hash: !ul 10733453420292115328
+  Phive:
+    Placement: {ID: !ul 10733453420292115328}
+  Rotate: [0.0, -1.5707961320877075, -0.0]
+  SRTHash: !u 0xe0017f6d
+  Translate: [44.220645904541016, 98.05000305175781, 4.391134738922119]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_FireGutter_A_01
+  Hash: !ul 16202215081116803449
+  Phive:
+    Placement: {ID: !ul 16202215081116803449}
+  Rotate: [0.0, -1.5707961320877075, -0.0]
+  SRTHash: !u 0xcc48b105
+  Translate: [40.32962417602539, 98.05000305175781, 4.391137599945068]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_FireGutter_A_01
+  Hash: !ul 4236993539878016073
+  Phive:
+    Placement: {ID: !ul 4236993539878016073}
+  Rotate: [3.1415927410125732, -0.7853976488113403, 3.1415927410125732]
+  SRTHash: !u 0x4f927a79
+  Translate: [34.41575622558594, 98.05000305175781, -0.9167461395263672]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_FireGutter_A_01
+  Hash: !ul 10561727455861329681
+  Phive:
+    Placement: {ID: !ul 10561727455861329681}
+  Rotate: [3.1415927410125732, -0.7853976488113403, 3.1415927410125732]
+  SRTHash: !u 0xc4aef481
+  Translate: [37.015777587890625, 98.05000305175781, 1.6832571029663086]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_FireGutter_A_01
+  Hash: !ul 17120695716718488427
+  Phive:
+    Placement: {ID: !ul 17120695716718488427}
+  Rotate: [3.1415927410125732, 0.7854000329971313, 3.1415927410125732]
+  SRTHash: !u 0x710e31c8
+  Translate: [37.19582748413086, 98.05000305175781, -12.647315979003906]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_FireGutter_A_01
+  Hash: !ul 16282045638378611599
+  Phive:
+    Placement: {ID: !ul 16282045638378611599}
+  Rotate: [3.1415927410125732, 0.7853990793228149, 3.1415927410125732]
+  SRTHash: !u 0x6c3f87dc
+  Translate: [39.95217514038086, 98.05000305175781, -15.403675079345703]
+- Dynamic: {DefaultDungeonRoomIndex: 7}
+  Gyaml: Land_GerudoTraining_Torch_A_01
+  Hash: !ul 13275803051893856170
+  Phive:
+    Placement: {ID: !ul 13275803051893856170}
+  SRTHash: !u 0xc72fc751
+  Translate: [46.59294128417969, 100.4000015258789, -17.544727325439453]
+- Dynamic: {DefaultDungeonRoomIndex: 7}
+  Gyaml: Land_GerudoTraining_Torch_A_01
+  Hash: !ul 18295374327834237758
+  Phive:
+    Placement: {ID: !ul 18295374327834237758}
+  SRTHash: !u 0xeb3a2a15
+  Translate: [42.223045349121094, 100.4000015258789, -17.544660568237305]
+- Dynamic: {DefaultDungeonRoomIndex: 7}
+  Gyaml: Land_GerudoTraining_Torch_A_01
+  Hash: !ul 838010285308362958
+  Phive:
+    Placement: {ID: !ul 838010285308362958}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x1d6d4964
+  Translate: [25.27941131591797, 100.5999984741211, -3.271637439727783]
+- Dynamic: {DefaultDungeonRoomIndex: 7}
+  Gyaml: Land_GerudoTraining_Torch_A_01
+  Hash: !ul 1272430393871575290
+  Phive:
+    Placement: {ID: !ul 1272430393871575290}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x51422083
+  Translate: [25.27941131591797, 100.5999984741211, -7.557960510253906]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_DoorFrame_B_02
+  Hash: !ul 1482454819609209727
+  Phive:
+    Placement: {ID: !ul 1482454819609209727}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x22e4f5d0
+  Translate: [24.80000114440918, 98.0199966430664, -5.400000095367432]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_WireMesh_A_01
+  Hash: !ul 6597591659658222754
+  Phive:
+    Placement: {ID: !ul 6597591659658222754}
+  SRTHash: !u 0xca1d42fc
+  Translate: [-1.7999999523162842, 98.0, -45.599998474121094]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Carpet_B_01
+  Hash: !ul 17554081572236376037
+  Phive:
+    Placement: {ID: !ul 17554081572236376037}
+  SRTHash: !u 0xdb80e394
+  Translate: [-1.8624999523162842, 98.01000213623047, -48.0]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Carpet_A_01
+  Hash: !ul 3133023040676463418
+  Phive:
+    Placement: {ID: !ul 3133023040676463418}
+  SRTHash: !u 0x674f78ba
+  Translate: [5.512500762939453, 98.01000213623047, -45.51564407348633]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Carpet_A_01
+  Hash: !ul 3364818335851880004
+  Phive:
+    Placement: {ID: !ul 3364818335851880004}
+  SRTHash: !u 0x22503345
+  Translate: [10.246864318847656, 98.01000213623047, -50.41499710083008]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Carpet_A_01
+  Hash: !ul 5745132482490362885
+  Phive:
+    Placement: {ID: !ul 5745132482490362885}
+  SRTHash: !u 0x48ffa89e
+  Translate: [22.824018478393555, 98.01000213623047, -45.613563537597656]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Carpet_A_01
+  Hash: !ul 1698524805722102809
+  Phive:
+    Placement: {ID: !ul 1698524805722102809}
+  SRTHash: !u 0x6bfe1ebd
+  Translate: [-9.015000343322754, 98.01000213623047, -60.01499938964844]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Carpet_A_01
+  Hash: !ul 10812785370846227377
+  Phive:
+    Placement: {ID: !ul 10812785370846227377}
+  SRTHash: !u 0xf249ab5e
+  Translate: [-13.24773120880127, 98.01000213623047, -60.50834274291992]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Carpet_A_01
+  Hash: !ul 2708084064226235708
+  Phive:
+    Placement: {ID: !ul 2708084064226235708}
+  SRTHash: !u 0x7c72f28b
+  Translate: [-19.255369186401367, 98.01000213623047, -46.259490966796875]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Carpet_A_01
+  Hash: !ul 13129059375171028274
+  Phive:
+    Placement: {ID: !ul 13129059375171028274}
+  SRTHash: !u 0x366787b7
+  Translate: [-1.7599999904632568, 105.00700378417969, -37.88453674316406]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_DoorFrame_D_02
+  Hash: !ul 5246360888651579422
+  Phive:
+    Placement: {ID: !ul 5246360888651579422}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xe3b8df4a
+  Translate: [-6.598999977111816, 98.0, -40.86000061035156]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_DoorFrame_D_02
+  Hash: !ul 2425275888495177651
+  Phive:
+    Placement: {ID: !ul 2425275888495177651}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xd8f6ba53
+  Translate: [-16.198999404907227, 98.0, -36.0]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_DoorFrame_D_02
+  Hash: !ul 9130686672161367843
+  Phive:
+    Placement: {ID: !ul 9130686672161367843}
+  SRTHash: !u 0xe6ec1c25
+  Translate: [-9.0, 98.0, -47.99799728393555]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_DoorFrame_D_02
+  Hash: !ul 2318292476124396693
+  Phive:
+    Placement: {ID: !ul 2318292476124396693}
+  SRTHash: !u 0xf1c77777
+  Translate: [-18.599998474121094, 98.0, -57.5989990234375]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_DoorFrame_D_02
+  Hash: !ul 11366067402756861507
+  Phive:
+    Placement: {ID: !ul 11366067402756861507}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xe59a48f3
+  Translate: [-1.8009999990463257, 98.0, -55.19999694824219]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_DoorFrame_D_02
+  Hash: !ul 15838312446277001925
+  Phive:
+    Placement: {ID: !ul 15838312446277001925}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xb482be5c
+  Translate: [2.998999834060669, 98.0, -50.39999771118164]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_DoorFrame_D_02
+  Hash: !ul 9220373643729509843
+  Phive:
+    Placement: {ID: !ul 9220373643729509843}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x725af90c
+  Translate: [3.000000238418579, 98.0, -40.86000061035156]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_DoorFrame_D_02
+  Hash: !ul 7416869683207754625
+  Phive:
+    Placement: {ID: !ul 7416869683207754625}
+  SRTHash: !u 0x79bb40d6
+  Translate: [5.399999618530273, 98.0, -57.5989990234375]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_DoorFrame_D_02
+  Hash: !ul 1319454223871682839
+  Phive:
+    Placement: {ID: !ul 1319454223871682839}
+  SRTHash: !u 0x412ab5db
+  Translate: [14.999999046325684, 98.0, -38.400997161865234]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_DoorFrame_B_02
+  Hash: !ul 7003123261828522387
+  Phive:
+    Placement: {ID: !ul 7003123261828522387}
+  SRTHash: !u 0xf6f359ba
+  Translate: [-1.7999999523162842, 98.0199966430664, -33.0]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_DoorFrame_D_02
+  Hash: !ul 7127191657978820241
+  Phive:
+    Placement: {ID: !ul 7127191657978820241}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x105e4f8c
+  Translate: [29.298952102661133, 98.0, -45.600006103515625]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Stair_A_02
+  Hash: !ul 7180603250448291464
+  Phive:
+    Placement: {ID: !ul 7180603250448291464}
+  SRTHash: !u 0x16702d0c
+  Translate: [-1.7999999523162842, 105.0, -52.79999923706055]
+- Bakeable: true
+  Dynamic: {DefaultDungeonRoomIndex: 8}
+  Gyaml: Land_GerudoTraining_Torch_C_01
+  Hash: !ul 10424571003587390509
+  Phive:
+    Placement: {ID: !ul 10424571003587390509}
+  SRTHash: !u 0x732d9f26
+  Translate: [-4.127281188964844, 100.4000015258789, -62.39999771118164]
+- Bakeable: true
+  Dynamic: {DefaultDungeonRoomIndex: 8}
+  Gyaml: Land_GerudoTraining_Torch_C_01
+  Hash: !ul 6946921430991232884
+  Phive:
+    Placement: {ID: !ul 6946921430991232884}
+  SRTHash: !u 0x3213f056
+  Translate: [-15.737177848815918, 100.4000015258789, -62.39999771118164]
+- Bakeable: true
+  Dynamic: {DefaultDungeonRoomIndex: 8}
+  Gyaml: Land_GerudoTraining_Torch_C_01
+  Hash: !ul 719184193240697255
+  Phive:
+    Placement: {ID: !ul 719184193240697255}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x82094cd6
+  Translate: [-20.99980926513672, 100.4000015258789, -50.07999801635742]
+- Bakeable: true
+  Dynamic: {DefaultDungeonRoomIndex: 8}
+  Gyaml: Land_GerudoTraining_Torch_C_01
+  Hash: !ul 3965536920250724224
+  Phive:
+    Placement: {ID: !ul 3965536920250724224}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x8b416977
+  Translate: [-21.0, 100.4000015258789, -38.396018981933594]
+- Bakeable: true
+  Dynamic: {DefaultDungeonRoomIndex: 8}
+  Gyaml: Land_GerudoTraining_Torch_C_01
+  Hash: !ul 17276802999675847793
+  Phive:
+    Placement: {ID: !ul 17276802999675847793}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xcb8082c1
+  Translate: [-11.0, 100.4000015258789, -33.60013961791992]
+- Bakeable: true
+  Dynamic: {DefaultDungeonRoomIndex: 8}
+  Gyaml: Land_GerudoTraining_Torch_C_01
+  Hash: !ul 811307993813505524
+  Phive:
+    Placement: {ID: !ul 811307993813505524}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xa6596205
+  Translate: [8.36054801940918, 100.4000015258789, -33.599998474121094]
+- Bakeable: true
+  Dynamic: {DefaultDungeonRoomIndex: 8}
+  Gyaml: Land_GerudoTraining_Torch_C_01
+  Hash: !ul 7244609624963805996
+  Phive:
+    Placement: {ID: !ul 7244609624963805996}
+  Rotate: [0.0, -1.5707963705062866, -0.0]
+  SRTHash: !u 0x9ef94492
+  Translate: [17.400001525878906, 100.4000015258789, -41.269996643066406]
+- Bakeable: true
+  Dynamic: {DefaultDungeonRoomIndex: 8}
+  Gyaml: Land_GerudoTraining_Torch_C_01
+  Hash: !ul 8135494088070967783
+  Phive:
+    Placement: {ID: !ul 8135494088070967783}
+  Rotate: [0.0, -1.5707963705062866, -0.0]
+  SRTHash: !u 0x47e9c397
+  Translate: [17.400001525878906, 100.4000015258789, -51.689998626708984]
+- Bakeable: true
+  Dynamic: {DefaultDungeonRoomIndex: 8}
+  Gyaml: Land_GerudoTraining_Torch_C_01
+  Hash: !ul 8383073939353358696
+  Phive:
+    Placement: {ID: !ul 8383073939353358696}
+  SRTHash: !u 0xce759b22
+  Translate: [10.019999504089355, 100.4000015258789, -62.39999771118164]
+- Gyaml: FldObj_AirWall_ClimbPlayer
+  Hash: !ul 8581231999626027981
+  Phive:
+    Placement: {ID: !ul 8581231999626027981}
+  SRTHash: !u 0xe35d34a4
+  Scale: [1.0, 0.11215400695800781, 1.5254542827606201]
+  Translate: [-6.600028038024902, 108.61932373046875, -37.16534423828125]
+- Gyaml: FldObj_AirWall_ClimbPlayer
+  Hash: !ul 8622269210621334494
+  Phive:
+    Placement: {ID: !ul 8622269210621334494}
+  SRTHash: !u 0x8819332d
+  Scale: [1.0, 0.11215400695800781, 1.9843089580535889]
+  Translate: [3.0001637935638428, 108.61932373046875, -38.09128189086914]
+- Bakeable: true
+  Dynamic: {DefaultDungeonRoomIndex: 8}
+  Gyaml: Land_GerudoTraining_Torch_C_01
+  Hash: !ul 9585779841823901986
+  Phive:
+    Placement: {ID: !ul 9585779841823901986}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x506fc9d4
+  Translate: [-4.599999904632568, 107.19999694824219, -33.58988952636719]
+- Bakeable: true
+  Dynamic: {DefaultDungeonRoomIndex: 8}
+  Gyaml: Land_GerudoTraining_Torch_C_01
+  Hash: !ul 331373702138890882
+  Phive:
+    Placement: {ID: !ul 331373702138890882}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x31a49911
+  Translate: [1.0, 107.19999694824219, -33.589996337890625]
+- Gyaml: FldObj_AirWall_ClimbPlayer
+  Hash: !ul 12699317695534544986
+  Phive:
+    Placement: {ID: !ul 12699317695534544986}
+  SRTHash: !u 0xced4190f
+  Scale: [0.6565301418304443, 0.11215400695800781, 0.9135501384735107]
+  Translate: [-5.1962738037109375, 102.80000305175781, -35.55664825439453]
+- Gyaml: FldObj_AirWall_ClimbPlayer
+  Hash: !ul 2134458784610472298
+  Phive:
+    Placement: {ID: !ul 2134458784610472298}
+  SRTHash: !u 0xa8cb9009
+  Scale: [0.6565301418304443, 0.11215400695800781, 0.9135501384735107]
+  Translate: [1.5885779857635498, 102.80000305175781, -35.55664825439453]
+- Gyaml: FldObj_AirWall_ClimbPlayer
+  Hash: !ul 9914200936478672052
+  Phive:
+    Placement: {ID: !ul 9914200936478672052}
+  SRTHash: !u 0x4daa0f93
+  Scale: [0.5723544359207153, 0.6335024833679199, 0.2031107097864151]
+  Translate: [4.200253486633301, 102.63139343261719, -36.90647888183594]
+- Gyaml: FldObj_AirWall_ClimbPlayer
+  Hash: !ul 11636873578844201596
+  Phive:
+    Placement: {ID: !ul 11636873578844201596}
+  SRTHash: !u 0xed4241c4
+  Scale: [0.5723544359207153, 0.6335024833679199, 0.2031107097864151]
+  Translate: [-7.811880111694336, 102.63139343261719, -36.90647888183594]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_RoomWall_A_09
+  Hash: !ul 17070758570537508441
+  Phive:
+    Placement: {ID: !ul 17070758570537508441}
+  SRTHash: !u 0xf6e46063
+  Translate: [69.05999755859375, 94.0, -43.91999816894531]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_RoomFloor_A_09
+  Hash: !ul 10623931595948890803
+  Phive:
+    Placement: {ID: !ul 10623931595948890803}
+  SRTHash: !u 0xf6e46063
+  Translate: [69.05999755859375, 94.0, -43.91999816894531]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_RoomCeiling_A_09
+  Hash: !ul 3646698781147953867
+  Phive:
+    Placement: {ID: !ul 3646698781147953867}
+  SRTHash: !u 0xf6e46063
+  Translate: [69.05999755859375, 94.0, -43.91999816894531]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Carpet_A_01
+  Hash: !ul 8691605645316298016
+  Phive:
+    Placement: {ID: !ul 8691605645316298016}
+  SRTHash: !u 0xc8ba8cee
+  Translate: [78.56206512451172, 94.01000213623047, -43.91999816894531]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_DoorFrame_C_01
+  Hash: !ul 8076803570139116358
+  Phive:
+    Placement: {ID: !ul 8076803570139116358}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xf54b101f
+  Translate: [61.90057373046875, 96.77423858642578, -43.9223747253418]
+- Gyaml: EftLoc_GerudoTrainingGround_WaterStreamWasherRoom_00
+  Hash: !ul 13996817578015563335
+  Phive:
+    Placement: {ID: !ul 13996817578015563335}
+  SRTHash: !u 0xb42a0b61
+  Translate: [69.06248474121094, 75.9749984741211, -43.907936096191406]
+- Gyaml: Land_GerudoTraining_WaterDevice_A_01
+  Hash: !ul 24376540328310203
+  Phive:
+    Placement: {ID: !ul 24376540328310203}
+  SRTHash: !u 0xc5ab2af9
+  Translate: [69.05999755859375, 75.9749984741211, -43.91999816894531]
+- Bakeable: true
+  Dynamic: {DefaultDungeonRoomIndex: 9}
+  Gyaml: Land_GerudoTraining_HangingLight_A_01
+  Hash: !ul 8111872640097295348
+  Phive:
+    Placement: {ID: !ul 8111872640097295348}
+  SRTHash: !u 0xf46be879
+  Translate: [62.792869567871094, 104.87000274658203, -37.895668029785156]
+- Bakeable: true
+  Dynamic: {DefaultDungeonRoomIndex: 9}
+  Gyaml: Land_GerudoTraining_HangingLight_A_01
+  Hash: !ul 10006483857121226741
+  Phive:
+    Placement: {ID: !ul 10006483857121226741}
+  SRTHash: !u 0x5742d785
+  Translate: [62.792869567871094, 104.87000274658203, -49.944000244140625]
+- Bakeable: true
+  Dynamic: {DefaultDungeonRoomIndex: 9}
+  Gyaml: Land_GerudoTraining_HangingLight_A_01
+  Hash: !ul 731880252793526857
+  Phive:
+    Placement: {ID: !ul 731880252793526857}
+  SRTHash: !u 0x7b45df89
+  Translate: [75.20648193359375, 104.87000274658203, -49.944000244140625]
+- Bakeable: true
+  Dynamic: {DefaultDungeonRoomIndex: 9}
+  Gyaml: Land_GerudoTraining_HangingLight_A_01
+  Hash: !ul 12842580928077735612
+  Phive:
+    Placement: {ID: !ul 12842580928077735612}
+  SRTHash: !u 0xef33031e
+  Translate: [75.2066650390625, 104.87000274658203, -37.895668029785156]
+- Bakeable: true
+  Dynamic: {DefaultDungeonRoomIndex: 9}
+  Gyaml: Land_GerudoTraining_HangingLight_A_01
+  Hash: !ul 5223074852514903605
+  Phive:
+    Placement: {ID: !ul 5223074852514903605}
+  SRTHash: !u 0xe219a3b8
+  Translate: [69.68988800048828, 104.87000274658203, -44.678951263427734]
+- Bakeable: true
+  Dynamic: {DefaultDungeonRoomIndex: 9}
+  Gyaml: Land_GerudoTraining_HangingLight_A_01
+  Hash: !ul 13818585731174358433
+  Phive:
+    Placement: {ID: !ul 13818585731174358433}
+  SRTHash: !u 0x584d8537
+  Translate: [68.99864959716797, 104.87000274658203, -42.88726806640625]
+- Bakeable: true
+  Dynamic: {DefaultDungeonRoomIndex: 9}
+  Gyaml: Land_GerudoTraining_HangingLight_A_01
+  Hash: !ul 12084679450412178532
+  Phive:
+    Placement: {ID: !ul 12084679450412178532}
+  SRTHash: !u 0xcfbf6531
+  Translate: [68.08877563476562, 104.87000274658203, -44.1800651550293]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_HangingLightBase_A_01
+  Hash: !ul 14678645806785568367
+  Phive:
+    Placement: {ID: !ul 14678645806785568367}
+  SRTHash: !u 0x47a2adc7
+  Translate: [62.792869567871094, 103.86219787597656, -49.944000244140625]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_HangingLightBase_A_01
+  Hash: !ul 5671360727552026188
+  Phive:
+    Placement: {ID: !ul 5671360727552026188}
+  SRTHash: !u 0x87b6a796
+  Translate: [69.68988800048828, 105.2845230102539, -44.678951263427734]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_HangingLightBase_A_01
+  Hash: !ul 49194008035269301
+  Phive:
+    Placement: {ID: !ul 49194008035269301}
+  SRTHash: !u 0xf4f06261
+  Translate: [68.08877563476562, 105.31381225585938, -44.1800651550293]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_HangingLightBase_A_01
+  Hash: !ul 9558640405592750553
+  Phive:
+    Placement: {ID: !ul 9558640405592750553}
+  SRTHash: !u 0xb8236b3a
+  Translate: [68.99864959716797, 105.29234313964844, -42.88726806640625]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_HangingLightBase_A_01
+  Hash: !ul 7354916839537516265
+  Phive:
+    Placement: {ID: !ul 7354916839537516265}
+  SRTHash: !u 0x59a51622
+  Translate: [62.792869567871094, 103.8446044921875, -37.895668029785156]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_HangingLightBase_A_01
+  Hash: !ul 15535145236547365558
+  Phive:
+    Placement: {ID: !ul 15535145236547365558}
+  SRTHash: !u 0xa7ffa93b
+  Translate: [75.2066650390625, 103.9342041015625, -37.895668029785156]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_HangingLightBase_A_01
+  Hash: !ul 15430716927676185542
+  Phive:
+    Placement: {ID: !ul 15430716927676185542}
+  SRTHash: !u 0x3b347d78
+  Translate: [75.20648193359375, 103.94284057617188, -49.944000244140625]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Tapestry_D_01
+  Hash: !ul 16524518443071379418
+  Phive:
+    Placement: {ID: !ul 16524518443071379418}
+  SRTHash: !u 0xf6e46063
+  Translate: [69.05999755859375, 94.0, -43.91999816894531]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_TargetFrame_A_01
+  Hash: !ul 4975228095363102228
+  Phive:
+    Placement: {ID: !ul 4975228095363102228}
+  SRTHash: !u 0x54010f2d
+  Translate: [68.99890899658203, 82.52011108398438, -51.111637115478516]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_TargetFrame_A_01
+  Hash: !ul 10049796670156507047
+  Phive:
+    Placement: {ID: !ul 10049796670156507047}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xd1b10c84
+  Translate: [61.88417434692383, 82.51761627197266, -43.99689865112305]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_TargetFrame_A_01
+  Hash: !ul 808052543133482080
+  Phive:
+    Placement: {ID: !ul 808052543133482080}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xe630528d
+  Translate: [69.00604248046875, 82.51072692871094, -36.712772369384766]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_TargetFrame_A_01
+  Hash: !ul 16843907098313490768
+  Phive:
+    Placement: {ID: !ul 16843907098313490768}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x32927cd2
+  Translate: [76.27363586425781, 82.51407623291016, -44.0007438659668]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_DoorFrame_B_09
+  Hash: !ul 14964190290315608649
+  Phive:
+    Placement: {ID: !ul 14964190290315608649}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x5069a358
+  Translate: [76.49942016601562, 94.0, -43.91999816894531]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_RoomWall_A_10
+  Hash: !ul 8518397755001097596
+  Phive:
+    Placement: {ID: !ul 8518397755001097596}
+  SRTHash: !u 0xa3e5c0dc
+  Translate: [-47.369998931884766, 103.9749984741211, -115.0]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_RoomFloor_A_10
+  Hash: !ul 4057258828664012317
+  Phive:
+    Placement: {ID: !ul 4057258828664012317}
+  SRTHash: !u 0xa3e5c0dc
+  Translate: [-47.369998931884766, 103.9749984741211, -115.0]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_RoomCeiling_A_10
+  Hash: !ul 4867851137018202558
+  Phive:
+    Placement: {ID: !ul 4867851137018202558}
+  SRTHash: !u 0xa3e5c0dc
+  Translate: [-47.369998931884766, 103.9749984741211, -115.0]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Carpet_C_01
+  Hash: !ul 4193979778285058261
+  Phive:
+    Placement: {ID: !ul 4193979778285058261}
+  Rotate: [0.0, -0.5235987901687622, 0.0]
+  SRTHash: !u 0x035cb0ff
+  Translate: [-42.64213562011719, 104.19499969482422, -123.83908081054688]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Carpet_C_01
+  Hash: !ul 9377360925346204785
+  Phive:
+    Placement: {ID: !ul 9377360925346204785}
+  Rotate: [0.0, -0.5235987901687622, 0.0]
+  SRTHash: !u 0x7108e837
+  Translate: [-42.46564865112305, 104.19499969482422, -137.8732147216797]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Carpet_C_01
+  Hash: !ul 8093941887900655180
+  Phive:
+    Placement: {ID: !ul 8093941887900655180}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x02e698bf
+  Translate: [-45.599998474121094, 104.72100067138672, -145.51394653320312]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Carpet_C_01
+  Hash: !ul 11642475001692415562
+  Phive:
+    Placement: {ID: !ul 11642475001692415562}
+  SRTHash: !u 0xb1e11d15
+  Translate: [-53.28533172607422, 103.50023651123047, -131.79360961914062]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Carpet_C_01
+  Hash: !ul 10733994277783221817
+  Phive:
+    Placement: {ID: !ul 10733994277783221817}
+  Rotate: [0.0, 0.5235987901687622, 0.0]
+  SRTHash: !u 0xc085a053
+  Translate: [-39.81259536743164, 103.49800109863281, -130.53961181640625]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Pillar_B_02
+  Hash: !ul 1102935888573762359
+  Phive:
+    Placement: {ID: !ul 1102935888573762359}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x4ecfd9e1
+  Translate: [-43.54820251464844, 103.9749984741211, -119.30000305175781]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Pillar_B_02
+  Hash: !ul 16692126223636140335
+  Phive:
+    Placement: {ID: !ul 16692126223636140335}
+  Rotate: [0.0, -1.5637805461883545, 0.0]
+  SRTHash: !u 0xb148f752
+  Translate: [-40.28586959838867, 103.9749984741211, -126.16470336914062]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Pillar_B_02
+  Hash: !ul 5447780552108517431
+  Phive:
+    Placement: {ID: !ul 5447780552108517431}
+  Rotate: [0.0, 1.569085955619812, -0.0]
+  SRTHash: !u 0x3439c809
+  Translate: [-43.523170471191406, 103.9749984741211, -133.016845703125]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Pillar_B_02
+  Hash: !ul 3586255387056831493
+  Phive:
+    Placement: {ID: !ul 3586255387056831493}
+  Rotate: [0.0, -1.376165509223938, 0.0]
+  SRTHash: !u 0xa4b1640b
+  Translate: [-39.82453918457031, 103.9749984741211, -140.927001953125]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Pillar_B_02
+  Hash: !ul 3531452033326181058
+  Phive:
+    Placement: {ID: !ul 3531452033326181058}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x28142dc1
+  Translate: [-45.58943176269531, 103.9749984741211, -147.57339477539062]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Pillar_B_02
+  Hash: !ul 813927101252197986
+  Phive:
+    Placement: {ID: !ul 813927101252197986}
+  Rotate: [0.0, 0.8812838792800903, 0.0]
+  SRTHash: !u 0x513cfe9b
+  Translate: [-51.05155944824219, 103.9749984741211, -139.48487854003906]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Pillar_B_02
+  Hash: !ul 12342360300502231139
+  Phive:
+    Placement: {ID: !ul 12342360300502231139}
+  Rotate: [3.1415927410125732, 1.1702135801315308, 3.1415927410125732]
+  SRTHash: !u 0xcf468937
+  Translate: [-51.58274459838867, 103.9749984741211, -125.95262145996094]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_HangingLightBase_A_01
+  Hash: !ul 15911651565809114285
+  Phive:
+    Placement: {ID: !ul 15911651565809114285}
+  SRTHash: !u 0xb5762ae1
+  Translate: [-43.407005310058594, 112.54962158203125, -126.16012573242188]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_HangingLightBase_A_01
+  Hash: !ul 1566412608359670297
+  Phive:
+    Placement: {ID: !ul 1566412608359670297}
+  SRTHash: !u 0x499907a5
+  Translate: [-51.35552978515625, 112.48783874511719, -132.65589904785156]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_HangingLightBase_A_01
+  Hash: !ul 1825750729162972163
+  Phive:
+    Placement: {ID: !ul 1825750729162972163}
+  SRTHash: !u 0x7f2dfb72
+  Translate: [-43.04106140136719, 112.6195068359375, -140.86203002929688]
+- Bakeable: true
+  Dynamic: {DefaultDungeonRoomIndex: 10}
+  Gyaml: Land_GerudoTraining_HangingLight_A_01
+  Hash: !ul 8413888027095294457
+  Phive:
+    Placement: {ID: !ul 8413888027095294457}
+  SRTHash: !u 0x14294dfc
+  Translate: [-43.41548538208008, 115.13941192626953, -126.16725158691406]
+- Bakeable: true
+  Dynamic: {DefaultDungeonRoomIndex: 10}
+  Gyaml: Land_GerudoTraining_HangingLight_A_01
+  Hash: !ul 707729654774362155
+  Phive:
+    Placement: {ID: !ul 707729654774362155}
+  Rotate: [0.0, 0.7041632533073425, 0.0]
+  SRTHash: !u 0x25ea2af6
+  Translate: [-51.375308990478516, 113.73118591308594, -132.62852478027344]
+- Bakeable: true
+  Dynamic: {DefaultDungeonRoomIndex: 10}
+  Gyaml: Land_GerudoTraining_HangingLight_A_01
+  Hash: !ul 8001762982460200961
+  Phive:
+    Placement: {ID: !ul 8001762982460200961}
+  Rotate: [0.0, -0.24788591265678406, 0.0]
+  SRTHash: !u 0xd39443d3
+  Translate: [-43.03392791748047, 115.45097351074219, -140.85595703125]
+- Bakeable: true
+  Gyaml: Land_GerudoTraining_Pillar_B_02
+  Hash: !ul 2771435770390706664
+  Phive:
+    Placement: {ID: !ul 2771435770390706664}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x16772c60
+  Translate: [-51.35398864746094, 103.9749984741211, -119.30000305175781]
+- Dynamic: {SceneryName: Area_GerudoTrainingGround_WaterSwirl}
+  Gyaml: AutoPlaceLayerSoundSettingActor
+  Hash: !ul 3460594165336452899
+  Phive:
+    Placement: {ID: !ul 3460594165336452899}
+  SRTHash: !u 0x44e06a1a
+  Translate: [64.7419204711914, 94.9000015258789, -48.63038635253906]
+- Gyaml: EftLoc_GerudoTrainingGround_EnvFx_01
+  Hash: !ul 15666882517155326282
+  Phive:
+    Placement: {ID: !ul 15666882517155326282}
+  SRTHash: !u 0xc380bc2f
+  Translate: [43.1329231262207, 90.70999908447266, -47.495635986328125]
+- Dynamic: {DefaultDungeonRoomIndex: 3}
+  Gyaml: Obj_HookShotTarget_A_01
+  Hash: !ul 11147532362630946672
+  Phive:
+    Placement: {ID: !ul 11147532362630946672}
+  Rotate: [-1.570796251296997, -2.2937403798550804e-07, -3.141592502593994]
+  SRTHash: !u 0x196142f7
+  Translate: [-32.75, 110.0, -82.41024017333984]
+- Dynamic: {DefaultDungeonRoomIndex: 3}
+  Gyaml: AirWallEnemy
+  Hash: !ul 2641491435080665938
+  Phive:
+    Placement: {ID: !ul 2641491435080665938}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x723e51a6
+  Scale: [1.7000000476837158, 2.5999999046325684, 1.7000000476837158]
+  Translate: [-25.869953155517578, 107.30000305175781, -82.41166687011719]
+- Gyaml: NaviAnchorAction1
+  Hash: !ul 7210480453484637365
+  Name: NaviHelp_03_01_A
+  Phive:
+    Placement: {ID: !ul 7210480453484637365}
+  Rotate: [0.0, -1.568696141242981, 1.1641532182693481e-10]
+  SRTHash: !u 0x4b17f4c1
+  Translate: [-35.002532958984375, 107.81846618652344, -82.41966247558594]
+- Gyaml: NaviAnchorAction1
+  Hash: !ul 10488565794791390475
+  Phive:
+    Placement: {ID: !ul 10488565794791390475}
+  SRTHash: !u 0x645d210f
+  Translate: [-53.80230712890625, 106.86579895019531, -87.93000793457031]
+- Gyaml: NaviAnchorAction1
+  Hash: !ul 14252493735845236030
+  Name: NaviHelp_03_01_B
+  Phive:
+    Placement: {ID: !ul 14252493735845236030}
+  SRTHash: !u 0x6047bc29
+  Translate: [-28.69365119934082, 106.2193374633789, -82.49042510986328]
+- Dynamic: {DefaultDungeonRoomIndex: 3}
+  Gyaml: Enemy_TrickyDoor_SpiritTemple
+  Hash: !ul 16355008226316779978
+  Phive:
+    Placement: {ID: !ul 16355008226316779978}
+  Rotate: [5.857345513504697e-06, -1.5533473491668701, -5.627513928629924e-06]
+  SRTHash: !u 0xeb621d3b
+  Translate: [-34.779998779296875, 104.0, -81.7300033569336]
+- Gyaml: NaviAnchorAction1
+  Hash: !ul 18092867488936287599
+  Name: NaviHelp_03_01_E
+  Phive:
+    Placement: {ID: !ul 18092867488936287599}
+  SRTHash: !u 0x125e8c89
+  Translate: [-53.77681350708008, 104.86538696289062, -86.76439666748047]
+- Gyaml: NaviAnchorAction1
+  Hash: !ul 13889293351942311592
+  Name: NaviHelp_03_01_F
+  Phive:
+    Placement: {ID: !ul 13889293351942311592}
+  SRTHash: !u 0x67d77820
+  Translate: [-47.28193283081055, 106.13206481933594, -94.39584350585938]
+- Gyaml: NaviAnchorAction1
+  Hash: !ul 5595613640479568860
+  Name: NaviHelp_03_01_A
+  Phive:
+    Placement: {ID: !ul 5595613640479568860}
+  Rotate: [0.0, -1.568696141242981, 1.1641532182693481e-10]
+  SRTHash: !u 0xe47d9488
+  Translate: [-44.9999885559082, 105.00833892822266, -97.08259582519531]
+- Bakeable: true
+  Gyaml: Obj_Gerudo_GlassTruth_A_02
+  Hash: !ul 14224334403996535604
+  Phive:
+    Placement: {ID: !ul 14224334403996535604}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x6d3ceb3b
+  Translate: [-34.70000076293945, 106.97160339355469, -82.40523529052734]
+- Bakeable: true
+  Gyaml: Obj_Gerudo_GlassTruth_A_02
+  Hash: !ul 11844376349297631037
+  Phive:
+    Placement: {ID: !ul 11844376349297631037}
+  SRTHash: !u 0xf6ee0e14
+  Translate: [-47.32266616821289, 107.9000015258789, -110.0999984741211]
+- Gyaml: SupplyItemResetSystemActor
+  Hash: !ul 17566601368996636227
+  Phive:
+    Placement: {ID: !ul 17566601368996636227}
+  SRTHash: !u 0xe929777a
+  Translate: [-47.41633605957031, 106.02537536621094, -70.256103515625]
+- Gyaml: NavMeshDummyBox
+  Hash: !ul 174495609322014460
+  Phive:
+    Placement: {ID: !ul 174495609322014460}
+  SRTHash: !u 0x9f829ad6
+  Scale: [5.5, 1.0, 5.5]
+  Translate: [-47.25, 104.0, -103.25]
+- Gyaml: NaviAnchorAction1
+  Hash: !ul 3476515770375283276
+  Name: NaviHelp_04_01_A
+  Phive:
+    Placement: {ID: !ul 3476515770375283276}
+  Rotate: [3.1415927410125732, 1.3943761587142944, 3.1415927410125732]
+  SRTHash: !u 0x47c19c78
+  Translate: [15.355914115905762, 103.40367126464844, -82.3890151977539]
+- Gyaml: NaviAnchorAction1
+  Hash: !ul 6067196001613911170
+  Name: NaviHelp_04_02_A
+  Phive:
+    Placement: {ID: !ul 6067196001613911170}
+  SRTHash: !u 0xbe76f2c9
+  Translate: [-2.5424814224243164, 97.09528350830078, -78.77667236328125]
+- Bakeable: true
+  Gyaml: Obj_WireMesh_A_03
+  Hash: !ul 10410333755902135225
+  Phive:
+    Placement: {ID: !ul 10410333755902135225}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x7fe30455
+  Translate: [23.7273006439209, 102.53500366210938, -82.44499969482422]
+- Gyaml: DestinationAnchor
+  Hash: !ul 1437684257926725488
+  Phive:
+    Placement: {ID: !ul 1437684257926725488}
+  Rotate: [0.39738520979881287, -0.0, -0.23318719863891602]
+  SRTHash: !u 0xb9625942
+  Translate: [1.7525074481964111, 98.68571472167969, -82.07754516601562]
+- Gyaml: DropKeepAwayArea_TBox_A_01
+  Hash: !ul 15443458225711708960
+  Phive:
+    Placement: {ID: !ul 15443458225711708960}
+  SRTHash: !u 0x07ad05f3
+  Translate: [-2.3399999141693115, 96.26948547363281, -77.32904815673828]
+- Dynamic: {DefaultDungeonRoomIndex: 9}
+  Gyaml: Obj_HookShotTarget_A_01
+  Hash: !ul 9102523428987630776
+  Phive:
+    Placement: {ID: !ul 9102523428987630776}
+  SRTHash: !u 0x91ed5f04
+  Translate: [69.0, 82.51249694824219, -51.0]
+- Dynamic: {DefaultDungeonRoomIndex: 9}
+  Gyaml: Obj_HookShotTarget_A_01
+  Hash: !ul 14557741256174055673
+  Phive:
+    Placement: {ID: !ul 14557741256174055673}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x149fb79d
+  Translate: [62.0, 82.51249694824219, -44.0]
+- Dynamic: {DefaultDungeonRoomIndex: 9}
+  Gyaml: Obj_HookShotTarget_A_01
+  Hash: !ul 4402369947428696351
+  Phive:
+    Placement: {ID: !ul 4402369947428696351}
+  Rotate: [0.0, -1.570796251296997, 1.7484555314695172e-07]
+  SRTHash: !u 0x09288278
+  Translate: [76.25, 82.51249694824219, -44.0]
+- Dynamic: {DefaultDungeonRoomIndex: 9}
+  Gyaml: Obj_HookShotTarget_A_01
+  Hash: !ul 277841942568050498
+  Phive:
+    Placement: {ID: !ul 277841942568050498}
+  Rotate: [-3.141592502593994, 3.8941436741879443e-07, -3.141592502593994]
+  SRTHash: !u 0x2e087090
+  Translate: [69.0, 82.51249694824219, -36.75]
+- Gyaml: Obj_GerudoTrainingGround_WaterPlaneFlowing_A_01
+  Hash: !ul 11573707551492149071
+  Phive:
+    Placement: {ID: !ul 11573707551492149071}
+  SRTHash: !u 0x7d5267fb
+  Translate: [69.0, 93.64800262451172, -44.0]
+- Gyaml: DropKeepAwayArea_TBox_A_01
+  Hash: !ul 14660403448373009615
+  Phive:
+    Placement: {ID: !ul 14660403448373009615}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x2c56efd2
+  Translate: [78.51373291015625, 94.02999877929688, -43.900001525878906]
+- Gyaml: StartPos
+  Hash: !ul 15742553489872220432
+  Name: GerudoTrainingGround_FromGerudoFortress
+  Phive:
+    Placement: {ID: !ul 15742553489872220432}
+  Rotate: [-3.141592502593994, -7.35467551749025e-07, -3.141592264175415]
+  SRTHash: !u 0xabdbd0e4
+  Translate: [-1.75, 103.04063415527344, 11.882179260253906]
+- Gyaml: StartPos
+  Hash: !ul 11412071162578437767
+  Name: EntrancePos
+  Phive:
+    Placement: {ID: !ul 11412071162578437767}
+  Rotate: [-3.141592502593994, -7.35467551749025e-07, -3.141592264175415]
+  SRTHash: !u 0xd8582c35
+  Translate: [-1.75, 99.25929260253906, -1.4884920120239258]
+- Gyaml: StartPos
+  Hash: !ul 14675190009002696081
+  Name: GerudoTrainingGround_FromGerudoFortress_Air
+  Phive:
+    Placement: {ID: !ul 14675190009002696081}
+  Rotate: [3.1415927410125732, 3.8941436741879443e-07, 3.1415927410125732]
+  SRTHash: !u 0xcb7eb7f7
+  Translate: [-1.7497570514678955, 103.03471374511719, 11.88611888885498]
+- Gyaml: MapIconEntranceAnchor
+  Hash: !ul 6328163564063020832
+  Phive:
+    Placement: {ID: !ul 6328163564063020832}
+  Rotate: [1.5707963705062866, -0.0, 0.0]
+  SRTHash: !u 0xf7dc1192
+  Translate: [-1.75, 99.79358673095703, 6.912559509277344]
+- Dynamic: {DefaultDungeonRoomIndex: 8}
+  Gyaml: AirWallEnemy
+  Hash: !ul 15552990680181572648
+  Phive:
+    Placement: {ID: !ul 15552990680181572648}
+  SRTHash: !u 0xdc82239b
+  Scale: [1.7000000476837158, 2.5999999046325684, 1.7000000476837158]
+  Translate: [-1.7999999523162842, 99.30000305175781, -33.0]
+- Gyaml: DestinationAnchor
+  Hash: !ul 15423444414115237336
+  Name: Introduction
+  Phive:
+    Placement: {ID: !ul 15423444414115237336}
+  Rotate: [-3.139639377593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0x50b976a9
+  Translate: [-1.7386747598648071, 99.26073455810547, 1.293181300163269]
+- Dynamic: {DefaultDungeonRoomIndex: 0}
+  Gyaml: Obj_TBox_GlassTruth_A_01
+  Hash: !ul 11182647876438515984
+  Phive:
+    Placement: {ID: !ul 11182647876438515984}
+  Rotate: [0.003228409681469202, 0.785391628742218, 0.00510692922398448]
+  SRTHash: !u 0x59b1b933
+  Translate: [-7.644073486328125, 99.48465728759766, -11.444685935974121]
+- Gyaml: DropKeepAwayArea_TBox_A_01
+  Hash: !ul 16246106236616938554
+  Phive:
+    Placement: {ID: !ul 16246106236616938554}
+  Rotate: [0.003228409681469202, 0.785391628742218, 0.00510692922398448]
+  SRTHash: !u 0x59b1b933
+  Translate: [-7.644073486328125, 99.48465728759766, -11.444685935974121]
+- Gyaml: NaviAnchorAction1
+  Hash: !ul 11580553385870746777
+  Name: NaviHelp_10_02
+  Phive:
+    Placement: {ID: !ul 11580553385870746777}
+  Rotate: [-0.18715333938598633, -0.0, 0.0]
+  SRTHash: !u 0x3e967ccd
+  Translate: [-47.200111389160156, 104.5, -130.88348388671875]
+- Bakeable: true
+  Dynamic: {DefaultDungeonRoomIndex: 10}
+  Gyaml: Obj_GerudoTrainingGround_CrackWall_A_01
+  Hash: !ul 16086638119081603833
+  Phive:
+    Placement: {ID: !ul 16086638119081603833}
+  Rotate: [0.0, -1.0471975803375244, 0.0]
+  SRTHash: !u 0xd5206d20
+  Translate: [-41.356727600097656, 103.5, -129.54483032226562]
+- Gyaml: DropKeepAwayArea_TBox_A_01
+  Hash: !ul 10597939216994357326
+  Phive:
+    Placement: {ID: !ul 10597939216994357326}
+  Rotate: [3.141592502593994, -1.0471975803375244, -3.141592502593994]
+  SRTHash: !u 0x1398969c
+  Translate: [-42.09869384765625, 104.21499633789062, -137.67062377929688]
+- Gyaml: DropKeepAwayArea_TBox_A_01
+  Hash: !ul 5043484355137859504
+  Phive:
+    Placement: {ID: !ul 5043484355137859504}
+  Rotate: [0.0, -1.0471980571746826, 0.0]
+  SRTHash: !u 0x83ff91d1
+  Translate: [-39.45528030395508, 103.51799774169922, -130.76693725585938]
+- Gyaml: NaviAnchorAction1
+  Hash: !ul 14018023248631215836
+  Name: NaviHelp_07_02_A
+  Phive:
+    Placement: {ID: !ul 14018023248631215836}
+  SRTHash: !u 0xca3b83ee
+  Translate: [44.433712005615234, 99.43319702148438, -5.36845588684082]
+- Dynamic: {DefaultDungeonRoomIndex: 7, Drop__DropActor: Obj_Rupee_Red}
+  Gyaml: Obj_Gerudo_CowBoneDecoration_B_01
+  Hash: !ul 3373427369268924584
+  Phive:
+    Placement: {ID: !ul 3373427369268924584}
+  SRTHash: !u 0x14b6bf0b
+  Translate: [44.400001525878906, 102.75, -17.02790641784668]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_TBoxPedestal_A_01
+  Hash: !ul 16277692161199976678
+  Phive:
+    Placement: {ID: !ul 16277692161199976678}
+  Rotate: [0.0, -1.570796251296997, 3.019916050561733e-07]
+  SRTHash: !u 0x49de0900
+  Translate: [44.43852615356445, 98.56143951416016, -5.399999618530273]
+- Dynamic: {DefaultDungeonRoomIndex: 2}
+  Gyaml: Obj_FireWallTrap_A_02
+  Hash: !ul 18085575177544218218
+  Phive:
+    Placement: {ID: !ul 18085575177544218218}
+  SRTHash: !u 0xb3bfa30f
+  Translate: [-47.39216995239258, 104.00686645507812, -53.400001525878906]
+- Dynamic: {DefaultDungeonRoomIndex: 2}
+  Gyaml: Obj_HookShotTarget_A_01
+  Hash: !ul 15491881480810934595
+  Phive:
+    Placement: {ID: !ul 15491881480810934595}
+  Rotate: [1.5707961320877075, -0.0, 0.0]
+  SRTHash: !u 0xb97aabd5
+  Translate: [-47.25, 110.57367706298828, -55.14972686767578]
+- Dynamic: {DefaultDungeonRoomIndex: 2}
+  Gyaml: Obj_HookShotTarget_A_01
+  Hash: !ul 6079693776394554858
+  Phive:
+    Placement: {ID: !ul 6079693776394554858}
+  Rotate: [-1.5707964897155762, -0.0, -3.141592502593994]
+  SRTHash: !u 0x22e14e1a
+  Translate: [-47.25, 109.10237121582031, -30.0]
+- Dynamic: {DefaultDungeonRoomIndex: 2}
+  Gyaml: Obj_HookShotTarget_A_01
+  Hash: !ul 12371631618588176425
+  Phive:
+    Placement: {ID: !ul 12371631618588176425}
+  Rotate: [1.5707961320877075, -0.0, 0.0]
+  SRTHash: !u 0xc53811ba
+  Translate: [-47.25, 110.57367706298828, -51.1808967590332]
+- Dynamic: {DefaultDungeonRoomIndex: 2}
+  Gyaml: Obj_FireWallTrap_A_01
+  Hash: !ul 6760586344442850506
+  Phive:
+    Placement: {ID: !ul 6760586344442850506}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x920bedcc
+  Translate: [-52.3699951171875, 104.0, -57.7130012512207]
+- Dynamic: {DefaultDungeonRoomIndex: 2}
+  Gyaml: Obj_FireWallTrap_A_01
+  Hash: !ul 6506852725056163041
+  Phive:
+    Placement: {ID: !ul 6506852725056163041}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x9d814091
+  Translate: [-42.27000045776367, 98.0, -29.83300018310547]
+- Gyaml: NaviAnchorAction1
+  Hash: !ul 4802075011383639947
+  Name: NaviHelp_02_01_A
+  Phive:
+    Placement: {ID: !ul 4802075011383639947}
+  SRTHash: !u 0x662030c5
+  Translate: [-47.175697326660156, 105.0, -63.038307189941406]
+- Dynamic: {DefaultDungeonRoomIndex: 2}
+  Gyaml: Obj_HookShotTarget_A_01
+  Hash: !ul 12671395974784800032
+  Phive:
+    Placement: {ID: !ul 12671395974784800032}
+  Rotate: [1.5707961320877075, -0.0, 0.0]
+  SRTHash: !u 0x9a4911c9
+  Translate: [-49.713897705078125, 110.57367706298828, -57.65623092651367]
+- Gyaml: NaviAnchorAction1
+  Hash: !ul 9107443394603856065
+  Name: NaviHelp_05_01_A
+  Phive:
+    Placement: {ID: !ul 9107443394603856065}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0xd6346820
+  Translate: [52.207115173339844, 99.49250030517578, -86.02252960205078]
+- Gyaml: NaviAnchorAction1
+  Hash: !ul 9142466223397557084
+  Name: NaviHelp_05_01_B
+  Phive:
+    Placement: {ID: !ul 9142466223397557084}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x7b25c53c
+  Translate: [52.207115173339844, 97.93513488769531, -86.02252960205078]
+- Gyaml: NaviAnchorAction1
+  Hash: !ul 16630703521125246270
+  Name: NaviHelp_05_02_A
+  Phive:
+    Placement: {ID: !ul 16630703521125246270}
+  SRTHash: !u 0x84105214
+  Translate: [47.01563262939453, 102.50457763671875, -91.3201675415039]
+- Gyaml: NaviAnchorAction1
+  Hash: !ul 14432628306037519909
+  Name: NaviHelp_05_02_B
+  Phive:
+    Placement: {ID: !ul 14432628306037519909}
+  SRTHash: !u 0x4906d184
+  Translate: [47.01563262939453, 101.49060821533203, -91.61063385009766]
+- Gyaml: NaviAnchorAction1
+  Hash: !ul 10081738434626029786
+  Name: NaviHelp_05_01_A_03
+  Phive:
+    Placement: {ID: !ul 10081738434626029786}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x7345467b
+  Translate: [43.34895324707031, 99.1772689819336, -82.4009780883789]
+- Dynamic: {DefaultDungeonRoomIndex: 5}
+  Gyaml: Obj_Gerudo_CowBoneDecoration_B_02
+  Hash: !ul 11630221001536876484
+  Phive:
+    Placement: {ID: !ul 11630221001536876484}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0x166b876e
+  Translate: [43.290000915527344, 102.68929290771484, -72.97303009033203]
+- Gyaml: FldObj_AirWall_DedicatedEnemy
+  Hash: !ul 15888816178737280011
+  Phive:
+    Placement: {ID: !ul 15888816178737280011}
+  SRTHash: !u 0x404d64f4
+  Scale: [0.17000000178813934, 0.5, 0.20000000298023224]
+  Translate: [43.32746505737305, 98.44102478027344, -82.43956756591797]
+- Gyaml: DropKeepAwayArea_TBox_A_01
+  Hash: !ul 7327216617254163504
+  Phive:
+    Placement: {ID: !ul 7327216617254163504}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xb35058d2
+  Translate: [43.290000915527344, 98.4449234008789, -82.44000244140625]
+- Bakeable: true
+  Gyaml: Obj_Gerudo_GlassTruth_A_01
+  Hash: !ul 4955644656957595036
+  Phive:
+    Placement: {ID: !ul 4955644656957595036}
+  SRTHash: !u 0x64671a49
+  Translate: [-7.804844856262207, 103.2245864868164, -35.48817443847656]
+- Gyaml: NaviAnchorAction1
+  Hash: !ul 1874838943796004890
+  Name: NaviHelp_08_01_A
+  Phive:
+    Placement: {ID: !ul 1874838943796004890}
+  Rotate: [0.0, -1.570796251296997, 0.3608170449733734]
+  SRTHash: !u 0xdba1948e
+  Translate: [-10.24094009399414, 101.75477600097656, -35.42692947387695]
+- Gyaml: NaviAnchorAction1
+  Hash: !ul 17270400505404726453
+  Name: NaviHelp_08_01_B
+  Phive:
+    Placement: {ID: !ul 17270400505404726453}
+  Rotate: [3.1415927410125732, -8.742277657347586e-08, 3.1415927410125732]
+  SRTHash: !u 0xc12c49e4
+  Translate: [-1.75, 105.70785522460938, -37.90772247314453]
+- Gyaml: DungeonRoomArea
+  Hash: !ul 18344474415563430437
+  Phive:
+    Placement: {ID: !ul 18344474415563430437}
+  SRTHash: !u 0x053c4c15
+  Scale: [1.7999999523162842, 1.0, 1.7999999523162842]
+  Translate: [-7.763998985290527, 102.76896667480469, -35.45201110839844]
+- Gyaml: DropKeepAwayArea_TBox_A_01
+  Hash: !ul 10783262670752321776
+  Phive:
+    Placement: {ID: !ul 10783262670752321776}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0x82512e45
+  Translate: [-1.75, 105.0270004272461, -37.880157470703125]
+- Gyaml: DropKeepAwayArea_TBox_A_01
+  Hash: !ul 5056020462992930609
+  Phive:
+    Placement: {ID: !ul 5056020462992930609}
+  SRTHash: !u 0x6809e35b
+  Translate: [-13.25, 98.02999877929688, -60.5]
+- Gyaml: DropKeepAwayArea_TBox_A_02
+  Hash: !ul 1109758731542247929
+  Phive:
+    Placement: {ID: !ul 1109758731542247929}
+  Rotate: [-3.141592502593994, -0.0, -3.141592502593994]
+  SRTHash: !u 0x690c855b
+  Translate: [-1.8639999628067017, 98.02972412109375, -48.0]
+- Gyaml: DropKeepAwayArea_TBox_A_01
+  Hash: !ul 2103136489335175963
+  Phive:
+    Placement: {ID: !ul 2103136489335175963}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x5415987b
+  Translate: [5.5, 98.02999877929688, -45.5]
+- Gyaml: DropKeepAwayArea_TBox_A_01
+  Hash: !ul 11952781538109480289
+  Phive:
+    Placement: {ID: !ul 11952781538109480289}
+  Rotate: [3.141592502593994, 3.8941436741879443e-07, -3.141592502593994]
+  SRTHash: !u 0xcaa934db
+  Translate: [10.25, 98.02999877929688, -50.5]
+- Gyaml: DropKeepAwayArea_TBox_A_01
+  Hash: !ul 7885103648313945743
+  Phive:
+    Placement: {ID: !ul 7885103648313945743}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0xdff61595
+  Translate: [-9.0, 98.02999877929688, -60.0]
+- Gyaml: DropKeepAwayArea_TBox_A_01
+  Hash: !ul 6152540400130649487
+  Phive:
+    Placement: {ID: !ul 6152540400130649487}
+  SRTHash: !u 0xf01da227
+  Translate: [-19.25, 98.02999877929688, -46.25]
+- Gyaml: DropKeepAwayArea_TBox_A_01
+  Hash: !ul 1983180414155281158
+  Phive:
+    Placement: {ID: !ul 1983180414155281158}
+  Rotate: [-3.1415903568267822, -0.0, 3.141592502593994]
+  SRTHash: !u 0x426a076e
+  Translate: [-1.4756050109863281, 105.00387573242188, -48.049556732177734]
+- Dynamic: {DefaultDungeonRoomIndex: 6}
+  Gyaml: Obj_HookShotTarget_A_01
+  Hash: !ul 772421081511681808
+  Phive:
+    Placement: {ID: !ul 772421081511681808}
+  SRTHash: !u 0xd240ef0b
+  Translate: [43.26399612426758, 102.27745819091797, -66.54000091552734]
+- Gyaml: Area
+  Hash: !ul 768175254730457645
+  Phive:
+    Placement: {ID: !ul 768175254730457645}
+  SRTHash: !u 0x0677c2c8
+  Scale: [0.20000000298023224, 0.20000000298023224, 0.20000000298023224]
+  Translate: [32.09836196899414, 97.9749984741211, -45.61901092529297]
+- Gyaml: NaviAnchorAction1
+  Hash: !ul 7163189317489602469
+  Name: NaviHelp_06_01
+  Phive:
+    Placement: {ID: !ul 7163189317489602469}
+  Rotate: [3.1415927410125732, -1.4989711046218872, 3.1415927410125732]
+  SRTHash: !u 0xdbef652f
+  Translate: [55.94049835205078, 95.42764282226562, -43.68757247924805]
+- Dynamic: {DefaultDungeonRoomIndex: 8, Drop__DropActor: Item_Dungeon_SmallKey}
+  Gyaml: Obj_TBox_A_01
+  Hash: !ul 1883068192328530224
+  Phive:
+    Placement: {ID: !ul 1883068192328530224}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x1a8535aa
+  Translate: [22.820547103881836, 98.02999877929688, -45.62372589111328]
+- Dynamic: {DefaultDungeonRoomIndex: 6}
+  Gyaml: Obj_HookShotTarget_A_01
+  Hash: !ul 8694101920403089044
+  Phive:
+    Placement: {ID: !ul 8694101920403089044}
+  Rotate: [0.0, -1.521833062171936, 0.0]
+  SRTHash: !u 0xc1fa942a
+  Translate: [56.02035140991211, 97.5, -49.912559509277344]
+- Dynamic: {DefaultDungeonRoomIndex: 6}
+  Gyaml: Obj_HookShotTarget_A_01
+  Hash: !ul 11019397841634793397
+  Phive:
+    Placement: {ID: !ul 11019397841634793397}
+  Rotate: [-3.0851571559906006, -1.5361437797546387, -3.0666375160217285]
+  SRTHash: !u 0x90f30b24
+  Translate: [56.33138656616211, 102.73394012451172, -59.232765197753906]
+- Dynamic: {ApperMinHeightLimit: 6.0, DefaultDungeonRoomIndex: 6}
+  Gyaml: Enemy_Bubble_Red
+  Hash: !ul 3683379146360673465
+  Phive:
+    Placement: {ID: !ul 3683379146360673465}
+  Rotate: [0.0, 0.8800613284111023, 0.0]
+  SRTHash: !u 0x1516ef79
+  Translate: [49.6718635559082, 90.02106475830078, -53.14581298828125]
+- Dynamic: {DefaultDungeonRoomIndex: 6}
+  Gyaml: Obj_HookShotTarget_A_01
+  Hash: !ul 11337687099022885786
+  Phive:
+    Placement: {ID: !ul 11337687099022885786}
+  Rotate: [3.1415927410125732, 0.6632250547409058, 3.1415927410125732]
+  SRTHash: !u 0x5bf8bef2
+  Translate: [45.880123138427734, 92.96802520751953, -35.19783401489258]
+- Gyaml: DropKeepAwayArea_TBox_A_01
+  Hash: !ul 2068039775940423901
+  Phive:
+    Placement: {ID: !ul 2068039775940423901}
+  Rotate: [0.0, 1.570796251296997, -0.0]
+  SRTHash: !u 0x1a8535aa
+  Translate: [22.820547103881836, 98.02999877929688, -45.62372589111328]
+- Gyaml: NaviAnchorAction1
+  Hash: !ul 18341832290613877338
+  Name: NaviHelp_01_01_A
+  Phive:
+    Placement: {ID: !ul 18341832290613877338}
+  Rotate: [0.0, -1.570796251296997, -0.0]
+  SRTHash: !u 0x88fd1195
+  Translate: [-30.496570587158203, 99.31104278564453, -5.374871253967285]
+- Gyaml: DestinationAnchor
+  Hash: !ul 10962486794512669325
+  Name: 01_TreasureBoxAppearCameraAim
+  Phive:
+    Placement: {ID: !ul 10962486794512669325}
+  SRTHash: !u 0x7bce931e
+  Translate: [-50.2689094543457, 98.54220581054688, -15.100337982177734]
+- Gyaml: DestinationAnchor
+  Hash: !ul 196147974674278999
+  Name: 01_ShatterOpenTo02CameraAim
+  Phive:
+    Placement: {ID: !ul 196147974674278999}
+  SRTHash: !u 0x399b9acc
+  Translate: [-47.40106201171875, 99.0, -17.0]
+- Gyaml: DestinationAnchor
+  Hash: !ul 9525959277265629211
+  Name: 01_ShatterOpenTo00CameraAim
+  Phive:
+    Placement: {ID: !ul 9525959277265629211}
+  Rotate: [0.0, -1.570796251296997, 3.019916050561733e-07]
+  SRTHash: !u 0x3412feb7
+  Translate: [-29.75, 99.0, -5.405850410461426]
+- Bakeable: true
+  Gyaml: Land_SpiritTemple_TBoxPedestal_A_01
+  Hash: !ul 8387074614646355686
+  Phive:
+    Placement: {ID: !ul 8387074614646355686}
+  Rotate: [0.0, -1.570796251296997, 3.019916050561733e-07]
+  SRTHash: !u 0xab1b5499
+  Translate: [-50.2689094543457, 98.04220581054688, -15.600337982177734]
+- Gyaml: NavMeshCutCylinderArea
+  Hash: !ul 176219372364958379
+  Phive:
+    Placement: {ID: !ul 176219372364958379}
+  SRTHash: !u 0xdbdb6c8f
+  Scale: [1.75, 1.75, 1.75]
+  Translate: [-44.33689498901367, 97.459228515625, -3.6196134090423584]
+- Gyaml: NavMeshCutCylinderArea
+  Hash: !ul 3682434506853019078
+  Phive:
+    Placement: {ID: !ul 3682434506853019078}
+  SRTHash: !u 0x1ad5137c
+  Scale: [1.75, 1.75, 1.75]
+  Translate: [-41.42835998535156, 97.459228515625, -10.242660522460938]
+- Gyaml: NavMeshCutCylinderArea
+  Hash: !ul 16701579763948067521
+  Phive:
+    Placement: {ID: !ul 16701579763948067521}
+  SRTHash: !u 0xf0d42159
+  Scale: [1.75, 1.75, 1.75]
+  Translate: [-49.64358901977539, 97.11417388916016, 3.0499329566955566]
+- Gyaml: NavMeshCutCylinderArea
+  Hash: !ul 8067242553836712105
+  Phive:
+    Placement: {ID: !ul 8067242553836712105}
+  SRTHash: !u 0x96865526
+  Scale: [1.75, 1.75, 1.75]
+  Translate: [-53.24496841430664, 97.459228515625, -7.562098026275635]
+FilePath: Work/Banc/Scene/GerudoTrainingGround/GerudoTrainingGround.bcett.json
