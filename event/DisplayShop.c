@@ -297,7 +297,7 @@ void NormalFlow() {
 
       case 2:
         switchcall SelectItem_CheckAvailable({'ASName': 'ASName'}) {
-          case 1916806712:
+          case fnv1a("Available"):
 
             call CameraDof_DisplayShop_InFocus()
 
@@ -324,9 +324,9 @@ void NormalFlow() {
 
                                         fork {
                                             switchcall Goron_ShopCheck() {
-                                              case 1120050201:
+                                              case 0x42c29c19:
                                                 Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceNumber': 0, 'ChangeMstxtForActor': True, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ASName': 'ASName', 'IsCloseDialog': False, 'EndDialogOption': 3, 'MessageId': 'EventFlowMsg/Npc_Goron_011_Shop_Child:Shop_07_4_GoronJoy', 'MaintainPerformanceState': 0})
-                                              case 1103272582:
+                                              case 0x41c29a86:
                                                 Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceNumber': 0, 'ChangeMstxtForActor': True, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'MessageId': 'EventFlowMsg/Npc_Kokiri_001_Shop_Child:Shop_07_4', 'ASName': 'ASName', 'IsCloseDialog': False, 'EndDialogOption': 3, 'MaintainPerformanceState': 0})
                                             }
                                         } {
@@ -345,9 +345,9 @@ void NormalFlow() {
 
                                         fork {
                                             switchcall Goron_ShopCheck() {
-                                              case 1120050201:
+                                              case 0x42c29c19:
                                                 Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceNumber': 0, 'ChangeMstxtForActor': True, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ASName': 'ASName', 'IsCloseDialog': False, 'EndDialogOption': 3, 'MessageId': 'EventFlowMsg/Npc_Goron_011_Shop_Child:Shop_07_2_GoronJoy', 'MaintainPerformanceState': 0})
-                                              case 1103272582:
+                                              case 0x41c29a86:
                                                 Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceNumber': 0, 'ChangeMstxtForActor': True, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'MessageId': 'EventFlowMsg/Npc_Kokiri_001_Shop_Child:Shop_07_2', 'ASName': 'ASName', 'IsCloseDialog': False, 'EndDialogOption': 3, 'MaintainPerformanceState': 0})
                                             }
                                         } {
@@ -360,7 +360,7 @@ void NormalFlow() {
                                     }
                                 } else {
                                     switchcall ShopCheck() {
-                                      case 873244444:
+                                      case fnv1a("1"):
 
                                         call Dm_SY_ShopGet.ShopGet_SoldOut()
 
@@ -385,13 +385,13 @@ void NormalFlow() {
                                                 EventEffectEmitter.EventEffectStopGetItem()
                                             } {
                                                 switchcall ShopCheck() {
-                                                  case 873244444:
+                                                  case fnv1a("1"):
                                                     Npc_EventStarter.EventTriggerAddShopItemSoldNum()
                                                     Npc_EventStarter.EventTriggerShopItemGetDemoEnd()
                                                     Npc_EventStarter.EventTriggerSendMessageToShopBoard()
                                                     EventSystemActor[1].EventWait({'Frames': 1, 'IsWaitEnd': True})
                                                     Npc_EventStarter.EventTriggerVisibleItemAtShop()
-                                                  case 890022063:
+                                                  case fnv1a("0"):
                                                     Npc_EventStarter.EventTriggerShopItemGetDemoEnd()
                                                     Npc_EventStarter.EventTriggerSendMessageToShopBoard()
                                                 }
@@ -405,7 +405,7 @@ void NormalFlow() {
                                             if !GameDataActor.EventQueryIsGameDataBoolExp({'GameDataName': 'Meet_DekuTree_IsAfter_Step02_Exp'}) {
                                                 Event523:
                                                 switchcall Goron_ShopCheck() {
-                                                  case 1120050201:
+                                                  case 0x42c29c19:
                                                     Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceNumber': 0, 'ChangeMstxtForActor': True, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'MessageId': 'EventFlowMsg/Npc_Kokiri_001_Shop_Child:Shop_07_GoronJoy', 'MaintainPerformanceState': 0})
                                                     Event267:
                                                     Npc_EventStarter.EventTriggerChangeEmotion({'IsActFaceOnly': False, 'EmotionType': 'EmotionType'})
@@ -413,7 +413,7 @@ void NormalFlow() {
 
                                                     call Buy_ReturnStart_FromShopGet({'ShopOwnerActorName': 'ShopOwnerActorName', 'GameDataName': 'GameDataName', 'ASName': 'ASName', 'EmotionType': 'EmotionType'})
 
-                                                  case 1103272582:
+                                                  case 0x41c29a86:
                                                     Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceNumber': 0, 'MessageId': 'EventFlowMsg/Npc_Kokiri_001_Shop_Child:Shop_07', 'ChangeMstxtForActor': True, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'MaintainPerformanceState': 0})
                                                     goto Event267
                                                 }
@@ -432,7 +432,7 @@ void NormalFlow() {
                                             Npc_EventStarter.EventTriggerGetItemAtShop({'IsGetEvent': False})
                                             goto Event517
                                         }
-                                      case 890022063:
+                                      case fnv1a("0"):
 
                                         call Dm_SY_ShopGet.ShopGet()
 
@@ -478,9 +478,9 @@ void NormalFlow() {
 
                             fork {
                                 switchcall Goron_ShopCheck() {
-                                  case 1120050201:
+                                  case 0x42c29c19:
                                     Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceNumber': 0, 'ChangeMstxtForActor': True, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'MessageId': 'EventFlowMsg/Npc_Goron_011_Shop_Child:Shop_07_3_GoronJoy', 'MaintainPerformanceState': 0})
-                                  case 1103272582:
+                                  case 0x41c29a86:
                                     Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceNumber': 0, 'ChangeMstxtForActor': True, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'MessageId': 'EventFlowMsg/Npc_Kokiri_001_Shop_Child:Shop_07_3', 'IsCloseDialog': False, 'EndDialogOption': 3, 'MaintainPerformanceState': 0})
                                 }
                             } {
@@ -532,7 +532,7 @@ void NormalFlow() {
                             call ActionGuide.ActionGuideForShop()
 
                             switchcall Goron_ShopCheck() {
-                              case 1120050201:
+                              case 0x42c29c19:
                                 Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceNumber': 0, 'ChangeMstxtForActor': True, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'MessageId': 'EventFlowMsg/Npc_Goron_011_Shop_Child:Shop_07_GoronJoy', 'MaintainPerformanceState': 0})
                                 Event145:
                                 Npc_EventStarter.EventTriggerChangeEmotion({'IsActFaceOnly': False, 'EmotionType': 'EmotionType'})
@@ -540,7 +540,7 @@ void NormalFlow() {
 
                                 call Buy_ReturnStart_FromShopGet({'ShopOwnerActorName': 'ShopOwnerActorName', 'GameDataName': 'GameDataName', 'ASName': 'ASName', 'EmotionType': 'EmotionType'})
 
-                              case 1103272582:
+                              case 0x41c29a86:
                                 Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceNumber': 0, 'MessageId': 'EventFlowMsg/Npc_Kokiri_001_Shop_Child:Shop_07', 'ChangeMstxtForActor': True, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'MaintainPerformanceState': 0})
                                 goto Event145
                             }
@@ -612,7 +612,7 @@ void NormalFlow() {
                 }
                 goto Event17
             }
-          case 680076391:
+          case 0x28892467:
 
             call ShopMessage_SwitchEra({'Common_MessageID': 'EventFlowMsg/Npc_Kokiri_001_Shop_Child:Shop_02', 'Unique_MessageID': 'EventFlowMsg/Npc_Kokiri_001_Shop_Child:Shop_02_Adult', 'ShopFlag': 'KakarikoVillage_Hylia_018_Shop_Talking'})
 
@@ -622,17 +622,17 @@ void NormalFlow() {
 
             call Buy_ReturnStart_NoDofReset({'ShopOwnerActorName': 'ShopOwnerActorName', 'GameDataName': 'GameDataName', 'ASName': 'ASName', 'EmotionType': 'EmotionType'})
 
-          case 3780022843:
+          case 0xe14e923b:
             switch Npc_EventStarter.EventQueryCheckShopSelectItemName() {
               case 0:
 
                 call NotAvailableTalk({'ASName': 'ASName'})
 
                 switchcall Goron_ShopCheck() {
-                  case 1120050201:
+                  case 0x42c29c19:
                     Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceNumber': 0, 'ChangeMstxtForActor': True, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'MessageId': 'EventFlowMsg/Npc_Goron_011_Shop_Child:Shop_05_GoronJoy', 'MaintainPerformanceState': 0})
                     goto Event317
-                  case 1103272582:
+                  case 0x41c29a86:
                     Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceNumber': 0, 'MessageId': 'EventFlowMsg/Npc_Kokiri_001_Shop_Child:Shop_05', 'ChangeMstxtForActor': True, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ASName': '', 'MaintainPerformanceState': 0})
                     goto Event317
                 }
@@ -648,7 +648,7 @@ void NormalFlow() {
 
                 goto Event317
             }
-          case 2235169886:
+          case 0x8539fc5e:
             switch Npc_EventStarter.EventQueryCheckShopSelectItemName() {
               case 2:
                 Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChangeMstxtForActor': True, 'MessageId': 'EventFlowMsg/Npc_Kokiri_001_Shop_Child:Shop_08', 'MaintainPerformanceState': 0})
@@ -661,12 +661,12 @@ void NormalFlow() {
                 goto Event317
               case 5:
                 switchcall Goron_ShopCheck() {
-                  case 1120050201:
+                  case 0x42c29c19:
 
                     call ShopMessage_SwitchEra({'ShopFlag': 'KakarikoVillage_Hylia_020_Shop_Talking', 'Unique_MessageID': 'EventFlowMsg/Npc_Kokiri_001_Shop_Child:Shop_11_Adult', 'Common_MessageID': 'EventFlowMsg/Npc_Goron_011_Shop_Child:Shop_11_GoronJoy'})
 
                     goto Event317
-                  case 1103272582:
+                  case 0x41c29a86:
 
                     call ShopMessage_SwitchEra({'ShopFlag': 'KakarikoVillage_Hylia_020_Shop_Talking', 'Unique_MessageID': 'EventFlowMsg/Npc_Kokiri_001_Shop_Child:Shop_11_Adult', 'Common_MessageID': 'EventFlowMsg/Npc_Kokiri_001_Shop_Child:Shop_11'})
 
@@ -742,12 +742,12 @@ void Outofstock_SelectCloth() {
         if !Player_Event.EventQueryPlayerIsChild() {
             if !GameDataActor.EventQueryIsGameDataBool({'Index': -1, 'GameDataName': 'GoronCity_Shop_Talking'}) {
                 switchcall Goron_ShopCheck() {
-                  case 1120050201:
+                  case 0x42c29c19:
 
                     call OutOfStock_Talk({'GameDataName': 'GoronCity_Shop_SelectCloth', 'ShopOwnerActorName': 'ShopOwnerActorName', 'MessageId_FirstTalk': 'EventFlowMsg/Npc_Goron_011_Shop_Child:Shop_19_GoronJoy', 'MessageId_SecondTalk': 'EventFlowMsg/Npc_Goron_011_Shop_Child:Shop_20_GoronJoy'})
 
                     goto Event28
-                  case 1103272582:
+                  case 0x41c29a86:
 
                     call OutOfStock_Talk({'GameDataName': 'GoronCity_Shop_SelectCloth', 'MessageId_FirstTalk': 'EventFlowMsg/Npc_Goron_011_Shop_Child:Shop_19', 'MessageId_SecondTalk': 'EventFlowMsg/Npc_Goron_011_Shop_Child:Shop_20', 'ShopOwnerActorName': 'ShopOwnerActorName'})
 
@@ -1005,10 +1005,10 @@ void SelectItem_CheckAvailable() {
             switch PouchSystemActor.EventQueryCanAddToPorchByGameData({'GameDataForActorName': 'Shop_SelectItemName'}) {
               case [0, 1]:
                 Event124:
-                return 1916806712
+                return fnv1a("Available")
               case 2:
                 Npc_EventStarter.EventTriggerShopItemSelect()
-                return 3780022843
+                return 0xe14e923b
             }
         } else {
             Event312:
@@ -1016,7 +1016,7 @@ void SelectItem_CheckAvailable() {
 
             call NotAvailableTalk({'ASName': 'ASName'})
 
-            return 680076391
+            return 0x28892467
         }
       case 2:
         if !GameDataActor.EventQueryIsGameDataBool({'Index': -1, 'GameDataName': 'IsGet.Item_BulletBag_Small'}) {
@@ -1027,7 +1027,7 @@ void SelectItem_CheckAvailable() {
 
             call NotAvailableTalk({'ASName': 'ASName'})
 
-            return 2235169886
+            return 0x8539fc5e
         }
       case 3:
         if !GameDataActor.EventQueryIsGameDataBool({'Index': -1, 'GameDataName': 'IsGet.Item_Quiver_Small'}) {
@@ -1190,9 +1190,9 @@ void ShopCheck() {
     && !Player_Event.EventQueryPlayerIsChild() {
         if !GameDataActor.EventQueryIsGameDataBoolExp({'GameDataName': 'Meet_DekuTree_IsAfter_Step02_Exp'}) {
             Event364:
-            return 890022063
+            return fnv1a("0")
         } else {
-            return 873244444
+            return fnv1a("1")
         }
     } else {
         goto Event364
@@ -1232,7 +1232,7 @@ void DisplayShop_ZeldaNotes_Flow() {
           case 0:
             Event573:
             if !GameSystemActor.EventQueryCheckPorterSendRupeeLimit() {
-                return 1655997989
+                return 0x62b48625
             } else {
                 Event138:
                 Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceNumber': 4, 'ChoiceLabel4': 6, 'MessageId': 'EventFlowMsg/Npc_Zora_011_Shop_Child:Shop_44', 'ChangeMstxtForActor': True, 'MaintainPerformanceState': 0, 'ChoiceLabel1': 1, 'ChoiceLabel2': 2, 'ChoiceLabel3': 7})
@@ -1245,7 +1245,7 @@ void DisplayShop_ZeldaNotes_Flow() {
                             if !GameSystemActor.EventQueryZeldaNotesSendRupeeResult() {
                                 Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceLabel3': 3, 'ChoiceLabel4': 6, 'ChoiceLabel1': 11, 'ChoiceLabel2': 6, 'MessageId': 'EventFlowMsg/Npc_Zora_011_Shop_Child:Shop_45', 'ChoiceNumber': 0, 'ChangeMstxtForActor': True, 'MaintainPerformanceState': 0})
                                 Event595:
-                                return 2160637662
+                                return 0x80c8b6de
                             } else {
                                 Event608:
                                 Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceLabel3': 3, 'ChoiceLabel4': 6, 'ChoiceLabel1': 11, 'ChoiceLabel2': 6, 'ChoiceNumber': 0, 'ChangeMstxtForActor': True, 'MaintainPerformanceState': 0, 'MessageId': 'EventFlowMsg/Npc_Zora_011_Shop_Child:Shop_62', 'NotPlayLipSyncAnim': True})
@@ -1296,7 +1296,7 @@ void DisplayShop_ZeldaNotes_Flow() {
                     }
                   case 3:
                     Event596:
-                    return 2160637662
+                    return 0x80c8b6de
                 }
             }
           case 1:
@@ -1455,9 +1455,9 @@ void Goron_ShopCheck() {
     if !GameDataActor.EventQueryIsGameDataBool({'Index': -1, 'GameDataName': 'GoronCity_Shop_Talking'})
     && !Player_Event.EventQueryPlayerIsChild()
     && !GameDataActor.EventQueryIsGameDataBoolExp({'GameDataName': 'Get_StoneOfFire_IsCompleted_Exp'}) {
-        return 1120050201
+        return 0x42c29c19
     } else {
-        return 1103272582
+        return 0x41c29a86
     }
 }
 

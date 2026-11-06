@@ -123,13 +123,13 @@ void SageOfSpirit_IsAfter_Step01_Exp_Near() {
 
 void Mask_All() {
     switchcall NpcCommon.CheckEquipmentMask() {
-      case [3745441359, 1844135360]:
+      case [0xdf3ee64f, 0x6deb45c0]:
 
         call NpcCommon.Sub_Mask_Talk_OtherTruthMask_Message({'Mask_Keaton_Talk': 'EventFlowMsg/Npc_Gerudo_018:Mask_01', 'Mask_Skull_Talk': 'EventFlowMsg/Npc_Gerudo_018:Mask_02', 'Mask_Spooky_Talk': 'EventFlowMsg/Npc_Gerudo_018:Mask_03', 'Mask_Bunny_Talk': 'EventFlowMsg/Npc_Gerudo_018:Mask_04', 'Mask_Goron_Talk': 'EventFlowMsg/Npc_Gerudo_018:Mask_06', 'Mask_Zora_Talk': 'EventFlowMsg/Npc_Gerudo_018:Mask_07', 'Mask_Gerudo_Talk': 'EventFlowMsg/Npc_Gerudo_018:Mask_08', 'Mask_Amiibo00_Talk': 'EventFlowMsg/Npc_Gerudo_018:Mask_101', 'Mask_Amiibo02_Talk': 'EventFlowMsg/Npc_Gerudo_018:Mask_102', 'Mask_Amiibo01_Talk': 'EventFlowMsg/Npc_Gerudo_018:Mask_102', 'ASName': 'Notice'})
 
         Event90:
         EventSystemActor.EventWait({'Frames': 1, 'IsWaitEnd': True})
-      case 488279774:
+      case 0x1d1a8ede:
         Npc_Gerudo_018.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MaintainPerformanceState': 0, 'ASName': 'Notice', 'MessageId': 'EventFlowMsg/Npc_Gerudo_018:Mask_03'})
         Npc_EventStarter.EventTriggerForceSetMaskTalkFlag({'value': True})
         goto Event90

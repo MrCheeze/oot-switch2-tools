@@ -374,7 +374,7 @@ void LookAtTurn() {
 
 void MaskTalk() {
     switchcall NpcCommon.Mask_Talk_Common_With_InitTalk({'ASName': 'Act_Look_Cave', 'Mask_Amiibo02_Talk': 'EventFlowMsg/Npc_Goron_007_Child:Mask_103', 'Mask_Amiibo01_Talk': 'EventFlowMsg/Npc_Goron_007_Child:Mask_102', 'Mask_Amiibo00_Talk': 'EventFlowMsg/Npc_Goron_007_Child:Mask_101', 'Arg_Turn_For_IgnoreMaskTalk': 4, 'Arg_Turn_For_MaskTalk': 4, 'ChangeTheTopic_Talk': 'EventFlowMsg/Npc_Goron_007_Child:Mask_09', 'Mask_Truth_Talk': 'EventFlowMsg/Npc_Goron_007_Child:Mask_05', 'Mask_Keaton_Talk': 'EventFlowMsg/Npc_Goron_007_Child:Mask_103', 'Mask_Skull_Talk': 'EventFlowMsg/Npc_Goron_007_Child:Mask_103', 'Mask_Spooky_Talk': 'EventFlowMsg/Npc_Goron_007_Child:Mask_103', 'Mask_Bunny_Talk': 'EventFlowMsg/Npc_Goron_007_Child:Mask_103', 'Mask_Zora_Talk': 'EventFlowMsg/Npc_Goron_007_Child:Mask_103', 'Mask_Gerudo_Talk': 'EventFlowMsg/Npc_Goron_007_Child:Mask_103', 'Mask_Goron_Talk': 'EventFlowMsg/Npc_Goron_007_Child:Mask_06'}) {
-      case 4205900657:
+      case 0xfab0f371:
 
         call LookAtTurn({'TurnType': 2})
 

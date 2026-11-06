@@ -73,7 +73,7 @@ void Meet_DekuTree_IsAfter_Step01_Exp_Talk() {
     if !GameDataActor.EventQueryIsGameDataBoolExp({'GameDataName': 'Meet_DekuTree_IsCompleted_Exp'}) {
         if !GameDataActor.EventQueryIsGameDataBool({'GameDataName': 'HaveTalked_Special.Npc_Kokiri_Saria_Child_Talk_Event67', 'Index': -1}) {
             switchcall InitTalk_Saria_OcarinaPlaying() {
-              case 569209421:
+              case fnv1a("00"):
                 Npc_EventStarter.EventTalk({'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChangeMstxtForActor': False, 'IsWaitEnd': True, 'MessageId': 'EventFlowMsg/Npc_Kokiri_Saria_Child:Talk_69', 'MaintainPerformanceState': 0})
                 Event171:
                 if !Npc_EventStarter.EventQueryAvoidDuplicationRandomChoice2() {
@@ -81,12 +81,12 @@ void Meet_DekuTree_IsAfter_Step01_Exp_Talk() {
                 } else {
                     Npc_EventStarter.EventTalk({'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChangeMstxtForActor': False, 'IsWaitEnd': True, 'MessageId': 'EventFlowMsg/Npc_Kokiri_Saria_Child:Talk_53', 'MaintainPerformanceState': 0})
                 }
-              case 552431802:
+              case fnv1a("01"):
                 goto Event171
             }
         } else {
             switchcall InitTalk_Saria_OcarinaPlaying() {
-              case [569209421, 552431802]:
+              case [fnv1a("00"), fnv1a("01")]:
                 Npc_EventStarter.EventTalk({'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChangeMstxtForActor': False, 'IsWaitEnd': True, 'MessageId': 'EventFlowMsg/Npc_Kokiri_Saria_Child:Talk_42', 'MaintainPerformanceState': 0})
                 Player_Event.EventPlayerPlayASForFlowchart({'IsWaitEnd': True, 'UseAnmDriven': False, 'IsAllSlot': False, 'KeepOneTimeAnm': False, 'ForceFadeFrame': -1.0, 'ASCommand': 'EvtTalkingL', 'ClothWarpMode': 0})
                 Npc_EventStarter.EventTalk({'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChangeMstxtForActor': False, 'IsWaitEnd': True, 'MessageId': 'EventFlowMsg/Npc_Kokiri_Saria_Child:Talk_52', 'MaintainPerformanceState': 0})
@@ -102,7 +102,7 @@ void Meet_DekuTree_IsAfter_Step01_Exp_Talk() {
     } else
     if !GameDataActor.EventQueryIsGameDataBool({'GameDataName': 'KokiriForest_Npc_Kokiri_Saria_Child_Talk_01', 'Index': -1}) {
         switchcall InitTalk_Saria_OcarinaPlaying() {
-          case 569209421:
+          case fnv1a("00"):
             Npc_EventStarter.EventTalk({'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChangeMstxtForActor': False, 'IsWaitEnd': True, 'MessageId': 'EventFlowMsg/Npc_Kokiri_Saria_Child:Talk_69', 'MaintainPerformanceState': 0})
             Event33:
             if !Player_Event.EventQueryCheckIsEquippedDynamicEquipment({'DynamicEquipmentSlot': 0}) {
@@ -256,7 +256,7 @@ void Meet_DekuTree_IsAfter_Step01_Exp_Talk() {
                 GameDataActor.EventTriggerSetGameDataBool({'GameDataName': 'HaveTalked_Special.Npc_Kokiri_Saria_Child_Meet_DekuTree_IsAfter_Step01_Exp_Talk_Event78', 'Value': True, 'Index': -1})
                 Npc_Navi.EventNaviRequestBallonMessage({'Index': 301})
             }
-          case 552431802:
+          case fnv1a("01"):
             goto Event33
         }
     } else
@@ -265,7 +265,7 @@ void Meet_DekuTree_IsAfter_Step01_Exp_Talk() {
             goto Event84
         } else {
             switchcall InitTalk_Saria_OcarinaPlaying() {
-              case [569209421, 552431802]:
+              case [fnv1a("00"), fnv1a("01")]:
                 Npc_EventStarter.EventTalk({'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChangeMstxtForActor': False, 'IsWaitEnd': True, 'MessageId': 'EventFlowMsg/Npc_Kokiri_Saria_Child:Talk_31', 'MaintainPerformanceState': 0})
                 Player_Event.EventPlayerPlayASForFlowchart({'IsWaitEnd': True, 'UseAnmDriven': False, 'IsAllSlot': False, 'KeepOneTimeAnm': False, 'ForceFadeFrame': -1.0, 'ASCommand': 'EvtTalkingL', 'ClothWarpMode': 0})
                 Npc_EventStarter.EventTalk({'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChangeMstxtForActor': False, 'IsWaitEnd': True, 'MessageId': 'EventFlowMsg/Npc_Kokiri_Saria_Child:Talk_12', 'MaintainPerformanceState': 0})
@@ -275,7 +275,7 @@ void Meet_DekuTree_IsAfter_Step01_Exp_Talk() {
         }
     } else {
         switchcall InitTalk_Saria_OcarinaPlaying() {
-          case 569209421:
+          case fnv1a("00"):
             Npc_EventStarter.EventTalk({'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChangeMstxtForActor': False, 'IsWaitEnd': True, 'MessageId': 'EventFlowMsg/Npc_Kokiri_Saria_Child:Talk_69', 'MaintainPerformanceState': 0})
             Event27:
             if !Npc_EventStarter.EventQueryAvoidDuplicationRandomChoice2() {
@@ -286,7 +286,7 @@ void Meet_DekuTree_IsAfter_Step01_Exp_Talk() {
 
             call GuideToDekuTree_BeforeTalkMido()
 
-          case 552431802:
+          case fnv1a("01"):
             if Npc_EventStarter.EventQueryIsOnRecentTalkFlag() {
                 Npc_EventStarter.EventTalk({'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChangeMstxtForActor': False, 'IsWaitEnd': True, 'MessageId': 'EventFlowMsg/Npc_Kokiri_Saria_Child:Talk_09', 'MaintainPerformanceState': 0})
             }
@@ -309,7 +309,7 @@ void Meet_DekuTree_IsAfter_Step01_Exp_Near() {
 void HavePlayedEvent.Dm_Kokiri_0150_Talk() {
     if !Npc_EventStarter.EventQueryIsOnRecentTalkFlag() {
         switchcall Mask_All() {
-          case [4151362380, 2799305849]:
+          case [fnv1a("Mask_Talk"), 0xa6da0479]:
             if !Npc_EventStarter.EventQueryAvoidDuplicationRandomChoice2() {
                 Npc_EventStarter.EventTalk({'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChangeMstxtForActor': False, 'IsWaitEnd': True, 'MessageId': 'EventFlowMsg/Npc_Kokiri_Saria_Child:Talk_61', 'MaintainPerformanceState': 0})
             } else {
@@ -319,7 +319,7 @@ void HavePlayedEvent.Dm_Kokiri_0150_Talk() {
     } else
     if !Player_Event.EventQueryPlayerIsEquipMask() {
         switchcall Mask_All() {
-          case [4151362380, 2799305849]:
+          case [fnv1a("Mask_Talk"), 0xa6da0479]:
             Event7:
             Npc_EventStarter.EventTalk({'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChangeMstxtForActor': False, 'IsWaitEnd': True, 'MessageId': 'EventFlowMsg/Npc_Kokiri_Saria_Child:Talk_26', 'MaintainPerformanceState': 0})
         }
@@ -364,7 +364,7 @@ void CommonFlowOfSwordAndShield() {
 
 void GuideToDekuTree() {
     switchcall InitTalk_Saria_OcarinaPlaying() {
-      case 569209421:
+      case fnv1a("00"):
         Npc_EventStarter.EventTalk({'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChangeMstxtForActor': False, 'IsWaitEnd': True, 'MessageId': 'EventFlowMsg/Npc_Kokiri_Saria_Child:Talk_69', 'MaintainPerformanceState': 0})
         Event160:
         if !Npc_EventStarter.EventQueryAvoidDuplicationRandomChoice2() {
@@ -446,7 +446,7 @@ void GuideToDekuTree() {
                 Npc_EventStarter.EventTalk({'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChangeMstxtForActor': False, 'IsWaitEnd': True, 'MessageId': 'EventFlowMsg/Npc_Kokiri_Saria_Child:Talk_13', 'MaintainPerformanceState': 0})
             }
         }
-      case 552431802:
+      case fnv1a("01"):
         if Npc_EventStarter.EventQueryIsOnRecentTalkFlag() {
             Npc_EventStarter.EventTalk({'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChangeMstxtForActor': False, 'IsWaitEnd': True, 'MessageId': 'EventFlowMsg/Npc_Kokiri_Saria_Child:Talk_09', 'MaintainPerformanceState': 0})
         }
@@ -499,10 +499,10 @@ void GuideToDekuTree_BeforeTalkMido() {
 
 void Mask_All() {
     switchcall NpcCommon.Mask_Talk_Common_With_InitTalk_KokiriOnly({'Arg_Turn_For_IgnoreMaskTalk': 4, 'Arg_Turn_For_MaskTalk': 4, 'ChangeTheTopic_Talk': 'EventFlowMsg/Npc_Kokiri_Saria_Child:Mask_09', 'Mask_Amiibo00_Talk': 'EventFlowMsg/Npc_Kokiri_Saria_Child:Mask_101', 'Mask_Amiibo01_Talk': 'EventFlowMsg/Npc_Kokiri_Saria_Child:Mask_102', 'Mask_Amiibo02_Talk': 'EventFlowMsg/Npc_Kokiri_Saria_Child:Mask_103', 'ASName': 'TalkMonolog', 'Mask_Keaton_Talk': '', 'Mask_Skull_Talk': '', 'Mask_Spooky_Talk': '', 'Mask_Bunny_Talk': '', 'Mask_Truth_Talk': '', 'Mask_Goron_Talk': '', 'Mask_Zora_Talk': '', 'Mask_Gerudo_Talk': ''}) {
-      case 4205900657:
-        return 4151362380
-      case 4155567800:
-        return 2799305849
+      case 0xfab0f371:
+        return fnv1a("Mask_Talk")
+      case 0xf7b0eeb8:
+        return 0xa6da0479
     }
 }
 
@@ -513,7 +513,7 @@ void InitTalk_Saria_OcarinaPlaying() {
         call InitTalk.InitTalk_KokiriOnly({'Arg_Turn': 4, 'Arg_Greeting': 4, 'NpcFairy_MovingFlag': True})
 
         Event240:
-        return 552431802
+        return fnv1a("01")
       case 2:
         if !Npc_EventStarter.EventQueryIsPlayingSameAS({'Partial': '', 'ASName': 'Act_Playing_Ocarina_Practice'}) {
             Npc_EventStarter.EventTriggerBecomeSpeaker()
@@ -539,7 +539,7 @@ void InitTalk_Saria_OcarinaPlaying() {
             call InitTalk.Sub_InitTalk_Npc({'Arg_Greeting': 4, 'Arg_Actor': ActorIdentifier(name="Npc_EventStarter"), 'Arg_Turn': 1})
 
             Npc_EventStarter.EventTriggerKokiriRequestComeCloserFairy()
-            return 569209421
+            return fnv1a("00")
         } else {
 
             call InitTalk.InitTalk_KokiriOnly({'Arg_Turn': 4, 'Arg_Greeting': 4, 'NpcFairy_MovingFlag': True})

@@ -45,7 +45,7 @@ void Talk() {
 
         } else {
             switchcall HrlField_Note_00.NotReadThisFairyNote({'GameDataNameAtode': 'FairyAfter_Note11'}) {
-              case 1303515621:
+              case fnv1a("true"):
                 Event9:
                 Npc_Navi.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'ChangeMstxtForActor': False, 'NotPlayLipSyncAnim': False, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceLabel3': 0, 'ChoiceLabel1': 0, 'ChoiceNumber': 0, 'ChoiceLabel2': 0, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsAnonymous': False, 'MaintainPerformanceState': 0, 'MessageId': 'EventFlowMsg/HrlField_Note_00:Note_11_00', 'IsNotBecomeSpeaker': True})
                 GameDataActor.EventTriggerSetGameDataBool({'Index': -1, 'Value': True, 'GameDataName': 'HaveReadHrlField_Note11'})

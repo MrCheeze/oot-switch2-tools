@@ -667,15 +667,15 @@ void ReturnItemSelect_Onetime() {
 void Onetime_NoItemCheck() {
     if GameDataActor.EventQueryIsGameDataString64({'Index': -1, 'Value': 'Obj_Heart_Container', 'GameDataName': 'Scrub_Business_TempItemName_00'}) {
         switchcall Iteem_Check_Onetime({'GameDataName': 'Scrub_Business_TempItemName_01'}) {
-          case 3013883440:
+          case fnv1a("Yes"):
             switchcall Iteem_Check_Onetime({'GameDataName': 'Scrub_Business_TempItemName_02'}) {
-              case 1642511898:
+              case fnv1a("No"):
                 GameDataActor.EventTriggerSetGameDataBool({'Index': -1, 'Value': True, 'GameDataName': 'DreamWorld_Scrub_Dream_SoldItem03'})
             }
-          case 1642511898:
+          case fnv1a("No"):
             GameDataActor.EventTriggerSetGameDataBool({'Index': -1, 'Value': True, 'GameDataName': 'DreamWorld_Scrub_Dream_SoldItem02'})
             switchcall Iteem_Check_Onetime({'GameDataName': 'Scrub_Business_TempItemName_02'}) {
-              case 1642511898:
+              case fnv1a("No"):
                 GameDataActor.EventTriggerSetGameDataBool({'Index': -1, 'Value': True, 'GameDataName': 'DreamWorld_Scrub_Dream_SoldItem03'})
                 GameDataActor.EventTriggerSetGameDataBool({'Index': -1, 'Value': True, 'GameDataName': 'DreamWorld_Scrub_Dream_OneItem'})
             }
@@ -686,7 +686,7 @@ void Onetime_NoItemCheck() {
 void Iteem_Check_Onetime() {
     if !GameDataActor.EventQueryIsGameDataString64({'Index': -1, 'Value': 'Obj_Heart_Container', 'GameDataName': 'GameDataName'}) {
         Event273:
-        return 3013883440
+        return fnv1a("Yes")
     } else
     if !GameDataActor.EventQueryIsGameDataString64({'Index': -1, 'GameDataName': 'GameDataName', 'Value': 'Shop_BombBundle_01'}) {
         goto Event273
@@ -724,6 +724,6 @@ void Iteem_Check_Onetime() {
     if !GameDataActor.EventQueryIsGameDataString64({'Index': -1, 'GameDataName': 'GameDataName', 'Value': 'Armor_Adult__HeavyBoot'}) {
         goto Event273
     } else {
-        return 1642511898
+        return fnv1a("No")
     }
 }

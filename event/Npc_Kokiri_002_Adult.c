@@ -78,11 +78,11 @@ void BossBattle_PhantomGanon_IsCompleted_Exp_Talk() {
 
 void MaskTalk_FirstTalk() {
     switchcall NpcCommon.CheckEquipmentMask() {
-      case [3745441359, 488279774]:
+      case [0xdf3ee64f, 0x1d1a8ede]:
         Npc_EventStarter.EventTriggerSetMaskTalkFlag({'value': True, 'IsReflectWhenSleep': False})
         Event15:
         Npc_EventStarter.EventTalk({'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceLabel4': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChangeMstxtForActor': False, 'IsWaitEnd': True, 'ChoiceDefaultNo': 0, 'ChoiceLabel3': 0, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'MessageId': 'EventFlowMsg/Npc_Kokiri_002_Adult:Mask_00', 'MaintainPerformanceState': 0})
-      case 1844135360:
+      case 0x6deb45c0:
         Npc_EventStarter.EventTriggerForceSetAmiiboMaskTalkFlag({'value': True})
         goto Event15
     }

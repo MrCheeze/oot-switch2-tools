@@ -62,7 +62,7 @@ void GetInEvent_EggHatche() {
 
     if !Player_Event.EventQueryPlayerIsChild() {
         switchcall IsSpace_Child() {
-          case 1843959928:
+          case fnv1a("Front"):
             Event35:
             Player_Event.EventCreateShowItemFromActorFileName({'IsWaitEnd': True, 'Actor': 'ActorName'})
 
@@ -108,7 +108,7 @@ void GetInEvent_EggHatche() {
 
             call NaviEventCommon.Sub_InitTalkNavi_NPC_GetDemo({'IsLookAtObject': False, 'LookAtTarget': 2, 'LookAtActorName': 'Player_Event', 'LookAtInstanceName': ''})
 
-          case [1538531746, 513712005, 2457286800]:
+          case [fnv1a("back"), fnv1a("Right"), fnv1a("Left")]:
             Event0:
             Player_Event.EventCreateShowItemFromActorFileName({'IsWaitEnd': True, 'Actor': 'ActorName'})
             if !Player_Event.EventQueryCheckPlayerState({'State': 0}) {
@@ -160,7 +160,7 @@ void GetInEvent_EggHatche() {
 
             }
             goto Event11
-          case 810547195:
+          case fnv1a("None"):
             Event18:
             EventCamera.EventMoveToTargetPosCamera({'IsWaitEnd': False, 'PosVectorSetType': 1, 'AtVectorSetType': 1, 'Actor1ActorName': '', 'Actor1InstanceName': '', 'Actor2ActorName': '', 'Actor2InstanceName': '', 'IsIgnorePosVectorReferenceActorRot': False, 'IsPosVectorReferenceActorPosOnce': False, 'PosVector': [0.0, 0.0, 0.0], 'IsIgnoreAtVectorReferenceActorRot': False, 'IsAtVectorReferenceActorPosOnce': False, 'AtVector': [0.0, 0.0, 0.0], 'MoveTime': 0, 'StartAccelerateRate': 0.0, 'EndRecelerateRate': 0.0, 'IsLinearMove': False, 'MoveTotargetPosType': 0, 'CameraCollisionMode': 1, 'CameraCollisionLookAtActor': 0, 'CameraCollisionLookAtActorOffset': [0.0, 1.5, 0.0], 'LatShiftRange': 0.0, 'LongShiftRange': 0.0, 'LookAtDis': -1.0, 'MoveToTargetPosCalcMode': 0, 'MoveTimeLater': 0, 'DelayLater': 0, 'EnableCameraAlpha': True, 'FovySetType': 1, 'TargetFovy': 0.0, 'IsEnableRevertFast': False})
             Player_Event.EventPlayerPlayASForFlowchart({'KeepOneTimeAnm': False, 'ForceFadeFrame': -1.0, 'IsAllSlot': True, 'UseAnmDriven': True, 'ASCommand': 'Wait', 'IsWaitEnd': False, 'ClothWarpMode': 0})
@@ -172,11 +172,11 @@ void GetInEvent_EggHatche() {
         }
     } else {
         switchcall IsSpace_Adult() {
-          case 1843959928:
+          case fnv1a("Front"):
             goto Event35
-          case [1538531746, 513712005, 2457286800]:
+          case [fnv1a("back"), fnv1a("Right"), fnv1a("Left")]:
             goto Event0
-          case 810547195:
+          case fnv1a("None"):
             goto Event18
         }
     }
@@ -187,49 +187,49 @@ void IsSpace_Adult() {
         if !EventCamera.EventQueryCameraCheckOcclusionToTarget({'VectorSetType1': 3, 'IsEnableSpaceCheck': True, 'Actor1InstanceName': '', 'IsIgnoreVectorReferenceActorRot1': False, 'Actor2InstanceName': '', 'IsIgnoreVectorReferenceActorRot2': False, 'VectorSetType2': 3, 'ActorName1': 'Player_Event', 'ActorName2': 'Player_Event', 'Vector1': [0.0, 2.5, -1.5499999523162842], 'IsEnableCameraBodyCheck': True, 'Vector2': [0.0, 1.7999999523162842, -0.30000001192092896], 'SpaceCheckRadius': 0.1899999976158142, 'IsConsiderWater': False}) {
             if !EventCamera.EventQueryCameraCheckOcclusionToTarget({'VectorSetType1': 3, 'IsEnableSpaceCheck': True, 'Actor1InstanceName': '', 'IsIgnoreVectorReferenceActorRot1': False, 'Actor2InstanceName': '', 'IsIgnoreVectorReferenceActorRot2': False, 'VectorSetType2': 3, 'ActorName1': 'Player_Event', 'ActorName2': 'Player_Event', 'Vector1': [-1.5499999523162842, 2.5, 0.0], 'IsEnableCameraBodyCheck': True, 'Vector2': [-0.30000001192092896, 1.7999999523162842, 0.0], 'SpaceCheckRadius': 0.1899999976158142, 'IsConsiderWater': False}) {
                 if !EventCamera.EventQueryCameraCheckOcclusionToTarget({'VectorSetType1': 3, 'IsEnableSpaceCheck': True, 'Actor1InstanceName': '', 'IsIgnoreVectorReferenceActorRot1': False, 'Actor2InstanceName': '', 'IsIgnoreVectorReferenceActorRot2': False, 'VectorSetType2': 3, 'ActorName1': 'Player_Event', 'ActorName2': 'Player_Event', 'Vector1': [1.5499999523162842, 2.5, 0.0], 'Vector2': [0.30000001192092896, 1.7999999523162842, 0.0], 'IsEnableCameraBodyCheck': True, 'SpaceCheckRadius': 0.1899999976158142, 'IsConsiderWater': False}) {
-                    return 810547195
+                    return fnv1a("None")
                 } else {
-                    return 2457286800
+                    return fnv1a("Left")
                 }
             } else {
-                return 513712005
+                return fnv1a("Right")
             }
         } else {
-            return 1538531746
+            return fnv1a("back")
         }
     } else {
-        return 1843959928
+        return fnv1a("Front")
     }
 }
 
 void Cccco_SetLocator() {
     if !Player_Event.EventQueryPlayerIsChild() {
         switchcall IsSpace_Child() {
-          case [1843959928, 810547195]:
+          case [fnv1a("Front"), fnv1a("None")]:
             Dm_Locator.EventWarpToTargetActor({'TargetActorKind': 1, 'ActorName': 'Player_Event', 'OffsetBase': 1, 'IsWaitEnd': True, 'InstanceName': '', 'YAngle': 0.0, 'ClothWarpMode': -1, 'PositionOffset': [0.0, 1.9600000381469727, 1.5]})
             DevelopEventSystemActor.EventDemoProductSupportComment({'Text1': '正面', 'Text2': '', 'Text3': '', 'Text4': '', 'Text5': '', 'TextColor': 1, 'BgColor': 5, 'BgAlpha': 5, 'BgAlignW': 0, 'BgAlignH': 0, 'DispTime': 3, 'IsWaitEnd': False})
-          case 1538531746:
+          case fnv1a("back"):
             Dm_Locator.EventWarpToTargetActor({'TargetActorKind': 1, 'ActorName': 'Player_Event', 'OffsetBase': 1, 'IsWaitEnd': True, 'InstanceName': '', 'ClothWarpMode': -1, 'YAngle': 180.0, 'PositionOffset': [0.0, 1.9600000381469727, -1.5]})
             DevelopEventSystemActor.EventDemoProductSupportComment({'Text1': '後', 'Text2': '', 'Text3': '', 'Text4': '', 'Text5': '', 'TextColor': 1, 'BgColor': 5, 'BgAlpha': 5, 'BgAlignW': 0, 'BgAlignH': 0, 'DispTime': 3, 'IsWaitEnd': False})
-          case 513712005:
+          case fnv1a("Right"):
             Dm_Locator.EventWarpToTargetActor({'TargetActorKind': 1, 'ActorName': 'Player_Event', 'OffsetBase': 1, 'IsWaitEnd': True, 'InstanceName': '', 'ClothWarpMode': -1, 'YAngle': -90.0, 'PositionOffset': [-1.5, 1.9600000381469727, 0.0]})
             DevelopEventSystemActor.EventDemoProductSupportComment({'Text1': '右', 'Text2': '', 'Text3': '', 'Text4': '', 'Text5': '', 'TextColor': 1, 'BgColor': 5, 'BgAlpha': 5, 'BgAlignW': 0, 'BgAlignH': 0, 'DispTime': 3, 'IsWaitEnd': False})
-          case 2457286800:
+          case fnv1a("Left"):
             Dm_Locator.EventWarpToTargetActor({'TargetActorKind': 1, 'ActorName': 'Player_Event', 'OffsetBase': 1, 'IsWaitEnd': True, 'InstanceName': '', 'ClothWarpMode': -1, 'YAngle': 90.0, 'PositionOffset': [1.5, 1.9600000381469727, 0.0]})
             DevelopEventSystemActor.EventDemoProductSupportComment({'Text1': '左', 'Text2': '', 'Text3': '', 'Text4': '', 'Text5': '', 'TextColor': 1, 'BgColor': 5, 'BgAlpha': 5, 'BgAlignW': 0, 'BgAlignH': 0, 'DispTime': 3, 'IsWaitEnd': False})
         }
     } else {
         switchcall IsSpace_Adult() {
-          case [1843959928, 810547195]:
+          case [fnv1a("Front"), fnv1a("None")]:
             Dm_Locator.EventWarpToTargetActor({'TargetActorKind': 1, 'ActorName': 'Player_Event', 'OffsetBase': 1, 'IsWaitEnd': True, 'InstanceName': '', 'YAngle': 0.0, 'ClothWarpMode': -1, 'PositionOffset': [0.0, 2.6500000953674316, 1.75]})
             DevelopEventSystemActor.EventDemoProductSupportComment({'Text1': '正面', 'Text2': '', 'Text3': '', 'Text4': '', 'Text5': '', 'TextColor': 1, 'BgColor': 5, 'BgAlpha': 5, 'BgAlignW': 0, 'BgAlignH': 0, 'DispTime': 3, 'IsWaitEnd': False})
-          case 1538531746:
+          case fnv1a("back"):
             Dm_Locator.EventWarpToTargetActor({'TargetActorKind': 1, 'ActorName': 'Player_Event', 'OffsetBase': 1, 'IsWaitEnd': True, 'InstanceName': '', 'ClothWarpMode': -1, 'PositionOffset': [0.0, 2.6500000953674316, -1.75], 'YAngle': 180.0})
             DevelopEventSystemActor.EventDemoProductSupportComment({'Text1': '後', 'Text2': '', 'Text3': '', 'Text4': '', 'Text5': '', 'TextColor': 1, 'BgColor': 5, 'BgAlpha': 5, 'BgAlignW': 0, 'BgAlignH': 0, 'DispTime': 3, 'IsWaitEnd': False})
-          case 513712005:
+          case fnv1a("Right"):
             Dm_Locator.EventWarpToTargetActor({'TargetActorKind': 1, 'ActorName': 'Player_Event', 'OffsetBase': 1, 'IsWaitEnd': True, 'InstanceName': '', 'ClothWarpMode': -1, 'PositionOffset': [-1.75, 2.6500000953674316, 0.0], 'YAngle': -90.0})
             DevelopEventSystemActor.EventDemoProductSupportComment({'Text1': '右', 'Text2': '', 'Text3': '', 'Text4': '', 'Text5': '', 'TextColor': 1, 'BgColor': 5, 'BgAlpha': 5, 'BgAlignW': 0, 'BgAlignH': 0, 'DispTime': 3, 'IsWaitEnd': False})
-          case 2457286800:
+          case fnv1a("Left"):
             Dm_Locator.EventWarpToTargetActor({'TargetActorKind': 1, 'ActorName': 'Player_Event', 'OffsetBase': 1, 'IsWaitEnd': True, 'InstanceName': '', 'ClothWarpMode': -1, 'PositionOffset': [1.75, 2.6500000953674316, 0.0], 'YAngle': 90.0})
             DevelopEventSystemActor.EventDemoProductSupportComment({'Text1': '左', 'Text2': '', 'Text3': '', 'Text4': '', 'Text5': '', 'TextColor': 1, 'BgColor': 5, 'BgAlpha': 5, 'BgAlignW': 0, 'BgAlignH': 0, 'DispTime': 3, 'IsWaitEnd': False})
         }
@@ -241,17 +241,17 @@ void IsSpace_Child() {
         if !EventCamera.EventQueryCameraCheckOcclusionToTarget({'VectorSetType1': 3, 'IsEnableSpaceCheck': True, 'Actor1InstanceName': '', 'IsIgnoreVectorReferenceActorRot1': False, 'Actor2InstanceName': '', 'IsIgnoreVectorReferenceActorRot2': False, 'VectorSetType2': 3, 'ActorName1': 'Player_Event', 'ActorName2': 'Player_Event', 'IsEnableCameraBodyCheck': True, 'Vector1': [0.0, 1.9600000381469727, -1.5], 'Vector2': [0.0, 1.2000000476837158, -0.30000001192092896], 'SpaceCheckRadius': 0.1899999976158142, 'IsConsiderWater': False}) {
             if !EventCamera.EventQueryCameraCheckOcclusionToTarget({'VectorSetType1': 3, 'IsEnableSpaceCheck': True, 'Actor1InstanceName': '', 'IsIgnoreVectorReferenceActorRot1': False, 'Actor2InstanceName': '', 'IsIgnoreVectorReferenceActorRot2': False, 'VectorSetType2': 3, 'ActorName1': 'Player_Event', 'ActorName2': 'Player_Event', 'IsEnableCameraBodyCheck': True, 'Vector1': [-1.5, 1.9600000381469727, 0.0], 'Vector2': [-0.30000001192092896, 1.2000000476837158, 0.0], 'SpaceCheckRadius': 0.1899999976158142, 'IsConsiderWater': False}) {
                 if !EventCamera.EventQueryCameraCheckOcclusionToTarget({'VectorSetType1': 3, 'IsEnableSpaceCheck': True, 'Actor1InstanceName': '', 'IsIgnoreVectorReferenceActorRot1': False, 'Actor2InstanceName': '', 'IsIgnoreVectorReferenceActorRot2': False, 'VectorSetType2': 3, 'ActorName1': 'Player_Event', 'ActorName2': 'Player_Event', 'Vector1': [1.5, 1.9600000381469727, 0.0], 'IsEnableCameraBodyCheck': True, 'Vector2': [0.30000001192092896, 1.2000000476837158, 0.0], 'SpaceCheckRadius': 0.1899999976158142, 'IsConsiderWater': False}) {
-                    return 810547195
+                    return fnv1a("None")
                 } else {
-                    return 2457286800
+                    return fnv1a("Left")
                 }
             } else {
-                return 513712005
+                return fnv1a("Right")
             }
         } else {
-            return 1538531746
+            return fnv1a("back")
         }
     } else {
-        return 1843959928
+        return fnv1a("Front")
     }
 }

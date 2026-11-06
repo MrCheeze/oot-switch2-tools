@@ -42,7 +42,7 @@ void Talk() {
                 goto Event9
             } else {
                 switchcall HrlField_Note_00.NotReadThisFairyNote({'GameDataNameAtode': 'FairyAfter_Note12'}) {
-                  case 1303515621:
+                  case fnv1a("true"):
                     goto Event9
                 }
             }
@@ -80,7 +80,7 @@ void Talk() {
             goto Event23
         } else {
             switchcall HrlField_Note_00.NotReadThisFairyNote({'GameDataNameAtode': 'FairyAfter_Note12'}) {
-              case 1303515621:
+              case fnv1a("true"):
                 goto Event23
             }
         }

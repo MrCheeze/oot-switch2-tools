@@ -380,13 +380,13 @@ void NpcCommon_Init_MoveTalk() {
 
 void Mask_Talk_Common() {
     switchcall CheckEquipmentMask() {
-      case [3745441359, 1844135360]:
+      case [0xdf3ee64f, 0x6deb45c0]:
 
         call Sub_Mask_Talk_OtherTruthMask_Message({'Mask_Keaton_Talk': 'Mask_Keaton_Talk', 'Mask_Skull_Talk': 'Mask_Skull_Talk', 'Mask_Spooky_Talk': 'Mask_Spooky_Talk', 'Mask_Bunny_Talk': 'Mask_Bunny_Talk', 'Mask_Goron_Talk': 'Mask_Goron_Talk', 'Mask_Zora_Talk': 'Mask_Zora_Talk', 'Mask_Gerudo_Talk': 'Mask_Gerudo_Talk', 'Mask_Amiibo00_Talk': 'Mask_Amiibo00_Talk', 'Mask_Amiibo01_Talk': 'Mask_Amiibo01_Talk', 'Mask_Amiibo02_Talk': 'Mask_Amiibo02_Talk', 'ASName': ''})
 
         Event36:
         Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChangeMstxtForActor': False, 'MessageId': 'ChangeTheTopic_Talk', 'MaintainPerformanceState': 0})
-      case 488279774:
+      case 0x1d1a8ede:
         Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChangeMstxtForActor': False, 'ASName': 'TalkMonolog', 'IsOverrideStyle': True, 'OverrideStyle': 8, 'MessageId': 'Mask_Truth_Talk', 'MaintainPerformanceState': 0})
         Npc_EventStarter.EventTriggerForceSetMaskTalkFlag({'value': True})
         goto Event36
@@ -472,13 +472,13 @@ void Npc_IsConfront_WithLinkAS() {
 
 void Mask_Talk_Common_NoChangeTheTopic() {
     switchcall CheckEquipmentMask() {
-      case [3745441359, 1844135360]:
+      case [0xdf3ee64f, 0x6deb45c0]:
 
         call Sub_Mask_Talk_OtherTruthMask_Message({'Mask_Keaton_Talk': 'Mask_Keaton_Talk', 'Mask_Skull_Talk': 'Mask_Skull_Talk', 'Mask_Spooky_Talk': 'Mask_Spooky_Talk', 'Mask_Bunny_Talk': 'Mask_Bunny_Talk', 'Mask_Goron_Talk': 'Mask_Goron_Talk', 'Mask_Zora_Talk': 'Mask_Zora_Talk', 'Mask_Gerudo_Talk': 'Mask_Gerudo_Talk', 'Mask_Amiibo00_Talk': 'Mask_Amiibo00_Talk', 'Mask_Amiibo01_Talk': 'Mask_Amiibo01_Talk', 'Mask_Amiibo02_Talk': 'Mask_Amiibo02_Talk', 'ASName': ''})
 
         Event60:
         EventSystemActor.EventWait({'Frames': 1, 'IsWaitEnd': True})
-      case 488279774:
+      case 0x1d1a8ede:
         if !Npc_EventStarter.EventQueryIsPlayingSameAS({'Partial': '', 'ASName': 'ASName'}) {
             Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChangeMstxtForActor': False, 'IsOverrideStyle': True, 'OverrideStyle': 8, 'NotPlayLipSyncAnim': True, 'MessageId': 'Mask_Truth_Talk', 'ASName': 'ASName', 'MaintainPerformanceState': 0})
         } else {
@@ -634,7 +634,7 @@ void NpcCommon_HandOver_PlayerToNpc() {
 
 void Mask_Talk_Common_With_InitTalk_NoChangeTheTopic() {
     switchcall CheckEquipmentMask() {
-      case [3745441359, 1844135360]:
+      case [0xdf3ee64f, 0x6deb45c0]:
 
         call InitTalk.InitTalk({'Arg_Greeting': 4, 'Arg_Turn': 'Arg_Turn_For_MaskTalk'})
 
@@ -644,13 +644,13 @@ void Mask_Talk_Common_With_InitTalk_NoChangeTheTopic() {
 
         EventSystemActor.EventWait({'Frames': 1, 'IsWaitEnd': True})
         Event247:
-        return 1530789637
-      case 3362507297:
+        return 0x5b3dff05
+      case 0xc86bca21:
 
         call InitTalk.InitTalk({'Arg_Greeting': 4, 'Arg_Turn': 'Arg_Turn_For_IgnoreMaskTalk'})
 
         goto Event247
-      case 488279774:
+      case 0x1d1a8ede:
 
         call InitTalk.InitTalk({'Arg_Greeting': 4, 'Arg_Turn': 0})
 
@@ -662,13 +662,13 @@ void Mask_Talk_Common_With_InitTalk_NoChangeTheTopic() {
         }
         Npc_EventStarter.EventTriggerForceSetMaskTalkFlag({'value': True})
         EventSystemActor.EventWait({'Frames': 1, 'IsWaitEnd': True})
-        return 1183930306
+        return 0x469157c2
     }
 }
 
 void Mask_Talk_Common_With_InitTalk() {
     switchcall CheckEquipmentMask() {
-      case [3745441359, 1844135360]:
+      case [0xdf3ee64f, 0x6deb45c0]:
 
         call InitTalk.InitTalk({'Arg_Greeting': 4, 'Arg_Turn': 'Arg_Turn_For_MaskTalk'})
 
@@ -678,13 +678,13 @@ void Mask_Talk_Common_With_InitTalk() {
 
         Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChangeMstxtForActor': False, 'MessageId': 'ChangeTheTopic_Talk', 'MaintainPerformanceState': 0})
         Event248:
-        return 4155567800
-      case 3362507297:
+        return 0xf7b0eeb8
+      case 0xc86bca21:
 
         call InitTalk.InitTalk({'Arg_Greeting': 4, 'Arg_Turn': 'Arg_Turn_For_IgnoreMaskTalk'})
 
         goto Event248
-      case 488279774:
+      case 0x1d1a8ede:
 
         call InitTalk.InitTalk({'Arg_Greeting': 4, 'Arg_Turn': 0})
 
@@ -697,18 +697,18 @@ void Mask_Talk_Common_With_InitTalk() {
         Npc_EventStarter.EventTriggerForceSetMaskTalkFlag({'value': True})
         EventSystemActor.EventWait({'Frames': 1, 'IsWaitEnd': True})
         Event107:
-        return 4205900657
+        return 0xfab0f371
     }
 }
 
 void Truth_MaskOnly_Talk_Common_With_InitTalk() {
     switchcall CheckEquipmentMask() {
-      case [3745441359, 1844135360, 3362507297]:
+      case [0xdf3ee64f, 0x6deb45c0, 0xc86bca21]:
 
         call InitTalk.InitTalk({'Arg_Greeting': 4, 'Arg_Turn': 'Arg_Turn_For_IgnoreMaskTalk'})
 
-        return 508094545
-      case 488279774:
+        return 0x1e48e851
+      case 0x1d1a8ede:
 
         call InitTalk.InitTalk({'Arg_Greeting': 4, 'Arg_Turn': 0})
 
@@ -719,7 +719,7 @@ void Truth_MaskOnly_Talk_Common_With_InitTalk() {
         }
         Npc_EventStarter.EventTriggerForceSetMaskTalkFlag({'value': True})
         EventSystemActor.EventWait({'Frames': 1, 'IsWaitEnd': True})
-        return 457761688
+        return 0x1b48e398
     }
 }
 
@@ -776,7 +776,7 @@ void NpcCommon_HandOver_NpcToPlayer_EmptyBottle() {
 
 void Mask_Talk_Common_With_InitTalk_NotTalkMonolog() {
     switchcall CheckEquipmentMask() {
-      case [3745441359, 1844135360]:
+      case [0xdf3ee64f, 0x6deb45c0]:
 
         call InitTalk.InitTalk({'Arg_Greeting': 4, 'Arg_Turn': 'Arg_Turn_For_MaskTalk'})
 
@@ -785,32 +785,32 @@ void Mask_Talk_Common_With_InitTalk_NotTalkMonolog() {
 
         Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChangeMstxtForActor': False, 'MessageId': 'ChangeTheTopic_Talk', 'MaintainPerformanceState': 0})
         Event318:
-        return 4155567800
-      case 3362507297:
+        return 0xf7b0eeb8
+      case 0xc86bca21:
 
         call InitTalk.InitTalk({'Arg_Greeting': 4, 'Arg_Turn': 'Arg_Turn_For_IgnoreMaskTalk'})
 
         goto Event318
-      case 488279774:
+      case 0x1d1a8ede:
 
         call InitTalk.InitTalk({'Arg_Greeting': 4, 'Arg_Turn': 0})
 
         Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChangeMstxtForActor': False, 'ASName': '', 'MessageId': 'Mask_Truth_Talk', 'NotPlayLipSyncAnim': True, 'IsOverrideStyle': True, 'OverrideStyle': 8, 'MaintainPerformanceState': 0})
         Npc_EventStarter.EventTriggerForceSetMaskTalkFlag({'value': True})
         EventSystemActor.EventWait({'Frames': 1, 'IsWaitEnd': True})
-        return 4205900657
+        return 0xfab0f371
     }
 }
 
 void Mask_Talk_Common_NotTalkMonolog() {
     switchcall CheckEquipmentMask() {
-      case [3745441359, 1844135360]:
+      case [0xdf3ee64f, 0x6deb45c0]:
 
         call Sub_Mask_Talk_OtherTruthMask_Message({'Mask_Keaton_Talk': 'Mask_Keaton_Talk', 'Mask_Skull_Talk': 'Mask_Skull_Talk', 'Mask_Spooky_Talk': 'Mask_Spooky_Talk', 'Mask_Bunny_Talk': 'Mask_Bunny_Talk', 'Mask_Goron_Talk': 'Mask_Goron_Talk', 'Mask_Zora_Talk': 'Mask_Zora_Talk', 'Mask_Gerudo_Talk': 'Mask_Gerudo_Talk', 'Mask_Amiibo00_Talk': 'Mask_Amiibo00_Talk', 'Mask_Amiibo01_Talk': 'Mask_Amiibo01_Talk', 'Mask_Amiibo02_Talk': 'Mask_Amiibo02_Talk', 'ASName': ''})
 
         Event338:
         Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChangeMstxtForActor': False, 'MessageId': 'ChangeTheTopic_Talk', 'MaintainPerformanceState': 0})
-      case 488279774:
+      case 0x1d1a8ede:
         Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChangeMstxtForActor': False, 'ASName': '', 'MessageId': 'Mask_Truth_Talk', 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'MaintainPerformanceState': 0})
         Npc_EventStarter.EventTriggerForceSetMaskTalkFlag({'value': True})
         goto Event338
@@ -844,13 +844,13 @@ void SuggestCamera_Start_90() {
 
 void Mask_Talk_Common_NoTopicNoTalkMonolog() {
     switchcall CheckEquipmentMask() {
-      case [3745441359, 1844135360]:
+      case [0xdf3ee64f, 0x6deb45c0]:
 
         call Sub_Mask_Talk_OtherTruthMask_Message({'Mask_Keaton_Talk': 'Mask_Keaton_Talk', 'Mask_Skull_Talk': 'Mask_Skull_Talk', 'Mask_Spooky_Talk': 'Mask_Spooky_Talk', 'Mask_Bunny_Talk': 'Mask_Bunny_Talk', 'Mask_Goron_Talk': 'Mask_Goron_Talk', 'Mask_Zora_Talk': 'Mask_Zora_Talk', 'Mask_Gerudo_Talk': 'Mask_Gerudo_Talk', 'Mask_Amiibo00_Talk': 'Mask_Amiibo00_Talk', 'Mask_Amiibo01_Talk': 'Mask_Amiibo01_Talk', 'Mask_Amiibo02_Talk': 'Mask_Amiibo02_Talk', 'ASName': ''})
 
         Event414:
         GameSystemActor.EventWait({'Frames': 1, 'IsWaitEnd': True})
-      case 488279774:
+      case 0x1d1a8ede:
         Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChangeMstxtForActor': False, 'ASName': '', 'MessageId': 'Mask_Truth_Talk', 'MaintainPerformanceState': 0})
         Npc_EventStarter.EventTriggerForceSetMaskTalkFlag({'value': True})
         goto Event414
@@ -924,13 +924,13 @@ void NpcCommon_HandOver_NpcToPlayer_DisplayGet_NoDisplay() {
 
 void Mask_Talk_Common_NoChangeTheTopic_NotTalkMonolog() {
     switchcall CheckEquipmentMask() {
-      case [3745441359, 1844135360]:
+      case [0xdf3ee64f, 0x6deb45c0]:
 
         call Sub_Mask_Talk_OtherTruthMask_Message({'Mask_Keaton_Talk': 'Mask_Keaton_Talk', 'Mask_Skull_Talk': 'Mask_Skull_Talk', 'Mask_Spooky_Talk': 'Mask_Spooky_Talk', 'Mask_Bunny_Talk': 'Mask_Bunny_Talk', 'Mask_Goron_Talk': 'Mask_Goron_Talk', 'Mask_Zora_Talk': 'Mask_Zora_Talk', 'Mask_Gerudo_Talk': 'Mask_Gerudo_Talk', 'Mask_Amiibo00_Talk': 'Mask_Amiibo00_Talk', 'Mask_Amiibo01_Talk': 'Mask_Amiibo01_Talk', 'Mask_Amiibo02_Talk': 'Mask_Amiibo02_Talk', 'ASName': ''})
 
         Event460:
         EventSystemActor.EventWait({'Frames': 1, 'IsWaitEnd': True})
-      case 488279774:
+      case 0x1d1a8ede:
         Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChangeMstxtForActor': False, 'ASName': '', 'MessageId': 'Mask_Truth_Talk', 'MaintainPerformanceState': 0})
         Npc_EventStarter.EventTriggerForceSetMaskTalkFlag({'value': True})
         goto Event460
@@ -983,9 +983,9 @@ void SellMask_1() {
 
 void Truth_MaskOnly_Talk_Common_NoInitTalk() {
     switchcall CheckEquipmentMask() {
-      case [3745441359, 1844135360, 3362507297]:
-        return 508094545
-      case 488279774:
+      case [0xdf3ee64f, 0x6deb45c0, 0xc86bca21]:
+        return 0x1e48e851
+      case 0x1d1a8ede:
         if !Npc_EventStarter.EventQueryIsPlayingSameAS({'Partial': '', 'ASName': 'ASName'}) {
             Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChangeMstxtForActor': False, 'IsOverrideStyle': True, 'OverrideStyle': 8, 'NotPlayLipSyncAnim': True, 'MessageId': 'Mask_Truth_Talk', 'ASName': 'ASName', 'MaintainPerformanceState': 0})
         } else {
@@ -993,7 +993,7 @@ void Truth_MaskOnly_Talk_Common_NoInitTalk() {
         }
         Npc_EventStarter.EventTriggerForceSetMaskTalkFlag({'value': True})
         EventSystemActor.EventWait({'Frames': 1, 'IsWaitEnd': True})
-        return 457761688
+        return 0x1b48e398
     }
 }
 
@@ -1057,17 +1057,17 @@ void Sub_Mask_Talk_OtherTruthMask_Message() {
 
 void Mask_Talk_Common_With_InitTalk_KokiriOnly() {
     switchcall CheckEquipmentMask() {
-      case [3745441359, 1844135360]:
+      case [0xdf3ee64f, 0x6deb45c0]:
 
         call InitTalk.InitTalk_KokiriOnly({'Arg_Greeting': 4, 'NpcFairy_MovingFlag': True, 'Arg_Turn': 'Arg_Turn_For_MaskTalk'})
 
         goto Event4
-      case 3362507297:
+      case 0xc86bca21:
 
         call InitTalk.InitTalk_KokiriOnly({'Arg_Greeting': 4, 'NpcFairy_MovingFlag': True, 'Arg_Turn': 'Arg_Turn_For_IgnoreMaskTalk'})
 
         goto Event248
-      case 488279774:
+      case 0x1d1a8ede:
 
         call InitTalk.InitTalk_KokiriOnly({'Arg_Greeting': 4, 'Arg_Turn': 0, 'NpcFairy_MovingFlag': False})
 
@@ -1077,17 +1077,17 @@ void Mask_Talk_Common_With_InitTalk_KokiriOnly() {
 
 void Mask_Talk_Common_With_InitTalk_NoChangeTheTopic_KokiryOnly() {
     switchcall CheckEquipmentMask() {
-      case [3745441359, 1844135360]:
+      case [0xdf3ee64f, 0x6deb45c0]:
 
         call InitTalk.InitTalk_KokiriOnly({'Arg_Greeting': 4, 'Arg_Turn': 'Arg_Turn_For_MaskTalk', 'NpcFairy_MovingFlag': True})
 
         goto Event63
-      case 3362507297:
+      case 0xc86bca21:
 
         call InitTalk.InitTalk_KokiriOnly({'Arg_Greeting': 4, 'Arg_Turn': 'Arg_Turn_For_IgnoreMaskTalk', 'NpcFairy_MovingFlag': True})
 
         goto Event247
-      case 488279774:
+      case 0x1d1a8ede:
 
         call InitTalk.InitTalk_KokiriOnly({'Arg_Greeting': 4, 'Arg_Turn': 0, 'NpcFairy_MovingFlag': False})
 
@@ -1097,7 +1097,7 @@ void Mask_Talk_Common_With_InitTalk_NoChangeTheTopic_KokiryOnly() {
 
 void Mask_Talk_Common_With_InitTalk_SettingAllAS() {
     switchcall CheckEquipmentMask() {
-      case [3745441359, 1844135360]:
+      case [0xdf3ee64f, 0x6deb45c0]:
 
         call InitTalk.InitTalk({'Arg_Greeting': 4, 'Arg_Turn': 'Arg_Turn_For_MaskTalk'})
 
@@ -1106,12 +1106,12 @@ void Mask_Talk_Common_With_InitTalk_SettingAllAS() {
 
         Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChangeMstxtForActor': False, 'MessageId': 'ChangeTheTopic_Talk', 'MaintainPerformanceState': 0})
         goto Event248
-      case 3362507297:
+      case 0xc86bca21:
 
         call InitTalk.InitTalk({'Arg_Greeting': 4, 'Arg_Turn': 'Arg_Turn_For_IgnoreMaskTalk'})
 
         goto Event248
-      case 488279774:
+      case 0x1d1a8ede:
 
         call InitTalk.InitTalk({'Arg_Greeting': 4, 'Arg_Turn': 0})
 
@@ -1132,9 +1132,9 @@ void CheckEquipmentMask() {
         Event130:
         if !Npc_EventStarter.EventQueryIsOnMaskTalkFlag() {
             Event228:
-            return 3362507297
+            return 0xc86bca21
         } else {
-            return 3745441359
+            return 0xdf3ee64f
         }
     } else
     if !Player_Event.EventQueryPlayerIsEquipArmor({'ArmorSlot': 0, 'ArmorName': 'Armor_Child_Mask_Skull'}) {
@@ -1159,7 +1159,7 @@ void CheckEquipmentMask() {
         if !Npc_EventStarter.EventQueryIsOnMaskTalkFlag() {
             goto Event228
         } else {
-            return 488279774
+            return 0x1d1a8ede
         }
     } else
     if !Player_Event.EventQueryPlayerIsEquipArmor({'ArmorSlot': 0, 'ArmorName': 'Armor_Child_Mask_Amiibo1'}) {
@@ -1167,7 +1167,7 @@ void CheckEquipmentMask() {
         if !Npc_EventStarter.EventQueryIsOnAmiiboMaskTalkFlag() {
             goto Event228
         } else {
-            return 1844135360
+            return 0x6deb45c0
         }
     } else
     if !Player_Event.EventQueryPlayerIsEquipArmor({'ArmorSlot': 0, 'ArmorName': 'Armor_Child_Mask_Amiibo0'}) {
@@ -1185,10 +1185,10 @@ void CheckAlreadyMaskTalked() {
         Event241:
         if !Npc_EventStarter.EventQueryIsOnMaskTalkFlag() {
             Event233:
-            return 803420549
+            return 0x2fe33985
         } else {
             Event231:
-            return 1307241100
+            return 0x4deaea8c
         }
     } else
     if !Player_Event.EventQueryPlayerIsEquipArmor({'ArmorSlot': 0, 'ArmorName': 'Armor_Child_Mask_Skull'}) {
@@ -1232,7 +1232,7 @@ void CheckAlreadyMaskTalked() {
 
 void MaskTalkGoron() {
     switchcall CheckEquipmentMask() {
-      case 3745441359:
+      case 0xdf3ee64f:
         Npc_EventStarter.EventTriggerLookAtObject({'Target': 2, 'ActorName': '', 'InstanceName': '', 'WorldPos': [0.0, 0.0, 0.0], 'PosOffset': [0.0, 0.0, 0.0], 'Direction': 0.0, 'OffsetBase': 0, 'ResetArriveTransformFixed': False})
         Npc_EventStarter.EventNPCTurnToObjectGreeting({'IsWaitEnd': True, 'GreetType': 4, 'TurnType': 3})
         if !Player_Event.EventQueryPlayerIsEquipArmor({'ArmorSlot': 0, 'ArmorName': 'Armor_Child_Mask_Goron'}) {
@@ -1248,7 +1248,7 @@ void MaskTalkGoron() {
             Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChangeMstxtForActor': False, 'ASName': '', 'MessageId': 'MessageId103', 'MaintainPerformanceState': 0})
             goto Event305
         }
-      case 1844135360:
+      case 0x6deb45c0:
         Npc_EventStarter.EventTriggerLookAtObject({'Target': 2, 'ActorName': '', 'InstanceName': '', 'WorldPos': [0.0, 0.0, 0.0], 'PosOffset': [0.0, 0.0, 0.0], 'Direction': 0.0, 'OffsetBase': 0, 'ResetArriveTransformFixed': False})
         Npc_EventStarter.EventNPCTurnToObjectGreeting({'IsWaitEnd': True, 'GreetType': 4, 'TurnType': 3})
         if !Player_Event.EventQueryPlayerIsEquipArmor({'ArmorSlot': 0, 'ArmorName': 'Armor_Child_Mask_Amiibo1'}) {
@@ -1266,10 +1266,10 @@ void MaskTalkGoron() {
             Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChangeMstxtForActor': False, 'ASName': '', 'MessageId': 'MessageId103', 'MaintainPerformanceState': 0})
             goto Event307
         }
-      case 3362507297:
+      case 0xc86bca21:
         Npc_EventStarter.EventTriggerLookAtObject({'Target': 2, 'ActorName': '', 'InstanceName': '', 'WorldPos': [0.0, 0.0, 0.0], 'PosOffset': [0.0, 0.0, 0.0], 'Direction': 0.0, 'OffsetBase': 0, 'ResetArriveTransformFixed': False})
         Npc_EventStarter.EventNPCTurnToObjectGreeting({'IsWaitEnd': True, 'GreetType': 4, 'TurnType': 3})
-      case 488279774:
+      case 0x1d1a8ede:
         if !Npc_EventStarter.EventQueryIsPlayingSameAS({'Partial': '', 'ASName': 'ASName'}) {
             Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChangeMstxtForActor': False, 'MessageId': 'MessageId05', 'NotPlayLipSyncAnim': True, 'IsOverrideStyle': True, 'OverrideStyle': 8, 'ASName': 'ASName', 'MaintainPerformanceState': 0})
         } else {
@@ -1293,25 +1293,25 @@ void Mask_Truth_NotTalkMonolog() {
 
 void Truth_MaskOnly_Talk_Common_With_InitTalk_TalkMonologOverwriteAS() {
     switchcall CheckEquipmentMask() {
-      case [3745441359, 1844135360, 3362507297]:
+      case [0xdf3ee64f, 0x6deb45c0, 0xc86bca21]:
 
         call InitTalk.InitTalk({'Arg_Greeting': 4, 'Arg_Turn': 'Arg_Turn_For_IgnoreMaskTalk'})
 
-        return 508094545
-      case 488279774:
+        return 0x1e48e851
+      case 0x1d1a8ede:
 
         call InitTalk.InitTalk({'Arg_Greeting': 4, 'Arg_Turn': 0})
 
         Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChangeMstxtForActor': False, 'IsOverrideStyle': True, 'OverrideStyle': 8, 'NotPlayLipSyncAnim': True, 'MessageId': 'Mask_Truth_Talk', 'ASName': 'ASName', 'MaintainPerformanceState': 0})
         Npc_EventStarter.EventTriggerForceSetMaskTalkFlag({'value': True})
         EventSystemActor.EventWait({'Frames': 1, 'IsWaitEnd': True})
-        return 457761688
+        return 0x1b48e398
     }
 }
 
 void Mask_Talk_Npc_Hylia_RunningMan_Child_With_InitTalk_SettingAllAS() {
     switchcall CheckEquipmentMask() {
-      case [3745441359, 1844135360]:
+      case [0xdf3ee64f, 0x6deb45c0]:
 
         call InitTalk.InitTalk_Npc_Hylia_RunningMan_Child({'Arg_Greeting': 4, 'Arg_Turn': 'Arg_Turn_For_MaskTalk'})
 
@@ -1320,12 +1320,12 @@ void Mask_Talk_Npc_Hylia_RunningMan_Child_With_InitTalk_SettingAllAS() {
 
         Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChangeMstxtForActor': False, 'MessageId': 'ChangeTheTopic_Talk', 'ASName': 'ASName', 'MaintainPerformanceState': 0})
         goto Event248
-      case 3362507297:
+      case 0xc86bca21:
 
         call InitTalk.InitTalk_Npc_Hylia_RunningMan_Child({'Arg_Greeting': 4, 'Arg_Turn': 'Arg_Turn_For_IgnoreMaskTalk'})
 
         goto Event248
-      case 488279774:
+      case 0x1d1a8ede:
 
         call InitTalk.InitTalk_Npc_Hylia_RunningMan_Child({'Arg_Greeting': 4, 'Arg_Turn': 0})
 
@@ -1340,17 +1340,17 @@ void DisplayItemSet() {
 
 void Mask_Talk_Common_With_InitTalk_NoChangeTheTopic_NormalCamera() {
     switchcall CheckEquipmentMask() {
-      case [3745441359, 1844135360]:
+      case [0xdf3ee64f, 0x6deb45c0]:
 
         call InitTalk.InitTalk_NormalCamera({'Arg_Greeting': 4, 'Arg_Turn': 'Arg_Turn_For_MaskTalk'})
 
         goto Event63
-      case 3362507297:
+      case 0xc86bca21:
 
         call InitTalk.InitTalk_NormalCamera({'Arg_Greeting': 4, 'Arg_Turn': 'Arg_Turn_For_IgnoreMaskTalk'})
 
         goto Event247
-      case 488279774:
+      case 0x1d1a8ede:
 
         call InitTalk.InitTalk_NormalCamera({'Arg_Greeting': 4, 'Arg_Turn': 0})
 
@@ -1384,17 +1384,17 @@ void NpcCommon_Receive_PlayerToNpc() {
 
 void Mask_Talk_Common_With_InitTalk_Kokiri_006_Only() {
     switchcall CheckEquipmentMask() {
-      case [3745441359, 1844135360]:
+      case [0xdf3ee64f, 0x6deb45c0]:
 
         call InitTalk.InitTalk_Npc_Kokiri_006_Child({'Arg_Greeting': 4, 'Arg_Turn': 'Arg_Turn_For_MaskTalk'})
 
         goto Event4
-      case 3362507297:
+      case 0xc86bca21:
 
         call InitTalk.InitTalk_Npc_Kokiri_006_Child({'Arg_Greeting': 4, 'Arg_Turn': 'Arg_Turn_For_IgnoreMaskTalk'})
 
         goto Event248
-      case 488279774:
+      case 0x1d1a8ede:
 
         call InitTalk.InitTalk_Npc_Kokiri_006_Child({'Arg_Greeting': 4, 'Arg_Turn': 0})
 
@@ -1503,17 +1503,17 @@ void NpcCommon_PlayerEvtTalking_NpcWait() {
 
 void Mask_Talk_Common_With_InitTalk_Ingo_Only() {
     switchcall CheckEquipmentMask() {
-      case [3745441359, 1844135360]:
+      case [0xdf3ee64f, 0x6deb45c0]:
 
         call InitTalk.InitTalk_Npc_Ingo({'Arg_Greeting': 4, 'Arg_Turn': 'Arg_Turn_For_MaskTalk', 'NpcActor': ActorIdentifier(name="Npc_EventStarter")})
 
         goto Event4
-      case 3362507297:
+      case 0xc86bca21:
 
         call InitTalk.InitTalk_Npc_Ingo({'Arg_Greeting': 4, 'Arg_Turn': 'Arg_Turn_For_IgnoreMaskTalk', 'NpcActor': ActorIdentifier(name="Npc_EventStarter")})
 
         goto Event248
-      case 488279774:
+      case 0x1d1a8ede:
 
         call InitTalk.InitTalk_Npc_Ingo({'Arg_Greeting': 4, 'Arg_Turn': 0, 'NpcActor': ActorIdentifier(name="Npc_EventStarter")})
 
@@ -1556,17 +1556,17 @@ void NpcCommon_HandOver_ShowItem_Cancel_ChangeAS() {
 
 void Mask_Talk_Common_With_InitTalk_Kokiri_006_Adult_Only() {
     switchcall CheckEquipmentMask() {
-      case [3745441359, 1844135360]:
+      case [0xdf3ee64f, 0x6deb45c0]:
 
         call Npc_Kokiri_006_Adult.InitTalk_Npc_Kokiri_006_Adult({'Arg_Greeting': 4, 'Arg_Turn': 'Arg_Turn_For_MaskTalk'})
 
         goto Event4
-      case 3362507297:
+      case 0xc86bca21:
 
         call Npc_Kokiri_006_Adult.InitTalk_Npc_Kokiri_006_Adult({'Arg_Greeting': 4, 'Arg_Turn': 'Arg_Turn_For_IgnoreMaskTalk'})
 
         goto Event248
-      case 488279774:
+      case 0x1d1a8ede:
 
         call Npc_Kokiri_006_Adult.InitTalk_Npc_Kokiri_006_Adult({'Arg_Greeting': 4, 'Arg_Turn': 0})
 

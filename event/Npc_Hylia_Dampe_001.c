@@ -722,7 +722,7 @@ void Talk_WorkPlace_Arrival() {
             goto Event189
         } else {
             switchcall NpcCommon.CheckEquipmentMask() {
-              case [3745441359, 1844135360, 488279774]:
+              case [0xdf3ee64f, 0x6deb45c0, 0x1d1a8ede]:
 
                 call NpcCommon.Mask_Talk_Common({'Mask_Keaton_Talk': 'EventFlowMsg/Npc_Hylia_Dampe_001:Mask_01', 'Mask_Skull_Talk': 'EventFlowMsg/Npc_Hylia_Dampe_001:Mask_02', 'Mask_Spooky_Talk': 'EventFlowMsg/Npc_Hylia_Dampe_001:Mask_03', 'Mask_Bunny_Talk': 'EventFlowMsg/Npc_Hylia_Dampe_001:Mask_04', 'Mask_Truth_Talk': 'EventFlowMsg/Npc_Hylia_Dampe_001:Mask_05', 'Mask_Goron_Talk': 'EventFlowMsg/Npc_Hylia_Dampe_001:Mask_06', 'Mask_Zora_Talk': 'EventFlowMsg/Npc_Hylia_Dampe_001:Mask_07', 'Mask_Gerudo_Talk': 'EventFlowMsg/Npc_Hylia_Dampe_001:Mask_08', 'ChangeTheTopic_Talk': 'EventFlowMsg/Npc_Hylia_Dampe_001:Mask_09', 'Mask_Amiibo00_Talk': 'EventFlowMsg/Npc_Hylia_Dampe_001:Mask_101', 'Mask_Amiibo01_Talk': 'EventFlowMsg/Npc_Hylia_Dampe_001:Mask_102', 'Mask_Amiibo02_Talk': 'EventFlowMsg/Npc_Hylia_Dampe_001:Mask_103'})
 
@@ -828,7 +828,7 @@ void Talk_WorkPlace_Arrival() {
                         goto Event491
                     }
                 }
-              case 3362507297:
+              case 0xc86bca21:
                 if !GameDataActor.EventQueryIsGameDataBool({'GameDataName': 'GraveYard_Hylia_Dampe_001_IsAfterFirstExplain', 'Index': -1}) {
                     Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MessageId': 'EventFlowMsg/Npc_Hylia_Dampe_001:Talk_76', 'MaintainPerformanceState': 0})
                     goto Event92

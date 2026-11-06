@@ -161,18 +161,18 @@ void Talk() {
                     Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceLabel3': 1, 'ChoiceLabel2': 5, 'ChoiceLabel1': 2, 'MessageId': 'EventFlowMsg/Npc_Gerudo_004:Talk_14', 'ChoiceNumber': 0, 'MaintainPerformanceState': 0})
                     Event200:
                     switchcall ItemCheck_ForTrainingGround_3way() {
-                      case 3277522729:
+                      case fnv1a("Pay"):
 
                         call Open_TrainingGround()
 
-                      case 1560524264:
+                      case 0x5d03b5e8:
                         switchcall Topic_TrainingGround() {
-                          case 3013883440:
+                          case fnv1a("Yes"):
                             goto Event36
-                          case 1642511898:
+                          case fnv1a("No"):
                             goto Event34
                         }
-                      case 1642511898:
+                      case fnv1a("No"):
 
                         call Farewell()
 
@@ -208,12 +208,12 @@ void Talk() {
 
                 Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceLabel3': 1, 'MessageId': 'EventFlowMsg/Npc_Gerudo_004:Talk_32', 'ChoiceLabel1': 2, 'ChoiceLabel2': 1, 'ChoiceNumber': 0, 'MaintainPerformanceState': 0})
                 switchcall ItemCheck_ForTrainingGround() {
-                  case 3277522729:
+                  case fnv1a("Pay"):
                     Event67:
 
                     call Open_TrainingGround()
 
-                  case 1642511898:
+                  case fnv1a("No"):
 
                     fork {
                         Player_Event.EventPlayerPlayASForFlowchart({'ASCommand': 'EvtTalkNo', 'IsWaitEnd': True, 'UseAnmDriven': False, 'IsAllSlot': False, 'KeepOneTimeAnm': False, 'ForceFadeFrame': -1.0, 'ClothWarpMode': 0})
@@ -226,9 +226,9 @@ void Talk() {
                 }
               case 1:
                 switchcall Topic_TrainingGround() {
-                  case 3013883440:
+                  case fnv1a("Yes"):
                     goto Event67
-                  case 1642511898:
+                  case fnv1a("No"):
                     Player_Event.EventPlayerPlayASForFlowchart({'ASCommand': 'EvtTalkNo', 'IsWaitEnd': True, 'UseAnmDriven': False, 'IsAllSlot': False, 'KeepOneTimeAnm': False, 'ForceFadeFrame': -1.0, 'ClothWarpMode': 0})
                     goto Event86
                 }
@@ -268,9 +268,9 @@ void Topic_TrainingGround() {
     UISystemActor.EventTriggerOpenRupeeDisplay({'IsNeedMaxNum': False, 'IsWaitChoiceBtnIn': True})
     Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceLabel1': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MessageId': 'EventFlowMsg/Npc_Gerudo_004:Talk_09', 'ChoiceNumber': 2, 'ChoiceLabel2': 3, 'MaintainPerformanceState': 0})
     if !GameSystemActor.EventQueryTalkChoice2() {
-        return 3013883440
+        return fnv1a("Yes")
     } else {
-        return 1642511898
+        return fnv1a("No")
     }
 }
 
@@ -385,9 +385,9 @@ void ItemCheck_ForTrainingGround() {
 
     Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceLabel3': 1, 'ChoiceNumber': 2, 'ChoiceLabel1': 2, 'ChoiceLabel2': 1, 'MaintainPerformanceState': 0, 'MessageId': 'EventFlowMsg/Npc_Gerudo_004:Talk_13'})
     if !GameSystemActor.EventQueryTalkChoice2() {
-        return 3277522729
+        return fnv1a("Pay")
     } else {
-        return 1642511898
+        return fnv1a("No")
     }
 }
 
@@ -422,11 +422,11 @@ void ItemCheck_ForTrainingGround_3way() {
     Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceLabel3': 1, 'ChoiceLabel1': 2, 'ChoiceNumber': 3, 'ChoiceLabel2': 5, 'MaintainPerformanceState': 0, 'MessageId': 'EventFlowMsg/Npc_Gerudo_004:Talk_13'})
     switch GameSystemActor.EventQueryTalkChoice3() {
       case 0:
-        return 3277522729
+        return fnv1a("Pay")
       case 1:
-        return 1560524264
+        return 0x5d03b5e8
       case 2:
-        return 1642511898
+        return fnv1a("No")
     }
 }
 

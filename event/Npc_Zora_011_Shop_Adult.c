@@ -91,10 +91,10 @@ void Talk() {
 
           case 2:
             switchcall DisplayShop.DisplayShop_ZeldaNotes_Flow() {
-              case 1655997989:
+              case 0x62b48625:
                 Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChangeMstxtForActor': True, 'ChoiceLabel1': 9011, 'ChoiceLabel2': 9012, 'ChoiceLabel4': 9013, 'ChoiceLabel3': 0, 'ChoiceNumber': 4, 'MessageId': 'EventFlowMsg/Npc_Zora_011_Shop_Child:Shop_52', 'MaintainPerformanceState': 0})
                 goto Event46
-              case 2160637662:
+              case 0x80c8b6de:
                 Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceLabel1': 9011, 'ChoiceLabel2': 9012, 'ChoiceNumber': 4, 'ChoiceLabel4': 9013, 'ChoiceLabel3': 0, 'MessageId': 'EventFlowMsg/Npc_Zora_011_Shop_Adult:Talk_13', 'ChangeMstxtForActor': False, 'MaintainPerformanceState': 0})
                 goto Event46
             }

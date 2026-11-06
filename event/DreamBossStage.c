@@ -202,7 +202,7 @@ void Rematch_Gohma() {
     GameSystemActor.EventTriggerBancRequestBeforehandLoad({'BancPath': 'Work/Banc/Scene/DreamWorld/GohmaStage.bcett.json', 'IsTargetRetry': False})
     if !GameDataActor.EventQueryIsGameDataBool({'Index': -1, 'GameDataName': 'DreamWorld_BossRush'}) {
         switchcall SubEvent_AllBossBattle.BossRushBossStageExitSuccessBase() {
-          case 3013883440:
+          case fnv1a("Yes"):
             GameSystemActor.EventReserveBancChange({'IsWaitEnd': True, 'NextPosition': [0.0, 0.0, 0.0], 'NextStartRot': [0.0, 0.0, 0.0], 'IsStartOnEvent': False, 'EventStarterName': '', 'FadePattern': 1, 'NextBanc': 'GohmaStage', 'NextStartPos': 'GohmaStage', 'BootEventName': 'DreamBossStage_Rematch_Gohma_Start', 'IsItemWarp': False})
         }
     } else {
@@ -211,7 +211,7 @@ void Rematch_Gohma() {
         call ConfirmRematch({'EndDistance': 0.0, 'EndFNumber': 3.0})
 
         switchcall Enemy_Dictionary_Common.Dictionary_Rematch({'ActorName': 'ActorName'}) {
-          case 3013883440:
+          case fnv1a("Yes"):
 
             call SubEvent_AllBossBattle.ChildBossStageEnter({'NextStartPos': 'GohmaStage', 'NextBanc': 'GohmaStage', 'EnemyActor': 'Enemy_DungeonBoss_Gohma', 'IItemDrop': True, 'BossCount': 1, 'BootEventName': 'InsideTheDekuTree_BossAppear'})
 
@@ -223,7 +223,7 @@ void Rematch_Dodongo() {
     GameSystemActor.EventTriggerBancRequestBeforehandLoad({'BancPath': 'Work/Banc/Scene/DreamWorld/DodongoStage.bcett.json', 'IsTargetRetry': False})
     if !GameDataActor.EventQueryIsGameDataBool({'Index': -1, 'GameDataName': 'DreamWorld_BossRush'}) {
         switchcall SubEvent_AllBossBattle.BossRushBossStageExitSuccessBase() {
-          case 3013883440:
+          case fnv1a("Yes"):
             GameSystemActor.EventReserveBancChange({'IsWaitEnd': True, 'NextPosition': [0.0, 0.0, 0.0], 'NextStartRot': [0.0, 0.0, 0.0], 'IsStartOnEvent': False, 'EventStarterName': '', 'FadePattern': 1, 'NextBanc': 'DodongoStage', 'NextStartPos': 'DodongoStage', 'BootEventName': 'DreamBossStage_Rematch_Dodongo_Start', 'IsItemWarp': False})
         }
     } else {
@@ -232,7 +232,7 @@ void Rematch_Dodongo() {
         call ConfirmRematch({'EndDistance': 0.0, 'EndFNumber': 0.800000011920929})
 
         switchcall Enemy_Dictionary_Common.Dictionary_Rematch({'ActorName': 'ActorName'}) {
-          case 3013883440:
+          case fnv1a("Yes"):
 
             call SubEvent_AllBossBattle.ChildBossStageEnter({'NextStartPos': 'DodongoStage', 'NextBanc': 'DodongoStage', 'EnemyActor': 'Enemy_DungeonBoss_Dodongo', 'IItemDrop': True, 'BossCount': 4, 'BootEventName': 'Get_StoneOfFire_AppearBoss'})
 
@@ -244,7 +244,7 @@ void Rematch_Barinade() {
     GameSystemActor.EventTriggerBancRequestBeforehandLoad({'BancPath': 'Work/Banc/Scene/DreamWorld/BarinadeStage.bcett.json', 'IsTargetRetry': False})
     if !GameDataActor.EventQueryIsGameDataBool({'Index': -1, 'GameDataName': 'DreamWorld_BossRush'}) {
         switchcall SubEvent_AllBossBattle.BossRushBossStageExitSuccessBase() {
-          case 3013883440:
+          case fnv1a("Yes"):
             GameSystemActor.EventReserveBancChange({'IsWaitEnd': True, 'NextPosition': [0.0, 0.0, 0.0], 'NextStartRot': [0.0, 0.0, 0.0], 'IsStartOnEvent': False, 'EventStarterName': '', 'FadePattern': 1, 'NextBanc': 'BarinadeStage', 'NextStartPos': 'BarinadeStage', 'BootEventName': 'DreamBossStage_Rematch_Barinade_Start', 'IsItemWarp': False})
         }
     } else {
@@ -253,7 +253,7 @@ void Rematch_Barinade() {
         call ConfirmRematch({'EndDistance': 0.0, 'EndFNumber': 1.100000023841858})
 
         switchcall Enemy_Dictionary_Common.Dictionary_Rematch({'ActorName': 'ActorName'}) {
-          case 3013883440:
+          case fnv1a("Yes"):
 
             call SubEvent_AllBossBattle.ChildBossStageEnter({'NextStartPos': 'BarinadeStage', 'NextBanc': 'BarinadeStage', 'EnemyActor': 'Enemy_DungeonBoss_Barinade', 'IItemDrop': True, 'BossCount': 6, 'BootEventName': 'DreamBossStage_Rematch_Barinade_Start'})
 
@@ -265,7 +265,7 @@ void Rematch_PhantomGanon() {
     GameSystemActor.EventTriggerBancRequestBeforehandLoad({'BancPath': 'Work/Banc/Scene/DreamWorld/PhantomGanonStage.bcett.json', 'IsTargetRetry': False})
     if !GameDataActor.EventQueryIsGameDataBool({'Index': -1, 'GameDataName': 'DreamWorld_BossRush'}) {
         switchcall SubEvent_AllBossBattle.BossRushBossStageExitSuccessBase() {
-          case 3013883440:
+          case fnv1a("Yes"):
             GameSystemActor.EventReserveBancChange({'IsWaitEnd': True, 'NextPosition': [0.0, 0.0, 0.0], 'NextStartRot': [0.0, 0.0, 0.0], 'IsStartOnEvent': False, 'EventStarterName': '', 'FadePattern': 1, 'NextBanc': 'PhantomGanonStage', 'NextStartPos': 'PhantomGanonStage', 'BootEventName': 'DreamBossStage_Rematch_PhantomGanon_Start', 'IsItemWarp': False})
         }
     } else {
@@ -274,7 +274,7 @@ void Rematch_PhantomGanon() {
         call ConfirmRematch({'EndDistance': 0.0, 'EndFNumber': 3.5})
 
         switchcall Enemy_Dictionary_Common.Dictionary_Rematch({'ActorName': 'ActorName'}) {
-          case 3013883440:
+          case fnv1a("Yes"):
 
             call SubEvent_AllBossBattle.AdultBossStageEnter({'NextStartPos': 'PhantomGanonStage', 'NextBanc': 'PhantomGanonStage', 'EnemyActor': 'Enemy_DungeonBoss_PhantomGanon', 'ItemDrop': True, 'BossCount': 9, 'BootEventName': 'ForestTemple_SageOfForest_PhantomGanonAppearance'})
 
@@ -286,7 +286,7 @@ void Rematch_Volvagia() {
     GameSystemActor.EventTriggerBancRequestBeforehandLoad({'BancPath': 'Work/Banc/Scene/DreamWorld/VolvagiaStage.bcett.json', 'IsTargetRetry': False})
     if !GameDataActor.EventQueryIsGameDataBool({'Index': -1, 'GameDataName': 'DreamWorld_BossRush'}) {
         switchcall SubEvent_AllBossBattle.BossRushBossStageExitSuccessBase() {
-          case 3013883440:
+          case fnv1a("Yes"):
             GameSystemActor.EventReserveBancChange({'IsWaitEnd': True, 'NextPosition': [0.0, 0.0, 0.0], 'NextStartRot': [0.0, 0.0, 0.0], 'IsStartOnEvent': False, 'EventStarterName': '', 'FadePattern': 1, 'NextBanc': 'VolvagiaStage', 'NextStartPos': 'VolvagiaStage', 'BootEventName': 'DreamBossStage_Rematch_Volvagia_Start', 'IsItemWarp': False})
         }
     } else {
@@ -295,7 +295,7 @@ void Rematch_Volvagia() {
         call ConfirmRematch({'EndDistance': 0.0, 'EndFNumber': 2.0})
 
         switchcall Enemy_Dictionary_Common.Dictionary_Rematch({'ActorName': 'ActorName'}) {
-          case 3013883440:
+          case fnv1a("Yes"):
 
             call SubEvent_AllBossBattle.AdultBossStageEnter({'NextStartPos': 'VolvagiaStage', 'NextBanc': 'VolvagiaStage', 'EnemyActor': 'Enemy_DungeonBoss_Volvagia', 'ItemDrop': True, 'BossCount': 11, 'BootEventName': 'SageOfFire_BossAppear'})
 
@@ -307,7 +307,7 @@ void Rematch_Morpha() {
     GameSystemActor.EventTriggerBancRequestBeforehandLoad({'BancPath': 'Work/Banc/Scene/DreamWorld/MorphaStage.bcett.json', 'IsTargetRetry': False})
     if !GameDataActor.EventQueryIsGameDataBool({'Index': -1, 'GameDataName': 'DreamWorld_BossRush'}) {
         switchcall SubEvent_AllBossBattle.BossRushBossStageExitSuccessBase() {
-          case 3013883440:
+          case fnv1a("Yes"):
             GameSystemActor.EventReserveBancChange({'IsWaitEnd': True, 'NextPosition': [0.0, 0.0, 0.0], 'NextStartRot': [0.0, 0.0, 0.0], 'IsStartOnEvent': False, 'EventStarterName': '', 'FadePattern': 1, 'NextBanc': 'MorphaStage', 'NextStartPos': 'MorphaStage', 'BootEventName': 'DreamBossStage_Rematch_Morpha_Start', 'IsItemWarp': False})
         }
     } else {
@@ -316,7 +316,7 @@ void Rematch_Morpha() {
         call ConfirmRematch({'EndDistance': 0.0, 'EndFNumber': 3.0})
 
         switchcall Enemy_Dictionary_Common.Dictionary_Rematch({'ActorName': 'ActorName'}) {
-          case 3013883440:
+          case fnv1a("Yes"):
 
             call SubEvent_AllBossBattle.AdultBossStageEnter({'NextStartPos': 'MorphaStage', 'NextBanc': 'MorphaStage', 'EnemyActor': 'Enemy_DungeonBoss_Morpha', 'ItemDrop': True, 'BossCount': 14, 'BootEventName': 'Demo_SageOfWater_BossAppears'})
 
@@ -328,7 +328,7 @@ void Rematch_Bongobongo() {
     GameSystemActor.EventTriggerBancRequestBeforehandLoad({'BancPath': 'Work/Banc/Scene/DreamWorld/BongoBongoStage.bcett.json', 'IsTargetRetry': False})
     if !GameDataActor.EventQueryIsGameDataBool({'Index': -1, 'GameDataName': 'DreamWorld_BossRush'}) {
         switchcall SubEvent_AllBossBattle.BossRushBossStageExitSuccessBase() {
-          case 3013883440:
+          case fnv1a("Yes"):
             GameSystemActor.EventReserveBancChange({'IsWaitEnd': True, 'NextPosition': [0.0, 0.0, 0.0], 'NextStartRot': [0.0, 0.0, 0.0], 'IsStartOnEvent': False, 'EventStarterName': '', 'FadePattern': 1, 'NextBanc': 'BongoBongoStage', 'NextStartPos': 'BongoBongoStage', 'BootEventName': 'DreamBossStage_Rematch_BongoBongo_Start', 'IsItemWarp': False})
         }
     } else {
@@ -337,7 +337,7 @@ void Rematch_Bongobongo() {
         call ConfirmRematch({'EndDistance': 0.0, 'EndFNumber': 0.4000000059604645})
 
         switchcall Enemy_Dictionary_Common.Dictionary_Rematch({'ActorName': 'ActorName'}) {
-          case 3013883440:
+          case fnv1a("Yes"):
 
             call SubEvent_AllBossBattle.AdultBossStageEnter({'NextStartPos': 'BongoBongoStage', 'NextBanc': 'BongoBongoStage', 'EnemyActor': 'Enemy_DungeonBoss_BongoBongo', 'ItemDrop': True, 'BossCount': 17, 'BootEventName': 'ShadowTemple_BossAppear'})
 
@@ -349,7 +349,7 @@ void Rematch_Twinrova() {
     GameSystemActor.EventTriggerBancRequestBeforehandLoad({'BancPath': 'Work/Banc/Scene/DreamWorld/TwinrovaStage.bcett.json', 'IsTargetRetry': False})
     if !GameDataActor.EventQueryIsGameDataBool({'Index': -1, 'GameDataName': 'DreamWorld_BossRush'}) {
         switchcall SubEvent_AllBossBattle.BossRushBossStageExitSuccessBase() {
-          case 3013883440:
+          case fnv1a("Yes"):
             GameSystemActor.EventReserveBancChange({'IsWaitEnd': True, 'NextPosition': [0.0, 0.0, 0.0], 'NextStartRot': [0.0, 0.0, 0.0], 'IsStartOnEvent': False, 'EventStarterName': '', 'FadePattern': 1, 'NextBanc': 'TwinrovaStage', 'NextStartPos': 'TwinrovaStage', 'BootEventName': 'DreamBossStage_Rematch_Twinrova_Start', 'IsItemWarp': False})
         }
     } else {
@@ -358,7 +358,7 @@ void Rematch_Twinrova() {
         call ConfirmRematch({'EndDistance': 0.0, 'EndFNumber': 0.699999988079071})
 
         switchcall Enemy_Dictionary_Common.Dictionary_Rematch({'ActorName': 'ActorName'}) {
-          case 3013883440:
+          case fnv1a("Yes"):
 
             call SubEvent_AllBossBattle.AdultBossStageEnter({'NextStartPos': 'TwinrovaStage', 'NextBanc': 'TwinrovaStage', 'EnemyActor': 'Enemy_DungeonBoss_Twinrova', 'ItemDrop': True, 'BossCount': 21, 'BootEventName': 'SageOfSpirit_BossStart'})
 
@@ -370,7 +370,7 @@ void Rematch_Ganondorf() {
     GameSystemActor.EventTriggerBancRequestBeforehandLoad({'BancPath': 'Work/Banc/Scene/DreamWorld/GanondorfStage.bcett.json', 'IsTargetRetry': False})
     if !GameDataActor.EventQueryIsGameDataBool({'Index': -1, 'GameDataName': 'DreamWorld_BossRush'}) {
         switchcall SubEvent_AllBossBattle.BossRushBossStageExitSuccessBase() {
-          case 3013883440:
+          case fnv1a("Yes"):
             GameSystemActor.EventReserveBancChange({'IsWaitEnd': True, 'NextPosition': [0.0, 0.0, 0.0], 'NextStartRot': [0.0, 0.0, 0.0], 'IsStartOnEvent': False, 'EventStarterName': '', 'FadePattern': 1, 'NextBanc': 'GanondorfStage', 'NextStartPos': 'GanondorfStage', 'BootEventName': 'DreamBossStage_Rematch_Ganondorf_Start', 'IsItemWarp': False})
         }
     } else {
@@ -379,7 +379,7 @@ void Rematch_Ganondorf() {
         call ConfirmRematch({'EndDistance': 0.0, 'EndFNumber': 7.5})
 
         switchcall Enemy_Dictionary_Common.Dictionary_Rematch({'ActorName': 'ActorName'}) {
-          case 3013883440:
+          case fnv1a("Yes"):
 
             call SubEvent_AllBossBattle.AdultBossStageEnter({'NextStartPos': 'GanondorfStage', 'NextBanc': 'GanondorfStage', 'EnemyActor': 'Enemy_DungeonBoss_Ganondorf', 'ItemDrop': True, 'BootEventName': 'DreamBossStage_Rematch_Ganondorf_Start', 'BossCount': 24})
 
@@ -391,7 +391,7 @@ void Rematch_Ganon() {
     GameSystemActor.EventTriggerBancRequestBeforehandLoad({'BancPath': 'Work/Banc/Scene/DreamWorld/GanonStage.bcett.json', 'IsTargetRetry': False})
     if !GameDataActor.EventQueryIsGameDataBool({'Index': -1, 'GameDataName': 'DreamWorld_BossRush'}) {
         switchcall SubEvent_AllBossBattle.BossRushBossStageExitSuccessBase() {
-          case 3013883440:
+          case fnv1a("Yes"):
             GameSystemActor.EventReserveBancChange({'IsWaitEnd': True, 'NextPosition': [0.0, 0.0, 0.0], 'NextStartRot': [0.0, 0.0, 0.0], 'IsStartOnEvent': False, 'EventStarterName': '', 'FadePattern': 1, 'NextBanc': 'GanonStage', 'NextStartPos': 'GanonStage', 'BootEventName': 'DreamBossStage_Rematch_Ganon_Start', 'IsItemWarp': False})
         }
     } else {
@@ -400,7 +400,7 @@ void Rematch_Ganon() {
         call ConfirmRematch({'EndDistance': 0.0, 'EndFNumber': 2.0999999046325684})
 
         switchcall Enemy_Dictionary_Common.Dictionary_Rematch({'ActorName': 'ActorName'}) {
-          case 3013883440:
+          case fnv1a("Yes"):
 
             call SubEvent_AllBossBattle.AdultBossStageEnter({'NextStartPos': 'GanonStage', 'NextBanc': 'GanonStage', 'EnemyActor': 'Enemy_DungeonBoss_Ganon_SecondHalfBattle', 'ItemDrop': True, 'BossCount': 25, 'BootEventName': 'InsideGanonCastle_Dungeon_BossAppear_2'})
 
@@ -438,7 +438,7 @@ void Rematch_DarkLink() {
     call ConfirmRematch({'EndDistance': 0.0, 'EndFNumber': 10.0})
 
     switchcall Enemy_Dictionary_Common.Dictionary_Rematch({'ActorName': 'ActorName'}) {
-      case 3013883440:
+      case fnv1a("Yes"):
         GameDataActor.EventTriggerSetGameDataBool({'Value': False, 'Index': -1, 'GameDataName': 'DreamBossStage_DarkLink_DisappearShadow'})
 
         call SubEvent_AllBossBattle.AdultBossStageEnter({'EnemyActor': 'Enemy_MiddleBoss_DarkLink', 'NextBanc': 'DarkLinkStage', 'NextStartPos': 'DarkLinkStage', 'ItemDrop': False, 'BootEventName': 'DreamBossStage_Rematch_Arrive', 'BossCount': 13})
@@ -453,7 +453,7 @@ void Rematch_Stalfos() {
     call ConfirmRematch({'EndDistance': 0.0, 'EndFNumber': 4.5})
 
     switchcall Enemy_Dictionary_Common.Dictionary_Rematch({'ActorName': 'ActorName'}) {
-      case 3013883440:
+      case fnv1a("Yes"):
         GameDataActor.EventTriggerSetGameDataBool({'Index': -1, 'Value': True, 'GameDataName': 'ShadowTemple_Gimmick_LooK_DepartureDemo'})
 
         call SubEvent_AllBossBattle.AdultBossStageEnter({'NextStartPos': 'StalfosStage', 'NextBanc': 'StalfosStage', 'EnemyActor': 'Enemy_Stalfos_AlwaysRespawn', 'ItemDrop': False, 'BootEventName': 'DreamBossStage_Rematch_Arrive', 'BossCount': 16})
@@ -477,7 +477,7 @@ void NaviHint_Rematch() {
             Event52:
             Npc_Navi.EventTalk({'IsWaitEnd': True, 'EndDialogOption': 0, 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceLabel4': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ASName': '', 'IsCloseDialog': False, 'ChoiceDefaultNo': 0, 'ChoiceNumber': 2, 'ChoiceLabel3': 0, 'MessageId': 'EventFlowMsg/Npc_Dream:Navi_Rematch_06', 'ChoiceLabel1': 10, 'ChoiceLabel2': 11, 'MaintainPerformanceState': 0})
             switchcall Dream_Navi_01() {
-              case [1642511898, 3013883440]:
+              case [fnv1a("No"), fnv1a("Yes")]:
                 Event237:
                 Player_Event.EventTriggerPlayerSetCalcLiftActor({'IsStopCalc': False})
             }
@@ -486,7 +486,7 @@ void NaviHint_Rematch() {
           case 0:
             Npc_Navi.EventTalk({'IsWaitEnd': True, 'EndDialogOption': 0, 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceLabel4': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ASName': '', 'IsCloseDialog': False, 'ChoiceDefaultNo': 0, 'ChoiceNumber': 2, 'ChoiceLabel3': 0, 'MessageId': 'EventFlowMsg/Npc_Dream:Navi_Rematch_12', 'ChoiceLabel1': 8, 'ChoiceLabel2': 9, 'MaintainPerformanceState': 0})
             switchcall Dream_Navi_02() {
-              case [3013883440, 1642511898]:
+              case [fnv1a("Yes"), fnv1a("No")]:
                 goto Event237
             }
           case [1, 2]:
@@ -495,7 +495,7 @@ void NaviHint_Rematch() {
     } else {
         Npc_Navi.EventTalk({'IsWaitEnd': True, 'EndDialogOption': 0, 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceLabel4': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ASName': '', 'IsCloseDialog': False, 'ChoiceDefaultNo': 0, 'MessageId': 'EventFlowMsg/Npc_Dream:Navi_Rematch_06', 'ChoiceLabel1': 10, 'ChoiceNumber': 3, 'ChoiceLabel3': 11, 'ChoiceLabel2': 17, 'MaintainPerformanceState': 0})
         switchcall Dream_Navi_03() {
-          case [894944625, 3013883440, 1642511898]:
+          case [fnv1a("Rematch"), fnv1a("Yes"), fnv1a("No")]:
             goto Event237
         }
     }
@@ -508,7 +508,7 @@ void Rematch_Wolfos() {
     call ConfirmRematch({'EndDistance': 0.0, 'EndFNumber': 7.0})
 
     switchcall Enemy_Dictionary_Common.Dictionary_Rematch({'ActorName': 'ActorName'}) {
-      case 3013883440:
+      case fnv1a("Yes"):
 
         call SubEvent_AllBossBattle.ChildBossStageEnter({'NextStartPos': 'WolfosStage', 'NextBanc': 'WolfosStage', 'EnemyActor': 'Enemy_Wolfos', 'IItemDrop': False, 'BootEventName': 'DreamBossStage_Rematch_Arrive', 'BossCount': 2})
 
@@ -522,7 +522,7 @@ void Rematch_Meg() {
     call ConfirmRematch({'EndDistance': 0.0, 'EndFNumber': 9.0})
 
     switchcall Enemy_Dictionary_Common.Dictionary_Rematch({'ActorName': 'ActorName'}) {
-      case 3013883440:
+      case fnv1a("Yes"):
 
         call SubEvent_AllBossBattle.AdultBossStageEnter({'NextStartPos': 'MegStage', 'NextBanc': 'MegStage', 'EnemyActor': 'Enemy_MiddleBoss_Poe_Meg', 'ItemDrop': False, 'BootEventName': 'DreamBossStage_Rematch_Arrive', 'BossCount': 8})
 
@@ -536,7 +536,7 @@ void Rematch_Lizalfos() {
     call ConfirmRematch({'EndDistance': 0.0, 'EndFNumber': 4.199999809265137})
 
     switchcall Enemy_Dictionary_Common.Dictionary_Rematch({'ActorName': 'ActorName'}) {
-      case 3013883440:
+      case fnv1a("Yes"):
 
         call SubEvent_AllBossBattle.ChildBossStageEnter({'NextStartPos': 'LizalfosStage', 'NextBanc': 'LizalfosStage', 'EnemyActor': 'Enemy_MiddleBoss_Lizalfos', 'IItemDrop': False, 'BootEventName': 'DreamBossStage_Rematch_Arrive', 'BossCount': 3})
 
@@ -550,7 +550,7 @@ void Rematch_Flamedancer() {
     call ConfirmRematch({'EndDistance': 0.0, 'EndFNumber': 3.200000047683716})
 
     switchcall Enemy_Dictionary_Common.Dictionary_Rematch({'ActorName': 'ActorName'}) {
-      case 3013883440:
+      case fnv1a("Yes"):
 
         call SubEvent_AllBossBattle.AdultBossStageEnter({'EnemyActor': 'Enemy_MiddleBoss_FlareDancer', 'NextBanc': 'FlareDancerStage', 'NextStartPos': 'FlareDancerStage', 'ItemDrop': False, 'BootEventName': 'DreamBossStage_Rematch_Arrive', 'BossCount': 10})
 
@@ -564,7 +564,7 @@ void Rematch_Dinolfos() {
     call ConfirmRematch({'EndDistance': 0.0, 'EndFNumber': 5.0})
 
     switchcall Enemy_Dictionary_Common.Dictionary_Rematch({'ActorName': 'ActorName'}) {
-      case 3013883440:
+      case fnv1a("Yes"):
 
         call SubEvent_AllBossBattle.AdultBossStageEnter({'NextStartPos': 'DinolfosStage', 'NextBanc': 'DinolfosStage', 'EnemyActor': 'Enemy_Dinolfos', 'ItemDrop': False, 'BootEventName': 'DreamBossStage_Rematch_Arrive', 'BossCount': 22})
 
@@ -578,7 +578,7 @@ void Rematch_IronKnuckleBlack() {
     call ConfirmRematch({'EndDistance': 0.0, 'EndFNumber': 3.299999952316284})
 
     switchcall Enemy_Dictionary_Common.Dictionary_Rematch({'ActorName': 'ActorName'}) {
-      case 3013883440:
+      case fnv1a("Yes"):
 
         call SubEvent_AllBossBattle.AdultBossStageEnter({'ItemDrop': False, 'BootEventName': 'DreamBossStage_Rematch_Arrive', 'EnemyActor': 'Enemy_IronKnuckle_Black', 'NextStartPos': 'IronKnuckleBlackStage', 'NextBanc': 'IronKnuckleBlackStage', 'BossCount': 23})
 
@@ -592,7 +592,7 @@ void Rematch_IronKnuckleWhite() {
     call ConfirmRematch({'EndDistance': 0.0, 'EndFNumber': 4.0})
 
     switchcall Enemy_Dictionary_Common.Dictionary_Rematch({'ActorName': 'ActorName'}) {
-      case 3013883440:
+      case fnv1a("Yes"):
 
         call SubEvent_AllBossBattle.ChildBossStageEnter({'NextStartPos': 'IronKnuckleWhiteStage', 'NextBanc': 'IronKnuckleWhiteStage', 'EnemyActor': 'Enemy_IronKnuckle_Silver', 'IItemDrop': False, 'BootEventName': 'DreamBossStage_Rematch_Arrive', 'BossCount': 19})
 
@@ -606,7 +606,7 @@ void Rematch_Naboru() {
     call ConfirmRematch({'EndDistance': 0.0, 'EndFNumber': 3.5})
 
     switchcall Enemy_Dictionary_Common.Dictionary_Rematch({'ActorName': 'ActorName'}) {
-      case 3013883440:
+      case fnv1a("Yes"):
 
         call SubEvent_AllBossBattle.AdultBossStageEnter({'NextStartPos': 'NaboruStage', 'NextBanc': 'NaboruStage', 'EnemyActor': 'Enemy_MiddleBoss_IronKnuckle_Nabooru', 'ItemDrop': False, 'BootEventName': 'DreamBossStage_Rematch_Arrive', 'BossCount': 20})
 
@@ -620,7 +620,7 @@ void Rematch_GerudoThief() {
     call ConfirmRematch({'EndDistance': 0.0, 'EndFNumber': 5.5})
 
     switchcall Enemy_Dictionary_Common.Dictionary_Rematch({'ActorName': 'ActorName'}) {
-      case 3013883440:
+      case fnv1a("Yes"):
 
         call SubEvent_AllBossBattle.AdultBossStageEnter({'NextStartPos': 'GerudoThiefStage', 'NextBanc': 'GerudoThiefStage', 'EnemyActor': 'Enemy_MiddleBoss_GerudoThief', 'ItemDrop': False, 'BootEventName': 'DreamBossStage_Rematch_Arrive', 'BossCount': 18})
 
@@ -634,7 +634,7 @@ void Rematch_BigOcto() {
     call ConfirmRematch({'EndDistance': 0.0, 'EndFNumber': 2.0})
 
     switchcall Enemy_Dictionary_Common.Dictionary_Rematch({'ActorName': 'ActorName'}) {
-      case 3013883440:
+      case fnv1a("Yes"):
 
         call SubEvent_AllBossBattle.ChildBossStageEnter({'NextStartPos': 'BigOctoStage', 'NextBanc': 'BigOctoStage', 'EnemyActor': 'Enemy_MiddleBoss_BigOcto', 'IItemDrop': False, 'BossCount': 5, 'BootEventName': 'DreamBossStage_Rematch_BigOcta_Start'})
 
@@ -648,7 +648,7 @@ void Rematch_DeadHand() {
     call ConfirmRematch({'EndDistance': 0.0, 'EndFNumber': 4.0})
 
     switchcall Enemy_Dictionary_Common.Dictionary_Rematch({'ActorName': 'ActorName'}) {
-      case 3013883440:
+      case fnv1a("Yes"):
 
         call SubEvent_AllBossBattle.ChildBossStageEnter({'NextStartPos': 'DeadHandStage', 'NextBanc': 'DeadHandStage', 'EnemyActor': 'Enemy_DeadHand', 'IItemDrop': False, 'BootEventName': 'DreamBossStage_Rematch_Arrive', 'BossCount': 15})
 
@@ -662,7 +662,7 @@ void Rematch_WolfosWhite() {
     call ConfirmRematch({'EndDistance': 0.0, 'EndFNumber': 6.199999809265137})
 
     switchcall Enemy_Dictionary_Common.Dictionary_Rematch({'ActorName': 'ActorName'}) {
-      case 3013883440:
+      case fnv1a("Yes"):
 
         call SubEvent_AllBossBattle.AdultBossStageEnter({'NextStartPos': 'WolfosWhiteStage', 'NextBanc': 'WolfosWhiteStage', 'EnemyActor': 'Enemy_Wolfos_White', 'ItemDrop': False, 'BootEventName': 'DreamBossStage_Rematch_Arrive', 'BossCount': 12})
 
@@ -1012,7 +1012,7 @@ void Rematch_StalfosWeak() {
     call ConfirmRematch({'EndDistance': 0.0, 'EndFNumber': 6.699999809265137})
 
     switchcall Enemy_Dictionary_Common.Dictionary_Rematch({'ActorName': 'ActorName'}) {
-      case 3013883440:
+      case fnv1a("Yes"):
 
         call SubEvent_AllBossBattle.AdultBossStageEnter({'EnemyActor': 'Enemy_Stalfos_Weak', 'NextStartPos': 'StalfosWeakStage', 'NextBanc': 'StalfosWeakStage', 'ItemDrop': False, 'BootEventName': 'DreamBossStage_Rematch_Arrive', 'BossCount': 7})
 
@@ -1048,15 +1048,15 @@ void NaviHint_Rematch_Sub() {
                 UISystemActor.EventEventFadeOut({'Color': 0, 'IsWaitEnd': True, 'IsNoPlayAnime': False, 'Length': 0})
                 EventSystemActor.EventTransition({'IsWaitEnd': True, 'SpecialEventActionType': 1, 'FadeInTypeEventEnd': 0, 'EventName': 'DreamBossStage_WarpFromBattle'})
                 Event349:
-                return 2045477761
+                return 0x79eb8381
             } else {
                 Event505:
                 Npc_Navi.EventTalk({'IsWaitEnd': True, 'EndDialogOption': 0, 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceLabel4': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ASName': '', 'ChoiceLabel1': 0, 'ChoiceLabel2': 1, 'ChoiceLabel3': 0, 'ChoiceDefaultNo': 0, 'ChoiceNumber': 0, 'MessageId': 'EventFlowMsg/Npc_Dream:Navi_Rematch_07', 'IsCloseDialog': True, 'MaintainPerformanceState': 0})
-                return 1642511898
+                return fnv1a("No")
             }
           case 1:
             Event495:
-            return 2413946405
+            return fnv1a("Info")
           case 2:
             goto Event505
         }
@@ -1077,7 +1077,7 @@ void NaviHint_Rematch_Sub() {
                 goto Event349
             } else {
                 Npc_Navi.EventTalk({'IsWaitEnd': True, 'EndDialogOption': 0, 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceLabel4': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ASName': '', 'ChoiceLabel1': 0, 'ChoiceLabel2': 1, 'ChoiceLabel3': 0, 'ChoiceDefaultNo': 0, 'ChoiceNumber': 0, 'MessageId': 'EventFlowMsg/Npc_Dream:Navi_Rematch_07', 'IsCloseDialog': True, 'MaintainPerformanceState': 0})
-                return 1642511898
+                return fnv1a("No")
             }
           case 2:
             goto Event495
@@ -1379,14 +1379,14 @@ void Dream_Navi_01() {
         if !GameSystemActor.EventQueryTalkChoice2() {
             UISystemActor.EventEventFadeOut({'Color': 0, 'IsWaitEnd': True, 'IsNoPlayAnime': False, 'Length': 0})
             EventSystemActor.EventTransition({'IsWaitEnd': True, 'SpecialEventActionType': 1, 'FadeInTypeEventEnd': 0, 'EventName': 'DreamBossStage_WarpFromBattle'})
-            return 3013883440
+            return fnv1a("Yes")
         } else {
             Npc_Navi.EventTalk({'IsWaitEnd': True, 'EndDialogOption': 0, 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceLabel4': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ASName': '', 'ChoiceLabel1': 0, 'ChoiceLabel2': 1, 'ChoiceLabel3': 0, 'ChoiceDefaultNo': 0, 'ChoiceNumber': 0, 'MessageId': 'EventFlowMsg/Npc_Dream:Navi_Rematch_07', 'IsCloseDialog': True, 'MaintainPerformanceState': 0})
-            return 1642511898
+            return fnv1a("No")
         }
     } else {
         Npc_Navi.EventTalk({'IsWaitEnd': True, 'EndDialogOption': 0, 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceLabel4': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ASName': '', 'ChoiceLabel1': 0, 'ChoiceLabel2': 1, 'ChoiceLabel3': 0, 'ChoiceDefaultNo': 0, 'ChoiceNumber': 0, 'MessageId': 'EventFlowMsg/Npc_Dream:Navi_Rematch_07', 'IsCloseDialog': True, 'MaintainPerformanceState': 0})
-        return 1642511898
+        return fnv1a("No")
     }
 }
 
@@ -1396,14 +1396,14 @@ void Dream_Navi_02() {
         if !GameSystemActor.EventQueryTalkChoice2() {
             UISystemActor.EventEventFadeOut({'Color': 0, 'IsWaitEnd': True, 'IsNoPlayAnime': False, 'Length': 0})
             EventSystemActor.EventTransition({'IsWaitEnd': True, 'SpecialEventActionType': 1, 'FadeInTypeEventEnd': 0, 'EventName': 'DreamBossStage_WarpFromBattle'})
-            return 3013883440
+            return fnv1a("Yes")
         } else {
             Npc_Navi.EventTalk({'IsWaitEnd': True, 'EndDialogOption': 0, 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceLabel4': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ASName': '', 'ChoiceDefaultNo': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 1, 'ChoiceLabel3': 0, 'ChoiceNumber': 0, 'MessageId': 'EventFlowMsg/Npc_Dream:Navi_Rematch_05', 'IsCloseDialog': True, 'MaintainPerformanceState': 0})
-            return 1642511898
+            return fnv1a("No")
         }
     } else {
         Npc_Navi.EventTalk({'IsWaitEnd': True, 'EndDialogOption': 0, 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceLabel4': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ASName': '', 'ChoiceDefaultNo': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 1, 'ChoiceLabel3': 0, 'ChoiceNumber': 0, 'MessageId': 'EventFlowMsg/Npc_Dream:Navi_Rematch_05', 'IsCloseDialog': True, 'MaintainPerformanceState': 0})
-        return 1642511898
+        return fnv1a("No")
     }
 }
 
@@ -1414,10 +1414,10 @@ void Dream_Navi_03() {
         if !GameSystemActor.EventQueryTalkChoice2() {
             UISystemActor.EventEventFadeOut({'Color': 0, 'IsWaitEnd': True, 'IsNoPlayAnime': False, 'Length': 0})
             EventSystemActor.EventTransition({'IsWaitEnd': True, 'SpecialEventActionType': 1, 'FadeInTypeEventEnd': 0, 'EventName': 'DreamBossStage_WarpFromBattle'})
-            return 3013883440
+            return fnv1a("Yes")
         } else {
             Npc_Navi.EventTalk({'IsWaitEnd': True, 'EndDialogOption': 0, 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceLabel4': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ASName': '', 'ChoiceLabel1': 0, 'ChoiceLabel2': 1, 'ChoiceLabel3': 0, 'ChoiceDefaultNo': 0, 'ChoiceNumber': 0, 'MessageId': 'EventFlowMsg/Npc_Dream:Navi_Rematch_07', 'IsCloseDialog': True, 'MaintainPerformanceState': 0})
-            return 1642511898
+            return fnv1a("No")
         }
       case 1:
         Npc_Navi.EventTalk({'IsWaitEnd': True, 'EndDialogOption': 0, 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceLabel4': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ASName': '', 'ChoiceLabel3': 0, 'ChoiceDefaultNo': 0, 'MessageId': 'EventFlowMsg/Npc_Dream:Navi_Rematch_02', 'ChoiceLabel1': 19, 'ChoiceLabel2': 20, 'ChoiceNumber': 2, 'IsCloseDialog': True, 'MaintainPerformanceState': 0})
@@ -1427,14 +1427,14 @@ void Dream_Navi_03() {
             call SubEvent_AllBossBattle.BossRushBossBattleExit()
 
             EventSystemActor.EventTransition({'IsWaitEnd': True, 'SpecialEventActionType': 1, 'FadeInTypeEventEnd': 0, 'EventName': 'DreamBossStage_Warp'})
-            return 894944625
+            return fnv1a("Rematch")
         } else {
             Npc_Navi.EventTalk({'IsWaitEnd': True, 'EndDialogOption': 0, 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceLabel4': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ASName': '', 'ChoiceLabel1': 0, 'ChoiceLabel2': 1, 'ChoiceLabel3': 0, 'ChoiceDefaultNo': 0, 'ChoiceNumber': 0, 'MessageId': 'EventFlowMsg/Npc_Dream:Navi_Rematch_07', 'IsCloseDialog': True, 'MaintainPerformanceState': 0})
-            return 1642511898
+            return fnv1a("No")
         }
       case 2:
         Npc_Navi.EventTalk({'IsWaitEnd': True, 'EndDialogOption': 0, 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceLabel4': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ASName': '', 'ChoiceLabel1': 0, 'ChoiceLabel2': 1, 'ChoiceLabel3': 0, 'ChoiceDefaultNo': 0, 'ChoiceNumber': 0, 'MessageId': 'EventFlowMsg/Npc_Dream:Navi_Rematch_07', 'IsCloseDialog': True, 'MaintainPerformanceState': 0})
-        return 1642511898
+        return fnv1a("No")
     }
 }
 

@@ -64,9 +64,9 @@ void Talk() {
             if !Npc_EventStarter.EventQueryAvoidDuplicationRandomChoice2() {
                 Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MessageId': 'EventFlowMsg/Npc_Goron_Medigoron_Adult:Talk_13', 'MaintainPerformanceState': 0})
                 switchcall MaskCheck() {
-                  case [29285415, 47530874, 1431608567, 2487445855, 1854327580, 3795248046, 1067141115, 1022811349, 1006033730, 989256111]:
+                  case [0x01bedc27, 0x02d5437a, 0x55549cf7, 0x9443695f, 0x6e86cb1c, 0xe236e3ae, fnv1a("Mask_Truth"), 0x3cf6dcd5, 0x3bf6db42, 0x3af6d9af]:
                     Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MessageId': 'EventFlowMsg/Npc_Goron_Medigoron_Adult:Talk_32', 'MaintainPerformanceState': 0})
-                  case [3073398586, 1230041275]:
+                  case [0xb730573a, 0x4950f0bb]:
                     Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MessageId': 'EventFlowMsg/Npc_Goron_Medigoron_Adult:Talk_31', 'MaintainPerformanceState': 0})
                 }
             } else {
@@ -177,7 +177,7 @@ void ShowBrokenSword_Medigoron_Adult() {
 
 void Mask_All() {
     switchcall Mask_Talk() {
-      case 4151362380:
+      case fnv1a("Mask_Talk"):
         Npc_EventStarter.EventTriggerLookAtObject({'Target': 2, 'ActorName': '', 'InstanceName': '', 'WorldPos': [0.0, 0.0, 0.0], 'PosOffset': [0.0, 0.0, 0.0], 'Direction': 0.0, 'OffsetBase': 0, 'ResetArriveTransformFixed': False})
         Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MessageId': 'EventFlowMsg/Npc_Goron_Medigoron_Adult:Mask_10', 'MaintainPerformanceState': 0})
     }
@@ -185,47 +185,47 @@ void Mask_All() {
 
 void Mask_Talk() {
     switchcall NpcCommon.Mask_Talk_Common_With_InitTalk_NoChangeTheTopic_NormalCamera({'Arg_Turn_For_IgnoreMaskTalk': 4, 'Arg_Turn_For_MaskTalk': 4, 'Mask_Keaton_Talk': 'EventFlowMsg/Npc_Goron_Medigoron_Adult:Mask_01', 'Mask_Skull_Talk': 'EventFlowMsg/Npc_Goron_Medigoron_Adult:Mask_02', 'Mask_Spooky_Talk': 'EventFlowMsg/Npc_Goron_Medigoron_Adult:Mask_03', 'Mask_Bunny_Talk': 'EventFlowMsg/Npc_Goron_Medigoron_Adult:Mask_04', 'Mask_Truth_Talk': 'EventFlowMsg/Npc_Goron_Medigoron_Adult:Mask_05', 'Mask_Goron_Talk': 'EventFlowMsg/Npc_Goron_Medigoron_Adult:Mask_06', 'Mask_Zora_Talk': 'EventFlowMsg/Npc_Goron_Medigoron_Adult:Mask_07', 'Mask_Gerudo_Talk': 'EventFlowMsg/Npc_Goron_Medigoron_Adult:Mask_08', 'Mask_Amiibo00_Talk': 'EventFlowMsg/Npc_Goron_Medigoron_Adult:Mask_101', 'Mask_Amiibo01_Talk': 'EventFlowMsg/Npc_Goron_Medigoron_Adult:Mask_102', 'Mask_Amiibo02_Talk': 'EventFlowMsg/Npc_Goron_Medigoron_Adult:Mask_103', 'ASName': 'TalkMonolog'}) {
-      case 1183930306:
-        return 4151362380
-      case 1530789637:
-        return 2799305849
+      case 0x469157c2:
+        return fnv1a("Mask_Talk")
+      case 0x5b3dff05:
+        return 0xa6da0479
     }
 }
 
 void MaskCheck() {
     if !Player_Event.EventQueryPlayerIsEquipArmor({'ArmorSlot': 0, 'ArmorName': 'Armor_Child_Mask_Truth'}) {
-        return 1067141115
+        return fnv1a("Mask_Truth")
     } else
     if !Player_Event.EventQueryPlayerIsEquipArmor({'ArmorName': 'Armor_Child_Mask_Keaton', 'ArmorSlot': 0}) {
-        return 47530874
+        return 0x02d5437a
     } else
     if !Player_Event.EventQueryPlayerIsEquipArmor({'ArmorSlot': 0, 'ArmorName': 'Armor_Child_Mask_Skull'}) {
-        return 1431608567
+        return 0x55549cf7
     } else
     if !Player_Event.EventQueryPlayerIsEquipArmor({'ArmorSlot': 0, 'ArmorName': 'Armor_Child_Mask_Spooky'}) {
-        return 29285415
+        return 0x01bedc27
     } else
     if !Player_Event.EventQueryPlayerIsEquipArmor({'ArmorSlot': 0, 'ArmorName': 'Armor_Child_Mask_Bunny'}) {
-        return 3073398586
+        return 0xb730573a
     } else
     if !Player_Event.EventQueryPlayerIsEquipArmor({'ArmorSlot': 0, 'ArmorName': 'Armor_Child_Mask_Goron'}) {
-        return 2487445855
+        return 0x9443695f
     } else
     if !Player_Event.EventQueryPlayerIsEquipArmor({'ArmorSlot': 0, 'ArmorName': 'Armor_Child_Mask_Zora'}) {
-        return 1854327580
+        return 0x6e86cb1c
     } else
     if !Player_Event.EventQueryPlayerIsEquipArmor({'ArmorSlot': 0, 'ArmorName': 'Armor_Child_Mask_Gerudo'}) {
-        return 3795248046
+        return 0xe236e3ae
     } else
     if !Player_Event.EventQueryPlayerIsEquipArmor({'ArmorSlot': 0, 'ArmorName': 'Armor_Child_Mask_Amiibo0'}) {
-        return 1022811349
+        return 0x3cf6dcd5
     } else
     if !Player_Event.EventQueryPlayerIsEquipArmor({'ArmorSlot': 0, 'ArmorName': 'Armor_Child_Mask_Amiibo1'}) {
-        return 1006033730
+        return 0x3bf6db42
     } else
     if !Player_Event.EventQueryPlayerIsEquipMask() {
-        return 989256111
+        return 0x3af6d9af
     } else {
-        return 1230041275
+        return 0x4950f0bb
     }
 }

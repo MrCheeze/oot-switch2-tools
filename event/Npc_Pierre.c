@@ -264,17 +264,17 @@ void BlewOcarinaByPlayer() {
 
 void Mask_All() {
     switchcall Mask_Talk() {
-      case 4151362380:
+      case fnv1a("Mask_Talk"):
         Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MessageId': 'EventFlowMsg/Npc_Pierre:Mask_10', 'MaintainPerformanceState': 0})
     }
 }
 
 void Mask_Talk() {
     switchcall NpcCommon.Mask_Talk_Common_With_InitTalk({'Arg_Turn_For_IgnoreMaskTalk': 4, 'Arg_Turn_For_MaskTalk': 4, 'Mask_Keaton_Talk': 'EventFlowMsg/Npc_Pierre:Mask_01', 'Mask_Skull_Talk': 'EventFlowMsg/Npc_Pierre:Mask_02', 'Mask_Spooky_Talk': 'EventFlowMsg/Npc_Pierre:Mask_03', 'Mask_Bunny_Talk': 'EventFlowMsg/Npc_Pierre:Mask_04', 'Mask_Truth_Talk': 'EventFlowMsg/Npc_Pierre:Mask_05', 'Mask_Zora_Talk': 'EventFlowMsg/Npc_Pierre:Mask_07', 'Mask_Goron_Talk': 'EventFlowMsg/Npc_Pierre:Mask_06', 'Mask_Gerudo_Talk': 'EventFlowMsg/Npc_Pierre:Mask_08', 'ChangeTheTopic_Talk': 'EventFlowMsg/Npc_Pierre:Mask_09', 'Mask_Amiibo00_Talk': 'EventFlowMsg/Npc_Pierre:Mask_101', 'Mask_Amiibo01_Talk': 'EventFlowMsg/Npc_Pierre:Mask_102', 'Mask_Amiibo02_Talk': 'EventFlowMsg/Npc_Pierre:Mask_103', 'ASName': 'Wait'}) {
-      case 4205900657:
-        return 4151362380
-      case 4155567800:
-        return 2799305849
+      case 0xfab0f371:
+        return fnv1a("Mask_Talk")
+      case 0xf7b0eeb8:
+        return 0xa6da0479
     }
 }
 

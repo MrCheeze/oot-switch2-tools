@@ -266,7 +266,7 @@ void Enemy_Scrub_Business_Seed() {
                 }
             } else {
                 switchcall CanBuy_CheckAll() {
-                  case 4214916587:
+                  case 0xfb3a85eb:
                     switch GameSystemActor.EventQueryRandomChoice4() {
                       case 0:
                         Enemy_Scrub_Business.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'IsPlayASAllSlot': False, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChangeMstxtForActor': False, 'IsAnimeDriven': False, 'ChoiceLabel1': 1, 'ChoiceLabel2': 2, 'ChoiceNumber': 0, 'MessageId': 'EventFlowMsg/Enemy_Event:Enemy_Scrub_Business_Common_017', 'ASName': 'Talk', 'MaintainPerformanceState': 0})
@@ -282,7 +282,7 @@ void Enemy_Scrub_Business_Seed() {
                         Enemy_Scrub_Business.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'IsPlayASAllSlot': False, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChangeMstxtForActor': False, 'IsAnimeDriven': False, 'ChoiceLabel1': 1, 'ChoiceLabel2': 2, 'ChoiceNumber': 0, 'MessageId': 'EventFlowMsg/Enemy_Event:Enemy_Scrub_Business_Common_020', 'ASName': 'Talk', 'MaintainPerformanceState': 0})
                         goto Event140
                     }
-                  case 620952561:
+                  case 0x2502fbf1:
                     Enemy_Scrub_Business.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'IsPlayASAllSlot': False, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChangeMstxtForActor': False, 'IsAnimeDriven': False, 'ChoiceLabel1': 1, 'ChoiceLabel2': 2, 'ChoiceNumber': 0, 'ASName': 'Talk', 'MessageId': 'EventFlowMsg/Enemy_Event:Enemy_Scrub_Business_Common_018', 'MaintainPerformanceState': 0})
                     goto Event140
                 }
@@ -791,28 +791,28 @@ void CanBuy_CheckAll() {
             Event327:
             if !GameDataActor.EventQueryIsGameDataString64({'Index': -1, 'Value': '', 'GameDataName': 'Scrub_Business_TempItemName_02'}) {
                 Event392:
-                return 4214916587
+                return 0xfb3a85eb
             } else {
                 switchcall CanBuy_Check({'GameDataName': 'Scrub_Business_TempItemName_02'}) {
-                  case 4214916587:
+                  case 0xfb3a85eb:
                     goto Event392
-                  case 620952561:
-                    return 620952561
+                  case 0x2502fbf1:
+                    return 0x2502fbf1
                 }
             }
         } else {
             switchcall CanBuy_Check({'GameDataName': 'Scrub_Business_TempItemName_01'}) {
-              case 4214916587:
-                return 4214916587
-              case 620952561:
+              case 0xfb3a85eb:
+                return 0xfb3a85eb
+              case 0x2502fbf1:
                 goto Event327
             }
         }
     } else {
         switchcall CanBuy_Check({'GameDataName': 'Scrub_Business_TempItemName_00'}) {
-          case 4214916587:
-            return 4214916587
-          case 620952561:
+          case 0xfb3a85eb:
+            return 0xfb3a85eb
+          case 0x2502fbf1:
             goto Event325
         }
     }
@@ -822,9 +822,9 @@ void CanBuy_Check() {
     if !GameDataActor.EventQueryIsGameDataString64({'Index': -1, 'Value': 'Item_Bottle_RedPotion', 'GameDataName': 'GameDataName'}) {
         Event332:
         if !PouchSystemActor.EventQueryIsAnyBottleEmpty() {
-            return 4214916587
+            return 0xfb3a85eb
         } else {
-            return 620952561
+            return 0x2502fbf1
         }
     } else
     if !GameDataActor.EventQueryIsGameDataString64({'Index': -1, 'Value': 'Item_Bottle_GreenPotion', 'GameDataName': 'GameDataName'}) {
@@ -837,9 +837,9 @@ void CanBuy_Check() {
         Event342:
         switch PouchSystemActor.EventQueryCanAddToPorch({'Actor': 'Item_DekuSeed'}) {
           case [0, 1]:
-            return 4214916587
+            return 0xfb3a85eb
           case 2:
-            return 620952561
+            return 0x2502fbf1
         }
     } else
     if !GameDataActor.EventQueryIsGameDataString64({'Index': -1, 'Value': 'Shop_DekuSeedBundle_02', 'GameDataName': 'GameDataName'}) {
@@ -848,18 +848,18 @@ void CanBuy_Check() {
     if !GameDataActor.EventQueryIsGameDataString64({'Index': -1, 'GameDataName': 'GameDataName', 'Value': 'Shop_DekuNutBundle_01'}) {
         switch PouchSystemActor.EventQueryCanAddToPorch({'Actor': 'Item_DekuStick'}) {
           case [0, 1]:
-            return 4214916587
+            return 0xfb3a85eb
           case 2:
-            return 620952561
+            return 0x2502fbf1
         }
     } else
     if !GameDataActor.EventQueryIsGameDataString64({'Index': -1, 'GameDataName': 'GameDataName', 'Value': 'Shop_DekuStick'}) {
         Event351:
         switch PouchSystemActor.EventQueryCanAddToPorch({'Actor': 'Item_DekuNut'}) {
           case [0, 1]:
-            return 4214916587
+            return 0xfb3a85eb
           case 2:
-            return 620952561
+            return 0x2502fbf1
         }
     } else
     if !GameDataActor.EventQueryIsGameDataString64({'Index': -1, 'GameDataName': 'GameDataName', 'Value': 'Shop_DekuStickBundle_Medium'}) {
@@ -869,9 +869,9 @@ void CanBuy_Check() {
         Event361:
         switch PouchSystemActor.EventQueryCanAddToPorch({'Actor': 'Item_Bomb'}) {
           case [0, 1]:
-            return 4214916587
+            return 0xfb3a85eb
           case 2:
-            return 620952561
+            return 0x2502fbf1
         }
     } else
     if !GameDataActor.EventQueryIsGameDataString64({'Index': -1, 'Value': 'Shop_BombBundle_02', 'GameDataName': 'GameDataName'}) {
@@ -881,9 +881,9 @@ void CanBuy_Check() {
         Event363:
         switch PouchSystemActor.EventQueryCanAddToPorch({'Actor': 'Item_Arrow_Normal'}) {
           case [0, 1]:
-            return 4214916587
+            return 0xfb3a85eb
           case 2:
-            return 620952561
+            return 0x2502fbf1
         }
     } else
     if !GameDataActor.EventQueryIsGameDataString64({'Index': -1, 'GameDataName': 'GameDataName', 'Value': 'Shop_ArrowBundle_02'}) {
@@ -893,9 +893,9 @@ void CanBuy_Check() {
         Event370:
         switch PouchSystemActor.EventQueryCanAddToPorch({'Actor': 'Obj_Heart'}) {
           case [0, 1]:
-            return 4214916587
+            return 0xfb3a85eb
           case 2:
-            return 620952561
+            return 0x2502fbf1
         }
     } else
     if !GameDataActor.EventQueryIsGameDataString64({'Index': -1, 'GameDataName': 'GameDataName', 'Value': 'Shop_Heart_Bundle'}) {
@@ -904,32 +904,32 @@ void CanBuy_Check() {
     if !GameDataActor.EventQueryIsGameDataString64({'Index': -1, 'GameDataName': 'GameDataName', 'Value': 'Weapon_Shield_Deku'}) {
         switch PouchSystemActor.EventQueryCanAddToPorch({'Actor': 'Shop_Weapon_Shield_Deku'}) {
           case [0, 1]:
-            return 4214916587
+            return 0xfb3a85eb
           case 2:
-            return 620952561
+            return 0x2502fbf1
         }
     } else
     if !GameDataActor.EventQueryIsGameDataString64({'Index': -1, 'GameDataName': 'GameDataName', 'Value': 'Shop_BombchuBundle_01'}) {
         switch PouchSystemActor.EventQueryCanAddToPorch({'Actor': 'Item_Bombchu'}) {
           case [0, 1]:
-            return 4214916587
+            return 0xfb3a85eb
           case 2:
-            return 620952561
+            return 0x2502fbf1
         }
     } else
     if !GameDataActor.EventQueryIsGameDataString64({'Index': -1, 'GameDataName': 'GameDataName', 'Value': 'Item_ScrubBusinessSeed'}) {
         switch PouchSystemActor.EventQueryCanAddToPorch({'Actor': 'Item_ScrubBusinessSeed'}) {
           case [0, 1]:
-            return 4214916587
+            return 0xfb3a85eb
           case 2:
-            return 620952561
+            return 0x2502fbf1
         }
     } else
     switch PouchSystemActor.EventQueryCanAddToPorch({'Actor': 'Shop_MagicJar_Small'}) {
       case [0, 1]:
-        return 4214916587
+        return 0xfb3a85eb
       case 2:
-        return 620952561
+        return 0x2502fbf1
     }
 }
 
@@ -992,7 +992,7 @@ void Secret() {
 
             } else {
                 switchcall FirstTalk_Secret({'GameDataName': 'Enemy_Scrub_Business_Secret_FirstTalkChild'}) {
-                  case 2851091674:
+                  case 0xa9f034da:
                     GameDataActor.EventTriggerSetGameDataBool({'Index': -1, 'Value': True, 'GameDataName': 'Enemy_Scrub_Business_Secret_Success'})
                     goto Event8
                 }
@@ -1009,7 +1009,7 @@ void Secret() {
         goto Event713
     } else {
         switchcall FirstTalk_Secret({'GameDataName': 'Enemy_Scrub_Business_Secret_FirstTalkAdult'}) {
-          case 2851091674:
+          case 0xa9f034da:
             Enemy_Scrub_Business.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'IsPlayASAllSlot': False, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChangeMstxtForActor': False, 'IsAnimeDriven': False, 'ChoiceLabel1': 1, 'ChoiceLabel2': 2, 'ChoiceNumber': 0, 'ASName': 'Talk', 'MaintainPerformanceState': 0, 'MessageId': 'EventFlowMsg/Enemy_Event:Enemy_Scrub_Business_Secret_07'})
             GameDataActor.EventTriggerSetGameDataBool({'GameDataName': 'Enemy_Scrub_Business_Secret_IrregularTalk', 'Index': -1, 'Value': True})
         }
@@ -1033,7 +1033,7 @@ void FirstTalk_Secret() {
                           case 0:
                             Enemy_Scrub_Business.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'IsPlayASAllSlot': False, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChangeMstxtForActor': False, 'IsAnimeDriven': False, 'ChoiceLabel1': 1, 'ChoiceLabel2': 2, 'ChoiceNumber': 0, 'ASName': 'Talk', 'MaintainPerformanceState': 0, 'MessageId': 'EventFlowMsg/Enemy_Event:Enemy_Scrub_Business_Secret_04_02'})
                             Event641:
-                            return 380659055
+                            return 0x16b0656f
                           case 1:
                             Enemy_Scrub_Business.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'IsPlayASAllSlot': False, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChangeMstxtForActor': False, 'IsAnimeDriven': False, 'ChoiceLabel1': 1, 'ChoiceLabel2': 2, 'ChoiceNumber': 0, 'ASName': 'Talk', 'MaintainPerformanceState': 0, 'MessageId': 'EventFlowMsg/Enemy_Event:Enemy_Scrub_Business_Secret_04_03'})
                             goto Event641
@@ -1049,7 +1049,7 @@ void FirstTalk_Secret() {
                   case 2:
                     Player_Event.EventPlayerPlayASForFlowchart({'ASCommand': 'EvtTalkingS', 'IsWaitEnd': True, 'UseAnmDriven': False, 'IsAllSlot': False, 'KeepOneTimeAnm': False, 'ForceFadeFrame': -1.0, 'ClothWarpMode': 0})
                     Enemy_Scrub_Business.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'IsPlayASAllSlot': False, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChangeMstxtForActor': False, 'IsAnimeDriven': False, 'ChoiceLabel1': 1, 'ChoiceLabel2': 2, 'ChoiceNumber': 0, 'ASName': 'Talk', 'MaintainPerformanceState': 0, 'MessageId': 'EventFlowMsg/Enemy_Event:Enemy_Scrub_Business_Secret_06'})
-                    return 2851091674
+                    return 0xa9f034da
                   case 3:
                     Event636:
                     Enemy_Scrub_Business.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'IsPlayASAllSlot': False, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChangeMstxtForActor': False, 'IsAnimeDriven': False, 'ChoiceLabel1': 1, 'ChoiceLabel2': 2, 'ChoiceNumber': 0, 'ASName': 'Talk', 'MaintainPerformanceState': 0, 'MessageId': 'EventFlowMsg/Enemy_Event:Enemy_Scrub_Business_Secret_04'})

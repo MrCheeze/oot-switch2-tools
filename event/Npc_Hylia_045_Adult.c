@@ -225,7 +225,7 @@ void Talk() {
 
 void SubEvent_GetSwordBigGoron_Step09() {
     switchcall CheckFrontToTarget_30({'Npc_EventStarter': ActorIdentifier(name="Npc_Hylia_045_Adult")}) {
-      case 1358716831:
+      case 0x50fc5f9f:
 
         call InitTalk_OnEvent_Hylia_045_HandOverOnly({'Arg_Greeting': 4, 'ActorNameA': 'Npc_Hylia_045_Adult', 'InstanceNameA': '', 'Arg_Actor': ActorIdentifier(name="Npc_Hylia_045_Adult"), 'Arg_Turn': 4})
 
@@ -299,7 +299,7 @@ void SubEvent_GetSwordBigGoron_Step09() {
                 goto Event73
             }
         }
-      case 1341939212:
+      case 0x4ffc5e0c:
 
         call InitTalk_OnEvent_Hylia_045_HandOverOnly({'Arg_Greeting': 4, 'ActorNameA': 'Npc_Hylia_045_Adult', 'InstanceNameA': '', 'Arg_Actor': ActorIdentifier(name="Npc_Hylia_045_Adult"), 'Arg_Turn': 3})
 
@@ -490,7 +490,7 @@ void NPC045_CleaningTalk_Adult() {
 
 void ShowEyeDrop_Hakase_Adult() {
     switchcall CheckFrontToTarget_30({'Npc_EventStarter': ActorIdentifier(name="Npc_Hylia_045_Adult")}) {
-      case 1358716831:
+      case 0x50fc5f9f:
 
         call InitTalk_OnEvent_Hylia_045_HandOverOnly({'Arg_Turn': 4, 'Arg_Greeting': 4, 'Arg_Actor': ActorIdentifier(name="Npc_Hylia_045_Adult"), 'ActorNameA': 'Npc_Hylia_045_Adult', 'InstanceNameA': ''})
 
@@ -509,7 +509,7 @@ void ShowEyeDrop_Hakase_Adult() {
             Npc_Hylia_045_Adult.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MessageId': 'EventFlowMsg/Npc_Hylia_045_Adult:Talk_130', 'MaintainPerformanceState': 0})
             goto Event67
         }
-      case 1341939212:
+      case 0x4ffc5e0c:
 
         call InitTalk_OnEvent_Hylia_045_HandOverOnly({'Arg_Greeting': 4, 'ActorNameA': 'Npc_Hylia_045_Adult', 'InstanceNameA': '', 'Arg_Actor': ActorIdentifier(name="Npc_Hylia_045_Adult"), 'Arg_Turn': 3})
 
@@ -520,7 +520,7 @@ void ShowEyeDrop_Hakase_Adult() {
 void Mask_All() {
     if !Player_Event.EventQueryPlayerIsEquipArmor({'ArmorSlot': 0, 'ArmorName': 'Armor_Adult_GlassTruth'}) {
         switchcall CheckFrontToTarget_30({'Npc_EventStarter': ActorIdentifier(name="Npc_EventStarter")}) {
-          case 1358716831:
+          case 0x50fc5f9f:
 
             call InitTalk.InitTalk({'Arg_Greeting': 4, 'Arg_Turn': 4})
 
@@ -530,7 +530,7 @@ void Mask_All() {
                 Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MessageId': 'EventFlowMsg/Npc_Hylia_045_Adult:GlassTruth', 'MaintainPerformanceState': 0})
                 Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MessageId': 'EventFlowMsg/Npc_Hylia_045_Adult:Mask_09', 'MaintainPerformanceState': 0})
             }
-          case 1341939212:
+          case 0x4ffc5e0c:
 
             call InitTalk.InitTalk({'Arg_Greeting': 4, 'Arg_Turn': 3})
 
@@ -538,7 +538,7 @@ void Mask_All() {
         }
     } else {
         switchcall Mask_Talk() {
-          case 4151362380:
+          case fnv1a("Mask_Talk"):
             Npc_EventStarter.EventNPCTurnToTarget({'Target': 2, 'IsConfront': False, 'IsWaitEnd': True, 'FaceControlType': 1, 'ActorName': '', 'InstanceName': '', 'WorldPos': [0.0, 0.0, 0.0], 'PosOffset': [0.0, 0.0, 0.0], 'Direction': 0.0, 'OffsetBase': 0, 'LookingControllerName': '', 'LookIKParameterVariationName': '', 'IsReleaseThreaten': False, 'EnableAutomaticallyPlayWaitASAfterTurn': True})
             Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MessageId': 'EventFlowMsg/Npc_Hylia_045_Adult:Mask_10', 'MaintainPerformanceState': 0})
         }
@@ -547,37 +547,37 @@ void Mask_All() {
 
 void Mask_Talk() {
     switchcall CheckFrontToTarget_30({'Npc_EventStarter': ActorIdentifier(name="Npc_EventStarter")}) {
-      case 1358716831:
+      case 0x50fc5f9f:
         if !Npc_EventStarter.EventNPCQueryCheckTargetActorForLookIK({'InstanceName': '', 'ActorName': 'Player_Event'}) {
             switchcall NpcCommon.Mask_Talk_Common_With_InitTalk({'Mask_Keaton_Talk': 'EventFlowMsg/Npc_Hylia_045_Adult:Mask_01', 'Mask_Skull_Talk': 'EventFlowMsg/Npc_Hylia_045_Adult:Mask_02', 'Mask_Spooky_Talk': 'EventFlowMsg/Npc_Hylia_045_Adult:Mask_03', 'Mask_Bunny_Talk': 'EventFlowMsg/Npc_Hylia_045_Adult:Mask_04', 'Mask_Goron_Talk': 'EventFlowMsg/Npc_Hylia_045_Adult:Mask_06', 'Mask_Zora_Talk': 'EventFlowMsg/Npc_Hylia_045_Adult:Mask_07', 'Mask_Gerudo_Talk': 'EventFlowMsg/Npc_Hylia_045_Adult:Mask_08', 'ChangeTheTopic_Talk': 'EventFlowMsg/Npc_Hylia_045_Adult:Mask_09', 'Mask_Amiibo00_Talk': 'EventFlowMsg/Npc_Hylia_045_Adult:Mask_101', 'Mask_Amiibo01_Talk': 'EventFlowMsg/Npc_Hylia_045_Adult:Mask_102', 'Mask_Amiibo02_Talk': 'EventFlowMsg/Npc_Hylia_045_Adult:Mask_103', 'ASName': 'Act_Think_Wait', 'Mask_Truth_Talk': 'EventFlowMsg/Npc_Hylia_045_Adult:Mask_05_01', 'Arg_Turn_For_IgnoreMaskTalk': 2, 'Arg_Turn_For_MaskTalk': 2}) {
-              case 4205900657:
+              case 0xfab0f371:
                 Event191:
-                return 4151362380
-              case 4155567800:
+                return fnv1a("Mask_Talk")
+              case 0xf7b0eeb8:
                 Event192:
-                return 2799305849
+                return 0xa6da0479
             }
         } else {
             switchcall NpcCommon.Mask_Talk_Common_With_InitTalk({'Mask_Keaton_Talk': 'EventFlowMsg/Npc_Hylia_045_Adult:Mask_01', 'Mask_Skull_Talk': 'EventFlowMsg/Npc_Hylia_045_Adult:Mask_02', 'Mask_Spooky_Talk': 'EventFlowMsg/Npc_Hylia_045_Adult:Mask_03', 'Mask_Bunny_Talk': 'EventFlowMsg/Npc_Hylia_045_Adult:Mask_04', 'Mask_Truth_Talk': 'EventFlowMsg/Npc_Hylia_045_Adult:Mask_05', 'Mask_Goron_Talk': 'EventFlowMsg/Npc_Hylia_045_Adult:Mask_06', 'Mask_Zora_Talk': 'EventFlowMsg/Npc_Hylia_045_Adult:Mask_07', 'Mask_Gerudo_Talk': 'EventFlowMsg/Npc_Hylia_045_Adult:Mask_08', 'ChangeTheTopic_Talk': 'EventFlowMsg/Npc_Hylia_045_Adult:Mask_09', 'Mask_Amiibo00_Talk': 'EventFlowMsg/Npc_Hylia_045_Adult:Mask_101', 'Mask_Amiibo01_Talk': 'EventFlowMsg/Npc_Hylia_045_Adult:Mask_102', 'Mask_Amiibo02_Talk': 'EventFlowMsg/Npc_Hylia_045_Adult:Mask_103', 'ASName': 'Act_Think_Wait', 'Arg_Turn_For_IgnoreMaskTalk': 2, 'Arg_Turn_For_MaskTalk': 2}) {
-              case 4205900657:
+              case 0xfab0f371:
                 goto Event191
-              case 4155567800:
+              case 0xf7b0eeb8:
                 goto Event192
             }
         }
-      case 1341939212:
+      case 0x4ffc5e0c:
         if !Npc_EventStarter.EventNPCQueryCheckTargetActorForLookIK({'InstanceName': '', 'ActorName': 'Player_Event'}) {
             switchcall NpcCommon.Mask_Talk_Common_With_InitTalk({'Mask_Keaton_Talk': 'EventFlowMsg/Npc_Hylia_045_Adult:Mask_01', 'Mask_Skull_Talk': 'EventFlowMsg/Npc_Hylia_045_Adult:Mask_02', 'Mask_Spooky_Talk': 'EventFlowMsg/Npc_Hylia_045_Adult:Mask_03', 'Mask_Bunny_Talk': 'EventFlowMsg/Npc_Hylia_045_Adult:Mask_04', 'Mask_Goron_Talk': 'EventFlowMsg/Npc_Hylia_045_Adult:Mask_06', 'Mask_Zora_Talk': 'EventFlowMsg/Npc_Hylia_045_Adult:Mask_07', 'Mask_Gerudo_Talk': 'EventFlowMsg/Npc_Hylia_045_Adult:Mask_08', 'ChangeTheTopic_Talk': 'EventFlowMsg/Npc_Hylia_045_Adult:Mask_09', 'Mask_Amiibo00_Talk': 'EventFlowMsg/Npc_Hylia_045_Adult:Mask_101', 'Mask_Amiibo01_Talk': 'EventFlowMsg/Npc_Hylia_045_Adult:Mask_102', 'Mask_Amiibo02_Talk': 'EventFlowMsg/Npc_Hylia_045_Adult:Mask_103', 'ASName': 'Act_Think_Wait', 'Mask_Truth_Talk': 'EventFlowMsg/Npc_Hylia_045_Adult:Mask_05_01', 'Arg_Turn_For_IgnoreMaskTalk': 3, 'Arg_Turn_For_MaskTalk': 3}) {
-              case 4205900657:
+              case 0xfab0f371:
                 goto Event191
-              case 4155567800:
+              case 0xf7b0eeb8:
                 goto Event192
             }
         } else {
             switchcall NpcCommon.Mask_Talk_Common_With_InitTalk({'Mask_Keaton_Talk': 'EventFlowMsg/Npc_Hylia_045_Adult:Mask_01', 'Mask_Skull_Talk': 'EventFlowMsg/Npc_Hylia_045_Adult:Mask_02', 'Mask_Spooky_Talk': 'EventFlowMsg/Npc_Hylia_045_Adult:Mask_03', 'Mask_Bunny_Talk': 'EventFlowMsg/Npc_Hylia_045_Adult:Mask_04', 'Mask_Truth_Talk': 'EventFlowMsg/Npc_Hylia_045_Adult:Mask_05', 'Mask_Goron_Talk': 'EventFlowMsg/Npc_Hylia_045_Adult:Mask_06', 'Mask_Zora_Talk': 'EventFlowMsg/Npc_Hylia_045_Adult:Mask_07', 'Mask_Gerudo_Talk': 'EventFlowMsg/Npc_Hylia_045_Adult:Mask_08', 'ChangeTheTopic_Talk': 'EventFlowMsg/Npc_Hylia_045_Adult:Mask_09', 'Mask_Amiibo00_Talk': 'EventFlowMsg/Npc_Hylia_045_Adult:Mask_101', 'Mask_Amiibo01_Talk': 'EventFlowMsg/Npc_Hylia_045_Adult:Mask_102', 'Mask_Amiibo02_Talk': 'EventFlowMsg/Npc_Hylia_045_Adult:Mask_103', 'ASName': 'Act_Think_Wait', 'Arg_Turn_For_IgnoreMaskTalk': 3, 'Arg_Turn_For_MaskTalk': 3}) {
-              case 4205900657:
+              case 0xfab0f371:
                 goto Event191
-              case 4155567800:
+              case 0xf7b0eeb8:
                 goto Event192
             }
         }
@@ -615,9 +615,9 @@ void Near_DivingChallenge_Reaction_Adult() {
 
 void CheckFrontToTarget_30() {
     if !Npc_EventStarter[CheckFrontToTarget_30(Npc_EventStarter)].EventNPCQueryCheckFrontToTarget({'ActorName': '', 'InstanceName': '', 'AngleThreshold': 30.0, 'Target': 2}) {
-        return 1358716831
+        return 0x50fc5f9f
     } else {
-        return 1341939212
+        return 0x4ffc5e0c
     }
 }
 

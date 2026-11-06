@@ -612,12 +612,12 @@ void Ready_Npc_Hylia_Talon_Child_Talk() {
         } else
         if !Npc_Hylia_Talon_Child.EventQueryIsPlayingSameAS({'ASName': 'Rest_Sleep', 'Partial': ''}) {
             switchcall NpcCommon.CheckEquipmentMask() {
-              case [3745441359, 1844135360, 3362507297]:
+              case [0xdf3ee64f, 0x6deb45c0, 0xc86bca21]:
 
                 call SleepTalk()
 
                 goto Event84
-              case 488279774:
+              case 0x1d1a8ede:
                 goto Event84
             }
         } else
@@ -951,7 +951,7 @@ void Mask_Taron() {
         }
         Event247:
         switchcall NpcCommon.Truth_MaskOnly_Talk_Common_With_InitTalk({'Mask_Truth_Talk': 'EventFlowMsg/Npc_Hylia_Talon_Child:Mask_05', 'ASName': '', 'Arg_Turn_For_IgnoreMaskTalk': 4}) {
-          case 457761688:
+          case 0x1b48e398:
             if !Npc_Hylia_Talon_Child.EventQueryIsPlayingSameAS({'ASName': 'Rest_Sleep', 'Partial': ''}) {
                 Npc_Hylia_Talon_Child.EventTriggerAIScheduleSetForceCancelEventContinueArrivalAS({'Value': True})
                 Npc_EventStarter.EventTriggerAIScheduleSetAwaken({'Bool': True})
@@ -963,7 +963,7 @@ void Mask_Taron() {
             } else {
                 goto Event306
             }
-          case 508094545:
+          case 0x1e48e851:
             if !Npc_Hylia_Talon_Child.EventQueryIsPlayingSameAS({'ASName': 'Rest_Sleep', 'Partial': ''}) {
                 Npc_Hylia_Talon_Child.EventTriggerAIScheduleSetForceCancelEventContinueArrivalAS({'Value': True})
                 Npc_EventStarter.EventTriggerAIScheduleSetAwaken({'Bool': True})

@@ -90,7 +90,7 @@ actions: []
 queries: []
 params: None
 
-void Dm_SY_Get() {
+void Dm_SY_Get(int Frames = 0) {
     Player_Event.EventTriggerPlayerEventStartWithDrawn()
     Player_Event.EventTriggerPlayerFadeVoice()
 
@@ -140,11 +140,11 @@ void Dm_SY_Get() {
             if !Player_Event.EventQueryCheckPlayerState({'State': 20}) {
                 Event91:
                 switchcall IsCameraHit({'ActorName': 'ActorName'}) {
-                  case 1700614218:
+                  case fnv1a("Hit"):
                     goto Event184
-                  case 576506075:
+                  case fnv1a("NoHit"):
                     switchcall IsSpace() {
-                      case 2849390305:
+                      case 0xa9d63ee1:
 
                         call Default_Get({'ActorName': 'ActorName', 'Actor': ActorIdentifier(name="PouchContentGuestPerformer")})
 
@@ -177,7 +177,7 @@ void Dm_SY_Get() {
 
                             goto Event155
                         }
-                      case 1700614218:
+                      case fnv1a("Hit"):
                         goto Event184
                     }
                 }
@@ -374,7 +374,7 @@ void GetDisplayProcess() {
 
 void Dm_SY_Get_Camera() {
     switchcall JudgeCamera({'ActorName': 'ActorName'}) {
-      case 930832260:
+      case 0x377b5f84:
 
         fork {
             EventCamera.EventBasedOnLookAtCamera({'StartAccelerateRate': 0.0, 'EndRecelerateRate': 0.0, 'IsLinearMove': False, 'CameraCollisionLookAtActorOffset': [0.0, 1.5, 0.0], 'TargetActorName': 'Player_Event', 'ToleranceDistance': 0.0, 'LookAtVectorY': 1, 'TargetActorInstanceName': '', 'ToleranceXZAngle': 180.0, 'CameraCollisionMode': 1, 'IsWaitEnd': True, 'MoveTime': 15, 'TargetOffset': [0.0, 1.2000000476837158, 0.0], 'ToleranceYUpwardAngle': 12.0, 'ToleranceYDownwardAngle': 11.0, 'IdealDistance': 2.0, 'LookAtVectorXZ': 0})
@@ -384,7 +384,7 @@ void Dm_SY_Get_Camera() {
 
         }
 
-      case 3429043805:
+      case 0xcc630e5d:
 
         fork {
             EventCamera.EventBasedOnLookAtCamera({'StartAccelerateRate': 0.0, 'EndRecelerateRate': 0.0, 'IsLinearMove': False, 'CameraCollisionLookAtActorOffset': [0.0, 1.5, 0.0], 'TargetActorName': 'Player_Event', 'ToleranceDistance': 0.0, 'LookAtVectorY': 1, 'TargetActorInstanceName': '', 'ToleranceXZAngle': 180.0, 'CameraCollisionMode': 1, 'IsWaitEnd': True, 'MoveTime': 15, 'TargetOffset': [0.0, 1.2000000476837158, 0.0], 'ToleranceYUpwardAngle': 28.0, 'ToleranceYDownwardAngle': 27.0, 'IdealDistance': 1.75, 'LookAtVectorXZ': 0})
@@ -394,7 +394,7 @@ void Dm_SY_Get_Camera() {
 
         }
 
-      case [592415646, 3910665419]:
+      case [0x234f8b9e, 0xe91804cb]:
 
         fork {
             EventCamera.EventBasedOnLookAtCamera({'IsWaitEnd': True, 'StartAccelerateRate': 0.0, 'EndRecelerateRate': 0.0, 'IsLinearMove': False, 'CameraCollisionLookAtActorOffset': [0.0, 1.5, 0.0], 'TargetActorName': 'Player_Event', 'ToleranceDistance': 0.0, 'LookAtVectorY': 1, 'TargetActorInstanceName': '', 'CameraCollisionMode': 1, 'MoveTime': 15, 'ToleranceXZAngle': 180.0, 'IdealDistance': 1.75, 'ToleranceYUpwardAngle': 28.0, 'ToleranceYDownwardAngle': 27.0, 'TargetOffset': [0.0, 1.6799999475479126, 0.0], 'LookAtVectorXZ': 0})
@@ -411,42 +411,42 @@ void JudgeCamera() {
     if !Player_Event.EventQueryPlayerIsChild() {
         switch PouchSystemActor.EventQueryPouchContentGetType({'GameDataName': '', 'ActorName': 'ActorName'}) {
           case 0:
-            return 930832260
+            return 0x377b5f84
           case [1, 2, 3]:
-            return 3429043805
+            return 0xcc630e5d
         }
     } else
     switch PouchSystemActor.EventQueryPouchContentGetType({'GameDataName': '', 'ActorName': 'ActorName'}) {
       case 0:
-        return 592415646
+        return 0x234f8b9e
       case [1, 2, 3]:
-        return 3910665419
+        return 0xe91804cb
     }
 }
 
 void IsCameraHit() {
     switchcall JudgeCamera({'ActorName': 'ActorName'}) {
-      case 930832260:
+      case 0x377b5f84:
         if !EventCamera.EventQueryCameraCheckRayCastForBasedOnLookAt({'TargetActorInstanceName': '', 'LookAtVectorXZ': 1, 'LookAtVectorY': 0, 'TargetActorLink': 'Player_Event', 'TargetOffset': [0.0, 1.2000000476837158, 0.0], 'IdealDistance': 2.0, 'ToleranceDistance': 0.0, 'ToleranceXZAngle': 180.0, 'ToleranceYUpwardAngle': 12.0, 'ToleranceYDownwardAngle': 11.0}) {
             Event88:
-            return 1700614218
+            return fnv1a("Hit")
         } else {
             Event90:
-            return 576506075
+            return fnv1a("NoHit")
         }
-      case 3429043805:
+      case 0xcc630e5d:
         if !EventCamera.EventQueryCameraCheckRayCastForBasedOnLookAt({'TargetActorInstanceName': '', 'LookAtVectorXZ': 1, 'LookAtVectorY': 0, 'TargetActorLink': 'Player_Event', 'TargetOffset': [0.0, 1.2000000476837158, 0.0], 'IdealDistance': 1.75, 'ToleranceDistance': 0.0, 'ToleranceXZAngle': 180.0, 'ToleranceYUpwardAngle': 28.0, 'ToleranceYDownwardAngle': 27.0}) {
             goto Event88
         } else {
             goto Event90
         }
-      case 592415646:
+      case 0x234f8b9e:
         if !EventCamera.EventQueryCameraCheckRayCastForBasedOnLookAt({'TargetActorInstanceName': '', 'LookAtVectorXZ': 1, 'LookAtVectorY': 0, 'TargetActorLink': 'Player_Event', 'TargetOffset': [0.0, 1.6799999475479126, 0.0], 'ToleranceDistance': 0.0, 'ToleranceXZAngle': 180.0, 'ToleranceYUpwardAngle': 13.0, 'ToleranceYDownwardAngle': 12.0, 'IdealDistance': 1.75}) {
             goto Event88
         } else {
             goto Event90
         }
-      case 3910665419:
+      case 0xe91804cb:
         if !EventCamera.EventQueryCameraCheckRayCastForBasedOnLookAt({'TargetActorInstanceName': '', 'LookAtVectorXZ': 1, 'LookAtVectorY': 0, 'TargetActorLink': 'Player_Event', 'IdealDistance': 1.75, 'ToleranceDistance': 0.0, 'ToleranceXZAngle': 180.0, 'ToleranceYUpwardAngle': 28.0, 'ToleranceYDownwardAngle': 27.0, 'TargetOffset': [0.0, 1.6799999475479126, 0.0]}) {
             goto Event88
         } else {
@@ -532,10 +532,10 @@ void IsSpace() {
     if !Player_Event.EventQueryPlayerIsChild() {
         if !EventCamera.EventQueryCameraCheckOcclusionToTarget({'VectorSetType1': 3, 'IsEnableSpaceCheck': True, 'Actor1InstanceName': '', 'IsIgnoreVectorReferenceActorRot1': False, 'Actor2InstanceName': '', 'IsIgnoreVectorReferenceActorRot2': False, 'IsEnableCameraBodyCheck': False, 'VectorSetType2': 3, 'Vector1': [0.0, 0.0, 0.0], 'ActorName1': 'PlayerCamera', 'ActorName2': 'Player_Event', 'SpaceCheckRadius': 0.1899999976158142, 'Vector2': [0.0, 1.5, 0.0], 'IsConsiderWater': False}) {
             Event92:
-            return 1700614218
+            return fnv1a("Hit")
         } else {
             Event113:
-            return 2849390305
+            return 0xa9d63ee1
         }
     } else
     if !EventCamera.EventQueryCameraCheckOcclusionToTarget({'VectorSetType1': 3, 'IsEnableSpaceCheck': True, 'Actor1InstanceName': '', 'IsIgnoreVectorReferenceActorRot1': False, 'Actor2InstanceName': '', 'IsIgnoreVectorReferenceActorRot2': False, 'IsEnableCameraBodyCheck': False, 'VectorSetType2': 3, 'Vector1': [0.0, 0.0, 0.0], 'ActorName1': 'PlayerCamera', 'ActorName2': 'Player_Event', 'SpaceCheckRadius': 0.30000001192092896, 'Vector2': [0.0, 1.899999976158142, 0.0], 'IsConsiderWater': False}) {

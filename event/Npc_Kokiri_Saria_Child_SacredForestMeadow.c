@@ -52,7 +52,7 @@ void Talk() {
     if !GameDataActor.EventQueryIsGameDataBool({'GameDataName': 'HaveTalked_Special.Npc_Kokiri_Saria_Child_SacredForestMeadow_Talk_Event66', 'Index': -1}) {
         Event59:
         switchcall InitTalk_Saria_OcarinaPlaying_SacredForestMeadow() {
-          case [569209421, 552431802]:
+          case [fnv1a("00"), fnv1a("01")]:
 
             call Mask_All()
 
@@ -208,7 +208,7 @@ void Mask_All() {
         }
     } else {
         switchcall Mask_Talk() {
-          case 4205900657:
+          case 0xfab0f371:
             Npc_EventStarter.EventTriggerLookAtObject({'Target': 2, 'ActorName': '', 'InstanceName': '', 'WorldPos': [0.0, 0.0, 0.0], 'PosOffset': [0.0, 0.0, 0.0], 'Direction': 0.0, 'OffsetBase': 0, 'ResetArriveTransformFixed': False})
             Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MessageId': 'EventFlowMsg/Npc_Kokiri_Saria_Child_SacredForestMeadow:Mask_10', 'MaintainPerformanceState': 0})
         }
@@ -217,20 +217,20 @@ void Mask_All() {
 
 void Mask_Talk() {
     switchcall NpcCommon.CheckEquipmentMask() {
-      case [3745441359, 1844135360]:
+      case [0xdf3ee64f, 0x6deb45c0]:
 
         call NpcCommon.Sub_Mask_Talk_OtherTruthMask_Message({'ASName': '', 'Mask_Keaton_Talk': 'EventFlowMsg/Npc_Kokiri_Saria_Child_SacredForestMeadow:Mask_01', 'Mask_Skull_Talk': 'EventFlowMsg/Npc_Kokiri_Saria_Child_SacredForestMeadow:Mask_02', 'Mask_Spooky_Talk': 'EventFlowMsg/Npc_Kokiri_Saria_Child_SacredForestMeadow:Mask_03', 'Mask_Bunny_Talk': 'EventFlowMsg/Npc_Kokiri_Saria_Child_SacredForestMeadow:Mask_04', 'Mask_Goron_Talk': 'EventFlowMsg/Npc_Kokiri_Saria_Child_SacredForestMeadow:Mask_06', 'Mask_Zora_Talk': 'EventFlowMsg/Npc_Kokiri_Saria_Child_SacredForestMeadow:Mask_07', 'Mask_Gerudo_Talk': 'EventFlowMsg/Npc_Kokiri_Saria_Child_SacredForestMeadow:Mask_08', 'Mask_Amiibo00_Talk': 'EventFlowMsg/Npc_Kokiri_Saria_Child_SacredForestMeadow:Mask_101', 'Mask_Amiibo01_Talk': 'EventFlowMsg/Npc_Kokiri_Saria_Child_SacredForestMeadow:Mask_102', 'Mask_Amiibo02_Talk': 'EventFlowMsg/Npc_Kokiri_Saria_Child_SacredForestMeadow:Mask_103'})
 
         Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChangeMstxtForActor': False, 'MaintainPerformanceState': 0, 'MessageId': 'EventFlowMsg/Npc_Kokiri_Saria_Child_SacredForestMeadow:Mask_09'})
         Event94:
-        return 4155567800
-      case 3362507297:
+        return 0xf7b0eeb8
+      case 0xc86bca21:
         goto Event94
-      case 488279774:
+      case 0x1d1a8ede:
         Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChangeMstxtForActor': False, 'IsOverrideStyle': True, 'OverrideStyle': 8, 'NotPlayLipSyncAnim': True, 'ASName': 'TalkMonolog', 'MaintainPerformanceState': 0, 'MessageId': 'EventFlowMsg/Npc_Kokiri_Saria_Child_SacredForestMeadow:Mask_05'})
         Npc_EventStarter.EventTriggerForceSetMaskTalkFlag({'value': True})
         EventSystemActor.EventWait({'Frames': 1, 'IsWaitEnd': True})
-        return 4205900657
+        return 0xfab0f371
     }
 }
 
@@ -245,12 +245,12 @@ void InitTalk_Saria_OcarinaPlaying_SacredForestMeadow() {
 
         Npc_EventStarter.EventPlayAS({'ASName': 'Act_SitChair_Wait', 'IsWaitEnd': False, 'Partial': '', 'IsAllSlot': False, 'ForceFadeInFrame': -1.0, 'IsAnimeDriven': False})
         EventSystemActor.EventWait({'IsWaitEnd': True, 'Frames': 30})
-        return 569209421
+        return fnv1a("00")
     } else {
 
         call InitTalk.InitTalk_KokiriOnly({'Arg_Turn': 4, 'Arg_Greeting': 4, 'NpcFairy_MovingFlag': True})
 
-        return 552431802
+        return fnv1a("01")
     }
 }
 

@@ -151,36 +151,36 @@ void Mask_Talk() {
     if !Npc_Hylia_Malon_Child.EventNPCQueryCheckFrontToTarget({'AngleThreshold': 120.0, 'Target': 2, 'ActorName': '', 'InstanceName': ''}) {
         if !EventWorldManagerController.EventQueryTimeDivision() {
             switchcall Mask_Talk_Common_With_InitTalk_Malon_Child_Only({'Arg_Turn_For_IgnoreMaskTalk': 4, 'Arg_Turn_For_MaskTalk': 4, 'Mask_Keaton_Talk': 'EventFlowMsg/Npc_Hylia_Malon_Child:Mask_01', 'Mask_Skull_Talk': 'EventFlowMsg/Npc_Hylia_Malon_Child:Mask_02', 'Mask_Spooky_Talk': 'EventFlowMsg/Npc_Hylia_Malon_Child:Mask_03', 'Mask_Bunny_Talk': 'EventFlowMsg/Npc_Hylia_Malon_Child:Mask_04', 'Mask_Goron_Talk': 'EventFlowMsg/Npc_Hylia_Malon_Child:Mask_06', 'Mask_Zora_Talk': 'EventFlowMsg/Npc_Hylia_Malon_Child:Mask_07', 'Mask_Gerudo_Talk': 'EventFlowMsg/Npc_Hylia_Malon_Child:Mask_08', 'ChangeTheTopic_Talk': 'EventFlowMsg/Npc_Hylia_Malon_Child:Mask_09', 'ASName': 'TalkMonolog', 'Mask_Amiibo00_Talk': 'EventFlowMsg/Npc_Hylia_Malon_Child:Mask_101', 'Mask_Amiibo01_Talk': 'EventFlowMsg/Npc_Hylia_Malon_Child:Mask_102', 'Mask_Amiibo02_Talk': 'EventFlowMsg/Npc_Hylia_Malon_Child:Mask_103', 'Arg_Greeting': 4, 'Mask_Truth_Talk': 'EventFlowMsg/Npc_Hylia_Malon_Child:Mask_05_01'}) {
-              case 4155567800:
+              case 0xf7b0eeb8:
                 Event42:
-                return 2799305849
-              case 4205900657:
+                return 0xa6da0479
+              case 0xfab0f371:
                 Event33:
-                return 4151362380
+                return fnv1a("Mask_Talk")
             }
         } else {
             switchcall Mask_Talk_Common_With_InitTalk_Malon_Child_Only({'Arg_Turn_For_IgnoreMaskTalk': 4, 'Arg_Turn_For_MaskTalk': 4, 'ASName': 'TalkMonolog', 'Mask_Truth_Talk': 'EventFlowMsg/Npc_Hylia_Malon_Child:Mask_05_02', 'Mask_Keaton_Talk': 'EventFlowMsg/Npc_Hylia_Malon_Child:Mask_01_02', 'Mask_Skull_Talk': 'EventFlowMsg/Npc_Hylia_Malon_Child:Mask_02_02', 'Mask_Spooky_Talk': 'EventFlowMsg/Npc_Hylia_Malon_Child:Mask_03_02', 'Mask_Bunny_Talk': 'EventFlowMsg/Npc_Hylia_Malon_Child:Mask_04_02', 'Mask_Goron_Talk': 'EventFlowMsg/Npc_Hylia_Malon_Child:Mask_06_02', 'Mask_Zora_Talk': 'EventFlowMsg/Npc_Hylia_Malon_Child:Mask_07_02', 'Mask_Gerudo_Talk': 'EventFlowMsg/Npc_Hylia_Malon_Child:Mask_08_02', 'ChangeTheTopic_Talk': 'EventFlowMsg/Npc_Hylia_Malon_Child:Mask_09_02', 'Mask_Amiibo00_Talk': 'EventFlowMsg/Npc_Hylia_Malon_Child:Mask_101_02', 'Mask_Amiibo01_Talk': 'EventFlowMsg/Npc_Hylia_Malon_Child:Mask_102_02', 'Mask_Amiibo02_Talk': 'EventFlowMsg/Npc_Hylia_Malon_Child:Mask_103_02', 'Arg_Greeting': 3}) {
-              case 4155567800:
+              case 0xf7b0eeb8:
                 goto Event42
-              case 4205900657:
+              case 0xfab0f371:
                 goto Event33
             }
         }
     } else
     if !EventWorldManagerController.EventQueryTimeDivision() {
         switchcall Mask_Talk_Common_With_InitTalk_Malon_Child_Only({'Arg_Turn_For_IgnoreMaskTalk': 4, 'Arg_Turn_For_MaskTalk': 4, 'Mask_Keaton_Talk': 'EventFlowMsg/Npc_Hylia_Malon_Child:Mask_01', 'Mask_Skull_Talk': 'EventFlowMsg/Npc_Hylia_Malon_Child:Mask_02', 'Mask_Spooky_Talk': 'EventFlowMsg/Npc_Hylia_Malon_Child:Mask_03', 'Mask_Bunny_Talk': 'EventFlowMsg/Npc_Hylia_Malon_Child:Mask_04', 'Mask_Truth_Talk': 'EventFlowMsg/Npc_Hylia_Malon_Child:Mask_05', 'Mask_Goron_Talk': 'EventFlowMsg/Npc_Hylia_Malon_Child:Mask_06', 'Mask_Zora_Talk': 'EventFlowMsg/Npc_Hylia_Malon_Child:Mask_07', 'Mask_Gerudo_Talk': 'EventFlowMsg/Npc_Hylia_Malon_Child:Mask_08', 'ChangeTheTopic_Talk': 'EventFlowMsg/Npc_Hylia_Malon_Child:Mask_09', 'ASName': 'TalkMonolog', 'Mask_Amiibo00_Talk': 'EventFlowMsg/Npc_Hylia_Malon_Child:Mask_101', 'Mask_Amiibo01_Talk': 'EventFlowMsg/Npc_Hylia_Malon_Child:Mask_102', 'Mask_Amiibo02_Talk': 'EventFlowMsg/Npc_Hylia_Malon_Child:Mask_103', 'Arg_Greeting': 3}) {
-          case 4155567800:
+          case 0xf7b0eeb8:
             Event32:
-            return 2799305849
-          case 4205900657:
+            return 0xa6da0479
+          case 0xfab0f371:
             Event43:
-            return 4151362380
+            return fnv1a("Mask_Talk")
         }
     } else {
         switchcall Mask_Talk_Common_With_InitTalk_Malon_Child_Only({'Arg_Turn_For_IgnoreMaskTalk': 4, 'Arg_Turn_For_MaskTalk': 4, 'ASName': 'TalkMonolog', 'Mask_Keaton_Talk': 'EventFlowMsg/Npc_Hylia_Malon_Child:Mask_01_02', 'Mask_Skull_Talk': 'EventFlowMsg/Npc_Hylia_Malon_Child:Mask_02_02', 'Mask_Spooky_Talk': 'EventFlowMsg/Npc_Hylia_Malon_Child:Mask_03_02', 'Mask_Bunny_Talk': 'EventFlowMsg/Npc_Hylia_Malon_Child:Mask_04_02', 'Mask_Goron_Talk': 'EventFlowMsg/Npc_Hylia_Malon_Child:Mask_06_02', 'Mask_Zora_Talk': 'EventFlowMsg/Npc_Hylia_Malon_Child:Mask_07_02', 'Mask_Gerudo_Talk': 'EventFlowMsg/Npc_Hylia_Malon_Child:Mask_08_02', 'ChangeTheTopic_Talk': 'EventFlowMsg/Npc_Hylia_Malon_Child:Mask_09_02', 'Mask_Amiibo00_Talk': 'EventFlowMsg/Npc_Hylia_Malon_Child:Mask_101_02', 'Mask_Amiibo01_Talk': 'EventFlowMsg/Npc_Hylia_Malon_Child:Mask_102_02', 'Mask_Amiibo02_Talk': 'EventFlowMsg/Npc_Hylia_Malon_Child:Mask_103_02', 'Arg_Greeting': 3, 'Mask_Truth_Talk': 'EventFlowMsg/Npc_Hylia_Malon_Child:Mask_05'}) {
-          case 4155567800:
+          case 0xf7b0eeb8:
             goto Event32
-          case 4205900657:
+          case 0xfab0f371:
             goto Event43
         }
     }
@@ -213,7 +213,7 @@ void Mask_All() {
         }
     } else {
         switchcall Mask_Talk() {
-          case 4151362380:
+          case fnv1a("Mask_Talk"):
             Npc_EventStarter.EventTriggerLookAtObject({'Target': 2, 'ActorName': '', 'InstanceName': '', 'WorldPos': [0.0, 0.0, 0.0], 'PosOffset': [0.0, 0.0, 0.0], 'Direction': 0.0, 'OffsetBase': 0, 'ResetArriveTransformFixed': False})
             Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MessageId': 'EventFlowMsg/Npc_Hylia_Malon_Child:Mask_10', 'MaintainPerformanceState': 0})
         }
@@ -222,7 +222,7 @@ void Mask_All() {
 
 void SayHello() {
     switchcall NpcCommon.CheckAlreadyMaskTalked() {
-      case 1307241100:
+      case 0x4deaea8c:
         if Npc_EventStarter.EventQueryIsOnRecentTalkFlag() {
             if !EventWorldManagerController.EventQueryTimeDivision() {
                 Npc_Hylia_Malon_Child.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MessageId': 'EventFlowMsg/Npc_Hylia_Malon_Child:Talk_211', 'MaintainPerformanceState': 0, 'ASName': 'Act_SitChair_Hello'})
@@ -301,7 +301,7 @@ void GuideToLonLonRanch_Npc_Hylia_Malon_Child_Talk_MarketAfterTalkMalon() {
 
 void Mask_Talk_Common_With_InitTalk_Malon_Child_Only() {
     switchcall NpcCommon.CheckEquipmentMask() {
-      case [3745441359, 1844135360]:
+      case [0xdf3ee64f, 0x6deb45c0]:
 
         call InitTalk.InitTalk({'Arg_Turn': 'Arg_Turn_For_MaskTalk', 'Arg_Greeting': 'Arg_Greeting'})
 
@@ -310,13 +310,13 @@ void Mask_Talk_Common_With_InitTalk_Malon_Child_Only() {
 
         Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChangeMstxtForActor': False, 'MessageId': 'ChangeTheTopic_Talk', 'MaintainPerformanceState': 0})
         Event140:
-        return 4155567800
-      case 3362507297:
+        return 0xf7b0eeb8
+      case 0xc86bca21:
 
         call InitTalk.InitTalk({'Arg_Turn': 'Arg_Turn_For_IgnoreMaskTalk', 'Arg_Greeting': 'Arg_Greeting'})
 
         goto Event140
-      case 488279774:
+      case 0x1d1a8ede:
 
         call InitTalk.InitTalk({'Arg_Turn': 0, 'Arg_Greeting': 'Arg_Greeting'})
 
@@ -327,6 +327,6 @@ void Mask_Talk_Common_With_InitTalk_Malon_Child_Only() {
         }
         Npc_EventStarter.EventTriggerForceSetMaskTalkFlag({'value': True})
         EventSystemActor.EventWait({'Frames': 1, 'IsWaitEnd': True})
-        return 4205900657
+        return 0xfab0f371
     }
 }
