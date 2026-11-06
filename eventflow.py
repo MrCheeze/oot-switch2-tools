@@ -282,6 +282,8 @@ if __name__ == "__main__":
 
     for fname, flow in flows:
         flowchart = flow.flowchart
+        if flowchart is None:
+            continue
         outfile = open('event/'+fname.replace('.bfevfl','')+'.c','w',encoding='utf-8')
         outfile.write(print_flowchart(flowchart))
         outfile.close()
