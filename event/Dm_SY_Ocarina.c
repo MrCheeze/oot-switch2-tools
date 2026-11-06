@@ -661,7 +661,7 @@ void OcarinaWarp_Arrive() {
     }
 }
 
-void PlayOcarinaSequence_NpcBeginningTalk() {
+void PlayOcarinaSequence_NpcBeginningTalk(bool IsNotNeedSensor = False) {
     Event178:
 
     fork {
@@ -804,7 +804,7 @@ void LightOff() {
 
 }
 
-void PlayOcarinaSequence_NpcBeginningTalk_NotCreateSensor() {
+void PlayOcarinaSequence_NpcBeginningTalk_NotCreateSensor(bool IsNotNeedSensor = True) {
     goto Event178
 }
 

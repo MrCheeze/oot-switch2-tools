@@ -72,7 +72,7 @@ actions: ['EventDoorClose']
 queries: []
 params: {'IsBindNearestActor': False, 'IsGrounding': False, 'IsWorld': False, 'UseEventModelAnime': '使用しない', 'UseEventAS': '使用しない', 'EventMemberCreateMethod': 3}
 
-void EntryPoint0() {
+void EntryPoint0(bool IsKokiriBed = True) {
 
     call NaviEventCommon.NaviMove_Attention({'TargetInstanceName': '', 'TargetOffset': [0.0, 0.0, 0.0], 'IsUseDisguiseSpeakerPos': False, 'TargetActorName': 'Obj_Kokiri_Bed_A_01'})
 
@@ -384,7 +384,7 @@ void SleepUntilNight() {
     }
 }
 
-void CommonBed() {
+void CommonBed(bool IsKokiriBed = False) {
     if !Npc_Navi.EventQueryNaviIsArrivedTarget() {
         if !Npc_Navi.EventQueryIsNaviAttentionEqualEventStarter() {
             Event293:

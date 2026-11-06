@@ -90,7 +90,7 @@ actions: []
 queries: []
 params: None
 
-void Dm_SY_Get() {
+void Dm_SY_Get(int Frames = 0) {
     Player_Event.EventTriggerPlayerEventStartWithDrawn()
     Player_Event.EventTriggerPlayerFadeVoice()
 

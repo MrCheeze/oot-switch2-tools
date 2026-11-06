@@ -40,7 +40,8 @@ def print_actor(actor):
     return printed_actor
 
 def print_entrypoint(entrypoint,alreadySeen,lines,neededLabels):
-    lines.append("void " + entrypoint.name + '() {\n')
+    variables = ', '.join(var.type.name[1:].lower() + ' ' + name + ' = ' + repr(var.value) for name, var in entrypoint.variable_defs.items())
+    lines.append("void " + entrypoint.name + '(' + variables + ') {\n')
     
     event = entrypoint.main_event.v
     print_event(event,1,alreadySeen,lines,neededLabels)
