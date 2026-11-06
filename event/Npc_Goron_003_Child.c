@@ -52,7 +52,7 @@ void Talk() {
                 GameDataActor.EventTriggerSetGameDataBool({'Index': -1, 'GameDataName': 'Npc_Goron_003_Child_EventFlowTerminate', 'Value': False})
             } else {
                 switchcall TalkWallCrack() {
-                  case 3183434736:
+                  case fnv1a("else"):
                     switch Npc_EventStarter.EventQueryAIScheduleGetReceiveInterestTypeAll() {
                       case [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42]:
                         Npc_Goron_003_Child.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ASName': '', 'MessageId': 'EventFlowMsg/Npc_Goron_003_Child:Talk_10', 'MaintainPerformanceState': 0})
@@ -79,7 +79,7 @@ void Talk() {
                         Npc_Goron_003_Child.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ASName': '', 'MessageId': 'EventFlowMsg/Npc_Goron_003_Child:Talk_106', 'MaintainPerformanceState': 0})
                         Npc_EventStarter.EventExecuteAIScheduleReceiveInterestInfo({'IsWaitEnd': True})
                     }
-                  case 1561583977:
+                  case 0x5d13e169:
                     Npc_Goron_003_Child.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MessageId': 'EventFlowMsg/Npc_Goron_003_Child:Talk_06', 'MaintainPerformanceState': 0})
                 }
             }
@@ -88,7 +88,7 @@ void Talk() {
             call LargePot_TalkCheck()
 
             switchcall TalkWallCrack() {
-              case 3183434736:
+              case fnv1a("else"):
                 switch Npc_EventStarter.EventQueryAIScheduleGetReceiveInterestTypeAll() {
                   case [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42]:
                     if !GameDataActor.EventQueryIsGameDataBool({'Index': -1, 'GameDataName': 'GoronCity_LostWood_WallCrack_Broke'}) {
@@ -113,7 +113,7 @@ void Talk() {
                         GameDataActor.EventTriggerSetGameDataBool({'GameDataName': 'HaveTalked_Special.Npc_Goron_003_Child_Talk_Event37', 'Index': -1, 'Value': True})
                     }
                 }
-              case 1561583977:
+              case 0x5d13e169:
                 Npc_Goron_003_Child.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MessageId': 'EventFlowMsg/Npc_Goron_003_Child:Talk_06', 'MaintainPerformanceState': 0})
                 goto Event27
             }
@@ -124,7 +124,7 @@ void Talk() {
 
         if !GameDataActor.EventQueryIsGameDataBool({'Index': -1, 'GameDataName': 'GoronCity_LostWood_WallCrack_Broke'}) {
             switchcall TalkWallCrack() {
-              case 3183434736:
+              case fnv1a("else"):
                 if !GameDataActor.EventQueryIsGameDataBool({'GameDataName': 'HaveTalked_Special.Npc_Goron_003_Child_AlreadyListenSariaSong_Talk_After_Event162', 'Index': -1}) {
                     Event172:
 
@@ -140,7 +140,7 @@ void Talk() {
                   case 31:
                     goto Event172
                 }
-              case 1561583977:
+              case 0x5d13e169:
                 if !GameDataActor.EventQueryIsGameDataBool({'GameDataName': 'HaveTalked_Special.Npc_Goron_003_Child_AlreadyListenSariaSong_Talk_After_Event162', 'Index': -1}) {
                     goto Event172
                 } else {
@@ -342,7 +342,7 @@ void AlreadyListenSariaSong_Talk() {
 void TalkWallCrack() {
     if !GameDataActor.EventQueryIsGameDataBool({'GameDataName': 'GoronCity_LostWood_WallCrack_Broke', 'Index': -1}) {
         if !GameDataActor.EventQueryIsGameDataBool({'GameDataName': 'HaveTalked_Special.Npc_Goron_003_Child_TalkWallCrack_Event92', 'Index': -1}) {
-            return 3183434736
+            return fnv1a("else")
         } else {
             Npc_Goron_003_Child.EventTriggerLookAtObject({'WorldPos': [0.0, 0.0, 0.0], 'PosOffset': [0.0, 0.0, 0.0], 'Direction': 0.0, 'OffsetBase': 0, 'ResetArriveTransformFixed': False, 'Target': 5, 'InstanceName': 'NpcGoron003_TurnTarget', 'ActorName': 'DestinationAnchor'})
             Npc_Goron_003_Child.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ASName': '', 'ChoiceLabel2': 2, 'ChoiceLabel3': 3, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'MessageId': 'EventFlowMsg/Npc_Goron_003_Child:Talk_31', 'MaintainPerformanceState': 0})
@@ -352,13 +352,13 @@ void TalkWallCrack() {
             EventSystemActor.EventWait({'Frames': 1, 'IsWaitEnd': True})
             switch Npc_EventStarter.EventQueryAIScheduleGetReceiveInterestTypeAll() {
               case [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42]:
-                return 1561583977
+                return 0x5d13e169
               case 31:
-                return 3183434736
+                return fnv1a("else")
             }
         }
     } else {
-        return 3183434736
+        return fnv1a("else")
     }
 }
 

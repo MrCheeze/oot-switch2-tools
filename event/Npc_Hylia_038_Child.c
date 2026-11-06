@@ -60,7 +60,7 @@ void BombTalk() {
     switch Npc_EventStarter.EventQueryAIScheduleCheckActorActionAll() {
       case 0:
         switchcall NpcCommon.Truth_MaskOnly_Talk_Common_NoInitTalk({'Mask_Truth_Talk': 'EventFlowMsg/Npc_Hylia_038_Child:Mask_05_02', 'ASName': 'TalkMonolog'}) {
-          case 508094545:
+          case 0x1e48e851:
             if !Npc_EventStarter.EventQueryAvoidDuplicationRandomChoice2() {
                 Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MessageId': 'EventFlowMsg/Npc_Hylia_038_Child:Talk_106', 'MaintainPerformanceState': 0})
             } else {
@@ -106,7 +106,7 @@ void BombTalk() {
         GameSystemActor.EventTriggerSendErrorToEventResource({'Title': '通るはずのないフロー'})
       case 24:
         switchcall NpcCommon.Truth_MaskOnly_Talk_Common_NoInitTalk({'Mask_Truth_Talk': 'EventFlowMsg/Npc_Hylia_038_Child:Mask_05_02', 'ASName': 'TalkMonolog'}) {
-          case 508094545:
+          case 0x1e48e851:
             if !Npc_EventStarter.EventQueryAvoidDuplicationRandomChoice2() {
                 Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MessageId': 'EventFlowMsg/Npc_Hylia_038_Child:Talk_107', 'MaintainPerformanceState': 0})
             } else {
@@ -120,7 +120,7 @@ void GetStones() {
     switch Npc_EventStarter.EventQueryAIScheduleCheckActorActionAll() {
       case 0:
         switchcall NpcCommon.Truth_MaskOnly_Talk_Common_NoInitTalk({'Mask_Truth_Talk': 'EventFlowMsg/Npc_Hylia_038_Child:Mask_05_02', 'ASName': 'TalkMonolog'}) {
-          case 508094545:
+          case 0x1e48e851:
             if !Npc_EventStarter.EventQueryAvoidDuplicationRandomChoice2() {
                 Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MessageId': 'EventFlowMsg/Npc_Hylia_038_Child:Talk_205', 'MaintainPerformanceState': 0})
             } else {
@@ -151,7 +151,7 @@ void GetStones() {
         GameSystemActor.EventTriggerSendErrorToEventResource({'Title': '通るはずのないフロー'})
       case 24:
         switchcall NpcCommon.Truth_MaskOnly_Talk_Common_NoInitTalk({'Mask_Truth_Talk': 'EventFlowMsg/Npc_Hylia_038_Child:Mask_05_02', 'ASName': 'TalkMonolog'}) {
-          case 508094545:
+          case 0x1e48e851:
             if !Npc_EventStarter.EventQueryAvoidDuplicationRandomChoice2() {
                 Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MessageId': 'EventFlowMsg/Npc_Hylia_038_Child:Talk_206', 'MaintainPerformanceState': 0})
             } else {
@@ -165,7 +165,7 @@ void NormalTalk() {
     switch Npc_EventStarter.EventQueryAIScheduleCheckActorActionAll() {
       case 0:
         switchcall NpcCommon.Truth_MaskOnly_Talk_Common_NoInitTalk({'Mask_Truth_Talk': 'EventFlowMsg/Npc_Hylia_038_Child:Mask_05_02', 'ASName': 'TalkMonolog'}) {
-          case 508094545:
+          case 0x1e48e851:
             if !Npc_EventStarter.EventQueryAvoidDuplicationRandomChoice2() {
                 Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MessageId': 'EventFlowMsg/Npc_Hylia_038_Child:Talk_06', 'MaintainPerformanceState': 0})
             } else {
@@ -208,7 +208,7 @@ void NormalTalk() {
         GameSystemActor.EventTriggerSendErrorToEventResource({'Title': '通るはずのないフロー'})
       case 24:
         switchcall NpcCommon.Truth_MaskOnly_Talk_Common_NoInitTalk({'Mask_Truth_Talk': 'EventFlowMsg/Npc_Hylia_038_Child:Mask_05_02', 'ASName': 'TalkMonolog'}) {
-          case 508094545:
+          case 0x1e48e851:
             if !Npc_EventStarter.EventQueryAvoidDuplicationRandomChoice2() {
                 Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MessageId': 'EventFlowMsg/Npc_Hylia_038_Child:Talk_07', 'MaintainPerformanceState': 0})
             } else {
@@ -226,10 +226,10 @@ void Mask_Talk() {
         }
     } else {
         switchcall NpcCommon.CheckEquipmentMask() {
-          case 488279774:
+          case 0x1d1a8ede:
             Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChangeMstxtForActor': False, 'ASName': 'TalkMonolog', 'MessageId': 'EventFlowMsg/Npc_Hylia_038_Child:Mask_05', 'NotPlayLipSyncAnim': True, 'IsOverrideStyle': True, 'OverrideStyle': 8, 'MaintainPerformanceState': 0})
             Npc_EventStarter.EventTriggerForceSetMaskTalkFlag({'value': True})
-          case 3745441359:
+          case 0xdf3ee64f:
             if !Player_Event.EventQueryPlayerIsEquipArmor({'ArmorName': 'Armor_Child_Mask_Keaton', 'ArmorSlot': 0}) {
                 Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceLabel4': 0, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChangeMstxtForActor': False, 'MessageId': 'EventFlowMsg/Npc_Hylia_038_Child:Mask_01', 'MaintainPerformanceState': 0})
                 Event87:
@@ -276,7 +276,7 @@ void Mask_Talk() {
                 Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChangeMstxtForActor': False, 'MessageId': 'EventFlowMsg/Npc_Hylia_038_Child:Mask_103', 'MaintainPerformanceState': 0})
                 goto Event70
             }
-          case 1844135360:
+          case 0x6deb45c0:
             goto Event89
         }
     }

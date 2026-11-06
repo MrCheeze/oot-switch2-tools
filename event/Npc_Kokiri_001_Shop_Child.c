@@ -91,13 +91,13 @@ void Talk() {
     } else
     if !GameDataActor.EventQueryIsGameDataBoolExp({'GameDataName': 'Meet_DekuTree_IsAfter_Step02_Exp'}) {
         switchcall present_DekuSheld() {
-          case 1921628046:
+          case 0x7289b78e:
             GameDataActor.EventTriggerSetGameDataInt({'Value': 0, 'Index': -1, 'GameDataName': 'KokiriForest_Shop_FlavorTalk_Int'})
             GameDataActor.EventTriggerSetGameDataBool({'Value': False, 'Index': -1, 'GameDataName': 'KokiriForest_Shop_Talking'})
 
             call DisplayShop.DisplayShop_FinishSetting_LinkPosition()
 
-          case 231157969:
+          case 0x0dc730d1:
             if !GameDataActor.EventQueryIsGameDataBool({'Index': -1, 'GameDataName': 'Npc_Kokiri_001_Shop_Child_Talk_Arrival'}) {
                 goto Event31
             } else {
@@ -239,10 +239,10 @@ void Choices() {
 
       case 2:
         switchcall DisplayShop.DisplayShop_ZeldaNotes_Flow() {
-          case 1655997989:
+          case 0x62b48625:
             Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChangeMstxtForActor': True, 'ChoiceLabel3': 0, 'ChoiceNumber': 4, 'MessageId': 'EventFlowMsg/Npc_Kokiri_001_Shop_Child:Shop_52', 'ChoiceLabel1': 9014, 'ChoiceLabel2': 9015, 'ChoiceLabel4': 9016, 'MaintainPerformanceState': 0})
             goto Event48
-          case 2160637662:
+          case 0x80c8b6de:
             goto Event87
         }
       case 3:
@@ -300,7 +300,7 @@ void FlavorTalkFlow_DekuSheldOnly() {
 
 void present_DekuSheld() {
     if !Player_Event.EventQueryPlayerIsEquipWeapon({'ArmorName': 'Weapon_Shield_Deku', 'WeaponSlot': 4}) {
-        return 231157969
+        return 0x0dc730d1
     } else
     if !GameDataActor.EventQueryIsGameDataBool({'Index': -1, 'GameDataName': 'HaveTalked_Npc_Kokiri_001_Shop_Child_PresentDekuShield'}) {
         Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceLabel4': 0, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'MessageId': 'EventFlowMsg/Npc_Kokiri_001_Shop_Child:Talk_0102', 'MaintainPerformanceState': 0})
@@ -309,7 +309,7 @@ void present_DekuSheld() {
 
         Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceLabel4': 0, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'MessageId': 'EventFlowMsg/Npc_Kokiri_001_Shop_Child:Talk_0103', 'MaintainPerformanceState': 0})
         Event81:
-        return 1921628046
+        return 0x7289b78e
     } else {
         Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceLabel4': 0, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'MessageId': 'EventFlowMsg/Npc_Kokiri_001_Shop_Child:Talk_0100', 'MaintainPerformanceState': 0})
 

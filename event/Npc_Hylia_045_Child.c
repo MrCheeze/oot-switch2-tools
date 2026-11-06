@@ -169,7 +169,7 @@ void Goodbye() {
 void Mask_All() {
     if !Player_Event.EventQueryPlayerIsEquipArmor({'ArmorSlot': 0, 'ArmorName': 'Armor_Child_GlassTruth'}) {
         switchcall Npc_Hylia_045_Adult.CheckFrontToTarget_30({'Npc_EventStarter': ActorIdentifier(name="Npc_EventStarter")}) {
-          case 1358716831:
+          case 0x50fc5f9f:
 
             call InitTalk.InitTalk({'Arg_Greeting': 4, 'Arg_Turn': 4})
 
@@ -179,7 +179,7 @@ void Mask_All() {
                 Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MessageId': 'EventFlowMsg/Npc_Hylia_045_Child:GlassTruth', 'MaintainPerformanceState': 0})
                 Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MessageId': 'EventFlowMsg/Npc_Hylia_045_Child:Mask_09', 'MaintainPerformanceState': 0})
             }
-          case 1341939212:
+          case 0x4ffc5e0c:
 
             call InitTalk.InitTalk({'Arg_Greeting': 4, 'Arg_Turn': 3})
 
@@ -188,12 +188,12 @@ void Mask_All() {
     } else
     if !Npc_EventStarter.EventNPCQueryCheckTargetActorForLookIK({'InstanceName': '', 'ActorName': 'Player_Event'}) {
         switchcall Mask_Talk() {
-          case 4151362380:
+          case fnv1a("Mask_Talk"):
             Npc_EventStarter.EventNPCTurnToTarget({'Target': 2, 'IsConfront': False, 'IsWaitEnd': True, 'FaceControlType': 1, 'ActorName': '', 'InstanceName': '', 'WorldPos': [0.0, 0.0, 0.0], 'PosOffset': [0.0, 0.0, 0.0], 'Direction': 0.0, 'OffsetBase': 0, 'LookingControllerName': '', 'LookIKParameterVariationName': '', 'IsReleaseThreaten': False, 'EnableAutomaticallyPlayWaitASAfterTurn': True})
         }
     } else {
         switchcall Mask_Talk() {
-          case 4151362380:
+          case fnv1a("Mask_Talk"):
             Npc_EventStarter.EventNPCTurnToTarget({'Target': 2, 'IsConfront': False, 'IsWaitEnd': True, 'FaceControlType': 1, 'ActorName': '', 'InstanceName': '', 'WorldPos': [0.0, 0.0, 0.0], 'PosOffset': [0.0, 0.0, 0.0], 'Direction': 0.0, 'OffsetBase': 0, 'LookingControllerName': '', 'LookIKParameterVariationName': '', 'IsReleaseThreaten': False, 'EnableAutomaticallyPlayWaitASAfterTurn': True})
             Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MessageId': 'EventFlowMsg/Npc_Hylia_045_Child:Mask_10', 'MaintainPerformanceState': 0})
         }
@@ -202,37 +202,37 @@ void Mask_All() {
 
 void Mask_Talk() {
     switchcall Npc_Hylia_045_Adult.CheckFrontToTarget_30({'Npc_EventStarter': ActorIdentifier(name="Npc_EventStarter")}) {
-      case 1358716831:
+      case 0x50fc5f9f:
         if !Npc_EventStarter.EventNPCQueryCheckTargetActorForLookIK({'InstanceName': '', 'ActorName': 'Player_Event'}) {
             switchcall NpcCommon.Mask_Talk_Common_With_InitTalk({'Arg_Turn_For_IgnoreMaskTalk': 4, 'Arg_Turn_For_MaskTalk': 4, 'Mask_Keaton_Talk': 'EventFlowMsg/Npc_Hylia_045_Child:Mask_01', 'Mask_Skull_Talk': 'EventFlowMsg/Npc_Hylia_045_Child:Mask_02', 'Mask_Spooky_Talk': 'EventFlowMsg/Npc_Hylia_045_Child:Mask_03', 'Mask_Bunny_Talk': 'EventFlowMsg/Npc_Hylia_045_Child:Mask_04', 'Mask_Goron_Talk': 'EventFlowMsg/Npc_Hylia_045_Child:Mask_06', 'Mask_Zora_Talk': 'EventFlowMsg/Npc_Hylia_045_Child:Mask_07', 'Mask_Gerudo_Talk': 'EventFlowMsg/Npc_Hylia_045_Child:Mask_08', 'ChangeTheTopic_Talk': 'EventFlowMsg/Npc_Hylia_045_Child:Mask_09', 'ASName': 'TalkMonolog', 'Mask_Amiibo00_Talk': 'EventFlowMsg/Npc_Hylia_045_Child:Mask_101', 'Mask_Amiibo01_Talk': 'EventFlowMsg/Npc_Hylia_045_Child:Mask_102', 'Mask_Amiibo02_Talk': 'EventFlowMsg/Npc_Hylia_045_Child:Mask_103', 'Mask_Truth_Talk': 'EventFlowMsg/Npc_Hylia_045_Child:Mask_05_01'}) {
-              case 4205900657:
+              case 0xfab0f371:
                 Event64:
-                return 4151362380
-              case 4155567800:
+                return fnv1a("Mask_Talk")
+              case 0xf7b0eeb8:
                 Event72:
-                return 2799305849
+                return 0xa6da0479
             }
         } else {
             switchcall NpcCommon.Mask_Talk_Common_With_InitTalk({'Arg_Turn_For_IgnoreMaskTalk': 4, 'Arg_Turn_For_MaskTalk': 4, 'Mask_Keaton_Talk': 'EventFlowMsg/Npc_Hylia_045_Child:Mask_01', 'Mask_Skull_Talk': 'EventFlowMsg/Npc_Hylia_045_Child:Mask_02', 'Mask_Spooky_Talk': 'EventFlowMsg/Npc_Hylia_045_Child:Mask_03', 'Mask_Bunny_Talk': 'EventFlowMsg/Npc_Hylia_045_Child:Mask_04', 'Mask_Truth_Talk': 'EventFlowMsg/Npc_Hylia_045_Child:Mask_05', 'Mask_Goron_Talk': 'EventFlowMsg/Npc_Hylia_045_Child:Mask_06', 'Mask_Zora_Talk': 'EventFlowMsg/Npc_Hylia_045_Child:Mask_07', 'Mask_Gerudo_Talk': 'EventFlowMsg/Npc_Hylia_045_Child:Mask_08', 'ChangeTheTopic_Talk': 'EventFlowMsg/Npc_Hylia_045_Child:Mask_09', 'ASName': 'TalkMonolog', 'Mask_Amiibo00_Talk': 'EventFlowMsg/Npc_Hylia_045_Child:Mask_101', 'Mask_Amiibo01_Talk': 'EventFlowMsg/Npc_Hylia_045_Child:Mask_102', 'Mask_Amiibo02_Talk': 'EventFlowMsg/Npc_Hylia_045_Child:Mask_103'}) {
-              case 4205900657:
+              case 0xfab0f371:
                 goto Event64
-              case 4155567800:
+              case 0xf7b0eeb8:
                 goto Event72
             }
         }
-      case 1341939212:
+      case 0x4ffc5e0c:
         if !Npc_EventStarter.EventNPCQueryCheckTargetActorForLookIK({'InstanceName': '', 'ActorName': 'Player_Event'}) {
             switchcall NpcCommon.Mask_Talk_Common_With_InitTalk({'Mask_Keaton_Talk': 'EventFlowMsg/Npc_Hylia_045_Child:Mask_01', 'Mask_Skull_Talk': 'EventFlowMsg/Npc_Hylia_045_Child:Mask_02', 'Mask_Spooky_Talk': 'EventFlowMsg/Npc_Hylia_045_Child:Mask_03', 'Mask_Bunny_Talk': 'EventFlowMsg/Npc_Hylia_045_Child:Mask_04', 'Mask_Goron_Talk': 'EventFlowMsg/Npc_Hylia_045_Child:Mask_06', 'Mask_Zora_Talk': 'EventFlowMsg/Npc_Hylia_045_Child:Mask_07', 'Mask_Gerudo_Talk': 'EventFlowMsg/Npc_Hylia_045_Child:Mask_08', 'ChangeTheTopic_Talk': 'EventFlowMsg/Npc_Hylia_045_Child:Mask_09', 'ASName': 'TalkMonolog', 'Mask_Amiibo00_Talk': 'EventFlowMsg/Npc_Hylia_045_Child:Mask_101', 'Mask_Amiibo01_Talk': 'EventFlowMsg/Npc_Hylia_045_Child:Mask_102', 'Mask_Amiibo02_Talk': 'EventFlowMsg/Npc_Hylia_045_Child:Mask_103', 'Mask_Truth_Talk': 'EventFlowMsg/Npc_Hylia_045_Child:Mask_05_01', 'Arg_Turn_For_IgnoreMaskTalk': 3, 'Arg_Turn_For_MaskTalk': 3}) {
-              case 4205900657:
+              case 0xfab0f371:
                 goto Event64
-              case 4155567800:
+              case 0xf7b0eeb8:
                 goto Event72
             }
         } else {
             switchcall NpcCommon.Mask_Talk_Common_With_InitTalk({'Mask_Keaton_Talk': 'EventFlowMsg/Npc_Hylia_045_Child:Mask_01', 'Mask_Skull_Talk': 'EventFlowMsg/Npc_Hylia_045_Child:Mask_02', 'Mask_Spooky_Talk': 'EventFlowMsg/Npc_Hylia_045_Child:Mask_03', 'Mask_Bunny_Talk': 'EventFlowMsg/Npc_Hylia_045_Child:Mask_04', 'Mask_Truth_Talk': 'EventFlowMsg/Npc_Hylia_045_Child:Mask_05', 'Mask_Goron_Talk': 'EventFlowMsg/Npc_Hylia_045_Child:Mask_06', 'Mask_Zora_Talk': 'EventFlowMsg/Npc_Hylia_045_Child:Mask_07', 'Mask_Gerudo_Talk': 'EventFlowMsg/Npc_Hylia_045_Child:Mask_08', 'ChangeTheTopic_Talk': 'EventFlowMsg/Npc_Hylia_045_Child:Mask_09', 'ASName': 'TalkMonolog', 'Mask_Amiibo00_Talk': 'EventFlowMsg/Npc_Hylia_045_Child:Mask_101', 'Mask_Amiibo01_Talk': 'EventFlowMsg/Npc_Hylia_045_Child:Mask_102', 'Mask_Amiibo02_Talk': 'EventFlowMsg/Npc_Hylia_045_Child:Mask_103', 'Arg_Turn_For_IgnoreMaskTalk': 3, 'Arg_Turn_For_MaskTalk': 3}) {
-              case 4205900657:
+              case 0xfab0f371:
                 goto Event64
-              case 4155567800:
+              case 0xf7b0eeb8:
                 goto Event72
             }
         }
@@ -243,7 +243,7 @@ void DivingChallenge_Common() {
     if !GameDataActor.EventQueryIsGameDataBool({'GameDataName': 'Npc_Hylia_045_DivingChallengeTalk_MaskReaction', 'Index': -1}) {
         if !GameDataActor.EventQueryIsGameDataBool({'Index': -1, 'GameDataName': 'Npc_Hylia_045_HasDived'}) {
             switchcall DivingChallenge_Common_Talk_With_InitTalk({'Npc_EventStarter': 'Npc_EventStarter', 'LookAtTargetActor': 'LookAtTargetActor', 'MessageId': 'EventFlowMsg/Npc_Hylia_045_Child:Talk_104'}) {
-              case 622474979:
+              case 0x251a36e3:
                 Event186:
                 if !Player_Event.EventQueryPlayerIsChild() {
                     if !GameDataActor.EventQueryIsGameDataBool({'Index': -1, 'GameDataName': 'Npc_Hylia_045_DivingChallenge_IsOncedTouchtheBottom_Child'}) {
@@ -268,7 +268,7 @@ void DivingChallenge_Common() {
                     goto Event197
                 }
                 goto Event108
-              case [1481217705, 4050051088, 1865849498]:
+              case [0x584996a9, 0xf166e010, 0x6f369a9a]:
                 Event185:
                 if !Player_Event.EventQueryPlayerIsChild() {
                     if !GameDataActor.EventQueryIsGameDataBool({'Index': -1, 'GameDataName': 'Npc_Hylia_045_DivingChallenge_IsOncedTouchtheBottom_Child'}) {
@@ -286,7 +286,7 @@ void DivingChallenge_Common() {
                     goto Event110
                 }
                 goto Event108
-              case 2696799221:
+              case 0xa0bde3f5:
                 Event146:
                 if !Player_Event.EventQueryPlayerIsChild() {
                     GameDataActor.EventTriggerSetGameDataBool({'Index': -1, 'GameDataName': 'Npc_Hylia_045_DivingChallenge_TouchtheBottom_Child', 'Value': True})
@@ -300,7 +300,7 @@ void DivingChallenge_Common() {
             }
         } else {
             switchcall DivingChallenge_Common_Talk_With_InitTalk({'Npc_EventStarter': 'Npc_EventStarter', 'LookAtTargetActor': 'LookAtTargetActor', 'MessageId': 'EventFlowMsg/Npc_Hylia_045_Child:Talk_103'}) {
-              case 622474979:
+              case 0x251a36e3:
                 Event103:
                 Npc_EventStarter[DivingChallenge_Common(Npc_EventStarter)].EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MaintainPerformanceState': 0, 'MessageId': 'EventFlowMsg/Npc_Hylia_045_Child:Talk_109'})
                 Event184:
@@ -331,19 +331,19 @@ void DivingChallenge_Common() {
                     Npc_EventStarter[DivingChallenge_Common(Npc_EventStarter)].EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MessageId': 'EventFlowMsg/Npc_Hylia_045_Child:Talk_10', 'MaintainPerformanceState': 0})
                     goto Event100
                 }
-              case 1481217705:
+              case 0x584996a9:
                 Event77:
                 Npc_EventStarter[DivingChallenge_Common(Npc_EventStarter)].EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MessageId': 'EventFlowMsg/Npc_Hylia_045_Child:Talk_100', 'MaintainPerformanceState': 0})
                 goto Event184
-              case 4050051088:
+              case 0xf166e010:
                 Event87:
                 Npc_EventStarter[DivingChallenge_Common(Npc_EventStarter)].EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MessageId': 'EventFlowMsg/Npc_Hylia_045_Child:Talk_101', 'MaintainPerformanceState': 0})
                 goto Event184
-              case 1865849498:
+              case 0x6f369a9a:
                 Event79:
                 Npc_EventStarter[DivingChallenge_Common(Npc_EventStarter)].EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MessageId': 'EventFlowMsg/Npc_Hylia_045_Child:Talk_102', 'MaintainPerformanceState': 0})
                 goto Event184
-              case 2696799221:
+              case 0xa0bde3f5:
                 Event14:
                 Npc_EventStarter[DivingChallenge_Common(Npc_EventStarter)].EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ASName': 'Handover', 'MaintainPerformanceState': 0, 'MessageId': 'EventFlowMsg/Npc_Hylia_045_Child:Talk_111'})
 
@@ -392,24 +392,24 @@ void DivingChallenge_Common() {
                         Event6:
                         if !GameDataActor.EventQueryIsGameDataBool({'Index': -1, 'GameDataName': 'Npc_Hylia_045_HasDived'}) {
                             switchcall DivingChallenge_Common_Talk({'Npc_EventStarter': 'Npc_EventStarter', 'LookAtTargetActor': 'LookAtTargetActor', 'MessageId': 'EventFlowMsg/Npc_Hylia_045_Child:Talk_104'}) {
-                              case 622474979:
+                              case 0x251a36e3:
                                 goto Event186
-                              case [1481217705, 4050051088, 1865849498]:
+                              case [0x584996a9, 0xf166e010, 0x6f369a9a]:
                                 goto Event185
-                              case 2696799221:
+                              case 0xa0bde3f5:
                                 goto Event146
                             }
                         } else {
                             switchcall DivingChallenge_Common_Talk({'Npc_EventStarter': 'Npc_EventStarter', 'LookAtTargetActor': 'LookAtTargetActor', 'MessageId': 'EventFlowMsg/Npc_Hylia_045_Child:Talk_103'}) {
-                              case 622474979:
+                              case 0x251a36e3:
                                 goto Event103
-                              case 1481217705:
+                              case 0x584996a9:
                                 goto Event77
-                              case 4050051088:
+                              case 0xf166e010:
                                 goto Event87
-                              case 1865849498:
+                              case 0x6f369a9a:
                                 goto Event79
-                              case 2696799221:
+                              case 0xa0bde3f5:
                                 goto Event14
                             }
                         }
@@ -484,26 +484,26 @@ void DivingChallenge_Common_Talk() {
     switch GameDataActor.EventQueryIsGameDataInt({'GameDataName': 'Npc_Hylia_045_DepthOfDiving', 'Index': -1, 'Value': 9}) {
       case 0:
         if !GameDataActor.EventQueryIsGameDataBool({'GameDataName': 'Npc_Hylia_045_DivingChallenge_SinkWithHeavyBoots', 'Index': -1}) {
-            return 622474979
+            return 0x251a36e3
         } else
         switch GameDataActor.EventQueryIsGameDataInt({'GameDataName': 'Npc_Hylia_045_DepthOfDiving', 'Value': 3, 'Index': -1}) {
           case [0, 1]:
             Npc_EventStarter[DivingChallenge_Common_Talk(Npc_EventStarter)].EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MessageId': 'EventFlowMsg/Npc_Hylia_045_Child:Talk_105', 'MaintainPerformanceState': 0})
-            return 1481217705
+            return 0x584996a9
           case 2:
             switch GameDataActor.EventQueryIsGameDataInt({'GameDataName': 'Npc_Hylia_045_DepthOfDiving', 'Index': -1, 'Value': 6}) {
               case 0:
                 Npc_EventStarter[DivingChallenge_Common_Talk(Npc_EventStarter)].EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MessageId': 'EventFlowMsg/Npc_Hylia_045_Child:Talk_105', 'MaintainPerformanceState': 0})
-                return 4050051088
+                return 0xf166e010
               case [1, 2]:
                 switch GameDataActor.EventQueryIsGameDataInt({'GameDataName': 'Npc_Hylia_045_DepthOfDiving', 'Index': -1, 'Value': 9}) {
                   case 0:
                     Npc_EventStarter[DivingChallenge_Common_Talk(Npc_EventStarter)].EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MessageId': 'EventFlowMsg/Npc_Hylia_045_Child:Talk_105', 'MaintainPerformanceState': 0})
-                    return 1865849498
+                    return 0x6f369a9a
                   case [1, 2]:
                     Event159:
                     Npc_EventStarter[DivingChallenge_Common_Talk(Npc_EventStarter)].EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MessageId': 'MessageId', 'MaintainPerformanceState': 0})
-                    return 2696799221
+                    return 0xa0bde3f5
                 }
             }
         }
@@ -519,7 +519,7 @@ void DivingChallenge_Common_Talk_With_InitTalk() {
 
             call InitTalk.InitTalk_OnEvent({'Arg_Turn': 4, 'Arg_Actor': 'Npc_EventStarter', 'Arg_Greeting': 3, 'ActorNameA': 'LookAtTargetActor', 'InstanceNameA': ''})
 
-            return 622474979
+            return 0x251a36e3
         } else
         switch GameDataActor.EventQueryIsGameDataInt({'GameDataName': 'Npc_Hylia_045_DepthOfDiving', 'Value': 3, 'Index': -1}) {
           case [0, 1]:
@@ -527,7 +527,7 @@ void DivingChallenge_Common_Talk_With_InitTalk() {
             call InitTalk.InitTalk_OnEvent({'Arg_Turn': 4, 'Arg_Actor': 'Npc_EventStarter', 'Arg_Greeting': 3, 'ActorNameA': 'LookAtTargetActor', 'InstanceNameA': ''})
 
             Npc_EventStarter[DivingChallenge_Common_Talk_With_InitTalk(Npc_EventStarter)].EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MessageId': 'EventFlowMsg/Npc_Hylia_045_Child:Talk_105', 'MaintainPerformanceState': 0})
-            return 1481217705
+            return 0x584996a9
           case 2:
             switch GameDataActor.EventQueryIsGameDataInt({'GameDataName': 'Npc_Hylia_045_DepthOfDiving', 'Index': -1, 'Value': 6}) {
               case 0:
@@ -535,7 +535,7 @@ void DivingChallenge_Common_Talk_With_InitTalk() {
                 call InitTalk.InitTalk_OnEvent({'Arg_Turn': 4, 'Arg_Actor': 'Npc_EventStarter', 'Arg_Greeting': 3, 'ActorNameA': 'LookAtTargetActor', 'InstanceNameA': ''})
 
                 Npc_EventStarter[DivingChallenge_Common_Talk_With_InitTalk(Npc_EventStarter)].EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MessageId': 'EventFlowMsg/Npc_Hylia_045_Child:Talk_105', 'MaintainPerformanceState': 0})
-                return 4050051088
+                return 0xf166e010
               case [1, 2]:
                 switch GameDataActor.EventQueryIsGameDataInt({'GameDataName': 'Npc_Hylia_045_DepthOfDiving', 'Index': -1, 'Value': 9}) {
                   case 0:
@@ -543,14 +543,14 @@ void DivingChallenge_Common_Talk_With_InitTalk() {
                     call InitTalk.InitTalk_OnEvent({'Arg_Turn': 4, 'Arg_Actor': 'Npc_EventStarter', 'Arg_Greeting': 3, 'ActorNameA': 'LookAtTargetActor', 'InstanceNameA': ''})
 
                     Npc_EventStarter[DivingChallenge_Common_Talk_With_InitTalk(Npc_EventStarter)].EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MessageId': 'EventFlowMsg/Npc_Hylia_045_Child:Talk_105', 'MaintainPerformanceState': 0})
-                    return 1865849498
+                    return 0x6f369a9a
                   case [1, 2]:
                     Event97:
 
                     call InitTalk.InitTalk_OnEvent({'Arg_Turn': 4, 'Arg_Actor': 'Npc_EventStarter', 'Arg_Greeting': 3, 'ActorNameA': 'LookAtTargetActor', 'InstanceNameA': ''})
 
                     Npc_EventStarter[DivingChallenge_Common_Talk_With_InitTalk(Npc_EventStarter)].EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MessageId': 'MessageId', 'MaintainPerformanceState': 0})
-                    return 2696799221
+                    return 0xa0bde3f5
                 }
             }
         }

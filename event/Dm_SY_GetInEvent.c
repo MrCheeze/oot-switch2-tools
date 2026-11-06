@@ -1192,34 +1192,34 @@ void GetInEvent_Animation_BombBag() {
 
     fork {
         switchcall GetInEvent_BombBag_NearWallCheck() {
-          case 3315101614:
+          case 0xc5986fae:
             EventCamera.EventMoveToTargetPosCamera({'IsWaitEnd': True, 'StartAccelerateRate': 0.0, 'EndRecelerateRate': 0.0, 'IsLinearMove': False, 'CameraCollisionLookAtActorOffset': [0.0, 1.5, 0.0], 'CameraCollisionMode': 1, 'PosVectorSetType': 3, 'Actor1ActorName': 'Dm_Locator', 'Actor2ActorName': 'Player_Event', 'AtVectorSetType': 4, 'Actor1InstanceName': '', 'Actor2InstanceName': '', 'IsIgnorePosVectorReferenceActorRot': False, 'IsPosVectorReferenceActorPosOnce': False, 'PosVector': [0.0, 0.0, 0.0], 'IsIgnoreAtVectorReferenceActorRot': False, 'IsAtVectorReferenceActorPosOnce': False, 'LookAtDis': -1.0, 'FovySetType': 0, 'MoveTotargetPosType': 0, 'CameraCollisionLookAtActor': 0, 'MoveTime': 0, 'MoveToTargetPosCalcMode': 0, 'MoveTimeLater': 0, 'DelayLater': 0, 'AtVector': [0.0, 1.2000000476837158, 0.0], 'TargetFovy': 44.099998474121094, 'LatShiftRange': 0.0, 'LongShiftRange': 0.0, 'EnableCameraAlpha': True, 'IsEnableRevertFast': False})
-          case 3331879233:
+          case 0xc6987141:
             EventCamera.EventMoveToTargetPosCamera({'IsWaitEnd': True, 'StartAccelerateRate': 0.0, 'EndRecelerateRate': 0.0, 'IsLinearMove': False, 'CameraCollisionLookAtActorOffset': [0.0, 1.5, 0.0], 'CameraCollisionMode': 1, 'PosVectorSetType': 3, 'Actor1ActorName': 'Dm_Locator', 'Actor2ActorName': 'Player_Event', 'AtVectorSetType': 4, 'Actor1InstanceName': '', 'Actor2InstanceName': '', 'IsIgnorePosVectorReferenceActorRot': False, 'IsPosVectorReferenceActorPosOnce': False, 'IsIgnoreAtVectorReferenceActorRot': False, 'IsAtVectorReferenceActorPosOnce': False, 'LookAtDis': -1.0, 'FovySetType': 0, 'MoveTotargetPosType': 0, 'CameraCollisionLookAtActor': 0, 'MoveTime': 0, 'MoveToTargetPosCalcMode': 0, 'MoveTimeLater': 0, 'DelayLater': 0, 'AtVector': [0.0, 1.2000000476837158, 0.0], 'TargetFovy': 44.099998474121094, 'LatShiftRange': 0.0, 'LongShiftRange': 0.0, 'EnableCameraAlpha': True, 'PosVector': [-0.20000000298023224, 0.0, 0.0], 'IsEnableRevertFast': False})
-          case 3281546376:
+          case 0xc3986c88:
             EventCamera.EventMoveToTargetPosCamera({'IsWaitEnd': True, 'StartAccelerateRate': 0.0, 'EndRecelerateRate': 0.0, 'IsLinearMove': False, 'CameraCollisionLookAtActorOffset': [0.0, 1.5, 0.0], 'CameraCollisionMode': 1, 'PosVectorSetType': 3, 'Actor1ActorName': 'Dm_Locator', 'Actor2ActorName': 'Player_Event', 'AtVectorSetType': 4, 'Actor1InstanceName': '', 'Actor2InstanceName': '', 'IsIgnorePosVectorReferenceActorRot': False, 'IsPosVectorReferenceActorPosOnce': False, 'IsIgnoreAtVectorReferenceActorRot': False, 'IsAtVectorReferenceActorPosOnce': False, 'LookAtDis': -1.0, 'FovySetType': 0, 'MoveTotargetPosType': 0, 'CameraCollisionLookAtActor': 0, 'MoveTime': 0, 'MoveToTargetPosCalcMode': 0, 'MoveTimeLater': 0, 'DelayLater': 0, 'AtVector': [0.0, 1.2000000476837158, 0.0], 'TargetFovy': 44.099998474121094, 'LatShiftRange': 0.0, 'LongShiftRange': 0.0, 'EnableCameraAlpha': True, 'PosVector': [0.20000000298023224, 0.0, 0.0], 'IsEnableRevertFast': False})
-          case 3298323995:
+          case 0xc4986e1b:
             EventCamera.EventMoveToTargetPosCamera({'IsWaitEnd': True, 'StartAccelerateRate': 0.0, 'EndRecelerateRate': 0.0, 'IsLinearMove': False, 'CameraCollisionLookAtActorOffset': [0.0, 1.5, 0.0], 'CameraCollisionMode': 1, 'PosVectorSetType': 3, 'Actor1ActorName': 'Dm_Locator', 'Actor2ActorName': 'Player_Event', 'AtVectorSetType': 4, 'Actor1InstanceName': '', 'Actor2InstanceName': '', 'IsIgnorePosVectorReferenceActorRot': False, 'IsPosVectorReferenceActorPosOnce': False, 'IsIgnoreAtVectorReferenceActorRot': False, 'IsAtVectorReferenceActorPosOnce': False, 'LookAtDis': -1.0, 'FovySetType': 0, 'MoveTotargetPosType': 0, 'CameraCollisionLookAtActor': 0, 'MoveTime': 0, 'MoveToTargetPosCalcMode': 0, 'MoveTimeLater': 0, 'DelayLater': 0, 'AtVector': [0.0, 1.2000000476837158, 0.0], 'TargetFovy': 44.099998474121094, 'LatShiftRange': 0.0, 'LongShiftRange': 0.0, 'EnableCameraAlpha': True, 'PosVector': [0.0, 0.0, 0.20000000298023224], 'IsEnableRevertFast': False})
         }
     } {
         switchcall GetInEvent_BombBag_NearWallCheck() {
-          case 3315101614:
+          case 0xc5986fae:
             Event156:
             Player_Event.EventPlayerPlayASForFlowchart({'UseAnmDriven': False, 'KeepOneTimeAnm': False, 'IsWaitEnd': False, 'IsAllSlot': True, 'ASCommand': 'DemoGet_Smile', 'ForceFadeFrame': 0.0, 'ClothWarpMode': -1})
             EventSystemActor.EventWait({'IsWaitEnd': True, 'Frames': 40})
-          case 3331879233:
+          case 0xc6987141:
 
             call GetInEvent_BombBag_PlayerOffset({'PositionOffset': [-0.20000000298023224, 0.0, 0.0], 'ASCommand': 'DemoGet_Smile'})
 
             GameDataActor.EventTriggerSetGameDataInt({'Index': -1, 'GameDataName': 'Npc_Goron_006_Child_PlayerOffsetNum', 'Value': 1})
             goto Event156
-          case 3281546376:
+          case 0xc3986c88:
 
             call GetInEvent_BombBag_PlayerOffset({'PositionOffset': [0.20000000298023224, 0.0, 0.0], 'ASCommand': 'DemoGet_Smile'})
 
             GameDataActor.EventTriggerSetGameDataInt({'Index': -1, 'GameDataName': 'Npc_Goron_006_Child_PlayerOffsetNum', 'Value': 2})
             goto Event156
-          case 3298323995:
+          case 0xc4986e1b:
 
             call GetInEvent_BombBag_PlayerOffset({'PositionOffset': [0.0, 0.0, 0.20000000298023224], 'ASCommand': 'DemoGet_Smile'})
 
@@ -1270,21 +1270,21 @@ void GetInEvent_NotTurn_BombBag() {
     } {
         Player_Event.EventDeleteShowItem({'IsWaitEnd': True, 'IsFadeOut': False, 'IsScaleOut': False, 'ChangeVisibleOffWithRequestDelete': False})
         switchcall GetInEvent_BombBag_CheckOffsetNum() {
-          case 1378885196:
+          case 0x52301e4c:
             Player_Event.EventPlayerPlayASForFlowchart({'ForceFadeFrame': 0.0, 'ClothWarpMode': -1, 'ASCommand': 'EvtTalk', 'UseAnmDriven': False, 'KeepOneTimeAnm': False, 'IsWaitEnd': False, 'IsAllSlot': True})
             Event487:
             Player_Event.EventTriggerPlayerLookAtObject({'TurnFaceControlType': 3, 'WorldPos': [0.0, 0.0, 0.0], 'PosOffset': [0.0, 0.0, 0.0], 'Direction': 0.0, 'Target': 'Target', 'InstanceName': 'NpcInstanceName', 'ActorName': 'NpcActorName'})
-          case 1395662815:
+          case 0x53301fdf:
 
             call GetInEvent_BombBag_PlayerOffset({'PositionOffset': [0.20000000298023224, 0.0, 0.0], 'ASCommand': 'EvtTalk'})
 
             goto Event487
-          case 1412440434:
+          case 0x54302172:
 
             call GetInEvent_BombBag_PlayerOffset({'PositionOffset': [-0.20000000298023224, 0.0, 0.0], 'ASCommand': 'EvtTalk'})
 
             goto Event487
-          case 1429218053:
+          case 0x55302305:
 
             call GetInEvent_BombBag_PlayerOffset({'PositionOffset': [0.0, 0.0, -0.20000000298023224], 'ASCommand': 'EvtTalk'})
 
@@ -1449,15 +1449,15 @@ void AdultDoF() {
 void GetInEvent_BombBag_NearWallCheck() {
     if !GameDataActor.EventQueryIsGameDataBool({'Index': -1, 'GameDataName': 'Npc_Goron_006_Child_NearWallPlayer'}) {
         if !EventCamera.EventQueryCameraCheckOcclusionToTarget({'ActorName1': 'Player_Event', 'VectorSetType1': 3, 'ActorName2': 'Player_Event', 'VectorSetType2': 3, 'Actor1InstanceName': '', 'IsIgnoreVectorReferenceActorRot1': False, 'Actor2InstanceName': '', 'SpaceCheckRadius': 0.0, 'IsIgnoreVectorReferenceActorRot2': False, 'IsEnableSpaceCheck': False, 'Vector1': [0.0, 1.0, 0.0], 'Vector2': [0.5, 1.0, 0.0], 'IsEnableCameraBodyCheck': False, 'IsConsiderWater': False}) {
-            return 3331879233
+            return 0xc6987141
         } else
         if !EventCamera.EventQueryCameraCheckOcclusionToTarget({'ActorName1': 'Player_Event', 'VectorSetType1': 3, 'ActorName2': 'Player_Event', 'VectorSetType2': 3, 'Actor1InstanceName': '', 'IsIgnoreVectorReferenceActorRot1': False, 'Actor2InstanceName': '', 'IsIgnoreVectorReferenceActorRot2': False, 'IsEnableSpaceCheck': False, 'SpaceCheckRadius': 0.0, 'Vector1': [0.0, 1.0, 0.0], 'Vector2': [-0.5, 1.0, 0.0], 'IsEnableCameraBodyCheck': False, 'IsConsiderWater': False}) {
-            return 3281546376
+            return 0xc3986c88
         } else {
-            return 3298323995
+            return 0xc4986e1b
         }
     } else {
-        return 3315101614
+        return 0xc5986fae
     }
 }
 
@@ -1468,15 +1468,15 @@ void GetInEvent_BombBag_PlayerOffset() {
 void GetInEvent_BombBag_CheckOffsetNum() {
     switch GameDataActor.EventQueryIsGameDataInt({'Index': -1, 'GameDataName': 'Npc_Goron_006_Child_PlayerOffsetNum', 'Value': 1}) {
       case 0:
-        return 1378885196
+        return 0x52301e4c
       case 1:
-        return 1395662815
+        return 0x53301fdf
       case 2:
         switch GameDataActor.EventQueryIsGameDataInt({'Index': -1, 'GameDataName': 'Npc_Goron_006_Child_PlayerOffsetNum', 'Value': 3}) {
           case 0:
-            return 1412440434
+            return 0x54302172
           case [1, 2]:
-            return 1429218053
+            return 0x55302305
         }
     }
 }
@@ -1597,24 +1597,24 @@ void TurnGet_SetLocator() {
     switch PouchSystemActor.EventQueryPouchContentGetType({'GameDataName': '', 'ActorName': 'ActorName'}) {
       case 0:
         switchcall IsSpaceTG_Child() {
-          case 1843959928:
+          case fnv1a("Front"):
             Dm_Locator.EventWarpToTargetActor({'TargetActorKind': 1, 'ActorName': 'Player_Event', 'IsWaitEnd': True, 'InstanceName': '', 'YAngle': 0.0, 'OffsetBase': 1, 'ClothWarpMode': -1, 'PositionOffset': [0.0, 1.6200000047683716, 1.9600000381469727]})
-          case [1538531746, 810547195]:
+          case [fnv1a("back"), fnv1a("None")]:
             Dm_Locator.EventWarpToTargetActor({'TargetActorKind': 1, 'ActorName': 'Player_Event', 'IsWaitEnd': True, 'InstanceName': '', 'OffsetBase': 1, 'PositionOffset': [0.0, 1.6200000047683716, -1.9600000381469727], 'ClothWarpMode': -1, 'YAngle': 180.0})
-          case 513712005:
+          case fnv1a("Right"):
             Dm_Locator.EventWarpToTargetActor({'TargetActorKind': 1, 'ActorName': 'Player_Event', 'IsWaitEnd': True, 'InstanceName': '', 'OffsetBase': 1, 'ClothWarpMode': -1, 'PositionOffset': [-1.9600000381469727, 1.6200000047683716, 0.0], 'YAngle': -90.0})
-          case 2457286800:
+          case fnv1a("Left"):
             Dm_Locator.EventWarpToTargetActor({'TargetActorKind': 1, 'ActorName': 'Player_Event', 'IsWaitEnd': True, 'InstanceName': '', 'OffsetBase': 1, 'ClothWarpMode': -1, 'PositionOffset': [1.9600000381469727, 1.6200000047683716, 0.0], 'YAngle': 90.0})
         }
       case [1, 2, 3]:
         switchcall IsSpaceTG_Child() {
-          case 1843959928:
+          case fnv1a("Front"):
             Dm_Locator.EventWarpToTargetActor({'TargetActorKind': 1, 'ActorName': 'Player_Event', 'OffsetBase': 1, 'IsWaitEnd': True, 'InstanceName': '', 'YAngle': 0.0, 'ClothWarpMode': -1, 'PositionOffset': [0.0, 1.9600000381469727, 1.5]})
-          case [1538531746, 810547195]:
+          case [fnv1a("back"), fnv1a("None")]:
             Dm_Locator.EventWarpToTargetActor({'TargetActorKind': 1, 'ActorName': 'Player_Event', 'OffsetBase': 1, 'IsWaitEnd': True, 'InstanceName': '', 'ClothWarpMode': -1, 'YAngle': 180.0, 'PositionOffset': [0.0, 1.9600000381469727, -1.5]})
-          case 513712005:
+          case fnv1a("Right"):
             Dm_Locator.EventWarpToTargetActor({'TargetActorKind': 1, 'ActorName': 'Player_Event', 'OffsetBase': 1, 'IsWaitEnd': True, 'InstanceName': '', 'ClothWarpMode': -1, 'YAngle': -90.0, 'PositionOffset': [-1.5, 1.9600000381469727, 0.0]})
-          case 2457286800:
+          case fnv1a("Left"):
             Dm_Locator.EventWarpToTargetActor({'TargetActorKind': 1, 'ActorName': 'Player_Event', 'OffsetBase': 1, 'IsWaitEnd': True, 'InstanceName': '', 'ClothWarpMode': -1, 'YAngle': 90.0, 'PositionOffset': [1.5, 1.9600000381469727, 0.0]})
         }
     }
@@ -1625,18 +1625,18 @@ void IsSpaceTG_Child() {
         if !EventCamera.EventQueryCameraCheckOcclusionToTarget({'VectorSetType1': 3, 'IsEnableSpaceCheck': True, 'Actor1InstanceName': '', 'IsIgnoreVectorReferenceActorRot1': False, 'Actor2InstanceName': '', 'IsIgnoreVectorReferenceActorRot2': False, 'VectorSetType2': 3, 'ActorName1': 'Player_Event', 'ActorName2': 'Player_Event', 'IsEnableCameraBodyCheck': True, 'Vector1': [-1.5, 1.9600000381469727, 0.0], 'SpaceCheckRadius': 0.25, 'Vector2': [-0.30000001192092896, 1.0, 0.0], 'IsConsiderWater': False}) {
             if !EventCamera.EventQueryCameraCheckOcclusionToTarget({'VectorSetType1': 3, 'IsEnableSpaceCheck': True, 'Actor1InstanceName': '', 'IsIgnoreVectorReferenceActorRot1': False, 'Actor2InstanceName': '', 'IsIgnoreVectorReferenceActorRot2': False, 'VectorSetType2': 3, 'ActorName1': 'Player_Event', 'ActorName2': 'Player_Event', 'Vector1': [1.5, 1.9600000381469727, 0.0], 'SpaceCheckRadius': 0.25, 'IsEnableCameraBodyCheck': True, 'Vector2': [0.30000001192092896, 1.0, 0.0], 'IsConsiderWater': False}) {
                 if !EventCamera.EventQueryCameraCheckOcclusionToTarget({'VectorSetType1': 3, 'IsEnableSpaceCheck': True, 'Actor1InstanceName': '', 'IsIgnoreVectorReferenceActorRot1': False, 'Actor2InstanceName': '', 'IsIgnoreVectorReferenceActorRot2': False, 'VectorSetType2': 3, 'ActorName1': 'Player_Event', 'ActorName2': 'Player_Event', 'IsEnableCameraBodyCheck': True, 'Vector1': [0.0, 1.9600000381469727, 1.5], 'SpaceCheckRadius': 0.25, 'Vector2': [0.0, 1.0, 0.30000001192092896], 'IsConsiderWater': False}) {
-                    return 810547195
+                    return fnv1a("None")
                 } else {
-                    return 1843959928
+                    return fnv1a("Front")
                 }
             } else {
-                return 2457286800
+                return fnv1a("Left")
             }
         } else {
-            return 513712005
+            return fnv1a("Right")
         }
     } else {
-        return 1538531746
+        return fnv1a("back")
     }
 }
 
@@ -1644,15 +1644,15 @@ void IsSpaceTG_Adult_Fado() {
     if !EventCamera.EventQueryCameraCheckOcclusionToTarget({'VectorSetType1': 3, 'IsEnableSpaceCheck': True, 'Actor1InstanceName': '', 'IsIgnoreVectorReferenceActorRot1': False, 'Actor2InstanceName': '', 'IsIgnoreVectorReferenceActorRot2': False, 'VectorSetType2': 3, 'ActorName1': 'Player_Event', 'ActorName2': 'Player_Event', 'Vector1': [0.0, 2.5, 1.5499999523162842], 'IsEnableCameraBodyCheck': True, 'Vector2': [0.0, 2.0, 0.30000001192092896], 'SpaceCheckRadius': 0.30000001192092896, 'IsConsiderWater': False}) {
         if !EventCamera.EventQueryCameraCheckOcclusionToTarget({'VectorSetType1': 3, 'IsEnableSpaceCheck': True, 'Actor1InstanceName': '', 'IsIgnoreVectorReferenceActorRot1': False, 'Actor2InstanceName': '', 'IsIgnoreVectorReferenceActorRot2': False, 'VectorSetType2': 3, 'ActorName1': 'Player_Event', 'ActorName2': 'Player_Event', 'Vector1': [0.0, 2.5, -1.5499999523162842], 'IsEnableCameraBodyCheck': True, 'Vector2': [0.0, 2.0, -0.30000001192092896], 'SpaceCheckRadius': 0.30000001192092896, 'IsConsiderWater': False}) {
             if !EventCamera.EventQueryCameraCheckOcclusionToTarget({'VectorSetType1': 3, 'IsEnableSpaceCheck': True, 'Actor1InstanceName': '', 'IsIgnoreVectorReferenceActorRot1': False, 'Actor2InstanceName': '', 'IsIgnoreVectorReferenceActorRot2': False, 'VectorSetType2': 3, 'ActorName1': 'Player_Event', 'ActorName2': 'Player_Event', 'Vector1': [1.5499999523162842, 2.5, 0.0], 'IsEnableCameraBodyCheck': True, 'Vector2': [0.30000001192092896, 2.0, 0.0], 'SpaceCheckRadius': 0.30000001192092896, 'IsConsiderWater': False}) {
-                return 810547195
+                return fnv1a("None")
             } else {
-                return 2457286800
+                return fnv1a("Left")
             }
         } else {
-            return 1538531746
+            return fnv1a("back")
         }
     } else {
-        return 1843959928
+        return fnv1a("Front")
     }
 }
 
@@ -1661,10 +1661,10 @@ void GetInEvent_NotTurn_Fado() {
     EventCamera.EventTriggerCameraSavePoint()
     Player_Event.EventTriggerPlayerRequestLookAtTheFrontLock({'IsImmediate': False})
     switchcall IsSpaceTG_Adult_Fado() {
-      case 1843959928:
+      case fnv1a("Front"):
         Dm_Locator.EventWarpToTargetActor({'TargetActorKind': 1, 'ActorName': 'Player_Event', 'OffsetBase': 1, 'IsWaitEnd': True, 'InstanceName': '', 'YAngle': 0.0, 'ClothWarpMode': -1, 'PositionOffset': [0.0, 2.6500000953674316, 1.75]})
         goto Event102
-      case [1538531746, 810547195, 2457286800]:
+      case [fnv1a("back"), fnv1a("None"), fnv1a("Left")]:
         Dm_Locator.EventWarpToTargetActor({'TargetActorKind': 1, 'ActorName': 'Player_Event', 'OffsetBase': 1, 'IsWaitEnd': True, 'InstanceName': '', 'ClothWarpMode': -1, 'YAngle': 1.75, 'PositionOffset': [0.5, 2.6500000953674316, 1.75]})
 
         fork {

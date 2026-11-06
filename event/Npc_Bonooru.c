@@ -801,7 +801,7 @@ void MaskTalkFlagReset() {
 
 void Mask_Bonooru() {
     switchcall NpcCommon.CheckEquipmentMask() {
-      case [3745441359, 1844135360]:
+      case [0xdf3ee64f, 0x6deb45c0]:
 
         call NpcCommon.Sub_Mask_Talk_OtherTruthMask_Message({'Mask_Keaton_Talk': 'EventFlowMsg/Npc_Bonooru:Mask_01', 'Mask_Skull_Talk': 'EventFlowMsg/Npc_Bonooru:Mask_02', 'Mask_Spooky_Talk': 'EventFlowMsg/Npc_Bonooru:Mask_03', 'Mask_Bunny_Talk': 'EventFlowMsg/Npc_Bonooru:Mask_04', 'Mask_Goron_Talk': 'EventFlowMsg/Npc_Bonooru:Mask_06', 'Mask_Zora_Talk': 'EventFlowMsg/Npc_Bonooru:Mask_07', 'Mask_Gerudo_Talk': 'EventFlowMsg/Npc_Bonooru:Mask_08', 'Mask_Amiibo00_Talk': 'EventFlowMsg/Npc_Bonooru:Mask_101', 'Mask_Amiibo01_Talk': 'EventFlowMsg/Npc_Bonooru:Mask_102', 'Mask_Amiibo02_Talk': 'EventFlowMsg/Npc_Bonooru:Mask_103', 'ASName': 'Wait'})
 
@@ -809,7 +809,7 @@ void Mask_Bonooru() {
         Event252:
         GameDataActor.EventTriggerSetGameDataBool({'GameDataName': 'HaveTalked_Npc_Bonooru_MaskTalk', 'Index': -1, 'Value': True})
         GameSystemActor.EventWait({'Frames': 1, 'IsWaitEnd': True})
-      case 488279774:
+      case 0x1d1a8ede:
         if !GameDataActor.EventQueryIsGameDataBoolExp({'GameDataName': 'SageOfWater_IsCompleted_Exp'}) {
             if !Npc_EventStarter.EventQueryIsPlayingSameAS({'Partial': '', 'ASName': 'Slow_Dance'}) {
                 switch EventWorldManagerController.EventQueryGreetingTimeDivision() {

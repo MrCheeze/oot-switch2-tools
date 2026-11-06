@@ -113,7 +113,7 @@ void Talk() {
 
 void Talk_GetStones() {
     switchcall InitTalk_Check() {
-      case 4232984809:
+      case 0xfc4e38e9:
 
         call Npc_Hylia_036_ShopCamera()
 
@@ -172,7 +172,7 @@ void Talk_GetStones() {
             }
             goto Event52
         }
-      case 4216207190:
+      case 0xfb4e3756:
 
         call Npc_Hylia_036_ShopCamera_02()
 
@@ -379,7 +379,7 @@ void InitTalk_Check() {
       case 0:
         if !EventWorldManagerController.EventQueryIsCurrentTimeInSpecifiedTimeRange({'StartTime': 4, 'EndTme': 5}) {
             Event150:
-            return 4232984809
+            return 0xfc4e38e9
         } else
         if !EventWorldManagerController.EventQueryIsCurrentTimeInSpecifiedTimeRange({'EndTme': 6, 'StartTime': 5}) {
             goto Event150
@@ -388,7 +388,7 @@ void InitTalk_Check() {
         if !Npc_EventStarter.EventQueryIsOnRecentTalkFlag() {
             goto Event150
         } else {
-            return 4216207190
+            return 0xfb4e3756
         }
       case 1:
         goto Event139

@@ -251,7 +251,7 @@ void Goto_HyruleCastle_AfterMalonAppear() {
         call SubEvent_GetEponaSong.Mask_All()
 
         switchcall NpcCommon.CheckAlreadyMaskTalked() {
-          case 1307241100:
+          case 0x4deaea8c:
             if !Npc_Hylia_Malon_Child.EventQueryIsOnRecentTalkFlag() {
                 Event93:
                 if !PouchSystemActor.EventQueryIsExistInPouch({'Actor': 'Item_AlarmCucco', 'Num': 1}) {
@@ -387,7 +387,7 @@ void Goto_HyruleCastle_AfterMalonAppear() {
                 Npc_Hylia_Malon_Child.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MessageId': 'EventFlowMsg/Npc_Hylia_Malon_Child:Talk_104', 'MaintainPerformanceState': 0})
                 goto Event93
             }
-          case 803420549:
+          case 0x2fe33985:
             goto Event93
         }
     } else

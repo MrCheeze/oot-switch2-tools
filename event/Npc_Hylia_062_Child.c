@@ -304,7 +304,7 @@ void Mask_All() {
     } else
     if !Npc_EventStarter.EventQueryIsPlayingSameAS({'ASName': 'Act_Gazefar', 'Partial': ''}) {
         switchcall Mask_Talk({'ASName': 'Act_Gazefar'}) {
-          case 4151362380:
+          case fnv1a("Mask_Talk"):
             Event88:
             Npc_EventStarter.EventNPCTurnToTarget({'Target': 2, 'IsConfront': False, 'IsWaitEnd': True, 'FaceControlType': 1, 'ActorName': '', 'InstanceName': '', 'WorldPos': [0.0, 0.0, 0.0], 'PosOffset': [0.0, 0.0, 0.0], 'Direction': 0.0, 'OffsetBase': 0, 'LookingControllerName': '', 'LookIKParameterVariationName': '', 'IsReleaseThreaten': False, 'EnableAutomaticallyPlayWaitASAfterTurn': True})
             Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MessageId': 'EventFlowMsg/Npc_Hylia_062_Child:Mask_10', 'MaintainPerformanceState': 0})
@@ -312,18 +312,18 @@ void Mask_All() {
     } else
     if !Npc_EventStarter.EventQueryIsPlayingSameAS({'ASName': 'Act_GazeDown', 'Partial': ''}) {
         switchcall Mask_Talk({'ASName': 'Act_GazeDown'}) {
-          case 4151362380:
+          case fnv1a("Mask_Talk"):
             goto Event88
         }
     } else
     if !Npc_EventStarter.EventQueryIsPlayingSameAS({'Partial': '', 'ASName': 'Act_GazeUp'}) {
         switchcall Mask_Talk({'ASName': 'Act_GazeUp'}) {
-          case 4151362380:
+          case fnv1a("Mask_Talk"):
             goto Event88
         }
     } else {
         switchcall Mask_Talk({'ASName': 'Act_Calm_Wait'}) {
-          case 4151362380:
+          case fnv1a("Mask_Talk"):
             goto Event88
         }
     }
@@ -332,18 +332,18 @@ void Mask_All() {
 void Mask_Talk() {
     if !Npc_EventStarter.EventNPCQueryCheckTargetActorForLookIK({'InstanceName': '', 'ActorName': 'Player_Event'}) {
         switchcall NpcCommon.Mask_Talk_Common_With_InitTalk_NoChangeTheTopic({'Arg_Turn_For_IgnoreMaskTalk': 4, 'Arg_Turn_For_MaskTalk': 4, 'Mask_Keaton_Talk': 'EventFlowMsg/Npc_Hylia_062_Child:Mask_01', 'Mask_Skull_Talk': 'EventFlowMsg/Npc_Hylia_062_Child:Mask_02', 'Mask_Spooky_Talk': 'EventFlowMsg/Npc_Hylia_062_Child:Mask_03', 'Mask_Bunny_Talk': 'EventFlowMsg/Npc_Hylia_062_Child:Mask_04', 'Mask_Goron_Talk': 'EventFlowMsg/Npc_Hylia_062_Child:Mask_06', 'Mask_Zora_Talk': 'EventFlowMsg/Npc_Hylia_062_Child:Mask_07', 'Mask_Gerudo_Talk': 'EventFlowMsg/Npc_Hylia_062_Child:Mask_08', 'Mask_Amiibo00_Talk': 'EventFlowMsg/Npc_Hylia_062_Child:Mask_101', 'Mask_Amiibo01_Talk': 'EventFlowMsg/Npc_Hylia_062_Child:Mask_102', 'Mask_Amiibo02_Talk': 'EventFlowMsg/Npc_Hylia_062_Child:Mask_103', 'ASName': 'ASName', 'Mask_Truth_Talk': 'EventFlowMsg/Npc_Hylia_062_Child:Mask_05_01'}) {
-          case 1183930306:
+          case 0x469157c2:
             Event90:
-            return 4151362380
-          case 1530789637:
+            return fnv1a("Mask_Talk")
+          case 0x5b3dff05:
             Event91:
-            return 2799305849
+            return 0xa6da0479
         }
     } else {
         switchcall NpcCommon.Mask_Talk_Common_With_InitTalk_NoChangeTheTopic({'Arg_Turn_For_IgnoreMaskTalk': 4, 'Arg_Turn_For_MaskTalk': 4, 'Mask_Keaton_Talk': 'EventFlowMsg/Npc_Hylia_062_Child:Mask_01', 'Mask_Skull_Talk': 'EventFlowMsg/Npc_Hylia_062_Child:Mask_02', 'Mask_Spooky_Talk': 'EventFlowMsg/Npc_Hylia_062_Child:Mask_03', 'Mask_Bunny_Talk': 'EventFlowMsg/Npc_Hylia_062_Child:Mask_04', 'Mask_Truth_Talk': 'EventFlowMsg/Npc_Hylia_062_Child:Mask_05', 'Mask_Goron_Talk': 'EventFlowMsg/Npc_Hylia_062_Child:Mask_06', 'Mask_Zora_Talk': 'EventFlowMsg/Npc_Hylia_062_Child:Mask_07', 'Mask_Gerudo_Talk': 'EventFlowMsg/Npc_Hylia_062_Child:Mask_08', 'Mask_Amiibo00_Talk': 'EventFlowMsg/Npc_Hylia_062_Child:Mask_101', 'Mask_Amiibo01_Talk': 'EventFlowMsg/Npc_Hylia_062_Child:Mask_102', 'Mask_Amiibo02_Talk': 'EventFlowMsg/Npc_Hylia_062_Child:Mask_103', 'ASName': 'ASName'}) {
-          case 1183930306:
+          case 0x469157c2:
             goto Event90
-          case 1530789637:
+          case 0x5b3dff05:
             goto Event91
         }
     }
@@ -361,7 +361,7 @@ void Mask_All0() {
         }
     } else {
         switchcall Mask_Talk0() {
-          case 4151362380:
+          case fnv1a("Mask_Talk"):
             switch Npc_EventStarter.EventQueryIsEmotion() {
               case [0, 1, 2, 3, 4]:
                 Event24:
@@ -378,18 +378,18 @@ void Mask_All0() {
 void Mask_Talk0() {
     if !Npc_EventStarter.EventNPCQueryCheckTargetActorForLookIK({'InstanceName': '', 'ActorName': 'Player_Event'}) {
         switchcall NpcCommon.Mask_Talk_Common_With_InitTalk({'Mask_Keaton_Talk': 'EventFlowMsg/Npc_Hylia_062_Child:Mask_01', 'Mask_Skull_Talk': 'EventFlowMsg/Npc_Hylia_062_Child:Mask_02', 'Mask_Spooky_Talk': 'EventFlowMsg/Npc_Hylia_062_Child:Mask_03', 'Mask_Bunny_Talk': 'EventFlowMsg/Npc_Hylia_062_Child:Mask_04', 'Mask_Goron_Talk': 'EventFlowMsg/Npc_Hylia_062_Child:Mask_06', 'Mask_Zora_Talk': 'EventFlowMsg/Npc_Hylia_062_Child:Mask_07', 'Mask_Gerudo_Talk': 'EventFlowMsg/Npc_Hylia_062_Child:Mask_08', 'Mask_Amiibo00_Talk': 'EventFlowMsg/Npc_Hylia_062_Child:Mask_101', 'Mask_Amiibo01_Talk': 'EventFlowMsg/Npc_Hylia_062_Child:Mask_102', 'Mask_Amiibo02_Talk': 'EventFlowMsg/Npc_Hylia_062_Child:Mask_103', 'ChangeTheTopic_Talk': 'EventFlowMsg/Npc_Hylia_062_Child:Mask_09', 'ASName': 'TalkMonolog', 'Mask_Truth_Talk': 'EventFlowMsg/Npc_Hylia_062_Child:Mask_05_01', 'Arg_Turn_For_IgnoreMaskTalk': 2, 'Arg_Turn_For_MaskTalk': 2}) {
-          case 4205900657:
+          case 0xfab0f371:
             Event30:
-            return 4151362380
-          case 4155567800:
+            return fnv1a("Mask_Talk")
+          case 0xf7b0eeb8:
             Event32:
-            return 2799305849
+            return 0xa6da0479
         }
     } else {
         switchcall NpcCommon.Mask_Talk_Common_With_InitTalk({'Mask_Keaton_Talk': 'EventFlowMsg/Npc_Hylia_062_Child:Mask_01', 'Mask_Skull_Talk': 'EventFlowMsg/Npc_Hylia_062_Child:Mask_02', 'Mask_Spooky_Talk': 'EventFlowMsg/Npc_Hylia_062_Child:Mask_03', 'Mask_Bunny_Talk': 'EventFlowMsg/Npc_Hylia_062_Child:Mask_04', 'Mask_Goron_Talk': 'EventFlowMsg/Npc_Hylia_062_Child:Mask_06', 'Mask_Zora_Talk': 'EventFlowMsg/Npc_Hylia_062_Child:Mask_07', 'Mask_Gerudo_Talk': 'EventFlowMsg/Npc_Hylia_062_Child:Mask_08', 'Mask_Amiibo00_Talk': 'EventFlowMsg/Npc_Hylia_062_Child:Mask_101', 'Mask_Amiibo01_Talk': 'EventFlowMsg/Npc_Hylia_062_Child:Mask_102', 'Mask_Amiibo02_Talk': 'EventFlowMsg/Npc_Hylia_062_Child:Mask_103', 'ChangeTheTopic_Talk': 'EventFlowMsg/Npc_Hylia_062_Child:Mask_09', 'ASName': 'TalkMonolog', 'Mask_Truth_Talk': 'EventFlowMsg/Npc_Hylia_062_Child:Mask_05_02', 'Arg_Turn_For_IgnoreMaskTalk': 2, 'Arg_Turn_For_MaskTalk': 2}) {
-          case 4205900657:
+          case 0xfab0f371:
             goto Event30
-          case 4155567800:
+          case 0xf7b0eeb8:
             goto Event32
         }
     }

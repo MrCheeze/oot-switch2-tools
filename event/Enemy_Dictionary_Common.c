@@ -82,7 +82,7 @@ void Dictionary_Rematch() {
     UISystemActor.EventWaitEnemyInfoScreenInput({'IsWaitEnd': True})
     if !GameDataActor.EventQueryIsGameDataBool({'GameDataName': 'EnemyInfo_SelectBattle', 'Index': -1}) {
         UISystemActor.EventCloseEnemyInfoScreen({'IsWaitEnd': True, 'IsWaitClose': True})
-        return 3013883440
+        return fnv1a("Yes")
     } else {
         Player_Event.EventTriggerChangeModelAlphaDrawTiming({'IsPostEffect': True, 'IsPreEffect': False})
         Player_Event.EventTriggerStartFadeIn({'FadeFrame': 5})
@@ -101,7 +101,7 @@ void Dictionary_Rematch() {
         }
 
         EventCamera.EventTriggerSendKeepStateMessageToPlayerCamera({'AfterKeepEndInterpolateCountScale': 1.0, 'ChangeToManualModeAfterEvent': False, 'KeepManualModeFrame': 120.0, 'IsKeepWithRelativePos': False})
-        return 1642511898
+        return fnv1a("No")
     }
 }
 

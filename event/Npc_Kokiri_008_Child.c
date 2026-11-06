@@ -80,7 +80,7 @@ void GameStarted_Talk() {
 
         if !GameDataActor.EventQueryIsGameDataBool({'GameDataName': 'HaveTalked_Special.Npc_Kokiri_008_Child_GameStarted_ChoiceTalk_Event87', 'Index': -1}) {
             switchcall AlreadyPaid_Check() {
-              case 3764903497:
+              case 0xe067de49:
                 Npc_EventStarter.EventTalk({'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChangeMstxtForActor': False, 'IsWaitEnd': True, 'MessageId': 'EventFlowMsg/Npc_Kokiri_008_Child:Talk_42', 'IsAnimeDriven': False, 'MaintainPerformanceState': 0})
                 Event82:
                 Npc_Kokiri_008_Child.EventTalk({'IsCloseDialog': True, 'EndDialogOption': 0, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChangeMstxtForActor': False, 'IsWaitEnd': True, 'IsAnimeDriven': False, 'MessageId': 'EventFlowMsg/Npc_Kokiri_008_Child:Talk_46', 'ASName': '', 'MaintainPerformanceState': 0})
@@ -89,7 +89,7 @@ void GameStarted_Talk() {
                 call PlayAct_Stand_To_Lift_Rock()
 
                 Npc_Kokiri_008_Child.EventTriggerAIScheduleSetForceCancelEventContinueArrivalAS({'Value': False})
-              case 1915009891:
+              case 0x7224bb63:
                 Npc_EventStarter.EventTalk({'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsPlayASAllSlot': False, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChangeMstxtForActor': False, 'IsWaitEnd': True, 'MessageId': 'EventFlowMsg/Npc_Kokiri_008_Child:Talk_42', 'IsAnimeDriven': False, 'ChoiceNumber': 2, 'ChoiceLabel1': 3, 'MaintainPerformanceState': 0})
                 if !GameSystemActor.EventQueryTalkChoice2() {
 
@@ -130,11 +130,11 @@ void GameStarted_Talk() {
         Npc_Kokiri_008_Child.EventTriggerAIScheduleSetForceCancelEventContinueArrivalAS({'Value': False})
     } else {
         switchcall AlreadyPaid_Check() {
-          case 3764903497:
+          case 0xe067de49:
 
             call Before_TalkingMido({'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0})
 
-          case 1915009891:
+          case 0x7224bb63:
 
             call Before_TalkingMido({'ChoiceNumber': 2, 'ChoiceLabel2': 0, 'ChoiceLabel1': 3})
 
@@ -170,11 +170,11 @@ void Goto_HyruleCastle_IsCompleted_Talk() {
         GameDataActor.EventTriggerSetGameDataBool({'GameDataName': 'HaveTalked_Special.Npc_Kokiri_008_Child_Goto_HyruleCastle_IsCompleted_Talk_Event5', 'Value': True, 'Index': -1})
         EventSystemActor.EventWait({'Frames': 2, 'IsWaitEnd': True})
         switchcall NpcCommon.CheckAlreadyMaskTalked() {
-          case 1307241100:
+          case 0x4deaea8c:
             Npc_EventStarter.EventTalk({'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChangeMstxtForActor': False, 'IsWaitEnd': True, 'MessageId': 'EventFlowMsg/Npc_Kokiri_008_Child:Talk_200', 'MaintainPerformanceState': 0})
             Event1:
             Npc_EventStarter.EventTalk({'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChangeMstxtForActor': False, 'IsWaitEnd': True, 'MessageId': 'EventFlowMsg/Npc_Kokiri_008_Child:Talk_208', 'MaintainPerformanceState': 0})
-          case 803420549:
+          case 0x2fe33985:
             goto Event1
         }
     }
@@ -256,9 +256,9 @@ void GameStarted_ChoiceTalk_2nd() {
                     GameDataActor.EventTriggerSetGameDataBool({'GameDataName': 'HaveTalked_Special.Npc_Kokiri_008_Child_GameStarted_ChoiceTalk_Event89', 'Value': True, 'Index': -1})
                     GameDataActor.EventTriggerSetGameDataBool({'GameDataName': 'HaveTalked_Special.Npc_Kokiri_008_Child_GameStarted_ChoiceTalk_Event87', 'Value': True, 'Index': -1})
                     switchcall AlreadyPaid_Check() {
-                      case 3764903497:
+                      case 0xe067de49:
                         Npc_Kokiri_008_Child.EventTalk({'IsCloseDialog': True, 'EndDialogOption': 0, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChangeMstxtForActor': False, 'IsWaitEnd': True, 'IsAnimeDriven': False, 'MessageId': 'EventFlowMsg/Npc_Kokiri_008_Child:Talk_47', 'ASName': '', 'MaintainPerformanceState': 0})
-                      case 1915009891:
+                      case 0x7224bb63:
                         Npc_Kokiri_008_Child.EventTalk({'IsCloseDialog': True, 'EndDialogOption': 0, 'IsPlayASAllSlot': False, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChangeMstxtForActor': False, 'IsWaitEnd': True, 'IsAnimeDriven': False, 'MessageId': 'EventFlowMsg/Npc_Kokiri_008_Child:Talk_47', 'ASName': '', 'ChoiceNumber': 2, 'ChoiceLabel1': 3, 'MaintainPerformanceState': 0})
                         if !GameSystemActor.EventQueryTalkChoice2() {
 
@@ -281,11 +281,11 @@ void GameStarted_ChoiceTalk_2nd() {
         if !GameDataActor.EventQueryIsGameDataBool({'GameDataName': 'HaveTalked_Special.Npc_Kokiri_008_Child_GameStarted_ChoiceTalk_First_Event79', 'Index': -1}) {
             Event197:
             switchcall AlreadyPaid_Check() {
-              case 3764903497:
+              case 0xe067de49:
 
                 call ShieldOnly_Choice()
 
-              case 1915009891:
+              case 0x7224bb63:
 
                 call ShieldAndReward_Choices()
 
@@ -300,11 +300,11 @@ void GameStarted_ChoiceTalk_2nd() {
         if !GameDataActor.EventQueryIsGameDataBool({'GameDataName': 'HaveTalked_Special.Npc_Kokiri_008_Child_GameStarted_ChoiceTalk_Event89', 'Index': -1}) {
             Event196:
             switchcall AlreadyPaid_Check() {
-              case 3764903497:
+              case 0xe067de49:
 
                 call SwordOnly_Choice()
 
-              case 1915009891:
+              case 0x7224bb63:
 
                 call SwordAndReward_Choices()
 
@@ -319,7 +319,7 @@ void GameStarted_ChoiceTalk_2nd() {
     if !GameDataActor.EventQueryIsGameDataBool({'Index': -1, 'GameDataName': 'Npc_Kokiri_008_Child_HaveNoItems'}) {
         Event20:
         switchcall AlreadyPaid_Check() {
-          case 3764903497:
+          case 0xe067de49:
             Npc_EventStarter.EventTalk({'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChangeMstxtForActor': False, 'IsWaitEnd': True, 'ChoiceNumber': 3, 'ChoiceLabel1': 1, 'ChoiceLabel2': 2, 'ChoiceLabel3': 0, 'MessageId': 'EventFlowMsg/Npc_Kokiri_008_Child:Talk_41', 'MaintainPerformanceState': 0})
             Event68:
             switch GameSystemActor.EventQueryTalkChoice3() {
@@ -360,7 +360,7 @@ void GameStarted_ChoiceTalk_2nd() {
                 call Farewell()
 
             }
-          case 1915009891:
+          case 0x7224bb63:
             Npc_EventStarter.EventTalk({'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChangeMstxtForActor': False, 'IsWaitEnd': True, 'MessageId': 'EventFlowMsg/Npc_Kokiri_008_Child:Talk_41', 'ChoiceNumber': 4, 'ChoiceLabel4': 0, 'MaintainPerformanceState': 0, 'ChoiceLabel1': 3, 'ChoiceLabel2': 1, 'ChoiceLabel3': 2})
             switch GameSystemActor.EventQueryTalkChoice4() {
               case 0:
@@ -512,7 +512,7 @@ void Mask_All() {
         }
     } else {
         switchcall Mask_Talk() {
-          case 4151362380:
+          case fnv1a("Mask_Talk"):
             Npc_EventStarter.EventNPCTurnToTarget({'Target': 2, 'IsConfront': False, 'IsWaitEnd': True, 'FaceControlType': 1, 'ActorName': '', 'InstanceName': '', 'WorldPos': [0.0, 0.0, 0.0], 'PosOffset': [0.0, 0.0, 0.0], 'Direction': 0.0, 'OffsetBase': 0, 'LookingControllerName': '', 'LookIKParameterVariationName': '', 'IsReleaseThreaten': False, 'EnableAutomaticallyPlayWaitASAfterTurn': True})
             Npc_EventStarter.EventTriggerKokiriRequestComeCloserFairy()
             Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MessageId': 'EventFlowMsg/Npc_Kokiri_008_Child:Mask_10', 'MaintainPerformanceState': 0})
@@ -522,10 +522,10 @@ void Mask_All() {
 
 void Mask_Talk() {
     switchcall NpcCommon.Mask_Talk_Common_With_InitTalk_KokiriOnly({'Arg_Turn_For_IgnoreMaskTalk': 4, 'Arg_Turn_For_MaskTalk': 4, 'Mask_Keaton_Talk': 'EventFlowMsg/Npc_Kokiri_008_Child:Mask_01', 'Mask_Skull_Talk': 'EventFlowMsg/Npc_Kokiri_008_Child:Mask_02', 'Mask_Spooky_Talk': 'EventFlowMsg/Npc_Kokiri_008_Child:Mask_03', 'Mask_Bunny_Talk': 'EventFlowMsg/Npc_Kokiri_008_Child:Mask_04', 'Mask_Truth_Talk': 'EventFlowMsg/Npc_Kokiri_008_Child:Mask_05', 'Mask_Goron_Talk': 'EventFlowMsg/Npc_Kokiri_008_Child:Mask_06', 'Mask_Zora_Talk': 'EventFlowMsg/Npc_Kokiri_008_Child:Mask_07', 'Mask_Gerudo_Talk': 'EventFlowMsg/Npc_Kokiri_008_Child:Mask_08', 'ChangeTheTopic_Talk': 'EventFlowMsg/Npc_Kokiri_008_Child:Mask_09', 'Mask_Amiibo00_Talk': 'EventFlowMsg/Npc_Kokiri_008_Child:Mask_101', 'Mask_Amiibo01_Talk': 'EventFlowMsg/Npc_Kokiri_008_Child:Mask_102', 'Mask_Amiibo02_Talk': 'EventFlowMsg/Npc_Kokiri_008_Child:Mask_103', 'ASName': 'TalkMonolog'}) {
-      case 4205900657:
-        return 4151362380
-      case 4155567800:
-        return 2799305849
+      case 0xfab0f371:
+        return fnv1a("Mask_Talk")
+      case 0xf7b0eeb8:
+        return 0xa6da0479
     }
 }
 
@@ -573,9 +573,9 @@ void AlreadyPaid_Check() {
     if !GameDataActor.EventQueryIsGameDataBool({'Index': -1, 'GameDataName': 'KokiriForest_Npc_Kokiri_008_Child_LiftRock_AllBroken'}) {
         if !GameDataActor.EventQueryIsGameDataBool({'Index': -1, 'GameDataName': 'KokiriForest_Npc_Kokiri_008_Child_AlreadyPaid'}) {
             Event172:
-            return 3764903497
+            return 0xe067de49
         } else {
-            return 1915009891
+            return 0x7224bb63
         }
     } else {
         goto Event172

@@ -114,7 +114,7 @@ void Get_StoneOfWater_LeaveFromJabuJabuBelly() {
     if !GameDataActor.EventQueryIsGameDataBoolExp({'GameDataName': 'Get_StoneOfWater_IsCompleted_Exp'}) {
         Npc_Zora_Ruto_Child_002.EventTriggerParticipateEvent()
         switchcall Common_Dungeon_WarpFromBossArea.DungeonWarp_Choices_Basic({'DungeonWarp_00': 'EventFlowMsg/Get_StoneOfForest:DungeonWarp_00_Second', 'DungeonWarp_01': 'EventFlowMsg/Get_StoneOfForest:DungeonWarp_01_Second', 'DungeonWarp_03': 'EventFlowMsg/Get_StoneOfForest:DungeonWarp_03'}) {
-          case 3013883440:
+          case fnv1a("Yes"):
             EventSystemActor.EventTransition({'IsWaitEnd': True, 'SpecialEventActionType': 1, 'EventName': 'Dm_InsideJabu_Jabu_0060', 'FadeInTypeEventEnd': 2})
             EventCamera.EventTriggerSendReserveCameraResetMessageToPlayerCamera({'CameraResetInterpolateCountScale': 0.0, 'CameraResetPolicy': 0})
             GameSystemActor.EventReserveBancChange({'IsWaitEnd': True, 'NextPosition': [0.0, 0.0, 0.0], 'NextStartRot': [0.0, 0.0, 0.0], 'IsStartOnEvent': False, 'NextBanc': 'ZoraFountain_Child', 'BootEventName': 'Dm_ZoraFountain_0040', 'NextStartPos': 'EntrancePos', 'EventStarterName': '', 'IsItemWarp': False, 'FadePattern': 2})
@@ -127,7 +127,7 @@ void Get_StoneOfWater_LeaveFromJabuJabuBelly() {
 void BossArea_WarpIn() {
     if !GameDataActor.EventQueryIsGameDataBoolExp({'GameDataName': 'Get_StoneOfForest_IsCompleted_Exp'}) {
         switchcall Common_Dungeon_WarpFromBossArea.DungeonWarp_Choices_Basic({'DungeonWarp_00': 'EventFlowMsg/Get_StoneOfForest:DungeonWarp_00_Second', 'DungeonWarp_01': 'EventFlowMsg/Get_StoneOfForest:DungeonWarp_01_Second', 'DungeonWarp_03': 'EventFlowMsg/Get_StoneOfForest:DungeonWarp_03'}) {
-          case 3013883440:
+          case fnv1a("Yes"):
             Event6:
             EventSystemActor.EventTransition({'IsWaitEnd': True, 'SpecialEventActionType': 1, 'EventName': 'Dm_Deku_0010', 'FadeInTypeEventEnd': 2})
             if !GameDataActor.EventQueryIsGameDataBoolExp({'GameDataName': 'Get_StoneOfForest_IsCompleted_Exp'}) {
@@ -139,7 +139,7 @@ void BossArea_WarpIn() {
         }
     } else {
         switchcall Common_Dungeon_WarpFromBossArea.DungeonWarp_Choices_Sequence({'DungeonWarp_00': 'EventFlowMsg/Get_StoneOfForest:DungeonWarp_00', 'DungeonWarp_01': 'EventFlowMsg/Get_StoneOfForest:DungeonWarp_01', 'DungeonWarp_03': 'EventFlowMsg/Get_StoneOfForest:DungeonWarp_03'}) {
-          case 3013883440:
+          case fnv1a("Yes"):
             goto Event6
         }
     }
@@ -181,13 +181,13 @@ void SageOfFire_ClearEvent() {
     Player_Event.EventTriggerParticipateEvent()
     if !GameDataActor.EventQueryIsGameDataBoolExp({'GameDataName': 'SageOfFire_IsCompleted_Exp'}) {
         switchcall Common_Dungeon_WarpFromBossArea.DungeonWarp_Choices_Basic({'DungeonWarp_00': 'EventFlowMsg/SageOfFire:DungeonWarp_04', 'DungeonWarp_01': 'EventFlowMsg/SageOfFire:DungeonWarp_05', 'DungeonWarp_03': 'EventFlowMsg/SageOfFire:DungeonWarp_03'}) {
-          case 3013883440:
+          case fnv1a("Yes"):
             EventSystemActor.EventTransition({'IsWaitEnd': True, 'SpecialEventActionType': 1, 'EventName': 'Dm_FireTemple_0030', 'FadeInTypeEventEnd': 2})
             GameSystemActor.EventReserveBancChange({'NextBanc': 'DeathMountainCrater_Adult', 'NextStartPos': 'FireBolero', 'IsWaitEnd': True, 'NextPosition': [0.0, 0.0, 0.0], 'NextStartRot': [0.0, 0.0, 0.0], 'IsStartOnEvent': False, 'BootEventName': 'Demo_SageOfFire_Arrive_FireBolero', 'EventStarterName': '', 'IsItemWarp': False, 'FadePattern': 2})
         }
     } else {
         switchcall Common_Dungeon_WarpFromBossArea.DungeonWarp_Choices_Basic({'DungeonWarp_00': 'EventFlowMsg/SageOfFire:DungeonWarp_04', 'DungeonWarp_01': 'EventFlowMsg/SageOfFire:DungeonWarp_05', 'DungeonWarp_03': 'EventFlowMsg/SageOfFire:DungeonWarp_03'}) {
-          case 3013883440:
+          case fnv1a("Yes"):
             EventWorldManagerController.EventTrigger_SetTime({'TimeHour': 12, 'TimeMin': 0})
             EventSystemActor.EventTransition({'IsWaitEnd': True, 'SpecialEventActionType': 1, 'EventName': 'Dm_FireTemple_0030', 'FadeInTypeEventEnd': 2})
             GameSystemActor.EventReserveBancChange({'IsWaitEnd': True, 'NextPosition': [0.0, 0.0, 0.0], 'NextStartRot': [0.0, 0.0, 0.0], 'IsStartOnEvent': False, 'BootEventName': 'FireTemple_SageOfFire_Kakariko', 'NextBanc': 'KakarikoVillage_Adult', 'EventStarterName': '', 'FadePattern': 2, 'IsItemWarp': False, 'NextStartPos': 'KakarikoVillage_Entrance'})
@@ -205,7 +205,7 @@ void FireTemple_SageOfFire_Kakariko() {
 void ForestTemple_SageOfForest_EscapeFromTemple() {
     if !GameDataActor.EventQueryIsGameDataBoolExp({'GameDataName': 'SageOfForest_IsCompleted_Exp'}) {
         switchcall Common_Dungeon_WarpFromBossArea.DungeonWarp_Choices_Basic({'DungeonWarp_00': 'EventFlowMsg/SageOfForest:DungeonWarp_00_Second', 'DungeonWarp_01': 'EventFlowMsg/SageOfForest:DungeonWarp_01_Second', 'DungeonWarp_03': 'EventFlowMsg/SageOfForest:DungeonWarp_03'}) {
-          case 3013883440:
+          case fnv1a("Yes"):
             Event197:
             EventSystemActor.EventTransition({'EventName': 'Dm_ForestTemple_0020', 'IsWaitEnd': True, 'SpecialEventActionType': 1, 'FadeInTypeEventEnd': 2})
             if !GameDataActor.EventQueryIsGameDataBoolExp({'GameDataName': 'SageOfForest_IsCompleted_Exp'}) {
@@ -217,7 +217,7 @@ void ForestTemple_SageOfForest_EscapeFromTemple() {
         }
     } else {
         switchcall Common_Dungeon_WarpFromBossArea.DungeonWarp_Choices_Basic({'DungeonWarp_00': 'EventFlowMsg/SageOfForest:DungeonWarp_00_Second', 'DungeonWarp_01': 'EventFlowMsg/SageOfForest:DungeonWarp_01_Second', 'DungeonWarp_03': 'EventFlowMsg/SageOfForest:DungeonWarp_03'}) {
-          case 3013883440:
+          case fnv1a("Yes"):
             EventWorldManagerController.EventTrigger_SetTime({'TimeHour': 12, 'TimeMin': 0})
             goto Event197
         }
@@ -310,7 +310,7 @@ void SageOfWater_ClearEvent() {
     Player_Event.EventTriggerParticipateEvent()
     if !GameDataActor.EventQueryIsGameDataBoolExp({'GameDataName': 'SageOfWater_IsCompleted_Exp'}) {
         switchcall Common_Dungeon_WarpFromBossArea.DungeonWarp_Choices_Basic({'DungeonWarp_00': 'EventFlowMsg/SageOfWater:DungeonWarp_00_Second', 'DungeonWarp_01': 'EventFlowMsg/SageOfWater:DungeonWarp_01_Second', 'DungeonWarp_03': 'EventFlowMsg/SageOfWater:DungeonWarp_03'}) {
-          case 3013883440:
+          case fnv1a("Yes"):
             Event62:
             EventSystemActor.EventTransition({'IsWaitEnd': True, 'SpecialEventActionType': 1, 'EventName': 'Dm_WaterTemple_0040', 'FadeInTypeEventEnd': 2})
             if !GameDataActor.EventQueryIsGameDataBoolExp({'GameDataName': 'SageOfWater_IsCompleted_Exp'}) {
@@ -323,7 +323,7 @@ void SageOfWater_ClearEvent() {
         }
     } else {
         switchcall Common_Dungeon_WarpFromBossArea.DungeonWarp_Choices_Basic({'DungeonWarp_00': 'EventFlowMsg/SageOfWater:DungeonWarp_00_Second', 'DungeonWarp_01': 'EventFlowMsg/SageOfWater:DungeonWarp_01_Second', 'DungeonWarp_03': 'EventFlowMsg/SageOfWater:DungeonWarp_03'}) {
-          case 3013883440:
+          case fnv1a("Yes"):
             goto Event62
         }
     }
@@ -375,7 +375,7 @@ void SageOfSpirit_Clear() {
     Player_Event.EventTriggerParticipateEvent()
     if !GameDataActor.EventQueryIsGameDataBoolExp({'GameDataName': 'SageOfSpirit_IsCompleted_Exp'}) {
         switchcall Common_Dungeon_WarpFromBossArea.DungeonWarp_Choices_SpiritTemple({'DungeonWarp_00': 'EventFlowMsg/SageOfSpirit:DungeonWarp_06', 'DungeonWarp_01': 'EventFlowMsg/SageOfSpirit:DungeonWarp_07', 'DungeonWarp_03': 'EventFlowMsg/SageOfSpirit:DungeonWarp_05'}) {
-          case 3013883440:
+          case fnv1a("Yes"):
             Event140:
             EventSystemActor.EventTransition({'EventName': 'Dm_SpiritTemple_0040', 'IsWaitEnd': True, 'SpecialEventActionType': 1, 'FadeInTypeEventEnd': 2})
             if !GameDataActor.EventQueryIsGameDataBoolExp({'GameDataName': 'SageOfSpirit_IsCompleted_Exp'}) {
@@ -387,7 +387,7 @@ void SageOfSpirit_Clear() {
         }
     } else {
         switchcall Common_Dungeon_WarpFromBossArea.DungeonWarp_Choices_SpiritTemple({'DungeonWarp_00': 'EventFlowMsg/SageOfSpirit:DungeonWarp_06', 'DungeonWarp_01': 'EventFlowMsg/SageOfSpirit:DungeonWarp_07', 'DungeonWarp_03': 'EventFlowMsg/SageOfSpirit:DungeonWarp_05'}) {
-          case 3013883440:
+          case fnv1a("Yes"):
             EventWorldManagerController.EventTrigger_SetTime({'TimeHour': 12, 'TimeMin': 0})
             goto Event140
         }
@@ -430,7 +430,7 @@ void ShadowTemple_BossArea_WarpIn() {
     DevelopEventSystemActor.EventDemoProductSupportComment({'DispTime': 1, 'Text2': '', 'Text3': '', 'Text4': '', 'Text5': '', 'TextColor': 1, 'BgColor': 5, 'BgAlpha': 5, 'BgAlignW': 0, 'BgAlignH': 0, 'IsWaitEnd': False, 'Text1': '演出等は仮のイベントです'})
     if !GameDataActor.EventQueryIsGameDataBoolExp({'GameDataName': 'SageOfShadow_IsCompleted_Exp'}) {
         switchcall Common_Dungeon_WarpFromBossArea.DungeonWarp_Choices_Basic({'DungeonWarp_00': 'EventFlowMsg/SageOfShadow:DungeonWarp_00_Second', 'DungeonWarp_01': 'EventFlowMsg/SageOfShadow:DungeonWarp_01_Second', 'DungeonWarp_03': 'EventFlowMsg/SageOfShadow:DungeonWarp_03'}) {
-          case 3013883440:
+          case fnv1a("Yes"):
             Event109:
             EventSystemActor.EventTransition({'IsWaitEnd': True, 'SpecialEventActionType': 1, 'EventName': 'Dm_ShadowTemple_0020', 'FadeInTypeEventEnd': 2})
             if !GameDataActor.EventQueryIsGameDataBoolExp({'GameDataName': 'SageOfShadow_IsCompleted_Exp'}) {
@@ -442,7 +442,7 @@ void ShadowTemple_BossArea_WarpIn() {
         }
     } else {
         switchcall Common_Dungeon_WarpFromBossArea.DungeonWarp_Choices_Basic({'DungeonWarp_00': 'EventFlowMsg/SageOfShadow:DungeonWarp_00_Second', 'DungeonWarp_01': 'EventFlowMsg/SageOfShadow:DungeonWarp_01_Second', 'DungeonWarp_03': 'EventFlowMsg/SageOfShadow:DungeonWarp_03'}) {
-          case 3013883440:
+          case fnv1a("Yes"):
             EventWorldManagerController.EventTrigger_SetTime({'TimeHour': 12, 'TimeMin': 0})
             goto Event109
         }
@@ -461,7 +461,7 @@ void ShadowTemple_Warp_ChamberOfSages() {
 void Get_StoneOfFire_EscapeDungeon() {
     if !GameDataActor.EventQueryIsGameDataBoolExp({'GameDataName': 'Get_StoneOfFire_IsAfter_EscapeDungeon_Exp'}) {
         switchcall Common_Dungeon_WarpFromBossArea.DungeonWarp_Choices_Basic({'DungeonWarp_00': 'EventFlowMsg/Get_StoneOfForest:DungeonWarp_00_Second', 'DungeonWarp_01': 'EventFlowMsg/Get_StoneOfForest:DungeonWarp_01_Second', 'DungeonWarp_03': 'EventFlowMsg/Get_StoneOfForest:DungeonWarp_03'}) {
-          case 3013883440:
+          case fnv1a("Yes"):
             Event56:
             EventSystemActor.EventTransition({'IsWaitEnd': True, 'SpecialEventActionType': 1, 'FadeInTypeEventEnd': 2, 'EventName': 'Dm_DodongoCave_0030'})
             if !Player_Event.EventQueryPlayerIsChild() {
@@ -472,7 +472,7 @@ void Get_StoneOfFire_EscapeDungeon() {
         }
     } else {
         switchcall Common_Dungeon_WarpFromBossArea.DungeonWarp_Choices_Basic({'DungeonWarp_00': 'EventFlowMsg/Get_StoneOfFire:DungeonWarp_00_00', 'DungeonWarp_03': 'EventFlowMsg/Get_StoneOfFire:DungeonWarp_03', 'DungeonWarp_01': 'EventFlowMsg/Get_StoneOfFire:DungeonWarp_01_Second'}) {
-          case 3013883440:
+          case fnv1a("Yes"):
             EventWorldManagerController.EventTrigger_SetTime({'TimeHour': 12, 'TimeMin': 0})
             goto Event56
         }

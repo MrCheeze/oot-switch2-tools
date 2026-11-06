@@ -97,7 +97,7 @@ void Mask_All() {
         } else {
             Event22:
             switchcall Mask_Talk_Npc_Hylia_001_Only_With_InitTalk({'Arg_Turn_For_IgnoreMaskTalk': 4, 'Arg_Turn_For_MaskTalk': 4, 'Mask_Keaton_Talk': 'EventFlowMsg/Npc_Hylia_001_Child:Mask_01', 'Mask_Skull_Talk': 'EventFlowMsg/Npc_Hylia_001_Child:Mask_02', 'Mask_Spooky_Talk': 'EventFlowMsg/Npc_Hylia_001_Child:Mask_03', 'Mask_Bunny_Talk': 'EventFlowMsg/Npc_Hylia_001_Child:Mask_04', 'Mask_Truth_Talk': 'EventFlowMsg/Npc_Hylia_001_Child:Mask_05', 'Mask_Goron_Talk': 'EventFlowMsg/Npc_Hylia_001_Child:Mask_06', 'Mask_Zora_Talk': 'EventFlowMsg/Npc_Hylia_001_Child:Mask_07', 'Mask_Gerudo_Talk': 'EventFlowMsg/Npc_Hylia_001_Child:Mask_08', 'ChangeTheTopic_Talk': 'EventFlowMsg/Npc_Hylia_001_Child:Mask_09', 'Mask_Amiibo00_Talk': 'EventFlowMsg/Npc_Hylia_001_Child:Mask_101', 'Mask_Amiibo01_Talk': 'EventFlowMsg/Npc_Hylia_001_Child:Mask_102', 'Mask_Amiibo02_Talk': 'EventFlowMsg/Npc_Hylia_001_Child:Mask_103'}) {
-              case 4205900657:
+              case 0xfab0f371:
                 Npc_EventStarter.EventTriggerLookAtObject({'Target': 2, 'ActorName': '', 'InstanceName': '', 'WorldPos': [0.0, 0.0, 0.0], 'PosOffset': [0.0, 0.0, 0.0], 'Direction': 0.0, 'OffsetBase': 0, 'ResetArriveTransformFixed': False})
                 Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MessageId': 'EventFlowMsg/Npc_Hylia_001_Child:Mask_10', 'MaintainPerformanceState': 0})
             }
@@ -118,14 +118,14 @@ void Mask_All() {
 
 void Mask_Talk_Npc_Hylia_001_Only_With_InitTalk() {
     switchcall NpcCommon.CheckAlreadyMaskTalked() {
-      case 1307241100:
+      case 0x4deaea8c:
         if !Player_Event.EventQueryPlayerIsEquipArmor({'ArmorSlot': 0, 'ArmorName': 'Armor_Child_Mask_Truth'}) {
 
             call InitTalk_OnEvent_FixCamera_Npc_Hylia_001_Only({'Arg_Turn': 0})
 
             Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChangeMstxtForActor': False, 'ASName': 'TalkMonolog', 'IsOverrideStyle': True, 'OverrideStyle': 8, 'MessageId': 'Mask_Truth_Talk', 'MaintainPerformanceState': 0})
             Npc_EventStarter.EventTriggerForceSetMaskTalkFlag({'value': True})
-            return 4205900657
+            return 0xfab0f371
         } else
         if !Player_Event.EventQueryPlayerIsEquipArmor({'ArmorName': 'Armor_Child_Mask_Keaton', 'ArmorSlot': 0}) {
 
@@ -137,7 +137,7 @@ void Mask_Talk_Npc_Hylia_001_Only_With_InitTalk() {
             Event42:
             Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChangeMstxtForActor': False, 'MessageId': 'ChangeTheTopic_Talk', 'MaintainPerformanceState': 0})
             Event54:
-            return 4155567800
+            return 0xf7b0eeb8
         } else
         if !Player_Event.EventQueryPlayerIsEquipArmor({'ArmorSlot': 0, 'ArmorName': 'Armor_Child_Mask_Skull'}) {
 
@@ -209,7 +209,7 @@ void Mask_Talk_Npc_Hylia_001_Only_With_InitTalk() {
 
             goto Event54
         }
-      case 803420549:
+      case 0x2fe33985:
 
         call InitTalk_OnEvent_FixCamera_Npc_Hylia_001_Only({'Arg_Turn': 'Arg_Turn_For_IgnoreMaskTalk'})
 

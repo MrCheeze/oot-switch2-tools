@@ -75,11 +75,11 @@ void Gohma_Egg() {
 
     if !GameSystemActor.EventQueryIsDreamWorld() {
         switchcall DreamBossStage.NaviHint_Rematch_Sub() {
-          case 1642511898:
+          case fnv1a("No"):
 
             call NaviHint.CameraReset_RematchRelated()
 
-          case 2413946405:
+          case fnv1a("Info"):
             Npc_Navi.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MaintainPerformanceState': 0, 'MessageId': 'EventFlowMsg/NaviHint_Enemy:Enemy_Gohma_Egg_01'})
             Event20:
 
@@ -140,11 +140,11 @@ void Gohma_Larva() {
 
     if !GameSystemActor.EventQueryIsDreamWorld() {
         switchcall DreamBossStage.NaviHint_Rematch_Sub() {
-          case 1642511898:
+          case fnv1a("No"):
 
             call NaviHint.CameraReset_RematchRelated()
 
-          case 2413946405:
+          case fnv1a("Info"):
             Npc_Navi.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MaintainPerformanceState': 0, 'MessageId': 'EventFlowMsg/NaviHint_Enemy:Enemy_Gohma_Larva_01'})
             Event30:
 
@@ -229,11 +229,11 @@ void SpawnBabyDodongo() {
 
     if !GameSystemActor.EventQueryIsDreamWorld() {
         switchcall DreamBossStage.NaviHint_Rematch_Sub() {
-          case 1642511898:
+          case fnv1a("No"):
 
             call NaviHint.CameraReset_RematchRelated()
 
-          case 2413946405:
+          case fnv1a("Info"):
             Npc_Navi.EventTalk({'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'IsWaitEnd': True, 'MaintainPerformanceState': 0, 'MessageId': 'EventFlowMsg/NaviHint_Enemy:Enemy_DungeonBoss_Dodongo_SpawnBabyDodongo_01'})
             Event65:
 
@@ -312,11 +312,11 @@ void Lizalfos() {
         call NaviHint.FirstTimeTalk_Normal()
 
         switchcall DreamBossStage.NaviHint_Rematch_Sub() {
-          case 1642511898:
+          case fnv1a("No"):
 
             call NaviHint.CameraReset_RematchRelated()
 
-          case 2413946405:
+          case fnv1a("Info"):
             Npc_Navi.EventTalk({'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'IsWaitEnd': True, 'MaintainPerformanceState': 0, 'MessageId': 'EventFlowMsg/NaviHint_Enemy:Enemy_Lizalfos_01'})
             Event92:
 
@@ -361,11 +361,11 @@ void Shabom() {
 
     if !GameSystemActor.EventQueryIsDreamWorld() {
         switchcall DreamBossStage.NaviHint_Rematch_Sub() {
-          case 1642511898:
+          case fnv1a("No"):
 
             call NaviHint.CameraReset_RematchRelated()
 
-          case 2413946405:
+          case fnv1a("Info"):
             Npc_Navi.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MaintainPerformanceState': 0, 'MessageId': 'EventFlowMsg/NaviHint_Enemy:Enemy_Shabom_01'})
             Event138:
 
@@ -535,11 +535,11 @@ void BigOcto() {
         call NaviHint.FirstTimeTalk_Normal()
 
         switchcall DreamBossStage.NaviHint_Rematch_Sub() {
-          case 1642511898:
+          case fnv1a("No"):
 
             call NaviHint.CameraReset_RematchRelated()
 
-          case 2413946405:
+          case fnv1a("Info"):
             Npc_Navi.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MaintainPerformanceState': 0, 'MessageId': 'EventFlowMsg/NaviHint_Enemy:Enemy_MiddleBoss_BigOcto_01'})
             Event172:
 
@@ -584,11 +584,11 @@ void DeadHand() {
 
     if !GameSystemActor.EventQueryIsDreamWorld() {
         switchcall DreamBossStage.NaviHint_Rematch_Sub() {
-          case 1642511898:
+          case fnv1a("No"):
 
             call NaviHint.CameraReset_RematchRelated()
 
-          case 2413946405:
+          case fnv1a("Info"):
             Npc_Navi.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MaintainPerformanceState': 0, 'MessageId': 'EventFlowMsg/NaviHint_Enemy:Enemy_DeadHand_01'})
             Event185:
 
@@ -762,7 +762,7 @@ void Skulltula() {
 void DeadHand_AppearCheck() {
     if !GameDataActor.EventQueryIsGameDataBool({'Index': -1, 'GameDataName': 'IsAppear_DeadHand.10792357661756255471'}) {
         Event275:
-        return 3514382761
+        return 0xd17939a9
     } else
     if !GameDataActor.EventQueryIsGameDataBool({'Index': -1, 'GameDataName': 'IsAppear_DeadHand.16601094608491382456'}) {
         goto Event275
@@ -779,7 +779,7 @@ void DeadHand_AppearCheck() {
     if !GameDataActor.EventQueryIsGameDataBool({'Index': -1, 'GameDataName': 'IsAppear_DeadHand.7158468214105763757'}) {
         goto Event275
     } else {
-        return 251924503
+        return 0x0f041017
     }
 }
 
@@ -789,11 +789,11 @@ void DeadHand_Hand() {
 
     if !GameSystemActor.EventQueryIsDreamWorld() {
         switchcall DreamBossStage.NaviHint_Rematch_Sub() {
-          case 1642511898:
+          case fnv1a("No"):
 
             call NaviHint.CameraReset_RematchRelated()
 
-          case 2413946405:
+          case fnv1a("Info"):
             Npc_Navi.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MaintainPerformanceState': 0, 'MessageId': 'EventFlowMsg/NaviHint_Enemy:Enemy_DeadHand_Hand_01'})
             Event277:
 
@@ -802,7 +802,7 @@ void DeadHand_Hand() {
         }
     } else {
         switchcall DeadHand_AppearCheck() {
-          case 251924503:
+          case 0x0f041017:
             if !GameDataActor.EventQueryIsGameDataBool({'Index': -1, 'GameDataName': 'NaviHint_Enemy_DeadHand_FirstTime_HasRead'}) {
                 Event232:
                 Npc_Navi.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MessageId': 'EventFlowMsg/NaviHint_Enemy:Enemy_DeadHand_Hand_00', 'MaintainPerformanceState': 0})
@@ -813,7 +813,7 @@ void DeadHand_Hand() {
                 GameDataActor.EventTriggerSetGameDataBool({'Index': -1, 'Value': True, 'GameDataName': 'NaviHint_Enemy_DeadHand_FirstTime_HasRead'})
                 goto Event277
             }
-          case 3514382761:
+          case 0xd17939a9:
             if !GameDataActor.EventQueryIsGameDataBool({'Index': -1, 'GameDataName': 'NaviHint_Enemy_DeadHand_FirstTime_HasRead'}) {
                 goto Event232
             } else {

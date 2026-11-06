@@ -569,9 +569,9 @@ void OcarinaWarp() {
         SystemTextNPC.EventTalk({'IsWaitEnd': True, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceLabel3': 3, 'ChoiceLabel4': 4, 'OverrideStyle': 0, 'ChoiceNumber': 2, 'MessageId': 'MessageId', 'ChoiceLabel1': 2, 'ChoiceLabel2': 1, 'IsCloseDialog': True, 'EndDialogOption': 2, 'IsOverrideStyle': False, 'MaintainPerformanceState': 0})
         if !GameSystemActor.EventQueryTalkChoice2() {
             switchcall SubEvent_GetSwordBigGoron.SubEvent_TimerCheck_Warp({'IsFaroreWind': False}) {
-              case 1303515621:
+              case fnv1a("true"):
                 switchcall Get_Epona.SubEvent_AfterWonGambleRace_OcarinaWarp() {
-                  case 1303515621:
+                  case fnv1a("true"):
                     EventSystemActor.EventTransition({'EventName': 'Dm_SY_Ocarina_move', 'IsWaitEnd': True, 'SpecialEventActionType': 1, 'FadeInTypeEventEnd': 2})
                     GameDataActor.EventTriggerSetGameDataBool({'Index': -1, 'Value': False, 'GameDataName': 'MapIconDeactivateByAreaActor'})
                     if !Player_Event.EventQueryPlayerIsChild() {
@@ -602,11 +602,11 @@ void OcarinaWarp() {
                         GameSystemActor.EventReserveBancChange({'IsWaitEnd': True, 'NextPosition': [0.0, 0.0, 0.0], 'NextStartRot': [0.0, 0.0, 0.0], 'IsStartOnEvent': False, 'NextBanc': 'AdultBanc', 'NextStartPos': 'NextStartPos', 'BootEventName': 'OcarinaWarp_Arrive', 'EventStarterName': '', 'IsItemWarp': True, 'FadePattern': 2})
                         goto Event76
                     }
-                  case 184981848:
+                  case fnv1a("false"):
                     Event209:
                     GameSystemActor.EventTriggerFadeOcarinaMelodyHandle()
                 }
-              case 184981848:
+              case fnv1a("false"):
                 goto Event209
             }
         } else {

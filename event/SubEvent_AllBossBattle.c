@@ -237,7 +237,7 @@ void BossRushBossStageExitSuccessBase() {
     Npc_Invisible_Kaepora.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceNumber': 3, 'ChoiceLabel2': 2, 'MessageId': 'EventFlowMsg/SubEvent_AllBossBattle:Talk_03', 'ChoiceLabel1': 3, 'ChoiceLabel3': 4, 'IsOverrideStyle': True, 'MaintainPerformanceState': 0})
     switch GameSystemActor.EventQueryTalkChoice3() {
       case 0:
-        return 3013883440
+        return fnv1a("Yes")
       case 1:
         Npc_Invisible_Kaepora.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceNumber': 2, 'ChoiceLabel1': 0, 'ChoiceLabel3': 0, 'MessageId': 'EventFlowMsg/SubEvent_AllBossBattle:Talk_04', 'ChoiceLabel2': 5, 'IsOverrideStyle': True, 'MaintainPerformanceState': 0})
         if !GameSystemActor.EventQueryTalkChoice2() {
@@ -248,7 +248,7 @@ void BossRushBossStageExitSuccessBase() {
             Event4:
             Player_Event.EventTriggerPlayerRequestLookAtTheFrontLock({'IsImmediate': False})
         }
-        return 1642511898
+        return fnv1a("No")
       case 2:
         goto Event4
     }

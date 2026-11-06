@@ -119,9 +119,9 @@ void Talk() {
 
 void Mask_All() {
     switchcall NpcCommon.Truth_MaskOnly_Talk_Common_With_InitTalk({'Mask_Truth_Talk': 'EventFlowMsg/Npc_Hylia_006_Adult:Mask_05', 'Arg_Turn_For_IgnoreMaskTalk': 0, 'ASName': 'Act_Lookfar'}) {
-      case 457761688:
-        return 4151362380
-      case 508094545:
-        return 2799305849
+      case 0x1b48e398:
+        return fnv1a("Mask_Talk")
+      case 0x1e48e851:
+        return 0xa6da0479
     }
 }

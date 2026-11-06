@@ -44,7 +44,7 @@ params: {'EventMemberCreateMethod': 0, 'IsBindNearestActor': False, 'IsGrounding
 
 void Correct() {
     switchcall StateCheck_Richard() {
-      case 1638593527:
+      case 0x61aaf3f7:
         if !GameDataActor.EventQueryIsGameDataBoolExp({'GameDataName': 'SubEvent_FindRichard_IsCompleted_Exp'}) {
 
             fork {
@@ -65,7 +65,7 @@ void Correct() {
             call MadameAngry()
 
         }
-      case 1621815908:
+      case 0x60aaf264:
         Npc_EventStarter.EventStrayDogSetTakenAwayDisableAll({'IsWaitEnd': True})
 
         fork {
@@ -135,10 +135,10 @@ void StateCheck_Richard() {
     if !GameDataActor.EventQueryIsGameDataBoolExp({'GameDataName': 'SubEvent_FindRichard_IsCompleted_Exp'}) {
         if !GameDataActor.EventQueryIsGameDataBoolExp({'GameDataName': 'Market_SubEvent_FindRichard_Retry'}) {
             Event9:
-            return 1621815908
+            return 0x60aaf264
         } else {
             Event8:
-            return 1638593527
+            return 0x61aaf3f7
         }
     } else
     if !GameDataActor.EventQueryIsGameDataBoolExp({'GameDataName': 'SubEvent_FindRichard_IsAfter_NotReady_Exp'}) {

@@ -134,7 +134,7 @@ void Talk() {
 
     } else {
         switchcall Get_StoneOfForest_IsCompleted_Exp_Talk() {
-          case [1464295299, 3739814806]:
+          case [0x57475f83, 0xdee90b96]:
             goto Event33
         }
     }
@@ -346,11 +346,11 @@ void ActionTutorial_1st_Talk() {
         if !GameDataActor.EventQueryIsGameDataBool({'GameDataName': 'HaveTalked_Special.Npc_Kokiri_006_Child_ActionTutorial_1st_Talk_Event269', 'Index': -1}) {
             if !GameDataActor.EventQueryIsGameDataBoolExp({'GameDataName': 'KokiriForest_Npc_Kokiri_006_Child_Action_Ready'}) {
                 switchcall Tutorial_PlayingTalk() {
-                  case 3488962343:
+                  case 0xcff55727:
 
                     call CancelTalk({'ASCommand': 'EvtTalkYes'})
 
-                  case 3505739962:
+                  case 0xd0f558ba:
                     if !GameDataActor.EventQueryIsGameDataBool({'Index': -1, 'GameDataName': 'KokiriForest_Npc_Kokiri_006_Child_ActionTypeZero_Ready'}) {
 
                         call ActionGuide.OpenActionGuideSceenForce({'ActionGuideType': 55})
@@ -487,7 +487,7 @@ void ActionTutorial_2nd_Talk() {
     if !GameDataActor.EventQueryIsGameDataBool({'GameDataName': 'HaveTalked_Special.Npc_Kokiri_006_Child_Talk_Event68', 'Index': -1}) {
         if !GameDataActor.EventQueryIsGameDataBool({'Index': -1, 'GameDataName': 'KokiriForest_Npc_Kokiri_006_Child_ActionTypeD_Ready'}) {
             switchcall Tutorial_PlayingTalk() {
-              case 3488962343:
+              case 0xcff55727:
 
                 call CancelTalk({'ASCommand': 'EvtTalkYes'})
 
@@ -517,10 +517,10 @@ void ActionTutorial_2nd_Talk() {
 
 void ActionTutorial_Talk() {
     switchcall Get_StoneOfForest_IsCompleted_Exp_Talk() {
-      case 1464295299:
+      case 0x57475f83:
         if !GameDataActor.EventQueryIsGameDataBoolExp({'GameDataName': 'KokiriForest_Npc_Kokiri_006_Child_Action_Ready'}) {
             switchcall TutorialReviewing_PlayingTalk() {
-              case 3522517581:
+              case 0xd1f55a4d:
                 Npc_EventStarter.EventTalk({'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChangeMstxtForActor': False, 'IsWaitEnd': True, 'MessageId': 'EventFlowMsg/Npc_Kokiri_006_Child:Talk_48', 'ChoiceNumber': 3, 'ChoiceLabel1': 11, 'ChoiceLabel2': 12, 'ChoiceLabel3': 2, 'ChoiceLabel4': 0, 'MaintainPerformanceState': 0})
                 Event227:
                 switch GameSystemActor.EventQueryTalkChoice3() {
@@ -564,7 +564,7 @@ void ActionTutorial_Talk() {
         Event504:
         Npc_EventStarter.EventTalk({'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChangeMstxtForActor': False, 'IsWaitEnd': True, 'ChoiceNumber': 3, 'ChoiceLabel1': 11, 'ChoiceLabel2': 12, 'ChoiceLabel3': 2, 'ChoiceLabel4': 0, 'MessageId': 'EventFlowMsg/Npc_Kokiri_006_Child:Talk_48_2', 'MaintainPerformanceState': 0})
         goto Event227
-      case 3739814806:
+      case 0xdee90b96:
         Npc_EventStarter.EventTalk({'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChangeMstxtForActor': False, 'IsWaitEnd': True, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'MessageId': 'EventFlowMsg/Npc_Kokiri_006_Child:Talk_104', 'MaintainPerformanceState': 0})
         goto Event504
     }
@@ -577,7 +577,7 @@ void Get_StoneOfForest_IsCompleted_Exp_Talk() {
 
             call InitTalk.InitTalk_Npc_Kokiri_006_Child({'Arg_Turn': 4, 'Arg_Greeting': 4})
 
-            return 1464295299
+            return 0x57475f83
         } else {
 
             call InitTalk.InitTalk_Npc_Kokiri_006_Child({'Arg_Greeting': 4, 'Arg_Turn': 0})
@@ -589,7 +589,7 @@ void Get_StoneOfForest_IsCompleted_Exp_Talk() {
             } else {
                 Npc_EventStarter.EventNPCTurnToTarget({'Target': 2, 'IsWaitEnd': True, 'FaceControlType': 1, 'ActorName': '', 'InstanceName': '', 'WorldPos': [0.0, 0.0, 0.0], 'PosOffset': [0.0, 0.0, 0.0], 'Direction': 0.0, 'OffsetBase': 0, 'LookingControllerName': '', 'LookIKParameterVariationName': '', 'IsReleaseThreaten': False, 'EnableAutomaticallyPlayWaitASAfterTurn': True, 'IsConfront': False})
             }
-            return 3739814806
+            return 0xdee90b96
         }
     } else {
         goto Event14
@@ -599,7 +599,7 @@ void Get_StoneOfForest_IsCompleted_Exp_Talk() {
 void ActionTutorial_1st_NotHaveWeapon() {
     if !GameDataActor.EventQueryIsGameDataBoolExp({'GameDataName': 'KokiriForest_Npc_Kokiri_006_Child_Action_Ready'}) {
         switchcall TutorialReviewing_PlayingTalk() {
-          case 3522517581:
+          case 0xd1f55a4d:
             Npc_Kokiri_006_Child.EventTalk({'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChangeMstxtForActor': False, 'IsWaitEnd': True, 'MessageId': 'EventFlowMsg/Npc_Kokiri_006_Child:Talk_99', 'ChoiceNumber': 4, 'ChoiceLabel4': 2, 'ChoiceLabel3': 6, 'ChoiceLabel2': 5, 'ChoiceLabel1': 9, 'MaintainPerformanceState': 0})
             Event116:
             switch GameSystemActor.EventQueryTalkChoice4() {
@@ -807,12 +807,12 @@ void KokiriForest_Kokiri_006_Success() {
                 Event490:
                 Player_Event.EventPlayerUnequip({'IsWaitEnd': True})
                 switchcall PlayerBackMoveCheck() {
-                  case 3725530751:
+                  case 0xde0f167f:
                     Player_Event.EventPlayerTurnAndLook({'Target': 3, 'IsWaitEnd': True, 'WorldPos': [0.0, 0.0, 0.0], 'PosOffset': [0.0, 0.0, 0.0], 'Direction': 0.0, 'KeepTalkWait': True, 'OffsetBase': 0, 'InstanceName': '', 'ActorName': 'Npc_Kokiri_006_Child', 'UpperASCommand': '', 'IgnoreTargetPosMove': False, 'TurnFaceControlType': 1, 'SlowTurn': False, 'UseNormalTurn': False, 'IsDoNavi': True})
                 }
             } else {
                 switchcall PlayerBackMoveCheck() {
-                  case 3725530751:
+                  case 0xde0f167f:
                     Player_Event.EventTriggerPlayerLookAtObject({'Target': 3, 'WorldPos': [0.0, 0.0, 0.0], 'PosOffset': [0.0, 0.0, 0.0], 'Direction': 0.0, 'InstanceName': '', 'ActorName': 'Npc_Kokiri_006_Child', 'TurnFaceControlType': 1})
                 }
             }
@@ -1143,7 +1143,7 @@ void JumpSlash_failure() {
     } {
         GameSystemActor.EventWait({'Frames': 30, 'IsWaitEnd': True})
         switchcall PlayerBackMoveCheck() {
-          case 3725530751:
+          case 0xde0f167f:
             Player_Event.EventPlayerTurnAndLook({'Target': 3, 'IsWaitEnd': True, 'WorldPos': [0.0, 0.0, 0.0], 'PosOffset': [0.0, 0.0, 0.0], 'Direction': 0.0, 'KeepTalkWait': True, 'OffsetBase': 0, 'InstanceName': '', 'ActorName': 'Npc_Kokiri_006_Child', 'UpperASCommand': '', 'IgnoreTargetPosMove': False, 'TurnFaceControlType': 1, 'SlowTurn': False, 'UseNormalTurn': False, 'IsDoNavi': True})
         }
     }
@@ -1275,7 +1275,7 @@ void TutorialReviewing_PlayingTalk() {
     Npc_EventStarter.EventTalk({'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChangeMstxtForActor': False, 'IsWaitEnd': True, 'ChoiceNumber': 2, 'ChoiceLabel1': 1, 'MessageId': 'EventFlowMsg/Npc_Kokiri_006_Child:Talk_76', 'ChoiceLabel2': 3, 'MaintainPerformanceState': 0})
     if !GameSystemActor.EventQueryTalkChoice2() {
         Player_Event.EventPlayerPlayASForFlowchart({'ASCommand': 'EvtTalkYes', 'IsWaitEnd': True, 'UseAnmDriven': False, 'IsAllSlot': False, 'KeepOneTimeAnm': False, 'ForceFadeFrame': -1.0, 'ClothWarpMode': 0})
-        return 3522517581
+        return 0xd1f55a4d
     } else {
         Event469:
         Player_Event.EventPlayerPlayASForFlowchart({'ASCommand': 'EvtTalkNo', 'IsWaitEnd': True, 'UseAnmDriven': False, 'IsAllSlot': False, 'KeepOneTimeAnm': False, 'ForceFadeFrame': -1.0, 'ClothWarpMode': 0})
@@ -1284,14 +1284,14 @@ void TutorialReviewing_PlayingTalk() {
         } else {
             Npc_Kokiri_006_Child.EventTalk({'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChangeMstxtForActor': False, 'IsWaitEnd': True, 'MessageId': 'EventFlowMsg/Npc_Kokiri_006_Child:Talk_95', 'MaintainPerformanceState': 0})
         }
-        return 3505739962
+        return 0xd0f558ba
     }
 }
 
 void Tutorial_PlayingTalk() {
     Npc_EventStarter.EventTalk({'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChangeMstxtForActor': False, 'IsWaitEnd': True, 'ChoiceNumber': 2, 'ChoiceLabel1': 1, 'ChoiceLabel2': 3, 'MessageId': 'EventFlowMsg/Npc_Kokiri_006_Child:Talk_100', 'MaintainPerformanceState': 0})
     if !GameSystemActor.EventQueryTalkChoice2() {
-        return 3488962343
+        return 0xcff55727
     } else {
         goto Event469
     }
@@ -1319,7 +1319,7 @@ void AttentionMove_failure() {
     } {
         GameSystemActor.EventWait({'Frames': 30, 'IsWaitEnd': True})
         switchcall PlayerBackMoveCheck() {
-          case 3725530751:
+          case 0xde0f167f:
             Player_Event.EventPlayerTurnAndLook({'Target': 3, 'IsWaitEnd': True, 'WorldPos': [0.0, 0.0, 0.0], 'PosOffset': [0.0, 0.0, 0.0], 'Direction': 0.0, 'KeepTalkWait': True, 'OffsetBase': 0, 'InstanceName': '', 'ActorName': 'Npc_Kokiri_006_Child', 'UpperASCommand': '', 'IgnoreTargetPosMove': False, 'TurnFaceControlType': 1, 'SlowTurn': False, 'UseNormalTurn': False, 'IsDoNavi': True})
         }
     }
@@ -1386,7 +1386,7 @@ void Mask_All() {
         }
     } else {
         switchcall Mask_Talk() {
-          case 4151362380:
+          case fnv1a("Mask_Talk"):
             Npc_EventStarter.EventNPCTurnToTarget({'Target': 2, 'ActorName': '', 'InstanceName': '', 'WorldPos': [0.0, 0.0, 0.0], 'PosOffset': [0.0, 0.0, 0.0], 'Direction': 0.0, 'OffsetBase': 0, 'IsConfront': False, 'IsWaitEnd': True, 'FaceControlType': 1, 'LookingControllerName': '', 'LookIKParameterVariationName': '', 'IsReleaseThreaten': False, 'EnableAutomaticallyPlayWaitASAfterTurn': True})
             Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MessageId': 'EventFlowMsg/Npc_Kokiri_006_Child:Mask_10', 'MaintainPerformanceState': 0})
         }
@@ -1395,10 +1395,10 @@ void Mask_All() {
 
 void Mask_Talk() {
     switchcall NpcCommon.Mask_Talk_Common_With_InitTalk_Kokiri_006_Only({'Arg_Turn_For_IgnoreMaskTalk': 4, 'Arg_Turn_For_MaskTalk': 4, 'Mask_Keaton_Talk': 'EventFlowMsg/Npc_Kokiri_006_Child:Mask_01', 'Mask_Spooky_Talk': 'EventFlowMsg/Npc_Kokiri_006_Child:Mask_03', 'Mask_Skull_Talk': 'EventFlowMsg/Npc_Kokiri_006_Child:Mask_02', 'Mask_Bunny_Talk': 'EventFlowMsg/Npc_Kokiri_006_Child:Mask_04', 'Mask_Truth_Talk': 'EventFlowMsg/Npc_Kokiri_006_Child:Mask_05', 'Mask_Goron_Talk': 'EventFlowMsg/Npc_Kokiri_006_Child:Mask_06', 'Mask_Zora_Talk': 'EventFlowMsg/Npc_Kokiri_006_Child:Mask_07', 'Mask_Gerudo_Talk': 'EventFlowMsg/Npc_Kokiri_006_Child:Mask_08', 'ChangeTheTopic_Talk': 'EventFlowMsg/Npc_Kokiri_006_Child:Mask_09', 'Mask_Amiibo00_Talk': 'EventFlowMsg/Npc_Kokiri_006_Child:Mask_101', 'Mask_Amiibo01_Talk': 'EventFlowMsg/Npc_Kokiri_006_Child:Mask_102', 'Mask_Amiibo02_Talk': 'EventFlowMsg/Npc_Kokiri_006_Child:Mask_103', 'ASName': 'TalkMonolog'}) {
-      case 4205900657:
-        return 4151362380
-      case 4155567800:
-        return 2799305849
+      case 0xfab0f371:
+        return fnv1a("Mask_Talk")
+      case 0xf7b0eeb8:
+        return 0xa6da0479
     }
 }
 
@@ -1464,8 +1464,8 @@ void PlayerBackMoveCheck() {
             Player_Event.EventPlayerTurnAndLook({'IsWaitEnd': True, 'Target': 3, 'TurnFaceControlType': 1, 'WorldPos': [0.0, 0.0, 0.0], 'PosOffset': [0.0, 0.0, 0.0], 'Direction': 0.0, 'KeepTalkWait': True, 'OffsetBase': 0, 'UpperASCommand': '', 'IgnoreTargetPosMove': False, 'SlowTurn': False, 'UseNormalTurn': False, 'IsDoNavi': False, 'ActorName': 'Npc_Kokiri_006_Child', 'InstanceName': ''})
         }
         Player_Event.EventPlayerBackMoveForTalk({'IsWaitEnd': True, 'OffsetDist': 0.0})
-        return 3708753132
+        return 0xdd0f14ec
     } else {
-        return 3725530751
+        return 0xde0f167f
     }
 }

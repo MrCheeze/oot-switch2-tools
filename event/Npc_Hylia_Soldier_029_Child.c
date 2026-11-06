@@ -69,12 +69,12 @@ void nightTalk() {
       case 0:
         if !Player_Event.EventQueryPlayerIsEquipMask() {
             switchcall NpcCommon.CheckAlreadyMaskTalked() {
-              case 1307241100:
+              case 0x4deaea8c:
                 Event108:
 
                 call Mask_All_NoTopic()
 
-              case 803420549:
+              case 0x2fe33985:
                 Event21:
 
                 call InitTalk.InitTalk({'Arg_Greeting': 4, 'Arg_Turn': 2})
@@ -101,9 +101,9 @@ void nightTalk() {
       case 24:
         if !Player_Event.EventQueryPlayerIsEquipMask() {
             switchcall NpcCommon.CheckAlreadyMaskTalked() {
-              case 1307241100:
+              case 0x4deaea8c:
                 goto Event108
-              case 803420549:
+              case 0x2fe33985:
                 Event78:
 
                 call InitTalk.InitTalk({'Arg_Greeting': 4, 'Arg_Turn': 2})
@@ -125,12 +125,12 @@ void nightTalk_GetAllStone() {
       case 0:
         if !Player_Event.EventQueryPlayerIsEquipMask() {
             switchcall NpcCommon.CheckAlreadyMaskTalked() {
-              case 1307241100:
+              case 0x4deaea8c:
                 Event95:
 
                 call Mask_All_NoTopic()
 
-              case 803420549:
+              case 0x2fe33985:
                 Event81:
 
                 call InitTalk.InitTalk({'Arg_Greeting': 4, 'Arg_Turn': 2})
@@ -157,9 +157,9 @@ void nightTalk_GetAllStone() {
       case 24:
         if !Player_Event.EventQueryPlayerIsEquipMask() {
             switchcall NpcCommon.CheckAlreadyMaskTalked() {
-              case 1307241100:
+              case 0x4deaea8c:
                 goto Event95
-              case 803420549:
+              case 0x2fe33985:
                 Event82:
 
                 call InitTalk.InitTalk({'Arg_Greeting': 4, 'Arg_Turn': 2})
@@ -321,18 +321,18 @@ void Market_CanbeStopped_Npc_Hylia_Soldier_029_02() {
 void Mask_All_NoTopic() {
     if !Npc_EventStarter.EventNPCQueryCheckTargetActorForLookIK({'InstanceName': '', 'ActorName': 'Player_Event'}) {
         switchcall NpcCommon.Mask_Talk_Common_With_InitTalk_NoChangeTheTopic({'Arg_Turn_For_IgnoreMaskTalk': 4, 'Arg_Turn_For_MaskTalk': 4, 'Mask_Keaton_Talk': 'EventFlowMsg/Npc_Hylia_Soldier_029_Child:Mask_01', 'Mask_Skull_Talk': 'EventFlowMsg/Npc_Hylia_Soldier_029_Child:Mask_02', 'Mask_Spooky_Talk': 'EventFlowMsg/Npc_Hylia_Soldier_029_Child:Mask_03', 'Mask_Bunny_Talk': 'EventFlowMsg/Npc_Hylia_Soldier_029_Child:Mask_04', 'Mask_Goron_Talk': 'EventFlowMsg/Npc_Hylia_Soldier_029_Child:Mask_06', 'Mask_Zora_Talk': 'EventFlowMsg/Npc_Hylia_Soldier_029_Child:Mask_07', 'Mask_Gerudo_Talk': 'EventFlowMsg/Npc_Hylia_Soldier_029_Child:Mask_08', 'Mask_Amiibo00_Talk': 'EventFlowMsg/Npc_Hylia_Soldier_029_Child:Mask_101', 'Mask_Amiibo01_Talk': 'EventFlowMsg/Npc_Hylia_Soldier_029_Child:Mask_102', 'Mask_Amiibo02_Talk': 'EventFlowMsg/Npc_Hylia_Soldier_029_Child:Mask_103', 'ASName': 'Act_Creepy', 'Mask_Truth_Talk': 'EventFlowMsg/Npc_Hylia_Soldier_029_Child:Mask_05_01'}) {
-          case 1183930306:
+          case 0x469157c2:
             Event109:
-            return 4151362380
-          case 1530789637:
+            return fnv1a("Mask_Talk")
+          case 0x5b3dff05:
             Event110:
-            return 2799305849
+            return 0xa6da0479
         }
     } else {
         switchcall NpcCommon.Mask_Talk_Common_With_InitTalk_NoChangeTheTopic({'Arg_Turn_For_IgnoreMaskTalk': 4, 'Arg_Turn_For_MaskTalk': 4, 'Mask_Keaton_Talk': 'EventFlowMsg/Npc_Hylia_Soldier_029_Child:Mask_01', 'Mask_Skull_Talk': 'EventFlowMsg/Npc_Hylia_Soldier_029_Child:Mask_02', 'Mask_Spooky_Talk': 'EventFlowMsg/Npc_Hylia_Soldier_029_Child:Mask_03', 'Mask_Bunny_Talk': 'EventFlowMsg/Npc_Hylia_Soldier_029_Child:Mask_04', 'Mask_Goron_Talk': 'EventFlowMsg/Npc_Hylia_Soldier_029_Child:Mask_06', 'Mask_Truth_Talk': 'EventFlowMsg/Npc_Hylia_Soldier_029_Child:Mask_05', 'Mask_Zora_Talk': 'EventFlowMsg/Npc_Hylia_Soldier_029_Child:Mask_07', 'Mask_Gerudo_Talk': 'EventFlowMsg/Npc_Hylia_Soldier_029_Child:Mask_08', 'Mask_Amiibo00_Talk': 'EventFlowMsg/Npc_Hylia_Soldier_029_Child:Mask_101', 'Mask_Amiibo01_Talk': 'EventFlowMsg/Npc_Hylia_Soldier_029_Child:Mask_102', 'Mask_Amiibo02_Talk': 'EventFlowMsg/Npc_Hylia_Soldier_029_Child:Mask_103', 'ASName': 'Act_Creepy'}) {
-          case 1183930306:
+          case 0x469157c2:
             goto Event109
-          case 1530789637:
+          case 0x5b3dff05:
             goto Event110
         }
     }

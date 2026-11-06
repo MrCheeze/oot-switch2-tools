@@ -82,10 +82,10 @@ void Talk() {
 
       case 2:
         switchcall DisplayShop.DisplayShop_ZeldaNotes_Flow() {
-          case 1655997989:
+          case 0x62b48625:
             Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChangeMstxtForActor': True, 'ChoiceLabel3': 0, 'ChoiceNumber': 4, 'MessageId': 'EventFlowMsg/Npc_Kokiri_001_Shop_Child:Shop_52', 'MaintainPerformanceState': 0, 'ChoiceLabel1': 9014, 'ChoiceLabel2': 9015, 'ChoiceLabel4': 9016})
             goto Event18
-          case 2160637662:
+          case 0x80c8b6de:
             goto Event27
         }
       case 3:

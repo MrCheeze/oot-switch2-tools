@@ -131,10 +131,10 @@ void TalkCheck() {
 
 void Mask_Talk() {
     switchcall NpcCommon.Mask_Talk_Common_With_InitTalk_NotTalkMonolog({'Arg_Turn_For_IgnoreMaskTalk': 4, 'Arg_Turn_For_MaskTalk': 4, 'Mask_Keaton_Talk': 'EventFlowMsg/Npc_Kaepora_DeathMountainTrail:Mask_01', 'Mask_Bunny_Talk': 'EventFlowMsg/Npc_Kaepora_DeathMountainTrail:Mask_04', 'Mask_Truth_Talk': 'EventFlowMsg/Npc_Kaepora_DeathMountainTrail:Mask_05', 'Mask_Goron_Talk': 'EventFlowMsg/Npc_Kaepora_DeathMountainTrail:Mask_06', 'Mask_Zora_Talk': 'EventFlowMsg/Npc_Kaepora_DeathMountainTrail:Mask_07', 'Mask_Gerudo_Talk': 'EventFlowMsg/Npc_Kaepora_DeathMountainTrail:Mask_08', 'ChangeTheTopic_Talk': 'EventFlowMsg/Npc_Kaepora_DeathMountainTrail:Mask_09', 'Mask_Skull_Talk': 'EventFlowMsg/Npc_Kaepora_DeathMountainTrail:Mask_02', 'Mask_Spooky_Talk': 'EventFlowMsg/Npc_Kaepora_DeathMountainTrail:Mask_03', 'Mask_Amiibo00_Talk': 'EventFlowMsg/Npc_Kaepora_DeathMountainTrail:Mask_101', 'Mask_Amiibo01_Talk': 'EventFlowMsg/Npc_Kaepora_DeathMountainTrail:Mask_102', 'Mask_Amiibo02_Talk': 'EventFlowMsg/Npc_Kaepora_DeathMountainTrail:Mask_103'}) {
-      case 4205900657:
-        return 4151362380
-      case 4155567800:
-        return 2799305849
+      case 0xfab0f371:
+        return fnv1a("Mask_Talk")
+      case 0xf7b0eeb8:
+        return 0xa6da0479
     }
 }
 
@@ -153,7 +153,7 @@ void Mask_All() {
         } else {
             Event39:
             switchcall Mask_Talk() {
-              case 4151362380:
+              case fnv1a("Mask_Talk"):
                 Npc_EventStarter.EventNPCTurnToTarget({'Target': 2, 'IsConfront': False, 'IsWaitEnd': True, 'FaceControlType': 1, 'ActorName': '', 'InstanceName': '', 'WorldPos': [0.0, 0.0, 0.0], 'PosOffset': [0.0, 0.0, 0.0], 'Direction': 0.0, 'OffsetBase': 0, 'LookingControllerName': '', 'LookIKParameterVariationName': '', 'IsReleaseThreaten': False, 'EnableAutomaticallyPlayWaitASAfterTurn': True})
                 Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MessageId': 'EventFlowMsg/Npc_Kaepora_DeathMountainTrail:Mask_10', 'MaintainPerformanceState': 0})
             }

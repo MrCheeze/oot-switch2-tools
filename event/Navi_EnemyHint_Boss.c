@@ -24,12 +24,12 @@ void Gohma() {
 
     if !GameSystemActor.EventQueryIsDreamWorld() {
         switchcall DreamBossStage.NaviHint_Rematch_Sub() {
-          case 1642511898:
+          case fnv1a("No"):
             Event7:
 
             call NaviHint.CameraReset_RematchRelated()
 
-          case 2413946405:
+          case fnv1a("Info"):
             Npc_Navi.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MessageId': 'EventFlowMsg/NaviHint_Enemy:Enemy_DungeonBoss_Gohma_06', 'MaintainPerformanceState': 0})
             goto Event7
         }
@@ -73,12 +73,12 @@ void Barinade() {
 
     if !GameSystemActor.EventQueryIsDreamWorld() {
         switchcall DreamBossStage.NaviHint_Rematch_Sub() {
-          case 1642511898:
+          case fnv1a("No"):
             Event263:
 
             call NaviHint.CameraReset_RematchRelated()
 
-          case 2413946405:
+          case fnv1a("Info"):
             switch Npc_Navi.EventQueryNaviHintMessageExtensionId() {
               case 0:
                 Npc_Navi.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MessageId': 'EventFlowMsg/NaviHint_Enemy:Enemy_DungeonBoss_Barinade_06', 'MaintainPerformanceState': 0})
@@ -125,12 +125,12 @@ void KingDodongo() {
 
     if !GameSystemActor.EventQueryIsDreamWorld() {
         switchcall DreamBossStage.NaviHint_Rematch_Sub() {
-          case 1642511898:
+          case fnv1a("No"):
             Event35:
 
             call NaviHint.CameraReset_RematchRelated()
 
-          case 2413946405:
+          case fnv1a("Info"):
             Npc_Navi.EventTalk({'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'IsWaitEnd': True, 'MessageId': 'EventFlowMsg/NaviHint_Enemy:Enemy_DungeonBoss_Dodongo_06', 'MaintainPerformanceState': 0})
             goto Event35
         }
@@ -171,12 +171,12 @@ void PhantomGanon() {
 
     if !GameSystemActor.EventQueryIsDreamWorld() {
         switchcall DreamBossStage.NaviHint_Rematch_Sub() {
-          case 1642511898:
+          case fnv1a("No"):
             Event51:
 
             call NaviHint.CameraReset_RematchRelated()
 
-          case 2413946405:
+          case fnv1a("Info"):
             switch Npc_Navi.EventQueryNaviHintMessageExtensionId() {
               case 0:
                 Npc_Navi.EventTalk({'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'IsWaitEnd': True, 'MessageId': 'EventFlowMsg/NaviHint_Enemy:Enemy_DungeonBoss_PhantomGanon_15', 'MaintainPerformanceState': 0})
@@ -253,12 +253,12 @@ void Volvagia() {
 
     if !GameSystemActor.EventQueryIsDreamWorld() {
         switchcall DreamBossStage.NaviHint_Rematch_Sub() {
-          case 1642511898:
+          case fnv1a("No"):
             Event75:
 
             call NaviHint.CameraReset_RematchRelated()
 
-          case 2413946405:
+          case fnv1a("Info"):
             Npc_Navi.EventTalk({'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'IsWaitEnd': True, 'MessageId': 'EventFlowMsg/NaviHint_Enemy:Enemy_DungeonBoss_Volvagia_07', 'MaintainPerformanceState': 0})
             goto Event75
         }
@@ -299,12 +299,12 @@ void Morpha() {
 
     if !GameSystemActor.EventQueryIsDreamWorld() {
         switchcall DreamBossStage.NaviHint_Rematch_Sub() {
-          case 1642511898:
+          case fnv1a("No"):
             Event87:
 
             call NaviHint.CameraReset_RematchRelated()
 
-          case 2413946405:
+          case fnv1a("Info"):
             Npc_Navi.EventTalk({'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'IsWaitEnd': True, 'MessageId': 'EventFlowMsg/NaviHint_Enemy:Enemy_DungeonBoss_Morpha_02', 'MaintainPerformanceState': 0})
             goto Event87
         }
@@ -345,12 +345,12 @@ void BongoBongo() {
 
     if !GameSystemActor.EventQueryIsDreamWorld() {
         switchcall DreamBossStage.NaviHint_Rematch_Sub() {
-          case 1642511898:
+          case fnv1a("No"):
             Event93:
 
             call NaviHint.CameraReset_RematchRelated()
 
-          case 2413946405:
+          case fnv1a("Info"):
             Npc_Navi.EventTalk({'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'IsWaitEnd': True, 'MessageId': 'EventFlowMsg/NaviHint_Enemy:Enemy_DungeonBoss_BongoBongo_05', 'MaintainPerformanceState': 0})
             goto Event93
         }
@@ -390,12 +390,12 @@ void Koume() {
 
     if !GameSystemActor.EventQueryIsDreamWorld() {
         switchcall DreamBossStage.NaviHint_Rematch_Sub() {
-          case 1642511898:
+          case fnv1a("No"):
             Event119:
 
             call NaviHint.CameraReset_RematchRelated()
 
-          case 2413946405:
+          case fnv1a("Info"):
             Npc_Navi.EventTalk({'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'IsWaitEnd': True, 'MessageId': 'EventFlowMsg/NaviHint_Enemy:Enemy_DungeonBoss_Koume_05', 'MaintainPerformanceState': 0})
             goto Event119
         }
@@ -436,12 +436,12 @@ void Kotake() {
 
     if !GameSystemActor.EventQueryIsDreamWorld() {
         switchcall DreamBossStage.NaviHint_Rematch_Sub() {
-          case 1642511898:
+          case fnv1a("No"):
             Event125:
 
             call NaviHint.CameraReset_RematchRelated()
 
-          case 2413946405:
+          case fnv1a("Info"):
             Npc_Navi.EventTalk({'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'IsWaitEnd': True, 'MessageId': 'EventFlowMsg/NaviHint_Enemy:Enemy_DungeonBoss_Kotake_05', 'MaintainPerformanceState': 0})
             goto Event125
         }
@@ -482,12 +482,12 @@ void Twinrova() {
 
     if !GameSystemActor.EventQueryIsDreamWorld() {
         switchcall DreamBossStage.NaviHint_Rematch_Sub() {
-          case 1642511898:
+          case fnv1a("No"):
             Event131:
 
             call NaviHint.CameraReset_RematchRelated()
 
-          case 2413946405:
+          case fnv1a("Info"):
             Npc_Navi.EventTalk({'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'IsWaitEnd': True, 'MessageId': 'EventFlowMsg/NaviHint_Enemy:Enemy_DungeonBoss_Twinrova_06', 'MaintainPerformanceState': 0})
             goto Event131
         }
@@ -528,12 +528,12 @@ void Ganon() {
 
     if !GameSystemActor.EventQueryIsDreamWorld() {
         switchcall DreamBossStage.NaviHint_Rematch_Sub() {
-          case 1642511898:
+          case fnv1a("No"):
             Event142:
 
             call NaviHint.CameraReset_RematchRelated()
 
-          case 2413946405:
+          case fnv1a("Info"):
             Npc_Navi.EventTalk({'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'IsWaitEnd': True, 'MessageId': 'EventFlowMsg/NaviHint_Enemy:Enemy_DungeonBoss_Ganon_08', 'MaintainPerformanceState': 0})
             goto Event142
         }
@@ -717,13 +717,13 @@ void Barinade_FourthForm() {
 void Ganon_SecondHalfBattle_Arm() {
     if !GameSystemActor.EventQueryIsDreamWorld() {
         switchcall DreamBossStage.NaviHint_Rematch_Sub() {
-          case 2413946405:
+          case fnv1a("Info"):
             Npc_Navi.EventTalk({'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'IsWaitEnd': True, 'MessageId': 'EventFlowMsg/NaviHint_Enemy:Enemy_DungeonBoss_Ganon_12', 'MaintainPerformanceState': 0})
             Event3:
 
             call NaviHint.CameraReset_RematchRelated()
 
-          case 1642511898:
+          case fnv1a("No"):
             goto Event3
         }
     } else
@@ -760,12 +760,12 @@ void Ganon_SecondHalfBattle_Arm() {
 void Ganon_SecondHalfBattle_EvilEye() {
     if !GameSystemActor.EventQueryIsDreamWorld() {
         switchcall DreamBossStage.NaviHint_Rematch_Sub() {
-          case 1642511898:
+          case fnv1a("No"):
             Event16:
 
             call NaviHint.CameraReset_RematchRelated()
 
-          case 2413946405:
+          case fnv1a("Info"):
             Npc_Navi.EventTalk({'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'IsWaitEnd': True, 'MaintainPerformanceState': 0, 'MessageId': 'EventFlowMsg/NaviHint_Enemy:Enemy_DungeonBoss_Ganon_21'})
             goto Event16
         }
@@ -803,12 +803,12 @@ void Ganon_SecondHalfBattle_EvilEye() {
 void Ganon_SecondHalfBattle_Finish() {
     if !GameSystemActor.EventQueryIsDreamWorld() {
         switchcall DreamBossStage.NaviHint_Rematch_Sub() {
-          case 1642511898:
+          case fnv1a("No"):
             Event221:
 
             call NaviHint.CameraReset_RematchRelated()
 
-          case 2413946405:
+          case fnv1a("Info"):
             if !GameDataActor.EventQueryIsGameDataBool({'Index': -1, 'GameDataName': 'NaviHint_DungeonBoss_Ganon_SecondHalfBattle_Finish_HasRead'}) {
                 Npc_Navi.EventTalk({'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'IsWaitEnd': True, 'MaintainPerformanceState': 0, 'MessageId': 'EventFlowMsg/NaviHint_Enemy:Enemy_DungeonBoss_Ganon_26'})
                 goto Event221
@@ -832,12 +832,12 @@ void Ganon_SecondHalfBattle_Finish() {
 void Ganon_SecondHalfBattle_Invincible() {
     if !GameSystemActor.EventQueryIsDreamWorld() {
         switchcall DreamBossStage.NaviHint_Rematch_Sub() {
-          case 1642511898:
+          case fnv1a("No"):
             Event190:
 
             call NaviHint.CameraReset_RematchRelated()
 
-          case 2413946405:
+          case fnv1a("Info"):
             if !GameDataActor.EventQueryIsGameDataBool({'Index': -1, 'GameDataName': 'NaviHint_DungeonBoss_Ganon_SecondHalfBattle_Invincible_HasRead'}) {
                 Npc_Navi.EventTalk({'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'IsWaitEnd': True, 'MaintainPerformanceState': 0, 'MessageId': 'EventFlowMsg/NaviHint_Enemy:Enemy_DungeonBoss_Ganon_27'})
                 goto Event190

@@ -2,6 +2,61 @@ import evfl # https://github.com/leoetlino/evfl
 from evfl.event import *
 import os
 import os.path
+import re
+import sys
+
+# Sub flow switch cases and return values are FNV-1a hashes of labels that are not stored in the file.
+COMMON_LABELS = ['Yes', 'No', 'else', 'Else', 'True', 'False', 'true', 'false', 'OK', 'Cancel', 'None',
+                 'Success', 'Failure', 'Win', 'Lose', 'Clear', 'Default', 'End', 'Exit', 'Continue', 'Retry']
+labels = {}
+
+def fnv1a_32(text):
+    value = 0x811c9dc5
+    for byte in text.encode():
+        value = ((value ^ byte) * 0x01000193) & 0xffffffff
+    return value
+
+def add_label_candidates(strings):
+    for text in strings:
+        for word in [text] + re.findall(r'[A-Za-z0-9_]+', text) + re.findall(r'[A-Z][a-z0-9]+|[A-Z]+(?![a-z])|[a-z]+|[0-9]+', text):
+            labels.setdefault(fnv1a_32(word), word)
+
+def param_strings(value):
+    if isinstance(value, str):
+        yield value
+    elif isinstance(value, list):
+        for item in value:
+            yield from param_strings(item)
+    elif hasattr(value, 'sub_name'):
+        yield value.name
+        yield value.sub_name
+
+def flowchart_strings(flowchart):
+    yield flowchart.name
+    for entrypoint in flowchart.entry_points:
+        yield entrypoint.name
+        yield from entrypoint.variable_defs.keys()
+    for actor in flowchart.actors:
+        yield actor.identifier.name
+        yield actor.identifier.sub_name
+        yield from (str(x) for x in actor.actions)
+        yield from (str(x) for x in actor.queries)
+    for event in flowchart.events:
+        yield event.name
+        params = getattr(event.data, 'params', None)
+        if params:
+            for key, value in params.data.items():
+                yield key
+                yield from param_strings(value)
+        if isinstance(event.data, (SubFlowEvent, SubFlowSwitchEvent)):
+            yield event.data.res_flowchart_name
+            yield event.data.entry_point_name
+
+def label(value):
+    return 'fnv1a("%s")' % labels[value] if value in labels else '0x%08x' % value
+
+def case_label(keys):
+    return label(keys[0]) if len(keys) == 1 else '[' + ', '.join(label(key) for key in keys) + ']'
 
 def print_flowchart(flowchart):
     if flowchart is None:
@@ -182,14 +237,14 @@ def print_event(event,indent,alreadySeen,lines,neededLabels,noPrintNxt=False,isA
         if not noPrintNxt:
             print_event(event.data.nxt.v,indent,alreadySeen,lines,neededLabels)
     elif isinstance(event.data, ReturnEvent):
-        lines.append(spaces+"return "+str(event.data.value)+"\n")
+        lines.append(spaces+"return "+label(event.data.value)+"\n")
     elif isinstance(event.data, SubFlowSwitchEvent):
         distinctCases = getDistinctCases(event)
         distinctKeys = list(distinctCases.values())
         assert not isAnd
         lines.append(spaces+"switchcall " + event.data.res_flowchart_name+("." if event.data.res_flowchart_name else '')+event.data.entry_point_name+"("+str(event.data.params.data if event.data.params else '')+") {\n")
         for key in distinctKeys:
-            lines.append(spaces+"  case "+str(key[0] if len(key)==1 else key)+":\n")
+            lines.append(spaces+"  case "+case_label(key)+":\n")
             print_event(event.data.cases[key[0]].v,indent+1,alreadySeen,lines,neededLabels)
         lines.append(spaces+"}\n")
     else:
@@ -197,6 +252,9 @@ def print_event(event,indent,alreadySeen,lines,neededLabels,noPrintNxt=False,isA
     return lines, neededLabels
 
 if __name__ == "__main__":
+    add_label_candidates(COMMON_LABELS)
+
+    flows = []
     for fname in os.listdir('EventFlow'):
 
         path = 'EventFlow/'+fname
@@ -213,6 +271,16 @@ if __name__ == "__main__":
             print(path, 'cannot be processed')
             continue
 
+        flows.append((fname, flow))
+        if flow.flowchart:
+            add_label_candidates(flowchart_strings(flow.flowchart))
+
+    # Optional arguments: files whose printable strings are extra label candidates, e.g. main_uncompressed.
+    for candidate_path in sys.argv[1:]:
+        with open(candidate_path, 'rb') as file:
+            add_label_candidates(run.decode() for run in re.findall(rb'[\x20-\x7e]{2,}', file.read()))
+
+    for fname, flow in flows:
         flowchart = flow.flowchart
         outfile = open('event/'+fname.replace('.bfevfl','')+'.c','w',encoding='utf-8')
         outfile.write(print_flowchart(flowchart))

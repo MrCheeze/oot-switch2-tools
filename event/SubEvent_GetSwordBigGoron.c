@@ -208,7 +208,7 @@ void SubEvent_TimerCheck_Warp() {
             if !GameDataActor.EventQueryIsGameDataBoolExp({'GameDataName': 'SubEvent_GetSwordBigGoron_TimerCountingStep'}) {
                 if !GameDataActor.EventQueryIsBool({'BoolValue': 'IsFaroreWind'}) {
                     Event172:
-                    return 1303515621
+                    return fnv1a("true")
                 } else
                 if !ChallengeSystemActor.EventQueryIsRemainingTimerValue({'RemainingFrame': 600}) {
                     ChallengeSystemActor.EventSetTimerValue({'TimerValue': 600, 'IsWaitEnd': True})
@@ -225,7 +225,7 @@ void SubEvent_TimerCheck_Warp() {
                 goto Event172
             }
         } else {
-            return 184981848
+            return fnv1a("false")
         }
     } else
     if !GameDataActor.EventQueryIsGameDataBoolExp({'GameDataName': 'SubEvent_RunningRace_IsTimerCountingStep'}) {
@@ -233,7 +233,7 @@ void SubEvent_TimerCheck_Warp() {
         Npc_Navi.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceLabel4': 3, 'ChoiceNumber': 2, 'ChoiceLabel3': 0, 'MessageId': 'EventFlowMsg/SubEvent_GetSwordBigGoron:Talk_65', 'ChoiceLabel1': 11, 'ChoiceLabel2': 12, 'MaintainPerformanceState': 0})
         goto Event58
     } else {
-        return 1303515621
+        return fnv1a("true")
     }
 }
 

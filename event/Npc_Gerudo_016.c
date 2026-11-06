@@ -172,7 +172,7 @@ void Quiz_Easy() {
     switch GameSystemActor.EventQueryRandomChoice3() {
       case 0:
         switchcall Quiz_Easy_Question1() {
-          case 1550717474:
+          case fnv1a("clear"):
             Event23:
             Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceLabel1': 2, 'ChoiceLabel2': 3, 'ChoiceLabel3': 4, 'ChoiceLabel4': 5, 'OverrideStyle': 8, 'IsOverrideStyle': False, 'ChoiceCancelNo': 0, 'ChoiceNumber': 0, 'MessageId': 'EventFlowMsg/Npc_Gerudo_016:Talk_30', 'MaintainPerformanceState': 0})
             switch GameSystemActor.EventQueryRandomChoice3() {
@@ -180,13 +180,13 @@ void Quiz_Easy() {
                 if !GameDataActor.EventQueryIsGameDataBool({'Index': -1, 'GameDataName': 'GerudoFortress_QuizEasy_Question1Clear'}) {
                     Event193:
                     switchcall Quiz_Easy_Question2() {
-                      case 1550717474:
+                      case fnv1a("clear"):
                         Event67:
                         Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceLabel1': 2, 'ChoiceLabel2': 3, 'ChoiceLabel3': 4, 'ChoiceLabel4': 5, 'OverrideStyle': 8, 'IsOverrideStyle': False, 'ChoiceCancelNo': 0, 'ChoiceNumber': 0, 'MessageId': 'EventFlowMsg/Npc_Gerudo_016:Talk_31', 'MaintainPerformanceState': 0})
                         if !GameDataActor.EventQueryIsGameDataBool({'Index': -1, 'GameDataName': 'GerudoFortress_QuizEasy_Question1Clear'}) {
                             if !GameDataActor.EventQueryIsGameDataBool({'Index': -1, 'GameDataName': 'GerudoFortress_QuizEasy_Question2Clear'}) {
                                 switchcall Quiz_Easy_Question3() {
-                                  case 1550717474:
+                                  case fnv1a("clear"):
                                     Event272:
 
                                     call CleardAndMaskTruth()
@@ -196,13 +196,13 @@ void Quiz_Easy() {
                                 }
                             } else {
                                 switchcall Quiz_Easy_Question2() {
-                                  case 1550717474:
+                                  case fnv1a("clear"):
                                     goto Event272
                                 }
                             }
                         } else {
                             switchcall Quiz_Easy_Question1() {
-                              case 1550717474:
+                              case fnv1a("clear"):
                                 goto Event272
                             }
                         }
@@ -210,7 +210,7 @@ void Quiz_Easy() {
                 } else {
                     Event185:
                     switchcall Quiz_Easy_Question1() {
-                      case 1550717474:
+                      case fnv1a("clear"):
                         goto Event67
                     }
                 }
@@ -218,7 +218,7 @@ void Quiz_Easy() {
                 if !GameDataActor.EventQueryIsGameDataBool({'Index': -1, 'GameDataName': 'GerudoFortress_QuizEasy_Question2Clear'}) {
                     Event194:
                     switchcall Quiz_Easy_Question3() {
-                      case 1550717474:
+                      case fnv1a("clear"):
                         goto Event67
                     }
                 } else {
@@ -234,12 +234,12 @@ void Quiz_Easy() {
         }
       case 1:
         switchcall Quiz_Easy_Question2() {
-          case 1550717474:
+          case fnv1a("clear"):
             goto Event23
         }
       case 2:
         switchcall Quiz_Easy_Question3() {
-          case 1550717474:
+          case fnv1a("clear"):
             goto Event23
         }
     }
@@ -257,13 +257,13 @@ void Quiz_Easy_Question1() {
             Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsNotOpenIfSkipedMostRecent': False, 'IsOverrideStyle': True, 'OverrideStyle': 8, 'MessageId': 'EventFlowMsg/Npc_Gerudo_016:Mask_11', 'ASName': 'TalkMonolog', 'MaintainPerformanceState': 0})
         }
         Event186:
-        return 3316573130
+        return 0xc5aee3ca
       case 1:
         if GameDataActor.EventQueryIsGameDataBool({'Index': -1, 'GameDataName': 'GerudoFortress_QuizHard_Clear'}) {
             Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceLabel1': 2, 'ChoiceLabel2': 3, 'ChoiceLabel3': 4, 'ChoiceLabel4': 5, 'MessageId': 'EventFlowMsg/Npc_Gerudo_016:Talk_07', 'ChoiceNumber': 0, 'MaintainPerformanceState': 0})
         }
         GameDataActor.EventTriggerSetGameDataBool({'Value': True, 'Index': -1, 'GameDataName': 'GerudoFortress_QuizEasy_Question1Clear'})
-        return 1550717474
+        return fnv1a("clear")
       case 3:
 
         call Quiz_Cancel()
@@ -285,13 +285,13 @@ void Quiz_Easy_Question2() {
             Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsNotOpenIfSkipedMostRecent': False, 'IsOverrideStyle': True, 'OverrideStyle': 8, 'MessageId': 'EventFlowMsg/Npc_Gerudo_016:Mask_12', 'ASName': 'TalkMonolog', 'MaintainPerformanceState': 0})
         }
         Event188:
-        return 3316573130
+        return 0xc5aee3ca
       case 2:
         if GameDataActor.EventQueryIsGameDataBool({'Index': -1, 'GameDataName': 'GerudoFortress_QuizHard_Clear'}) {
             Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceLabel1': 2, 'ChoiceLabel2': 3, 'ChoiceLabel3': 4, 'ChoiceLabel4': 5, 'ChoiceNumber': 0, 'MessageId': 'EventFlowMsg/Npc_Gerudo_016:Talk_16', 'MaintainPerformanceState': 0})
         }
         GameDataActor.EventTriggerSetGameDataBool({'Value': True, 'Index': -1, 'GameDataName': 'GerudoFortress_QuizEasy_Question2Clear'})
-        return 1550717474
+        return fnv1a("clear")
       case 3:
 
         call Quiz_Cancel()
@@ -312,13 +312,13 @@ void Quiz_Easy_Question3() {
             Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsNotOpenIfSkipedMostRecent': False, 'IsOverrideStyle': True, 'OverrideStyle': 8, 'MessageId': 'EventFlowMsg/Npc_Gerudo_016:Mask_15', 'ASName': 'TalkMonolog', 'MaintainPerformanceState': 0})
         }
         Event190:
-        return 3316573130
+        return 0xc5aee3ca
       case 2:
         if GameDataActor.EventQueryIsGameDataBool({'Index': -1, 'GameDataName': 'GerudoFortress_QuizHard_Clear'}) {
             Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceLabel1': 2, 'ChoiceLabel2': 3, 'ChoiceLabel3': 4, 'ChoiceLabel4': 5, 'ChoiceNumber': 0, 'MessageId': 'EventFlowMsg/Npc_Gerudo_016:Talk_23', 'MaintainPerformanceState': 0})
         }
         GameDataActor.EventTriggerSetGameDataBool({'Value': True, 'Index': -1, 'GameDataName': 'GerudoFortress_QuizEasy_Question3Clear'})
-        return 1550717474
+        return fnv1a("clear")
       case 3:
 
         call Quiz_Cancel()
@@ -358,13 +358,13 @@ void Quiz_Hard_Question1() {
             Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsNotOpenIfSkipedMostRecent': False, 'IsOverrideStyle': True, 'OverrideStyle': 8, 'MessageId': 'EventFlowMsg/Npc_Gerudo_016:Mask_13', 'ASName': 'TalkMonolog', 'MaintainPerformanceState': 0})
         }
         Event233:
-        return 3316573130
+        return 0xc5aee3ca
       case 2:
         if GameDataActor.EventQueryIsGameDataBool({'Index': -1, 'GameDataName': 'GerudoFortress_QuizHard_Clear'}) {
             Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceLabel1': 2, 'ChoiceLabel2': 3, 'ChoiceLabel3': 4, 'ChoiceLabel4': 5, 'ChoiceNumber': 0, 'MessageId': 'EventFlowMsg/Npc_Gerudo_016:Talk_11', 'MaintainPerformanceState': 0})
         }
         GameDataActor.EventTriggerSetGameDataBool({'Value': True, 'Index': -1, 'GameDataName': 'GerudoFortress_QuizHard_Question1Clear'})
-        return 1550717474
+        return fnv1a("clear")
       case 3:
 
         call Quiz_Cancel()
@@ -381,7 +381,7 @@ void Quiz_Hard_Question2() {
             Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceLabel1': 2, 'ChoiceLabel2': 3, 'ChoiceLabel3': 4, 'ChoiceLabel4': 5, 'ChoiceNumber': 0, 'MessageId': 'EventFlowMsg/Npc_Gerudo_016:Talk_36', 'MaintainPerformanceState': 0})
         }
         GameDataActor.EventTriggerSetGameDataBool({'Value': True, 'Index': -1, 'GameDataName': 'GerudoFortress_QuizHard_Question2Clear'})
-        return 1550717474
+        return fnv1a("clear")
       case [1, 2]:
 
         call Npc_Gerudo_016_CameraReset()
@@ -392,7 +392,7 @@ void Quiz_Hard_Question2() {
             Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsNotOpenIfSkipedMostRecent': False, 'IsOverrideStyle': True, 'OverrideStyle': 8, 'MessageId': 'EventFlowMsg/Npc_Gerudo_016:Mask_14', 'ASName': 'TalkMonolog', 'MaintainPerformanceState': 0})
         }
         Event235:
-        return 3316573130
+        return 0xc5aee3ca
       case 3:
 
         call Quiz_Cancel()
@@ -409,7 +409,7 @@ void Quiz_Hard_Question3() {
             Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceLabel1': 2, 'ChoiceLabel2': 3, 'ChoiceLabel3': 4, 'ChoiceLabel4': 5, 'ChoiceNumber': 0, 'MessageId': 'EventFlowMsg/Npc_Gerudo_016:Talk_13', 'MaintainPerformanceState': 0})
         }
         GameDataActor.EventTriggerSetGameDataBool({'Value': True, 'Index': -1, 'GameDataName': 'GerudoFortress_QuizHard_Question3Clear'})
-        return 1550717474
+        return fnv1a("clear")
       case [1, 2]:
 
         call Npc_Gerudo_016_CameraReset()
@@ -419,7 +419,7 @@ void Quiz_Hard_Question3() {
             Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsNotOpenIfSkipedMostRecent': False, 'IsOverrideStyle': True, 'OverrideStyle': 8, 'MessageId': 'EventFlowMsg/Npc_Gerudo_016:Mask_16', 'ASName': 'TalkMonolog', 'MaintainPerformanceState': 0})
         }
         Event237:
-        return 3316573130
+        return 0xc5aee3ca
       case 3:
 
         call Quiz_Cancel()
@@ -436,7 +436,7 @@ void Quiz_Hard() {
     switch Npc_EventStarter.EventQueryAvoidDuplicationRandomChoice3() {
       case 0:
         switchcall Quiz_Hard_Question1() {
-          case 1550717474:
+          case fnv1a("clear"):
             Event251:
             Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceLabel1': 2, 'ChoiceLabel2': 3, 'ChoiceLabel3': 4, 'ChoiceLabel4': 5, 'OverrideStyle': 8, 'IsOverrideStyle': False, 'ChoiceCancelNo': 0, 'ChoiceNumber': 0, 'MessageId': 'EventFlowMsg/Npc_Gerudo_016:Talk_30', 'MaintainPerformanceState': 0})
             switch Npc_EventStarter.EventQueryAvoidDuplicationRandomChoice3() {
@@ -444,13 +444,13 @@ void Quiz_Hard() {
                 if !GameDataActor.EventQueryIsGameDataBool({'Index': -1, 'GameDataName': 'GerudoFortress_QuizHard_Question1Clear'}) {
                     Event7:
                     switchcall Quiz_Hard_Question2() {
-                      case 1550717474:
+                      case fnv1a("clear"):
                         Event247:
                         Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceLabel1': 2, 'ChoiceLabel2': 3, 'ChoiceLabel3': 4, 'ChoiceLabel4': 5, 'OverrideStyle': 8, 'IsOverrideStyle': False, 'ChoiceCancelNo': 0, 'ChoiceNumber': 0, 'MessageId': 'EventFlowMsg/Npc_Gerudo_016:Talk_31', 'MaintainPerformanceState': 0})
                         if !GameDataActor.EventQueryIsGameDataBool({'Index': -1, 'GameDataName': 'GerudoFortress_QuizHard_Question1Clear'}) {
                             if !GameDataActor.EventQueryIsGameDataBool({'Index': -1, 'GameDataName': 'GerudoFortress_QuizHard_Question2Clear'}) {
                                 switchcall Quiz_Hard_Question3() {
-                                  case 1550717474:
+                                  case fnv1a("clear"):
                                     Event209:
 
                                     call CleardAndMaskTruth()
@@ -460,13 +460,13 @@ void Quiz_Hard() {
                                 }
                             } else {
                                 switchcall Quiz_Hard_Question2() {
-                                  case 1550717474:
+                                  case fnv1a("clear"):
                                     goto Event209
                                 }
                             }
                         } else {
                             switchcall Quiz_Hard_Question1() {
-                              case 1550717474:
+                              case fnv1a("clear"):
                                 goto Event209
                             }
                         }
@@ -474,7 +474,7 @@ void Quiz_Hard() {
                 } else {
                     Event6:
                     switchcall Quiz_Hard_Question1() {
-                      case 1550717474:
+                      case fnv1a("clear"):
                         goto Event247
                     }
                 }
@@ -482,7 +482,7 @@ void Quiz_Hard() {
                 if !GameDataActor.EventQueryIsGameDataBool({'Index': -1, 'GameDataName': 'GerudoFortress_QuizHard_Question2Clear'}) {
                     Event8:
                     switchcall Quiz_Hard_Question3() {
-                      case 1550717474:
+                      case fnv1a("clear"):
                         goto Event247
                     }
                 } else {
@@ -498,12 +498,12 @@ void Quiz_Hard() {
         }
       case 1:
         switchcall Quiz_Hard_Question2() {
-          case 1550717474:
+          case fnv1a("clear"):
             goto Event251
         }
       case 2:
         switchcall Quiz_Hard_Question3() {
-          case 1550717474:
+          case fnv1a("clear"):
             goto Event251
         }
     }
@@ -520,7 +520,7 @@ void Quiz_Ex() {
     switch GameSystemActor.EventQueryRandomChoice6() {
       case 0:
         switchcall Quiz_Easy_Question1() {
-          case 1550717474:
+          case fnv1a("clear"):
             Event268:
             Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceLabel1': 2, 'ChoiceLabel2': 3, 'ChoiceLabel3': 4, 'ChoiceLabel4': 5, 'OverrideStyle': 8, 'IsOverrideStyle': False, 'ChoiceCancelNo': 0, 'ChoiceNumber': 0, 'MessageId': 'EventFlowMsg/Npc_Gerudo_016:Talk_39', 'MaintainPerformanceState': 0})
             Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceLabel1': 2, 'ChoiceLabel2': 3, 'ChoiceLabel3': 4, 'ChoiceLabel4': 5, 'OverrideStyle': 8, 'IsOverrideStyle': False, 'ChoiceCancelNo': 0, 'ChoiceNumber': 0, 'MessageId': 'EventFlowMsg/Npc_Gerudo_016:Talk_30', 'MaintainPerformanceState': 0})
@@ -529,7 +529,7 @@ void Quiz_Ex() {
                 if !GameDataActor.EventQueryIsGameDataBool({'Index': -1, 'GameDataName': 'GerudoFortress_QuizEasy_Question1Clear'}) {
                     Event142:
                     switchcall Quiz_Easy_Question2() {
-                      case 1550717474:
+                      case fnv1a("clear"):
                         Event344:
                         Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceLabel1': 2, 'ChoiceLabel2': 3, 'ChoiceLabel3': 4, 'ChoiceLabel4': 5, 'OverrideStyle': 8, 'IsOverrideStyle': False, 'ChoiceCancelNo': 0, 'ChoiceNumber': 0, 'MessageId': 'EventFlowMsg/Npc_Gerudo_016:Talk_37', 'MaintainPerformanceState': 0})
                         Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceLabel1': 2, 'ChoiceLabel2': 3, 'ChoiceLabel3': 4, 'ChoiceLabel4': 5, 'OverrideStyle': 8, 'IsOverrideStyle': False, 'ChoiceCancelNo': 0, 'ChoiceNumber': 0, 'MessageId': 'EventFlowMsg/Npc_Gerudo_016:Talk_31', 'MaintainPerformanceState': 0})
@@ -538,7 +538,7 @@ void Quiz_Ex() {
                                 switch GameSystemActor.EventQueryRandomChoice4() {
                                   case 0:
                                     switchcall Quiz_Easy_Question3() {
-                                      case 1550717474:
+                                      case fnv1a("clear"):
                                         Event333:
 
                                         call Extra_Clear()
@@ -546,17 +546,17 @@ void Quiz_Ex() {
                                     }
                                   case 1:
                                     switchcall Quiz_Hard_Question1() {
-                                      case 1550717474:
+                                      case fnv1a("clear"):
                                         goto Event333
                                     }
                                   case 2:
                                     switchcall Quiz_Hard_Question2() {
-                                      case 1550717474:
+                                      case fnv1a("clear"):
                                         goto Event333
                                     }
                                   case 3:
                                     switchcall Quiz_Hard_Question3() {
-                                      case 1550717474:
+                                      case fnv1a("clear"):
                                         goto Event333
                                     }
                                 }
@@ -565,7 +565,7 @@ void Quiz_Ex() {
                                 switch GameSystemActor.EventQueryRandomChoice4() {
                                   case 0:
                                     switchcall Quiz_Easy_Question2() {
-                                      case 1550717474:
+                                      case fnv1a("clear"):
                                         Event332:
 
                                         call Extra_Clear()
@@ -573,17 +573,17 @@ void Quiz_Ex() {
                                     }
                                   case 1:
                                     switchcall Quiz_Hard_Question1() {
-                                      case 1550717474:
+                                      case fnv1a("clear"):
                                         goto Event332
                                     }
                                   case 2:
                                     switchcall Quiz_Hard_Question2() {
-                                      case 1550717474:
+                                      case fnv1a("clear"):
                                         goto Event332
                                     }
                                   case 3:
                                     switchcall Quiz_Hard_Question3() {
-                                      case 1550717474:
+                                      case fnv1a("clear"):
                                         goto Event332
                                     }
                                 }
@@ -592,7 +592,7 @@ void Quiz_Ex() {
                                 switch GameSystemActor.EventQueryRandomChoice4() {
                                   case 0:
                                     switchcall Quiz_Easy_Question2() {
-                                      case 1550717474:
+                                      case fnv1a("clear"):
                                         Event331:
 
                                         call Extra_Clear()
@@ -600,17 +600,17 @@ void Quiz_Ex() {
                                     }
                                   case 1:
                                     switchcall Quiz_Easy_Question3() {
-                                      case 1550717474:
+                                      case fnv1a("clear"):
                                         goto Event331
                                     }
                                   case 2:
                                     switchcall Quiz_Hard_Question2() {
-                                      case 1550717474:
+                                      case fnv1a("clear"):
                                         goto Event331
                                     }
                                   case 3:
                                     switchcall Quiz_Hard_Question3() {
-                                      case 1550717474:
+                                      case fnv1a("clear"):
                                         goto Event331
                                     }
                                 }
@@ -619,7 +619,7 @@ void Quiz_Ex() {
                                 switch GameSystemActor.EventQueryRandomChoice4() {
                                   case 0:
                                     switchcall Quiz_Easy_Question2() {
-                                      case 1550717474:
+                                      case fnv1a("clear"):
                                         Event330:
 
                                         call Extra_Clear()
@@ -627,17 +627,17 @@ void Quiz_Ex() {
                                     }
                                   case 1:
                                     switchcall Quiz_Easy_Question3() {
-                                      case 1550717474:
+                                      case fnv1a("clear"):
                                         goto Event330
                                     }
                                   case 2:
                                     switchcall Quiz_Hard_Question1() {
-                                      case 1550717474:
+                                      case fnv1a("clear"):
                                         goto Event330
                                     }
                                   case 3:
                                     switchcall Quiz_Hard_Question3() {
-                                      case 1550717474:
+                                      case fnv1a("clear"):
                                         goto Event330
                                     }
                                 }
@@ -645,7 +645,7 @@ void Quiz_Ex() {
                             switch GameSystemActor.EventQueryRandomChoice4() {
                               case 0:
                                 switchcall Quiz_Easy_Question2() {
-                                  case 1550717474:
+                                  case fnv1a("clear"):
                                     Event76:
 
                                     call Extra_Clear()
@@ -653,17 +653,17 @@ void Quiz_Ex() {
                                 }
                               case 1:
                                 switchcall Quiz_Easy_Question3() {
-                                  case 1550717474:
+                                  case fnv1a("clear"):
                                     goto Event76
                                 }
                               case 2:
                                 switchcall Quiz_Hard_Question1() {
-                                  case 1550717474:
+                                  case fnv1a("clear"):
                                     goto Event76
                                 }
                               case 3:
                                 switchcall Quiz_Hard_Question2() {
-                                  case 1550717474:
+                                  case fnv1a("clear"):
                                     goto Event76
                                 }
                             }
@@ -673,7 +673,7 @@ void Quiz_Ex() {
                                 switch GameSystemActor.EventQueryRandomChoice4() {
                                   case 0:
                                     switchcall Quiz_Easy_Question1() {
-                                      case 1550717474:
+                                      case fnv1a("clear"):
                                         Event334:
 
                                         call Extra_Clear()
@@ -681,17 +681,17 @@ void Quiz_Ex() {
                                     }
                                   case 1:
                                     switchcall Quiz_Hard_Question1() {
-                                      case 1550717474:
+                                      case fnv1a("clear"):
                                         goto Event334
                                     }
                                   case 2:
                                     switchcall Quiz_Hard_Question2() {
-                                      case 1550717474:
+                                      case fnv1a("clear"):
                                         goto Event334
                                     }
                                   case 3:
                                     switchcall Quiz_Hard_Question3() {
-                                      case 1550717474:
+                                      case fnv1a("clear"):
                                         goto Event334
                                     }
                                 }
@@ -700,7 +700,7 @@ void Quiz_Ex() {
                                 switch GameSystemActor.EventQueryRandomChoice4() {
                                   case 0:
                                     switchcall Quiz_Easy_Question1() {
-                                      case 1550717474:
+                                      case fnv1a("clear"):
                                         Event335:
 
                                         call Extra_Clear()
@@ -708,17 +708,17 @@ void Quiz_Ex() {
                                     }
                                   case 1:
                                     switchcall Quiz_Easy_Question3() {
-                                      case 1550717474:
+                                      case fnv1a("clear"):
                                         goto Event335
                                     }
                                   case 2:
                                     switchcall Quiz_Hard_Question2() {
-                                      case 1550717474:
+                                      case fnv1a("clear"):
                                         goto Event335
                                     }
                                   case 3:
                                     switchcall Quiz_Hard_Question3() {
-                                      case 1550717474:
+                                      case fnv1a("clear"):
                                         goto Event335
                                     }
                                 }
@@ -727,7 +727,7 @@ void Quiz_Ex() {
                                 switch GameSystemActor.EventQueryRandomChoice4() {
                                   case 0:
                                     switchcall Quiz_Easy_Question1() {
-                                      case 1550717474:
+                                      case fnv1a("clear"):
                                         Event336:
 
                                         call Extra_Clear()
@@ -735,17 +735,17 @@ void Quiz_Ex() {
                                     }
                                   case 1:
                                     switchcall Quiz_Easy_Question3() {
-                                      case 1550717474:
+                                      case fnv1a("clear"):
                                         goto Event336
                                     }
                                   case 2:
                                     switchcall Quiz_Hard_Question1() {
-                                      case 1550717474:
+                                      case fnv1a("clear"):
                                         goto Event336
                                     }
                                   case 3:
                                     switchcall Quiz_Hard_Question3() {
-                                      case 1550717474:
+                                      case fnv1a("clear"):
                                         goto Event336
                                     }
                                 }
@@ -753,7 +753,7 @@ void Quiz_Ex() {
                             switch GameSystemActor.EventQueryRandomChoice4() {
                               case 0:
                                 switchcall Quiz_Easy_Question1() {
-                                  case 1550717474:
+                                  case fnv1a("clear"):
                                     Event337:
 
                                     call Extra_Clear()
@@ -761,17 +761,17 @@ void Quiz_Ex() {
                                 }
                               case 1:
                                 switchcall Quiz_Easy_Question3() {
-                                  case 1550717474:
+                                  case fnv1a("clear"):
                                     goto Event337
                                 }
                               case 2:
                                 switchcall Quiz_Hard_Question1() {
-                                  case 1550717474:
+                                  case fnv1a("clear"):
                                     goto Event337
                                 }
                               case 3:
                                 switchcall Quiz_Hard_Question2() {
-                                  case 1550717474:
+                                  case fnv1a("clear"):
                                     goto Event337
                                 }
                             }
@@ -781,7 +781,7 @@ void Quiz_Ex() {
                                 switch GameSystemActor.EventQueryRandomChoice4() {
                                   case 0:
                                     switchcall Quiz_Easy_Question1() {
-                                      case 1550717474:
+                                      case fnv1a("clear"):
                                         Event339:
 
                                         call Extra_Clear()
@@ -789,17 +789,17 @@ void Quiz_Ex() {
                                     }
                                   case 1:
                                     switchcall Quiz_Easy_Question2() {
-                                      case 1550717474:
+                                      case fnv1a("clear"):
                                         goto Event339
                                     }
                                   case 2:
                                     switchcall Quiz_Hard_Question2() {
-                                      case 1550717474:
+                                      case fnv1a("clear"):
                                         goto Event339
                                     }
                                   case 3:
                                     switchcall Quiz_Hard_Question3() {
-                                      case 1550717474:
+                                      case fnv1a("clear"):
                                         goto Event339
                                     }
                                 }
@@ -808,7 +808,7 @@ void Quiz_Ex() {
                                 switch GameSystemActor.EventQueryRandomChoice4() {
                                   case 0:
                                     switchcall Quiz_Easy_Question1() {
-                                      case 1550717474:
+                                      case fnv1a("clear"):
                                         Event338:
 
                                         call Extra_Clear()
@@ -816,17 +816,17 @@ void Quiz_Ex() {
                                     }
                                   case 1:
                                     switchcall Quiz_Easy_Question2() {
-                                      case 1550717474:
+                                      case fnv1a("clear"):
                                         goto Event338
                                     }
                                   case 2:
                                     switchcall Quiz_Hard_Question1() {
-                                      case 1550717474:
+                                      case fnv1a("clear"):
                                         goto Event338
                                     }
                                   case 3:
                                     switchcall Quiz_Hard_Question3() {
-                                      case 1550717474:
+                                      case fnv1a("clear"):
                                         goto Event338
                                     }
                                 }
@@ -834,7 +834,7 @@ void Quiz_Ex() {
                             switch GameSystemActor.EventQueryRandomChoice4() {
                               case 0:
                                 switchcall Quiz_Easy_Question1() {
-                                  case 1550717474:
+                                  case fnv1a("clear"):
                                     Event343:
 
                                     call Extra_Clear()
@@ -842,17 +842,17 @@ void Quiz_Ex() {
                                 }
                               case 1:
                                 switchcall Quiz_Easy_Question2() {
-                                  case 1550717474:
+                                  case fnv1a("clear"):
                                     goto Event343
                                 }
                               case 2:
                                 switchcall Quiz_Hard_Question1() {
-                                  case 1550717474:
+                                  case fnv1a("clear"):
                                     goto Event343
                                 }
                               case 3:
                                 switchcall Quiz_Hard_Question2() {
-                                  case 1550717474:
+                                  case fnv1a("clear"):
                                     goto Event343
                                 }
                             }
@@ -862,7 +862,7 @@ void Quiz_Ex() {
                                 switch GameSystemActor.EventQueryRandomChoice4() {
                                   case 0:
                                     switchcall Quiz_Easy_Question1() {
-                                      case 1550717474:
+                                      case fnv1a("clear"):
                                         Event340:
 
                                         call Extra_Clear()
@@ -870,17 +870,17 @@ void Quiz_Ex() {
                                     }
                                   case 1:
                                     switchcall Quiz_Easy_Question2() {
-                                      case 1550717474:
+                                      case fnv1a("clear"):
                                         goto Event340
                                     }
                                   case 2:
                                     switchcall Quiz_Easy_Question3() {
-                                      case 1550717474:
+                                      case fnv1a("clear"):
                                         goto Event340
                                     }
                                   case 3:
                                     switchcall Quiz_Hard_Question3() {
-                                      case 1550717474:
+                                      case fnv1a("clear"):
                                         goto Event340
                                     }
                                 }
@@ -888,7 +888,7 @@ void Quiz_Ex() {
                             switch GameSystemActor.EventQueryRandomChoice4() {
                               case 0:
                                 switchcall Quiz_Easy_Question1() {
-                                  case 1550717474:
+                                  case fnv1a("clear"):
                                     Event341:
 
                                     call Extra_Clear()
@@ -896,17 +896,17 @@ void Quiz_Ex() {
                                 }
                               case 1:
                                 switchcall Quiz_Easy_Question2() {
-                                  case 1550717474:
+                                  case fnv1a("clear"):
                                     goto Event341
                                 }
                               case 2:
                                 switchcall Quiz_Easy_Question3() {
-                                  case 1550717474:
+                                  case fnv1a("clear"):
                                     goto Event341
                                 }
                               case 3:
                                 switchcall Quiz_Hard_Question2() {
-                                  case 1550717474:
+                                  case fnv1a("clear"):
                                     goto Event341
                                 }
                             }
@@ -914,7 +914,7 @@ void Quiz_Ex() {
                         switch GameSystemActor.EventQueryRandomChoice4() {
                           case 0:
                             switchcall Quiz_Easy_Question1() {
-                              case 1550717474:
+                              case fnv1a("clear"):
                                 Event342:
 
                                 call Extra_Clear()
@@ -922,17 +922,17 @@ void Quiz_Ex() {
                             }
                           case 1:
                             switchcall Quiz_Easy_Question2() {
-                              case 1550717474:
+                              case fnv1a("clear"):
                                 goto Event342
                             }
                           case 2:
                             switchcall Quiz_Easy_Question3() {
-                              case 1550717474:
+                              case fnv1a("clear"):
                                 goto Event342
                             }
                           case 3:
                             switchcall Quiz_Hard_Question1() {
-                              case 1550717474:
+                              case fnv1a("clear"):
                                 goto Event342
                             }
                         }
@@ -940,7 +940,7 @@ void Quiz_Ex() {
                 } else {
                     Event141:
                     switchcall Quiz_Easy_Question1() {
-                      case 1550717474:
+                      case fnv1a("clear"):
                         goto Event344
                     }
                 }
@@ -948,7 +948,7 @@ void Quiz_Ex() {
                 if !GameDataActor.EventQueryIsGameDataBool({'Index': -1, 'GameDataName': 'GerudoFortress_QuizEasy_Question2Clear'}) {
                     Event144:
                     switchcall Quiz_Easy_Question3() {
-                      case 1550717474:
+                      case fnv1a("clear"):
                         goto Event344
                     }
                 } else {
@@ -958,7 +958,7 @@ void Quiz_Ex() {
                 if !GameDataActor.EventQueryIsGameDataBool({'Index': -1, 'GameDataName': 'GerudoFortress_QuizEasy_Question3Clear'}) {
                     Event89:
                     switchcall Quiz_Hard_Question1() {
-                      case 1550717474:
+                      case fnv1a("clear"):
                         goto Event344
                     }
                 } else {
@@ -968,7 +968,7 @@ void Quiz_Ex() {
                 if !GameDataActor.EventQueryIsGameDataBool({'Index': -1, 'GameDataName': 'GerudoFortress_QuizHard_Question1Clear'}) {
                     Event121:
                     switchcall Quiz_Hard_Question2() {
-                      case 1550717474:
+                      case fnv1a("clear"):
                         goto Event344
                     }
                 } else {
@@ -978,7 +978,7 @@ void Quiz_Ex() {
                 if !GameDataActor.EventQueryIsGameDataBool({'Index': -1, 'GameDataName': 'GerudoFortress_QuizHard_Question2Clear'}) {
                     Event122:
                     switchcall Quiz_Hard_Question3() {
-                      case 1550717474:
+                      case fnv1a("clear"):
                         goto Event344
                     }
                 } else {
@@ -994,27 +994,27 @@ void Quiz_Ex() {
         }
       case 1:
         switchcall Quiz_Easy_Question2() {
-          case 1550717474:
+          case fnv1a("clear"):
             goto Event268
         }
       case 2:
         switchcall Quiz_Easy_Question3() {
-          case 1550717474:
+          case fnv1a("clear"):
             goto Event268
         }
       case 3:
         switchcall Quiz_Hard_Question1() {
-          case 1550717474:
+          case fnv1a("clear"):
             goto Event268
         }
       case 4:
         switchcall Quiz_Hard_Question2() {
-          case 1550717474:
+          case fnv1a("clear"):
             goto Event268
         }
       case 5:
         switchcall Quiz_Hard_Question3() {
-          case 1550717474:
+          case fnv1a("clear"):
             goto Event268
         }
     }

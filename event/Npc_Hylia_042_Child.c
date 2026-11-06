@@ -57,9 +57,9 @@ void Talk() {
 
             } else {
                 switchcall NpcCommon.CheckAlreadyMaskTalked() {
-                  case 1307241100:
+                  case 0x4deaea8c:
                     switchcall DontLookTalkCheck() {
-                      case 2248568770:
+                      case 0x86066fc2:
                         if Npc_EventStarter.EventQueryIsOnRecentTalkFlag() {
                             Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MessageId': 'EventFlowMsg/Npc_Hylia_042_Child:Talk_15', 'MaintainPerformanceState': 0})
                         }
@@ -151,10 +151,10 @@ void Talk() {
                           case [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 24, 25, 26]:
                             GameSystemActor.EventTriggerSendErrorToEventResource({'Title': '通るはずのないフロー'})
                         }
-                      case 2265346389:
+                      case 0x87067155:
                         goto Event4
                     }
-                  case 803420549:
+                  case 0x2fe33985:
                     goto Event4
                 }
             }
@@ -170,9 +170,9 @@ void Talk() {
         }
     } else {
         switchcall DontLookTalkCheck() {
-          case 2248568770:
+          case 0x86066fc2:
             goto Event74
-          case 2265346389:
+          case 0x87067155:
 
             call InitTalk.InitTalk_NoMaskTalk({'Arg_Greeting': 4, 'Arg_Turn': 0})
 
@@ -361,14 +361,14 @@ void DontLookTalkCheck() {
     if !Npc_EventStarter.EventQueryHaveTalked() {
         if !Player_Event.EventQueryPlayerIsEquipArmor({'ArmorSlot': 0, 'ArmorName': 'Armor_Child_GlassTruth'}) {
             Event143:
-            return 2248568770
+            return 0x86066fc2
         } else
         switch Npc_EventStarter.EventQueryAIScheduleCheckActorActionAll() {
           case [0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 24, 25, 26]:
             goto Event143
           case [1, 22]:
             if !GameDataActor.EventQueryIsGameDataBool({'Index': -1, 'GameDataName': 'Npc_Hylia_042_KanbanTalk'}) {
-                return 2265346389
+                return 0x87067155
             } else {
                 goto Event143
             }

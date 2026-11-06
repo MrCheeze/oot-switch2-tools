@@ -188,7 +188,7 @@ void Hint_Trial() {
 
 void NaviHint_Shield_Hylian_PlayCheck() {
     switchcall NaviHint_Shield_Hylian_FlagCheck() {
-      case 3374314617:
+      case 0xc91ff479:
 
         call NaviHint_Shield_Hylian()
 
@@ -202,7 +202,7 @@ void NaviHint_Shield_Hylian_BuyShop() {
 void NaviHint_Shield_Hylian_FlagCheck() {
     if !GameDataActor.EventQueryIsGameDataBoolExp({'GameDataName': 'SageOfForest_IsAfter_Ready_Exp'}) {
         Event13:
-        return 3357536998
+        return 0xc81ff2e6
     } else
     if !Player_Event.EventQueryPlayerIsChild()
     && !Player_Event.EventQueryPlayerIsEquipWeapon({'WeaponSlot': 4, 'ArmorName': 'Weapon_Shield_Hylian'}) {
@@ -215,7 +215,7 @@ void NaviHint_Shield_Hylian_FlagCheck() {
             GameDataActor.EventTriggerSetGameDataBool({'Index': -1, 'GameDataName': 'NaviHint_Shield_Hylian_PlayedEventFlow', 'Value': True})
             GameDataActor.EventTriggerSetGameDataBool({'Index': -1, 'Value': True, 'GameDataName': 'HavePlayedEvent.NaviHint_Shield_Hylian'})
             GameDataActor.EventTriggerSetGameDataBool({'Index': -1, 'Value': True, 'GameDataName': 'HavePlayedEvent.NaviHint_Shield_Hylian_BuyShop'})
-            return 3374314617
+            return 0xc91ff479
         }
     } else {
         goto Event13
@@ -224,7 +224,7 @@ void NaviHint_Shield_Hylian_FlagCheck() {
 
 void NaviHint_Shield_Hylian_PlayCheck_BuyShop() {
     switchcall NaviHint_Shield_Hylian_FlagCheck() {
-      case 3374314617:
+      case 0xc91ff479:
         EventSystemActor.EventTransition({'IsWaitEnd': True, 'SpecialEventActionType': 1, 'FadeInTypeEventEnd': 0, 'EventName': 'NaviHint_Shield_Hylian_BuyShop'})
     }
 }

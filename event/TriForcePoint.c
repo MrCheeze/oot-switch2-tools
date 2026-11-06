@@ -62,7 +62,7 @@ params: {'EventMemberCreateMethod': 0, 'IsBindNearestActor': False, 'IsGrounding
 
 void Demo_FairyFountain_Power() {
     switchcall Sub_PlayOcarinaSequence_FairyFountain({'SpecialAbility': 1}) {
-      case 1862011392:
+      case 0x6efc0a00:
         EventSystemActor.EventTransition({'IsWaitEnd': True, 'SpecialEventActionType': 1, 'FadeInTypeEventEnd': 0, 'EventName': 'Dm_FairyFountain_Power'})
         Event16:
 
@@ -94,7 +94,7 @@ void Sub_PlayOcarinaSequence_FairyFountain() {
                         SoundSystemActor.EventTriggerSoundReadRiddle({'IsWaitEnd': True, 'BgmReadRiddleType': 0})
                     }
 
-                    return 1862011392
+                    return 0x6efc0a00
                 } else {
 
                     fork {
@@ -115,7 +115,7 @@ void Sub_PlayOcarinaSequence_FairyFountain() {
                         Npc_Navi.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MessageId': 'EventFlowMsg/Dm_FairyFountain_Power:Talk_00', 'MaintainPerformanceState': 0})
                         Npc_Navi.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MessageId': 'EventFlowMsg/Dm_FairyFountain_Power:Talk_01', 'MaintainPerformanceState': 0})
                         Event116:
-                        return 1878789011
+                        return 0x6ffc0b93
                     } else {
                         Npc_Navi.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MessageId': 'EventFlowMsg/Dm_FairyFountain_Power:Talk_02', 'MaintainPerformanceState': 0})
                         goto Event116
@@ -134,7 +134,7 @@ void Sub_PlayOcarinaSequence_FairyFountain() {
 
 void Demo_FairyFountain_Din() {
     switchcall Sub_PlayOcarinaSequence_FairyFountain({'SpecialAbility': 2}) {
-      case 1862011392:
+      case 0x6efc0a00:
         EventSystemActor.EventTransition({'IsWaitEnd': True, 'SpecialEventActionType': 1, 'FadeInTypeEventEnd': 0, 'EventName': 'Dm_FairyFountain_Din'})
         ChallengeSystemActor.EventExecuteProgressChallengeStep({'ChallengeName': 'Meet_GreatFairy', 'StepName': 'GoToHyruleCastle', 'IsWaitEnd': True, 'IsIgnoreChallengeProgressUI': False, 'IsIgnoreCompletedChallenge': True})
         Npc_Navi.EventNaviRequestBallonMessage({'Index': 96})
@@ -150,7 +150,7 @@ void Demo_FairyFountain_Din() {
 
 void Demo_FairyFountain_Frore() {
     switchcall Sub_PlayOcarinaSequence_FairyFountain({'SpecialAbility': 3}) {
-      case 1862011392:
+      case 0x6efc0a00:
         EventSystemActor.EventTransition({'IsWaitEnd': True, 'SpecialEventActionType': 1, 'FadeInTypeEventEnd': 0, 'EventName': 'Dm_FairyFountain_Frore'})
         goto Event16
     }
@@ -158,7 +158,7 @@ void Demo_FairyFountain_Frore() {
 
 void Demo_FairyFountain_Wisdom() {
     switchcall Sub_PlayOcarinaSequence_FairyFountain({'SpecialAbility': 4}) {
-      case 1862011392:
+      case 0x6efc0a00:
         EventSystemActor.EventTransition({'IsWaitEnd': True, 'SpecialEventActionType': 1, 'FadeInTypeEventEnd': 0, 'EventName': 'Dm_FairyFountain_Wisdom'})
         goto Event16
     }
@@ -166,7 +166,7 @@ void Demo_FairyFountain_Wisdom() {
 
 void Demo_FairyFountain_Nayru() {
     switchcall Sub_PlayOcarinaSequence_FairyFountain({'SpecialAbility': 5}) {
-      case 1862011392:
+      case 0x6efc0a00:
         EventSystemActor.EventTransition({'IsWaitEnd': True, 'SpecialEventActionType': 1, 'FadeInTypeEventEnd': 0, 'EventName': 'Dm_FairyFountain_Nayru'})
         goto Event16
     }
@@ -174,7 +174,7 @@ void Demo_FairyFountain_Nayru() {
 
 void Demo_FairyFountain_Courage() {
     switchcall Sub_PlayOcarinaSequence_FairyFountain({'SpecialAbility': 6}) {
-      case 1862011392:
+      case 0x6efc0a00:
         EventSystemActor.EventTransition({'IsWaitEnd': True, 'SpecialEventActionType': 1, 'FadeInTypeEventEnd': 0, 'EventName': 'Dm_FairyFountain_Courage'})
         goto Event16
     }

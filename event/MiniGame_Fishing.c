@@ -385,7 +385,7 @@ void Ready_PlayFishing() {
     call NpcCommon.Npc_IsConfront_WithLinkAS_ForReceive({'LinkAS': 'EvtTalkYes', 'NpcActor': ActorIdentifier(name="Npc_EventStarter")})
 
     switchcall PaymentCheck() {
-      case 3584029527:
+      case 0xd59ff357:
         if !Player_Event.EventQueryPlayerIsChild() {
             if !GameDataActor.EventQueryIsGameDataBool({'Index': -1, 'GameDataName': 'MiniGame_Fishing_OncePlayed_Child'}) {
                 Event79:
@@ -629,28 +629,28 @@ void SetFishSize() {
         }
     } else {
         switchcall FishSizeCheck() {
-          case 890022063:
+          case fnv1a("0"):
             Npc_Hylia_Fishman_001_Child[SetFishSize(Fishman)].EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MessageId': 'EventFlowMsg/MiniGame_Fishing:Talk_11', 'ChoiceNumber': 2, 'ChoiceLabel1': 40, 'ChoiceLabel2': 41, 'MaintainPerformanceState': 0, 'ChoiceCancelNo': 0})
             goto Event97
-          case 873244444:
+          case fnv1a("1"):
             Npc_Hylia_Fishman_001_Child[SetFishSize(Fishman)].EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceNumber': 2, 'ChoiceLabel1': 40, 'ChoiceLabel2': 41, 'MessageId': 'EventFlowMsg/MiniGame_Fishing:Talk_175', 'MaintainPerformanceState': 0, 'ChoiceCancelNo': 0})
             if !GameSystemActor.EventQueryTalkChoice2() {
                 goto Event66
             } else
             goto Event104
-          case 923577301:
+          case fnv1a("2"):
             Npc_Hylia_Fishman_001_Child[SetFishSize(Fishman)].EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MessageId': 'EventFlowMsg/MiniGame_Fishing:Talk_22', 'ChoiceNumber': 2, 'ChoiceLabel1': 40, 'ChoiceLabel2': 41, 'MaintainPerformanceState': 0, 'ChoiceCancelNo': 0})
             if !GameSystemActor.EventQueryTalkChoice2() {
                 goto Event66
             } else
             goto Event104
-          case 906799682:
+          case fnv1a("3"):
             Npc_Hylia_Fishman_001_Child[SetFishSize(Fishman)].EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceNumber': 2, 'ChoiceLabel1': 21, 'ChoiceLabel2': 31, 'MessageId': 'EventFlowMsg/MiniGame_Fishing:Talk_35', 'MaintainPerformanceState': 0, 'ChoiceCancelNo': 0})
             if !GameSystemActor.EventQueryTalkChoice2() {
                 goto Event66
             } else
             goto Event104
-          case 822911587:
+          case fnv1a("4"):
             Npc_Hylia_Fishman_001_Child[SetFishSize(Fishman)].EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceNumber': 2, 'ChoiceLabel1': 22, 'ChoiceLabel2': 32, 'MessageId': 'EventFlowMsg/MiniGame_Fishing:Talk_151', 'MaintainPerformanceState': 0, 'ChoiceCancelNo': 0})
             if !GameSystemActor.EventQueryTalkChoice2() {
                 goto Event66
@@ -978,7 +978,7 @@ void Ready_Explanation() {
         call NpcCommon.Npc_IsConfront_WithLinkAS_ForReceive({'LinkAS': 'EvtTalkYes', 'NpcActor': ActorIdentifier(name="Npc_EventStarter")})
 
         switchcall PaymentCheck() {
-          case 3584029527:
+          case 0xd59ff357:
 
             call MiniGame_Fishing_Sub.Tutorial_Start()
 
@@ -1067,7 +1067,7 @@ void PaymentCheck() {
 
             if !ChallengeSystemActor.EventQueryMiniGameTimerIsCounting() {
                 UISystemActor.EventTriggerCloseRupeeDisplay()
-                return 3567251908
+                return 0xd49ff1c4
             } else {
                 Player_Event.EventTriggerPlayerLookAtObject({'Target': 1, 'TurnFaceControlType': 1, 'ActorName': '', 'InstanceName': '', 'WorldPos': [0.0, 0.0, 0.0], 'PosOffset': [0.0, 0.0, 0.0], 'Direction': 0.0})
                 if !Player_Event.EventQueryPlayerIsChild() {
@@ -1091,7 +1091,7 @@ void PaymentCheck() {
                     GameDataActor.EventTriggerSetGameDataBool({'Index': -1, 'GameDataName': 'MiniGame_Fishing_HintSinkLure_AtStart', 'Value': False})
                     GameDataActor.EventTriggerSetGameDataBool({'Index': -1, 'Value': False, 'GameDataName': 'MiniGame_Fishing_NotYetHearSinkLureHintAtStart'})
                     Event76:
-                    return 3584029527
+                    return 0xd59ff357
                 } else {
                     goto Event76
                 }
@@ -1100,7 +1100,7 @@ void PaymentCheck() {
             Event30:
             Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MessageId': 'EventFlowMsg/MiniGame_Fishing:Talk_07', 'MaintainPerformanceState': 0})
             UISystemActor.EventTriggerCloseRupeeDisplay()
-            return 3600807146
+            return 0xd69ff4ea
         }
     } else
     if !PouchSystemActor.EventQueryHasRuppe({'Value': 30}) {
@@ -1209,7 +1209,7 @@ void Talk_DuringFishing() {
         }
     } else {
         switchcall EnvTalk() {
-          case 330169077:
+          case 0x13adfaf5:
             Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceLabel1': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceNumber': 0, 'ChoiceLabel4': 0, 'ChoiceLabel3': 0, 'ChoiceLabel2': 0, 'MessageId': 'EventFlowMsg/MiniGame_Fishing:Talk_187', 'MaintainPerformanceState': 0})
             Event368:
             Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceLabel4': 13, 'ChoiceLabel1': 12, 'ChoiceLabel2': 5, 'MessageId': 'EventFlowMsg/MiniGame_Fishing:Talk_174', 'ChoiceLabel3': 11, 'ChoiceNumber': 4, 'MaintainPerformanceState': 0})
@@ -1232,12 +1232,12 @@ void Talk_DuringFishing() {
                 call Step01_EndTalk()
 
             }
-          case 941570565:
+          case 0x381f3a05:
             Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceLabel1': 12, 'ChoiceLabel2': 5, 'MessageId': 'EventFlowMsg/MiniGame_Fishing:Talk_190', 'ChoiceLabel3': 11, 'ChoiceLabel4': 13, 'ChoiceNumber': 0, 'MaintainPerformanceState': 0})
             goto Event368
-          case 3993803236:
+          case 0xee0c99e4:
             goto Event368
-          case 4162746670:
+          case 0xf81e792e:
             Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceLabel1': 12, 'ChoiceLabel2': 5, 'MessageId': 'EventFlowMsg/MiniGame_Fishing:Talk_185', 'ChoiceLabel3': 11, 'ChoiceLabel4': 13, 'ChoiceNumber': 0, 'MaintainPerformanceState': 0})
             goto Event368
         }
@@ -1426,21 +1426,21 @@ void NaviMove_CatchFish() {
 
 void FishSizeCheck() {
     if !GameDataActor.EventQueryIsGameDataBool({'Index': -1, 'GameDataName': 'MiniGame_Fishing_IsCatchLoach'}) {
-        return 822911587
+        return fnv1a("4")
     } else
     switch GameDataActor.EventQueryIsGameDataInt({'GameDataName': 'MiniGame_Fishing_CatchFishSize', 'Value': 40, 'Index': -1}) {
       case 0:
-        return 890022063
+        return fnv1a("0")
       case [1, 2]:
         switch GameDataActor.EventQueryIsGameDataInt({'GameDataName': 'MiniGame_Fishing_CatchFishSize', 'Index': -1, 'Value': 50}) {
           case 0:
-            return 873244444
+            return fnv1a("1")
           case [1, 2]:
             switch GameDataActor.EventQueryIsGameDataInt({'GameDataName': 'MiniGame_Fishing_CatchFishSize', 'Value': 70, 'Index': -1}) {
               case 0:
-                return 923577301
+                return fnv1a("2")
               case [1, 2]:
-                return 906799682
+                return fnv1a("3")
             }
         }
     }
@@ -1448,15 +1448,15 @@ void FishSizeCheck() {
 
 void Sub_InitTalkNavi_Catchfish_Child() {
     switchcall FishSizeCheck() {
-      case 890022063:
+      case fnv1a("0"):
 
         call NaviMove_CatchFish({'EmotionType': 0, 'ArrivedASCommand': 'EvtWait', 'LookAtPosOffset': [-0.15000000596046448, -0.3499999940395355, 2.0], 'offset': [-0.550000011920929, 0.0, -0.44999998807907104]})
 
-      case [873244444, 923577301]:
+      case [fnv1a("1"), fnv1a("2")]:
 
         call NaviMove_CatchFish({'EmotionType': 1, 'LookAtPosOffset': [-0.20000000298023224, -0.3499999940395355, 2.0], 'ArrivedASCommand': 'EvtTalk', 'offset': [-0.6000000238418579, 0.0, -0.3499999940395355]})
 
-      case [906799682, 822911587]:
+      case [fnv1a("3"), fnv1a("4")]:
 
         call NaviMove_CatchFish({'LookAtPosOffset': [-0.20000000298023224, -0.3499999940395355, 2.0], 'ArrivedASCommand': 'EvtTalk', 'EmotionType': 4, 'offset': [-0.6000000238418579, 0.0, -0.3499999940395355]})
 
@@ -1465,15 +1465,15 @@ void Sub_InitTalkNavi_Catchfish_Child() {
 
 void Sub_InitTalkNavi_Catchfish_Adult() {
     switchcall FishSizeCheck() {
-      case 890022063:
+      case fnv1a("0"):
 
         call NaviMove_CatchFish({'EmotionType': 0, 'ArrivedASCommand': 'EvtWait', 'LookAtPosOffset': [-0.15000000596046448, -0.3499999940395355, 2.0], 'offset': [-0.75, 0.0, -0.44999998807907104]})
 
-      case [873244444, 923577301]:
+      case [fnv1a("1"), fnv1a("2")]:
 
         call NaviMove_CatchFish({'EmotionType': 1, 'LookAtPosOffset': [-0.20000000298023224, -0.3499999940395355, 2.0], 'ArrivedASCommand': 'EvtTalk', 'offset': [-0.800000011920929, 0.0, -0.3499999940395355]})
 
-      case [906799682, 822911587]:
+      case [fnv1a("3"), fnv1a("4")]:
 
         call NaviMove_CatchFish({'LookAtPosOffset': [-0.20000000298023224, -0.3499999940395355, 2.0], 'ArrivedASCommand': 'EvtTalk', 'EmotionType': 4, 'offset': [-0.800000011920929, -0.10000000149011612, -0.3499999940395355]})
 
@@ -1487,15 +1487,15 @@ void EnvTalk() {
             if !GameDataActor.EventQueryIsGameDataBool({'Index': -1, 'GameDataName': 'MiniGame_Fishing_TalkedInRainy'}) {
                 if !GameDataActor.EventQueryIsGameDataBool({'Index': -1, 'GameDataName': 'MiniGame_Fishing_TalkedInRainyInCurrentPlay'}) {
                     Event812:
-                    return 3993803236
+                    return 0xee0c99e4
                 } else {
                     GameDataActor.EventTriggerSetGameDataBool({'Index': -1, 'GameDataName': 'MiniGame_Fishing_TalkedInRainyInCurrentPlay', 'Value': True})
-                    return 941570565
+                    return 0x381f3a05
                 }
             } else {
                 GameDataActor.EventTriggerSetGameDataBool({'Index': -1, 'GameDataName': 'MiniGame_Fishing_TalkedInRainyInCurrentPlay', 'Value': True})
                 GameDataActor.EventTriggerSetGameDataBool({'Index': -1, 'Value': True, 'GameDataName': 'MiniGame_Fishing_TalkedInRainy'})
-                return 4162746670
+                return 0xf81e792e
             }
         } else {
             goto Event812
@@ -1508,7 +1508,7 @@ void EnvTalk() {
         goto Event812
     } else {
         GameDataActor.EventTriggerSetGameDataBool({'Index': -1, 'GameDataName': 'MiniGame_Fishing_TalkedInRainy_TalkedBeforeClearWaterTemple', 'Value': True})
-        return 330169077
+        return 0x13adfaf5
     }
 }
 

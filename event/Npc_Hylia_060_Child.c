@@ -98,7 +98,7 @@ void Talk() {
 
 void ArrivedTalk() {
     switchcall NpcCommon.Truth_MaskOnly_Talk_Common_With_InitTalk({'Arg_Turn_For_IgnoreMaskTalk': 4, 'Mask_Truth_Talk': 'EventFlowMsg/Npc_Hylia_060_Child:Mask_05_02', 'ASName': 'Act_Shopper_Wait_E'}) {
-      case [457761688, 508094545]:
+      case [0x1b48e398, 0x1e48e851]:
         if !GameDataActor.EventQueryIsGameDataBoolExp({'GameDataName': 'DoorOfTime_IsAfter_Step03_Exp'}) {
             if !GameDataActor.EventQueryIsGameDataBoolExp({'GameDataName': 'SageOfForest_IsCompleted_Exp'}) {
                 Event9:
@@ -159,7 +159,7 @@ void Mask_Talk_Notopic() {
     } else
     if !Player_Event.EventQueryPlayerIsEquipMask() {
         switchcall NpcCommon.CheckAlreadyMaskTalked() {
-          case 1307241100:
+          case 0x4deaea8c:
             if !Npc_EventStarter.EventNPCQueryCheckFrontToTarget({'Target': 2, 'ActorName': '', 'InstanceName': '', 'AngleThreshold': 15.0}) {
                 Npc_EventStarter.EventTriggerLookAtObject({'Target': 2, 'ActorName': '', 'InstanceName': '', 'WorldPos': [0.0, 0.0, 0.0], 'PosOffset': [0.0, 0.0, 0.0], 'Direction': 0.0, 'OffsetBase': 0, 'ResetArriveTransformFixed': False})
             } else {

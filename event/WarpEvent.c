@@ -112,7 +112,7 @@ void FaroreWind() {
                 GameDataActor.EventTriggerSetGameDataBool({'GameDataName': 'UI_IsMPBeforeUse', 'Index': -1, 'Value': False})
                 if !GameSystemActor[01].EventQueryCanUseFaroreWind() {
                     switchcall SubEvent_GetSwordBigGoron.SubEvent_TimerCheck_Warp({'IsFaroreWind': True}) {
-                      case 1303515621:
+                      case fnv1a("true"):
                         Player_Event.EventTriggerPlayerRequestLookAtTheFrontLock({'IsImmediate': False})
                         if !GameDataActor.EventQueryIsGameDataBool({'GameDataName': 'LonLonRanch_GambleRace_IsInsideFence', 'Index': -1}) {
                             Npc_Navi.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceNumber': 2, 'ChoiceLabel4': 0, 'ChoiceLabel3': 0, 'MaintainPerformanceState': 0, 'MessageId': 'EventFlowMsg/SubEvent_GetSwordBigGoron:Talk_66', 'ChoiceLabel1': 13, 'ChoiceLabel2': 14})

@@ -48,7 +48,7 @@ void Talk() {
         if !Npc_EventStarter.EventQueryIsOnRecentTalkFlag() {
             if !Npc_Hylia_037_Child.EventQueryIsPlayingSameAS({'ASName': 'Act_Lost', 'Partial': ''}) {
                 switchcall NpcCommon.Truth_MaskOnly_Talk_Common_With_InitTalk_TalkMonologOverwriteAS({'Mask_Truth_Talk': 'EventFlowMsg/Npc_Hylia_037_Child:Mask_05', 'Arg_Turn_For_IgnoreMaskTalk': 0, 'ASName': 'Act_Lost'}) {
-                  case 508094545:
+                  case 0x1e48e851:
                     Event28:
                     if !Npc_EventStarter.EventQueryAvoidDuplicationRandomChoice2() {
                         Npc_Hylia_037_Child.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MessageId': 'EventFlowMsg/Npc_Hylia_037_Child:Talk_28', 'ASName': 'Wait', 'MaintainPerformanceState': 0})
@@ -58,7 +58,7 @@ void Talk() {
                 }
             } else {
                 switchcall NpcCommon.Truth_MaskOnly_Talk_Common_With_InitTalk_TalkMonologOverwriteAS({'Mask_Truth_Talk': 'EventFlowMsg/Npc_Hylia_037_Child:Mask_05', 'Arg_Turn_For_IgnoreMaskTalk': 0, 'ASName': 'Wait'}) {
-                  case 508094545:
+                  case 0x1e48e851:
                     goto Event28
                 }
             }
@@ -70,7 +70,7 @@ void Talk() {
       case 1:
         if !Npc_EventStarter.EventQueryIsOnRecentTalkFlag() {
             switchcall NpcCommon.Truth_MaskOnly_Talk_Common_With_InitTalk({'Mask_Truth_Talk': 'EventFlowMsg/Npc_Hylia_037_Child:Mask_05', 'Arg_Turn_For_IgnoreMaskTalk': 0, 'ASName': 'TalkMonolog'}) {
-              case 508094545:
+              case 0x1e48e851:
                 if !Npc_EventStarter.EventQueryAvoidDuplicationRandomChoice2() {
                     Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MessageId': 'EventFlowMsg/Npc_Hylia_037_Child:Talk_07', 'MaintainPerformanceState': 0})
                 } else {
@@ -88,7 +88,7 @@ void Talk() {
         if !Npc_EventStarter.EventQueryIsOnRecentTalkFlag() {
             if !Npc_Hylia_037_Child.EventQueryIsPlayingSameAS({'ASName': 'Act_Lost', 'Partial': ''}) {
                 switchcall NpcCommon.Truth_MaskOnly_Talk_Common_With_InitTalk_TalkMonologOverwriteAS({'Mask_Truth_Talk': 'EventFlowMsg/Npc_Hylia_037_Child:Mask_05', 'Arg_Turn_For_IgnoreMaskTalk': 0, 'ASName': 'Act_Lost'}) {
-                  case 508094545:
+                  case 0x1e48e851:
                     Event30:
                     switch Npc_EventStarter.EventQueryAIScheduleIsStopByInterestSpot() {
                       case [0, 2]:
@@ -109,7 +109,7 @@ void Talk() {
                 }
             } else {
                 switchcall NpcCommon.Truth_MaskOnly_Talk_Common_With_InitTalk_TalkMonologOverwriteAS({'Mask_Truth_Talk': 'EventFlowMsg/Npc_Hylia_037_Child:Mask_05', 'Arg_Turn_For_IgnoreMaskTalk': 0, 'ASName': 'Wait'}) {
-                  case 508094545:
+                  case 0x1e48e851:
                     goto Event30
                 }
             }
@@ -122,7 +122,7 @@ void Talk() {
         if !Npc_EventStarter.EventQueryIsOnRecentTalkFlag() {
             if !Npc_Hylia_037_Child.EventQueryIsPlayingSameAS({'ASName': 'Act_Lost', 'Partial': ''}) {
                 switchcall NpcCommon.Truth_MaskOnly_Talk_Common_With_InitTalk_TalkMonologOverwriteAS({'Mask_Truth_Talk': 'EventFlowMsg/Npc_Hylia_037_Child:Mask_05', 'Arg_Turn_For_IgnoreMaskTalk': 0, 'ASName': 'Act_Lost'}) {
-                  case 508094545:
+                  case 0x1e48e851:
                     Event20:
                     if !Npc_EventStarter.EventQueryAvoidDuplicationRandomChoice2() {
                         Npc_Hylia_037_Child.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MessageId': 'EventFlowMsg/Npc_Hylia_037_Child:Talk_05', 'ASName': 'Wait', 'MaintainPerformanceState': 0})
@@ -132,7 +132,7 @@ void Talk() {
                 }
             } else {
                 switchcall NpcCommon.Truth_MaskOnly_Talk_Common_With_InitTalk_TalkMonologOverwriteAS({'Mask_Truth_Talk': 'EventFlowMsg/Npc_Hylia_037_Child:Mask_05', 'Arg_Turn_For_IgnoreMaskTalk': 0, 'ASName': 'Wait'}) {
-                  case 508094545:
+                  case 0x1e48e851:
                     goto Event20
                 }
             }
@@ -180,7 +180,7 @@ void GetStones_Talk() {
           case 2:
             if !Npc_Hylia_037_Child.EventQueryIsPlayingSameAS({'ASName': 'Act_Lost', 'Partial': ''}) {
                 switchcall NpcCommon.Truth_MaskOnly_Talk_Common_With_InitTalk_TalkMonologOverwriteAS({'Mask_Truth_Talk': 'EventFlowMsg/Npc_Hylia_037_Child:Mask_05', 'Arg_Turn_For_IgnoreMaskTalk': 0, 'ASName': 'Act_Lost'}) {
-                  case 508094545:
+                  case 0x1e48e851:
                     Event26:
                     if !Npc_EventStarter.EventQueryAvoidDuplicationRandomChoice2() {
                         Npc_Hylia_037_Child.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MessageId': 'EventFlowMsg/Npc_Hylia_037_Child:Talk_105', 'ASName': 'Wait', 'MaintainPerformanceState': 0})
@@ -190,13 +190,13 @@ void GetStones_Talk() {
                 }
             } else {
                 switchcall NpcCommon.Truth_MaskOnly_Talk_Common_With_InitTalk_TalkMonologOverwriteAS({'Mask_Truth_Talk': 'EventFlowMsg/Npc_Hylia_037_Child:Mask_05', 'Arg_Turn_For_IgnoreMaskTalk': 0, 'ASName': 'Wait'}) {
-                  case 508094545:
+                  case 0x1e48e851:
                     goto Event26
                 }
             }
           case 3:
             switchcall Mask_All() {
-              case [540071221, 2921939512]:
+              case [0x2030d535, 0xae294238]:
                 if !Npc_EventStarter.EventQueryAvoidDuplicationRandomChoice2() {
                     Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MessageId': 'EventFlowMsg/Npc_Hylia_037_Child:Talk_101', 'MaintainPerformanceState': 0})
                 } else {
@@ -206,7 +206,7 @@ void GetStones_Talk() {
           case 24:
             if !Npc_Hylia_037_Child.EventQueryIsPlayingSameAS({'ASName': 'Act_Lost', 'Partial': ''}) {
                 switchcall NpcCommon.Truth_MaskOnly_Talk_Common_With_InitTalk_TalkMonologOverwriteAS({'Mask_Truth_Talk': 'EventFlowMsg/Npc_Hylia_037_Child:Mask_05', 'Arg_Turn_For_IgnoreMaskTalk': 0, 'ASName': 'Act_Lost'}) {
-                  case 508094545:
+                  case 0x1e48e851:
                     Event46:
                     if !Npc_EventStarter.EventQueryAvoidDuplicationRandomChoice2() {
                         Npc_Hylia_037_Child.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MessageId': 'EventFlowMsg/Npc_Hylia_037_Child:Talk_102', 'ASName': 'Wait', 'MaintainPerformanceState': 0})
@@ -216,7 +216,7 @@ void GetStones_Talk() {
                 }
             } else {
                 switchcall NpcCommon.Truth_MaskOnly_Talk_Common_With_InitTalk_TalkMonologOverwriteAS({'Mask_Truth_Talk': 'EventFlowMsg/Npc_Hylia_037_Child:Mask_05', 'Arg_Turn_For_IgnoreMaskTalk': 0, 'ASName': 'Wait'}) {
-                  case 508094545:
+                  case 0x1e48e851:
                     goto Event46
                 }
             }
@@ -235,14 +235,14 @@ void Mask_All() {
 
         if !GameDataActor.EventQueryIsGameDataBool({'Index': -1, 'GameDataName': 'Npc_Hylia_037_Child_GlassTruth'}) {
             Event67:
-            return 540071221
+            return 0x2030d535
         } else {
             GameDataActor.EventTriggerSetGameDataBool({'Index': -1, 'Value': True, 'GameDataName': 'Npc_Hylia_037_Child_GlassTruth'})
             switch Npc_EventStarter.EventQueryAIScheduleGetPosture() {
               case 0:
                 Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MaintainPerformanceState': 0, 'MessageId': 'EventFlowMsg/Npc_Hylia_037_Child:GlassTruth', 'ASName': 'Wait'})
                 Event88:
-                return 2921939512
+                return 0xae294238
               case [1, 2, 3]:
                 Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MaintainPerformanceState': 0, 'MessageId': 'EventFlowMsg/Npc_Hylia_037_Child:GlassTruth'})
                 goto Event88
@@ -251,28 +251,28 @@ void Mask_All() {
     } else
     if !Player_Event.EventQueryPlayerIsEquipMask() {
         switchcall NpcCommon.CheckAlreadyMaskTalked() {
-          case 1307241100:
+          case 0x4deaea8c:
             switch Npc_EventStarter.EventQueryAIScheduleGetPosture() {
               case 0:
                 switchcall Mask_Talk({'ASName': 'Wait', 'TalkMonologOverwriteAS': True}) {
-                  case 4151362380:
+                  case fnv1a("Mask_Talk"):
                     Npc_EventStarter.EventNPCTurnToTarget({'Target': 2, 'IsConfront': False, 'IsWaitEnd': True, 'FaceControlType': 1, 'ActorName': '', 'InstanceName': '', 'WorldPos': [0.0, 0.0, 0.0], 'PosOffset': [0.0, 0.0, 0.0], 'Direction': 0.0, 'OffsetBase': 0, 'LookingControllerName': '', 'LookIKParameterVariationName': '', 'IsReleaseThreaten': False, 'EnableAutomaticallyPlayWaitASAfterTurn': True})
                     Npc_Hylia_037_Child.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MessageId': 'EventFlowMsg/Npc_Hylia_037_Child:Mask_10', 'MaintainPerformanceState': 0, 'ASName': 'Wait'})
                     goto Event88
-                  case 2799305849:
+                  case 0xa6da0479:
                     goto Event88
                 }
               case [1, 2, 3]:
                 switchcall Mask_Talk({'TalkMonologOverwriteAS': False, 'ASName': ''}) {
-                  case 4151362380:
+                  case fnv1a("Mask_Talk"):
                     Npc_EventStarter.EventTriggerLookAtObject({'Target': 2, 'ActorName': '', 'InstanceName': '', 'WorldPos': [0.0, 0.0, 0.0], 'PosOffset': [0.0, 0.0, 0.0], 'Direction': 0.0, 'OffsetBase': 0, 'ResetArriveTransformFixed': False})
                     Npc_Hylia_037_Child.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MessageId': 'EventFlowMsg/Npc_Hylia_037_Child:Mask_10', 'ASName': '', 'MaintainPerformanceState': 0})
                     goto Event88
-                  case 2799305849:
+                  case 0xa6da0479:
                     goto Event88
                 }
             }
-          case 803420549:
+          case 0x2fe33985:
             Event85:
 
             call InitTalk.InitTalk({'Arg_Greeting': 4, 'Arg_Turn': 4})
@@ -287,18 +287,18 @@ void Mask_All() {
 void Mask_Talk() {
     if !GameDataActor.EventQueryIsGameDataBoolExp({'GameDataName': 'DoorOfTime_IsAfter_Step02_Exp'}) {
         switchcall Mask_Talk_Common_With_InitTalk_SettingAllAS_Hylia_037_Child_Only({'Arg_Turn_For_IgnoreMaskTalk': 4, 'Arg_Turn_For_MaskTalk': 4, 'Mask_Keaton_Talk': 'EventFlowMsg/Npc_Hylia_037_Child:Mask_01', 'Mask_Skull_Talk': 'EventFlowMsg/Npc_Hylia_037_Child:Mask_02', 'Mask_Spooky_Talk': 'EventFlowMsg/Npc_Hylia_037_Child:Mask_03', 'Mask_Truth_Talk': 'EventFlowMsg/Npc_Hylia_037_Child:Mask_05', 'Mask_Zora_Talk': 'EventFlowMsg/Npc_Hylia_037_Child:Mask_07', 'Mask_Goron_Talk': 'EventFlowMsg/Npc_Hylia_037_Child:Mask_06', 'Mask_Gerudo_Talk': 'EventFlowMsg/Npc_Hylia_037_Child:Mask_08', 'Mask_Bunny_Talk': 'EventFlowMsg/Npc_Hylia_037_Child:Mask_04_02', 'Mask_Amiibo00_Talk': 'EventFlowMsg/Npc_Hylia_037_Child:Mask_101', 'Mask_Amiibo01_Talk': 'EventFlowMsg/Npc_Hylia_037_Child:Mask_102', 'Mask_Amiibo02_Talk': 'EventFlowMsg/Npc_Hylia_037_Child:Mask_103', 'ASName': 'ASName', 'ChangeTheTopic_Talk': 'EventFlowMsg/Npc_Hylia_037_Child:Mask_09'}) {
-          case 4205900657:
+          case 0xfab0f371:
             Event82:
-            return 4151362380
-          case 4155567800:
+            return fnv1a("Mask_Talk")
+          case 0xf7b0eeb8:
             Event83:
-            return 2799305849
+            return 0xa6da0479
         }
     } else {
         switchcall Mask_Talk_Common_With_InitTalk_SettingAllAS_Hylia_037_Child_Only({'Arg_Turn_For_IgnoreMaskTalk': 4, 'Arg_Turn_For_MaskTalk': 4, 'Mask_Keaton_Talk': 'EventFlowMsg/Npc_Hylia_037_Child:Mask_01', 'Mask_Skull_Talk': 'EventFlowMsg/Npc_Hylia_037_Child:Mask_02', 'Mask_Spooky_Talk': 'EventFlowMsg/Npc_Hylia_037_Child:Mask_03', 'Mask_Bunny_Talk': 'EventFlowMsg/Npc_Hylia_037_Child:Mask_04', 'Mask_Truth_Talk': 'EventFlowMsg/Npc_Hylia_037_Child:Mask_05', 'Mask_Zora_Talk': 'EventFlowMsg/Npc_Hylia_037_Child:Mask_07', 'Mask_Goron_Talk': 'EventFlowMsg/Npc_Hylia_037_Child:Mask_06', 'Mask_Gerudo_Talk': 'EventFlowMsg/Npc_Hylia_037_Child:Mask_08', 'Mask_Amiibo00_Talk': 'EventFlowMsg/Npc_Hylia_037_Child:Mask_101', 'Mask_Amiibo01_Talk': 'EventFlowMsg/Npc_Hylia_037_Child:Mask_102', 'Mask_Amiibo02_Talk': 'EventFlowMsg/Npc_Hylia_037_Child:Mask_103', 'ASName': 'ASName', 'ChangeTheTopic_Talk': 'EventFlowMsg/Npc_Hylia_037_Child:Mask_09'}) {
-          case 4155567800:
+          case 0xf7b0eeb8:
             goto Event83
-          case 4205900657:
+          case 0xfab0f371:
             goto Event82
         }
     }
@@ -357,7 +357,7 @@ void FirstTalk() {
 
 void SubFlow_FirstTalk() {
     switchcall Mask_All() {
-      case 540071221:
+      case 0x2030d535:
         if !GameDataActor.EventQueryIsGameDataBool({'GameDataName': 'HaveTalked_Special.Npc_Hylia_037_Child_Talk_Event50', 'Index': -1}) {
             Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MessageId': 'MessageId00', 'ASName': 'ASName', 'MaintainPerformanceState': 0})
         } else {
@@ -365,7 +365,7 @@ void SubFlow_FirstTalk() {
             Event52:
             GameDataActor.EventTriggerSetGameDataBool({'GameDataName': 'HaveTalked_Special.Npc_Hylia_037_Child_Talk_Event50', 'Value': True, 'Index': -1})
         }
-      case 2921939512:
+      case 0xae294238:
         Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'IsAnimeDriven': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MessageId': 'MessageId02', 'IsPlayASAllSlot': False, 'ASName': 'ASName', 'MaintainPerformanceState': 0})
         goto Event52
     }
@@ -373,7 +373,7 @@ void SubFlow_FirstTalk() {
 
 void Mask_Talk_Common_With_InitTalk_SettingAllAS_Hylia_037_Child_Only() {
     switchcall NpcCommon.CheckEquipmentMask() {
-      case [3745441359, 1844135360]:
+      case [0xdf3ee64f, 0x6deb45c0]:
 
         call InitTalk.InitTalk({'Arg_Greeting': 4, 'Arg_Turn': 'Arg_Turn_For_MaskTalk'})
 
@@ -382,13 +382,13 @@ void Mask_Talk_Common_With_InitTalk_SettingAllAS_Hylia_037_Child_Only() {
 
         Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChangeMstxtForActor': False, 'MaintainPerformanceState': 0, 'MessageId': 'ChangeTheTopic_Talk', 'ASName': 'ASName'})
         Event81:
-        return 4155567800
-      case 3362507297:
+        return 0xf7b0eeb8
+      case 0xc86bca21:
 
         call InitTalk.InitTalk({'Arg_Greeting': 4, 'Arg_Turn': 'Arg_Turn_For_IgnoreMaskTalk'})
 
         goto Event81
-      case 488279774:
+      case 0x1d1a8ede:
 
         call InitTalk.InitTalk({'Arg_Greeting': 4, 'Arg_Turn': 0})
 
@@ -399,6 +399,6 @@ void Mask_Talk_Common_With_InitTalk_SettingAllAS_Hylia_037_Child_Only() {
         }
         Npc_EventStarter.EventTriggerForceSetMaskTalkFlag({'value': True})
         EventSystemActor.EventWait({'Frames': 1, 'IsWaitEnd': True})
-        return 4205900657
+        return 0xfab0f371
     }
 }

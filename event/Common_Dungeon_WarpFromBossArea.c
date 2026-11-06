@@ -55,7 +55,7 @@ void DungeonWarp_Choices() {
 
     if !GameSystemActor.EventQueryTalkChoice2() {
         Player_Event.EventTriggerPlayerRequestLookAtTheFrontLock({'IsImmediate': False})
-        return 3013883440
+        return fnv1a("Yes")
     } else {
         Npc_Navi.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceLabel1': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'IsNotOpenIfSkipedMostRecent': False, 'OverrideStyle': 1, 'ASName': 'Fly', 'ChoiceNumber': 0, 'ChoiceLabel2': 0, 'MessageId': 'DungeonWarp_03', 'MaintainPerformanceState': 0})
         Player_Event.EventTriggerPlayerRequestLookAtTheFrontLock({'IsImmediate': False})
@@ -70,33 +70,33 @@ void DungeonWarp_Choices() {
 
         }
 
-        return 1642511898
+        return fnv1a("No")
     }
 }
 
 void DungeonWarp_Choices_Basic() {
     switchcall DungeonWarp_Choices({'ChoiceLabel1': 9996, 'ChoiceLabel2': 9997, 'DungeonWarp_00': 'DungeonWarp_00', 'DungeonWarp_01': 'DungeonWarp_01', 'DungeonWarp_03': 'DungeonWarp_03'}) {
-      case 3013883440:
-        return 3013883440
-      case 1642511898:
-        return 1642511898
+      case fnv1a("Yes"):
+        return fnv1a("Yes")
+      case fnv1a("No"):
+        return fnv1a("No")
     }
 }
 
 void DungeonWarp_Choices_Sequence() {
     switchcall DungeonWarp_Choices({'ChoiceLabel1': 9996, 'ChoiceLabel2': 9997, 'DungeonWarp_00': 'DungeonWarp_00', 'DungeonWarp_01': 'DungeonWarp_01', 'DungeonWarp_03': 'DungeonWarp_03'}) {
-      case 3013883440:
-        return 3013883440
-      case 1642511898:
-        return 1642511898
+      case fnv1a("Yes"):
+        return fnv1a("Yes")
+      case fnv1a("No"):
+        return fnv1a("No")
     }
 }
 
 void DungeonWarp_Choices_SpiritTemple() {
     switchcall DungeonWarp_Choices({'ChoiceLabel1': 9998, 'ChoiceLabel2': 9999, 'DungeonWarp_00': 'DungeonWarp_00', 'DungeonWarp_01': 'DungeonWarp_01', 'DungeonWarp_03': 'DungeonWarp_03'}) {
-      case 3013883440:
-        return 3013883440
-      case 1642511898:
-        return 1642511898
+      case fnv1a("Yes"):
+        return fnv1a("Yes")
+      case fnv1a("No"):
+        return fnv1a("No")
     }
 }

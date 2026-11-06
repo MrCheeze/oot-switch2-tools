@@ -24,11 +24,11 @@ void Wolfos() {
         call NaviHint.FirstTimeTalk_Normal()
 
         switchcall DreamBossStage.NaviHint_Rematch_Sub() {
-          case 1642511898:
+          case fnv1a("No"):
 
             call NaviHint.CameraReset_RematchRelated()
 
-          case 2413946405:
+          case fnv1a("Info"):
             Npc_Navi.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MaintainPerformanceState': 0, 'MessageId': 'EventFlowMsg/NaviHint_Enemy:Enemy_Wolfos_01'})
             Event13:
 
@@ -56,11 +56,11 @@ void Stalfos() {
         call NaviHint.FirstTimeTalk_Normal()
 
         switchcall DreamBossStage.NaviHint_Rematch_Sub() {
-          case 1642511898:
+          case fnv1a("No"):
 
             call NaviHint.CameraReset_RematchRelated()
 
-          case 2413946405:
+          case fnv1a("Info"):
             Npc_Navi.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MaintainPerformanceState': 0, 'MessageId': 'EventFlowMsg/NaviHint_Enemy:Enemy_Stalfos_01'})
             Event14:
 
@@ -173,11 +173,11 @@ void Poe_Meg() {
         call NaviHint.FirstTimeTalk_Normal()
 
         switchcall DreamBossStage.NaviHint_Rematch_Sub() {
-          case 1642511898:
+          case fnv1a("No"):
 
             call NaviHint.CameraReset_RematchRelated()
 
-          case 2413946405:
+          case fnv1a("Info"):
             Npc_Navi.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MaintainPerformanceState': 0, 'MessageId': 'EventFlowMsg/NaviHint_Enemy:Enemy_MiddleBoss_Poe_Meg_01'})
             Event34:
 
@@ -256,11 +256,11 @@ void FlareDancer() {
 
     if !GameSystemActor.EventQueryIsDreamWorld() {
         switchcall DreamBossStage.NaviHint_Rematch_Sub() {
-          case 1642511898:
+          case fnv1a("No"):
 
             call NaviHint.CameraReset_RematchRelated()
 
-          case 2413946405:
+          case fnv1a("Info"):
             Npc_Navi.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MaintainPerformanceState': 0, 'MessageId': 'EventFlowMsg/NaviHint_Enemy:Enemy_MiddleBoss_FlareDancer_01'})
             Event104:
 
@@ -335,11 +335,11 @@ void FlareDancer_FireBody() {
 
     if !GameSystemActor.EventQueryIsDreamWorld() {
         switchcall DreamBossStage.NaviHint_Rematch_Sub() {
-          case 1642511898:
+          case fnv1a("No"):
 
             call NaviHint.CameraReset_RematchRelated()
 
-          case 2413946405:
+          case fnv1a("Info"):
             Npc_Navi.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MaintainPerformanceState': 0, 'MessageId': 'EventFlowMsg/NaviHint_Enemy:Enemy_MiddleBoss_FlareDancer_FireBody_01'})
             Event78:
 
@@ -397,11 +397,11 @@ void Wolfos_White() {
 
     if !GameSystemActor.EventQueryIsDreamWorld() {
         switchcall DreamBossStage.NaviHint_Rematch_Sub() {
-          case 1642511898:
+          case fnv1a("No"):
 
             call NaviHint.CameraReset_RematchRelated()
 
-          case 2413946405:
+          case fnv1a("Info"):
             Npc_Navi.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MaintainPerformanceState': 0, 'MessageId': 'EventFlowMsg/NaviHint_Enemy:Enemy_Wolfos_White_01'})
             Event122:
 
@@ -493,11 +493,11 @@ void DarkLink() {
         call NaviHint.FirstTimeTalk_Long()
 
         switchcall DreamBossStage.NaviHint_Rematch_Sub() {
-          case 1642511898:
+          case fnv1a("No"):
 
             call NaviHint.CameraReset_RematchRelated()
 
-          case 2413946405:
+          case fnv1a("Info"):
             Npc_Navi.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MaintainPerformanceState': 0, 'MessageId': 'EventFlowMsg/NaviHint_Enemy:Enemy_MiddleBoss_DarkLink_01'})
             Event134:
 
@@ -559,11 +559,11 @@ void IronKnuckle_Silver() {
         call NaviHint.FirstTimeTalk_Long()
 
         switchcall DreamBossStage.NaviHint_Rematch_Sub() {
-          case 1642511898:
+          case fnv1a("No"):
 
             call NaviHint.CameraReset_RematchRelated()
 
-          case 2413946405:
+          case fnv1a("Info"):
             Npc_Navi.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MaintainPerformanceState': 0, 'MessageId': 'EventFlowMsg/NaviHint_Enemy:Enemy_IronKnuckle_White_01'})
             Event178:
 
@@ -608,11 +608,11 @@ void IronKnuckle_Nabooru() {
         call NaviHint.FirstTimeTalk_Long()
 
         switchcall DreamBossStage.NaviHint_Rematch_Sub() {
-          case 1642511898:
+          case fnv1a("No"):
 
             call NaviHint.CameraReset_RematchRelated()
 
-          case 2413946405:
+          case fnv1a("Info"):
             Npc_Navi.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MaintainPerformanceState': 0, 'MessageId': 'EventFlowMsg/NaviHint_Enemy:Enemy_MiddleBoss_IronKnuckle_Nabooru_01'})
             Event166:
 
@@ -898,11 +898,11 @@ void GerudoThief() {
         call NaviHint.FirstTimeTalk_Normal()
 
         switchcall DreamBossStage.NaviHint_Rematch_Sub() {
-          case 1642511898:
+          case fnv1a("No"):
 
             call NaviHint.CameraReset_RematchRelated()
 
-          case 2413946405:
+          case fnv1a("Info"):
             Npc_Navi.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MaintainPerformanceState': 0, 'MessageId': 'EventFlowMsg/NaviHint_Enemy:Enemy_MiddleBoss_GerudoThief_01'})
             Event270:
 
@@ -930,11 +930,11 @@ void Dinolfos() {
         call NaviHint.FirstTimeTalk_Long()
 
         switchcall DreamBossStage.NaviHint_Rematch_Sub() {
-          case 1642511898:
+          case fnv1a("No"):
 
             call NaviHint.CameraReset_RematchRelated()
 
-          case 2413946405:
+          case fnv1a("Info"):
             Npc_Navi.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MaintainPerformanceState': 0, 'MessageId': 'EventFlowMsg/NaviHint_Enemy:Enemy_Dinolfos_01'})
             Event276:
 

@@ -100,7 +100,7 @@ void Enemy_Scrub_Business_Seed_01() {
         call Greeting()
 
         switchcall CheckBottle() {
-          case 1087347522:
+          case 0x40cf9b42:
             UISystemActor.EventTriggerSetDisplayHeartGauge({'IsDisplayHeartGauge': True})
             UISystemActor.EventTriggerSetMessageLogDisableSectionStart({'ShouldLeaveMessageLog': False})
             UISystemActor.EventOpenNumDisplayForShop({'ShopType': 2, 'IsWaitEnd': True, 'IsNeedMaxNum': False})
@@ -182,7 +182,7 @@ void Enemy_Scrub_Business_Seed_01() {
                     goto Event44
                 }
             }
-          case 2554984776:
+          case 0x9849f948:
             Event184:
 
             call CloseShop()
@@ -192,7 +192,7 @@ void Enemy_Scrub_Business_Seed_01() {
         GameDataActor.EventTriggerSetGameDataBool({'GameDataName': 'Enemy_Scrub_Business_Seed_FirstTalk', 'Index': -1, 'Value': True})
         Enemy_Scrub_Business_Seed[seed].EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChangeMstxtForActor': False, 'IsAnimeDriven': False, 'MessageId': 'EventFlowMsg/Enemy_Event:Enemy_Scrub_Business_Seed_01', 'ChoiceLabel1': 101, 'ChoiceLabel2': 102, 'ChoiceLabel3': 103, 'ChoiceLabel4': 104, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ASName': 'Talk', 'MaintainPerformanceState': 0})
         switchcall CheckBottle() {
-          case 1087347522:
+          case 0x40cf9b42:
             UISystemActor.EventTriggerSetDisplayHeartGauge({'IsDisplayHeartGauge': True})
             UISystemActor.EventTriggerSetMessageLogDisableSectionStart({'ShouldLeaveMessageLog': False})
             UISystemActor.EventOpenNumDisplayForShop({'ShopType': 2, 'IsWaitEnd': True, 'IsNeedMaxNum': False})
@@ -202,7 +202,7 @@ void Enemy_Scrub_Business_Seed_01() {
             GameDataActor.EventTriggerExcludeNextTalkChoiceAndSetActorNameForScrub({'ChoiceExcludeGameData1': 'Enemy_Scrub_Business_Unopened01', 'ChoiceExcludeGameData2': 'Enemy_Scrub_Business_Unopened02', 'ChoiceExcludeGameData4': '', 'ChoiceExcludeGameData5': '', 'IsInvertGameData1': False, 'IsInvertGameData2': False, 'IsInvertGameData3': False, 'IsInvertGameData4': False, 'IsInvertGameData5': False, 'ChoiceExcludeGameData3': ''})
             Enemy_Scrub_Business_Seed[seed].EventTalk({'IsWaitEnd': True, 'IsPlayASAllSlot': False, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChangeMstxtForActor': False, 'IsAnimeDriven': False, 'ChoiceLabel1': 101, 'ChoiceLabel2': 102, 'ChoiceLabel3': 103, 'MessageId': 'EventFlowMsg/Enemy_Event:Enemy_Scrub_Business_Seed_03', 'ChoiceNumber': 5, 'ASName': 'Talk', 'ChoiceLabel4': 104, 'EndDialogOption': 3, 'IsCloseDialog': True, 'MaintainPerformanceState': 1})
             goto Event57
-          case 2554984776:
+          case 0x9849f948:
             goto Event184
         }
     }
@@ -397,15 +397,15 @@ void Bottle() {
     if !GameDataActor.EventQueryIsGameDataBool({'Index': -1, 'GameDataName': 'IsGet.Item_Bottle'}) {
         Event157:
         if !PouchSystemActor.EventQueryIsAnyBottleEmpty() {
-            return 2246359087
+            return fnv1a("OK")
         } else {
-            return 2141585244
+            return fnv1a("Full")
         }
     } else
     if !GameDataActor.EventQueryIsGameDataBool({'Index': -1, 'GameDataName': 'IsGet.Item_Bottle_Letter'}) {
         goto Event157
     } else {
-        return 1642511898
+        return fnv1a("No")
     }
 }
 
@@ -413,16 +413,16 @@ void CheckBottle() {
     switch GameDataActor.EventQueryIsGameDataInt({'Index': -1, 'GameDataName': 'ScrubBusiness_UseNum', 'Value': 7}) {
       case 0:
         switchcall Bottle() {
-          case 2141585244:
+          case fnv1a("Full"):
             if !GameDataActor.EventQueryIsGameDataBool({'Index': -1, 'GameDataName': 'ScrubBusiness_Seed_FullBottle'}) {
                 Enemy_Scrub_Business_Seed[seed].EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'IsPlayASAllSlot': False, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChangeMstxtForActor': False, 'IsAnimeDriven': False, 'ASName': 'Talk', 'MaintainPerformanceState': 0, 'ChoiceNumber': 2, 'ChoiceLabel1': 6, 'ChoiceLabel2': 7, 'MessageId': 'EventFlowMsg/Enemy_Event:Enemy_Scrub_Business_Seed_02_06'})
                 if !GameSystemActor.EventQueryTalkChoice2() {
                     Event180:
                     GameDataActor.EventTriggerSetGameDataBool({'Index': -1, 'Value': True, 'GameDataName': 'ScrubBusiness_Seed_OpenShop_FullBottle'})
-                    return 1087347522
+                    return 0x40cf9b42
                 } else {
                     Event169:
-                    return 2554984776
+                    return 0x9849f948
                 }
             } else {
                 GameDataActor.EventTriggerSetGameDataBool({'Index': -1, 'Value': True, 'GameDataName': 'ScrubBusiness_Seed_FullBottle'})
@@ -433,32 +433,32 @@ void CheckBottle() {
                     goto Event169
                 }
             }
-          case [2246359087, 1642511898]:
+          case [fnv1a("OK"), fnv1a("No")]:
             Event181:
-            return 1087347522
+            return 0x40cf9b42
         }
       case 1:
         switchcall Bottle() {
-          case 2141585244:
+          case fnv1a("Full"):
             Enemy_Scrub_Business_Seed[seed].EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'IsPlayASAllSlot': False, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChangeMstxtForActor': False, 'IsAnimeDriven': False, 'ASName': 'Talk', 'MaintainPerformanceState': 0, 'ChoiceNumber': 2, 'ChoiceLabel1': 6, 'ChoiceLabel2': 7, 'MessageId': 'EventFlowMsg/Enemy_Event:Enemy_Scrub_Business_Seed_02_07'})
             if !GameSystemActor.EventQueryTalkChoice2() {
                 goto Event180
             } else {
                 goto Event169
             }
-          case [2246359087, 1642511898]:
+          case [fnv1a("OK"), fnv1a("No")]:
             goto Event181
         }
       case 2:
         switchcall Bottle() {
-          case 2141585244:
+          case fnv1a("Full"):
             Enemy_Scrub_Business_Seed[seed].EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'IsPlayASAllSlot': False, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'ChangeMstxtForActor': False, 'IsAnimeDriven': False, 'ASName': 'Talk', 'MaintainPerformanceState': 0, 'ChoiceNumber': 2, 'ChoiceLabel1': 6, 'ChoiceLabel2': 7, 'MessageId': 'EventFlowMsg/Enemy_Event:Enemy_Scrub_Business_Seed_02_08'})
             if !GameSystemActor.EventQueryTalkChoice2() {
                 goto Event180
             } else {
                 goto Event169
             }
-          case [2246359087, 1642511898]:
+          case [fnv1a("OK"), fnv1a("No")]:
             goto Event181
         }
     }

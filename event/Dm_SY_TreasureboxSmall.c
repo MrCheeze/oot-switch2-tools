@@ -147,28 +147,28 @@ void Open() {
             }
             EventCamera.EventMoveToTargetPosCamera({'IsWaitEnd': False, 'PosVectorSetType': 1, 'AtVectorSetType': 1, 'Actor1ActorName': '', 'Actor1InstanceName': '', 'Actor2ActorName': '', 'Actor2InstanceName': '', 'IsIgnorePosVectorReferenceActorRot': False, 'IsPosVectorReferenceActorPosOnce': False, 'PosVector': [0.0, 0.0, 0.0], 'IsIgnoreAtVectorReferenceActorRot': False, 'IsAtVectorReferenceActorPosOnce': False, 'AtVector': [0.0, 0.0, 0.0], 'MoveTime': 0, 'StartAccelerateRate': 0.0, 'EndRecelerateRate': 0.0, 'IsLinearMove': False, 'MoveTotargetPosType': 0, 'CameraCollisionMode': 1, 'CameraCollisionLookAtActor': 0, 'CameraCollisionLookAtActorOffset': [0.0, 1.5, 0.0], 'LatShiftRange': 0.0, 'LongShiftRange': 0.0, 'LookAtDis': -1.0, 'MoveToTargetPosCalcMode': 0, 'MoveTimeLater': 0, 'DelayLater': 0, 'EnableCameraAlpha': True, 'FovySetType': 1, 'TargetFovy': 0.0, 'IsEnableRevertFast': False})
             switchcall Dm_SY_Get.IsCameraHit({'ActorName': 'ContentName'}) {
-              case 1700614218:
+              case fnv1a("Hit"):
                 Event130:
                 Dm_Locator[PlayerPos].EventWarpToTargetActor({'TargetActorKind': 1, 'IsWaitEnd': True, 'InstanceName': '', 'ClothWarpMode': -1, 'OffsetBase': 1, 'ActorName': 'Player_Event', 'PositionOffset': [0.0, 0.0, 0.0], 'YAngle': 0.0})
                 Dm_Locator[PlayerPos].EventTriggerDmLocatorTurnNow({'InstanceName': '', 'OffsetBase': 1, 'WorldPos': [0.0, 0.0, 0.0], 'PosOffset': [0.0, 0.0, 0.0], 'Direction': 0.0, 'Target': 3, 'ActorName': 'Dm_Locator', 'IsOnlyYAxis': True})
                 EventSystemActor.EventWait({'IsWaitEnd': True, 'Frames': 1})
                 switchcall CheckHitCamera({'ActorName': 'ContentName'}) {
-                  case 1702121239:
+                  case 0x65744f17:
                     DevelopEventSystemActor.EventDemoProductSupportComment({'Text3': '', 'Text4': '', 'Text5': '', 'TextColor': 1, 'BgColor': 5, 'BgAlpha': 5, 'BgAlignW': 0, 'BgAlignH': 0, 'Text2': '', 'DispTime': 7, 'IsWaitEnd': False, 'Text1': 'カメラ障害物あり（スペースが無い版）'})
 
                     call Pack_ItemDisplayNoSpace({'ContentName': 'ContentName', 'IsMiniGame': 'IsMiniGame'})
 
-                  case 2085644599:
+                  case 0x7c506937:
                     DevelopEventSystemActor.EventDemoProductSupportComment({'Text3': '', 'Text4': '', 'Text5': '', 'TextColor': 1, 'BgColor': 5, 'BgAlpha': 5, 'BgAlignW': 0, 'BgAlignH': 0, 'Text2': '', 'DispTime': 7, 'IsWaitEnd': False, 'Text1': 'カメラ障害物あり（空き空間を向く）'})
 
                     call Open_HitObj({'ContentName': 'ContentName', 'IsMiniGame': 'IsMiniGame'})
 
                 }
-              case 576506075:
+              case fnv1a("NoHit"):
                 switchcall CheckHitPlayerCamera() {
-                  case 1700614218:
+                  case fnv1a("Hit"):
                     goto Event130
-                  case 2849390305:
+                  case 0xa9d63ee1:
                     DevelopEventSystemActor.EventDemoProductSupportComment({'Text3': '', 'Text4': '', 'Text5': '', 'TextColor': 1, 'BgColor': 5, 'BgAlpha': 5, 'BgAlignW': 0, 'BgAlignH': 0, 'Text2': '', 'DispTime': 7, 'IsWaitEnd': False, 'Text1': 'カメラ障害物なし'})
 
                     fork {
@@ -225,28 +225,28 @@ void Open() {
             }
             EventCamera.EventMoveToTargetPosCamera({'IsWaitEnd': False, 'PosVectorSetType': 1, 'AtVectorSetType': 1, 'Actor1ActorName': '', 'Actor1InstanceName': '', 'Actor2ActorName': '', 'Actor2InstanceName': '', 'IsIgnorePosVectorReferenceActorRot': False, 'IsPosVectorReferenceActorPosOnce': False, 'PosVector': [0.0, 0.0, 0.0], 'IsIgnoreAtVectorReferenceActorRot': False, 'IsAtVectorReferenceActorPosOnce': False, 'AtVector': [0.0, 0.0, 0.0], 'MoveTime': 0, 'StartAccelerateRate': 0.0, 'EndRecelerateRate': 0.0, 'IsLinearMove': False, 'MoveTotargetPosType': 0, 'CameraCollisionMode': 1, 'CameraCollisionLookAtActor': 0, 'CameraCollisionLookAtActorOffset': [0.0, 1.5, 0.0], 'LatShiftRange': 0.0, 'LongShiftRange': 0.0, 'LookAtDis': -1.0, 'MoveToTargetPosCalcMode': 0, 'MoveTimeLater': 0, 'DelayLater': 0, 'EnableCameraAlpha': True, 'FovySetType': 1, 'TargetFovy': 0.0, 'IsEnableRevertFast': False})
             switchcall Dm_SY_Get.IsCameraHit({'ActorName': 'ContentName'}) {
-              case 1700614218:
+              case fnv1a("Hit"):
                 Event196:
                 Dm_Locator[PlayerPos].EventWarpToTargetActor({'TargetActorKind': 1, 'IsWaitEnd': True, 'InstanceName': '', 'ClothWarpMode': -1, 'OffsetBase': 1, 'ActorName': 'Player_Event', 'PositionOffset': [0.0, 0.0, 0.0], 'YAngle': 0.0})
                 Dm_Locator[PlayerPos].EventTriggerDmLocatorTurnNow({'InstanceName': '', 'OffsetBase': 1, 'WorldPos': [0.0, 0.0, 0.0], 'PosOffset': [0.0, 0.0, 0.0], 'Direction': 0.0, 'Target': 3, 'ActorName': 'Dm_Locator', 'IsOnlyYAxis': True})
                 EventSystemActor.EventWait({'IsWaitEnd': True, 'Frames': 1})
                 switchcall CheckHitCamera({'ActorName': 'ContentName'}) {
-                  case 1702121239:
+                  case 0x65744f17:
                     DevelopEventSystemActor.EventDemoProductSupportComment({'Text3': '', 'Text4': '', 'Text5': '', 'TextColor': 1, 'BgColor': 5, 'BgAlpha': 5, 'BgAlignW': 0, 'BgAlignH': 0, 'Text2': '', 'DispTime': 7, 'IsWaitEnd': False, 'Text1': 'カメラ障害物あり（スペースが無い版）'})
 
                     call Pack_ItemDisplayNoSpace({'ContentName': 'ContentName', 'IsMiniGame': 'IsMiniGame'})
 
-                  case 2085644599:
+                  case 0x7c506937:
                     DevelopEventSystemActor.EventDemoProductSupportComment({'Text3': '', 'Text4': '', 'Text5': '', 'TextColor': 1, 'BgColor': 5, 'BgAlpha': 5, 'BgAlignW': 0, 'BgAlignH': 0, 'Text2': '', 'DispTime': 7, 'IsWaitEnd': False, 'Text1': 'カメラ障害物あり（空き空間を向く）'})
 
                     call Open_HitObj({'ContentName': 'ContentName', 'IsMiniGame': 'IsMiniGame'})
 
                 }
-              case 576506075:
+              case fnv1a("NoHit"):
                 switchcall CheckHitPlayerCamera() {
-                  case 1700614218:
+                  case fnv1a("Hit"):
                     goto Event196
-                  case 2849390305:
+                  case 0xa9d63ee1:
                     DevelopEventSystemActor.EventDemoProductSupportComment({'Text3': '', 'Text4': '', 'Text5': '', 'TextColor': 1, 'BgColor': 5, 'BgAlpha': 5, 'BgAlignW': 0, 'BgAlignH': 0, 'Text2': '', 'DispTime': 7, 'IsWaitEnd': False, 'Text1': 'カメラ障害物なし'})
 
                     fork {
@@ -499,10 +499,10 @@ void CheckHitCamera() {
           case 0:
             if !EventCamera.EventQueryCameraCheckOcclusionToTarget({'ActorName1': 'Dm_Locator', 'VectorSetType1': 3, 'VectorSetType2': 3, 'IsEnableCameraBodyCheck': True, 'IsIgnoreVectorReferenceActorRot1': False, 'IsIgnoreVectorReferenceActorRot2': False, 'Vector1': [0.0, 1.6200000047683716, 1.9600000381469727], 'IsEnableSpaceCheck': True, 'ActorName2': 'Dm_Locator', 'Actor2InstanceName': 'PlayerPos', 'Vector2': [0.0, 1.5, 0.5], 'SpaceCheckRadius': 0.20000000298023224, 'Actor1InstanceName': 'PlayerPos', 'IsConsiderWater': False}) {
                 Event19:
-                return 1702121239
+                return 0x65744f17
             } else {
                 Event201:
-                return 2085644599
+                return 0x7c506937
             }
           case [1, 2, 3]:
             if !EventCamera.EventQueryCameraCheckOcclusionToTarget({'ActorName1': 'Dm_Locator', 'VectorSetType1': 3, 'VectorSetType2': 3, 'IsEnableCameraBodyCheck': True, 'IsIgnoreVectorReferenceActorRot1': False, 'IsIgnoreVectorReferenceActorRot2': False, 'Vector1': [0.0, 1.9900000095367432, 1.559999942779541], 'Actor2InstanceName': 'PlayerPos', 'ActorName2': 'Dm_Locator', 'Vector2': [0.0, 1.5, 0.5], 'IsEnableSpaceCheck': True, 'SpaceCheckRadius': 0.20000000298023224, 'Actor1InstanceName': 'PlayerPos', 'IsConsiderWater': False}) {
@@ -540,10 +540,10 @@ void CheckHitPlayerCamera() {
     if !Player_Event.EventQueryPlayerIsChild() {
         if !EventCamera.EventQueryCameraCheckOcclusionToTarget({'VectorSetType1': 3, 'Actor1InstanceName': '', 'IsIgnoreVectorReferenceActorRot1': False, 'Actor2InstanceName': '', 'IsIgnoreVectorReferenceActorRot2': False, 'VectorSetType2': 3, 'Vector1': [0.0, 0.0, 0.0], 'ActorName1': 'PlayerCamera', 'ActorName2': 'Player_Event', 'IsEnableSpaceCheck': False, 'Vector2': [0.0, 1.5, 0.0], 'SpaceCheckRadius': 0.0, 'IsEnableCameraBodyCheck': True, 'IsConsiderWater': False}) {
             Event79:
-            return 1700614218
+            return fnv1a("Hit")
         } else {
             Event86:
-            return 2849390305
+            return 0xa9d63ee1
         }
     } else
     if !EventCamera.EventQueryCameraCheckOcclusionToTarget({'VectorSetType1': 3, 'Actor1InstanceName': '', 'IsIgnoreVectorReferenceActorRot1': False, 'Actor2InstanceName': '', 'IsIgnoreVectorReferenceActorRot2': False, 'VectorSetType2': 3, 'Vector1': [0.0, 0.0, 0.0], 'ActorName1': 'PlayerCamera', 'ActorName2': 'Player_Event', 'Vector2': [0.0, 1.899999976158142, 0.0], 'IsEnableSpaceCheck': False, 'SpaceCheckRadius': 0.0, 'IsEnableCameraBodyCheck': True, 'IsConsiderWater': False}) {

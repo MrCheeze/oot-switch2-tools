@@ -41,22 +41,22 @@ void Talk() {
     switch Npc_EventStarter.EventQueryAIScheduleCheckActorActionAll() {
       case 0:
         switchcall Check_InHome() {
-          case 2388271399:
+          case 0x8e5a2127:
 
             call InitTalk.InitTalk({'Arg_Turn': 4, 'Arg_Greeting': 4})
 
             Npc_Hylia_033_Child.EventTriggerParticipateEvent()
             switchcall NpcCommon.Truth_MaskOnly_Talk_Common_NoInitTalk({'Mask_Truth_Talk': 'EventFlowMsg/Npc_Hylia_059_Child:Mask_05_02', 'ASName': 'TalkMonolog'}) {
-              case 508094545:
+              case 0x1e48e851:
                 Npc_Hylia_059_Child.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MaintainPerformanceState': 0, 'MessageId': 'EventFlowMsg/Npc_Hylia_059_Child:Talk_14'})
             }
-          case 2371493780:
+          case 0x8d5a1f94:
 
             call InitTalk.InitTalk_Pair({'Arg_Greeting': 4, 'Spearker2InstanceName': '', 'Spearker2ActorName': 'Npc_Hylia_033_Child', 'Actor2': ActorIdentifier(name="Npc_Hylia_033_Child"), 'Arg_Turn': 0})
 
             Npc_Hylia_033_Child.EventTriggerParticipateEvent()
             switchcall NpcCommon.Truth_MaskOnly_Talk_Common_NoInitTalk({'Mask_Truth_Talk': 'EventFlowMsg/Npc_Hylia_059_Child:Mask_05_02', 'ASName': 'TalkMonolog'}) {
-              case 508094545:
+              case 0x1e48e851:
 
                 call NpcCommon.NpcCommon_Init_MoveTalk({'NpcActor_WashaName': 'Npc_EventStarter', 'NpcActor_KikiteName': 'Npc_Hylia_033_Child', 'NpcActor_KikiteASName': 'Wait', 'NpcActor_WashaASName': 'Wait', 'NpcActor_Washa': ActorIdentifier(name="Npc_EventStarter"), 'NpcActor_Kikite': ActorIdentifier(name="Npc_Hylia_033_Child"), 'NpcActor_WashaFileName': 'Npc_Hylia_059_Child', 'NpcActor_KikiteFileName': 'Npc_Hylia_033_Child'})
 
@@ -83,7 +83,7 @@ void Talk() {
 
         Npc_Hylia_033_Child.EventTriggerParticipateEvent()
         switchcall NpcCommon.Truth_MaskOnly_Talk_Common_NoInitTalk({'Mask_Truth_Talk': 'EventFlowMsg/Npc_Hylia_059_Child:Mask_05', 'ASName': 'Act_Shopper_Wait_A'}) {
-          case 508094545:
+          case 0x1e48e851:
             if !Npc_EventStarter.EventQueryAvoidDuplicationRandomChoice2() {
 
                 call NpcCommon.MultipleEventTalk_Pair({'Washa_ASName': '', 'Washa_MessageId': 'EventFlowMsg/Npc_Hylia_059_Child:Talk_01', 'Kikite_ASName': 'Act_Think_Wait', 'Kikite_Actor': ActorIdentifier(name="Npc_Hylia_033_Child"), 'Washa_Actor': ActorIdentifier(name="Npc_EventStarter")})
@@ -115,15 +115,15 @@ void Talk() {
             }
         } else {
             switchcall Check_InHome() {
-              case 2388271399:
+              case 0x8e5a2127:
                 goto Event66
-              case 2371493780:
+              case 0x8d5a1f94:
 
                 call InitTalk.InitTalk_Pair({'Arg_Greeting': 4, 'Spearker2InstanceName': '', 'Spearker2ActorName': 'Npc_Hylia_033_Child', 'Actor2': ActorIdentifier(name="Npc_Hylia_033_Child"), 'Arg_Turn': 0})
 
                 Npc_Hylia_033_Child.EventTriggerParticipateEvent()
                 switchcall NpcCommon.Truth_MaskOnly_Talk_Common_NoInitTalk({'Mask_Truth_Talk': 'EventFlowMsg/Npc_Hylia_059_Child:Mask_05_02', 'ASName': 'TalkMonolog'}) {
-                  case 508094545:
+                  case 0x1e48e851:
 
                     call NpcCommon.NpcCommon_Init_MoveTalk({'NpcActor_WashaName': 'Npc_EventStarter', 'NpcActor_KikiteName': 'Npc_Hylia_033_Child', 'NpcActor_KikiteASName': 'Wait', 'NpcActor_WashaASName': 'Wait', 'NpcActor_Washa': ActorIdentifier(name="Npc_EventStarter"), 'NpcActor_Kikite': ActorIdentifier(name="Npc_Hylia_033_Child"), 'NpcActor_WashaFileName': 'Npc_Hylia_059_Child', 'NpcActor_KikiteFileName': 'Npc_Hylia_033_Child'})
 
@@ -176,22 +176,22 @@ void GetStones_Talk() {
         GameSystemActor.EventTriggerSendErrorToEventResource({'Title': '通るはずのないフロー'})
       case 2:
         switchcall Check_InHome() {
-          case 2388271399:
+          case 0x8e5a2127:
 
             call InitTalk.InitTalk({'Arg_Turn': 4, 'Arg_Greeting': 4})
 
             Npc_Hylia_033_Child.EventTriggerParticipateEvent()
             switchcall NpcCommon.Truth_MaskOnly_Talk_Common_NoInitTalk({'Mask_Truth_Talk': 'EventFlowMsg/Npc_Hylia_059_Child:Mask_05_02', 'ASName': 'TalkMonolog'}) {
-              case 508094545:
+              case 0x1e48e851:
                 Npc_Hylia_059_Child.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MaintainPerformanceState': 0, 'MessageId': 'EventFlowMsg/Npc_Hylia_059_Child:Talk_24'})
             }
-          case 2371493780:
+          case 0x8d5a1f94:
 
             call InitTalk.InitTalk_Pair({'Arg_Greeting': 4, 'Spearker2InstanceName': '', 'Arg_Turn': 4, 'Spearker2ActorName': 'Npc_Hylia_033_Child', 'Actor2': ActorIdentifier(name="Npc_Hylia_033_Child")})
 
             Npc_Hylia_033_Child.EventTriggerParticipateEvent()
             switchcall NpcCommon.Truth_MaskOnly_Talk_Common_NoInitTalk({'Mask_Truth_Talk': 'EventFlowMsg/Npc_Hylia_059_Child:Mask_05_02', 'ASName': 'TalkMonolog'}) {
-              case 508094545:
+              case 0x1e48e851:
 
                 call NpcCommon.NpcCommon_Init_MoveTalk({'NpcActor_WashaName': 'Npc_EventStarter', 'NpcActor_KikiteName': 'Npc_Hylia_033_Child', 'NpcActor_KikiteASName': 'Wait', 'NpcActor_WashaASName': 'Wait', 'NpcActor_Washa': ActorIdentifier(name="Npc_EventStarter"), 'NpcActor_Kikite': ActorIdentifier(name="Npc_Hylia_033_Child"), 'NpcActor_WashaFileName': 'Npc_Hylia_059_Child', 'NpcActor_KikiteFileName': 'Npc_Hylia_033_Child'})
 
@@ -218,7 +218,7 @@ void GetStones_Talk() {
             call InitTalk.InitTalk({'Arg_Turn': 4, 'Arg_Greeting': 4})
 
             switchcall NpcCommon.Truth_MaskOnly_Talk_Common_NoInitTalk({'Mask_Truth_Talk': 'EventFlowMsg/Npc_Hylia_059_Child:Mask_05_02', 'ASName': 'TalkMonolog'}) {
-              case 508094545:
+              case 0x1e48e851:
                 if !Npc_EventStarter.EventQueryAvoidDuplicationRandomChoice2() {
                     Npc_Hylia_059_Child.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MessageId': 'EventFlowMsg/Npc_Hylia_059_Child:Talk_30', 'MaintainPerformanceState': 0})
                 } else {
@@ -231,7 +231,7 @@ void GetStones_Talk() {
 
             Npc_Hylia_033_Child.EventTriggerParticipateEvent()
             switchcall NpcCommon.Truth_MaskOnly_Talk_Common_NoInitTalk({'Mask_Truth_Talk': 'EventFlowMsg/Npc_Hylia_059_Child:Mask_05_02', 'ASName': 'TalkMonolog'}) {
-              case 508094545:
+              case 0x1e48e851:
 
                 call NpcCommon.MultipleEventTalk_Pair({'Washa_ASName': '', 'Kikite_ASName': 'Wait', 'Kikite_Actor': ActorIdentifier(name="Npc_Hylia_033_Child"), 'Washa_Actor': ActorIdentifier(name="Npc_EventStarter"), 'Washa_MessageId': 'EventFlowMsg/Npc_Hylia_033_Child:Talk_21'})
 
@@ -267,15 +267,15 @@ void GetStones_Talk() {
             }
         } else {
             switchcall Check_InHome() {
-              case 2388271399:
+              case 0x8e5a2127:
                 goto Event65
-              case 2371493780:
+              case 0x8d5a1f94:
 
                 call InitTalk.InitTalk_Pair({'Arg_Greeting': 4, 'Spearker2InstanceName': '', 'Arg_Turn': 4, 'Spearker2ActorName': 'Npc_Hylia_033_Child', 'Actor2': ActorIdentifier(name="Npc_Hylia_033_Child")})
 
                 Npc_Hylia_033_Child.EventTriggerParticipateEvent()
                 switchcall NpcCommon.Truth_MaskOnly_Talk_Common_NoInitTalk({'Mask_Truth_Talk': 'EventFlowMsg/Npc_Hylia_059_Child:Mask_05_02', 'ASName': 'TalkMonolog'}) {
-                  case 508094545:
+                  case 0x1e48e851:
 
                     call NpcCommon.NpcCommon_Init_MoveTalk({'NpcActor_WashaName': 'Npc_EventStarter', 'NpcActor_KikiteName': 'Npc_Hylia_033_Child', 'NpcActor_KikiteASName': 'Wait', 'NpcActor_WashaASName': 'Wait', 'NpcActor_Washa': ActorIdentifier(name="Npc_EventStarter"), 'NpcActor_Kikite': ActorIdentifier(name="Npc_Hylia_033_Child"), 'NpcActor_WashaFileName': 'Npc_Hylia_059_Child', 'NpcActor_KikiteFileName': 'Npc_Hylia_033_Child'})
 
@@ -341,7 +341,7 @@ void Mask_All() {
         }
     } else {
         switchcall Mask_Talk() {
-          case 4151362380:
+          case fnv1a("Mask_Talk"):
             Npc_EventStarter.EventNPCTurnToTarget({'Target': 2, 'IsConfront': False, 'IsWaitEnd': True, 'FaceControlType': 1, 'ActorName': '', 'InstanceName': '', 'WorldPos': [0.0, 0.0, 0.0], 'PosOffset': [0.0, 0.0, 0.0], 'Direction': 0.0, 'OffsetBase': 0, 'LookingControllerName': '', 'LookIKParameterVariationName': '', 'IsReleaseThreaten': False, 'EnableAutomaticallyPlayWaitASAfterTurn': True})
             Npc_EventStarter.EventTalk({'IsWaitEnd': True, 'IsCloseDialog': True, 'EndDialogOption': 0, 'ASName': '', 'IsAnimeDriven': False, 'IsPlayASAllSlot': False, 'ChoiceNumber': 0, 'ChoiceLabel1': 0, 'ChoiceLabel2': 0, 'ChoiceLabel3': 0, 'ChoiceLabel4': 0, 'ChoiceDefaultNo': 0, 'ChoiceCancelNo': 0, 'IsNotBecomeSpeaker': False, 'ChangeMstxtForActor': False, 'IsAnonymous': False, 'NotPlayLipSyncAnim': False, 'IsOverrideStyle': False, 'OverrideStyle': 0, 'IsNotOpenIfSkipedMostRecent': False, 'MessageId': 'EventFlowMsg/Npc_Hylia_059_Child:Mask_10', 'MaintainPerformanceState': 0})
         }
@@ -351,18 +351,18 @@ void Mask_All() {
 void Mask_Talk() {
     if !GameDataActor.EventQueryIsGameDataBoolExp({'GameDataName': 'DoorOfTime_IsAfterStep03_AND_SageOfForest_NotCompleted_Exp'}) {
         switchcall NpcCommon.Mask_Talk_Common_With_InitTalk({'Mask_Keaton_Talk': 'EventFlowMsg/Npc_Hylia_059_Child:Mask_01', 'Mask_Skull_Talk': 'EventFlowMsg/Npc_Hylia_059_Child:Mask_02', 'Mask_Spooky_Talk': 'EventFlowMsg/Npc_Hylia_059_Child:Mask_03', 'Mask_Bunny_Talk': 'EventFlowMsg/Npc_Hylia_059_Child:Mask_04', 'Mask_Truth_Talk': 'EventFlowMsg/Npc_Hylia_059_Child:Mask_05', 'Mask_Goron_Talk': 'EventFlowMsg/Npc_Hylia_059_Child:Mask_06', 'Mask_Zora_Talk': 'EventFlowMsg/Npc_Hylia_059_Child:Mask_07', 'Mask_Gerudo_Talk': 'EventFlowMsg/Npc_Hylia_059_Child:Mask_08', 'ChangeTheTopic_Talk': 'EventFlowMsg/Npc_Hylia_059_Child:Mask_09', 'Mask_Amiibo00_Talk': 'EventFlowMsg/Npc_Hylia_059_Child:Mask_101', 'Mask_Amiibo01_Talk': 'EventFlowMsg/Npc_Hylia_059_Child:Mask_102', 'Mask_Amiibo02_Talk': 'EventFlowMsg/Npc_Hylia_059_Child:Mask_103', 'ASName': 'TalkMonolog', 'Arg_Turn_For_MaskTalk': 2, 'Arg_Turn_For_IgnoreMaskTalk': 4}) {
-          case 4205900657:
+          case 0xfab0f371:
             Event47:
-            return 4151362380
-          case 4155567800:
+            return fnv1a("Mask_Talk")
+          case 0xf7b0eeb8:
             Event48:
-            return 2799305849
+            return 0xa6da0479
         }
     } else {
         switchcall NpcCommon.Mask_Talk_Common_With_InitTalk({'Mask_Keaton_Talk': 'EventFlowMsg/Npc_Hylia_059_Child:Mask_01', 'Mask_Skull_Talk': 'EventFlowMsg/Npc_Hylia_059_Child:Mask_02', 'Mask_Spooky_Talk': 'EventFlowMsg/Npc_Hylia_059_Child:Mask_03', 'Mask_Bunny_Talk': 'EventFlowMsg/Npc_Hylia_059_Child:Mask_04', 'Mask_Truth_Talk': 'EventFlowMsg/Npc_Hylia_059_Child:Mask_05', 'Mask_Goron_Talk': 'EventFlowMsg/Npc_Hylia_059_Child:Mask_06', 'Mask_Zora_Talk': 'EventFlowMsg/Npc_Hylia_059_Child:Mask_07', 'Mask_Gerudo_Talk': 'EventFlowMsg/Npc_Hylia_059_Child:Mask_08', 'ChangeTheTopic_Talk': 'EventFlowMsg/Npc_Hylia_059_Child:Mask_09', 'Mask_Amiibo00_Talk': 'EventFlowMsg/Npc_Hylia_059_Child:Mask_101', 'Mask_Amiibo01_Talk': 'EventFlowMsg/Npc_Hylia_059_Child:Mask_102', 'Mask_Amiibo02_Talk': 'EventFlowMsg/Npc_Hylia_059_Child:Mask_103', 'ASName': 'TalkMonolog', 'Arg_Turn_For_MaskTalk': 2, 'Arg_Turn_For_IgnoreMaskTalk': 2}) {
-          case 4205900657:
+          case 0xfab0f371:
             goto Event47
-          case 4155567800:
+          case 0xf7b0eeb8:
             goto Event48
         }
     }
@@ -370,11 +370,11 @@ void Mask_Talk() {
 
 void CheckTruthMask_SetInitAS() {
     switchcall NpcCommon.CheckEquipmentMask() {
-      case [3745441359, 1844135360, 3362507297]:
+      case [0xdf3ee64f, 0x6deb45c0, 0xc86bca21]:
 
         call InitTalk.InitTalk_Pair({'Arg_Greeting': 4, 'Spearker2InstanceName': '', 'Arg_Turn': 4, 'Spearker2ActorName': 'Npc_Hylia_033_Child', 'Actor2': ActorIdentifier(name="Npc_Hylia_033_Child")})
 
-      case 488279774:
+      case 0x1d1a8ede:
         if !Npc_Hylia_033_Child.EventQueryAIScheduleCheckActorAction({'AIScheduleState': 1, 'ActionType': 0}) {
 
             call InitTalk.InitTalk_Pair_NoSpeakerNpcPlayAS({'Arg_Greeting': 4, 'Spearker2InstanceName': '', 'Arg_Turn': 4, 'Spearker2ActorName': 'Npc_Hylia_033_Child', 'Actor2': ActorIdentifier(name="Npc_Hylia_033_Child"), 'Spearker1PlayAS_Waiting': 'Act_Shopper_Wait_A', 'Spearker2PlayAS_Waiting': 'Act_Shopper_Wait_D', 'Spearker2PlayAS_OnMove': 'Act_Shopper_Wait_D'})
@@ -390,11 +390,11 @@ void CheckTruthMask_SetInitAS() {
 void Check_InHome() {
     if !GameDataActor.EventQueryIsGameDataBool({'Index': -1, 'GameDataName': 'Npc_Hylia_033_Child_InHome'}) {
         Event78:
-        return 2388271399
+        return 0x8e5a2127
     } else
     if !GameDataActor.EventQueryIsGameDataBool({'Index': -1, 'GameDataName': 'Npc_Hylia_059_Child_InHome'}) {
         goto Event78
     } else {
-        return 2371493780
+        return 0x8d5a1f94
     }
 }
